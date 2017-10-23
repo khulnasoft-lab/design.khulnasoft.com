@@ -1,8 +1,6 @@
 import { storiesOf } from '@storybook/vue';
 import { linkTo } from '@storybook/addon-links';
 
-import glButton from '../components/gl_button';
-
 function substories(components, substoryDefinitions) {
   return {
     components,
@@ -24,22 +22,21 @@ function substories(components, substoryDefinitions) {
 
 storiesOf('Components', module)
   .add('Button', () => substories({
-      glButton,
     }, [
     {
       title: 'Default (Vue.js)',
       description: 'Just some buttons',
       template: `
-        <gl-button buttonClass="btn-primary">Primary Button</gl-button>
-        <gl-button buttonClass="btn-default">Secondary Button</gl-button>
+        <b-button variant="primary">Primary Button</b-button>
+        <b-button variant="default">Secondary Button</b-button>
       `,
     },
     {
       title: 'Small (Vue.js)',
       description: 'Smaller buttons',
       template: `
-        <gl-button buttonClass="btn-primary btn-sm">Primary Button</gl-button>
-        <gl-button buttonClass="btn-default btn-sm">Secondary Button</gl-button>
+        <b-button variant="primary btn-sm">Primary Button</b-button>
+        <b-button variant="default btn-sm">Secondary Button</b-button>
       `,
     },
     {
