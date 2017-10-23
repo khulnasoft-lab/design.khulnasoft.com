@@ -5,6 +5,8 @@ import BootstrapVue from 'bootstrap-vue';
 
 import { storiesOf } from '@storybook/vue';
 
+import Prism from 'prismjs';
+
 // workaround for https://github.com/bootstrap-vue/bootstrap-vue/issues/1201
 let originalVueComponent = Vue.component
 Vue.component = function(name, definition) {
@@ -34,6 +36,7 @@ markdownFiles.keys().forEach(fileName => {
       mounted() {
         const codeBlocks = this.$el.querySelectorAll('pre > code');
         codeBlocks.forEach(block => {
+          block.classList.add('language-html');
           const preElement = block.parentNode;
           preElement.insertAdjacentHTML('afterend', '<div>');
           const el = preElement.nextSibling;
