@@ -17,14 +17,15 @@ storiesOf('Welcome', module).add('to Storybook', () => ({
 storiesOf('Button', module)
   .add('with text', () => ({
     components: { MyButton },
-    template: '<my-button @click="action">Hello Button</my-button>',
-    methods: { action: linkTo('clicked') },
-  }))
-  .add('with JSX', () => ({
-    components: { MyButton },
-    render() {
-      return <my-button onClick={this.action}>With JSX</my-button>;
-    },
+    template: `
+      <div>
+        <h2>Primary Button</h2>
+        <my-button class="btn-primary" @click="action">Primary Button</my-button>
+
+        <h2>Default Button</h2>
+        <my-button class="btn-default" @click="action">Secondary Button</my-button>
+      </div>
+    `,
     methods: { action: linkTo('clicked') },
   }))
   .add('with some emoji', () => ({
