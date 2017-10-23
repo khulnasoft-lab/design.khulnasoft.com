@@ -3,8 +3,7 @@
 import { storiesOf } from '@storybook/vue';
 import { linkTo } from '@storybook/addon-links';
 
-import '../brand_ai.css';
-import '../base.css';
+import '../node_modules/css-framework/dist/main.css';
 
 import MyButton from './MyButton';
 import Welcome from './Welcome';
