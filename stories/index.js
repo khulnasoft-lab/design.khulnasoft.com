@@ -15,33 +15,38 @@ Vue.component = function(name, definition) {
 Vue.use(BootstrapVue)
 Vue.component = originalVueComponent
 
-// import '../node_modules/css-framework/src/base/base-variables.scss';
-// import '../node_modules/css-framework/src/button/button-variables.scss';
 import '../variables.scss';
-// import '../node_modules/bootstrap/scss/bootstrap.scss';
 
 import './welcome';
-import './gl_button';
 
 import { storiesOf } from '@storybook/vue';
-import markdownStory from './markdown.md';
 
-storiesOf('Some', module)
-  .add('markdown', () => ({
-    mounted() {
-      const codeBlocks = this.$el.querySelectorAll('pre > code');
-      codeBlocks.forEach(block => {
-        const el = document.createElement('div');
-        block.parentNode.parentNode.append(el);
-        const vueComponent = new Vue({
-          el,
-          template: `
-            <div>${block.innerText}</div>
-          `,
+const markdownFiles = require.context('./', true, /\.md$/);
+markdownFiles.keys().forEach(fileName => {
+  const htmlContent = markdownFiles(fileName);
+
+  const dummyElement = document.createElement('div');
+  dummyElement.innerHTML = htmlContent;
+  const title = dummyElement.querySelector('h1');
+
+  storiesOf('Components', module)
+    .add(title ? title.innerText : fileName, () => ({
+      mounted() {
+        const codeBlocks = this.$el.querySelectorAll('pre > code');
+        codeBlocks.forEach(block => {
+          const preElement = block.parentNode;
+          preElement.insertAdjacentHTML('afterend', '<div>');
+          const el = preElement.nextSibling;
+          const vueComponent = new Vue({
+            el,
+            template: `
+              <div>${block.innerText}</div>
+            `,
+          });
         });
-      });
-    },
-    template: `<div>${markdownStory}</div>`,
-  }));
+      },
+      template: `<div>${htmlContent}</div>`,
+    }));
+});
 
 /* eslint-enable react/react-in-jsx-scope */
