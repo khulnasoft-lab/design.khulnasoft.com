@@ -23,4 +23,25 @@ import '../variables.scss';
 import './welcome';
 import './gl_button';
 
+import { storiesOf } from '@storybook/vue';
+import markdownStory from './markdown.md';
+
+storiesOf('Some', module)
+  .add('markdown', () => ({
+    mounted() {
+      const codeBlocks = this.$el.querySelectorAll('pre > code');
+      codeBlocks.forEach(block => {
+        const el = document.createElement('div');
+        block.parentNode.parentNode.append(el);
+        const vueComponent = new Vue({
+          el,
+          template: `
+            <div>${block.innerText}</div>
+          `,
+        });
+      });
+    },
+    template: `<div>${markdownStory}</div>`,
+  }));
+
 /* eslint-enable react/react-in-jsx-scope */
