@@ -12,6 +12,7 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
+    "prebuild-storybook": "yarn install",
     "build-storybook": "build-storybook"
   }
 }

@@ -1,0 +1,13 @@
+image: node:latest
+
+pages:
+  stage: deploy
+  script:
+    - npm --global install yarn
+    - yarn run build-storybook
+    - mv storybook-static/ public/
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
