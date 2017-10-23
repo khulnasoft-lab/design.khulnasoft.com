@@ -12,3 +12,13 @@
 @import "node_modules/bootstrap/scss/images";
 @import "node_modules/bootstrap/scss/code";
 @import "node_modules/bootstrap/scss/buttons";
+
+#root {
+  padding: 16px;
+}
+
+.component-preview {
+  & > div {
+    margin-bottom: 16px;
+  }
+}

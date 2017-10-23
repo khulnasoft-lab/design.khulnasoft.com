@@ -3,6 +3,8 @@
 import Vue from 'vue';
 import BootstrapVue from 'bootstrap-vue';
 
+import { storiesOf } from '@storybook/vue';
+
 // workaround for https://github.com/bootstrap-vue/bootstrap-vue/issues/1201
 let originalVueComponent = Vue.component
 Vue.component = function(name, definition) {
@@ -15,11 +17,9 @@ Vue.component = function(name, definition) {
 Vue.use(BootstrapVue)
 Vue.component = originalVueComponent
 
-import '../variables.scss';
+import '../main.scss';
 
 import './welcome';
-
-import { storiesOf } from '@storybook/vue';
 
 const markdownFiles = require.context('./', true, /\.md$/);
 markdownFiles.keys().forEach(fileName => {
@@ -40,7 +40,7 @@ markdownFiles.keys().forEach(fileName => {
           const vueComponent = new Vue({
             el,
             template: `
-              <div>${block.innerText}</div>
+              <div class="component-preview">${block.innerText}</div>
             `,
           });
         });
