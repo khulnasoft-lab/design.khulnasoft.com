@@ -1,7 +1,10 @@
+import { storiesOf } from '@storybook/vue';
+import { linkTo } from '@storybook/addon-links';
+
 // eslint-disable-next-line no-console
 const log = () => console.log('Welcome to storybook!');
 
-export default {
+const welcome = {
   name: 'welcome',
 
   props: {
@@ -119,3 +122,9 @@ export default {
     },
   },
 };
+
+storiesOf('Welcome', module).add('to Storybook', () => ({
+  components: { welcome },
+  template: '<welcome :showApp="action" />',
+  methods: { action: linkTo('Button') },
+}));
