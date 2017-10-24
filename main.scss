@@ -5,6 +5,10 @@ pre + div {
 @import "node_modules/css-framework/src/base/base-variables";
 @import "node_modules/css-framework/src/button/button-variables";
 
+$primary: $blue-500;
+$success: $green-500;
+$danger: $red-500;
+
 // Required
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
@@ -18,7 +22,9 @@ pre + div {
 @import "node_modules/bootstrap/scss/grid";
 @import "node_modules/bootstrap/scss/tables";
 @import "node_modules/bootstrap/scss/forms";
-@import "node_modules/bootstrap/scss/buttons";
+@import "node_modules/bootstrap/scss/badge";
+
+@import "buttons";
 
 @import "node_modules/prismjs/themes/prism.css";
 
