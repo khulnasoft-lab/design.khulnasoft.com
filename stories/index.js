@@ -47,6 +47,7 @@ markdownFiles.keys().forEach(fileName => {
             `,
           });
         });
+        Prism.highlightAll();
       },
       template: `<div>${htmlContent}</div>`,
     }));
