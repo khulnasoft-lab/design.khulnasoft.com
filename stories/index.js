@@ -21,12 +21,42 @@ Vue.component = originalVueComponent
 
 import '../main.scss';
 
-import './getting_started/welcome';
+import './getting_started/basic-principles';
 import './getting_started/personas';
 
-const markdownFiles = require.context('./components/', true, /\.md$/);
-markdownFiles.keys().forEach(fileName => {
-  const htmlContent = markdownFiles(fileName);
+const styleMarkdownFiles = require.context('./styles/', true, /\.md$/);
+styleMarkdownFiles.keys().forEach(fileName => {
+  const htmlContent = styleMarkdownFiles(fileName);
+
+  const dummyElement = document.createElement('div');
+  dummyElement.innerHTML = htmlContent;
+  const title = dummyElement.querySelector('h1');
+
+  storiesOf('Styles', module)
+    .add(title ? title.innerText : fileName, () => ({
+      mounted() {
+        const codeBlocks = this.$el.querySelectorAll('pre > code');
+        codeBlocks.forEach(block => {
+          block.classList.add('language-html');
+          const preElement = block.parentNode;
+          preElement.insertAdjacentHTML('afterend', '<div>');
+          const el = preElement.nextSibling;
+          const vueComponent = new Vue({
+            el,
+            template: `
+              <div class="component-preview">${block.innerText}</div>
+            `,
+          });
+        });
+        Prism.highlightAll();
+      },
+      template: `<div>${htmlContent}</div>`,
+    }));
+});
+
+const componentMarkdownFiles = require.context('./components/', true, /\.md$/);
+componentMarkdownFiles.keys().forEach(fileName => {
+  const htmlContent = componentMarkdownFiles(fileName);
 
   const dummyElement = document.createElement('div');
   dummyElement.innerHTML = htmlContent;
