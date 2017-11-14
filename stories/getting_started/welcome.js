@@ -5,7 +5,7 @@ import { linkTo } from '@storybook/addon-links';
 const log = () => console.log('Welcome to storybook!');
 
 const welcome = {
-  name: 'welcome',
+  name: 'Getting Started',
 
   props: {
     showApp: {
@@ -123,7 +123,7 @@ const welcome = {
   },
 };
 
-storiesOf('Welcome', module).add('to Storybook', () => ({
+storiesOf('Getting Started', module).add('Basic Principles', () => ({
   components: { welcome },
   template: '<welcome :showApp="action" />',
   methods: { action: linkTo('Button') },

@@ -21,9 +21,10 @@ Vue.component = originalVueComponent
 
 import '../main.scss';
 
-import './welcome';
+import './getting_started/welcome';
+import './getting_started/personas';
 
-const markdownFiles = require.context('./', true, /\.md$/);
+const markdownFiles = require.context('./components/', true, /\.md$/);
 markdownFiles.keys().forEach(fileName => {
   const htmlContent = markdownFiles(fileName);
 
