@@ -4,7 +4,7 @@ import { linkTo } from '@storybook/addon-links';
 // eslint-disable-next-line no-console
 const log = () => console.log('Welcome to storybook!');
 
-const personas = {
+const basicPrinciples = {
   name: 'Getting Started',
 
   props: {
@@ -52,7 +52,7 @@ const personas = {
 
   template: `
     <div :style="main">
-      <h1>Personas</h1>
+      <h1>Basic Principles</h1>
     </div>
   `,
 
@@ -64,8 +64,8 @@ const personas = {
   },
 };
 
-storiesOf('Getting Started', module).add('Personas', () => ({
-  components: { personas },
-  template: '<personas :showApp="action" />',
+storiesOf('Getting Started', module).add('Basic Principles', () => ({
+  components: { basicPrinciples },
+  template: '<basicPrinciples :showApp="action" />',
   methods: { action: linkTo('Button') },
 }));
