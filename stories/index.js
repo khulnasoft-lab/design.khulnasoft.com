@@ -21,36 +21,48 @@ Vue.component = originalVueComponent
 
 import '../main.scss';
 
-import './welcome';
+const files = [
+  {
+    name: 'Getting Started',
+    modules: require.context('./getting_started', false, /\.md$/),
+  },
+  {
+    name: 'Styles',
+    modules: require.context('./styles', false, /\.md$/),
+  },
+  {
+    name: 'Components',
+    modules: require.context('./components', false, /\.md$/),
+  },
+];
 
-const markdownFiles = require.context('./', true, /\.md$/);
-markdownFiles.keys().forEach(fileName => {
-  const htmlContent = markdownFiles(fileName);
+files.forEach(({name, modules}) => {
+  modules.keys().forEach(fileName => {
+    const htmlContent = modules(fileName);
 
-  const dummyElement = document.createElement('div');
-  dummyElement.innerHTML = htmlContent;
-  const title = dummyElement.querySelector('h1');
+    const dummyElement = document.createElement('div');
+    dummyElement.innerHTML = htmlContent;
+    const title = dummyElement.querySelector('h1');
 
-  storiesOf('Components', module)
-    .add(title ? title.innerText : fileName, () => ({
-      mounted() {
-        const codeBlocks = this.$el.querySelectorAll('pre > code');
-        codeBlocks.forEach(block => {
-          block.classList.add('language-html');
-          const preElement = block.parentNode;
-          preElement.insertAdjacentHTML('afterend', '<div>');
-          const el = preElement.nextSibling;
-          const vueComponent = new Vue({
-            el,
-            template: `
-              <div class="component-preview">${block.innerText}</div>
-            `,
+    storiesOf(name, module)
+      .add(title ? title.innerText : fileName, () => ({
+        mounted() {
+          const codeBlocks = this.$el.querySelectorAll('pre > code');
+          codeBlocks.forEach(block => {
+            block.classList.add('language-html');
+            const preElement = block.parentNode;
+            preElement.insertAdjacentHTML('afterend', '<div>');
+            const el = preElement.nextSibling;
+            const vueComponent = new Vue({
+              el,
+              template: `
+                <div class="component-preview">${block.innerText}</div>
+              `,
+            });
           });
-        });
-        Prism.highlightAll();
-      },
-      template: `<div>${htmlContent}</div>`,
-    }));
+          Prism.highlightAll();
+        },
+        template: `<div>${htmlContent}</div>`,
+      }));
+  });
 });
-
-/* eslint-enable react/react-in-jsx-scope */
