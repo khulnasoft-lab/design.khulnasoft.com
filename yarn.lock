@@ -23,6 +23,12 @@
   dependencies:
     "@storybook/addons" "^3.2.13"
 
+"@storybook/addon-options@3.2.13":
+  version "3.2.13"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-options/-/addon-options-3.2.13.tgz#d605c50f4ff60d7470b36b4fb55d15bf1450f078"
+  dependencies:
+    "@storybook/addons" "^3.2.13"
+
 "@storybook/addons@^3.2.13":
   version "3.2.13"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-3.2.13.tgz#a133103770a7f2330bc931571df1b2ae660f8f71"
