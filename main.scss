@@ -28,6 +28,10 @@ $danger: $red-500;
 
 @import "node_modules/prismjs/themes/prism.css";
 
+body {
+  margin: 16px;
+}
+
 #root {
   padding: 16px;
 }

@@ -42,27 +42,23 @@ files.forEach(({name, modules}) => {
 
     const dummyElement = document.createElement('div');
     dummyElement.innerHTML = htmlContent;
+    document.body.appendChild(dummyElement);
     const title = dummyElement.querySelector('h1');
 
-    storiesOf(name, module)
-      .add(title ? title.innerText : fileName, () => ({
-        mounted() {
-          const codeBlocks = this.$el.querySelectorAll('pre > code');
-          codeBlocks.forEach(block => {
-            block.classList.add('language-html');
-            const preElement = block.parentNode;
-            preElement.insertAdjacentHTML('afterend', '<div>');
-            const el = preElement.nextSibling;
-            const vueComponent = new Vue({
-              el,
-              template: `
-                <div class="component-preview">${block.innerText}</div>
-              `,
-            });
-          });
-          Prism.highlightAll();
-        },
-        template: `<div>${htmlContent}</div>`,
-      }));
+    const codeBlocks = dummyElement.querySelectorAll('pre > code');
+    codeBlocks.forEach(block => {
+      block.classList.add('language-html');
+      const preElement = block.parentNode;
+      preElement.insertAdjacentHTML('afterend', '<div>');
+      const el = preElement.nextSibling;
+      const vueComponent = new Vue({
+        el,
+        template: `
+          <div class="component-preview">${block.innerText}</div>
+        `,
+      });
+    });
+    Prism.highlightAll();
   });
 });
+
