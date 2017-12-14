@@ -16,9 +16,12 @@
     "@storybook/addon-links": "^3.2.13",
     "@storybook/addon-options": "3.2.13",
     "@storybook/vue": "^3.2.13",
-    "babel-preset-vue": "^1.2.1"
+    "babel-preset-vue": "^1.2.1",
+    "webpack": "^3.10.0"
   },
   "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack -p",
     "storybook": "start-storybook -p 6006",
     "prebuild-storybook": "yarn install",
     "build-storybook": "build-storybook"
