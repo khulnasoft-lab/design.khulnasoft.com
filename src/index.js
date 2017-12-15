@@ -19,8 +19,6 @@ Vue.component = function(name, definition) {
 Vue.use(BootstrapVue)
 Vue.component = originalVueComponent
 
-import '../main.scss';
-
 const files = [
   {
     name: 'Getting Started',
