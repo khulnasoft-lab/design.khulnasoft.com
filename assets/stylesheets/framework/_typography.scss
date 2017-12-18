@@ -48,6 +48,13 @@ p {
   }
 }
 
+a {
+  font-size: 14px;
+  line-height: $gl-spacing-5;
+  margin: 0;
+  color: $blue-500;
+}
+
 /*
  * MD Typography
  */

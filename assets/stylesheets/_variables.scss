@@ -18,7 +18,7 @@ $gl-spacing-10: 96px;
  */
 
 $page-width: 990px;
-$sidebar-width: 220px;
+$nav-sidebar-width: 220px;
 
 /*
  * Colors
@@ -97,4 +97,6 @@ $border-color--light: $gray-200;
  * Z Indexs
  */
 
+$z-banner-overlay: 2;
+$z-banner-text: 3;
 $z-nav-sidebar: 400;
