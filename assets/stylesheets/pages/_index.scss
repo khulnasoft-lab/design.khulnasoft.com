@@ -1,0 +1,10 @@
+.banner {
+	height: 600px;
+	background-color: $gray-800;
+	position: relative;
+
+	h1 {
+		@include center(both);
+		color: $white;
+	}
+}

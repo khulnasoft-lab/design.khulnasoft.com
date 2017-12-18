@@ -1,9 +1,5 @@
-pre + div {
-  margin-bottom: 20px;
-}
-
-@import "../../node_modules/css-framework/src/base/base-variables";
-@import "../../node_modules/css-framework/src/button/button-variables";
+// @import "../../node_modules/css-framework/src/base/base-variables";
+// @import "../../node_modules/css-framework/src/button/button-variables";
 
 // Required
 @import "../../node_modules/bootstrap/scss/functions";
@@ -20,23 +16,17 @@ pre + div {
 @import "../../node_modules/bootstrap/scss/forms";
 @import "../../node_modules/bootstrap/scss/badge";
 
-@import "variables";
-@import "framework/sidebar";
-@import "components/buttons";
-
 @import "../../node_modules/prismjs/themes/prism.css";
 
-body {
-  background: red;
-  margin: 16px;
-}
+@import "variables";
 
-#root {
-  padding: 16px;
-}
+@import "utilities/mixins";
 
-.component-preview {
-  & > div {
-    margin-bottom: 16px;
-  }
-}
+@import "framework/content";
+@import "framework/sidebar";
+@import "framework/spacing";
+@import "framework/typography";
+
+@import "components/buttons";
+
+@import "pages/index";

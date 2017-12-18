@@ -1,19 +1,41 @@
 /*
+ * Measures
+ */
+
+$gl-spacing-1: 2px;
+$gl-spacing-2: 4px;
+$gl-spacing-3: 8px;
+$gl-spacing-4: 12px;
+$gl-spacing-5: 16px;
+$gl-spacing-6: 24px;
+$gl-spacing-7: 32px;
+$gl-spacing-8: 48px;
+$gl-spacing-9: 64px;
+$gl-spacing-10: 96px;
+
+/*
+ * Framework
+ */
+
+$page-width: 990px;
+$sidebar-width: 220px;
+
+/*
  * Colors
  */
 
 $white: #fff;
-$grey-50: #fafafa;
-$grey-100: #f2f2f2;
-$grey-200: #dfdfdf;
-$grey-300: #cccccc;
-$grey-400: #bababa;
-$grey-500: #a7a7a7;
-$grey-600: #949494;
-$grey-700: #707070;
-$grey-800: #4f4f4f;
-$grey-900: #2e2e2e;
-$grey-950: #1f1f1f;
+$gray-50: #fafafa;
+$gray-100: #f2f2f2;
+$gray-200: #dfdfdf;
+$gray-300: #cccccc;
+$gray-400: #bababa;
+$gray-500: #a7a7a7;
+$gray-600: #949494;
+$gray-700: #707070;
+$gray-800: #4f4f4f;
+$gray-900: #2e2e2e;
+$gray-950: #1f1f1f;
 $black: #000;
 
 $green-50: #f1fdf6;
@@ -63,6 +85,13 @@ $red-700: #a62d19;
 $red-800: #8b2615;
 $red-900: #711e11;
 $red-950: #4b140b;
+
+/*
+ * UI elements
+ */
+
+$border-color: $gray-300;
+$border-color--light: $gray-200;
 
 /*
  * Z Indexs
