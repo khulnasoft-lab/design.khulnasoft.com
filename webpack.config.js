@@ -20,7 +20,7 @@ module.exports = {
       {
         test: /\.scss$/,
         loaders: ['style-loader', 'css-loader', 'sass-loader'],
-        include: path.resolve(__dirname, '/Users/Davis/Sites/design.gitlab.com/assets/stylesheets/')
+        include: path.resolve(__dirname, '/assets/stylesheets/')
       },
       {
         test: /\.(png|woff|woff2|eot|ttf|svg)$/,
