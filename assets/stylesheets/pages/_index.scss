@@ -3,23 +3,10 @@
   position: relative;
   background: url(../../assets/images/cover-bg.png) 50% 50%/cover;
 
-  h1 {
-      @include center(both);
-      color: $white;
-      text-align: center;
-      letter-spacing: 2px;
-      z-index: $z-banner-text
-  }
-
-  .overlay {
-    left: 0;
-    position: absolute;
-    top: 0;
-    background: rgba(0, 0, 0, 0.8);
-    height: 100%;
-    opacity: 1;
-    width: 100%;
-    z-index: $z-banner-overlay;
+  .banner__header {
+    @include center(both);
+    color: $white;
+    letter-spacing: 2px;
   }
 }
 
@@ -36,10 +23,6 @@
 
     &:nth-child(even) {
       padding-left: $gl-spacing-5;
-    }
-
-    h2 {
-      text-align: center;
     }
   }
 }

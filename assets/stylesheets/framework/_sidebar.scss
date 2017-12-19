@@ -10,7 +10,7 @@
   overflow-y: auto;
 
   .nav-sidebar__header {
-    a {
+    .nav-sidebar__header-anchor {
       display: flex;
       color: $gray-900;
       font-weight: 600;
@@ -24,7 +24,7 @@
   }
 
   .nav-sidebar__section {
-    summary {
+    .nav-sidebar__section-summary {
       cursor: pointer;
       padding: $gl-spacing-3 $gl-spacing-5;
 
@@ -44,7 +44,7 @@
     .nav-sidebar__items {
       @include unstyled-list;
 
-      a {
+      .nav-sidebar__items-anchor {
         display: flex;
         color: $gray-900;
         padding: $gl-spacing-3 $gl-spacing-7;
