@@ -1,0 +1,12 @@
+.page {
+  padding-left: $nav-sidebar-width;
+}
+
+.content {
+  padding: 0 $gl-spacing-5;
+  margin: 0 auto;
+
+  &.limited {
+      max-width: $page-width;
+  }
+}

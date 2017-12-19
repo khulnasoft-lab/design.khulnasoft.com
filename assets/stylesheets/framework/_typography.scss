@@ -1,0 +1,119 @@
+/*
+ * UI Typography
+ */
+
+h1 {
+  font-size: 42px;
+  line-height: $gl-spacing-8;
+  margin: 0;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: $gl-spacing-7;
+  margin: 0;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: $gl-spacing-7;
+  margin: 0;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: $gl-spacing-6;
+  margin: 0;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: $gl-spacing-5;
+  margin: 0;
+  font-weight: 600;
+}
+
+p {
+  font-size: 14px;
+  line-height: $gl-spacing-5;
+  margin: 0;
+
+  &.small {
+    font-size: 12px;
+
+  }
+}
+
+a {
+  font-size: 14px;
+  line-height: $gl-spacing-5;
+  margin: 0;
+  color: $blue-500;
+}
+
+/*
+ * MD Typography
+ */
+
+.md {
+  h1 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: $gl-spacing-3;
+    font-weight: 600;
+  }
+
+  h2 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: $gl-spacing-3;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: $gl-spacing-3;
+    font-weight: 600;
+  }
+
+  h4 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: $gl-spacing-3;
+    font-weight: 600;
+  }
+
+  h5 {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: $gl-spacing-3;
+    font-weight: 600;
+  }
+
+  h6 {
+    font-size: 11px;
+    line-height: 16px;
+    margin-bottom: $gl-spacing-3;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: $gl-spacing-6;
+  }
+}
+
+/*
+ * Type alignment
+ */
+
+.text-center {
+  text-align: center;
+}

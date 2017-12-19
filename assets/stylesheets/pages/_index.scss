@@ -1,0 +1,28 @@
+.banner {
+  height: 400px;
+  position: relative;
+  background: url(../../assets/images/cover-bg.png) 50% 50%/cover;
+
+  .banner__header {
+    @include center(both);
+    color: $white;
+    letter-spacing: 2px;
+  }
+}
+
+.principles {
+  display: flex;
+  flex-wrap: wrap;
+  
+  .principle {
+    width: 50%;
+
+    &:nth-child(odd) {
+      padding-right: $gl-spacing-5;
+    }
+
+    &:nth-child(even) {
+      padding-left: $gl-spacing-5;
+    }
+  }
+}

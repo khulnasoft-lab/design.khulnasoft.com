@@ -1,0 +1,100 @@
+/*
+ * Measures
+ */
+
+$gl-spacing-1: 2px;
+$gl-spacing-2: 4px;
+$gl-spacing-3: 8px;
+$gl-spacing-4: 12px;
+$gl-spacing-5: 16px;
+$gl-spacing-6: 24px;
+$gl-spacing-7: 32px;
+$gl-spacing-8: 48px;
+$gl-spacing-9: 64px;
+$gl-spacing-10: 96px;
+
+/*
+ * Framework
+ */
+
+$page-width: 990px;
+$nav-sidebar-width: 220px;
+
+/*
+ * Colors
+ */
+
+$white: #fff;
+$gray-50: #fafafa;
+$gray-100: #f2f2f2;
+$gray-200: #dfdfdf;
+$gray-300: #cccccc;
+$gray-400: #bababa;
+$gray-500: #a7a7a7;
+$gray-600: #949494;
+$gray-700: #707070;
+$gray-800: #4f4f4f;
+$gray-900: #2e2e2e;
+$gray-950: #1f1f1f;
+$black: #000;
+
+$green-50: #f1fdf6;
+$green-100: #dcf5e7;
+$green-200: #b3e6c8;
+$green-300: #75d09b;
+$green-400: #37b96d;
+$green-500: #1aaa55;
+$green-600: #168f48;
+$green-700: #12753a;
+$green-800: #0e5a2d;
+$green-900: #0a4020;
+$green-950: #072b15;
+
+$blue-50: #f6fafe;
+$blue-100: #e4f0fb;
+$blue-200: #b8d6f4;
+$blue-300: #73afea;
+$blue-400: #2e87e0;
+$blue-500: #1f78d1;
+$blue-600: #1b69b6;
+$blue-700: #17599c;
+$blue-800: #134a81;
+$blue-900: #0f3b66;
+$blue-950: #0a2744;
+
+$orange-50: #fffaf4;
+$orange-100: #fff1de;
+$orange-200: #fed69f;
+$orange-300: #fdbc60;
+$orange-400: #fca121;
+$orange-500: #fc9403;
+$orange-600: #de7e00;
+$orange-700: #c26700;
+$orange-800: #a35200;
+$orange-900: #853c00;
+$orange-950: #592800;
+
+$red-50: #fef6f5;
+$red-100: #fbe5e1;
+$red-200: #f2b4a9;
+$red-300: #e67664;
+$red-400: #e05842;
+$red-500: #db3b21;
+$red-600: #c0341d;
+$red-700: #a62d19;
+$red-800: #8b2615;
+$red-900: #711e11;
+$red-950: #4b140b;
+
+/*
+ * UI elements
+ */
+
+$border-color: $gray-300;
+$border-color--light: $gray-200;
+
+/*
+ * Z Indexs
+ */
+
+$z-nav-sidebar: 400;
