@@ -1,40 +1,7 @@
-/* eslint-disable react/react-in-jsx-scope */
-
-import Vue from 'vue';
-import BootstrapVue from 'bootstrap-vue';
-
-import { storiesOf } from '@storybook/vue';
-
 import Prism from 'prismjs';
-
-// workaround for https://github.com/bootstrap-vue/bootstrap-vue/issues/1201
-let originalVueComponent = Vue.component
-Vue.component = function(name, definition) {
-  if (name === 'bFormCheckboxGroup' || name === 'bCheckboxGroup' ||
-      name === 'bCheckGroup' || name === 'bFormRadioGroup') {
-    definition.components = {bFormCheckbox: definition.components[0]}
-  }
-  originalVueComponent.apply(this, [name, definition])
-}
-Vue.use(BootstrapVue)
-Vue.component = originalVueComponent
-
 import '../assets/stylesheets/app.scss';
 
-const files = [
-  {
-    name: 'Getting Started',
-    modules: require.context('./getting_started', false, /\.md$/),
-  },
-  {
-    name: 'Styles',
-    modules: require.context('./styles', false, /\.md$/),
-  },
-  {
-    name: 'Components',
-    modules: require.context('./components', false, /\.md$/),
-  },
-];
+Prism.highlightAll();
 
 // files.forEach(({name, modules}) => {
 //   modules.keys().forEach(fileName => {
@@ -58,7 +25,6 @@ const files = [
 //         `,
 //       });
 //     });
-//     Prism.highlightAll();
 //   });
 // });
 
