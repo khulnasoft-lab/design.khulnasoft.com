@@ -1,7 +1,7 @@
 .nav-sidebar {
   position: fixed;
   z-index: $z-nav-sidebar;
-  background-color: $gray-50;
+  background-color: $white;
   border-right: 1px solid $border-color--light;
   width: $nav-sidebar-width;
   height: 100%;
@@ -10,6 +10,8 @@
   overflow-y: auto;
 
   .nav-sidebar__header {
+    border-bottom: 1px solid $border-color--light;
+
     .nav-sidebar__header-anchor {
       display: flex;
       color: $gray-900;
@@ -27,6 +29,7 @@
     .nav-sidebar__section-summary {
       cursor: pointer;
       padding: $gl-spacing-3 $gl-spacing-5;
+      font-weight: 500;
 
       &::-webkit-details-marker {
         display: none;
@@ -41,13 +44,13 @@
       }
     }
 
-    .nav-sidebar__items {
+    .nav-sidebar__section-items {
       @include unstyled-list;
 
-      .nav-sidebar__items-anchor {
+      .nav-sidebar__section-items-anchor {
         display: flex;
         color: $gray-900;
-        padding: $gl-spacing-3 $gl-spacing-7;
+        padding: $gl-spacing-3 $gl-spacing-8;
 
         &:hover {
           background-color: rgba(0,0,0,0.06);
