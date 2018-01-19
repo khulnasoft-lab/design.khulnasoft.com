@@ -10,5 +10,6 @@ pages:
     paths:
     - public
   only:
+  - nuxt
   - master
 

@@ -1,6 +1,8 @@
 node_modules/
 storybook-static/
 bundle.js
+dist/
+.nuxt
 .DS_Store
 
 public/style.css

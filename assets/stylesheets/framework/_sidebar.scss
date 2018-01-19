@@ -11,17 +11,17 @@
 
   .nav-sidebar__header {
     border-bottom: 1px solid $border-color--light;
+  }
 
-    .nav-sidebar__header-anchor {
-      display: flex;
-      color: $gray-900;
-      font-weight: 600;
-      padding: $gl-spacing-5;
+  .nav-sidebar__header-anchor {
+    display: flex;
+    color: $gray-900;
+    font-weight: 600;
+    padding: $gl-spacing-5;
 
-      &:hover {
-        background-color: rgba(0,0,0,0.06);
-        text-decoration: none;
-      }
+    &:hover {
+      background-color: rgba(0,0,0,0.06);
+      text-decoration: none;
     }
   }
 
@@ -46,17 +46,17 @@
 
     .nav-sidebar__section-items {
       @include unstyled-list;
+    }
+  }
 
-      .nav-sidebar__section-items-anchor {
-        display: flex;
-        color: $gray-900;
-        padding: $gl-spacing-3 $gl-spacing-8;
+  .nav-sidebar__section-items-anchor {
+    display: flex;
+    color: $gray-900;
+    padding: $gl-spacing-3 $gl-spacing-8;
 
-        &:hover {
-          background-color: rgba(0,0,0,0.06);
-          text-decoration: none;
-        }
-      }
+    &:hover {
+      background-color: rgba(0,0,0,0.06);
+      text-decoration: none;
     }
   }
 }
