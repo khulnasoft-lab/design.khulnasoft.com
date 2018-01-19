@@ -1,0 +1,101 @@
+<template>
+  <div class="page">
+    <nav class="nav-sidebar">
+      <div class="nav-sidebar__header">
+        <nuxt-link
+          to="/"
+          class="nav-sidebar__header-anchor p-a-5"
+        >
+          GitLab Styleguide
+        </nuxt-link>
+      </div>
+      <div class="nav-sidebar__body m-t-3 m-b-3">
+        <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/getting-started')">
+          <summary class="nav-sidebar__section-summary">Getting Started</summary>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/getting-started/contributing">Contributing</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/getting-started/personas">Personas</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/getting-started/structure">Structure</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/getting-started/tooling">Tooling</nuxt-link>
+        </details>
+
+        <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/styles/')">
+          <summary class="nav-sidebar__section-summary">Styles</summary>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/colors">Colors</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/iconography">Iconography</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/motion">Motion</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/grid">Grid</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/illustration">Illustration</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/typography">Typography</nuxt-link>
+        </details>
+
+        <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/components/')">
+          <summary class="nav-sidebar__section-summary">Components</summary>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/avatar">Avatar</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/badges">Badges</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/breadcrumbs">Breadcrumbs</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/buttons">Buttons</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/code-snippets">Code Snippets</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/data-tables">Data Tables</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/data-visualization">Data Visualization</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/date-picker">Date Picker</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/dropdowns">Dropdowns</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/file-uploader">File Uploader</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/forms">Forms</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/labels">Labels</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/lists">Lists</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/modals">Modals</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/notifications">Notifications</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/pagination">Pagination</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/popovers">Popovers</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/search">Search</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/skeleton-loader">Skeleton Loader</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/tabs">Tabs</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/toggles">Toggles</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/tooltips">Tooltips</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/validations">Validations</nuxt-link>
+        </details>
+
+        <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/content/')">
+          <summary class="nav-sidebar__section-summary">Content</summary>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/capitalization">Capitalization</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/punctuation">Punctuation</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/voice-tone">Voice & Tone</nuxt-link>
+        </details>
+
+        <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/usability/')">
+          <summary class="nav-sidebar__section-summary">Usability</summary>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/usability/a11y">Accessibility</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/usability/i18n">Internationalization</nuxt-link>
+        </details>
+      </div>
+    </nav>
+    <div :class="contentWrapper">
+      <nuxt />
+    </div>
+  </div>
+</template>
+
+<script>
+  import "../assets/stylesheets/app.scss";
+
+  export default {
+    computed: {
+      contentWrapper() {
+        return this.$route.fullPath === '/' ? '' : 'content';
+      }
+    }
+  }
+</script>
+
+<style>
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+</style>
