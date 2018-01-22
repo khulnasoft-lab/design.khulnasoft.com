@@ -21,6 +21,6 @@
   },
   "scripts": {
     "start": "PORT=2018 nuxt",
-    "build": "nuxt generate"
+    "build": "NODE_ENV=production nuxt generate"
   }
 }
