@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@gitlab-org/gitlab-svgs@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@gitlab-org/gitlab-svgs/-/gitlab-svgs-1.5.0.tgz#6635df6aad6c71fb293ff113efd4311a744c0e2c"
+
 "@nuxtjs/youch@3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@nuxtjs/youch/-/youch-3.0.2.tgz#03fff829ca45bd1c3ece84c08270f9686229dd4a"
