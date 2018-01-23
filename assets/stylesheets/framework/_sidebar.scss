@@ -32,10 +32,6 @@
       padding: $gl-spacing-3 $gl-spacing-5;
       font-weight: 500;
 
-      &::-webkit-details-marker {
-        display: none;
-      }
-
       &:hover {
         background-color: rgba(0,0,0,0.06);
       }
@@ -59,5 +55,17 @@
       background-color: rgba(0,0,0,0.06);
       text-decoration: none;
     }
+  }
+}
+
+// Hides summary arrow //
+details > summary:first-of-type {
+    list-style-type: none;
+}
+
+// Hides summary arrow on chrome //
+summary {
+  &::-webkit-details-marker {
+    display: none;
   }
 }
