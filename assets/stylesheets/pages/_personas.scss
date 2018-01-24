@@ -9,12 +9,12 @@
   th, td {
     border: 1px solid $border-color--light;
     padding: $gl-spacing-3;
-    font-weight: normal;
+    font-weight: $gl-font-weight--normal;
 
     &.header {
-      font-weight: 600;
+      font-weight: $gl-font-weight--bold;
       background: $gray-50;
-      border-right: 2px solid $border-color--light;
+      border-right: $gl-spacing-1 solid $border-color--light;
     }
   }
 }
