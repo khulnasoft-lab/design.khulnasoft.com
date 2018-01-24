@@ -5,6 +5,11 @@
   padding: $gl-spacing-5;
 }
 
+.card--header {
+  border-bottom: 1px solid $border-color--light;
+  background: $gray-50;
+}
+
 .card--highlighted {
   background: $blue-50;
   border-color: $blue-200;

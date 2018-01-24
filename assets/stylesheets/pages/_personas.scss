@@ -1,0 +1,20 @@
+.persona__overview--demographics {
+  width: 100%;
+  color: $gl-text-color;
+  border: 1px solid $border-color--light;
+  border-collapse: collapse;
+  font-size: 14px;
+  text-align: left;
+
+  th, td {
+    border: 1px solid $border-color--light;
+    padding: $gl-spacing-3;
+    font-weight: normal;
+
+    &.header {
+      font-weight: 600;
+      background: $gray-50;
+      border-right: 2px solid $border-color--light;
+    }
+  }
+}
