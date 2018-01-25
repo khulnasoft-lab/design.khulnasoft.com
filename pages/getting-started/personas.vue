@@ -1,7 +1,7 @@
 <template>
   <div class="content limited">
     <div class="personas md">
-      <div class="page-header">
+      <div class="page-header p-t-7 p-b-7">
         <h1>Personas</h1>
       </div>
       <div class="persona card">

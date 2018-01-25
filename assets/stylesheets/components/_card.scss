@@ -6,7 +6,9 @@
 }
 
 .card--header {
-  border-bottom: 1px solid $border-color--light;
+  border-bottom: $border-width solid $border-color--light;
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius; 
   background: $gray-50;
 }
 

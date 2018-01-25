@@ -1,13 +1,13 @@
 .persona__overview--demographics {
   width: 100%;
   color: $gl-text-color;
-  border: 1px solid $border-color--light;
+  border: $border-width solid $border-color--light;
   border-collapse: collapse;
   font-size: 14px;
   text-align: left;
 
   th, td {
-    border: 1px solid $border-color--light;
+    border: $border-width solid $border-color--light;
     padding: $gl-spacing-3;
     font-weight: $gl-font-weight--normal;
 
