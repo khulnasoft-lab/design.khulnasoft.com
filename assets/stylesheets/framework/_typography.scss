@@ -67,15 +67,15 @@ p.small {
 
 /* Type treatment */
 
-.monospace {
+.font-monospace {
   font-family: $monospace-font;
   font-size: 13px;
 }
 
-.bold {
+.font-weight--bold {
   font-weight: $gl-font-weight--bold;
 }
 
-.secondary {
+.font-color--secondary {
   color: $gl-text-color--secondary;
 }
