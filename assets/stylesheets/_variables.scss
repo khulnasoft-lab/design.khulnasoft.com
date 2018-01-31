@@ -97,12 +97,12 @@ $monospace-font: 'Menlo', 'DejaVu Sans Mono', 'Liberation Mono', 'Consolas', 'Ub
  * Typography
  */
 
-$gl-font-weight--normal: 400;
-$gl-font-weight--bold: 600;
-$gl-text-color: $gray-900;
-$gl-text-color--secondary: $gray-700;
-$gl-text-color--placeholder: $gray-600;
-$gl-text-color--disabled: $gray-200;
+$font-weight--normal: 400;
+$font-weight--bold: 600;
+$text-color: $gray-900;
+$text-color--secondary: $gray-700;
+$text-color--placeholder: $gray-600;
+$text-color--disabled: $gray-200;
 
 /*
  * UI elements
@@ -110,6 +110,8 @@ $gl-text-color--disabled: $gray-200;
 
 $border-color: $gray-300;
 $border-color--light: $gray-200;
+$border-width: 1px;
+$border-radius: $gl-spacing-2;
 
 /*
  * Z Indexs

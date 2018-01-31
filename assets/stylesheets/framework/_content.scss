@@ -10,3 +10,15 @@
       max-width: $page-width;
   }
 }
+
+.page-header {
+  border-bottom: $border-width solid $border-color--light;
+}
+
+.todo {
+  background-color: $blue-50;
+  padding: $gl-spacing-5;
+  color: $blue-600;
+  border: $border-width solid $blue-100;
+  border-radius: $border-radius;
+}
