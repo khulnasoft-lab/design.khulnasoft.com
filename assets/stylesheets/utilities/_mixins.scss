@@ -42,4 +42,19 @@
 
 @mixin box-shadow($x: 0, $y: 2px, $blur: 4px, $spread: 0, $color: $black-o-10) {
   box-shadow: $x $y $blur $spread $color;
+
+/*
+ * Transitions
+ */
+
+@mixin transition($property, $time, $method) {
+  transition: $property $time $method;
+}
+
+/*
+ * Typography
+ */
+
+@mixin f-small {
+  @include type-scale(-1, 1, 0);
 }

@@ -19,3 +19,23 @@
   border: $border-width solid $blue-100;
   border-radius: $border-radius;
 }
+
+
+// simple grid workaround until bootstrap is reintroduced
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+
+  .column-50 {
+    width: 50%;
+
+    &:nth-child(odd) {
+      padding-right: $gl-spacing-5;
+    }
+
+    &:nth-child(even) {
+      padding-left: $gl-spacing-5;
+    }
+  }
+}
