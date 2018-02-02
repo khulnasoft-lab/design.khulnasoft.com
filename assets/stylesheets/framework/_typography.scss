@@ -44,7 +44,7 @@ p  { @include type-scale(0, 1, 0)   };
 
 /* MD Issuable Typography */
 
-.md.issuable {
+.md.compact {
 
   h1 { @include type-scale(7, 2, 1)   };
   h2 { @include type-scale(5, 2, 1)   };

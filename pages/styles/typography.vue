@@ -5,7 +5,7 @@
         <h1>Typography</h1>
       </div>
       <h2>Typeface</h2>
-      <p>GitLab use a system font stack which helps with performance by removing the need to download any font files. System fonts use the font of any particular operating system that is being used.</p>
+      <p>GitLab utilizes a system font stack. System fonts are the default fonts used by any given OS, helping performance by eliminating the need to download font files.</p>
       <h5>Body font stack</h5>
       <p class="todo">
         # Todo: Add codeblock showing body font variable stack
@@ -57,16 +57,16 @@
       </table>
 
       <h3>Markdown</h3>
-      <p>Content that is written using markdown includes typography that contains fixed margins and increased line-heights in order to improve readability. GitLab uses two variations of typography when writing markdown. These variations are separated into documentation markdown and issuable markdown.</p>
+      <p>Content written using markdown includes typography that contains fixed margins and increased line-heights to improve readability. GitLab uses two variations of typography when writing markdown: documentation markdown and compact markdown.</p>
       <h5>Documentation markdown</h5>
       <p>Documentation markdown is defined as any markdown that is written outside of issuable pages, such as a README or Wiki page.</p>
       <p class="todo">
         # Todo: Show class used for markdown
       </p>
-      <h5>Issuable markdown</h5>
-      <p>Within issuable pages, the type scale is decreased in order to more closely align with UI content. Issuables are defined as issue and merge request pages and issuable markdown includes content written in issuable descriptions and comments.
+      <h5>Compact markdown</h5>
+      <p>Within certain views, the markdown type scale is decreased in order to more closely align copy with other UI components. Compact markdown is used for descriptions and comments on issue and merge request pages.</p>
       <p class="todo">
-        # Todo: Show class used for issuable markdown
+        # Todo: Show class used for compact markdown
       </p>
 
       <h2>Body copy</h2>
