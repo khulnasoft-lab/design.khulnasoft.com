@@ -7,7 +7,7 @@
           class="nav-sidebar__header-anchor p-a-5"
         >
           <img
-            class="w-5 h-5 m-r-3"
+            class="w-6 h-6 m-r-3"
             :src="gitlabLogo"
           />
           GitLab Styleguide
