@@ -7,10 +7,9 @@
           class="nav-sidebar__header-anchor p-a-5"
         >
           <img
-            width=24
-            height=24
-            class="m-r-3"
-            :src="gitlabLogo" />
+            class="w-5 h-5 m-r-3"
+            :src="gitlabLogo"
+          />
           GitLab Styleguide
         </nuxt-link>
       </div>
