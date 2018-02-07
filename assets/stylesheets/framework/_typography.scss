@@ -1,7 +1,3 @@
-$base-font-size: 14;
-$base-grid: 8;
-$leading: 16;
-
 @mixin type-scale($scale, $line-height: 1, $margin-bottom: 0) {
   font-size: #{$base-font-size + ($scale * 2) + 'px' };
   line-height: #{ $line-height * $leading + 'px' };
