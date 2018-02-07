@@ -27,31 +27,31 @@
         <tbody>
           <tr>
             <td>12px</td>
-            <td>The platform for modern developers</td>
+            <td class="ts-7">The platform for modern developers</td>
           </tr>
           <tr>
             <td>14px</td>
-            <td>The platform for modern developers</td>
+            <td class="ts-6">The platform for modern developers</td>
           </tr>
           <tr>
             <td>16px</td>
-            <td>The platform for modern developers</td>
+            <td class="ts-5">The platform for modern developers</td>
           </tr>
           <tr>
             <td>20px</td>
-            <td>The platform for modern developers</td>
+            <td class="ts-4">The platform for modern developers</td>
           </tr>
           <tr>
             <td>24px</td>
-            <td>The platform for modern developers</td>
+            <td class="ts-3">The platform for modern developers</td>
           </tr>
           <tr>
             <td>28px</td>
-            <td>The platform for modern developers</td>
+            <td class="ts-2">The platform for modern developers</td>
           </tr>
           <tr>
             <td>42px</td>
-            <td>The platform for modern developers</td>
+            <td class="ts-1">The platform for modern developers</td>
           </tr>
         </tbody>
       </table>
