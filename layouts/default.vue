@@ -6,6 +6,10 @@
           to="/"
           class="nav-sidebar__header-anchor p-a-5"
         >
+          <img
+            class="w-6 h-6 m-r-3"
+            :src="gitlabLogo"
+          />
           GitLab Styleguide
         </nuxt-link>
       </div>
@@ -69,21 +73,25 @@
         </details>
       </div>
     </nav>
-    <div :class="contentWrapper">
-      <nuxt />
-    </div>
+    <div :class="contentWrapper"> <nuxt /> </div>
   </div>
 </template>
 
 <script>
   import "../assets/stylesheets/app.scss";
+  import gitlabLogo from "@gitlab-org/gitlab-svgs/dist/illustrations/gitlab_logo.svg";
 
   export default {
     computed: {
       contentWrapper() {
         return this.$route.fullPath === '/' ? '' : 'content';
       }
-    }
+    },
+    data() {
+      return {
+        gitlabLogo,
+      }
+    },
   }
 </script>
 
