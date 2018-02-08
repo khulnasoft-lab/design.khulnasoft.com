@@ -1,0 +1,22 @@
+table { 
+  width: 100%;
+  color: $text-color;
+  border: $border-width solid $border-color--light;
+  border-collapse: collapse;
+  text-align: left;
+
+  thead {
+    background: $gray-50;
+    border-bottom: ($border-width * 2) solid $border-color--light;
+
+    th {
+      font-weight: $font-weight--bold;
+    }
+  }
+
+  th, td {
+    border: $border-width solid $border-color--light;
+    padding: $gl-spacing-3;
+    font-weight: $font-weight--normal;
+  }
+}

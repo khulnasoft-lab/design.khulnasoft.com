@@ -4,9 +4,12 @@
 
 @import "utilities/mixins";
 
+@import "framework/base";
 @import "framework/content";
 @import "framework/sidebar";
 @import "framework/spacing";
 @import "framework/typography";
+
+@import "components/table";
 
 @import "pages/index";

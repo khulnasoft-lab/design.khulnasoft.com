@@ -87,11 +87,34 @@ $red-900: #711e11;
 $red-950: #4b140b;
 
 /*
+ * Fonts
+ */
+
+$body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$monospace-font: 'Menlo', 'DejaVu Sans Mono', 'Liberation Mono', 'Consolas', 'Ubuntu Mono', 'Courier New', 'andale mono', 'lucida console', monospace;
+
+/*
+ * Typography
+ */
+
+$base-font-size: 14;
+$base-grid: 8;
+$leading: 16;
+$font-weight--normal: 400;
+$font-weight--bold: 600;
+$text-color: $gray-900;
+$text-color--secondary: $gray-700;
+$text-color--placeholder: $gray-600;
+$text-color--disabled: $gray-200;
+
+/*
  * UI elements
  */
 
 $border-color: $gray-300;
 $border-color--light: $gray-200;
+$border-width: 1px;
+$border-radius: $gl-spacing-2;
 
 /*
  * Z Indexs
