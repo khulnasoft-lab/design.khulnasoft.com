@@ -2,7 +2,7 @@
   position: fixed;
   z-index: $z-nav-sidebar;
   background-color: $white;
-  border-right: 1px solid $border-color--light;
+  border-right: 1px solid $border-color;
   width: $nav-sidebar-width;
   height: 100%;
   left: 0;
@@ -10,18 +10,18 @@
   overflow-y: auto;
 
   .nav-sidebar__header {
-    border-bottom: 1px solid $border-color--light;
+    border-bottom: $border-width solid $border-color;
   }
 
   .nav-sidebar__header-anchor {
     display: flex;
     align-items: center;
-    color: $gray-900;
-    font-weight: 600;
+    color: $text-color;
+    font-weight: $font-weight--bold;
     padding: $gl-spacing-5;
 
     &:hover {
-      background-color: rgba(0,0,0,0.06);
+      background-color: rgba($black,0.06);
       text-decoration: none;
     }
   }
@@ -30,14 +30,10 @@
     .nav-sidebar__section-summary {
       cursor: pointer;
       padding: $gl-spacing-3 $gl-spacing-5;
-      font-weight: 500;
+      font-weight: $font-weight--bold;
 
       &:hover {
-        background-color: rgba(0,0,0,0.06);
-      }
-
-      &:focus {
-        outline: none;
+        background-color: rgba($black,0.06);
       }
     }
 
@@ -51,8 +47,13 @@
     color: $gray-900;
     padding: $gl-spacing-3 $gl-spacing-8;
 
+    &.nuxt-link-active {
+      box-shadow: inset 4px 0 0 #707070;
+      background: rgba($black,0.04);
+    }
+
     &:hover {
-      background-color: rgba(0,0,0,0.06);
+      background-color: rgba($black,0.06);
       text-decoration: none;
     }
   }

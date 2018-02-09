@@ -1,0 +1,6 @@
+.card {
+  @include box-shadow(default);
+  border: $border-width solid $border-color--light;
+  border-radius: $border-radius;
+  padding: $gl-spacing-5;
+}

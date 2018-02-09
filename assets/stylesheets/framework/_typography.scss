@@ -3,6 +3,7 @@
   line-height: #{ $line-height * $leading + 'px' };
   margin-bottom: #{ $margin-bottom * $base-grid + 'px' };
   margin-top: 0;
+}
 
 h1, h2, h3, h4, h5, h6 { font-weight: $font-weight--bold; }
 
@@ -16,9 +17,17 @@ h5 { @include type-scale(0)      };
 h6 { @include type-scale(0)      };
 p  { @include type-scale(0)      };
 
-.f-small {
-  @include type-scale(-1);
+a {
+  text-decoration: none;
+  color: $anchor-color;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
+
+.f-display { @include type-scale(14,3) };
+.f-small { @include type-scale(-1) };
 
 /*  MD Typography */
 
@@ -79,4 +88,9 @@ p  { @include type-scale(0)      };
 
 .f-secondary {
   color: $text-color--secondary;
+}
+
+.f-inverted {
+  color: $text-color--inverted;
+  text-shadow: 0 1px rgba($black,.2);
 }

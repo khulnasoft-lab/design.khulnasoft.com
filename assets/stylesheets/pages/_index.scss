@@ -1,21 +1,20 @@
 .banner {
-  height: 400px;
+  height: 450px;
   position: relative;
   background: url(../../assets/images/cover@2x.png) 50% 50%/cover;
 
   .banner__header {
     @include center(both);
     width: 100%;
-    color: $white;
     z-index: $z-index-header;
 
     .banner__header--title {
       letter-spacing: 2px;
       margin-bottom: $gl-spacing-3;
+    }
 
-      @media (max-width: $screen-sm-max) {
-        font-size: 28px;
-      }
+    .banner__header--description {
+      font-weight: $font-weight--normal;
     }
   }
 
@@ -25,7 +24,7 @@
     top: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(130deg, rgba(26,26,64,.8) 0%,rgba(10,39,68,.9) 100%);;
+    background: linear-gradient(135deg, rgba($blue-800,0.75) 0%,rgba($blue-950,0.9) 100%);
   }
 }
 
@@ -34,6 +33,8 @@
   flex-wrap: wrap;
   
   .principle {
+    display: flex;
+    align-items: center;
     width: 50%;
     
     &:nth-child(odd) {
@@ -43,28 +44,25 @@
     &:nth-child(even) {
       padding-left: $gl-spacing-5;
     }
-
-    @media (max-width: $screen-sm-max) {
-      width: 100%;
-      
-      &:nth-child(odd),
-      &:nth-child(even) {
-        padding: 0;
-      }
-    }
   }
 }
 
-.contributing-box {
-  display: flex;
+.contribute {
+  background: $gray-50;
+  border-top: $border-width solid $gray-100;
+  border-bottom: $border-width solid $gray-100;
+}
 
-  .image {
-    flex: 2;
-    background: grey;
-  }
+.resources {
+  .card {
+    flex: 1;
+    background: $blue-50;
+    border-color: $blue-200;
+    color: $blue-500;
 
-  .contributing-box__content {
-    flex: 3;
-    border: 1px solid $border-color--light;
+    &:hover {
+      text-decoration: none;
+      background: $blue-100;
+    }
   }
 }
