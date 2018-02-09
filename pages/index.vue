@@ -6,7 +6,7 @@
         <h1 class="banner__header--title f-display f-inverted">
           GitLab Design System
         </h1>
-        <h3 class="banner__header--description f-inverted">Design guidelines and UI components for GitLab CE/EE</h3>
+        <h3 class="banner__header--description f-inverted">Design guidelines and UI components for GitLab</h3>
       </div>
       <div class="overlay"></div>
     </div>
