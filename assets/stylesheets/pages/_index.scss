@@ -1,7 +1,7 @@
 .banner {
   height: 450px;
   position: relative;
-  background: url(../../assets/images/cover@2x.png) 50% 50%/cover;
+  background: url(../../assets/images/cover.png) 50% 50%/cover;
 
   .banner__header {
     @include center(both);
