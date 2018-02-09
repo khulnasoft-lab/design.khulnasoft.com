@@ -19,7 +19,6 @@
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/getting-started/contributing">Contributing</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/getting-started/personas">Personas</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/getting-started/structure">Structure</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/getting-started/tooling">Tooling</nuxt-link>
         </details>
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/styles/')">
