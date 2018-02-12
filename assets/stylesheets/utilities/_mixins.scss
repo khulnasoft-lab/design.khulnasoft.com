@@ -47,7 +47,7 @@
  * Transitions
  */
 
-@mixin transition($property, $time, $method) {
+@mixin transition($property: all, $time: 0.2s, $method: linear) {
   transition: $property $time $method;
 }
 
