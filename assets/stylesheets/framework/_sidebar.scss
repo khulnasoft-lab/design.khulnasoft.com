@@ -21,7 +21,7 @@
     padding: $gl-spacing-5;
 
     &:hover {
-      background-color: rgba($black,0.06);
+      background-color: $black-o-06;
       text-decoration: none;
     }
   }
@@ -33,7 +33,7 @@
       font-weight: $font-weight--bold;
 
       &:hover {
-        background-color: rgba($black,0.06);
+        background-color: $black-o-06;
       }
     }
 
@@ -48,12 +48,12 @@
     padding: $gl-spacing-3 $gl-spacing-8;
 
     &.nuxt-link-active {
-      box-shadow: inset 4px 0 0 #707070;
-      background: rgba($black,0.04);
+      box-shadow: inset ($border-width * 4) 0 0 $gray-700;
+      background: $black-o-04;
     }
 
     &:hover {
-      background-color: rgba($black,0.06);
+      background-color: $black-o-06;
       text-decoration: none;
     }
   }
