@@ -113,7 +113,7 @@ $red-900: #711e11;
 $red-950: #4b140b;
 
 /*
- * t colors
+ * Theme colors
  */
 
 $t-indigo-50: #f7f7ff;
@@ -127,6 +127,10 @@ $t-indigo-700: #4b4ba3;
 $t-indigo-800: #393982;
 $t-indigo-900: #292961;
 $t-indigo-950: #1a1a40;
+$t-indigo-a-02: rgba($t-indigo-200, 0.02);
+$t-indigo-a-04: rgba($t-indigo-200, 0.04);
+$t-indigo-a-06: rgba($t-indigo-200, 0.06);
+$t-indigo-a-08: rgba($t-indigo-200, 0.08);
 
 $t-gray-50: #fafafa;
 $t-gray-100: #f2f2f2;
@@ -139,6 +143,10 @@ $t-gray-700: #707070;
 $t-gray-800: #4f4f4f;
 $t-gray-900: #2e2e2e;
 $t-gray-950: #1f1f1f;
+$t-gray-a-02: rgba($black, 0.02);
+$t-gray-a-04: rgba($black, 0.04);
+$t-gray-a-06: rgba($black, 0.06);
+$t-gray-a-08: rgba($black, 0.08);
 
 $t-blue-50: #f4f8fc;
 $t-blue-100: #e6edf5;
@@ -151,6 +159,10 @@ $t-blue-700: #305c88;
 $t-blue-800: #25496e;
 $t-blue-900: #1a3652;
 $t-blue-950: #0f2235;
+$t-blue-a-02: rgba($t-blue-200, 0.02);
+$t-blue-a-04: rgba($t-blue-200, 0.04);
+$t-blue-a-06: rgba($t-blue-200, 0.06);
+$t-blue-a-08: rgba($t-blue-200, 0.08);
 
 $t-green-50: #f2faf6;
 $t-green-100: #e4f3ea;
@@ -163,6 +175,10 @@ $t-green-700: #1c7441;
 $t-green-800: #145d33;
 $t-green-900: #0d4524;
 $t-green-950: #072d16;
+$t-green-a-02: rgba($t-green-200, 0.02);
+$t-green-a-04: rgba($t-green-200, 0.04);
+$t-green-a-06: rgba($t-green-200, 0.06);
+$t-green-a-08: rgba($t-green-200, 0.08);
 
 /*
  * Fonts
