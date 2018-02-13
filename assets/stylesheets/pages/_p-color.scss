@@ -1,5 +1,25 @@
 
 .color {
+  &:first-child {
+    .color-overview {
+      border-top-right-radius: $border-radius;
+      border-top-left-radius: $border-radius;
+    }
+  }
+
+  &:last-child {
+    .color-overview {
+      border-bottom-right-radius: $border-radius;
+      border-bottom-left-radius: $border-radius;
+    }
+
+    &:hover {
+      .color-overview {
+        border-bottom-left-radius: 0;
+      }
+    }
+  }
+
   .color-overview {
     @include transition(margin);
     display: flex;
@@ -21,7 +41,15 @@
     .color-details--section {
       flex-grow: 2;
       flex-basis: 50%;
+
+      .pass { color: $green-700; }
+      .fail { color: $red-600; }
     }
+  }
+
+  // color-overview height + color-details height
+  .color-priority {
+    height: $gl-spacing-7 + $gl-spacing-10;
   }
 
   &:hover {
@@ -39,14 +67,17 @@
       font-weight: $font-weight--bold;
     }
   }
-
-  // color-overview height + color-details height
-  .color-priority {
-    height: $gl-spacing-7 + $gl-spacing-10;
-  }
 }
 
 .palette {
+  // &.neutral {
+  //   display: flex;
+
+  //   .color {
+  //     flex: 1;
+  //   }
+  // }
+
   &:hover {
     .color-priority {
       height: $gl-spacing-7;

@@ -27,15 +27,22 @@
   display: flex;
   flex-wrap: wrap;
 
-  .column-50 {
-    width: 50%;
+  .col {
+    padding-right: $gl-spacing-5;
+    padding-left: $gl-spacing-5;
 
-    &:nth-child(odd) {
-      padding-right: $gl-spacing-5;
+    &.col-50 {
+      width: 50%;
+
+      &:nth-child(2n+1) { padding-left: 0; }
+      &:nth-child(2n+2) { padding-right: 0; }
     }
 
-    &:nth-child(even) {
-      padding-left: $gl-spacing-5;
+    &.col-25 {
+      width: 25%;
+
+      &:nth-child(4n+1) { padding-left: 0; }
+      &:nth-child(4n)   { padding-right: 0; }
     }
   }
 }
