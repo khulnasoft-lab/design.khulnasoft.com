@@ -50,11 +50,3 @@
 @mixin transition($property: all, $time: 0.2s, $method: linear) {
   transition: $property $time $method;
 }
-
-/*
- * Typography
- */
-
-@mixin f-small {
-  @include type-scale(-1, 1, 0);
-}
