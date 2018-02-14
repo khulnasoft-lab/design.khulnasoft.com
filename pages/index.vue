@@ -52,15 +52,15 @@
     </div>
     <div class="content limited p-t-10 p-b-10">
       <div class="resources d-flex m-t-6">
-        <a href="https://gitlab.com/gitlab-org/design.gitlab.com" target="_blank" class="card text-center">
+        <a href="https://gitlab.com/gitlab-org/design.gitlab.com" target="_blank" class="card card--highlighted card--link text-center">
           <img src="../assets/images/resources/r-gitlab.png" srcset="../assets/images/resources/r-gitlab@2x.png 2x" class="a-center d-block m-b-3">
           <h5>View repository</h5>
         </a>
-        <a href="https://gitlab.com/gitlab-org/gitlab-design/blob/master/production/resources/gitlab-elements.sketch" target="_blank" class="card text-center m-l-5">
+        <a href="https://gitlab.com/gitlab-org/gitlab-design/blob/master/production/resources/gitlab-elements.sketch" target="_blank" class="card card--highlighted card--link text-center m-l-5">
           <img src="../assets/images/resources/r-sketch.png" srcset="../assets/images/resources/r-sketch@2x.png 2x" class="a-center d-block m-b-3">
           <h5>Download pattern library</h5>
         </a>
-        <a href="https://about.gitlab.com/researchpanel/" target="_blank" class="card text-center m-l-5">
+        <a href="https://about.gitlab.com/researchpanel/" target="_blank" class="card card--highlighted card--link text-center m-l-5">
           <img src="../assets/images/resources/r-research.png" srcset="../assets/images/resources/r-research@2x.png 2x" class="a-center d-block m-b-3">
           <h5>Join our research panel</h5>
         </a>

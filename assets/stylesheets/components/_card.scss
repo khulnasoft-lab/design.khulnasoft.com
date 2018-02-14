@@ -1,6 +1,15 @@
 .card {
-  @include box-shadow(default);
+  @include box-shadow();
   border: $border-width solid $border-color--light;
   border-radius: $border-radius;
   padding: $gl-spacing-5;
+}
+
+.card--highlighted {
+  background: $blue-50;
+  border-color: $blue-200;
+}
+
+.card--link:hover {
+  background: $blue-100;
 }
