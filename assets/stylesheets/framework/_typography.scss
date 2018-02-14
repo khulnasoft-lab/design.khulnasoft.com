@@ -44,6 +44,8 @@ a {
   p:last-child {
     margin-bottom: 0;
   }
+
+  ul { margin: 0 0 $gl-spacing-6 0; }
 }
 
 /* MD Issuable Typography */
