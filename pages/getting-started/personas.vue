@@ -74,39 +74,39 @@
               Slowly, by showing his colleagues how easy it was to use Git, the majority of the team’s projects were migrated to GitLab.
             </p>
             <p>
-              The engineering team have been using GitLab CE for around 2 years now. Nazim credits himself as being entirely responsible for his company’s decision to move to GitLab.
+              The engineering team have used GitLab CE for around 2 years now. Nazim credits himself as being entirely responsible for his company’s decision to move to GitLab.
             </p>
           </div>
           <div class="persona__frustrations">
             <h2>Frustrations</h2>
             <h3>Adoption to GitLab has been slow</h3>
             <p>
-              Not only has the engineering team had to get to grips with Git, they’ve also had to adapt to using GitLab. Due to lack of training and existing skills in other tools, the full feature set of GitLab CE is not being utilised. Nazim sold GitLab to his manager as an ‘all in one’ tool which would replace multiple tools used within the company, thus saving costs. Nazim hasn’t had the time to integrate the legacy tools to GitLab and he’s struggling to convince his peers to change their habits.
+              Not only has the engineering team had to get to grips with Git, they’ve also had to adapt to using GitLab. Due to lack of training and existing skills in other tools, the full feature set of GitLab CE is not being utilized. Nazim sold GitLab to his manager as an ‘all in one’ tool which would replace multiple tools used within the company, thus saving costs. Nazim hasn’t had the time to integrate the legacy tools to GitLab and he’s struggling to convince his peers to change their habits.
             </p>
-            <h3>Missing Features</h3>
+            <h3>Missing features</h3>
             <p>
               Nazim’s company want GitLab to be able to do everything. There isn’t a large budget for software, so they’re selective about what tools are implemented. It needs to add real value to the company. In order for GitLab to be widely adopted and to meet the requirements of different roles within the company, it needs a host of features. When an individual within Nazim’s company wants to know if GitLab has a specific feature or does a particular thing, Nazim is the person to ask. He becomes the point of contact to investigate, build or sometimes just raise the feature request. Nazim gets frustrated when GitLab isn’t able to do what he or his colleagues need it to do.
             </p>
             <h3>Regressions and bugs</h3>
             <p>
-              Nazim often has to calm down his colleagues, when a release contains regressions or new bugs. As he puts it “every new version adds something awesome, but breaks something”. He feels that “old issues for "minor" annoyances get quickly buried in the mass of open issues and linger for a very long time. More generally, I have the feeling that GitLab focus on adding new functionalities, but overlook a bunch of annoying minor regressions or introduced bugs.” Due to limited resource and expertise within the team, not only is it difficult to remain up-to-date with the frequent release cycle, it’s also counterproductive to fix workflows every month.
+              Nazim often has to calm down his colleagues, when a release contains regressions or new bugs. As he puts it “every new version adds something awesome, but breaks something”. He feels that “old issues for "minor" annoyances get quickly buried in the mass of open issues and linger for a very long time. More generally, I have the feeling that GitLab focuses on adding new functionalities, but overlook a bunch of annoying minor regressions or introduced bugs.” Due to limited resource and expertise within the team, not only is it difficult to remain up-to-date with the frequent release cycle, it’s also counterproductive to fix workflows every month.
             </p>
             <h3>Uses too much RAM and CPU</h3>
             <blockquote>
               <p>
-                “Memory usages mean that if we host it from a cloud based host like AWS, we spend almost as much on the instance as what we would pay GitHub”
+                “Memory usages mean that if we host it from a cloud-based host like AWS, we spend almost as much on the instance as what we would pay GitHub”
               </p>
             </blockquote>
             <h3>UI/UX</h3>
             <p>
-              GitLab’s interface initially attracted Nazim when he was comparing version control software. He thought it would help his less technical colleagues to adapt to using Git and perhaps, GitLab could be rolled out to other areas of the business, beyond engineering. However, using GitLab’s interface daily has left him frustrated at the lack of personalisation / control over his user experience. He’s also regularly lost in a maze of navigation. Whilst he acknowledges that GitLab listens to its users and that the interface is improving, he becomes annoyed when the changes are too progressive. “Too frequent UI changes. Most of them tend to turn out great after a few cycles of fixes, but the frequency is still far too high for me to feel comfortable to always stay on the current release.”
+              GitLab’s interface initially attracted Nazim when he was comparing version control software. He thought it would help his less technical colleagues to adapt to using Git and perhaps, GitLab could be rolled out to other areas of the business, beyond engineering. However, using GitLab’s interface daily has left him frustrated at the lack of personalization / control over his user experience. He’s also regularly lost in a maze of navigation. Whilst he acknowledges that GitLab listens to its users and that the interface is improving, he becomes annoyed when the changes are too progressive. “Too frequent UI changes. Most of them tend to turn out great after a few cycles of fixes, but the frequency is still far too high for me to feel comfortable to always stay on the current release.”
             </p>
           </div>
           <div class="persona__goals">
             <h2>Goals</h2>
             <ul>
               <li>To convince his colleagues to fully adopt GitLab CE, thus improving workflow and collaboration.</li>
-              <li>To use a feature rich version control platform that covers all stages of the development lifecycle, in order to reduce dependencies on other tools.</li>
+              <li>To use a feature-rich version control platform that covers all stages of the development lifecycle, in order to reduce dependencies on other tools.</li>
               <li>To use an intuitive and stable product, so he can spend more time on his core job responsibilities and less time bug-fixing, guiding colleagues, etc.</li>
             </ul>
           </div>
@@ -143,7 +143,7 @@
                 </tr>
                 <tr>
                   <th class="header">Frequently used languages:</th>
-                  <td>JavaScript, SQL, PHP and Node.js</td>
+                  <td>JavaScript, SQL, PHP, and Node.js</td>
                 </tr>
                 <tr>
                   <th class="header">Hobbies / interests:</th>
@@ -278,7 +278,7 @@
           <div class="persona__motivations">
             <h2>Motivations</h2>
             <p>
-              James works for a research company which currently hires around 800 staff. He began using GitLab.com back in 2013 for his own open source, hobby projects and loved "the simplicity of installation, administration and use". After using GitLab for over a year, he began to wonder about using it at work. James explains:
+              James works for a research company which currently hires around 800 staff. He began using GitLab.com back in 2013 for his own open source, hobby projects and loved "the simplicity of installation, administration, and use". After using GitLab for over a year, he began to wonder about using it at work. James explains:
             </p>
             <blockquote>
               <p>
@@ -302,7 +302,7 @@
           </div>
           <div class="persona__frustrations">
             <h2>Frustrations</h2>
-            <h3>Third Party Integration</h3>
+            <h3>Third party integration</h3>
             <p>
               Some of GitLab EE's features are too basic, in particular, issues boards which do not have the level of reporting that James and his team need. Subsequently, they still need to use GitLab EE in conjunction with other tools, such as JIRA. Whilst James feels it isn't essential for GitLab to meet all his needs (his company are happy for him to use, and pay for, multiple tools), he sometimes isn't sure what is/isn't possible with plugins and what level of custom development he and his team will need to do.
             </p>
@@ -321,7 +321,7 @@
             <h2>Goals</h2>
             <ul>
               <li>To be able to integrate third-party tools easily with GitLab EE and to create custom integrations and patches where needed.</li>
-              <li>To use GitLab EE primarily for code hosting, merge requests, continuous integration and issue management. James and his team want to be able to understand and use these particular features easily.</li>
+              <li>To use GitLab EE primarily for code hosting, merge requests, continuous integration, and issue management. James and his team want to be able to understand and use these particular features easily.</li>
               <li>To able to share one instance of GitLab EE with multiple teams across the business. Advanced user management, the ability to separate permissions on different parts of the source code, etc are important to James.</li>
             </ul>
           </div>
@@ -346,7 +346,7 @@
                 </tr>
                 <tr>
                   <th class="header">Education:</th>
-                  <td>Self taught</td>
+                  <td>Self-taught</td>
                 </tr>
                 <tr>
                   <th class="header">Occupation:</th>
