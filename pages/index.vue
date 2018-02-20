@@ -46,7 +46,7 @@
       <div class="content limited md contributing-box__content">
         <img src="../assets/images/contribute.png" srcset="../assets/images/contribute@2x.png 2x" class="a-center d-block m-t-8 m-b-5">
         <h3 class="text-center">Everyone can contribute</h3>
-        <p class="a-center a-text">In an effort to continue improving our design system, we encourage all feedback and ideas! If you are intersted in contributing, check out our <a href="/getting-started/contributing">guidelines</a> to get started. Have any questions? Open an issue on our <a href="https://gitlab.com/gitlab-org/design.gitlab.com/issues">GitLab issue tracker</a>.
+        <p class="a-center max-w-sm">In an effort to continue improving our design system, we encourage all feedback and ideas! If you are intersted in contributing, check out our <a href="/getting-started/contributing">guidelines</a> to get started. Have any questions? Open an issue on our <a href="https://gitlab.com/gitlab-org/design.gitlab.com/issues">GitLab issue tracker</a>.
         </p>
       </div>
     </div>

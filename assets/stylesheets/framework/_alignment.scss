@@ -1,7 +1,7 @@
 .a-center {
   margin: 0 auto;
 
-  &.a-text {
+  &.max-w-sm {
     max-width: ($page-width / 3) * 2;
   }
 }
