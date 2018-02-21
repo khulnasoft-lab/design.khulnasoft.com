@@ -5,7 +5,11 @@
         <h1>Color</h1>
       </div>
       <h2>Chromatic palette</h2>
-      <p>We have 4 primary chromatic colors and their derivatives, totaling 44 colors for use across the application. These colors give flexibility during the design process, while also providing a harmonious palette that looks consistent and in line with our brand styles.</p>
+      <p>We have four primary chromatic colors and their derivatives, totaling 44 colors for use across the application. These colors give flexibility during the design process, while also providing a harmonious palette that looks consistent and in line with our brand styles.</p>
+      <h4>Color priorities</h4>
+      <p>The current color palette follows the numeric naming conventions used by the font-weight attribute and is based on their degree of blackness. We use this to define a system of color priorities to help aide in creating contrast or hierarchy. The four primary colors have a weight of 500 and are considered priority 1. Colors with a weight of 300 and 700 are priority 2. 100 and 300 weights are priority 3. All remaining weights are priority 4.</p>
+      <p>For example, if we had to pick only one shade of blue, it would be the medium weight 500, which is priority 1. If we needed more colors, we could choose from the next priority level. And so forth.</p>
+      <h4>Accessibility</h4>
       <p>At GitLab, we are dedicated to continually improving the accessibility of the application. Currently, all chromatic colors pass the <a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast" target="_blank">Web Content Accessibility Guidelines (WCAG)</a> AA level for large text when used as a background color. Learn more in <a href="/usability/a11y">Accessibility</a>.</p>
       <div class="color-palette row m-b-9">
         <div class="green col col-50">
