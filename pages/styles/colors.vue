@@ -5,8 +5,8 @@
         <h1>Color</h1>
       </div>
       <h2>Chromatic palette</h2>
-      <p>GitLab comprises of 4 primary chromatic colors and their derivatives, totalling 44 colors for use across the application. These colors give flexibility during the design process, while also providing a harmonous palette that looks consistent and inline with our brand styles.</p>
-      <p>At GitLab, we are dedicated to continually improving the accessibility of the application. Currently, all chromatic colors pass the <a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast" target="_blank">Web Content Accessibility Guidelines (WCAG)</a> AA level for large text when used as a background color. To learn more about accessibility design, read <a href="/usability/a11y">GitLab's accessibility documentation</a>.</p>
+      <p>We have 4 primary chromatic colors and their derivatives, totaling 44 colors for use across the application. These colors give flexibility during the design process, while also providing a harmonious palette that looks consistent and in line with our brand styles.</p>
+      <p>At GitLab, we are dedicated to continually improving the accessibility of the application. Currently, all chromatic colors pass the <a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast" target="_blank">Web Content Accessibility Guidelines (WCAG)</a> AA level for large text when used as a background color. Learn more in <a href="/usability/a11y">Accessibility</a>.</p>
       <div class="color-palette row m-b-9">
         <div class="green col col-50">
           <h4>Green</h4>
@@ -1000,7 +1000,7 @@
       <div class="row m-b-9">
         <div class="col col-50">
           <h2>Neutral palette</h2>
-          <p>GitLab's neutral palette is primarily used within components to help diffierentiate heirarchy. Shades of gray can be used as backgrounds, borders, and shadows to emphasis certain areas or set them apart.</p>
+          <p>Our neutral palette is primarily used within components to help differentiate hierarchy. Shades of gray can be used as backgrounds, borders, and shadows to emphasise certain areas or set them apart.</p>
           <div class="palette neutral">
             <div class="color">
               <div class="color-overview c-white-background p-t-3 p-r-5 p-b-3 p-l-5">
@@ -1084,7 +1084,7 @@
         </div>
         <div class="col col-50">
           <h2>Transparencies</h2>
-          <p>Transparencies are used only to indicate hover and active states within themes. Each theme has it's own series of four transparencies to utilize with alpha levels ranging from 0.02 to 0.08.</p>
+          <p>Transparencies are used only to indicate hover and active states within themes. Each theme has its own series of four transparencies to utilize with alpha levels ranging from 0.02 to 0.08.</p>
           <div class="palette neutral m-b-6">
             <div class="color">
               <div class="color-overview t-gray-background-a-02 p-t-3 p-r-5 p-b-3 p-l-5">
