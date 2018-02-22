@@ -45,7 +45,7 @@ a {
     margin-bottom: 0;
   }
 
-  ul { margin: 0 0 $gl-spacing-6 0; }
+  ul, ol { @include type-scale(0, 1.5, 3) };
 }
 
 /* MD Issuable Typography */
