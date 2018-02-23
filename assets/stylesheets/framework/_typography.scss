@@ -17,9 +17,17 @@ h5 { @include type-scale(0)      };
 h6 { @include type-scale(0)      };
 p  { @include type-scale(0)      };
 
-.f-small {
-  @include type-scale(-1);
+a {
+  text-decoration: none;
+  color: $anchor-color;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
+
+.f-display { @include type-scale(14,3) };
+.f-small { @include type-scale(-1) };
 
 /*  MD Typography */
 
@@ -70,7 +78,7 @@ p  { @include type-scale(0)      };
 /* Type treatment */
 
 .f-monospace {
-  font-family: $monospace-font;
+  font-family: $font-family-monospace;
   font-size: 13px;
 }
 
@@ -80,4 +88,9 @@ p  { @include type-scale(0)      };
 
 .f-secondary {
   color: $text-color--secondary;
+}
+
+.f-inverted {
+  color: $text-color--inverted;
+  text-shadow: 0 1px rgba($black,.2);
 }

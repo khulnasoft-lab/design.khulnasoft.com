@@ -10,7 +10,7 @@
             class="w-6 h-6 m-r-3"
             :src="gitlabLogo"
           />
-          GitLab Styleguide
+          GitLab Design System
         </nuxt-link>
       </div>
       <div class="nav-sidebar__body m-t-3 m-b-3">

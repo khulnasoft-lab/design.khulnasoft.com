@@ -4,13 +4,16 @@
 
 @import "utilities/mixins";
 
+@import "framework/alignment";
 @import "framework/base";
 @import "framework/content";
+@import "framework/display";
 @import "framework/sidebar";
 @import "framework/sizing";
 @import "framework/spacing";
 @import "framework/typography";
 
+@import "components/card";
 @import "components/table";
 
 @import "pages/index";

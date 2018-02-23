@@ -5,6 +5,7 @@
 .content {
   padding: 0 $gl-spacing-5;
   margin: 0 auto;
+  min-width: $nav-sidebar-width * 2;
 
   &.limited {
       max-width: $page-width;
@@ -12,7 +13,7 @@
 }
 
 .page-header {
-  border-bottom: $border-width solid $border-color--light;
+  border-bottom: $border-width solid $border-color;
 }
 
 .todo {
