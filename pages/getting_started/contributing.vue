@@ -18,9 +18,9 @@
       </ul>
       <p>If you were unable to find a related issue in our <a href="https://gitlab.com/gitlab-org/design.gitlab.com/issues" target="_blank">issue tracker</a>, begin by <a href="https://gitlab.com/gitlab-org/design.gitlab.com/issues/new" target="_blank">creating a new one</a>. For changes that affect visual designs or user experiences, it can be helpful to include a mockup.</p>
       <h5>UX proposals</h5>
-      <p>If your proposal involves a new guideline or UX paradigm, ping a member of the <a href="https://about.gitlab.com/team/" target="_blank">UX team</a> to review and provide feedback.</p>
+      <p>If your proposal involves a new guideline or UX paradigm, ping a <a href="https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com" target="_blank">UX reviewer or maintainer</a> to review and provide feedback.</p>
       <h5>Frontend proposals</h5>
-      <p>If your proposal involves a change to frontend implementation, ping a <a href="https://about.gitlab.com/team/" target="_blank">frontend maintainer</a> to review and provide feedback.</p>
+      <p>If your proposal involves a change to frontend implementation, ping a <a href="https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com" target="_blank">frontend reviewer or maintainer</a> to review and provide feedback.</p>
 
       <h3>Contribute a merge request</h3>
       <p>For changes to documentation or to fix bugs within our Design System, follow these instructions:</p>
@@ -29,8 +29,8 @@
         <li>Fork <a href="https://gitlab.com/gitlab-org/design.gitlab.com" target="_blank">this project</a>.</li>
         <li>Make changes to the feature or fix the bug you’ve chosen to work on.</li>
         <li>Open a merge request. The earlier you open a merge request, the sooner you can get feedback. You can mark it as a Work in Progress to signal that you’re not done yet.</li>
-        <li>Get your merge request reviewed. If your changes involved a new guideline or UX paradigm, then ping a member of the <a href="https://about.gitlab.com/team/" target="_blank">UX team</a> to review. If your changes involve an update to frontend implementation, ping a <a href="https://about.gitlab.com/team/" target="_blank">frontend maintainer</a> to review. Some merge requests will require both a UX and frontend reviewer.</li>
-        <li>Get your changes merged! 🙌</li>
+        <li>Get your merge request approved. If your changes involved a new guideline or UX paradigm, then ping a <a href="https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com" target="_blank">UX reviewer or maintainer</a> to approve your changes. If your changes involve an update to frontend implementation, ping a <a href="https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com" target="_blank">frontend reviewer or maintainer</a> to approve. Some merge requests will require both a UX and frontend approver.</li>
+        <li>Get your changes merged! A UX or frontend maintainer can then merge your MR after the necessary approvals have been added. 🙌</li>
       </ol>
       <p>If you are interested in fixing a bug or contributing to our CSS, contribute an issue and merge request to our <a href="https://gitlab.com/gitlab-org/css-framework" target="_blank">CSS Framework</a></p>
     </div>
