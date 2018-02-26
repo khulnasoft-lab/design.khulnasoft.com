@@ -14,11 +14,11 @@
         </nuxt-link>
       </div>
       <div class="nav-sidebar__body m-t-3 m-b-3">
-        <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/getting-started')">
+        <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/getting_started')">
           <summary class="nav-sidebar__section-summary">Getting Started</summary>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/getting-started/structure">Structure</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/getting-started/personas">Personas</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/getting-started/contributing">Contributing</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/getting_started/structure">Structure</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/getting_started/personas">Personas</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/getting_started/contributing">Contributing</nuxt-link>
         </details>
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/styles/')">
