@@ -146,7 +146,7 @@
           <blockquote>
             <p>"..not aware of GitLab's powerful CI or our omnibus install of Mattermost...It would be nice to have a tutorial type walkthrough available when a new user logs in on how to get started with all these features. AutoDevOps may solve some of this, but GitLab has many powerful features wrapped up into it and some [teams] may just think that it is only a Git repo similar to GitHub."</p>
           </blockquote>
-          <p>He states that there has been: "a sluggishness o</p>
+          <p>He states that there has been: "a sluggishness of others to adapt" and it's "a low-effort adaptation at that."</p>
           <h2>Goals</h2>
           <ul>
             <li>To save time. One of the reasons Matthieu moved his company to GitLab was to reduce the effort it took him to manage and configure multiple tools, thus saving him time. He has to balance his day job in addition to managing the company's GitLab installation and onboarding new teams to GitLab.</li>
