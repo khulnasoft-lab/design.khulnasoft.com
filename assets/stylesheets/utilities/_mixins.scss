@@ -1,17 +1,4 @@
 /*
- * Box Shadow
- */
-
-@mixin box-shadow($values) {
-  @if $values = 'default' {
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-  @if $values = 'default inset' {
-    box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
-  }
-}
-
-/*
  * Centering
  */
 
