@@ -18,10 +18,12 @@
   },
   "devDependencies": {
     "babel-preset-vue": "^1.2.1",
+    "sass-lint": "^1.12.1",
     "webpack": "^3.10.0"
   },
   "scripts": {
     "start": "PORT=2018 nuxt",
-    "build": "NODE_ENV=production nuxt generate"
+    "build": "NODE_ENV=production nuxt generate",
+    "lint": "sass-lint assets/**/*.scss --verbose"
   }
 }
