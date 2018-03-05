@@ -8,6 +8,10 @@
         </h1>
         <h3 class="banner__header--description f-inverted">Design guidelines and UI components for GitLab</h3>
       </div>
+      <img
+        src="../assets/images/cover.png"
+        class="banner__image"
+      >
       <div class="overlay"></div>
     </div>
     <div class="content limited">

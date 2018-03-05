@@ -1,42 +1,52 @@
 .banner {
   height: 450px;
   position: relative;
-  background: url(../../assets/images/cover.png) 50% 50%/cover;
+  overflow: hidden;
+}
 
-  .banner__header {
-    @include center(both);
-    width: 100%;
-    z-index: $z-index-header;
+.banner__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+}
 
-    .banner__header--title {
-      letter-spacing: 2px;
-      margin-bottom: $gl-spacing-3;
-    }
+.banner__header {
+  @include center(both);
+  width: 100%;
+  z-index: $z-index-header;
 
-    .banner__header--description {
-      font-weight: $font-weight--normal;
-    }
+  .banner__header--title {
+    letter-spacing: 2px;
+    margin-bottom: $gl-spacing-3;
   }
 
-  .overlay {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(135deg, rgba($blue-800,0.75) 0%,rgba($blue-950,0.9) 100%);
+  .banner__header--description {
+    font-weight: $font-weight--normal;
   }
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, rgba($blue-800,0.75) 0%,rgba($blue-950,0.9) 100%);
 }
 
 .principles {
   display: flex;
   flex-wrap: wrap;
-  
+
   .principle {
     display: flex;
     align-items: center;
     width: 50%;
-    
+
     &:nth-child(odd) {
       padding-right: $gl-spacing-5;
     }

@@ -85,7 +85,6 @@
 </template>
 
 <script>
-  import "../assets/stylesheets/app.scss";
   import gitlabLogo from "@gitlab-org/gitlab-svgs/dist/illustrations/gitlab_logo.svg";
 
   export default {
@@ -102,7 +101,7 @@
   }
 </script>
 
-<style>
+<style lang="scss">
   *,
   *:before,
   *:after {
@@ -113,4 +112,6 @@
     margin: 0;
     padding: 0;
   }
+
+  @import "../assets/stylesheets/app.scss";
 </style>
