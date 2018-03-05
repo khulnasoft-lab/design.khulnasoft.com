@@ -4,11 +4,11 @@
       <div class="page-header p-b-5 m-b-6 md">
         <h1>Personas</h1>
       </div>
-      <div class="persona m-b-8">
+      <div class="persona card m-b-8">
         <div class="card--header">
           <h1>Nazim Ramesh</h1>
         </div>
-        <div class="card w-header md">
+        <div class="card--body md">
           <img class="m-b-6 block" src="~/assets/images/personas/nazim-ramesh.png">
           <table class="m-b-6">
             <tbody>
@@ -78,11 +78,11 @@
           </ul>
         </div>
       </div>
-      <div class="persona m-b-8">
+      <div class="persona card m-b-8">
         <div class="card--header">
           <h1>Matthieu Poirier</h1>
         </div>
-        <div class="card w-header md">
+        <div class="card--body md">
           <img class="m-b-6 block" src="~/assets/images/personas/matthieu-poirier.png">
           <table class="m-b-6">
             <tbody>
@@ -150,20 +150,21 @@
           <h2>Goals</h2>
           <ul>
             <li>To save time. One of the reasons Matthieu moved his company to GitLab was to reduce the effort it took him to manage and configure multiple tools, thus saving him time. He has to balance his day job in addition to managing the company's GitLab installation and onboarding new teams to GitLab.</li>
-            <li>To use a platform which is easy to manage. Matthieu isn't a Systems Administrator, and when updating GitLab, creating backups, etc. He would prefer to work within GitLab's UI. Explanations / guided instructions when configuring settings in GitLab's interface would really help Matthieu. He needs reassurance that what he is about to change:</li>
-            <ol>
-              <li>is the correct setting</li>
-              <li>will provide him with the desired result he wants.</li>
-            </ol>
+            <li>To use a platform which is easy to manage. Matthieu isn't a Systems Administrator, and when updating GitLab, creating backups, etc. He would prefer to work within GitLab's UI. Explanations / guided instructions when configuring settings in GitLab's interface would really help Matthieu. He needs reassurance that what he is about to change:
+              <ol>
+                <li>is the correct setting</li>
+                <li>will provide him with the desired result he wants.</li>
+              </ol>
+            </li>
             <li>Matthieu needs to educate his colleagues about GitLab. Matthieu's colleagues won't adopt GitLab as they're unaware of its capabilities and the positive impact it could have on their work. Matthieu needs support in getting this message across to them.</li>
           </ul>
         </div>
       </div>
-      <div class="persona m-b-8">
+      <div class="persona card m-b-8">
         <div class="card--header">
           <h1>James Mackey</h1>
         </div>
-        <div class="card w-header md">
+        <div class="card--body md">
           <img class="m-b-6 block" src="~/assets/images/personas/james-mackey.png">
           <table class="m-b-6">
             <tbody>
@@ -225,11 +226,11 @@
           </ul>
         </div>
       </div>
-      <div class="persona">
+      <div class="persona card">
         <div class="card--header">
           <h1>Karolina Plaskaty</h1>
         </div>
-        <div class="card w-header md">
+        <div class="card--body md">
           <img class="m-b-6 block" src="~/assets/images/personas/karolina-plaskaty.png">
           <table class="m-b-6">
             <tbody>

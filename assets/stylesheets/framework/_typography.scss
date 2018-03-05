@@ -45,8 +45,11 @@ a {
     margin-bottom: 0;
   }
 
-  ul, ol { @include type-scale(0, 1.5, 3) };
-  li + ol, li + ul { margin-bottom: 0; };
+  ul, ol { 
+    @include type-scale(0, 1.5, 3) 
+
+    ul, ol { margin-bottom: 0; }
+  };
 
   blockquote {
     @include type-scale(0, 1.5, 3);
