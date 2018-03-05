@@ -1,10 +1,7 @@
 # Linter Documentation:
 # https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md
 
-scss_files: 'app/assets/stylesheets/**/*.scss'
-
-exclude:
-  - 'app/assets/stylesheets/pages/emojis.scss'
+scss_files: 'assets/stylesheets/**/*.scss'
 
 linters:
   # Reports when you use improper spacing around ! (the "bang") in !default,
@@ -122,7 +119,7 @@ linters:
   # Avoid nesting selectors too deeply.
   NestingDepth:
     enabled: true
-    max_depth: 6
+    max_depth: 2
 
   # Always use placeholder selectors in @extend.
   PlaceholderInExtend:
