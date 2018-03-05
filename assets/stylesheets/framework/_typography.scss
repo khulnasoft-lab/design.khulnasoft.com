@@ -44,6 +44,8 @@ a {
   p:last-child {
     margin-bottom: 0;
   }
+
+  ul, ol { @include type-scale(0, 1.5, 3) };
 }
 
 /* MD Issuable Typography */
