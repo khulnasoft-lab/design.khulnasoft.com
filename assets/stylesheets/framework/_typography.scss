@@ -52,10 +52,10 @@ a {
 
 .md.compact {
 
-  h1 { @include type-scale(7, 2, 1)   };
-  h2 { @include type-scale(5, 2, 1)   };
-  h3 { @include type-scale(3, 1.5, 1) };
-  h4 { @include type-scale(1, 1.5, 1) };
+  h1 { @include type-scale(5, 2, 1)   };
+  h2 { @include type-scale(3, 1.5, 1) };
+  h3 { @include type-scale(1, 1.5, 1) };
+  h4 { @include type-scale(0, 1, 1)   };
   h5 { @include type-scale(0, 1, 1)   };
   h6 { @include type-scale(0, 1, 1)   };
   p  { @include type-scale(0, 1.5, 3) };
