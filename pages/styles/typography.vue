@@ -1,16 +1,14 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="typography md">
-      <div class="page-header p-b-5 m-b-6">
-        <h1>Typography</h1>
-      </div>
+      <h1>Typography</h1>
       <h2>Typeface</h2>
       <p>GitLab utilizes a system font stack. System fonts are the default fonts used by any given OS, helping performance by eliminating the need to download font files.</p>
-      <h5>Body font stack</h5>
+      <h3>Body font stack</h3>
       <p class="todo">
         # Todo: Add codeblock showing body font variable stack
       </p>
-      <h5>Monospace font stack</h5>
+      <h3>Monospace font stack</h3>
       <p class="todo">
         # Todo: Add codeblock showing monospace variable stack
       </p>
@@ -27,22 +25,18 @@
         <tbody>
           <tr>
             <td>12px</td>
-            <td class="ts-7">The platform for modern developers</td>
-          </tr>
-          <tr>
-            <td>14px</td>
             <td class="ts-6">The platform for modern developers</td>
           </tr>
           <tr>
-            <td>16px</td>
+            <td>14px</td>
             <td class="ts-5">The platform for modern developers</td>
           </tr>
           <tr>
-            <td>20px</td>
+            <td>16px</td>
             <td class="ts-4">The platform for modern developers</td>
           </tr>
           <tr>
-            <td>24px</td>
+            <td>20px</td>
             <td class="ts-3">The platform for modern developers</td>
           </tr>
           <tr>
@@ -58,12 +52,12 @@
 
       <h3>Markdown</h3>
       <p>Content written using markdown includes typography that contains fixed margins and increased line-heights to improve readability. GitLab uses two variations of typography when writing markdown: documentation markdown and compact markdown.</p>
-      <h5>Documentation markdown</h5>
+      <h4>Documentation markdown</h4>
       <p>Documentation markdown is defined as any markdown that is written outside of issuable pages, such as a README or Wiki page.</p>
       <p class="todo">
         # Todo: Show class used for markdown
       </p>
-      <h5>Compact markdown</h5>
+      <h4>Compact markdown</h4>
       <p>Within certain views, the markdown type scale is decreased in order to more closely align copy with other UI components. Compact markdown is used for descriptions and comments on issue and merge request pages.</p>
       <p class="todo">
         # Todo: Show class used for compact markdown
