@@ -38,6 +38,7 @@
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/breadcrumbs">Breadcrumbs</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/buttons">Buttons</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/code-snippets">Code Snippets</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/cursor">Cursor</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/data-tables">Data Tables</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/data-visualization">Data Visualization</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/date-picker">Date Picker</nuxt-link>
