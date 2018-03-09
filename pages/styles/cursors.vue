@@ -8,34 +8,34 @@
       <table class="do-dont m-b-6">
         <thead>
           <tr>
-            <th>Cursor type</th>
-            <th>Purpose</th>
+            <th>Cursor</th>
+            <th>Cursor type: purpose</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td align="center"><img src="~/assets/images/styles/cursors/cursors-default.png"></td>
-            <td>Default cursor</td>
+            <td><strong>Default cursor:</strong> cursor shown by default</td>
           </tr>
           <tr>
             <td align="center"><img src="~/assets/images/styles/cursors/cursors-ibeam.png"></td>
-            <td>Pointer cursor: used to indicate that you can click on an element to invoke a command or navigate, such as links and buttons</td>
+            <td><strong>Pointer cursor:</strong> used to indicate that you can click on an element to invoke a command or navigate, such as links and buttons</td>
           </tr>
           <tr>
             <td align="center"><img src="~/assets/images/styles/cursors/cursors-move.png"></td>
-            <td>Move cursor: used to indicate that you can move an element around on the screen</td>
+            <td><strong>Move cursor:</strong> used to indicate that you can move an element around on the screen</td>
           </tr>
           <tr>
             <td align="center"><img src="~/assets/images/styles/cursors/cursors-panclosed.png"></td>
-            <td>Pan cursor (opened): indicates that you can grab and move the entire canvas, affecting what is seen in the view port</td>
+            <td><strong>Pan cursor (opened):</strong> indicates that you can grab and move the entire canvas, affecting what is seen in the view port</td>
           </tr>
           <tr>
             <td align="center"><img src="~/assets/images/styles/cursors/cursors-panopened.png"></td>
-            <td>Pan cursor (closed): indicates that you are actively panning the canvas</td>
+            <td><strong>Pan cursor (closed):</strong> indicates that you are actively panning the canvas</td>
           </tr>
           <tr>
             <td align="center"><img src="~/assets/images/styles/cursors/cursors-pointer.png"></td>
-            <td>I-beam cursor: indicates that this is either text that you can select and copy, or a text field that you can click into to enter text</td>
+            <td><strong>I-beam cursor:</strong> indicates that this is either text that you can select and copy, or a text field that you can click into to enter text</td>
           </tr>
         </tbody>
       </table>
