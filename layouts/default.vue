@@ -29,7 +29,7 @@
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/grid">Grid</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/illustration">Illustration</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/typography">Typography</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/cursor">Cursor</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/cursors">Cursors</nuxt-link>
         </details>
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/components/')">
