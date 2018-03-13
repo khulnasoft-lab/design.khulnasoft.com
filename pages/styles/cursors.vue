@@ -9,7 +9,7 @@
         <thead>
           <tr>
             <th>Cursor</th>
-            <th>Cursor type: purpose</th>
+            <th>Purpose</th>
           </tr>
         </thead>
         <tbody>
