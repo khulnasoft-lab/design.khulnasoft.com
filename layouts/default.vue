@@ -81,7 +81,6 @@
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/resources/')">
           <summary class="nav-sidebar__section-summary">Resources</summary>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/resources/gitlab-ui">UI development kit</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/resources/design-repo">Design repository</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/resources/brand-ai">Brand.ai</nuxt-link>
         </details>
