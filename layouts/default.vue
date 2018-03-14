@@ -78,6 +78,11 @@
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/usability/a11y">Accessibility</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/usability/i18n">Internationalization</nuxt-link>
         </details>
+
+        <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/resources/')">
+          <summary class="nav-sidebar__section-summary">Resources</summary>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/resources/design-resources">Design resources</nuxt-link>
+        </details>
       </div>
     </nav>
     <div :class="contentWrapper"> <nuxt /> </div>
