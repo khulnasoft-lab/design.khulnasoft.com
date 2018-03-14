@@ -16,7 +16,7 @@
       </p>
 
       <h2>Typescale</h2>
-      <p>The default typography uses line-heights that align with our UI components. Margins are not included to allow for easier alignment with other UI elements. The following scale is used throughout the application:</p>
+      <p>The default typography uses line-heights that align with our UI components. The following scale is used throughout the application:</p>
       <table class="type-scale m-b-6">
         <thead>
           <tr>
