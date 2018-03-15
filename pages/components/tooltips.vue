@@ -12,20 +12,6 @@
       </ul>
       <h2>Usage</h2>
       <p>Tooltips shouldn’t repeat information that is shown near the referring element. However, they can show the same data in a different format (e.g. date or timestamps).</p>
-      <table class="do-dont m-b-6">
-        <thead>
-          <tr>
-            <th>Do</th>
-            <th>Don't</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Primary button</td>
-            <td>The primary call to action on the page.</td>
-          </tr>
-        </tbody>
-      </table>
       <h2>Placement</h2>
       <p>By default, tooltips should be placed below the referring element. However, if there isn’t enough space in the viewport, the tooltip should be moved to the side as needed.</p>
     </div>
