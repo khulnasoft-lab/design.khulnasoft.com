@@ -4,5 +4,5 @@ bundle.js
 dist/
 .nuxt
 .DS_Store
-
+public/
 public/style.css
