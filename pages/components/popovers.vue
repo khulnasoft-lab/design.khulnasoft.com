@@ -19,7 +19,7 @@
       <p>8px top and bottom should be applied to the content of every popover.</p>
       <p>If a header is used, the header content should also have 8px applied to both the top and bottom.</p>
       <h2>Placement</h2>
-      <p>By default, popovers should be placed below the referring element. However, if there isn’t enough space in the viewport or it blocks related content, the popover should be moved to the side or above as needed.</p>
+      <p>By default, popovers are placed below the referring element. However, when there isn’t enough space in the viewport, the popover is moved to the side or above as needed. If it blocks related content, the preferred popover placement can be manually set.</p>
       <h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
       <h2>Related patterns</h2>
