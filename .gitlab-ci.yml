@@ -12,3 +12,14 @@ pages:
   only:
   - master
 
+artifact-review-app:
+  stage: deploy
+  script:
+    - npm install -g yarn
+    - yarn
+    - yarn run build
+  artifacts:
+    paths:
+    - public
+  except:
+  - master
