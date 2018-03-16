@@ -26,8 +26,8 @@
       <ol>
         <li>Choose an issue to work on. If one does not exist, please review the contribution guidelines regarding creating a new one. This opens the conversation and allows feedback to happen early, preventing risks such as duplicated or unnecessary work. It can be helpful to comment in the issue to verify that no one is working on it and that the issue is still relevant.</li>
         <li>Fork <a href="https://gitlab.com/gitlab-org/design.gitlab.com" target="_blank">this project</a>.</li>
-        <li>Make changes reflecting the issue you’ve chosen to work on.</li>
-        <li>Create a merge request. The earlier you open a merge request, the sooner you can get feedback. You can mark it as a Work in Progress to signal that you’re not done yet.</li>
+        <li>Make changes reflecting the issue you've chosen to work on.</li>
+        <li>Create a merge request. The earlier you open a merge request, the sooner you can get feedback. You can mark it as a Work in Progress to signal that you're not done yet.</li>
         <li>Get your merge request approved. If your changes involved a new guideline or UX paradigm, then ping a <a href="https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com" target="_blank">UX reviewer or maintainer</a> to approve your changes. If your changes involve an update to frontend implementation, ping a <a href="https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com" target="_blank">frontend reviewer or maintainer</a> to approve. Some merge requests will require both a UX and frontend approver.</li>
         <li>Get your changes merged! After the necessary approvals have been added, a UX or frontend maintainer can then merge your merge request. 🙌</li>
       </ol>
