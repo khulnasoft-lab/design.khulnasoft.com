@@ -14,7 +14,7 @@
       <h2>Layout</h2>
       <p>Tooltips contain 8px padding on both the top and bottom and 12px padding on both the left and right.</p>
       <h2>Placement</h2>
-      <p>By default, popovers are placed below the referring element. However, when there isn’t enough space in the viewport, the popover is moved to the side or above as needed. If it blocks related content, the preferred popover placement can be manually set.</p>
+      <p>By default, tooltips are placed below the referring element. However, when there isn’t enough space in the viewport, the tooltip is moved to the side or above as needed. If it blocks related content, the preferred tooltip placement can be manually set.</p>
       <h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
       <h2>Related patterns</h2>
