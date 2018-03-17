@@ -9,7 +9,7 @@
       <h2>Usage</h2>
       <p>A popover should be used:</p>
       <ol>
-        <li>When you don't want to let the user lose context, but still want to provide additional useful unique information about referring elements.
+        <li>When you don't want to let the user lose context, but still want to provide additional useful unique information about referring elements.</li>
         <li>When it isn’t critical for the user to act upon the information.</li>
         <li>When you want to give a user a summary of extended information and the option to switch context if they want to dive in deeper.</li>
       </ol>
