@@ -45,7 +45,7 @@ a {
     margin-bottom: 0;
   }
 
-  ul, ol { @include type-scale(0, 1.5, 3) };
+  ul, ol, dl { @include type-scale(0, 1.5, 3) };
 }
 
 /* MD Issuable Typography */
