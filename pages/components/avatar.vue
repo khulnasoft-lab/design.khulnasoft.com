@@ -12,6 +12,8 @@
       <p>Some features require the display of multiple avatars, side by side. If there is enough space, they should be displayed in a grid pattern. In tighter places, avatars may overlap one another.</p>
       <h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
+      <h2>Design specifications</h2>
+      <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link: <a href="#">Sketch Measure Preview for avatars</a></p>
       <h2>Related patterns</h2>
       <ul>
       </ul>
