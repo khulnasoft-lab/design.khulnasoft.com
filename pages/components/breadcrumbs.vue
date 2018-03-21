@@ -25,7 +25,7 @@
             <td>Break breadcrumbs up onto separate lines.</td>
           </tr>
           <tr>
-            <td>Use ellipses to hide multiple groups when there are more than three.</td>
+            <td>Use ellipses to hide multiple subgroups when there are more than three.</td>
             <td>Show more than three subgroups by default.</td>
           </tr>
           <tr>

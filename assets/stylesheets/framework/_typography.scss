@@ -45,10 +45,27 @@ a {
     margin-bottom: 0;
   }
 
+<<<<<<< HEAD
   ul, ol, dl { @include type-scale(0, 1.5, 3) };
+=======
+  ul, ol { 
+    @include type-scale(0, 1.5, 3) 
+
+    ul, ol { margin-bottom: 0; }
+  };
+
+  blockquote {
+    @include type-scale(0, 1.5, 3);
+    margin-left: $gl-spacing-5;
+    margin-right: $gl-spacing-5;
+    background: $gray-50;
+    border-left: ($border-width * 2) solid $border-color;
+    padding: $gl-spacing-5;
+  }
+>>>>>>> master
 }
 
-/* MD Issuable Typography */
+/* MD compact Typography */
 
 .md.compact {
 
