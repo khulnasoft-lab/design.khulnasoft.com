@@ -44,7 +44,9 @@
       <!-- 
         DESIGN SPECIFICATIONS, add a link here to the component-specific sketch-measure preview.
         All design specifications should live in the design repo under 'hosted/design-gitlab-specs/COMPONENTNAME-spec-previews'
-        This must ALWAYS be included.
+        *** If there are max-width, min-width, or other specs that should be known about this component, 
+        please add it in Sketch Measur via a note.
+        This link must ALWAYS be included.
       -->
       <h2>Design specifications</h2>
       <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p>
