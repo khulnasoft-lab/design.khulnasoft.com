@@ -13,15 +13,13 @@
         <li>When it isn’t critical for the user to act upon the information.</li>
         <li>When you want to give a user a summary of extended information and the option to switch context if they want to dive in deeper.</li>
       </ol>
-      <h2>Dimensions</h2>
-      <p>The dimensions of a tooltip are dependent on its contents with a max-width of 276px.</p>
-      <h2>Layout</h2>
-      <p>8px top and bottom should be applied to the content of every popover.</p>
-      <p>If a header is used, the header content should also have 8px applied to both the top and bottom.</p>
       <h2>Placement</h2>
       <p>By default, popovers are placed below the referring element. However, when there isn’t enough space in the viewport, the popover is moved to the side or above as needed. If it blocks related content, the preferred popover placement can be manually set.</p>
       <h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
+      <h2>Design specifications</h2>
+      <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:    <a href="https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/popover-spec-previews/">Sketch Measure Preview for Popovers</a></p>
+   
       <h2>Related patterns</h2>
       <ul>
         <li><a href="/components/tooltips">Tooltips</a></li>
