@@ -136,7 +136,7 @@
           </tr>
           <tr>
             <td>Admin Area > Label > Edit</td>
-            <td>Admin Area > Labels ><strong>Edit Label</strong></td>
+            <td>Admin Area > Labels > <strong>Edit Label</strong></td>
           </tr>
         </tbody>
       </table>
