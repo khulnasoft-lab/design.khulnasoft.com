@@ -47,7 +47,7 @@
       <h5>Truncation</h5>
       <p>Breadcrumbs should use the following rules to truncate items:</p>
       <ul>
-        <li>Use an ellipsis button to hide groups when there are three or more groups in the path.</li>
+        <li>Use an ellipsis button to hide groups when there are three or more subgroups in the path.</li>
         <li>Use an ellipsis button to hide all Wiki page breadcrumb items except the current page.</li>
         <li>The top-level group and the group closest to the project are never collapsed.</li>
         <li>All breadcrumb items except the last one are truncated to 128px if there isn't enough horizontal space to fit them on one line.</li>
