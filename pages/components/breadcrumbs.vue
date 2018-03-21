@@ -53,7 +53,7 @@
         <li>All breadcrumb items except the last one are truncated to 128px if there isn't enough horizontal space to fit them on one line.</li>
       </ul>
       <h5>Special breadcrumbs</h5>
-      <p>Certain pages have special breadcrumb paths to make the breadcrumb labels intuitive. These are refined as follows:</p>
+      <p>Certain pages have special breadcrumb paths to make the breadcrumb labels intuitive. These are defined as follows:</p>
       <table class="do-dont m-b-6">
         <thead>
           <tr>
