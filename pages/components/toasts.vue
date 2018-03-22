@@ -6,7 +6,7 @@
       </div>
       <p>Toasts are used to display system messages. The messages are short and straightforward. It may contain a dismiss button, and an action button depending on the situation. </p>
       <h2>Usage</h2>
-      <p>Toasts appear with an ease-in animation from the bottom and display at the left-bottom of the screen. Users can exit the toast by clicking the “Dismiss” button. If left alone, toasts automatically disappear with ease-out animation after a specific length of time.</p>
+      <p>Toasts appear with an ease-in animation from the bottom and display at the left-bottom of the screen. Users can exit the toast by clicking the “Dismiss” button. If left alone, toasts will automatically disappear after a short length of time. Hovering over a disappearing toast will cause it to remain until the cursor is moved.</p>
       <h5>Dos and Dont's</h5>
       <table class="do-dont m-b-6">
         <thead>
@@ -22,7 +22,7 @@
           </tr>
           <tr>
             <td>Add a "Dismiss" button and an additional action button if appropriate.</td>
-            <td>Add more than one extra button other than a "Dismiss" button.</td>
+            <td>Add more than one extra button in addition to the "Dismiss" button.</td>
           </tr>
           <tr>
             <td>Always show a dismiss button.</td>
@@ -61,25 +61,33 @@
           </tr>
         </tbody>
       </table>
-      <h5>Mobile</h5>
+      <h5>Mobile toasts</h5>
+      <p>There are some adjustments necessary for toasts displayed on smaller screens.</p>
+      <p class="todo">Todo: Add an example of a live component related to mobile guidelines</p>
       <ul>
           <li>The width of the toast is full (100%).</li> 
           <li>The toast does not have rounded corners.</li>
           <li>If the message has only one line and the only action is to dismiss, the toasts retain the dismiss icon.</li>
-          <li>If the message wraps onto another line:
-              <ul>
-                  <li>If there's a dismiss and a custom action, put them below the message, aligned to the right, with the “Dismiss” action first.</li>
-                  <li>If there is only a custom action (no dismiss action) and the text wraps into another line, put the action below the message.</li>
-              </ul>
-          </li>
+          <li>If the message wraps onto another line, place the action buttons below the message, aligned to the right, with the “Dismiss” action first.</li>
       </ul>
-      <h2>Dimensions</h2>
-      <p>The dimensions of a toast are dependent on its contents with a max-width of 568px.</p>
       <h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
+      <h2>Design specifications</h2>
+      <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p>
+      <p><a href="https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/toasts-spec-previews/">Sketch Measure Preview for toasts</a></p>
+      <h2>Animation Specifications</h2>
+      <p>The animation for this component can be viewed using the following link:</p>
+      <p><a href="https://framer.cloud/GbFkF">Animation Preview for toasts</a></p>
+      <ul>
+        <li>Click the "Show" button to activate the toast.</li>
+        <li>Click the toast, the toast will disappear.</li>
+      </ul>
+      <p>Specs: Ease-in(Show up) / Ease-out (Disappear) Time: .25</p>
       <h2>Related patterns</h2>
       <ul>
         <li><a href="/components/modals">Modals</a></li>
+        <li><a href="/components/tooltips">Tooltips</a></li>
+        <li><a href="/components/popovers">Popovers</a></li>
       </ul>
     </div>
   </div>
