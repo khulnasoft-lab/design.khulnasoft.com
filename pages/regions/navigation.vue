@@ -1,9 +1,7 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="typography md">
-      <div class="page-header p-b-5 m-b-6">
-        <h1>Navigation</h1>
-      </div>
+      <h1>Navigation</h1>
       <h2>Global navigation</h2>
       <p>The items in the header include a list of pages that allow you to view global content throughout GitLab. For example, you can view your todos, issues, and merge requests across projects and groups. You can also create new groups and projects, as well as search the application.</p>
       <p class="todo">Add global navigation example</p>
