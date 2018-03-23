@@ -20,7 +20,7 @@
           <tr>
             <th>Term</th>
             <th>Use</th>
-            <th>:no_entry_sign: Don't</th>
+            <th>Don't</th>
           </tr>
         </thead>
         <tbody>
@@ -31,6 +31,11 @@
           </tr>
         </tbody>
       </table>
+      <h5>Comments &amp; Discussions</h5>
+      <h6>Comment</h6>
+      <p>A comment is a written piece of text that users of GitLab can create. Comments have the meta data of author and timestamp. Comments can be added in a variety of contexts, such as issues, merge requests, and discussions.</p>
+      <h6>Discussion</h6>
+      <p>A discussion is a group of 1 or more comments. A discussion can include subdiscussions. Some discussions have the special capability of being able to be resolved. Both the comments in the discussion and the discussion itself can be resolved.</p>
       <h4>Verbs and Adjectives</h4>
       <p>When using verbs or adjectives:</p>
       <ul>
@@ -176,7 +181,7 @@
         </tbody>
       </table>
       <h6>Verbs (actions)</h6>
-      <table>
+      <table class="m-b-6">
         <thead>
           <tr>
             <th>Term</th>
