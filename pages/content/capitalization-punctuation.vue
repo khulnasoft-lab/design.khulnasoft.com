@@ -340,6 +340,7 @@
           </tr>
         </tbody>
       </table>
+      <p>When using the Alt keystrokes in Windows, use the numeric keypad, not the row of numbers above the alphabet, and be sure Num Lock is turned on.</p>
     </div>
   </div>
 </template>
