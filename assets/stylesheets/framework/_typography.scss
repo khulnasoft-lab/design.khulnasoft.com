@@ -9,13 +9,12 @@ h1, h2, h3, h4, h5, h6 { font-weight: $font-weight--bold; }
 
 /* UI Typography */
 
-h1 { @include type-scale(7, 2)   }
-h2 { @include type-scale(5, 1.5) }
-h3 { @include type-scale(3)      }
-h4 { @include type-scale(1)      }
-h5 { @include type-scale(0)      }
-h6 { @include type-scale(0)      }
-p  { @include type-scale(0)      }
+h1 { @include type-scale(7, 5) }
+h2 { @include type-scale(3, 4) }
+h3 { @include type-scale(1, 3) }
+h4 { @include type-scale(0, 3) }
+h5 { @include type-scale(0, 3) }
+h6 { @include type-scale(0, 3) }
 
 a {
   text-decoration: none;
@@ -26,6 +25,7 @@ a {
   }
 }
 
+.label { @include type-scale(0, 2) }
 .f-display { @include type-scale(14,3) }
 .f-small { @include type-scale(-1) }
 
@@ -45,18 +45,15 @@ a {
     box-shadow: 0 1px 0 $gray-300;
   }
 
-  h3 { @include type-scale(3, 4, 1)   }
+  h3 { @include type-scale(3, 4, 1) }
   h4 { @include type-scale(1, 3, 1) }
   h5 { @include type-scale(0, 3, 1) }
   h6 { 
     @include type-scale(0, 3, 1);
     color: $text-color--secondary;
   }
-  p  { @include type-scale(1, 3, 3, 0) }
 
-  p:last-child {
-    margin-bottom: 0;
-  }
+  p  { @include type-scale(1, 3, 2, 0) }
 
   ul, ol { 
     @include type-scale(0, 1.5, 3);
@@ -83,30 +80,54 @@ a {
     box-shadow: none;
     padding: 0;
   }
+
   h2 {
-    @include type-scale(3, 4, 1)
+    @include type-scale(3, 4, 1);
     box-shadow: none;
     padding: 0;
   }
-  h3 { @include type-scale(1, 3, 1) }
-  h4 { @include type-scale(0, 3, 1) }
-  h5 { @include type-scale(0, 3, 1) }
-  h6 { @include type-scale(0, 3, 1) }
-  p  { @include type-scale(0, 3, 3, 0) }
 
-  p:last-child {
-    margin-bottom: 0;
+  h3 { @include type-scale(1, 3, 1)    }
+  h4 { @include type-scale(0, 3, 1)    }
+  h5 { @include type-scale(0, 3, 1)    }
+  h6 { @include type-scale(0, 3, 1)    }
+  p  { @include type-scale(0, 3, 2, 0) }
+}
+
+/*Distributed UI Typography */
+
+.distributed {
+
+  h1 { 
+    @include type-scale(7, 5, 2)
+    box-shadow: none;
+    padding: 0;
   }
+
+  h2 { @include type-scale(3, 4, 1)
+    box-shadow: none;
+    padding: 0;
+  }
+
+  h3 { @include type-scale(1, 3, 1)    }
+  h4 { @include type-scale(0, 3, 1)    }
+  h5 { @include type-scale(0, 3, 1)    }
+  h6 { @include type-scale(0, 3, 1)    }
+  p  { @include type-scale(0, 3, 2, 0) }
 }
 
 /* Type scale */
 
-.ts-1 { @include type-scale(14, 6)  }
-.ts-2 { @include type-scale(7, 5)   }
-.ts-3 { @include type-scale(3, 4) }
-.ts-4 { @include type-scale(1, 3) }
-.ts-5 { @include type-scale(0, 3)      }
-.ts-6 { @include type-scale(-1, 2)     }
+.ts-1 { @include type-scale(14, 6) }
+.ts-2 { @include type-scale(7, 5)  }
+.ts-3 { @include type-scale(3, 4)  }
+.ts-4 { @include type-scale(1, 3)  }
+.ts-5 { @include type-scale(0, 3)  }
+.ts-6 { @include type-scale(-1, 2) }
+
+p:last-child {
+  margin-bottom: 0;
+}
 
 /* Type alignment */
 

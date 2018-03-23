@@ -9,7 +9,7 @@
       <p>We include 12px as one of our measures but it should only be reserved for right and left padding of horizontal tabs, buttons, and inputs. This special padding amount allows for better alignment of stacked items while giving elements enough room to breathe. 12px should not be using for any other measurement other than those defined here.</p>
       <h2>Demo</h2>
       <div class="measures m-b-6">
-        <div class="w-1 h-1 c-blue-background-300 d-inline-block"></div>
+        <span class="w-1 h-1 c-blue-background-300 d-inline-block"></span>
         <span class="w-2 h-2 c-blue-background-300 d-inline-block"></span>
         <span class="w-3 h-3 c-blue-background-300 d-inline-block"></span>
         <span class="w-4 h-4 c-blue-background-300 d-inline-block"></span>
