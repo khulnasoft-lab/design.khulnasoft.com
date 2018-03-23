@@ -72,6 +72,7 @@
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/voice-tone">Voice &amp; Tone</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/terminology">Terminology</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/punctuation">Punctuation</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/discovery-links">Discovery links</nuxt-link>
         </details>
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/usability/')">
