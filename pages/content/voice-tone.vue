@@ -13,6 +13,24 @@
       <p><strong>Example:</strong> Use <strong><em>Add</em></strong> instead of <strong><em>Add issue</em></strong> as a button label. Preferably use context and placement of controls to make it obvious what clicking on them will do.</p>
       <h2>Terminology</h2>
       <p>The following are common terms you will find throughout GitLab. For clear and consistent communication, it is important to use the correct terms.</p>
+      <h4>Nouns</h4>
+      <h5>Projects and Groups</h5>
+      <table class="m-b-6">
+        <thead>
+          <tr>
+            <th>Term</th>
+            <th>Use</th>
+            <th>:no_entry_sign: Don't</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Members</td>
+            <td>When discussing the people who are a part of a project or a group.</td>
+            <td>Don't use <em>users</em>.</td>
+          </tr>
+        </tbody>
+      </table>
       <h4>Verbs and Adjectives</h4>
       <p>When using verbs or adjectives:</p>
       <ul>
