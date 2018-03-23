@@ -1,9 +1,7 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
-      <div class="page-header p-b-5 m-b-6">
-        <h1>Popovers</h1>
-      </div>
+      <h1>Popovers</h1>
       <p>Popovers are used to provide supplemental, useful, unique information about an element, including one or multiple actionable elements. They inform the user of additional information within the context of their original view, but without forcing the user to act upon it like a modal. Popovers are different from <a href="/components/tooltips">tooltips</a>, which do not provide rich markup and actionable items. Additionally, a popover can contain a header section with a different background color and images if needed.</p>
       <p>Popovers fade in upon hover or touch of its trigger element. They fade out upon interacting with an area or element outside of the popover or its trigger, or on a delay of the cursor moving outside the popover or its trigger element.</p>
       <h2>Usage</h2>

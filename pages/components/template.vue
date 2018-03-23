@@ -1,9 +1,7 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
-      <div class="page-header p-b-5 m-b-6">
-        <h1>Component name</h1>
-      </div>
+      <h1>Component name</h1>
       <p>Component overview. A brief explanation of what the component is.</p>
       <h2>Usage</h2>
       <p>A summary of when and how the component is used.</p>
@@ -33,7 +31,7 @@
         SUB SECTIONS, use these to highlight component specific rules. You can add as many sub-sections as needed, use your best judgement
         e.g. truncation rules
       -->
-      <h5>Sub section</h5>
+      <h3>Sub section</h3>
       <p>A summary of a specific usage guideline.</p>
       <p class="todo">An example of a live component to add related to a usage guideline</p>
       <!-- 
