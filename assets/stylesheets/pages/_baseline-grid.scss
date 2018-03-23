@@ -1,0 +1,26 @@
+.baseline {
+  position: relative;
+  padding: 0 $gl-spacing-5;
+  z-index: 0;
+  border: $border-width solid $gray-100;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:after {
+    position: absolute;
+    width: auto;
+    height: auto;
+    content: '';
+    display: block;
+    pointer-events: none;
+    top: -1px;
+    right: 0;
+    bottom: 1px;
+    left: 0;
+    background-image: linear-gradient($gray-100 1px, transparent 1px);
+    background-size: 100% 8px;
+    z-index: 1;
+  }
+}
