@@ -1,9 +1,7 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
-      <div class="page-header p-b-5 m-b-6">
-        <h1>Voice and tone</h1>
-      </div>
+      <h1>Voice and tone</h1>
       <p>The copy for GitLab is clear and direct. We strike a clear balance between professional and friendly. We can empathize with users (such as celebrating completing all Todos) and remain respectful of the importance of the work. We are a trusted and friendly coworker, helpful and understanding.</p>
       <p>The copy and messaging is a core part of the experience of GitLab and the conversation with our users. Follow the below conventions throughout GitLab.</p>
       <p>Portions of this page are inspired by work found in the <a href="https://material.io/guidelines/">Material Design guidelines.</a></p>
