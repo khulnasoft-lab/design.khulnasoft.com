@@ -39,6 +39,7 @@
       <ul>
         <li>If the context clearly refers to the object, use them alone. <strong>Example:</strong> Edit or Closed</li>
         <li>If the context isn’t clear enough, use them with the object. <strong>Example:</strong> Edit issue or Closed issues</li>
+        <li>Destruction buttons should be clear and always say what they are destroying. <strong>Example:</strong> Delete page instead of just Delete.</li>
       </ul>
       <h4>Search</h4>
       <table class="m-b-6">

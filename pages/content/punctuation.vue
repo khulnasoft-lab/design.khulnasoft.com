@@ -1,8 +1,7 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
-      <h1>Capitalization &amp; Punctuation</h1>
-      <p>Component overview. A brief explanation of what the component is.</p>
+      <h1>Punctuation</h1>
       <h2>Case</h2>
       <p>Use sentence case for titles, headings, labels, menu items, and buttons. Use title case when referring to <a href="https://about.gitlab.com/features/">features</a> or <a href="https://about.gitlab.com/products/">products</a>. Note that some features are also objects (e.g. “Merge Requests” and “merge requests”).</p>
       <table class="do-dont m-b-6">

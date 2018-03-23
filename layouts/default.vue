@@ -70,7 +70,7 @@
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/content/')">
           <summary class="nav-sidebar__section-summary">Content</summary>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/voice-tone">Voice &amp; Tone</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/capitalization-punctuation">Capitalization &amp; Punctuation</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/punctuation">Punctuation</nuxt-link>
         </details>
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/usability/')">
