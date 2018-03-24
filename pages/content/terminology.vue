@@ -3,37 +3,32 @@
     <div class="component md">
       <h1>Terminology</h1>
       <p>The following are common terms you will find throughout GitLab. For clear and consistent communication, it is important to use the correct terms.</p>
-      <h3>Nouns</h3>
-      <h4>Projects and Groups</h4>
-      <table class="m-b-6">
-        <thead>
-          <tr>
-            <th>Term</th>
-            <th>Use</th>
-            <th>Don't</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Members</td>
-            <td>When discussing the people who are a part of a project or a group.</td>
-            <td>Don't use <em>users</em>.</td>
-          </tr>
-        </tbody>
-      </table>
+      <h2>Nouns</h2>
+      <h3>Projects &amp; Groups</h3>
+      <h4>Project</h4>
+      <p>A project is where you house your files (repository), plan your work (issues), and publish your documentation (wiki).</p>
+      <h4>Group</h4>
+      <p>Groups allow you to assemble related projects together and grant members access to several projects at once. Groups can also be nested in subgroups.</p>
+      <h4>Members</h4>
+      <p>Use the term members when discussing the people who are a part of a project or a group. Don't use the term users.</p>
+      <h4>Roles</h4>
+      <p>Users have different abilities depending on the access level they have in a particular group or project. These permission levels are defined under a set of roles. These roles include administrator, owner, master, developer, reporter, guest.</p>
       <h3>Comments &amp; Discussions</h3>
       <h4>Comment</h4>
       <p>A comment is a written piece of text that users of GitLab can create. Comments have the meta data of author and timestamp. Comments can be added in a variety of contexts, such as issues, merge requests, and discussions.</p>
       <h4>Discussion</h4>
       <p>A discussion is a group of 1 or more comments. A discussion can include subdiscussions. Some discussions have the special capability of being able to be resolved. Both the comments in the discussion and the discussion itself can be resolved.</p>
-      <h3>Verbs and Adjectives</h3>
+      <h2>Verbs and Adjectives</h2>
       <p>When using verbs or adjectives:</p>
-      <ul>
-        <li>If the context clearly refers to the object, use them alone. <strong>Example:</strong> Edit or Closed</li>
-        <li>If the context isn’t clear enough, use them with the object. <strong>Example:</strong> Edit issue or Closed issues</li>
-        <li>Destruction buttons should be clear and always say what they are destroying. <strong>Example:</strong> Delete page instead of just Delete.</li>
-      </ul>
-      <h4>Search</h4>
+      <dl>
+        <dt class="p-b-5"><p>If the context clearly refers to the object, use them alone.</p></dt>
+        <dd class="p-t-5 p-b-5"><p><strong>Example:</strong> Edit or Closed</p></dd>
+        <dt class="p-t-5 p-b-5"><p>If the context isn’t clear enough, use them with the object.</p></dt>
+        <dd class="p-t-5 p-b-5"><p><strong>Example:</strong> Edit issue or Closed issues</p></dd>
+        <dt class="p-t-5 p-b-5"><p>Destruction buttons should be clear and always say what they are destroying.</p></dt>
+        <dd class="p-t-5 p-b-5"><p><strong>Example:</strong> Delete page instead of just Delete.</p></dd>
+      </dl>
+      <h3>Search</h3>
       <table class="m-b-6">
         <thead>
           <tr>
@@ -56,8 +51,9 @@
           </tr>
         </tbody>
       </table>
-      <h4>Issues</h4>
-      <h5>Adjectives (states)</h5>
+      <h3>Issues</h3>
+      <p>Issues can have endless applications. They allow you, your team, and your collaborators to share and discuss proposals before and while implementing them.</p>
+      <h4>Adjectives (states)</h4>
       <table class="m-b-6">
         <thead>
           <tr>
@@ -68,19 +64,19 @@
         <tbody>
           <tr>
             <td>Open</td>
-            <td>Don’t use <strong>Pending</strong> or <strong>Created</strong></td>
+            <td>Don’t use <em>Pending</em> or <em>Created</em></td>
           </tr>
           <tr>
             <td>Closed</td>
-            <td>Don’t use <strong>Archived</strong></td>
+            <td>Don’t use <em>Archived</em></td>
           </tr>
           <tr>
             <td>Deleted</td>
-            <td>Don’t use <strong>Removed</strong> or <strong>Trashed</strong></td>
+            <td>Don’t use <em>Removed</em> or <em>Trashed</em></td>
           </tr>
         </tbody>
       </table>
-      <h5>Verbs (actions)</h5>
+      <h4>Verbs (actions)</h4>
       <table class="m-b-6">
         <thead>
           <tr>
@@ -154,8 +150,9 @@
           </tr>
         </tbody>
       </table>
-      <h4>Merge Requests</h4>
-      <h5>Adjectives (states)</h5>
+      <h3>Merge Requests</h3>
+      <p>Merge requests allow you to exchange changes you made to source code and collaborate with other people on the same project.</p>
+      <h4>Adjectives (states)</h4>
       <table class="m-b-6">
         <thead>
           <tr>
@@ -171,7 +168,7 @@
           </tr>
         </tbody>
       </table>
-      <h5>Verbs (actions)</h5>
+      <h4>Verbs (actions)</h4>
       <table class="m-b-6">
         <thead>
           <tr>
