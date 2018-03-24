@@ -18,6 +18,13 @@
       <p>A comment is a written piece of text that users of GitLab can create. Comments have the meta data of author and timestamp. Comments can be added in a variety of contexts, such as issues, merge requests, and discussions.</p>
       <h4>Discussion</h4>
       <p>A discussion is a group of 1 or more comments. A discussion can include subdiscussions. Some discussions have the special capability of being able to be resolved. Both the comments in the discussion and the discussion itself can be resolved.</p>
+      <h3>Issues &amp; Merge Requests</h3>
+      <h4>Issues</h4>
+      <p>Issues can have endless applications. They allow you, your team, and your collaborators to share and discuss proposals before and while implementing them.</p>
+      <h4>Merge Requests</h4>
+      <p>Merge requests allow you to exchange changes you made to source code and collaborate with other people on the same project.</p>
+      <h4>Milestones</h4>
+      <p>Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time. Milestones allow you to organize issues and merge requests into a cohesive group, with an optional start date and an optional due date.</p>
       <h2>Verbs and Adjectives</h2>
       <p>When using verbs or adjectives:</p>
       <dl>
@@ -52,7 +59,6 @@
         </tbody>
       </table>
       <h3>Issues</h3>
-      <p>Issues can have endless applications. They allow you, your team, and your collaborators to share and discuss proposals before and while implementing them.</p>
       <h4>Adjectives (states)</h4>
       <table class="m-b-6">
         <thead>
@@ -151,7 +157,6 @@
         </tbody>
       </table>
       <h3>Merge Requests</h3>
-      <p>Merge requests allow you to exchange changes you made to source code and collaborate with other people on the same project.</p>
       <h4>Adjectives (states)</h4>
       <table class="m-b-6">
         <thead>
