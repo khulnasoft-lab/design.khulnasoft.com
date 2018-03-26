@@ -73,10 +73,6 @@
             <td>Group > <strong>General Settings</strong></td>
           </tr>
           <tr>
-            <td>Group > Settings > Integrations</td>
-            <td>Group > <strong>Integrations Settings</strong></td>
-          </tr>
-          <tr>
             <td>Group > Settings > CI / CD</td>
             <td>Group > <strong>CI / CD Settings</strong></td>
           </tr>
@@ -109,6 +105,10 @@
             <td>Group > Project > <strong>General Settings</strong></td>
           </tr>
           <tr>
+            <td>Group > Project > Settings > Integrations</td>
+            <td>Group > Project > <strong>Integration Settings</strong></td>
+          </tr>
+          <tr>
             <td>Group > Project > Settings > Repository</td>
             <td>Group > Project > <strong>Repository Settings</strong></td>
           </tr>
@@ -138,7 +138,7 @@
       <p class="todo">Todo: Add live component block with code example</p>
       <h2>Design specifications</h2>
       <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p>    
-      <p><a href="https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/tooltips-spec-previews/">Sketch Measure Preview for Popovers</a></p>
+      <p><a href="https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/breadcrumbs-spec-previews/">Sketch Measure Preview for breadcrumbs</a></p>
       <h2>Related patterns</h2>
       <ul>
         <li><a href="/regions/navigation">Navigation</a></li>
