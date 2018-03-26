@@ -1,9 +1,7 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
-      <div class="page-header p-b-5 m-b-6">
-        <h1>Breadcrumbs</h1>
-      </div>
+      <h1>Breadcrumbs</h1>
       <p>Breadcrumbs assist users by helping them understand their current location in relation the rest of the application. Breadcrumbs use page hierarchy to facilitate discovery without taking up too much space.</p>
       <h2>Usage</h2>
       <p>Breadcrumbs should appear on every page of the application, except for the register and profile screens. Breadcrumbs show the hierarchical progress from the highest page entity to the current page entity, one step at a time. They should not be used to replace the main navigation.</p>
