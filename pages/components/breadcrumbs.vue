@@ -7,7 +7,7 @@
       <p>Breadcrumbs assist users by helping them understand their current location in relation the rest of the application. Breadcrumbs use page hierarchy to facilitate discovery without taking up too much space.</p>
       <h2>Usage</h2>
       <p>Breadcrumbs should appear on every page of the application, except for the register and profile screens. Breadcrumbs show the hierarchical progress from the highest page entity to the current page entity, one step at a time. They should not be used to replace the main navigation.</p>
-      <h5>Dos and Dont's</h5>
+      <h3>Dos and Dont's</h3>
       <table class="do-dont m-b-6">
         <thead>
           <tr>
@@ -34,17 +34,17 @@
           </tr>
         </tbody>
       </table>
-      <h5>Individual pages</h5>
+      <h3>Individual pages</h3>
       <dl>
         <dt class="p-b-5">For pages that present the details for an individual item (issue, merge request, snippet, pipeline, job, milestone, commit, tag, environment, cluster, pipeline schedule), the last element of the breadcrumbs should include the ID for said element.</dt>
         <dd class="p-t-5 p-b-5"><strong>Example:</strong>  MR !1234 in CE becomes <em>'GitLab.org > GitLab Community Edition > Merge Requests > !1234'</em></dd>
       </dl>
-      <h5>Contextual pages</h5>
+      <h3>Contextual pages</h3>
       <dl>
         <dt class="p-b-5">For contextual pages within the navigation, the breadcrumb should only include the submenu title.</dt>
         <dd class="p-t-5 p-b-5"><strong>Example:</strong>  Overview > Details becomes just <em>'Details'</em></dd>
       </dl>
-      <h5>Truncation</h5>
+      <h3>Truncation</h3>
       <p>Breadcrumbs should use the following rules to truncate items:</p>
       <ul>
         <li>Use an ellipsis button to hide groups when there are three or more subgroups in the path.</li>
@@ -52,7 +52,7 @@
         <li>The top-level group and the subgroup closest to the project are never collapsed.</li>
         <li>All breadcrumb items except the last one are truncated to 128px if there isn't enough horizontal space to fit them on one line.</li>
       </ul>
-      <h5>Special breadcrumbs</h5>
+      <h3>Special breadcrumbs</h3>
       <p>Certain pages have special breadcrumb paths to make the breadcrumb labels intuitive. These are defined as follows:</p>
       <table class="do-dont m-b-6">
         <thead>
