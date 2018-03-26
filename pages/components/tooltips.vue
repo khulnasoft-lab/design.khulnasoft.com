@@ -12,7 +12,7 @@
       <p class="todo">Todo: Add live component block with code example</p>
       <h2>Design specifications</h2>
       <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p>
-      <p><a href="https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/tooltips-spec-previews/">Sketch Measure Preview for avatars</a></p>
+      <p><a href="https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/tooltips-spec-previews/">Sketch Measure Preview for tooltips</a></p>
       <h2>Related patterns</h2>
       <ul>
         <li><a href="/components/popovers">Popovers</a></li>
