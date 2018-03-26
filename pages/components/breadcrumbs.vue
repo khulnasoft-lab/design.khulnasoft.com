@@ -88,7 +88,7 @@
           </tr>
           <tr>
             <td>Group > Project > Repository > Compare</td>
-            <td>Group > Project > <strong>Compare Branches</strong></td>
+            <td>Group > Project > <strong>Compare Revisions</strong></td>
           </tr>
           <tr>
             <td>Group > Project > Repository > Charts</td>
@@ -109,10 +109,6 @@
           <tr>
             <td>Group > Project > Settings > General</td>
             <td>Group > Project > <strong>General Settings</strong></td>
-          </tr>
-          <tr>
-            <td>Group > Project > Settings > Integrations</td>
-            <td>Group > Project > <strong>Integration Settings</strong></td>
           </tr>
           <tr>
             <td>Group > Project > Settings > Repository</td>
