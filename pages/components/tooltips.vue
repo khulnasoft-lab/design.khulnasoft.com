@@ -1,9 +1,7 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
-      <div class="page-header p-b-5 m-b-6">
-        <h1>Tooltips</h1>
-      </div>
+      <h1>Tooltips</h1>
       <p>Tooltips identify elements or provide additional, useful information about the referring elements. Tooltips are different from ALT-attributes, which are intended primarily for static images.</p>
       <p>Tooltips fade in upon hover or touch of its trigger element. They fade out upon interacting with an area or element outside of the tooltip or its trigger, or on a delay of the cursor moving outside the tooltip or its trigger element.</p>
       <h2>Usage</h2>

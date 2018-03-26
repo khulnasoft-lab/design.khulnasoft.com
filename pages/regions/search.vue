@@ -1,9 +1,7 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="typography md">
-      <div class="page-header p-b-5 m-b-6">
-        <h1>Search</h1>
-      </div>
+      <h1>Search</h1>
       <h2>Global search</h2>
       <p><a href="https://gitlab.com/search?group_id=&project_id=13083&repository_ref=&scope=issues&search=mobile" target="_blank">Global search</a> allows you to search across items in a project, or even across multiple projects. You can switch tabs to filter on type of object, or filter by group.</p>
       <h2>List search</h2>

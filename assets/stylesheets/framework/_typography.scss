@@ -1,21 +1,21 @@
-@mixin type-scale($scale, $line-height: 1, $margin-bottom: 0) {
+@mixin type-scale($scale, $line-height: 1, $margin-bottom: 0, $margin-top: 24px) {
   font-size: #{$base-font-size + ($scale * 2) + 'px' };
   line-height: #{ $line-height * $leading + 'px' };
   margin-bottom: #{ $margin-bottom * $base-grid + 'px' };
-  margin-top: 0;
+  margin-top: $margin-top;
 }
 
 h1, h2, h3, h4, h5, h6 { font-weight: $font-weight--bold; }
 
 /* UI Typography */
 
-h1 { @include type-scale(7, 2)   };
-h2 { @include type-scale(5, 1.5) };
-h3 { @include type-scale(3)      };
-h4 { @include type-scale(1)      };
-h5 { @include type-scale(0)      };
-h6 { @include type-scale(0)      };
-p  { @include type-scale(0)      };
+h1 { @include type-scale(7, 2)   }
+h2 { @include type-scale(5, 1.5) }
+h3 { @include type-scale(3)      }
+h4 { @include type-scale(1)      }
+h5 { @include type-scale(0)      }
+h6 { @include type-scale(0)      }
+p  { @include type-scale(0)      }
 
 a {
   text-decoration: none;
@@ -26,50 +26,79 @@ a {
   }
 }
 
-.f-display { @include type-scale(14,3) };
-.f-small { @include type-scale(-1) };
+.f-display { @include type-scale(14,3) }
+.f-small { @include type-scale(-1) }
 
 /*  MD Typography */
 
 .md {
+  &:first-child {
+    margin-top: 0;
+  }
 
-  h1 { @include type-scale(14, 3, 1)  };
-  h2 { @include type-scale(7, 2, 1)   };
-  h3 { @include type-scale(5, 2, 1)   };
-  h4 { @include type-scale(3, 1.5, 1) };
-  h5 { @include type-scale(1, 1.5, 1) };
-  h6 { @include type-scale(0, 1, 1)   };
-  p  { @include type-scale(0, 1.5, 3) };
+  h1 { 
+    @include type-scale(14, 3, 2);
+    padding-bottom: $gl-spacing-5;
+    border-bottom: $border-width solid $gray-300;
+  }
+
+  h2 { 
+    @include type-scale(7, 2, 2);
+    padding-bottom: $gl-spacing-5;
+    border-bottom: $border-width solid $gray-300;
+  }
+
+  h3 { @include type-scale(3, 1.5, 1)   }
+  h4 { @include type-scale(1, 1.5, 1) }
+  h5 { @include type-scale(0, 1, 1) }
+  h6 { 
+    @include type-scale(0, 1, 1);
+    color: $text-color--secondary;
+  }
+  p  { @include type-scale(0, 1.5, 3, 0) }
 
   p:last-child {
     margin-bottom: 0;
   }
 
-  ul, ol { @include type-scale(0, 1.5, 3) };
+  ul, ol { 
+    @include type-scale(0, 1.5, 3);
+
+    ul, ol { margin-bottom: 0 }
+  }
+
+  blockquote {
+    @include type-scale(0, 1.5, 3);
+    margin-left: $gl-spacing-5;
+    margin-right: $gl-spacing-5;
+    background: $gray-50;
+    border-left: ($border-width * 2) solid $border-color;
+    padding: $gl-spacing-5;
+  }
 }
 
-/* MD Issuable Typography */
+/* MD compact Typography */
 
 .md.compact {
 
-  h1 { @include type-scale(7, 2, 1)   };
-  h2 { @include type-scale(5, 2, 1)   };
-  h3 { @include type-scale(3, 1.5, 1) };
-  h4 { @include type-scale(1, 1.5, 1) };
-  h5 { @include type-scale(0, 1, 1)   };
-  h6 { @include type-scale(0, 1, 1)   };
-  p  { @include type-scale(0, 1.5, 3) };
+  h1 { @include type-scale(7, 2, 1)   }
+  h2 { @include type-scale(5, 2, 1)   }
+  h3 { @include type-scale(3, 1.5, 1) }
+  h4 { @include type-scale(1, 1.5, 1) }
+  h5 { @include type-scale(0, 1, 1)   }
+  h6 { @include type-scale(0, 1, 1)   }
+  p  { @include type-scale(0, 1.5, 3) }
 }
 
 /* Type scale */
 
-.ts-1 { @include type-scale(14, 3)  };
-.ts-2 { @include type-scale(7, 2)   };
-.ts-3 { @include type-scale(5, 2)   };
-.ts-4 { @include type-scale(3, 1.5) };
-.ts-5 { @include type-scale(1, 1.5) };
-.ts-6 { @include type-scale(0)      };
-.ts-7 { @include type-scale(-1)     };
+.ts-1 { @include type-scale(14, 3)  }
+.ts-2 { @include type-scale(7, 2)   }
+.ts-3 { @include type-scale(5, 2)   }
+.ts-4 { @include type-scale(3, 1.5) }
+.ts-5 { @include type-scale(1, 1.5) }
+.ts-6 { @include type-scale(0)      }
+.ts-7 { @include type-scale(-1)     }
 
 /* Type alignment */
 
