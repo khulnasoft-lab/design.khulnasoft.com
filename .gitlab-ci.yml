@@ -3,12 +3,10 @@ image: node:latest
 pages:
   stage: deploy
   script:
-    - npm install -g yarn
-    - yarn
+    - yarn install
     - yarn run build
   artifacts:
     paths:
     - public
   only:
   - master
-

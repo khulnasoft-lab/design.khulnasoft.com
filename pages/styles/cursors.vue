@@ -1,9 +1,7 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
-      <div class="page-header p-b-5 m-b-6">
-        <h1>Cursors</h1>
-      </div>
+      <h1>Cursors</h1>
       <p>The mouse cursor is key in helping users understand how to interact with elements on the screen.</p>
       <table class="do-dont m-b-6">
         <thead>

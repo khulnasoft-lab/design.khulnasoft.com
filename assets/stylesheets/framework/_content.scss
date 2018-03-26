@@ -8,12 +8,8 @@
   min-width: $nav-sidebar-width * 2;
 
   &.limited {
-      max-width: $page-width;
+    max-width: $page-width;
   }
-}
-
-.page-header {
-  border-bottom: $border-width solid $border-color;
 }
 
 .todo {
