@@ -1,13 +1,11 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
-      <div class="page-header p-b-5 m-b-6">
-        <h1>Toasts</h1>
-      </div>
+      <h1>Toasts</h1>
       <p>Toasts are used to display system messages. The messages are short and straightforward. It may contain a dismiss button, and an action button depending on the situation. </p>
       <h2>Usage</h2>
       <p>Toasts appear with an ease-in animation from the bottom and display at the left-bottom of the screen. Users can exit the toast by clicking the “Dismiss” button. If left alone, toasts will automatically disappear after a short length of time. Hovering over a disappearing toast will cause it to remain until the cursor is moved.</p>
-      <h5>Dos and Dont's</h5>
+      <h3>Dos and Dont's</h3>
       <table class="do-dont m-b-6">
         <thead>
           <tr>
@@ -34,7 +32,7 @@
           </tr>
         </tbody>
       </table>
-      <h5>Toast Types</h5>
+      <h3>Toast types</h3>
       <table class="do-dont m-b-6">
         <thead>
           <tr>
@@ -61,7 +59,7 @@
           </tr>
         </tbody>
       </table>
-      <h5>Mobile toasts</h5>
+      <h3>Mobile toasts</h3>
       <p>There are some adjustments necessary for toasts displayed on smaller screens.</p>
       <p class="todo">Todo: Add an example of a live component related to mobile guidelines</p>
       <ul>
