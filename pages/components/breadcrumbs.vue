@@ -138,6 +138,9 @@
       </table>
       <h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
+      <h2>Design specifications</h2>
+      <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p>    
+      <p><a href="https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/tooltips-spec-previews/">Sketch Measure Preview for Popovers</a></p>
       <h2>Related patterns</h2>
       <ul>
         <li><a href="/regions/navigation">Navigation</a></li>
