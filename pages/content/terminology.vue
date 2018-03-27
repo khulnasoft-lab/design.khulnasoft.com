@@ -12,7 +12,7 @@
       <h4>Members</h4>
       <p>Use the term members when discussing the people who are a part of a project or a group. Don't use the term users.</p>
       <h4>Roles</h4>
-      <p>Users have different abilities depending on the access level they have in a particular group or project. These permission levels are defined under a set of roles. These roles include administrator, owner, master, developer, reporter, guest.</p>
+      <p>Users have different abilities depending on the access level they have in a particular group or project. These permission levels are defined under a set of roles. These roles include administrator, owner, master, developer, reporter, and guest.</p>
       <h3>Comments &amp; Discussions</h3>
       <h4>Comment</h4>
       <p>A comment is a written piece of text that users of GitLab can create. Comments have the meta data of author and timestamp. Comments can be added in a variety of contexts, such as issues, merge requests, and discussions.</p>
