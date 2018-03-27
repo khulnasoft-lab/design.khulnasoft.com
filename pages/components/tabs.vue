@@ -16,6 +16,7 @@
       <h2>Design specifications</h2>
       <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p> 
       <p><a href="https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/tabs-spec-previews/">Sketch Measure Preview for tabs</a></p>
+      <p class="todo">Todo: Add Sketch Measure Preview for fitted tabs</p>
       <h2>Related patterns</h2>
       <ul>
         <li><a href="../regions/navigation">Navigation</a></li>
