@@ -15,7 +15,7 @@
       <p>Users have different abilities depending on the access level they have in a particular group or project. These permission levels are defined under a set of roles. These roles include administrator, owner, master, developer, reporter, and guest.</p>
       <h3>Comments &amp; Discussions</h3>
       <h4>Comment</h4>
-      <p>A comment is a written piece of text that users of GitLab can create. Comments have the meta data of author and timestamp. Comments can be added in a variety of contexts, such as issues, merge requests, and discussions.</p>
+      <p>A comment is a written piece of text that users of GitLab can create. Comments have author and timestamp meta data. Comments can be added in a variety of contexts, such as issues, merge requests, and discussions.</p>
       <h4>Discussion</h4>
       <p>A discussion is a group of 1 or more comments. A discussion can include subdiscussions. Some discussions have the special capability of being able to be resolved. Both the comments in the discussion and the discussion itself can be resolved.</p>
       <h3>Issues &amp; Merge Requests</h3>
