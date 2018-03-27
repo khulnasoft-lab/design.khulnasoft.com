@@ -1,8 +1,18 @@
 .card {
-  @include box-shadow();
   border: $border-width solid $border-color--light;
   border-radius: $border-radius;
-  padding: $gl-spacing-5;
+}
+
+.card--header {
+  border-bottom: $border-width solid $border-color--light;
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+  background: $gray-50;
+  padding: $gl-spacing-5 $gl-spacing-7;
+}
+
+.card--body {
+  padding: $gl-spacing-7;
 }
 
 .card--highlighted {
