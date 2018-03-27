@@ -19,16 +19,8 @@
         </tbody>
       </table>
       <h2>Periods</h2>
-      <p>The period signals to a speaker or reader that the sentence has come to an end. They assist users in visually breaking up content and should be used appropriately.</p>
-      <ul>
-        <li>Place periods after sentences followed by a link.</li>
-        <li>Skip periods after solo sentences of body text.</li>
-        <li>Don’t place periods after a link if it‘s not followed by a sentence.</li>
-        <li>Use a period after every bullet point that is a sentence.</li>
-        <li>Use a period after every bullet point that completes the introductory stem.</li>
-        <li>Use no punctuation after bullets that are not sentences and do not complete the stem.</li>
-        <li>Use all sentences or all fragments in a bulleted list, not a mixture.</li>
-      </ul>
+      <p>The period signals to a speaker or reader that the sentence has come to an end. They assist users in visually breaking up content and should be used appropriately. Follow these guidelines:</p>
+      <p>Place periods after sentences followed by a link.</p>
       <table class="do-dont m-b-6">
         <thead>
           <tr>
@@ -42,23 +34,85 @@
               <p>Mention someone to notify them. <a href="#">More information</a></p>
             </td>
             <td>
-              <p>Mention someone to notify them. <a href="#">More information.</a></p>
+              <p>Mention someone to notify them <a href="#">More information.</a></p>
             </td>
           </tr>
+        </tbody>
+      </table>
+      <p>Don’t place periods after a link if it‘s not followed by a sentence.</p>
+       <table class="do-dont m-b-6">
+        <thead>
+          <tr>
+            <th>Do</th>
+            <th>Don't</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p>Mention someone to notify them. <a href="#">More information</a>. This is another sentence.</p>
+            </td>
+            <td>
+              <p>Mention someone to notify them. <a href="#">More information</a></p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Skip periods after solo sentences of body text.</p>
+      <table class="do-dont m-b-6">
+        <thead>
+          <tr>
+            <th>Do</th>
+            <th>Don't</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p>This is a paragraph. It has a few sentences, which should all end in the proper punctuation mark. That could be a period, question, or exclamation mark.</p>
+              <p>This sentence stand alone for emphasis</p>
+            </td>
+            <td>
+              <p>This is a paragraph. It has a few sentences, which should all end in the proper punctuation mark. That could be a period, question, or exclamation mark.</p>
+              <p>This sentence stand alone for emphasis.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Use a period after every bullet point that is a sentence.</p>
+      <table class="do-dont m-b-6">
+        <thead>
+          <tr>
+            <th>Do</th>
+            <th>Don't</th>
+          </tr>
+        </thead>
+        <tbody>
           <tr>
             <td>
               <ul>
-                <li>This is a list item sentence.</li>
-                <li>This is a full sentence, so it needs a period.</li>
+                <li>This is a complete sentence.</li>
+                <li>This is also a complete sentence.</li>
               </ul>
             </td>
             <td>
               <ul>
-                <li>This is a list item sentence</li>
-                <li>This is a full sentence, so it needs a period</li>
+                <li>This is a complete sentence, it needs a period</li>
+                <li>This is also a complete sentence, it also needs a period</li>
               </ul>
             </td>
           </tr>
+        </tbody>
+      </table>
+      <p>Use a period after every bullet point that completes the introductory stem.</p>
+      <table class="do-dont m-b-6">
+        <thead>
+          <tr>
+            <th>Do</th>
+            <th>Don't</th>
+          </tr>
+        </thead>
+        <tbody>
           <tr>
             <td>
               <p>This is an introductory stem:</p>
@@ -75,6 +129,17 @@
               </ul>
             </td>
           </tr>
+        </tbody>
+      </table>
+      <p>Use no punctuation after bullets that are not sentences and do not complete the stem.</p>
+      <table class="do-dont m-b-6">
+        <thead>
+          <tr>
+            <th>Do</th>
+            <th>Don't</th>
+          </tr>
+        </thead>
+        <tbody>
           <tr>
             <td>
               <p>These are just words in a list:</p>
@@ -91,6 +156,17 @@
               </ul>
             </td>
           </tr>
+        </tbody>
+      </table>
+      <p>Use all sentences or all fragments in a bulleted list, not a mixture.</p>
+      <table class="do-dont m-b-6">
+        <thead>
+          <tr>
+            <th>Do</th>
+            <th>Don't</th>
+          </tr>
+        </thead>
+        <tbody>
           <tr>
             <td>
               <ul>
