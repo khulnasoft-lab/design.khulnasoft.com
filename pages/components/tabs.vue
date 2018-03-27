@@ -4,7 +4,7 @@
       <div class="page-header p-b-5 m-b-6">
         <h1>Tabs</h1>
       </div>
-      <p>TTabs are used to divide content into meaningful, related sections. Tabs allow users to focus on one specific view at a time while maintaining sight of all the relevant content options available. Each tab, when active, will reveal it's own unique content.</p>
+      <p>Tabs are used to divide content into meaningful, related sections. Tabs allow users to focus on one specific view at a time while maintaining sight of all the relevant content options available. Each tab, when active, will reveal it's own unique content.</p>
       <p>Tabs may include a counter. This counter enables users to understand how many items that particular view contains.</p>
       <h2>Usage</h2>
       <p>There can only be one tab active at a given time.  Tabs may be nested, with a maximum nesting of two levels. Please note that this should be considered only as a last resort.</p> 
