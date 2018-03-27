@@ -39,10 +39,10 @@
         <tbody>
           <tr>
             <td>
-              <p>Mention someone to notify them. <a href="#">Learn more</a></p>
+              <p>Mention someone to notify them. <a href="#">More information</a></p>
             </td>
             <td>
-              <p>Mention someone to notify them. <a href="#">Learn more.</a></p>
+              <p>Mention someone to notify them. <a href="#">More information.</a></p>
             </td>
           </tr>
           <tr>
