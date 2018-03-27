@@ -17,7 +17,7 @@
       <p class="todo">Todo: Add live component block with code example</p>
       <h2>Design specifications</h2>
       <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p>
-      <p><a href="#">Sketch Measure Preview for skeleton loader</a></p>
+      <p class="todo">Todo: Add link to spec preview</p>
       <h2>Related patterns</h2>
       <ul>
         <li><a href="/">Spinner</a></li>
