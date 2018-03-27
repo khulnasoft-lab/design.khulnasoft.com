@@ -22,7 +22,7 @@
       <p>The period signals to a speaker or reader that the sentence has come to an end. They assist users in visually breaking up content and should be used appropriately.</p>
       <ul>
         <li>Place periods after sentences followed by a link.</li>
-        <li>Skip periods after solo sentences of body text</li>
+        <li>Skip periods after solo sentences of body text.</li>
         <li>Don’t place periods after a link if it‘s not followed by a sentence.</li>
         <li>Use a period after every bullet point that is a sentence.</li>
         <li>Use a period after every bullet point that completes the introductory stem.</li>
