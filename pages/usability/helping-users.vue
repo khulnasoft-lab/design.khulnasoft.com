@@ -17,7 +17,7 @@
         <dd class="p-t-5 p-b-5"><p><strong>Example:</strong> <a href="#"> What are user cohorts?</a></p></dd>
         <dt class="p-t-5 p-b-5"><p>If there isn't space available for a Help link text, use a circle question mark icon (?) linked to the Help content, with a tooltip phrased in terms of the primary question answered by the Help content.</p></dt>
         <dd class="p-t-5 p-b-5"><p class="todo">Todo: Add live component block with code example</p></dd>
-        <dt class="p-t-5 p-b-5"><p>If the Help content is outside of the GitLab instance (e.g. content at about.gitlab.com), make that clear in the link text. Doing so helps make the result of the links predictable.</p></dt>
+        <dt class="p-t-5 p-b-5"><p>If the Help content is outside of the GitLab instance (e.g. content at about.gitlab.com), make that clear in the link text. Doing so helps make the result of the links predictable. This is often not possible due to space limitations. An external link icon can be added in place of more copy.</p></dt>
         <dd class="p-t-5 p-b-5"><p><strong>Example:</strong> For more integrations, go to <a href="#">GitLab’s website</a></p></dd>
       </dl>
     </div>
