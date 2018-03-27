@@ -14,7 +14,7 @@
         <tbody>
           <tr>
             <td>Add issues to the Issue Board feature in GitLab Hosted.</td>
-            <td>Add Issues To The Issue Board Feature In GitLab Hosted.</td>
+            <td>Add Issues to the Issue Board Feature in GitLab Hosted.</td>
           </tr>
         </tbody>
       </table>
