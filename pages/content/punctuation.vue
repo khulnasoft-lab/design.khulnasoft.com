@@ -182,7 +182,7 @@
             <td>Colon</td>
             <td><strong>:</strong></td>
             <td><code>&amp;#58;</code></td>
-            <td>Omit from labels, for example, in the labels for fields in a form.</td>
+            <td>Omit from form labels.</td>
           </tr>
           <tr>
             <td>Apostrophe</td>
