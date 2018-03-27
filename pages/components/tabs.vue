@@ -10,7 +10,7 @@
       <p>There can only be one tab active at a given time.  Tabs may be nested, with a maximum nesting of two levels. Please note that this should be considered only as a last resort.</p> 
       <h5>Tabs with counter badges</h5>
       <p>If tabs containa a counter badge, the value of "All" should be the sum of the rest of the tabs. A badged tab should not be included if it breaks this pattern.</p>
-      <p>For example in the merge request list view, there should not be "Open" and "WIP" tabs. As a merge request can be both "Open" and "WIP," this will cause the addition of all badges not to match the number of "All" merge requests. An alternative would be to have a separate sorting function within the tab's content which filters open merge requests by "WIP."</p>
+      <p>For example in the merge request list view, there should not be "Open" and "WIP" tabs. As a merge request can be both "Open" and "WIP," this will cause the sum of all badges not to match the number of "All" merge requests. An alternative would be to have a separate sorting function within the tab's content which filters open merge requests by "WIP."</p>
       <h5>Fitted tabs</h5>
       <p>When tabs are used in a narrow container, column, or space, the tabs may span the entire width with their titles being centered.</p>
       <h2>Demo</h2>
