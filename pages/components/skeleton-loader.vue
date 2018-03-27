@@ -1,9 +1,7 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
-      <div class="page-header p-b-5 m-b-6">
-        <h1>Skeleton Loader</h1>
-      </div>
+      <h1>Skeleton Loader</h1>
       <p>A skeleton loader is used to let users know what kind of content is currently loading. The content can be loaded independently and asynchronously, while still adhering to the structure and look of the complete view.</p>
       <h2>Usage</h2>
       <p>A skeleton loader can replace any existing UI elements for the period in which they are being loaded and should aim for maintaining a similar structure visually.</p>
