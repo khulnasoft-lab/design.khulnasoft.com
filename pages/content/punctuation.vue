@@ -222,6 +222,14 @@
               <p>Three new commits</p>
             </td>
           </tr>
+          <tr>
+            <td>
+              <p>Enter two 3s.</p>
+            </td>
+            <td>
+              <p>Enter 2 3s.</p>
+            </td>
+          </tr>
         </tbody>
       </table>
       <h2>Punctuation</h2>
