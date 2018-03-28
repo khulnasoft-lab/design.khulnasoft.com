@@ -285,16 +285,6 @@
             <td>Use proper quotation marks (also known as smart quotes, curly quotes, or typographer’s quotes) for quotes. Single quotation marks are used for quotes inside of quotes.<br><br>The right single quotation mark symbol is also used for apostrophes.<br><br>Don’t use primes, straight quotes, or free-standing accents for quotation marks.</td>
           </tr>
           <tr>
-            <td>Primes</td>
-            <td>
-              <strong>′</strong><br><br><strong>″</strong>
-            </td>
-            <td>
-              <code>&amp;prime;</code><br><br><code>&amp;Prime;</code>
-            </td>
-            <td>Use prime (′) only in abbreviations for feet, arcminutes, and minutes: 3° 15′<br><br>Use double-prime (″) only in abbreviations for inches, arcseconds, and seconds: 3° 15′ 35″<br><br>Don’t use quotation marks, straight quotes, or free-standing accents for primes.</td>
-          </tr>
-          <tr>
             <td>Straight quotes and accents</td>
             <td>
               <strong>"</strong><br><br><strong>'</strong><br><br><strong>`</strong><br><br><strong>´</strong>
