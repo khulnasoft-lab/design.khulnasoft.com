@@ -1,20 +1,21 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="colors md">
-      <div class="page-header p-b-5 m-b-6">
-        <h1>Color</h1>
-      </div>
+      <h1>Color</h1>
       <h2>Chromatic palette</h2>
       <p>We have four primary chromatic colors and their derivatives, totaling 44 colors for use across the application. These colors give flexibility during the design process, while also providing a harmonious palette that looks consistent and in line with our brand styles.</p>
-      <h4>Color priorities</h4>
-      <p>The current color palette follows the numeric naming conventions used by the font-weight attribute and is based on their degree of blackness. We use this to define a system of color priorities to help aide in creating contrast or hierarchy. The four primary colors have a weight of 500 and are considered priority 1. Colors with a weight of 300 and 700 are priority 2. 100 and 300 weights are priority 3. All remaining weights are priority 4.</p>
-      <p>For example, if we had to pick only one shade of blue, it would be the medium weight 500, which is priority 1. If we needed more colors, we could choose from the next priority level. And so forth.</p>
-      <h4>Accessibility</h4>
+      <h3>Color priorities</h3>
+      <p>Color priorities work similarly to how different font weights are used to create contrasting typography that communicates hierarchy. We apply this same logic to colors by tagging colors according to their priority: from 1 to 4. If you need guidance, the priorities can help you make better choices. When choosing how to apply color to a UI component:</p>
+      <ul>
+        <li>You start at priority 1, which is the medium weight 500. There’s only one shade with priority 1 per color (the “default” shade).</li>
+        <li>For more shades of the same color, you could then choose from the next priority level, number 2, which can either be 300 (lighter) or 700 (darker). And so forth for even lighter or darker shades.</li>
+      </ul>
+      <h3>Accessibility</h3>
       <p>At GitLab, we are dedicated to continually improving the accessibility of the application. Currently, all chromatic colors pass the <a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast" target="_blank">Web Content Accessibility Guidelines (WCAG)</a> AA level for large text when used as a background color. Learn more in <a href="/usability/a11y">Accessibility</a>.</p>
       <div class="color-palette row m-b-9">
         <div class="green col col-50">
           <h4>Green</h4>
-          <div class="palette">
+          <div class="distributed palette">
             <div class="color">
               <div class="color-overview c-green-background-50 p-t-3 p-r-5 p-b-3 p-l-5">
                 <span class="variable">$green-50</span>
@@ -261,7 +262,7 @@
         </div>
         <div class="blue col col-50">
           <h4>Blue</h4>
-          <div class="palette">
+          <div class="distributed palette">
             <div class="color">
               <div class="color-overview c-blue-background-50 p-t-3 p-r-5 p-b-3 p-l-5">
                 <span class="variable">$blue-50</span>
@@ -508,7 +509,7 @@
         </div>
         <div class="orange col col-50 m-t-7">
           <h4>Orange</h4>
-          <div class="palette">
+          <div class="distributed palette">
             <div class="color">
               <div class="color-overview c-orange-background-50 p-t-3 p-r-5 p-b-3 p-l-5">
                 <span class="variable">$orange-50</span>
@@ -755,7 +756,7 @@
         </div>
         <div class="red col col-50 m-t-7">
           <h4>Red</h4>
-          <div class="palette">
+          <div class="distributed palette">
             <div class="color">
               <div class="color-overview c-red-background-50 p-t-3 p-r-5 p-b-3 p-l-5">
                 <span class="variable">$red-50</span>
@@ -1005,7 +1006,7 @@
         <div class="col col-50">
           <h2>Neutral palette</h2>
           <p>Our neutral palette is primarily used within components to help differentiate hierarchy. Shades of gray can be used as backgrounds, borders, and shadows to emphasise certain areas or set them apart.</p>
-          <div class="palette neutral">
+          <div class="distributed palette neutral">
             <div class="color">
               <div class="color-overview c-white-background p-t-3 p-r-5 p-b-3 p-l-5">
                 <span class="variable">$white</span>
@@ -1089,7 +1090,7 @@
         <div class="col col-50">
           <h2>Transparencies</h2>
           <p>Transparencies are used only to indicate hover and active states within themes. Each theme has its own series of four transparencies to utilize with alpha levels ranging from 0.02 to 0.08.</p>
-          <div class="palette neutral m-b-6">
+          <div class="distributed palette neutral m-b-6">
             <div class="color">
               <div class="color-overview t-gray-background-a-02 p-t-3 p-r-5 p-b-3 p-l-5">
                 <span class="variable">$t-gray-a-02</span>
@@ -1122,7 +1123,7 @@
       <div class="color-palette row m-b-6">
         <div class="indigo col col-25">
           <h4>Indigo</h4>
-          <div class="palette">
+          <div class="distributed palette">
             <div class="color">
               <div class="color-overview t-indigo-background-50 p-t-3 p-r-5 p-b-3 p-l-5">
                 <span class="variable">$t-indigo-50</span>
@@ -1193,7 +1194,7 @@
         </div>
         <div class="gray col col-25">
           <h4>Dark &amp; Light</h4>
-          <div class="palette">
+          <div class="distributed palette">
             <div class="color">
               <div class="color-overview t-gray-background-50 p-t-3 p-r-5 p-b-3 p-l-5">
                 <span class="variable">$t-gray-50</span>
@@ -1264,7 +1265,7 @@
         </div>
         <div class="blue col col-25">
           <h4>Blue</h4>
-          <div class="palette">
+          <div class="distributed palette">
             <div class="color">
               <div class="color-overview t-blue-background-50 p-t-3 p-r-5 p-b-3 p-l-5">
                 <span class="variable">$t-blue-50</span>
@@ -1335,7 +1336,7 @@
         </div>
         <div class="green col col-25">
           <h4>Green</h4>
-          <div class="palette">
+          <div class="distributed palette">
             <div class="color">
               <div class="color-overview t-green-background-50 p-t-3 p-r-5 p-b-3 p-l-5">
                 <span class="variable">$t-green-50</span>

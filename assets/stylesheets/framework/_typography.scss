@@ -28,7 +28,7 @@ a {
 
 .label { @include type-scale(0, 4, 0, 0) }
 .f-display { @include type-scale(14, 12) }
-.f-small { @include type-scale(-1, 4) }
+.f-small { @include type-scale(-1, 4, 0, 0) }
 
 /*  MD Typography */
 
@@ -119,6 +119,7 @@ a {
 /*Distributed UI Typography */
 
 .distributed {
+  @include type-scale(0, 4, 0, 0);
 
   h1 { 
     @include type-scale(7, 8, 1);
