@@ -15,41 +15,41 @@
       <div class="overlay"></div>
     </div>
     <div class="content limited m-t-10 m-b-10">
-      <div class="md compact principles">
+      <div class="distributed principles">
         <div class="principle m-b-7">
           <img src="../assets/images/principles/professional-productive.png" srcset="../assets/images/principles/professional-productive@2x.png 2x" class="a-center">
           <div class="principle__content m-l-5">
-            <h1>Professional and productive</h1>
+            <h2>Professional and productive</h2>
             <p>GitLab is a tool to support what people do, day in, day out. We need to respect the importance of their work, and avoid gimicky details.</p>
           </div>
         </div>
         <div class="principle m-b-7">
           <img src="../assets/images/principles/minimal-efficient.png" srcset="../assets/images/principles/minimal-efficient@2x.png 2x">
           <div class="principle__content m-l-5">
-            <h1>Minimal and efficient</h1>
+            <h2>Minimal and efficient</h2>
             <p>While work can get complicated, GitLab is about bringing a sharp focus, helping our customers know what matters now.</p>
           </div>
         </div>
         <div class="principle">
           <img src="../assets/images/principles/human-quirky.png" srcset="../assets/images/principles/human-quirky@2x.png 2x">
           <div class="principle__content m-l-5">
-            <h1>Human and quirky</h1>
+            <h2>Human and quirky</h2>
             <p>We need to build empathy with our users, understand their state of mind, and connect with them on a human level. Quirkiness is part of our DNA; we should embrace it in the right moments and contexts.</p>
           </div>
         </div>
         <div class="principle">
           <img src="../assets/images/principles/immediately-recognize.png" srcset="../assets/images/principles/immediately-recognize@2x.png 2x">
           <div class="principle__content m-l-5">
-            <h1>Immediately recognizable</h1>
+            <h2>Immediately recognizable</h2>
             <p>When you look at any screen, you should know immediately that it is GitLab. Our personality is strong and consistent across product and marketing experiences.</p>
           </div>
         </div>
       </div>
     </div>
     <div class="content contribute p-t-8 p-b-8">
-      <div class="content limited md compact contributing-box__content">
+      <div class="content limited distributed contributing-box__content">
         <img src="../assets/images/contribute.png" srcset="../assets/images/contribute@2x.png 2x" class="a-center d-block m-t-8 m-b-5">
-        <h1 class="text-center">Everyone can contribute</h1>
+        <h2 class="text-center">Everyone can contribute</h2>
         <p class="a-center max-w-sm">In an effort to continue improving our design system, we encourage all feedback and ideas! If you are intersted in contributing, check out our <a href="/getting-started/contributing">guidelines</a> to get started. Have any questions? Open an issue on our <a href="https://gitlab.com/gitlab-org/design.gitlab.com/issues">GitLab issue tracker</a>.
         </p>
       </div>

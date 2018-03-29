@@ -27,36 +27,36 @@
         <div class="w-13 h-3"></div>
       </div>
       <h2>Typography</h2>
-      <p>All typography aligns to a 4px baseline grid. This allows for readible line heights at all sizes. See our <a href="/styles/typography">typography styles</a> for more information about how to use our type scale.</p>
+      <p>All typography aligns to a 4px baseline grid. This allows for readable line heights at all sizes. See our <a href="/styles/typography">typography styles</a> for more information about how to use our type scale.</p>
       <h3>UI typography</h3>
       <div class="baseline--typography distributed">
-        <h1>H1</h1>
-        <h2>h2</h2>
-        <h3>h3</h3>
-        <h4>h4</h4>
-        <h5>h5</h5>
-        <h6>h6</h6>
+        <h1>Header 1</h1>
+        <h2>Header 2</h2>
+        <h3>Header 3</h3>
+        <h4>Header 4</h4>
+        <h5>Header 5</h5>
+        <h6>Header 6</h6>
         <p>Paragraph</p>
         <span class="label">Label</span>
       </div>
       <h3>Markdown</h3>
       <div class="baseline--typography">
-        <h1>H1</h1>
-        <h2>h2</h2>
-        <h3>h3</h3>
-        <h4>h4</h4>
-        <h5>h5</h5>
-        <h6>h6</h6>
+        <h1>Header 1</h1>
+        <h2>Header 2</h2>
+        <h3>Header 3</h3>
+        <h4>Header 4</h4>
+        <h5>Header 5</h5>
+        <h6>Header 6</h6>
         <p>Paragraph</p>
       </div>
       <h3>Compact markdown</h3>
       <div class="baseline--typography md compact">
-        <h1>H1</h1>
-        <h2>h2</h2>
-        <h3>h3</h3>
-        <h4>h4</h4>
-        <h5>h5</h5>
-        <h6>h6</h6>
+        <h1>Header 1</h1>
+        <h2>Header 2</h2>
+        <h3>Header 3</h3>
+        <h4>Header 4</h4>
+        <h5>Header 5</h5>
+        <h6>Header 6</h6>
         <p>Paragraph</p>
       </div>
     </div>

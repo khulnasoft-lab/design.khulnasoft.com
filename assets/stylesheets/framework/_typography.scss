@@ -34,14 +34,6 @@ a {
 .md {
   @include type-scale(1, 7, 0, 0);
 
-  *:first-child {
-    margin-top: 0;
-  }
-
-  *:last-child {
-    margin-bottom: 0;
-  }
-
   h1 { 
     @include type-scale(14, 12, 2);
     padding-bottom: $gl-spacing-5;
@@ -68,7 +60,8 @@ a {
   blockquote,
   ul,
   ol {
-    @include type-scale(1, 7, 2, 0)
+    margin-bottom: 16px;
+    margin-top: 0;
   }
 
   ul, ol {
@@ -152,6 +145,16 @@ a {
   }
   
   p  { @include type-scale(0, 6, 2, 0); }
+}
+
+.md, .md.compact, .distributed {
+  *:first-child {
+    margin-top: 0;
+  }
+
+  *:last-child {
+    margin-bottom: 0;
+  }
 }
 
 /* Type scale */
