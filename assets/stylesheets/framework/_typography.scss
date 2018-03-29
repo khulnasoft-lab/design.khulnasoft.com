@@ -25,13 +25,14 @@ a {
   }
 }
 
-.label { @include type-scale(0, 4) }
+.label { @include type-scale(0, 4, 0, 0) }
 .f-display { @include type-scale(14, 12) }
 .f-small { @include type-scale(-1, 4) }
 
 /*  MD Typography */
 
 .md {
+  @include type-scale(1, 7, 0, 0);
 
   *:first-child {
     margin-top: 0;
@@ -139,14 +140,17 @@ a {
 
   h3 { @include type-scale(0, 4, 1); }
   h4 { @include type-scale(-1, 4, 1); }
+
   h5 { 
     @include type-scale(-1, 4, 1);
     color: $text-color--secondary;
   }
+
   h6 { 
     @include type-scale(-1, 4, 1);
     color: $text-color--secondary;
   }
+  
   p  { @include type-scale(0, 6, 2, 0); }
 }
 

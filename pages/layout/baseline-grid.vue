@@ -20,7 +20,7 @@
         <div class="w-13 h-3"></div>
         <div class="w-13 h-3 c-orange-background-200"></div>
         <div class="w-13 h-3 c-green-background-200"></div>
-        <div class="w-13 h-5 c-blue-background-300">Text</div>
+        <div class="w-13 h-5 c-blue-background-300 label">Text</div>
         <div class="w-13 h-3 c-green-background-200"></div>
         <div class="w-13 h-3 c-orange-background-200"></div>
         <div class="w-13 h-3"></div>
