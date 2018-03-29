@@ -5,7 +5,7 @@
 .content {
   padding: 0 $gl-spacing-5;
   margin: 0 auto;
-  min-width: $nav-sidebar-width * 2;
+  min-width: $page-width;
 
   &.limited {
     max-width: $page-width;
