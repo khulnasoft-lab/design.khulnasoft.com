@@ -1,4 +1,4 @@
-@mixin type-scale($scale, $line-height: 1, $margin-bottom: 0, $margin-top: 24px) {
+@mixin type-scale($scale, $line-height, $margin-bottom: 0, $margin-top: 24px) {
   font-size: $base-font-size + ($scale * 2); 
   line-height: $line-height * $base-grid--typography;
   margin-bottom: $margin-bottom * $base-grid;
@@ -15,6 +15,7 @@ h3 { @include type-scale(0, 4) }
 h4 { @include type-scale(-1, 4) }
 h5 { @include type-scale(-1, 4) }
 h6 { @include type-scale(-1, 4) }
+p  { @include type-scale(0, 4, 0, 0) }
 
 a {
   text-decoration: none;
