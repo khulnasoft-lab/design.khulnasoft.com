@@ -218,6 +218,3 @@
     </div>
   </div>
 </template>
-
-
-
