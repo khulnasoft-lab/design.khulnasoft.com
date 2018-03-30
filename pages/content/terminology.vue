@@ -27,8 +27,6 @@
       <p>Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time. Milestones allow you to organize issues and merge requests into a cohesive group, with an optional start date and an optional due date.</p>
       <h4>Activity</h4>
       <p>Activity refers to any action taken by a user that results in the creation of a system note. Commenting, resolving/opening an issue, resolving/opening a merge request, and creating/deleting a branch are all considered to be an activity.</p>
-      <h4>Issuable</h4>
-      <p>An issuable is a term used to reference multiple areas of the app, most commonly issues and merge requests. It refers to areas that share common functionality which can include: labels, markdown, slash commands, title, author, assignee, etc.</p>
       <h2>Verbs and Adjectives</h2>
       <p>When using verbs or adjectives:</p>
       <dl>
@@ -39,6 +37,8 @@
         <dt class="p-t-5 p-b-5"><p>Destruction buttons should be clear and always say what they are destroying.</p></dt>
         <dd class="p-t-5 p-b-5"><p><strong>Example:</strong> Delete page instead of just Delete.</p></dd>
       </dl>
+      <p class="todo">Todo: Add comprehensive list of terminology Do/Don't</p>
+      <!-- TODO: Resolve the rukes below into one master list
       <h3>Search</h3>
       <table class="m-b-6">
         <thead>
@@ -219,6 +219,7 @@
           </tr>
         </tbody>
       </table>
+      -->
     </div>
   </div>
 </template>
