@@ -25,6 +25,8 @@
       <p>Merge requests allow you to exchange changes you made to source code and collaborate with other people on the same project.</p>
       <h4>Milestones</h4>
       <p>Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time. Milestones allow you to organize issues and merge requests into a cohesive group, with an optional start date and an optional due date.</p>
+      <h4>Issuable</h4>
+      <p>An issuable is a term used to reference multiple areas of the app, most commonly issues and merge requests. It refers to areas that share common functionality which can include: labels, markdown, slash commands, title, author, assignee, etc.</p>
       <h2>Verbs and Adjectives</h2>
       <p>When using verbs or adjectives:</p>
       <dl>
