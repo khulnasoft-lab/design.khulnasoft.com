@@ -9,6 +9,12 @@
   border-top-right-radius: $border-radius;
   background: $gray-50;
   padding: $gl-spacing-5 $gl-spacing-7;
+
+  h1, h2 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
 }
 
 .card--body {

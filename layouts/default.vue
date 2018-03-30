@@ -26,10 +26,16 @@
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/colors">Colors</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/iconography">Iconography</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/motion">Motion</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/grid">Grid</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/illustration">Illustration</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/typography">Typography</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/cursors">Cursors</nuxt-link>
+        </details>
+
+        <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/layout/')">
+          <summary class="nav-sidebar__section-summary">Layout</summary>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/layout/spacing">Spacing</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/layout/baseline-grid">Baseline grid</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/layout/responsive-ui">Responsive UI</nuxt-link>
         </details>
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/components/')">
@@ -53,6 +59,7 @@
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/popovers">Popovers</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/search">Search</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/skeleton-loader">Skeleton Loader</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/spinner">Spinner</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/tabs">Tabs</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/toggles">Toggles</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/tooltips">Tooltips</nuxt-link>
@@ -69,15 +76,16 @@
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/content/')">
           <summary class="nav-sidebar__section-summary">Content</summary>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/capitalization">Capitalization</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/voice-tone">Voice &amp; Tone</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/terminology">Terminology</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/punctuation">Punctuation</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/voice-tone">Voice & Tone</nuxt-link>
         </details>
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/usability/')">
           <summary class="nav-sidebar__section-summary">Usability</summary>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/usability/a11y">Accessibility</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/usability/i18n">Internationalization</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/usability/helping-users">Helping users</nuxt-link>
         </details>
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/resources/')">
