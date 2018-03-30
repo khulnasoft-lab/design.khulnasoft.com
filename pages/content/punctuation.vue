@@ -20,25 +20,6 @@
       </table>
       <h2>Periods</h2>
       <p>The period signals to a speaker or reader that the sentence has come to an end. They assist users in visually breaking up content and should be used appropriately. Follow these guidelines:</p>
-      <p>Place periods after sentences followed by a link.</p>
-      <table class="do-dont m-b-6">
-        <thead>
-          <tr>
-            <th>Do</th>
-            <th>Don't</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <p>Mention someone to notify them. <a href="#">More information</a></p>
-            </td>
-            <td>
-              <p>Mention someone to notify them <a href="#">More information.</a></p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
       <p>Place periods after a link if it‘s followed by a sentence.</p>
        <table class="do-dont m-b-6">
         <thead>
@@ -54,6 +35,25 @@
             </td>
             <td>
               <p>Mention someone to notify them. <a href="#">More information</a>.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Place periods after sentences that follow a link.</p>
+      <table class="do-dont m-b-6">
+        <thead>
+          <tr>
+            <th>Do</th>
+            <th>Don't</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p>Mention someone to notify them. <a href="#">More information. This is another sentence.</a></p>
+            </td>
+            <td>
+              <p>Mention someone to notify them <a href="#">More information. This is another sentence</a></p>
             </td>
           </tr>
         </tbody>
