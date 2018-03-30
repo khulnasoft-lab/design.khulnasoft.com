@@ -18,7 +18,7 @@
       <p class="todo">Todo: Add link to spec preview</p>
       <h2>Related patterns</h2>
       <ul>
-        <li><a href="/">Spinner</a></li>
+        <li><a href="/components/spinner">Spinner</a></li>
       </ul>
     </div>
   </div>
