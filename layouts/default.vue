@@ -61,6 +61,7 @@
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/skeleton-loader">Skeleton Loader</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/spinner">Spinner</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/tabs">Tabs</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/tags">Tags</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/toggles">Toggles</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/tooltips">Tooltips</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/validations">Validations</nuxt-link>
