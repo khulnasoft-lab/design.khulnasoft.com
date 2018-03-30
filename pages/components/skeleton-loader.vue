@@ -7,7 +7,7 @@
       <p>A skeleton loader can replace any existing UI elements for the period in which they are being loaded and should aim for maintaining a similar structure visually.</p>
       <ul>
         <li>A skeleton represents a recognizable organisim.</li>
-        <li>Atom elements within organisms (for reference see this article on <a href="http://atomicdesign.bradfrost.com/chapter-2/">atomic design methodology</a>) may be represented in a maximum of 3 repetitions, if applicable.</li>
+        <li>Atom elements within organisms (for reference see documentation on <a href="https://gitlab.com/gitlab-org/gitlab-design/blob/master/doc/pattern-library.md">Atom elements</a>) within organisms are represented with a maximum of 3 repetitions.</a>) may be represented in a maximum of 3 repetitions, if applicable.</li>
         <li>Skeletons should only be presented in grayscale.</li>
         <li>Animate the grey atoms in a pulsating way to show <a href="../styles/motion">motion</a>, as if "loading." The pulse animation transitions color horizontally from left to right, starting with #f2f2f2 to #fafafa.</li>
       </ul>
