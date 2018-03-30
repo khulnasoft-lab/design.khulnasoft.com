@@ -58,27 +58,6 @@
           </tr>
         </tbody>
       </table>
-      <p>Skip periods after solo sentences of body text.</p>
-      <table class="do-dont m-b-6">
-        <thead>
-          <tr>
-            <th>Do</th>
-            <th>Don't</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <p>This is a paragraph. It has a few sentences, which should all end in the proper punctuation mark. That could be a period, question, or exclamation mark.</p>
-              <p>This sentence stand alone for emphasis</p>
-            </td>
-            <td>
-              <p>This is a paragraph. It has a few sentences, which should all end in the proper punctuation mark. That could be a period, question, or exclamation mark.</p>
-              <p>This sentence stand alone for emphasis.</p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
       <p>Use a period after every bullet point that is a sentence.</p>
       <table class="do-dont m-b-6">
         <thead>
