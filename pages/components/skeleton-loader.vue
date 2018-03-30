@@ -9,7 +9,7 @@
         <li>A skeleton represents a recognizable organisim.</li>
         <li>Atom elements within organisms (for reference see this article on <a href="https://gitlab.com/gitlab-org/gitlab-design/blob/master/doc/pattern-library.md">atom elements</a>) may be represented in a maximum of 3 repetitions, if applicable.</li>
         <li>Skeletons are presented in grayscale and never use color.</li>
-        <li>Animate the grey atoms in a pulsating way to show <a href="../styles/motion">motion</a>, as if "loading." The pulse animation transitions color horizontally from left to right, starting with #f2f2f2 to #fafafa.</li>
+        <li>Animate the gray atoms in a pulsating way to show <a href="../styles/motion">motion</a>, as if "loading." The pulse animation transitions color horizontally from left to right, starting with #f2f2f2 to #fafafa.</li>
       </ul>
       <h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
