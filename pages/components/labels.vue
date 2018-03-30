@@ -2,11 +2,11 @@
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
       <h1>Labels</h1>
-      <p>Labels categorise UI objects by visually labeling them. They provide the user a quick way to recognise to which category or categoies the current object belongs. Clicking on labels navigates the user towards a filtered list view based on that label.</p>
+      <p>Labels allow users to categorize UI objects using descriptive titles and customizable color. They provide a quick way to recognize which category or categories the labeled object belongs. Clicking on a label navigates the user to a filtered list view based on that label.</p>
       <h2>Usage</h2>
-      <p>Labels are used to categorize issues, merge requests and epics. They can be used to filter in list views. Upon hover, a tooltip containing a description of the category they represent will appear.</p>
+      <p>Labels are used to categorize issues, merge requests, and epics. They can be used to filter in list views. Upon hover, a tooltip containing a description of the category they represent will appear.</p>
       <h3>User role labels</h3>
-      <p>User role labels are different from standard labels. They indicate the permission level of the user and differ visually.  User labels lack coloration with grayscale text and border.</p>
+      <p>User role labels are different from standard labels. They indicate the permission level of the user and differ visually. User labels lack color, use grayscale text, and have a border.</p>
       <h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
       <h2>Design specifications</h2>
