@@ -77,10 +77,10 @@
         <tbody>
           <tr>
             <td>
-              <p>Mention someone to notify them. <a href="#">More information. This is another sentence.</a></p>
+              <p>Mention someone to notify them. <a href="#">More information.</a>This is another sentence.</p>
             </td>
             <td>
-              <p>Mention someone to notify them <a href="#">More information. This is another sentence</a></p>
+              <p>Mention someone to notify them <a href="#">More information.</a> This is another sentence</p>
             </td>
           </tr>
         </tbody>
