@@ -76,15 +76,16 @@
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/content/')">
           <summary class="nav-sidebar__section-summary">Content</summary>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/capitalization">Capitalization</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/voice-tone">Voice &amp; Tone</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/terminology">Terminology</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/punctuation">Punctuation</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/voice-tone">Voice & Tone</nuxt-link>
         </details>
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/usability/')">
           <summary class="nav-sidebar__section-summary">Usability</summary>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/usability/a11y">Accessibility</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/usability/i18n">Internationalization</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/usability/helping-users">Helping users</nuxt-link>
         </details>
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/resources/')">
