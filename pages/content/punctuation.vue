@@ -18,6 +18,33 @@
           </tr>
         </tbody>
       </table>
+      <p>Always capitalize the first word in bulleted lists. This includes sentences that complete an introductory stem.</p>
+       <table class="do-dont m-b-6">
+        <thead>
+          <tr>
+            <th>Do</th>
+            <th>Don't</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p>This is an introductory stem:</p>
+              <ul>
+                 <li>This sentence completes the introductory stem, it is capitalized.</li>
+                <li>This sentence also completes the introductory stem, it is capitalized.</li>
+              </ul>
+            </td>
+            <td>
+              <p>This is an introductory stem:</p>
+              <ul>
+                 <li>this sentence completes the introductory stem, it should be  capitalized.</li>
+                <li>this sentence also completes the introductory stem, it also should be capitalized.</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
       <h2>Periods</h2>
       <p>The period signals to a speaker or reader that the sentence has come to an end. They assist users in visually breaking up content and should be used appropriately. Follow these guidelines:</p>
       <p>Place periods after a link if it‘s followed by a sentence.</p>
