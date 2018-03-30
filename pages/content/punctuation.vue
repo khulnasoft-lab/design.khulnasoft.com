@@ -39,7 +39,7 @@
           </tr>
         </tbody>
       </table>
-      <p>Don’t place periods after a link if it‘s not followed by a sentence.</p>
+      <p>Place periods after a link if it‘s followed by a sentence.</p>
        <table class="do-dont m-b-6">
         <thead>
           <tr>
@@ -53,7 +53,7 @@
               <p>Mention someone to notify them. <a href="#">More information</a>. This is another sentence.</p>
             </td>
             <td>
-              <p>Mention someone to notify them. <a href="#">More information</a></p>
+              <p>Mention someone to notify them. <a href="#">More information</a>.</p>
             </td>
           </tr>
         </tbody>
