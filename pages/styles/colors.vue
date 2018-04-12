@@ -5,10 +5,11 @@
       <h2>Chromatic palette</h2>
       <p>We have four primary chromatic colors and their derivatives, totaling 44 colors for use across the application. These colors give flexibility during the design process, while also providing a harmonious palette that looks consistent and in line with our brand styles.</p>
       <h3>Color priorities</h3>
-      <p>Color priorities work similarly to how different font weights are used to create contrasting typography that communicates hierarchy. We apply this same logic to colors by tagging colors according to their priority: from 1 to 4. If you need guidance, the priorities can help you make better choices. When choosing how to apply color to a UI component:</p>
+      <p>Color priorities work similarly to how different font weights are used to create contrasting typography that communicates hierarchy. We apply this same logic to colors by tagging colors according to their priority: from 1 to 4. If you need guidance, use these priorities to help you make better color choices. When choosing how to apply color to a UI component:</p>
       <ul>
-        <li>You start at priority 1, which is the medium weight 500. There’s only one shade with priority 1 per color (the “default” shade).</li>
-        <li>For more shades of the same color, you could then choose from the next priority level, number 2, which can either be 300 (lighter) or 700 (darker). And so forth for even lighter or darker shades.</li>
+        <li>Priority 1 is equal to the color weight 500.</li>
+        <li>Priority 2 is equal to the color weights 300 and 700.</li>
+        <li>Priority 3 is equal to the color weights 100 and 900.</li>
       </ul>
       <h3>Accessibility</h3>
       <p>At GitLab, we are dedicated to continually improving the accessibility of the application. Currently, all chromatic colors pass the <a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast" target="_blank">Web Content Accessibility Guidelines (WCAG)</a> AA level for large text when used as a background color. Learn more in <a href="/usability/a11y">Accessibility</a>.</p>
