@@ -5,13 +5,13 @@
       <h2>Chromatic palette</h2>
       <p>We have four primary chromatic colors and their derivatives, totaling 44 colors for use across the application. These colors give flexibility during the design process, while also providing a harmonious palette that looks consistent and in line with our brand styles.</p>
       <h3>Color priorities</h3>
-      <p>Color priorities work similarly to how different font weights are used to create contrasting typography that communicates hierarchy. We apply this same logic to colors by tagging colors according to their priority: from 1 to 4. If you need guidance, use these priorities to help you make better color choices. When choosing how to apply color to a UI component:</p>
+      <p>Color priorities work similarly to font weights; different font weights can be used to create contrasting typography that communicates hierarchy. We apply this same logic to colors by tagging colors according to their priority: from 1 to 4. These priorities can be used to make better choices. When choosing how to apply color to a UI component:</p>
       <ul>
         <li>Priority 1 is equal to the color weight 500.</li>
         <li>Priority 2 is equal to the color weights 300 and 700.</li>
         <li>Priority 3 is equal to the color weights 100 and 900.</li>
       </ul>
-      <p>Priorities skip weights because in most situations, the contrast between two adjoining weights would be subtle. However, those shades are available to use when needed. Color priorities are meant to act as guideline, not a strict set of rules.</p>
+      <p>Priorities skip weights because, in most situations, the contrast between two adjoining weights would be subtle. However, those shades are available to use when needed. Color priorities are meant to act as a guideline, not a strict set of rules.</p>
       <h3>Accessibility</h3>
       <p>At GitLab, we are dedicated to continually improving the accessibility of the application. Currently, all chromatic colors pass the <a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast" target="_blank">Web Content Accessibility Guidelines (WCAG)</a> AA level for large text when used as a background color. Learn more in <a href="/usability/a11y">Accessibility</a>.</p>
       <div class="color-palette row m-b-9">
