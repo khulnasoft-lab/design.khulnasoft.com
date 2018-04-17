@@ -1030,7 +1030,7 @@
             <div class="color">
               <div class="color-overview c-background-gray-200 p-t-3 p-r-5 p-b-3 p-l-5">
                 <span class="variable">$gray-200</span>
-                <span class="hex f-small">#f2f2f2</span>
+                <span class="hex f-small">#dfdfdf</span>
               </div>
             </div>
             <div class="color">
