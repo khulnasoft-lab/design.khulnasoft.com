@@ -18,7 +18,7 @@
         <li>Border radius: 3px</li>
       </ul>
       <p>Icons should be masked with symbol that allows designers to easily change the color of the icon via an override.</p>
-      <h3>Exporting icons as SVG</h3>
+      <h2>Exporting icons as SVG</h2>
       <p>When exporting SVGs, be sure to follow the following guidelines:</p>
       <ol>
         <li>Convert all strokes to outlines.</li>
