@@ -1,5 +1,5 @@
 <template>
-  <div class="content limited">
+  <div class="content limited m-t-7 m-b-7">
     <div class="structure md">
       <h1>Design system structure</h1>
       <p>Our design system is broken down into the following sections:</p>

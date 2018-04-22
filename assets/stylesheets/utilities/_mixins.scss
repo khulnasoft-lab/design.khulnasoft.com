@@ -43,3 +43,11 @@
 @mixin box-shadow($x: 0, $y: 2px, $blur: 4px, $spread: 0, $color: $black-o-10) {
   box-shadow: $x $y $blur $spread $color;
 }
+
+/*
+ * Transitions
+ */
+
+@mixin transition($property: all, $time: 0.2s, $method: linear) {
+  transition: $property $time $method;
+}

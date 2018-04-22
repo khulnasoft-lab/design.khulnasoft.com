@@ -5,7 +5,7 @@
 .content {
   padding: 0 $gl-spacing-5;
   margin: 0 auto;
-  min-width: $nav-sidebar-width * 2;
+  min-width: $page-width;
 
   &.limited {
     max-width: $page-width;
@@ -18,4 +18,31 @@
   color: $blue-600;
   border: $border-width solid $blue-100;
   border-radius: $border-radius;
+}
+
+
+// simple grid workaround until bootstrap is reintroduced
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+
+  .col {
+    padding-right: $gl-spacing-5;
+    padding-left: $gl-spacing-5;
+
+    &.col-50 {
+      width: 50%;
+
+      &:nth-child(2n+1) { padding-left: 0; }
+      &:nth-child(2n+2) { padding-right: 0; }
+    }
+
+    &.col-25 {
+      width: 25%;
+
+      &:nth-child(4n+1) { padding-left: 0; }
+      &:nth-child(4n)   { padding-right: 0; }
+    }
+  }
 }
