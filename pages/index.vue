@@ -60,7 +60,7 @@
           <img src="../assets/images/resources/r-gitlab.png" srcset="../assets/images/resources/r-gitlab@2x.png 2x" class="a-center d-block m-b-3">
           View repository
         </a>
-        <a href="https://gitlab.com/gitlab-org/gitlab-design/blob/master/production/resources/gitlab-elements.sketch" target="_blank" class="card card--highlighted card--link text-center m-l-5 p-a-4">
+        <a href="https://gitlab.com/gitlab-org/gitlab-design/blob/master/gitlab-pattern-library.sketch" target="_blank" class="card card--highlighted card--link text-center m-l-5 p-a-4">
           <img src="../assets/images/resources/r-sketch.png" srcset="../assets/images/resources/r-sketch@2x.png 2x" class="a-center d-block m-b-3">
           Download pattern library
         </a>
