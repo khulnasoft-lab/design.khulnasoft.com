@@ -2,7 +2,7 @@
   <div class="content limited m-t-7 m-b-7">
     <div class="typography md">
       <h1>Iconography</h1>
-      <p>One of our values is to create a distinguished GitLab personality that is strong and consistent. Iconography is a powerful visual cue to the user and should reflect our particular sense of style. Within GitLab Elements, we utilize symbols for our icons to take advantage of interchangeable overrides.</p>
+      <p>One of our values is to create a distinguished GitLab personality that is strong and consistent. Iconography is a powerful visual cue to the user and should reflect our particular sense of style.</p>
       <h2>Icon Viewer</h2>
       <p>You can view all of the current icons in GitLab at the following link: <a href="http://gitlab-org.gitlab.io/gitlab-svgs/" target="_blank">GitLab SVGs</a></p>
       <h2>Usage</h2>
