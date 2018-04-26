@@ -11,7 +11,7 @@
       <p class="todo">Todo: Add live component block with code example</p>
       <h2>Design specifications</h2>
       <p>Follow these guidleines when developing icons:</p>
-      <p>Icons should be simple and use as few points as possible. The default bounding box size of icons is <strong>16x16px</strong>. Inside of that bounding box, some icons are larger, others are smaller, depending on their design. It's possible to enlarge or shrink the icons (i.e. their bounding box) according to our measure’s scale: 8px, 16px, 24px, 32px, etc. For additional details on measure, visit our <a href="/layout/spacing">spacing page</a>.</p>
+      <p>Icons should be simple and use as few points as possible. The default bounding box size of icons is <strong>16x16px</strong>. Inside of that bounding box, some icons are larger, others are smaller, depending on their design. It's possible to enlarge or shrink the icons (i.e. their bounding box) according to our measure’s scale: 8px, 16px, 24px, 32px, etc. For additional details on measure, visit our <a href="/layout/spacing">spacing guide</a>.</p>
       <ul>
         <li>Default size: 16px * 16px</li>
         <li>Minimum size: 8px * 8px</li>
@@ -92,7 +92,7 @@
           </tr>
         </tbody>
       </table>
-      <p>Use the whole pixel to create icons to align to measurement correctly.</p>
+      <p> Use whole pixels to create icons in order to align properly to a pixel grid.<br>For additional details on grids, visit our <a href="/layout/baseline-grid">baseline grid guide</a>.</p>
        <table class="do-dont m-b-6">
         <thead>
           <tr>
