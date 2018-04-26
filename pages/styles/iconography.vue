@@ -33,6 +33,7 @@
       
       <h2>Dos and Dont's</h2>
       <p>Don't use one icon to refer to different meanings.</p>
+      <p>While consistency is important, we need to remain flexible. Some icons are so basic and ubiquitous that it's difficult to detach them and use them without “conflicts”. An example of a “conflicting” use of icons is the X cross icon used for both failed pipelines and closing modals.</p>
       <table class="do-dont m-b-6">
         <thead>
           <tr>
