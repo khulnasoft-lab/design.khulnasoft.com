@@ -18,7 +18,6 @@
         <li>Border thickness: 2px</li>
         <li>Border radius: 3px</li>
       </ul>
-      <p>Icons should be masked with symbol that allows designers to easily change the color of the icon via an override.</p>
       <h2>Exporting icons as SVG</h2>
       <p>When exporting SVGs, be sure to follow the following guidelines:</p>
       <ol>
