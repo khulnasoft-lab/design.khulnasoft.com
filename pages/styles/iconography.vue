@@ -11,7 +11,7 @@
       <p class="todo">Todo: Add live component block with code example</p>
       <h2>Design specifications</h2>
       <p>Follow these guidleines when developing icons:</p>
-      <p>Icons should be simple and use as few points as possible. The default bounding box size of icons is <strong>16x16px</strong>. Inside of that bounding box, some icons are larger, others are smaller, depending on their design. It's possible to enlarge or shrink the icons (i.e. their bounding box) according to our measure’s scale: 8px, 16px, 24px, 32px, etc.</p>
+      <p>Icons should be simple and use as few points as possible. The default bounding box size of icons is <strong>16x16px</strong>. Inside of that bounding box, some icons are larger, others are smaller, depending on their design. It's possible to enlarge or shrink the icons (i.e. their bounding box) according to our measure’s scale: 8px, 16px, 24px, 32px, etc. For additional details, visit our <a href="/layout/spacing">spacing page</a>.</p>
       <ul>
         <li>Default size: 16px * 16px with a minimum size of 8px * 8px allowed</li>
         <li>Border thickness: 2px</li>
