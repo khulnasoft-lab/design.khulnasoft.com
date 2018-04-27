@@ -17,7 +17,6 @@ stages:
     - *install
   stage: build
   dependencies:
-    - crop_pictures
   artifacts:
     expire_in: 7 days
     paths:
