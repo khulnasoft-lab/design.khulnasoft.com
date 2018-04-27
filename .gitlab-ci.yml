@@ -1,5 +1,46 @@
 image: node:latest
 
+variables:
+  GIT_DEPTH: "10"
+  # Speed up middleman
+  NO_CONTRACTS: "true"
+
+stages:
+  - build
+  - deploy
+
+.install: &install
+  yarn install
+
+.build_base: &build_base
+  before_script:
+    - *install
+  stage: build
+  dependencies:
+    - crop_pictures
+  artifacts:
+    expire_in: 7 days
+    paths:
+      - public/
+  tags:
+    - gitlab-design-review
+    - gitlab-design-deploy
+
+build_branch:
+  <<: *build_base
+  script:
+    - yarn run build
+  except:
+    - master
+
+build_master:
+  <<: *build_base
+  variables:
+  script:
+    - yarn run build
+  only:
+    - master
+
 review:
   stage: deploy
   allow_failure: true
@@ -11,7 +52,6 @@ review:
     GIT_STRATEGY: none
   script:
     - rsync -avz --delete public ~/pages/$CI_COMMIT_REF_SLUG
-    - cd public; yarn install; yarn run build
   environment:
     name: review/$CI_COMMIT_REF_SLUG
     url: https://$CI_COMMIT_REF_SLUG.design.gitlab.com
@@ -54,7 +94,6 @@ deploy:
   before_script: []
   script:
     - rsync --delete -avz public/ ~/public/
-    - cd public; yarn install; yarn run build
   environment:
     name: production
     url: https://design.gitlab.com
