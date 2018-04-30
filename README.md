@@ -10,7 +10,7 @@
 
 ## Reviewing
 
-Each merge request for this repository will generate a [review app](https://docs.gitlab.com/ee/ci/review_apps/). This is essentially spins up a new version of the website in which you are able to see live all changes introduced by the merge request changes.
+Each merge request for this repository will generate a [review app](https://docs.gitlab.com/ee/ci/review_apps/). Review apps create a new environment (dynamically) for each one of your branches. A Review App is then visible as a link when you visit the merge request relevant to the branch. That way, you are able to see live all changes introduced by the merge request changes.
 
 ## Contributing
 
