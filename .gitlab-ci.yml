@@ -1,12 +1,102 @@
 image: node:latest
 
-pages:
-  stage: deploy
-  script:
-    - yarn install
-    - yarn run build
+variables:
+  GIT_DEPTH: "10"
+  # Speed up middleman
+  NO_CONTRACTS: "true"
+
+stages:
+  - build
+  - deploy
+
+.install: &install
+  yarn install
+
+.build_base: &build_base
+  before_script:
+    - *install
+  stage: build
+  dependencies:
   artifacts:
+    expire_in: 7 days
     paths:
-    - public
+      - public/
+  tags:
+    - gitlab-design-review
+    - gitlab-design-deploy
+
+build_branch:
+  <<: *build_base
+  script:
+    - yarn run build
+  except:
+    - master
+
+build_master:
+  <<: *build_base
+  variables:
+  script:
+    - yarn run build
   only:
-  - master
+    - master
+
+review:
+  stage: deploy
+  allow_failure: true
+  before_script: []
+  cache: {}
+  dependencies:
+    - build_branch
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - rsync -avz --delete public ~/pages/$CI_COMMIT_REF_SLUG
+  environment:
+    name: review/$CI_COMMIT_REF_SLUG
+    url: https://$CI_COMMIT_REF_SLUG.design.gitlab.com
+    on_stop: review_stop
+  only:
+    - branches@gitlab-org/design.gitlab.com
+  except:
+    - master@gitlab-org/design.gitlab.com
+  tags:
+    - gitlab-design-review
+
+review_stop:
+  stage: deploy
+  before_script: []
+  artifacts: {}
+  cache: {}
+  dependencies: []
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - rm -rf public ~/pages/$CI_COMMIT_REF_SLUG
+  when: manual
+  environment:
+    name: review/$CI_COMMIT_REF_SLUG
+    action: stop
+  only:
+    - branches@gitlab-org/design.gitlab.com
+  except:
+    - master@gitlab-org/design.gitlab.com
+  tags:
+    - gitlab-design-review
+
+deploy:
+  stage: deploy
+  cache: {}
+  variables:
+    GIT_STRATEGY: none
+  dependencies:
+    - build_master
+  before_script: []
+  script:
+    - rsync --delete -avz public/ ~/public/
+  environment:
+    name: production
+    url: https://design.gitlab.com
+  tags:
+    - gitlab-design-deploy
+  only:
+    - master@gitlab-org/design.gitlab.com
