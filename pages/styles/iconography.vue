@@ -9,28 +9,6 @@
       <p>Icons are used to stress visual weight for elements with a high priority or to explain the universal knowledge in a simple way.</p>
       <p>The level of visual weight from heavy to light is: <strong>Icon + label > Icon > label.</strong></p>
       <p class="todo">Todo: Add live component block with code example</p>
-      <h2>Design specifications</h2>
-      <p>Follow these guidleines when developing icons:</p>
-      <p>Icons should be simple and use as few points as possible. The default bounding box size of icons is <strong>16x16px</strong>. Inside of that bounding box, some icons are larger, others are smaller, depending on their design. It's possible to enlarge or shrink the icons (i.e. their bounding box) according to our measure’s scale: 8px, 16px, 24px, 32px, etc. For additional details on measure, visit our <a href="/layout/spacing">spacing guide</a>.</p>
-      <ul>
-        <li>Default size: 16px * 16px</li>
-        <li>Minimum size: 8px * 8px</li>
-        <li>Border thickness: 2px</li>
-        <li>Border radius: 3px</li>
-      </ul>
-      <h2>Exporting icons as SVG</h2>
-      <p>When exporting SVGs, be sure to follow the following guidelines:</p>
-      <ol>
-        <li>Convert all strokes to outlines.</li>
-        <li>Use pathfinder tools to combine overlapping paths and create compound paths.</li>
-        <li>SVGs that are limited to one color should be exported without a fill color so the color can be set using CSS.</li>
-        <li>Ensure that exported SVGs have been run through an <a href="https://github.com/RazrFalcon/SVGCleaner" target="_blank">SVG cleaner</a> to remove unused elements and attributes.</li>
-      </ol>
-      <p>You can open your svg in a text editor to ensure that it is clean. Incorrect files will look like this:</p>
-      <p class="todo">Todo: Add SVG code example</p>
-      <p>Correct file will look like this:</p>
-      <p class="todo">Todo: Add SVG code example</p>
-      
       <h2>Dos and Dont's</h2>
       <p>Don't use one icon to refer to different meanings. While consistency is important, we need to remain flexible. Some icons are so basic and ubiquitous that it's difficult to detach them and use them without “conflicts”. An example of a “conflicting” use of icons is the X cross icon used for both failed pipelines and closing modals.</p>
       <table class="do-dont m-b-6">
