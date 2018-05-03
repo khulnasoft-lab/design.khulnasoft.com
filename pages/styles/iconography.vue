@@ -32,7 +32,7 @@
       <p class="todo">Todo: Add SVG code example</p>
       
       <h2>Dos and Dont's</h2>
-      <p>Don't use one icon to refer to different meanings.<br>While consistency is important, we need to remain flexible. Some icons are so basic and ubiquitous that it's difficult to detach them and use them without “conflicts”. An example of a “conflicting” use of icons is the X cross icon used for both failed pipelines and closing modals.</p>
+      <p>Don't use one icon to refer to different meanings. While consistency is important, we need to remain flexible. Some icons are so basic and ubiquitous that it's difficult to detach them and use them without “conflicts”. An example of a “conflicting” use of icons is the X cross icon used for both failed pipelines and closing modals.</p>
       <table class="do-dont m-b-6">
         <thead>
           <tr>
@@ -62,7 +62,7 @@
           </tr>
         </tbody>
       </table>
-      <p>Don't frequently use the combination of an icon and a label.<br>Use the combination only for the elements with high priority. For instance, we use an icon + a label for the contextual navigation.</p>
+      <p>Don't frequently use the combination of an icon and a label. Use the combination only for the elements with high priority. For instance, we use an icon + a label for the contextual navigation.</p>
        <table class="do-dont m-b-6">
         <thead>
           <tr>
@@ -77,7 +77,7 @@
           </tr>
         </tbody>
       </table>
-      <p>Don't use an icon to explain a meaning which is not straight-forward.<br>If an icon is not accompanied by a label, provide a quick explanation for users in a tooltip.</p>
+      <p>Don't use an icon to explain a meaning which is not straight-forward. If an icon is not accompanied by a label, provide a quick explanation for users in a tooltip.</p>
        <table class="do-dont m-b-6">
         <thead>
           <tr>
@@ -92,7 +92,7 @@
           </tr>
         </tbody>
       </table>
-      <p> Use whole pixels to create icons in order to align properly to a pixel grid.<br>For additional details on grids, visit our <a href="/layout/baseline-grid">baseline grid guide</a>.</p>
+      <p> Use whole pixels to create icons in order to align properly to a pixel grid. For additional details on grids, visit our <a href="/layout/baseline-grid">baseline grid guide</a>.</p>
        <table class="do-dont m-b-6">
         <thead>
           <tr>
