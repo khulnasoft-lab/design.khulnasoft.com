@@ -6,7 +6,7 @@
       <h2>Icon Viewer</h2>
       <p>You can view all of the current icons in GitLab at the following link: <a href="http://gitlab-org.gitlab.io/gitlab-svgs/" target="_blank">GitLab SVGs</a></p>
       <h2>Usage</h2>
-      <p>Icons are used to stress the visual weight for the elements with the high priority on a screen or to explain the universal knowledge in a simple way.</p>
+      <p>Icons are used to stress visual weight for elements with a high priority or to explain the universal knowledge in a simple way.</p>
       <p>The level of visual weight from heavy to light is: <strong>Icon + label > Icon > label.</strong></p>
       <p class="todo">Todo: Add live component block with code example</p>
       <h2>Design specifications</h2>
