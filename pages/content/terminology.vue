@@ -27,7 +27,7 @@
       <p>Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time. Milestones allow you to organize issues and merge requests into a cohesive group, with an optional start date and an optional due date.</p>
       <h4>Activity</h4>
       <p>Activity refers to any action taken by a user that results in the creation of a system note. Commenting, resolving/opening an issue, resolving/opening a merge request, and creating/deleting a branch are all considered to be an activity.</p>
-      <h2>Verbs and Adjectives</h2>
+      <h2>Verbs and adjectives</h2>
       <p>When using verbs or adjectives:</p>
       <dl>
         <dt class="p-b-5"><p>If the context clearly refers to the object, use them alone.</p></dt>
