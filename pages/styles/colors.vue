@@ -1054,7 +1054,7 @@
             <div class="color">
               <div class="color-overview c-background-gray-600 p-t-3 p-r-5 p-b-3 p-l-5">
                 <span class="variable f-inverted">$gray-600</span>
-                <span class="hex f-small f-inverted">#949494</span>
+                <span class="hex f-small f-inverted">#919191</span>
               </div>
             </div>
             <div class="color">
@@ -1236,7 +1236,7 @@
             <div class="color">
               <div class="color-overview t-gray-600 p-t-3 p-r-5 p-b-3 p-l-5">
                 <span class="variable f-inverted">$t-gray-600</span>
-                <span class="hex f-small f-inverted">#949494</span>
+                <span class="hex f-small f-inverted">#919191</span>
               </div>
             </div>
             <div class="color">
