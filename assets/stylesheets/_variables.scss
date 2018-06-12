@@ -12,6 +12,9 @@ $gl-spacing-7: 32px;
 $gl-spacing-8: 48px;
 $gl-spacing-9: 64px;
 $gl-spacing-10: 96px;
+$gl-spacing-11: 128px;
+$gl-spacing-12: 176px;
+$gl-spacing-13: 256px;
 
 $sizes: (
   1: 2px,
@@ -23,7 +26,10 @@ $sizes: (
   7: 32px,
   8: 48px,
   9: 64px,
-  10: 96px
+  10: 96px,
+  11: 128px,
+  12: 176px,
+  13: 256px
 );
 
 /*
@@ -107,6 +113,74 @@ $red-900: #711e11;
 $red-950: #4b140b;
 
 /*
+ * Theme colors
+ */
+
+$t-indigo-50: #f7f7ff;
+$t-indigo-100: #ebebfa;
+$t-indigo-200: #d1d1f0;
+$t-indigo-300: #a6a6de;
+$t-indigo-400: #7c7ccc;
+$t-indigo-500: #6666c4;
+$t-indigo-600: #5b5bbd;
+$t-indigo-700: #4b4ba3;
+$t-indigo-800: #393982;
+$t-indigo-900: #292961;
+$t-indigo-950: #1a1a40;
+$t-indigo-a-02: rgba($t-indigo-200, 0.02);
+$t-indigo-a-04: rgba($t-indigo-200, 0.04);
+$t-indigo-a-06: rgba($t-indigo-200, 0.06);
+$t-indigo-a-08: rgba($t-indigo-200, 0.08);
+
+$t-gray-50: #fafafa;
+$t-gray-100: #f2f2f2;
+$t-gray-200: #dfdfdf;
+$t-gray-300: #cccccc;
+$t-gray-400: #bababa;
+$t-gray-500: #a7a7a7;
+$t-gray-600: #919191;
+$t-gray-700: #707070;
+$t-gray-800: #4f4f4f;
+$t-gray-900: #2e2e2e;
+$t-gray-950: #1f1f1f;
+$t-gray-a-02: rgba($black, 0.02);
+$t-gray-a-04: rgba($black, 0.04);
+$t-gray-a-06: rgba($black, 0.06);
+$t-gray-a-08: rgba($black, 0.08);
+
+$t-blue-50: #f4f8fc;
+$t-blue-100: #e6edf5;
+$t-blue-200: #c8d7e6;
+$t-blue-300: #97b3cf;
+$t-blue-400: #648cb4;
+$t-blue-500: #4a79a8;
+$t-blue-600: #3e6fa0;
+$t-blue-700: #305c88;
+$t-blue-800: #25496e;
+$t-blue-900: #1a3652;
+$t-blue-950: #0f2235;
+$t-blue-a-02: rgba($t-blue-200, 0.02);
+$t-blue-a-04: rgba($t-blue-200, 0.04);
+$t-blue-a-06: rgba($t-blue-200, 0.06);
+$t-blue-a-08: rgba($t-blue-200, 0.08);
+
+$t-green-50: #f2faf6;
+$t-green-100: #e4f3ea;
+$t-green-200: #c0dfcd;
+$t-green-300: #8ac2a1;
+$t-green-400: #52a274;
+$t-green-500: #35935c;
+$t-green-600: #288a50;
+$t-green-700: #1c7441;
+$t-green-800: #145d33;
+$t-green-900: #0d4524;
+$t-green-950: #072d16;
+$t-green-a-02: rgba($t-green-200, 0.02);
+$t-green-a-04: rgba($t-green-200, 0.04);
+$t-green-a-06: rgba($t-green-200, 0.06);
+$t-green-a-08: rgba($t-green-200, 0.08);
+
+/*
  * Fonts
  */
 
@@ -117,9 +191,10 @@ $font-family-monospace: 'Menlo', 'DejaVu Sans Mono', 'Liberation Mono', 'Consola
  * Typography
  */
 
-$base-font-size: 14;
-$base-grid: 8;
-$leading: 16;
+$base-font-size: 14px;
+$base-grid: 8px;
+$base-grid--typography: 4px;
+
 $font-weight--normal: 400;
 $font-weight--bold: 600;
 $text-color: $gray-900;

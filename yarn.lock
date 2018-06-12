@@ -2,6 +2,12 @@
 # yarn lockfile v1
 
 
+"@gitlab-org/csslab@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@gitlab-org/csslab/-/csslab-0.0.4.tgz#025b20547d09808ad62c2a131b786b47dedcc27b"
+  dependencies:
+    bootstrap-sass "^3.3.7"
+
 "@gitlab-org/gitlab-svgs@^1.5.0":
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@gitlab-org/gitlab-svgs/-/gitlab-svgs-1.5.0.tgz#6635df6aad6c71fb293ff113efd4311a744c0e2c"
@@ -904,6 +910,10 @@ boom@5.x.x:
   dependencies:
     hoek "4.x.x"
 
+bootstrap-sass@^3.3.7:
+  version "3.3.7"
+  resolved "https://registry.yarnpkg.com/bootstrap-sass/-/bootstrap-sass-3.3.7.tgz#6596c7ab40f6637393323ab0bc80d064fc630498"
+
 brace-expansion@^1.1.7:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.8.tgz#c07b211c7c952ec1f8efd51a77ef0d1d3990a292"
@@ -1518,10 +1528,6 @@ css-what@2.1:
 cssesc@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-0.1.0.tgz#c814903e45623371a0477b40109aaafbeeaddbb4"
-
-csslab@^1.2.6:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/csslab/-/csslab-1.2.6.tgz#74fa251e2e551caee6de3bc75e39902f062f86ae"
 
 "cssnano@>=2.6.1 <4":
   version "3.10.0"

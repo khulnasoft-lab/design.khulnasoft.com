@@ -15,7 +15,7 @@
       </div>
       <div class="nav-sidebar__body m-t-3 m-b-3">
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/getting-started')">
-          <summary class="nav-sidebar__section-summary">Getting Started</summary>
+          <summary class="nav-sidebar__section-summary">Getting started</summary>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/getting-started/structure">Structure</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/getting-started/personas">Personas</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/getting-started/contributing">Contributing</nuxt-link>
@@ -26,10 +26,16 @@
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/colors">Colors</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/iconography">Iconography</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/motion">Motion</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/grid">Grid</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/illustration">Illustration</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/typography">Typography</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/styles/cursors">Cursors</nuxt-link>
+        </details>
+
+        <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/layout/')">
+          <summary class="nav-sidebar__section-summary">Layout</summary>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/layout/spacing">Spacing</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/layout/baseline-grid">Baseline grid</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/layout/responsive-ui">Responsive UI</nuxt-link>
         </details>
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/components/')">
@@ -38,12 +44,12 @@
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/badges">Badges</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/breadcrumbs">Breadcrumbs</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/buttons">Buttons</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/code-snippets">Code Snippets</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/data-tables">Data Tables</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/data-visualization">Data Visualization</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/date-picker">Date Picker</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/code-snippets">Code snippets</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/data-tables">Data tables</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/data-visualization">Data visualization</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/date-picker">Date picker</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/dropdowns">Dropdowns</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/file-uploader">File Uploader</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/file-uploader">File uploader</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/forms">Forms</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/labels">Labels</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/lists">Lists</nuxt-link>
@@ -52,9 +58,14 @@
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/pagination">Pagination</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/popovers">Popovers</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/search">Search</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/skeleton-loader">Skeleton Loader</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/skeleton-loader">Skeleton loader</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/spinner">Spinner</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/tabs">Tabs</nuxt-link>
+<<<<<<< HEAD
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/toasts">Toasts</nuxt-link>
+=======
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/tags">Tags</nuxt-link>
+>>>>>>> master
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/toggles">Toggles</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/tooltips">Tooltips</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/validations">Validations</nuxt-link>
@@ -70,15 +81,16 @@
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/content/')">
           <summary class="nav-sidebar__section-summary">Content</summary>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/capitalization">Capitalization</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/voice-tone">Voice &amp; tone</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/terminology">Terminology</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/punctuation">Punctuation</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/content/voice-tone">Voice & Tone</nuxt-link>
         </details>
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/usability/')">
           <summary class="nav-sidebar__section-summary">Usability</summary>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/usability/a11y">Accessibility</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/usability/i18n">Internationalization</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/usability/helping-users">Helping users</nuxt-link>
         </details>
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/resources/')">

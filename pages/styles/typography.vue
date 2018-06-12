@@ -25,22 +25,18 @@
         <tbody>
           <tr>
             <td>12px</td>
-            <td class="ts-7">The platform for modern developers</td>
-          </tr>
-          <tr>
-            <td>14px</td>
             <td class="ts-6">The platform for modern developers</td>
           </tr>
           <tr>
-            <td>16px</td>
+            <td>14px</td>
             <td class="ts-5">The platform for modern developers</td>
           </tr>
           <tr>
-            <td>20px</td>
+            <td>16px</td>
             <td class="ts-4">The platform for modern developers</td>
           </tr>
           <tr>
-            <td>24px</td>
+            <td>20px</td>
             <td class="ts-3">The platform for modern developers</td>
           </tr>
           <tr>

@@ -1,12 +1,12 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
-      <h1>Design Resources</h1>
-      <h2>Design Repository</h2>
-      <p>All design files are stored in the <a href="https://gitlab.com/gitlab-org/gitlab-design">gitlab-design</a> repository and maintained by GitLab UX designers. The repository contains GitLab’s open source design pattern library, prototypes, and work-in-progress files.</p>
+      <h1>Design resources</h1>
+      <h2>Design repository</h2>
+      <p>All design files are stored in the <a href="https://gitlab.com/gitlab-org/gitlab-design">gitlab-design</a> repository and maintained by GitLab UX designers. The repository contains GitLab’s open source pattern library, prototypes, and work-in-progress files.</p>
       <h3>Goals</h3>
       <ul>
-        <li>Jumpstart design work by using the design pattern library and previous work</li>
+        <li>Jumpstart design work by using the pattern library and previous work</li>
         <li>Enable frequent, stable, and consistent contributions</li>
         <li>Make GitLab’s design open, transparent, and open source</li>
         <li>Facilitate design handoffs and design–development communication design handoffs.</li>
