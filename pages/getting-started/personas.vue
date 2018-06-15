@@ -5,10 +5,10 @@
     </div>
     <div class="persona card m-b-8">
       <div class="card--header">
-        <h2>Nazim Ramesh</h2>
+        <h2>Nazim Ahmad</h2>
       </div>
       <div class="card--body md">
-        <img class="m-b-6 block" src="~/assets/images/personas/nazim-ramesh.png">
+        <img class="m-b-6 block" src="~/assets/images/personas/nazim-ahmad.png">
         <table class="m-b-6">
           <tbody>
             <tr>
