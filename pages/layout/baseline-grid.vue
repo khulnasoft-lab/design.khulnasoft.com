@@ -4,7 +4,7 @@
       <h1>Baseline grid</h1>
       <p>Adhering to a baseline grid allows us to be more efficient by removing decision making while maintaining a consistent rhythm between components and typography.
       <h2>Components</h2>
-      <p>Using a baseline grid of 8px allows flexibility when scaling and defining our <a href="/layout/measures">measures</a> without overloading the system with options. By using multiples of 8 to define dimensions, padding, and margins of components, we ensure every UI element aligns to the pixel grid.</p>
+      <p>Using a baseline grid of 8px allows flexibility when scaling and defining our <a href="/layout/spacing">spacing</a> without overloading the system with options. By using multiples of 8 to define dimensions, padding, and margins of components, we ensure every UI element aligns to the pixel grid.</p>
       <div class="baseline a-center m-b-6">
         <div class="w-13 h-3"></div>
         <div class="w-13 h-5 c-blue-background-300"></div>
