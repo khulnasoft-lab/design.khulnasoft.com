@@ -14,7 +14,6 @@
       <p class="todo">Todo: Add live component block with code example (sort by dropdown)</p>
       <p class="todo">Todo: Add live component block with code example (horizontally distributed form)</p>
       <h3>Input fields</h3>
-      <p>Correct HTML5 input field types must be used to improve the user experience of filling in a form, especially the following ones: email, url, tel, number, date, datetime, color.</p>
       <p class="todo">Todo: Add live component block with code example (input field types)</p>
       <p>Disabled input fields need an explanation on why they’re disabled and that comes as <a href="#help-text">Help text</a> below.</p>
       <p class="todo">Todo: Add live component block with code example (disabled input)</p>
@@ -22,7 +21,7 @@
       <p class="todo">Todo: Add live component block with code example (inputs of different widths)</p>
       <h4>Predefined widths</h4>
       <p>To encourage the usage of different input field widths, we use a set of predefined widths based on the 8 pixels grid. It’s ok to use a width that isn’t on this list but it should be based on the 8 pixels grid.</p>
-      <p class="todo">Todo: Add live component block with code example (predefined widths)</p>
+      <p class="todo">Todo: Add live component block with code example (predefined widths + 100% width)</p>
       <h3>Text area</h3>
       <p>Should be used when expected content is long. Predefined widths from the <strong>Input fields</strong> section apply to text area as well.</p>
       <p class="todo">Todo: Add live component block with code example (text area)</p>
