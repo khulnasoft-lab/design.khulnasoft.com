@@ -16,7 +16,7 @@
       <h3>Input fields</h3>
       <p>Correct HTML5 input field types must be used to improve the user experience of filling in a form, especially the following ones: email, url, tel, number, date, datetime, color.</p>
       <p class="todo">Todo: Add live component block with code example (input field types)</p>
-      <p>Disabled input fields need an explanation on why they’re disabled and that comes as Help text below.</p>
+      <p>Disabled input fields need an explanation on why they’re disabled and that comes as <a href="#help-text">Help text</a> below.</p>
       <p class="todo">Todo: Add live component block with code example (disabled input)</p>
       <p>The width of an input field should reflect the expected content, for example postcode should be smaller than address.</p>
       <p class="todo">Todo: Add live component block with code example (inputs of different widths)</p>
@@ -35,15 +35,15 @@
       <ul>
         <li><strong>Contextual</strong>: Either an example or an explanation of the label, not a generic “Enter” or a repetition of the label.</li>
         <li><strong>Helpful</strong>: If a placeholder doesn’t add value and make things easier for the user, it shouldn’t be used.</li>
-        <li><strong>Short</strong>: If a placeholder can’t be short, it should be turned into a Help text below the form element.</li>
+        <li><strong>Short</strong>: If a placeholder can’t be short, it should be turned into a <a href="#help-text">Help text</a> below the form element.</li>
       </ul>
       <p>If the placeholder isn’t all of the above, it shouldn’t be used.</p>
       <p>If a placeholder is an example, it must start with “e.g.”.</p>
       <p class="todo">Todo: Add live component block with code example (placeholder)</p>
-      <p>If a placeholder can’t be shortened but an explanation is needed, a Help text below the input should be used. An easy guideline to find out if the explanatory text is too long for a placeholder: if it resembles a sentence, use Help text below the input, if it’s just a few words (ideally up to two or three), consider using a placeholder.</p>
+      <p>If a placeholder can’t be shortened but an explanation is needed, a <a href="#help-text">Help text</a> below the input should be used. An easy guideline to find out if the explanatory text is too long for a placeholder: if it resembles a sentence, use Help text below the input, if it’s just a few words (ideally up to two or three), consider using a placeholder.</p>
       <p class="todo">Todo: Add live component block with code example (help text)</p>
       <h3 id="checkbox">Checkboxes and radios</h3>
-      <p>Checkbox and radio labels are set in regular font weight and should be as short as possible. If more, explanatory text is required, it should be added and styled as Help text below the label.</p>
+      <p>Checkbox and radio labels are set in regular font weight and should be as short as possible. If more, explanatory text is required, it should be added and styled as <a href="#help-text">Help text</a> below the label.</p>
       <p class="todo">Todo: Add live component block with code example (checkbox & radio: active & disabled)</p>
       <p class="todo">Todo: Add live component block with code example (checkbox & radio with help text below labels)</p>
       <h3>Validation</h3>
@@ -57,9 +57,17 @@
       <h4>Required information</h4>
       <p>We default to all information being optional unless stated otherwise (with “(Required)” added to the label of the corresponding input field).</p>
       <p class="todo">Todo: Add live component block with code example (required)</p>
+      <h3 id="help-text">Help text</h3>
+      <p>Help text can be used as additional instructions to the user when filling in the form. It’s styled as “Secondary” text style and should always be placed below the form element. In most cases, it should be a short sentence, not a paragraph or a single word.</p>
+      <p class="todo">Todo: Add live component block with code example (help text)</p>
       <h2>Design specification</h2>
       <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p>
       <a href="https://gitlab-org.gitlab.io/gitlab-design/hosted/gitlab-pattern-library-spec-previews/#artboard21">Sketch Measure Preview for forms</a>
+      <h2>Related patterns</h2>
+      <ul>
+        <li><a href="/components/buttons">Buttons</a></li>
+        <li><a href="/components/dropdowns">Dropdowns</a></li>
+      </ul>
     </div>
   </div>
 </template>
