@@ -5,7 +5,7 @@
       <p>Forms are a fundamental but a complex part of interacting with web applications such as GitLab. Getting them right and assisting the users to successfully complete their tasks is essential.</p>
       <h2>Usage</h2>
       <h3>Layout</h3>
-      <p>Form elements must move in single direction so they must only be distributed through one column when the progression of the form is vertical and through one row when the progression is horizontal. Horizontally stacking input fields in a vertically moving form is only acceptable when they’re related (e.g. Name and Surname).</p>
+      <p>Form elements should move in single direction so they should only be distributed through one column when the progression of the form is vertical and through one row when the progression is horizontal. Horizontally stacking input fields in a vertically moving form is only acceptable when they’re related (e.g. Name and Surname).</p>
       <p class="todo">Todo: Add live component block with code example (Vertical form with stacked input fields)</p>
       <p class="todo">Todo: Add live component block with code example (Horizontal form)</p>
       <h3>Labels</h3>
@@ -31,9 +31,9 @@
       <p>The user should be able to input the date by either typing it in or choosing a day from the datepicker dropdown. The user must never be forced to use only one of the two input methods.</p>
       <p class="todo">Todo: Add live component block with code example (datepicker: input field + dropdown)</p>
       <h3>Placeholders</h3>
-      <p>Placeholders are not a replacement for labels. Their usage should be limited so, if possible, try to avoid using them in form design. When they are used, they should be:</p>
+      <p>Placeholders must not be used as a replacement for labels but as a supplement. Their usage should be limited  even if used correctly. When they are used, they should be:</p>
       <ul>
-        <li><strong>Contextual</strong>: Either an example or a further explanation of the label, not a generic “Enter” or a repetition of the label.</li>
+        <li><strong>Contextual</strong>: Either an example or an explanation of the label, not a generic “Enter” or a repetition of the label.</li>
         <li><strong>Helpful</strong>: If a placeholder doesn’t add value and make things easier for the user, it shouldn’t be used.</li>
         <li><strong>Short</strong>: If a placeholder can’t be short, it should be turned into a Help text below the form element.</li>
       </ul>
