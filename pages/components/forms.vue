@@ -25,10 +25,6 @@
       <h3>Text area</h3>
       <p>Should be used when expected content is long. Predefined widths from the <strong>Input fields</strong> section apply to text area as well.</p>
       <p class="todo">Todo: Add live component block with code example (text area)</p>
-      <h3>Date picker</h3>
-      <p>The date picker comes in two parts: the input field and the date picker dropdown. The input field must use a placeholder text to indicate the expected format of time to be entered (e.g. “YYYY-MM-DD”) and a calendar icon on the right edge to indicate that clicking on it will open a datepicker dropdown.</p>
-      <p>The user should be able to input the date by either typing it in or choosing a day from the datepicker dropdown. The user must never be forced to use only one of the two input methods.</p>
-      <p class="todo">Todo: Add live component block with code example (datepicker: input field + dropdown)</p>
       <h3>Placeholders</h3>
       <p>Placeholders must not be used as a replacement for labels but as a supplement. Their usage should be limited  even if used correctly. When they are used, they should be:</p>
       <ul>
