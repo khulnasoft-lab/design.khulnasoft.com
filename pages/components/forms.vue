@@ -44,7 +44,7 @@
       <h3>Validation</h3>
       <h4>Error messages and states</h4>
       <p>Error messages and validation in general can happen either inline or on form submission. Inline validation should be seen as assisting the user to input the correct information and not as a way of preventing them from submitting the form with possibly incorrect information (inline validation might be frontend-only but the user has no way of knowing that).</p>
-      <p>The error message shows up below the input field in error state and should be helpful and contextual, not generic.</p>
+      <p>The error message shows up below the input field in error state and should be helpful and contextual, not generic. If there’s Help text below the input field, an error pushes it further down as it needs to show up immediately after the input.</p>
       <p class="todo">Todo: Add live component block with code example (error state + message)</p>
       <h4>Form buttons</h4>
       <p>We default to active buttons in forms and only disable them once clicked to avoid the possibility of submitting the form twice.</p>
