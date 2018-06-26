@@ -10,7 +10,7 @@
       <p class="todo">Todo: Add live component block with code example (Horizontal form)</p>
       <h3>Labels</h3>
       <p>Input field and text area labels are set in bold and positioned above the form element by default. Labels must use the <strong>for</strong> attribute for accessibility reasons. Labels for <a href="#checkbox">checkboxes and radios</a> are set in regular font weight.</p>
-      <p>In rare cases and exceptions, the label can be placed to the left of the input field. Examples of such exceptions are single input fields (e.g. “Sort by” dropdowns) and horizontally distributed forms.</p>
+      <p>In rare cases and exceptions, the label can be placed to the left of the input field. Examples include single input fields (e.g. “Sort by” dropdowns) and horizontally distributed forms.</p>
       <p class="todo">Todo: Add live component block with code example (sort by dropdown)</p>
       <p class="todo">Todo: Add live component block with code example (horizontally distributed form)</p>
       <h3>Input fields</h3>
