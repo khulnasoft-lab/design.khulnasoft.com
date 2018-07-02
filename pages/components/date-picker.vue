@@ -1,7 +1,7 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
-      <h1>Date Picker</h1>
+      <h1>Date picker</h1>
       <p>Date picker allows users to choose and input a date through a calendar-like dropdown or by manually typing the date into the input field.</p>
       <h2>Usage</h2>
       <p>The date picker comes in two parts: the input field and the date picker dropdown. The input field must use a placeholder text to indicate the expected format of time to be entered (e.g. “YYYY-MM-DD”) and a calendar icon on the right edge to indicate that clicking on it will open a datepicker dropdown.</p>
