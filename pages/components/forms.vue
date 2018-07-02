@@ -62,7 +62,7 @@
       <ul>
         <li><a href="/components/buttons">Buttons</a></li>
         <li><a href="/components/dropdowns">Dropdowns</a></li>
-        <li><a href="/components/date-picker">Date Picker</a></li>
+        <li><a href="/components/date-picker">Date picker</a></li>
       </ul>
     </div>
   </div>
