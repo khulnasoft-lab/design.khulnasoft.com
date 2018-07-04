@@ -4,13 +4,13 @@
       <h1>Grid</h1>
 
       <h2>Responsive UI</h2>
-      <p>GitLab is a responsive experience that works well across all screen sizes, from mobile devices to large monitors. In order to provide a great user experience, the core functionality (browsing files, creating issues, writing comments, etc.) is available at all resolutions. However, due to size limitations, some secondary functionality may be hidden on smaller screens. This functionality is limited to rare actions that aren't expected to be needed on small devices.</p>
+      <p>GitLab is a responsive experience that works well across all screen sizes, from mobile devices to large monitors. In order to provide a great user experience, the core functionality (browsing files, creating issues, writing comments, etc.) is available at all resolutions. However, due to size limitations, some secondary functionality may be hidden on smaller screens. This functionality is limited to rare actions that aren’t necessary on small devices.</p>
       <h3>Breakpoints</h3>
       <p>These breakpoints define specifications for different screens, devices, and orientations.</p>
       <p class="todo">Todo: Define breakpoints</p>
 
       <h2>Page containers</h2>
-      <p>Users can choose between two kinds of <a href="https://docs.gitlab.com/ee/user/profile/preferences.html#layout-width" target="_blank">layout width</a> which set the behavior of page containers: <strong>fixed</strong> (default) or <strong>fluid</strong>. The <strong>fluid</strong> layout does not impose any width restrictions to page containers, so elements expand across the screen to fill all available space. The <strong>fixed</strong> layout applies the ideal maximum width to page containers according to the elements being displayed so they can be experienced in the best fitting layout.</p>
+      <p>Users can choose between two kinds of <a href="https://docs.gitlab.com/ee/user/profile/preferences.html#layout-width" target="_blank">layout width</a> which set the behavior of page containers: <strong>fixed</strong> (default) or <strong>fluid</strong>. The <strong>fluid</strong> layout does not impose any width restrictions to page containers, so elements expand across the screen to fill all available space. The <strong>fixed</strong> layout applies the ideal maximum width to page containers according to the elements being displayed so they can be experienced using the most appropriate width.</p>
 
       <p><a href="/components/breadcrumbs">Breadcrumbs</a> always share the width of the page container that follows it.</p>
 
@@ -21,7 +21,7 @@
         <li><strong><code>1280px</code></strong>: For pages that have a lot of horizontal elements, such as content-heavy tables/lists or tables with a lot of columns.</li>
         <li><strong>Full-width</strong> (100%): For pages where the interaction benefits from more screen real-estate, such as charts/graphs and other data visualizations, or boards.</li>
       </ul>
-      <p>We recommend that you first try and use <strong><code>990px</code></strong> unless another width is more suited. A width can also be chosen based on consistency between similar views in different pages, even if another width would have been better.</p>
+      <p>We recommend that you first try and use <strong><code>990px</code></strong> unless another width is more suited. A width can also be chosen based on consistency between similar views in different pages, even if another width would have been more suitable.</p>
 
       <h2>Baseline grid</h2>
       <p>Adhering to a baseline grid allows us to be more efficient by removing decision making while maintaining a consistent rhythm between components and typography.
