@@ -2,7 +2,7 @@
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
       <h1>Forms</h1>
-      <p>Forms allow for user input by mimicking paper forms where users fill in information into particular fields and submit it to the system. They're a fundamental but a complex part of interacting with web applications such as GitLab. Getting them right and assisting the users to successfully complete their tasks is essential.</p>
+      <p>Forms allow for user input by mimicking paper forms where users fill in information into particular fields and submit it to the system. They&rsquo;re a fundamental but a complex part of interacting with web applications such as GitLab. Getting them right and assisting the users to successfully complete their tasks is essential.</p>
       <h2>Usage</h2>
       <h3>Layout</h3>
       <p>Form elements should move in a single direction so they should only be distributed through one column when the progression of the form is vertical and through one row when the progression is horizontal. Horizontally stacking input fields in a vertically moving form is only acceptable when they're related (e.g. Name and Surname).</p>
