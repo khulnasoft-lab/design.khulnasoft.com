@@ -10,7 +10,7 @@
       <p class="todo">Todo: Add live component block with code example (Horizontal form)</p>
       <h3>Labels</h3>
       <p>Input field and text area labels are set in bold and positioned above the form element by default. Labels must use the <strong>for</strong> attribute for accessibility reasons. Labels for <a href="#checkbox">checkboxes and radios</a> are set in regular font weight.</p>
-      <p>In rare cases and exceptions, the label can be placed to the left of the input field. Examples include single input fields (e.g. "Sort by” dropdowns) and horizontally distributed forms.</p>
+      <p>In rare cases and exceptions, the label can be placed to the left of the input field. Examples include single input fields (e.g. "Sort by" dropdowns) and horizontally distributed forms.</p>
       <p class="todo">Todo: Add live component block with code example (sort by dropdown)</p>
       <p class="todo">Todo: Add live component block with code example (horizontally distributed form)</p>
       <h3>Input fields</h3>
@@ -28,12 +28,12 @@
       <h3>Placeholders</h3>
       <p>Placeholders must not be used as a replacement for labels but as a supplement. Their usage should be limited  even if used correctly. When they are used, they should be:</p>
       <ul>
-        <li><strong>Contextual</strong>: Either an example or an explanation of the label, not a generic "Enter” or a repetition of the label.</li>
+        <li><strong>Contextual</strong>: Either an example or an explanation of the label, not a generic "Enter" or a repetition of the label.</li>
         <li><strong>Helpful</strong>: If a placeholder doesn't add value and make things easier for the user, it shouldn't be used.</li>
         <li><strong>Short</strong>: If a placeholder can't be short, it should be turned into a <a href="#help-text">Help text</a> below the form element.</li>
       </ul>
       <p>If the placeholder isn't all of the above, it shouldn't be used.</p>
-      <p>If a placeholder is an example, it must start with "e.g.”.</p>
+      <p>If a placeholder is an example, it must start with "e.g.".</p>
       <p class="todo">Todo: Add live component block with code example (placeholder)</p>
       <p>If a placeholder can't be shortened but an explanation is needed, a <a href="#help-text">Help text</a> below the input should be used. An easy guideline to find out if the explanatory text is too long for a placeholder: if it resembles a sentence, use Help text below the input, if it's just a few words (ideally up to two or three), consider using a placeholder.</p>
       <p class="todo">Todo: Add live component block with code example (help text)</p>
@@ -50,10 +50,10 @@
       <p>We default to active buttons in forms and only disable them once clicked to avoid the possibility of submitting the form twice.</p>
       <p class="todo">Todo: Add live component block with code example (form button)</p>
       <h4>Required information</h4>
-      <p>We default to all information being optional unless stated otherwise (with "(Required)” added to the label of the corresponding input field).</p>
+      <p>We default to all information being optional unless stated otherwise (with "(Required)" added to the label of the corresponding input field).</p>
       <p class="todo">Todo: Add live component block with code example (required)</p>
       <h3 id="help-text">Help text</h3>
-      <p>Help text can be used as additional instructions to the user when filling in the form. It's styled using the "Secondary” text style and should always be placed below the form element. In most cases, it should be a short sentence, not a paragraph or a single word.</p>
+      <p>Help text can be used as additional instructions to the user when filling in the form. It's styled using the "Secondary" text style and should always be placed below the form element. In most cases, it should be a short sentence, not a paragraph or a single word.</p>
       <p class="todo">Todo: Add live component block with code example (help text)</p>
       <h2>Design specification</h2>
       <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p>
