@@ -10,16 +10,18 @@
       <p class="todo">Todo: Define breakpoints</p>
 
       <h2>Page containers</h2>
-      <p>Users can choose between two kinds of <a href="https://docs.gitlab.com/ee/user/profile/preferences.html#layout-width" target="_blank">layout width</a> which set the behavior of page containers: <strong>fixed</strong> (default) or <strong>fluid</strong>. The <strong>fluid</strong> layout does not impose any width restrictions to page containers, so elements expand across the screen to fill all available space. The <strong>fixed</strong> layout applies the ideal maximum width to page containers according to the elements being displayed so they can be experienced using the most appropriate width.</p>
+      <p>Users can choose between two kinds of <a href="https://docs.gitlab.com/ee/user/profile/preferences.html#layout-width" target="_blank">layout width</a> which set the behavior of page containers: <strong>fixed</strong> (default) or <strong>fluid</strong>.
+      <p>The <strong>fluid</strong> layout does not impose any width restrictions to page containers, so elements expand across the screen to fill all available space.
+      <p>The <strong>fixed</strong> layout applies the ideal maximum width to page containers according to the elements being displayed so they can be experienced using the most appropriate width.</p>
 
       <p><a href="/components/breadcrumbs">Breadcrumbs</a> always share the width of the page container that follows it.</p>
 
       <h3>Fixed layout</h3>
       <p>In the fixed layout, there are three possible maximum widths for page containers. For each width, you must consider which one is best to consume and interact with the elements on the page. The following widths include a <code>16px</code> padding on both sides.</p>
       <ul>
-        <li><strong><code>990px</code></strong>: By default, all pages use this maximum width. It’s ideal for forms, simple pages, or tables with few columns.</li>
+        <li><strong><code>990px</code></strong>: By default, all pages use this maximum width. It’s ideal for forms, simple pages, tables with few columns, or pages that focus on written content.</li>
         <li><strong><code>1280px</code></strong>: For pages that have a lot of horizontal elements, such as content-heavy tables/lists or tables with a lot of columns.</li>
-        <li><strong>Full-width</strong> (100%): For pages where the interaction benefits from more screen real-estate, such as charts/graphs and other data visualizations, or boards.</li>
+        <li><strong>Full-width</strong> (100%): Exception for pages where the interaction benefits from more screen real-estate, such as charts/graphs and other data visualizations, or boards.</li>
       </ul>
       <p>We recommend that you first try and use <strong><code>990px</code></strong> unless another width is more suited. A width can also be chosen based on consistency between similar views in different pages, even if another width would have been more suitable.</p>
 
