@@ -5,7 +5,7 @@
 1. Clone the project with `git clone git@gitlab.com:gitlab-org/design.gitlab.com.git`
 1. Install [yarn](https://yarnpkg.com/en/docs/install)
 1. Run `yarn`
-1. Run `yarn start` to start build & watch changes
+1. Run `PORT=2018 yarn start` to start build & watch changes
 1. Open http://localhost:2018
 
 ## Reviewing
