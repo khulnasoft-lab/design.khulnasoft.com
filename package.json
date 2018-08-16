@@ -1,24 +1,25 @@
 {
   "dependencies": {
     "@gitlab-org/csslab": "^0.0.4",
-    "@gitlab-org/gitlab-svgs": "^1.5.0",
-    "caniuse-lite": "^1.0.30000792",
-    "css-loader": "^0.28.7",
+    "@gitlab-org/gitlab-svgs": "^1.25.0",
+    "ajv": "^6.5.2",
+    "caniuse-lite": "^1.0.30000864",
+    "css-loader": "^0.28.11",
     "extract-text-webpack-plugin": "^3.0.2",
-    "html-loader": "^0.5.1",
-    "markdown-loader": "^2.0.1",
-    "node-sass": "^4.7.2",
-    "nuxt": "^1.0.0-rc11",
-    "prismjs": "^1.8.3",
-    "sass-loader": "^6.0.6",
-    "vue": "^2.5.2",
-    "vue-loader": "^13.3.0",
-    "vue-server-renderer": "^2.5.13",
-    "vue-template-compiler": "^2.5.2"
+    "html-loader": "^0.5.5",
+    "markdown-loader": "^2.0.2",
+    "node-sass": "^4.9.1",
+    "nuxt": "^1.4.1",
+    "prismjs": "^1.15.0",
+    "sass-loader": "^6.0.7",
+    "vue": "^2.5.16",
+    "vue-loader": "^13.7.2",
+    "vue-server-renderer": "^2.5.16",
+    "vue-template-compiler": "^2.5.16"
   },
   "devDependencies": {
     "babel-preset-vue": "^1.2.1",
-    "webpack": "^3.10.0"
+    "webpack": "^3.12.0"
   },
   "scripts": {
     "start": "PORT=2018 nuxt",
