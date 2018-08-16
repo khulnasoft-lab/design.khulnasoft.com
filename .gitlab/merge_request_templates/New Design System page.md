@@ -1,5 +1,3 @@
-<!-- Please  -->
-
 ## Description
 
 (Add a short description what this new page covers)
