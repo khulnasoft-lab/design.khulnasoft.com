@@ -2,10 +2,6 @@
 
 (Add a short description what this new page covers)
 
-## Solution
-
-(What’s the solution? Why is it like that? What are the benefits?)
-
 ## References
 
 (Link related Design System or GitLab Design issues)
