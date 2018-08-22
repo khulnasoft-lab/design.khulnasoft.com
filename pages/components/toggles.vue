@@ -2,10 +2,10 @@
 	<div class="content limited m-t-7 m-b-7">
 		<div class="component md">
 			<h1>Toggle</h1>
-			<p>A toggle is a digital visual switch includes two mutually exclusive states - either On or Off.</p>
+			<p>A toggle is a digital visual switch which includes two mutually exclusive states - either On or Off.</p>
 			<!-- Usage -->
 			<h2>Usage</h2>
-			<p>Using toggles when there is only an available option and users can make an action between two selections. The result of the toggles should be delivered immediately.</p>
+			<p>Use toggles when there is only one available option and users can make an choice between two selections. The result of the toggle should be delivered immediately.</p>
 			<!-- Dos and Dont's -->
 			<h3>Dos and Dont's</h3>
 			<p class="todo">Todo: Add the example of dos and dont's.</p>
