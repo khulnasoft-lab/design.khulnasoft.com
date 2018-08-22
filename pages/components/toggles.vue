@@ -31,7 +31,7 @@
 				    <td>Ask users to click Save or Submit to apply the new state.</td>
 				  </tr>
 				  <tr>
-				    <td>The labels should be concise, direct, and short. Keep the label scannable. Also, it should describe the result when the option is on.</td>
+				    <td>The labels should be concise, direct, and short. Keep the label scannable. Also, it should describe the result when the user turn on the option.</td>
 				    <td>Asking questions and adding a description for the value of a switch.</td>
 				  </tr>
 				  <tr>
