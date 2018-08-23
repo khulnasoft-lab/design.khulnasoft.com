@@ -6,13 +6,16 @@
 			<!-- Usage -->
 			<h2>Usage</h2>
 			<p>Use toggles when there is only one available option and users can make an choice between two selections. The result of the toggle should be delivered immediately.</p>
-			<h3>Checkboxes and radio buttons</h3>
+			<h3>When to use checkboxes and radio buttons</h3>
 			<ul>
-			 <li><p>Use checkboxes when the user is allowed to select one or more items from a list. Use radio buttons when the user is allowed to make only one choice from a list and needs to see all available options.</p></li>
-			 <li><p>Use radio buttons when the user is allowed to make only one choice from a list and needs to see all available options. </p></li>
+			 	<li><p>Use checkboxes when the user is allowed to select one or more items from a list.</p></li>
+			 	<li><p>Use radio buttons when the user is allowed to make only one choice from a list and needs to see all available options. </p></li>
 			</ul>
 			<h3>Visual Design</h3>
-			<p>For on state, the track should present in `$blue-500`, and the thumb should present in `$white` with checkmark icon. For off state, the track should present in `$grey-600`, and the thumb should present in `$white` with close icon.</p>
+			<ul>
+				<li><p>For "on" state, the track should present in `$blue-500`, and the thumb should present in `$white` with checkmark icon.</p></li>
+				<li><p>For "off" state, the track should present in `$grey-600`, and the thumb should present in `$white` with close icon.</p></li>
+			</ul>
 			<h3>Position</h3>
 			<p>The toggle should be inline with the label and at the right side.</p>
 			<!-- Dos and Dont's -->
