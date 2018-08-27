@@ -22,4 +22,4 @@ contributions. Please refer to [CONTRIBUTING.md](/CONTRIBUTING.md) for details.
 If you run into problems while running `yarn` or `yarn start`, they may be due 
 to a mismatch between the components installed on your computer and the versions
 required by the build scripts in this repository. To fix these problems, try
-running `yarn upgrazde`.
+running `yarn upgrade`.
