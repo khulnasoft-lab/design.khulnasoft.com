@@ -16,3 +16,10 @@ Each merge request for this repository will generate a [review app](https://docs
 
 GitLab is an open source project and we are very happy to accept community
 contributions. Please refer to [CONTRIBUTING.md](/CONTRIBUTING.md) for details.
+
+## Troubleshooting
+
+If you run into problems while running `yarn` or `yarn start`, they may be due 
+to a mismatch between the components installed on your computer and the versions
+required by the build scripts in this repository. To fix these problems, try
+running `yarn upgrazde`.
