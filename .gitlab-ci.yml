@@ -56,9 +56,9 @@ review:
     url: https://$CI_COMMIT_REF_SLUG.design.gitlab.com
     on_stop: review_stop
   only:
-    - branches@gitlab-org/design.gitlab.com
+    - branches
   except:
-    - master@gitlab-org/design.gitlab.com
+    - master
   tags:
     - gitlab-design-review
 
@@ -77,9 +77,9 @@ review_stop:
     name: review/$CI_COMMIT_REF_SLUG
     action: stop
   only:
-    - branches@gitlab-org/design.gitlab.com
+    - branches
   except:
-    - master@gitlab-org/design.gitlab.com
+    - master
   tags:
     - gitlab-design-review
 
