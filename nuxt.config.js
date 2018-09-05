@@ -14,5 +14,8 @@ module.exports = {
   },
   generate: {
     dir: 'public'
+  },
+  build: {
+    vendor: ['mermaid']
   }
 }
