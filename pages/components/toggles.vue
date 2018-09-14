@@ -2,10 +2,10 @@
 	<div class="content limited m-t-7 m-b-7">
 		<div class="component md">
 			<h1>Toggle</h1>
-			<p>A toggle is a digital visual switch which includes two mutually exclusive states - either On or Off.</p>
+			<p>A toggle is a digital visual switch which includes two mutually exclusive states - either On or Off - one is active by default.</p>
 			<!-- Usage -->
 			<h2>Usage</h2>
-			<p>Use toggles when there is only one available option and users can make an choice between two selections. The result of the toggle should be delivered immediately.</p>
+			<p>Use toggles when there is a choice between two selections and results are effective and noticable immediately.</p>
 			<h3>When to use checkboxes and radio buttons</h3>
 			<ul>
 			 	<li><p>Use checkboxes when the user is allowed to select one or more items from a list.</p></li>
