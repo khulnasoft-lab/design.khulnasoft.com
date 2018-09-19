@@ -1,11 +1,24 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
-      <h1>Toggle</h1>
-      <p>A toggle is a digital visual switch which includes two mutually exclusive states - either On or Off - one is active by default.</p>
+      <h1>Checkmarks</h1>
+      <p>A checkmark is an input which communicates that an option is true, false or indeterminate - one is active by default.</p>
       <!-- Usage -->
       <h2>Usage</h2>
-      <p>Use toggles when there is a choice between two selections, it has a default state, the results are effective and noticable immediately, and there is no need for a user to click a submit button.</p>
+
+
+      single
+
+      Multiple
+      
+      <p>Use checkmarks when there is a choice between two selections, it has a default state, the results are effective and noticable immediately, and there is no need for a user to click a submit button.</p>
+
+      between two opposite states
+      allow people to select a number of options
+
+      used when there is a list of options and the user may select multiple options, including all or none.
+
+
 			<p>Avoid using toggles in for example <a href="/components/forms">forms</a> where a submit button is needed in order to confirm the user's input. This would confuse the user and dillute the expected experience of producing instant results for any toggle throughout the interface.
 			<p>Toggles may replace a secgmented control, two radio buttons, or a single checkbox to allow users to choose between two opposing states. In order to help choosing the right solution follow the table below.</p>
 
@@ -79,6 +92,9 @@
 			<h2>Related patterns</h2>
 			<ul>
 				<li><a href="/components/segmented-control">Segmented control</a></li>
+        <li><a href="/components/dropdowns">Dropdowns</a></li>
+        <li><a href="/components/toggles">Toggles</a></li>
+        <li><a href="/components/radio-buttons">Radio buttons</a></li>
 			</ul>
     </div>
    </div>
