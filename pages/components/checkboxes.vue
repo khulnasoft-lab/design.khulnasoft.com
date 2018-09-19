@@ -8,7 +8,7 @@
       <h2>Usage</h2>
       <p>Use a single checkbox when there is a choice between two selections, it has a default state, the results are <strong>not</strong> effective or noticable immediately, and there is a need for a user to click a submit button.</p>
       <p>Use multiple checkboxes to allow users to select multiple from a list of options, including all or none.</p>
-			<p>Checkboxes may replace toggles, segmented control, or radio buttons to allow users to choose between two opposing states. In order to help choosing the right solution follow the table below.</p>
+			<p>Checkboxes may replace toggles, segmented control, or radio buttons to allow users to select one, two or multiple options. In order to help choosing the right solution follow the table below.</p>
 			<table>
 				<thead>
 					<tr>
