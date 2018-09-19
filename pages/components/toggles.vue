@@ -1,7 +1,7 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
-      <h1>Toggle</h1>
+      <h1>Toggles</h1>
       <p>A toggle is a digital visual switch which includes two mutually exclusive states - either On or Off - one is active by default.</p>
       <!-- Usage -->
       <h2>Usage</h2>
