@@ -64,7 +64,7 @@
 				</tbody>
 			</table>
 			<h3>Labels</h3>
-				<p><p>Checkbox labels are set in regular font weight, positioned right from the element, and should be as short as possible. If more, explanatory text is required, it should be added and styled as <a href="/components/forms#help-text">Help text</a> below the label.</p>
+			<p>Checkbox labels are set in regular font weight, positioned right from the element, and should be as short as possible. If more, explanatory text is required, it should be added and styled as <a href="/components/forms#help-text">Help text</a> below the label.</p>
 			<h3>Visual Design</h3>
 			<p>Checkboxes should use aside from high-contrast colors to indicate the states - true or false, a checkmark and hyphen icon to differentiate between true or indeterminate .</p>
 			<h2>Demo</h2>
