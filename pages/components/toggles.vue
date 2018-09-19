@@ -79,6 +79,8 @@
 			<h2>Related patterns</h2>
 			<ul>
 				<li><a href="/components/segmented-control">Segmented control</a></li>
+        <li><a href="/components/checkboxes">checkboxes</a></li>
+        <li><a href="/components/radio-buttons">Radio buttons</a></li>
 			</ul>
     </div>
    </div>
