@@ -174,6 +174,10 @@
           >Progress bars</nuxt-link>
           <nuxt-link 
             class="nav-sidebar__section-items-anchor" 
+            to="/components/radio-buttons"
+          >Radio buttons</nuxt-link>
+          <nuxt-link 
+            class="nav-sidebar__section-items-anchor" 
             to="/components/search"
           >Search</nuxt-link>
           <nuxt-link 
