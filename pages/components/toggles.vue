@@ -6,7 +6,7 @@
       <!-- Usage -->
       <h2>Usage</h2>
       <p>Use toggles when there is a choice between two selections, it has a default state, the results are effective and noticable immediately, and there is <strong>no need</strong> for a user to click a submit button.</p>
-			<p>Avoid using toggles in for example <a href="/components/forms">forms</a> where a submit button is needed in order to confirm the user's input. This would confuse the user and dillute the expected experience of producing instant results for any toggle throughout the interface.
+			<p>Avoid using toggles in for example <a href="/components/forms">forms</a> where a submit button is needed in order to confirm the user's input. This would confuse the user and dillute the expected experience of producing instant results for any toggle throughout the interface.</p>
 			<p>Toggles may replace a secgmented control, two radio buttons, or a single checkbox to allow users to choose between two opposing states. In order to help choosing the right solution follow the table below.</p>
 
 			<table>
