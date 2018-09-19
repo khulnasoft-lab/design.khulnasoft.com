@@ -45,6 +45,7 @@
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/badges">Badges</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/breadcrumbs">Breadcrumbs</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/buttons">Buttons</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/checkboxes">Checkboxes</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/code-snippets">Code snippets</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/data-tables">Data tables</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/data-visualization">Data visualization</nuxt-link>
