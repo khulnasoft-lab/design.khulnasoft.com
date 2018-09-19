@@ -27,7 +27,7 @@
 						<td>Multiple</td>
 						<td>Multiple</td>
 						<td>2 (on/off)</td>
-						<td>2 (on/off)</td>
+						<td class="highlighted">2 (on/off)</td>
 					</tr>
 					<tr>
 						<th>How many selections can the user make?</th>
@@ -35,7 +35,7 @@
 						<td>1</td>
 						<td>0 – all</td>
 						<td>1</td>
-						<td>1</td>
+						<td class="highlighted">1</td>
 					</tr>
 					<tr>
 						<th>Is there a default state?</th>
@@ -43,7 +43,7 @@
 						<td>Yes</td>
 						<td>No</td>
 						<td>Yes</td>
-						<td>Yes</td>
+						<td class="highlighted">Yes</td>
 					</tr>
 					<tr>
 						<th>How would you describe the choices?</th>
@@ -51,7 +51,7 @@
 						<td>Mutually exclusive</td>
 						<td>Independent of each other</td>
 						<td>Mutually exclusive</td>
-						<td>Mutually exclusive</td>
+						<td class="highlighted">Mutually exclusive</td>
 					</tr>
 					<tr>
 						<th>When does the selection take effect?</th>
@@ -59,7 +59,7 @@
 						<td>Immediately</td>
 						<td>After a user clicks a submit button</td>
 						<td>After a user clicks a submit button</td>
-						<td>Immediately</td>
+						<td class="highlighted">Immediately</td>
 					</tr>
 				</tbody>
 			</table>
