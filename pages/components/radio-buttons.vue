@@ -65,20 +65,20 @@
 			<h3>Labels</h3>
 			<p>Checkbox labels are set in regular font weight, positioned right from the element, and should be as short as possible. If more, explanatory text is required, it should be added and styled as <a href="/components/forms#help-text">Help text</a> below the label.</p>
 			<h3>Visual Design</h3>
-			<p>Toggles should use high-contrast colors to indicate the states - On and Off.</p>
+			<p>Checkboxes should use high-contrast colors and a dot icon to indicate the states - selected and unselected.</p>
 
 			<h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
 
 			<h2>Design specifications</h2>
       <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p>
-      <p><a href="https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/toggles-spec-previews/">Sketch Measure Preview for toggles</a></p>
+      <p><a href="https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/radiobuttons-spec-previews/">Sketch Measure Preview for radio buttons</a></p>
 
 			<h2>Related patterns</h2>
 			<ul>
 				<li><a href="/components/segmented-control">Segmented control</a></li>
-        <li><a href="/components/checkboxes">checkboxes</a></li>
-        <li><a href="/components/radio-buttons">Radio buttons</a></li>
+        <li><a href="/components/checkboxes">Checkboxes</a></li>
+        <li><a href="/components/toggles">Toggles</a></li>
 			</ul>
     </div>
    </div>
