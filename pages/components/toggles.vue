@@ -13,15 +13,17 @@
 				<thead>
 					<tr>
 						<th>&nbsp;</th>
-						<th>Radio Buttons</th>
+						<th>Radio buttons</th>
+						<th>Segmented control</th>
 						<th>Checkboxes</th>
-						<th>Single Checkbox</th>
-						<th>Toggle Switches</th>
+						<th>Single checkbox</th>
+						<th>Toggle switches</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 						<th>How many states are available?</th>
+						<td>Multiple</td>
 						<td>Multiple</td>
 						<td>Multiple</td>
 						<td>2 (on/off)</td>
@@ -30,12 +32,14 @@
 					<tr>
 						<th>How many selections can the user make?</th>
 						<td>1</td>
+						<td>1</td>
 						<td>0 – all</td>
 						<td>1</td>
 						<td>1</td>
 					</tr>
 					<tr>
 						<th>Is there a default state?</th>
+						<td>Yes</td>
 						<td>Yes</td>
 						<td>No</td>
 						<td>Yes</td>
@@ -44,6 +48,7 @@
 					<tr>
 						<th>How would you describe the choices?</th>
 						<td>Mutually exclusive</td>
+						<td>Mutually exclusive</td>
 						<td>Independent of each other</td>
 						<td>Mutually exclusive</td>
 						<td>Mutually exclusive</td>
@@ -51,6 +56,7 @@
 					<tr>
 						<th>When does the selection take effect?</th>
 						<td>After a user clicks a submit button</td>
+						<td>Immediately</td>
 						<td>After a user clicks a submit button</td>
 						<td>After a user clicks a submit button</td>
 						<td>Immediately</td>
@@ -58,36 +64,22 @@
 				</tbody>
 			</table>
 
-			Labels for checkboxes and radios are set in regular font weight.
+			<h3>Labels</h3>
+				<p>Toggle labels are set in bold, positioned above the element by default, and should describe what the control will do when the switch is on in a concise, direct, and short way.</p>
+			<h3>Visual Design</h3>
+			<p>Toggles should use high-contrast colors to indicate the states - On and Off.</p>
 
-			In rare cases and exceptions, the label can be placed to the left of the input field. Examples include single input fields (e.g. "Sort by" dropdowns) and horizontally distributed forms.
+			<h2>Demo</h2>
+      <p class="todo">Todo: Add live component block with code example</p>
 
+			<h2>Design specifications</h2>
+      <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p>
+      <p><a href="https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/toggles-spec-previews/">Sketch Measure Preview for toggles</a></p>
 
-
-When a user toggles switch, the response should take effect immediately.
-The labels should be concise, direct, and short. Keep the label scannable. Also, it should describe the result when the user turn on the option.
-Toggles should use high-contrast colors to indicate the states - On and Off.
-
-
-			<h3>When to use checkboxes</h3>
-      <ul>
-        <li><p>Use checkboxes when the user is allowed to select one or more items from a list.</p></li>
-        <li><p>Use radio buttons when the user is allowed to make only one choice from a list and needs to see all available options. </p></li>
-      </ul>
-      <h3>Visual Design</h3>
-      <ul>
-        <li><p>For "on" state, the track should present in `$blue-500`, and the thumb should present in `$white` with checkmark icon.</p></li>
-        <li><p>For "off" state, the track should present in `$grey-600`, and the thumb should present in `$white` with close icon.</p></li>
-      </ul>
-      <h3>Position</h3>
-      <p>The toggle should be inline with the label and at the right side.</p>
-      <!-- Dos and Dont's -->
-      <h3>Dos and Dont's</h3>
-
-
-
-			<p class="todo">Todo: Add the example of dos and dont's.</p>
-
+			<h2>Related patterns</h2>
+			<ul>
+				<li><a href="/components/segmented-control">Segmented control</a></li>
+			</ul>
     </div>
    </div>
 </template>
