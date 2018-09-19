@@ -4,7 +4,6 @@
       <h1>Checkboxes</h1>
       <p>A checkbox is an input which communicates that an option is true, false or indeterminate - one is active by default.</p>
       <p>The last state represents a situation where a list of sub-options is grouped under a parent option and sub-options are in both selected and unselected states.</p>
-      <!-- Usage -->
       <h2>Usage</h2>
       <p>Use a single checkbox when there is a choice between two selections, it has a default state, the results are <strong>not</strong> effective or noticable immediately, and there is a need for a user to click a submit button.</p>
       <p>Use multiple checkboxes to allow users to select multiple from a list of options, including all or none.</p>
@@ -72,7 +71,6 @@
 			<h2>Design specifications</h2>
       <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p>
       <p><a href="https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/checkboxes-spec-previews/">Sketch Measure Preview for checkboxes</a></p>
-
 			<h2>Related patterns</h2>
 			<ul>
 				<li><a href="/components/segmented-control">Segmented control</a></li>
