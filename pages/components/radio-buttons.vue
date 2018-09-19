@@ -22,7 +22,7 @@
 				<tbody>
 					<tr>
 						<th>How many states are available?</th>
-						<td>Multiple</td>
+						<td class="highlighted">Multiple</td>
 						<td>Multiple</td>
 						<td>Multiple</td>
 						<td>2 (on/off)</td>
@@ -63,7 +63,7 @@
 				</tbody>
 			</table>
 			<h3>Labels</h3>
-				<p>Radio button labels are set in bold, positioned above the element by default, and should describe what the control will do when the switch is on in a concise, direct, and short way.</p>
+			<p>Checkbox labels are set in regular font weight, positioned right from the element, and should be as short as possible. If more, explanatory text is required, it should be added and styled as <a href="/components/forms#help-text">Help text</a> below the label.</p>
 			<h3>Visual Design</h3>
 			<p>Toggles should use high-contrast colors to indicate the states - On and Off.</p>
 
