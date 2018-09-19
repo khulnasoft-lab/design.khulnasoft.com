@@ -10,8 +10,8 @@
       single
 
       Multiple
-      
-      <p>Use checkmarks when there is a choice between two selections, it has a default state, the results are effective and noticable immediately, and there is no need for a user to click a submit button.</p>
+
+      <p>Use checkmarks when there is a choice between two or more selections.  it has a default state, the results are effective and noticable immediately, and there is no need for a user to click a submit button.</p>
 
       between two opposite states
       allow people to select a number of options
