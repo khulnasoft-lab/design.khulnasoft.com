@@ -1,63 +1,85 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
-      <h1>Component name</h1>
-      <p>Component overview. A brief explanation of what the component is.</p>
+      <h1>Radio buttons</h1>
+      <p>A radio button is an input which includes two mutually exclusive states - either selected or unselected - one is active by default.</p>
+      <p>A group of radio buttons is a select list which can only have one radio button selected at any time - one is active by default.</p>
+      <!-- Usage -->
       <h2>Usage</h2>
-      <p>A summary of when and how the component is used.</p>
-      <!--
-        EXAMPLE TABLE, this can be used to highlight Do's & Don'ts or specfic rule sets
-        DO NOT add static images to any page at this time.
-      -->
-      <table class="do-dont m-b-6">
-        <thead>
-          <tr>
-            <th>Component type</th>
-            <th>Purpose</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Primary button</td>
-            <td>The primary call to action on the page.</td>
-          </tr>
-          <tr>
-            <td>Secondary button</td>
-            <td>Secondary actions on the page.</td>
-          </tr>
-        </tbody>
-      </table>
-      <!--
-        SUB SECTIONS, use these to highlight component specific rules. You can add as many sub-sections as needed, use your best judgement
-        e.g. truncation rules
-      -->
-      <h3>Sub section</h3>
-      <p>A summary of a specific usage guideline.</p>
-      <p class="todo">An example of a live component to add related to a usage guideline</p>
-      <!--
-        DEMO, keep this section for all patterns, the code block demo will be added at a later date
-      -->
-      <h2>Demo</h2>
+      <p>Radio buttons can never be used alone and must always be used in group form. Use a group of radio buttons when there is an choice between two or multiple selections, it has a default state, the results are <strong>not</strong> effective or noticable immediately, and there is the need for a user to click a submit button.</p>
+			<p>Radio buttons may replace a segmented control, a list of checkboxes, or a toggle to allow users to choose between two or multiple options. In order to help choosing the right solution follow the table below.</p>
+			<table>
+				<thead>
+					<tr>
+						<th>&nbsp;</th>
+						<th>Radio buttons</th>
+						<th>Segmented control</th>
+						<th>Checkboxes</th>
+						<th>Single checkbox</th>
+						<th>Toggle switches</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>How many states are available?</th>
+						<td>Multiple</td>
+						<td>Multiple</td>
+						<td>Multiple</td>
+						<td>2 (on/off)</td>
+						<td>2 (on/off)</td>
+					</tr>
+					<tr>
+						<th>How many selections can the user make?</th>
+						<td class="highlighted">1</td>
+						<td>1</td>
+						<td>0 – all</td>
+						<td>1</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<th>Is there a default state?</th>
+						<td class="highlighted">Yes</td>
+						<td>Yes</td>
+						<td>No</td>
+						<td>Yes</td>
+						<td>Yes</td>
+					</tr>
+					<tr>
+						<th>How would you describe the choices?</th>
+						<td class="highlighted">Mutually exclusive</td>
+						<td>Mutually exclusive</td>
+						<td>Independent of each other</td>
+						<td>Mutually exclusive</td>
+						<td>Mutually exclusive</td>
+					</tr>
+					<tr>
+						<th>When does the selection take effect?</th>
+						<td class="highlighted">After a user clicks a submit button</td>
+						<td>Immediately</td>
+						<td>After a user clicks a submit button</td>
+						<td>After a user clicks a submit button</td>
+						<td>Immediately</td>
+					</tr>
+				</tbody>
+			</table>
+			<h3>Labels</h3>
+				<p>Radio button labels are set in bold, positioned above the element by default, and should describe what the control will do when the switch is on in a concise, direct, and short way.</p>
+			<h3>Visual Design</h3>
+			<p>Toggles should use high-contrast colors to indicate the states - On and Off.</p>
+
+			<h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
-      <!--
-        DESIGN SPECIFICATIONS, add a link here to the component-specific sketch-measure preview.
-        All design specifications should live in the design repo under 'hosted/design-gitlab-specs/COMPONENTNAME-spec-previews'
-        *** If there are max-width, min-width, or other specs that should be known about this component,
-        please add it in Sketch Measur via a note.
-        This link must ALWAYS be included.
-      -->
-      <h2>Design specifications</h2>
+
+			<h2>Design specifications</h2>
       <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p>
-      <p><a href="#">Sketch Measure Preview for [Insert component name here]</a></p>
-      <!--
-        RELATED PATTERNS should be similar in usage/type of pattern
-        e.g. tooltips, popover, and modals are all similar constructs used for different purposes
-        Remove this section if there are no related patterns at this time.
-      -->
-      <h2>Related patterns</h2>
-      <ul>
-        <li><a href="/">A related pattern</a></li>
-      </ul>
+      <p><a href="https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/toggles-spec-previews/">Sketch Measure Preview for toggles</a></p>
+
+			<h2>Related patterns</h2>
+			<ul>
+				<li><a href="/components/segmented-control">Segmented control</a></li>
+        <li><a href="/components/checkboxes">checkboxes</a></li>
+        <li><a href="/components/radio-buttons">Radio buttons</a></li>
+			</ul>
     </div>
-  </div>
+   </div>
 </template>
