@@ -6,8 +6,8 @@
       <p>A group of radio buttons is a select list which can only have one radio button selected at any time - one is active by default.</p>
       <!-- Usage -->
       <h2>Usage</h2>
-      <p>Radio buttons can never be used alone and must always be used in group form. Use a group of radio buttons when there is an choice between two or multiple selections, it has a default state, the results are <strong>not</strong> effective or noticable immediately, and there is the need for a user to click a submit button.</p>
-			<p>Radio buttons may replace a segmented control, a list of checkboxes, or a toggle to allow users to choose between two or multiple options. In order to help choosing the right solution follow the table below.</p>
+      <p>Radio buttons can never be used alone and must always be used in group form. Use a group of radio buttons when there is a choice between two or multiple selections, it has a default state, the results are <strong>not</strong> effective or noticeable immediately, and there is the need for a user to click a submit button.</p>
+			<p>Radio buttons may replace a segmented control, a list of checkboxes, or a toggle to allow users to choose between two or multiple options. For help with choosing the right solution, follow the table below.</p>
 			<table>
 				<thead>
 					<tr>
@@ -63,9 +63,9 @@
 				</tbody>
 			</table>
 			<h3>Labels</h3>
-			<p>Checkbox labels are set in regular font weight, positioned right from the element, and should be as short as possible. If more, explanatory text is required, it should be added and styled as <a href="/components/forms#help-text">Help text</a> below the label.</p>
+			<p>radio button labels are set in regular font weight, positioned to the right of the element, and should be as short as possible. If more, explanatory text is required, it should be added and styled as <a href="/components/forms#help-text">Help text</a> below the label.</p>
 			<h3>Visual Design</h3>
-			<p>Checkboxes should use high-contrast colors and a dot icon to indicate the states - selected and unselected.</p>
+			<p>radio buttons should use high-contrast colors and a dot icon to indicate the states - selected and unselected.</p>
 
 			<h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
