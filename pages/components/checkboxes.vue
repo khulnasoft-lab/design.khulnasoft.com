@@ -5,9 +5,9 @@
       <p>A checkbox is an input which communicates that an option is true, false or indeterminate - one is active by default.</p>
       <p>The last state represents a situation where a list of sub-options is grouped under a parent option and sub-options are in both selected and unselected states.</p>
       <h2>Usage</h2>
-      <p>Use a single checkbox when there is a choice between two selections, it has a default state, the results are <strong>not</strong> effective or noticable immediately, and there is a need for a user to click a submit button.</p>
+      <p>Use a single checkbox when there is a choice between two selections, it has a default state, the results are <strong>not</strong> effective or noticeable immediately, and there is a need for a user to click a submit button.</p>
       <p>Use multiple checkboxes to allow users to select multiple from a list of options, including all or none.</p>
-			<p>Checkboxes may replace toggles, segmented control, or radio buttons to allow users to select one, two or multiple options. In order to help choosing the right solution follow the table below.</p>
+			<p>Checkboxes may replace toggles, segmented control, or radio buttons to allow users to select one, two or multiple options. For help with choosing the right solution, follow the table below.</p>
 			<table>
 				<thead>
 					<tr>
@@ -63,9 +63,9 @@
 				</tbody>
 			</table>
 			<h3>Labels</h3>
-			<p>Checkbox labels are set in regular font weight, positioned right from the element, and should be as short as possible. If more, explanatory text is required, it should be added and styled as <a href="/components/forms#help-text">Help text</a> below the label.</p>
+			<p>Checkbox labels are set in regular font weight, positioned to the right of the element, and should be as short as possible. If more, explanatory text is required, it should be added and styled as <a href="/components/forms#help-text">Help text</a> below the label.</p>
 			<h3>Visual Design</h3>
-			<p>Checkboxes should use aside from high-contrast colors to indicate the states - true or false, and a checkmark and hyphen icon to differentiate between true or indeterminate .</p>
+			<p>Checkboxes should use aside from high-contrast colors to indicate the states - true or false, and a checkmark and hyphen icon to differentiate between true or indeterminate.</p>
 			<h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
 			<h2>Design specifications</h2>
