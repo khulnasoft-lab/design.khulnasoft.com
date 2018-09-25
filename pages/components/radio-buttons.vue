@@ -63,9 +63,9 @@
 				</tbody>
 			</table>
 			<h3>Labels</h3>
-			<p>radio button labels are set in regular font weight, positioned to the right of the element, and should be as short as possible. If more, explanatory text is required, it should be added and styled as <a href="/components/forms#help-text">Help text</a> below the label.</p>
+			<p>Radio button labels are set in regular font weight, positioned to the right of the element, and should be as short as possible. If more, explanatory text is required, it should be added and styled as <a href="/components/forms#help-text">Help text</a> below the label.</p>
 			<h3>Visual Design</h3>
-			<p>radio buttons should use high-contrast colors and a dot icon to indicate the states - selected and unselected.</p>
+			<p>Radio buttons should use high-contrast colors and a dot icon to indicate the states - selected and unselected.</p>
 
 			<h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
