@@ -303,8 +303,7 @@
           <li>It’s challenging to explain why certain features have been delayed or deprioritized, when customers and upper-level management are not working closely with the team.</li>
         </ul>
       </div>
-    </div>
-      <div class="persona card">
+    <div class="persona card">
       <div class="card--header">
         <h2>Delaney, Development Team Lead</h2>
       </div>
@@ -324,7 +323,6 @@
           <li>When demand surpasses our current capacity, it can be stressful to resolve issues while not creating new ones that result from hasty work.</li>
           <li>I am not always aware of the best way to explain technical limitations to stakeholders who are not involved in the development process.</li>
         </ul>
-      </div>
-    </div>
+     </div>
   </div>
 </template>
