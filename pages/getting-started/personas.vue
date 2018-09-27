@@ -283,10 +283,21 @@
     </div>
       <div class="persona card">
       <div class="card--header">
-        <h2>Parker, Product Manager</h2>
+        <h2>Parker</h2>
       </div>
-        <h3>Alternative Job Titles</h3>
-        <p> Program Manager, Project Manager, Technical Product Manager, Head of Product </p>
+      <div class="card--body md">
+        <table class="m-b-6">
+          <tbody>
+            <tr>
+              <th class="header">Job Title:</th>
+              <td>Product Manager</td>
+            </tr>
+            <tr>
+              <th class="header">Alternative Job Titles:</th>
+              <td>Program Manager, Project Manager, Technical Product Manager, Head of Product</td>
+            </tr>
+          </tbody>
+        </table>
         <h3>Job Summary</h3>
         <p>I am responsible for defining and scoping features, incorporating company objectives into the product roadmap, and giving developers and designers the requirements they need to deliver strong features. Whether I’m making sure I have the right skill-sets on the team, prioritizing feature requests, or ensuring that we deliver on time, my job is to set my team up for success.</p>
         <h3>Motivations</h3>
@@ -303,12 +314,24 @@
           <li>It’s challenging to explain why certain features have been delayed or deprioritized, when customers and upper-level management are not working closely with the team.</li>
         </ul>
       </div>
+    </div>
     <div class="persona card">
       <div class="card--header">
-        <h2>Delaney, Development Team Lead</h2>
+        <h2>Delaney</h2>
       </div>
-        <h3>Alternative Job Titles</h3>
-        <p> Technical Manager, Software Engineering Team Lead, Technical Team Lead, Software Development Director, Development Lead </p>
+         <div class="card--body md">
+        <table class="m-b-6">
+          <tbody>
+            <tr>
+              <th class="header">Job Title:</th>
+              <td>Development Team Lead</td>
+            </tr>
+            <tr>
+              <th class="header">Alternative Job Titles:</th>
+              <td>Technical Manager, Software Engineering Team Lead, Technical Team Lead, Software Development Director, Development Lead</td>
+            </tr>
+          </tbody>
+        </table>
         <h3>Job Summary</h3>
         <p>I am responsible for meeting with the product management team to discuss and schedule features, so we can convert concepts into practical solutions. I ensure that capacity is properly estimated, create program specifications, and often mentor junior developers.</p>
         <h3>Motivations</h3>
@@ -324,5 +347,6 @@
           <li>I am not always aware of the best way to explain technical limitations to stakeholders who are not involved in the development process.</li>
         </ul>
      </div>
+    </div>
   </div>
 </template>
