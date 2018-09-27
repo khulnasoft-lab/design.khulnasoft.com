@@ -287,7 +287,8 @@
       </div>
         <h3>Alternative Job Titles</h3>
         <p> Program Manager, Project Manager, Technical Product Manager, Head of Product </p>
-        <h3>Job Summary: I am responsible for defining and scoping features, incorporating company objectives into the product roadmap, and giving developers and designers the requirements they need to deliver strong features. Whether I’m making sure I have the right skill-sets on the team, prioritizing feature requests, or ensuring that we deliver on time, my job is to set my team up for success.</h3>
+        <h3>Job Summary</h3>
+        <p>I am responsible for defining and scoping features, incorporating company objectives into the product roadmap, and giving developers and designers the requirements they need to deliver strong features. Whether I’m making sure I have the right skill-sets on the team, prioritizing feature requests, or ensuring that we deliver on time, my job is to set my team up for success.</p>
         <h3>Motivations</h3>
         <ul>
           <li>When company objectives shift, I want to have a standard process for communication in place, so that I can be in sync with all team members.</li>
