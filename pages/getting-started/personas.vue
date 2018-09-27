@@ -336,7 +336,7 @@
         <p>I am responsible for meeting with the product management team to discuss and schedule features, so we can convert concepts into practical solutions. I ensure that capacity is properly estimated, create program specifications, and often mentor junior developers.</p>
         <h3>Motivations</h3>
         <ul>
-          <li>When discussing features requests, I want to receive clear requirements from the product and design teams, so my team can deliver on time and reduce back-and-forth communication.</li>
+          <li>When discussing feature requests, I want to receive clear requirements from the product and design teams, so my team can deliver on time and reduce back-and-forth communication.</li>
           <li>When assessing team resources, I want to see a history of how accurately developers on my team have estimated their capacity, so that I can assign them to the right tasks.</li>
           <li>When important deadlines are approaching, I want all team members to reliably update our tools, so that I can track progress without having to search for relevant information in other communication channels.</li>
         </ul>
