@@ -225,7 +225,7 @@
         </ul>
       </div>
     </div>
-    <div class="persona card">
+    <div class="persona card m-b-8">
       <div class="card--header">
         <h2>Karolina Plaskaty</h2>
       </div>
@@ -281,7 +281,7 @@
         </ul>
       </div>
     </div>
-      <div class="persona card">
+      <div class="persona card m-b-8">
       <div class="card--header">
         <h2>Parker</h2>
       </div>
