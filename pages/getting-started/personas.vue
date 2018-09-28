@@ -348,7 +348,7 @@
         </ul>
      </div>
     </div>
-    <div class="persona card">
+    <div class="persona card m-b-8">
       <div class="card--header">
         <h2>Devon</h2>
       </div>
@@ -384,7 +384,7 @@
         </ul>
      </div>
     </div>
-    <div class="persona card">
+    <div class="persona card m-b-8">
       <div class="card--header">
         <h2>Sasha</h2>
       </div>
@@ -419,7 +419,7 @@
         </ul>
      </div>
     </div>
-    <div class="persona card">
+    <div class="persona card m-b-8">
       <div class="card--header">
         <h2>Sidney</h2>
       </div>
