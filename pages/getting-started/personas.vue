@@ -315,7 +315,7 @@
         </ul>
       </div>
     </div>
-    <div class="persona card">
+    <div class="persona card m-b-8">
       <div class="card--header">
         <h2>Delaney</h2>
       </div>
