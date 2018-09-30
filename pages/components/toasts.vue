@@ -4,7 +4,7 @@
       <h1>Toasts</h1>
       <p>Toasts are used to display system messages. The messages are short and straightforward. It may contain a dismiss button, and an action button depending on the situation.</p>
       <h2>Usage</h2>
-      <p>Toasts appear with an ease-in animation from the bottom and display at the left-bottom of the screen. Users can exit the toast by clicking the “Dismiss” button. If left alone, toasts will automatically disappear after a short length of time. Hovering over a disappearing toast will cause it to remain until the cursor is moved.</p>
+      <p>Toasts appear with an ease-in animation from the bottom and display at the left-bottom of the screen. Users can exit the toast by clicking the “Dismiss” button. If left alone, toasts will automatically disappear after a short length of time. This is true for all toasts, including those with action buttons. Hovering over a disappearing toast will cause it to remain until the cursor is moved.</p>
       <h3>Dos and Dont's</h3>
       <table class="do-dont m-b-6">
         <thead>
