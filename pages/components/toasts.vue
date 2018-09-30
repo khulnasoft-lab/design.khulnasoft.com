@@ -86,6 +86,7 @@
         <li><a href="/components/modals">Modals</a></li>
         <li><a href="/components/tooltips">Tooltips</a></li>
         <li><a href="/components/popovers">Popovers</a></li>
+        <li><a href="/foundations/motion">Motion</a></li>
       </ul>
     </div>
   </div>
