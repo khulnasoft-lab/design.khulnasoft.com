@@ -2,8 +2,20 @@
   <div class="personas content limited m-t-7 m-b-7">
     <div class="md">
       <h1>Personas</h1>
+      <h2>Table of content</h2>
+      <ul>
+        <li><a href="#persona01">Nazim Ahmad</a>, Full-stack web developer</li>
+        <li><a href="#persona02">Matthieu Poirier</a>, DevOps Engineer</li>
+        <li><a href="#persona03">James Mackey</a>, Full-stack web developer</li>
+        <li><a href="#persona04">Karolina Plaskaty</a>, Junior web-developer</li>
+        <li><a href="#persona05">Parker</a>, Product Manager</li>
+        <li><a href="#persona06">Delaney</a>, Development Team Lead</li>
+        <li><a href="#persona07">Devon</a>, DevOps Engineer</li>
+        <li><a href="#persona08">Sasha</a>, Software Developer</li>
+        <li><a href="#persona09">Sidney</a>, Systems Administrator</li>
+      </ul>
     </div>
-    <div class="persona card m-b-8 m-t-6">
+    <div class="persona card m-b-8 m-t-6" id="persona01">
       <div class="card--header">
         <h2>Nazim Ahmad</h2>
       </div>
@@ -77,7 +89,7 @@
         </ul>
       </div>
     </div>
-    <div class="persona card m-b-8">
+    <div class="persona card m-b-8" id="persona02">
       <div class="card--header">
         <h2>Matthieu Poirier</h2>
       </div>
@@ -159,7 +171,7 @@
         </ul>
       </div>
     </div>
-    <div class="persona card m-b-8">
+    <div class="persona card m-b-8" id="persona03">
       <div class="card--header">
         <h2>James Mackey</h2>
       </div>
@@ -225,7 +237,7 @@
         </ul>
       </div>
     </div>
-    <div class="persona card m-b-8">
+    <div class="persona card m-b-8" id="persona04">
       <div class="card--header">
         <h2>Karolina Plaskaty</h2>
       </div>
@@ -281,7 +293,7 @@
         </ul>
       </div>
     </div>
-      <div class="persona card m-b-8">
+    <div class="persona card m-b-8" id="persona05">
       <div class="card--header">
         <h2>Parker</h2>
       </div>
@@ -315,7 +327,7 @@
         </ul>
       </div>
     </div>
-    <div class="persona card m-b-8">
+    <div class="persona card m-b-8" id="persona06">
       <div class="card--header">
         <h2>Delaney</h2>
       </div>
@@ -348,7 +360,7 @@
         </ul>
      </div>
     </div>
-    <div class="persona card m-b-8">
+    <div class="persona card m-b-8" id="persona07">
       <div class="card--header">
         <h2>Devon</h2>
       </div>
@@ -384,7 +396,7 @@
         </ul>
      </div>
     </div>
-    <div class="persona card m-b-8">
+    <div class="persona card m-b-8" id="persona08">
       <div class="card--header">
         <h2>Sasha</h2>
       </div>
@@ -419,7 +431,7 @@
         </ul>
      </div>
     </div>
-    <div class="persona card m-b-8">
+    <div class="persona card m-b-8" id="persona09">
       <div class="card--header">
         <h2>Sidney</h2>
       </div>
