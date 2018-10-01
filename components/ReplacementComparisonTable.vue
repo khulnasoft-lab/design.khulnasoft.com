@@ -36,8 +36,8 @@ export default {
             <td :class="{'highlighted': column === '1'}">Multiple</td>
             <td :class="{'highlighted': column === '2'}">Multiple</td>
             <td :class="{'highlighted': column === '3'}">Multiple</td>
-            <td :class="{'highlighted': column === '4'}">2 (on/off)</td>
-            <td :class="{'highlighted': column === '5'}">2 (on/off)</td>
+            <td :class="{'highlighted': column === '4'}">Boolean</td>
+            <td :class="{'highlighted': column === '5'}">Boolean</td>
           </tr>
           <tr>
             <th>How many selections can the user make?</th>
