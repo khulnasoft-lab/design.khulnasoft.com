@@ -80,7 +80,7 @@
         <li>Click the "Show" button to activate the toast.</li>
         <li>Click the toast, the toast will disappear.</li>
       </ul>
-      <p>Specs: Ease-in(Show up) / Ease-out (Disappear) Time: .25</p>
+      <p>Specs: Ease-in(Show up) / Ease-out (Disappear) Time: 200 milliseconds</p>
       <h2>Related patterns</h2>
       <ul>
         <li><a href="/components/modals">Modals</a></li>
