@@ -179,7 +179,6 @@ export default {
       m.initialize({
         startOnLoad: true,
       });
-      m.init();
     });
   }
 };
