@@ -8,60 +8,7 @@
       <p>Use a single checkbox when there is a choice between two selections, it has a default state, the results are <strong>not</strong> effective or noticeable immediately, and there is a need for a user to click a submit button.</p>
       <p>Use multiple checkboxes to allow users to select multiple from a list of options, including all or none.</p>
       <p>Checkboxes may replace toggles, segmented control, or radio buttons to allow users to select one, two, or multiple options. For help with choosing the right solution, follow the table below.</p>
-      <table>
-        <thead>
-          <tr>
-            <th>&nbsp;</th>
-            <th>Radio buttons</th>
-            <th>Segmented control</th>
-            <th>Checkboxes</th>
-            <th>Single checkbox</th>
-            <th>Toggle switches</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>How many states are available?</th>
-            <td>Multiple</td>
-            <td>Multiple</td>
-            <td class="highlighted">Multiple</td>
-            <td class="highlighted">2 (on/off)</td>
-            <td>2 (on/off)</td>
-          </tr>
-          <tr>
-            <th>How many selections can the user make?</th>
-            <td>1</td>
-            <td>1</td>
-            <td class="highlighted">0 – all</td>
-            <td class="highlighted">1</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <th>Is there a default state?</th>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td class="highlighted">No</td>
-            <td class="highlighted">Yes</td>
-            <td>Yes</td>
-          </tr>
-          <tr>
-            <th>How would you describe the choices?</th>
-            <td>Mutually exclusive</td>
-            <td>Mutually exclusive</td>
-            <td class="highlighted">Independent of each other</td>
-            <td class="highlighted">Mutually exclusive</td>
-            <td>Mutually exclusive</td>
-          </tr>
-          <tr>
-            <th>When does the selection take effect?</th>
-            <td>After a user clicks a submit button</td>
-            <td>Immediately</td>
-            <td class="highlighted">After a user clicks a submit button</td>
-            <td class="highlighted">After a user clicks a submit button</td>
-            <td>Immediately</td>
-          </tr>
-        </tbody>
-      </table>
+      <p class="todo">Todo: Add replacement-comparison-table</p>
       <h3>Labels</h3>
       <p>Checkbox labels are set in regular font weight, positioned to the right of the element, and should be as short as possible. If more, explanatory text is required, it should be added and styled as <a href="/components/forms#help-text">Help text</a> below the label.</p>
       <h3>Visual Design</h3>
