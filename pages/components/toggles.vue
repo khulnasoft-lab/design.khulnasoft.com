@@ -2,7 +2,7 @@
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
       <h1>Toggles</h1>
-      <p>A toggle is a digital visual switch which includes two mutually exclusive states - either On or Off - one is active by default.</p>
+      <p>A toggle is a digital visual switch which acts as a boolean - one state is active by default.</p>
       <h2>Usage</h2>
       <p>Use toggles when there is a choice between two selections, it has a default state, the results are effective and noticeable immediately, and there is <strong>no need</strong> for a user to click a submit button.</p>
       <p> Avoid using toggles when a submit button is needed. This confuses users and dilutes the experience by preventing instant results.</p>
