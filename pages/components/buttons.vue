@@ -49,15 +49,6 @@ Buttons change depending on the user's interaction with them. In all three state
 Disabled buttons are prevented from having any true interaction with the user. They are there to let the user know a certain action would be possible if circumstances would be different. All buttons regardless of style are styled the same way when in the disabled state. Additionally they will show the "not-allowed" cursor style when hovered upon and have a faded text color.
 </p>
 
-<h3>Read-only</h3>
-<p>
-TODO 
-<br>
-This seem more like a badge and a certain way to style the button actually.  In the count button it is  part of the button, but is not the button itself.  Let's consider cutting this section all together
-<br>
-Read-only buttons are similar to disabled buttons and are prevented from having any true interaction with the user. They are there purely to let the  user read their contents. In that way they are not true buttons but can be part of for example a count button.
-</p>
-
 <h2>Styles</h2>
 <p>
 Apart from  text, icon, or both, buttons can derive additional meaning from their presented style. 
