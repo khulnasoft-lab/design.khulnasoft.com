@@ -8,7 +8,7 @@
       <p>Different button types bring varying emphasis to potential user actions. This makes the page comprehensive while guiding the user through performing a task.</p>
 
       <h3>Primary</h3>
-      <p>Primary buttons represent the predominate action on the page and thus have the most emphasis placed upon them. Primary buttons are recognized by their solid color and must use one of the four elementary button styles: Info (blue), Success (green), Warning (orange), or Danger (red).</p>
+      <p>Primary buttons represent the main call to action on the page and thus have the most emphasis placed upon them. There should only be one call to action in any given experience. Primary buttons are recognized by their solid color and must use one of the four elementary button styles: Info (blue), Success (green), Warning (orange), or Danger (red).</p>
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Secondary</h3>
@@ -80,13 +80,18 @@
       <h2>Variations</h2>
       <p>Buttons come in many different variations which fit different situations. Some can require a dropdown while others require less width or a certain type of information and action combo.</p>
 
-      <h3>Default</h3>
-      <p></p>
+      <h3>Text</h3>
+      <p>In a default situation the choice of button variation is a text button. These buttons only contain text and no special added interactions.</p>
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Icon</h3>
+      <p>When space is tight or </p>
+      <p class="todo">Todo: Add live component block with code example</p>
+
+      <h3>Icon + text</h3>
       <p></p>
       <p class="todo">Todo: Add live component block with code example</p>
+
 
       <h3>Dropdown</h3>
       <p></p>
@@ -126,6 +131,9 @@
       <h3>Small</h3>
       <p>This is the alternative button size for use in tight spaces. It has a default padding of 8px by 4px.</p>
       <p class="todo">Todo: Add live component block with code example</p>
+
+      <h2>Case</h2>
+      <p>Buttons generally make use of sentence case. See <a href="/content/punctuation">punctuation</a> for more information.</p>
       
       <h2>Design specifications</h2>
       <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p>
@@ -133,6 +141,7 @@
 
       <h2>Related patterns</h2>
       <ul>
+        <li><a href="/components/dropdowns">Dropdowns</a></li>
         <li><a href="/components/segmented-control">Segmented control</a></li>
       </ul>
     </div>
