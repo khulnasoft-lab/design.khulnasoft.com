@@ -79,9 +79,9 @@
       <h2>Related patterns</h2>
       <ul>
         <li><a href="/components/modals">Modals</a></li>
-        <li><a href="/components/tooltips">Tooltips</a></li>
-        <li><a href="/components/popovers">Popovers</a></li>
         <li><a href="/foundations/motion">Motion</a></li>
+        <li><a href="/components/popovers">Popovers</a></li>
+        <li><a href="/components/tooltips">Tooltips</a></li>
       </ul>
     </div>
   </div>
