@@ -153,6 +153,7 @@
 
       <h2>Input labels</h2>
       <p>Button input labels should be as short and concise as possible while conveying what happens when the button is clicked. Buttons generally use <a href="/content/punctuation">sentence case</a>and a normal font weight. If a text label is not used, an icon should be present to signify what the button does.</p>
+      <p>Please note to <strong>not</strong> mix buttons with text input labels with buttons with icon input labels.</p>
       
       <h2>Design specifications</h2>
       <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p>
