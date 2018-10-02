@@ -82,37 +82,59 @@
 
       <h3>Default</h3>
       <p></p>
+      <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Icon</h3>
       <p></p>
+      <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Dropdown</h3>
       <p></p>
+      <p class="todo">Todo: Add live component block with code example</p>
 
       <h4>Split dropdown</h4>
       <p></p>
+      <p class="todo">Todo: Add live component block with code example</p>
       
       <h4>Icon dropdown</h4>
       <p></p>
+      <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Count</h3>
       <p></p>
+      <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Ellipsis</h3>
       <p></p>
+      <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Group</h3>
       <p></p>
+      <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Segmented Control</h3>
-      <p>See <a href="/components/segmented-control">Segmented Control</a></p>
+      <p>See <a href="/components/segmented-control">segmented control</a></p>
+      <p class="todo">Todo: Add live component block with code example</p>
 
       <h2>Sizing</h2>
-      <p>Apart from the default buttons size, certain button variations can be sized down in order to fit tighter spaces.</p>
+      <p>Depending on the interface buttons may either use the medium or small button sizes.</p>
 
-      <h3>Default</h3>
-      <p></p>
+      <h3>Medium</h3>
+      <p>This is the default button size. It has a default padding of 12px by 8px which makes use of the <a href="/layout/spacing">12px outlier</a>.</p>
+      <p class="todo">Todo: Add live component block with code example</p>
 
+      <h3>Small</h3>
+      <p>This is the alternative button size for use in tight spaces. It has a default padding of 8px by 4px.</p>
+      <p class="todo">Todo: Add live component block with code example</p>
+      
+      <h2>Design specifications</h2>
+      <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p>
+      <p><a href="#">Sketch Measure Preview for [Insert component name here]</a></p>
+
+      <h2>Related patterns</h2>
+      <ul>
+        <li><a href="/components/segmented-control">Segmented control</a></li>
+      </ul>
     </div>
   </div>
 </template>
