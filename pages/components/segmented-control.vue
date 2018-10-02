@@ -11,6 +11,7 @@
       <p>The label can be omitted in cases when it’s clear what the segmented control is referring to from the UI (for example, switching between a day, week or month view in a calendar UI).</p>
       <p class="todo">Todo: Add live component block with code example (whitespace exmple)</p>
       <p>Input labels need to be as short as possible and should ideally be only one word. Sometimes, that can be done by removing the repeating word and using it as a label (above the segmented control). For example, instead of having input labels “Show whitespace” and “Hide whitespace” use “Whitespace” as a label and only “Show” and “Hide” as input labels.</p>
+      <p>Alternatively icons can be used to replace input labels.</p>
       <h3>Sizing</h3>
       <p>The options must be equal in width and prominence. If there are 3 options, each of them should take 33% of the total width of segmented control.</p>
       <h2>Design specification</h2>
