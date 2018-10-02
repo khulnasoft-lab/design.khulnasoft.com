@@ -74,13 +74,8 @@
       <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p>
       <p><a href="https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/toasts-spec-previews/">Sketch Measure Preview for toasts</a></p>
       <h2>Animation Specifications</h2>
-      <p>The animation for this component can be viewed using the following link:</p>
-      <p><a href="https://framer.cloud/GbFkF">Animation Preview for toasts</a></p>
-      <ul>
-        <li>Click the "Show" button to activate the toast.</li>
-        <li>Click the toast, the toast will disappear.</li>
-      </ul>
       <p>Specs: Ease-in(Show up) / Ease-out (Disappear) Time: 200 milliseconds Direction: Comes up from the bottom-left side of the screen.</p>
+       <p class="todo">Todo: Add link to animation example</p>
       <h2>Related patterns</h2>
       <ul>
         <li><a href="/components/modals">Modals</a></li>
