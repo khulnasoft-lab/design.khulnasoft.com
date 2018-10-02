@@ -7,25 +7,6 @@
 Buttons execute an action, either in the background or foreground of an experience. They guide users into taking certain actions as emphasis can be increased or decreased by using different button types. Buttons express what action will occur when the user clicks or touches it either by text, icon, or both. Additional meaning can derived from the button style.
 </p>
 
-<h2>TL:DR/Quickstart - Which button do you need?</h2>
-<p>
-TODO
-<br>
-This section is an idea how to make this page more usefull by using a flowchart as there is a lot of content. Often someone just wants to know which button type/styling/variation/size they need.
-</p>
-<div class="mermaid">
-graph TD
-
-A(Does your action <br/>navigate to another page?) -->|No| B[Use a link]
-A -->|Yes| C(Does your button <br/>represent the primary action <br/>on the page?)
-click B "/components/links" "Use a link"
-C -->|Yes| D[Use the primary button type]
-C -->|No| E(Is your action <br/>still one you want to promote?)
-E -->|Yes| F[Use the secondary button type]
-E -->|No| G[Use the default button type]
-
-</div>
-
 <h2>Types</h2>
 <p>
 Button types make it possible to bring more emphasis to certain buttons. This way the user can be guided into taking certain actions which can add to the comprehensiveness of a page.
