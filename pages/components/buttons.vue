@@ -27,7 +27,9 @@ Secondary buttons represent one or more actions that are still worth for the use
 A tertiary button is the default button type. Tertiary buttons still have an outlined styling but cannot have one of the four elementary button styles. They are typically used for less important actions that are not promoted to the user.
 </p>
 
-<h3>Link/ghost/content-only/no-outline</h3>
+<h3>Link</h3>
+<p class="todo">Todo: Add link type button documentation</p>
+
 <p>
 TODO
 <br>
