@@ -30,32 +30,9 @@
             <td>Avoid using for irreversible actions.</td>
             <td>Use for actions that will result in permanent deletion.</td>
           </tr>
-        </tbody>
-      </table>
-      <h3>Toast types</h3>
-      <table class="do-dont m-b-6">
-        <thead>
           <tr>
-            <th>Type</th>
-            <th>Visual</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Single line message.</td>
-            <td><p class="todo">Todo: Add live component for a visual</p></td>
-          </tr>
-          <tr>
-            <td>Single line message with an action.</td>
-            <td><p class="todo">Todo: Add live component for a visual</p></td>
-          </tr>
-          <tr>
-            <td>Two lines message with a custom action.</td>
-            <td><p class="todo">Todo: Add live component for a visual</p></td>
-          </tr>
-          <tr>
-            <td>Two lines message with an action.</td>
-            <td><p class="todo">Todo: Add live component for a visual</p></td>
+            <td>Avoid using more than 2 lines of text for the toast message.</td>
+            <td>Show toast messages longer than 3 lines of text.</td>
           </tr>
         </tbody>
       </table>
