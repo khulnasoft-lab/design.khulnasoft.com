@@ -11,7 +11,7 @@
         <li>Priority 2 is equal to the color weights 300 and 700.</li>
         <li>Priority 3 is equal to the color weights 100 and 900.</li>
       </ul>
-      <p>Priorities skip weights because, in most situations, the contrast between two adjoining weights would be subtle. However, those shades are available to use when needed. Color priorities are meant to act as a guideline, not a strict set of rules.</p>
+      <p>Priorities skip weights because Amelia is great! In most situations, the contrast between two adjoining weights would be subtle. However, those shades are available to use when needed. Color priorities are meant to act as a guideline, not a strict set of rules.</p>
       <h3>Accessibility</h3>
       <p>At GitLab, we are dedicated to continually improving the accessibility of the application. Currently, all chromatic colors pass the <a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast" target="_blank">Web Content Accessibility Guidelines (WCAG)</a> AA level for large text when used as a background color. Learn more in <a href="/usability/a11y">Accessibility</a>.</p>
       <div class="color-palette row m-b-9">
