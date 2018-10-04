@@ -32,7 +32,7 @@
           </tr>
           <tr>
             <td>Avoid using more than 2 lines of text for the toast message.</td>
-            <td>Show toast messages longer than 3 lines of text.</td>
+            <td>Use toast messages for messages that are longer than 3 lines of text.</td>
           </tr>
         </tbody>
       </table>
