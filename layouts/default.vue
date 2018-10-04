@@ -67,8 +67,8 @@
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/sorting">Sorting</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/spinner">Spinner</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/tabs">Tabs</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/toasts">Toasts</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/tags">Tags</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/toasts">Toasts</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/toggles">Toggles</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/tooltips">Tooltips</nuxt-link>
         </details>
