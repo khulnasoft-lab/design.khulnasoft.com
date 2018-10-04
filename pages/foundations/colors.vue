@@ -4,6 +4,13 @@
       <h1>Color</h1>
       <h2>Chromatic palette</h2>
       <p>We have four primary chromatic colors and their derivatives, totaling 44 colors for use across the application. These colors give flexibility during the design process, while also providing a harmonious palette that looks consistent and in line with our brand styles.</p>
+      <p>In terms of use, the four primary colors break down as follows:</p>
+      <ul>
+        <li>Blue is used to indicate 'primary' and 'active' elements, for example when users are organizing, managing, and retrying commands.</li>
+        <li>Green is used to indicate 'opened' elements, for example when users are creating new objects.</li>
+        <li>Yellow is used to indicate 'warning,' for example when the user is about to take a non-destructive action.</li>
+        <li>Red is used to indicate something is 'closed,' for example when the user is about to delete or otherwise perform a destructive command.</li>
+      </ul>
       <h3>Color priorities</h3>
       <p>Color priorities work similarly to font weights; different font weights can be used to create contrasting typography that communicates hierarchy. We apply this same logic to colors by tagging colors according to their priority: from 1 to 4. These priorities can be used to make better choices. When choosing how to apply color to a UI component:</p>
       <ul>
