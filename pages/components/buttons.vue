@@ -8,7 +8,9 @@
       <p>Different button types bring varying emphasis to potential user actions. This makes the page comprehensive while guiding the user through performing a task.</p>
 
       <h3>Primary</h3>
-      <p>Primary buttons represent the main call to action on the page and thus have the most emphasis placed upon them. There should only be one call to action in any given experience. Primary buttons are recognized by their solid color, bold text input labels, and must use one of the four elementary button styles: Info (blue), Success (green), Warning (orange), or Danger (red).</p>
+      <p>Primary buttons are the single most important action that moves the task forward within a context and thus have the most emphasis placed upon them. There should only be one call to action in any given context. Primary buttons are recognized by their solid color, bold text input labels, and must use one of the four elementary button styles: Info (blue), Success (green), Warning (orange), or Danger (red).</p>
+      <p>Defining what a context is depends on the hierarchy of information displayed on the screen, the motivated user flow, and the available tasks. As an example; Settings pages may have multiple equally important contexts, each requiring its own primary button to complete its task.</p>
+      <p>Please note that contexts may be temporary, such as a modal.</p>
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Secondary</h3>
@@ -59,12 +61,12 @@
 
       <h4>Warning</h4>
       <p>Buttons that represent actions where the user should be cautious such as overriding certain rulesets. These actions can be undone or somehow rectified by the user if a mistake is made. They are represented in an orange color.</p>
-
+      <p>Please note that often the secondary button type is the correct choice here as the user will mostly not be motivated to delete content when completing the task at hand.</p>
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h4>Danger</h4>
       <p>Buttons that represent actions that are destructive, such as deleting content. These actions cannot be undone. They are represented in a red color.</p>
-
+      <p>Please note that often the secondary button type is the correct choice here as the user will mostly not be motivated to delete content when completing the task at hand.</p>
       <p class="todo">Todo: Add live component block with code example</p>
   
       <h3>Dashed</h3>
