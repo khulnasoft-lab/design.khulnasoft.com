@@ -8,8 +8,8 @@
       <p>Different button types bring varying emphasis to potential user actions. This makes the page comprehensive while guiding the user through performing a task.</p>
 
       <h3>Primary</h3>
-      <p>Primary buttons are the single most important action that moves the task forward within a context and thus have the most emphasis placed upon them. There should only be one call to action in any given context. Primary buttons are recognized by their solid color, bold text input labels, and must use one of the four elementary button styles: Info (blue), Success (green), Warning (orange), or Danger (red).</p>
-      <p>Defining what a context is depends on the hierarchy of information displayed on the screen, the motivated user flow, and the available tasks. As an example; Settings pages may have multiple equally important contexts, each requiring its own primary button to complete its task.</p>
+      <p>Primary buttons are the single most important action that moves the task forward within a context and thus have the most emphasis placed upon them. There should only be one call to action in any given context. Primary buttons are recognized by their solid color, bold text labels, and must use one of the four elementary button styles: Info (blue), Success (green), Warning (orange), or Danger (red).</p>
+      <p>Defining context depends on the hierarchy of information displayed on the screen, the motivated user flow, and the available tasks. As an example; Settings pages may have multiple equally important contexts, each requiring its own primary button to complete its task.</p>
       <p>Please note that contexts may be temporary, such as a modal.</p>
       <p class="todo">Todo: Add live component block with code example</p>
 
@@ -26,15 +26,15 @@
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h2>States</h2>
-      <p>Buttons change depending on the user's interaction or set behaviour. This is to ensure they are accessible and feel responsive in both desktop and mobile environments. Additionally disabled and read-only buttons need certain interaction restrictions and a certain styling for their meaning to become apparent to the user.</p>
+      <p>Buttons change depending on the user's interaction or set behavior. This is to ensure they are accessible and feel responsive in both desktop and mobile environments. Additionally, disabled and read-only buttons have specific styling and interaction restrictions that inform the user of their meaning.</p>
 
       <h3>Hover, Active, and Focus</h3>
-      <p>Buttons change depending on the user's interaction with them. In all three states the buttons will have a thicker border and their background color will change. For the focus state, buttons will get an additional blue glow indicating that they are in focus.</p>
+      <p>Buttons change depending on the user's interaction with them. In hover, active, and focus states the buttons will have a thicker border and their background color will change. For the focus state, buttons will get an additional blue glow indicating that they are in focus.</p>
 
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Disabled</h3>
-      <p>Disabled buttons are prevented from having any true interaction with the user. They are there to let the user know a certain action would be possible if circumstances were different. All buttons regardless of style are styled the same way when in the disabled state. Additionally they will show the "not-allowed" cursor style when hovered upon and have a faded text color.</p>
+      <p>Disabled buttons prevent the user from performing an action. They are there to let the user know a certain action would be possible if circumstances were different. All buttons regardless of style are styled the same way when in the disabled state. Additionally they will show the "not-allowed" cursor style when hovered upon and have a faded text color.</p>
 
       <p class="todo">Todo: Add live component block with code example</p>
 
@@ -50,7 +50,7 @@
       <p>Our elementary button styles all convey a different meaning due to their respective styling. Their colors are aligned with our <a href="/foundations/colors">four primary chromatic colors</a>.</p>
 
       <h4>Info</h4>
-      <p>Buttons that represent activation or informative processes. Additionally any actions that do not fit any of the other categories also fit in this category. They are represented in a blue color.</p>
+      <p>Buttons that represent activation or informative processes. They are represented in a blue color.</p>
 
       <p class="todo">Todo: Add live component block with code example</p>
 
@@ -70,12 +70,12 @@
       <p class="todo">Todo: Add live component block with code example</p>
   
       <h3>Dashed</h3>
-      <p>Dashed button styles are used when something has not yet been created. Their action will create the missing item and will be replaced by that content.</p>
+      <p>Dashed button styles are used when something has not yet been created. Their action will lead the user to create the missing item, after which it will replace the dashed button with a link to the item.</p>
 
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Dark and Inverted</h3>
-      <p>Some circumstances are exceptions in that they require a different button style than normal in order for those to still be accessible. When UI is darker than normal they can require either a dark or inverted  button style. These button styles are only possible for tertiary button types.</p>
+      <p>Some circumstances are exceptions in that they require a different button style than normal to still be accessible. When the UI is darker than normal, a dark or inverted button style may be required. These button styles are only possible for tertiary button types.</p>
 
       <p class="todo">Todo: Add live component block with code example</p>
 
@@ -83,44 +83,40 @@
       <p>Buttons come in many different variations which fit different situations. Some can require a dropdown while others require less width or a certain type of information and action combo.</p>
 
       <h3>Text</h3>
-      <p>In a default situation the choice of button variation is a text button. They only contain a text input label and no special added interactions.</p>
+      <p>The default variation is the text button. They contain a text label and have no special interactions.</p>
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Icon</h3>
-      <p>Icon buttons provide the user with visual iconography to signify what the button does. They only contain an icon input label and no special added interactions. They can be used when a text button variation would be too big or the meaning of an icon conveys what will happen in a more concise way.</p>
+      <p>Icon buttons provide the user with visual iconography to signify what the button does. They only contain an icon label and have no special interactions. They can be used when a text button variation would be too big or the meaning of an icon conveys what will happen in a more concise way.</p>
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Icon + text</h3>
-      <p>Text button variations might be supplemented with an icon to both clarify an action and call attention to a button. Icons are always positioned to the left of the text input label.</p>
+      <p>Text button variations might be supplemented with an icon to both clarify an action and call attention to a button. Icons are always positioned to the left of the text label.</p>
       <p>Please note to <strong>not</strong> use two icons in the same button.</p>
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Dropdown</h3>
-      <p>Dropdowns trigger menus with a list of options which can be either actions or input values. See <a href="/components/dropdowns">Dropdowns</a> for more information.</p>
+      <p>Dropbown buttons trigger menus of options which can be either actions or input values. See <a href="/components/dropdowns">dropdowns</a> for more information.</p>
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h4>Split dropdown</h4>
-      <p>Dropdown button variations might be supplemented with a labelled section showing the majority use case by default. This option can be changed by the user by using the attached dropdown menu which shows a list of related actions. This is triggered by clicking the chevron icon button variation attached to the right.</p>
+      <p>Dropdown buttons may be split if there are multiple similar actions being grouped together. The text button will default to the most common option and an attached dropdown button allows the user to change the default. Clicking the chevron icon within the dropdown button triggers a menu of related actions. It is attached to the right of the text button.</p>
       <p class="todo">Todo: Add live component block with code example</p>
       
       <h4>Icon dropdown</h4>
-      <p>Icon dropdown variations function similar to dropdown button variations with the difference being an icon input label.</p>
-      <p class="todo">Todo: Add live component block with code example</p>
-
-      <h3>Count</h3>
-      <p>A count button variation is a combination of an icon button variation merged with a badge. The badge content will be affected by the button action.</p>
+      <p>Icon dropdown variations function similar to dropdown button variations with the difference being an icon label.</p>
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Ellipsis</h3>
-      <p>Ellipsis buttons allow for expanding content inline. It can be used when content is hidden on purpose for not overloading the user or because of initial space contraints.</p>
+      <p>Ellipsis buttons allow for expanding content inline. It can be used when content is hidden for the purpose of not overloading the user or because of initial space contraints.</p>
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Group</h3>
-      <p>Button groups merge frequently used buttons with a close relationship or similar actions together in order to aid with arrangement and spacing. Button groups are always displayed in a horizontal row.</p>
+      <p>Button groups merge frequently used buttons with a close relationship or similar actions together to aid with arrangement and spacing. Button groups are always displayed in a horizontal row.</p>
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Icon group</h3>
-      <p>Icon group variations function similar to group button variations with the difference being an icon input label.</p>
+      <p>Icon group variations function similar to button group variations with the difference being an icon label.</p>
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Segmented control</h3>
@@ -128,22 +124,22 @@
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Icon segmented control</h3>
-      <p>Icon segmented control variations function similar to segmented control button variations with the difference being an icon input label. See <a href="/components/segmented-control">segmented control</a> for more information.</p>
+      <p>Icon segmented control variations function similar to segmented control button variations with the difference being an icon label. See <a href="/components/segmented-control">segmented control</a> for more information.</p>
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h2>Sizing</h2>
-      <p>Depending on the interface buttons may either use the medium or small button sizes.</p>
+      <p>Depending on the interface buttons may either use the medium or small size.</p>
 
       <h3>Medium</h3>
-      <p>This is the default button size. It has a default padding of 12px by 8px which makes use of the <a href="/layout/spacing">12px outlier</a>.</p>
+      <p>This is the default button size.</p>
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Small</h3>
-      <p>This is the alternative button size for use in tight spaces. It has a default padding of 8px by 4px.</p>
+      <p>This is the alternative button size for use in tight spaces.</p>
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h3>Full width</h3>
-      <p>Regardless of vertical height, buttons can be expanded to the full width of the parent container. This can be used for buttons embedded inside smaller width containers or to improve usability on mobile viewports.</p>
+      <p>Buttons can be expanded to the full width of the parent container. This can be used for buttons embedded inside smaller width containers or to improve usability on mobile viewports.</p>
       <p class="todo">Todo: Add live component block with code example</p>
 
       <h2>Order</h2>
@@ -153,9 +149,9 @@
       <p>Buttons are often embedded in or shown next to components like modals or editors. Similar to ordering, buttons with dismissive actions are left aligned and buttons with affirmative actions are right aligned.</p>
       <p>Please note to <strong>not</strong> place a button below another button if there is space to place them side by side.</p>
 
-      <h2>Input labels</h2>
-      <p>Button input labels should be as short and concise as possible while conveying what happens when the button is clicked. Buttons generally use <a href="/content/punctuation">sentence case</a>and a normal font weight. If a text label is not used, an icon should be present to signify what the button does.</p>
-      <p>Please note to <strong>not</strong> mix buttons with text input labels with buttons with icon input labels.</p>
+      <h2>Labels</h2>
+      <p>Button labels should be short and concise while conveying what happens when the button is clicked. Buttons use <a href="/content/punctuation">sentence case</a> and a normal font weight. An icon can be used in place of text.</p>
+      <p>Please note to <strong>not</strong> mix buttons with text labels with buttons with icon labels.</p>
       
       <h2>Design specifications</h2>
       <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p>
