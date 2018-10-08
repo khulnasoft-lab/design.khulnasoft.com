@@ -18,4 +18,9 @@ module.exports = {
   modules: [
     '@nuxtjs/markdownit',
   ],
+  markdownit: {
+    use: [
+      'markdown-it-anchor',
+    ],
+  },
 };
