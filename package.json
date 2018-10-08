@@ -4,6 +4,7 @@
     "@gitlab-org/gitlab-svgs": "^1.5.0",
     "@nuxtjs/markdownit": "^1.2.2",
     "caniuse-lite": "^1.0.30000792",
+    "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^5.0.2",
     "node-sass": "^4.9.3",
     "nuxt": "^1.0.0-rc11",
