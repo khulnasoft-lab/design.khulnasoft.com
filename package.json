@@ -2,6 +2,7 @@
   "dependencies": {
     "@gitlab-org/csslab": "^0.0.4",
     "@gitlab-org/gitlab-svgs": "^1.5.0",
+    "@nuxtjs/markdownit": "^1.2.2",
     "caniuse-lite": "^1.0.30000792",
     "css-loader": "^0.28.7",
     "extract-text-webpack-plugin": "^3.0.2",
