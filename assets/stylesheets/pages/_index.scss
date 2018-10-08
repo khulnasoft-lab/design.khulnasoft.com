@@ -68,3 +68,23 @@
     flex: 1;
   }
 }
+
+.header-anchor {
+  position: absolute;
+  margin-left: -1em;
+  visibility: hidden;
+  filter: grayscale(100%) brightness(0.25);
+  font-size: 0.8em;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+h1,
+h2,
+h3 {
+  &:hover .header-anchor {
+    visibility: visible;
+  }
+}

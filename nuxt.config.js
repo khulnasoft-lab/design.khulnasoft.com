@@ -20,7 +20,11 @@ module.exports = {
   ],
   markdownit: {
     use: [
-      'markdown-it-anchor',
+      ['markdown-it-anchor', {
+        permalink: true,
+        permalinkBefore: true,
+        permalinkSymbol: '🔗',
+      }],
     ],
   },
 };
