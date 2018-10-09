@@ -4,12 +4,12 @@
       <h1>Color</h1>
       <h2>Chromatic palette</h2>
       <p>We have four primary chromatic colors and their derivatives, totaling 44 colors for use across the application. These colors give flexibility during the design process, while also providing a harmonious palette that looks consistent and in line with our brand styles.</p>
-      <p>In terms of use, the four primary colors break down as follows:</p>
+      <p>Though deciding which color to use depends on the situation, here are some general guidelines for using the four primary colors:</p>
       <ul>
-        <li>Blue is used to indicate 'primary' and 'active' elements, for example when users are organizing, managing, and retrying commands.</li>
-        <li>Green is used to indicate 'opened' elements, for example when users are creating new objects.</li>
-        <li>Yellow is used to indicate 'warning,' for example when the user is about to take a non-destructive action.</li>
-        <li>Red is used to indicate something is 'closed,' for example when the user is about to delete or otherwise perform a destructive command.</li>
+        <li>Blue communicates that something is either current or in progress. It is used to indicate progress or connectivity. </li>
+        <li>Green communicates success, and it is used to indicate that something is available, done, approve, resolved or added.</li>
+        <li>Orange is used to communicate that something needs attention. It indicates that things are pending, missing or that progress is somehow impeded.</li>
+        <li>Red is used to communicate that something is a problem or has been removed. It indicates errors and fails, that something is critical or has otherwise been removed or declined.</li>
       </ul>
       <h3>Color priorities</h3>
       <p>Color priorities work similarly to font weights; different font weights can be used to create contrasting typography that communicates hierarchy. We apply this same logic to colors by tagging colors according to their priority: from 1 to 4. These priorities can be used to make better choices. When choosing how to apply color to a UI component:</p>
