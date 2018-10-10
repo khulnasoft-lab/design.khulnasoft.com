@@ -6,10 +6,10 @@
       <p>We have four primary chromatic colors and their derivatives, totaling 44 colors for use across the application. These colors give flexibility during the design process, while also providing a harmonious palette that looks consistent and in line with our brand styles.</p>
       <p>Though deciding which color to use depends on the situation, here are some general guidelines for using the four primary colors:</p>
       <ul>
-        <li>Blue communicates that something is either current or in progress. It is used to indicate progress or connectivity. </li>
-        <li>Green communicates success, and it is used to indicate that something is available, done, approve, resolved or added.</li>
-        <li>Orange is used to communicate that something needs attention. It indicates that things are pending, missing or that progress is somehow impeded.</li>
-        <li>Red is used to communicate that something is a problem or has been removed. It indicates errors and fails, that something is critical or has otherwise been removed or declined.</li>
+        <li><b>Blue</b>indicates a current or active state. It communicates: management, progress, connectivity, or organization.</li>
+        <li><b>Green</b> indicates success. It communicates: save, create, add, available, done, approved, resolved.</li>
+        <li><b>Orange</b>indicates 'attention-required.' It communicates: warning, pending, missing, or impeded progress.</li>
+        <li><b>Red</b>indicates a problem. It communicates: critical states, destructive actions, errors, fails, removals or declines.</li>
       </ul>
       <h3>Color priorities</h3>
       <p>Color priorities work similarly to font weights; different font weights can be used to create contrasting typography that communicates hierarchy. We apply this same logic to colors by tagging colors according to their priority: from 1 to 4. These priorities can be used to make better choices. When choosing how to apply color to a UI component:</p>
