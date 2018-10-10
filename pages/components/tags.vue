@@ -1,5 +1,6 @@
 <template>
-  <div>
-    <h1>TODO</h1>
+  <div id="vip-content">
+    <h1>Some unique content</h1>
+    <p>bla bla</p>
   </div>
 </template>
