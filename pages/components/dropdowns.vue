@@ -26,7 +26,7 @@
         </tbody>
       </table>
       <h3>Behavior</h3>
-      <p>Dropdowns are placed below the element they stem from. However, when there isn’t enough space in the viewport, the dropdown is moved above.</p>
+      <p>Dropdowns are placed below the element they stem from and are left aligned by default. However, when there isn’t enough space in the viewport, the dropdown is moved above or can be right aligned.</p>
       <p>If there are more rows than fit the dropdown, an overlay with a fade effect will be added at the top or bottom of the dropdown to indicate there are more rows to be scrolled. When reaching the end of the scrollable area, the overlay will be removed.</p>
       <h3>Accessories</h3>
       <p>There are some special elements that can be included in dropdowns to better adapt them to different situations.</p>
