@@ -2,9 +2,8 @@
   <div class="content limited m-t-7 m-b-7">
     <div class="typography md">
       <h1>Empty states</h1>
-      <p>Empty states should be considered during the implentation of new features. They are vital to helping onboard new users, making the experience feel more approachable and understandable.</p>
+      <p>An empty state is our way to communicate to the user that there is no content to load and what action they should take next. They are vital in making the experience feel more approachable and understandable.</p>
       <h2>Usage</h2>
-      <p>An empty state is our way to communicate to the user that there is no content to load and what action they should take next. They should tell users: what it’s for, why they are seeing it and what they need to do next.</p>
       <p>Empty states are composed of 3 elements, the illustration, message, and call to action. The illustration is optional but strongly recommended as it adds personality and aides the user in understanding the situation.</p>
       <ol>
         <strong>1. Illustration</strong>
@@ -18,6 +17,15 @@
         <strong>3. Call to action</strong>
         <p>Taking the form of a primary button with the option to add a secondary button, the text within should be direct and actionable.</p>
       </ol>
+      <h3>When to use an empty state</h3>
+      <p>Empty states can be employed to:</p>
+      <ul>
+        <li><p>Make users aware that a feature is not configured for use.</p></li>
+        <li><p>Act as a placeholder for regions in the app left blank intentionally</p></li>
+        <li><p>Convey an error state, which will depend on the nature of the error and should be used judiciously.</p></li>
+        <li><p>Display empty search results.</p></li>
+      </ul>
+      <p>Empty states differ from banners in that they are not intended to promote or advertise new features or functionality.</p>
       <h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
       <h2>Design specifications</h2>
@@ -47,6 +55,7 @@
       <h2>Related patterns</h2>
       <ul>
         <li><a href="/foundations/illustration">Illustration</a></li>
+        <li><a href="/components/banners">Banners</a></li>
       </ul>
     </div>
   </div>
