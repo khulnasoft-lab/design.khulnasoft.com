@@ -1,42 +1,14 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
-      <h1>Component name</h1>
-      <p>Component overview. A brief explanation of what the component is.</p>
+      <h1>Modals</h1>
+      <p>Modals are used when the system needs a user response, to reveal critical information or to show info without losing the overall context of the page.</p>
       <h2>Usage</h2>
-      <p>A summary of when and how the component is used.</p>
-      <!--
-        EXAMPLE TABLE, this can be used to highlight Do's & Don'ts or specfic rule sets
-        DO NOT add static images to any page at this time.
-      -->
-      <table class="do-dont m-b-6">
-        <thead>
-          <tr>
-            <th>Component type</th>
-            <th>Purpose</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Primary button</td>
-            <td>The primary call to action on the page.</td>
-          </tr>
-          <tr>
-            <td>Secondary button</td>
-            <td>Secondary actions on the page.</td>
-          </tr>
-        </tbody>
-      </table>
-      <!--
-        SUB SECTIONS, use these to highlight component specific rules. You can add as many sub-sections as needed, use your best judgement
-        e.g. truncation rules
-      -->
-      <h3>Sub section</h3>
-      <p>A summary of a specific usage guideline.</p>
-      <p class="todo">An example of a live component to add related to a usage guideline</p>
-      <!--
-        DEMO, keep this section for all patterns, the code block demo will be added at a later date
-      -->
+      <p>Use modals sparingly because they interrupt user workflow. When designing an experience that incorporates the need for a modal consider one of the following before reverting to a modal:</p>
+      <p><strong>Inline content:</strong>Present your content inline to avoid disruption to the user's flow.</p>
+      <p><strong>Expanding elements:</strong> Utilize elements such as accordions, tooltips or other non-modal patterns to convey your information.</p>
+      <p><strong>New page:</strong>take the user to a different page so that the interaction may be isolated without losing access to core navigational elements within the application.</p>
+      <p>Modals should be considered the second best option when designing an experience.</p>
       <h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
       <!--
@@ -47,17 +19,27 @@
         This link must ALWAYS be included.
       -->
       <h2>Design specifications</h2>
-      <p>Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:</p>
-      <p><a href="#">Sketch Measure Preview for [Insert component name here]</a></p>
-      <!--
-        RELATED PATTERNS should be similar in usage/type of pattern
-        e.g. tooltips, popover, and modals are all similar constructs used for different purposes
-        Remove this section if there are no related patterns at this time. Please list them in alphabetical order.
-      -->
+      <h3>Sizes</h3>
+      <p>sizes based on our grid stricture of 8px*2^n</p>
+      <p>There are 3 sizes for the modals:</p>
+        <li><strong>Small:</strong> 512px wide</li>
+        <p class="todo">Todo: Add live component block of small modal with code example</p>
+        <li><strong>Medium:</strong> 768px wide</li>
+        <p class="todo">Todo: Add live component block of medium modal with code example</p>
+        <li><strong>Large</strong> 990px max-width</li>
+        <p class="todo">Todo: Add live component block of large modal with code example</p>
+      <p><strong>Mobile</strong> Viewport width</p>
+      <p class="todo">Todo: Add live component block of large modal with code example</p>
+      <h3>Elements</h3>
+      <p></p>
+      <p><a href="#">To Do: Sketch Measure Preview for Modals</a></p>
       <h2>Related patterns</h2>
       <ul>
-        <li><a href="/">A related pattern</a></li>
+        <li><a href="/">tooltips/a></li>
+        <li><a href="/">popovers/a></li>
       </ul>
+      <h2>Resources</h2>
+      <p><a href="modalzmodalzmodalz"/https://modalzmodalzmodalz.com/</a></p>
     </div>
   </div>
 </template>
