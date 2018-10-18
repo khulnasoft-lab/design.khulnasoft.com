@@ -43,6 +43,7 @@
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/alerts">Alerts</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/avatar">Avatar</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/badges">Badges</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/banners">Banners</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/breadcrumbs">Breadcrumbs</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/broadcast-messages">Broadcast messages</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/components/buttons">Buttons</nuxt-link>
