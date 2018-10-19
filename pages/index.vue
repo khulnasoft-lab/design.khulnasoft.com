@@ -12,7 +12,7 @@
         src="../assets/images/cover.png"
         class="banner__image"
       >
-      <div class="overlay"></div>
+      <div class="overlay"/>
     </div>
     <div class="content limited m-t-10 m-b-10">
       <div class="distributed principles">
