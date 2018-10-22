@@ -8,7 +8,7 @@
         >
           <img
             class="w-6 h-6 m-r-3"
-            src="gitlab_logo.svg"
+            src="/gitlab_logo.svg"
           >
           GitLab Design System
         </nuxt-link>
@@ -107,10 +107,10 @@
 export default {
   computed: {
     contentWrapper() {
-      return this.$route.fullPath === '/' ? '' : 'content'
+      return this.$route.fullPath === '/' ? '' : 'content';
     },
   },
-}
+};
 </script>
 
 <style lang="scss">
