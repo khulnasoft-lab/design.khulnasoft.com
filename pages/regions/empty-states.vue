@@ -11,13 +11,13 @@
         <p>The title and message should be clear concise and explain why the user is seeing this screen.</p>
         <strong>3. Call to action</strong>
         <p>Taking the form of a primary button with the option to add a secondary button, the text within should be direct and actionable.</p>
-        <p>See<a href="/components/buttons">Buttons</a>for more on plancement and usage</p>      
+        <a href="/components/buttons">See buttons for more usage information</a>     
       <h3>When to use an empty state</h3>
       <p>Empty states can be employed to:</p>
       <ul>
         <li>Make users aware that a feature is not configured for use.</li>
         <li>Act as a placeholder for regions in the app left blank intentionally.</li>
-        <li>Convey an error state, which will depend on the nature of the error and should be used judiciously.</li>
+        <li>Convey an error state, which will depend on the nature of the error and should be used judiciously. An example of this would be a server response error, i.e., 404 or 500.</li>
         <li>Display empty search results.</li>
       </ul>
       <p>Empty states differ from banners in that they are not intended to promote or advertise new features or functionality.</p>
@@ -26,9 +26,9 @@
       <p class="todo">Todo: Add live component block with code example</p>
       <h2>Design specifications</h2>
       <h3>Illustration Style</h3>
-      <p><a href="/foundations/illustration">See illustration guidelines</a></p>
+      <a href="/foundations/illustration">See illustration guidelines</a>
       <h3>Size</h3>
-      <p>Max size on empty state illustrations is <strong>425px wide by 375px tall</strong>. Do not scale smaller illustrations up to this size as they will look too large. Instead use the original size of the illustration if it has already been drawn.</p>
+      <p>Max size on empty state illustrations is <strong>512px wide by 512px tall</strong>. Do not scale smaller illustrations up to this size as they will look too large. Instead use the original size of the illustration if it has already been drawn.</p>
       <h3>Fonts</h3>
       <ul>
         <li>Header title: H4 primary style</li>
