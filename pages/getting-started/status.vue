@@ -2,11 +2,14 @@
   <div class="content limited m-t-7 m-b-7">
     <div class="structure md">
       <h1>Component status</h1>
-      <p>Components and their variants have statuses reflecting their state of completion, documented on this page. <br>
+      <p>Components and their variants have statuses reflecting their state of completion, documented on this page. <br />
         Check back here anytime to see current component status information.</p>
       <p>See more detailed progress on our Design System <a href="https://gitlab.com/gitlab-org/design.gitlab.com/issues">issue tracker</a>.</p>
       <h2>Legend</h2>
-      <table class="m-t-6 m-b-6" style="width: 65%;">
+      <table 
+        class="m-t-6 m-b-6" 
+        style="width: 65%;"
+      >
         <tbody>
           <tr>
             <th class="header">Icon</th>
@@ -38,7 +41,10 @@
 
       <h2>Status</h2>
       <!-- <p>A paragraph.</p> -->
-      <table class="m-t-6 m-b-6" style="width: 65%;">
+      <table 
+        class="m-t-6 m-b-6" 
+        style="width: 65%;"
+      >
         <tbody>
           <tr>
             <th class="header">Foundations</th>

@@ -30,7 +30,7 @@ module.exports = {
         href: '/favicon-16x16.png',
         sizes: '16x16'
       },
-      { rel: 'stylesheet', href: '/gl-ui-css/application.css' }
+      { rel: 'stylesheet', href: '/application.css' }
     ]
   },
 
@@ -69,13 +69,13 @@ module.exports = {
     {
       path: '/gl-ui-docs',
       handler: serveStatic(
-        __dirname + '/node_modules/@gitlab-org/gitlab-ui/documentation'
+        `${__dirname}/node_modules/@gitlab-org/gitlab-ui/documentation`
       )
     },
     {
       path: '/gl-ui-css',
       handler: serveStatic(
-        __dirname + '/node_modules/@gitlab-org/gitlab-ui/styles'
+        `${__dirname}/node_modules/@gitlab-org/gitlab-ui/styles`
       )
     }
   ],
@@ -88,7 +88,7 @@ module.exports = {
      ** You can extend webpack config here
      */
     extend(config, ctx) {
-      config.resolve.alias['vue$'] = 'vue/dist/vue.esm.js'; // Full Vue version for being able to use dynamic templates
+      config.resolve.alias.vue$ = 'vue/dist/vue.esm.js'; // Full Vue version for being able to use dynamic templates
 
       config.module.rules.splice(0, 1);
 
@@ -105,7 +105,7 @@ module.exports = {
       });
 
       config.module.rules.push({
-        test: /\md$/,
+        test: /\.md$/,
         loader: 'raw-loader'
       });
 
