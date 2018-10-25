@@ -43,6 +43,8 @@ import * as Documentation from '@gitlab-org/gitlab-ui/docs';
 
 import mdDisplay from '../../components/md_display.vue';
 
+import componentMd from '../../contents/components/skeleton-loader.md';
+
 export default {
   components: {
     'md-display': mdDisplay,
@@ -57,32 +59,24 @@ export default {
     };
   },
   created() {
-    this.$axios
-      .$get(`/contents/components/${this.$route.params.componentinfo}.md`)
-      .then(contents => {
-        const fmResult = fm(contents);
-        if (fmResult) {
-          this.componentAttributes = fmResult.attributes;
+    const fmResult = fm(componentMd);
+    if (fmResult) {
+      this.componentAttributes = fmResult.attributes;
 
-          this.vueComponentName = fmResult.attributes.vueComponent;
+      this.vueComponentName = fmResult.attributes.vueComponent;
 
-          this.componentBody = fmResult.body;
+      this.componentBody = fmResult.body;
 
-          let snakeName = this.vueComponentName.replace(/([A-Z])/g, $1 => `_${$1.toLowerCase()}`);
-          if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1);
-          snakeName = snakeName.replace(/gl_/, '');
+      let snakeName = this.vueComponentName.replace(/([A-Z])/g, $1 => `_${$1.toLowerCase()}`);
+      if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1);
+      snakeName = snakeName.replace(/gl_/, '');
 
-          Object.keys(Document).forEach(component => {
-            if (component.indexOf(this.vueComponentName) > -1) {
-              this.vueComponentDocumentation = Documentation[component].description;
-            }
-          });
+      Object.keys(Document).forEach(component => {
+        if (component.indexOf(this.vueComponentName) > -1) {
+          this.vueComponentDocumentation = Documentation[component].description;
         }
-      })
-      .catch(e => {
-        // eslint-disable-next-line
-        console.error('Error : ', e);
       });
+    }
   },
 };
 </script>
