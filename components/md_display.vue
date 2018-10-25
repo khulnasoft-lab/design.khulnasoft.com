@@ -1,8 +1,4 @@
-
-
-
 <script>
-import Vue from 'vue';
 import markdowner from 'markdown-it';
 
 export default {
@@ -12,16 +8,7 @@ export default {
       type: String,
     },
   },
-  computed: {
-    mdOutput() {
-      if (md) {
-        const md = markdowner();
-        return md.render(fmResult.body);
-      }
-      return '';
-    },
-  },
-  render: function(createElement) {
+  render(createElement) {
     if (this.md) {
       const md = markdowner({
         xhtmlOut: true,
