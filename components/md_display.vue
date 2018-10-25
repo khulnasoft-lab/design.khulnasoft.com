@@ -29,7 +29,7 @@ export default {
       });
       let mdOutput = md.render(this.md);
       mdOutput = mdOutput.replace(
-        /\[\[Sample:(.*?)\]\]/g,
+        /\[\[Example:(.*?)\]\]/g,
         '<gl-docs-exampledisplay exampleName="$1" />'
       );
 

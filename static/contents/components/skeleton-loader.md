@@ -16,9 +16,7 @@ A skeleton loader can replace any existing UI elements for the period in which t
 *   Skeletons are presented in grayscale and never use color.
 *   Animate the gray atoms by adding a pulsing [motion](/foundations/motion) to indicate it is loading. The pulse animation transitions color horizontally from left to right, starting with #f2f2f2 to #fafafa.
 
-## Demo
-
-[[Sample:skeleton-loader-basic]]
+[[Example:skeleton-loader-basic]]
 
 ## Design specifications
 
