@@ -758,9 +758,8 @@
   resolved "https://registry.yarnpkg.com/@gitlab-org/gitlab-svgs/-/gitlab-svgs-1.32.0.tgz#a65ab7724fa7d55be8e5cc9b2dbe3f0757432fd3"
   integrity sha512-L3o8dFUd2nSkVZBwh2hCJWzNzADJ3dTBZxamND8NLosZK9/ohNhccmsQOZGyMCUHaOzm4vifaaXkAXh04UtMKA==
 
-"@gitlab-org/gitlab-ui@https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/112800002/artifacts/raw/gitlab-ui.tz-props-documentation.tgz":
+"@gitlab-org/gitlab-ui@file:../gitlab-ui":
   version "1.8.0"
-  resolved "https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/112800002/artifacts/raw/gitlab-ui.tz-props-documentation.tgz#9ec70adf2053f10110cd15a56499df79264e01b8"
   dependencies:
     "@gitlab-org/gitlab-svgs" "^1.23.0"
     babel-standalone "^6.26.0"
@@ -772,9 +771,8 @@
     vue "^2.5.16"
     vue-loader "^15.4.2"
 
-"@gitlab-org/gitlab-ui@https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/112808014/artifacts/raw/gitlab-ui.tz-props-documentation.tgz":
+"@gitlab-org/gitlab-ui@file:/mnt/c/tzwsl/gitlab-ui/":
   version "1.8.0"
-  resolved "https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/112808014/artifacts/raw/gitlab-ui.tz-props-documentation.tgz#194b4953f4ffa9162533a1bc677bd86df835fd55"
   dependencies:
     "@gitlab-org/gitlab-svgs" "^1.23.0"
     babel-standalone "^6.26.0"

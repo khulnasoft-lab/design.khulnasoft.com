@@ -38,6 +38,14 @@ module.exports = {
     dir: 'public'
   },
 
+  router: {
+    mode: 'hash'
+  },
+
+  render: {
+    ssr: false
+  },
+
   /*
    ** Customize the progress-bar color
    */
