@@ -17,7 +17,10 @@
           <li><a href="#persona-sam">Sam</a>, Security Analyst</li>
         </ul>
       </div>
-      <div id="persona-parker" class="persona card m-b-8">
+      <div 
+        id="persona-parker" 
+        class="persona card m-b-8"
+      >
         <div class="card--header">
           <h2>Parker</h2>
         </div>
@@ -51,7 +54,10 @@
           </ul>
         </div>
       </div>
-      <div id="persona-delaney" class="persona card m-b-8">
+      <div 
+        id="persona-delaney" 
+        class="persona card m-b-8"
+      >
         <div class="card--header">
           <h2>Delaney</h2>
         </div>
@@ -84,7 +90,10 @@
           </ul>
         </div>
       </div>
-      <div id="persona-devon" class="persona card m-b-8">
+      <div 
+        id="persona-devon" 
+        class="persona card m-b-8"
+      >
         <div class="card--header">
           <h2>Devon</h2>
         </div>
@@ -120,7 +129,10 @@
           </ul>
         </div>
       </div>
-      <div id="persona-sasha" class="persona card m-b-8">
+      <div 
+        id="persona-sasha" 
+        class="persona card m-b-8"
+      >
         <div class="card--header">
           <h2>Sasha</h2>
         </div>
@@ -155,7 +167,10 @@
           </ul>
         </div>
       </div>
-      <div id="persona-sidney" class="persona card m-b-8">
+      <div 
+        id="persona-sidney" 
+        class="persona card m-b-8"
+      >
         <div class="card--header">
           <h2>Sidney</h2>
         </div>
@@ -189,7 +204,10 @@
           </ul>
         </div>
       </div>
-      <div id="persona-sam" class="persona card m-b-8">
+      <div 
+        id="persona-sam" 
+        class="persona card m-b-8"
+      >
         <div class="card--header">
           <h2>Sam</h2>
         </div>

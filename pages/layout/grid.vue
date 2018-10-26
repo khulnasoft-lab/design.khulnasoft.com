@@ -10,7 +10,10 @@
       <p class="todo">Todo: Define breakpoints</p>
 
       <h2>Page containers</h2>
-      <p>Users can choose between two kinds of <a href="https://docs.gitlab.com/ee/user/profile/preferences.html#layout-width" target="_blank">layout width</a> which set the behavior of page containers: <strong>fixed</strong> (default) or <strong>fluid</strong>.
+      <p>Users can choose between two kinds of <a 
+        href="https://docs.gitlab.com/ee/user/profile/preferences.html#layout-width" 
+        target="_blank"
+      >layout width</a> which set the behavior of page containers: <strong>fixed</strong> (default) or <strong>fluid</strong>.
       </p><p>The <strong>fluid</strong> layout does not impose any width restrictions to page containers, so elements expand across the screen to fill all available space.
       </p><p>The <strong>fixed</strong> layout applies the ideal maximum width to page containers according to the elements being displayed so they can be experienced using the most appropriate width.</p>
 
@@ -30,25 +33,25 @@
       </p><h3>Components</h3>
       <p>Using a baseline grid of 8px allows flexibility when scaling and defining our <a href="/layout/spacing">spacing</a> without overloading the system with options. By using multiples of 8 to define dimensions, padding, and margins of components, we ensure every UI element aligns to the pixel grid.</p>
       <div class="baseline a-center m-b-6">
-        <div class="w-13 h-3"/>
-        <div class="w-13 h-5 c-blue-background-300"/>
-        <div class="w-13 h-3"/>
-        <div class="w-13 h-6 c-blue-background-300"/>
-        <div class="w-13 h-3"/>
-        <div class="w-13 h-7 c-blue-background-300"/>
-        <div class="w-13 h-3"/>
-        <div class="w-13 h-3"/>
+        <div class="w-13 h-3"></div>
+        <div class="w-13 h-5 c-blue-background-300"></div>
+        <div class="w-13 h-3"></div>
+        <div class="w-13 h-6 c-blue-background-300"></div>
+        <div class="w-13 h-3"></div>
+        <div class="w-13 h-7 c-blue-background-300"></div>
+        <div class="w-13 h-3"></div>
+        <div class="w-13 h-3"></div>
       </div>
       <p>When text is used within a UI element, set the line-height to be consistent with the baseline grid and use padding to define the size of the component.</p>
       <div class="baseline a-center">
-        <div class="w-13 h-3"/>
-        <div class="w-13 h-3 c-orange-background-200"/>
-        <div class="w-13 h-3 c-green-background-200"/>
+        <div class="w-13 h-3"></div>
+        <div class="w-13 h-3 c-orange-background-200"></div>
+        <div class="w-13 h-3 c-green-background-200"></div>
         <div class="w-13 h-5 c-blue-background-300 label">Text</div>
-        <div class="w-13 h-3 c-green-background-200"/>
-        <div class="w-13 h-3 c-orange-background-200"/>
-        <div class="w-13 h-3"/>
-        <div class="w-13 h-3"/>
+        <div class="w-13 h-3 c-green-background-200"></div>
+        <div class="w-13 h-3 c-orange-background-200"></div>
+        <div class="w-13 h-3"></div>
+        <div class="w-13 h-3"></div>
       </div>
       <h3>Typography</h3>
       <p>All typography aligns to a 4px baseline grid. This allows for readable line heights at all sizes. See our <a href="/foundations/typography">typography</a> for more information about how to use our type scale.</p>
