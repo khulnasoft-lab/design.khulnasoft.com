@@ -771,8 +771,9 @@
     vue "^2.5.16"
     vue-loader "^15.4.2"
 
-"@gitlab-org/gitlab-ui@file:/mnt/c/tzwsl/gitlab-ui/":
+"@gitlab-org/gitlab-ui@https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/113444142/artifacts/raw/gitlab-ui.tz-props-documentation.tgz":
   version "1.8.0"
+  resolved "https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/113444142/artifacts/raw/gitlab-ui.tz-props-documentation.tgz#9fdb0516e53c369dbb47dda511f9a81bb795adc4"
   dependencies:
     "@gitlab-org/gitlab-svgs" "^1.23.0"
     babel-standalone "^6.26.0"
