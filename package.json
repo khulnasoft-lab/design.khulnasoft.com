@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@gitlab-org/gitlab-svgs": "^1.32.0",
-    "@gitlab-org/gitlab-ui": "file:/mnt/c/tzwsl/gitlab-ui/",
+    "@gitlab-org/gitlab-ui": "https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/113444142/artifacts/raw/gitlab-ui.tz-props-documentation.tgz",
     "@nuxtjs/axios": "^5.0.0",
     "bootstrap": "^4.1.3",
     "bootstrap-vue": "^2.0.0-beta",
