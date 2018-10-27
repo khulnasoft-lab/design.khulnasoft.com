@@ -14,19 +14,32 @@
           title="Vue Component" 
           class="pt-3"
         >
-          <h2 class="mb-3">Vue Component - {{ vueComponentName }}</h2>
-          <gl-docs-exampleexplorer :component-name="vueComponentName" />
-          <md-display 
-            :md="vueComponentDocumentation" 
-            class="mt-3"
-          />
-          <div class="component md mt-3">
-            <h2>Component Properties</h2>
-            <gl-docs-componentdocumentation 
-              :component-name="vueComponentName" 
+          <template v-for="vueComponentName in vueComponents">
+            <h2
+              :key="`hl-${vueComponentName}`"
+              class="mb-3"
+            >Vue Component - {{ vueComponentName }}</h2>
+            <gl-docs-exampleexplorer
+              :key="`examples-${vueComponentName}`"
+              :component-name="vueComponentName"
+            />
+            <md-display
+              :key="`description-${vueComponentName}`"
+              :md="vueComponentDocumentations[vueComponentName]" 
               class="mt-3"
             />
-          </div>
+            <div
+              :key="`props-${vueComponentName}`"
+              class="component md mt-3"
+            >
+              <h2>Component Properties</h2>
+              <gl-docs-componentdocumentation 
+                :key="`docs-${vueComponentName}`"
+                :component-name="vueComponentName" 
+                class="mt-3"
+              />
+            </div>
+          </template>
         </b-tab>
       </b-tabs>
     </div>
@@ -47,15 +60,15 @@ import componentMd from '../../contents/components/skeleton-loader.md';
 
 export default {
   components: {
-    'md-display': mdDisplay,
+    'md-display': mdDisplay
   },
   data() {
     return {
       componentName: this.$route.params.componentinfo,
       componentAttributes: null,
       componentBody: null,
-      vueComponentName: null,
-      vueComponentDocumentation: null,
+      vueComponents: null,
+      vueComponentDocumentations: {}
     };
   },
   created() {
@@ -63,20 +76,26 @@ export default {
     if (fmResult) {
       this.componentAttributes = fmResult.attributes;
 
-      this.vueComponentName = fmResult.attributes.vueComponent;
+      this.vueComponents = fmResult.attributes.vueComponents;
 
       this.componentBody = fmResult.body;
 
-      let snakeName = this.vueComponentName.replace(/([A-Z])/g, $1 => `_${$1.toLowerCase()}`);
-      if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1);
-      snakeName = snakeName.replace(/gl_/, '');
+      this.vueComponents.forEach(vueComponentName => {
+        let snakeName = vueComponentName.replace(
+          /([A-Z])/g,
+          $1 => `_${$1.toLowerCase()}`
+        );
+        if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1);
+        snakeName = snakeName.replace(/gl_/, '');
 
-      Object.keys(Document).forEach(component => {
-        if (component.indexOf(this.vueComponentName) > -1) {
-          this.vueComponentDocumentation = Documentation[component].description;
-        }
+        Object.keys(Documentation).forEach(component => {
+          if (component.indexOf(vueComponentName) > -1) {
+            this.vueComponentDocumentations[vueComponentName] =
+              Documentation[component].description;
+          }
+        });
       });
     }
-  },
+  }
 };
 </script>
