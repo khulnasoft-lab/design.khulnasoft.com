@@ -87,3 +87,4 @@ dist/
 public/
 
 /static/application.css
+/static/contents/

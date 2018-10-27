@@ -50,13 +50,9 @@
 </template>
 
 <script>
-import fm from 'front-matter';
-
 import * as Documentation from '@gitlab-org/gitlab-ui/docs';
 
 import mdDisplay from '../../components/md_display.vue';
-
-import componentMd from '../../contents/components/skeleton-loader.md';
 
 export default {
   components: {
@@ -72,30 +68,35 @@ export default {
     };
   },
   created() {
-    const fmResult = fm(componentMd);
-    if (fmResult) {
-      this.componentAttributes = fmResult.attributes;
+    this.$axios
+      .$get(`/contents/components/${this.$route.params.componentinfo}.json`)
+      .then(fmResult => {
+        this.componentAttributes = fmResult.attributes;
 
-      this.vueComponents = fmResult.attributes.vueComponents;
+        this.vueComponents = fmResult.attributes.vueComponents;
 
-      this.componentBody = fmResult.body;
+        this.componentBody = fmResult.body;
 
-      this.vueComponents.forEach(vueComponentName => {
-        let snakeName = vueComponentName.replace(
-          /([A-Z])/g,
-          $1 => `_${$1.toLowerCase()}`
-        );
-        if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1);
-        snakeName = snakeName.replace(/gl_/, '');
+        this.vueComponents.forEach(vueComponentName => {
+          let snakeName = vueComponentName.replace(
+            /([A-Z])/g,
+            $1 => `_${$1.toLowerCase()}`
+          );
+          if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1);
+          snakeName = snakeName.replace(/gl_/, '');
 
-        Object.keys(Documentation).forEach(component => {
-          if (component.indexOf(vueComponentName) > -1) {
-            this.vueComponentDocumentations[vueComponentName] =
-              Documentation[component].description;
-          }
+          Object.keys(Documentation).forEach(component => {
+            if (component.indexOf(vueComponentName) > -1) {
+              this.vueComponentDocumentations[vueComponentName] =
+                Documentation[component].description;
+            }
+          });
         });
+      })
+      .catch(e => {
+        // eslint-disable-next-line
+        console.log('Err : ', e);
       });
-    }
   }
 };
 </script>
