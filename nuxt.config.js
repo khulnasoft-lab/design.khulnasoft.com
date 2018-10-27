@@ -46,6 +46,10 @@ module.exports = {
     ssr: false
   },
 
+  axios: {
+    browserBaseURL: '/'
+  },
+
   /*
    ** Customize the progress-bar color
    */
@@ -74,20 +78,7 @@ module.exports = {
   /*
    ** Axios module configuration
    */
-  serverMiddleware: [
-    {
-      path: '/gl-ui-docs',
-      handler: serveStatic(
-        `${__dirname}/node_modules/@gitlab-org/gitlab-ui/documentation`
-      )
-    },
-    {
-      path: '/gl-ui-css',
-      handler: serveStatic(
-        `${__dirname}/node_modules/@gitlab-org/gitlab-ui/styles`
-      )
-    }
-  ],
+  serverMiddleware: [],
 
   /*
    ** Build configuration
