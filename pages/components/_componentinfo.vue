@@ -8,9 +8,14 @@
           active 
           class="pt-3"
         >
-          <md-display :md="componentBody" />
+          <md-display
+            v-if="componentBody"
+            :md="componentBody"
+          />
+          <h3 v-else>Description will be added soon</h3>
         </b-tab>
         <b-tab 
+          v-if="vueComponents && vueComponents.length"
           title="Vue Component" 
           class="pt-3"
         >
@@ -56,7 +61,7 @@ import mdDisplay from '../../components/md_display.vue';
 
 export default {
   components: {
-    'md-display': mdDisplay
+    'md-display': mdDisplay,
   },
   data() {
     return {
@@ -64,7 +69,7 @@ export default {
       componentAttributes: null,
       componentBody: null,
       vueComponents: null,
-      vueComponentDocumentations: {}
+      vueComponentDocumentations: {},
     };
   },
   created() {
@@ -78,10 +83,7 @@ export default {
         this.componentBody = fmResult.body;
 
         this.vueComponents.forEach(vueComponentName => {
-          let snakeName = vueComponentName.replace(
-            /([A-Z])/g,
-            $1 => `_${$1.toLowerCase()}`
-          );
+          let snakeName = vueComponentName.replace(/([A-Z])/g, $1 => `_${$1.toLowerCase()}`);
           if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1);
           snakeName = snakeName.replace(/gl_/, '');
 
@@ -97,6 +99,6 @@ export default {
         // eslint-disable-next-line
         console.log('Err : ', e);
       });
-  }
+  },
 };
 </script>

@@ -9,29 +9,13 @@ Alerts allow the application to pass along relevant information to the user with
 
 ## Usage
 
-Component type
-
-Purpose
-
-Danger alerts
-
-To be used for critical warnings that require the user's attention.
-
-Warning alerts
-
-To be used for other non-critical warnings that require the users attention.
-
-Information alerts
-
-To be used to display important information to the user related to their task.
-
-Tip alerts
-
-To be used to display tips on using GitLab, new/unused features, and other marketing information.
-
-Success alerts
-
-To be used to alert the user that the action they have completed was successful.
+|Component type|Purpose|
+|--- |--- |
+|Danger alerts|To be used for critical warnings that require the user's attention.|
+|Warning alerts|To be used for other non-critical warnings that require the users attention.|
+|Information alerts|To be used to display important information to the user related to their task.|
+|Tip alerts|To be used to display tips on using GitLab, new/unused features, and other marketing information.|
+|Success alerts|To be used to alert the user that the action they have completed was successful.|
 
 ## Demo
 
