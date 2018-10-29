@@ -1,5 +1,5 @@
 ---
-name: Pagination
+name: Date picker
 related:
   - forms
   - dropdowns

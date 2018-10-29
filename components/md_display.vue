@@ -20,6 +20,8 @@ export default {
         '<gl-docs-exampledisplay exampleName="$1" />'
       );
 
+      mdOutput = mdOutput.replace(/Todo:(.*?)\n/gm, '<p class="todo">Todo: $1</p>');
+
       const dynamicElement = {
         template: `<div class="component md">${mdOutput}</div>`,
       };

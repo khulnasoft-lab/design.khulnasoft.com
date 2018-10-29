@@ -13,6 +13,27 @@
             :md="componentBody"
           />
           <h3 v-else>Description will be added soon</h3>
+
+          <div
+            v-if="relatedComponents && relatedComponents.length"
+            class="component md mt-3"
+          >
+            <h2>Related patterns</h2>
+            <ul>
+              <li 
+                v-for="comp in relatedComponents"
+                :key="comp"
+              >
+                <a 
+                  :href="`#/components/${comp}`"
+                >
+                  {{ comp }}
+                </a>
+              </li>
+            </ul>
+          </div>
+
+
         </b-tab>
         <b-tab 
           v-if="vueComponents && vueComponents.length"
@@ -70,6 +91,7 @@ export default {
       componentBody: null,
       vueComponents: null,
       vueComponentDocumentations: {},
+      relatedComponents: null,
     };
   },
   created() {
@@ -79,21 +101,24 @@ export default {
         this.componentAttributes = fmResult.attributes;
 
         this.vueComponents = fmResult.attributes.vueComponents;
+        this.relatedComponents = fmResult.attributes.related;
 
         this.componentBody = fmResult.body;
 
-        this.vueComponents.forEach(vueComponentName => {
-          let snakeName = vueComponentName.replace(/([A-Z])/g, $1 => `_${$1.toLowerCase()}`);
-          if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1);
-          snakeName = snakeName.replace(/gl_/, '');
+        if (this.vueComponents) {
+          this.vueComponents.forEach(vueComponentName => {
+            let snakeName = vueComponentName.replace(/([A-Z])/g, $1 => `_${$1.toLowerCase()}`);
+            if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1);
+            snakeName = snakeName.replace(/gl_/, '');
 
-          Object.keys(Documentation).forEach(component => {
-            if (component.indexOf(vueComponentName) > -1) {
-              this.vueComponentDocumentations[vueComponentName] =
-                Documentation[component].description;
-            }
+            Object.keys(Documentation).forEach(component => {
+              if (component.indexOf(vueComponentName) > -1) {
+                this.vueComponentDocumentations[vueComponentName] =
+                  Documentation[component].description;
+              }
+            });
           });
-        });
+        }
       })
       .catch(e => {
         // eslint-disable-next-line

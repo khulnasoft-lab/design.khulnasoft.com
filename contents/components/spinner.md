@@ -3,10 +3,15 @@ name: Spinner
 vueComponents: 
   - glLoadingIcon
 related:
-  - spinner
+  - buttons
+  - forms
+  - search
+  - skeleton-loader
 ---
 
 A spinner is a simple animated element that tells users that either saving or loading of information/data is in progress and is tied to user-triggered actions. In some cases of saving information the UI will reflect the change before the change is actually saved. In such cases, the spinner should be used to indicate background activity until information is successfully saved.
+
+[[Example:loading_icon-basic]]
 
 ## Usage
 
@@ -63,10 +68,3 @@ This color is reserved for spinners on dark background only (buttons for example
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
 [Sketch Measure Preview for search patterns](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/spinner-spec-previews/)
-
-## Related patterns
-
-*   [Buttons](/components/buttons)
-*   [Forms](/components/forms)
-*   [Search](/components/search)
-*   [Skeleton loader](/components/skeleton-loader)
