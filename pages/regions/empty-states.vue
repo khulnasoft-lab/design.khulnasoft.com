@@ -5,13 +5,13 @@
       <p>An empty state is our way of communicating to the user that there is no content to load and what action they should take next. They are vital in making the experience feel more approachable and understandable.</p>
       <h2>Usage</h2>
       <p>Empty states are composed of 3 elements: the illustration, description, and call to action. The illustration is optional but strongly recommended as it adds personality and aides the user in understanding the situation.</p>
-        <strong>1. Illustration</strong>
-        <p>The illustration should compliment the need for the empty state and help the user understand the situation.</p>
+      <strong>1. Illustration</strong>
+      <p>The illustration should compliment the need for the empty state and help the user understand the situation.</p>
       <strong>2. Description</strong>
-        <p>The title and message should be clear concise and explain why the user is seeing this screen.</p>
-        <strong>3. Call to action</strong>
-        <p>Taking the form of a primary button with the option to add a secondary button, the text within should be direct and actionable.</p>
-        <p><a href="/components/buttons">See buttons for more usage information</a></p>     
+      <p>The title and message should be clear, concise, and explain why the user is seeing this screen.</p>
+      <strong>3. Call to action</strong>
+      <p>Taking the form of a primary button with the option to add a secondary button, the text within should be direct and actionable.</p>
+      <p><a href="/components/buttons">See buttons for more usage information</a></p>     
       <h3>When to use an empty state</h3>
       <p>Empty states can be employed to:</p>
       <ul>
@@ -46,8 +46,8 @@
         <li>There is only one primary button since there can only be one primary button per form. If there is a need for more than one button, the other should be a secondary button.</li>
       </ul>
       <h3>Mobile</h3>
-      <p>On mobile, the layout is same to the one on desktop. It only scales down the illustrations and changes the width of paragraph.</p>
-      <p><a href="#">To Do: Sketch Measure Preview for empty states</a></p>
+      <p>On mobile, the layout is same as the one on desktop. It only scales down the illustrations and changes the width of paragraph.</p>
+      <p class="todo">Add Sketch Measure Preview for empty states</a></p>
       <h2>Related patterns</h2>
       <ul>
         <li><a href="/components/banners">Banners</a></li>
