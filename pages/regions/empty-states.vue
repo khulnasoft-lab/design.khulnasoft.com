@@ -31,8 +31,8 @@
       <p>Max size on empty state illustrations is <strong>512px wide by 512px tall</strong>. Do not scale smaller illustrations up to this size as they will look too large. Instead use the original size of the illustration if it has already been drawn.</p>
       <h3>Fonts</h3>
       <ul>
-        <li>Header title: H4 primary style</li>
-        <li>Description: Primary paragraph style</li>
+        <li>Header title: UI H4 style</li>
+        <li>Description: UI paragraph style</li>
       </ul>
       <h3>Description</h3>
       <ul>
