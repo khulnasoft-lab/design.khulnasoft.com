@@ -1,5 +1,5 @@
 <script>
-import markdowner from 'markdown-it';
+import markdowner from 'markdown-it'
 
 export default {
   props: {
@@ -13,20 +13,20 @@ export default {
       const md = markdowner({
         xhtmlOut: true,
         typographer: true,
-      });
-      let mdOutput = md.render(this.md);
+      })
+      let mdOutput = md.render(this.md)
       mdOutput = mdOutput.replace(
         /\[\[Example:(.*?)\]\]/g,
-        '<gl-docs-exampledisplay exampleName="$1" />'
-      );
+        '<gl-example-display exampleName="$1" />'
+      )
 
       const dynamicElement = {
         template: `<div class="component md">${mdOutput}</div>`,
-      };
+      }
 
-      return createElement(dynamicElement);
+      return createElement(dynamicElement)
     }
-    return createElement('h4', 'No description');
+    return createElement('h4', 'No description')
   },
-};
+}
 </script>
