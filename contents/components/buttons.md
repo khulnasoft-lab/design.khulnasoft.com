@@ -1,7 +1,7 @@
 ---
 name: Buttons
 vueComponents: 
-  - glButton
+  - GlButton
 related:
   - dropdowns
   - segmented-control
@@ -21,7 +21,7 @@ Defining context depends on the hierarchy of information displayed on the screen
 
 Please note that contexts may be temporary, such as a modal.
 
-Todo: Add live component block with code example
+[[Example:button-variants]]
 
 ### Secondary
 
@@ -70,8 +70,6 @@ Todo: Add live component block with code example
 ### Elementary
 
 Our elementary button styles all convey a different meaning due to their respective styling. Their colors are aligned with our [four primary chromatic colors](/foundations/colors).
-
-[[Example:button-variants]]
 
 #### Info
 
@@ -146,6 +144,8 @@ Todo: Add live component block with code example
 #### Split dropdown
 
 Dropdown buttons may be split when its options are actions. The text button will allow immediate access to the most common option and an attached dropdown button to either change the default action or directly access a list of related actions. The dropdown button is attached to the right of the text button and has a chevron icon as its label.
+
+If the dropdown menu has no related actions available, a split dropdown button should be converted back to just a text button.
 
 Todo: Add live component block with code example
 

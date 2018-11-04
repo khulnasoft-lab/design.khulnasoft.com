@@ -19,7 +19,7 @@
               :key="`hl-${vueComponentName}`"
               class="mb-3"
             >Vue Component - {{ vueComponentName }}</h2>
-            <gl-docs-exampleexplorer
+            <gl-example-explorer
               :key="`examples-${vueComponentName}`"
               :component-name="vueComponentName"
             />
@@ -33,7 +33,7 @@
               class="component md mt-3"
             >
               <h2>Component Properties</h2>
-              <gl-docs-componentdocumentation 
+              <gl-component-documentation 
                 :key="`docs-${vueComponentName}`"
                 :component-name="vueComponentName" 
                 class="mt-3"
@@ -50,13 +50,13 @@
 </template>
 
 <script>
-import * as Documentation from '@gitlab-org/gitlab-ui/docs';
+import * as Documentation from '@gitlab-org/gitlab-ui'
 
-import mdDisplay from '../../components/md_display.vue';
+import mdDisplay from '../../components/md_display.vue'
 
 export default {
   components: {
-    'md-display': mdDisplay
+    'md-display': mdDisplay,
   },
   data() {
     return {
@@ -64,39 +64,36 @@ export default {
       componentAttributes: null,
       componentBody: null,
       vueComponents: null,
-      vueComponentDocumentations: {}
-    };
+      vueComponentDocumentations: {},
+    }
   },
   created() {
     this.$axios
       .$get(`/contents/components/${this.$route.params.componentinfo}.json`)
       .then(fmResult => {
-        this.componentAttributes = fmResult.attributes;
+        this.componentAttributes = fmResult.attributes
 
-        this.vueComponents = fmResult.attributes.vueComponents;
+        this.vueComponents = fmResult.attributes.vueComponents
 
-        this.componentBody = fmResult.body;
+        this.componentBody = fmResult.body
 
         this.vueComponents.forEach(vueComponentName => {
-          let snakeName = vueComponentName.replace(
-            /([A-Z])/g,
-            $1 => `_${$1.toLowerCase()}`
-          );
-          if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1);
-          snakeName = snakeName.replace(/gl_/, '');
+          let snakeName = vueComponentName.replace(/([A-Z])/g, $1 => `_${$1.toLowerCase()}`)
+          if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1)
+          snakeName = snakeName.replace(/gl_/, '')
 
           Object.keys(Documentation).forEach(component => {
             if (component.indexOf(vueComponentName) > -1) {
               this.vueComponentDocumentations[vueComponentName] =
-                Documentation[component].description;
+                Documentation[component].description
             }
-          });
-        });
+          })
+        })
       })
       .catch(e => {
         // eslint-disable-next-line
-        console.log('Err : ', e);
-      });
-  }
-};
+        console.log('Err : ', e)
+      })
+  },
+}
 </script>
