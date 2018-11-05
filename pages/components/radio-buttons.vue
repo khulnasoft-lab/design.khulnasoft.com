@@ -8,7 +8,7 @@
       <p>Radio buttons may replace segmented controls, a list of checkboxes, or a toggle to allow users to choose between two or multiple options. For help with choosing the right solution, follow the table below.</p>
       <p class="todo">Todo: Add replacement-comparison-table</p>
       <h3>Labels</h3>
-      <p>Radio button labels are set in regular font weight, positioned to the right of the element, and should be as short as possible. If more, explanatory text is required, it should be added and styled as <a href="/components/forms#help-text">Help text</a> below the label.</p>
+      <p>Radio button labels are set in regular font weight, positioned to the right of the element, and should be as short as possible. Group labels are set in bold font weight and positioned above the group of radio buttons. If more, explanatory text is required, it should be added and styled as <a href="/components/forms#help-text">Help text</a> below the labels.</p>
       <h3>Visual Design</h3>
       <p>Radio buttons should use high-contrast colors and a dot icon to indicate the states - selected and unselected.</p>
       <h2>Demo</h2>
