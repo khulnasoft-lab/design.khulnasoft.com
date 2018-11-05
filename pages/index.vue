@@ -15,8 +15,8 @@
       <div class="overlay"></div>
     </div>
     <div class="content limited m-t-10 m-b-10">
-      <div class="distributed principles">
-        <div class="principle m-b-7 a-center max-w-sm">
+      <div class="distributed principles a-center max-w-sm">
+        <div class="principle m-b-7">
           <img 
             src="../assets/images/principles/professional-productive.png" 
             srcset="../assets/images/principles/professional-productive@2x.png 2x" 
@@ -27,7 +27,7 @@
             <p>GitLab is an application to support what people do, day in, day out. We need to respect the importance of their work, and avoid gimicky details.</p>
           </div>
         </div>
-        <div class="principle m-b-7 a-center max-w-sm">
+        <div class="principle m-b-7">
           <img 
             src="../assets/images/principles/minimal-efficient.png" 
             srcset="../assets/images/principles/minimal-efficient@2x.png 2x"
@@ -37,7 +37,7 @@
             <p>While work can get complicated, GitLab is about bringing a sharp focus, helping our customers know what matters now.</p>
           </div>
         </div>
-        <div class="principle a-center max-w-sm">
+        <div class="principle">
           <img 
             src="../assets/images/principles/human-quirky.png" 
             srcset="../assets/images/principles/human-quirky@2x.png 2x"
