@@ -1,4 +1,4 @@
-import serveStatic from 'serve-static'
+import serveStatic from 'serve-static';
 
 module.exports = {
   mode: 'SPA',
@@ -84,48 +84,48 @@ module.exports = {
    ** Build configuration
    */
   build: {
-    watch: ['~/contents'],
+    watch: ['~/contents/*.**'],
     /*
      ** You can extend webpack config here
      */
     extend(config, ctx) {
-      config.resolve.alias.vue$ = 'vue/dist/vue.esm.js' // Full Vue version for being able to use dynamic templates
+      config.resolve.alias.vue$ = 'vue/dist/vue.esm.js'; // Full Vue version for being able to use dynamic templates
 
-      config.module.rules.splice(0, 1)
+      config.module.rules.splice(0, 1);
 
       config.module.rules.push({
         test: /\.md$/,
         include: /static/,
         loader: 'frontmatter-markdown-loader'
-      })
+      });
 
       config.module.rules.push({
         test: /\.js$/,
         include: /node-modules/,
         loader: 'babel-loader'
-      })
+      });
 
       config.module.rules.push({
         test: /\.md$/,
         loader: 'raw-loader'
-      })
+      });
 
       config.module.rules.push({
         test: /\.example\.vue$/,
         loader: 'raw-loader'
-      })
+      });
 
       config.module.rules.push({
         test: /\.vue$/,
         exclude: /\.example\.vue$/,
         loader: 'vue-loader'
-      })
+      });
 
       config.module.rules.push({
         test: /\.css$/,
         include: /node-modules/,
         loader: 'css-loader'
-      })
+      });
 
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
@@ -134,8 +134,8 @@ module.exports = {
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
           exclude: /(node_modules)/
-        })
+        });
       }
     }
   }
-}
+};

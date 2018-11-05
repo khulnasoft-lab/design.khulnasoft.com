@@ -19,29 +19,45 @@ export default function() {
         fs.mkdirSync(outputDir);
       }
 
-      fs.readdir(
-        path.resolve(__dirname, '../contents/components/'),
-        (err, items) => {
-          if (err) throw err;
+      const componentInfos = [];
 
-          items.forEach(item => {
-            fs.readFile(
-              path.resolve(__dirname, `../contents/components/${item}`),
-              'utf8',
-              (readErr, data) => {
-                if (readErr) throw readErr;
+      const files = fs.readdirSync(
+        path.resolve(__dirname, '../contents/components/')
+      );
 
-                const content = fm(data);
-                fs.writeFile(
-                  `${outputDir}/${item.replace(/.md/g, '.json')}`,
-                  JSON.stringify(content),
-                  writeErr => {
-                    if (writeErr) throw writeErr;
-                  }
-                );
-              }
-            );
+      files.forEach(item => {
+        const fileData = fs.readFileSync(
+          path.resolve(__dirname, `../contents/components/${item}`),
+          'utf8'
+        );
+        if (fileData) {
+          const content = fm(fileData);
+          fs.writeFile(
+            `${outputDir}/${item.replace(/.md/g, '.json')}`,
+            JSON.stringify(content),
+            writeErr => {
+              if (writeErr) throw writeErr;
+            }
+          );
+
+          componentInfos.push({
+            id: item.replace('.md', ''),
+            name: content.attributes.name,
+            hasVueComponent:
+              content.attributes.vueComponents &&
+              content.attributes.vueComponents.length > 0,
+            hasInfo: content.body.length > 0
           });
+        }
+      });
+
+      fs.writeFile(
+        path.resolve(__dirname, '../static/contents/contentTree.json'),
+        JSON.stringify({
+          components: componentInfos
+        }),
+        writeErr => {
+          if (writeErr) throw writeErr;
         }
       );
     }
