@@ -25,12 +25,12 @@
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/foundations/')">
           <summary class="nav-sidebar__section-summary">Foundations</summary>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/foundations/colors">Colors</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/foundations/feedback">Feedback</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/foundations/iconography">Iconography</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/foundations/motion">Motion</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/foundations/illustration">Illustration</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/foundations/typography">Typography</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/foundations/interactions">Interactions</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/foundations/feedback">Saving and feedback</nuxt-link>
         </details>
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/layout/')">
@@ -105,33 +105,33 @@
 </template>
 
 <script>
-import gitlabLogo from "@gitlab-org/gitlab-svgs/dist/illustrations/gitlab_logo.svg";
+  import gitlabLogo from "@gitlab-org/gitlab-svgs/dist/illustrations/gitlab_logo.svg";
 
-export default {
-  computed: {
-    contentWrapper() {
-      return this.$route.fullPath === "/" ? "" : "content";
+  export default {
+    computed: {
+      contentWrapper() {
+        return this.$route.fullPath === "/" ? "" : "content";
+      }
+    },
+    data() {
+      return {
+        gitlabLogo
+      };
     }
-  },
-  data() {
-    return {
-      gitlabLogo
-    };
-  }
-};
+  };
 </script>
 
 <style lang="scss">
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
 
-body {
-  margin: 0;
-  padding: 0;
-}
+  body {
+    margin: 0;
+    padding: 0;
+  }
 
-@import "../assets/stylesheets/app.scss";
+  @import "../assets/stylesheets/app.scss";
 </style>
