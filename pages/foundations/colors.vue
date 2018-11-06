@@ -4,6 +4,13 @@
       <h1>Color</h1>
       <h2>Chromatic palette</h2>
       <p>We have four primary chromatic colors and their derivatives, totaling 44 colors for use across the application. These colors give flexibility during the design process, while also providing a harmonious palette that looks consistent and in line with our brand styles.</p>
+      <p>Though deciding which color to use depends on the situation, here are some general guidelines for using the four primary colors:</p>
+      <ul>
+        <li><b>Blue</b> indicates a current or active state. It communicates: management, progress, connectivity, or organization.</li>
+        <li><b>Green</b> indicates success. It communicates: save, create, add, available, done, approved, or resolved.</li>
+        <li><b>Orange</b> indicates 'attention-required.' It communicates: warning, pending, missing, or impeded progress.</li>
+        <li><b>Red</b> indicates a problem. It communicates: critical states, destructive actions, errors, fails, removals, or declines.</li>
+      </ul>
       <h3>Color priorities</h3>
       <p>Color priorities work similarly to font weights; different font weights can be used to create contrasting typography that communicates hierarchy. We apply this same logic to colors by tagging colors according to their priority: from 1 to 4. These priorities can be used to make better choices. When choosing how to apply color to a UI component:</p>
       <ul>
@@ -13,7 +20,10 @@
       </ul>
       <p>Priorities skip weights because, in most situations, the contrast between two adjoining weights would be subtle. However, those shades are available to use when needed. Color priorities are meant to act as a guideline, not a strict set of rules.</p>
       <h3>Accessibility</h3>
-      <p>At GitLab, we are dedicated to continually improving the accessibility of the application. Currently, all chromatic colors pass the <a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast" target="_blank">Web Content Accessibility Guidelines (WCAG)</a> AA level for large text when used as a background color. Learn more in <a href="/usability/a11y">Accessibility</a>.</p>
+      <p>At GitLab, we are dedicated to continually improving the accessibility of the application. Currently, all chromatic colors pass the <a 
+        href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast" 
+        target="_blank"
+      >Web Content Accessibility Guidelines (WCAG)</a> AA level for large text when used as a background color. Learn more in <a href="/usability/a11y">Accessibility</a>.</p>
       <div class="color-palette row m-b-9">
         <div class="green col col-50">
           <h4>Green</h4>
