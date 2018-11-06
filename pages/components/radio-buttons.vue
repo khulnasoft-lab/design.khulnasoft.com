@@ -2,7 +2,7 @@
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
       <h1>Radio buttons</h1>
-      <p>Radio buttons are an input which acts as a select list. Every radio button acts as a boolean, but only have one radio button can be selected at any time - one is active by default.</p>
+      <p>Radio buttons are an input which acts as a select list. Every radio button acts as a boolean, but only one radio button can be selected at any time - one is active by default.</p>
       <h2>Usage</h2>
       <p>Radio buttons can never be used alone and must always be used in group form. Use radio buttons when there is a choice between two or multiple selections, it has a default state, the results are <strong>not</strong> effective or noticeable immediately, and the user needs a confirmation of it being saved.</p>
       <p>Radio buttons may replace segmented controls, a list of checkboxes, or a toggle to allow users to choose between two or multiple options. For help with choosing the right solution, follow the table below.</p>
