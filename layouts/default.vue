@@ -30,7 +30,7 @@
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/foundations/illustration">Illustration</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/foundations/typography">Typography</nuxt-link>
           <nuxt-link class="nav-sidebar__section-items-anchor" to="/foundations/interactions">Interactions</nuxt-link>
-          <nuxt-link class="nav-sidebar__section-items-anchor" to="/foundations/feedback">Saving and feedback</nuxt-link>
+          <nuxt-link class="nav-sidebar__section-items-anchor" to="/foundations/saving-and-feedback">Saving and feedback</nuxt-link>
         </details>
 
         <details class="nav-sidebar__section" :open="$route.fullPath.startsWith('/layout/')">
@@ -110,7 +110,7 @@
   export default {
     computed: {
       contentWrapper() {
-        return this.$route.fullPath === "/" ? "" : "content";
+        return this.$route.fullPath === '/' ? '' : 'content';
       }
     },
     data() {
@@ -133,5 +133,5 @@
     padding: 0;
   }
 
-  @import "../assets/stylesheets/app.scss";
+  @import '../assets/stylesheets/app.scss';
 </style>
