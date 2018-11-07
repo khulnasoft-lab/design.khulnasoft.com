@@ -115,10 +115,10 @@
     },
     data() {
       return {
-        gitlabLogo
-      };
-    }
-  };
+        gitlabLogo,
+      }
+    },
+  }
 </script>
 
 <style lang="scss">
@@ -133,5 +133,5 @@
     padding: 0;
   }
 
-  @import '../assets/stylesheets/app.scss';
+  @import "../assets/stylesheets/app.scss";
 </style>
