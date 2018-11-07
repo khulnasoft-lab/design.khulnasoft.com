@@ -25,18 +25,16 @@
       <p class="todo">Todo: Add live component block of mobile modal with code example</p>
       <h3>Elements</h3>
       <p>There are three main elements of a modal:</p>
-        <ul>
-          <li><strong>Header:</strong> The header is either a question, descriptive phrase, or title. The header also contains the close icon in every instance and the title uses the h3 style.</li>
-          <li><strong>Body:</strong> The content in the body should never be ambiguous and unclear. It provides specific information.</li>
-            <ul>
-              <li>Content should conform to our design guidelines, there is no default style for certain elements within modals.</li>
-            </ul>
-          <li><strong>Actions:</strong> There should be no more than 3 actions and no fewer than 1. Actions should always be placed within an action bar at the bottom of the modal.</li>
-          <ul>
-            <li>Dismissive actions are always left aligned and affirmative actions are always right aligned. In cases where there are 2 affirmative actions the order should be, from left to right, secondary action -> primary action.</li>
-            <li>There will be some cases where no affirmative actions are designated for the modal. In these cases, an action bar should be used with a dismissive action. There should always be two ways to close/dismiss a modal. This is important to remember because some modals can be tall and we want to avoid making the user scroll to close a modal.</li>
-          </ul>
-        </ul>
+      <p><strong>Header:</strong> The header is either a question, descriptive phrase, or title. The header also contains the close icon in every instance and the title uses the h3 style.</p>
+      <p><strong>Body:</strong> The content in the body should never be ambiguous and unclear. It provides specific information.</p>
+      <ul>
+        <li>Content should conform to our design guidelines, there is no default style for certain elements within modals.</li>
+      </ul>
+      <p><strong>Actions:</strong> There should be no more than 3 actions and no fewer than 1. Actions should always be placed within an action bar at the bottom of the modal.<p>
+      <ul>
+        <li>Dismissive actions are always left aligned and affirmative actions are always right aligned. In cases where there are 2 affirmative actions the order should be, from left to right, secondary action -> primary action.</li>
+        <li>There will be some cases where no affirmative actions are designated for the modal. In these cases, an action bar should be used with a dismissive action. There should always be two ways to close/dismiss a modal. This is important to remember because some modals can be tall and we want to avoid making the user scroll to close a modal.</li>
+      </ul>
       <h3>Behavior</h3>
       <p><strong>Autofocus:</strong> The first focusable item should be auto-focused within the modal dialog so that the user can tab in the modal and not become stuck behind the overlay. This behavior follows the <a href="https://www.w3.org/TR/wai-aria-practices/examples/dialog-modal/dialog.html">accessibility guidelines</a> for modals.</p>
       <p><strong>Scrolling:</strong> The height of the modal is determined by the content. Some users have smaller screens, so for these instances where the content requires scrolling, it's best practice to extend the height of the modal below the window to avoid double scrolling.</p>
