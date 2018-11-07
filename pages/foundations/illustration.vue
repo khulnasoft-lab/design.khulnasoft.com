@@ -32,24 +32,22 @@
               <li>Content should conform to our design guidelines, there is no default style for certain elements within modals.</li>
             </ul>
           <li><strong>Actions:</strong> There should be no more than 3 actions and no fewer than 1. Actions should always be placed within an action bar at the bottom of the modal.</li>
+          <ul>
+            <li>Dismissive actions are always left aligned and affirmative actions are always right aligned. In cases where there are 2 affirmative actions the order should be, from left to right, secondary action -> primary action.</li>
+            <li>There will be some cases where no affirmative actions are designated for the modal. In these cases, an action bar should be used with a dismissive action. There should always be two ways to close/dismiss a modal. This is important to remember because some modals can be tall and we want to avoid making the user scroll to close a modal.</li>
+          </ul>
         </ul>
-        <ul>
-          <li>Dismissive actions are always left aligned and affirmative actions are always right aligned. In cases where there are 2 affirmative actions the order should be, from left to right, secondary action -> primary action.</li>
-          <li>There will be some cases where no affirmative actions are designated for the modal. In these cases, an action bar should be used with a dismissive action. There should always be two ways to close/dismiss a modal. This is important to remember because some modals can be tall and we want to avoid making the user scroll to close a modal.</li>
-        </ul> 
       <h3>Behavior</h3>
       <p><strong>Autofocus:</strong> The first focusable item should be auto-focused within the modal dialog so that the user can tab in the modal and not become stuck behind the overlay. This behavior follows the <a href="https://www.w3.org/TR/wai-aria-practices/examples/dialog-modal/dialog.html">accessibility guidelines</a> for modals.</p>
       <p><strong>Scrolling:</strong> The height of the modal is determined by the content. Some users have smaller screens, so for these instances where the content requires scrolling, it's best practice to extend the height of the modal below the window to avoid double scrolling.</p>
       <p><a href="https://gitlab-org.gitlab.io/gitlab-design/hosted/andy/ce-187-modal-spec-previews/">Sketch Measure Preview for Modals</a></p>
       <h2>Related patterns</h2>
-      <li>
         <ul>
          <li><a href="/components/accordions">Accordions</a></li>
          <li><a href="/components/buttons">Buttons</a></li>
          <li><a href="/components/popovers">Popovers</a></li>
          <li><a href="/component/tooltips">Tooltips</a></li>
        </ul>
-      </li>
       <h2>Resources</h2>
       <p><a href="/https://modalzmodalzmodalz.com/">modalzmodalzmodalz</a></p>
     </div>
