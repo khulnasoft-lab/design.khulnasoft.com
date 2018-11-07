@@ -40,12 +40,12 @@
       <p><strong>Scrolling:</strong> The height of the modal is determined by the content. Some users have smaller screens, so for these instances where the content requires scrolling, it's best practice to extend the height of the modal below the window to avoid double scrolling.</p>
       <p><a href="https://gitlab-org.gitlab.io/gitlab-design/hosted/andy/ce-187-modal-spec-previews/">Sketch Measure Preview for Modals</a></p>
       <h2>Related patterns</h2>
-        <ul>
-         <li><a href="/components/accordions">Accordions</a></li>
-         <li><a href="/components/buttons">Buttons</a></li>
-         <li><a href="/components/popovers">Popovers</a></li>
-         <li><a href="/component/tooltips">Tooltips</a></li>
-       </ul>
+      <ul>
+        <li><a href="/components/accordions">Accordions</a></li>
+        <li><a href="/components/buttons">Buttons</a></li>
+        <li><a href="/components/popovers">Popovers</a></li>
+        <li><a href="/component/tooltips">Tooltips</a></li>
+      </ul>
       <h2>Resources</h2>
       <p><a href="/https://modalzmodalzmodalz.com/">modalzmodalzmodalz</a></p>
     </div>
