@@ -10,7 +10,7 @@
       <p>Checkboxes may replace toggles, segmented controls, or radio buttons to allow users to select one, two, or multiple options. For help with choosing the right solution, follow the table below.</p>
       <p class="todo">Todo: Add replacement-comparison-table</p>
       <h3>Labels</h3>
-      <p>Checkbox labels are set in regular font weight, positioned to the right of the element, and should be as short as possible. If more, explanatory text is required, it should be added and styled as <a href="/components/forms#help-text">Help text</a> below the label.</p>
+      <p>Checkbox labels are set in regular font weight, positioned to the right of the element, and should be as short as possible. If more, explanatory text is required, it should be added and styled as <a href="/components/forms#help-text">help text</a> below the label.</p>
       <h3>Visual Design</h3>
       <p>Checkboxes should use high-contrast colors to indicate the states - true or false. A checkmark and hyphen icon are used to differentiate between true or indeterminate.</p>
       <h2>Demo</h2>
