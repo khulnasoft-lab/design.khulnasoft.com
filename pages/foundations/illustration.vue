@@ -36,7 +36,7 @@
         <li>There will be some cases where no affirmative actions are designated for the modal. In these cases, an action bar should be used with a dismissive action. There should always be two ways to close/dismiss a modal. This is important to remember because some modals can be tall and we want to avoid making the user scroll to close a modal.</li>
       </ul>
       <h3>Behavior</h3>
-      <p><strong>Autofocus:</strong> The first focusable item should be auto-focused within the modal dialog so that the user can tab in the modal and not become stuck behind the overlay. This behavior follows the <a href="https://www.w3.org/TR/wai-aria-practices/examples/dialog-modal/dialog.html">accessibility guidelines</a> for modals.</p>
+      <p><strong>Autofocus:</strong> The first focusable item should be auto-focused within the modal dialog so that the user can tab in the modal and not become stuck behind the overlay. This behavior follows the<a href="https://www.w3.org/TR/wai-aria-practices/examples/dialog-modal/dialog.html">accessibility guidelines</a> for modals.</p>
       <p><strong>Scrolling:</strong> The height of the modal is determined by the content. Some users have smaller screens, so for these instances where the content requires scrolling, it's best practice to extend the height of the modal below the window to avoid double scrolling.</p>
       <p><a href="https://gitlab-org.gitlab.io/gitlab-design/hosted/andy/ce-187-modal-spec-previews/">Sketch Measure Preview for Modals</a></p>
       <h2>Related patterns</h2>
