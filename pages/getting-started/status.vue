@@ -73,6 +73,10 @@
             <th class="header">Status</th>
           </tr>
           <tr>
+            <td><a href="../../components/accordions">Accordions</a></td>
+            <td>🚫</td>
+          </tr>
+          <tr>
             <td><a href="../../components/alerts">Alerts</a></td>
             <td>⚠️</td>
           </tr>
@@ -138,7 +142,7 @@
           </tr>
           <tr>
             <td><a href="../../components/modals">Modals</a></td>
-            <td>🚫</td>
+            <td>⚠️</td>
           </tr>
           <tr>
             <td><a href="../../components/notifications">Notifications</a></td>
