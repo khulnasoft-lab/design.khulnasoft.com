@@ -21,12 +21,12 @@
             <td>Checkmark dropdowns</td>
             <td>
               <p>These dropdowns are used as inputs. The individual rows in these dropdowns can show a checkmark to indicate that they have been selected or enabled. They are a collection of checkmarks. A dash (<code>–</code>) should be used instead of a checkmark when the row's value is present in some of the elements the dropdown is modifying but not others.</p>
-          </td>
+            </td>
           </tr>
         </tbody>
       </table>
       <h3>Behavior</h3>
-      <p>Dropdowns are placed below the element they stem from. However, when there isn’t enough space in the viewport, the dropdown is moved above.</p>
+      <p>By default, dropdowns are placed below and aligned to the left of the element they stem from. However, when there isn't enough space in the viewport, the dropdown should be moved above and/or be aligned to the right of the element it stems from.</p>
       <p>If there are more rows than fit the dropdown, an overlay with a fade effect will be added at the top or bottom of the dropdown to indicate there are more rows to be scrolled. When reaching the end of the scrollable area, the overlay will be removed.</p>
       <h3>Accessories</h3>
       <p>There are some special elements that can be included in dropdowns to better adapt them to different situations.</p>
