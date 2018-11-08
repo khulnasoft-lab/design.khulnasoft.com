@@ -73,6 +73,10 @@
           <summary class="nav-sidebar__section-summary">Components</summary>
           <nuxt-link 
             class="nav-sidebar__section-items-anchor" 
+            to="/components/accordions"
+          >Accordions</nuxt-link>
+          <nuxt-link 
+            class="nav-sidebar__section-items-anchor" 
             to="/components/alerts"
           >Alerts</nuxt-link>
           <nuxt-link 
