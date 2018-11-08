@@ -12,6 +12,8 @@
       <p>Radio button labels are set in regular font weight, positioned to the right of the element, and should be as short as possible. Group labels are set in bold font weight and positioned above the group of radio buttons. <a href="/components/forms#help-text">Help text</a> can be added below the radio button labels or as a paragraph below the group label.</p>
       <h3>Visual Design</h3>
       <p>Radio buttons should use high-contrast colors and a dot icon to indicate the states - selected and unselected.</p>
+      <h3>Interaction</h3>
+      <p>Users are able to select an option by clicking on either the radio button itself or on its label.</p>
       <h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
       <h2>Design specifications</h2>
