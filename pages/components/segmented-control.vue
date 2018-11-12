@@ -2,7 +2,7 @@
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
       <h1>Segmented control</h1>
-      <p>A segmented control allows users to choose one out of two or more available options. Each segment is represented by its own button and acts as a boolean, but only one segment can be active at any time. A segmented control has always one segment active by default.</p>
+      <p>A segmented control allows users to choose one out of a range of available options. It is a button group of equal options where only one can be selected and active. There must always be one option active.</p>
       <h2>Usage</h2>
       <p>A segmented control is commonly used as an alternative to <a href="/components/dropdowns">dropdowns</a>, <a href="/components/radio-buttons">radio buttons</a>, or <a href="/components/toggles">toggles</a>, but it comes with its own limitations. Because it takes up more space, a segmented control should only be used for up to 5 options. It is ideal when there are 2 or 3 because they visually expose the options available to a user. A segmented control should be used instead of a dropdown when there are only a few options and enough room to fit within the UI. It requires fewer interactions and is easier to use on mobile devices, thus having a smaller effect on the user’s cognitive load. Results are effective and visible immediately similar to toggles.</p>
       <p>A segmented control may replace a group of radio buttons or a toggle to allow users to choose between two or multiple options. In order to help choosing the right solution follow the table below.</p>
