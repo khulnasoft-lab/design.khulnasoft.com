@@ -58,6 +58,12 @@ export default {
   components: {
     'md-display': mdDisplay,
   },
+  props: {
+    frontmatterInfo: {
+      type: Object,
+      required: true,
+    },
+  },
   data() {
     return {
       componentName: this.$route.params.componentinfo,
@@ -68,32 +74,23 @@ export default {
     }
   },
   created() {
-    this.$axios
-      .$get(`/contents/components/${this.$route.params.componentinfo}.json`)
-      .then(fmResult => {
-        this.componentAttributes = fmResult.attributes
+    this.componentAttributes = this.frontmatterInfo.attributes
 
-        this.vueComponents = fmResult.attributes.vueComponents
+    this.vueComponents = this.frontmatterInfo.attributes.vueComponents
 
-        this.componentBody = fmResult.body
+    this.componentBody = this.frontmatterInfo.body
 
-        this.vueComponents.forEach(vueComponentName => {
-          let snakeName = vueComponentName.replace(/([A-Z])/g, $1 => `_${$1.toLowerCase()}`)
-          if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1)
-          snakeName = snakeName.replace(/gl_/, '')
+    this.vueComponents.forEach(vueComponentName => {
+      let snakeName = vueComponentName.replace(/([A-Z])/g, $1 => `_${$1.toLowerCase()}`)
+      if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1)
+      snakeName = snakeName.replace(/gl_/, '')
 
-          Object.keys(Documentation).forEach(component => {
-            if (component.indexOf(vueComponentName) > -1) {
-              this.vueComponentDocumentations[vueComponentName] =
-                Documentation[component].description
-            }
-          })
-        })
+      Object.keys(Documentation).forEach(component => {
+        if (component.indexOf(vueComponentName) > -1) {
+          this.vueComponentDocumentations[vueComponentName] = Documentation[component].description
+        }
       })
-      .catch(e => {
-        // eslint-disable-next-line
-        console.log('Err : ', e)
-      })
+    })
   },
 }
 </script>
