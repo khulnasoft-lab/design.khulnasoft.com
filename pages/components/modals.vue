@@ -7,6 +7,7 @@
       <p>Use modals sparingly because they interrupt the user's workflow. When designing an experience that incorporates the need for a modal consider one of the following before reverting to a modal:</p>
       <p><strong>Inline content:</strong> Present your content inline to avoid disruption to the user's flow.</p>
       <p><strong>Expanding elements:</strong> Utilize elements such as <a href="/component/accordions">accordions</a>, <a href="/component/tooltips">tooltips</a>, or other non-modal patterns to convey your information.</p>
+      <p><strong>Toasts:</strong> Present your content in a brief, auto-expiring window for the user to consume while they are completing their task.</p>
       <p><strong>New page:</strong> Take the user to a different page so that the interaction may be isolated without losing access to core navigational elements within the application.</p>
       <h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
