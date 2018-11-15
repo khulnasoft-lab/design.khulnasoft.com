@@ -748,28 +748,15 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@gitlab-org/gitlab-svgs@^1.23.0":
-  version "1.34.0"
-  resolved "https://registry.yarnpkg.com/@gitlab-org/gitlab-svgs/-/gitlab-svgs-1.34.0.tgz#f42ed3843b051f1d142ad007341980096dc75a16"
-  integrity sha512-LvpQ4ATi9z2328G+Tunv1LjH3vklZEieQpTng/ZludHWkelhjO542rNx90whsvzBkvv5dWqxP6dkdoOlJuHsvA==
-
 "@gitlab-org/gitlab-svgs@^1.32.0":
   version "1.32.0"
   resolved "https://registry.yarnpkg.com/@gitlab-org/gitlab-svgs/-/gitlab-svgs-1.32.0.tgz#a65ab7724fa7d55be8e5cc9b2dbe3f0757432fd3"
   integrity sha512-L3o8dFUd2nSkVZBwh2hCJWzNzADJ3dTBZxamND8NLosZK9/ohNhccmsQOZGyMCUHaOzm4vifaaXkAXh04UtMKA==
 
-"@gitlab-org/gitlab-ui@^1.8.0-hotfix.1":
-  version "1.8.0-hotfix.1"
-  resolved "https://registry.yarnpkg.com/@gitlab-org/gitlab-ui/-/gitlab-ui-1.8.0-hotfix.1.tgz#172150dc45f9900e62ce4de6f88603bdbcf9fa68"
-  integrity sha512-qJdB/YpB2J/tReKAoOEaGh5djBMLnmE0qIVCho28FYpICznezrTwCVYm8D5zHQU16F3NA5M7HCtcLw8NPYt2yA==
-  dependencies:
-    "@gitlab-org/gitlab-svgs" "^1.23.0"
-    bootstrap-vue "^2.0.0-rc.11"
-    vue "^2.5.16"
-
-"@gitlab-org/gitlab-ui@https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/120616442/artifacts/raw/gitlab-ui.master.tgz":
-  version "1.10.1"
-  resolved "https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/120616442/artifacts/raw/gitlab-ui.master.tgz#f2a2d9c6078dcf72d8cff964054b8338da00f869"
+"@gitlab-org/gitlab-ui@^1.10.2":
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/@gitlab-org/gitlab-ui/-/gitlab-ui-1.10.2.tgz#2bcc90d5efb143289ecb2df0f71342f1e52e026f"
+  integrity sha512-2hrtW1zncqHdwC0INMkm6WAY/z5DHoqLXfV+VwfyZKpYTas2oh8vtqTfo1M6x/vcr9yJ9n5RfexT7FUZnmquhA==
   dependencies:
     babel-standalone "^6.26.0"
     bootstrap-vue "^2.0.0-rc.11"
