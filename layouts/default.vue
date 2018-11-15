@@ -210,6 +210,10 @@
           >Spinner</nuxt-link>
           <nuxt-link 
             class="nav-sidebar__section-items-anchor" 
+            to="/components/system-messages"
+          >System messages</nuxt-link>
+          <nuxt-link 
+            class="nav-sidebar__section-items-anchor" 
             to="/components/tabs"
           >Tabs</nuxt-link>
           <nuxt-link 

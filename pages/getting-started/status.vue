@@ -183,6 +183,10 @@
             <td>🚫</td>
           </tr>
           <tr>
+            <td><a href="../../components/system-messages">System messages</a></td>
+            <td>🚫</td>
+          </tr>
+          <tr>
             <td><a href="../../components/tabs">Tabs</a></td>
             <td>⚠️</td>
           </tr>
