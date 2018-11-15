@@ -1,0 +1,5 @@
+---
+name: Links
+vueComponents: 
+  - glLink
+---
