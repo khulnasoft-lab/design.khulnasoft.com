@@ -20,6 +20,9 @@ export default {
     let mdOutput = md.render(this.md)
     mdOutput = mdOutput.replace(/\[\[Example:(.*?)\]\]/g, '<gl-example-display exampleName="$1" />')
 
+    // Format Todo Messages as before
+    mdOutput = mdOutput.replace(/Todo:(.*?)\n/gm, '<p class="todo">Todo: $1</p>');
+
     const dynamicElement = {
       template: `<div class="component md">${mdOutput}</div>`,
     }
