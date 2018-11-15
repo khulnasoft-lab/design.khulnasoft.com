@@ -748,34 +748,36 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
+"@gitlab-org/gitlab-svgs@^1.23.0":
+  version "1.34.0"
+  resolved "https://registry.yarnpkg.com/@gitlab-org/gitlab-svgs/-/gitlab-svgs-1.34.0.tgz#f42ed3843b051f1d142ad007341980096dc75a16"
+  integrity sha512-LvpQ4ATi9z2328G+Tunv1LjH3vklZEieQpTng/ZludHWkelhjO542rNx90whsvzBkvv5dWqxP6dkdoOlJuHsvA==
+
 "@gitlab-org/gitlab-svgs@^1.32.0":
   version "1.32.0"
   resolved "https://registry.yarnpkg.com/@gitlab-org/gitlab-svgs/-/gitlab-svgs-1.32.0.tgz#a65ab7724fa7d55be8e5cc9b2dbe3f0757432fd3"
   integrity sha512-L3o8dFUd2nSkVZBwh2hCJWzNzADJ3dTBZxamND8NLosZK9/ohNhccmsQOZGyMCUHaOzm4vifaaXkAXh04UtMKA==
 
-"@gitlab-org/gitlab-ui@https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/116209121/artifacts/raw/gitlab-ui.tz-props-documentation.tgz":
-  version "1.10.1"
-  resolved "https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/116209121/artifacts/raw/gitlab-ui.tz-props-documentation.tgz#73d8fbbed8ce4f9685f356b69929c5a198766e09"
+"@gitlab-org/gitlab-ui@^1.8.0-hotfix.1":
+  version "1.8.0-hotfix.1"
+  resolved "https://registry.yarnpkg.com/@gitlab-org/gitlab-ui/-/gitlab-ui-1.8.0-hotfix.1.tgz#172150dc45f9900e62ce4de6f88603bdbcf9fa68"
+  integrity sha512-qJdB/YpB2J/tReKAoOEaGh5djBMLnmE0qIVCho28FYpICznezrTwCVYm8D5zHQU16F3NA5M7HCtcLw8NPYt2yA==
   dependencies:
-    babel-standalone "^6.26.0"
+    "@gitlab-org/gitlab-svgs" "^1.23.0"
     bootstrap-vue "^2.0.0-rc.11"
-    copy-to-clipboard "^3.0.8"
-    highlight.js "^9.13.1"
-    js-beautify "^1.8.8"
-    rollup-plugin-string "^2.0.2"
     vue "^2.5.16"
-    vue-loader "^15.4.2"
 
-"@gitlab-org/gitlab-ui@https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/116273247/artifacts/raw/gitlab-ui.tz-props-documentation.tgz":
+"@gitlab-org/gitlab-ui@https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/120616442/artifacts/raw/gitlab-ui.master.tgz":
   version "1.10.1"
-  resolved "https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/116273247/artifacts/raw/gitlab-ui.tz-props-documentation.tgz#188fd64718881214262ec6bf1bea2a370c04aede"
+  resolved "https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/120616442/artifacts/raw/gitlab-ui.master.tgz#f2a2d9c6078dcf72d8cff964054b8338da00f869"
   dependencies:
     babel-standalone "^6.26.0"
     bootstrap-vue "^2.0.0-rc.11"
     copy-to-clipboard "^3.0.8"
     highlight.js "^9.13.1"
     js-beautify "^1.8.8"
-    rollup-plugin-string "^2.0.2"
+    lodash "^4.17.11"
+    url-search-params-polyfill "^5.0.0"
     vue "^2.5.16"
     vue-loader "^15.4.2"
 
@@ -863,9 +865,9 @@
     stack-trace "0.0.10"
 
 "@types/node@^10.11.7":
-  version "10.12.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.0.tgz#ea6dcbddbc5b584c83f06c60e82736d8fbb0c235"
-  integrity sha512-3TUHC3jsBAB7qVRGxT6lWyYo2v96BMmD2PTcl47H25Lu7UXtFH/2qqmKiVrnel6Ne//0TFYf6uvNX+HW2FRkLQ==
+  version "10.12.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.8.tgz#d0a3ab5a6e61458c492304e2776ac136b81db927"
+  integrity sha512-INamyRZG4rW3lDCUmwVd5Xho/bXvQm/v1yP8V0UN1RuInU7RoWoaO570b+yLX4Ia/0szsx1wa8VzcsVlsvbWLA==
 
 "@types/semver@^5.5.0":
   version "5.5.0"
@@ -3128,11 +3130,6 @@ estraverse@^4.0.0, estraverse@^4.1.0, estraverse@^4.1.1:
   resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-4.2.0.tgz#0dee3fed31fcd469618ce7342099fc1afa0bdb13"
   integrity sha1-De4/7TH81GlhjOc0IJn8GvoL2xM=
 
-estree-walker@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-0.2.1.tgz#bdafe8095383d8414d5dc2ecf4c9173b6db9412e"
-  integrity sha1-va/oCVOD2EFNXcLs9MkXO225QS4=
-
 esutils@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.2.tgz#0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b"
@@ -5044,7 +5041,7 @@ minimalistic-crypto-utils@^1.0.0, minimalistic-crypto-utils@^1.0.1:
   resolved "https://registry.yarnpkg.com/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
   integrity sha1-9sAMHAsIIkblxNmd+4x8CDsrWCo=
 
-minimatch@^3.0.2, minimatch@^3.0.3, minimatch@^3.0.4, minimatch@~3.0.2:
+minimatch@^3.0.3, minimatch@^3.0.4, minimatch@~3.0.2:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   integrity sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
@@ -7143,21 +7140,6 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rollup-plugin-string@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-string/-/rollup-plugin-string-2.0.2.tgz#f5323a22cfd738b450cbea62ab6593705eac744b"
-  integrity sha1-9TI6Is/XOLRQy+piq2WTcF6sdEs=
-  dependencies:
-    rollup-pluginutils "^1.5.0"
-
-rollup-pluginutils@^1.5.0:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/rollup-pluginutils/-/rollup-pluginutils-1.5.2.tgz#1e156e778f94b7255bfa1b3d0178be8f5c552408"
-  integrity sha1-HhVud4+UtyVb+hs9AXi+j1xVJAg=
-  dependencies:
-    estree-walker "^0.2.1"
-    minimatch "^3.0.2"
-
 run-async@^2.2.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/run-async/-/run-async-2.3.0.tgz#0371ab4ae0bdd720d4166d7dfda64ff7a445a6c0"
@@ -8236,6 +8218,11 @@ url-parse-lax@^1.0.0:
   integrity sha1-evjzA2Rem9eaJy56FKxovAYJ2nM=
   dependencies:
     prepend-http "^1.0.1"
+
+url-search-params-polyfill@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/url-search-params-polyfill/-/url-search-params-polyfill-5.0.0.tgz#09b98337c89dcf6c6a6a0bfeb096f6ba83b7526b"
+  integrity sha512-+SCD22QJp4UnqPOI5UTTR0Ljuh8cHbjEf1lIiZrZ8nHTlTixqwVsVQTSfk5vrmDz7N09/Y+ka5jQr0ff35FnQQ==
 
 url@^0.11.0:
   version "0.11.0"
