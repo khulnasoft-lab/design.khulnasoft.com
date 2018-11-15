@@ -36,7 +36,7 @@
               <gl-component-documentation 
                 :key="`docs-${vueComponentName}`"
                 :component-name="vueComponentName" 
-                class="mt-3"
+                class="mt-3 component-documentation"
               />
             </div>
           </template>
