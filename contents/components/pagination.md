@@ -1,5 +1,5 @@
 ---
 name: Pagination
 vueComponents: 
-  - glPagination
+  - GlPagination
 ---

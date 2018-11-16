@@ -18,7 +18,7 @@ There are two main types of dropdowns:
 
 ### Behavior
 
-Dropdowns are placed below the element they stem from. However, when there isn’t enough space in the viewport, the dropdown is moved above.
+By default, dropdowns are placed below and aligned to the left of the element they stem from. However, when there isn't enough space in the viewport, the dropdown should be moved above and/or be aligned to the right of the element it stems from.
 
 If there are more rows than fit the dropdown, an overlay with a fade effect will be added at the top or bottom of the dropdown to indicate there are more rows to be scrolled. When reaching the end of the scrollable area, the overlay will be removed.
 

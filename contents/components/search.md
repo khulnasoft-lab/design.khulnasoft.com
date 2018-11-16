@@ -39,7 +39,9 @@ Todo: Add live component block with code example (search by confirmation with hi
 
 The placeholder in a search box should ideally be just “Search” because it should be clear what the user is searching through from the placement of the search box on the page. For example, a search box placed under a title “Labels” searches through labels. If that’s not possible, a more specific ”Search labels” placeholder can be used. The search patterns are one of those exceptions where the input field labels aren’t present at all. Because of that, a placeholder should always be there to clearly indicate to users that this is a search box.
 
-Even though the search patterns can be used for either filtering or searching for information, the placeholder should always used the word “Search”. This is another small detail that makes the pattern easier to recognize.
+Don’t use ellipsis (…) in the placeholder unless it’s truncated or the text is incomplete (see [Punctuation](/content/punctuation)). For example, “Search” or “Search labels” don’t need an ellipsis, but “Search and jump to…” uses one because the text is incomplete.
+
+Even though the search patterns can be used for either filtering or searching for information, always try to use the word “Search” for the placeholder. This is another small detail that makes the pattern easier to recognize. As an exception, it’s ok to use another word if it makes the interaction and the experience clearer.
 
 ### Positioning
 

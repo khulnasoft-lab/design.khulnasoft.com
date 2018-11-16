@@ -9,6 +9,7 @@ export default function() {
     if (!isClient) {
       return
     }
+
     const baseContentsDir = path.resolve(__dirname, '../static/contents/')
     const outputDir = path.join(baseContentsDir, 'components')
 
@@ -22,19 +23,11 @@ export default function() {
     const componentInfos = []
 
     const baseComponentsDir = path.resolve(__dirname, '../contents/components/')
-    const convertComponent = componentFileName => (
-      err,
-      componentFileContent
-    ) => {
-      if (err) throw err
-
+    const convertComponent = (componentFileName, componentFileContent) => {
       const content = fm(componentFileContent)
-      fs.writeFile(
+      fs.writeFileSync(
         `${outputDir}/${componentFileName.replace(/.md/g, '.json')}`,
-        JSON.stringify(content),
-        writeErr => {
-          if (writeErr) throw writeErr
-        }
+        JSON.stringify(content)
       )
 
       componentInfos.push({
@@ -47,26 +40,20 @@ export default function() {
       })
     }
 
-    fs.readdir(baseComponentsDir, (err, items) => {
-      if (err) throw err
-
-      items.forEach(item => {
-        fs.readFileSync(
-          path.join(baseComponentsDir, item),
-          'utf8',
-          convertComponent(item)
-        )
-      })
-
-      fs.writeFile(
-        path.resolve(__dirname, '../static/contents/contentTree.json'),
-        JSON.stringify({
-          components: componentInfos
-        }),
-        writeErr => {
-          if (writeErr) throw writeErr
-        }
+    const fileItems = fs.readdirSync(baseComponentsDir)
+    fileItems.forEach(item => {
+      const itemContent = fs.readFileSync(
+        path.join(baseComponentsDir, item),
+        'utf8'
       )
+      convertComponent(item, itemContent)
     })
+
+    fs.writeFileSync(
+      path.resolve(__dirname, '../static/contents/contentTree.json'),
+      JSON.stringify({
+        components: componentInfos
+      })
+    )
   })
 }

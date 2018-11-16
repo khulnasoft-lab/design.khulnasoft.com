@@ -1,5 +1,5 @@
 ---
 name: Links
 vueComponents: 
-  - glLink
+  - GlLink
 ---

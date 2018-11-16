@@ -38,40 +38,40 @@
             >Status</nuxt-link>
           </details>
 
-        <details 
-          :open="$route.fullPath.startsWith('/foundations/')" 
-          class="nav-sidebar__section"
-        >
-          <summary class="nav-sidebar__section-summary">Foundations</summary>
-          <nuxt-link
-            class="nav-sidebar__section-items-anchor"
-            to="/foundations/colors"
-          >Colors</nuxt-link>
-          <nuxt-link
-            class="nav-sidebar__section-items-anchor"
-            to="/foundations/iconography"
-          >Iconography</nuxt-link>
-          <nuxt-link
-            class="nav-sidebar__section-items-anchor"
-            to="/foundations/motion"
-          >Motion</nuxt-link>
-          <nuxt-link
-            class="nav-sidebar__section-items-anchor"
-            to="/foundations/illustration"
-          >Illustration</nuxt-link>
-          <nuxt-link
-            class="nav-sidebar__section-items-anchor"
-            to="/foundations/typography"
-          >Typography</nuxt-link>
-          <nuxt-link
-            class="nav-sidebar__section-items-anchor"
-            to="/foundations/interactions"
-          >Interactions</nuxt-link>
-          <nuxt-link
-            class="nav-sidebar__section-items-anchor"
-            to="/foundations/saving-and-feedback"
-          >Saving and feedback</nuxt-link>
-        </details>
+          <details 
+            :open="$route.fullPath.startsWith('/foundations/')" 
+            class="nav-sidebar__section"
+          >
+            <summary class="nav-sidebar__section-summary">Foundations</summary>
+            <nuxt-link
+              class="nav-sidebar__section-items-anchor"
+              to="/foundations/colors"
+            >Colors</nuxt-link>
+            <nuxt-link
+              class="nav-sidebar__section-items-anchor"
+              to="/foundations/iconography"
+            >Iconography</nuxt-link>
+            <nuxt-link
+              class="nav-sidebar__section-items-anchor"
+              to="/foundations/motion"
+            >Motion</nuxt-link>
+            <nuxt-link
+              class="nav-sidebar__section-items-anchor"
+              to="/foundations/illustration"
+            >Illustration</nuxt-link>
+            <nuxt-link
+              class="nav-sidebar__section-items-anchor"
+              to="/foundations/typography"
+            >Typography</nuxt-link>
+            <nuxt-link
+              class="nav-sidebar__section-items-anchor"
+              to="/foundations/interactions"
+            >Interactions</nuxt-link>
+            <nuxt-link
+              class="nav-sidebar__section-items-anchor"
+              to="/foundations/saving-and-feedback"
+            >Saving and feedback</nuxt-link>
+          </details>
 
           <details 
             :open="$route.fullPath.startsWith('/layout/')" 
@@ -186,26 +186,26 @@
 export default {
   data() {
     return {
-      contentTree: null,
-    };
+      contentTree: null
+    }
   },
   computed: {
     contentWrapper() {
-      return this.$route.fullPath === '/' ? '' : 'content';
-    },
+      return this.$route.fullPath === '/' ? '' : 'content'
+    }
   },
   created() {
     this.$axios
       .$get(`/contents/contentTree.json`)
       .then(treeResult => {
-        this.contentTree = treeResult;
+        this.contentTree = treeResult
       })
       .catch(e => {
         // eslint-disable-next-line
-        console.log('Err : ', e);
-      });
-  },
-};
+        console.log('Err : ', e)
+      })
+  }
+}
 </script>
 
 <style lang="scss">

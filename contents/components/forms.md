@@ -20,7 +20,7 @@ Todo: Add live component block with code example (Horizontal form)
 
 ### Labels
 
-Input field and text area labels are set in bold and positioned above the form element by default. Labels must use the **for** attribute for accessibility reasons. Labels for [checkboxes and radios](#checkbox) are set in regular font weight.
+Input field and text area labels are set in bold and positioned above the form element by default. Labels must use the **for** attribute for accessibility reasons. Labels for [checkboxes and radio buttons](#checkbox) are set in regular font weight.
 
 In rare cases and exceptions, the label can be placed to the left of the input field. Examples include single input fields (e.g. "Sort by" dropdowns) and horizontally distributed forms.
 
@@ -70,13 +70,13 @@ If a placeholder can’t be shortened but an explanation is needed, a [Help text
 
 Todo: Add live component block with code example (help text)
 
-### Checkboxes and radios
+### Checkboxes and radio buttons
 
-Checkbox and radio labels are set in regular font weight and should be as short as possible. If more, explanatory text is required, it should be added and styled as [Help text](#help-text) below the label.
+Checkbox and radio button labels are set in regular font weight and should be as short as possible. If more, explanatory text is required, it should be added and styled as [Help text](#help-text) below the label.
 
-Todo: Add live component block with code example (checkbox & radio: active & disabled)
+Todo: Add live component block with code example (checkbox & radio button: active & disabled)
 
-Todo: Add live component block with code example (checkbox & radio with help text below labels)
+Todo: Add live component block with code example (checkbox & radio button: with help text below labels)
 
 ### Validation
 

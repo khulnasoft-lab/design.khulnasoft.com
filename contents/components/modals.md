@@ -1,5 +1,5 @@
 ---
 name: Modal
 vueComponents: 
-  - glModal
+  - GlModal
 ---

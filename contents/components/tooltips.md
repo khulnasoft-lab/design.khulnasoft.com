@@ -1,5 +1,7 @@
 ---
 name: Tooltips
+vueComponents: 
+  - GlTooltip
 related:
   - popovers
 ---
@@ -20,7 +22,7 @@ Tooltips should have no space (0px) between themselves and their target. They re
 
 ## Demo
 
-Todo: Add live component block with code example
+[[Example:tooltip-directive]]
 
 ## Design specifications
 
