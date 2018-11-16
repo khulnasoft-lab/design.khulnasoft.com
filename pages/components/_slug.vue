@@ -14,7 +14,7 @@
 
 <script>
 const getPost = () => ({
-  component: import(`./componentinfo.vue`),
+  component: import(`~/components/component-info.vue`),
 })
 export default {
   data() {
