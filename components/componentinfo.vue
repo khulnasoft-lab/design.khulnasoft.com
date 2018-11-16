@@ -52,7 +52,7 @@
 <script>
 import * as Documentation from '@gitlab-org/gitlab-ui'
 
-import mdDisplay from '../../components/md_display.vue'
+import mdDisplay from './md_display.vue'
 
 export default {
   components: {
