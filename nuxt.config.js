@@ -1,7 +1,4 @@
-import serveStatic from 'serve-static'
-
 module.exports = {
-  mode: 'SPA',
   /*
    ** Headers of the page
    */
@@ -36,14 +33,6 @@ module.exports = {
 
   generate: {
     dir: 'public'
-  },
-
-  router: {
-    mode: 'hash'
-  },
-
-  render: {
-    ssr: false
   },
 
   axios: {
