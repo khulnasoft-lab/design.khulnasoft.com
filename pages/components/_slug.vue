@@ -1,39 +1,46 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
-    <div v-if="component">
-      <component 
-        :is="component"
-        :frontmatter-info="fmResult"
-      />
-    </div>
-    <div v-else>
-      Loading component ...
-    </div>
+    <async-component-info />
   </div>
 </template>
 
 <script>
-const getPost = () => ({
-  component: import(`~/components/component-info.vue`),
+import ComponentInfo from '../../components/component-info.vue';
+import ComponentLoading from '../../components/component-loading.vue';
+import ComponentError from '../../components/component-error.vue';
+
+const fetchComponentInfo = ($axios, componentSlug) => $axios.$get(`/contents/components/${componentSlug}.json`)
+
+let loadComponentInfo
+
+const AsyncComponentInfo = () => ({
+  component: new Promise(resolve => {
+    loadComponentInfo = resolve
+  })
+    .then(({ $axios, $route }) => fetchComponentInfo($axios, $route.params.slug))
+    .then(frontmatterInfo => {
+      if (!frontmatterInfo.attributes || !frontmatterInfo.body) {
+        throw new Error(`Unexpected response: ${frontmatterInfo}`)
+      }
+
+      return {
+        ...ComponentInfo,
+        frontmatterInfo
+      }
+    }),
+  loading: ComponentLoading,
+  error: ComponentError,
+  delay: 0,
+  timeout: 3000
 })
+
 export default {
-  data() {
-    return {
-      component: null,
-      fmResult: null,
-    }
+  components: {
+    AsyncComponentInfo
   },
-  beforeCreate() {
-    this.$axios
-      .$get(`/contents/components/${this.$route.params.slug}.json`)
-      .then(fmResult => {
-        this.fmResult = fmResult
-        this.component = () => getPost(this.$route.params.slug)
-      })
-      .catch(e => {
-        // eslint-disable-next-line
-        console.log('Err : ', e)
-      })
+  mounted() {
+    const { $axios, $route } = this
+    loadComponentInfo({ $axios, $route })
   },
 }
 </script>
