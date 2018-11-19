@@ -188,7 +188,7 @@
                   to="/layout"
                   active-class="active"
                 >
-                  <span class="nav-item-name">Foundations</span>
+                  <span class="nav-item-name">Layout</span>
                 </nuxt-link>
                 <ul class="sidebar-sub-level-items">
                   <nuxt-link 
