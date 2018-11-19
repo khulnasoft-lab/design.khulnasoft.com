@@ -43,6 +43,8 @@ build_master:
 
 lint:
   stage: test
+  before_script:
+    - *install
   script:
     - yarn run lint
 
