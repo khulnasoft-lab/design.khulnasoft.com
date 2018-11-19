@@ -1,5 +1,5 @@
 <template>
-  <div class="content limited m-t-7 m-b-7">
+  <div class="content pt-3 pb-3">
     <div class="">
       <h1>GitLab Components</h1>
       <div
@@ -44,18 +44,18 @@ export default {
   data() {
     return {
       contentTree: null,
-    };
+    }
   },
   created() {
     this.$axios
       .$get(`/contents/contentTree.json`)
       .then(treeResult => {
-        this.contentTree = treeResult;
+        this.contentTree = treeResult
       })
       .catch(e => {
         // eslint-disable-next-line
-        console.log('Err : ', e);
-      });
+        console.log('Err : ', e)
+      })
   },
-};
+}
 </script>

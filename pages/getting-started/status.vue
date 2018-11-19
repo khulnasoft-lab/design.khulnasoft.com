@@ -1,5 +1,5 @@
 <template>
-  <div class="content limited m-t-7 m-b-7">
+  <div class="content pt-3 pb-3">
     <div class="structure md">
       <h1>Component status</h1>
       <p>Components and their variants have statuses reflecting their state of completion, documented on this page. <br />

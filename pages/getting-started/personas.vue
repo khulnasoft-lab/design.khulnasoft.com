@@ -1,5 +1,5 @@
 <template>
-  <div class="personas content limited m-t-7 m-b-7">
+  <div class="personas content pt-3 pb-3">
     <div class="md">
       <h1>Personas</h1>
       <h2>Table of content</h2>

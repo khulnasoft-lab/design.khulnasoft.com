@@ -1,5 +1,5 @@
 <template>
-  <div class="content limited m-t-7 m-b-7">
+  <div class="content pt-3 pb-3">
     <div class="component md">
       <h1>Terminology</h1>
       <p>The following are common terms you will find throughout GitLab. For clear and consistent communication, it is important to use the correct terms.</p>

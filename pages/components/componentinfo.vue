@@ -1,8 +1,11 @@
 <template>
-  <div class="content limited m-t-7 m-b-7">
+  <div class="content pt-3 pb-3">
     <div v-if="componentAttributes">
       <h1>{{ componentAttributes.name }}</h1>
-      <b-tabs class="pt-3">
+      <b-tabs 
+        class="pt-3"
+        nav-wrapper-class="top-area nav-links issues-state-filters mobile-separator nav nav-tabs"
+      >
         <b-tab 
           title="Design" 
           active 
@@ -51,9 +54,9 @@
 </template>
 
 <script>
-import * as Documentation from '@gitlab-org/gitlab-ui';
+import * as Documentation from '@gitlab-org/gitlab-ui'
 
-import mdDisplay from '../../components/md_display.vue';
+import mdDisplay from '../../components/md_display.vue'
 
 export default {
   components: {
@@ -72,29 +75,28 @@ export default {
       componentBody: null,
       vueComponents: null,
       vueComponentDocumentations: {},
-    };
+    }
   },
   created() {
-    this.componentAttributes = this.frontmatterInfo.attributes;
+    this.componentAttributes = this.frontmatterInfo.attributes
 
-    this.vueComponents = this.frontmatterInfo.attributes.vueComponents;
+    this.vueComponents = this.frontmatterInfo.attributes.vueComponents
 
-    this.componentBody = this.frontmatterInfo.body;
+    this.componentBody = this.frontmatterInfo.body
 
     if (this.vueComponents) {
       this.vueComponents.forEach(vueComponentName => {
-        let snakeName = vueComponentName.replace(/([A-Z])/g, $1 => `_${$1.toLowerCase()}`);
-        if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1);
-        snakeName = snakeName.replace(/gl_/, '');
+        let snakeName = vueComponentName.replace(/([A-Z])/g, $1 => `_${$1.toLowerCase()}`)
+        if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1)
+        snakeName = snakeName.replace(/gl_/, '')
 
         Object.keys(Documentation).forEach(component => {
           if (component.indexOf(vueComponentName) > -1) {
-            this.vueComponentDocumentations[vueComponentName] =
-              Documentation[component].description;
+            this.vueComponentDocumentations[vueComponentName] = Documentation[component].description
           }
-        });
-      });
+        })
+      })
     }
   },
-};
+}
 </script>

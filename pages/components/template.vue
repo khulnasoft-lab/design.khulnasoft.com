@@ -1,5 +1,5 @@
 <template>
-  <div class="content limited m-t-7 m-b-7">
+  <div class="content pt-3 pb-3">
     <div class="component md">
       <h1>Component name</h1>
       <p>Component overview. A brief explanation of what the component is.</p>

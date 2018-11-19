@@ -1,5 +1,5 @@
 <template>
-  <div class="content limited m-t-7 m-b-7">
+  <div class="content pt-3 pb-3">
     <div class="typography md">
       <h1>Empty states</h1>
       <p>An empty state is our way of communicating to the user that there is no content to load and what action they should take next. They are vital in making the experience feel more approachable and understandable.</p>

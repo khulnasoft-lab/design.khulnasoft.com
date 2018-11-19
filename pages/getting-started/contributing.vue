@@ -1,5 +1,5 @@
 <template>
-  <div class="content limited m-t-7 m-b-7">
+  <div class="content pt-3 pb-3">
     <div class="contributing md">
       <h1>Contributing</h1>
       <p>Thank you for your interest in contributing to the GitLab Design System! We welcome all feedback regarding designs, guidelines, and implementation. The following details how to contribute in an easy and efficient way.</p>

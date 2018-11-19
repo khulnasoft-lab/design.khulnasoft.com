@@ -1,5 +1,5 @@
 <template>
-  <div class="content limited m-t-7 m-b-7">
+  <div class="content pt-3 pb-3">
     <div class="component md">
       <h1>Voice and tone</h1>
       <p>The copy and messaging is a core part of the experience of GitLab and the conversation with our users. The copy for GitLab is clear and direct. We strike a clear balance between professional and friendly. We can empathize with users (such as celebrating completing all Todos) and remain respectful of the importance of the work. We are a trusted and friendly coworker, helpful and understanding.</p>

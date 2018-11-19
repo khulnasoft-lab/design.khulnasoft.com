@@ -35,24 +35,15 @@
   top: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(135deg, rgba($blue-800,0.75) 0%,rgba($blue-950,0.9) 100%);
-}
-
-.principles {
-  .principle {
-    display: flex;
-    align-items: center;
-  }
+  background: linear-gradient(
+    135deg,
+    rgba($blue-800, 0.75) 0%,
+    rgba($blue-950, 0.9) 100%
+  );
 }
 
 .contribute {
   background: $gray-50;
   border-top: $border-width solid $gray-100;
   border-bottom: $border-width solid $gray-100;
-}
-
-.resources {
-  .card {
-    flex: 1;
-  }
 }

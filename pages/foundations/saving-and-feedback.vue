@@ -1,5 +1,5 @@
 <template>
-  <div class="content limited m-t-7 m-b-7">
+  <div class="content pt-3 pb-3">
     <div class="component md">
       <h1>Saving and feedback</h1>
       <p>Giving appropriate and timely feedback for user-made changes is vital to making GitLab user-friendly.</p> 

@@ -1,5 +1,5 @@
 <template>
-  <div class="content limited m-t-7 m-b-7">
+  <div class="content pt-3 pb-3">
     <div class="colors md">
       <h1>Color</h1>
       <h2>Chromatic palette</h2>
