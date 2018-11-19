@@ -7,6 +7,7 @@ variables:
 
 stages:
   - build
+  - test
   - deploy
 
 .install: &install
@@ -39,6 +40,11 @@ build_master:
     - yarn run build
   only:
     - master
+
+lint:
+  stage: test
+  script:
+    - yarn run lint
 
 review:
   stage: deploy
