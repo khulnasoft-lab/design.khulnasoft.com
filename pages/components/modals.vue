@@ -44,6 +44,7 @@
         <li><a href="/components/popovers">Popovers</a></li>
         <li><a href="/components/toasts">Toasts</a></li>
         <li><a href="/components/tooltips">Tooltips</a></li>
+      </ul> 
       <h2>Resources</h2>
       <p><a href="https://modalzmodalzmodalz.com/" target="_blank">modalzmodalzmodalz</a></p>
       <p><a href="https://uxplanet.org/best-practices-for-modals-overlays-dialog-windows-c00c66cddd8c" target="_blank">Best Practices for Modals / Overlays / Dialog Windows</a></p>
