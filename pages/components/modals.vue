@@ -7,7 +7,7 @@
       <p>Don’t surprise users by popping up a modal. Let a user’s action, such as a button click, following a link or selecting an option, trigger the modal. Uninvited modals may surprise the user and result in a quick dismissal of the window. Use modals sparingly because they interrupt the user's workflow. When designing an experience that incorporates the need for a modal consider one of the following before reverting to a modal:</p>
       <p><strong>Inline content:</strong> Present your content inline to avoid disruption to the user's flow.</p>
       <p><strong>Expanding elements:</strong> Utilize elements such as <a href="/components/accordions">accordions</a>, <a href="/components/tooltips">tooltips</a>, or other expanding non-modal patterns to convey your information.</p>
-      <p><strong>Toasts:</strong> Present your content using <a href="/components/toasts">toasts,</a> a brief, auto-expiring message for the user to consume while staying focused their task.</p>
+      <p><strong>Toasts:</strong> Present your content using <a href="/components/toasts">toasts,</a> a brief, auto-expiring message for the user to consume while staying focused on their task.</p>
       <p><strong>New page:</strong> Take the user to a different page so that the interaction may be isolated without losing access to core navigational elements within the application.</p>
       <p><strong>Other non-modal patterns:</strong> Consider alternative patterns such as non-modal dialogs or undo patterns to continue the system-user conversation while keeping the user focused on their task.</p>
       <h2>Demo</h2>
@@ -44,11 +44,13 @@
         <li><a href="/components/popovers">Popovers</a></li>
         <li><a href="/components/toasts">Toasts</a></li>
         <li><a href="/components/tooltips">Tooltips</a></li>
-      </ul> 
+      </ul>
       <h2>Resources</h2>
-      <p><a href="https://modalzmodalzmodalz.com/" target="_blank">modalzmodalzmodalz</a></p>
-      <p><a href="https://uxplanet.org/best-practices-for-modals-overlays-dialog-windows-c00c66cddd8c" target="_blank">Best Practices for Modals / Overlays / Dialog Windows</a></p>
-      <p><a href="https://www.nngroup.com/articles/modal-nonmodal-dialog/" target="_blank">Modal & Nonmodal Dialogs: When (& When Not) to Use Them</a></p>
+      <ul>
+        <li><a href="https://modalzmodalzmodalz.com/" target="_blank">modalzmodalzmodalz</a></li>
+        <li><a href="https://uxplanet.org/best-practices-for-modals-overlays-dialog-windows-c00c66cddd8c" target="_blank">Best Practices for Modals / Overlays / Dialog Windows</a></li>
+        <li><a href="https://www.nngroup.com/articles/modal-nonmodal-dialog/" target="_blank">Modal & Nonmodal Dialogs: When (& When Not) to Use Them</a></li>
+      </ul>
     </div>
   </div>
 </template>
