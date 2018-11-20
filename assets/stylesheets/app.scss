@@ -17,3 +17,7 @@
 @import 'pages/p_spacing';
 @import 'pages/p-color';
 @import 'pages/p_components';
+
+.app-styles {
+  @import url('https://gitlab-org.gitlab.io/gitlab-ce/application.css');
+}

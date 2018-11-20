@@ -29,6 +29,7 @@
     "eslint-loader": "^2.1.1",
     "node-sass": "^4.9.4",
     "nodemon": "^1.11.0",
+    "postcss-import-url": "^3.0.4",
     "prettier": "1.14.3",
     "raw-loader": "^0.5.1",
     "sass-loader": "^7.1.0",

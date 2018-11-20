@@ -29,10 +29,6 @@ module.exports = {
         type: 'image/png',
         href: '/favicon-16x16.png',
         sizes: '16x16'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://gitlab-org.gitlab.io/gitlab-ce/application.css'
       }
     ],
     bodyAttrs: {
@@ -89,6 +85,15 @@ module.exports = {
    */
   build: {
     watch: ['~/contents'],
+
+    postcss: {
+      plugins: {
+        'postcss-import-url': {
+          from: 'https://assets.gitlab-static.net/assets/application.css',
+          recursive: false
+        }
+      }
+    },
     /*
      ** You can extend webpack config here
      */
