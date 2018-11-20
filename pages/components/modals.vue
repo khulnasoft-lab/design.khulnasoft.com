@@ -16,7 +16,7 @@
       <h3>Placement</h3>
       <p>Modals should be pinned <strong>32px</strong> from the top of the viewport.</p>
       <h3>Sizes</h3>
-      <p>There are 3 max-width sizes for the modals. All should be responsive and scale to full width for mobile viewports. </p>
+      <p>There are 3 max-width sizes for the modals. All should be responsive and scale to full width for mobile viewports.</p>
       <p><strong>Small:</strong> 512px wide</p>
       <p class="todo">Todo: Add live component block of small modal with code example</p>
       <p><strong>Medium:</strong> 768px wide</p>
@@ -27,7 +27,7 @@
       <p>There are three main sections of a modal:</p>
       <p><strong>Header:</strong> The header is either a question, descriptive phrase, or title. The header also contains the close icon in every instance.</p>
       <p><strong>Body:</strong> The content in the body should never be ambiguous and unclear. Strive to be as concise as possible and provide the user with specific information in regards to their task. Do not ask Are you sure you want to do this? Instead, explain what this is, in user-centric terms that are easy to understand and make it likely that the user would recognize a mistake.</p>
-      <p><strong>Actions:</strong> There should be no more than 3 actions and no fewer than 1 Actions should always be placed within an action bar at the bottom of the modal.<p>
+      <p><strong>Actions:</strong> There should be no more than 3 actions and no fewer than 1. Actions should always be placed within an action bar at the bottom of the modal.</p>
       <ul>
         <li>Dismissive actions are always left aligned and affirmative actions are always right aligned. In cases where there are 2 affirmative actions the order should be, from left to right, secondary action -> primary action.</li>
         <li>There will be some cases where no affirmative actions are designated for the modal. In these cases, an action bar should be used with a dismissive action. There should always be multiple ways to close/dismiss this type of modal, including allowing the user to click outside of the modal area or use the escape key. This is important to remember because some modals can be tall and we want to avoid making the user scroll up to close a modal.</li>
@@ -44,6 +44,12 @@
         <li><a href="/components/popovers">Popovers</a></li>
         <li><a href="/components/toasts">Toasts</a></li>
         <li><a href="/components/tooltips">Tooltips</a></li>
+      </ul>
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="https://modalzmodalzmodalz.com/" target="_blank">modalzmodalzmodalz</a></li>
+        <li><a href="https://uxplanet.org/best-practices-for-modals-overlays-dialog-windows-c00c66cddd8c" target="_blank">Best Practices for Modals / Overlays / Dialog Windows</a></li>
+        <li><a href="https://www.nngroup.com/articles/modal-nonmodal-dialog/" target="_blank">Modal & Nonmodal Dialogs: When (& When Not) to Use Them</a></li>
       </ul>
     </div>
   </div>
