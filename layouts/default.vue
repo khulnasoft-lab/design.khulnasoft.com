@@ -320,6 +320,4 @@ body {
   margin: 0;
   padding: 0;
 }
-
-@import '../assets/stylesheets/app.scss';
 </style>
