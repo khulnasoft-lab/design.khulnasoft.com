@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import * as Documentation from '@gitlab-org/gitlab-ui'
+import * as Documentation from '@gitlab/ui'
 
 import mdDisplay from '../../components/md_display.vue'
 

@@ -753,21 +753,6 @@
   resolved "https://registry.yarnpkg.com/@gitlab-org/gitlab-svgs/-/gitlab-svgs-1.32.0.tgz#a65ab7724fa7d55be8e5cc9b2dbe3f0757432fd3"
   integrity sha512-L3o8dFUd2nSkVZBwh2hCJWzNzADJ3dTBZxamND8NLosZK9/ohNhccmsQOZGyMCUHaOzm4vifaaXkAXh04UtMKA==
 
-"@gitlab-org/gitlab-ui@^1.10.2":
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/@gitlab-org/gitlab-ui/-/gitlab-ui-1.10.2.tgz#2bcc90d5efb143289ecb2df0f71342f1e52e026f"
-  integrity sha512-2hrtW1zncqHdwC0INMkm6WAY/z5DHoqLXfV+VwfyZKpYTas2oh8vtqTfo1M6x/vcr9yJ9n5RfexT7FUZnmquhA==
-  dependencies:
-    babel-standalone "^6.26.0"
-    bootstrap-vue "^2.0.0-rc.11"
-    copy-to-clipboard "^3.0.8"
-    highlight.js "^9.13.1"
-    js-beautify "^1.8.8"
-    lodash "^4.17.11"
-    url-search-params-polyfill "^5.0.0"
-    vue "^2.5.16"
-    vue-loader "^15.4.2"
-
 "@gitlab/eslint-config@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@gitlab/eslint-config/-/eslint-config-1.1.1.tgz#0f4b096ba0870e7f7180eff8cf856dfc4d19f5fd"
@@ -780,6 +765,21 @@
     eslint-plugin-import "^2.14.0"
     eslint-plugin-promise "^4.0.1"
     eslint-plugin-vue "^5.0.0-beta.3"
+
+"@gitlab/ui@^1.12.0":
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/@gitlab/ui/-/ui-1.12.0.tgz#14b8a1f03ddcd5cc69f74c1ee86be98a1ddb2064"
+  integrity sha512-aatnUInKFxsHnOEvSxO27KArUC5qgCZ//KTfZF1knzw7gJvU9pXxhP6jmUsDTkVYSJ3lDOJnLGQxfXUyjDn7SQ==
+  dependencies:
+    babel-standalone "^6.26.0"
+    bootstrap-vue "^2.0.0-rc.11"
+    copy-to-clipboard "^3.0.8"
+    highlight.js "^9.13.1"
+    js-beautify "^1.8.8"
+    lodash "^4.17.11"
+    url-search-params-polyfill "^5.0.0"
+    vue "^2.5.16"
+    vue-loader "^15.4.2"
 
 "@nuxtjs/axios@^5.0.0":
   version "5.3.3"
