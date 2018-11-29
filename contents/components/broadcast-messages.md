@@ -2,9 +2,12 @@
 name: Broadcast messages
 related:
   - system-messages
+  - alerts
 ---
 
-Broadcast messages provide an efficient and prominent way to deliver critical messages at the instance level to all users.
+Broadcast messages provide an efficient and prominent way to deliver critical messages at the instance level to all users. For example, a broadcast message can be used when an admin wants to announce that their platform will experience downtime during a specific period.
+
+Broadcast messages are created by an admin and not triggered by the system, like [system messages](/components/system-messages) or [alerts](/components/alerts).
 
 ## Usage
 
@@ -12,7 +15,7 @@ Broadcast messages are always located at the top of the page, above the [global 
 
 Broadcast messages expire after a set period as defined by the admin but they can also be dismissed at the user level.
 
-It is a rare usecase for multiple broadcast messages to be present at a given time. When this happens, however, the messages should stack.
+Broadcast messages generally contain a small amount of content. It is a rare usecase for multiple broadcast messages to be present at a given time. When this happens, however, the messages should stack.
 
 ## Demo
 
