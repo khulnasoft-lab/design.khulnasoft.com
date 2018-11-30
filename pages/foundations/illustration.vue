@@ -13,7 +13,6 @@
       <p>Use pagination with lists where the user's goal is to find a specific item to complete their task regardless of when that item was entered into the list. Good examples for lists better suited for pagination are, issues, merge requests, todos, and milestones. </p>
       <p class="todo">An example of a live pagination component to add related to a usage guideline</p>
       <h3>Load more usage</h3>
-
       <h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
       <!--
