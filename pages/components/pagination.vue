@@ -2,23 +2,18 @@
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
       <h1>Pagination</h1>
-      <p>We use both pagination and infinite scroll to segment content based on the users task. </p>
+      <p>Breaking-up lists and distributing the results either by the use of pagination or by loading more results at the bottom of the page helps the user parse a large number items whenever there are too many results to show at once. We use both pagination and a load more button to segment results based on the users task. </p>
       <h3>Pagination</h3>
-      <p>Pagination breaks up content or data into several pages with a control for navigating to the next or previous page. Pagination aides users who are looking for a specific item(s) in a list and memorize where in that list an items is located.</p>
-      <h3>Infinite scroll</h3>
-      <p>Infinite scroll gives users an efficient way to browse long lists of content without having to reload the page, allowing users to scroll though long streams of data efficiently.</p>
+      <p>Pagination breaks up results into several pages with controls for navigating to a specific page or to the next or previous page. Pagination aides users who are looking for a specific item in a list to complete their task.</p>
+      <h3>Load more</h3>
+      <p>A load more button positioned at the bottom of a list gives users an efficient way to browse long lists of content without having to reload the page, allowing users to scroll though long streams of information efficiently.</p>
       <h2>Usage</h2>
-      <p>We use pagination to breakup content or data into several pages with a control for navigating to the next or previous page. Alternatively, there are instances where infinite scroll provides a better experience to users with browsing tasks. </p>
-      <!--
-        SUB SECTIONS, use these to highlight component specific rules. You can add as many sub-sections as needed, use your best judgement
-        e.g. truncation rules
-      -->
-      <h3>Sub section</h3>
-      <p>A summary of a specific usage guideline.</p>
-      <p class="todo">An example of a live component to add related to a usage guideline</p>
-      <!--
-        DEMO, keep this section for all patterns, the code block demo will be added at a later date
-      -->
+      <p>We use pagination to breakup results into several pages with a control for navigating to the next or previous page. Alternatively, there are instances where load more provides a better experience to users with browsing tasks. </p>
+      <h3>Pagination usage</h3>
+      <p>Use pagination with lists where the user's goal is to find a specific item to complete their task regardless of when that item was entered into the list. Good examples for lists better suited for pagination are, issues, merge requests, todos, and milestones. </p>
+      <p class="todo">An example of a live pagination component to add related to a usage guideline</p>
+      <h3>Load more usage</h3>
+
       <h2>Demo</h2>
       <p class="todo">Todo: Add live component block with code example</p>
       <!--
@@ -34,7 +29,6 @@
       <h2>Related patterns</h2>
       <ul>
         <li><a href="/components/buttons">Buttons</a></li>
-        <li><a href="/components/spinner">Spinner</a></li>
       </ul>
     </div>
   </div>
