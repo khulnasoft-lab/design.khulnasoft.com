@@ -215,7 +215,7 @@ Buttons are ordered by importance from right to left. This means primary buttons
 
 ## Positioning
 
-Buttons are always positioned towards the right and are placed next to each other when there are multiple. This applies to buttons with affirmative, dismissive, and destructive actions.
+Buttons are positioned towards the right and are placed next to each other when there are multiple. This applies to buttons with affirmative, dismissive, and destructive actions.
 
 Please note to **not** place a button below another button if there is space to place them side by side.
 
