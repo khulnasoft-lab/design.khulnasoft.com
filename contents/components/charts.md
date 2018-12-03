@@ -17,22 +17,29 @@ In cases where the charting principles conflict, consider data representation ac
 
 Going forward, our charts will be built using [Echarts](https://ecomfe.github.io/echarts-doc/public/en/index.html). 
 
+General content and style considerations for charts include: 
+*   If there is more than one series being displayed, add a legend. In legends, the text after the series name is optional. It allows for the possibility of complementing the series legend with additional useful calculations (total, etc).
+*   Use category labels as necessary to clarify the content being shown (with units in parentheses, if required). Note that units aren't always necessary, for example, in the case of counts.
+*   Default color order is blue, green, orange and purple. However, if you have charts that feature positive and negative values, feel free to utilize a green/red version of the chart to make the data gains (greens) and loss (reds) more immediately apparent. This variation of a column chart is usually known as a waterfall chart.
+*   When hovering, detailed information on the data point is shown in a popover.
+
 ## Types
 
 We currently support column charts, line charts, area charts and pie charts. More charting types will be added, in future.
 
+Column charts can be considered the 'default' chart type. If you are thinking about using a pie chart, consider that a column chart may tell the story more clearly.
+
 When choosing a chart type, first consider your data set. If you are hoping to show:
 
-*   a comparision of values, consider a column, bar, line or circular area chart. Most of our charts currently fall into this category.
-*   a distribution of values, consider a scatter chart, a line histogram, or a column histogram.
-*   the relationship between values, consider a scatter chart or a bubble chart.
-*   the composition of a group, consider a stacked column, stacked area, pie, or waterfall chart.
+*   a comparison of values across categories or across time, consider a column, bar, line or a pie chart. 
+*   a distribution of values, consider a scatter chart, a line histogram, or a column histogram. 
+*   the relationship between values (usually presented on the x and y axes), consider a scatter chart or a bubble chart.  
+*   the composition of elements within the data set, consider a stacked column, stacked area, pie, or waterfall chart. 
 
 ### Column charts
+Column charts are used to compare values across categories. The categories are usually presented on the x-axis, with the values on the y-axis. 
 
-Column charts are used to compare values across categories. The categories are usually presented on the x-axis, with the values on the y-axis.
-
-Column charts can be considered the 'default' chart type. If you are thinking about using a pie chart, consider that a column chart may tell the story more clearly.
+The bars on a column chart are presented vertically rather than horizontally, and they can be stacked. Stacking can be useful for comparing multiple series. 
 
 ### Line charts
 
