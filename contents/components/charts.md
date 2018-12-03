@@ -42,6 +42,8 @@ Column charts are used to compare values across categories. The categories are u
 
 The bars on a column chart are presented vertically rather than horizontally, and they can be stacked. Stacking can be useful for comparing multiple series. 
 
+When building a column chart, you may or may not need a chart title or x and y axis titles. Opt for clarity but, if something is immediately apparent, there isn't any need to repeat unnecessary information.
+
 ### Line charts
 
 Todo: Add specific information about line charts
