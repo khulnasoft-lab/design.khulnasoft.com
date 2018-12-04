@@ -8,7 +8,7 @@ Labels should not be confused with [badges](/components/badges). Badges highligh
 
 ## Usage
 
-The labels the categorize an object are usually displayed in that object's detail page and in list views, next to the corresponding object. Clicking on a label navigates the user to a list view filtered on that label. Users can manually filter lists and other types of views by labels.
+The labels that categorize an object are usually displayed in that object's detail page and in list views, next to the corresponding object. Clicking on a label navigates the user to a list view filtered by that label. Users can also manually filter lists and other types of views by labels.
 
 In most places, a label's description is shown in a [tooltip](/components/tooltips). In a group or project [labels list](https://gitlab.com/groups/gitlab-org/-/labels), users can view all label information and perform actions on them.
 
