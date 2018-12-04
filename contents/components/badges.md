@@ -31,7 +31,6 @@ Color, spacing, dimension, and layout specific information pertaining to this co
 
 Todo: Add link of [Sketch Measure Preview for Badges](#)
 
-
 ## Related patterns
 
-* [Labels](../labels)
+* [Labels](/components/labels)
