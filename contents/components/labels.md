@@ -12,10 +12,6 @@ The labels the categorize an object are usually displayed in that object's detai
 
 In most places, a label's description is shown in a [tooltip](/components/tooltips). In a group or project [labels list](https://gitlab.com/groups/gitlab-org/-/labels), users can view all label information and perform actions on them.
 
-### User role labels
-
-User role labels are different from standard labels. They indicate the permission level of the user and differ visually. User labels lack color, use grayscale text, and have a border.
-
 ## Demo
 
 Todo: Add live component block with code example
