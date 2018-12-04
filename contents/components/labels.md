@@ -1,14 +1,16 @@
 ---
 name: Labels
-related:
-  - tags
 ---
 
-Labels allow users to categorize UI objects using descriptive titles and customizable color. They provide a quick way to recognize which category or categories the labeled object belongs. Clicking on a label navigates the user to a filtered list view based on that label.
+Labels are editable objects that allow users to manually categorize other objects, like issues, merge requests, and epics. They have a name, description, and a customizable color. They provide a quick way to recognize which categories the labeled object belongs to.
+
+Labels should not be confused with [badges](/components/badges). Badges highlight more generic object metadata that are not categories.
 
 ## Usage
 
-Labels are used to categorize issues, merge requests, and epics. They can be used to filter in list views. Upon hover, a tooltip containing a description of the label will appear.
+The labels the categorize an object are usually displayed in that object's detail page and in list views, next to the corresponding object. Clicking on a label navigates the user to a list view filtered on that label. Users can manually filter lists and other types of views by labels.
+
+In most places, a label's description is shown in a [tooltip](/components/tooltips). In a group or project [labels list](https://gitlab.com/groups/gitlab-org/-/labels), users can view all label information and perform actions on them.
 
 ### User role labels
 
@@ -23,3 +25,7 @@ Todo: Add live component block with code example
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
 [Sketch Measure Preview for labels](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/labels-spec-previews/)
+
+## Related patterns
+
+* [Badges](/components/badges)
