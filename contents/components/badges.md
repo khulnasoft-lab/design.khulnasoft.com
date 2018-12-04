@@ -19,7 +19,7 @@ Badges should always be linked to the object they refer to unless the user is al
 Depending on the context and the value of the badge's information, some style attributes can be changed from the defaults:
 * **Font weight**: Text is bold by default but some or all of it can be changed to regular weight.
 * **Visual weight**: “Neutral secondary” is the default variation. Start with that and see if it works. If necessary, decrease or increase the visual weight of the badge by switching to “neutral tertiary” or “neutral primary” respectively. Be mindful of not attracting too much attention to the badge and prioritizing it over other surrounding elements.
-* **Color**: They use the neutral color variations by default. If the badge's information is related to success, information, warning, or danger, it can adopt a more colorful variation. Color should be used with care and as a last resort for highlighting badges. Like the visual weight point before, start with the secondary color variation and be mindful when using the primary.
+* **Color**: Neutral color (gray) variations are the default. If the kind of information being communicated aligns with our [guidelines for the four primary colors](/foundations/colors), the badge can adopt a more colorful variation. Color should be used with care and as a last resort for highlighting badges. Like the visual weight point before, start with the secondary color variation and be mindful when using the primary.
 
 ## Demo
 
