@@ -2,7 +2,7 @@
 name: Badges
 ---
 
-Badges highlight metadata of objects (e.g. issue status, user 2FA status, branch protection), the kind of information that wouldn't be useful on its own, that always needs some context.
+Badges highlight metadata of objects (e.g. issue status, member role, branch protection), the kind of information that wouldn't be useful on its own, that always needs some context.
 
 Showing metadata does not require the use of badges, you can just use plain icons, text, or both. But if the metadata is worth highlighting or differentiating, badges can help.
 
