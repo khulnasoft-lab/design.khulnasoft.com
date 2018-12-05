@@ -23,7 +23,7 @@ Todo: Add live component block with code example
 
 ## Design specifications
 
-When including [help text](usability/helping-users) in alerts, the anchor should be bolded by default and underlined on hover.
+When including [help text](/usability/helping-users) in alerts, the anchor should be bolded by default and underlined on hover.
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
