@@ -19,11 +19,11 @@ Alerts allow the application to pass along relevant information to the user with
 
 ## Demo
 
-The alert pattern is designed to be flexible and accounts for as many use cases as possible.
-
-An example of a live alert related to a usage guideline.
+Todo: Add live component block with code example
 
 ## Design specifications
+
+When including [help text](usability/helping-users) in alerts, the anchor should be bolded by default and underlined on hover.
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
