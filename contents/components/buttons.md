@@ -211,7 +211,7 @@ Todo: Add live component block with code example
 
 ## Order
 
-Buttons are ordered by importance from right to left. This means primary buttons are always on the right followed by secondary buttons etc. As an effect it means buttons with dismissive actions are on the left and buttons with affirmative actions are on the right.
+Buttons are ordered by importance from right to left. This means primary buttons are always on the right followed by secondary buttons etc. As an effect it means buttons with dismissive actions are on the left and buttons with affirmative actions are on the right. Depending on the context, the primary, affirmative action may be destructive.
 
 ## Positioning
 
