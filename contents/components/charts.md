@@ -20,9 +20,9 @@ Going forward, our charts will be built using [Echarts](https://ecomfe.github.io
 General content and style considerations for charts include: 
 *   If there is more than one series being displayed, add a legend. 
 *   In legends, the text after the series name is optional. It allows for the possibility of complementing the series legend with additional useful calculations (total, etc).
-*   Use category labels as necessary to clarify the content being shown (with units in parentheses, if required). Note that units aren't always necessary, for example, in the case of counts.
-*   The default color order for charts with multiple categories is blue, green, orange, then purple (see spec measure details for further information). However, if you have charts that feature positive and negative values, feel free to utilize a green/red version of the chart to make the data gains (greens) and losses (reds) more immediately apparent. This variation of a column chart is usually known as a waterfall chart.
-*   When hovering, detailed information on the data point is shown in a popover.
+*   Use chart titles, category and value labels as necessary to clarify the content being shown (with units in parentheses, if required). Note that units aren't always necessary, for example, in the case of counts.
+*   The default color order for charts with multiple series is blue, green, orange, then purple (see spec measure details for further information). However, if you have charts that feature positive and negative values, feel free to utilize a green/red version of the chart to make the data gains (greens) and losses (reds) more immediately apparent. This variation of a column chart is usually known as a waterfall chart.
+*   When hovering, detailed information on the data point is shown in a [popover] (/components/popovers).
 
 ## Types
 
@@ -41,8 +41,6 @@ When choosing a chart type, first consider your data set. If you are hoping to s
 Column charts are used to compare values across categories. The categories are usually presented on the x-axis, with the values on the y-axis. 
 
 The bars on a column chart are presented vertically rather than horizontally, and they can be stacked. Stacking can be useful for comparing multiple series. 
-
-When building a column chart, you may or may not need a chart title or x and y axis titles. Opt for clarity but, if something is immediately apparent, there isn't any need to repeat unnecessary information.
 
 ### Line charts
 
