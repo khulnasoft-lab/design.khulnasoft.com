@@ -1,8 +1,10 @@
 ---
 name: Badges
+related:
+  - labels
 ---
 
-Badges highlight metadata of objects (e.g. issue status, member role, branch protection), the kind of information that wouldn't be useful on its own, that always needs some context.
+Badges highlight metadata of objects, the kind of information that always needs some context and isn't useful on its own. For example, they can be used to indicate an issue's status, a member's role, or if a branch is protected.
 
 Showing metadata does not require the use of badges, you can just use plain icons, text, or both. But if the metadata is worth highlighting or differentiating, badges can help.
 
@@ -10,9 +12,9 @@ Badges should not be confused with [labels](/components/labels). Labels also sho
 
 ## Usage
 
-Information can be rendered in badges as icons, text, or both. If they only have an icon, provide a quick explanation for users in a [tooltip](/components/tooltips). As for text, they can not only contain words but also numbers, acting as a _counter_ (e.g. number badges in [tabs](/components/tabs)).
+Information can be rendered in badges as icons, text, or both. If they only have an icon, provide a quick explanation for users in a [tooltip](/components/tooltips). Text badges can contain not only words, but also numbers. These act as _counters_ (e.g. number badges in [tabs](/components/tabs)).
 
-Badges should always be linked to the object they refer to unless the user is already seeing the most detailed state of that object (i.e. the object's detail page).
+Badges should always link to the object they refer to unless the user is already seeing the most detailed state of that object (i.e. the object's detail page).
 
 ### Variations
 
