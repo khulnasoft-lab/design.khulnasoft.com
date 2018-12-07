@@ -14,5 +14,3 @@
 * [ ] Page link with corresponding status added to `getting-started/status.vue`
 * [ ] Depending on type of the page, content should follow the documentation template (link or structure outline can be added to the MR templates as well)
   * [Component page example](https://gitlab.com/gitlab-org/design.gitlab.com/blob/master/pages/components/template.vue)
-
-/cc @tauriedavis
