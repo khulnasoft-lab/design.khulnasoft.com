@@ -8,11 +8,11 @@ related:
   - spinner
 ---
 
-Breaking up lists and distributing the results either by the use of pagination or by infinite scroll helps the user parse a large number of items whenever there are too many results to show at once. We use both pagination and infinite scroll to segment results based on the user's task.
+Breaking up lists and distributing the results either by the use of pagination or by infinite scroll helps the user parse a large number of items whenever there are too many results to show at once. We use both pagination and infinite scroll to segment results depending on the user’s task.
 
 ## Definitions
 
-**Pagination** breaks up results into several pages with controls for navigating to a specific page or to the next or previous pages.
+**Pagination** breaks up results into several pages with controls for navigating to a specific page and to the next or previous pages.
 
 **Infinite scroll** loads the next batch of items in a list once the user has reached the bottom of the page and thus removes the need for pagination.
 
@@ -30,7 +30,7 @@ Lists with **more than 20** items require pagination which is always located bel
 #### Behavior
 
 ##### Truncation
-Truncation is shown using `...` when the number of pages exceeds the pagination display limit. By default `...` are shown after the **5th page** on large and medium viewports and after the **2nd page** on small and mobile viewports.
+Truncation is shown using `…` when the number of pages exceeds the pagination display limit. By default `…` are shown after the **5th page** on large and medium viewports and after the **2nd page** on small and mobile viewports.
 
 Double truncation occurs when the current page is separated by 5 or more pages from the first and last page on large and medium viewports. On small and mobile viewports, double truncation occurs when 1 or more pages separate the current page from the first and last page.
 
@@ -46,16 +46,16 @@ Todo: add double truncation example on small/mobile viewports
 
 
 ### Infinite scroll
-Infinite scroll begins once the user has reached the 20th item of a list and there are more items to load. It's at this point that a [loading spinner](component/spinner) appears within a button at the bottom of the list for the duration of the load time.
+Infinite scroll is triggered once the user has reached the 20th item of a list and there are more items to load. It is at this point that a [loading spinner](component/spinner) appears within a button at the bottom of the list for the duration of the load time.
 
 #### Behavior
 
 ##### Load more
-Once the list has loaded more items twice, a **show 20 more** button appears in place of the loading spinner button. This pattern of loading the list twice then showing a "show 20 more" button repeats itself until the user has reached the end of the list.
+Once the list has loaded more items twice, a **show more** button appears in place of the loading spinner button. This pattern of loading the list twice then showing a "show more" button repeats itself until the user has reached the end of the list.
 
-Todo: Add load more button example
+Todo: Add show more button example
 
-In cases where the user has scrolled enough to load the list twice, and fewer than 20 items remain in the list, we will forgo the use of a load more button and instead load the remaining items using the loading spinner button.
+In cases where the user has scrolled enough to load the list twice, and fewer than 20 items remain in the list, we will forgo the use of a "show more" button and instead load the remaining items using the loading spinner button.
 
 ##### List count
 
