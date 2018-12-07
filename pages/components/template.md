@@ -1,5 +1,17 @@
 ---
 name: Component name
+vueComponents: 
+  - Related vue component name
+
+#  RELATED VUE COMPONENTS should be added when available
+#  Remove this section if there are no related vue components at this time. Please list them in alphabetical order.
+
+related:
+  - Related pattern name
+
+#  RELATED PATTERNS should be similar in usage/type of pattern
+#  e.g. tooltips, popover, and modals are all similar constructs used for different purposes
+#  Remove this section if there are no related patterns at this time. Please list them in alphabetical order. 
 ---
 
 Component overview. A brief explanation of what the component is.
@@ -50,16 +62,6 @@ Todo: Add live component block with code example
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
 [Sketch Measure Preview for INSERT NAME OF COMPONENT HERE](/)
-
-## Related patterns
-
-<!-- 
-  RELATED PATTERNS should be similar in usage/type of pattern
-  e.g. tooltips, popover, and modals are all similar constructs used for different purposes
-  Remove this section if there are no related patterns at this time. Please list them in alphabetical order. 
--->
-
-*   [A related pattern](../regions/)
 
 ## Resources
 
