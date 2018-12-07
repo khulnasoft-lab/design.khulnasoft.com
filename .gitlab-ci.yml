@@ -1,4 +1,4 @@
-image: node:latest
+image: node:8
 
 variables:
   GIT_DEPTH: "10"
@@ -7,15 +7,19 @@ variables:
 
 stages:
   - build
+  - test
   - deploy
 
 .install: &install
   yarn install
 
 .build_base: &build_base
+  stage: build
   before_script:
     - *install
-  stage: build
+  script:
+    - yarn run build
+    - utils/create-redirections.sh
   dependencies:
   artifacts:
     expire_in: 7 days
@@ -27,18 +31,21 @@ stages:
 
 build_branch:
   <<: *build_base
-  script:
-    - yarn run build
   except:
     - master
 
 build_master:
   <<: *build_base
   variables:
-  script:
-    - yarn run build
   only:
     - master
+
+lint:
+  stage: test
+  before_script:
+    - *install
+  script:
+    - yarn run lint
 
 review:
   stage: deploy

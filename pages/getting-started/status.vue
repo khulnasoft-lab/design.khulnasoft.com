@@ -2,11 +2,14 @@
   <div class="content limited m-t-7 m-b-7">
     <div class="structure md">
       <h1>Component status</h1>
-      <p>Components and their variants have statuses reflecting their state of completion, documented on this page. <br/>
-      Check back here anytime to see current component status information.</p>
+      <p>Components and their variants have statuses reflecting their state of completion, documented on this page. <br />
+        Check back here anytime to see current component status information.</p>
       <p>See more detailed progress on our Design System <a href="https://gitlab.com/gitlab-org/design.gitlab.com/issues">issue tracker</a>.</p>
       <h2>Legend</h2>
-      <table class="m-t-6 m-b-6" style="width: 65%;">
+      <table 
+        class="m-t-6 m-b-6" 
+        style="width: 65%;"
+      >
         <tbody>
           <tr>
             <th class="header">Icon</th>
@@ -35,38 +38,45 @@
           </tr>
         </tbody>
       </table>
-      
+
       <h2>Status</h2>
       <!-- <p>A paragraph.</p> -->
-      <table class="m-t-6 m-b-6" style="width: 65%;">
+      <table 
+        class="m-t-6 m-b-6" 
+        style="width: 65%;"
+      >
         <tbody>
           <tr>
-            <th class="header">Styles</th>
+            <th class="header">Foundations</th>
             <th class="header">Status</th>
           </tr>
           <tr>
-            <td><a href="../../styles/colors">Colors</a></td>
+            <td><a href="../../foundations/colors">Colors</a></td>
             <td>✅</td>
           </tr>
           <tr>
-            <td><a href="../../styles/iconography">Iconography</a></td>
+            <td><a href="../../foundations/iconography">Iconography</a></td>
             <td>⚠️</td>
           </tr>
           <tr>
-            <td><a href="../../styles/motion">Motion</a></td>
+            <td><a href="../../foundations/motion">Motion</a></td>
             <td>⚠️</td>
           </tr>
           <tr>
-            <td><a href="../../styles/illustration">Illustration</a></td>
+            <td><a href="../../foundations/illustration">Illustration</a></td>
             <td>⚠️</td>
           </tr>
           <tr>
-            <td><a href="../../styles/typography">Typography</a></td>
+            <td><a href="../../foundations/typography">Typography</a></td>
             <td>⚠️</td>
           </tr>
           <tr>
-            <td><a href="../../styles/cursors">Cursors</a></td>
-            <td>⚠️</td>
+            <td><a href="../../foundations/interactions">Interactions</a></td>
+            <td>✅</td>
+          </tr>
+          <tr>
+            <td><a href="../../foundations/saving-and-feedback">Saving and feedback</a></td>
+            <td>🚫</td>
           </tr>
           <tr>
             <th class="header">Component</th>
@@ -74,7 +84,7 @@
           </tr>
           <tr>
             <td><a href="../../components/alerts">Alerts</a></td>
-            <td>🚫</td>
+            <td>⚠️</td>
           </tr>
           <tr>
             <td><a href="../../components/avatar">Avatars</a></td>
@@ -85,8 +95,16 @@
             <td>🚫</td>
           </tr>
           <tr>
+            <td><a href="../../components/banners">Banners</a></td>
+            <td>🚫</td>
+          </tr>
+          <tr>
             <td><a href="../../components/breadcrumbs">Breadcrumbs</a></td>
             <td>⚠️</td>
+          </tr>
+          <tr>
+            <td><a href="../../components/broadcast-messages">Broadcast messages</a></td>
+            <td>🚫</td>
           </tr>
           <tr>
             <td><a href="../../components/buttons">Buttons</a></td>
@@ -174,6 +192,10 @@
           </tr>
           <tr>
             <td><a href="../../components/tags">Tags</a></td>
+            <td>🚫</td>
+          </tr>
+          <tr>
+            <td><a href="../../components/toasts">Toasts</a></td>
             <td>🚫</td>
           </tr>
           <tr>
@@ -356,5 +378,5 @@
         </tbody>
       </table> -->
     </div>
-  </div> 
+  </div>
 </template>

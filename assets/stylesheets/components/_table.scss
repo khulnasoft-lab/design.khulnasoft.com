@@ -1,4 +1,4 @@
-table { 
+table {
   width: 100%;
   color: $text-color;
   border: $border-width solid $border-color;
@@ -14,7 +14,8 @@ table {
     }
   }
 
-  th, td {
+  th,
+  td {
     border: $border-width solid $border-color;
     padding: $gl-spacing-3;
     font-weight: $font-weight--normal;

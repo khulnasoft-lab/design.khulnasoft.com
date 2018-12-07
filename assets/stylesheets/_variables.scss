@@ -80,7 +80,7 @@ $blue-50: #f6fafe;
 $blue-100: #e4f0fb;
 $blue-200: #b8d6f4;
 $blue-300: #73afea;
-$blue-400: #2e87e0;
+$blue-400: #418cd8;
 $blue-500: #1f78d1;
 $blue-600: #1b69b6;
 $blue-700: #17599c;
@@ -92,7 +92,7 @@ $orange-50: #fffaf4;
 $orange-100: #fff1de;
 $orange-200: #fed69f;
 $orange-300: #fdbc60;
-$orange-400: #fca121;
+$orange-400: #fca429;
 $orange-500: #fc9403;
 $orange-600: #de7e00;
 $orange-700: #c26700;
@@ -103,7 +103,7 @@ $orange-950: #592800;
 $red-50: #fef6f5;
 $red-100: #fbe5e1;
 $red-200: #f2b4a9;
-$red-300: #e67664;
+$red-300: #ea8271;
 $red-400: #e05842;
 $red-500: #db3b21;
 $red-600: #c0341d;
@@ -164,6 +164,18 @@ $t-blue-a-04: rgba($t-blue-200, 0.04);
 $t-blue-a-06: rgba($t-blue-200, 0.06);
 $t-blue-a-08: rgba($t-blue-200, 0.08);
 
+$t-light-blue-50: #f2f7fc;
+$t-light-blue-100: #ebf1f7;
+$t-light-blue-200: #c9dcf2;
+$t-light-blue-300: #83abd4;
+$t-light-blue-400: #4d86bf;
+$t-light-blue-500: #367cc2;
+$t-light-blue-600: #3771ab;
+$t-light-blue-700: #2261a1;
+$t-light-blue-800: $t-blue-800;
+$t-light-blue-900: $t-blue-900;
+$t-light-blue-950: $t-blue-950;
+
 $t-green-50: #f2faf6;
 $t-green-100: #e4f3ea;
 $t-green-200: #c0dfcd;
@@ -179,6 +191,31 @@ $t-green-a-02: rgba($t-green-200, 0.02);
 $t-green-a-04: rgba($t-green-200, 0.04);
 $t-green-a-06: rgba($t-green-200, 0.06);
 $t-green-a-08: rgba($t-green-200, 0.08);
+
+$t-red-50: #fcf4f2;
+$t-red-100: #fae9e6;
+$t-red-200: #ebcac5;
+$t-red-300: #d99b91;
+$t-red-400: #b0655a;
+$t-red-500: #ad4a3b;
+$t-red-600: #9e4133;
+$t-red-700: #912f20;
+$t-red-800: #78291d;
+$t-red-900: #691a16;
+$t-red-950: #36140f;
+
+$t-light-red-50: #fff6f5;
+$t-light-red-100: #fae2de;
+$t-light-red-200: #f7d5d0;
+$t-light-red-300: #d9796a;
+$t-light-red-400: #cf604e;
+$t-light-red-500: #c24b38;
+$t-light-red-600: #b03927;
+$t-light-red-700: #a62e21;
+$t-light-red-800: $t-red-800;
+$t-light-red-900: $t-red-900;
+$t-light-red-950: $t-red-950;
+
 
 /*
  * Fonts
