@@ -32,7 +32,3 @@ Todo: Add live component block with code example
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
 Todo: Add link of [Sketch Measure Preview for Badges](#)
-
-## Related patterns
-
-* [Labels](/components/labels)
