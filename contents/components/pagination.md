@@ -65,7 +65,6 @@ Always display a counter that details how many items have already loaded and how
 ##### Returning to a list
 When a user returns to a list from a list entry using the back button in the browser, they should be returned to the same place in the list where they left off.
 
-
 ## Demo
 
 ### Pagination
