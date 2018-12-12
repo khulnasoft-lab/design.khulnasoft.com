@@ -61,14 +61,18 @@
             <li>
               <span class="nav-sidebar__section-title">Brand</span>
                 <details 
-                :open="$route.fullPath.startsWith('/brand-personality/')" 
+                :open="$route.fullPath.startsWith('/brand-get-started/')" 
                 class="nav-sidebar__section"
                 >
                 <summary class="nav-sidebar__section-summary nav-sidebar--indent-1">Get started</summary>
                 <nuxt-link 
                   class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-                  to="/brand-personality/brand-personality"
+                  to="/brand-get-started/brand-personality"
                 >Brand personality</nuxt-link>
+                <nuxt-link 
+                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
+                  to="/brand-get-started/brand-personas"
+                >Personas</nuxt-link>
                 </details>
             </li>
             <li>
