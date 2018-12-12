@@ -91,6 +91,10 @@
           </tr>
         </tbody>
       </table>
+      <p>We explain things in the simplest way possible, using plain, accessible language.</p>
+      <p>We keep a sense of humor about things, but don't make light of serious issues or problems our users or customers face.</p>
+      <p>We use colloquialisms and slang, but sparingly (don't look like you're trying too hard!).</p>
+      <p>We use <a href="https://litreactor.com/columns/5-easy-ways-to-make-your-writing-gender-neutral">inclusive, gender-neutral language</a>.</p>
     </div>
   </div>
 </template>
