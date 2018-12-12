@@ -10,7 +10,7 @@
         <li>Quirky: We embrace diversity of opinion. We embrace new ideas based on their merit, even if they defy commonly held norms.</li>
         <li>Humble: We care about helping those around us achieve great things more than we care about our personal accomplishments.</li>
       </ol>
-      <p>These four characteristics work together to form a personality that is authentic to GitLab team members, communioty, and relatable to our audience. If we were quirky without being human we could come across as eccentric. If we were competent without being humble we could come across as arrogant.</p>
+      <p>These four characteristics work together to form a personality that is authentic to GitLab team members, community, and relatable to our audience. If we were <strong>quirky</strong> without being <strong>human</strong> we could come across as eccentric. If we were <strong>competent</strong> without being <strong>humble</strong> we could come across as arrogant.</p>
       <p>GitLab has a higher purpose. We want to inspire a sense of adventure in those around us so that they join us in contributing to making that mission a reality.</p>
     </div>
   </div>
