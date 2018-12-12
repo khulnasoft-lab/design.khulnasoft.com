@@ -4,17 +4,13 @@
       <h1>Voice and tone</h1>
        <p>The following guide outlines the set of standards used for all written company communications to ensure consistency in voice, style, and personality across all of GitLab's public communications.</p>
        <p>See <a href="https://about.gitlab.com/handbook/marketing/corporate-marketing/#general-editorial-style-guidelines">General editorial</a> style guidelines for more.</p>
-
        <h2>About</h2>
        <h3>GitLab the community</h3>
        <p>GitLab is an open source project with a large community of contributors. Over 2,000 people worldwide have contributed to GitLab's source code.</p>
-
        <h3>GitLab the company</h3>
        <p>GitLab Inc. is a company based on the GitLab open source project. GitLab Inc. is an active participant in our community (see our stewardship of GitLab CE for more information), as well as offering GitLab, a product (see below).</p>
-
        <h3>GitLab the product</h3>
        <p>GitLab is a single application for the complete DevOps lifecycle. See the product elevator pitch for additional messaging.</p>
-
        <h2>Tone of Voice</h2>
        <p>The tone of voice we use when speaking as GitLab should always be informed by our <a href="https://gitlab.com/gitlab-com/marketing/blob/master/content/content-strategy.md#strategy">Content Strategy</a>. Most importantly, we see our audience as co-conspirators, working together to define and create the next generation of software development practices. The below table should help to clarify further:</p>
        <table class="do-dont m-b-6">
