@@ -23,7 +23,3 @@ Todo: Add live component block with code example
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
 [Sketch Measure Preview for labels](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/labels-spec-previews/)
-
-## Related patterns
-
-* [Badges](/components/badges)
