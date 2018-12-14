@@ -57,7 +57,6 @@
             :open="$route.fullPath.startsWith('/brand-personality/')" 
             class="nav-sidebar__section"
           >
-            <span class="nav-sidebar__section-title">Brand</span>
             <li>
               <span class="nav-sidebar__section-title">Brand</span>
                 <details 
