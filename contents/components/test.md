@@ -35,23 +35,29 @@ The principles defined should align to the following guidelines to assure they a
 
 ### Origin and purpose
 
-Generally speaking, purpose and values inform principles, while principles inform the product.
+Generally speaking, purpose and values inform principles, while principles inform the product. Make sure that principles are informed and do not conflict.
 
 Principles should either inform the process or the desired output. The ones that define processes are described in our [handbook](https://about.gitlab.com/handbook/product/#product-principles), while the outcome principles are detailed here.
+
+### Target audience
+
+Different teams require different principles in order to guide them, while some principles might be usefull to more than  one. It is important that the target audience is clear in order to avoid confusion while considering when making decisions.
+
+### Actionable and genuine
+
+Principles should be actionable and thus strike a balance between being too generic and too specific. Additionally, for them to be genuine and have context they are required to have real demonstration examples.
+
+### Give direction by being opinionated
+
+When principles have a point of view they give direction and thus keep teams on the path to achieving their vision. It defines a decision where other companies could have diverged. By contrast, it is less effective to state things in principles that are logical and wished upon by default. An example of this would be "Useful", of which the opposite would be "not useful". Slim are the chances a company wants to create such a product and obvious the fact that a company wants to create a useful product.
 
 ### Explicit hierarchy
 
 Each principle should be assigned a hierarchy position in order to resolve confusion about what to do in a specific circumstance, while remaining consistent.
 
-### Actionable and genuine
+### Memorable
 
-Principles should be actionable and thus strike a balance between being too generic and too specific. 
-
-- Genuine (Test: Can you point to the examples that demonstarte this principle?)
-- Have a point of view (Test: Could an opposite principle work for another company?)
-- Actionable ()
-- Memorable (Ideally 3-5, Test: Can your team remeber them?)
-- Explicit (They should have their hierarchy defined)
+Similar to the [GitLab Values](https://about.gitlab.com/handbook/values/#about-our-values), principles are most effective when they are easy to remember. Because of this the amount of principles should be kept low and there is the possibility  to add sub principles. Three to five principles are ideal. Anything that make them even more memorable is helpful.
 
 ### Format
 
