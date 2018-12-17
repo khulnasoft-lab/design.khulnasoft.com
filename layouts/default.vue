@@ -125,6 +125,11 @@
           >
             <li>
               <span class="nav-sidebar__section-title">Product</span>
+              <nuxt-link 
+                tag="li"
+                class="nav-sidebar__section-items-anchor nav-sidebar--indent-1" 
+                to="/components/test"
+              >Principles</nuxt-link>
               <details 
                 :open="$route.fullPath.startsWith('/getting-started/')" 
                 class="nav-sidebar__section"
