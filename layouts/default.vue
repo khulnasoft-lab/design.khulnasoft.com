@@ -128,7 +128,7 @@
               <nuxt-link 
                 tag="li"
                 class="nav-sidebar__section-items-anchor nav-sidebar--indent-1" 
-                to="/components/test"
+                to="/components/principles"
               >Principles</nuxt-link>
               <details 
                 :open="$route.fullPath.startsWith('/getting-started/')" 

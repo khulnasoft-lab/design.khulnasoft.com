@@ -49,16 +49,11 @@
         </div>
         <div class="a-center d-block m-t-8 m-b-5 text-center">
           <a 
-            href="https://about.gitlab.com/researchpanel/" 
+            href="/#/components/principles"
             target="_blank" 
             class="card card--highlighted card--link text-center m-l-5 p-a-4"
           >
-            <img 
-              src="../assets/images/principles.png" 
-              srcset="../assets/images/principles@2x.png 2x" 
-              class="a-center d-block m-b-3"
-            />
-            Go into detail with our principles
+            Learn more about our principles
           </a>
         </div>
       </div>
@@ -83,8 +78,8 @@
           class="card card--highlighted card--link text-center p-a-4"
         >
           <img 
-            src="../assets/images/resources/r-gitlab.png" 
-            srcset="../assets/images/resources/r-gitlab@2x.png 2x" 
+            src="../assets/images/resources/r-sketch.png" 
+            srcset="../assets/images/resources/r-sketch@2x.png 2x" 
             class="a-center d-block m-b-3"
           />
           View repository
