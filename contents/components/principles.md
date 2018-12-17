@@ -41,7 +41,7 @@ Principles should either inform the process or the desired output. The ones that
 
 ### Target audience
 
-Different teams require different principles in order to guide them, while some principles might be usefull to more than  one. It is important that the target audience is clear in order to avoid confusion while considering them when making decisions.
+Different teams require different principles in order to guide them, while some principles might be useful to more than one. It is important that the target audience is clear in order to avoid confusion while considering them when making decisions.
 
 ### Actionable and genuine
 
@@ -57,7 +57,7 @@ Each principle should be assigned a hierarchy position in order to resolve confu
 
 ### Memorable
 
-Similar to the [GitLab Values](https://about.gitlab.com/handbook/values/#about-our-values), principles are most effective when they are easy to remember. Because of this the amount of principles should be kept low and there is the possibility  to add sub principles. Three to five principles are ideal. Anything that make them even more memorable is helpful.
+Similar to the [GitLab Values](https://about.gitlab.com/handbook/values/#about-our-values), principles are most effective when they are easy to remember. Because of this the amount of principles should be kept low and there is the possibility to add sub principles. Three to five principles are ideal. Anything that make them even more memorable is helpful.
 
 ### Format
 
