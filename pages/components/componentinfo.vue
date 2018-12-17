@@ -8,6 +8,7 @@
         v-model="tabIndex"
         nav-class="top-area nav-links issues-state-filters mobile-separator nav nav-tabs"
         nav-wrapper-class="app-styles"
+        lazy
       >
         <b-tab
           title="Design"
@@ -80,13 +81,13 @@ import mdDisplay from '../../components/md_display.vue';
 
 export default {
   components: {
-    'md-display': mdDisplay,
+    'md-display': mdDisplay
   },
   props: {
     frontmatterInfo: {
       type: Object,
-      required: true,
-    },
+      required: true
+    }
   },
   data() {
     return {
