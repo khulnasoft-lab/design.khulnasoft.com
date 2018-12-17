@@ -10,21 +10,21 @@ We take inspiration from other companies and look inwards to our own work as to 
 
 ## Productive (1)
 
-Intro stating why, how, and what of the principle.
+GitLab is an application to support what people do, day in, day out. We need to respect the importance of their work, and avoid gimicky details.
 
 1. **Bold sub principle(s) title** Explanation, plus optional reference
   - Example(s), plus mandatory reference
 
 ## Minimal (2)
 
-Intro stating why, how, and what of the principle.
+While work can get complicated, GitLab is about bringing a sharp focus, helping our customers know what matters now.
 
 1. **Bold sub principle(s) title** Explanation, plus optional reference
   - Example(s), plus mandatory reference
 
 ## Human (3)
 
-Intro stating why, how, and what of the principle.
+We need to build empathy with our users, understand their state of mind, and connect with them on a human level.
 
 1. **Bold sub principle(s) title** Explanation, plus optional reference
   - Example(s), plus mandatory reference

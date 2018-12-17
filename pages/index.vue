@@ -44,7 +44,7 @@
           />
           <div class="principle__content m-l-5">
             <h2>Human</h2>
-            <p>We need to build empathy with our users, understand their state of mind, and connect with them on a human level. Quirkiness is part of our DNA; we should embrace it in the right moments and contexts.</p>
+            <p>We need to build empathy with our users, understand their state of mind, and connect with them on a human level.</p>
           </div>
         </div>
         <div class="a-center d-block m-t-8 m-b-5 text-center">
