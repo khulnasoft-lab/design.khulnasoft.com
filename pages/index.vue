@@ -47,6 +47,20 @@
             <p>We need to build empathy with our users, understand their state of mind, and connect with them on a human level. Quirkiness is part of our DNA; we should embrace it in the right moments and contexts.</p>
           </div>
         </div>
+        <div class="a-center d-block m-t-8 m-b-5 text-center">
+          <a 
+            href="https://about.gitlab.com/researchpanel/" 
+            target="_blank" 
+            class="card card--highlighted card--link text-center m-l-5 p-a-4"
+          >
+            <img 
+              src="../assets/images/principles.png" 
+              srcset="../assets/images/principles@2x.png 2x" 
+              class="a-center d-block m-b-3"
+            />
+            Go into detail with our principles
+          </a>
+        </div>
       </div>
     </div>
     <div class="content contribute p-t-8 p-b-8">

@@ -41,7 +41,7 @@ Principles should either inform the process or the desired output. The ones that
 
 ### Target audience
 
-Different teams require different principles in order to guide them, while some principles might be usefull to more than  one. It is important that the target audience is clear in order to avoid confusion while considering when making decisions.
+Different teams require different principles in order to guide them, while some principles might be usefull to more than  one. It is important that the target audience is clear in order to avoid confusion while considering them when making decisions.
 
 ### Actionable and genuine
 
@@ -74,3 +74,4 @@ Intro stating why, how, and what of the principle.
 
 - [Design systems handbook - Design better](https://www.designbetter.co/design-systems-handbook/expanding-design-system)
 - [From purpose to patterns - Alla Kholmatova](https://speakerdeck.com/craftui/from-purpose-to-patterns)
+- [Design principles](https://principles.design/#what-are-design-principles)
