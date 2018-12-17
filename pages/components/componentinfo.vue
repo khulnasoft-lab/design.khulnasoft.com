@@ -7,6 +7,7 @@
       <b-tabs
         nav-class="top-area nav-links issues-state-filters mobile-separator nav nav-tabs"
         nav-wrapper-class="app-styles"
+        lazy
       >
         <b-tab 
           title="Design" 
@@ -79,13 +80,13 @@ import mdDisplay from '../../components/md_display.vue'
 
 export default {
   components: {
-    'md-display': mdDisplay,
+    'md-display': mdDisplay
   },
   props: {
     frontmatterInfo: {
       type: Object,
-      required: true,
-    },
+      required: true
+    }
   },
   data() {
     return {
@@ -93,7 +94,7 @@ export default {
       componentAttributes: null,
       componentBody: null,
       vueComponents: null,
-      vueComponentDocumentations: {},
+      vueComponentDocumentations: {}
     }
   },
   created() {
@@ -105,18 +106,23 @@ export default {
 
     if (this.vueComponents) {
       this.vueComponents.forEach(vueComponentName => {
-        let snakeName = vueComponentName.replace(/([A-Z])/g, $1 => `_${$1.toLowerCase()}`)
+        let snakeName = vueComponentName.replace(
+          /([A-Z])/g,
+          $1 => `_${$1.toLowerCase()}`
+        )
         if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1)
         snakeName = snakeName.replace(/gl_/, '')
 
-        Object.keys(Documentation.ComponentDocumentations).forEach(component => {
-          if (component.startsWith(vueComponentName)) {
-            this.vueComponentDocumentations[vueComponentName] =
-              Documentation.ComponentDocumentations[component]
+        Object.keys(Documentation.ComponentDocumentations).forEach(
+          component => {
+            if (component.startsWith(vueComponentName)) {
+              this.vueComponentDocumentations[vueComponentName] =
+                Documentation.ComponentDocumentations[component]
+            }
           }
-        })
+        )
       })
     }
-  },
+  }
 }
 </script>
