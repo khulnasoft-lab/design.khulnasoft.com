@@ -75,6 +75,10 @@
                   class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
                   to="/brand-personality/tone-of-voice"
                 >Tone of voice</nuxt-link>
+                <nuxt-link 
+                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
+                  to="/brand-personality/brand-personas"
+                >Personas</nuxt-link>
               </details>
             </li>
             <li>
