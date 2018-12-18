@@ -75,8 +75,6 @@
 </template>
 
 <script>
-// import * as Documentation from '@gitlab/ui/documentation';
-
 import {
   ComponentDocumentations,
   GlComponentDocumentation,
