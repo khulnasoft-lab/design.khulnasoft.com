@@ -75,13 +75,21 @@
 </template>
 
 <script>
-import * as Documentation from '@gitlab/ui/documentation';
+// import * as Documentation from '@gitlab/ui/documentation';
+
+import {
+  ComponentDocumentations,
+  GlComponentDocumentation,
+  GlExampleExplorer,
+} from '@gitlab/ui/documentation';
 
 import mdDisplay from '../../components/md_display.vue';
 
 export default {
   components: {
     'md-display': mdDisplay,
+    GlComponentDocumentation,
+    GlExampleExplorer,
   },
   props: {
     frontmatterInfo: {
@@ -112,10 +120,9 @@ export default {
         if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1);
         snakeName = snakeName.replace(/gl_/, '');
 
-        Object.keys(Documentation.ComponentDocumentations).forEach(component => {
+        Object.keys(ComponentDocumentations).forEach(component => {
           if (component.startsWith(vueComponentName)) {
-            this.vueComponentDocumentations[vueComponentName] =
-              Documentation.ComponentDocumentations[component];
+            this.vueComponentDocumentations[vueComponentName] = ComponentDocumentations[component];
           }
         });
       });
