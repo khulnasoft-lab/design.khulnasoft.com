@@ -54,13 +54,13 @@
       <div class="nav-sidebar__body m-b-3">
         <template v-if="contentTree">
           <ul 
-            :open="$route.fullPath.startsWith('/brand-personality/')" 
+            :open="$route.fullPath.startsWith('/brand-get-started/')" 
             class="nav-sidebar__section"
           >
             <span class="nav-sidebar__section-title">Brand</span>
             <li>
               <details 
-                :open="$route.fullPath.startsWith('/brand-personality/')" 
+                :open="$route.fullPath.startsWith('/brand-get-started/')" 
                 class="nav-sidebar__section"
               >
                 <summary
@@ -69,16 +69,12 @@
                 >Get started</summary>
                 <nuxt-link 
                   class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-                  to="/brand-personality/brand-personality"
-                >Brand personality</nuxt-link>
-                <nuxt-link 
-                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-                  to="/brand-personality/tone-of-voice"
-                >Tone of voice</nuxt-link>
-                <nuxt-link 
-                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-                  to="/brand-personality/brand-personas"
+                  to="/brand-get-started/brand-personas"
                 >Personas</nuxt-link>
+                <nuxt-link 
+                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
+                  to="/brand-get-started/tone-of-voice"
+                >Tone of voice</nuxt-link>
               </details>
             </li>
             <li>
