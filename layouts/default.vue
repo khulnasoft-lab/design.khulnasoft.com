@@ -69,7 +69,7 @@
                 >Get started</summary>
                 <nuxt-link 
                   class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-                  to="/brand-get-started/brand-personas"
+                  to="/brand-get-started/brand-personas-roles"
                 >Personas</nuxt-link>
                 <nuxt-link 
                   class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
