@@ -12,7 +12,7 @@
        <h3>GitLab the product</h3>
        <p>GitLab is a single application for the complete DevOps lifecycle. See the product elevator pitch for additional messaging.</p>
        <h2>Tone of Voice</h2>
-       <p>The tone of voice we use when speaking as GitLab should always be informed by our <a href="https://gitlab.com/gitlab-com/marketing/blob/master/content/content-strategy.md#strategy">Content Strategy</a>. Most importantly, we see our audience as co-conspirators, working together to define and create the next generation of software development practices. The below table should help to clarify further:</p>
+       <p>The tone of voice we use when speaking as GitLab should always be informed by our <a href="https://gitlab.com/gitlab-com/marketing/general/blob/master/content/content-strategy.md#strategy">Content Strategy</a>. Most importantly, we see our audience as co-conspirators, working together to define and create the next generation of software development practices. The below table should help to clarify further:</p>
        <table class="do-dont m-b-6">
         <thead>
           <tr>
