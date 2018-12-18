@@ -40,7 +40,7 @@
       </ul>
       <p>Examples of improper use of the GitLab trademark and logo:</p>
       <ul>
-        <li>The GitLab name may not be used in any root URL, including subdomains such as gitlab.company.com or gitlab.citool.io.</li>
+        <li>The GitLab name may not be used in any root URL, including subdomains such as <code>gitlab.company.com</code> or <code>gitlab.citool.io</code>.</li>
         <li>The GitLab trademark and/or logo may not be used as the primary or prominent feature on any non-GitLab materials.</li>
       </ul>
       <h2>Using other logos</h2>
