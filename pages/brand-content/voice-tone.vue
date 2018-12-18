@@ -6,7 +6,7 @@
        <p>See <a href="https://about.gitlab.com/handbook/marketing/corporate-marketing/#general-editorial-style-guidelines">General editorial</a> style guidelines for more.</p>
        <h2>About</h2>
        <h3>GitLab the community</h3>
-       <p>GitLab is an open source project with a large community of contributors. Over 2,000 people worldwide have contributed to GitLab's source code.</p>
+       <p>GitLab is an <a href="https://gitlab.com/gitlab-org/gitlab-ce/" target="_blank">open source project</a> with a large community of contributors. Over 2,000 people worldwide have contributed to GitLab's source code.</p>
        <h3>GitLab the company</h3>
        <p>GitLab Inc. is a company based on the GitLab open source project. GitLab Inc. is an active participant in our community (see our stewardship of GitLab CE for more information), as well as offering GitLab, a product (see below).</p>
        <h3>GitLab the product</h3>
