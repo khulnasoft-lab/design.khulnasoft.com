@@ -81,13 +81,13 @@ import mdDisplay from '../../components/md_display.vue';
 
 export default {
   components: {
-    'md-display': mdDisplay
+    'md-display': mdDisplay,
   },
   props: {
     frontmatterInfo: {
       type: Object,
-      required: true
-    }
+      required: true,
+    },
   },
   data() {
     return {
@@ -121,11 +121,6 @@ export default {
       });
     }
   },
-  methods: {
-    setActiveTab(tabEl) {
-      this.tabIndex = [...tabEl.parentNode.children].indexOf(tabEl);
-    },
-  },
   mounted() {
     if (this.$route.hash) {
       const targetAnchor = this.$el.querySelector(this.$route.hash);
@@ -145,6 +140,11 @@ export default {
         window.scrollTo(0, targetAnchor.offsetTop);
       });
     }
+  },
+  methods: {
+    setActiveTab(tabEl) {
+      this.tabIndex = [...tabEl.parentNode.children].indexOf(tabEl);
+    },
   },
 };
 </script>
