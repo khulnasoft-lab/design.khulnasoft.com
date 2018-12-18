@@ -54,7 +54,7 @@
         <a 
           href="/#/components/principles"
           target="_blank" 
-          class="card card--highlighted card--link text-center p-a-4 p-l-8 p-r-8 a-center"
+          class="card card--highlighted card--link text-center p-a-4 p-l-9 p-r-9 a-center"
         >
           <img 
             src="../assets/images/principles.png" 
