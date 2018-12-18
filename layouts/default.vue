@@ -125,11 +125,6 @@
           >
             <li>
               <span class="nav-sidebar__section-title">Product</span>
-              <nuxt-link 
-                tag="li"
-                class="nav-sidebar__section-items-anchor nav-sidebar--indent-1" 
-                to="/components/principles"
-              >Principles</nuxt-link>
               <details 
                 :open="$route.fullPath.startsWith('/getting-started/')" 
                 class="nav-sidebar__section"
@@ -138,6 +133,11 @@
                   class="nav-sidebar__section-summary nav-sidebar--indent-1"
                   @click="selectFirstSubItem"
                 >Get started</summary>
+                <nuxt-link 
+                  tag="li"
+                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
+                  to="/components/principles"
+                >Principles</nuxt-link>
                 <nuxt-link 
                   class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
                   to="/getting-started/structure"
