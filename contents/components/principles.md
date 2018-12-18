@@ -35,7 +35,7 @@ The principles defined should align to the following guidelines to assure they a
 
 ### Origin and purpose
 
-Purpose and values inform principles, while principles inform the product. Make sure that this is the case by having no conflicting statements.
+Purpose and values inform principles, while principles inform the product. Make sure that no conflicting principles are introduced.
 
 Principles should either inform the process or the desired output. Those that define processes are described in our [handbook](https://about.gitlab.com/handbook/product/#product-principles), while the outcome principles are detailed here.
 
