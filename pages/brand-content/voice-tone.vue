@@ -8,7 +8,7 @@
        <h3>GitLab the community</h3>
        <p>GitLab is an <a href="https://gitlab.com/gitlab-org/gitlab-ce/" target="_blank">open source project</a> with a large community of contributors. Over 2,000 people worldwide have contributed to GitLab's source code.</p>
        <h3>GitLab the company</h3>
-       <p>GitLab Inc. is a company based on the GitLab open source project. GitLab Inc. is an active participant in our community (see our stewardship of GitLab CE for more information), as well as offering GitLab, a product (see below).</p>
+       <p>GitLab Inc. is a company based on the GitLab open source project. GitLab Inc. is an active participant in our community (see our <a href="https://about.gitlab.com/stewardship" target="_blank">stewardship of GitLab CE</a> for more information), as well as offering GitLab, a product (see below).</p>
        <h3>GitLab the product</h3>
        <p>GitLab is a single application for the complete DevOps lifecycle. See the product elevator pitch for additional messaging.</p>
        <h2>Tone of Voice</h2>
