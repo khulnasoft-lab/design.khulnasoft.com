@@ -14,7 +14,7 @@
       />
       <div class="overlay"></div>
     </div>
-    <div class="content limited m-t-10 m-b-10">
+    <div class="content limited m-t-10">
       <div class="distributed principles a-center max-w-sm">
         <div class="principle m-b-7">
           <img 
@@ -47,15 +47,22 @@
             <p>We need to build empathy with our users, understand their state of mind, and connect with them on a human level.</p>
           </div>
         </div>
-        <div class="a-center d-block m-t-8 m-b-5 text-center">
-          <a 
-            href="/#/components/principles"
-            target="_blank" 
-            class="card card--highlighted card--link text-center m-l-5 p-a-4"
-          >
-            Learn more about our principles
-          </a>
-        </div>
+      </div>
+    </div>
+    <div class="content limited p-b-10">
+      <div class="principle-action resources d-flex a-center m-t-8 m-b-5 text-center">
+        <a 
+          href="/#/components/principles"
+          target="_blank" 
+          class="card card--highlighted card--link text-center p-a-4 p-l-8 p-r-8 a-center"
+        >
+          <img 
+            src="../assets/images/principles.png" 
+            srcset="../assets/images/principles@2x.png 2x" 
+            class="a-center d-block m-b-3"
+          />
+          Learn more about our principles
+        </a>
       </div>
     </div>
     <div class="content contribute p-t-8 p-b-8">
