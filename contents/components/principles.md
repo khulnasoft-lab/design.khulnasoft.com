@@ -57,7 +57,7 @@ Each principle should be assigned a hierarchy position to resolve confusion abou
 
 ### Memorable
 
-Similar to the [GitLab Values](https://about.gitlab.com/handbook/values/#about-our-values), principles are most effective when they are easy to remember. Because of this, the number of principles should be kept low, and there is the possibility to add sub-principles. Three to five principles are ideal. Anything that makes them even more memorable is helpful.
+Similar to the [GitLab Company Values](https://about.gitlab.com/handbook/values/#about-our-values), principles are most effective when they are easy to remember. Because of this, the number of principles should be kept low, and there is the possibility to add sub-principles. Three to five principles are ideal. Anything that makes them even more memorable is helpful.
 
 ### Format
 
