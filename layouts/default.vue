@@ -136,7 +136,7 @@
                 <nuxt-link 
                   tag="li"
                   class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-                  to="/components/principles"
+                  to="/getting-started/principles"
                 >Principles</nuxt-link>
                 <nuxt-link 
                   class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 

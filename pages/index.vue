@@ -52,7 +52,7 @@
     <div class="content limited p-b-10">
       <div class="principle-action resources d-flex a-center m-t-8 m-b-5 text-center">
         <a 
-          href="/#/components/principles"
+          href="/getting-started/principles"
           target="_blank" 
           class="card card--highlighted card--link text-center p-a-4 p-l-9 p-r-9 a-center"
         >
