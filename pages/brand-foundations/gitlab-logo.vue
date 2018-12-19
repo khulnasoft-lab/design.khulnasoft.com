@@ -28,9 +28,9 @@
         width="278px"
       />
       <h2>The Tanuki</h2>
-      <p>The <a href="https://en.wikipedia.org/wiki/Japanese_raccoon_dog">tanuki</a> is a very smart animal that works together in a group to achieve a common goal. We feel this symbolism embodies GitLab's <a href="https://about.gitlab.com/company/strategy/#mission">mission</a> that everyone can contribute, our <a href="https://about.gitlab.com/handbook/values/">values</a>, and our <a href="https://about.gitlab.com/company/stewardship/">open source stewardship</a>.</p>
+      <p>The <a href="https://en.wikipedia.org/wiki/Japanese_raccoon_dog" target="_blank">tanuki</a> is a very smart animal that works together in a group to achieve a common goal. We feel this symbolism embodies GitLab's <a href="https://about.gitlab.com/company/strategy/#mission" target="_blank">mission</a> that everyone can contribute, our <a href="https://about.gitlab.com/handbook/values/" target="_blank">values</a>, and our <a href="https://about.gitlab.com/company/stewardship/" target="_blank">open source stewardship</a>.</p>
       <h2>GitLab trademarks &amp; logo guidelines</h2>
-      <p>GitLab is a registered trademark of GitLab, Inc. You are welcome to use the GitLab trademark and logo, subject to the terms of the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution Non-Commercial ShareAlike 4.0 International License</a>. The most current version of the GitLab logo can be found on our <a href="https://about.gitlab.com/press/">Press page</a>.</p>
+      <p>GitLab is a registered trademark of GitLab, Inc. You are welcome to use the GitLab trademark and logo, subject to the terms of the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution Non-Commercial ShareAlike 4.0 International License</a>. The most current version of the GitLab logo can be found on our <a href="https://about.gitlab.com/press/" target="_blank">Press page</a>.</p>
       <p>Under the Creative Commons license, you may use the GitLab trademark and logo so long as you give attribution to GitLab and provide a link to the license. If you make any changes to the logo, you must state so, along with the attribution, and distribute under the same license.</p>
       <p>Your use of the GitLab trademark and logo:</p>
       <ul>
