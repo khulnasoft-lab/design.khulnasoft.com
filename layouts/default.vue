@@ -54,7 +54,7 @@
       <div class="nav-sidebar__body m-b-3">
         <template v-if="contentTree">
           <ul 
-            :open="$route.fullPath.startsWith('/brand-personality/')" 
+            :open="$route.fullPath.startsWith('/brand-get-started/')" 
             class="nav-sidebar__section"
           >
             <li>
@@ -73,7 +73,7 @@
                 >Brand personality</nuxt-link>
                 <nuxt-link 
                   class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-                  to="/brand-get-started/brand-personas"
+                  to="/brand-get-started/brand-personas-roles"
                 >Personas</nuxt-link>
                 </details>
             </li>
