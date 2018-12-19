@@ -3,7 +3,7 @@
     <div class="component md">
       <h1>Voice and tone</h1>
        <p>The following guide outlines the set of standards used for all written company communications to ensure consistency in voice, style, and personality across all of GitLab's public communications.</p>
-       <p>See <a href="https://about.gitlab.com/handbook/marketing/corporate-marketing/#general-editorial-style-guidelines">General editorial</a> style guidelines for more.</p>
+       <p>See <a href="https://about.gitlab.com/handbook/marketing/corporate-marketing/#general-editorial-style-guidelines" target="_blank">General editorial</a> style guidelines for more.</p>
        <h2>About</h2>
        <h3>GitLab the community</h3>
        <p>GitLab is an <a href="https://gitlab.com/gitlab-org/gitlab-ce/" target="_blank">open source project</a> with a large community of contributors. Over 2,000 people worldwide have contributed to GitLab's source code.</p>
@@ -12,7 +12,7 @@
        <h3>GitLab the product</h3>
        <p>GitLab is a single application for the complete DevOps lifecycle. See the <a href="https://about.gitlab.com/handbook/marketing/product-marketing/#elevator-pitch" target="_blank">product elevator pitch</a> for additional messaging.</p>
        <h2>Tone of Voice</h2>
-       <p>The tone of voice we use when speaking as GitLab should always be informed by our <a href="https://gitlab.com/gitlab-com/marketing/general/blob/master/content/content-strategy.md#strategy">Content Strategy</a>. Most importantly, we see our audience as co-conspirators, working together to define and create the next generation of software development practices. The below table should help to clarify further:</p>
+       <p>The tone of voice we use when speaking as GitLab should always be informed by our <a href="https://gitlab.com/gitlab-com/marketing/general/blob/master/content/content-strategy.md#strategy" target="_blank">Content Strategy</a>. Most importantly, we see our audience as co-conspirators, working together to define and create the next generation of software development practices. The below table should help to clarify further:</p>
        <table class="do-dont m-b-6">
         <thead>
           <tr>
@@ -90,7 +90,7 @@
       <p>We explain things in the simplest way possible, using plain, accessible language.</p>
       <p>We keep a sense of humor about things, but don't make light of serious issues or problems our users or customers face.</p>
       <p>We use colloquialisms and slang, but sparingly (don't look like you're trying too hard!).</p>
-      <p>We use <a href="https://litreactor.com/columns/5-easy-ways-to-make-your-writing-gender-neutral">inclusive, gender-neutral language</a>.</p>
+      <p>We use <a href="https://litreactor.com/columns/5-easy-ways-to-make-your-writing-gender-neutral" target="_blank">inclusive, gender-neutral language</a>.</p>
     </div>
   </div>
 </template>
