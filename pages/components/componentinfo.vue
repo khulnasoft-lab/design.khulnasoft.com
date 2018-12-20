@@ -16,6 +16,16 @@
           class="p-t-3 js-gl-tab"
         >
           <md-display :md="componentBody" />
+          <div class="m-t-6">
+            <div class="md">
+              <h2 id="related-patterns">Related patterns</h2>
+              <template v-for="relatedPatternName in related">
+                <li :key="`${relatedPatternName}`">
+                  <a :href="'/components/' + relatedPatternName">{{ relatedPatternName }}</a>
+                </li>
+              </template>
+            </div>
+          </div>
         </b-tab>
         <b-tab
           v-if="vueComponents && vueComponents.length > 0"
@@ -101,6 +111,7 @@ export default {
       componentAttributes: null,
       componentBody: null,
       vueComponents: null,
+      related: null,
       vueComponentDocumentations: {},
       tabIndex: 0,
     };
@@ -109,6 +120,7 @@ export default {
     this.componentAttributes = this.frontmatterInfo.attributes;
 
     this.vueComponents = this.frontmatterInfo.attributes.vueComponents;
+    this.related = this.frontmatterInfo.attributes.related;
 
     this.componentBody = this.frontmatterInfo.body;
 
