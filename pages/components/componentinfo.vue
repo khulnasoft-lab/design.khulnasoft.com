@@ -19,11 +19,14 @@
           <div class="m-t-6">
             <div class="md">
               <h2 id="related-patterns">Related patterns</h2>
-              <template v-for="relatedPatternName in related">
-                <li :key="`${relatedPatternName}`">
-                  <a :href="'/components/' + relatedPatternName">{{ relatedPatternName }}</a>
+              <ul v-if="hasRelatedPatterns">
+                <li v-for="pattern in relatedPatterns" :key="pattern.slug">
+                  <a :href="pattern.url">{{ pattern.label }}</a>
                 </li>
-              </template>
+              </ul>
+              <div v-else>
+                No related patterns known.
+              </div>
             </div>
           </div>
         </b-tab>
@@ -161,6 +164,18 @@ export default {
   methods: {
     setActiveTab(tabEl) {
       this.tabIndex = [...tabEl.parentNode.children].indexOf(tabEl);
+    },
+  },
+  computed: {
+    hasRelatedPatterns() {
+      return this.relatedPatterns && this.relatedPatterns.length > 0;
+    },
+    relatedPatterns() {
+      return (this.related || []).map(slug => ({
+        slug,
+        url: `/components/${slug}`,
+        label: (slug.charAt(0).toLocaleUpperCase() + slug.substring(1)).split('-').join(' '),
+      }));
     },
   },
 };
