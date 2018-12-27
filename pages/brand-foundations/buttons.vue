@@ -12,6 +12,12 @@
         src="~/assets/images/brand/jobs-buttons-example.png" alt="primary and secondary button example" 
         width="600px"
       />
+      <p>This is the proper use of two buttons, both being solid, but different colors based on hierarchy. If the background is white or a lighter color that doesn't contrast well with a white-backgound button, a ghost button should be used as a secondary button, and should match in color to the primary button beside it as shown below:</p>
+      <div class="buttons-container flex-start"> <a href="/handbook/marketing/corporate-marketing/#primary-buttons" class="btn cta-btn orange margin-top20">Primary Button</a> <a href="/handbook/marketing/corporate-marketing/#primary-buttons" class="btn cta-btn ghost-orange margin-top20">Secondary Button</a> </div>
+      <div class="buttons-container flex-start margin-bottom20"> <a href="/handbook/marketing/corporate-marketing/#primary-buttons" class="btn cta-btn purple margin-top20">Primary Button</a> <a href="/handbook/marketing/corporate-marketing/#primary-buttons" class="btn cta-btn ghost-purple margin-top20">Secondary Button</a> </div>
+      <p>DO NOT: Do not use these ghost buttons styles as standalone buttons. They have been proven to be less effective than solid buttons <a href="https://conversionxl.com/blog/ghost-buttons/" target="_blank">in a number of studies</a>. They should only be used as a secondary button, next to a solid primary button that already exists. Here are the classes for the secondary buttons:</p>
+      <div class="flex-container flex-column flex-start margin-bottom20"> <a href="/handbook/marketing/corporate-marketing/#primary-buttons" class="btn cta-btn ghost-orange margin-top20">Secondary Button 1</a> <pre class="highlight shell">.btn.cta-btn.ghost-orange</pre> <a href="/handbook/marketing/corporate-marketing/#primary-buttons" class="btn cta-btn ghost-purple">Secondary Button 2</a> <pre class="highlight shell">.btn.cta-btn.ghost-purple</pre> </div>
+
     </div>
   </div>
 </template>
