@@ -9,7 +9,7 @@
           <svg 
             width="24" 
             height="24" 
-            class="tanuki-logo m-r-2" 
+            class="tanuki-logo m-r-3" 
             viewBox="0 0 36 36"
           >
             <path
@@ -54,13 +54,13 @@
       <div class="nav-sidebar__body m-b-3">
         <template v-if="contentTree">
           <ul 
-            :open="$route.fullPath.startsWith('/brand-personality/')" 
+            :open="$route.fullPath.startsWith('/brand-get-started/')" 
             class="nav-sidebar__section"
           >
-            <span class="nav-sidebar__section-title">Brand</span>
             <li>
-              <details 
-                :open="$route.fullPath.startsWith('/brand-personality/')" 
+              <span class="nav-sidebar__section-title">Brand</span>
+                <details 
+                :open="$route.fullPath.startsWith('/brand-get-started/')" 
                 class="nav-sidebar__section"
               >
                 <summary
@@ -69,13 +69,13 @@
                 >Get started</summary>
                 <nuxt-link 
                   class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-                  to="/brand-personality/brand-personality"
+                  to="/brand-get-started/brand-personality"
                 >Brand personality</nuxt-link>
                 <nuxt-link 
                   class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-                  to="/brand-personality/tone-of-voice"
-                >Tone of voice</nuxt-link>
-              </details>
+                  to="/brand-get-started/brand-personas-roles"
+                >Personas</nuxt-link>
+                </details>
             </li>
             <li>
               <details 
@@ -108,11 +108,18 @@
                 >Iconography</nuxt-link>
               </details>
             </li>
-            <nuxt-link 
-              tag="li"
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-1" 
-              to="/brand-content/content"
-            >Content</nuxt-link>
+            <li>
+              <details 
+                :open="$route.fullPath.startsWith('/brand-content/')" 
+                class="nav-sidebar__section"
+                >
+                <summary class="nav-sidebar__section-summary nav-sidebar--indent-1">Content</summary>
+                <nuxt-link 
+                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
+                  to="/brand-content/voice-tone"
+                >Voice &amp; Tone</nuxt-link>
+              </details>
+            </li>
             <nuxt-link 
               tag="li"
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-1" 
@@ -377,45 +384,45 @@
 export default {
   data() {
     return {
-      contentTree: null
-    }
+      contentTree: null,
+    };
   },
   computed: {
     contentWrapper() {
-      return this.$route.fullPath === '/' ? '' : 'content'
-    }
+      return this.$route.fullPath === '/' ? '' : 'content';
+    },
   },
   created() {
     this.$axios
       .$get(`/contents/contentTree.json`)
       .then(treeResult => {
-        this.contentTree = treeResult
+        this.contentTree = treeResult;
       })
       .catch(e => {
         // eslint-disable-next-line
-        console.log('Err : ', e)
-      })
+        console.log('Err : ', e);
+      });
   },
   methods: {
     selectFirstSubItem(ev) {
-      const { target } = ev
+      const { target } = ev;
       if (target && target.parentNode) {
-        const detailsLinks = target.parentNode.querySelectorAll('a')
+        const detailsLinks = target.parentNode.querySelectorAll('a');
         if (detailsLinks.length > 0) {
-          const firstLink = detailsLinks[0].getAttribute('href')
+          const firstLink = detailsLinks[0].getAttribute('href');
           if (firstLink) {
-            const that = this
+            const that = this;
             setTimeout(() => {
               that.$router.push({
-                path: firstLink.replace(/#/, '')
-              })
-            }, 1)
+                path: firstLink.replace(/#/, ''),
+              });
+            }, 1);
           }
         }
       }
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style lang="scss">

@@ -8,6 +8,7 @@
         v-model="tabIndex"
         nav-class="top-area nav-links issues-state-filters mobile-separator nav nav-tabs"
         nav-wrapper-class="app-styles"
+        lazy
       >
         <b-tab
           title="Design"
@@ -15,6 +16,19 @@
           class="p-t-3 js-gl-tab"
         >
           <md-display :md="componentBody" />
+          <div class="m-t-6">
+            <div class="md">
+              <h2 id="related-patterns">Related patterns</h2>
+              <ul v-if="hasRelatedPatterns">
+                <li v-for="pattern in relatedPatterns" :key="pattern.slug">
+                  <a :href="pattern.url">{{ pattern.label }}</a>
+                </li>
+              </ul>
+              <div v-else>
+                No related patterns known.
+              </div>
+            </div>
+          </div>
         </b-tab>
         <b-tab
           v-if="vueComponents && vueComponents.length > 0"
@@ -74,13 +88,19 @@
 </template>
 
 <script>
-import * as Documentation from '@gitlab/ui/documentation'
+import {
+  ComponentDocumentations,
+  GlComponentDocumentation,
+  GlExampleExplorer,
+} from '@gitlab/ui/documentation';
 
-import mdDisplay from '../../components/md_display.vue'
+import mdDisplay from '../../components/md_display.vue';
 
 export default {
   components: {
     'md-display': mdDisplay,
+    GlComponentDocumentation,
+    GlExampleExplorer,
   },
   props: {
     frontmatterInfo: {
@@ -94,46 +114,42 @@ export default {
       componentAttributes: null,
       componentBody: null,
       vueComponents: null,
+      related: null,
       vueComponentDocumentations: {},
-      tabIndex: 0
-    }
+      tabIndex: 0,
+    };
   },
   created() {
-    this.componentAttributes = this.frontmatterInfo.attributes
+    this.componentAttributes = this.frontmatterInfo.attributes;
 
-    this.vueComponents = this.frontmatterInfo.attributes.vueComponents
+    this.vueComponents = this.frontmatterInfo.attributes.vueComponents;
+    this.related = this.frontmatterInfo.attributes.related;
 
-    this.componentBody = this.frontmatterInfo.body
+    this.componentBody = this.frontmatterInfo.body;
 
     if (this.vueComponents) {
       this.vueComponents.forEach(vueComponentName => {
-        let snakeName = vueComponentName.replace(/([A-Z])/g, $1 => `_${$1.toLowerCase()}`)
-        if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1)
-        snakeName = snakeName.replace(/gl_/, '')
+        let snakeName = vueComponentName.replace(/([A-Z])/g, $1 => `_${$1.toLowerCase()}`);
+        if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1);
+        snakeName = snakeName.replace(/gl_/, '');
 
-        Object.keys(Documentation.ComponentDocumentations).forEach(component => {
+        Object.keys(ComponentDocumentations).forEach(component => {
           if (component.startsWith(vueComponentName)) {
-            this.vueComponentDocumentations[vueComponentName] =
-              Documentation.ComponentDocumentations[component]
+            this.vueComponentDocumentations[vueComponentName] = ComponentDocumentations[component];
           }
-        })
-      })
-    }
-  },
-  methods: {
-    setActiveTab(tabEl) {
-      this.tabIndex = [...tabEl.parentNode.children].indexOf(tabEl)
+        });
+      });
     }
   },
   mounted() {
     if (this.$route.hash) {
-      const targetAnchor = this.$el.querySelector(this.$route.hash)
+      const targetAnchor = this.$el.querySelector(this.$route.hash);
 
       if (!targetAnchor) {
-        return
+        return;
       }
 
-      const tabContainingAnchor = targetAnchor.closest('.js-gl-tab')
+      const tabContainingAnchor = targetAnchor.closest('.js-gl-tab');
       if (!tabContainingAnchor) {
         return;
       }
@@ -141,9 +157,26 @@ export default {
       this.setActiveTab(tabContainingAnchor);
 
       this.$nextTick(() => {
-        window.scrollTo(0, targetAnchor.offsetTop)
-      })
+        window.scrollTo(0, targetAnchor.offsetTop);
+      });
     }
-  }
-}
+  },
+  methods: {
+    setActiveTab(tabEl) {
+      this.tabIndex = [...tabEl.parentNode.children].indexOf(tabEl);
+    },
+  },
+  computed: {
+    hasRelatedPatterns() {
+      return this.relatedPatterns && this.relatedPatterns.length > 0;
+    },
+    relatedPatterns() {
+      return (this.related || []).map(slug => ({
+        slug,
+        url: `/components/${slug}`,
+        label: (slug.charAt(0).toLocaleUpperCase() + slug.substring(1)).split('-').join(' '),
+      }));
+    },
+  },
+};
 </script>
