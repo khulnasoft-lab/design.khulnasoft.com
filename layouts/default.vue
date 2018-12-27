@@ -58,12 +58,8 @@
             class="nav-sidebar__section"
           >
             <li>
-<<<<<<< HEAD
-              <details 
-=======
               <span class="nav-sidebar__section-title">Brand</span>
                 <details 
->>>>>>> master
                 :open="$route.fullPath.startsWith('/brand-get-started/')" 
                 class="nav-sidebar__section"
               >
@@ -73,15 +69,6 @@
                 >Get started</summary>
                 <nuxt-link 
                   class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-<<<<<<< HEAD
-                  to="/brand-get-started/brand-personas-roles"
-                >Personas</nuxt-link>
-                <nuxt-link 
-                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-                  to="/brand-get-started/tone-of-voice"
-                >Tone of voice</nuxt-link>
-              </details>
-=======
                   to="/brand-get-started/brand-personality"
                 >Brand personality</nuxt-link>
                 <nuxt-link 
@@ -89,7 +76,6 @@
                   to="/brand-get-started/brand-personas-roles"
                 >Personas</nuxt-link>
                 </details>
->>>>>>> master
             </li>
             <li>
               <details 
