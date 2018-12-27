@@ -5,7 +5,7 @@
       <p>Buttons are an important facet to any design system. Buttons define a call to action that lead people somewhere related to the content it's contained in. There are common practices and data that prove certain types of buttons work better for conversion than others. Here are buttons and their classes that should be used throughout the marketing website:</p>
       <h2>Primary buttons</h2>
       <p>Primary buttons are solid and should be the default buttons used. Depending on the color scheme of the content, purple or orange solid buttons can be used depending on the background color of the content. These primary buttons should be used on white or lighter gray backgrounds or any background that has a high contrast with the button color. They should also be a <code>%a</code> tag so it can be linked elsewhere and for accessibility. Buttons should also be given the class <code>margin-top20</code> if the button lacks space between itself and the content above.</p>
-      <p class="todo">Todo:  Add an example of primary button</p>
+      <p class="todo">Todo:  Add an example of a primary button</p>
       <h2>Secondary buttons</h2>
       <p>There will be times when two buttons are needed. This will be in places such as <a href="https://about.gitlab.com/jobs/" target="_blank">our jobs page</a>, where we have a button to view opportunities and one to view our culture video. In this example, both buttons are solid, but one is considered the primary button (orange), and the other is the secondary button (white). The CSS class for the solid white button is <code>.btn.cta-btn.btn-white</code>.</p>
       <img 
