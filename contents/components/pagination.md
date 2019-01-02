@@ -49,13 +49,6 @@ Infinite scroll is triggered once the user has reached the 20th item of a list a
 
 #### Behavior
 
-##### Load more
-Once the list has loaded more items twice, a **show more** button appears in place of the loading spinner. When the "show more" button is clicked, the list will load the next set of entries. This pattern repeats itself until the user has reached the end of the list.
-
-Todo: Add show more button example
-
-In cases where the user has scrolled enough to load the list twice, and fewer than 20 items remain in the list, we will forgo the use of a "show more" button and instead load the remaining items using the loading spinner.
-
 ##### List count
 
 Always display a counter that details how many items have already loaded and how many items remain below lists with infinite scroll, giving the user an indication of where they are relative to the list.
