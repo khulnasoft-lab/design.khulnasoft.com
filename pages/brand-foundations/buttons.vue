@@ -18,6 +18,19 @@
       <p class="todo">Todo:  Add an example of secondary button one</p>
       <p class="todo">Todo:  Add an example of secondary button two</p>
       <h2>Call-to-action (CTA) links</h2>
+      <p>CTA link and button text should be as short and concise as possible, but provide enough information to understand what the button or link will do when clicked. In the examples below, there is enough context to understand what "Learn how" will do when clicked, making a longer CTA (to the right) redundant and repetitive.</p>
+      <table class="m-b-6">
+        <tbody>
+          <tr>
+            <th class="header">Good example:</th>
+            <th class="header">Bad example:</th>
+          </tr>
+          <tr>
+            <td><img src="~/assets/images/brand/gitlab-ctas-do.png" alt="" style="width:100%" class="p-a-6"></td>
+            <td><img src="~/assets/images/brand/gitlab-ctas-dont.png" alt="" style="width:100%" class="p-a-6"></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </template>
