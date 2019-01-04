@@ -39,7 +39,7 @@
           <li>what questions to ask to learn more and qualify the lead,</li>
           <li>what value prop they'll want to hear that could get them to a demo, discussion, or POC.</li>
         </ul>
-        <p>See the <a href="https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/enterprise-it-roles/" target="_blank">Enterprise IT Roles page</a> for more details about who we sell to and how to approach them.</p>
+        <p>See the <a href="https://about.gitlab.com/handbook/marketing/product-marketing/enterprise-it-roles/" target="_blank">Enterprise IT Roles page</a> for more details about who we sell to and how to approach them.</p>
     </div>
   </div>
 </template>
