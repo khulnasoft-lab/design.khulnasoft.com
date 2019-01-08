@@ -1,7 +1,7 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div class="component md">
-      <h1>Buttons</h1>
+      <h1>Buttons and links</h1>
       <p>Buttons are an important facet to any design system. Buttons define a call to action that lead people somewhere related to the content it's contained in. There are common practices and data that prove certain types of buttons work better for conversion than others. Here are buttons and their classes that should be used throughout the marketing website:</p>
       <h2>Primary buttons</h2>
       <p>Primary buttons are solid and should be the default buttons used. Depending on the color scheme of the content, purple or orange solid buttons can be used depending on the background color of the content. These primary buttons should be used on white or lighter gray backgrounds or any background that has a high contrast with the button color. They should also be a <code>%a</code> tag so it can be linked elsewhere and for accessibility. Buttons should also be given the class <code>margin-top20</code> if the button lacks space between itself and the content above.</p>
@@ -18,12 +18,12 @@
       <p class="todo">Todo:  Add an example of secondary button one</p>
       <p class="todo">Todo:  Add an example of secondary button two</p>
       <h2>Call-to-action (CTA) links</h2>
-      <p>CTA link and button text should be as short and concise as possible, but provide enough information to understand what the button or link will do when clicked. In the examples below, there is enough context to understand what "Learn how" will do when clicked, making a longer CTA (to the right) redundant and repetitive.</p>
+      <p>CTA link and button text should be as short and concise as possible and provide enough information to understand what the button or link will do when clicked. In the examples below, there is enough description preceding the CTA to understand what "Learn how" will do when clicked. However, if there is no description preceding the CTA, longer text is acceptable as long as it keeps the rule of being as short and concise as possible.</p>
       <table class="m-b-6">
         <tbody>
           <tr>
-            <th class="header">Good example:</th>
-            <th class="header">Bad example:</th>
+            <th class="header">Do</th>
+            <th class="header">Don't</th>
           </tr>
           <tr>
             <td><img src="~/assets/images/brand/gitlab-ctas-do.png" alt="" style="width:100%" class="p-a-6"></td>
