@@ -25,7 +25,7 @@ Breaking up lists and distributing the results either by the use of pagination o
 | **Examples:** | Issues and Todos dashboards | Activity dashboards and the Commits page |
 
 ### Pagination
-Lists with **more than 20** items require pagination which is always located below the list and takes the form of a [button](components/button) group. No pagination is required on lists with 20 or fewer items.
+Lists with **more than 20** items require pagination which is always located below the list and takes the form of a [button](components/buttons) group. No pagination is required on lists with 20 or fewer items.
 
 #### Behavior
 
@@ -50,7 +50,7 @@ Infinite scroll is triggered once the user has reached the 20th item of a list a
 #### Behavior
 
 ##### List count
-Always display a counter that details how many items have already loaded and how many items remain. This gives the user an indication of where they are relative to the list. The examples below show how to display different variations of list counts: 
+Always display a counter that details how many items have already loaded and how many items remain. This gives the user an indication of where they are relative to the list. The examples below show how to display different variations of list counts:
 
 Todo: add infinite scroll example with "Showing 60 of 100 items" in the list count
 
