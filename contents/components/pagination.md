@@ -45,13 +45,18 @@ Todo: add truncation example on small/mobile viewports
 Todo: add double truncation example on small/mobile viewports
 
 ### Infinite scroll
-Infinite scroll is triggered once the user has reached the 20th item of a list and there are more items to load. A read-only [loading spinner](component/spinner) button appears at the bottom of the list for the duration of the load time.
+Infinite scroll is triggered once the user has reached the 20th item of a list and there are more items to load. A read-only [loading spinner](component/spinner) appears at the bottom of the list for the duration of the load time.
 
 #### Behavior
 
 ##### List count
+Always display a counter that details how many items have already loaded and how many items remain below lists with infinite scroll, giving the user an indication of where they are relative to the list. Below are examples of how to handle list counts with lists that have greater than 1,000 entries. 
 
-Always display a counter that details how many items have already loaded and how many items remain below lists with infinite scroll, giving the user an indication of where they are relative to the list.
+Todo: add infinite scroll example with less than 1,000 entries in the list
+
+Todo: add infinite scroll examle with more than 1,000 entries in the list
+
+Todo: add infinite scroll example with more than 1,000 entries and the user is on result 1,200 of +1,000
 
 ##### Returning to a list
 When a user returns to a list from a list entry using the back button in the browser, they should be returned to the same place in the list where they left off.
@@ -68,6 +73,6 @@ Todo: Add live component block with code example
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
-Todo: Add spec preview for pagination
+[Sketch Measure Preview for pagination](https://gitlab-org.gitlab.io/gitlab-design/hosted/andy/ce%23133-Pagination-components-spec-previews/)
 
-Todo: Add spec preview for infinite scroll
+[Sketch Measure Preview for infinite scroll](https://gitlab-org.gitlab.io/gitlab-design/hosted/andy/ce%23133-Infinite-Scroll-components-spec-previews/)
