@@ -45,18 +45,20 @@ Todo: add truncation example on small/mobile viewports
 Todo: add double truncation example on small/mobile viewports
 
 ### Infinite scroll
-Infinite scroll is triggered once the user has reached the 20th item of a list and there are more items to load. A read-only [loading spinner](component/spinner) appears at the bottom of the list for the duration of the load time.
+Infinite scroll is triggered once the user has reached the 20th item of a list and there are more items to load. A [loading spinner](component/spinner) appears at the bottom of the list for the duration of the load time.
 
 #### Behavior
 
 ##### List count
-Always display a counter that details how many items have already loaded and how many items remain below lists with infinite scroll, giving the user an indication of where they are relative to the list. Below are examples of how to handle list counts with lists that have greater than 1,000 entries. 
+Always display a counter that details how many items have already loaded and how many items remain. This gives the user an indication of where they are relative to the list. The examples below show how to display different variations of list counts: 
 
-Todo: add infinite scroll example with less than 1,000 entries in the list
+Todo: add infinite scroll example with "Showing 60 of 100 items" in the list count
 
-Todo: add infinite scroll examle with more than 1,000 entries in the list
+Todo: add infinite scroll examle with "Showing 60 of 1,000+ items" in the list count
 
-Todo: add infinite scroll example with more than 1,000 entries and the user is on result 1,200 of +1,000
+Todo: add infinite scroll example with "Showing 1,200 of 1,000+ items"" in the list count
+
+Todo: add infinite scroll example with "End of the list — showing all items" in the list count
 
 ##### Returning to a list
 When a user returns to a list from a list entry using the back button in the browser, they should be returned to the same place in the list where they left off.
