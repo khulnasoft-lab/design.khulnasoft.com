@@ -58,7 +58,7 @@ Todo: add infinite scroll examle with "Showing 60 of 1,000+ items" in the list c
 
 Todo: add infinite scroll example with "Showing 1,200 of 1,000+ items"" in the list count
 
-Todo: add infinite scroll example with "End of the list — showing all items" in the list count
+Todo: add infinite scroll example with "Showing all items" in the list count
 
 ##### Returning to a list
 When a user returns to a list from a list entry using the back button in the browser, they should be returned to the same place in the list where they left off.
