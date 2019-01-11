@@ -71,10 +71,6 @@
                   class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
                   to="/brand-get-started/brand-personality"
                 >Brand personality</nuxt-link>
-                <nuxt-link 
-                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-                  to="/brand-get-started/brand-personas-roles"
-                >Personas</nuxt-link>
                 </details>
             </li>
             <li>
@@ -147,10 +143,6 @@
                   class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
                   to="/getting-started/structure"
                 >Structure</nuxt-link>
-                <nuxt-link 
-                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-                  to="/getting-started/personas"
-                >Personas</nuxt-link>
                 <nuxt-link 
                   class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
                   to="/getting-started/contributing"
@@ -325,6 +317,16 @@
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
               to="/research/get-started"
             >Get started</nuxt-link>
+            <nuxt-link 
+              tag="li"
+              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
+              to="/research/personas"
+            >Personas</nuxt-link>
+            <nuxt-link 
+              tag="li"
+              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
+              to="/research/roles"
+            >Roles</nuxt-link>
             <nuxt-link 
               tag="li"
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
