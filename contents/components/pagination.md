@@ -45,7 +45,7 @@ Todo: add truncation example on small/mobile viewports
 Todo: add double truncation example on small/mobile viewports
 
 ### Infinite scroll
-Infinite scroll is triggered once the user has reached the 20th item of a list and there are more items to load. A [loading spinner](/component/spinner) appears at the bottom of the list for the duration of the load time.
+Infinite scroll is triggered once the user has reached the 20th item of a list and there are more items to load. A [loading spinner](/components/spinner) appears at the bottom of the list for the duration of the load time.
 
 #### Behavior
 
