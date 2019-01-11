@@ -65,7 +65,7 @@ The character counter lets users know that the amount of allowed text in an inpu
 
 - Character counter is present by default (whenever there’s a limit) and shows the maximum number of characters available.
 - When the number of characters entered is 30 away from the limit, the counter changes its color to `warning` style. It remains styled like this even when it reaches 0.
-- When the number of characters entered crosses the limit, the counter changes its color to `danger` and counts the amount of characters that are over the limit (for example -23).
+- When the number of characters entered crosses the limit, the counter changes its color to `danger`, its font weight to bold,  and counts the amount of characters that are over the limit (for example **-23**).
 
 The users are allowed to keep typing when the limit is reached. This is to make inputing text friendlier to users and prevents them from losing any information (some people look at the keyboard when they type so blocking the input would mean a poorer experience). The characters that are over the limit are also marked with a background set in `$red-200`.
 
