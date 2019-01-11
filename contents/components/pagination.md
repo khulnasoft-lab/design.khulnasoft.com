@@ -25,7 +25,7 @@ Breaking up lists and distributing the results either by the use of pagination o
 | **Examples:** | Issues and Todos dashboards | Activity dashboards and the Commits page |
 
 ### Pagination
-Lists with **more than 20** items require pagination which is always located below the list and takes the form of a [button](components/buttons) group. No pagination is required on lists with 20 or fewer items.
+Lists with **more than 20** items require pagination which is always located below the list and takes the form of a [button](/components/buttons) group. No pagination is required on lists with 20 or fewer items.
 
 #### Behavior
 
@@ -45,7 +45,7 @@ Todo: add truncation example on small/mobile viewports
 Todo: add double truncation example on small/mobile viewports
 
 ### Infinite scroll
-Infinite scroll is triggered once the user has reached the 20th item of a list and there are more items to load. A [loading spinner](component/spinner) appears at the bottom of the list for the duration of the load time.
+Infinite scroll is triggered once the user has reached the 20th item of a list and there are more items to load. A [loading spinner](/component/spinner) appears at the bottom of the list for the duration of the load time.
 
 #### Behavior
 
