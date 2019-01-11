@@ -69,6 +69,8 @@ The character counter lets users know that the amount of allowed text in an inpu
 
 The users are allowed to keep typing when the limit is reached. This is to make inputing text friendlier to users and prevents them from losing any information (some people look at the keyboard when they type so blocking the input would mean a poorer experience). The characters that are over the limit are also marked with a background set in `$red-200`.
 
+While hovering over the character counter a tooltip with the label “Characters left” must show up.
+
 #### Styling guidelines
 
 The character counter comes with a white background on an input field with a fade out facing the side of the input text. This is to prevent collision which would make both unreadable. The counter mustn’t cover the content when the text is longer that the width of the input field and the cursor is at the edge of the text.
