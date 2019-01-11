@@ -59,6 +59,26 @@ Text areas should be used when expected content is long. Predefined widths from 
 
 Todo: Add live component block with code example (text area)
 
+### Character counter
+
+The character counter lets users know that the amount of allowed text in an input field or a text area is limited. As they type, it let’s them know how many characters they have left. The interaction should proceed like this:
+
+- Character counter is present by default (whenever there’s a limit) and shows the maximum number of characters available.
+- When the number of characters entered is 30 away from the limit, the counter changes its color to `warning` style. It remains styled like this even when it reaches 0.
+- When the number of characters entered crosses the limit, the counter changes its color to `danger` and counts the amount of characters that are over the limit (for example -23).
+
+The users are allowed to keep typing when the limit is reached. This is to make inputing text friendlier to users and prevents them from losing any information (some people look at the keyboard when they type so blocking the input would mean a poorer experience). The characters that are over the limit are also marked with a background set in `$red-200`.
+
+#### Styling guidelines
+
+The character counter comes with a white background on an input field with a fade out facing the side of the input text. This is to prevent collision which would make both unreadable. The counter mustn’t cover the content when the text is longer that the width of the input field and the cursor is at the edge of the text.
+
+Todo: Add live component block with code example (input field character counter)
+
+There’s no white background behind the text area character counter. To prevent collision of the two texts, an additional padding at the bottom of the text area must be used. This way, the character counter is always “one line below the content”.
+
+Todo: Add live component block with code example (text area character counter)
+
 ### Placeholders
 
 Placeholders must not be used as a replacement for labels but as a supplement. Their usage should be limited even if used correctly. When they are used, they should be:
