@@ -48,7 +48,7 @@
               d="M34 14l1.9 6.16c.18.565 0 1.2-.5 1.56L18 34.38z"
             />
           </svg>
-          GitLab Design System
+          Pajamas Design System
         </nuxt-link>
       </div>
       <div class="nav-sidebar__body m-b-3">

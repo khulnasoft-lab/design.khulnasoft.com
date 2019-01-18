@@ -1,4 +1,4 @@
-# GitLab Design System
+# Pajamas Design System
 
 You can view it at [design.gitlab.com](https://design.gitlab.com/).
 
