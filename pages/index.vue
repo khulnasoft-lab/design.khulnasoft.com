@@ -3,6 +3,10 @@
     <nuxt-child />
     <div class="content banner">
       <div class="banner__header text-center">
+        <svg width="66" height="121" fill="none">
+          <path d="M25.8883 119.627l-14.5792-7.903C4.36013 107.909 0 100.552 0 92.5126V59.1303h29.9759v58.0447c0 2.18-2.1801 3.542-4.0876 2.452z" fill="#999"/>
+          <path d="M44.8276 77.9334L6.54019 87.4712C0 89.1062 0 91.8313 0 91.8313V36.9209c0-12.5353 8.44775-23.4357 20.5744-26.4332L61.9956.132348c1.7713-.545016 3.4063.817524 3.4063 2.588822V51.5001c0 12.5354-8.4477 23.4357-20.5743 26.4333z" fill="#fff"/>
+        </svg>
         <h1 class="banner__header--title f-display f-inverted">
           Pajamas Design System
         </h1>
