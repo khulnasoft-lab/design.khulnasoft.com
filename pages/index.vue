@@ -4,7 +4,7 @@
     <div class="content banner">
       <div class="banner__header text-center">
         <h1 class="banner__header--title f-display f-inverted">
-          GitLab Design System
+          Pajamas Design System
         </h1>
         <h2 class="banner__header--description f-inverted">Design guidelines and UI components for GitLab</h2>
       </div>

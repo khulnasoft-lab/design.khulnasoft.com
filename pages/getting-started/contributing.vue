@@ -2,7 +2,7 @@
   <div class="content limited m-t-7 m-b-7">
     <div class="contributing md">
       <h1>Contributing</h1>
-      <p>Thank you for your interest in contributing to the GitLab Design System! We welcome all feedback regarding designs, guidelines, and implementation. The following details how to contribute in an easy and efficient way.</p>
+      <p>Thank you for your interest in contributing to the Pajamas Design System! We welcome all feedback regarding designs, guidelines, and implementation. The following details how to contribute in an easy and efficient way.</p>
 
       <h2>Contribute an issue</h2>
       <p>If you an interested in contributing to our design system, the first step is ensuring that an issue exists in our <a 
