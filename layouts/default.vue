@@ -6,47 +6,16 @@
           to="/"
           class="nav-sidebar__header-anchor p-a-5"
         >
-          <svg 
-            width="24" 
-            height="24" 
-            class="tanuki-logo m-r-3" 
-            viewBox="0 0 36 36"
-          >
-            <path
-              class="tanuki-shape tanuki-left-ear"
-              fill="#e24329"
-              d="M2 14l9.38 9v-9l-4-12.28c-.205-.632-1.176-.632-1.38 0z"
-            />
-            <path
-              class="tanuki-shape tanuki-right-ear"
-              fill="#e24329"
-              d="M34 14l-9.38 9v-9l4-12.28c.205-.632 1.176-.632 1.38 0z"
-            />
-            <path
-              class="tanuki-shape tanuki-nose"
-              fill="#e24329"
-              d="M18,34.38 3,14 33,14 Z"
-            />
-            <path
-              class="tanuki-shape tanuki-left-eye"
-              fill="#fc6d26"
-              d="M18,34.38 11.38,14 2,14 6,25Z"
-            />
-            <path
-              class="tanuki-shape tanuki-right-eye"
-              fill="#fc6d26"
-              d="M18,34.38 24.62,14 34,14 30,25Z"
-            />
-            <path
-              class="tanuki-shape tanuki-left-cheek"
-              fill="#fca326"
-              d="M2 14L.1 20.16c-.18.565 0 1.2.5 1.56l17.42 12.66z"
-            />
-            <path
-              class="tanuki-shape tanuki-right-cheek"
-              fill="#fca326"
-              d="M34 14l1.9 6.16c.18.565 0 1.2-.5 1.56L18 34.38z"
-            />
+         <svg width="14" height="24" class="m-r-3" fill="none">
+            <path d="M5.1777 23.9233l-2.91586-1.5806C.872034 21.5797 0 20.1082 0 18.5004v-6.6765h5.99523v11.6089c0 .436-.43602.7085-.81753.4905z" fill="#DEC9F0"/>
+            <path d="M8.9656 15.5845l-7.65755 1.9076C0 17.8191 0 18.3641 0 18.3641V7.38203c0-2.50707 1.68957-4.68714 4.11491-5.28665L12.3992.0243149c.3543-.1090033.6813.1635051.6813.5177651v9.75582c0 2.507-1.6896 4.6871-4.1149 5.2866z" fill="url(#paint0_linear)"/>
+            <defs>
+              <linearGradient id="paint0_linear" y1="9.18595" x2="13.0805" y2="9.18595" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#7144C6"/>
+                <stop offset=".5869" stop-color="#8045C9"/>
+                <stop offset=".9995" stop-color="#8E46CC"/>
+              </linearGradient>
+            </defs>
           </svg>
           Pajamas Design System
         </nuxt-link>
