@@ -16,7 +16,7 @@ module.exports = {
       {
         hid: 'description',
         name: 'description',
-        content: 'Design guidelines and UI components for GitLab',
+        content: 'Resources, components, and design guidelines behind GitLab',
       },
     ],
     link: [

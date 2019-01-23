@@ -10,7 +10,7 @@
         <h1 class="banner__header--title f-display f-inverted">
           Pajamas Design System
         </h1>
-        <h2 class="banner__header--description f-inverted">Design guidelines and UI components for GitLab</h2>
+        <h2 class="banner__header--description f-inverted">Resources, components, and design guidelines behind GitLab</h2>
       </div>
       <img
         src="../assets/images/cover.png"
