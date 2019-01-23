@@ -51,3 +51,33 @@
 @mixin transition($property: all, $time: 0.2s, $method: linear) {
   transition: $property $time $method;
 }
+
+/*
+ * Animations
+ */
+
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin include-keyframes($animation-name) {
+  @include webkit-prefix(animation-name, $animation-name);
+  @include keyframes($animation-name) {
+    @content;
+  }
+}
+
+/*
+ * Browser support
+ */
+
+@mixin webkit-prefix($property, $value) {
+  #{'-webkit-' + $property}: $value;
+  #{$property}: $value;
+}
