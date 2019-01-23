@@ -1,6 +1,6 @@
 # Pajamas Design System
 
-Gitlab's design system called Pajamas can be viewed at [design.gitlab.com](https://design.gitlab.com/).
+Resources, components, and design guidelines behind GitLab. See https://design.gitlab.com.
 
 ## Prerequisites
 
