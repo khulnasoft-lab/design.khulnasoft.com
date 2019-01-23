@@ -1,6 +1,6 @@
 # Pajamas Design System
 
-Resources, components, and design guidelines behind GitLab. See https://design.gitlab.com.
+Resources, components, and design guidelines behind GitLab. See [design.GitLab.com](https://design.gitlab.com).
 
 ## Prerequisites
 
