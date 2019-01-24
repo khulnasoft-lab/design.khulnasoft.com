@@ -14,9 +14,9 @@
       </div>
       <img
         src="../assets/images/cover.png"
-        class="banner__image"
+        class="banner__image animated"
       />
-      <div class="overlay animated"></div>
+      <div class="overlay"></div>
     </div>
     <div class="p-t-10 p-b-10">
       <div class="content limited distributed contributing-box__content">

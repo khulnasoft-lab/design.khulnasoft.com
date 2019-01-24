@@ -12,11 +12,11 @@
 
 @keyframes overlay {
   from {
-    opacity: 1;
+    opacity: 0;
   }
 
   to {
-    opacity: .8;
+    opacity: 1;
   }
 }
 
@@ -43,6 +43,10 @@
   min-height: 100%;
   width: 100%;
   height: auto;
+  animation-name: overlay;
+  opacity: 0;
+  animation-duration: 3s;
+  animation-delay: 1s;
 }
 
 .banner__header {
@@ -66,11 +70,7 @@
   top: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(135deg, rgba(115, 67, 198, 1) 0%, rgba(141, 70, 204, 1) 100%);
-  animation-name: overlay;
-  opacity: 1;
-  animation-duration: 3s;
-  animation-delay: 1s;
+  background: linear-gradient(135deg, rgba(115, 67, 198, .9) 0%, rgba(141, 70, 204, .75) 100%);
 }
 
 .bg-dark {
