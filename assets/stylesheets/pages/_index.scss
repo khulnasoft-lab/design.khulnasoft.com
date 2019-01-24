@@ -38,14 +38,7 @@
   background: linear-gradient(135deg, rgba(115, 67, 198, .9) 0%, rgba(141, 70, 204, 0.75) 100%);
 }
 
-.principles {
-  .principle {
-    display: flex;
-    align-items: center;
-  }
-}
-
-.contribute {
+.bg-dark {
   background: $gray-50;
   border-top: $border-width solid $gray-100;
   border-bottom: $border-width solid $gray-100;
@@ -54,5 +47,41 @@
 .resources {
   .card {
     flex: 1;
+  }
+}
+
+.index {
+  p {
+    @include type-scale(3, 7, 3, 0); 
+  }
+
+  h2 {
+    @include type-scale(8, 8, 3); 
+  }
+
+  h3 {
+    @include type-scale(6, 8, 3); 
+  }
+}
+
+.contribute-row {
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.contribute-copy {
+  min-width: 320px;
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+
+.contribute-img {
+  flex: 0 0 40%;
+  max-width: 40%;
+
+  img {
+    width: 100%;
   }
 }
