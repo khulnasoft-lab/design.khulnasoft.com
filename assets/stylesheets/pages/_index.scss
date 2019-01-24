@@ -1,5 +1,5 @@
 .banner {
-  height: 450px;
+  height: 500px;
   position: relative;
   overflow: hidden;
 }
@@ -84,4 +84,25 @@
   img {
     width: 100%;
   }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
 }
