@@ -52,7 +52,7 @@
           <div class="contribute-copy">
             <h2>Everything you need</h2>
             <p class="max-w-sm">
-               Pajamas is here to make it as comfortable as possible for anyone to contribute towards GitLab. You will find information such as our core principles, interface components including usage guidelines, branding, research methodologies, and more!
+               Pajamas is here to make it as comfortable as possible for anyone to contribute towards GitLab. You will find information such as our principles, components, usage guidelines, branding, research methodologies, and more!
             </p>
             <p class="max-w-sm">
                Start by looking in to our <a href="/components/status">interface components documentation</a>, including live vue components.
