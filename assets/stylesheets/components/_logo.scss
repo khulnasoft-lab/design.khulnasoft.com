@@ -28,8 +28,8 @@
 
   &.animate {
     .tanuki-shape {
-      @include webkit-prefix(animation-duration, 1.5s);
-      @include webkit-prefix(animation-iteration-count, infinite);
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
     }
 
     .tanuki-left-cheek {
