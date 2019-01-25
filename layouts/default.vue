@@ -6,7 +6,7 @@
           to="/"
           class="nav-sidebar__header-anchor p-a-5"
         >
-          <svg height="36" viewBox="0 0 342 342" xmlns="http://www.w3.org/2000/svg" class="tanuki-logo">
+          <svg height="36" viewBox="0 0 376 342" xmlns="http://www.w3.org/2000/svg" class="tanuki-logo">
             <g fill="none" fill-rule="evenodd">
               <path d="M185.398 341.13l68.013-209.322H117.39L185.4 341.13z" fill="#E24329" class="tanuki-shape tanuki-left-ear"/>
               <path d="M185.398 341.13l-68.013-209.322h-95.32L185.4 341.128z" fill="#FC6D26" class="tanuki-shape tanuki-left-eye"/>
@@ -17,7 +17,7 @@
               <path d="M348.73 131.808h-95.32L294.376 5.735c2.108-6.487 11.285-6.487 13.392 0l40.963 126.073z" fill="#E24329" class="tanuki-shape tanuki-right-ear"/>
             </g>
           </svg>
-          <span class="m-l-4">GitLab Design System</span>
+          <span class="m-l-4">GitLab Pajamas</span>
         </nuxt-link>
       </div>
       <div class="nav-sidebar__body m-b-3">
