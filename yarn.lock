@@ -681,9 +681,9 @@
     eslint-plugin-vue "^5.0.0"
 
 "@gitlab/ui@^1.21.0":
-  version "1.21.0"
-  resolved "https://registry.yarnpkg.com/@gitlab/ui/-/ui-1.21.0.tgz#a067ade8bb313b9d4005e0f3a73648ae50969433"
-  integrity sha512-KDaTB5nOOCFz1WVkOwGZR5w5c3naCuYYrJp3FgGlC1pp3IvRkC0v0UmyMcnypveZB9fxLQzWwZtrDTXoZtPjgg==
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/@gitlab/ui/-/ui-1.22.0.tgz#1926aad1614a8741a5357048ad4576b23289518c"
+  integrity sha512-2SG8I/bXK9XRDyvYSfzQxOVSfb4FCA2j/pf8YzkGenGGyKnRyp6l4Yx3oPQRiEtHISHmmArBqa+GoEn0FkIB1A==
   dependencies:
     babel-standalone "^6.26.0"
     bootstrap-vue "^2.0.0-rc.11"
@@ -2292,7 +2292,12 @@ copy-to-clipboard@^3.0.8:
   dependencies:
     toggle-selection "^1.0.3"
 
-core-js@^2.4.0, core-js@^2.5.7:
+core-js@^2.4.0:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.3.tgz#4b70938bdffdaf64931e66e2db158f0892289c49"
+  integrity sha512-l00tmFFZOBHtYhN4Cz7k32VM7vTn3rE2ANjQDxdEN6zmXZ/xq1jQuutnmHvMG1ZJ7xd72+TA5YpUK8wz3rWsfQ==
+
+core-js@^2.5.7:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.1.tgz#87416ae817de957a3f249b3b5ca475d4aaed6042"
   integrity sha512-L72mmmEayPJBejKIWe2pYtGis5r0tQ5NaJekdhyXgeMQTpJoBsH0NL4ElY2LfSoV15xeQWKQ+XTTOZdyero5Xg==
@@ -8435,10 +8440,15 @@ vue-template-es2015-compiler@^1.6.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
   integrity sha512-x3LV3wdmmERhVCYy3quqA57NJW7F3i6faas++pJQWtknWT+n7k30F4TVdHvCLn48peTJFRvCpxs3UuFPqgeELg==
 
-vue@^2.5.17, vue@^2.5.21:
+vue@^2.5.17:
   version "2.5.21"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.21.tgz#3d33dcd03bb813912ce894a8303ab553699c4a85"
   integrity sha512-Aejvyyfhn0zjVeLvXd70h4hrE4zZDx1wfZqia6ekkobLmUZ+vNFQer53B4fu0EjWBSiqApxPejzkO1Znt3joxQ==
+
+vue@^2.5.21:
+  version "2.5.22"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.22.tgz#3bf88041af08b8539c37b268b70ca79245e9cc30"
+  integrity sha512-pxY3ZHlXNJMFQbkjEgGVMaMMkSV1ONpz+4qB55kZuJzyJOhn6MSy/YZdzhdnumegNzVTL/Dn3Pp4UrVBYt1j/g==
 
 vuex@^3.0.1:
   version "3.0.1"
