@@ -28,7 +28,7 @@
     "vue-loader": "^15.4.2"
   },
   "devDependencies": {
-    "@gitlab/eslint-config": "^1.1.1",
+    "@gitlab/eslint-config": "^1.4.0",
     "clean-css": "^4.2.1",
     "eslint": "^5.7.0",
     "eslint-loader": "^2.1.1",
