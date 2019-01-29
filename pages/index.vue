@@ -8,7 +8,7 @@
           <path d="M44.8276 77.9334L6.54019 87.4712C0 89.1062 0 91.8313 0 91.8313V36.9209c0-12.5353 8.44775-23.4357 20.5744-26.4332L61.9956.132348c1.7713-.545016 3.4063.817524 3.4063 2.588822V51.5001c0 12.5354-8.4477 23.4357-20.5743 26.4333z" fill="#fff"/>
         </svg>
         <h1 class="banner__header--title f-display f-inverted">
-          Pajamas Design System
+          Pajamas
         </h1>
         <h2 class="banner__header--description f-inverted">Resources, components, and design guidelines behind GitLab</h2>
       </div>

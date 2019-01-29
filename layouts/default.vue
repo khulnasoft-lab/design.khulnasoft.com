@@ -17,7 +17,7 @@
               <path d="M348.73 131.808h-95.32L294.376 5.735c2.108-6.487 11.285-6.487 13.392 0l40.963 126.073z" fill="#E24329" class="tanuki-shape tanuki-right-ear"/>
             </g>
           </svg>
-          <span class="m-l-4">GitLab Pajamas</span>
+          <span class="m-l-4">GitLab Design System</span>
         </nuxt-link>
       </div>
       <div class="nav-sidebar__body m-b-3">
