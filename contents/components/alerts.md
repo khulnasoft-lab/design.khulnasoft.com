@@ -2,11 +2,11 @@
 name: Alerts
 related:
   - broadcast-messages
-  - errors
+  - forms
   - toasts
 ---
 
-Alerts allow the application to pass along relevant system information to the user without impeding their journey. Alerts can be either system generated or user-generated; however, they are not validation [error](https://design.gitlab.com/components/errors) messages, nor are they feedback notifications after the user takes action, see [toasts](https://design.gitlab.com/components/toasts) for more information. Alerts may contain a dismiss button and an action button depending on the situation. 
+Alerts allow the application to pass along relevant system information to the user without impeding their journey. Alerts can be either system generated or user-generated; however, they are not [validation](https://design.gitlab.com/components/forms#validation) error messages, nor are they feedback notifications after the user takes action, see [toasts](https://design.gitlab.com/components/toasts) for more information. Alerts may contain a dismiss button and an action button depending on the situation. 
 
 ## Usage
 
@@ -37,7 +37,7 @@ There are times when using an alternative component other than an alert is neces
 | Component | Use case | Example | Why an alert was not used |
 | ---- | ---- | ---- | ---- |
 | [Broadcast Message](https://design.gitlab.com/components/broadcast-messages) | Deliver critical, user-generated messages all users | Use a broadcast message when an admin wants to relay a critical message to all users at the instance level. | Broadcast messages are created by an admin and not the system. We want to differentiate between system-generated and user-generated messages, hence a broadcast message is used in this case. |
-| [Error](https://design.gitlab.com/components/errors) | Notification of an invalid action | Use an error when the user has entered invalid characters into the project name field. | We want to immediately communicate to the user that they have taken an invalid action. Using an error will provide the best experience due to is differentiation from the danger alert, allowing the user to recognize that they have only taken an invalid action and nothing else. |
+| [Validation error](https://design.gitlab.com/components/forms#validation) | Notification of an invalid action | Use an error when the user has entered invalid characters into the project name field. | We want to immediately communicate to the user that they have taken an invalid action. Using an error will provide the best experience due to is differentiation from the danger alert, allowing the user to recognize that they have only taken an invalid action and nothing else. |
 | [Toast](https://design.gitlab.com/components/toasts) | Immediate confirmation of an action | Use a toast when the user has dismissed a vulnerability and it no longer appears in the list.  |  We want to reaffirm to the user the system recognized their action and that no further action is needed on their part. Toasts, by design present this notification in the best experience. |
 
 ## Demo
