@@ -8,28 +8,34 @@ There are two kinds of principles; The principles that guide the process and pri
 
 Each principle has been assigned a hierarchy position to resolve confusion about what to do in a specific circumstance while remaining consistent.
 
-We take inspiration from other companies though our principles are defined by looking inward. This helps to determine which are most actionable and effective. Just like the rest of our work, we continually adjust our principles and strive always to make them better. Our principle guidelines are defined at the bottom of this page, so everyone is welcome to suggest improvements by opening and issue and/or creating a merge request in our [repository](https://gitlab.com/gitlab-org/design.gitlab.com)!
+We take inspiration from other companies though our principles are defined by looking inward. This helps to determine which are most actionable and effective. Just like the rest of our work, we continually adjust our principles and strive always to make them better. Our principle guidelines are defined at the bottom of this page, so everyone is welcome to suggest improvements by opening an issue and/or creating a merge request in our [repository](https://gitlab.com/gitlab-org/design.gitlab.com)!
 
 ## 1 Productive
 
 GitLab is an application to support what people do, day in, day out. We need to respect the importance of their work and avoid gimicky details.
 
-1. **Bold sub principle(s) title** Explanation, plus optional reference
+<!--
+ 1. **Bold sub principle(s) title** Explanation, plus optional reference
   - Example(s), plus link towards a reference in real-life
+-->
 
 ## 2 Minimal
 
-While work can get complicated, GitLab is about bringing a sharp focus, helping our customers know what matters now.
+While work can get complicated, GitLab is about bringing a sharp focus to help our customers know what matters now.
 
-1. **Bold sub principle(s) title** Explanation, plus optional reference
+<!--
+ 1. **Bold sub principle(s) title** Explanation, plus optional reference
   - Example(s), plus link towards a reference in real-life
+-->
 
 ## 3 Human
 
-We need to build empathy with our users, understand their state of mind, and connect with them on a human level.
+We need to build empathy with our users. This means we must understand their state of mind and connect with them on a human level.
 
+<!--
 1. **Bold sub principle(s) title** Explanation, plus optional reference
   - Example(s), plus link towards a reference in real-life
+-->
 
 ## Principle guidelines
 
@@ -37,7 +43,7 @@ The principles defined should align to the following guidelines to assure they a
 
 ### Origin and purpose
 
-Purpose and values inform principles, while principles inform the product. Make sure that no conflicting principles are introduced. Principles should either inform the process or the desired output.
+Company values and purpose should inform principles, while principles should either inform the process or the desired output. Make sure that no conflicting principles are introduced.
 
 ### Target audience
 
@@ -51,7 +57,7 @@ Principles should be actionable and thus strike a balance between being too gene
 
 ### Give direction by being opinionated
 
-When principles have a point of view, they give direction and keep teams on the path to achieving their vision. It defines a decision where other companies could have diverged. By contrast, it is less useful to state things in principles that are logical and wished upon by default. An example of this would be “Useful,” of which the opposite would be “not useful.” Chances are slim that a company does not want to create a usefull product.
+When principles have a point of view, they give direction and keep teams on the path to achieving their vision. It defines a decision which otherwise could have diverged. By contrast, it is less useful to state things in principles that are logical and wished upon by default. An example of this would be “Useful,” of which the opposite would be “not useful.” Chances are slim that a company does not want to create a useful product.
 
 ### Explicit hierarchy
 

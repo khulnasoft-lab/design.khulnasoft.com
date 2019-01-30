@@ -44,7 +44,7 @@
           />
           <div class="principle__content m-l-5">
             <h2>Human</h2>
-            <p>We need to build empathy with our users, understand their state of mind, and connect with them on a human level.</p>
+            <p>We need to build empathy with our users. This means we must understand their state of mind and connect with them on a human level.</p>
           </div>
         </div>
       </div>
