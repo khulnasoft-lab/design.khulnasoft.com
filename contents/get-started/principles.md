@@ -41,15 +41,15 @@ We need to build empathy with our users. This means we must understand their sta
 
 The principles defined should align to the following guidelines to assure they are to be most effective.
 
+Note: The current principles in place may not yet conform to these guidelines, but will be updated to do so in the near future.
+
 ### Origin and purpose
 
 Company values and purpose should inform principles, while principles should either inform the process or the desired output. Make sure that no conflicting principles are introduced.
 
 ### Target audience
 
-Different teams require different principles to guide them, while some principles might be useful to more than one. It is important that the target audience is clear to avoid confusion while considering them when making decisions. Principles are there for the people using them to create the product.
-
-Note: The current principles in place do not yet conform to these guidelines, but will be updated to do so in the near future.
+Principles provide guidance to creators, ensuring they are focusing on the right problems for their users. Different internal teams (such as product, design, engineering, and marketing) sometimes require different sets of principles to guide them towards a shared outcome for the product end user. Ensure you are using the correct principles based on the task that you are performing.
 
 ### Actionable and genuine
 
