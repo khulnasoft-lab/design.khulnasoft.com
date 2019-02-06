@@ -20,7 +20,7 @@ Alerts allow the application to pass along relevant system information to the us
 
 ### When to use alerts
 
-Alerts should be used when the system needs to notify the user of its status or to provide the user with information about their current experience. Deciding when to use a broadcast message, error, toast or an alert can be tricky, see the below use cases to get a better understanding of when to use an alert:
+Alerts should be used when the system needs to notify the user of its status or to provide the user with information about their current experience. Deciding when to use a broadcast message, error, toast or, an alert can be tricky. See the below use cases to get a better understanding of when to use an alert:
 
 | Alert | Use case | Example |
 | ----- | -------- | -------- |
@@ -36,9 +36,9 @@ There are times when using an alternative component other than an alert is neces
 
 | Component | Use case | Example | Why an alert was not used |
 | ---- | ---- | ---- | ---- |
-| [Broadcast Message](https://design.gitlab.com/components/broadcast-messages) | Deliver critical, user-generated messages all users | Use a broadcast message when an admin wants to relay a critical message to all users at the instance level. | Broadcast messages are created by an admin and not the system. We want to differentiate between system-generated and user-generated messages, hence a broadcast message is used in this case. |
-| [Validation error](https://design.gitlab.com/components/forms#validation) | Notification of an invalid action | Use an error when the user has entered invalid characters into the project name field. | We want to immediately communicate to the user that they have taken an invalid action. Using an error will provide the best experience due to is differentiation from the danger alert, allowing the user to recognize that they have only taken an invalid action and nothing else. |
-| [Toast](https://design.gitlab.com/components/toasts) | Immediate confirmation of an action | Use a toast when the user has dismissed a vulnerability and it no longer appears in the list.  |  We want to reaffirm to the user the system recognized their action and that no further action is needed on their part. Toasts, by design present this notification in the best experience. |
+| [Broadcast Message](https://design.gitlab.com/components/broadcast-messages) | Deliver critical, user-generated messages to all users | Use a broadcast message when an admin wants to relay a critical message to all users at the instance level. | Broadcast messages are created by an admin and not the system. We want to differentiate between system-generated and user-generated messages, hence a broadcast message is used in this case. |
+| [Validation error](https://design.gitlab.com/components/forms#validation) | Notification of an invalid action | Use an error when the user has entered invalid characters into the project name field. | A validation error is tied to a specific invalid action that the user performed, whereas danger alerts inform users of when something has gone wrong separate from any immediate action the user has taken. |
+| [Toast](https://design.gitlab.com/components/toasts) | Immediate confirmation of an action | Use a toast when the user has dismissed a vulnerability and it no longer appears in the list.  |  We want to reaffirm to the user the system recognized their action and that no further action is needed on their part. |
 
 ## Demo
 
