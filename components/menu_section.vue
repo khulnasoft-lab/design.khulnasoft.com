@@ -1,23 +1,22 @@
 <template>
-  <ul 
-    :open="$route.fullPath.startsWith(`/${category}`)"
-    class="nav-sidebar__section"
-  >
+  <ul class="nav-sidebar__section">
     <span class="nav-sidebar__section-title">{{ categoryName || (category.charAt(0).toUpperCase() + category.slice(1)) }}</span>
-    <slot></slot>
-    <nuxt-link
+    <nav-sidebar-menu-item
       v-for="page in contentTree[category]"
       :key="page.id"
+      :name="page.name"
       :to="`/${category}/${page.id}`"
-      class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
-    >
-      {{ page.name }}
-    </nuxt-link>
+    />
   </ul>
 </template>
 
 <script>
+import NavSidebarMenuItem from './nav_sidebar_menu_item.vue';
+
 export default {
+  components: {
+    NavSidebarMenuItem,
+  },
   props: {
     contentTree: {
       type: Object,
