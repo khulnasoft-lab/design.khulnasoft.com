@@ -16,7 +16,7 @@ The left-side sidebar consists of content that is contextual to each apge. These
 
 - On a large viewports (`1200px` and up)
 
-    You can choose to have the sidebar always displayed, or always collapsed. Each time you click the collapse/expand button, a cookie is set to remember your choice.
+The user can choose to have the sidebar always collapsed or expanded. Each time they press the toggle button, a cookie is set to remember their preference.
 
 - On a small & medium viewports (`768px` - `1199px`)
 
