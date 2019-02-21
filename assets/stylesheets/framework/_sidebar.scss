@@ -7,7 +7,8 @@
   height: 100%;
   left: 0;
   top: 0;
-  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
 
   // Add an icon after links to external pages
   a[target="_blank"]:after {
@@ -25,6 +26,16 @@
       margin: 0;
       padding: 0;
     }
+  }
+
+  .nav-sidebar__header {
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: -1px;
+  }
+
+  .nav-sidebar__body {
+    flex: 1;
+    overflow: auto;
   }
 
   .nav-sidebar__header-anchor {
