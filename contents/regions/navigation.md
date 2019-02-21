@@ -24,4 +24,4 @@ The left-side sidebar consists of content that is contextual to each apge. These
 
 - On extra small viewports (up to `767px`)
 
-    The mobile sidebar is enabled, which always overlaps the content, adds the semi-transparent overlay, and always displays the full sidebar, again regardless of whether you have the collapsed version set as your preference.
+The sidebar is hidden behind a “hamburger” icon. When pressed, the sidebar is shown expanded, overlapping the page with a semi-transparent overlay. Like the previous point, this behavior is not affected by the user's cookie preference and doesn't change that preference.
