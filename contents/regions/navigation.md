@@ -22,6 +22,6 @@ The left-side sidebar consists of content that is contextual to each apge. These
 
     There is no longer enough room for the main page content to fit comfortably, so the sidebar collapses, regardless of your cookie preference (this was especially important for pages that have a right sidebar as well, like the issue page or MR page, or pages where we have a lot of horizontal content, like the CI tables). When you toggle the sidebar to see all the text, it will overlap the screen instead of pushing the content. In this state, the button no longer sets/unsets the cookie, so when you expand the screen once more, your preference should still be saved (for example, the sidebar should go full-width again if that's what you originally had it on)
 
-- On extra small viewports (up to `767px`)
+- On small and extra small viewports (up to `767px`)
 
 The sidebar is hidden behind a “hamburger” icon. When pressed, the sidebar is shown expanded, overlapping the page with a semi-transparent overlay. Like the previous point, this behavior is not affected by the user's cookie preference and doesn't change that preference.
