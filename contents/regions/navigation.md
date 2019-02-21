@@ -20,7 +20,7 @@ The left-side sidebar consists of content that is contextual to each apge. These
 
 - On a small & medium viewports (`768px` - `1199px`)
 
-    There is no longer enough room for the main page content to fit comfortably, so the sidebar collapses, regardless of your cookie preference (this was especially important for pages that have a right sidebar as well, like the issue page or MR page, or pages where we have a lot of horizontal content, like the CI tables). When you toggle the sidebar to see all the text, it will overlap the screen instead of pushing the content. In this state, the button no longer sets/unsets the cookie, so when you expand the screen once more, your preference should still be saved (for example, the sidebar should go full-width again if that's what you originally had it on)
+There isn't enough room for the main page content to fit comfortably, so the sidebar is collapsed by default, regardless of the user's cookie preference. This is especially important when there is a right sidebar as well (e.g. issue detail page) or when there is a lot of horizontal content (e.g. pipelines table). When the user expands the sidebar, it overlaps the page instead of pushing the content. In these viewports, the toggle doesn't change the user's cookie, so their preference is only saved and used on extra large viewports.
 
 - On small and extra small viewports (up to `767px`)
 
