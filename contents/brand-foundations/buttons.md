@@ -23,4 +23,3 @@ Todo: Add examples of primary and secondary buttons
 DO NOT: Do not use these ghost buttons styles as standalone buttons. They have been proven to be less effective than solid buttons [in a number of studies](https://conversionxl.com/blog/ghost-buttons/). They should only be used as a secondary button, next to a solid primary button that already exists. Here are the classes for the secondary buttons:
 
 Todo: Add an example of secondary button one
-
