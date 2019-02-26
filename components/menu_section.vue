@@ -7,6 +7,7 @@
       :name="page.name"
       :to="`/${category}/${page.id}`"
     />
+    <slot></slot>
   </ul>
 </template>
 

@@ -155,32 +155,14 @@
               >Design resources</nuxt-link>
             </sub-menu>
           </ul>
-          <ul
-            :open="$route.fullPath.startsWith('/research/')" 
-            class="nav-sidebar__section"
-          >
-            <span class="nav-sidebar__section-title">Research</span>
-            <nuxt-link 
-              tag="li"
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-              to="/research/get-started"
-            >Get started</nuxt-link>
-            <nuxt-link 
-              tag="li"
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-              to="/research/personas"
-            >Personas</nuxt-link>
-            <nuxt-link 
-              tag="li"
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-              to="/research/toolkit"
-            >Toolkit</nuxt-link>
-            <nuxt-link 
-              tag="li"
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-              to="/research/first-look"
-            >First look</nuxt-link>
-          </ul>
+          <menu-section :content-tree="contentTree" category="research">
+            <li>
+              <a href="https://about.gitlab.com/community/gitlab-first-look/" target="_blank" class="nav-sidebar__section-items-anchor nav-sidebar--indent-2">First Look</a>
+            </li>
+            <li>
+              <a href="https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/" target="_blank" class="nav-sidebar__section-items-anchor nav-sidebar--indent-2">Personas</a>
+            </li>
+          </menu-section>
           <ul 
             :open="$route.fullPath.startsWith('/accessibility/')" 
             class="nav-sidebar__section"
