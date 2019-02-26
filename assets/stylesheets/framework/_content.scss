@@ -20,6 +20,11 @@
   border-radius: $border-radius;
 }
 
+// Add an icon after links to external pages
+a[target="_blank"]:after {
+  content: url(~assets/images/icons/external-link.svg);
+  margin: 0 3px 0 5px;
+}
 
 // simple grid workaround until bootstrap is reintroduced
 
