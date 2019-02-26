@@ -124,20 +124,7 @@
                 >Status</nuxt-link>
             </sub-menu>
             <sub-menu :content-tree="contentTree" category="regions" />
-            <sub-menu :content-tree="contentTree" category="content">
-              <nuxt-link 
-                class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-                to="/content/voice-tone"
-              >Voice &amp; tone</nuxt-link>
-              <nuxt-link 
-                class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-                to="/content/terminology"
-              >Terminology</nuxt-link>
-              <nuxt-link 
-                class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-                to="/content/punctuation"
-              >Punctuation</nuxt-link>
-            </sub-menu>
+            <sub-menu :content-tree="contentTree" category="content" />
             <sub-menu :content-tree="contentTree" category="usability">
               <nuxt-link 
                 class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
@@ -181,27 +168,7 @@
               to="/research/first-look"
             >First look</nuxt-link>
           </ul>
-          <ul 
-            :open="$route.fullPath.startsWith('/accessibility/')" 
-            class="nav-sidebar__section"
-          >
-            <span class="nav-sidebar__section-title">Accessibility</span>
-            <nuxt-link 
-              tag="li"
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-              to="/accessibility/a11y"
-            >Statement of compliance</nuxt-link>
-            <nuxt-link 
-              tag="li"
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-              to="/accessibility/vpat"
-            >VPAT</nuxt-link>
-            <nuxt-link 
-              tag="li"
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
-              to="/accessibility/best-practices"
-            >Best practices</nuxt-link>
-          </ul>
+          <menu-section :content-tree="contentTree" category="accessibility" />
           <menu-section :content-tree="contentTree" category="contribute" />
         </template>
         <template v-else>
