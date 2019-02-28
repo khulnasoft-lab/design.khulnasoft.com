@@ -26,6 +26,7 @@
           <li><a href="#persona-devon">Devon</a>, DevOps Engineer</li>
           <li><a href="#persona-sidney">Sidney</a>, Systems Administrator</li>
           <li><a href="#persona-sam">Sam</a>, Security Analyst</li>
+          <li><a href="#persona-tristan">Tristan</a>, DevOps-as-a-Service Manager</li>
         </ul>
       </div>
       <div 
@@ -252,6 +253,44 @@
           </ul>
         </div>
       </div>
+      <div 
+        id="persona-tristan" 
+        class="persona card m-b-8"
+      >
+        <div class="card--header">
+          <h2>Tristan</h2>
+        </div>
+        <div class="card--body md">
+          <table class="m-b-6">
+            <tbody>
+              <tr>
+                <th class="header">Job Title:</th>
+                <td>DevOps-as-a-Service Manager</td>
+              </tr>
+              <tr>
+                <th class="header">Alternative Job Titles:</th>
+                <td>IT Manager, IT Tools Director, Development Platform Director, Internal PaaS Manager, or Shared Tools Manager (there is not great alignment on a title for this role yet.)</td>
+              </tr>
+            </tbody>
+          </table>
+          <h3>Job Summary</h3>
+          <p>My job is to provide my company with a development platform that developers like to use that provides a consistent interface for development teams to deliver their code to our infrastructure (which is owned by a different team.) Basically, I create an internal PaaS based on our production infrastructure for our developers.</p>
+          <h3>Motivations</h3>
+          <ul>
+            <li>When offering my platform, I want to deliver something that people are happy to use and doesn't get in the way of development. It should be frictionless for teams to use, and as self-service as possible.</li>
+            <li>When maintaining my platform, it needs to be easy and automatable. Management tasks must be reachable via API.</li>
+            <li>When on the job, I want to stay up to date on the latest information and education in information security, so I can grow in my career.</li>
+            <li>My team was created to save the company money, so the more I can do with a single one-click solution, the more successful I am. It can't require a ton of overhead gluing things together or customizing.</li>
+          </ul>
+          <h3>Frustrations</h3>
+          <ul>
+            <li>I’m frustrated when I can't customize GitLab to match the unique constraints or processes of my organization. They may be unique and unusual, but they are important to us.</li>
+            <li>I’m frustrated when management/scalability functions require accessing the UI instead of being controllable through my automation.</li>
+            <li>I’m concerned that developers will see my platform as old-fashioned and out of date. Developers always want to use new, cool tools and processes.</li>
+            <li>I'm concerned that governance and compliance organizations will spring some new requirement on me for auditing that I am not prepared for.</li>
+          </ul>
+        </div>
+      </div>      
     </div>
   </div>
 </template>
