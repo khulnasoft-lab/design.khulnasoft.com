@@ -6,7 +6,7 @@ related:
   - toasts
 ---
 
-Alerts allow the application to pass along relevant system information to the user without impeding their journey. Alerts can be either system generated or user-generated; however, they are not [validation](https://design.gitlab.com/components/forms#validation) error messages, nor are they feedback notifications after the user takes action, see [toasts](https://design.gitlab.com/components/toasts) for more information. Alerts may contain a dismiss button and an action button depending on the situation. 
+Alerts allow the application to pass along relevant system information to the user without impeding their journey. Alerts are system generated and may or may not be derived by a user's action. They are not [validation](https://design.gitlab.com/components/forms#validation) error messages, nor are they feedback notifications after the user takes action, see [toasts](https://design.gitlab.com/components/toasts) for more information. Alerts may contain a dismiss button and an action button depending on the situation. 
 
 ## Usage
 
@@ -26,9 +26,9 @@ Alerts should be used when the system needs to notify the user of its status or 
 | ----- | -------- | -------- |
 | Danger | Configuration issue | Use a danger alert when there is a configuration issue with the `.gitlab-ci.yml` file. |
 | Warning | Missing files from a commit | Use a warning alert when the `.gitlab-ci.yml` file is not found in the commit. |  
-| Information | Changes stemming from a user's action | Use an information alert in Settings/Export-project to detail what will happen when a user exports a project.  |
+| Information | Provide supplemental information | Use an information alert in Settings/Export-project to detail what will happen when a user exports a project.  |
 | Tip | Promotional offer  | Use a tip alert in Operations/Kubernetes to make the user aware of a GCP credit offer. |
-| Success | Confirmation of a proper configuration | Use a success alert when the user sets-up security checks correctly and the jobs run properly for the first time. |
+| Success | Subsequent confirmation of a proper configuration | Use a success alert in the pipeline view after the user activates SAST using the webIDE and the SAST job runs properly for the first time. |
 
 ### When not to use alerts
 
