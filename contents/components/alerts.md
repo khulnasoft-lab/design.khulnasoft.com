@@ -28,7 +28,7 @@ Alerts should be used when the system needs to notify the user of its status or 
 | Warning | Missing files from a commit | Use a warning alert when the `.gitlab-ci.yml` file is not found in the commit. |  
 | Information | Provide supplemental information | Use an information alert in Settings/Export-project to detail what will happen when a user exports a project.  |
 | Tip | Promotional offer  | Use a tip alert in Operations/Kubernetes to make the user aware of a GCP credit offer. |
-| Success | Subsequent confirmation of a proper configuration | Use a success alert in the pipeline view after the user activates SAST using the webIDE and the SAST job runs properly for the first time. |
+| Success | Subsequent confirmation of a proper configuration | Use a success alert in the pipeline view after the user activates SAST using the Web IDE and the SAST job runs properly for the first time. |
 
 ### When not to use alerts
 
