@@ -4,7 +4,7 @@ name: Saving and feedback
 
 Giving appropriate and timely feedback for user-made changes is vital to making GitLab user-friendly.
 
-[Saving progress](#saving-progress) can be broken down into two main methods: [manual](#manual) where the user saves changes manually by clicking on a button, and [auto-save](#autosave) where changes are saved automatically with a short delay after the user’s last action.
+[Saving progress](#saving-progress) can be broken down into two main methods: [manual](#manual) where the user saves changes manually by clicking on a button, and [auto-save](#auto-save) where changes are saved automatically with a short delay after the user’s last action.
 
 [Instant feedback](#instant-feedback), on the other hand, is giving the user immediate positive feedback without waiting for the return of data from the server, expecting that the change they made will be successfully saved. It has a positive effect on the perceived speed of the application.
 
