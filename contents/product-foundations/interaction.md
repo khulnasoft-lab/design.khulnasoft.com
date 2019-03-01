@@ -38,44 +38,10 @@ Todo: Add design specs link
 
 The mouse cursor is key in helping users understand how to interact with elements on the screen.
 
-<table>
-<thead>
-<tr>
-<th>CSS value</th>
-<th>Example</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>`default`</td>
-<td align="center">![](~/assets/images/foundations/cursors/cursors-default.svg)</td>
-<td>The platform-dependent default cursor. Typically an arrow.</td>
-</tr>
-<tr>
-<td>`pointer`</td>
-<td align="center">![](~/assets/images/foundations/cursors/cursors-pointer.svg)</td>
-<td>Indicates that you can click on an element to invoke a command or navigate, such as links and buttons.</td>
-</tr>
-<tr>
-<td>`grab`</td>
-<td align="center">![](~/assets/images/foundations/cursors/cursors-grab.svg)</td>
-<td>Indicates that you can grab and move an element around the screen.</td>
-</tr>
-<tr>
-<td>`grabbing`</td>
-<td align="center">![](~/assets/images/foundations/cursors/cursors-grabbing.svg)</td>
-<td>Indicates that you are actively moving an element around the screen.</td>
-</tr>
-<tr>
-<td>`text`</td>
-<td align="center">![](~/assets/images/foundations/cursors/cursors-text.svg)</td>
-<td>Indicates that this is either text that you can select and copy, or a text field that you can click into to enter text.</td>
-</tr>
-<tr>
-<td>`not-allowed`</td>
-<td align="center">![](~/assets/images/foundations/cursors/cursors-notallowed.svg)</td>
-<td>Indicates that an item may not be dropped at the current location or that the requested action will not be carried out.</td>
-</tr>
-</tbody>
-</table>
+| **CSS value** | **Example** | **Description** |
+| `default` | ![image](~/assets/images/foundations/cursors/cursors-default.svg) | The platform-dependent default cursor. Typically an arrow. |
+| `pointer` | ![image](~/assets/images/foundations/cursors/cursors-pointer.svg) | Indicates that you can click on an element to invoke a command or navigate, such as links and buttons. |
+| `grab` | ![image](~/assets/images/foundations/cursors/cursors-grab.svg) | Indicates that you can grab and move an element around the screen. |
+| `grabbing` | ![image](~/assets/images/foundations/cursors/cursors-grabbing.svg) | Indicates that you are actively moving an element around the screen. |
+| `text` | ![image](~/assets/images/foundations/cursors/cursors-text.svg) | Indicates that this is either text that you can select and copy, or a text field that you can click into to enter text. |
+| `not-allowed` | ![image](~/assets/images/foundations/cursors/cursors-notallowed.svg) | Indicates that an item may not be dropped at the current location or that the requested action will not be carried out. |
