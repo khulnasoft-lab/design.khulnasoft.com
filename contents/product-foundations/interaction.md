@@ -39,6 +39,7 @@ Todo: Add design specs link
 The mouse cursor is key in helping users understand how to interact with elements on the screen.
 
 | **CSS value** | **Example** | **Description** |
+| --- | --- | --- |
 | `default` | ![image](~/assets/images/foundations/cursors/cursors-default.svg) | The platform-dependent default cursor. Typically an arrow. |
 | `pointer` | ![image](~/assets/images/foundations/cursors/cursors-pointer.svg) | Indicates that you can click on an element to invoke a command or navigate, such as links and buttons. |
 | `grab` | ![image](~/assets/images/foundations/cursors/cursors-grab.svg) | Indicates that you can grab and move an element around the screen. |
