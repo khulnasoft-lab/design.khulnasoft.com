@@ -40,12 +40,28 @@ Adhering to a baseline grid allows us to be more efficient by removing decision 
 
 Using a baseline grid of 8px allows flexibility when scaling and defining our [spacing](/layout/spacing) without overloading the system with options. By using multiples of 8 to define dimensions, padding, and margins of components, we ensure every UI element aligns to the pixel grid.
 
+<div class="baseline a-center m-b-6">
+  <div class="w-13 h-3"></div>
+  <div class="w-13 h-5 c-blue-background-300"></div>
+  <div class="w-13 h-3"></div>
+  <div class="w-13 h-6 c-blue-background-300"></div>
+  <div class="w-13 h-3"></div>
+  <div class="w-13 h-7 c-blue-background-300"></div>
+  <div class="w-13 h-3"></div>
+  <div class="w-13 h-3"></div>
+</div>
+
 When text is used within a UI element, set the line-height to be consistent with the baseline grid and use padding to define the size of the component.
 
 <div class="baseline a-center">
-
-<div class="w-13 h-5 c-blue-background-300 label">Text</div>
-
+  <div class="w-13 h-3"></div>
+  <div class="w-13 h-3 c-orange-background-200"></div>
+  <div class="w-13 h-3 c-green-background-200"></div>
+  <div class="w-13 h-5 c-blue-background-300 label">Text</div>
+  <div class="w-13 h-3 c-green-background-200"></div>
+  <div class="w-13 h-3 c-orange-background-200"></div>
+  <div class="w-13 h-3"></div>
+  <div class="w-13 h-3"></div>
 </div>
 
 ### Typography
@@ -55,59 +71,35 @@ All typography aligns to a 4px baseline grid. This allows for readable line heig
 #### UI typography
 
 <div class="baseline--typography distributed">
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-Paragraph
-
+  <h1>Header 1</h1>
+  <h2>Header 2</h2>
+  <h3>Header 3</h3>
+  <h4>Header 4</h4>
+  <h5>Header 5</h5>
+  <h6>Header 6</h6>
+  <p>Paragraph</p>
 <span class="label">Label</span></div>
 
 #### Markdown
 
 <div class="baseline--typography">
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-Paragraph
-
+  <h1>Header 1</h1>
+  <h2>Header 2</h2>
+  <h3>Header 3</h3>
+  <h4>Header 4</h4>
+  <h5>Header 5</h5>
+  <h6>Header 6</h6>
+  <p>Paragraph</p>
 </div>
 
 #### Compact markdown
 
 <div class="baseline--typography md compact">
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-Paragraph
-
+  <h1>Header 1</h1>
+  <h2>Header 2</h2>
+  <h3>Header 3</h3>
+  <h4>Header 4</h4>
+  <h5>Header 5</h5>
+  <h6>Header 6</h6>
+  <p>Paragraph</p>
 </div>
