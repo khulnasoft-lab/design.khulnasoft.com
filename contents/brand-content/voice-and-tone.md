@@ -24,80 +24,16 @@ GitLab is a single application for the entire DevOps lifecycle. See the [product
 
 The tone of voice we use when speaking as GitLab should always be informed by our [Content Strategy](https://gitlab.com/gitlab-com/marketing/general/blob/master/content/content-strategy.md#strategy). Most importantly, we see our audience as co-conspirators, working together to define and create the next generation of software development practices. The below table should help to clarify further:
 
-<table class="do-dont m-b-6">
-  <thead>
-    <tr>
-      <th>We are</th>
-      <th>We aren't</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <p>Equals in our community</p>
-      </td>
-      <td>
-        <p>Superior</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Knowledgable</p>
-      </td>
-      <td>
-        <p>Know-it-alls</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Empathetic</p>
-      </td>
-      <td>
-        <p>Patronizing</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Straightforward</p>
-      </td>
-      <td>
-        <p>Verbose</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Irreverent</p>
-      </td>
-      <td>
-        <p>Disrespectful</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Playful</p>
-      </td>
-      <td>
-        <p>Jokey</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Helpful</p>
-      </td>
-      <td>
-        <p>Dictatorial</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Transparent</p>
-      </td>
-      <td>
-        <p>Opaque</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| **We are** | **We aren't** |
+| --- | --- |
+| Equals in our community | Superior |
+| Knowledgable | Know-it-alls |
+| Empathetic | Patronizing |
+| Straightforward | Verbose |
+| Irreverent | Disrespectful |
+| Playful | Jokey |
+| Helpful | Dictatorial |
+| Transparent | Opaque |
 
 We explain things in the simplest way possible, using plain, accessible language.
 
