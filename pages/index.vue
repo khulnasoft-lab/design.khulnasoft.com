@@ -40,7 +40,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-dark p-t-8 p-b-8">
+    <div class="bg-light p-t-8 p-b-8">
       <div class="content limited distributed contributing-box__content">
         <div class="contribute-row">
           <div class="contribute-img text-center">
@@ -62,7 +62,7 @@
       </div>
     </div>
     <div class="p-t-6 p-b-10">
-      <div class="content limited distributed contributing-box__content">
+      <div class="content limited contributing-box__content">
         <div class="contribute-row">
           <div class="contribute-copy">
             <h2>Contributing to the design system</h2>
