@@ -38,7 +38,7 @@ There are times when using an alternative component other than an alert is neces
 | ---- | ---- | ---- | ---- |
 | [Broadcast Message](https://design.gitlab.com/components/broadcast-messages) | Deliver critical, user-generated messages to all users | Use a broadcast message when an admin wants to relay a critical message to all users at the instance level. | Broadcast messages are created by an admin and not the system. We want to differentiate between system-generated and user-generated messages, hence a broadcast message is used in this case. |
 | [Validation error](https://design.gitlab.com/components/forms#validation) | Notification of an invalid action | Use an error when the user has entered invalid characters into the project name field. | A validation error is tied to a specific invalid action that the user performed, whereas danger alerts inform users of when something has gone wrong separate from any immediate action the user has taken. |
-| [Toast](https://design.gitlab.com/components/toasts) | Immediate confirmation of an action | Use a toast when the user has dismissed a vulnerability and it no longer appears in the list.  |  We want to reaffirm to the user the system recognized their action and that no further action is needed on their part. |
+| [Toast](https://design.gitlab.com/components/toasts) | Immediate confirmation of an action | Use a toast when the user has dismissed a vulnerability and it no longer appears in the list.  |  We want to immediately reaffirm to the user the system recognized their action and that no further action is needed on their part. |
 
 ## Demo
 
