@@ -14,9 +14,10 @@ Alerts allow the application to pass along relevant system information to the us
 | --- | --- |
 |Danger alerts| To advise the user that their attention is needed to address a critical issue in the system. |
 |Warning alerts|To caution the user that their attention may be needed due to an issue in the system, however, it is not critical that they take action.|
-|Information alerts| To inform the user of the resulting system changes that will take place based on their action.| 
+|Information alerts| To provide supplemental information to the user in regards to the action they are about to take.| 
 |Tip alerts| To educate the user about new or unused features, and other useful information.|
-|Success alerts| To affirm that the user has taken the proper steps to address a system issue or that a prior action they've taken was successful.|
+|Success alerts| To reaffirm to the user that a prior action they have taken, often in a different location within the application, has been accepted by the system. |
+
 
 ### When to use alerts
 
