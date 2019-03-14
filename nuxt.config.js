@@ -92,8 +92,7 @@ module.exports = {
     watch: ['~/contents'],
 
     postcss: {
-      plugins: [postCssGitlab({ scopeSelector: 'app-styles' })],
-      order: ['postcss-gitlab', 'postcss-import', 'postcss-preset-env'],
+      order: ['postcss-import', 'postcss-preset-env'],
     },
     /*
      ** You can extend webpack config here
@@ -102,12 +101,6 @@ module.exports = {
       config.resolve.alias.vue$ = 'vue/dist/vue.esm.js'; // Full Vue version for being able to use dynamic templates
 
       config.module.rules.splice(0, 1);
-
-      const sassRule = config.module.rules.find(rule => rule.test.toString().indexOf('.scss') > -1);
-
-      const cssSassLoader = sassRule.oneOf[1].use[1];
-      // This turns off the check for the failing imports on the live imported application.css
-      cssSassLoader.options.url = false;
 
       config.module.rules.push({
         test: /\.md$/,
