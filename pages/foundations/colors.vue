@@ -20,12 +20,12 @@
       </ul>
       <p>Priorities skip weights because, in most situations, the contrast between two adjoining weights would be subtle. However, those shades are available to use when needed. Color priorities are meant to act as a guideline, not a strict set of rules.</p>
       <h3>Accessibility</h3>
-      <p>At GitLab, we are dedicated to continually improving the accessibility of the application. Currently, all chromatic colors pass the <a 
-        href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast" 
+      <p>At GitLab, we are dedicated to continually improving the accessibility of the application. Currently, all chromatic colors pass the <a
+        href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast"
         target="_blank"
       >Web Content Accessibility Guidelines (WCAG)</a> AA level for large text when used as a background color. Learn more in <a href="/accessibility/a11y">Accessibility</a>.</p>
       <div class="color-palette row m-b-9">
-        <div class="green col col-50">
+        <div class="green col col-6">
           <h4>Green</h4>
           <div class="distributed palette">
             <div class="color">
@@ -272,7 +272,7 @@
             </div>
           </div>
         </div>
-        <div class="blue col col-50">
+        <div class="blue col col-6">
           <h4>Blue</h4>
           <div class="distributed palette">
             <div class="color">
@@ -519,7 +519,7 @@
             </div>
           </div>
         </div>
-        <div class="orange col col-50 m-t-7">
+        <div class="orange col col-6 m-t-7">
           <h4>Orange</h4>
           <div class="distributed palette">
             <div class="color">
@@ -766,7 +766,7 @@
             </div>
           </div>
         </div>
-        <div class="red col col-50 m-t-7">
+        <div class="red col col-6 m-t-7">
           <h4>Red</h4>
           <div class="distributed palette">
             <div class="color">
@@ -1015,7 +1015,7 @@
         </div>
       </div>
       <div class="row m-b-9">
-        <div class="col col-50">
+        <div class="col col-6">
           <h2>Neutral palette</h2>
           <p>Our neutral palette is primarily used within components to help differentiate hierarchy. Shades of gray can be used as backgrounds, borders, and shadows to emphasise certain areas or set them apart.</p>
           <div class="distributed palette neutral">
@@ -1099,7 +1099,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-50">
+        <div class="col col-6">
           <h2>Transparencies</h2>
           <p>Transparencies are used only to indicate hover and active states within themes. Each theme has its own series of four transparencies to utilize with alpha levels ranging from 0.02 to 0.08.</p>
           <div class="distributed palette neutral m-b-6">
@@ -1133,7 +1133,7 @@
       <h2>Themes</h2>
       <p>There are ten different theme options that users can choose to customize the appearance of the application header and navigation sidebar. Each theme draws inspiration from one of our primary chromatic colors, the neutral palette, or the corporate indigo color. For each of these colors, there is a dark and a light theme, which result in the following palettes:</p>
       <div class="color-palette row m-b-6">
-        <div class="indigo col col-25">
+        <div class="indigo col col-3">
           <h4>Dark &amp; Light Indigo</h4>
           <div class="distributed palette">
             <div class="color">
@@ -1204,7 +1204,7 @@
             </div>
           </div>
         </div>
-        <div class="blue col col-25">
+        <div class="blue col col-3">
           <h4>Dark Blue</h4>
           <div class="distributed palette">
             <div class="color">
@@ -1275,7 +1275,7 @@
             </div>
           </div>
         </div>
-        <div class="light-blue col col-25">
+        <div class="light-blue col col-3">
           <h4>Light Blue</h4>
           <div class="distributed palette">
             <div class="color">
@@ -1346,7 +1346,7 @@
             </div>
           </div>
         </div>
-        <div class="green col col-25">
+        <div class="green col col-3">
           <h4>Dark &amp; Light Green</h4>
           <div class="distributed palette">
             <div class="color">
@@ -1417,7 +1417,7 @@
             </div>
           </div>
         </div>
-        <div class="red col col-25 m-t-7">
+        <div class="red col col-3 m-t-7">
           <h4>Dark Red</h4>
           <div class="distributed palette">
             <div class="color">
@@ -1488,7 +1488,7 @@
             </div>
           </div>
         </div>
-        <div class="light-red col col-25 m-t-7">
+        <div class="light-red col col-3 m-t-7">
           <h4>Light Red</h4>
           <div class="distributed palette">
             <div class="color">
@@ -1559,7 +1559,7 @@
             </div>
           </div>
         </div>
-        <div class="gray col col-25 m-t-7">
+        <div class="gray col col-3 m-t-7">
           <h4>Dark &amp; Light</h4>
           <div class="distributed palette">
             <div class="color">

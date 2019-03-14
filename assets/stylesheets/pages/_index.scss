@@ -68,13 +68,7 @@
   top: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(135deg, rgba(115, 67, 198, .9) 0%, rgba(141, 70, 204, .75) 100%);
-}
-
-.bg-dark {
-  background: $gray-50;
-  border-top: $border-width solid $gray-100;
-  border-bottom: $border-width solid $gray-100;
+  background: linear-gradient(135deg, rgba(115, 67, 198, 0.9) 0%, rgba(141, 70, 204, 0.75) 100%);
 }
 
 .resources {
@@ -85,15 +79,15 @@
 
 .index {
   p {
-    @include type-scale(1, 6, 2, 0); 
+    @include type-scale(1, 6, 2, 0);
   }
 
   h2 {
-    @include type-scale(4, 6, 3); 
+    @include type-scale(4, 6, 3);
   }
 
   h3 {
-    @include type-scale(6, 8, 2); 
+    @include type-scale(6, 8, 2);
   }
 }
 
