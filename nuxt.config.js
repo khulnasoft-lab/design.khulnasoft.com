@@ -1,4 +1,3 @@
-import postCssGitlab from './modules/postcss_gitlab';
 import { getContentList } from './modules/content_preparer';
 
 const routes = getContentList('components').map(c => `components/${c.id}`);
