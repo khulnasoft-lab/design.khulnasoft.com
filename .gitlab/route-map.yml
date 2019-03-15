@@ -3,7 +3,7 @@
   public: '\1'
 
 # # Vue content pages
-- source: /pages\/[a-z0-9-]+\/(.+?)\..*/
+- source: /pages\/([a-z0-9-\/]+\/.+?)\..*/
   public: '\1'
 
 # # Homepage
