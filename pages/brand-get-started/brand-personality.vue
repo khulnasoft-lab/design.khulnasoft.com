@@ -11,7 +11,7 @@
         <li>Humble: We care about helping those around us achieve great things more than we care about our personal accomplishments.</li>
       </ol>
       <p>These four characteristics work together to form a personality that is authentic to GitLab team members, community, and relatable to our audience. If we were <strong>quirky</strong> without being <strong>human</strong> we could come across as eccentric. If we were <strong>competent</strong> without being <strong>humble</strong> we could come across as arrogant.</p>
-      <p>GitLab has a <a href="https://about.gitlab.com/company/strategy/#mission" target="_blank">higher purpose</a>. We want to inspire a sense of adventure in those around us so that they join us in contributing to making that mission a reality.</p>
+      <p>GitLab has a <a href="https://about.gitlab.com/company/strategy/#mission" target="_blank">higher purpose</a>. We want to inspire a sense of adventure in those around us so that they join us in contributing to making that mission a reality.asdasd</p>
     </div>
   </div>
 </template>
