@@ -58,6 +58,12 @@ Todo: Add specific informationa about area charts
 
 Todo: Add specific information about pie charts
 
+### Chart zooming and scrolling
+
+ECharts, our new chart framework, has a default mechanism for zooming and scrolling on graphs. 
+
+When a chart's content overflows it's container, a zoom and scroll bar can be introduced. This bar allows users to interact with their data and control how much data is displayed at any one time.
+
 ## Demo
 
 Todo: Add live component block with code example of all available chart types
@@ -67,5 +73,7 @@ Todo: Add live component block with code example of all available chart types
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
 [Column charts measure spec](http://gitlab-org.gitlab.io/gitlab-design/hosted/amelia/gd%23195-column-chart-design-spec-previews/)
+
+[Zoom and scroll measure spec](http://gitlab-org.gitlab.io/gitlab-design/hosted/amelia/gd%23221-charts-scrolling-spec-previews/)
 
 Todo: Add sketch measure preview specs for each additional chart type
