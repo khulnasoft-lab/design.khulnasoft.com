@@ -8,8 +8,11 @@ Before you move on, make sure you have [Node](https://nodejs.org/en/) 8.x (LTS) 
 
 ## Quick start
 
+1. Open a new Terminal window via `Applications -> Utilities > Terminal` or `CMD + SPACE` and typing in "Terminal"
+1. Move into the folder you want to store the project with `cd` or create a new folder with `mkdir`
 1. Clone the project with `git clone git@gitlab.com:gitlab-org/design.gitlab.com.git`
 1. Install [yarn](https://yarnpkg.com/en/docs/install)
+1. Move into the project folder with `cd design.gitlab.com`
 1. Run `yarn install`
 1. Run `yarn start` to start build & watch changes
 1. Open http://localhost:2018
