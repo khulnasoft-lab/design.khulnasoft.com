@@ -685,10 +685,10 @@
     eslint-plugin-promise "^4.0.1"
     eslint-plugin-vue "^5.0.0"
 
-"@gitlab/ui@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@gitlab/ui/-/ui-3.0.2.tgz#29a17699751261657487b939c651c0f93264df2a"
-  integrity sha512-JZhcS5cDxtpxopTc55UWvUbZAwKvxygYHT9I01QmUtKgaKIJlnjBj8zkcg1xHazX7raSjjtjqfDEla39a+luuQ==
+"@gitlab/ui@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@gitlab/ui/-/ui-3.1.0.tgz#718fce208c14dc539859715a03978922c5b003b5"
+  integrity sha512-xCz8uCeP/4pzuQSoqfrFLeB0lfVHpvQ08r8/CkhSoDTpv34AXvmaxbv1PR8lIadRi43KuPTN639zHHKC2Z0b1g==
   dependencies:
     "@babel/standalone" "^7.0.0"
     bootstrap-vue "^2.0.0-rc.11"
