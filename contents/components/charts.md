@@ -62,7 +62,7 @@ Todo: Add specific information about pie charts
 
 ### Chart zooming and scrolling
 
-Our charting framework, [ECharts] (https://ecomfe.github.io/echarts-doc/public/en/index.html), has a default mechanism for zooming and scrolling on graphs. 
+Our charting framework, [ECharts](https://ecomfe.github.io/echarts-doc/public/en/index.html), has a default mechanism for zooming and scrolling on graphs. 
 
 The zoom and scroll bar isn't added to all charts by default. In cases where the chart neatly fits its container, it needn't be displayed. However, in instances where the chart would otherwise overflow its container or where there is a large amount of data for users to explore, a zoom and scroll bar should be introduced. The zoom and scroll bar allows users more control over how much data is displayed at any one time, and gives them the ability dig into issues they are observing at a more granular level.
 
@@ -75,7 +75,7 @@ Todo: Add live component block with code example of all available chart types
 
 ## Design specifications
 
-Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
+Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following links:
 
 [Column charts measure spec](http://gitlab-org.gitlab.io/gitlab-design/hosted/amelia/gd%23195-column-chart-design-spec-previews/)
 
