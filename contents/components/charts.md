@@ -84,4 +84,6 @@ Color, spacing, dimension, and layout specific information pertaining to this co
 
 [Zoom and scroll measure spec](http://gitlab-org.gitlab.io/gitlab-design/hosted/amelia/gd%23221-charts-scrolling-spec-previews/)
 
+[Zoom and scroll measure spec](http://gitlab-org.gitlab.io/gitlab-design/hosted/amelia/gd%23221-charts-scrolling-spec-previews/)
+
 Todo: Add sketch measure preview specs for each additional chart type
