@@ -1,10 +1,13 @@
+import glob from 'glob';
 import postCssGitlab from './modules/postcss_gitlab';
 import { getContentList } from './modules/content_preparer';
 
-const routes = getContentList('components').map(c => `components/${c.id}`);
+const routes = [
+  ...getContentList('components').map(c => `components/${c.id}`),
+  ...glob.sync('**/*.md', { cwd: 'contents/' }).map(path => path.replace(/\.md$/, '')),
+];
 
 module.exports = {
-  mode: 'spa',
   /*
    ** Headers of the page
    */
@@ -45,10 +48,6 @@ module.exports = {
   generate: {
     dir: 'public',
     routes,
-  },
-
-  render: {
-    ssr: false,
   },
 
   axios: {
@@ -103,15 +102,15 @@ module.exports = {
 
       config.module.rules.splice(0, 1);
 
-      const sassRule = config.module.rules.find(rule => rule.test.toString().indexOf('.scss') > -1);
-
-      const cssSassLoader = sassRule.oneOf[1].use[1];
-      // This turns off the check for the failing imports on the live imported application.css
-      cssSassLoader.options.url = false;
-
       config.module.rules.push({
         test: /\.md$/,
         include: /static/,
+        loader: 'frontmatter-markdown-loader',
+      });
+
+      config.module.rules.push({
+        test: /\.md$/,
+        include: /contents/,
         loader: 'frontmatter-markdown-loader',
       });
 
@@ -123,6 +122,7 @@ module.exports = {
 
       config.module.rules.push({
         test: /\.md$/,
+        exclude: /contents/,
         loader: 'raw-loader',
       });
 

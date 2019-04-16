@@ -22,55 +22,55 @@
       </div>
       <div class="nav-sidebar__body m-b-3">
         <template v-if="contentTree">
-          <ul 
-            :open="$route.fullPath.startsWith('/brand-get-started/')" 
+          <ul
+            :open="$route.fullPath.startsWith('/brand-get-started/')"
             class="nav-sidebar__section"
           >
             <li>
               <span class="nav-sidebar__section-title">Brand</span>
             </li>
             <sub-menu :content-tree="contentTree" category="brand-get-started" category-name="Get started">
-              <nuxt-link 
-                class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
+              <nuxt-link
+                class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
                 to="/brand-get-started/brand-personality"
               >Brand personality</nuxt-link>
             </sub-menu>
             <sub-menu :content-tree="contentTree" category="brand-foundations" category-name="Foundations">
-                <nuxt-link 
-                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
+                <nuxt-link
+                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
                   to="/brand-foundations/gitlab-logo"
                 >The GitLab logo</nuxt-link>
-                <nuxt-link 
-                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
+                <nuxt-link
+                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
                   to="/brand-foundations/colors"
                 >Colors</nuxt-link>
                 <nuxt-link
-                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
+                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
                   to="/brand-foundations/typography"
                 >Typography</nuxt-link>
-                <nuxt-link 
-                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
+                <nuxt-link
+                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
                   to="/brand-foundations/buttons"
                 >Buttons</nuxt-link>
-                <nuxt-link 
-                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
+                <nuxt-link
+                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
                   to="/brand-foundations/iconography"
                 >Iconography</nuxt-link>
             </sub-menu>
             <sub-menu :content-tree="contentTree" category="brand-content" category-name="Content">
-              <nuxt-link 
-                class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
+              <nuxt-link
+                class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
                 to="/brand-content/voice-tone"
               >Voice &amp; Tone</nuxt-link>
             </sub-menu>
-            <nuxt-link 
+            <nuxt-link
               tag="li"
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-1" 
+              class="nav-sidebar__section-items-anchor nav-sidebar--indent-1"
               to="/brand-resources/resources"
             >Resources</nuxt-link>
           </ul>
-          <ul 
-            :open="$route.fullPath.startsWith('/product/')" 
+          <ul
+            :open="$route.fullPath.startsWith('/product/')"
             class="nav-sidebar__section"
           >
             <li>
@@ -109,16 +109,16 @@
             </sub-menu>
             <sub-menu :content-tree="contentTree" category="layout" />
             <sub-menu :content-tree="contentTree" category="components">
-              <nuxt-link 
-                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
+              <nuxt-link
+                  class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
                   to="/components/status"
                 >Status</nuxt-link>
             </sub-menu>
             <sub-menu :content-tree="contentTree" category="regions" />
             <sub-menu :content-tree="contentTree" category="content" />
             <sub-menu :content-tree="contentTree" category="usability" />
-            <nuxt-link 
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-1" 
+            <nuxt-link
+              class="nav-sidebar__section-items-anchor nav-sidebar--indent-1"
               to="/resources/design-resources"
             >Design resources</nuxt-link>
           </ul>
@@ -130,27 +130,28 @@
               <a href="https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/" target="_blank" rel="noopener" class="nav-sidebar__section-items-anchor nav-sidebar--indent-2">Personas</a>
             </li>
           </menu-section>
-          <ul 
-            :open="$route.fullPath.startsWith('/accessibility/')" 
+          <ul
+            :open="$route.fullPath.startsWith('/accessibility/')"
             class="nav-sidebar__section"
           >
             <span class="nav-sidebar__section-title">Accessibility</span>
-            <nuxt-link 
+            <nuxt-link
               tag="li"
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
+              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/accessibility/a11y"
             >Statement of compliance</nuxt-link>
-            <nuxt-link 
+            <nuxt-link
               tag="li"
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
+              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/accessibility/vpat"
             >VPAT</nuxt-link>
-            <nuxt-link 
+            <nuxt-link
               tag="li"
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2" 
+              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/accessibility/best-practices"
             >Best practices</nuxt-link>
           </ul>
+          <menu-section :content-tree="contentTree" category="accessibility" />
           <menu-section :content-tree="contentTree" category="contribute" />
         </template>
         <template v-else>
