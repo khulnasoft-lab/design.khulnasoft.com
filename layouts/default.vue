@@ -124,33 +124,12 @@
           </ul>
           <menu-section :content-tree="contentTree" category="research">
             <li>
-              <a href="https://about.gitlab.com/community/gitlab-first-look/" target="_blank" rel="noopener" class="nav-sidebar__section-items-anchor nav-sidebar--indent-2">First Look</a>
+              <a href="https://about.gitlab.com/community/gitlab-first-look/" target="_blank" rel="noopener" class="nav-sidebar__section-items-anchor nav-sidebar--indent-1">First Look</a>
             </li>
             <li>
-              <a href="https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/" target="_blank" rel="noopener" class="nav-sidebar__section-items-anchor nav-sidebar--indent-2">Personas</a>
+              <a href="https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/" target="_blank" rel="noopener" class="nav-sidebar__section-items-anchor nav-sidebar--indent-1">Personas</a>
             </li>
           </menu-section>
-          <ul
-            :open="$route.fullPath.startsWith('/accessibility/')"
-            class="nav-sidebar__section"
-          >
-            <span class="nav-sidebar__section-title">Accessibility</span>
-            <nuxt-link
-              tag="li"
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
-              to="/accessibility/a11y"
-            >Statement of compliance</nuxt-link>
-            <nuxt-link
-              tag="li"
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
-              to="/accessibility/vpat"
-            >VPAT</nuxt-link>
-            <nuxt-link
-              tag="li"
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
-              to="/accessibility/best-practices"
-            >Best practices</nuxt-link>
-          </ul>
           <menu-section :content-tree="contentTree" category="accessibility" />
           <menu-section :content-tree="contentTree" category="contribute" />
         </template>
