@@ -11,13 +11,13 @@ Toasts are used to display system messages. The messages are short and straightf
 
 ## Usage
 
-Toasts appear with an ease-in animation from the bottom of the screen and stay fixed at its bottom-left corner. Users can exit the toast by clicking the “Dismiss” button. If left alone, toasts will automatically disappear after a short length of time. This is true for all toasts, including those with action buttons. Hovering over a disappearing toast will cause it to remain until the cursor is moved.
+Toasts appear with an ease-in animation from the bottom of the screen and stay fixed at its bottom-left corner. Users can exit the toast by clicking the “Dismiss” button. If left alone, toasts without actions will automatically disappear after three seconds. Hovering over a toast message will cause it to remain until the cursor is moved. Toasts with action buttons are only dismissed when the user performs the action or clicks the dismiss button.
 
 ### Dos and Dont's
 
 |Do|Don't|
 |--- |--- |
-|Show only one toast at a time.|Show a second toast before the first has timed out or been dismissed.|
+|Stack toasts if more than one are on the screen at once.|Dismiss a toast prematurely if another toast is introduced.|
 |Add a "Dismiss" button and an additional action button if appropriate.|Add more than one extra button in addition to the "Dismiss" button.|
 |Always show a dismiss button.|Remove a user's ability to manually dismiss the message.|
 |Avoid using for irreversible actions.|Use for actions that will result in permanent deletion.|
