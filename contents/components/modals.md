@@ -22,7 +22,7 @@ Modals should be used when:
 
 - Critical information is being revealed
 - The system requires a user response
-- A non-revertible destructive action is about to take place
+- A non-revertible destructive action is about to take place and needs confirmation
 
 ### Alternatives
  
