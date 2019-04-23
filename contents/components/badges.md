@@ -18,7 +18,7 @@ Information can be rendered in badges as icons, text, or both. If they only have
 
 Badges should always link to the object they refer to unless the user is already seeing the most detailed state of that object (i.e. the object's detail page).
 
-Long text in badges should be avoided if possible. If this has to be the case and the width is constrained the text should be truncated and aided by a tooltip. Badges can never wrap its contents.
+Long text in badges should be avoided. When text overflows the badge width, it is truncated and aided by a tooltip. Badge contents don't wrap.
 
 ### Variations
 
