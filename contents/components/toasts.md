@@ -13,6 +13,10 @@ Toasts are used to display system messages. The messages are short and straightf
 
 Toasts appear with an ease-in animation from the bottom of the screen and stay fixed at its bottom-left corner. Users can exit the toast by clicking the “Dismiss” button. If left alone, toasts without actions will automatically disappear after three seconds. Hovering over a toast message will cause it to remain until the cursor is moved. Toasts with action buttons are only dismissed when the user performs the action or clicks the dismiss button.
 
+### Content
+
+While the content within a toast should be concise, it should also be specific. Because toasts have the ability to stack, ambiguous copy could lead to confusion. Ensure every toast specifies the object the action was related to.
+
 ### Dos and Dont's
 
 |Do|Don't|
