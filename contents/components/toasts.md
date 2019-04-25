@@ -21,9 +21,9 @@ Toasts appear with an ease-in animation from the bottom of the screen and stay f
 |Action toasts|These toasts are used to display message with an optional user action (e.g. "Undo").|
 
 
-### Behavior
+### Content
 
-By default, toasts are placed in the bottom left corner of the screen and will grow according to its contents. However, when toasts are viewed on mobile devices, the toast will take up the full width of the screen. All toasts have a "Dismiss" button.
+While the content within a toast should be concise, it should also be specific. Because toasts have the ability to stack, ambiguous copy could lead to confusion. Ensure every toast specifies the object the action was related to.
 
 
 ### Dos and Dont's
