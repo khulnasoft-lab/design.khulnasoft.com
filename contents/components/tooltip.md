@@ -14,6 +14,12 @@ Tooltips fade in upon hover or touch of its trigger element. They fade out upon 
 
 Tooltips shouldn’t repeat information that is shown near the referring element. However, they can show the same data in a different format (e.g. date or timestamps). Information provided in a tooltip should be short and concise. If you need to add more than a single line of information, consider using a [popover](/components/popovers) instead. The text will wrap when the content is wider than the max-width.
 
+### Timing
+
+When interacting with an element the timing requirement for summoning up a tooltip might be different depending on the situation. A delay is prefered in situations where the information provided is secondary to the extent that it is not needed to gain an immediate understanding of the what the user is looking at or when it easily obscures essential information in an interaction heavy context. For example, the meaning of an icon button might be provided instantly in order to remove friction understanding the context. Conversely a tooltip inside of a dropdown which contains additional information might obscure more important information like the row above or below, meaning a delay might provide a more optimal user experience.
+
+To support this, the component allows for the following options: no delay, a preset delay, and a customizable delay. No delay is the default but if a delay is required it is prefered to use the preset delay. This way a consistent experience becomes an expected user pattern across the application.
+
 ## Placement
 
 By default, tooltips are placed on top of the referring element. However, when there isn’t enough space in the viewport, the tooltip is moved to the side or below as needed. If it blocks related content, the preferred tooltip placement can be manually set.
