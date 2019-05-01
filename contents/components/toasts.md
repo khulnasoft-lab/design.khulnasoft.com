@@ -1,5 +1,7 @@
 ---
 name: Toasts
+vueComponents: 
+  - GlToast
 related: 
   - modals
   - motion
