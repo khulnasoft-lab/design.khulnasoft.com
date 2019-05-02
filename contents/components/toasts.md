@@ -43,7 +43,6 @@ There are some adjustments necessary for toasts displayed on smaller screens.
 Todo: Add an example of a live component related to mobile guidelines
 
 *   The width of the toast is full (100%).
-*   The toast does not have rounded corners.
 *   If the message has only one line and the only action is to dismiss, the toasts retain the dismiss icon.
 *   If the message wraps onto another line, place the action buttons below the message, aligned to the right, with the “Dismiss” action first.
 
