@@ -685,9 +685,9 @@
     eslint-plugin-promise "^4.0.1"
     eslint-plugin-vue "^5.0.0"
 
-"@gitlab/ui@https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/216133155/artifacts/raw/gitlab-ui.247-add-toast-example.tgz":
+"@gitlab/ui@https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/216495253/artifacts/raw/gitlab-ui.247-add-toast-example.tgz":
   version "3.10.0"
-  resolved "https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/216133155/artifacts/raw/gitlab-ui.247-add-toast-example.tgz#3baf4f13329402aa6f3c2b37c041493ec9558687"
+  resolved "https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/216495253/artifacts/raw/gitlab-ui.247-add-toast-example.tgz#e84aeb29c2e85f056f730c1acd677a435b5922e8"
   dependencies:
     "@babel/standalone" "^7.0.0"
     "@gitlab/vue-toasted" "^1.2.1"

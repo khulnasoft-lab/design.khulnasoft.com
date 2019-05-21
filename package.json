@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@gitlab-org/gitlab-svgs": "^1.32.0",
-    "@gitlab/ui": "https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/216133155/artifacts/raw/gitlab-ui.247-add-toast-example.tgz",
+    "@gitlab/ui": "https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/216495253/artifacts/raw/gitlab-ui.247-add-toast-example.tgz",
     "@nuxtjs/axios": "^5.0.0",
     "bootstrap": "^4.1.3",
     "bootstrap-vue": "^2.0.0-beta",
