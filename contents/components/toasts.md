@@ -48,7 +48,9 @@ Todo: Add an example of a live component related to mobile guidelines
 
 ## Demo
 
-Todo: Add live component block with code example
+[[Example:toast-default]]
+
+[[Example:toast-action]]
 
 ## Design specifications
 
