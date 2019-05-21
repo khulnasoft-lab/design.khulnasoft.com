@@ -685,10 +685,9 @@
     eslint-plugin-promise "^4.0.1"
     eslint-plugin-vue "^5.0.0"
 
-"@gitlab/ui@^3.9.0":
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/@gitlab/ui/-/ui-3.9.0.tgz#233544ae1eb8a7c3fe4f10d9d3bc9114dfa38af0"
-  integrity sha512-3nPYAJmENMrkMe5YdSjTAZKfwZ5utPEGcC9vSV5bCx/8pqj4Aay9ou04e6Nvj1tD3VNHlbkuO27KXYrj/n4tZg==
+"@gitlab/ui@https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/216133155/artifacts/raw/gitlab-ui.247-add-toast-example.tgz":
+  version "3.10.0"
+  resolved "https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/216133155/artifacts/raw/gitlab-ui.247-add-toast-example.tgz#3baf4f13329402aa6f3c2b37c041493ec9558687"
   dependencies:
     "@babel/standalone" "^7.0.0"
     "@gitlab/vue-toasted" "^1.2.1"
