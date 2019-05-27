@@ -40,10 +40,6 @@ module.exports = {
         rel: 'stylesheet',
         src: 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',
       },
-      {
-        rel: 'stylesheet',
-        href: 'https://gitlab-org.gitlab.io/gitlab-ce/application.css',
-      },
     ],
     bodyAttrs: {
       class: 'ui-indigo',
