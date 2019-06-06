@@ -29,7 +29,7 @@ Depending on the context and the value of the badge's information, some style at
 
 ## Demo
 
-Todo: Add live component block with code example
+[[Example:badge-variants]]
 
 ## Design specifications
 
