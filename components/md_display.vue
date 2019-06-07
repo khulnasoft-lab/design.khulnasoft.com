@@ -33,7 +33,7 @@ export default {
     mdOutput = mdOutput.replace(/Todo:(.*?)\n/gm, '<p class="todo">Todo: $1</p>');
 
     const dynamicElement = {
-      template: `<div class="component md  typography">${mdOutput}</div>`,
+      template: `<div class="component md typography">${mdOutput}</div>`,
     };
 
     return createElement(dynamicElement);
