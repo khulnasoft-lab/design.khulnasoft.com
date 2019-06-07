@@ -1,5 +1,5 @@
 @mixin type-scale($scale, $line-height, $margin-bottom: 0, $margin-top: 24px) {
-  font-size: $base-font-size + ($scale * 2); 
+  font-size: $base-font-size + ($scale * 2);
   line-height: $line-height * $base-grid--typography;
   margin-bottom: $margin-bottom * $base-grid;
   margin-top: $margin-top;
@@ -35,13 +35,17 @@ a {
 .md {
   @include type-scale(1, 7, 0, 0);
 
-  h1 { 
+  .app-styles {
+    @include type-scale(0, 0, 0, 0);
+  }
+
+  h1 {
     @include type-scale(14, 12, 2);
     padding-bottom: $gl-spacing-5;
     border-bottom: $border-width solid $gray-300;
   }
 
-  h2 { 
+  h2 {
     @include type-scale(7, 8, 2);
     padding-bottom: $gl-spacing-5;
     border-bottom: $border-width solid $gray-300;
@@ -51,7 +55,7 @@ a {
   h4 { @include type-scale(1, 6, 1) }
   h5 { @include type-scale(0, 5, 1) }
 
-  h6 { 
+  h6 {
     @include type-scale(0, 5, 1);
     color: $text-color--secondary;
   }
@@ -98,17 +102,17 @@ a {
 
   h3 { @include type-scale(-1, 4, 1); }
 
-  h4 { 
+  h4 {
     @include type-scale(-1, 4, 1);
     color: $text-color--secondary;
   }
 
-  h5 { 
+  h5 {
     @include type-scale(-1, 4, 1);
     color: $text-color--secondary;
   }
 
-  h6 { 
+  h6 {
     @include type-scale(-1, 4, 1);
     color: $text-color--secondary;
   }
@@ -121,13 +125,13 @@ a {
 .distributed {
   @include type-scale(0, 4, 0, 0);
 
-  h1 { 
+  h1 {
     @include type-scale(7, 8, 1);
     border: none;
     padding: 0;
   }
 
-  h2 { 
+  h2 {
     @include type-scale(3, 6, 1);
     border: none;
     padding: 0;
@@ -136,16 +140,16 @@ a {
   h3 { @include type-scale(0, 4, 1); }
   h4 { @include type-scale(-1, 4, 1); }
 
-  h5 { 
+  h5 {
     @include type-scale(-1, 4, 1);
     color: $text-color--secondary;
   }
 
-  h6 { 
+  h6 {
     @include type-scale(-1, 4, 1);
     color: $text-color--secondary;
   }
-  
+
   p  { @include type-scale(0, 6, 2, 0); }
 }
 
