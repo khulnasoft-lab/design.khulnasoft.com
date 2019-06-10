@@ -148,6 +148,21 @@
               to="/research/first-look"
             >First look</nuxt-link>
           </ul>
+          <ul 
+            :open="$route.fullPath.startsWith('/strategy/')" 
+            class="nav-sidebar__section"
+          >
+            <li>
+              <span class="nav-sidebar__section-title">Strategy</span>
+            </li>
+            <sub-menu :content-tree="contentTree" category="strategy-ci-cd" category-name="CI/CD" />
+            <sub-menu :content-tree="contentTree" category="strategy-defend" category-name="Defend" />
+            <sub-menu :content-tree="contentTree" category="strategy-dev" category-name="Dev" />
+            <sub-menu :content-tree="contentTree" category="strategy-enablement" category-name="Enablement" />
+            <sub-menu :content-tree="contentTree" category="strategy-growth" category-name="Growth" />
+            <sub-menu :content-tree="contentTree" category="strategy-ops" category-name="Ops" />
+            <sub-menu :content-tree="contentTree" category="strategy-secure" category-name="Secure" />
+          </ul>
           <menu-section :content-tree="contentTree" category="accessibility" />
           <menu-section :content-tree="contentTree" category="contribute" />
         </template>
