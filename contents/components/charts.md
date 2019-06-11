@@ -22,7 +22,8 @@ In cases where the charting principles conflict, consider data representation ac
 
 Going forward, our charts will be built using [Echarts](https://ecomfe.github.io/echarts-doc/public/en/index.html). 
 
-General content and style considerations for charts include: 
+General content and style considerations for charts include:
+ 
 *   If there is more than one series being displayed, add a legend. 
 *   In legends, the text after the series name is optional. It allows for the possibility of complementing the series legend with additional useful calculations (total, etc).
 *   Use chart titles, category and value labels as necessary to clarify the content being shown (with units in parentheses, if required). Note that units aren't always necessary, for example, in the case of counts.
