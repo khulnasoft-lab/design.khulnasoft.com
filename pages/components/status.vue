@@ -29,12 +29,12 @@
           <tr>
             <td>⚒</td>
             <td>Built</td>
-            <td>Component is complete and ready to use but not yet in production</td>
+            <td>Complete and ready to use but not yet in production</td>
           </tr>
           <tr>
             <td>✅</td>
             <td>Implemented</td>
-            <td>Component is implemented in production</td>
+            <td>Implemented in production</td>
           </tr>
           <tr>
             <td>❌</td>
@@ -62,7 +62,7 @@
           <tr>
             <td class="app-styles"><span class="badge badge-primary">Vue</span></td>
             <td>Vue component</td>
-            <td>Component exists within GitLab-UI</td>
+            <td>Exists within GitLab-UI</td>
           </tr>
         </tbody>
       </table>
