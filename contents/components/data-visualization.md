@@ -34,30 +34,20 @@ There are six main categories of data visualizations:
 *   Spatial-temporal: shows data that can be mapped over time (ex. heat map)
 *   Statistical graphics: shows the composition of data (ex. column charts, area charts, and line charts)
 
-We primarily use (and have created components for) statistical graphics. We've also created our first spatial-temporal component, a heat map. The rest will be built when there is an appropriate use case. 
-
-### Hierarchical
-
-Todo: Create design for hierarchical data viz
+We have use cases for Relational, Statistical, and Spatial-temporal. The other categories will be built when there is an appropriate use case.
 
 ### Relational
 
-Todo: Create design for relational data viz
+The GitLab [commit graph](https://gitlab.com/gitlab-org/gitlab-ui/-/network/master) is an example of a relational data visualization, as it shows how all of the individual commits are related to the master.
 
-### Spatial
-
-Todo: Create design for spatial data viz
-
-### Temporal
-
-Todo: Create design for temporal data viz
+Todo: Create component for the Commit Graph in GitLab UI
 
 ### Spatial-temporal
 A heat map is an example of a spatial-temporal data visualization. 
 
 Heat maps can be used to more quickly visualize and compare values in a dataset. In heat maps, data points are grouped and displayed using shades of color. Darker colors are generally used to communicate a higher density of data.
 
-Todo: Add demo for heat map
+Todo: Add demo for heat map when it's completed
 
 ### Statistical graphics
 Charts are statistical graphics that help users quickly digest, visualize and see trends in their data.
