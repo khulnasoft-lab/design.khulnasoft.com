@@ -39,7 +39,7 @@
           <tr>
             <td>❌</td>
             <td>Deprecated</td>
-            <td>Component is no longer in use</td>
+            <td>No longer in use</td>
           </tr>
         </tbody>
       </table>
