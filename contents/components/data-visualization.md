@@ -43,6 +43,7 @@ The GitLab [commit graph](https://gitlab.com/gitlab-org/gitlab-ui/-/network/mast
 Todo: Create component for the Commit Graph in GitLab UI
 
 ### Spatial-temporal
+
 A heat map is an example of a spatial-temporal data visualization. 
 
 Heat maps can be used to more quickly visualize and compare values in a dataset. In heat maps, data points are grouped and displayed using shades of color. Darker colors are generally used to communicate a higher density of data.
@@ -50,6 +51,7 @@ Heat maps can be used to more quickly visualize and compare values in a dataset.
 Todo: Add demo for heat map when it's completed
 
 ### Statistical graphics
+
 Charts are statistical graphics that help users quickly digest, visualize and see trends in their data.
 
 Full list of chart types and design specifications is detailed on the [Charts](/components/charts) component page.
