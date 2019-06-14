@@ -20,7 +20,7 @@ Todo: Add an example of multiple avatars using live components
 
 ## Demo
 
-Todo: Add live component block with code example
+[[Example:avatar-image]]
 
 ## Design specifications
 
