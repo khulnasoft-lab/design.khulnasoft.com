@@ -23,6 +23,9 @@ export default {
       fmResult: null,
     };
   },
+  editThisPage: {
+    resolve: ({ route }) => `contents/components/${route.params.slug}.md`,
+  },
   beforeCreate() {
     this.$axios
       .$get(`/contents/components/${this.$route.params.slug}.json`)
