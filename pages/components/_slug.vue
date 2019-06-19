@@ -1,14 +1,9 @@
 <template>
   <div class="content limited m-t-7 m-b-7">
     <div v-if="component">
-      <component
-        :is="component"
-        :frontmatter-info="fmResult"
-      />
+      <component :is="component" :frontmatter-info="fmResult"/>
     </div>
-    <div v-else>
-      Loading component ...
-    </div>
+    <div v-else>Loading component ...</div>
   </div>
 </template>
 
@@ -22,6 +17,12 @@ export default {
       component: null,
       fmResult: null,
     };
+  },
+  editThisPage: {
+    resolve({ route }) {
+      const { slug } = route.params;
+      return `contents/components/${slug}.md`;
+    },
   },
   beforeCreate() {
     this.$axios

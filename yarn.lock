@@ -708,6 +708,11 @@
     eslint-plugin-promise "^4.1.1"
     eslint-plugin-vue "^5.0.0"
 
+"@gitlab/nuxt-edit-this-page@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@gitlab/nuxt-edit-this-page/-/nuxt-edit-this-page-0.1.0.tgz#087593893002b6f98d4fe28b4c08cf257beaa882"
+  integrity sha512-FxW1g/19fvR8jvuTx/XXOeBhEsOmUd2q455Np5oOx7Kkg/0iHZacKBzkAZfM7c438lv8J76k8NUDPYCQvRIK4Q==
+
 "@gitlab/svgs@^1.63.0":
   version "1.63.0"
   resolved "https://registry.yarnpkg.com/@gitlab/svgs/-/svgs-1.63.0.tgz#9dd544026d203e4ce6efed72b05db68f710c4d49"
