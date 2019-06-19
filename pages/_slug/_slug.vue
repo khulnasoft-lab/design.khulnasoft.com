@@ -13,7 +13,12 @@ export default {
   components: {
     ComponentInfo: () => (process.browser ? import('../../components/componentinfo.vue') : null),
   },
-
+  editThisPage: {
+    resolve({ route }) {
+      const { path } = route;
+      return `contents${path}.md`;
+    },
+  },
   asyncData({ route }) {
     const { path } = route;
     return import(`~/contents${path}.md`).then(({ default: fmResult }) => ({ fmResult }));

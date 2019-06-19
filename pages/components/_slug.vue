@@ -23,6 +23,12 @@ export default {
       fmResult: null,
     };
   },
+  editThisPage: {
+    resolve({ route }) {
+      const { slug } = route.params;
+      return `contents/components/${slug}.md`;
+    },
+  },
   beforeCreate() {
     this.$axios
       .$get(`/contents/components/${this.$route.params.slug}.json`)

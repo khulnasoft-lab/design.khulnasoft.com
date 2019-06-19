@@ -156,7 +156,15 @@
         </template>
       </div>
     </nav>
-    <div :class="contentWrapper"> <nuxt /> </div>
+    <div :class="contentWrapper">
+      <nuxt />
+      <footer v-if="contentTree" class="content limited m-b-7">
+        <edit-this-page-link target="_blank">
+          Edit this page on GitLab
+        </edit-this-page-link>
+      </footer>
+    </div>
+
   </div>
 </template>
 
