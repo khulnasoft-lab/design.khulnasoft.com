@@ -14,7 +14,7 @@ Todo: Add an example of a primary button
 
 There will be times when two buttons are needed. This will be in places such as [our jobs page](https://about.gitlab.com/jobs/), where we have a button to view opportunities and one to view our culture video. In this example, both buttons are solid, but one is considered the primary button (orange), and the other is the secondary button (white). The CSS class for the solid white button is `.btn.cta-btn.btn-white`.
 
-![primary and secondary button example](~/assets/images/brand/jobs-buttons-example.png)
+![primary and secondary button example](/img/brand/jobs-buttons-example.png)
 
 This is the proper use of two buttons, both being solid, but different colors based on hierarchy. If the background is white or a lighter color that doesn't contrast well with a white-backgound button, a ghost button should be used as a secondary button, and should match in color to the primary button beside it as shown below:
 

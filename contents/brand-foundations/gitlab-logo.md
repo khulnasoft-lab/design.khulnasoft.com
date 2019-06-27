@@ -4,7 +4,7 @@ name: The GitLab logo
 
 The GitLab logo consists of two components, the icon (the tanuki) and the wordmark:
 
-![GitLab logo lockup](~/assets/images/brand/gitlab-lockup.png)
+![GitLab logo lockup](/img/brand/gitlab-lockup.png)
 
 GitLab is most commonly represented by the logo, and in some cases, the icon alone. GitLab is rarely represented by the wordmark alone as we'd like to build brand recognition of the icon alone (e.g. the Nike swoosh), and doing so by pairing it with the GitLab wordmark.
 
@@ -12,11 +12,11 @@ GitLab is most commonly represented by the logo, and in some cases, the icon alo
 
 Safe space acts as a buffer between the logo or icon and other visual components, including text. this space is the minimum distance needed and is equal to the x-height of the GitLab wordmark:
 
-![GitLab logo x-height](~/assets/images/brand/x-height.png) ![GitLab logo safe space](~/assets/images/brand/logo-safe-space.png) ![GitLab logo icon safe space](~/assets/images/brand/icon-safe-space.png)
+![GitLab logo x-height](/img/brand/x-height.png) ![GitLab logo safe space](/img/brand/logo-safe-space.png) ![GitLab logo icon safe space](/img/brand/icon-safe-space.png)
 
 The x-height also determines the proper spacing between icon and workdmark, as well as, the correct scale of the icon relative to the wordmark:
 
-![stacked GitLab logo safe space](~/assets/images/brand/stacked-logo-safe-space.png)
+![stacked GitLab logo safe space](/img/brand/stacked-logo-safe-space.png)
 
 ## The Tanuki
 
@@ -43,6 +43,6 @@ Examples of improper use of the GitLab trademark and logo:
 
 Logos used on the about.gitlab.com site should always be in full color and be used to the specifications provided by the owner of that logo, which can usually be found on the owners website. The trust marks component found throughout the site is the only exception and should use a neutral tone:
 
-![other logos](~/assets/images/brand/trust-marks.png)
+![other logos](/img/brand/trust-marks.png)
 
 The tanuki logo should also not have facial features (eyes, ears, nose…), it is meant to be kept neutral, but it can be accessorized.

@@ -8,7 +8,7 @@ Icons are a valuable visual component to the GitLab brand; contributing to the o
 
 Label icons are intended to support usability and interaction. These are found in interactive elements of the website such as navigation and [toggles](https://about.gitlab.com/pricing/).
 
-![Label icons](~/assets/images/brand/label-icons-example.png)
+![Label icons](/img/brand/label-icons-example.png)
 
 ## Content icons
 
@@ -16,4 +16,4 @@ Content icons are intended to provide visual context and support to content on a
 
 A few examples include our [event landing pages](https://about.gitlab.com/events/aws-reinvent/) and [Resources page](https://about.gitlab.com/resources/).
 
-![Content icons](~/assets/images/brand/content-icons-example.png)
+![Content icons](/img/brand/content-icons-example.png)
