@@ -159,7 +159,7 @@
     <div :class="contentWrapper">
       <nuxt />
       <footer class="content limited m-b-7">
-        <edit-this-page-link target="_blank">
+        <edit-this-page-link>
           Edit this page on GitLab
         </edit-this-page-link>
       </footer>
