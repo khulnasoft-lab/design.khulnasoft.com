@@ -158,14 +158,14 @@
     </nav>
     <div :class="contentWrapper">
       <nuxt />
-      <footer class="content limited m-b-7">
-        <edit-this-page-link /> &ndash;
+      <footer class="content footer limited m-b-7">
+        Edit <edit-this-page-link>this page</edit-this-page-link> &mdash;
         Open
         <edit-this-page-link
           edit-url="https://gitlab.com/-/ide/project/gitlab-org/design.gitlab.com/edit/master/-"
         >
           Web IDE
-        </edit-this-page-link> &ndash;
+        </edit-this-page-link> &mdash;
         Please <nuxt-link to="/contribute/get-started">contribute</nuxt-link>
       </footer>
     </div>
