@@ -1,5 +1,5 @@
 <template>
-  <div class="content limited m-t-7 m-b-7">
+  <div class="content limited m-t-7 m-b-8">
     <div v-if="component">
       <component
         :is="component"
