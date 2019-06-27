@@ -2,7 +2,7 @@
 name: Illustration
 ---
 
-*Note: This is an unedited copy from our old UX guide.*
+Todo: This is an unedited copy from our old UX guide and needs to be revisited.
 
 The illustrations should always align with topics and goals in specific context.
 
@@ -24,7 +24,7 @@ The illustrations should always align with topics and goals in specific context.
 - All illustrations are geometric rather than organic.
 - The illustrations are made by circles, rectangles, squares, and triangles.
 
-<img src="img/illustrations-geometric.png" width=224px alt="Example for geometric" />
+<img src="/img/illustrations-geometric.png" width=224px alt="Example for geometric" />
 
 #### Stroke
 - Standard border thickness: **4px**
@@ -33,13 +33,13 @@ The illustrations should always align with topics and goals in specific context.
 
 | Do | Don't |
 | -------- | -------- |
-| <img src="img/illustrations-caps-do.png" width= 133px alt="Do: caps and corner" /> | <img src="img/illustrations-caps-don't.png" width= 133px alt="Don't: caps and corner"/> |
+| <img src="/img/illustrations-caps-do.png" width= 133px alt="Do: caps and corner" /> | <img src="/img/illustrations-caps-don't.png" width= 133px alt="Don't: caps and corner"/> |
 
 #### Radius
 - Standard corner radius: **10px**
 - Depending on the situation, corner radius can be changed to **5px**. For example, when the illustration size is small, an illustration with 10px corner radius would be over-rounded. In this case, the corner radius can be changed to 5px.
 
-<img src="img/illustrations-border-radius.png" width= 464px alt="Example for border radius"/>
+<img src="/img/illustrations-border-radius.png" width= 464px alt="Example for border radius"/>
 
 #### Size
 Depends on the situation, the illustration size can be the 3 types below:
@@ -51,21 +51,21 @@ Depends on the situation, the illustration size can be the 3 types below:
 
 | Vertical layout | Horizontal layout |
 | --------------- | ----------------- |
-| <img src="img/illustration-size-large-vertical.png" />  | <img src="img/illustration-size-large-horizontal.png" />
+| <img src="/img/illustration-size-large-vertical.png" width=480px />  | <img src="/img/illustration-size-large-horizontal.png" width=480px />
 
 **Medium**
 * Use case: Banner
 * The illustration should not larger than **240*160 px**
 * The illustration should keep simple and clear. We recommend not including too many elements in the medium size illustration.
 
-<img src="img/illustration-size-medium.png" width=983px />
+<img src="/img/illustration-size-medium.png" width=983px />
 
 **Small**
 * Use case: Graphics for explanatory text, graphics for status.
 * The illustration should not larger than **160*90 px**.
 * The illustration should keep simple and clear. We recommend not including too many elements in the small size illustration.
 
-<img src="img/illustration-size-small.png" width=983px />
+<img src="/img/illustration-size-small.png" width=983px />
 
 **Illustration on mobile**
 - Keep the proportions in original ratio.
@@ -76,7 +76,7 @@ For consistency, we recommend choosing colors from our color palette.
 
 | Orange | Purple | Grey |
 | -------- | -------- | -------- |
-| <img src="img/illustrations-color-orange.png" width= 160px alt="Orange" /> | <img src="img/illustrations-color-purple.png" width= 160px alt="Purple" /> | <img src="img/illustrations-color-grey.png" width= 160px alt="Grey" /> |
+| <img src="/img/illustrations-color-orange.png" width= 160px alt="Orange" /> | <img src="/img/illustrations-color-purple.png" width= 160px alt="Purple" /> | <img src="/img/illustrations-color-grey.png" width= 160px alt="Grey" /> |
 | #FC6D26   | #6B4FBB | #EEEEEE |
 
 #### Don't
@@ -87,5 +87,5 @@ For consistency, we recommend choosing colors from our color palette.
 
 | Orange | Purple |
 | -------- | -------- |
-| <img src="img/illustrations-palette-oragne.png" width= 160px alt="Palette - Orange" /> | <img src="img/illustrations-palette-purple.png" width= 160px alt="Palette - Purple" /> |
+| <img src="/img/illustrations-palette-oragne.png" width= 160px alt="Palette - Orange" /> | <img src="/img/illustrations-palette-purple.png" width= 160px alt="Palette - Purple" /> |
 
