@@ -159,9 +159,7 @@
     <div :class="contentWrapper">
       <nuxt />
       <footer class="content limited m-b-7">
-        <edit-this-page-link>
-          Edit this page on GitLab
-        </edit-this-page-link> &ndash;
+        <edit-this-page-link /> &ndash;
         Open
         <edit-this-page-link
           edit-url="https://gitlab.com/-/ide/project/gitlab-org/design.gitlab.com/edit/master/-"
