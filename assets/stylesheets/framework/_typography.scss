@@ -35,8 +35,9 @@ a {
 .md {
   @include type-scale(1, 7, 0, 0);
 
-  .app-styles {
-    @include type-scale(0, 0, 0, 0);
+  .app-styles .card-body {
+    font-size: $base-font-size;
+    line-height: 1.5;
   }
 
   h1 {
