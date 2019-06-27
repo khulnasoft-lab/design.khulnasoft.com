@@ -40,9 +40,9 @@ The mouse cursor is key in helping users understand how to interact with element
 
 | **CSS value** | **Example** | **Description** |
 | --- | --- | --- |
-| `default` | ![image](~/assets/images/foundations/cursors/cursors-default.svg) | The platform-dependent default cursor. Typically an arrow. |
-| `pointer` | ![image](~/assets/images/foundations/cursors/cursors-pointer.svg) | Indicates that you can click on an element to invoke a command or navigate, such as links and buttons. |
-| `grab` | ![image](~/assets/images/foundations/cursors/cursors-grab.svg) | Indicates that you can grab and move an element around the screen. |
-| `grabbing` | ![image](~/assets/images/foundations/cursors/cursors-grabbing.svg) | Indicates that you are actively moving an element around the screen. |
-| `text` | ![image](~/assets/images/foundations/cursors/cursors-text.svg) | Indicates that this is either text that you can select and copy, or a text field that you can click into to enter text. |
-| `not-allowed` | ![image](~/assets/images/foundations/cursors/cursors-notallowed.svg) | Indicates that an item may not be dropped at the current location or that the requested action will not be carried out. |
+| `default` | ![image](/images/cursors-default.svg) | The platform-dependent default cursor. Typically an arrow. |
+| `pointer` | ![image](/images/cursors-pointer.svg) | Indicates that you can click on an element to invoke a command or navigate, such as links and buttons. |
+| `grab` | ![image](/images/cursors-grab.svg) | Indicates that you can grab and move an element around the screen. |
+| `grabbing` | ![image](/images/cursors-grabbing.svg) | Indicates that you are actively moving an element around the screen. |
+| `text` | ![image](/images/cursors-text.svg) | Indicates that this is either text that you can select and copy, or a text field that you can click into to enter text. |
+| `not-allowed` | ![image](/images/cursors-notallowed.svg) | Indicates that an item may not be dropped at the current location or that the requested action will not be carried out. |
