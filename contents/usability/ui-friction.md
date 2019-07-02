@@ -12,7 +12,7 @@ Additional steps can be introduced in such cases to:
 
 ## Severity guidelines
 
-Depending on the severity of destructiveness of the action done by the user we can implement the following friction patterns.
+Depending on the severity of destructiveness of the action performed by the user we can implement the following friction patterns.
 
 ### High severity
 
