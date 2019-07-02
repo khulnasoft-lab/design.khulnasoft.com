@@ -20,6 +20,10 @@ By default, tooltips are placed on top of the referring element. However, when t
 
 Tooltips should have no space (0px) between themselves and their target. They remain in place while the cursor moves within the target. Tooltips should never obscur the target element.
 
+## Content alignment
+
+By default, popovers use a centered text approach for their content. This works well for a small amount of content with minimal formatting. However, if more content and/or formatting is introduced please consider formatting your content to be left-aligned so it is easier to read/consume.
+
 ## Demo
 
 [[Example:tooltip-directive]]

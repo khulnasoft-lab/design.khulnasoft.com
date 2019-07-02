@@ -22,6 +22,10 @@ A popover should be used:
 
 By default, popovers are placed above the referring element. However, when there isn’t enough space in the viewport, the popover is moved to the side or below as needed. If it blocks related content, the preferred popover placement can be manually set.
 
+## Content alignment
+
+By default, popovers use a centered text approach for their content. This works well for a small amount of content with minimal formatting. However, if more content and/or formatting is introduced please consider formatting your content to be left-aligned so it is easier to read/consume.
+
 ## Demo
 
 Todo: Add live component block with code example
