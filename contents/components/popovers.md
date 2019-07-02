@@ -24,7 +24,7 @@ By default, popovers are placed above the referring element. However, when there
 
 ## Content alignment
 
-By default, popovers use a centered text approach for their content. This works well for a small amount of content with minimal formatting. However, if more content and/or formatting is introduced please consider formatting your content to be left-aligned so it is easier to read/consume.
+By default, popovers have their content centered. This works well for a small amount of text with minimal formatting. However, if more content and/or formatting is introduced please consider formatting it to be left-aligned so it is easier to read/consume.
 
 ## Demo
 
