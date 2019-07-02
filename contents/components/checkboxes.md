@@ -17,7 +17,7 @@ The indeterminate state represents a situation where a list of sub-options is gr
 
 Use a single checkbox when there is a choice between two selections, it has a default state, the results are **not** effective or noticeable immediately, and the user needs a confirmation of it being saved.
 
-Use multiple checkboxes to allow users to select multiple from a list of options, including all or none.
+Use multiple checkboxes to allow users to select multiple options from a list.
 
 Checkboxes may replace toggles, segmented controls, or radio buttons to allow users to select one, two, or multiple options. For help with choosing the right solution, follow the table below.
 
