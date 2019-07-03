@@ -22,7 +22,10 @@ Tooltips should have no space (0px) between themselves and their target. They re
 
 ## Content alignment
 
-By default, popovers have their content centered. This works well for a small amount of text with minimal formatting. However, if more content and/or formatting is introduced please consider formatting it to be left-aligned so it is easier to read/consume.
+To optimize for readability, consider the following content alignment options:
+
+- For minimal text spanning a single line use center-alignment.
+- For text that requires multiple lines use left-alignment.
 
 ## Demo
 
