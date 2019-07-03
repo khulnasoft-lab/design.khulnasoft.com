@@ -4,7 +4,7 @@ name: UI friction
 
 Friction in the user interface is often regarded as something to avoid or resolve. However, it can be useful when preventing a user from completing a destructive action when the consequences may be unknown.
 
-Additional steps can be introduced in such cases to:
+In cases where we are prioritizing error prevention, we can take steps to:
 
 * Assist users from accidentally clicking a destructive action.
 * Help users to understand what happens after they confirm their destructive action.
