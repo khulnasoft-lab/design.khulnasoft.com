@@ -20,7 +20,7 @@ If a destructive action is difficult to undo or data will be lost permanently, s
 
 ### Medium severity
 
-Destructive actions can introduce annoyance to the user when performed unintendedly. Recovering from these actions are difficult and will, therefore, have an emotional impact on the user. Consider assisting the user with an additional step to prevent accidentally clicking this action. A real example would be to put this action within a dropdown requiring a minimum of two clicks.
+Destructive actions can introduce annoyance to the user when performed unintentionally. Recovering from these actions are difficult and will, therefore, have an emotional impact on the user. Consider assisting the user with an additional step to prevent accidentally clicking this action. A real example would be to put this action within a dropdown requiring a minimum of two clicks.
 
 ### Low severity
 
