@@ -10,7 +10,7 @@
   &.limited {
     max-width: $page-width;
   }
-  
+
   img {
      max-width: 100%;
   }
@@ -22,6 +22,7 @@
   color: $blue-600;
   border: $border-width solid $blue-100;
   border-radius: $border-radius;
+  display: block;
 }
 
 // simple grid workaround until bootstrap is reintroduced
