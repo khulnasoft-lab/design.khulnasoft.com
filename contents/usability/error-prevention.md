@@ -25,3 +25,7 @@ Destructive actions can introduce annoyance to the user when performed unintende
 ### Low severity
 
 The destructive action can easily be undone and no actual data was lost. Consider adding no friction at all in order to streamline the interface, especially in places where the action needs to be performed in bulk. These kinds of destructive actions can be exempt of being [elementary](/components/buttons/#elementary) styled and can instead be [neutral](/components/buttons/#neutral) styled buttons.
+
+## References
+
+- [10 Usability Heuristics for User Interface Design - Nielsen Norman Group](https://www.nngroup.com/articles/ten-usability-heuristics/)
