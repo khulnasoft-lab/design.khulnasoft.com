@@ -30,7 +30,7 @@ export default {
     );
 
     // Format Todo Messages as before
-    mdOutput = mdOutput.replace(/Todo:(.*?)\n/gm, '<p class="todo">Todo: $1</p>');
+    mdOutput = mdOutput.replace(/Todo:(.*?)\n/gm, '<span class="todo">Todo: $1</span>');
 
     const dynamicElement = {
       template: `<div class="component md  typography">${mdOutput}</div>`,
