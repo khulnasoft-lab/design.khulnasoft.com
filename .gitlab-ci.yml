@@ -25,13 +25,12 @@ build:
     paths:
       - public/
 
-lint:
+test:
   stage: test
   before_script:
     - *install
   script:
-    - yarn run lint
-    - yarn prettier --list-different --ignore-path .gitignore "**/*.{js,vue}"
+    - yarn run test
 
 review:
   stage: deploy
