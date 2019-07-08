@@ -26,7 +26,8 @@ Todo: Add replacement-comparison-table
 
 ### Visual Design
 
-Radio buttons use high-contrast colors for labels and default browser UI to indicate selected and unselected states.
+* Radio buttons use high-contrast colors for labels and default browser UI to indicate selected and unselected states.
+* Avoid mixing stacked and inline radio button groups within the same form or context.
 
 ### Interaction
 
