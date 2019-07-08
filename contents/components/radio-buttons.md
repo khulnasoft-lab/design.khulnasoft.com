@@ -22,7 +22,7 @@ Todo: Add replacement-comparison-table
 ### Legends, Labels, and Help Text
 * Radio button labels are set in regular font weight, positioned to the right of the element, and should be as short as possible.
 * Use a `fieldset` with `legend` (set in bold font weight and positioned above the group of radio buttons) to group a set of radio buttons. Some screen readers will announce the contents of the legend before each nested input to maintain context for a user.
-* [Help text](/components/forms#help-text) can be added below the radio button labels or as a paragraph below the group label.
+* [Help text](/components/forms#help-text) can be added below the radio button label or as a paragraph below the group.
 
 ### Visual Design
 
@@ -30,7 +30,8 @@ Radio buttons use high-contrast colors for labels and default browser UI to indi
 
 ### Interaction
 
-Users are able to select an option with click/tap on either the radio button or its label. Selecting one option unselects all others.
+* Users are able to select an option with click/tap on the radio button or its label.
+* Selecting one option unselects all others.
 
 ## Demo
 
