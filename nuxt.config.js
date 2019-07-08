@@ -75,6 +75,7 @@ module.exports = {
     '@nuxtjs/axios',
     '~/modules/content_preparer',
     '@gitlab/nuxt-edit-this-page',
+    '@nuxtjs/font-awesome',
   ],
 
   /**
