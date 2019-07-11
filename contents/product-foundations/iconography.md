@@ -4,19 +4,148 @@ name: Iconography
 
 One of our values is to create a distinguished GitLab personality that is strong and consistent. Iconography is a powerful visual cue to the user and should reflect our particular sense of style.
 
-## Icon viewer
+Icons take inspiration from elements expressed by our tanuki logomark.
 
-You can view all of the current icons in GitLab at the following link: [GitLab SVGs](http://gitlab-org.gitlab.io/gitlab-svgs/)
+<img class="d-block a-center m-b-7" src="/img/icons-tanuki.svg" alt="Tanuki logomark" role="img" />
 
-## Usage
+1. **Balance and structure.** Regardless of symmetry, icons should feel complete and in control. Icons act as visual anchors or guides and should be designed to either stop or direct the eye.
+1. **Modern and approachable.** Border radius and open counters help our icons combine beauty and utility with a touch of personality.
+1. **Crisp and intentional.** Icon elements should have purpose and place.
+1. **Simple and concise.** Design to minimize time to comprehension. In the same way the concept of “invisible UI” moves a user to task completion without getting hung up on visual elements or controls, icons should move users to concept and action without extra time spent deciphering a glyph.
 
-Icons are used to stress visual weight for elements with a high priority or to explain the universal knowledge in a simple way.
+## Grid and layout
 
-The level of visual weight from heavy to light is: **Icon + label > Icon > label.**
+Icons use a **16×16 pixel** base grid with **14px** live area and 1px reserved for padding and optical sizing. There are **8px** and **24px** icons that leverage their own grids instead of scaling from the **16px** base.
 
-Todo: Add live component block with code example
+<figure class="figure" role="figure" aria-label="Icon at 100% scale, grid live area, and padding">
+  <img class="figure-img" src="/img/icons-grid-layout.svg" alt="Icon grid settings" role="img" />
+  <figcaption class="figure-caption">Icon at 100% scale, grid live area, and padding</figcaption>
+</figure>
 
-## Dos and Dont's
+Icon elements are aligned to the pixel grid when possible to avoid subpixel antialiasing and be as crisp as possible on all screens and resolutions.
+
+| **Do** | **Don't** |
+| :---: | :---: |
+| <figure class="figure" role="figure" aria-label="Icon aligned to the pixel grid"><img class="figure-img" src="/img/icons-pixel-grid-do.svg" alt="Crisp icon on pixel grid" role="img" /><figcaption class="figure-caption">Icon aligned to the pixel grid</figcaption></figure> | <figure class="figure" role="figure" aria-label="Icon not aligned to the pixel grid"><img class="figure-img" src="/img/icons-pixel-grid-dont.svg" alt="Blurry icon on pixel grid" role="img" /><figcaption class="figure-caption">Icon not aligned to the pixel grid</figcaption></figure> |
+
+Todo: Add specs for additional icon sizes
+
+## Keylines and optical weight
+
+Squares can fill the live area, while circles and rectangles can extend into the padding, which allows icons to be proportionately consistent.
+
+<figure class="figure" role="figure" aria-label="Keyline grid">
+  <img class="figure-img" src="/img/icons-keylines.svg" alt="Icon keyline grid" role="img" />
+  <figcaption class="figure-caption">Keyline grid</figcaption>
+</figure>
+
+<figure class="figure" role="figure" aria-label="Keyline icon shapes">
+  <img class="figure-img" src="/img/icons-keyline-shapes.svg" alt="Icon keyline shapes" role="img" />
+  <figcaption class="figure-caption">Keyline icon shapes</figcaption>
+</figure>
+
+<figure class="figure" role="figure" aria-label="Keyline icon examples">
+  <img class="figure-img" src="/img/icons-keyline-examples.svg" alt="Icon keyline examples" role="img" />
+  <figcaption class="figure-caption">Keyline icon examples</figcaption>
+</figure>
+
+## Strokes
+
+All icons use a **2px** stroke weight and are most commonly aligned to the inside of shapes. Lines use rounded caps unless doing so would misrepresent the metaphor. Round line joins are optional and also depend on the metaphor. For example, a checkmark is one continuous object and the round line infers fluidity, whereas clock hands are two joined objects and a mitar join defines a joint.
+
+<div class="row">
+  <div class="col col-33">
+    <figure class="figure" role="figure" aria-label="2px stroke weight and rounded stroke caps">
+      <img class="figure-img" src="/img/icons-strokes.svg" alt="Icon stroke settings" role="img" />
+      <figcaption class="figure-caption">2px stroke weight and rounded stroke caps</figcaption>
+    </figure>
+  </div>
+  <div class="col col-33">
+    <figure class="figure" role="figure" aria-label="Line with round join">
+      <img class="figure-img" src="/img/icons-line-round-join.svg" alt="Line with rounded join" role="img" />
+      <figcaption class="figure-caption">Line with round join</figcaption>
+    </figure>
+  </div>
+  <div class="col col-33">
+    <figure class="figure" role="figure" aria-label="Line with mitar join">
+      <img class="figure-img" src="/img/icons-line-mitar.svg" alt="Line with mitar (square) join" role="img" />
+      <figcaption class="figure-caption">Line with mitar join</figcaption>
+    </figure>
+  </div>
+</div>
+
+## Border radius
+
+The default border radius is **2px**, with **0px**, **1px**, or multiples of **2px** allowed to better represent the metaphor or parts of it. Clarity should always override consistency, and the guides are flexible when necessary.
+
+<figure class="figure" role="figure" aria-label="Border radius options, 2px is default">
+  <img class="figure-img" src="/img/icons-border-radius.svg" alt="Icons with 0px, 1px, 2px, 4px, 6px, and 100% border radius options" role="img" />
+  <figcaption class="figure-caption">Border radius options, 2px is default</figcaption>
+</figure>
+
+<div class="row">
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="A combination of 2px and 4px border radius helps the elements fit together better.">
+      <img class="figure-img" src="/img/icons-border-radius-example.svg" alt="Icon with 2px and 4px border radius" role="img" />
+      <figcaption class="figure-caption">A combination of 2px and 4px border radius helps the elements fit together better.</figcaption>
+    </figure>
+  </div>
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="A combination of 0px and 4px best represents the subject matter.">
+      <img class="figure-img" src="/img/icons-border-radius-alternates.svg" alt="Icon with 0px and 4px border radius" role="img" />
+      <figcaption class="figure-caption">A combination of 0px and 4px best represents the subject matter.</figcaption>
+    </figure>
+  </div>
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="A 1px border radius works well for angles that are less than 90º.">
+      <img class="figure-img" src="/img/icons-border-radius-angle.svg" alt="Icon with 1px border radius" role="img" />
+      <figcaption class="figure-caption">A 1px border radius works well for angles that are less than 90º.</figcaption>
+    </figure>
+  </div>
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="This icon does not use a border radius because in doing so features critical to the meaning would be lost.">
+      <img class="figure-img" src="/img/icons-border-radius-none.svg" alt="Icon with no border radius" role="img" />
+      <figcaption class="figure-caption">This icon does not use a border radius because in doing so features critical to the meaning would be lost.</figcaption>
+    </figure>
+  </div>
+</div>
+
+## Angles
+
+Use increments of **15º** to achieve consistency throughout the icon set. Angles can be combined in an icon to create more dynamic shapes and movement while remaining consistent as a whole.
+
+<div class="row">
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="15º angle increments">
+      <img class="figure-img" src="/img/icons-angles.svg" alt="Angle settings" role="img" />
+      <figcaption class="figure-caption">15º angle increments</figcaption>
+    </figure>
+  </div>
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="Icon with multiple angles">
+      <img class="figure-img" src="/img/icons-angles-example.svg" alt="Icon with multiple angles" role="img" />
+      <figcaption class="figure-caption">Icon with multiple angles</figcaption>
+    </figure>
+  </div>
+</div>
+
+## Shape
+
+Todo: Add notes on element spacing and design details.
+
+Make the icons front-face instead of different dimensions.
+
+| **Do** | **Don't** |
+| --- | --- |
+| Todo: Add example | Todo: Add example |
+
+Simplify icons for clarity and legibility.
+
+| **Do** | **Don't** |
+| --- | --- |
+| Todo: Add example | Todo: Add example |
+
+## Concepts
 
 Don't use one icon to refer to different meanings. While consistency is important, we need to remain flexible. Some icons are so basic and ubiquitous that it's difficult to detach them and use them without “conflicts”. An example of a “conflicting” use of icons is the X cross icon used for both failed pipelines and closing modals.
 
@@ -30,38 +159,32 @@ Don't use different icons to refer to one specific meaning.
 | --- | --- |
 | Todo: Add example | Todo: Add example |
 
-Don't frequently use the combination of an icon and a label. Use the combination only for the elements with high priority. For instance, we use an icon + a label for the contextual navigation.
-
-| **Do** | **Don't** |
-| --- | --- |
-| Todo: Add example | Todo: Add example |
-
 Don't use an icon to explain a meaning which is not straight-forward. If an icon is not accompanied by a label, provide a quick explanation for users in a tooltip.
 
 | **Do** | **Don't** |
 | --- | --- |
 | Todo: Add example | Todo: Add example |
 
-Use whole pixels to create icons in order to align properly to a pixel grid. For additional details on grids, visit our [baseline grid guide](/layout/grid).
+## Icons with other elements
+
+Todo: Add notes on aligning icons to other elements
+
+Todo: Add image examples
+
+Don't frequently use the combination of an icon and a label. Use the combination only for the elements with high priority. For instance, we use an icon + a label for the contextual navigation.
 
 | **Do** | **Don't** |
 | --- | --- |
 | Todo: Add example | Todo: Add example |
 
-Use rounded strokes.
+## Icon viewer
 
-| **Do** | **Don't** |
-| --- | --- |
-| Todo: Add example | Todo: Add example |
+You can view all of the current icons in GitLab at the following link: [GitLab SVGs](http://gitlab-org.gitlab.io/gitlab-svgs/)
 
-Simplify icons for clarity and legibility.
+## Usage
 
-| **Do** | **Don't** |
-| --- | --- |
-| Todo: Add example | Todo: Add example |
+Icons are used to stress visual weight for elements with a high priority or to explain the universal knowledge in a simple way.
 
-Make the icons front-face instead of different dimensions.
+The level of visual weight from heavy to light is: **Icon + label > Icon > label.**
 
-| **Do** | **Don't** |
-| --- | --- |
-| Todo: Add example | Todo: Add example |
+Todo: Add live component block with code example
