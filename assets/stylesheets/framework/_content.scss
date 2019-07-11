@@ -78,3 +78,23 @@
     }
   }
 }
+
+
+// Figure
+
+.figure {
+  display: block;
+  margin-bottom: $gl-spacing-7;
+	text-align: center;
+}
+
+.figure-img {
+  display: inline-block;
+  line-height: 1;
+  margin: 0 auto;
+}
+
+.figure-caption {
+  font-size: $base-font-size;
+}
+
