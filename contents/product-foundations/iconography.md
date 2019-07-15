@@ -131,39 +131,54 @@ Use increments of **15º** to achieve consistency throughout the icon set. Angle
 
 ## Shape
 
-Todo: Add notes on element spacing and design details.
+Sharp interior angles help icon clarity. A **1px** gap between elements is acceptable, but **2px** is preferred when possible.
 
-Make the icons front-face instead of different dimensions.
+<figure class="figure" role="figure" aria-label="Icon with sharp interior angles and at least 1px spacing between elements">
+  <img class="figure-img" src="/img/icons-shape-corners.svg" alt="Icon shape settings" role="img" />
+  <figcaption class="figure-caption">Icon with sharp interior angles and at least 1px spacing between elements</figcaption>
+</figure>
+
+Design most icons in 2D. Depth and perspective should only be used when it’s absolutely necessary to clarify a concept, and even then **2px** strokes are used to add dimension instead of larger fill areas.
 
 | **Do** | **Don't** |
 | --- | --- |
-| Todo: Add example | Todo: Add example |
-
-Simplify icons for clarity and legibility.
+| <figure class="figure" role="figure" aria-label="Icon with no depth"><img class="figure-img" src="/img/icons-depth-do.svg" alt="2D icon" role="img" /><figcaption class="figure-caption">Icon with no depth</figcaption></figure> | <figure class="figure" role="figure" aria-label="Icon with unnecessary depth"><img class="figure-img" src="/img/icons-depth-dont.svg" alt="3D icon" role="img" /><figcaption class="figure-caption">Icon with unnecessary depth</figcaption></figure> |
 
 | **Do** | **Don't** |
 | --- | --- |
-| Todo: Add example | Todo: Add example |
+| <figure class="figure" role="figure" aria-label="Icon with depth clarifies concept"><img class="figure-img" src="/img/icons-depth-do-2.svg" alt="3D box icon" role="img" /><figcaption class="figure-caption">Icon with depth clarifies concept</figcaption></figure> | <figure class="figure" role="figure" aria-label="Icon with no depth is too vague"><img class="figure-img" src="/img/icons-depth-dont-2.svg" alt="Square icon" role="img" /><figcaption class="figure-caption">Icon with no depth is too vague</figcaption></figure> |
+
+Simplify icons for clarity and legibility, avoiding embellishment or unnecessary details.
+
+| **Do** | **Don't** |
+| --- | --- |
+| <figure class="figure" role="figure" aria-label="Simplified icon"><img class="figure-img" src="/img/icons-shape-simple.svg" alt="Simple house icon" role="img" /><figcaption class="figure-caption">Simplified icon</figcaption></figure> | <figure class="figure" role="figure" aria-label="Overly complex icon"><img class="figure-img" src="/img/icons-shape-complex.svg" alt="Complex house icon" role="img" /><figcaption class="figure-caption">Overly complex icon</figcaption></figure> |
 
 ## Concepts
 
-Don't use one icon to refer to different meanings. While consistency is important, we need to remain flexible. Some icons are so basic and ubiquitous that it's difficult to detach them and use them without “conflicts”. An example of a “conflicting” use of icons is the X cross icon used for both failed pipelines and closing modals.
+Don’t use one icon to refer to multiple meanings. In some cases there will still be areas in the UI where meaning will have to be inferred from context, e.g., a × symbol may be used for closing a modal, and at the same time represent a failed pipeline. In these instances do everything possible to differentiate the icons.
 
 | **Do** | **Don't** |
 | --- | --- |
-| Todo: Add example | Todo: Add example |
+| <figure class="figure" role="figure" aria-label="Icon represents “podcast”"><img class="figure-img" src="/img/icons-concept-dup.svg" alt="Podcast icon" role="img" /><figcaption class="figure-caption">Icon represents “podcast”</figcaption></figure> | <figure class="figure" role="figure" aria-label="Podcast icon used for “messages”"><img class="figure-img" src="/img/icons-concept-dup-dont.svg" alt="Podcast icon" role="img" /><figcaption class="figure-caption">Podcast icon used for “messages”</figcaption></figure> |
 
 Don't use different icons to refer to one specific meaning.
 
 | **Do** | **Don't** |
 | --- | --- |
-| Todo: Add example | Todo: Add example |
+| <figure class="figure" role="figure" aria-label="Correct icon for “full screen”"><img class="figure-img" src="/img/icons-concept-meaning-do.svg" alt="Full screen icon" role="img" /><figcaption class="figure-caption">Correct icon for “full screen”</figcaption></figure> | <figure class="figure" role="figure" aria-label="Different icon for “full screen”"><img class="figure-img" src="/img/icons-concept-meaning-dont.svg" alt="Alternate full screen icon" role="img" /><figcaption class="figure-caption">Different icon for “full screen”</figcaption></figure> |
 
 Don't use an icon to explain a meaning which is not straight-forward. If an icon is not accompanied by a label, provide a quick explanation for users in a tooltip.
 
 | **Do** | **Don't** |
 | --- | --- |
-| Todo: Add example | Todo: Add example |
+| <figure class="figure" role="figure" aria-label="Icon meaning is available"><img class="figure-img" src="/img/icons-concept-clear.svg" alt="Got hook icon with label and tooltip" role="img" /><figcaption class="figure-caption">Icon meaning is available</figcaption></figure> | <figure class="figure" role="figure" aria-label="Is that a smiling cat?"><img class="figure-img" src="/img/icons-concept-unclear.svg" alt="Git hook icon" role="img" /><figcaption class="figure-caption">Is that a smiling cat?</figcaption></figure> |
+
+Try to avoid potentially antiquated concepts, especially when something more modern is recognizable.
+
+| **Do** | **Don't** |
+| --- | --- |
+| <figure class="figure" role="figure" aria-label="Flat screen TV"><img class="figure-img" src="/img/icons-concept-new.svg" alt="Flat screen TV with play symbol" role="img" /><figcaption class="figure-caption">Flat screen TV</figcaption></figure> | <figure class="figure" role="figure" aria-label="Old tube TV"><img class="figure-img" src="/img/icons-concept-old.svg" alt="Tube TV with antenna" role="img" /><figcaption class="figure-caption">Old tube TV</figcaption></figure> |
 
 ## Icons with other elements
 
