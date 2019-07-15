@@ -7,7 +7,7 @@ related:
   - buttons
   - popovers
   - toasts
-  - tooltips
+  - tooltip
 ---
 
 Modals are used to reveal critical information, show information without losing context, or when the system requires a user response. Modals can also fragment a complex workflow into simpler steps and should serve a single purpose dedicated to completing the user's task.
@@ -30,7 +30,7 @@ When designing an experience that incorporates the need for a modal, but does no
 
 **Inline content:** Present your content inline to avoid disruption to the user's flow.
 
-**Expanding elements:** Utilize elements such as [accordions](/components/accordions), [tooltips](/components/tooltips), or other expanding non-modal patterns to convey your information.
+**Expanding elements:** Utilize elements such as [accordions](/components/accordions), [tooltips](/components/tooltip), or other expanding non-modal patterns to convey your information.
 
 **Toasts:** Present your message within a [toast](/components/toasts); a brief, auto-expiring element for the user to consume while staying focused on their task.
 
