@@ -17,19 +17,7 @@
             class="p-t-3 js-gl-tab"
           >
             <md-display :md="componentBody" />
-            <div class="m-t-6">
-              <div class="md">
-                <h2 id="related-patterns">Related patterns</h2>
-                <ul v-if="hasRelatedPatterns">
-                  <li v-for="pattern in relatedPatterns" :key="pattern.slug">
-                    <a :href="pattern.url">{{ pattern.label }}</a>
-                  </li>
-                </ul>
-                <div v-else>
-                  No related patterns known.
-                </div>
-              </div>
-            </div>
+            <related-pages :related="frontmatterInfo.attributes.related" class="m-t-6" />
           </b-tab>
           <b-tab
             title="Vue Component"
@@ -84,16 +72,7 @@
       <div v-else class="md typography">
         <h1>{{ componentAttributes.name }}</h1>
         <md-display :md="componentBody" />
-        <div v-if="hasRelatedPatterns" class="m-t-6">
-          <div class="md">
-            <h2 id="related-patterns">Related patterns</h2>
-            <ul>
-              <li v-for="pattern in relatedPatterns" :key="pattern.slug">
-                <a :href="pattern.url">{{ pattern.label }}</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <related-pages :related="frontmatterInfo.attributes.related" class="m-t-6" />
       </div>
     </div>
     <div v-else>
@@ -110,12 +89,14 @@ import {
 } from '@gitlab/ui/documentation';
 
 import mdDisplay from './md_display.vue';
+import RelatedPages from './related_pages.vue';
 
 export default {
   components: {
     'md-display': mdDisplay,
     GlComponentDocumentation,
     GlExampleExplorer,
+    RelatedPages,
   },
   props: {
     frontmatterInfo: {
@@ -133,23 +114,10 @@ export default {
       tabIndex: 0,
     };
   },
-  computed: {
-    hasRelatedPatterns() {
-      return this.relatedPatterns && this.relatedPatterns.length > 0;
-    },
-    relatedPatterns() {
-      return (this.related || []).map(slug => ({
-        slug,
-        url: `/components/${slug}`,
-        label: (slug.charAt(0).toLocaleUpperCase() + slug.substring(1)).split('-').join(' '),
-      }));
-    },
-  },
   created() {
     this.componentAttributes = this.frontmatterInfo.attributes;
 
     this.vueComponents = this.frontmatterInfo.attributes.vueComponents;
-    this.related = this.frontmatterInfo.attributes.related;
 
     this.componentBody = this.frontmatterInfo.body;
 
