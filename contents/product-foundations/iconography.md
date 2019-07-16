@@ -2,7 +2,7 @@
 name: Iconography
 ---
 
-One of our values is to create a distinguished GitLab personality that is strong and consistent. Iconography is a powerful visual cue to the user and should reflect our particular sense of style.
+One of our values is to create a distinct GitLab personality that is strong and consistent. Iconography is a powerful visual cue to the user and should reflect our particular sense of style.
 
 Icons take inspiration from elements expressed by our tanuki logomark.
 
@@ -11,7 +11,7 @@ Icons take inspiration from elements expressed by our tanuki logomark.
 1. **Balance and structure.** Regardless of symmetry, icons should feel complete and in control. Icons act as visual anchors or guides and should be designed to either stop or direct the eye.
 1. **Modern and approachable.** Border radius and open counters help our icons combine beauty and utility with a touch of personality.
 1. **Crisp and intentional.** Icon elements should have purpose and place.
-1. **Simple and concise.** Design to minimize time to comprehension. In the same way the concept of “invisible UI” moves a user to task completion without getting hung up on visual elements or controls, icons should move users to concept and action without extra time spent deciphering a glyph.
+1. **Simple and concise.** Design to minimize time to comprehension. In the same way the concept of “invisible UI” moves a user to task completion without getting hung up on visual elements or controls, icons should move users to concept and action without extra time spent deciphering a metaphor.
 
 ## Layout
 
@@ -40,7 +40,7 @@ Icons use a **16×16 pixel** base grid with **14px** live area and **1px** reser
 
 Icon elements are aligned to the pixel grid to avoid subpixel antialiasing and be as crisp as possible on all screens and resolutions. Elements within an icon, such as curves or diagonal lines, won’t always align exactly to the grid, and in these instances it’s better for the element to feel natural rather than forced.
 
-| **Do** | **Don't** |
+| **Do** | **Don’t** |
 | :---: | :---: |
 | <figure class="figure" role="figure" aria-label="Icon aligned to the pixel grid"><img class="figure-img" src="/img/icons-pixel-grid-do.svg" alt="Crisp icon on pixel grid" role="img" /><figcaption class="figure-caption">Icon aligned to the pixel grid</figcaption></figure> | <figure class="figure" role="figure" aria-label="Icon not aligned to the pixel grid"><img class="figure-img" src="/img/icons-pixel-grid-dont.svg" alt="Blurry icon on pixel grid" role="img" /><figcaption class="figure-caption">Icon not aligned to the pixel grid</figcaption></figure> |
 
@@ -121,14 +121,14 @@ The default border radius is **2px**, with **0px**, **1px**, or multiples of **2
   <div class="col col-50">
     <figure class="figure" role="figure" aria-label="This icon does not use a border radius because in doing so features critical to the meaning would be lost.">
       <img class="figure-img" src="/img/icons-border-radius-none.svg" alt="Icon with no border radius" role="img" />
-      <figcaption class="figure-caption">This icon does not use a border radius because in doing so features critical to the meaning would be lost.</figcaption>
+      <figcaption class="figure-caption">This icon does not use a border radius, because doing so risks losing features critical to the icon’s meaning.</figcaption>
     </figure>
   </div>
 </div>
 
 ## Angles
 
-Use increments of **15º** to achieve consistency throughout the icon set. Angles can be combined in an icon to create more dynamic shapes and movement while remaining consistent as a whole.
+Use increments of **15º** to achieve consistency throughout the icon set. Angles can be combined in an icon to create more dynamic shapes and movement, while remaining consistent as a whole.
 
 <div class="row">
   <div class="col col-50">
@@ -156,43 +156,43 @@ Sharp interior angles help icon clarity. A **1px** gap between elements is accep
 
 Design most icons in 2D. Depth and perspective should only be used when it’s absolutely necessary to clarify a concept, and even then **2px** strokes are used to add dimension instead of larger fill areas.
 
-| **Do** | **Don't** |
+| **Do** | **Don’t** |
 | --- | --- |
 | <figure class="figure" role="figure" aria-label="Icon with no depth"><img class="figure-img" src="/img/icons-depth-do.svg" alt="2D icon" role="img" /><figcaption class="figure-caption">Icon with no depth</figcaption></figure> | <figure class="figure" role="figure" aria-label="Icon with unnecessary depth"><img class="figure-img" src="/img/icons-depth-dont.svg" alt="3D icon" role="img" /><figcaption class="figure-caption">Icon with unnecessary depth</figcaption></figure> |
 
-| **Do** | **Don't** |
+| **Do** | **Don’t** |
 | --- | --- |
 | <figure class="figure" role="figure" aria-label="Icon with depth clarifies concept"><img class="figure-img" src="/img/icons-depth-do-2.svg" alt="3D box icon" role="img" /><figcaption class="figure-caption">Icon with depth clarifies concept</figcaption></figure> | <figure class="figure" role="figure" aria-label="Icon with no depth is too vague"><img class="figure-img" src="/img/icons-depth-dont-2.svg" alt="Square icon" role="img" /><figcaption class="figure-caption">Icon with no depth is too vague</figcaption></figure> |
 
 Simplify icons for clarity and legibility, avoiding embellishment or unnecessary details.
 
-| **Do** | **Don't** |
+| **Do** | **Don’t** |
 | --- | --- |
 | <figure class="figure" role="figure" aria-label="Simplified icon"><img class="figure-img" src="/img/icons-shape-simple.svg" alt="Simple house icon" role="img" /><figcaption class="figure-caption">Simplified icon</figcaption></figure> | <figure class="figure" role="figure" aria-label="Overly complex icon"><img class="figure-img" src="/img/icons-shape-complex.svg" alt="Complex house icon" role="img" /><figcaption class="figure-caption">Overly complex icon</figcaption></figure> |
 
 ## Concepts
 
-Don’t use one icon to refer to multiple meanings. In some cases there will still be areas in the UI where meaning will have to be inferred from context, e.g., a × symbol may be used for closing a modal, and at the same time represent a failed pipeline. In these instances do everything possible to differentiate the icons.
+Don’t use one icon to refer to multiple meanings. In some cases, there will still be areas in the UI where meaning will have to be inferred from context; for example, a × symbol may be used for closing a modal and at the same time represent a failed pipeline. In these instances, do everything possible to differentiate the icons.
 
-| **Do** | **Don't** |
+| **Do** | **Don’t** |
 | --- | --- |
 | <figure class="figure" role="figure" aria-label="Icon represents “podcast”"><img class="figure-img" src="/img/icons-concept-dup.svg" alt="Podcast icon" role="img" /><figcaption class="figure-caption">Icon represents “podcast”</figcaption></figure> | <figure class="figure" role="figure" aria-label="Podcast icon used for “messages”"><img class="figure-img" src="/img/icons-concept-dup-dont.svg" alt="Podcast icon" role="img" /><figcaption class="figure-caption">Podcast icon used for “messages”</figcaption></figure> |
 
-Don't use different icons to refer to one specific meaning.
+Don’t use different icons to refer to one specific meaning.
 
-| **Do** | **Don't** |
+| **Do** | **Don’t** |
 | --- | --- |
 | <figure class="figure" role="figure" aria-label="Correct icon for “full screen”"><img class="figure-img" src="/img/icons-concept-meaning-do.svg" alt="Full screen icon" role="img" /><figcaption class="figure-caption">Correct icon for “full screen”</figcaption></figure> | <figure class="figure" role="figure" aria-label="Different icon for “full screen”"><img class="figure-img" src="/img/icons-concept-meaning-dont.svg" alt="Alternate full screen icon" role="img" /><figcaption class="figure-caption">Different icon for “full screen”</figcaption></figure> |
 
-Don't use an icon to explain a meaning which is not straight-forward. If an icon is not accompanied by a label, provide a quick explanation for users in a tooltip.
+Don’t use an icon to explain a meaning which is not straight-forward. If an icon is not accompanied by a label, provide a quick explanation for users in a tooltip.
 
-| **Do** | **Don't** |
+| **Do** | **Don’t** |
 | --- | --- |
 | <figure class="figure" role="figure" aria-label="Icon meaning is available"><img class="figure-img" src="/img/icons-concept-clear.svg" alt="Got hook icon with label and tooltip" role="img" /><figcaption class="figure-caption">Icon meaning is available</figcaption></figure> | <figure class="figure" role="figure" aria-label="Is that a smiling cat?"><img class="figure-img" src="/img/icons-concept-unclear.svg" alt="Git hook icon" role="img" /><figcaption class="figure-caption">Is that a smiling cat?</figcaption></figure> |
 
 Try to avoid potentially antiquated concepts, especially when something more modern is recognizable.
 
-| **Do** | **Don't** |
+| **Do** | **Don’t** |
 | --- | --- |
 | <figure class="figure" role="figure" aria-label="Flat screen TV"><img class="figure-img" src="/img/icons-concept-new.svg" alt="Flat screen TV with play symbol" role="img" /><figcaption class="figure-caption">Flat screen TV</figcaption></figure> | <figure class="figure" role="figure" aria-label="Old tube TV"><img class="figure-img" src="/img/icons-concept-old.svg" alt="Tube TV with antenna" role="img" /><figcaption class="figure-caption">Old tube TV</figcaption></figure> |
 
@@ -202,9 +202,9 @@ Todo: Add notes on aligning icons to other elements
 
 Todo: Add image examples
 
-Don't frequently use the combination of an icon and a label. Use the combination only for the elements with high priority. For instance, we use an icon + a label for the contextual navigation.
+Don’t frequently use the combination of an icon and a label. Use the combination only for the elements with high priority. For example, we use an icon + a label for the contextual navigation.
 
-| **Do** | **Don't** |
+| **Do** | **Don’t** |
 | --- | --- |
 | Todo: Add example | Todo: Add example |
 
