@@ -67,7 +67,7 @@ A keyline grid is a set of guides to help maintain visual balance between icons.
 
 ## Strokes
 
-All icons use a **2px** stroke weight and are most commonly aligned to the inside of shapes. Lines use rounded caps unless doing so would misrepresent the metaphor. Round line joins are optional and also depend on the metaphor. For example, a checkmark is one continuous object and the round line infers fluidity, whereas clock hands are two joined objects and a mitar join defines a joint.
+All icons use a **2px** stroke weight and are most commonly aligned to the inside of shapes. Lines use rounded caps, unless doing so would misrepresent the metaphor. Round line joins are optional and also depend on the metaphor. For example, a checkmark is one continuous object and the round line infers fluidity, whereas clock hands are two joined objects and a miter join defines a joint.
 
 <div class="row">
   <div class="col col-33">
