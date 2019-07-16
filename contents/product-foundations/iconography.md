@@ -85,7 +85,7 @@ All icons use a **2px** stroke weight and are most commonly aligned to the insid
   <div class="col col-33">
     <figure class="figure" role="figure" aria-label="Line with mitar join">
       <img class="figure-img" src="/img/icons-line-mitar.svg" alt="Line with mitar (square) join" role="img" />
-      <figcaption class="figure-caption">Line with mitar join</figcaption>
+      <figcaption class="figure-caption">Line with miter join</figcaption>
     </figure>
   </div>
 </div>
