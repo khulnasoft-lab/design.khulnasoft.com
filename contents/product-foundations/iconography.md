@@ -13,16 +13,32 @@ Icons take inspiration from elements expressed by our tanuki logomark.
 1. **Crisp and intentional.** Icon elements should have purpose and place.
 1. **Simple and concise.** Design to minimize time to comprehension. In the same way the concept of “invisible UI” moves a user to task completion without getting hung up on visual elements or controls, icons should move users to concept and action without extra time spent deciphering a glyph.
 
-## Grid and layout
+## Layout
 
-Icons use a **16×16 pixel** base grid with **14px** live area and 1px reserved for padding and optical sizing. There are **8px** and **24px** icons that leverage their own grids instead of scaling from the **16px** base.
+Icons use a **16×16 pixel** base grid with **14px** live area and **1px** reserved for padding and optical sizing. There are also **8px** and **24px** icons that leverage their own grids instead of scaling from the **16px** base.
 
-<figure class="figure" role="figure" aria-label="Icon at 100% scale, grid live area, and padding">
-  <img class="figure-img" src="/img/icons-grid-layout.svg" alt="Icon grid settings" role="img" />
-  <figcaption class="figure-caption">Icon at 100% scale, grid live area, and padding</figcaption>
-</figure>
+<div class="row">
+  <div class="col col-33">
+    <figure class="figure" role="figure" aria-label="Icon at 100%">
+      <img class="figure-img" src="/img/icons-100-scale.svg" alt="Icon grid at 100% scale" role="img" />
+      <figcaption class="figure-caption">Icon at 100%</figcaption>
+    </figure>
+  </div>
+  <div class="col col-33">
+    <figure class="figure" role="figure" aria-label="Grid 14×14 pixel live area">
+      <img class="figure-img" src="/img/icons-grid-layout.svg" alt="Icon live area" role="img" />
+      <figcaption class="figure-caption">Grid 14×14 pixel live area</figcaption>
+    </figure>
+  </div>
+  <div class="col col-33">
+    <figure class="figure" role="figure" aria-label="1px icon padding">
+      <img class="figure-img" src="/img/icons-padding.svg" alt="Icon padding" role="img" />
+      <figcaption class="figure-caption">1px icon padding</figcaption>
+    </figure>
+  </div>
+</div>
 
-Icon elements are aligned to the pixel grid when possible to avoid subpixel antialiasing and be as crisp as possible on all screens and resolutions.
+Icon elements are aligned to the pixel grid to avoid subpixel antialiasing and be as crisp as possible on all screens and resolutions. Elements within an icon, such as curves or diagonal lines, won’t always align exactly to the grid and in these instances it’s better for the element to feel natural rather than forced.
 
 | **Do** | **Don't** |
 | :---: | :---: |
@@ -30,9 +46,9 @@ Icon elements are aligned to the pixel grid when possible to avoid subpixel anti
 
 Todo: Add specs for additional icon sizes
 
-## Keylines and optical weight
+## Keylines
 
-Squares can fill the live area, while circles and rectangles can extend into the padding, which allows icons to be proportionately consistent.
+A keyline grid is a set of guides to help maintain visual balance between icons. Use it as a starting point and guide, but not a hard rule. There are four basic shapes that represent common icon scale and placement. Squares can fill the live area, while circles and rectangles can extend into the padding, which allows icons to be proportionately consistent.
 
 <figure class="figure" role="figure" aria-label="Keyline grid">
   <img class="figure-img" src="/img/icons-keylines.svg" alt="Icon keyline grid" role="img" />
