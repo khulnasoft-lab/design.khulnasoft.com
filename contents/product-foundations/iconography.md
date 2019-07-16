@@ -38,7 +38,7 @@ Icons use a **16×16 pixel** base grid with **14px** live area and **1px** reser
   </div>
 </div>
 
-Icon elements are aligned to the pixel grid to avoid subpixel antialiasing and be as crisp as possible on all screens and resolutions. Elements within an icon, such as curves or diagonal lines, won’t always align exactly to the grid and in these instances it’s better for the element to feel natural rather than forced.
+Icon elements are aligned to the pixel grid to avoid subpixel antialiasing and be as crisp as possible on all screens and resolutions. Elements within an icon, such as curves or diagonal lines, won’t always align exactly to the grid, and in these instances it’s better for the element to feel natural rather than forced.
 
 | **Do** | **Don't** |
 | :---: | :---: |
