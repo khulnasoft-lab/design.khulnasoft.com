@@ -1,7 +1,9 @@
 ---
 name: Sorting
 related:
+  - dropdowns
   - filters
+  - lists
 ---
 
 Sorting allows users to quickly re-organize similar content on a long list of content, especially if the default order may be insufficient for users to scan the data set. The sorting component is usually placed directly on top of the list view. Common use cases for sorting include arranging:
@@ -14,13 +16,13 @@ Sorting allows users to quickly re-organize similar content on a long list of co
 
 ### Sorting vs filtering
 
-Sorting and filtering are closely tied. Filtering works by hiding part of the data that would otherwise be displayed on the list. Unlike filtering, sorting doesn't hide content, it just re-orders it based on a specified criteria. 
+Sorting and filtering are closely tied. Filtering works by hiding part of the data that would otherwise be displayed on the list. Unlike filtering, sorting doesn't hide content, it just re-orders it based on a specified criteria. Also, in contrast to filtering, sorting never produces zero search results. 
 
 Sorting can be used independently of filering or in tandem with filtering. 
 
 ### Sorting component
 
-There are two pieces of the sorting component in GitLab: a dropdown, and a sort icon button.
+There are two pieces of the sorting component for lists in GitLab: a dropdown, and a sort icon button.
 
 The dropdown allows users to choose their sorting criteria, whether it be by label, date or popularity. As soon as an item in the dropdown is selected, the list content re-sorts automatically. The sort dropdown currently allows for sorting by a single selected item.
 
