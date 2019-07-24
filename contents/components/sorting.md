@@ -4,7 +4,7 @@ related:
   - filters
 ---
 
-Sorting allows users to re-organize content on a page. Common use cases for sorting include arranging:
+Sorting allows users to quickly re-organize similar content on a long list of content, especially if the default order may be insufficient for users to scan the data set. The sorting component is usually placed directly on top of the list view. Common use cases for sorting include arranging:
 
 *   Numbers in ascending or descending order.
 *   Characters in alphabetical or reverse-alphabetical order.
