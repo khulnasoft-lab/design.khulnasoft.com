@@ -24,7 +24,7 @@ There are two pieces of the sorting component in GitLab: a dropdown, and a sort 
 
 The dropdown allows users to choose their sorting criteria, whether it be by label, date or popularity. As soon as an item in the dropdown is selected, the list content re-sorts automatically. The sort dropdown currently allows for sorting by a single selected item.
 
-The sort icon button allows users to change the direction of the sort, from ascending to descending (or vice-versa). The default sort order on the component is descending, but the default sort order on a page can (and should) be determined by the designer on a page-by-page basis.
+The sort icon button allows users to change the direction of the sort, from ascending to descending (or vice-versa). The default sort order on the component is descending, but the default sort order on a list can (and should) be determined by the designer on a page-by-page basis.
 
 ### Persisting sort options
 
