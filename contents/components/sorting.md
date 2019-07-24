@@ -28,7 +28,7 @@ The sort icon button allows users to change the direction of the sort, from asce
 
 ### Persisting sort options
 
-Sort options are meant to be persisted until the page is re-loaded, after which time the sort will update to the page default. 
+Sort options are meant to be persisted until the page is re-loaded, after which time the sort will update to the list default. 
 
 ## Demo
 
