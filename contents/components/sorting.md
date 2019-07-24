@@ -14,7 +14,7 @@ Sorting allows users to quickly re-organize similar content on a long list of co
 
 ### Sorting vs filtering
 
-Sorting and filtering are closely tied. Filtering works by hiding part of the data that would otherwise be displayed on the page. Unlike filtering, sorting doesn't hide content, it just re-orders it based on a specified criteria. 
+Sorting and filtering are closely tied. Filtering works by hiding part of the data that would otherwise be displayed on the list. Unlike filtering, sorting doesn't hide content, it just re-orders it based on a specified criteria. 
 
 Sorting can be used independently of filering or in tandem with filtering. 
 
