@@ -36,7 +36,7 @@ The sort icon button allows users to change the direction of the sort, from asce
 ### Sorting "don'ts"
 
 * When using the sorting component, make sure the list in the dropdown isn't too long, otherwise it will create usability problems.
-* If a list is static, easy to search/scan, or where the data set won't grow, the search component is likely unnecessary.
+* If a list is static, easy to search/scan, or where the data set won't grow, the sorting component is likely unnecessary.
 
 ## Demo
 
