@@ -22,7 +22,7 @@ Sorting can be used independently of filering or in tandem with filtering. Use t
 
 ### Sorting component
 
-There are two pieces of the sorting component for lists in GitLab: a dropdown, and a sort icon button.
+The sorting component is comprised of two parts: a dropdown, and a sort direction icon button.
 
 The dropdown allows users to choose their sorting criteria, whether it be by label, date or popularity. As soon as an item in the dropdown is selected, the list content re-sorts automatically. The sort dropdown currently allows for sorting by a single selected item.
 
