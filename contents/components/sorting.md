@@ -31,7 +31,7 @@ The sort icon button allows users to change the direction of the sort, from asce
 ### Sorting "dos"
 
 * Sort options are meant to be persisted until the page is re-loaded, after which time the sort will update to the list default. 
-* Note that sorting can occur in tables, as well as in lists. While sorting in lists relies on the sorting component described on this page, sorting within a table happens in the table header. When deciding which sorting pattern to use, consider if the sort functionality needs to be visible or if it can be hidden. Also consider if the user needs to compare the items in a list to each other. If it the items in a list need to be compared to each other, and if the sorting functionality doesn't need to be immediately visible, consider using a table (with sorting availble in the header) instead of a list with the visible sorting component.
+* Note that sorting can occur in tables, as well as in lists. While sorting in lists relies on the sorting component described on this page, sorting within a table happens in the table header. When deciding which sorting pattern to use, consider if the sort functionality needs to be visible or if it can be hidden. Also consider if the user needs to compare the items in a list to each other. If it the items in a list need to be compared to each other, and if the sorting functionality doesn't need to be immediately visible, consider using a table with sorting available in the header instead of a list with the visible sorting component.
 
 ### Sorting "don'ts"
 
