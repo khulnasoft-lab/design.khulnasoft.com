@@ -10,7 +10,7 @@ Sorting allows users to quickly re-organize similar content on a long list when 
 
 *   Numbers in ascending or descending order.
 *   Characters in alphabetical or reverse-alphabetical order.
-*   Dates from most to least recent (and the reverse).
+*   Dates from most to least recent or the reverse.
 
 ## Usage
 
