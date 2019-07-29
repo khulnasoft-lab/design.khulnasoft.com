@@ -16,9 +16,11 @@ Sorting allows users to quickly re-organize similar content on a long list when 
 
 ### Sorting vs filtering
 
-Sorting and filtering are closely tied. Filtering works by hiding part of the data that would otherwise be displayed on the list. Unlike filtering, sorting doesn't hide content, but rather re-orders it based on a specified criteria. Also, in contrast to filtering, sorting never produces zero search results. 
+Sorting and filtering are closely tied. Sorting can be used independently of filering or in tandem with filtering.
 
-Sorting can be used independently of filering or in tandem with filtering. Use the sorting component when the list has pagination and spans multiple pages, as it can make it easier for users to digest and find relevant content.
+Filtering works by hiding part of the data that would otherwise be displayed on the list. Unlike filtering, sorting doesn't hide content, but rather re-orders it based on a specified criteria. Also, in contrast to filtering, sorting never produces zero search results. 
+
+Use the sorting component when the list has pagination and spans multiple pages, as it can make it easier for users to digest and find relevant content.
 
 ### Sorting component
 
@@ -30,13 +32,13 @@ The sort direction icon button allows users to change the direction of the sort,
 
 ### Sorting "dos"
 
-* Sort options are meant to be persisted until the page is re-loaded, after which time the sort will update to the list default. 
-* Note that sorting can occur in tables, as well as in lists. While sorting in lists relies on the sorting component described on this page, sorting within a table happens in the table header. When deciding which sorting pattern to use, consider if the sort functionality needs to be visible or if it can be hidden. Also consider if the user needs to compare the items in a list to each other. If it the items in a list need to be compared to each other, and if the sorting functionality doesn't need to be immediately visible, consider using a table with sorting available in the header instead of a list with the visible sorting component.
+* A user's sort selections are meant to be persisted until the page is re-loaded, after which time the sort will update to the list default. 
+* Note that sorting can occur in tables, as well as in lists. While sorting in lists relies on the sorting component described on this page, sorting within a table happens in the table header. When deciding which sorting pattern to use, consider how visible the sorting functionality needs to be and if the user needs to compare the items in the list to each other. If it the items in a list need to be compared to each other, and if the sorting functionality doesn't need to be called out explictly, consider using a table instead of a list.
 
 ### Sorting "don'ts"
 
-* When using the sorting component, make sure the list in the dropdown isn't too long, otherwise it will create usability problems.
-* If a list is static, easy to search/scan, or where the data set won't grow, the sorting component is likely unnecessary.
+* When using the sorting component, make sure the list in the dropdown doesn't contain more than twenty items, otherwise it will create usability problems. 
+* If a list is static, easy to search/scan, or where the data set won't grow, the sorting component is unnecessary.
 
 ## Demo
 
