@@ -718,10 +718,9 @@
   resolved "https://registry.yarnpkg.com/@gitlab/svgs/-/svgs-1.67.0.tgz#c7b94eca13b99fd3aaa737fb6dcc0abc41d3c579"
   integrity sha512-hJOmWEs6RkjzyKkb1vc9wwKGZIBIP0coHkxu/KgOoxhBVudpGk4CH7xJ6UuB2TKpb0SEh5CC1CzRZfBYaFhsaA==
 
-"@gitlab/ui@^5.11.0":
+"@gitlab/ui@https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/261361876/artifacts/raw/gitlab-ui.295-style-tabs-component.tgz":
   version "5.11.0"
-  resolved "https://registry.yarnpkg.com/@gitlab/ui/-/ui-5.11.0.tgz#1ae0b0484973abde5a7bbd0f7d8f1c52c3a07ace"
-  integrity sha512-1JMzHtBAksm9FEIbbB3MMEDAzHveuim3Bic/chUmGyCO1sWiTtoCaBkVL3/FdiW40dVGfguUaDnEkS6qEvLjeA==
+  resolved "https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/261361876/artifacts/raw/gitlab-ui.295-style-tabs-component.tgz#14ec0237a72acf9f91e207eb398fe82bd3c84eb1"
   dependencies:
     "@babel/standalone" "^7.0.0"
     "@gitlab/vue-toasted" "^1.2.1"
