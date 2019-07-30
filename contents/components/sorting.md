@@ -33,11 +33,13 @@ The sort direction icon button allows users to change the direction of the sort,
 ### Sorting "dos"
 
 * A user's sort selections are meant to be persisted until the page is re-loaded, after which time the sort will update to the list default. 
-* Note that sorting can occur in tables, as well as in lists. While sorting in lists relies on the sorting component described on this page, sorting within a table happens in the table header. When deciding which sorting pattern to use, consider how visible the sorting functionality needs to be and if the user needs to compare the items in the list to each other. If it the items in a list need to be compared to each other, and if the sorting functionality doesn't need to be called out explictly, consider using a table instead of a list.
+* Sorting can occur in tables and in lists. While sorting in lists relies on the sorting component described on this page, sorting within a table happens in the table header.
+* When deciding whether to use a list with the sort component or a table with sorting in the header, consider if the sorting options need to be displayed at-a-glance or if they can be placed in a dropdown button, as occurs with the sorting component. Dropdowns allow users make a selection from multiple options. They are less prominent and take up less space than inline selection controls.
+* If the user needs to compare items in a list to each other, consider using a table with sorting available in the header instead of a list with the a sorting component.
 
 ### Sorting "don'ts"
 
-* When using the sorting component, make sure the list in the dropdown doesn't contain more than twenty items, otherwise it will create usability problems. 
+* When using the sorting component, make sure the list in the dropdown doesn't contain more than twenty items, otherwise it will create usability problems. [See dropdown guidelines](/components/dropdowns). 
 * If a list is static, easy to search/scan, or where the data set won't grow, the sorting component is unnecessary.
 
 ## Demo
