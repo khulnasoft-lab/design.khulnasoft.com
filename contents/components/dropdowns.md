@@ -42,7 +42,7 @@ An example of a dropdown with section headers.
 
 #### Filter box
 
-If there are more than 20 elements in the list, it may be necessary to include a filter box.
+If there are more than 10 elements in the list, it may be necessary to include a filter box.
 
 An example of a dropdown with a filter box.
 
