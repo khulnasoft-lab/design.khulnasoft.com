@@ -123,6 +123,7 @@ module.exports = {
      */
     extend(config, ctx) {
       config.resolve.alias.vue$ = 'vue/dist/vue.esm.js'; // Full Vue version for being able to use dynamic templates
+      config.resolve.alias['bootstrap-vue/src/index'] = 'bootstrap-vue/src/index.scss';
 
       config.module.rules.splice(0, 1);
 
