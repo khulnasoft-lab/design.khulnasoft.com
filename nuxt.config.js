@@ -1,6 +1,5 @@
 import glob from 'glob';
 import path from 'path';
-import postCssGitlab from './modules/postcss_gitlab';
 import { getContentList } from './modules/content_preparer';
 
 const routes = [
@@ -109,11 +108,6 @@ module.exports = {
     quiet: false,
 
     watch: ['~/contents'],
-
-    postcss: {
-      plugins: [postCssGitlab({ scopeSelector: 'app-styles' })],
-      order: ['postcss-gitlab', 'postcss-import', 'postcss-preset-env'],
-    },
 
     loaders: {
       scss: { includePaths: [path.resolve(__dirname, 'node_modules')] },
