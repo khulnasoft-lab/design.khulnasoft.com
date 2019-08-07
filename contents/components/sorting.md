@@ -22,7 +22,7 @@ Sorting allows users to quickly re-organize similar content on a long list when 
 
 ### Sorting "don'ts"
 
-* When using the sorting component, make sure the list in the dropdown doesn't contain more than twenty items, otherwise it will create usability problems. [See dropdown guidelines](/components/dropdowns). 
+* When using the sorting component, make sure the list in the dropdown doesn't contain more than 10 items, otherwise it will create usability problems. [See dropdown guidelines](/components/dropdowns). 
 * If a list is static, easy to search/scan, or where the data set won't grow, the sorting component is unnecessary.
 
 ### Sorting vs filtering
