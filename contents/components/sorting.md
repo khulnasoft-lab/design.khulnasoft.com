@@ -41,10 +41,10 @@ The sort direction icon button allows users to change the direction of the sort,
 
 ## Demo
 
-TODO: Add in the example sort component.
+Todo: Add in the example sort component.
 
 ## Design specifications
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
-TODO: Add in a link to the measure spec.
+Todo: Add in a link to the measure spec.
