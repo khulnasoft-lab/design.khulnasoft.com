@@ -29,7 +29,7 @@ When designing skeleton states not all components on the page need to be replace
 
 If content can be loaded instantly it is a good indicator that it does not need to be replaced, think of action-based components (e.g. buttons, input fields, checkboxes, toggles, etc.). Secondary dynamic content that is revealed upon user interaction should typically never be replaced by a skeleton state as those items should already be loaded in by the time the user is able to interact with them (e.g. toasts, dropdown menu's, modals, etc.).
 
-Skeleton objects should generally be visualised by simple primitives which mimic the original content in a recognisable way. It is recommended to use a more elaborate form if that is needed to make the component recognisable. 
+Skeleton objects should generally be visualized by simple primitives which mimic the original content in a recognizable way. It is recommended to use a more elaborate form if that is needed to make the component recognizable. 
 
 ### Creating skeleton states
 
