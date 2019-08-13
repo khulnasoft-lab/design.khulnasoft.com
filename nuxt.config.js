@@ -109,6 +109,10 @@ module.exports = {
 
     watch: ['~/contents'],
 
+     postcss: {
+      order: ['postcss-preset-env'],
+    },
+
     loaders: {
       scss: { includePaths: [path.resolve(__dirname, 'node_modules')] },
     },
