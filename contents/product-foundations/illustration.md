@@ -96,7 +96,7 @@ An illustration can be one of three sizes below, depending on the use case. It c
 
 #### Medium
 
-* Dimensions: **240×160px** or less.
+* Dimensions: **240×160px** or less
 * Use: Banner
 
 <figure class="figure" role="figure" aria-label="Medium “spot” illustration">
