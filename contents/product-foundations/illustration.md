@@ -111,7 +111,7 @@ An illustration can be one of three sizes below, depending on the use case. It c
 
 #### Small
 
-* Dimensions **160×90px** or less.
+* Dimensions **160×90px** or less
 * Use: Graphics for explanatory text or status.
 
 <figure class="figure" role="figure" aria-label="Small “spot” illustration">  
