@@ -156,7 +156,7 @@ Illustrations should be named for the concept they represent, and not literally,
 
 ### Optimization
 
-Illustrations should be optimized for their intended use. Illustrations can be animated, themed, or simply be static graphics. Use your best judgement when combining shapes or converting a stroke to a path, considering what satisfies the use case and is most performant and future-proof for other uses. GitLab illustrations are always exported as SVG files, and it makes sense that a smaller file size will benefit performance.
+Illustrations should be optimized for their intended use. Illustrations can be animated, themed, or they can simply be static graphics. Use your best judgement when combining shapes or converting a stroke to a path, considering what satisfies the use case and is most performant and future-proof for other uses. GitLab illustrations are always exported as SVG files, and it makes sense that a smaller file size will benefit performance.
 
 A few tips:
 
