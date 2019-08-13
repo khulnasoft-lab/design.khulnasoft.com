@@ -2,7 +2,7 @@
 name: Illustration
 ---
 
-One of our values is to create a distinct GitLab personality that is strong and consistent. Illustration is a great way to visually convey concepts to the user and should reflect our particular sense of style.
+One of our design goals is to convey GitLab's distinct personality through illustration that is aesthetically refined, visually consistent, and reflective of our particular sense of style.
 
 An illustration should align with topics and goals within context. In most cases our illustration is complimentary to content. Because of this, it’s often considered decoration instead of content itself.
 
