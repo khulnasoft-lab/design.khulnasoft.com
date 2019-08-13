@@ -81,7 +81,7 @@ An illustration can be one of three sizes below, depending on the use case. It c
 
 #### Large
 
-* Dimensions: **430×380px** or less.
+* Dimensions: **430×380px** or less
 * Use: Empty states, error pages (for example, a 404 error)
 
 <figure class="figure" role="figure" aria-label="Large illustration">
