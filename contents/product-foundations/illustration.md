@@ -186,7 +186,7 @@ Example:
 **For inline SVG:**
 
 * Within the SVG code add `title` and `desc` (optional) elements. They _must_ be the first nested items within the SVG.
-* Add unique ID’s to the `title` and `desc`, e.g. `<title id="uniqueTitleID">SVG Title</title>`.
+* Add unique IDs to the `title` and `desc`; for example, `<title id="uniqueTitleID">SVG Title</title>`.
 * On the `<svg>` add an `aria-labelledby="uniqueTitleID uniqueDescID"` attribute.
 * Lastly, on the `<svg>` add `role="img"` to prevent browsers from traversing the SVG.
 
