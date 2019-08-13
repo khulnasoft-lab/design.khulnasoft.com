@@ -138,7 +138,9 @@ Todo: Add link to gitlab-illustration.sketch once it’s approved
 
 ### Subpixel antialiasing
 
-Even though we’re working with vector objects, illustrations will still be displayed on screens comprised of pixels. Vector is great for resolution _independence_, but we still want it to look as crisp as possible in the original state. Illustration elements are aligned to the pixel grid to avoid subpixel antialiasing and be as crisp as possible on all screens and resolutions. Elements within an illustration, such as curves or diagonal lines, won’t always align exactly to the grid, and in these instances it’s better for the element to feel natural rather than forced.
+Even though we’re working with vector objects, illustrations will still be displayed on screens comprised of pixels. Vector is great for resolution _independence_, but we still want illustrations to look as crisp as possible in the original state. 
+
+Illustration elements are aligned to the pixel grid to avoid subpixel antialiasing and be as crisp as possible on all screens and resolutions. Elements within an illustration, such as curves or diagonal lines, won’t always align exactly to the grid, and in these instances it’s better for the element to feel natural rather than forced.
 
 | **Do** | **Don’t** |
 | :---: | :---: |
