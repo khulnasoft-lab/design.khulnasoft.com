@@ -163,7 +163,7 @@ A few tips:
 * Create illustrations at the intended size (don’t create them larger than needed).
 * Simplify shapes and strokes by removing redundant points.
 * Sketch can handle simple illustrations just fine, but for something more complex, consider using Adobe Illustrator, Inkscape, Affinity Designer, or Figma.
-* [SVGOMG](https://jakearchibald.github.io/svgomg/) can really help decrease file size, just make sure none of the settings or features are counter to intended use.
+* [SVGOMG](https://jakearchibald.github.io/svgomg/) can really help decrease file size. Just make sure none of the settings or features are counter to intended use.
 * Use the [SVGO Compressor](https://github.com/BohemianCoding/svgo-compressor) plugin when exporting SVG from Sketch.
 
 Todo: Add specific optimization notes for each use case
