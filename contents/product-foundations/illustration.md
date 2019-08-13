@@ -77,7 +77,7 @@ The default border radius for shapes is **8px**, with **0px**, **4px**, or multi
 
 ### Size
 
-An illustration can be one of three sizes below depending on the use case. It can scale within a layout so long as the proportion and aspect ratio remain unchanged, e.g., shrinking on smaller screens. Keep details and complexity to a minimum for medium and small “spot” illustrations. Illustration dimensions don’t include padding and should go to the edge of the design artboard, relying on CSS classes for padding.
+An illustration can be one of three sizes below, depending on the use case. It can scale within a layout, so long as the proportion and aspect ratio remain unchanged; for example, shrinking on smaller screens. Keep details and complexity to a minimum for medium and small “spot” illustrations. Illustration dimensions don’t include padding and should go to the edge of the design artboard, relying on CSS classes for padding.
 
 #### Large
 
