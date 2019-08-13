@@ -82,7 +82,7 @@ An illustration can be one of three sizes below depending on the use case. It ca
 #### Large
 
 * Dimensions: **430×380px** or less.
-* Use: Empty states, error pages (e.g., 404)
+* Use: Empty states, error pages (for example, a 404 error)
 
 <figure class="figure" role="figure" aria-label="Large illustration">
   <img class="figure-img p-a-5" src="/img/illus-lg.svg" alt="Merge request conversation" role="img" />
