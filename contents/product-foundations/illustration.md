@@ -4,7 +4,7 @@ name: Illustration
 
 One of our design goals is to convey GitLab’s distinct personality through illustration that is aesthetically refined, visually consistent, and reflective of our particular sense of style.
 
-Illustrations should visually support topics and goals within context, complementing associated content and making it easier to quickly understand. For accessibility reasons, we don't use illustrations to replace content.
+Illustrations should visually support topics and goals within context, complementing associated content and making it easier to quickly understand. For accessibility reasons, we don’t use illustrations to replace content.
 
 ## Principles
 
