@@ -112,7 +112,7 @@ An illustration can be one of three sizes below, depending on the use case. It c
 #### Small
 
 * Dimensions **160×90px** or less
-* Use: Graphics for explanatory text or status.
+* Use: Graphics for explanatory text or status
 
 <figure class="figure" role="figure" aria-label="Small “spot” illustration">  
   <img class="figure-img p-a-5" src="/img/illus-sm.svg" alt="Bookmarked code document" role="img" />
