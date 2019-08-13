@@ -213,3 +213,7 @@ Example:
 ### GitLab SVG Project
 
 Todo: Add integration notes and workflow
+
+## Illustration viewer
+
+You can view all of the current illustrations in GitLab at the following link: [GitLab SVGs](http://gitlab-org.gitlab.io/gitlab-svgs/illustrations)
