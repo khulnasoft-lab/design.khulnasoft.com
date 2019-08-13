@@ -148,7 +148,7 @@ Illustration elements are aligned to the pixel grid to avoid subpixel antialiasi
 
 ### Naming
 
-Illustrations should be named for the concept they represent, and not literally, unless they represent a universal concept — this is different than icon naming. This will make it easier to identify illustrations for concepts and ensure consistent use. Append the file name with the size abbreviation, e.g., `-lg`, `-md`, `-sm`).
+Illustrations should be named for the concept they represent, and not literally, unless they represent a universal concept — this is different than icon naming. This will make it easier to identify illustrations for concepts and ensure consistent use. Append the file name with the size abbreviation (`-lg`, `-md`, `-sm`).
 
 | **Do** | **Don’t** |
 | :---: | :---: |
