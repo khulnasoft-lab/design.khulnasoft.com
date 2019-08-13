@@ -10,7 +10,7 @@ An illustration should align with topics and goals within context. In most cases
 
 1. **Be simple.** For clarity, we use simple and specific elements to create our illustrations.
 1. **Be optimistic.** We take an open-minded, positive, and friendly approach. Those values are reflected in our illustrations with a light and airy feel.
-1. **Be helpful.** Our illustrations help users understand concepts and guides them in the right direction. Illustrations are supportive, so they should be obvious, but not comprehensive, focusing on impressions over complexity.
+1. **Be helpful.** Our illustrations help users to understand concepts and guide them in the right direction. Illustrations are supportive, so they should be obvious but not comprehensive, focusing on impressions over complexity.
 
 ## Style
 
