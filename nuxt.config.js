@@ -109,7 +109,7 @@ module.exports = {
 
     watch: ['~/contents'],
 
-     postcss: {
+    postcss: {
       order: ['postcss-preset-env'],
     },
 
