@@ -16,7 +16,7 @@ Illustrations should visually support topics and goals within context, complemen
 
 ### Color
 
-For consistency, choose colors from the Brand and Neutral Theme color palettes.
+For consistency, choose colors from the following palette.
 
 | Orange | Purple | Neutral |
 | -------- | -------- | -------- |
