@@ -7,7 +7,7 @@
       <p>See more detailed progress on our Design System <a href="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues">issue tracker</a>.</p>
       <h2>Legend</h2>
       <table
-        class="m-t-6 m-b-6"
+        class="gl-table m-t-6 m-b-6"
         style="width: 65%;"
       >
         <tbody>
@@ -45,7 +45,7 @@
       </table>
 
       <table
-        class="m-t-6 m-b-6"
+        class="gl-table m-t-6 m-b-6"
         style="width: 65%;"
       >
         <tbody>
@@ -69,7 +69,7 @@
 
       <h2>Status</h2>
       <table
-        class="m-t-6 m-b-6"
+        class="gl-table m-t-6 m-b-6"
         style="width: 65%;"
       >
         <tbody>
@@ -183,123 +183,6 @@
           </tr>
         </tbody>
       </table>
-
-
-      <!-- <h2>Styles</h2>
-      <table class="m-t-6 m-b-6">
-        <thead>
-          <tr>
-            <th class="header">Styles</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><a href="../../styles/Colors">Colors</a></td>
-            <td>✅</td>
-          </tr>
-          <tr>
-            <td><a href="../../styles/iconography">Iconography</a></td>
-            <td>⚠️</td>
-          </tr>
-          <tr>
-            <td><a href="../../styles/motion">Motion</a></td>
-            <td>⚠️</td>
-          </tr>
-          <tr>
-            <td><a href="../../styles/illustration">Illustration</a></td>
-            <td>⚠️</td>
-          </tr>
-          <tr>
-            <td><a href="../../styles/typography">Typography</a></td>
-            <td>⚠️</td>
-          </tr>
-          <tr>
-            <td><a href="../../styles/cursors">Cursors</a></td>
-            <td>⚠️</td>
-          </tr>
-        </tbody>
-      </table> -->
-
-      <!-- <h2>Regions</h2>
-      <table class="m-t-6 m-b-6">
-        <thead>
-          <tr>
-            <th class="header">Regions</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><a href="../../regions/empty-states">Empty states</a></td>
-            <td>⚠️</td>
-          </tr>
-          <tr>
-            <td><a href="../../regions/filters">Filters</a></td>
-            <td>⚠️</td>
-          </tr>
-          <tr>
-            <td><a href="../../regions/xx">Navigation</a></td>
-            <td>⚠️</td>
-          </tr>
-          <tr>
-            <td><a href="../../regions/xx">Search</a></td>
-            <td>⚠️</td>
-          </tr>
-        </tbody>
-      </table> -->
-
-      <!-- <h2>Content</h2>
-      <table class="m-t-6 m-b-6">
-        <thead>
-          <tr>
-            <th class="header">Content</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><a href="../../content/voice-tone">Voice & tone</a></td>
-            <td>⚠️</td>
-          </tr>
-          <tr>
-            <td><a href="../../content/terminology">Terminology</a></td>
-            <td>⚠️</td>
-          </tr>
-          <tr>
-            <td><a href="../../content/punctuation">Punctuation</a></td>
-            <td>⚠️</td>
-          </tr>
-          <tr>
-            <td>Search</td>
-            <td>⚠️</td>
-          </tr>
-        </tbody>
-      </table> -->
-
-      <!-- <h2>Usability</h2>
-      <table class="m-t-6 m-b-6">
-        <thead>
-          <tr>
-            <th class="header">Usability</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><a href="../../components/accessibility">Accessibility</a></td>
-            <td>🚫</td>
-          </tr>
-          <tr>
-            <td><a href="../../components/internationalization">Internationalization</a></td>
-            <td>🚫</td>
-          </tr>
-          <tr>
-            <td><a href="../../components/helping-users">Helping users</a></td>
-            <td>✅</td>
-          </tr>
-        </tbody>
-      </table> -->
     </div>
   </div>
 </template>

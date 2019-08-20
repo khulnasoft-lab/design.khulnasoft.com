@@ -18,7 +18,7 @@ Todo: Add codeblock showing monospace variable stack
 
 The default typography uses line-heights that align with our UI components. Margins are not included to allow for easier alignment with other UI elements. The following scale is used throughout the application:
 
-<table class="type-scale m-b-6">
+<table class="gl-table type-scale m-b-6 gl-table">
 <thead>
 <tr>
 <th>px</th>
@@ -83,7 +83,7 @@ Todo: Show variables for normal and bold typography
 
 Todo: Show class used for bold typography
 
-<table class="font-weight m-b-6">
+<table class="gl-table font-weight m-b-6">
 <thead>
 <tr>
 <th>Weight</th>
