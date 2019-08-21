@@ -14,6 +14,16 @@ A token is used in a search query in places where the user is expected to includ
 
 - Filter tokens are used to narrow down content and are attached to a qualifier. [Filters](/components/filters) inherit these tokens.
 
+### Placement
+
+Tokens are can be positioned inline with the text cursor in a field, or in a stacked list. Tokens can wrap to a new row.
+
+### Interaction
+
+A token can include a Remove icon that comes with the functionality to remove the token from the set.
+
+It is also possible to display view-only tokens, that cannot be removed from the set.
+
 ## Demo
 
 Todo: Add live component block with code example
