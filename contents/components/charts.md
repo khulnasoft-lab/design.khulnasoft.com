@@ -20,7 +20,7 @@ Charts should be:
 
 In cases where the charting principles conflict, consider data representation accuracy over speed of delivery, speed over visual consistency, and consistency over interaction.
 
-Going forward, our charts will be built using [Echarts](https://echarts.apache.org/).
+Going forward, our charts will be built using [ECharts](https://echarts.apache.org/).
 
 General content and style considerations for charts include:
  
