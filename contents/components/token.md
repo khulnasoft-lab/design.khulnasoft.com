@@ -2,6 +2,9 @@
 name: Token
 related:
   - filters
+  - buttons
+  - badge
+  - labels
 ---
 
 Tokens represent keywords and are used to add or filter objects. They allow users to input information, converting their text to tokens.
@@ -11,8 +14,22 @@ Tokens represent keywords and are used to add or filter objects. They allow user
 A token is used in a search query in places where the user is expected to include multiple queries.
 
 - Input tokens are used to add content. For example, these tokens are used when adding new users to a project. Multiple users can be added at once, and each inputted user is added as a token within the text field.
-
 - Filter tokens are used to narrow down content and are attached to a qualifier. [Filters](/components/filters) inherit these tokens.
+
+### When to use tokens
+
+Use tokens to:
+
+- Enable dynamic user input and verify that input by converting text into tokens.
+- Allow users to manage filter and search options in a compact area.
+
+### When not to use tables
+
+Do not use tokens to:
+
+- Recgonize which categories an object belongs to. Use [labels](https://design.gitlab.com/components/labels/) instead.
+- Highlight more generic object metadata, like an issue’s status, a member’s role, or if a branch is protected. Use [badges](https://design.gitlab.com/components/badge/) instead.
+- Display static action items persistently. Use [buttons](https://design.gitlab.com/components/buttons) instead.
 
 ### Placement
 
@@ -20,9 +37,9 @@ Tokens are can be positioned inline with the text cursor in a field, or in a sta
 
 ### Interaction
 
-A token can include a Remove icon that comes with the functionality to remove the token from the set.
+Interactive tokens include a Remove icon, positioned at the end of the token. When enabled, users can click the icon to remove the token from the set.
 
-It is also possible to display view-only tokens, that cannot be removed from the set.
+It is also possible to display view-only tokens, that don't include a Remove icon and cannot be removed from the set.
 
 ## Demo
 
