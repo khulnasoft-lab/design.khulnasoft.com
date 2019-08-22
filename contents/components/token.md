@@ -21,7 +21,7 @@ A token is used in a search query in places where the user is expected to includ
 Use tokens to:
 
 - Enable dynamic user input and verify that input by converting text into tokens.
-- Allow users to manage filter and search options in a compact area.
+- Allow users to manage, filter, and search options in a compact area.
 
 ### When not to use tables
 
