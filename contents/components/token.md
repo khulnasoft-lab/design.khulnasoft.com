@@ -27,7 +27,7 @@ Use tokens to:
 
 Do not use tokens to:
 
-- Recgonize which categories an object belongs to. Use [labels](https://design.gitlab.com/components/labels/) instead.
+- Categorize an object. Use [labels](https://design.gitlab.com/components/labels/) instead.
 - Highlight more generic object metadata, like an issue’s status, a member’s role, or if a branch is protected. Use [badges](https://design.gitlab.com/components/badge/) instead.
 - Display static action items persistently. Use [buttons](https://design.gitlab.com/components/buttons) instead.
 
