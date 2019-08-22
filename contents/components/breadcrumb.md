@@ -18,7 +18,7 @@ The breadcrumb should appear on every page of the application, except for the re
 |Do|Don't|
 |--- |--- |
 |Ignore the instance name in the breadcrumb line.|Include the instance name in the breadcrumb line.|
-|Keep the breadcrumb to one line by default.|Break the breadcrumb up onto separate lines.|
+|Keep breadcrumbs to one line by default.|Break breadcrumbs up onto separate lines.|
 |Use an ellipsis button to hide multiple subgroups when there are more than three.|Show more than three subgroups by default.|
 |Use chevrons between breadcrumb items.|Use slashes or other characters to separate breadcrumb items.|
 
