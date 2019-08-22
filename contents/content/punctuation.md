@@ -12,7 +12,7 @@ Use sentence case for titles, headings, labels, menu items, and buttons. Use tit
 
 Always capitalize the first word in bulleted lists. This includes sentences that complete an introductory stem.
 
-<table>
+<table class="gl-table">
   <thead>
     <tr>
       <th>Do</th>
@@ -57,7 +57,7 @@ Place periods after sentences that follow a link.
 
 Use a period after every bullet point that is a sentence.
 
-<table>
+<table class="gl-table">
   <thead>
     <tr>
       <th>Do</th>
@@ -84,7 +84,7 @@ Use a period after every bullet point that is a sentence.
 
 Use a period after every bullet point that completes the introductory stem.
 
-<table>
+<table class="gl-table">
   <thead>
     <tr>
       <th>Do</th>
@@ -113,7 +113,7 @@ Use a period after every bullet point that completes the introductory stem.
 
 Use no punctuation after bullets that are not sentences and do not complete the stem.
 
-<table>
+<table class="gl-table">
   <thead>
     <tr>
       <th>Do</th>
@@ -142,7 +142,7 @@ Use no punctuation after bullets that are not sentences and do not complete the 
 
 Use all sentences or all fragments in a bulleted list, not a mixture.
 
-<table>
+<table class="gl-table">
   <thead>
     <tr>
       <th>Do</th>
@@ -190,7 +190,7 @@ Use “1, 2, 3” instead of “one, two, three” for numbers. One exception is
 
 Use punctuation to add clarity or be grammatically correct.
 
-<table>
+<table class="gl-table">
   <thead>
     <tr>
       <th>Punctuation mark</th>
