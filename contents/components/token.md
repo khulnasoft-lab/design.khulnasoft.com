@@ -33,7 +33,7 @@ Do not use tokens to:
 
 ### Placement
 
-Tokens are can be positioned inline with the text cursor in a field, or in a stacked list. Tokens can wrap to a new row.
+Tokens can be positioned inline with the text cursor in a field, or in a stacked list. Tokens can wrap to a new row.
 
 ### Interaction
 
