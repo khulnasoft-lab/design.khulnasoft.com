@@ -23,7 +23,7 @@ Use tokens to:
 - Enable dynamic user input and verify that input by converting text into tokens.
 - Allow users to manage, filter, and search options in a compact area.
 
-### When not to use tables
+### When not to use tokens
 
 Do not use tokens to:
 
@@ -40,6 +40,8 @@ Tokens can be positioned inline with the text cursor in a field, or in a stacked
 Interactive tokens include a [remove](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~close) icon, positioned at the end of the token. When enabled, users can click the icon to remove the token from the set.
 
 It is also possible to display view-only tokens. View-only tokens don't include a remove icon and cannot be removed from the set. For example, you may use a view-only token when a user does not have permission to remove a token.
+
+Todo: Add live component block with code example of view-only token
 
 ## Demo
 
