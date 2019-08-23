@@ -43,7 +43,7 @@ Always capitalize the first word in bulleted lists. This includes sentences that
 
 A period signals to a speaker or reader that a sentence has come to an end, and it assists users in visually breaking up content. Follow these guidelines:
 
-Place periods after a link that is followed by a sentence.
+Place a period after a link that is followed by a sentence.
 
 | Do | Don't |
 | --- | --- |
@@ -186,7 +186,7 @@ Use “1, 2, 3” instead of “one, two, three” for numbers. One exception is
 | 3 new commits | Three new commits |
 | Enter two 3s. | Enter 2 3s. |
 
-## Punctuation Overview
+## Punctuation overview
 
 Use punctuation to add clarity or be grammatically correct.
 
