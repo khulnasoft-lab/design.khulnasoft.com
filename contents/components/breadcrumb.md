@@ -11,7 +11,7 @@ Breadcrumbs assist users by helping them understand their current location in re
 
 ## Usage
 
-The breadcrumb should appear on every page of the application, except for the register and profile screens. It should show the hierarchical progress from the highest page entity to the current page entity, one step at a time. It should not be used to replace the main navigation.
+A breadcrumb should appear on every page of the application, except for the register and profile screens. It should show the hierarchical progress from the highest page entity to the current page entity, one step at a time. It should not be used to replace the main navigation.
 
 ### Dos and Dont's
 
