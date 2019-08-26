@@ -4,7 +4,7 @@ name: Voice and tone
 
 Copy and messaging are meaningful aspects of the GitLab experience and the conversation with our users. 
 
-The copy for GitLab is clear and direct. We strike a clear balance between professional and friendly. We can empathize with users (such as celebrating completing all items on the To-Do List) while remaining respectful to the importance of their work. We are a trusted, friendly, helpful, and understanding coworker.
+The copy for GitLab is clear and direct. We strike a balance between professional and friendly. We can empathize with users (such as celebrating completing all items on the To-Do List) while remaining respectful to the importance of their work. We are a trusted, friendly, helpful, and understanding coworker.
 
 ## Active voice
 
