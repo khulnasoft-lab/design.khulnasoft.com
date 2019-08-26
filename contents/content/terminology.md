@@ -6,7 +6,7 @@ For clear and consistent communication, it's important to always use correct ter
 
 * If you're unsure which term to use, look for existing terminology in the product.
 * Never create a new term when an existing one is available to you.
-* Be extremely cautious when using [jargon](https://examples.yourdictionary.com/examples-of-jargon.html) and [colloquialisms](https://www.quickanddirtytips.com/education/grammar/writing-with-slang). They can confuse new users and cause problems with internationalizaion.
+* Be extremely cautious when using [jargon](https://examples.yourdictionary.com/examples-of-jargon.html) and [colloquialisms](https://www.quickanddirtytips.com/education/grammar/writing-with-slang). They can confuse new users and cause problems with internationalization.
 * Consider [screen readers](https://accessibility.blog.gov.uk/2017/02/08/advice-for-creating-content-that-works-well-with-screen-readers/) and their ability to interpret non-standard terminology.
 
 Following are common terms you will find throughout GitLab.
