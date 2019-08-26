@@ -90,5 +90,14 @@ Because users interact with our product in present time, it's easier for them to
 | Do | Don't |
 | --- | --- |
 | Email sent | Email has been sent |
-| Choose a branch or enter a commit to see what's changed. | Choosing a branch or entering a commit will show you what's changed. |
+| Choose a branch or enter a commit to see what's changed. | Choosing a branch or entering a commit will show you what's changed. 
 
+## Objective focused
+
+When users engage with our product, they're focused on getting tasks done, thinking first in terms of the problem they're trying to solve, and then how to solve it. 
+Objective-focused content that starts with the task first and then offers the solution can make it easier for users to quickly find and understand the information they need.  
+
+| Do | Don't |
+| --- | --- |
+| Monitor your errors by integrating with Sentry | Integrate with Sentry to monitor your errors |
+| To open Jaeger and easily view tracing from GitLab, link the Tracing page to your server. |  Link the Tracing page to your server to open Jaeger and easily view tracing from GitLab. |
