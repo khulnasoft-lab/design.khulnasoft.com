@@ -16,7 +16,7 @@ Always capitalize the first word in bulleted lists. This includes sentences that
   <thead>
     <tr>
       <th>Do</th>
-      <th>Don't</th>
+      <th>Don’t</th>
     </tr>
   </thead>
   <tbody>
@@ -61,7 +61,7 @@ Use a period after every bullet point that is a sentence.
   <thead>
     <tr>
       <th>Do</th>
-      <th>Don't</th>
+      <th>Don’t</th>
     </tr>
   </thead>
   <tbody>
@@ -146,7 +146,7 @@ Use all sentences or all fragments in a bulleted list, not a mixture.
   <thead>
     <tr>
       <th>Do</th>
-      <th>Don't</th>
+      <th>Don’t</th>
     </tr>
   </thead>
   <tbody>
@@ -155,7 +155,7 @@ Use all sentences or all fragments in a bulleted list, not a mixture.
         <ul>
           <li>Consistency is key here.</li>
           <li>Item.</li>
-          <li>Don't mix sentences and individual items in a list.</li>
+          <li>Don’t mix sentences and individual items in a list.</li>
         </ul>
       </td>
       <td>
