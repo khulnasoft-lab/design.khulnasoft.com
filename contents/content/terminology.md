@@ -2,9 +2,9 @@
 name: Terminology
 ---
 
-For clear and consistent communication, it's important to always use correct terminology. Remember: 
+For clear and consistent communication, it’s important to always use correct terminology. Remember: 
 
-* If you're unsure which term to use, look for existing terminology in the product.
+* If you’re unsure which term to use, look for existing terminology in the product.
 * Never create a new term when an existing one is available to you.
 * Be extremely cautious when using [jargon](https://examples.yourdictionary.com/examples-of-jargon.html) and [colloquialisms](https://www.quickanddirtytips.com/education/grammar/writing-with-slang). They can confuse new users and cause problems with internationalization.
 * Consider [screen readers](https://accessibility.blog.gov.uk/2017/02/08/advice-for-creating-content-that-works-well-with-screen-readers/) and their ability to interpret non-standard terminology.
@@ -25,7 +25,7 @@ Groups allow you to assemble related projects together and grant members access 
 
 #### Members
 
-Use the term members when discussing the people who are a part of a project or a group. Don't use the term users.
+Use the term members when discussing the people who are a part of a project or a group. Don’t use the term users.
 
 #### Roles
 
@@ -72,4 +72,4 @@ If the context isn’t clear enough, use them with the object.
 Destruction buttons should be clear and always say what they are destroying.
 * **Example:** Delete page instead of just Delete
 
-Todo: Add comprehensive list of terminology Do/Don't
+Todo: Add comprehensive list of terminology Do/Don’t
