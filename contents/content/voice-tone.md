@@ -31,7 +31,7 @@ Brevity is especially important for:
 * Field labels
 * Error messages
 
-For each of these content types, look for ways you might rephrase text that seems too long. Also, eliminate unnecessary phrases like "in order to" and extra articles like "the" when they don't add clarity.
+For each of these content types, look for ways you might rephrase text that seems too long. Also, eliminate unnecessary phrases like ""in order to"" and extra articles like ""the"" when they don't add clarity.
 
 | Do  | Don't |
 | --- |  ---  |
@@ -75,9 +75,9 @@ For each of these content types, look for ways you might rephrase text that seem
 
 In most cases, it's appropriate to use the [second-person](https://www.quickanddirtytips.com/education/grammar/first-second-and-third-person?page=1) point of view, because it's friendly and easy to understand.
 
-The words "you," "your," and "yours" indicate that you're writing in second person. It's important to note that in UI copy, the "you" is often implied rather than stated. For example, instead of "You can track time with quick actions," you might instruct users to "Track time with quick actions."
+The words ""you,"" ""your,"" and ""yours"" indicate that you're writing in second person. It's important to note that in UI copy, the ""you"" is often implied rather than stated. For example, instead of ""You can track time with quick actions,"" you might instruct users to ""Track time with quick actions.""
 
-To write in second person, focus on eliminating words like "can" or "will" from content.
+To write in second person, focus on eliminating words like ""can"" or ""will"" from content.
 
 | Do | Don't |
 | --- | --- |
@@ -85,7 +85,7 @@ To write in second person, focus on eliminating words like "can" or "will" from 
 
 ## Present tense
 
-Because users interact with our product in present time, it's easier for them to understand information that's written in the present tense. Content written in present tense also tends to result in shorter content. When you see the word "will" in text, that's a good clue that content is written in future, rather than present, tense. The phrase "has been" indicates past tense.
+Because users interact with our product in present time, it's easier for them to understand information that's written in the present tense. Content written in present tense also tends to result in shorter content. When you see the word ""will"" in text, that's a good clue that content is written in future, rather than present, tense. The phrase ""has been"" indicates past tense.
 
 | Do | Don't |
 | --- | --- |
