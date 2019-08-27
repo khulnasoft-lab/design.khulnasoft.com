@@ -12,7 +12,7 @@ Whenever possible, write in [active voice](https://www.grammarly.com/blog/active
 
 Sometimes, using passive voice is appropriate. Make sure it's an intentional choice that communicates the idea more clearly than active voice would.
 
-| Do  | Don't |
+| Do  | Don’t |
 | --- |  ---  |
 | Ask someone with write access to this repository to merge this request. | This request can be merged by someone with write access to this repository. |
 
