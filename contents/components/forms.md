@@ -128,7 +128,7 @@ Disabled fields give extra thought for the user about why it is not available. T
 
 **Hide** a field if a user does not have neither disclosure nor access to an item. This option is relevant specifically for system security measures, when some specific information should not be available in the user interface.
 
-Hiding all of the disallowed items is most consistent, avoids distraction, and lower the user's cognitive load by only showing the fields they need to complete their task.
+Hiding all of the disallowed items is most consistent, avoids distraction, and lowers the user's cognitive load by only showing the fields they need to complete their task.
 
 When in doubt, give preference to hiding a field instead of disabling it. 
 
