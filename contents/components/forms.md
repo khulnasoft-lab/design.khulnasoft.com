@@ -126,7 +126,7 @@ The user goal when interacting with a form should be taken into account when dec
 
 Disabled fields give extra thought for the user about why it is not available. The visual distinction between disabled/enabled fields should be very explicit and clear. Be sure to always include a helper text below the field, explaining why they are disabled.
 
-**Hide** a field if a user does not have neither disclosure nor access to an item. This option is relevant specifically for system security measures, when some specific information should not be available in the user interface.
+**Hide** a field if a user does not have either disclosure or access to an item. This option is relevant specifically for system security measures when some specific information should not be available in the user interface.
 
 Hiding all of the disallowed items is most consistent, avoids distraction, and lowers the user's cognitive load by only showing the fields they need to complete their task.
 
