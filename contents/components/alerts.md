@@ -21,7 +21,7 @@ Alerts allow the application to pass along relevant system information to the us
 
 ### When to use alerts
 
-Alerts should be used when the system needs to notify the user of its status or to provide the user with information about their current experience. Deciding when to use a broadcast message, error, toast or, an alert can be tricky. See the below use cases to get a better understanding of when to use an alert:
+Alerts should be used when the system needs to notify the user of its status or to provide the user with information about their current experience. Deciding when to use a broadcast message, error, toast, or an alert can be tricky. See the below use cases to get a better understanding of when to use an alert:
 
 | Alert | Use case | Example |
 | ----- | -------- | -------- |
