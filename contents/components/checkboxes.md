@@ -4,7 +4,7 @@ vueComponents:
   - GlFormCheckbox
 related:
   - dropdowns
-  - radio-buttons
+  - radio-button
   - segmented-control
   - toggles
 ---
