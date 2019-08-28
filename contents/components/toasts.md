@@ -31,7 +31,7 @@ While the content within a toast should be concise, it should also be specific. 
 
 |Do|Don't|
 |--- |--- |
-|Stack toasts if more than one are on the screen at once.|Dismiss a toast prematurely if another toast is introduced.|
+|Stack toasts if more than one are displayed on the screen at once.|Dismiss a toast prematurely if another toast is introduced.|
 |Add an additional action button if appropriate.|Add more than one extra button in addition to the "Dismiss" button.|
 |Always show a dismiss button.|Remove a user's ability to manually dismiss the message.|
 |Avoid using for irreversible actions.|Use for actions that will result in permanent deletion.|
