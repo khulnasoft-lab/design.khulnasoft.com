@@ -1,8 +1,6 @@
 ---
 name: Error messages
 related:
-  - usability/error-prevention
-  - usability/helping-users
   - forms
   - alerts
   - broadcast-messages
@@ -12,12 +10,14 @@ Error messages are an indication of system status. They let users know that they
 
 Error messages can be persistent, dismissible, or temporary. In order to be effective, error messages should be concise, consistent, and specific.
 
+Todo: Add guidelines on when an error message should be persistent, dismissible or temporary.
+
 ### Dos and don'ts
 
 | Do | Don't|
 | --- | --- |
 | Use a contextual error message for each error instance. | Use a generic error message for all error instances. |
-| Prevent users to submit a form or item in case of errros. | Use live-validation in combination with system validation. | 
+| Use live-validation in combination with system validation. | Prevent users to submit a form or item in case of errors. |
 | Display the error message below the input field | Display the error message in a tooltip or on click. |
 | Display both the helper text and error message below the input field. | Replace the helper text with an error message. |
 | Take users to a different screen/display a different view if users don't have permission to do something in the application. | Use an error message to tell users they don't have permission or are not eligible to do something. |
@@ -77,3 +77,7 @@ Todo: Add examples for errors in alerts
 
 Todo: Add examples for errors in the system
 
+## Related patterns
+
+- [Error prevention](/usability/error-prevention)
+- [Helping users](/usability/helping-users)
