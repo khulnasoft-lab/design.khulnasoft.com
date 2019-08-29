@@ -314,21 +314,10 @@ const statusIcons = {
 };
 
 export default {
-  data() {
-    return {
-      contentTree: null,
-    };
-  },
-  created() {
-    this.$axios
-      .$get(`/contents/contentTree.json`)
-      .then(treeResult => {
-        this.contentTree = treeResult;
-      })
-      .catch(e => {
-        // eslint-disable-next-line
-        console.log('Err : ', e);
-      });
+  computed: {
+    contentTree() {
+      return process.env.contentTree;
+    },
   },
   methods: {
     getStatusIcon(status) {

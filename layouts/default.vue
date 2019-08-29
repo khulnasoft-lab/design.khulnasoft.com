@@ -104,14 +104,12 @@ export default {
     subMenu,
     menuSection,
   },
-  data() {
-    return {
-      contentTree: null,
-    };
-  },
   computed: {
     contentWrapper() {
       return this.$route.fullPath === '/' ? '' : 'content';
+    },
+    contentTree() {
+      return process.env.contentTree;
     },
   },
   mounted() {
@@ -125,17 +123,6 @@ export default {
         document.getElementById(modalId).parentElement.classList.add('app-styles');
       }, 0);
     });
-  },
-  created() {
-    this.$axios
-      .$get(`/contents/contentTree.json`)
-      .then(treeResult => {
-        this.contentTree = treeResult;
-      })
-      .catch(e => {
-        // eslint-disable-next-line
-        console.log('Err : ', e);
-      });
   },
 };
 </script>

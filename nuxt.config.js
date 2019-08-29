@@ -1,11 +1,13 @@
 import glob from 'glob';
 import path from 'path';
-import { getContentList } from './modules/content_preparer';
+import { getContentList, getContentTree } from './modules/content_preparer';
 
 const routes = [
   ...getContentList('components').map(c => `components/${c.id}`),
   ...glob.sync('**/*.md', { cwd: 'contents/' }).map(filePath => filePath.replace(/\.md$/, '')),
 ];
+
+const contentTree = getContentTree();
 
 module.exports = {
   /*
@@ -81,7 +83,6 @@ module.exports = {
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
-    '~/modules/content_preparer',
     '@gitlab/nuxt-edit-this-page',
   ],
 
@@ -176,5 +177,9 @@ module.exports = {
         });
       }
     },
+  },
+
+  env: {
+    contentTree,
   },
 };
