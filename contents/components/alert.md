@@ -1,5 +1,5 @@
 ---
-name: Alerts
+name: Alert
 related:
   - broadcast-messages
   - forms
@@ -12,11 +12,11 @@ Alerts allow the application to pass along relevant system information to the us
 
 |Component type|Purpose|
 | --- | --- |
-|Danger alerts| To advise the user that their attention is needed to address a critical issue in the system. |
-|Warning alerts|To caution the user that their attention may be needed due to an issue in the system, however, it is not critical that they take action.|
-|Information alerts| To provide supplemental information to the user in regards to the action they are about to take.| 
-|Tip alerts| To educate the user about new or unused features, and other useful information.|
-|Success alerts| To reaffirm to the user that a prior action they have taken, often in a different location within the application, has been accepted by the system. |
+|Danger alert| To advise the user that their attention is needed to address a critical issue in the system. |
+|Warning alert|To caution the user that their attention may be needed due to an issue in the system, however, it is not critical that they take action.|
+|Information alert| To provide supplemental information to the user in regards to the action they are about to take.| 
+|Tip alert| To educate the user about new or unused features, and other useful information.|
+|Success alert| To reaffirm to the user that a prior action they have taken, often in a different location within the application, has been accepted by the system. |
 
 
 ### When to use alerts
@@ -55,4 +55,4 @@ Todo: Add an example of an alert with an action button.
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
-[Sketch Measure Preview for Alerts](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/alerts-spec-previews/)
+[Sketch Measure Preview for Alert](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/alerts-spec-previews/)
