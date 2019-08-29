@@ -28,9 +28,9 @@ Describe the error message and always inform users what has happened, and how to
 
 Use messages like:
 
-* An error occurred while importing the project to GitLab. For more information, see how to [import your project from GitHub to GitLab](https://docs.gitlab.com/ee/user/project/import/github.html).
-* The project name must be 40 characters or fewer.
-* Your email is required to sign up with GitLab.
+- An error occurred while importing the project to GitLab. For more information, see how to [import your project from GitHub to GitLab](https://docs.gitlab.com/ee/user/project/import/github.html).
+- The project name must be 40 characters or fewer.
+- Your email is required to sign up with GitLab.
 
 ### Consistent
 
@@ -42,11 +42,11 @@ Todo: Add example of consistent error messages in different alert types
 
 Generic error messages are not helpful, and they don't make sense out of context. Avoid messages that sound like:
 
-* Undefined error.
-* An error occured.
-* Field is required.
-* Field can't be blank.
-* Name is too short.
+- Undefined error.
+- An error occured.
+- Field is required.
+- Field can't be blank.
+- Name is too short.
 
 Instead, provide different errors for different messages and scenarios. Error messages for specific situations are more helpful to users. For example, errors in text fields can be too long, too short, in the wrong format, etc.
 
