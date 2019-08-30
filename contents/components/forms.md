@@ -130,7 +130,7 @@ Disabled fields give extra thought for the user about why it is not available. T
 
 Hiding all of the disallowed items is most consistent, avoids distraction, and lowers the user's cognitive load by only showing the fields they need to complete their task.
 
-When in doubt, give preference to hiding a field instead of disabling it. 
+When in doubt, hide a field instead of disabling it. 
 
 ### Help text
 
