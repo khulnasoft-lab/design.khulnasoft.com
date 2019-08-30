@@ -12,7 +12,7 @@ Tooltips fade in upon hover or touch of its trigger element. They fade out upon 
 
 ## Usage
 
-Tooltips shouldn’t repeat information that is shown near the referring element. However, they can show the same data in a different format (e.g. date or timestamps). Information provided in a tooltip should be short and concise. If you need to add more than a single line of information, consider using a [popover](/components/popovers) instead. The text will wrap when the content is wider than the max-width.
+Tooltips shouldn’t repeat information that is shown near the referring element. However, they can show the same data in a different format (e.g. date or timestamps). Information provided in a tooltip should be short and concise. If you need more than a single line of information, dimensional data (e.g. user name and status), or a sophisticated layout and formatting, consider using a [popover](/components/popovers) instead. The text will wrap when the content is wider than the max-width.
 
 ## Placement
 
