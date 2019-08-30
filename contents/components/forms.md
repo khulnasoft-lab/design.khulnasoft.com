@@ -122,7 +122,7 @@ Todo: Add live component block with code example (optional)
 
 The user goal when interacting with a form should be taken into account when deciding whether a field needs to be disabled or hidden from the interface.
 
-**Disable** a field if a user does not have access grants for an item, but still has disclosure to it. The field is still displayed in the form, but cannot be edited. 
+**Disable** a field if a user does not have access grants for an item, but still needs disclosure to it. The field is still displayed in the form, but cannot be edited. If it can become editable to the user (depending on certain conditions, like pressing a button or completing another field), it should stay disabled until then.
 
 Disabled fields give extra thought for the user about why it is not available. The visual distinction between disabled/enabled fields should be very explicit and clear. Be sure to always include a helper text below the field, explaining why they are disabled.
 
