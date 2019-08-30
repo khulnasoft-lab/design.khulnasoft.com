@@ -124,7 +124,7 @@ The user goal when interacting with a form should be taken into account when dec
 
 **Disable** a field if a user does not have access grants for an item, but still needs disclosure to it. The field is still displayed in the form, but cannot be edited. If it can become editable to the user (depending on certain conditions, like pressing a button or completing another field), it should stay disabled until then.
 
-Disabled fields give extra thought for the user about why it is not available. The visual distinction between disabled/enabled fields should be very explicit and clear. Be sure to always include a helper text below the field, explaining why they are disabled.
+Disabled fields give extra thought for the user about why it is not available. The visual distinction between disabled/enabled fields should be very explicit and clear. Be sure to always include a [Help text](#help-text) below the field, explaining why it's disabled.
 
 **Hide** a field if a user doesn’t need disclosure or access to an item. This option is relevant specifically for system security measures when some information should not be available in the user interface.
 
