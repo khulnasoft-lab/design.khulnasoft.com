@@ -6,7 +6,7 @@ related:
   - broadcast-messages
 ---
 
-Error messages are an indication of system status. They let users know that they have encountered a problem and provide ways to fix it, teaching them to avoid future impediments. Whenever possible, the system should keep potential errors to a minimum. See [error prevention](/usability/error-prevention) guidelines.
+Error messages are an indication of system status. They let users know that they have encountered a problem and provide ways to resolve it, teaching them to avoid future impediments. Whenever possible, the system should keep potential errors to a minimum. See [error prevention](/usability/error-prevention) guidelines.
 
 Error messages can be persistent, dismissible, or temporary. In order to be effective, error messages should be concise, consistent, and specific.
 
