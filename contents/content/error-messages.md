@@ -70,7 +70,7 @@ Todo: Add examples for errors in alerts
 
 | Error scenario | When to display it | Component | Example message |
 | --- | --- | --- | --- |
-| The content or section of a page cannot be loaded | A system error is affecting the user's current session. | [Empty state](/regions/empty-states) | `404: The page could not be found. Make sure the address is correct and that the page hasn't moved. | 
+| The content or section of a page cannot be loaded | A system error is affecting the user's current session. | [Empty state](/regions/empty-states) | The page could not be found. Make sure the address is correct and that the page hasn't moved. | 
 | The content of a page is inacessible. | The page cannot be accessed or be found, or user doesn't have enough privileges. | [Empty state](/regions/empty-states) | You don't have permission to view this page. Please contact your GitLab administrator if you think this is a mistake. |
 
 ### Errors in the system
