@@ -24,7 +24,7 @@ Todo: Add guidelines on when an error message should be persistent, dismissible 
 
 ### Concise
 
-Describe the error message and always inform users what has happened, and how to fix it. The general [voice and tone](/brand-content/voice-and-tone) guidelines for GitLab’s public communications should apply to all error messages.
+Describe the error message and always inform users what has happened, and how to resolve it. The general [voice and tone](/brand-content/voice-and-tone) guidelines for GitLab’s public communications should apply to all error messages.
 
 Use messages like:
 
