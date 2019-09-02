@@ -58,13 +58,10 @@ Error messages can be used in the following scenarios:
 
 | Error scenario | When to display it | Component | Example message |
 | --- | --- | --- | --- |
-| The user enters data that doesn't meet the field requirements. | The user clicks or tabs away, or stops typing in the input field. | [Real-time form validation](/components/forms#validation): Displayed inline, below the input field | `Enter a valid email address` |
-| The system detects one or more error in the form data. | The user submits a form that contains error on one or more fields. | [Server-side form validation](/components/forms#validation): Displayed inline, below the input field. Focus should be on the error fields. | `Your email is required to signing up with GitLab` |
-| The user skips a required form field. | The user clicks or tabs away from the field. | [Real-time form validation](/components/forms#validation): Displayed inline, below the input field. All fields are required unless stated otherwise with “(optional)” added to the label of the corresponding input field. | `Enter a name for your project` |
+| The user enters data that doesn't meet the field requirements. | The user clicks or tabs away, or stops typing in the input field. | [Form validation](/components/forms#validation): Displayed inline, below the input field | `Enter a valid email address` |
+| The system detects one or more error in the form data. | The user submits a form that contains error on one or more fields. | [Form validation](/components/forms#validation): Displayed inline, below the input field. Focus should be on the error fields. | `Your email is required to signing up with GitLab` |
+| The user skips a required form field. | The user clicks or tabs away from the field. | [Form validation](/components/forms#validation): Displayed inline, below the input field. All fields are required unless stated otherwise with “(optional)” added to the label of the corresponding input field. | `Enter a name for your project` |
 
-### Errors in alerts
-
-Todo: Add examples for errors in alerts
 
 ### Errors on a page
 
@@ -81,3 +78,4 @@ Todo: Add examples for errors in the system
 
 - [Error prevention](/usability/error-prevention)
 - [Helping users](/usability/helping-users)
+- [Saving and feedback](/product-foundations/saving-and-feedback)
