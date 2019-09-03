@@ -112,4 +112,5 @@ Objective-focused content that starts with the task first and then offers the so
 | Do | Don’t |
 | --- | --- |
 | Monitor your errors by integrating with Sentry | Integrate with Sentry to monitor your errors |
+| To see what’s changed, choose a branch or enter a commit. | Choose a branch or enter a commit to see what's changed. |
 | To open Jaeger and easily view tracing from GitLab, link the Tracing page to your server. |  Link the Tracing page to your server to open Jaeger and easily view tracing from GitLab. |
