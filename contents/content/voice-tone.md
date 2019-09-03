@@ -10,11 +10,12 @@ The copy for GitLab is clear and direct. We strike a balance between professiona
 
 Whenever possible, write in [active voice](https://www.grammarly.com/blog/active-vs-passive-voice/), instead of passive voice. Active voice is easier for users to understand and often results in shorter content. 
 
-Sometimes, using passive voice is appropriate. Make sure it’s an intentional choice that communicates the idea more clearly than active voice would.
+Sometimes, using passive voice is appropriate. Make sure it’s an intentional choice that communicates the idea more clearly than active voice would&mdash;for example, when the system is the actor, rather than a person. 
 
 | Do  | Don’t |
 | --- |  ---  |
-| Ask someone with write access to this repository to merge this request. | This request can be merged by someone with write access to this repository. |
+| **(Active voice)** Ask someone with write access to this repository to merge this request. | This request can be merged by someone with write access to this repository. |
+| **(Passive voice)** The Kubernetes cluster is being created on Google Kubernetes Engine. | We are creating the Kubernetes cluster on Google Kubernetes Engine. |
 
 ## Brevity
 
@@ -37,6 +38,17 @@ For each of these content types, look for ways you might rephrase text that seem
 | --- |  ---  |
 | To link Sentry to GitLab, enter your Sentry URL and Auth Token. | In order to link Sentry to GitLab, enter your Sentry URL and Auth Token. |
 | Use this token to validate received payloads. | Use this token to validate the received payloads. |
+
+## Clear error messages
+
+When something goes wrong, it's important for us to be clear about what happened, why it happened, and what the next steps to take may be. Vague messages frustrate users and can even block them from completing their task.
+
+When writing an error message, leave out extraneous words like *sorry* and *please*. This makes errors easier to read and understand.
+
+| Do  | Don’t |
+| --- |  ---  |
+| 400 Bad Request | Unable to complete your request. Enter a valid email address. |
+| Please enter your email address to sign up with GitLab. | Enter your email address to sign up with GitLab. |
 
 ## Parallelism
 
