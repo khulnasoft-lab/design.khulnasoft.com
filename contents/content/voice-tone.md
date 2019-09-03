@@ -102,7 +102,7 @@ Because users interact with our product in present time, it’s easier for them 
 | Do | Don’t |
 | --- | --- |
 | Email sent | Email has been sent |
-| Choose a branch or enter a commit to see what’s changed. | Choosing a branch or entering a commit will show you what’s changed. 
+| To see what’s changed, choose a branch or enter a commit. | Choosing a branch or entering a commit will show you what’s changed. 
 
 ## Objective focused
 
