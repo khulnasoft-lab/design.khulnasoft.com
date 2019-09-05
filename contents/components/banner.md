@@ -29,4 +29,6 @@ Banners can be placed either inline with the content or pinned to the top of a p
 [[Example:banner-basic]]
 
 ## Design specifications
-https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/banners-spec-previews/ 
+Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
+
+[Sketch Measure Preview for Banners](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/banners-spec-previews/)
