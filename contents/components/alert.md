@@ -13,7 +13,7 @@ Alerts allow the application to pass along relevant system information to the us
 | Component type | Purpose |
 | --- | --- |
 | Danger alert | To advise the user that their attention is needed to address a critical issue in the system. |
-| Warning alert |To caution the user that their attention may be needed due to an issue in the system, however, it is not critical that they take action.|
+| Warning alert | To caution the user that their attention may be needed due to an issue in the system, however, it is not critical that they take action. |
 | Information alert | To provide supplemental information to the user in regards to the action they are about to take. | 
 | Tip alert | To educate the user about new or unused features, and other useful information. |
 | Success alert | To reaffirm to the user that a prior action they have taken, often in a different location within the application, has been accepted by the system. |
