@@ -4,27 +4,34 @@ related:
   - alert
 ---
 
-Banners promote user awareness for new or unused features. Unlike [alerts](/components/alert), banners are solely for in-product marketing, conveying information about a priority feature to the user.
+Banners promote user awareness for new or unused features. Unlike [alerts](/components/alert), banners are solely for in-product marketing, conveying information about a priority feature to the user. Banners can be placed either inline with the content or pinned to the top of a page. The location is flexible depending on the promotion and the context in which the promotion is taking place.
 
 ## Usage
 
-Designating the use of a banner should be the result of careful consideration and planning between a Designer and their Product Manager. Reserve the use of banners for high priority features and configurations that would benefit the user to activate. Banners can be placed either inline with the content or pinned to the top of a page. The location is flexible depending on the promotion and the context in which the promotion is taking place.
+Designating the use of a banner should be the result of careful consideration and planning between a Designer and their Product Manager. Reserve the use of banners for high priority features and configurations that would benefit the user to activate. 
 
+### When to use banners
+Use banners to: 
+- Inform a user of the Auto DevOps feature that has yet to be enabled. 
+- Promote a free trial of GitLab ultimate by featuring the new squash commit functionality in merge requests.    
+
+### When not to use banners
+Do not use banners to:
+- Communicate that the security dashboard has not been configured after the user lands on the page. Instead, use an [empty-state](https://design.gitlab.com/regions/empty-states). 
+- To give tips and hints on configuring a review app for use. Instead, use a tip style [alert](/components/alert). 
 
 ### Dos and Dont's
 
 | Do | Don't |
 | ------ | ------ |
-| Use to promote a new or unconfigured feature. | Use to communicate system status or events to the user. Instead use an [alert](/components/alert). |
+| Use to promote a new or unconfigured feature. | Use to communicate system status or events to the user. Instead, use an [alert](/components/alert). |
 | Allow banners to be dismissable. | Use banners to communicate instruction or critical information that should not be dismissable by a user. | 
 | Use sparingly and with consideration of other components in proximity. | Overuse and clutter the experience with promotions. | 
-| Display to users who can take immediate action if they desire.  | Display to users who cannot activate the feature or benfit from its use.  | 
+| Display to users who can take immediate action if they desire.  | Display to users who cannot activate the feature or benefit from its use.  | 
 | Use a single action-oriented button as the only call to action. | Use multiple buttons or text links as primary actions. | 
 
 
 ### Specifications
-
-All elements of a banenr are required unless 
 
 #### Container
 
@@ -40,15 +47,15 @@ The headline or title should always be present and written to follow our [voice 
 
 #### Paragraph
 
-The supporting text should consise and only include information specific to what is being promoted. The content should also follow our [voice and tone](https://design.gitlab.com/content/voice-tone/) guidelines.
+The supporting text should concise and only include information specific to what is being promoted. The content should also follow our [voice and tone](https://design.gitlab.com/content/voice-tone/) guidelines.
 
 #### Illustration *(optional)*
 
-A small illustration may be used but can be considered optional. Keep in mind size and plancement when including an [illustration](https://design.gitlab.com/product-foundations/illustration). 
+A small illustration may be used but can be considered optional. Keep in mind size and placement when including an [illustration](https://design.gitlab.com/product-foundations/illustration). 
 
 #### Call to action
 
-A banner should always include a [button](https://design.gitlab.com/components/buttons) as the primary call to action. Avoid using multiple buttons and linking the user to different places from the banner when possible. 
+A banner should always include a [button](https://design.gitlab.com/components/buttons) as the primary call to action. Avoid using multiple buttons and linking the user to different places from the banner when possible. An exception can be made in cases where we need to [help users](https://design.gitlab.com/usability/helping-users) by linking to documentation. 
 
 ## Demo
 
