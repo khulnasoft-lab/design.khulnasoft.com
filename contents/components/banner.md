@@ -10,7 +10,7 @@ Banners promote user awareness for new or unused features. Unlike [alerts](/comp
 
 | :white_check_mark: Do | :stop_sign: Don't |
 | ------ | ------ |
-| Use to promote a new or unconfigured feature. | Use to communicate system status or events to the user. Instead use an [alerts](/components/alerts). |
+| Use to promote a new or unconfigured feature. | Use to communicate system status or events to the user. Instead use an [alert](/components/alerts). |
 | Allow banners to be dismissable. | Use banners to communicate information that, if removed, would negatively impact the experience. | 
 | Use sparingly and with consideration of other components in proximity.  |  Overuse and clutter the experience with promotions. | 
 | Display to users who can take immediate action if they desire.  | Display to users who cannot activate the feature or benfit from its use.  | 
