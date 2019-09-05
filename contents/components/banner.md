@@ -12,7 +12,7 @@ Banners promote user awareness for new or unused features. Unlike [alerts](/comp
 | ------ | ------ |
 | Use to promote a new or unconfigured feature. | Use to communicate system status or events to the user. Instead use an [alert](/components/alerts). |
 | Allow banners to be dismissable. | Use banners to communicate information that, if removed, would negatively impact the experience. | 
-| Use sparingly and with consideration of other components in proximity.  |  Overuse and clutter the experience with promotions. | 
+| Use sparingly and with consideration of other components in proximity. | Overuse and clutter the experience with promotions. | 
 | Display to users who can take immediate action if they desire.  | Display to users who cannot activate the feature or benfit from its use.  | 
 
 Banners can be placed either inline with the content or pinned to the top of a page. The location is flexible depending on the promotion and the context in which the promotion is taking place.
