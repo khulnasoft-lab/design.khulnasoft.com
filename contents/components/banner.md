@@ -1,34 +1,61 @@
 ---
 name: Banner
 related:
-  - alerts
+  - alert
 ---
 
-Banners promote user awareness for new or unused features. Unlike [alerts](/components/alerts), banners are solely for in-product marketing, conveying information about a priority feature to the user. Designating the use of a banner should be the result of careful consideration and planning between a Designer and their Product Manager. The use of banners should be reserved for high priority features and configurations that would benefit the user to activate. 
+Banners promote user awareness for new or unused features. Unlike [alerts](/components/alert), banners are solely for in-product marketing, conveying information about a priority feature to the user.
 
 ## Usage
 
-| :white_check_mark: Do | :stop_sign: Don't |
+Designating the use of a banner should be the result of careful consideration and planning between a Designer and their Product Manager. Reserve the use of banners for high priority features and configurations that would benefit the user to activate. Banners can be placed either inline with the content or pinned to the top of a page. The location is flexible depending on the promotion and the context in which the promotion is taking place.
+
+
+### Dos and Dont's
+
+| Do | Don't |
 | ------ | ------ |
-| Use to promote a new or unconfigured feature. | Use to communicate system status or events to the user. Instead use an [alert](/components/alerts). |
-| Allow banners to be dismissable. | Use banners to communicate information that, if removed, would negatively impact the experience. | 
+| Use to promote a new or unconfigured feature. | Use to communicate system status or events to the user. Instead use an [alert](/components/alert). |
+| Allow banners to be dismissable. | Use banners to communicate instruction or critical information that should not be dismissable by a user. | 
 | Use sparingly and with consideration of other components in proximity. | Overuse and clutter the experience with promotions. | 
 | Display to users who can take immediate action if they desire.  | Display to users who cannot activate the feature or benfit from its use.  | 
+| Use a single action-oriented button as the only call to action. | Use multiple buttons or text links as primary actions. | 
 
-Banners can be placed either inline with the content or pinned to the top of a page. The location is flexible depending on the promotion and the context in which the promotion is taking place.
 
 ### Specifications
-* Container
-* Dismiss action *(required)*
-* Headline
-* Paragraph
-* Illustration *(optional)*
-* Call to action
+
+All elements of a banenr are required unless 
+
+#### Container
+
+Use a container to bound the banner within the page or page section. This is important for dismissable elements as it gives the banner a temporal visual affordance, indicating to users that this component is not permanent. 
+
+#### Dismiss action
+
+The dismiss action is always represented by the `Close` icon and anchored to the top right of the banner. 
+
+#### Headline
+
+The headline or title should always be present and written to follow our [voice and tone](https://design.gitlab.com/content/voice-tone/) guidelines. 
+
+#### Paragraph
+
+The supporting text should consise and only include information specific to what is being promoted. The content should also follow our [voice and tone](https://design.gitlab.com/content/voice-tone/) guidelines.
+
+#### Illustration *(optional)*
+
+A small illustration may be used but can be considered optional. Keep in mind size and plancement when including an [illustration](https://design.gitlab.com/product-foundations/illustration). 
+
+#### Call to action
+
+A banner should always include a [button](https://design.gitlab.com/components/buttons) as the primary call to action. Avoid using multiple buttons and linking the user to different places from the banner when possible. 
 
 ## Demo
+
 [[Example:banner-basic]]
 
 ## Design specifications
+
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
 [Sketch Measure Preview for Banners](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/banners-spec-previews/)
