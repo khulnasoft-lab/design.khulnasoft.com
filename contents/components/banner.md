@@ -17,7 +17,7 @@ Banners promote user awareness for new or unused features. Unlike [alerts](/comp
 
 Banners can be placed either inline with the content or pinned to the top of a page. The location is flexible depending on the promotion and the context in which the promotion is taking place.
 
-### Typical elements of a banner:
+### Specifications
 * Container
 * Dismiss action *(required)*
 * Headline
