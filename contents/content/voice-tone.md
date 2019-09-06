@@ -103,7 +103,7 @@ For a status update on something that has just happened in response to a user ac
 
 There are two options:
 
-* When you want to use a complete phrase for a human feel, use a full phrase.
+* Use a complete phrase for a human feel.
    * E.g. “The pipeline has been scheduled.”
    * This is ideal for the UI, when using a phrase is possible without being overly wordy.
 * When extreme brevity is the priority, use only the noun and verb (omitting articles and prepositions).
