@@ -47,8 +47,8 @@ When writing an error message, leave out extraneous words like *sorry* and *plea
 
 | Do  | Don’t |
 | --- |  ---  |
-| 400 Bad Request | Unable to complete your request. Enter a valid email address. |
-| Please enter your email address to sign up with GitLab. | Enter your email address to sign up with GitLab. |
+| Unable to complete your request. Enter a valid email address. | 400 Bad Request |
+| Enter your email address to sign up with GitLab. | Please enter your email address to sign up with GitLab. |
 
 ## Parallelism
 
