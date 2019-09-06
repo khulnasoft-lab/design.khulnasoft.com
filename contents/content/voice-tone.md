@@ -83,6 +83,16 @@ When writing an error message, leave out extraneous words like *sorry* and *plea
   </tbody>
 </table>
 
+## Objective focused
+
+When users engage with our product, they’re focused on getting tasks done, thinking first in terms of the problem they’re trying to solve, and then how to solve it. 
+Objective-focused content that starts with the task first and then offers the solution can make it easier for users to quickly find and understand the information they need.  
+
+| Do | Don’t |
+| --- | --- |
+| Monitor your errors by integrating with Sentry | Integrate with Sentry to monitor your errors |
+| To see what’s changed, choose a branch or enter a commit. | Choose a branch or enter a commit to see what's changed. |
+
 ## Point of view
 
 In most cases, it’s appropriate to use the [second-person](https://www.quickanddirtytips.com/education/grammar/first-second-and-third-person?page=1) point of view, because it’s friendly and easy to understand.
@@ -103,11 +113,8 @@ For a status update on something that has just happened in response to a user ac
 
 There are two options:
 
-* Use a complete phrase for a human feel.
-   * E.g. “The pipeline has been scheduled.”
-   * This is ideal for the UI, when using a phrase is possible without being overly wordy.
-* When extreme brevity is the priority, use only the noun and verb (omitting articles and prepositions).
-   * E.g. “Pipeline scheduled.”
+* When brevity is the priority, use only the noun and verb (omitting articles and prepositions); for example, “Pipeline scheduled.”
+* When you want to use a complete phrase for a human feel, use a full phrase; for example, “The pipeline has been scheduled.”
 
 ### Distant past (earlier than instant feedback)
 
@@ -133,14 +140,3 @@ Use the **present tense** with an imperative form (also known as a command).
 | --- | --- |
 | Click the Designs tab. | You will need to click the Designs tab. |
 | To see what’s changed, choose a branch or enter a commit. | Choosing a branch or entering a commit will show you what’s changed. |
-
-## Objective focused
-
-When users engage with our product, they’re focused on getting tasks done, thinking first in terms of the problem they’re trying to solve, and then how to solve it. 
-Objective-focused content that starts with the task first and then offers the solution can make it easier for users to quickly find and understand the information they need.  
-
-| Do | Don’t |
-| --- | --- |
-| Monitor your errors by integrating with Sentry | Integrate with Sentry to monitor your errors |
-| To see what’s changed, choose a branch or enter a commit. | Choose a branch or enter a commit to see what's changed. |
-| To open Jaeger and easily view tracing from GitLab, link the Tracing page to your server. |  Link the Tracing page to your server to open Jaeger and easily view tracing from GitLab. |
