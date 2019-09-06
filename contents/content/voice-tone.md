@@ -95,14 +95,44 @@ To write in second person, focus on eliminating words like “can” or “will�
 | --- | --- |
 | To get started, link this page to your Jaeger server. | Users can get started by linking this page to their Jaeger server. |
 
-## Present tense
+## Verb tenses
 
-Because users interact with our product in present time, it’s easier for them to understand information that’s written in the present tense. Content written in present tense also tends to result in shorter content. When you see the word “will” in text, that’s a good clue that content is written in future, rather than present, tense. The phrase “has been” indicates past tense.
+### Recent past (instant feedback)
+
+For a status update on something that has just happened in response to a user action or when a user is otherwise watching for an update, use the **present perfect** tense. This is ideal for toast messages and terminal output.
+
+There are two options:
+
+* When you want to use a complete phrase for a human feel, use a full phrase.
+   * E.g. “The pipeline has been scheduled.”
+   * This is ideal for the UI, when using a phrase is possible without being overly wordy.
+* When extreme brevity is the priority, use only the noun and verb (omitting articles and prepositions).
+   * E.g. “Pipeline scheduled.”
+
+### Distant past (earlier than instant feedback)
+
+Use **past tense**.
 
 | Do | Don’t |
 | --- | --- |
-| Email sent | Email has been sent |
-| To see what’s changed, choose a branch or enter a commit. | Choosing a branch or entering a commit will show you what’s changed. 
+| The pipeline was last run on October 3. | The pipeline has been run on October 3. |
+
+### State
+
+Use **present tense**.
+
+| Do | Don’t |
+| --- | --- |
+| The pipeline is scheduled to run on October 3. | The pipeline will be run on October 3. |
+
+### Instructions
+
+Use the **present tense** with an imperative form (also known as a command).
+
+| Do | Don’t |
+| --- | --- |
+| Click the Designs tab. | You will need to click the Designs tab. |
+| To see what’s changed, choose a branch or enter a commit. | Choosing a branch or entering a commit will show you what’s changed. |
 
 ## Objective focused
 
