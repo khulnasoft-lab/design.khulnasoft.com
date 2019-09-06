@@ -46,7 +46,7 @@ The GitLab brand utilizes a base palette of six colors. These colors have limite
 ## Typography
 The GitLab brand uses the [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) font family, while the product takes advantage of system fonts to be more performant and integrated with a user’s system.
 
-When designing for the GitLab product, use Helvetica Neue and refer to the [Foundations Typography](https://design.gitlab.com/product-foundations/typography).
+When designing for the GitLab product, refer to the [Foundations Typography](https://design.gitlab.com/product-foundations/typography).
 
 ## Iconography
 Icons are a valuable visual component to the GitLab brand; contributing to the overall visual language and user experience. Within marketing materials, icons can either support usability and interaction alongside labels, or they can be used as content (often called spot illustrations) to visually represent concepts.
