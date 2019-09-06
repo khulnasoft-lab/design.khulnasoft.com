@@ -114,7 +114,7 @@ For a status update on something that has just happened in response to a user ac
 There are two options:
 
 * When brevity is the priority, use only the noun and verb (omitting articles and prepositions); for example, “Pipeline scheduled.”
-* When you want to use a complete phrase for a human feel, use a full phrase; for example, “The pipeline has been scheduled.”
+* When you want to use a full phrase for a human feel, use a complete sentence; for example, “The pipeline has been scheduled.”
 
 ### Distant past (earlier than instant feedback)
 
