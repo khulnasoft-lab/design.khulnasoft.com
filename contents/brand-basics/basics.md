@@ -2,7 +2,7 @@
 name: Brand basics
 ---
 
-<span class="ts-3">Understanding the GitLab product begins with understanding the brand. The following overview sections and resources will get you well on your way toward contributing to, and using the Pajamas Design System in ways that translate the brand essence into the product experience.</span>
+Understanding the GitLab product begins with understanding the brand. The following overview sections and resources will get you well on your way toward contributing to, and using the Pajamas Design System in ways that translate the brand essence into the product experience.
 
 It’s also recommended to review the [Corporate Marketing Handbook](https://about.gitlab.com/handbook/marketing/corporate-marketing/) for a fuller picture of the brand and access to related resources.
 
