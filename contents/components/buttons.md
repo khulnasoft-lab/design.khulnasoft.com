@@ -193,7 +193,7 @@ Todo: Add live component block with code example
 
 ### Pagination
 
-Pagination is a more specific example of a segmented control providing controls and an indicating of the page number of a list of items. See [pagination](/components/pagination) for more information.
+Pagination is a specific example of a [segmented control](/components/pagination). It indicates the number of pages available, what page the user is on, and controls for navigating between pages. See [pagination](/components/pagination) for more information.
 
 Todo: Add live component block with code example
 
