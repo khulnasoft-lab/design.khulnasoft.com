@@ -137,7 +137,7 @@ Todo: Add live component block with code example
 
 ### Emoji
 
-Emoji buttons provide the user with visual emojigraphy to signify what the emotion users have attributed to the parent object. They only contain an emoji label and have as their special interaction that they convert to an active state when pressed.
+Emoji buttons provide the user with visual to signify what the emotion users have attributed to the parent object. They only contain an emoji label and convert to an active state when pressed.
 
 Todo: Add live component block with code example
 
