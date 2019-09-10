@@ -20,7 +20,13 @@ Scoped labels are a sub-type of labels, and their usage is determined by the use
 
 ## Demo
 
+### Basic example
+
 [[Example:label-basic]]
+
+### Scoped label example
+
+[[Example:label-scoped]]
 
 ## Design specifications
 
