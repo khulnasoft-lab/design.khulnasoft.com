@@ -1,5 +1,7 @@
 ---
 name: Labels
+vueComponents:
+  - GlLabel
 related:
   - badge
 ---
@@ -18,7 +20,7 @@ Scoped labels are a sub-type of labels, and their usage is determined by the use
 
 ## Demo
 
-Todo: Add live component block with code example
+[[Example:label-basic]]
 
 ## Design specifications
 
