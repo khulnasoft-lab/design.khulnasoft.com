@@ -186,7 +186,7 @@ Close counters that are less than `1px` to avoid distracting artifacts.
 | --- | --- |
 | <figure class="figure" role="figure" aria-label="Icon with no small counters"><img class="figure-img" src="/img/icons-counter-do.svg" alt="Pencil icon" role="img" /><figcaption class="figure-caption">Icon with no small counters</figcaption></figure> | <figure class="figure" role="figure" aria-label="Icon with small, distracting counter"><img class="figure-img" src="/img/icons-counter-dont.svg" alt="Pencil icon" role="img" /><figcaption class="figure-caption">Icon with small, distracting counter</figcaption></figure> |
 
-Use square caps and shape edges to directly indicate clipping or layering. Round can should still be used when breaks and intersections are more stylistic.
+Use square caps and shape edges to directly indicate clipping or layering. Round should still be used when breaks and intersections are more stylistic.
 
 | **Do** | **Don’t** |
 | --- | --- |
