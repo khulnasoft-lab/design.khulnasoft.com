@@ -15,9 +15,18 @@ A segmented control allows users to choose one out of a range of available optio
 
 A segmented control is commonly used as an alternative to [dropdown](/components/dropdowns), [radio button](/components/radio-button), or [toggle](/components/toggle) components, but it comes with its own limitations. Because it takes up more space, a segmented control should only be used for up to 5 options. It is ideal when there are 2 or 3 because they visually expose the options available to a user. A segmented control should be used instead of a dropdown when there are only a few options and enough room to fit within the UI. It requires fewer interactions and is easier to use on mobile devices, thus having a smaller effect on the user’s cognitive load. Results are effective and visible immediately similar to a toggle.
 
-A segmented control may replace a group of radio buttons or a toggle to allow users to choose between two or multiple options. In order to help choosing the right solution follow the table below.
+A segmented control may replace a group of radio buttons, a dropdown or a toggle to allow users to choose one between two or multiple options. In order to help choosing the right solution follow the table below.
 
-Todo: Add replacement-comparison-table
+| Scenario | Component to use | Comment |
+|----------|------------------|---------|
+| Users can only choose one of the maximum two options indicating on and off states. | Toggle | *Enabling/disabling a feature.* |
+| Users can choose only one out of two or more options, the availability of the options is unafected by other local or global settings and the options don’t require additional explanations, the space in the UI isn’t limited. | Segmented control | / |
+| Users can choose only one out of two or more options, the availability of the options is unafected by other local or global settings and the options don’t require additional explanations, the space in the UI is limited. | Dropdown | / |
+| Users can choose only one out of two or more options, the availability of the options is affected by other local or global settings, the options don’t require additional explanations. | Radio buttons and help text for explanations about the availability | *Help text should be used when an option is not available (is disabled)* |
+| Users can choose only one out of two or more options, the availability of the options is unaffected by other local or global settings, the options require additional explanations. | Radio buttons | *Help text should be used for the additional explanations* |
+| Switching between two or more options of the same type | Segmented control | *For example: showing a timespan of 7, 14 or 28 days.* |
+| Switching between two or more options of the same type with  limited space in UI | Dropdown | *For example: showing a timespan of 7, 14 or 28 days.* |
+
 
 ### Labels
 
