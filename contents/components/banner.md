@@ -4,7 +4,7 @@ related:
   - alert
 ---
 
-Banners promote user awareness for new or unused features. Unlike [alerts](/components/alert), banners are solely for in-product marketing, conveying information about a priority feature to the user. Banners can be placed either inline with the content or pinned to the top of a page. The location is flexible depending on the promotion and the context in which the promotion is taking place.
+Banners promote user awareness for new or unused features. Unlike [alerts](/components/alert), banners are solely for in-product marketing, conveying information about a priority feature to the user. Banners can be placed either inline with the content or at the top of a page. The location is flexible depending on the promotion and the context in which the promotion is taking place.
 
 ## Usage
 
