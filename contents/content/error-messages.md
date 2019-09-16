@@ -17,9 +17,8 @@ Todo: Add guidelines on when an error message should be persistent, dismissible 
 | Do | Don't|
 | --- | --- |
 | Use a contextual error message for each error instance. | Use a generic error message for all error instances. |
-| Use live-validation in combination with system validation. | Prevent users to submit a form or item in case of errors. |
+| Use live-validation in combination with system validation. | Prevent users from attempting to submit a form or item in case of live-validation errors. |
 | Display the error message below the input field | Display the error message in a tooltip or on click. |
-| Display both the helper text and error message below the input field. | Replace the helper text with an error message. |
 | Take users to a different screen/display a different view if users don't have permission to do something in the application. | Use an error message to tell users they don't have permission or are not eligible to do something. |
 
 ### Concise
@@ -62,13 +61,12 @@ Error messages can be used in the following scenarios:
 | The system detects one or more error in the form data. | The user submits a form that contains error on one or more fields. | [Form validation](/components/forms#validation): Displayed inline, below the input field. Focus should be on the error fields. | `Your email is required to signing up with GitLab` |
 | The user skips a required form field. | The user clicks or tabs away from the field. | [Form validation](/components/forms#validation): Displayed inline, below the input field. All fields are required unless stated otherwise with “(optional)” added to the label of the corresponding input field. | `Enter a name for your project` |
 
-
 ### Errors on a page
 
 | Error scenario | When to display it | Component | Example message |
 | --- | --- | --- | --- |
-| The content or section of a page cannot be loaded | A system error is affecting the user's current session. | [Empty state](/regions/empty-states) | The page could not be found. Make sure the address is correct and that the page hasn't moved. | 
-| The content of a page is inacessible. | The page cannot be accessed or be found, or user doesn't have enough privileges. | [Empty state](/regions/empty-states) | You don't have permission to view this page. Please contact your GitLab administrator if you think this is a mistake. |
+| The content or section of a page cannot be loaded | A system error is affecting the user's current session. | Error page | The page could not be found. Make sure the address is correct and that the page hasn't moved. | 
+| The content of a page is inacessible. | The page cannot be accessed or be found, or user doesn't have enough privileges. | Error page | You don't have permission to view this page. Please contact your GitLab administrator if you think this is a mistake. |
 
 ### Errors in the system
 
