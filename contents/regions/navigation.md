@@ -6,7 +6,7 @@ name: Navigation
 
 The items in the header include a list of pages that allow you to view global content throughout GitLab. For example, you can view your todos, issues, and merge requests across projects and groups. You can also create new groups and projects, as well as search the application.
 
-Add global navigation example
+TODO: Add global navigation example
 
 ## Contextual navigation
 
@@ -22,6 +22,11 @@ The user can choose to have the sidebar always collapsed or expanded. Each time 
 
 There isn't enough room for the main page content to fit comfortably, so the sidebar is collapsed by default, regardless of the user's cookie preference. This is especially important when there is a right sidebar as well (e.g. issue detail page) or when there is a lot of horizontal content (e.g. pipelines table). When the user expands the sidebar, it overlaps the page instead of pushing the content. In these viewports, the toggle doesn't change the user's cookie, so their preference is only saved and used on extra large viewports.
 
+TODO: Add global navigation example for medium and large viewports (`768px` to `1199px`)
+
 - On small and extra small viewports (up to `767px`)
 
 The sidebar is hidden behind a “hamburger” icon. When pressed, the sidebar is shown expanded, overlapping the page with a semi-transparent overlay. Like the previous point, this behavior is not affected by the user's cookie preference and doesn't change that preference.
+
+TODO: Add global navigation example for small and extra small viewports (up to `767px`)
+
