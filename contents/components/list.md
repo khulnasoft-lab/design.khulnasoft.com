@@ -10,7 +10,7 @@ related:
 
 A list consists of related pieces of information grouped together, clearly associated to each other. Lists are easy to read and maintain, and they provide a good structural point of view for interface elements. 
 
-Lists are frequently used for navigation, cards, tabs, breadcrumbs, dropdown content, and general text block.
+Lists are frequently used for navigation, cards, tabs, breadcrumbs, dropdown content, and general text blocks.
 
 ## Usage
 
