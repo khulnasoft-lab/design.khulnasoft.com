@@ -18,12 +18,7 @@ Tooltips shouldn’t repeat information that is shown near the referring element
 
 When interacting with an element the timing requirement for summoning up a tooltip might be different depending on the situation. A delay is prefered in situations where the information provided is secondary to the extent that it is not needed to gain an immediate understanding of the what the user is looking at or when it easily obscures essential information in an interaction heavy context. For example, the meaning of an icon button might be provided instantly in order to remove friction understanding the context. Conversely, a tooltip inside of a dropdown which contains additional information might obscure more important information like the row above or below, meaning a delay might provide a more optimal user experience.
 
-To support this, the component allows for the following options: 
-- No delay (default)
-- Preset delay of 400ms
-- Customizable delay
-
-If a delay is required it is prefered to use the preset delay. This way a consistent experience becomes an expected user pattern across the application.
+To support this, the component allows for either no delay (default) or a preset delay of 400ms.
 
 ## Placement
 
