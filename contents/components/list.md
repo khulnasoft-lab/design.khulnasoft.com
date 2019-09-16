@@ -17,7 +17,7 @@ Lists are frequently used for navigation, cards, tabs, breadcrumbs, dropdown con
 
 - A list must contain one or more list elements.
 - Arrange items in a logical way, for example, in alphabetical or numeric order, by use case, or preference.
-- Use a list to group a continuous set of text and images, for example, a list of members of a project.
+- Use a list to group a continuous set of text and images. For example, a list of members of a project.
 
 ## Types
 
