@@ -13,7 +13,7 @@ Designating the use of a banner should be the result of careful consideration an
 ### When to use banners
 Use banners to: 
 - Inform a user of a feature that has yet to be enabled. For example, Auto DevOps. 
-- Promote a free trial of GitLab ultimate by featuring the new squash commit functionality in merge requests.    
+- Promote a new feature. For example, a free trial of GitLab ultimate by featuring the new squash commit functionality in merge requests.    
 
 ### When not to use banners
 Do not use banners to:
