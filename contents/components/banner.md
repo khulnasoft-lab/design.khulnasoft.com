@@ -2,13 +2,15 @@
 name: Banner
 related:
   - alert
+  - broadcast-messages
+  - empty-states
 ---
 
-Banners promote user awareness for new or unused features. Unlike [alerts](/components/alert), banners are solely for in-product marketing, conveying information about a priority feature to the user. Banners can be placed either inline with the content or at the top of a page. The location is flexible depending on the promotion and the context in which the promotion is taking place.
+Banners promote user awareness for new or unused features. Unlike [alerts](/components/alert), banners are solely for in-product marketing, conveying information about a priority feature to the user. 
 
 ## Usage
 
-Designating the use of a banner should be the result of careful consideration and planning between a Designer and their Product Manager. Reserve the use of banners for high priority features and configurations that would benefit the user to activate. 
+Designating the use of a banner should be the result of careful consideration and planning between a Designer and their Product Manager. Reserve the use of banners for high priority features and configurations that would benefit the user to activate. Banners can be placed either inline with the content or at the top of a page. The location is flexible depending on the promotion and the context in which the promotion is taking place.
 
 ### When to use banners
 Use banners to: 
