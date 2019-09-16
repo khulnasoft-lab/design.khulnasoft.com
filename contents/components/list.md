@@ -29,7 +29,7 @@ Lists are frequently used for navigation, cards, tabs, breadcrumbs, dropdown con
 
 List items can have single or multiple lines of text, being three the maximum number of lines.
 
-A list contain a single column of content, and each list item is place in an individual row.
+A list contains a single column of content, and each list item is place in an individual row.
 
 Lists are commonly laid out vertically, but the items can be position horizontally depending on CSS styles. For example, see [Tabs](/components/tabs).
 
