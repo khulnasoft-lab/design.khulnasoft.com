@@ -13,7 +13,7 @@ A segmented control allows users to choose one out of a range of available optio
 
 A segmented control is commonly used as an alternative to [dropdown](/components/dropdowns), [radio button](/components/radio-button), or [toggle](/components/toggles) components, but it comes with its own limitations. Because it takes up more space, a segmented control should only be used for up to 5 options. It is ideal when there are 2 or 3 because they visually expose the options available to a user. A segmented control should be used instead of a dropdown when there are only a few options and enough room to fit within the UI. It requires fewer interactions and is easier to use on mobile devices, thus having a smaller effect on the user’s cognitive load. Results are effective and visible immediately similar to toggles.
 
-A segmented control may replace a group of radio buttons, a dropdown or a toggle to allow users to choose one between two or multiple options. In order to help choosing the right solution follow the table below.
+Follow the table below to correctly choose when to use a segmented control.
 
 | Scenario | Component to use | Comment |
 |----------|------------------|---------|
