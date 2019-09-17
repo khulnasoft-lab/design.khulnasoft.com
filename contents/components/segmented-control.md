@@ -21,7 +21,7 @@ Follow the table below to correctly choose when to use a segmented control.
 |----------|------------------|---------|
 | Users can only choose one of the maximum two options indicating `on` and `off` states. | Toggle | Enabling/disabling a feature. |
 | The space in the UI isn’t limited. Users can choose only one out of two or more options, the availability of the options is unaffected by other local or global settings, and the options don’t require additional explanations. | Segmented control | N/A |
-| Users can choose only one out of two or more options, the availability of the options is unafected by other local or global settings and the options don’t require additional explanations, the space in the UI is limited. | Dropdown | / |
+| The space in the UI is limited. Users can choose only one out of two or more options, the availability of the options is unaffected by other local or global settings and the options don’t require additional explanations. | Dropdown | N/A |
 | The options don’t require additional explanations. Users can choose only one out of two or more options, the availability of the options is affected by other local or global settings. | Radio buttons and help text for explanations about the availability. | Help text should be used when an option is not available (is disabled). |
 | The options require additional explanations. Users can choose only one out of two or more options, the availability of the options is unaffected by other local or global settings. | Radio buttons | Help text should be used for the additional explanations. |
 | Switching between two or more options of the same type. | Segmented control | For example, showing a timespan of 7, 14 or 28 days. |
