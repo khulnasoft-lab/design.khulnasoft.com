@@ -17,7 +17,7 @@ Follow the table below to correctly choose when to use a segmented control.
 
 | Scenario | Component to use | Comment |
 |----------|------------------|---------|
-| Users can only choose one of the maximum two options indicating on and off states. | Toggle | *Enabling/disabling a feature.* |
+| Users can only choose one of the maximum two options indicating `on` and `off` states. | Toggle | Enabling/disabling a feature. |
 | Users can choose only one out of two or more options, the availability of the options is unafected by other local or global settings and the options don’t require additional explanations, the space in the UI isn’t limited. | Segmented control | / |
 | Users can choose only one out of two or more options, the availability of the options is unafected by other local or global settings and the options don’t require additional explanations, the space in the UI is limited. | Dropdown | / |
 | Users can choose only one out of two or more options, the availability of the options is affected by other local or global settings, the options don’t require additional explanations. | Radio buttons and help text for explanations about the availability | *Help text should be used when an option is not available (is disabled)* |
