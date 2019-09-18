@@ -28,5 +28,5 @@ TODO: Add global navigation example for medium and large viewports (`768px` to `
 
 The sidebar is hidden behind a “hamburger” icon. When pressed, the sidebar is shown expanded, overlapping the page with a semi-transparent overlay. Like the previous point, this behavior is not affected by the user's cookie preference and doesn't change that preference.
 
-TODO: Add global navigation example for small and extra small viewports (up to `767px`)
+Todo: Add global navigation example for small and extra small viewports (up to `767px`)
 
