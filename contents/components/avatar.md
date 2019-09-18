@@ -12,15 +12,31 @@ Avatars representing persons use a circular shape and avatars representing a gro
 
 It is preferable that an avatar display an image. Images are personalized and make good use of the ability of the human brain to recognize faces. Project and group avatars contain a fallback in the case an image is not provided. This fallback will display the first letter of the project or group name. Personal avatars have a [Gravatar](https://gravatar.com) fallback which contains either a configured image or a randomly generated image.
 
+[[Example:avatar-image]]
+
+Avatars may also be adjacent to a text alternative, such as a user or project name. In these cases, a null `alt` text should be used so that they can be ignored by assistive technologies.
+
+Todo: Add avatar with text demo
+
 ### Displaying multiple avatars
 
-Some features require the display of multiple avatars, side by side. If there is enough space, they should be displayed in a grid pattern. In tighter places, avatars may overlap one another.
+Some features require the display of multiple avatars, side by side.
 
-Todo: Add an example of multiple avatars using live components
+#### Overlap
 
-## Demo
+When space is tight, overlap avatars slightly. If there are too many for the space, use a badge to display the number of additional avatars as a placeholder.
 
-[[Example:avatar-image]]
+Todo: Add overlap demo with badge count
+
+#### Grid
+
+When space allows, display avatars in grid.
+
+Todo: Add grid demo
+
+In areas where the avatar grid would expand multiple lines, provide an option to expand and collapse the additional avatars.
+
+Todo: Add grid demo with expand/collapse
 
 ## Design specifications
 
