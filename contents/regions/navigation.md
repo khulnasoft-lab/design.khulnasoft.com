@@ -6,7 +6,7 @@ name: Navigation
 
 The items in the header include a list of pages that allow you to view global content throughout GitLab. For example, you can view your todos, issues, and merge requests across projects and groups. You can also create new groups and projects, as well as search the application.
 
-TODO: Add global navigation example
+Todo: Add global navigation example
 
 ## Contextual navigation
 
