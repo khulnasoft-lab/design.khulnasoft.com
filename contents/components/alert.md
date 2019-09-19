@@ -19,7 +19,7 @@ Alerts allow the application to pass along relevant system information to the us
 | Success alert | To reaffirm to the user that a prior action they have taken, often in a different location within the application, has been accepted by the system. |
 
 ### Dismissal 
-Alerts may contain a dismiss action and may include an additional action button depending on the use case.
+Alerts may contain a dismiss action, as well as an additional action button, depending on the use case.
 
 #### Dismissable alerts
 Alerts that can be removed by the user and can reappear if an action or system event reproduces the alert. 
