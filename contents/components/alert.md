@@ -24,7 +24,7 @@ Alerts may contain a dismiss action and may include an additional action button 
 #### Dismissable alerts
 Alerts that can be removed by the user and can reappear if an action or system event reproduces the alert. 
 
-Use dismissable alerts when the user's task is not blocked if they do not take action. 
+Use dismissible alerts when the user's task is not blocked if they do not take action. 
 
 * The user dismisses a system-generated alert notifying them their .gitlab-ci.yml config file has an issue. Alert reappears the next time the config problem stops a process from running.
 
