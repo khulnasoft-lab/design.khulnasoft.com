@@ -29,7 +29,7 @@ Use dismissible alerts when the user's task is not blocked if they do not take a
 * The user dismisses a system-generated alert notifying them their .gitlab-ci.yml config file has an issue. Alert reappears the next time the config problem stops a process from running.
 
 #### Non-dismissible alerts
-Alerts that can only be removed after a system condition is met.  
+Non-dismissible alerts can only be removed after a system condition is met.
 
 Use non-dismissable alerts when the user is prevented from completing a task until a system-condition is met.
 
