@@ -100,7 +100,7 @@
               srcset="../assets/images/resources/r-sketch@2x.png 2x"
               class="a-center d-block m-b-3"
             />
-            Download Sketch UI Kit
+            Download GitLab Sketch UI Kit
           </a>
           <a
             href="https://about.gitlab.com/community/gitlab-first-look/"
