@@ -1,5 +1,7 @@
 ---
 name: Token
+vueComponents:
+  - GlToken
 related:
   - filters
   - buttons
@@ -45,7 +47,9 @@ Todo: Add live component block with code example of view-only token
 
 ## Demo
 
-Todo: Add live component block with code example
+[[Example:token-view-only]]
+
+[[Example:token-basic]]
 
 ## Design specifications
 
