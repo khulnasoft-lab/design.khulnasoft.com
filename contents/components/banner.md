@@ -32,7 +32,6 @@ Do not use banners to:
 | Display to users who can take immediate action if they desire.  | Display to users who cannot activate the feature or benefit from its use.  | 
 | Use a single action-oriented button as the only call to action. | Use multiple buttons or text links as primary actions. | 
 
-
 ### Specifications
 
 #### Container
