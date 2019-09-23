@@ -48,7 +48,7 @@ The headline or title should always be present and written to follow our [voice 
 
 #### Paragraph
 
-The supporting text should concise and only include information specific to what is being promoted. The content should also follow our [voice and tone](https://design.gitlab.com/content/voice-tone/) guidelines.
+The supporting text should be concise and only include information specific to what is being promoted. The content should also follow our [voice and tone](https://design.gitlab.com/content/voice-tone/) guidelines.
 
 #### Illustration *(optional)*
 
