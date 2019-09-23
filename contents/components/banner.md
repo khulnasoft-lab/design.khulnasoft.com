@@ -52,7 +52,7 @@ The supporting text should be concise and only include information specific to w
 
 #### Illustration *(optional)*
 
-A small illustration may be used but can be considered optional. Keep in mind size and placement when including an [illustration](https://design.gitlab.com/product-foundations/illustration). 
+A small illustration may be used but is optional. Keep in mind size and placement when including an [illustration](https://design.gitlab.com/product-foundations/illustration).
 
 #### Call to action
 
