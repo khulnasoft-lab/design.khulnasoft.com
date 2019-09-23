@@ -36,7 +36,7 @@ Do not use banners to:
 
 #### Container
 
-Use a container to bound the banner within the page or page section. This is important for dismissable elements as it gives the banner a temporal visual affordance, indicating to users that this component is not permanent. 
+Use a container to bound the banner within the page or page section. This is important for dismissible elements as it gives the banner a temporal visual affordance, indicating to users that this component is not permanent.
 
 #### Dismiss action
 
