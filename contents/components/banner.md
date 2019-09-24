@@ -44,7 +44,7 @@ The dismiss action is always represented by the `Close` icon and anchored to the
 
 #### Header
 
-The header or title should always be present and written to follow our [voice and tone](https://design.gitlab.com/content/voice-tone/) guidelines.
+The header should always be present and written to follow our [voice and tone](https://design.gitlab.com/content/voice-tone/) guidelines.
 
 #### Paragraph
 
