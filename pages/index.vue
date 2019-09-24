@@ -91,7 +91,7 @@
             View repository
           </a>
           <a
-            href="https://gitlab.com/gitlab-org/gitlab-design/blob/master/doc/pattern-library.md#files"
+            href="https://gitlab.com/gitlab-org/gitlab-design/blob/master/doc/sketch-ui-kit.md#files"
             target="_blank"
             class="card card--highlighted card--link text-center m-l-5 p-a-4"
           >
