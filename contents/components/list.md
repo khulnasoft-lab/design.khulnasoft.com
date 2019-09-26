@@ -22,7 +22,7 @@ Lists are frequently used for navigation, cards, tabs, breadcrumbs, dropdown con
 ## Types
 
 - **Unordered list**: The order of list items is not strict. List items are marked with plain bullets, which may be omitted in the UI. Uses the `<ul>` tag.
-- **Ordered list**: Display different numbers to list each list item. Uses the `<ol>` tag.
+- **Ordered list**: The order of list items is strict. List items are marked with numbers. Uses the `<ol>` tag.
 - **Definition list**: Arranges  items in the same way as they are arranged in a dictionary. Uses the `<dl>` tag.
 
 ### List layout types
