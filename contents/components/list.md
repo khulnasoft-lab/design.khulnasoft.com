@@ -31,7 +31,7 @@ List items can have single or multiple lines of text, with a maximum of three li
 
 A list contains a single column of content, and each list item is place in an individual row.
 
-Lists are commonly laid out vertically, but the items can be position horizontally depending on CSS styles. For example, see [Tabs](/components/tabs).
+Lists are commonly laid out vertically, but the items can be positioned horizontally depending on CSS styles. For example, see [Tabs](/components/tabs).
 
 ## Demo
 
