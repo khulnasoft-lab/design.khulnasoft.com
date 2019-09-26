@@ -26,7 +26,7 @@ Todo: Add live component block with code example (Horizontal form)
 
 Input field and text area labels are set in bold and positioned above the form element by default. Labels must use the **for** attribute for accessibility reasons. Labels for [checkboxes and radio buttons](#checkbox) are set in regular font weight.
 
-In rare cases and exceptions, the label can be placed to the left of the input field. Examples include single input fields (e.g. "Sort by" dropdowns) and horizontally distributed forms.
+In rare cases and exceptions, the label can be placed to the left of the input field. Examples include single input fields, for example "Sort by" dropdowns, and horizontally distributed forms.
 
 Todo: Add live component block with code example (sort by dropdown)
 
