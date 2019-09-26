@@ -98,7 +98,7 @@ Todo: Add live component block with code example (placeholder)
 
 #### Error messages and states
 
-Error messages and validation should be shown inline and can, in general, happen either live or on form submission. Live validation should be seen as assisting the user to input the correct information and not as a way of preventing them from attempting to submit the form with possibly incorrect information (live validation might be frontend-only but the user has no way of knowing that). See also the [Submit form buttons section](#submit-form-buttons) below.
+Error messages and validation should be shown inline and can, in general, happen either live or on form submission. Live validation should be seen as assisting the user to input the correct information, and not as a way of preventing them from attempting to submit the form with possibly incorrect information. Live validation might be frontend-only, but the user has no way of knowing that. See also the [submit form buttons section](#submit-form-buttons) below.
 
 The error message shows up below the input field that is in error state. If there’s Help text below the input field, the error message pushes it further down as it needs to show up immediately after the input. Under no circumstances should the error message be displayed in a tooltip.
 
