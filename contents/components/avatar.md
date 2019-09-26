@@ -24,7 +24,7 @@ Some features require the display of multiple avatars, side by side.
 
 #### Overlap
 
-When space is tight, overlap avatars slightly. If there are too many for the space, use a badge to display the number of additional avatars as a placeholder.
+When space is tight, overlap avatars slightly. If there are too many for the space, use a [badge](/components/badge) after the last avatar item to display the number of additional avatars as a placeholder.
 
 Todo: Add overlap demo with badge count
 
