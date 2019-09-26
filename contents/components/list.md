@@ -16,7 +16,7 @@ Lists are frequently used for navigation, cards, tabs, breadcrumbs, dropdown con
 ## Usage
 
 - A list must contain one or more list elements.
-- Arrange items in a logical way, for example, in alphabetical or numeric order, by use case, or preference.
+- Arrange items in a logical way. For example, in alphabetical or numeric order, or according to a specific use case. Lists can also sometimes be rearranged based on a users' preference if a [sort](/components/sorting) component is available.
 - Use a list to group a continuous set of text and images. For example, a list of members of a project.
 
 ## Types
