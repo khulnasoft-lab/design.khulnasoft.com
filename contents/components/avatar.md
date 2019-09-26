@@ -20,7 +20,7 @@ Todo: Add avatar with text demo
 
 ### Displaying multiple avatars
 
-Some features require the display of multiple avatars, side by side.
+Some features, such as Issue assignees and Merge Request discussions on diffs, require the display of multiple avatars, side by side.
 
 #### Overlap
 
