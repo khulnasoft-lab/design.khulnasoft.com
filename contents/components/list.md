@@ -27,7 +27,7 @@ Lists are frequently used for navigation, cards, tabs, breadcrumbs, dropdown con
 
 ### List layout types
 
-List items can have single or multiple lines of text, being three the maximum number of lines.
+List items can have single or multiple lines of text, with a maximum of three lines.
 
 A list contains a single column of content, and each list item is place in an individual row.
 
