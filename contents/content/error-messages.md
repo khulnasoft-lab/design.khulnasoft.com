@@ -58,7 +58,7 @@ Error messages can be used in the following scenarios:
 | Error scenario | When to display it | Component | Example message |
 | --- | --- | --- | --- |
 | The user enters data that doesn't meet the field requirements. | The user clicks or tabs away, or stops typing in the input field. | [Form validation](/components/forms#validation): Displayed inline, below the input field | `Enter a valid email address` |
-| The system detects one or more error in the form data. | The user submits a form that contains error on one or more fields. | [Form validation](/components/forms#validation): Displayed inline, below the input field. Focus should be on the error fields. | `Your email is required to signing up with GitLab` |
+| The system detects one or more errors in the form data. | The user submits a form that contains an error on one or more fields. | [Form validation](/components/forms#validation): Displayed inline, below the input field. Focus should be on the error fields. | `Your email is required to signing up with GitLab` |
 | The user skips a required form field. | The user clicks or tabs away from the field. | [Form validation](/components/forms#validation): Displayed inline, below the input field. All fields are required unless stated otherwise with “(optional)” added to the label of the corresponding input field. | `Enter a name for your project` |
 
 ### Errors on a page
