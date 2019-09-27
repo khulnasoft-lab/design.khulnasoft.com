@@ -47,7 +47,7 @@ Generic error messages are not helpful, and they don't make sense out of context
 - Field can't be blank.
 - Name is too short.
 
-Instead, provide different errors for different messages and scenarios. Error messages for specific situations are more helpful to users. For example, errors in text fields can be too long, too short, in the wrong format, etc.
+Instead, provide different errors for different messages and scenarios. For example, errors in text fields can be too long, too short, in the wrong format, etc. Error messages for specific situations are more helpful to users. 
 
 ## Error messages and scenarios
 
