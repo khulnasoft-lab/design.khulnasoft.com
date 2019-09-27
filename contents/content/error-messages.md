@@ -17,8 +17,8 @@ Todo: Add guidelines on when an error message should be persistent, dismissible,
 | Do | Don't|
 | --- | --- |
 | Use a contextual error message for each error instance. | Use a generic error message for all error instances. |
-| Use live-validation in combination with system validation. | Prevent users from attempting to submit a form or item in case of live-validation errors. |
-| Display the error message below the input field | Display the error message in a tooltip or on click. |
+| Use live-validation in combination with system validation. | Allow users to submit a form when there are live-validation errors. |
+| Display the error message below the input field | Display the error message in a tooltip. |
 | Take users to a different screen/display a different view if users don't have permission to do something in the application. | Use an error message to tell users they don't have permission or are not eligible to do something. |
 
 ### Concise
@@ -35,7 +35,7 @@ Use messages like:
 
 To reduce the cognitive effort needed from users to understand the error, display the error message next to the field or page area where it occurs. All messages should look, sound, and mean the same, according to the component they're displayed in.
 
-Todo: Add example of consistent error messages in different alert types
+Todo: Add example of consistent error messages in different components
 
 ### Specific
 
@@ -66,7 +66,7 @@ Error messages can be used in the following scenarios:
 | Error scenario | When to display it | Component | Example message |
 | --- | --- | --- | --- |
 | The content or section of a page cannot be loaded | A system error is affecting the user's current session. | Error page | The page could not be found. Make sure the address is correct and that the page hasn't moved. | 
-| The content of a page is inacessible. | The page cannot be accessed or be found, or user doesn't have enough privileges. | Error page | You don't have permission to view this page. Please contact your GitLab administrator if you think this is a mistake. |
+| The content of a page is inacessible. | The page cannot be access because the user does not have privileges. | Error page | You don't have permission to view this page. Please contact your GitLab administrator if you think this is a mistake. |
 
 ### Errors in the system
 
