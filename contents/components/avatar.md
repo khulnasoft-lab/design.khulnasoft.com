@@ -37,7 +37,7 @@ When space allows, display avatars in [a grid](/layout/grid).
 
 Todo: Add grid demo
 
-In areas where the avatar grid would expand multiple lines, provide an option to expand and collapse the additional avatars.
+In areas where the avatar grid would expand multiple lines, provide a clickable option to expand and collapse the additional avatars.
 
 Todo: Add grid demo with expand/collapse
 
