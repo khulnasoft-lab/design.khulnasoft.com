@@ -33,7 +33,7 @@ Todo: Add overlap demo with badge count
 
 #### Grid
 
-When space allows, display avatars in [a grid](/layout/grid).
+When space allows, display avatars in a [grid](/layout/grid).
 
 Todo: Add grid demo
 
