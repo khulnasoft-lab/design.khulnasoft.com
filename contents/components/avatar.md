@@ -27,7 +27,7 @@ Some features, such as Issue assignees and Merge Request threads on diffs, requi
 
 #### Overlap
 
-When space is tight, overlap avatars slightly. If there are too many for the space, use a [badge](/components/badge) after the last avatar item to display the number of additional avatars as a placeholder.
+When space is tight, overlap avatars slightly. Depending on the available space, if there are more than one or two avatars, use a [badge](/components/badge) after the last avatar item to display the number of additional avatars as a placeholder.
 
 Todo: Add overlap demo with badge count
 
