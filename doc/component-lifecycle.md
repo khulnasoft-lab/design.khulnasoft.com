@@ -27,7 +27,7 @@ build and style stages progress.
 Implementation will always come last and could involve removing old HAML components
 in order to replace them with the newly defined Vue components.
 
-## Adding a new component
+## Creating a new component
 
 Adding, or not adding, a component to Pajamas should be a deliberate choice. To 
 help faciliate this decision, you should be able to answer the following questions:
