@@ -1,7 +1,6 @@
 # Component lifecycle
 
-The lifecycle of a component goes through multiple stages. These stages are as
-follows:
+The component lifecycle has the following stages:
 
 * **Create:** A need for a component is identified. Documentation is written 
 regarding its usage and the component is created and added to the Pattern Library. 
