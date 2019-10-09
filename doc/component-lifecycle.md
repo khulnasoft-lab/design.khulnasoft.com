@@ -15,12 +15,12 @@ product. ~"pajamas::implement"
 Some stages may happen in tandem, depending on how mature the component currently
 is. For example:
 
-1. If the component is already in GitLab and widely used, build and
+* If the component is already in GitLab and widely used, build and
 style stages may happen together. This often involves migrating styles from GitLab
 to Gitlab-UI.
-1. If the component is not yet available as a Vue component, the style stage
+* If the component is not yet available as a Vue component, the style stage
 may come after the build stage.
-1. If a component is brand new, the create stage may need some revisions as the 
+* If a component is brand new, the create stage may need some revisions as the 
 build and style stages progress.
 
 Implementation will always come last and could involve removing old HAML components
