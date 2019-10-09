@@ -1,4 +1,4 @@
-# A component lifecycle
+# Component lifecycle
 
 The lifecycle of a component goes through multiple stages. These stages are as
 follows:
