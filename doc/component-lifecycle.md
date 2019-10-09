@@ -72,7 +72,7 @@ T-->L
 S-->|No| I
 ```
 
-## Building and Styling components
+## Building and styling components
 
 After the need for a component has been identified and the *create* stage has been 
 completed, the component is ready for the *build* and *style* stages. This occurs 
