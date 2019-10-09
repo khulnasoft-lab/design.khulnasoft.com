@@ -74,8 +74,7 @@ S-->|No| I
 
 ## Building and styling components
 
-After the need for a component has been identified and the *create* stage has been 
-completed, the component is ready for the *build* and *style* stages. This occurs 
+Next are the *build* and *style* stages. This occurs 
 in the [GitLab-UI project](https://gitlab.com/gitlab-org/gitlab-ui) and follows 
 the [build diagram](https://gitlab.com/gitlab-org/gitlab-ui/blob/master/doc/component-lifecycle.md).
 
