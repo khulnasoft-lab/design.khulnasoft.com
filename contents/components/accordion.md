@@ -26,7 +26,7 @@ Category titles should give context about the underlying content in a concise an
 
 The icon should always reflect the state of the accordion (expanded or collapsed), and be located as close as possible to the category title.
 
-#### Sub-Content
+#### Sub-content
 
 Sub-content should stand out from the rest of the page and be directly link to the category title.
 
