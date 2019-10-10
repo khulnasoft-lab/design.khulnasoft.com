@@ -40,7 +40,12 @@ Todo: Add live component block with code example
 
 ## Design specifications
 
-Todo: Add component specifications
+Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
+
+TODO: Add Sketch Measure Preview for Accordion
+
+
+
 
 ## Animation specifications
 
