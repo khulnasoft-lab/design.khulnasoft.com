@@ -24,7 +24,7 @@ Category titles should give context about the underlying content in a concise an
 
 #### Icon
 
-The icon should always reflect the state of the accordion (Expanded/Collapsed) and located as close as possible to the category title.
+The icon should always reflect the state of the accordion (expanded or collapsed), and be located as close as possible to the category title.
 
 #### Sub-Content
 
