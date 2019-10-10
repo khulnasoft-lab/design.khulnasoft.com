@@ -46,6 +46,6 @@ Todo: Add component specifications
 
 Todo: Add animation specifications
 
-## Ressources
+## Resources
 
 * [NN/G: Progressive disclosure](https://www.nngroup.com/articles/progressive-disclosure/)
