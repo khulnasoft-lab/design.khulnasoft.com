@@ -15,15 +15,15 @@ product. ~"pajamas::implement"
 Some stages may happen in tandem, depending on how mature the component currently
 is. For example:
 
-* If the component is already in GitLab and widely used, build and
-style stages may happen together. This often involves migrating styles from GitLab
+* If the component is already in GitLab and widely used, **build** and
+**style** stages may happen together. This often involves migrating styles from GitLab
 to Gitlab-UI.
-* If the component is not yet available as a Vue component, the style stage
-may come after the build stage.
-* If a component is brand new, the create stage may need some revisions as the 
-build and style stages progress.
+* If the component is not yet available as a Vue component, the **style** stage
+may come after the **build** stage.
+* If a component is brand new, the **create** stage may need some revisions as the 
+**build** and **style** stages progress.
 
-Implementation will always come last and could involve removing old HAML components
+The **implement** stage will come last and could involve removing old HAML components
 in order to replace them with the newly defined Vue components.
 
 ## Creating a new component
@@ -40,7 +40,7 @@ where a component may live in only one area of the application and is not includ
 as part of Pajamas. The design system is here to help build reusable interfaces, 
 but not be limiting in terms of how to solve user needs. 
 
-The following diagram outlines the *create* stage and is available to help 
+The following diagram outlines the **create** stage and is available to help 
 determine when and how a component should be added to Pajamas:
 
 ```mermaid
@@ -61,7 +61,7 @@ K-->L[Create issue in Pajamas to update usage docs]
 click L "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/new"
 L-->M[Get reviewed by Product Designer]
 M-->N[Merge usage guidelines and specs into Pajamas]
-N-->O[SUBFLOW: Implement component]
+N-->O[SUBFLOW: Build and style component]
 click O "https://gitlab.com/gitlab-org/gitlab-ui/blob/master/doc/component-lifecycle.md"
 O-->P[Grab component]
 P-->Q[Done]
@@ -73,10 +73,10 @@ S-->|No| I
 ```
 
 ## Building and styling components
-
-Next are the *build* and *style* stages. This occurs 
+=
+Next are the **build** and **style** stages. This occurs 
 in the [GitLab-UI project](https://gitlab.com/gitlab-org/gitlab-ui) and follows 
-the [build diagram](https://gitlab.com/gitlab-org/gitlab-ui/blob/master/doc/component-lifecycle.md).
+the [**build** diagram](https://gitlab.com/gitlab-org/gitlab-ui/blob/master/doc/component-lifecycle.md).
 
 ## Completing a component
 
