@@ -6,11 +6,11 @@ related:
 - tabs
 ---
 
-Accordion are used to regroup a set of specialized content and deliver it upon request. Accordions gives users more granular control over the interface and help them comprehend larger content into smaller digestible parts.
+Accordion are used to regroup a set of specialized content and deliver it on users demand. Accordions gives users more granular control over the interface and help them comprehend larger content into smaller digestible parts.
 
 ## Usage
 
-Accordions are displayed vertically stacked. They always contain a title, an expanded and a collapsed state, an icon indicating expansion, and a clearly identifiable sub-content.
+Accordions are displayed vertically stacked. They always contain a header, an icon reflecting its current state (collapsed or expanded), and a clearly identifiable body.
 
 ### Dos and Dont's
 
@@ -18,21 +18,21 @@ Todo: Add table Dos and Dont’s
 
 ### Specifications
 
-#### Category title
+#### Header
 
-Category titles should give context about the underlying content in a concise and actictionable way.
+Just like [modals](https://design.gitlab.com/components/modals/), the header of an accordion could be a question or a title. Either way, headers should give context about the underlying content in a concise and actictionable way.(eg."What can GitLab offer me?", "More options")
 
 #### Icon
 
-The icon should always reflect the state of the accordion (expanded or collapsed), and be located as close as possible to the category title.
+The icon should always reflect the state of the accordion (expanded or collapsed), and be located as close as possible to the header.
 
-#### Sub-content
+#### Body
 
-Sub-content should stand out from the rest of the page and be directly link to the category title.
+The body should stand out from the rest of the page and be directly linked to the Header.
 
 #### Interaction
 
-Users should be able to expand and collapse the content by clicking either on the Category title or the icon.
+Users should be able to expand and collapse the content by clicking a single area, wrapping the header and the icon.
 
 ## Demo
 
@@ -54,3 +54,4 @@ Todo: Add animation specifications
 ## Resources
 
 * [NN/G: Progressive disclosure](https://www.nngroup.com/articles/progressive-disclosure/)
+* [Smashing Magazine - Designing The Perfect Accordion](https://www.smashingmagazine.com/2017/06/designing-perfect-accordion-checklist/#top)
