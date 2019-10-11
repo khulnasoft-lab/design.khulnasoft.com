@@ -41,13 +41,17 @@ Tokens can be positioned inline with the text cursor in a field, or in a stacked
 
 Interactive tokens include a [remove](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~close) icon, positioned at the end of the token. When enabled, users can click the icon to remove the token from the set.
 
-It is also possible to display view-only tokens. View-only tokens don't include a remove icon and cannot be removed from the set. For example, you may use a view-only token when a user does not have permission to remove a token.
+[[Example:token-basic]]
 
-## Demo
+It is also possible to display view-only tokens. View-only tokens don't include a remove icon and cannot be removed from the set. For example, you may use a view-only token when a user does not have permission to remove a token.
 
 [[Example:token-view-only]]
 
-[[Example:token-basic]]
+## Demo
+
+Todo: Add info on avatar tokens
+
+[[Example:token-with-avatar]]
 
 ## Design specifications
 
