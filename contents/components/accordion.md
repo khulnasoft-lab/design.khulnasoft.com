@@ -10,7 +10,7 @@ Accordion are used to regroup a set of specialized content and deliver it upon r
 
 ## Usage
 
-Vertically stacked, accordions always contains a category title, an expanded and a collapsed state, an icon indicating expansion, and a clearly identifiable sub-content.
+Accordions are displayed vertically stacked. They always contain a title, an expanded and a collapsed state, an icon indicating expansion, and a clearly identifiable sub-content.
 
 ### Dos and Dont's
 
