@@ -12,7 +12,7 @@ Consider using a tree as a secondary navigation pattern to group and map links u
 
 ### When to use trees
 Use trees to:
-- Create a structure made of multiple navigation elements
+- Create a structure made of multiple navigation elements.
 
 ### When not to use trees
 Do not use trees to:
