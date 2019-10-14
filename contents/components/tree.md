@@ -8,6 +8,7 @@ related:
 Trees provides a clear overview of a structure using a parent-child hierarchy between elements.
 
 ## Usage
+
 Consider using a tree as a secondary navigation pattern to group and map links under specific categories.
 
 ### When to use trees
