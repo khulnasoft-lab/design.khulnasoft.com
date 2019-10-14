@@ -17,7 +17,7 @@ Use trees to:
 ### When not to use trees
 Do not use trees to:
 - Provide additional information about other element of the page, consider using an [accordion](/components/accordion) instead.
-- Display main navigation elements
+- Display main navigation elements.
 
 ### Dos and Dont's
 
