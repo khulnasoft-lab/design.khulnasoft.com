@@ -24,7 +24,7 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 
 #### Header
 
-Just like [modals](https://design.gitlab.com/components/modals/), the header of an accordion could be a question or a title. Either way, headers should give context about the underlying content in a concise and actictionable way.(eg."What can GitLab offer me?", "More options")
+Just like [modals](/components/modals/), the header of an accordion could be a question or a title. Either way, headers should give context about the underlying content in a concise and actictionable way. Examples of headers can be "What can GitLab offer me?", or "More options".
 
 #### Icon
 
