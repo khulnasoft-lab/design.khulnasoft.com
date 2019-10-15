@@ -36,7 +36,7 @@ The accordion body should stand out from the rest of the page and be directly li
 
 #### Interaction
 
-Users should be able to expand and collapse the content by clicking a single area, wrapping the header and the icon.
+Users should be able to expand and collapse the body by clicking a single area that contains the accordion header and icon.
 
 ## Demo
 
