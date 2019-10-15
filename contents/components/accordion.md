@@ -32,7 +32,7 @@ The icon should always reflect the state of the accordion (expanded or collapsed
 
 #### Body
 
-The body should stand out from the rest of the page and be directly linked to the Header.
+The accordion body should stand out from the rest of the page and be directly linked to the header.
 
 #### Interaction
 
