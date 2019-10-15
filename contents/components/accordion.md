@@ -17,8 +17,8 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 | Do | Don't |
 | ------ | ------ |
 | Use icons and animation that easily reflects Collapsed and Expanded state. (eg. chevrons, plus signs) as long as they are not conflicting with other elements.(eg. dropdown arrow). | Do not hide critical system information under accordions, or primary action to be taken on the page.(eg.alerts, confirmation/cancellation buttons). |
-| Headers and icons should both be trigger of the state, if the header is used as a block or container, then the whole should be actionable. | Do not hide navigational elements such as [tabs](https://design.gitlab.com/components/tabs)or links pointing to sections of the same page. | 
-| If several accordions are used within a page, try to order them logically, according to the type of content they each possess.(eg.FAQ section). | Don't use default [buttons](https://design.gitlab.com/components/buttons) to trigger collapsible as they could be confound with call to actions or [dropdowns](https://design.gitlab.com/components/dropdowns). | 
+| Headers and icons should both be trigger of the state, if the header is used as a block or container, then the whole should be actionable. | Do not hide navigational elements such as [tabs](/components/tabs) or links pointing to sections of the same page. | 
+| If several accordions are used within a page, try to order them logically, according to the type of content they each possess.(eg.FAQ section). | Don't use default [buttons](/components/buttons) to trigger collapsible as they could be confound with call to actions or [dropdowns](/components/dropdowns). | 
 
 ### Specifications
 
@@ -47,9 +47,6 @@ Todo: Add live component block with code example
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
 TODO: Add Sketch Measure Preview for Accordion
-
-
-
 
 ## Animation specifications
 
