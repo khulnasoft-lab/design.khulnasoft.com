@@ -12,13 +12,25 @@ Accordions are used to group similar content and hide or show it depending on us
 
 Accordions are displayed vertically stacked. They always contain a header, an icon reflecting its current state (collapsed or expanded), and a clearly identifiable body.
 
+### When to use accordions
+
+* To display and regroup additional information on users demands 
+* To add granular control within the page  
+
+### When not to use accordions
+
+* To display critical system information or primary action to be taken on the page.(eg.alerts, confirmation/cancellation buttons).
+* To display navigation elements such as [tabs](/components/tabs).
+* To display links pointing to sections of the same page, prefer a [list](components/list).
+* To create hierarchy levels by nesting them within each other, if you need to add hierarchy to the content prefer using a [tree](components/tree).
+
 ### Dos and Dont's
 
 | Do | Don't |
 | ------ | ------ |
-| Use icons and animation that easily reflects Collapsed and Expanded state. (eg. chevrons, plus signs) as long as they are not conflicting with other elements.(eg. dropdown arrow). | Do not hide critical system information under accordions, or primary action to be taken on the page.(eg.alerts, confirmation/cancellation buttons). |
-| Headers and icons should both be trigger of the state, if the header is used as a block or container, then the whole should be actionable. | Do not hide navigational elements such as [tabs](/components/tabs) or links pointing to sections of the same page. | 
-| If several accordions are used within a page, try to order them logically, according to the type of content they each possess.(eg.FAQ section). | Don't use default [buttons](/components/buttons) to trigger collapsible as they could be confound with call to actions or [dropdowns](/components/dropdowns). | 
+| Use icons and animation to easily reflects collapsed and expanded state. | Leave the header without icon or use a [default buttons](/components/buttons) to trigger collapsible as they could be confound with call to actions or [dropdowns](/components/dropdowns). |
+| Headers and icons should both trigger collapsed and expanded state. | Make the icon the only way to trigger collapsed and expanded states. | 
+| Prefer using a [chevron](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/chevron-right.svg) icon with the header. | Use an [arrow](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/arrow-right.svg). | 
 
 ### Specifications
 
@@ -56,3 +68,4 @@ Todo: Add animation specifications
 
 * [NN/G: Progressive disclosure](https://www.nngroup.com/articles/progressive-disclosure/)
 * [Smashing Magazine - Designing The Perfect Accordion](https://www.smashingmagazine.com/2017/06/designing-perfect-accordion-checklist/#top)
+* [NN/G:Accordions Are Not Always the Answer for Complex Content on Desktops](https://www.nngroup.com/articles/accordions-complex-content/)
