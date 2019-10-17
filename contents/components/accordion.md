@@ -6,7 +6,7 @@ related:
 - tabs
 ---
 
-Accordions are used to regroup a set of specialized content and deliver it on users demand. Accordions give users more granular control over the interface and help them comprehend larger content into smaller digestible parts.
+Accordions are used to group similar content and hide or show it depending on user need or preference. Accordions give users more granular control over the interface and help them digest content in stages, rather than all at once.
 
 ## Usage
 
