@@ -14,8 +14,9 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 
 ### When to use accordions
 
-* To display and regroup additional information on users demands 
-* To add granular control within the page  
+* To display and regroup additional information
+* To add granular control over the information of a given page  
+* To shorten pages and reduce scrolling
 
 ### When not to use accordions
 
@@ -30,17 +31,17 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 | ------ | ------ |
 | Use icons and animation to easily reflects collapsed and expanded state. | Leave the header without icon or use a [default buttons](/components/buttons) to trigger collapsible as they could be confound with call to actions or [dropdowns](/components/dropdowns). |
 | Headers and icons should both trigger collapsed and expanded state. | Make the icon the only way to trigger collapsed and expanded states. | 
-| Prefer using a [chevron](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/chevron-right.svg) icon with the header. | Use an [arrow](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/arrow-right.svg). | 
+| Prefer using a [chevron](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/chevron-right.svg) icon with the header. | Use a icon that can not reflect the transition like a [question mark](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/question.svg). | 
 
 ### Specifications
+
+#### Icon
+
+The icon should always reflect the state of the accordion (expanded or collapsed), and be located before the header so users always clicks on the same spot to expand/collapse the accordions through the icon.
 
 #### Header
 
 Just like [modals](/components/modals/), the header of an accordion could be a question or a title. Either way, headers should give context about the underlying content in a concise and actictionable way. Examples of headers can be "What can GitLab offer me?", or "More options".
-
-#### Icon
-
-The icon should always reflect the state of the accordion (expanded or collapsed), and be located as close as possible to the header.
 
 #### Body
 
