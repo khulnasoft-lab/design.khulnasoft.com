@@ -106,6 +106,8 @@ module.exports = {
     // Per default nuxt doesn't output to the console on CI, this turns this on
     quiet: false,
 
+    extractCSS: true,
+
     watch: ['~/contents'],
 
     postcss: {
