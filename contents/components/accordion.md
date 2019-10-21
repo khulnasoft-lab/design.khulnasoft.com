@@ -6,7 +6,7 @@ related:
 - tabs
 ---
 
-Accordions are used to group similar content and hide or show it depending on user need or preference. Accordions give users more granular control over the interface and help them digest content in stages, rather than all at once.
+Accordions are used to group similar content and hide or show it depending on user need or preference. Accordions give users more granular control over the interface and help digest content in stages, rather than all at once.
 
 ## Usage
 
@@ -20,7 +20,7 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 
 ### When not to use accordions
 
-* To display critical system information or primary action to be taken on the page.(eg.alerts, confirmation/cancellation buttons).
+* To display critical system information or a primary action to be taken on the page.(eg.alerts, confirmation/cancellation buttons).
 * To display navigation elements such as [tabs](/components/tabs).
 * To display links pointing to sections of the same page, prefer a [list](components/list).
 * To create hierarchy levels by nesting them within each other, if you need to add hierarchy to the content prefer using a [tree](components/tree).
@@ -38,6 +38,19 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 #### Icon
 
 The icon should always reflect the state of the accordion (expanded or collapsed), and be located before the header so users always clicks on the same spot to expand/collapse the accordions through the icon.
+Consider using the following 2 and icons:
+
+| Chevrons | Plus |
+| ------ | ------ |
+|![image](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/chevron-right.svg)  | ![image](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/plus.svg) |
+| ------ | ------ |
+| icn/chevron-right  | icn/plus |
+
+Prefer using a chevron icon when:
+* The accordion body content is mainly textual. The affordance of the chevron better suits this case to signify related additional information can be found "under" the header.
+
+Prefer using a plus icon when: 
+* The accordion body content is a set of visual components following the same style, secondary functionalities that do not prevent users to accomplish their task... In this case the plus icon would act as a visual signifier for adding extra content of the exact same type. (eg. a set of icons, avatars, secondary buttons...) 
 
 #### Header
 
@@ -45,11 +58,12 @@ Just like [modals](/components/modals/), the header of an accordion could be a q
 
 #### Body
 
-The accordion body should stand out from the rest of the page and be directly linked to the header.
+The accordion body should stand out from the rest of the page and be directly linked to the header. Visual signifier for more option of the same type.
 
 #### Interaction
 
-Users should be able to expand and collapse the body by clicking a single area that contains the accordion header and icon.
+Users should be able to expand and collapse the body by clicking or taping a single area that contains the accordion header and icon.
+In the case of a page layout built around several accordions following each other, changing one accordion state does not reflect on the other, each accordions would need to be expanded/collapsed individually by users. 
 
 ## Demo
 
@@ -70,3 +84,5 @@ Todo: Add animation specifications
 * [NN/G: Progressive disclosure](https://www.nngroup.com/articles/progressive-disclosure/)
 * [Smashing Magazine - Designing The Perfect Accordion](https://www.smashingmagazine.com/2017/06/designing-perfect-accordion-checklist/#top)
 * [NN/G:Accordions Are Not Always the Answer for Complex Content on Desktops](https://www.nngroup.com/articles/accordions-complex-content/)
+* [Viget - Testing Accordion Menu Designs & Iconography](https://www.viget.com/articles/testing-accordion-menu-designs-iconography/) 
+
