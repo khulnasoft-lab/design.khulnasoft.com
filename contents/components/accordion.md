@@ -35,22 +35,25 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 
 ### Specifications
 
+#### Visual breakdown of Accordions structure
+
+TODO: Add visual representation of an expanded accordion
+
 #### Icon
 
 The icon should always reflect the state of the accordion (expanded or collapsed), and be located before the header so users always clicks on the same spot to expand/collapse the accordions through the icon.
-Consider using the following 2 and icons:
+Consider using the following 2 icons:
 
 | Chevrons | Plus |
 | ------ | ------ |
 |![image](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/chevron-right.svg)  | ![image](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/plus.svg) |
-| ------ | ------ |
 | icn/chevron-right  | icn/plus |
 
 Prefer using a chevron icon when:
 * The accordion body content is mainly textual. The affordance of the chevron better suits this case to signify related additional information can be found "under" the header.
 
 Prefer using a plus icon when: 
-* The accordion body content is a set of visual components following the same style, secondary functionalities that do not prevent users to accomplish their task... In this case the plus icon would act as a visual signifier for adding extra content of the exact same type. (eg. a set of icons, avatars, secondary buttons...) 
+* The accordion body content is a set of visual components following the same style, secondary functionalities, that do not prevent users to accomplish their task... In this case the plus icon would act as a visual signifier for adding extra content of the exact same type. (eg. a set of icons, avatars, secondary buttons...) 
 
 #### Header
 
