@@ -26,7 +26,7 @@ may come after the **build** stage.
 The **implement** stage will come last and could involve removing old HAML components
 in order to replace them with the newly defined Vue components.
 
-## Creating a new component
+## Determining whether a component should be included in Pajamas
 
 Adding, or not adding, a component to Pajamas should be a deliberate choice. To 
 help facilitate this decision, you should be able to answer the following questions:
@@ -40,6 +40,18 @@ where a component may live in only one area of the application and is not includ
 as part of Pajamas. The design system is here to help build reusable interfaces, 
 but not be limiting in terms of how to solve user needs. 
 
+If you are able to answer the above questions and are still unsure about whether
+a component should be added to Pajamas, use the following to help you make a
+decision:
+
+* If it's unknown whether the component will be used, then wait until we do know
+before putting it in Pajamas.
+* If the component is *only* relevant in one place (and we suspect it will only
+ever be relevant in one place), do not add to Pajamas.
+* If we validate that it’s useful in more than just one place, add it to Pajamas.
+
+## Creating a new component
+
 The following diagram outlines the **create** stage and is available to help 
 determine when and how a component should be added to Pajamas:
 
@@ -52,14 +64,14 @@ C-->D{Can I use Pajamas?}
 D -->|Yes| E[Use component]
 E --> F[Done]
 D -->|No| G{Does the component exist already?}
-G-->|No| H[Needs to be added]
-H-->I[Create issue in GitLab Design]
+G-->|No| H[Determined that the component should be added to Pajamas]
+H-->I[Create issue in GitLab Design to discuss usage documentation and propose Sketch UI Kit updates]
 click I "https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Pattern"
 I-->J[Fill out the template, including usage docs, and follow its checklist]
 J-->K[Review by Product Designer]
-K-->L[Create issue in Pajamas to update usage docs]
+K-->L[Create issue in Pajamas to update usage docs and design specs]
 click L "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/new"
-L-->M[Get reviewed by Product Designer]
+L-->M[Review by Product Designer]
 M-->N[Merge usage guidelines and specs into Pajamas]
 N-->O[SUBFLOW: Build and style component]
 click O "https://gitlab.com/gitlab-org/gitlab-ui/blob/master/doc/component-lifecycle.md"
