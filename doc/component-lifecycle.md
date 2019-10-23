@@ -51,7 +51,7 @@ click C "https://design.gitlab.com"
 C-->D{Can I use Pajamas?}
 D -->|Yes| E[Use component]
 E --> F[Done]
-D -->|No| G{Does the pattern exist already?}
+D -->|No| G{Does the component exist already?}
 G-->|No| H[Needs to be added]
 H-->I[Create issue in GitLab Design]
 click I "https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Pattern"
