@@ -17,7 +17,7 @@ is. For example:
 
 * If the component is already in GitLab and widely used, **build** and
 **style** stages may happen together. This often involves migrating styles from GitLab
-to Gitlab-UI.
+to gitlab-ui.
 * If the component is not yet available as a Vue component, the **style** stage
 may come after the **build** stage.
 * If a component is brand new, the **create** stage may need some revisions as the 
@@ -53,11 +53,11 @@ D -->|Yes| E[Use component]
 E --> F[Done]
 D -->|No| G{Does the component exist already?}
 G-->|No| H[Needs to be added]
-H-->I[Create issue in GitLab Design to discuss usage documentation and propose Sketch UI Kit updates]
+H-->I[Create issue in GitLab Design]
 click I "https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Pattern"
 I-->J[Fill out the template, including usage docs, and follow its checklist]
 J-->K[Review by Product Designer]
-K-->L[Create issue in Pajamas to update usage docs and design specs]
+K-->L[Create issue in Pajamas to update usage docs]
 click L "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/new"
 L-->M[Get reviewed by Product Designer]
 M-->N[Merge usage guidelines and specs into Pajamas]
@@ -73,9 +73,9 @@ S-->|No| I
 ```
 
 ## Building and styling components
-=
+
 Next are the **build** and **style** stages. This occurs 
-in the [GitLab-UI project](https://gitlab.com/gitlab-org/gitlab-ui) and follows 
+in the [gitLab-ui project](https://gitlab.com/gitlab-org/gitlab-ui) and follows 
 the [**build** and **style** diagram](https://gitlab.com/gitlab-org/gitlab-ui/blob/master/doc/component-lifecycle.md).
 
 ## Completing a component
