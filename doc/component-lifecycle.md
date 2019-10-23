@@ -29,7 +29,7 @@ in order to replace them with the newly defined Vue components.
 ## Creating a new component
 
 Adding, or not adding, a component to Pajamas should be a deliberate choice. To 
-help faciliate this decision, you should be able to answer the following questions:
+help facilitate this decision, you should be able to answer the following questions:
 
 * Is this a new component or a variation of an existing one?
 * Why do existing components not support this use case?
