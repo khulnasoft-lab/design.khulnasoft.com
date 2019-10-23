@@ -53,7 +53,7 @@ D -->|Yes| E[Use component]
 E --> F[Done]
 D -->|No| G{Does the component exist already?}
 G-->|No| H[Needs to be added]
-H-->I[Create issue in GitLab Design]
+H-->I[Create issue in GitLab Design to discuss usage documentation and propose Sketch UI Kit updates]
 click I "https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Pattern"
 I-->J[Fill out the template, including usage docs, and follow its checklist]
 J-->K[Review by Product Designer]
