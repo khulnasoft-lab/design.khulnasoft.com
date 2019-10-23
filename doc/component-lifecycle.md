@@ -3,7 +3,7 @@
 The component lifecycle has the following stages:
 
 * **Create:** A need for a component is identified. Documentation is written 
-regarding its usage and the component is created and added to the Pattern Library. 
+regarding its usage and the component is created and added to the [GitLab Sketch UI Kit](https://gitlab.com/gitlab-org/gitlab-design/blob/master/doc/sketch-ui-kit.md). 
 ~"pajamas::create"
 * **Build:** The component is added to gitlab-ui, including specs, examples, 
 and documentation. The component is added to Pajamas. ~"pajamas::build"
