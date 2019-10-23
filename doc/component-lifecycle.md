@@ -88,5 +88,5 @@ A completed component should not have the warning alert on the Vue tab.
 An MR should be created to add any necessary demos to the Design tab. To prevent 
 confusion, we should omit demos until styles are correct.
 
-Once a component is complete, add it to the [Engineer Week in Review](https://docs.google.com/document/d/1Oglq0-rLbPFRNbqCDfHT0-Y3NkVEiHj6UukfYijHyUs/edit) 
+Once a component is complete, add it to the [Engineering Week in Review](https://docs.google.com/document/d/1Oglq0-rLbPFRNbqCDfHT0-Y3NkVEiHj6UukfYijHyUs/edit).
 in order to keep the department informed.
