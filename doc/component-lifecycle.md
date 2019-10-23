@@ -49,7 +49,7 @@ A[Start] -->B(Review issue)
 B--> C(Review Pajamas)
 click C "https://design.gitlab.com"
 C-->D{Can I use Pajamas?}
-D -->|Yes| E[Grab component]
+D -->|Yes| E[Use component]
 E --> F[Done]
 D -->|No| G{Does the pattern exist already?}
 G-->|No| H[Needs to be added]
