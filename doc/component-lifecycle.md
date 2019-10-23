@@ -76,7 +76,7 @@ S-->|No| I
 =
 Next are the **build** and **style** stages. This occurs 
 in the [GitLab-UI project](https://gitlab.com/gitlab-org/gitlab-ui) and follows 
-the [**build** diagram](https://gitlab.com/gitlab-org/gitlab-ui/blob/master/doc/component-lifecycle.md).
+the [**build** and **style** diagram](https://gitlab.com/gitlab-org/gitlab-ui/blob/master/doc/component-lifecycle.md).
 
 ## Completing a component
 
