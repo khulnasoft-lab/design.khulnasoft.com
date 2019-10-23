@@ -57,7 +57,7 @@ H-->I[Create issue in GitLab Design to discuss usage documentation and propose S
 click I "https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Pattern"
 I-->J[Fill out the template, including usage docs, and follow its checklist]
 J-->K[Review by Product Designer]
-K-->L[Create issue in Pajamas to update usage docs]
+K-->L[Create issue in Pajamas to update usage docs and design specs]
 click L "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/new"
 L-->M[Get reviewed by Product Designer]
 M-->N[Merge usage guidelines and specs into Pajamas]
