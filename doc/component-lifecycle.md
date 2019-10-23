@@ -55,7 +55,7 @@ D -->|No| G{Does the pattern exist already?}
 G-->|No| H[Needs to be added]
 H-->I[Create issue in GitLab Design]
 click I "https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Pattern"
-I-->J[Fill out pattern template, including usage docs, and create spec previews]
+I-->J[Fill out the template, including usage docs, and follow its checklist]
 J-->K[Get reviewed by Product Designer]
 K-->L[Create issue in Pajamas to update usage docs]
 click L "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/new"
