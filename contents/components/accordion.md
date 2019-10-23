@@ -61,12 +61,21 @@ Just like [modals](/components/modals/), the header of an accordion could be a q
 
 #### Body
 
-The accordion body should stand out from the rest of the page and be directly linked to the header. Visual signifier for more option of the same type.
+The accordion body should stand out from the rest of the page and be directly linked to the header. 
 
 #### Interaction
 
 Users should be able to expand and collapse the body by clicking or taping a single area that contains the accordion header and icon.
 In the case of a page layout built around several accordions following each other, changing one accordion state does not reflect on the other, each accordions would need to be expanded/collapsed individually by users. 
+
+## Accessibility
+
+Use proper semantic markup, so that users of screen readers are aware of the states of the accordion Expanded/Collasped.
+
+* The `aria-controls` attribute should be used to define the header is acting as a trigger to reveal content (the accordion body).
+* The `aria-expanded` attribute should be used to indicate the state of accordions.
+* After a user expand/collapse the accordion, focus should remain on the area wrapping the header and the icon.
+* The accordion should not rely on JavaScript to reveal the body content.
 
 ## Demo
 
