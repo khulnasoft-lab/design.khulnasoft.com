@@ -13,17 +13,23 @@ A segmented control allows users to choose one out of a range of available optio
 
 A segmented control is commonly used as an alternative to [dropdown](/components/dropdowns), [radio button](/components/radio-button), or [toggle](/components/toggles) components, but it comes with its own limitations. Because it takes up more space, a segmented control should only be used for up to 5 options. It is ideal when there are 2 or 3 because they visually expose the options available to a user. A segmented control should be used instead of a dropdown when there are only a few options and enough room to fit within the UI. It requires fewer interactions and is easier to use on mobile devices, thus having a smaller effect on the user’s cognitive load. Results are effective and visible immediately similar to toggles.
 
-Follow the table below to correctly choose when to use a segmented control.
+Consult the two tables below to correctly choose when to use a segmented control.
 
-| Scenario | Component to use | Comment |
-|----------|------------------|---------|
-| Users can only choose one of the maximum two options indicating `on` and `off` states. | Toggle | Enabling/disabling a feature. |
-| The space in the UI isn’t limited. Users can choose only one out of two or more options, the availability of the options is unaffected by other local or global settings, and the options don’t require additional explanations. | Segmented control | N/A |
-| The space in the UI is limited. Users can choose only one out of two or more options, the availability of the options is unaffected by other local or global settings and the options don’t require additional explanations. | Dropdown | N/A |
-| The options don’t require additional explanations. Users can choose only one out of two or more options, the availability of the options is affected by other local or global settings. | Radio buttons and help text for explanations about the availability. | Help text should be used when an option is not available (is disabled). |
-| The options require additional explanations. Users can choose only one out of two or more options, the availability of the options is unaffected by other local or global settings. | Radio buttons | Help text should be used for the additional explanations. |
-| Switching between two or more options of the same type. | Segmented control | For example, showing a timespan of 7, 14 or 28 days. |
-| Switching between two or more options of the same type with limited space in UI. | Dropdown | For example: showing a timespan of 7, 14 or 28 days. |
+|                                                    | Radio buttons | Segmented control | Checkboxes | Single checkbox | Toggle |
+|----------------------------------------------------|---------------|-------------------|------------|-----------------|--------|
+| How many states are available?                     | Multiple      | Multiple          | Multiple   | Boolean         | Boolean|
+| How many options can the user select?              | 1             | 1                 | 0-all      | 1               | 1      |
+| Is there a default state?                          | Yes           | Yes               | No         | Yes             | Yes    |
+| Are the options independent or mutually exclusive? | Mutually exclusive | Mutually exclusive | Independent | Mutually exclusive | Mutually exclusive |
+| Example                                            | Project visibility setting | 7, 30, 60, 90 days timeframe in analytics dashboards | Dropdown with assignees, labels etc. | Accepting terms and conditions on sign up | Enabling/disabling project features |
+
+Radio buttons, segmented control or dropdown?
+
+| Component | Consider using when... |
+|-----------|-------------|
+| Radio buttons | Some options may be unavailable (disabled), additional explanations (description) of options may be required, the amount of room in UI is not a problem. |
+| Dropdown | More than 5 options to choose from, some may be unavailable (disabled), additional explanations (description) of options may be required, hiding all available options doesn’t hinder user’s experience, there’s little room in UI to work with. |
+| Segmented control | No more than 5 options to choose from, all options are always available (no disabled states), no additional explanations (description) of options is required, showing all available options improves user’s experience, the amount of room in UI is not a problem. |
 
 
 ### Labels
