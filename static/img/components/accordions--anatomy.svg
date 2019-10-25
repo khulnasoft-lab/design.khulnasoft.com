@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="248px" height="114px" viewBox="0 0 248 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>accordions--s--anatomy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="accordions--s--anatomy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="global-components/accordion/expanded" transform="translate(43.000000, 34.000000)">
+            <text id="Is-GitLab-any-good?" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" line-spacing="16" fill="#2E2E2E">
+                <tspan x="16" y="13">Is GitLab any good?</tspan>
+            </text>
+            <text id="Yes!" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" line-spacing="16" fill="#707070">
+                <tspan x="16" y="39">Yes!</tspan>
+            </text>
+            <g id="icn/chevron-down" transform="translate(0.000000, 1.000000)" fill="#000000">
+                <path d="M7.29289,10.7071 C7.68342,11.0976 8.31658,11.0976 8.70711,10.7071 L11.7071,7.70711 C12.0976,7.31658 12.0976,6.68342 11.7071,6.29289 C11.3166,5.90237 10.6834,5.90237 10.2929,6.29289 L8,8.58579 L5.70711,6.29289 C5.31658,5.90237 4.68342,5.90237 4.29289,6.29289 C3.90237,6.68342 3.90237,7.31658 4.29289,7.70711 L7.29289,10.7071 Z" id="icon"></path>
+            </g>
+        </g>
+        <rect id="overlay" fill-opacity="0.3" fill="#6E49CB" x="46" y="38" width="10" height="10"></rect>
+        <g id="link-to-body" transform="translate(121.000000, 81.000000)" fill="#FC6D26">
+            <rect transform="translate(2.000000, 8.500000) rotate(-180.000000) translate(-2.000000, -8.500000) " x="1.50000001" y="0" width="1" height="17"></rect>
+            <circle id="Oval-Copy-2" cx="2" cy="2" r="2"></circle>
+        </g>
+        <g id="link-to-header" transform="translate(121.000000, 13.000000)" fill="#FC6D26">
+            <rect transform="translate(2.000000, 8.500000) rotate(-180.000000) translate(-2.000000, -8.500000) " x="1.50000001" y="0" width="1" height="17"></rect>
+            <circle id="Oval-Copy" cx="2" cy="15.1" r="2"></circle>
+        </g>
+        <g id="link-to-icon" transform="translate(25.000000, 40.000000)" fill="#FC6D26">
+            <rect transform="translate(8.500000, 2.500000) rotate(-90.000000) translate(-8.500000, -2.500000) " x="8" y="-6" width="1" height="17"></rect>
+            <circle id="Oval" cx="17" cy="2.49999999" r="2"></circle>
+        </g>
+        <rect id="overlay" fill-opacity="0.3" fill="#6E49CB" x="59" y="60" width="121" height="17"></rect>
+        <g id="Header-Overlay" transform="translate(59.000000, 34.000000)" fill="#6E49CB" fill-opacity="0.3">
+            <rect id="overlay" x="0" y="0" width="129" height="17"></rect>
+        </g>
+        <text id="Icon" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal" fill="#380D75">
+            <tspan x="-1" y="46">Icon</tspan>
+        </text>
+        <text id="Body" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal" line-spacing="16" fill="#380D75">
+            <tspan x="108" y="112">Body</tspan>
+        </text>
+        <text id="Header" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal" line-spacing="16" fill="#380D75">
+            <tspan x="102" y="11">Header</tspan>
+        </text>
+    </g>
+</svg>
