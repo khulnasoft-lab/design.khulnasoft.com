@@ -38,7 +38,7 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 #### Accordions anatomy
 
 <figure class="figure" role="figure" aria-label="displaying the anatomy of accordions in its collapsed state, a simple representation of the component including an icon, a header and a body">
-  <img class="figure-img" src="/img/icons-shape-corners.svg" alt="Accordions anatomy" role="img" />
+  <img class="figure-img" src="/img/components/accordions--anatomy.svg" alt="Accordions anatomy" role="img" />
   <figcaption class="figure-caption"></figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ Consider using the following 2 icons:
 
 | **Chevron** | **Plus** |
 | --- | --- |
-| <figure class="figure" role="figure" aria-label="Chevron right icon"><img class="figure-img" src="" alt="Chevron right icon" role="img" /><figcaption class="figure-caption">icn/chevron-right</figcaption></figure> | <figure class="figure" role="figure" aria-label="Plus icon"><img class="figure-img" src="" alt="Chevron right icon" role="img" /><figcaption class="figure-caption">icn/plus</figcaption></figure> |
+| <figure class="figure" role="figure" aria-label="Chevron right icon used for accordions"><img class="figure-img" src="/img/components/accordion__icn-chevron-right.svg" alt="Chevron right icon" role="img" /><figcaption class="figure-caption">icn/chevron-right</figcaption></figure> | <figure class="figure" role="figure" aria-label="Plus icon used for accordions"><img class="figure-img" src="img/components/accordion__icn-plus.svg" alt="Plus icon" role="img" /><figcaption class="figure-caption">icn/plus</figcaption></figure> |
 
 Prefer using a chevron icon when:
 * The accordion body content is mainly textual. The affordance of the chevron better suits this case to signify related additional information can be found "under" the header.
