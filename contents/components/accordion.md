@@ -27,7 +27,7 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 
 ### Dos and Dont's
 
-| Do | Don't |
+| **Do** | **Don't** |
 | ------ | ------ |
 | Use icons and animation to easily reflects collapsed and expanded state. | Leave the header without icon or use a [default buttons](/components/buttons) to trigger collapsible as they could be confound with call to actions or [dropdowns](/components/dropdowns). |
 | Headers and icons should both trigger collapsed and expanded state. | Make the icon the only way to trigger collapsed and expanded states. | 
@@ -37,17 +37,20 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 
 #### Accordions anatomy
 
-TODO: Add visual representation of an expanded accordion
+<figure class="figure" role="figure" aria-label="displaying the anatomy of accordions in its collapsed state, a simple representation of the component including an icon, a header and a body">
+  <img class="figure-img" src="/img/icons-shape-corners.svg" alt="Accordions anatomy" role="img" />
+  <figcaption class="figure-caption"></figcaption>
+</figure>
 
 #### Icon
 
-The icon should always reflect the state of the accordion (expanded or collapsed), and be located before the header so users always clicks on the same spot to expand/collapse the accordions through the icon.
+The icon should always reflect the state of the accordion (expanded or collapsed), and be located before the header so users always clicks on the same spot to expand/collapse the accordions, which reduce cognitive load and speed up task completion time. 
+
 Consider using the following 2 icons:
 
-| Chevrons | Plus |
-| ------ | ------ |
-|![image](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/chevron-right.svg)  | ![image](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/plus.svg) |
-| icn/chevron-right  | icn/plus |
+| **Chevron** | **Plus** |
+| --- | --- |
+| <figure class="figure" role="figure" aria-label="Chevron right icon"><img class="figure-img" src="" alt="Chevron right icon" role="img" /><figcaption class="figure-caption">icn/chevron-right</figcaption></figure> | <figure class="figure" role="figure" aria-label="Plus icon"><img class="figure-img" src="" alt="Chevron right icon" role="img" /><figcaption class="figure-caption">icn/plus</figcaption></figure> |
 
 Prefer using a chevron icon when:
 * The accordion body content is mainly textual. The affordance of the chevron better suits this case to signify related additional information can be found "under" the header.
