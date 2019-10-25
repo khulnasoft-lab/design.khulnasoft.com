@@ -75,7 +75,7 @@ L-->M[Review by Product Designer]
 M-->N[Merge usage guidelines and specs into Pajamas]
 N-->O[SUBFLOW: Build and style component]
 click O "https://gitlab.com/gitlab-org/gitlab-ui/blob/master/doc/component-lifecycle.md"
-O-->P[Grab component]
+O-->P[Use component]
 P-->Q[Done]
 G-->|Yes| R[Needs an update]
 R-->S{I understand the impact of what needs updating?}
