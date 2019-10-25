@@ -35,7 +35,7 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 
 ### Specifications
 
-#### Visual breakdown of Accordions structure
+#### Accordions anatomy
 
 TODO: Add visual representation of an expanded accordion
 
@@ -61,18 +61,18 @@ Just like [modals](/components/modals/), the header of an accordion could be a q
 
 #### Body
 
-The accordion body should stand out from the rest of the page and be directly linked to the header. 
+The accordion body should be differentiable visually from the rest of the page as it is a secondary type information and displayed below its header. Consider using spacing (margin/padding/hr) and/or hierarchy (font size, color) to structure the body content. Body content should directly relate to the header.(eg. Following the example above "What can GitLab offer me?" the content could be "GitLab helps organizations deliver better products faster, increase operational efficiencies, and reduce security and compliance risks...").
 
 #### Interaction
 
-Users should be able to expand and collapse the body by clicking or taping a single area that contains the accordion header and icon.
+Users should be able to expand and collapse the body by clicking or taping a single area containing the accordion header and icon.
 In the case of a page layout built around several accordions following each other, changing one accordion state does not reflect on the other, each accordions would need to be expanded/collapsed individually by users. 
 
 ## Accessibility
 
-Use proper semantic markup, so that users of screen readers are aware of the states of the accordion Expanded/Collasped.
+Use proper semantic markup, so that users of screen readers are aware of the states of the accordion Expanded/Collapsed.
 
-* The `aria-controls` attribute should be used to define the header is acting as a trigger to reveal content (the accordion body).
+* The `aria-controls` attribute should be used to define the that header is acting as a trigger to reveal content (the accordion body).
 * The `aria-expanded` attribute should be used to indicate the state of accordions.
 * After a user expand/collapse the accordion, focus should remain on the area wrapping the header and the icon.
 * The accordion should not rely on JavaScript to reveal the body content.
@@ -97,4 +97,3 @@ Todo: Add animation specifications
 * [Smashing Magazine - Designing The Perfect Accordion](https://www.smashingmagazine.com/2017/06/designing-perfect-accordion-checklist/#top)
 * [NN/G:Accordions Are Not Always the Answer for Complex Content on Desktops](https://www.nngroup.com/articles/accordions-complex-content/)
 * [Viget - Testing Accordion Menu Designs & Iconography](https://www.viget.com/articles/testing-accordion-menu-designs-iconography/) 
-
