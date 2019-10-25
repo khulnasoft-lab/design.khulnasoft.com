@@ -4,7 +4,7 @@ The component lifecycle has the following stages:
 
 * **Create:** A need for a component is identified. The component is added to the [GitLab Sketch UI Kit](https://gitlab.com/gitlab-org/gitlab-design/blob/master/doc/sketch-ui-kit.md), usage guidelines are written, and design specs are created to aid development.
 ~"pajamas::create"
-* **Build:** The component is added to gitlab-ui, including examples, 
+* **Build:** The component is added to gitlab-ui, including examples 
 and documentation. The component is added to Pajamas. ~"pajamas::build"
 * **Style:** Each component is styled according to the design specs found in 
 Pajamas. Components function correctly and match usage guidelines. ~"pajamas::style"
@@ -56,8 +56,8 @@ determine when and how a component should be added to Pajamas:
 
 ```mermaid
 graph TD;
-A[Start] -->B(Review issue)
-B--> C(Review Pajamas)
+A[Start] -->B[Review issue]
+B--> C[Review Pajamas]
 click C "https://design.gitlab.com"
 C-->D{Can I use Pajamas?}
 D -->|Yes| E[Use component]
@@ -77,9 +77,9 @@ click O "https://gitlab.com/gitlab-org/gitlab-ui/blob/master/doc/component-lifec
 O-->P[Use component]
 P-->Q[Done]
 G-->|Yes| R[Needs an update]
-R-->S{I understand the impact of what needs updating?}
-S-->|Yes| T[Update specs]
-T-->L
+R-->S{It's a small visual change and I understand its impact?}
+S-->|Yes| T[Update Sketch UI Kit and specs]
+T-->O
 S-->|No| I
 ```
 
