@@ -2,7 +2,7 @@
 name: Banner
 related:
   - alert
-  - broadcast-messages
+  - broadcast-message
   - empty-states
 ---
 
