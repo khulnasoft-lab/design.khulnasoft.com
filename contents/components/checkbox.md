@@ -1,5 +1,5 @@
 ---
-name: Checkboxes
+name: Checkbox
 vueComponents:
   - GlFormCheckbox
 related:
