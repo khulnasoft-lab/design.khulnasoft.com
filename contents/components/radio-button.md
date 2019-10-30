@@ -3,7 +3,7 @@ name: Radio buttons
 vueComponents:
   - GlFormRadio
 related:
-  - checkboxes
+  - checkbox
   - segmented-control
   - toggle
 ---
