@@ -5,7 +5,7 @@ related:
 - breadcrumb
 ---
 
-Trees provides a clear overview of a structure applying parent-child hierarchy between elements and using the concept of progressive disclosure to display this structure to users.
+Trees provides a clear overview of a structure applying parent-child hierarchy between elements, using the concept of progressive disclosure to display this structure to users.
 
 ## Usage
 
