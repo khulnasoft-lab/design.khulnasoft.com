@@ -20,7 +20,7 @@ Macro animations cover larger scale objects or surface area such as page changes
 
 ### Mircro animations
 
-Micro animations cover a smaller scale objects or surface area such as icons, color changes, buttons interactions, tooltips, etc. They are used to direct user attention and add a small amount of meaning which can help the user out. We should be mindfull with smaller scale animations and make sure they don't take too long as they will make the experience appear sluggish. If the complexity of an object requires a longer animation time please revisit it and look for an alternative solution. These animations may take up between 100ms and 200ms.
+Micro animations cover smaller scale objects or surface areas such as icons, color changes, buttons interactions, tooltips, etc. They are used to direct user attention and add a small amount of meaning which can help the user. We should be mindful with smaller scale animations and make sure they don't take too long as they will make the experience appear sluggish. If the complexity of an object requires a longer animation time please revisit it and look for an alternative solution. These animations may take up between 100ms and 200ms.
 
 ## Types of animations
 
