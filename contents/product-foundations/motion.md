@@ -16,7 +16,7 @@ The scale of an animation, it's easing curve, and the complexity of the element 
 
 ### Macro animations
 
-Macro animations cover larger scale objects or surface area such as page changes, drawer reveals, and scrolling or other movement across the screen, etc. We should be mindfull with larger scale animations and make sure they add convey enough meaning in order to add enough value towards the user experience. These animations may take up to 400ms.
+Macro animations cover larger scale objects or surface area such as page changes, drawer reveals, and scrolling or other movement across the screen, etc. We should be mindful with larger scale animations and make sure they convey enough meaning in order to add value towards the user experience. These animations may take up to 400ms.
 
 ### Mircro animations
 
