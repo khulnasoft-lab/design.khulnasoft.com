@@ -6,10 +6,11 @@ related:
 ---
 
 Trees provides a clear overview of a structure applying parent-child hierarchy between elements and using the concept of progressive disclosure to display this structure to users.
+Just like [accordions](/components/accordions), trees are vertically stacked. Trees are composed of a main container (tree trunk) regrouping related elements, branches, its related leaves. As tree trunk and branch elements of the tree are collapsible, they should be paired with an icon that clearly signify the change of state (Expand/Collapse). Trees should visually reflect the hierarchy and relationship differences between its elements using spaces (margin/padding) or lines.
 
 ## Usage
 
-Consider using a tree as a navigation pattern to map out relations and hierarchy between multiple items.
+Consider using a tree as a navigation pattern to map out relations and hierarchy between multiple items.(eg.Listing a set of projects part of the same group).
 
 ### When to use trees
 
@@ -31,10 +32,7 @@ Do not use trees to:
 | Visually differentiate relationship between elements using margin and padding to create the hierarchy structure. | Align branches and leaves right under the tree trunk.  | 
 | Regroup as much as possible related content as leaves under the same branch. (eg. Design > Research > Interviews - Personas - Experience Map) |  Multiply branches if the content is similar and could be regrouped as leaves under a same branch. |
 
-
 ### Specifications
-
-Just like [accordions](/components/accordions), trees are vertically stacked. Trees are composed of a main container (tree trunk) regrouping related elements,  branches, its related leaves. As tree trunk and branch elements of the tree are collapsible, they should be paired with an icon that clearly signify the change of state (Expand/Collapse). Trees should visually reflect the hierarchy and relationship differences between its elements using spaces (margin/padding) or lines.
 
 #### Tree trunk 
 
