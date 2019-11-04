@@ -12,13 +12,13 @@ Accordions are used to group similar content and hide or show it depending on us
 
 Accordions are displayed vertically stacked. They always contain a header, an icon reflecting its current state (collapsed or expanded), and a clearly identifiable body.
 
-### When to use accordions
+### Use accordions when:
 
 * Displaying and regrouping additional information.
 * Adding granular control over the information of a given page.
 * Shortening pages and reduce scrolling.
 
-### When not to use accordions
+### Do not use accordions when:
 
 * Displaying critical system information or a primary action to be taken on the page. (e.g. Alerts, confirmation or cancellation buttons).
 * Displaying navigation elements such as [tabs](/components/tabs).
@@ -50,7 +50,7 @@ Consider using the following 2 icons:
 
 | Chevron | Plus |
 | --- | --- |
-| <figure class="figure" role="figure" aria-label="Chevron right icon used for accordions"><img class="figure-img" src="/img/components/accordion__icn-chevron-right.svg" alt="Chevron right icon" role="img" /><figcaption class="figure-caption">icn/chevron-right</figcaption></figure> | <figure class="figure" role="figure" aria-label="Plus icon used for accordions"><img class="figure-img" src="img/components/accordion__icn-plus.svg" alt="Plus icon" role="img" /><figcaption class="figure-caption">icn/plus</figcaption></figure> |
+| <figure class="figure" role="figure" aria-label="Chevron right icon used for accordions"><img class="figure-img" src="/img/components/accordion__icn-chevron-right.svg" alt="Chevron right icon" role="img" /><figcaption class="figure-caption">icn/chevron-right</figcaption></figure> | <figure class="figure" role="figure" aria-label="Plus icon used for accordions"><img class="figure-img" src="/img/components/accordion__icn-plus.svg" alt="Plus icon" role="img" /><figcaption class="figure-caption">icn/plus</figcaption></figure> |
 
 Prefer using a chevron icon when:
 
