@@ -27,7 +27,7 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 
 ### Dos and Dont's
 
-| **Do** | **Don't** |
+| Do | Don't |
 | ------ | ------ |
 | Use icons and animation to easily reflects collapsed and expanded state. | Leave the header without icon or use a [default buttons](/components/buttons) to trigger collapsible as they could be confound with call to actions or [dropdowns](/components/dropdowns). |
 | Headers and icons should both trigger collapsed and expanded state. | Make the icon the only way to trigger collapsed and expanded states. | 
