@@ -48,7 +48,7 @@ The icon should always reflect the state of the accordion (expanded or collapsed
 
 Consider using the following 2 icons:
 
-| **Chevron** | **Plus** |
+| Chevron | Plus |
 | --- | --- |
 | <figure class="figure" role="figure" aria-label="Chevron right icon used for accordions"><img class="figure-img" src="/img/components/accordion__icn-chevron-right.svg" alt="Chevron right icon" role="img" /><figcaption class="figure-caption">icn/chevron-right</figcaption></figure> | <figure class="figure" role="figure" aria-label="Plus icon used for accordions"><img class="figure-img" src="img/components/accordion__icn-plus.svg" alt="Plus icon" role="img" /><figcaption class="figure-caption">icn/plus</figcaption></figure> |
 
