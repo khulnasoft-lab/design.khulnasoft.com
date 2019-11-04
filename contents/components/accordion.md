@@ -58,11 +58,11 @@ Prefer using a chevron icon when:
 
 Prefer using a plus icon when: 
 
-* The accordion body content is a set of visual components following the same style, secondary functionalities, that do not prevent users to accomplish their task... In this case the plus icon would act as a visual signifier for adding extra content of the exact same type. (eg. a set of icons, avatars, secondary buttons...) 
+* The accordion body content is a set of visual components following the same style, secondary functionalities, that do not prevent users to accomplish their task. In this case the plus icon would act as a visual signifier for adding extra content of the exact same type. (eg. a set of icons, avatars, secondary buttons...).
 
 #### Header
 
-Just like [modals](/components/modals/), the header of an accordion could be a question or a title. Either way, headers should give context about the underlying content in a concise and actictionable way. Examples of headers can be "What can GitLab offer me?", or "More options".
+Just like [modals](/components/modals/), the header of an accordion could be a question or a title. Either way, headers should give context about the underlying content in a concise and actionable way. Examples of headers can be "What can GitLab offer me?", or "More options".
 
 #### Body
 
