@@ -29,7 +29,7 @@ Todo: Add replacement-comparison-table
 
 ### Visual Design
 
-- Checkboxes use high-contrast colors for labels and default browser UI to indicate selected, unselected, and indeterminate states.
+* Checkboxes use high-contrast colors for labels and default browser UI to indicate selected, unselected, and indeterminate states.
 - A vertical (stacked) layout is preferred, with one checkbox per line. For sets of two with short labels where wrapping or width constraints are not an issue the inline (horizontal) layout is acceptable.
 - Avoid mixing stacked and inline checkbox groups within the same form or context.
 
