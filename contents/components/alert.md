@@ -22,6 +22,7 @@ Alerts allow the application to pass along relevant system information to the us
 Alerts may contain a dismiss action, as well as an additional action button, depending on the use case.
 
 #### Dismissible alerts
+
 Dismissible alerts can be removed by the user and can reappear if an action or system event reproduces the alert. 
 
 Use dismissible alerts when the user's task is not blocked if they do not take action. 
