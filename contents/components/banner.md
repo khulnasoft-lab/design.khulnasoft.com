@@ -23,7 +23,7 @@ Use banners to:
 
 Do not use banners to:
 
-- Communicate when a feature has not yet been configured or used. For example, when the security dashboard needs further setup or no issues have been added to a project. Instead, use an [empty-state](https://design.gitlab.com/regions/empty-states).
+* Communicate when a feature has not yet been configured or used. For example, when the security dashboard needs further setup or no issues have been added to a project. Instead, use an [empty-state](https://design.gitlab.com/regions/empty-states).
 - Give tips and hints on the use of a feature. For example, configuring a review app. Instead, use a tip style [alert](/components/alert).
 
 ### Dos and Dont's
