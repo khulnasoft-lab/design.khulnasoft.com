@@ -15,7 +15,7 @@ Tokens represent keywords and are used to add or filter objects. They allow user
 
 A token is used in a search query in places where the user is expected to include multiple queries.
 
-- Input tokens are used to add content. For example, these tokens are used when adding new users to a project. Multiple users can be added at once, and each inputted user is added as a token within the text field.
+* Input tokens are used to add content. For example, these tokens are used when adding new users to a project. Multiple users can be added at once, and each inputted user is added as a token within the text field.
 - Filter tokens are used to narrow down content and are attached to a qualifier. [Filters](/components/filter) inherit these tokens.
 
 ### When to use tokens
