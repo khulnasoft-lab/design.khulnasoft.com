@@ -29,7 +29,7 @@ Do not use banners to:
 | Use to promote a new or unconfigured feature. | Use to communicate system status or events to the user. Instead, use an [alert](/components/alert). |
 | Allow banners to be dismissible. | Use banners to communicate instruction or critical information that should not be dismissible by a user. |
 | Use sparingly and with consideration of other components in proximity. | Overuse and clutter the experience with promotions. |
-| Display to users who can take immediate action if they desire.  | Display to users who cannot activate the feature or benefit from its use.  |
+| Display to users who can take immediate action if they desire. | Display to users who cannot activate the feature or benefit from its use. |
 | Use a single action-oriented button as the only call to action. | Use multiple buttons or text links as primary actions. |
 
 ### Specifications
