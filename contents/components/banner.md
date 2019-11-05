@@ -13,6 +13,7 @@ Banners promote user awareness for new or unused features. Unlike [alerts](/comp
 Designating the use of a banner should be the result of careful consideration and planning between a Designer and their Product Manager. Reserve the use of banners for high priority features and configurations that would benefit the user to activate. Banners can be placed either inline with the content or at the top of a page. The location is flexible depending on the promotion and the context in which the promotion is taking place.
 
 ### When to use banners
+
 Use banners to:
 
 - Inform a user of a feature that has yet to be enabled. For example, Auto DevOps.
