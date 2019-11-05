@@ -44,7 +44,7 @@ Alerts should be used when the system needs to notify the user of its status or 
 | Danger | Configuration issue | Use a danger alert when there is a configuration issue with the `.gitlab-ci.yml` file. |
 | Warning | Potential issue | Use a warning alert when the user has added an SSH key that doesn't appear to be public. |  
 | Information | Provide supplemental information | Use an information alert in Settings/Export-project to detail what will happen when a user exports a project. |
-| Tip | Promotional offer  | Use a tip alert in Operations/Kubernetes to make the user aware of a GCP credit offer. |
+| Tip | Promotional offer | Use a tip alert in Operations/Kubernetes to make the user aware of a GCP credit offer. |
 | Success | Subsequent confirmation of a proper configuration | Use a success alert in the pipeline view after the user activates SAST using the Web IDE and the SAST job runs properly for the first time. |
 
 ### When not to use alerts
