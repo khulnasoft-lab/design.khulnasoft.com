@@ -40,7 +40,7 @@ This section is **always required**. The content in the body should never be amb
 Use multiple sections within the body when you have two or more related but distinct pieces of information to communicate to users. Multiple sections can help break up complicated concepts like pricing data.
 
 #### Actions:
-This section is **optional**. There should be no more than 3 actions and no fewer than 1. Actions should always be located within an action bar at the bottom of the Card. Button order and positioning should follow our [guidelines for buttons](/components/buttons).
+The action section is **optional**. There should be no more than 3 actions and no fewer than 1 in every card. Actions should always be located within an action bar at the bottom of the Card. Button order and positioning should follow our [guidelines for buttons](/components/buttons).
 
 ### Behavior
 
