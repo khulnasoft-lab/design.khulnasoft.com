@@ -15,7 +15,7 @@ Cards are used to connect similar concepts and/or activities to help make it eas
 
 ### Alternatives
 
-**Table:** 
+#### Table
 If the purpose of using the component is to compare and contrast 5 or more static (non-draggable) pieces of content a better option would be to structure the data within a [table component](https://design.gitlab.com/components/table).
 
 ## Demo
