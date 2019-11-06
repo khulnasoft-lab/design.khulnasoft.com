@@ -50,4 +50,4 @@ This section is **optional**. There should be no more than 3 actions and no fewe
 
 ## Design Specifications
 
-TODO: Add Sketch Measure Preview for List
+TODO: Add Sketch Measure Preview for Cards
