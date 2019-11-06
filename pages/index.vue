@@ -93,7 +93,7 @@
           <a
             href="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues"
             target="_blank"
-            class="card card--highlighted card--link text-center p-a-4"
+            class="card card--highlighted card--link text-center m-l-5 p-a-4"
           >
             <img
               src="../assets/images/resources/r-gitlab.png"
