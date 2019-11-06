@@ -46,7 +46,9 @@ This section is **optional**. There should be no more than 3 actions and no fewe
 
 **Responsive Considerations:** The Card width is fluid by default. When presenting two or more static cards in a row, care must be taken to ensure the appropriate stacking occurs across breakpoints.
 
-**Interactions:** Dynamic Cards can be draggable and re-ordered within a linear list. To help layer the component within this particular use-case a drop shadow is required. A draggable Card will maintain the ability to house individual links and actions. Its empty space becomes the trigger to enable the drag functionality.
+#### Interactions
+
+Dynamic Cards can be draggable and re-ordered within a linear list. To help layer the component within this particular use-case a drop shadow is required. A draggable Card will maintain the ability to house individual links and actions. Its empty space becomes the trigger to enable the drag functionality.
 
 ## Design Specifications
 
