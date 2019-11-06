@@ -44,7 +44,9 @@ This section is **optional**. There should be no more than 3 actions and no fewe
 
 ### Behavior
 
-**Responsive Considerations:** The Card width is fluid by default. When presenting two or more static cards in a row, care must be taken to ensure the appropriate stacking occurs across breakpoints.
+#### Responsiveness
+
+The Card width is fluid by default. When presenting two or more static cards in a row, care must be taken to ensure the appropriate stacking occurs across breakpoints.
 
 #### Interactions
 
