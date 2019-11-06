@@ -9,7 +9,7 @@ Cards are a flexible component used to display content and actions on a variety 
 Cards are used to connect similar concepts and/or activities to help make it easier for users to browse, read and learn more about GitLab. The use-cases vary from communicating pricing plans to organising content within issue boards. There are two main types of Cards (Static and Dynamic).
 
 |Component type|Purpose|
-|--- |--- |
+| --- | --- |
 | Static Card | Single topic component to help compare and contrast similar pieces of information |
 | Dynamic (Draggable Card) | For use in a multidisciplinary list to help users stay organised |
 
