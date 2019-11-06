@@ -10,7 +10,7 @@ Cards are used to connect similar concepts and/or activities to help make it eas
 
 | Card type | Purpose |
 | --- | --- |
-| Static Card | Single topic component to help compare and contrast similar pieces of information |
+| Static Card | Single topic component to help compare and contrast similar pieces of information. |
 | Dynamic card | Can be draggable. For use in a multidisciplinary list to help users stay organised. |
 
 ### Alternatives
