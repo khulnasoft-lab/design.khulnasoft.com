@@ -33,11 +33,11 @@ Todo: Add live component block with code example
 
 There are three main sections of a Card: Header, body, and actions.
 
-#### Header:
+#### Header
 
 The header is **optional** and acts as the title of the proceeding body content. An example could be the name of a pricing plan or a blog post title. Headings should set clear expectations about the card’s purpose.
 
-#### Body:
+#### Body
 
 The card body is **always required**. The content in the body should never be ambiguous or unclear. Strive to be as concise as possible and provide the user with content regarding a single topic. If a Card's purpose is to communicate a pricing plan, the body would contain the plan's price point and key feature information. 
 
