@@ -29,7 +29,7 @@ Todo: Add live component block with code example
 ## Specifications
 
 ### Sections
-There are three main sections of a Card:
+There are three main sections of a Card: Header, body, and actions.
 
 #### Header:
 The header is **optional** and acts as the title of the proceeding body content. An example could be the name of a pricing plan or a blog post title. Headings should set clear expectations about the card’s purpose.
