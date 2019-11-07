@@ -6,7 +6,7 @@ Cards are a flexible component used to display content and actions in a variety 
 
 ## Usage
 
-Cards are used to connect similar concepts and/or activities to help make it easier for users to browse, read and learn more about GitLab. The use-cases vary from communicating pricing plans to organising content within issue boards. 
+Cards are used to connect similar concepts and/or activities to help make it easier for users to browse, read and learn more about GitLab. The use-cases vary from communicating pricing plans to organising content within issue boards.
 
 ### Types
 
