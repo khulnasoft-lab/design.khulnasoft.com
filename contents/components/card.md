@@ -20,6 +20,7 @@ There are two main types of Cards: Static and Dynamic.
 ### Alternatives
 
 #### Table
+
 If the purpose of using the component is to compare and contrast 5 or more static (non-draggable) pieces of content a better option would be to structure the data within a [table component](https://design.gitlab.com/components/table).
 
 ## Demo
@@ -29,17 +30,21 @@ Todo: Add live component block with code example
 ## Specifications
 
 ### Sections
+
 There are three main sections of a Card: Header, body, and actions.
 
 #### Header:
+
 The header is **optional** and acts as the title of the proceeding body content. An example could be the name of a pricing plan or a blog post title. Headings should set clear expectations about the card’s purpose.
 
 #### Body:
+
 The card body is **always required**. The content in the body should never be ambiguous or unclear. Strive to be as concise as possible and provide the user with content regarding a single topic. If a Card's purpose is to communicate a pricing plan, the body would contain the plan's price point and key feature information. 
 
 Use multiple sections within the body when you have two or more related but distinct pieces of information to communicate to users. Multiple sections can help break up complicated concepts like pricing data.
 
 #### Actions:
+
 The action section is **optional**. There should be no more than 3 actions and no fewer than 1 in every card. Actions should always be located within an action bar at the bottom of the Card. Button order and positioning should follow our [guidelines for buttons](/components/buttons).
 
 ### Behavior
