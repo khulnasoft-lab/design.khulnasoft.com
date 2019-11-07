@@ -40,4 +40,4 @@ contributions. Please refer to [CONTRIBUTING.md](/CONTRIBUTING.md) for details.
 
 ## Why is the design system called Pajamas?
 
-If you're curious about how we decided on this name, feel free to read through the original naming issue [#138](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/138)
+Pajamas is a nod to our fully remote culture. In addition, they are comfortable, reliable, and consistent! Read more about how we landed on the name Pajamas in the [original issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/138).
