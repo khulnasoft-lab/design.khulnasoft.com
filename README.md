@@ -38,6 +38,6 @@ Each merge request for this repository will generate a [review app](https://docs
 GitLab is an open source project and we are very happy to accept community
 contributions. Please refer to [CONTRIBUTING.md](/CONTRIBUTING.md) for details.
 
-## Why is the design library called Pajamas?
+## Why is the design system called Pajamas?
 
 If you're curious about how we decided on this name, feel free to read through the original naming issue [#138](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/138)
