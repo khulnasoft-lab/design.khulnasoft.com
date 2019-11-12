@@ -20,7 +20,7 @@ The user should be able to input the date by either typing it in or choosing a d
 
 ### Selecting a range of dates
 
-A combination of two date pickers can be used for selecting a range of dates, the user can do so by selecting a starting and an ending date. When implementing a range date picker, the following guidelines should be followed:
+A combination of two date pickers can be used for selecting a range of dates. The user can do so by selecting a start and end date. When implementing a range date picker, the following guidelines should be followed:
 
 * The order of the “From” and “To” date input fields should match the user’s reading direction setting (left-to-right or right-to-left). On mobile devices, the two date input fields are full-width and stacked so the user’s reading direction shouldn’t have an effect on the order—the starting date field (“From”) is always on top, the ending date field (“To”) is always on the bottom. 
 * Once a user selects the starting date (“From”), the date picker for the ending date (“To”) should only allow them to pick a date that is either equal or after that. The days preceding the start date should be disabled and thus not selectable. 
