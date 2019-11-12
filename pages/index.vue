@@ -96,8 +96,8 @@
             class="card card--highlighted card--link text-center m-l-5 p-a-4"
           >
             <img
-              src="../assets/images/resources/r-gitlab.png"
-              srcset="../assets/images/resources/r-gitlab@2x.png 2x"
+              src="../assets/images/resources/r-issues.png"
+              srcset="../assets/images/resources/r-issues@2x.png 2x"
               class="a-center d-block m-b-3"
             />
             View issue tracker
