@@ -5,6 +5,7 @@ vueComponents:
 related:
   - accordion
   - buttons
+  - drawer
   - popovers
   - toast
   - tooltip
