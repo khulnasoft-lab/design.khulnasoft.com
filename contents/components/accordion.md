@@ -14,13 +14,13 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 
 ### Use accordions when:
 
-* Displaying and regrouping additional information.
+* Displaying and grouping additional information.
 * Adding granular control over the information on a given page.
 * Shortening pages to reduce scrolling.
 
 ### Do not use accordions when:
 
-* Displaying critical system information or a primary action to be taken on the page. (e.g. Alerts, confirmation or cancellation buttons).
+* Displaying critical system information or a primary action to be taken on the page. (e.g. [Alerts](/components/alert), confirmation or cancellation buttons).
 * Displaying navigation elements such as [tabs](/components/tabs).
 * Displaying links pointing to sections of the same page, instead us a [list](components/list).
 * Creating hierarchy levels by nesting them within each other. If you need to add hierarchy to the content use a [tree](components/tree).
@@ -29,7 +29,7 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 
 | Do | Don't |
 | ------ | ------ |
-| Use icons and animation to easily reflect collapsed and expanded state. | Leave the header without icon or use a [default buttons](/components/buttons) to trigger collapsible as they could be confound with call to actions or [dropdowns](/components/dropdowns). |
+| Use icons and [animation](/product-foundations/motion) to easily reflect collapsed and expanded state. | Leave the header without icon or use a [default buttons](/components/buttons) to trigger collapsible as they could be confound with call to actions or [dropdowns](/components/dropdowns). |
 | Trigger collapsed and expanded states when clicking on either the header or icon. | Make the icon the only way to trigger collapsed and expanded states. | 
 | Use a [chevron](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/chevron-right.svg) or [plus](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/plus.svg) icon with the header. | Use an icon that can not reflect the transition like a [question mark](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/question.svg). | 
 
@@ -94,7 +94,7 @@ TODO: Add Sketch Measure Preview for Accordion
 
 ## Animation specifications
 
-Todo: Add animation specifications
+* [Macro-animations](https://design.gitlab.com/product-foundations/motion/#macro-animations)
 
 ## Resources
 
