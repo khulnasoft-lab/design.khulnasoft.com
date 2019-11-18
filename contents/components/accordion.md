@@ -30,7 +30,7 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 | Do | Don't |
 | ------ | ------ |
 | Use icons and animation to easily reflect collapsed and expanded state. | Leave the header without icon or use a [default buttons](/components/buttons) to trigger collapsible as they could be confound with call to actions or [dropdowns](/components/dropdowns). |
-| Headers and icons should both trigger collapsed and expanded state. | Make the icon the only way to trigger collapsed and expanded states. | 
+| Trigger collapsed and expanded states when clicking on either the header or icon. | Make the icon the only way to trigger collapsed and expanded states. | 
 | Prefer using a [chevron](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/chevron-right.svg) icon with the header. | Use an icon that can not reflect the transition like a [question mark](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/question.svg). | 
 
 ### Specifications
