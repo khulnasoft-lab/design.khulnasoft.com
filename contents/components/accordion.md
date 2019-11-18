@@ -75,7 +75,7 @@ In the case of a page layout built around several accordions following each othe
 
 ## Accessibility
 
-Use proper semantic markup, so that users of screen readers are aware of the states of the accordion Expanded/Collapsed.
+Use proper semantic markup, so that users of screen readers are aware of the states of the accordion.
 
 * The `aria-controls` attribute should be used to define the that header is acting as a trigger to reveal content (the accordion body).
 * The `aria-expanded` attribute should be used to indicate the state of accordions.
