@@ -16,7 +16,7 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 
 * Displaying and regrouping additional information.
 * Adding granular control over the information on a given page.
-* Shortening pages and reduce scrolling.
+* Shortening pages to reduce scrolling.
 
 ### Do not use accordions when:
 
