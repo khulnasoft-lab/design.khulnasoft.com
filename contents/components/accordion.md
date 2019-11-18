@@ -56,7 +56,7 @@ Use a chevron icon when:
 
 * The accordion body content is mainly textual. The affordance of the chevron better suits this case to signify related additional information can be found "under" the header.
 
-Prefer using a plus icon when: 
+Use a plus icon when: 
 
 * The accordion body content is a set of visual components following the same style, secondary functionalities, that do not prevent users to accomplish their task. In this case the plus icon would act as a visual signifier for adding extra content of the exact same type. (eg. a set of icons, avatars, secondary buttons...).
 
