@@ -25,8 +25,9 @@ Pagination is similar to infinite scroll, so use the table below as a guide for 
 | **When to use:** | To be used on any list that can be sorted and/or filtered. | To be used on lists with no sort/filter functionality. Lists that only have a search function should use infinite scroll and not be considered in the sorted/filtered category. |
 | **Examples:** | Issues and Todos dashboards | Activity dashboards and the Commits page |
 
-### Pagination
-Lists with **more than 20** items require pagination which is always located below the list and takes the form of a [button group](/components/button/#group). Pagination is generally not required on lists with **20 or fewer** items but can be considered depending on the context (i.e. the paginated list is embedded within another component).
+### Behavior
+
+Lists with **more than 20** items require pagination which is always located below the list and takes the form of a [button group](/components/buttons/#group). Pagination is generally not required on lists with **20 or fewer** items but can be considered depending on the context (i.e. the paginated list is embedded within another component).
 
 #### Anchoring
 
