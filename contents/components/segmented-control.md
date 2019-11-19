@@ -15,21 +15,16 @@ A segmented control is commonly used as an alternative to [dropdown](/components
 
 Consult the two tables below to correctly choose when to use a segmented control.
 
-|                                                    | Radio buttons | Segmented control | Checkboxes | Single checkbox | Toggle |
-|----------------------------------------------------|---------------|-------------------|------------|-----------------|--------|
-| How many states are available?                     | Multiple      | Multiple          | Multiple   | Boolean         | Boolean|
-| How many options can the user select?              | 1             | 1                 | 0-all      | 1               | 1      |
-| Is there a default state?                          | Yes           | Yes               | No         | Yes             | Yes    |
-| Are the options independent or mutually exclusive? | Mutually exclusive | Mutually exclusive | Independent | Mutually exclusive | Mutually exclusive |
-| Example                                            | Project visibility setting | 7, 30, 60, 90 days timeframe in analytics dashboards | Dropdown with assignees, labels etc. | Accepting terms and conditions on sign up | Enabling/disabling project features |
+|                      | Single checkbox                           | Toggle                              | Single-select dropdown  | Radio buttons              | Segmented control                                | Multiple checkboxes | Multi-select dropdown |
+|----------------------|-------------------------------------------|-------------------------------------|-------------------------|----------------------------|--------------------------------------------------|---------------------|-----------------------|
+| Available options    | 1                                         | 1                                   | >1 or unknown           | >1 and <6                  | >1 and <6                                        | >1 and <6           | >1 or unknown         |
+| Selectable options   | 1                                         | 1                                   | 1                       | 1                          | 1                                                | >1 or even all      | >1 or even all        |
+| Pre-selected options | Possible                                  | Possible                            | Possible                | Yes, 1                     | Yes, 1                                           | Possible            | Possible              |
+| Disabled options     | Possible                                  | Possible                            | Possible                | Possible                   | No                                               | Possible            | Possible              |
+| Option descriptions  | Possible                                  | Possible                            | Possible                | Possible                   | No                                               | Possible            | Possible              |
+| UI space             | Little room                               | Not a problem                       | Little room             | Not a problem              | Not a problem                                    | Not a problem       | Little room           |
+| Example              | Accepting terms and conditions on sign up | Enabling/disabling project features | “Sort by” dropdowns     | Project visibility setting | 7, 30, 90 days timeframe in analytics dashboards | Scopes selection in User settings > Applications                    | Add/remove labels     |
 
-Radio buttons, segmented control or dropdown?
-
-| Component | Consider using when... |
-|-----------|-------------|
-| Radio buttons | Some options may be unavailable (disabled), additional explanations (description) of options may be required, the amount of room in UI is not a problem. |
-| Dropdown | More than 5 options to choose from, some may be unavailable (disabled), additional explanations (description) of options may be required, hiding all available options doesn’t hinder user’s experience, there’s little room in UI to work with. |
-| Segmented control | No more than 5 options to choose from, all options are always available (no disabled states), no additional explanations (description) of options is required, showing all available options improves user’s experience, the amount of room in UI is not a problem. |
 
 
 ### Labels
