@@ -1,5 +1,8 @@
 ---
 name: Drawer
+status: built
+vueComponents:
+  - GlDrawer
 related:
   - accordion
   - buttons
@@ -102,7 +105,7 @@ The drawer maintains the same behavior all the way down to the small breakpoint,
 
 ## Demo
 
-Todo: Add live component block with code example
+[[Example:drawer]]
 
 ## Design Specifications
 
