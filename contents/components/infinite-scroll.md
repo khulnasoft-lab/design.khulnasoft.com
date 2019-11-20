@@ -1,5 +1,5 @@
 ---
-name: Infinite-scroll
+name: Infinite scroll
 status: built
 vueComponents:
   - gl-infinite-scroll
