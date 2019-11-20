@@ -1,5 +1,9 @@
 ---
 name: Drawer
+<<<<<<< HEAD
+=======
+status: built
+>>>>>>> add vue component tab, built status, and demo
 vueComponents:
   - GlDrawer
 related:
