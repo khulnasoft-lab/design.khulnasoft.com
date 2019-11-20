@@ -10,7 +10,7 @@ Just like [accordions](/components/accordions), trees are vertically stacked. Tr
 
 ## Usage
 
-Consider using a tree as a navigation pattern to map out relations and hierarchy between multiple items.(eg.Listing a set of projects part of the same group).
+Consider using a tree as a navigation pattern to map out relations and hierarchy between multiple items.(eg. Listing a set of projects part of the same group).
 
 ### When to use trees
 
@@ -28,7 +28,7 @@ Do not use trees to:
 | Dos | Donts |
 | ------ | ------ |
 | Even if the structure is complex, keep the depth of the hierarchy to 4 levels maximum. (eg. Tree trunk > Branch > Sub-branch > leaf) | Nest more than 4 levels of hierarchy, as it can make part of the content harder to access, in that case prefer a [list](https://design.gitlab.com/components/list). |
-| Use a logical order to sort branches/leaves within a tree (eg.starting with the most valuable item at the beginning, from a user standpoint. Using an alphabetical order...).| Leave the hierarchy structure unsorted. | 
+| Use a logical order to sort branches/leaves within a tree (eg. Starting with the most valuable item at the beginning, from a user standpoint. Using an alphabetical order...).| Leave the hierarchy structure unsorted. | 
 | Visually differentiate relationship between elements using margin and padding to create the hierarchy structure. | Align branches and leaves right under the tree trunk.  | 
 | Regroup as much as possible related content as leaves under the same branch. (eg. Design > Research > Interviews - Personas - Experience Map) |  Multiply branches if the content is similar and could be regrouped as leaves under a same branch. |
 
@@ -36,7 +36,7 @@ Do not use trees to:
 
 #### Tree trunk 
 
-The tree trunk is the starting point of the tree. At the minimum, Tree trunk possess a title, as generic and broad as possible to give a general idea of their related branches and leaves (eg.GitLab.com), and an icon signifying the element is expandable and collapsable. Additionally, tree trunk can also contain other descriptive elements such as paragraph (eg. Open source software to collaborate on code), labels(eg.Public)... Tree trunk are collapsible elements and could be expanded and collapsed by clicking both icon and title.
+The tree trunk is the starting point of the tree. At the minimum, Tree trunk possess a title, as generic and broad as possible to give a general idea of their related branches and leaves (eg. GitLab.com), and an icon signifying the element is expandable and collapsable. Additionally, tree trunk can also contain other descriptive elements such as paragraph (eg. Open source software to collaborate on code), labels(eg. Public)... Tree trunk are collapsible elements and could be expanded and collapsed by clicking both icon and title.
 
 #### Branch
 
@@ -44,7 +44,7 @@ Branches are directly related to tree trunks. They also possess a title, ideally
 
 #### Leaf
 
-Leaves are the smallest element possible within the tree, they too possess a title, this title  should be as specific as possible about the underlying content.(eg.Charts). Preferably, leaves should remain tied to a branch within a tree.
+Leaves are the smallest element possible within the tree, they too possess a title, this title  should be as specific as possible about the underlying content.(eg. Charts). Preferably, leaves should remain tied to a branch within a tree.
 
 ## Demo
 
