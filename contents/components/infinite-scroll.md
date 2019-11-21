@@ -2,7 +2,7 @@
 name: Infinite scroll
 status: built
 vueComponents:
-  - gl-infinite-scroll
+  - GlInfiniteScroll
 related:
   - list
   - pagination
