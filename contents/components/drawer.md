@@ -16,7 +16,7 @@ A drawer is a convenient way to present context specific information or to provi
 
 ### Dos and dont's
 
-| :white_check_mark:  Do | :stop_sign: Don’t |
+| Do | Don’t |
 |------------------------|-------------------|
 | Use to display additional or supplemental information to the user about an element or item. | Use for critical interactions, such as confirming a deletion event. |
 | Use for complex creation, edit, or management experiences. | Use when to display large tables, data sets or metrics that are better suited to a larger view. | 
