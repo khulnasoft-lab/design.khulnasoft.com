@@ -31,7 +31,7 @@ Do not use trees to:
 | Even if the structure is complex, keep the depth of the hierarchy to 4 levels maximum. (eg. Tree trunk > Branch > Sub-branch > leaf) | Nest more than 4 levels of hierarchy, as it can make part of the content harder to access, in that case prefer a [list](https://design.gitlab.com/components/list). |
 | Use a logical order to sort branches/leaves within a tree (eg. Starting with the most valuable item  from a user standpoint or use alphabetical order). | Leave the hierarchy structure unsorted. | 
 | Visually differentiate the relationship between elements using margin and padding to create the hierarchy structure. | Align branches and leaves right under the tree trunk.  | 
-| Regroup as much as possible related content as leaves under the same branch. (eg. Design > Research > Interviews - Personas - Experience Map) |  Multiply branches if the content is similar and could be regrouped as leaves under a same branch. |
+| Group related content as leaves under the same branch. (eg. Design > Research > Interviews - Personas - Experience Map) |  Multiply branches if the content is similar and could be grouped as leaves under a same branch. |
 
 ### Specifications
 
