@@ -41,7 +41,7 @@ The tree trunk is the starting point of the tree. At the minimum, Tree trunk pos
 
 #### Branch
 
-Branches are directly related to tree trunks. They also possess a title, ideally directly referring to the tree trunk title (eg. GitLab Infrastructure team) and an icon signifying the expandable and collapsable states. Expanding a branch element would unveil a leaf.
+Branches are directly related to tree trunks. They also possess a title, which directly refer to the tree trunk title, as well as an icon, to signify the expandable and collapsable states. Expanding a branch element would unveil a leaf.
 
 #### Leaf
 
