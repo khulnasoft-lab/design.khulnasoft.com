@@ -21,7 +21,7 @@ Use trees to:
 
 Do not use trees to:
 - Provide additional information about a specific element of the page, consider using an [accordion](/components/accordion) instead.
-- To display a navigation status, prefer using [breadcrumb](/components/breadcrumb) instead.
+*  To display a navigation location, use [breadcrumb](/components/breadcrumb) instead.
 
 ### Dos and Dont's
 
