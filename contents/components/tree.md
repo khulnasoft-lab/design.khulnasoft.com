@@ -7,7 +7,7 @@ related:
 
 Trees provide a clear overview of a structure, apply parent-child hierarchy between elements, and use the concept of progressive disclosure to display this structure to users.
 
-Just like [accordions](/components/accordions), trees are vertically stacked. Trees are composed of a main container (tree trunk) regrouping related elements, branches, its related leaves. As tree trunk and branch elements of the tree are collapsible, they should be paired with an icon that clearly signify the change of state (Expand/Collapse). Trees should visually reflect the hierarchy and relationship differences between its elements using spaces (margin/padding) or lines.
+Just like [accordions](/components/accordions), trees are vertically stacked. Trees are composed of a main container (tree trunk) which group related elements (branches), and their related items (leaves). Since tree trunks and branches are collapsible, they should be paired with an icon that clearly signify the change of state (Expand/Collapse). Trees should visually reflect the hierarchy and relationship differences between its elements using spacing (margin/padding) and/or lines.
 
 ## Usage
 
