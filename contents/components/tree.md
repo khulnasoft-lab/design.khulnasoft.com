@@ -37,7 +37,7 @@ Do not use trees to:
 
 #### Tree trunk 
 
-The tree trunk is the starting point of the tree. At the minimum, Tree trunk possess a title, as generic and broad as possible to give a general idea of their related branches and leaves (eg. GitLab.com), and an icon signifying the element is expandable and collapsable. Additionally, tree trunk can also contain other descriptive elements such as paragraph (eg. Open source software to collaborate on code), labels(eg. Public)... Tree trunk are collapsible elements and could be expanded and collapsed by clicking both icon and title.
+The tree trunk is the starting point of the tree. At the minimum, tree trunks possess a title which should inform the user of the content within the related branches and leaves. An icon is used to signify that the element is expandable and collapsable. This can be triggered by clicking either the icon and title. Additionally, tree trunks may also contain other descriptive elements such as a paragraph or label.
 
 #### Branch
 
