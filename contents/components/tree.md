@@ -11,7 +11,7 @@ Just like [accordions](/components/accordions), trees are vertically stacked. Tr
 
 ## Usage
 
-Consider using a tree as a navigation pattern to map out relations and hierarchy between multiple items.(eg. Listing a set of projects part of the same group).
+Consider using a tree as a navigation pattern to map out the relationship and hierarchy between multiple items. For example, a set of projects that are within the same group.
 
 ### When to use trees
 
