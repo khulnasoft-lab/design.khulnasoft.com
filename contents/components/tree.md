@@ -16,7 +16,7 @@ Consider using a tree as a navigation pattern to map out the relationship and hi
 ### When to use trees
 
 Use trees to:
-- Create hierarchical structure to help users form a mental model of the relationship between elements.
+* Create hierarchical structure to help users form a mental model of the relationship between elements.
 
 ### When not to use trees
 
@@ -50,6 +50,7 @@ Leaves are the smallest element possible within the tree, they too possess a tit
 ## Demo
 
 Using the hierarchy structure set up above, our overall tree should look like the following:
+
 Todo: add tree example
 
 ## Design specifications
