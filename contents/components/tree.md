@@ -45,7 +45,7 @@ Branches are directly related to tree trunks. They also possess a title, which d
 
 #### Leaf
 
-Leaves are the smallest element possible within the tree, they too possess a title, this title  should be as specific as possible about the underlying content.(eg. Charts). Preferably, leaves should remain tied to a branch within a tree.
+Leaves are the smallest element possible within the tree, they too possess a title, this title  should be as specific as possible about the underlying content.(eg. Charts). Leaves should remain tied to a tree.
 
 ## Demo
 
