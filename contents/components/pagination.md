@@ -18,6 +18,8 @@ Pagination breaks up results into several pages with controls for navigating to 
 
 ## Usage
 
+Pagination is similar to infinite scroll, so use the table below as a guide for choosing when to use either component.
+
 | | Pagination | Infinite Scroll |
 | ----- | ---------- | --------------- |
 | **Description:** | Benefits users who are looking for a specific item in a list to complete their task. | Benefits users who are browsing through lists with content that updates frequently. |
