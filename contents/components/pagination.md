@@ -7,7 +7,6 @@ related:
   - buttons
   - infinite-scroll
   - list
-  - spinner
 ---
 
 Breaking up lists and distributing the results either by the use of pagination or by [infinite scroll](/components/infinite-scroll) helps the user parse a large number of items whenever there are too many results to show at once. We use both pagination and infinite scroll to segment results depending on the user’s task.
