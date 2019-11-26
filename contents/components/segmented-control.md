@@ -4,6 +4,7 @@ vueComponents:
   - GlSegmentedControl
 related:
   - buttons
+  - checkbox
   - dropdowns
   - radio-button
   - toggle
@@ -15,19 +16,17 @@ A segmented control allows users to choose one out of a range of available optio
 
 A segmented control is commonly used as an alternative to [dropdown](/components/dropdowns), [radio button](/components/radio-button), or [toggle](/components/toggle) components, but it comes with its own limitations. Because it takes up more space, a segmented control should only be used for up to 5 options. It is ideal when there are 2 or 3 because they visually expose the options available to a user. A segmented control should be used instead of a dropdown when there are only a few options and enough room to fit within the UI. It requires fewer interactions and is easier to use on mobile devices, thus having a smaller effect on the user’s cognitive load. Results are effective and visible immediately similar to a toggle.
 
-Consult the two tables below to correctly choose when to use a segmented control.
+Use the following table to see when a segmented control should be used over other alternative components.
 
-|                      | Single checkbox                           | Toggle                              | Single-select dropdown  | Radio buttons              | Segmented control                                | Multiple checkboxes | Multi-select dropdown |
-|----------------------|-------------------------------------------|-------------------------------------|-------------------------|----------------------------|--------------------------------------------------|---------------------|-----------------------|
-| Available options    | 1                                         | 1                                   | >1 or unknown           | >1 and <6                  | >1 and <6                                        | >1 and <6           | >1 or unknown         |
-| Selectable options   | 1                                         | 1                                   | 1                       | 1                          | 1                                                | >1 or even all      | >1 or even all        |
-| Pre-selected options | Possible                                  | Possible                            | Possible                | Yes, 1                     | Yes, 1                                           | Possible            | Possible              |
-| Disabled options     | Possible                                  | Possible                            | Possible                | Possible                   | No                                               | Possible            | Possible              |
-| Option descriptions  | Possible                                  | Possible                            | Possible                | Possible                   | No                                               | Possible            | Possible              |
-| UI space             | Little room                               | Not a problem                       | Little room             | Not a problem              | Not a problem                                    | Not a problem       | Little room           |
-| Example              | Accepting terms and conditions on sign up | Enabling/disabling project features | “Sort by” dropdowns     | Project visibility setting | 7, 30, 90 days timeframe in analytics dashboards | Scopes selection in User settings > Applications                    | Add/remove labels     |
-
-
+|  | [Single checkbox](/components/checkboxes) | [Toggle](/components/toggle) | [Single-select dropdown](/components/dropdowns) | [Radio buttons](/components/radio-button) | [Segmented control](/components/segmented-control) | [Multiple checkboxes](/components/checkboxes) | [Multi-select dropdown](/components/dropdowns) |
+|---|---|---|---|---|---|---|---|
+| Available options | 1 | 1 | >1 or unknown | >1 and <6 | >1 and <6 | >1 and <6 | >1 or unknown |
+| Selectable options | 1 | 1 | 1 | 1 | 1 | >1 or even all | >1 or even all |
+| Pre-selected options | Possible | Possible | Possible | Yes, 1 | Yes, 1 | Possible | Possible |
+| Disabled options | Possible | Possible | Possible | Possible | No | Possible | Possible |
+| Option descriptions | Possible | Possible | Possible | Possible | No | Possible | Possible |
+| UI space | Little room | Not a problem | Little room | Not a problem | Not a problem | Not a problem | Little room |
+| Example | Accepting terms and conditions on sign up | Enabling/disabling project features | “Sort by” dropdowns | Project visibility setting | 7, 30, 90 days timeframe in analytics dashboards | Scopes selection in User settings > Applications | Add/remove labels |
 
 ### Labels
 
