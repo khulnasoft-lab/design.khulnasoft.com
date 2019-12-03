@@ -46,3 +46,7 @@ The mouse cursor is key in helping users understand how to interact with element
 | `grabbing` | ![image](/img/cursors-grabbing.svg) | Indicates that you are actively moving an element around the screen. |
 | `text` | ![image](/img/cursors-text.svg) | Indicates that this is either text that you can select and copy, or a text field that you can click into to enter text. |
 | `not-allowed` | ![image](/img/cursors-notallowed.svg) | Indicates that an item may not be dropped at the current location or that the requested action will not be carried out. |
+
+## Sticky containers
+
+A sticky container is a div that sticks to the viewport when scrolling. A good example of this is our global header. When you scroll down the page, the header stays "stuck" to the top of the viewport. Sticky containers are useful for long pages that contain lots of content, where you want to keep links or buttons easily accessible to the user without forcing them to scroll to the top of bottom of the page to finish a task or move on. A sticky container should contain actions or alerts that are relevant to the task a user is performing. A good example of a sticky container would be the `Commit...` button in the file tree in the Web IDE and the `Collapse sidebar` button in the left sidebar of a project page. 
