@@ -32,7 +32,9 @@ help facilitate this decision, you should be able to answer the following questi
 
 * Is this a new component or a variation of an existing one?
 * Why do existing components not support this use case?
-* Will this component be reused beyond the current scope?
+* Will this component be reused beyond the current scope? Is it relevant to multiple
+use cases?
+* Is the proposed component technically feasible?
 
 Not all components belong in the design system. These are occasional instances 
 where a component may live in only one area of the application and is not included 
@@ -48,6 +50,10 @@ before putting it in Pajamas.
 * If the component is *only* relevant in one place (and we suspect it will only
 ever be relevant in one place), do not add to Pajamas.
 * If we validate that it’s useful in more than just one place, add it to Pajamas.
+
+We may find over time that a component we once considered unique is more broadly 
+relevant. In that case, we reevaluate the component to ensure it’s scalable, and 
+we add it in.
 
 ## Creating a new component
 
