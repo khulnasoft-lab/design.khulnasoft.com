@@ -77,43 +77,65 @@
             />
           </div>
         </div>
-        <div class="resources d-flex">
-          <a
-            href="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com"
-            target="_blank"
-            class="card card--highlighted card--link text-center p-a-4"
-          >
+        <div class="resources d-flex m-t-8">
+          <div class="link stacked">
             <img
-              src="../assets/images/resources/r-gitlab.png"
-              srcset="../assets/images/resources/r-gitlab@2x.png 2x"
+              src="../assets/images/resources/r-solid.png"
+              srcset="../assets/images/resources/r-solid@2x.png 2x"
               class="a-center d-block m-b-3"
             />
-            View repository
-          </a>
-          <a
-            href="https://gitlab.com/gitlab-org/gitlab-design/blob/master/doc/sketch-ui-kit.md#files"
-            target="_blank"
-            class="card card--highlighted card--link text-center m-l-5 p-a-4"
-          >
+            <a
+              href="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com"
+              target="_blank"
+              class="text-center"
+            >
+              View the project issue tracker
+            </a>
+          </div>
+          <div class="link stacked">
+            <img
+              src="../assets/images/resources/r-outline.png"
+              srcset="../assets/images/resources/r-outline@2x.png 2x"
+              class="a-center d-block m-b-3"
+            />
+            <a
+              href="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com"
+              target="_blank"
+              class="text-center"
+            >
+              Go to the Pajamas repository
+            </a>
+          </div>
+          <div class="link stacked">
             <img
               src="../assets/images/resources/r-sketch.png"
               srcset="../assets/images/resources/r-sketch@2x.png 2x"
               class="a-center d-block m-b-3"
             />
-            Download GitLab Sketch UI Kit
-          </a>
-          <a
-            href="https://about.gitlab.com/community/gitlab-first-look/"
-            target="_blank"
-            class="card card--highlighted card--link text-center m-l-5 p-a-4"
-          >
+            <a
+              href="https://gitlab.com/gitlab-org/gitlab-design/blob/master/doc/sketch-ui-kit.md#files"
+              target="_blank"
+              class="text-center"
+            >
+              Download GitLab Sketch UI Kit
+            </a>
+          </div>
+        </div>
+        <div class="resources d-flex m-t-9 text-center">
+          <div class="link linear">
             <img
-              src="../assets/images/resources/r-first-look.png"
-              srcset="../assets/images/resources/r-first-look@2x.png 2x"
-              class="a-center d-block m-b-3"
+                src="../assets/images/resources/r-first-look.png"
+                srcset="../assets/images/resources/r-first-look@2x.png 2x"
+                class="d-block"
             />
-            Join GitLab First Look
-          </a>
+            <a
+              href="https://about.gitlab.com/community/gitlab-first-look/"
+              target="_blank"
+              class="text-left p-a-3"
+            >
+              Join GitLab First Look research program
+            </a>
+          </div>
         </div>
       </div>
     </div>

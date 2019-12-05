@@ -79,8 +79,23 @@
 }
 
 .resources {
-  .card {
+  .link {
     flex: 1;
+    
+    &.stacked a {
+      display: block;
+    }
+
+    &.linear{
+      img {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      a {
+        display: inline-block;
+      }
+    }
   }
 }
 
