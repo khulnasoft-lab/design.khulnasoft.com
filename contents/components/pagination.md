@@ -30,11 +30,19 @@ Pagination is similar to infinite scroll, so use the table below as a guide for 
 Lists with **more than 20** items require pagination which is always located below the list and takes the form of a [button group](/components/buttons/#group). Pagination is generally not required on lists with **20 or fewer** items but can be considered depending on the context (i.e. the paginated list is embedded within another component).
 
 #### Anchoring
+<<<<<<< HEAD
 
 Always anchor to the top of the list when the user interacts with the pagination component. Doing so reduces scrolling on the part of the user while keeping them on task.
 
 #### Truncation
 
+=======
+
+Always anchor to the top of the list when the user interacts with the pagination component. Doing so reduces scrolling on the part of the user while keeping them on task. 
+
+#### Truncation
+
+>>>>>>> aa699ba374f0eb0151a5ce3e922f6f50b259cfef
 Truncation is shown using `…` when the number of pages exceeds the pagination display limit. By default `…` are shown after the **5th page** on large and medium viewports and after the **2nd page** on small and mobile viewports.
 
 Double truncation occurs when the current page is separated by 5 or more pages from the first and last page on large and medium viewports. On small and mobile viewports, double truncation occurs when 1 or more pages separate the current page from the first and last page.
@@ -45,12 +53,15 @@ Double truncation occurs when the current page is separated by 5 or more pages f
 
 [[Example:pagination-double-truncation]]
 
+<<<<<<< HEAD
 [[Example:pagination-compact]]
 
 ### Infinite Scroll
 
 Todo: Add live component block with code example
 
+=======
+>>>>>>> aa699ba374f0eb0151a5ce3e922f6f50b259cfef
 ## Design specification
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
