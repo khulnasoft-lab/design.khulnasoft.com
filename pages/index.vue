@@ -80,8 +80,9 @@
         <div class="resources d-flex m-t-8">
           <div class="link stacked">
             <img
+              width="48"
+              height="48"
               src="../assets/images/resources/r-solid.png"
-              srcset="../assets/images/resources/r-solid@2x.png 2x"
               class="a-center d-block m-b-3"
             />
             <a
@@ -94,8 +95,9 @@
           </div>
           <div class="link stacked">
             <img
+              width="48"
+              height="48"
               src="../assets/images/resources/r-outline.png"
-              srcset="../assets/images/resources/r-outline@2x.png 2x"
               class="a-center d-block m-b-3"
             />
             <a
@@ -108,8 +110,9 @@
           </div>
           <div class="link stacked">
             <img
+              width="48"
+              height="48"
               src="../assets/images/resources/r-sketch.png"
-              srcset="../assets/images/resources/r-sketch@2x.png 2x"
               class="a-center d-block m-b-3"
             />
             <a
@@ -124,10 +127,11 @@
         <div class="resources d-flex m-t-9 text-center">
           <div class="link linear">
             <img
-                src="../assets/images/resources/r-first-look.png"
-                srcset="../assets/images/resources/r-first-look@2x.png 2x"
-                class="d-block"
-            />
+              width="48"
+              height="48"
+              src="../assets/images/resources/r-first-look.png"
+              class="d-block"
+            >
             <a
               href="https://about.gitlab.com/community/gitlab-first-look/"
               target="_blank"
