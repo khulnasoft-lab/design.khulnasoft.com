@@ -78,27 +78,6 @@
   border-bottom: $border-width solid $gray-100;
 }
 
-.resources {
-  .link {
-    flex: 1;
-    
-    &.stacked a {
-      display: block;
-    }
-
-    &.linear{
-      img {
-        display: inline-block;
-        vertical-align: middle;
-      }
-
-      a {
-        display: inline-block;
-      }
-    }
-  }
-}
-
 .index {
   p {
     @include type-scale(1, 6, 2, 0);

@@ -77,8 +77,8 @@
             />
           </div>
         </div>
-        <div class="resources d-flex m-t-8">
-          <div class="link stacked">
+        <div class="row m-t-8">
+          <div class="col col-33 d-flex flex-column align-items-center justify-content-center">
             <img
               width="48"
               height="48"
@@ -93,7 +93,7 @@
               View the project issue tracker
             </a>
           </div>
-          <div class="link stacked">
+          <div class="col col-33 d-flex flex-column align-items-center justify-content-center">
             <img
               width="48"
               height="48"
@@ -108,7 +108,7 @@
               Go to the Pajamas repository
             </a>
           </div>
-          <div class="link stacked">
+          <div class="col col-33 d-flex flex-column align-items-center justify-content-center">
             <img
               width="48"
               height="48"
@@ -124,8 +124,8 @@
             </a>
           </div>
         </div>
-        <div class="resources d-flex m-t-9 text-center">
-          <div class="link linear">
+        <div class="m-t-9 d-flex justify-content-center">
+          <div class="d-flex align-items-center">
             <img
               width="48"
               height="48"
