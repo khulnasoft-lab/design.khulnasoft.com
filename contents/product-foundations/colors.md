@@ -6,12 +6,12 @@ name: Color
 
 We have four primary chromatic colors and their derivatives, totaling 44 colors for use across the application. These colors give flexibility during the design process, while also providing a harmonious palette that looks consistent and in line with our brand styles.
 
-Though deciding which color to use depends on the situation, here are some general guidelines for using the four primary colors:
+Though deciding which color to use depends on the situation, here are some general guidelines for using the four primary colors. If your scenario applies to multiple color descriptions, then use the order below as the priority hierarchy:
 
-* **Blue** indicates a current or active state. It communicates: management, progress, connectivity, or organization.
-* **Green** indicates success. It communicates: save, create, add, available, done, approved, or resolved.
-* **Orange** indicates 'attention-required.' It communicates: warning, pending, missing, or impeded progress.
-* **Red** indicates a problem. It communicates: critical states, destructive actions, errors, fails, removals, or declines.
+1. **Blue** indicates a current or active state. It communicates: management, progress, connectivity, or organization.
+1. **Green** indicates success. It communicates: save, create, add, available, done, approved, or resolved.
+1. **Orange** indicates 'attention-required.' It communicates: warning, pending, missing, or impeded progress.
+1. **Red** indicates a problem. It communicates: critical states, destructive actions, errors, fails, removals, or declines.
 
 ### Color priorities
 
