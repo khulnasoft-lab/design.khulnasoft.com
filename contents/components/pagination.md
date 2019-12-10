@@ -45,6 +45,10 @@ Double truncation occurs when the current page is separated by 5 or more pages f
 
 [[Example:pagination-double-truncation]]
 
+[[Example:pagination-double-truncation]]
+
+[[Example:pagination-compact]]
+
 ## Design specification
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
