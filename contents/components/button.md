@@ -1,5 +1,5 @@
 ---
-name: Buttons
+name: Button
 vueComponents: 
   - GlButton
 related:
