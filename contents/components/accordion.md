@@ -85,5 +85,5 @@ TODO: Add Sketch Measure Preview for Accordion
 
 * [NN/G: Progressive disclosure](https://www.nngroup.com/articles/progressive-disclosure/)
 * [Smashing Magazine - Designing The Perfect Accordion](https://www.smashingmagazine.com/2017/06/designing-perfect-accordion-checklist/#top)
-* [NN/G:Accordions Are Not Always the Answer for Complex Content on Desktops](https://www.nngroup.com/articles/accordions-complex-content/)
+* [NN/G: Accordions Are Not Always the Answer for Complex Content on Desktops](https://www.nngroup.com/articles/accordions-complex-content/)
 * [Viget - Testing Accordion Menu Designs & Iconography](https://www.viget.com/articles/testing-accordion-menu-designs-iconography/) 
