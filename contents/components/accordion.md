@@ -56,7 +56,7 @@ The content in the accordion body should be visually different from the rest of 
 
 #### Interaction
 
-Users should be able to expand and collapse the body by clicking or taping a single area containing the accordion header and icon. In the case of a page layout built around several accordions following each other, changing one accordion state does not reflect on the other, each accordions would need to be expanded/collapsed individually by users. 
+Users should be able to expand and collapse the body by clicking or tapping a single area containing the accordion header and icon. In the case of a page layout built around several accordions following each other, changing one accordion state does not reflect on the other, each accordions would need to be expanded/collapsed individually by users. 
 
 ## Accessibility
 
