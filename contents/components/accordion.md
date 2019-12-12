@@ -20,7 +20,7 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 
 ### Do not use accordions when:
 
-* Displaying critical system information or a primary action to be taken on the page. (e.g. [Alerts](/components/alert), confirmation or cancellation buttons).
+* Displaying critical system information or a primary action to be taken on the page. (e.g. [alerts](/components/alert), confirmation or cancellation buttons).
 * Displaying navigation elements such as [tabs](/components/tabs).
 * Displaying links pointing to sections of the same page, instead us a [list](components/list).
 * Creating hierarchy levels by nesting them within each other. If you need to add hierarchy to the content use a [tree](components/tree).
