@@ -62,7 +62,7 @@ Users should be able to expand and collapse the body by clicking or taping a sin
 
 Use proper semantic markup, so that users of screen readers are aware of the states of the accordion.
 
-* The `aria-controls` attribute should be used to define the that header is acting as a trigger to reveal content (the accordion body).
+* The `aria-controls` attribute should define that the header is acting as a trigger to reveal content (the accordion body).
 * The `aria-expanded` attribute should be used to indicate the state of accordions.
 * After a user expands/collapses the accordion, focus should remain on the area wrapping the header and the icon.
 * The accordion should not rely on JavaScript to reveal the body content.
