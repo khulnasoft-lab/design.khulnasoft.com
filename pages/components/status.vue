@@ -34,7 +34,7 @@
           <tr>
             <td>✅</td>
             <td>Integrated</td>
-            <td>Inntegrated in production</td>
+            <td>Integrated into production</td>
           </tr>
           <tr>
             <td>❌</td>
