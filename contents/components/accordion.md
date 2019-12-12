@@ -64,7 +64,7 @@ Use proper semantic markup, so that users of screen readers are aware of the sta
 
 * The `aria-controls` attribute should define that the header is acting as a trigger to reveal content (the accordion body).
 * The `aria-expanded` attribute should be used to indicate the state of accordions.
-* After a user expands/collapses the accordion, focus should remain on the area wrapping the header and the icon.
+* After a user expands/collapses the accordion, the focus should remain on the area wrapping the header and the icon, so that the user can trigger the accordion using the keyboard.
 * The accordion should not rely on JavaScript to reveal the body content.
 
 ## Demo
