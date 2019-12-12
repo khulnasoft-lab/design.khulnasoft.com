@@ -52,7 +52,7 @@ Just like [modals](/components/modals/), the header of an accordion could be a q
 
 #### Body
 
-The accordion body should be differentiable visually from the rest of the page as it is a secondary type information and displayed below its header. Use spacing (margin/padding/hr) and/or hierarchy (font size, color) to structure the body content. Body content should directly relate to the header. For example, the content for "What can GitLab offer me?" could be "GitLab helps organizations deliver better products faster, increase operational efficiencies, and reduce security and compliance risks...").
+The content in the accordion body should be visually different from the rest of the page as it is secondary information. The accordion body is always displayed below its header. Use spacing (margin/padding/horizontal rule) and/or hierarchy (font size, color) to structure the body content. The content should directly relate to the header. For example, the content for "What can GitLab offer me?" could be "GitLab helps organizations deliver better products faster, increase operational efficiencies, and reduce security and compliance risks...".
 
 #### Interaction
 
