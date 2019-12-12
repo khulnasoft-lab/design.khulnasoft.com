@@ -31,20 +31,20 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 | ------ | ------ |
 | Use icons and [animation](/product-foundations/motion) to easily reflect collapsed and expanded states. | Leave the header without icon or use a [button](/components/buttons) to trigger the expand/collapse action.|
 | Trigger collapsed and expanded states when clicking on either the header or icon. | Make the icon the only way to trigger collapsed and expanded states. | 
-| Use a [chevron](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/chevron-right.svg) or [plus](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/plus.svg) icon with the header. | Use an icon that can not reflect the transition like a [question mark](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/question.svg). | 
+| Use a [chevron](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron) | Use an icon that can not reflect the transition like a [question mark](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/question.svg). | 
 
 ### Specifications
 
 #### Icon
 
-The icon should always reflect the state of the accordion (expanded or collapsed) and be located before the header so users always click on the same spot to expand/collapse the accordions, which reduces cognitive load and time to complete a task. 
+To reduce cognitive load and time to task completion, the icon should be located before the header, so users always click on the same spot to expand/collapse the accordions. The icon should always reflect the state of the accordion (expanded or collapsed).
 
-The following icons may be used for an accordion:
+The following should  be used for accordions:
 
 TODO:
 Add chevron icon
 
-The affordance of the chevron better suits this case to signify related additional information can be found "under" the header.
+The affordance of the chevron signify that additional information can be found "under" the header.
 
 #### Header
 
