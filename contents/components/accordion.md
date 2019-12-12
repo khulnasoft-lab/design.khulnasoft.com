@@ -56,7 +56,8 @@ The content in the accordion body should be visually different from the rest of 
 
 #### Interaction
 
-Users should be able to expand and collapse the body by clicking or tapping a single area containing the accordion header and icon. In the case of a page layout built around several accordions following each other, changing one accordion state does not reflect on the other, each accordions would need to be expanded/collapsed individually by users. 
+Users should be able to expand and collapse the body by clicking or tapping a single area containing the accordion header and icon. In the case of a page layout built around several accordions following each other, changing one accordion state does not reflect on the other, each accordions would need to be expanded/collapsed individually by users.
+* [Macro-animations](https://design.gitlab.com/product-foundations/motion/#macro-animations) 
 
 ## Accessibility
 
@@ -76,10 +77,6 @@ Todo: Add live component block with code example
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
 TODO: Add Sketch Measure Preview for Accordion
-
-## Animation specifications
-
-* [Macro-animations](https://design.gitlab.com/product-foundations/motion/#macro-animations)
 
 ## Resources
 
