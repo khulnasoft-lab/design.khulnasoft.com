@@ -106,12 +106,6 @@ Dashed button styles are used when something has not yet been created. Their act
 
 [[Example:new-button-dashed]]
 
-### Dark and Inverted
-
-Some circumstances are exceptions in that they require a different button style than normal to still be accessible. When the UI is darker than normal, a dark or inverted button style may be required. These button styles are only possible for tertiary category buttons.
-
-Todo: Add live component block with code example
-
 ## Combinations
 
 Buttons come in many different combinations to fit different situations. Some trigger a dropdown while others combine multiple similar actions together
