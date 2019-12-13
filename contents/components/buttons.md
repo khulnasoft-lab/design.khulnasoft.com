@@ -144,9 +144,9 @@ Emoji buttons provide the user with visual to signify what the emotion users hav
 
 ### Dropdown
 
-Dropbown buttons trigger menus of options which can be either actions or input values. See [dropdowns](/components/dropdowns) for more information.
+Dropbown buttons trigger menus of options which can be either actions or input values. 
 
-Todo: Add live component block with code example
+See [dropdowns](/components/dropdowns) for more information.
 
 #### Split dropdown
 
@@ -156,13 +156,13 @@ If the dropdown menu has no related actions available, a split dropdown button s
 
 The currently selected action has a checkmark on the left side of the dropdown item. See also [checkmark dropdowns](/components/dropdowns).
 
-Todo: Add live component block with code example
+See [dropdowns](/components/dropdowns) for more information.
 
 #### Icon dropdown
 
 Icon dropdown variations function similar to dropdown button variations with the difference being an icon label.
 
-Todo: Add live component block with code example
+See [dropdowns](/components/dropdowns) for more information.
 
 ### Ellipsis
 
@@ -174,37 +174,31 @@ Ellipsis buttons allow for expanding content inline. It can be used when content
 
 Button groups merge frequently used buttons with a close relationship or similar actions together to aid with arrangement and spacing. Button groups are always displayed in a horizontal row.
 
-Todo: Add live component block with code example
-
 ### Icon group
 
 Icon group variations function similar to button group variations with the difference being an icon label.
 
-Todo: Add live component block with code example
-
 ### Segmented control
 
-A segmented control allows users to choose one out of a range of available options. It’s commonly used as an alternative to dropdowns and radio selections. See [segmented control](/components/segmented-control) for more information.
+A segmented control allows users to choose one out of a range of available options. It’s commonly used as an alternative to dropdowns and radio selections.
 
-Todo: Add live component block with code example
+See [segmented control](/components/segmented-control) for more information.
 
 ### Icon segmented control
 
-Icon segmented control variations function similar to segmented control button variations with the difference being an icon label. See [segmented control](/components/segmented-control) for more information.
+Icon segmented control variations function similar to segmented control button variations with the difference being an icon label. 
 
-Todo: Add live component block with code example
+See [segmented control](/components/segmented-control) for more information.
 
 ### Pagination
 
-Pagination is a specific example of a [segmented control](/components/pagination). It indicates the number of pages available, what page the user is on, and controls for navigating between pages. See [pagination](/components/pagination) for more information.
+Pagination is a specific example of a [segmented control](/components/pagination). It indicates the number of pages available, what page the user is on, and controls for navigating between pages. 
 
-Todo: Add live component block with code example
+See [pagination](/components/pagination) for more information.
 
 ## Sizing
 
 Depending on the interface buttons may either use the medium or small size.
-
-[[Example:new-button-sizes]]
 
 ### Medium
 
