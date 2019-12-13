@@ -3,7 +3,7 @@ name: Dropdowns
 vueComponents: 
   - GlDropdown
 related: 
-  - buttons
+  - button
   - checkbox
   - dropdowns
   - forms

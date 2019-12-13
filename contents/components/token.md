@@ -4,7 +4,7 @@ vueComponents:
   - GlToken
 related:
   - filter
-  - buttons
+  - button
   - badge
   - labels
 ---

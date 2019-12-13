@@ -4,7 +4,7 @@ status: built
 vueComponents:
   - GlPagination
 related:
-  - buttons
+  - button
   - list
   - spinner
 ---

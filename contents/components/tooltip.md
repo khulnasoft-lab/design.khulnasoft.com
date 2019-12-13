@@ -3,7 +3,7 @@ name: Tooltip
 vueComponents: 
   - GlTooltip
 related:
-  - popovers
+  - popover
 ---
 
 Tooltips identify elements or provide additional, useful information about the referring elements. Tooltips are different from ALT-attributes, which are intended primarily for static images.

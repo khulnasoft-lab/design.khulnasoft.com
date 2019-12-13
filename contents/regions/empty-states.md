@@ -4,7 +4,7 @@ vueComponents:
   - GlEmptyState
 related: 
   - banner
-  - buttons
+  - button
   - illustration
 ---
 
