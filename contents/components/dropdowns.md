@@ -67,6 +67,32 @@ A limited amount of rows that don't scroll can be fixed at the bottom of a dropd
 
 Todo: An example of a dropdown with fixed rows.
 
+## Button combinations
+
+Dropdown buttons come in a few different button combinations to fit different situations. Some offer additional options, while other save on space.
+
+### Dropdown
+
+Dropbown buttons trigger menus of options which can be either actions or input values. 
+
+Todo: Add live component block with code example
+
+#### Split dropdown
+
+Dropdown buttons may be split when its options are actions. The text button will allow immediate access to the most common option and an attached dropdown button to either change the default action or directly access a list of related actions. The dropdown button is attached to the right of the text button and has a chevron icon as its label.
+
+If the dropdown menu has no related actions available, a split dropdown button should be converted back to just a text button.
+
+The currently selected action has a checkmark on the left side of the dropdown item. See also [checkmark dropdowns](/components/dropdowns).
+
+Todo: Add live component block with code example
+
+#### Icon dropdown
+
+Icon dropdown variations function similar to dropdown button variations with the difference being an icon label.
+
+Todo: Add live component block with code example
+
 ## Demo
 
 Todo: Add live component block with code example
