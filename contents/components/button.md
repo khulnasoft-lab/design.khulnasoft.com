@@ -114,7 +114,7 @@ Todo: Add live component block with code example
 
 ## Combinations
 
-Buttons come in many different variations to fit different situations. Some trigger a dropdown while others combine multiple similar actions together
+Buttons come in many different combinations to fit different situations. Some trigger a dropdown while others combine multiple similar actions together
 
 ### Text
 
