@@ -47,7 +47,7 @@ Use the following table to see when radio buttons should be used over other alte
 
 ## Demo
 
-Todo: Add live component block with code example
+[[Example:form-group-radio]]
 
 ## Design specifications
 
