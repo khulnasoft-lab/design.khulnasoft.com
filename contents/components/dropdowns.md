@@ -89,7 +89,7 @@ Todo: Add live component block with code example
 
 #### Icon dropdown
 
-Icon dropdowns function similar to other dropdown button combinations with the difference being an icon label.
+Icon dropdowns function similarly to other dropdown button combinations with the difference being an icon label.
 
 Todo: Add live component block with code example
 
