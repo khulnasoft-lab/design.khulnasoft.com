@@ -69,7 +69,7 @@ Todo: An example of a dropdown with fixed rows.
 
 ## Button combinations
 
-Dropdown buttons come in a few different button combinations to fit different situations. Some offer additional options, while other save on space.
+Dropdown buttons come in a few different button combinations to fit different situations. Some offer additional options, while others save on space.
 
 ### Dropdown
 
