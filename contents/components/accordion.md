@@ -35,7 +35,7 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 
 ## Specifications
 
-#### Icon
+### Icon
 
 To reduce cognitive load and time to task completion, the icon should be located before the header, so users always click on the same spot to expand/collapse the accordions. The icon should always reflect the state of the accordion (expanded or collapsed).
 
