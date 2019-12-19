@@ -56,7 +56,7 @@ Just like [modals](/components/modals/), the header of an accordion could be a q
 
 The content in the accordion body should be visually different from the rest of the page as it is secondary information. The accordion body is always displayed below its header. Use spacing (margin/padding/horizontal rule) and/or hierarchy (font size, color) to structure the body content. The content should directly relate to the header. For example, the content for "What can GitLab offer me?" could be "GitLab helps organizations deliver better products faster, increase operational efficiencies, and reduce security and compliance risks...".
 
-#### Interaction
+### Interaction
 
 Users should be able to expand and collapse the body by clicking or tapping a single area containing the accordion header and icon. Changes to the accordion state are considered [macro animations](/product-foundations/motion/#macro-animations) and should follow the guidelines for this kind of animation.
 
