@@ -44,7 +44,7 @@ The following should  be used for accordions:
 TODO:
 Add chevron icon
 
-The affordance of the chevron signify that additional information can be found "under" the header.
+The affordance of the chevron means that additional information can be found "under" the header.
 
 ### Header
 
