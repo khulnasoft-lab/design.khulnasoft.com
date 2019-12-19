@@ -33,7 +33,7 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 | Trigger collapsed and expanded states when clicking on either the header or icon. | Make the icon the only way to trigger collapsed and expanded states. | 
 | Use a [chevron](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron) | Use an icon that can not reflect the transition like a [question mark](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~question). | 
 
-### Specifications
+## Specifications
 
 #### Icon
 
