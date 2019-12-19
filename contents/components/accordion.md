@@ -32,7 +32,7 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 | ------ | ------ |
 | Use icons and [animation](/product-foundations/motion) to easily reflect collapsed and expanded states. | Leave the header without icon or use a [button](/components/buttons) to trigger the expand/collapse action.|
 | Trigger collapsed and expanded states when clicking on either the header or icon. | Make the icon the only way to trigger collapsed and expanded states. | 
-| Use a [chevron](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron) | Use an icon that can not reflect the transition like a [question mark](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~question). | 
+| Use [chevron](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron) to indicate the expand/collapse behavior | Use an icon that can not reflect the transition like a [question mark](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~question). | 
 
 ## Specifications
 
@@ -43,7 +43,8 @@ To reduce cognitive load and time to task completion, the icon should be located
 The following icon should be used:
 
 TODO:
-Add chevron icon
+Add chevron-right icon
+Add chevron-down icon
 
 The affordance of the chevron means that additional information can be found "under" the header.
 
