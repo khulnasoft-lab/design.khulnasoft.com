@@ -46,7 +46,7 @@ Add chevron icon
 
 The affordance of the chevron signify that additional information can be found "under" the header.
 
-#### Header
+### Header
 
 Just like [modals](/components/modals/), the header of an accordion could be a question or a title. Either way, headers should give context about the underlying content in a concise and actionable way. Examples of headers can be "What can GitLab offer me?", or "More options".
 
