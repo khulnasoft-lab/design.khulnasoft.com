@@ -10,7 +10,7 @@ Accordions are used to group similar content and hide or show it depending on us
 
 ## Usage
 
-Accordions are displayed vertically stacked. They always contain a header, an icon reflecting its current state (collapsed or expanded), and a clearly identifiable body.
+An accordion can be used on its own or with more accordions stacked vertically. An accordion always contain a header, an icon reflecting its current state (collapsed or expanded), and a clearly identifiable body.
 
 ### Use an accordion when:
 
