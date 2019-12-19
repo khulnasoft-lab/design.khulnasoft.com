@@ -61,7 +61,7 @@ The content in the accordion body should be visually different from the rest of 
 Users should be able to expand and collapse the body by clicking or tapping a single area containing the accordion header and icon. Changes to the accordion state are considered [macro animations](/product-foundations/motion/#macro-animations) and should follow the guidelines for this kind of animation.
 
 ##### Multiple Accordion
-In the case of a page layout built around several accordions following each other (eg.FAQ page where each question is an accordion), changing one accordion state does not reflect on the other, each accordion would need to be expanded/collapsed individually by users.
+In the case of a page layout built around several accordions following each other (e.g. FAQ page where each question is an accordion), changing one accordion state does not reflect on the other, each accordion would need to be expanded/collapsed individually by users.
 
 ## Accessibility
 
