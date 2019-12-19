@@ -12,13 +12,13 @@ Accordions are used to group similar content and hide or show it depending on us
 
 Accordions are displayed vertically stacked. They always contain a header, an icon reflecting its current state (collapsed or expanded), and a clearly identifiable body.
 
-### Use accordions when:
+### Use an accordion when:
 
 * Displaying and grouping additional information.
 * Adding granular control over the information on a given page.
 * Shortening pages to reduce scrolling.
 
-### Do not use accordions when:
+### Do not use an accordion when:
 
 * Displaying critical system information or a primary action to be taken on the page. (e.g. [alerts](/components/alert), confirmation or cancellation buttons).
 * Displaying navigation elements such as [tabs](/components/tabs).
@@ -37,9 +37,9 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 
 ### Icon
 
-To reduce cognitive load and time to task completion, the icon should be located before the header, so users always click on the same spot to expand/collapse the accordions. The icon should always reflect the state of the accordion (expanded or collapsed).
+To reduce cognitive load and time to task completion, the icon should be located before the header, so users always click on the same spot to expand/collapse the accordion. The icon should always reflect the state of the accordion (expanded or collapsed).
 
-The following should  be used for accordions:
+The following icon should be used:
 
 TODO:
 Add chevron icon
@@ -60,14 +60,14 @@ Users should be able to expand and collapse the body by clicking or tapping a si
 Changes of the accordion state needs to be reflected using [Macro-animations](/product-foundations/motion/#macro-animations).
 
 ##### Multiple Accordion
-In the case of a page layout built around several accordions following each other (eg.FAQ page where each question is an accordion), changing one accordion state does not reflect on the other, each accordions would need to be expanded/collapsed individually by users.
+In the case of a page layout built around several accordions following each other (eg.FAQ page where each question is an accordion), changing one accordion state does not reflect on the other, each accordion would need to be expanded/collapsed individually by users.
 
 ## Accessibility
 
 Use proper semantic markup, so that users of screen readers are aware of the states of the accordion.
 
 * The `aria-controls` attribute should define that the header is acting as a trigger to reveal content (the accordion body).
-* The `aria-expanded` attribute should be used to indicate the state of accordions.
+* The `aria-expanded` attribute should be used to indicate the state of the accordion.
 * After a user expands/collapses the accordion, the focus should remain on the area wrapping the header and the icon, so that the user can trigger the accordion using the keyboard.
 * The accordion should not rely on JavaScript to reveal the body content.
 
