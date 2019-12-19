@@ -50,7 +50,7 @@ The affordance of the chevron signify that additional information can be found "
 
 Just like [modals](/components/modals/), the header of an accordion could be a question or a title. Either way, headers should give context about the underlying content in a concise and actionable way. Examples of headers can be "What can GitLab offer me?", or "More options".
 
-#### Body
+### Body
 
 The content in the accordion body should be visually different from the rest of the page as it is secondary information. The accordion body is always displayed below its header. Use spacing (margin/padding/horizontal rule) and/or hierarchy (font size, color) to structure the body content. The content should directly relate to the header. For example, the content for "What can GitLab offer me?" could be "GitLab helps organizations deliver better products faster, increase operational efficiencies, and reduce security and compliance risks...".
 
