@@ -24,6 +24,7 @@ Accordions are displayed vertically stacked. They always contain a header, an ic
 * Displaying navigation elements such as [tabs](/components/tabs).
 * Displaying links pointing to sections of the same page, instead use a [list](/components/list).
 * Creating hierarchy levels by nesting them within each other. If you need to add hierarchy to the content use a [tree](/components/tree).
+* Displaying a set of visual components following the same style, prefer using Collapsable.(TODO: Add link to collapsable).
 
 ### Dos and Dont's
 
