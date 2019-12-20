@@ -75,7 +75,7 @@ Dropdown buttons come in a few different button combinations to fit different si
 
 Dropbown buttons trigger menus of options which can be either actions or input values.
 
-Todo: Add live component block with code example
+[[Example:new-dropdown-default]]
 
 #### Split dropdown
 
@@ -92,10 +92,6 @@ The currently selected action has a checkmark on the left side of the dropdown i
 Icon dropdowns function similarly to other dropdown button combinations with the difference being an icon label.
 
 [[Example:new-dropdown-with-icon]]
-
-## Demo
-
-[[Example:new-dropdown-default]]
 
 ## Design specifications
 
