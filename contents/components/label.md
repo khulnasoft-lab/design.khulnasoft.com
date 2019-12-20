@@ -1,5 +1,5 @@
 ---
-name: Labels
+name: Label
 vueComponents:
   - GlLabel
 related:

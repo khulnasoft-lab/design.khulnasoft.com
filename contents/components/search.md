@@ -7,7 +7,7 @@ vueComponents:
 related:
   - buttons
   - filter
-  - forms
+  - form
   - sorting
   - spinner
 ---

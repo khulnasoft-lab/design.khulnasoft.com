@@ -1,5 +1,5 @@
 ---
-name: Modals
+name: Modal
 vueComponents: 
   - GlModal
 related:
