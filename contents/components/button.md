@@ -4,7 +4,7 @@ status: built
 vueComponents:
   - GlNewButton
 related:
-  - dropdowns
+  - dropdown
   - segmented-control
 ---
 
@@ -148,7 +148,7 @@ Dropdown buttons may be split when its options are actions. The text button will
 
 If the dropdown menu has no related actions available, a split dropdown button should be converted back to just a text button.
 
-The currently selected action has a checkmark on the left side of the dropdown item. See also [checkmark dropdowns](/components/dropdowns).
+The currently selected action has a checkmark on the left side of the dropdown item. See also [checkmark dropdowns](/components/dropdown).
 
 [[Example:new-dropdown-split]]
 
