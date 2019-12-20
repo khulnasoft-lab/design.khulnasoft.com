@@ -4,7 +4,7 @@ status: integrated
 vueComponents:
   - GlToast
 related:
-  - modals
+  - modal
   - motion
   - popovers
   - tooltip

@@ -1,12 +1,12 @@
 ---
-name: Forms
+name: Form
 vueComponents:
   - GlFormGroup
   - GlFormInput
   - GlFormTextarea
 related:
   - buttons
-  - dropdowns
+  - dropdown
   - date-picker
 ---
 
