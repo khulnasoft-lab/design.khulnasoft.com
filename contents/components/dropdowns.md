@@ -1,8 +1,8 @@
 ---
 name: Dropdowns
-vueComponents: 
-  - GlDropdown
-related: 
+vueComponents:
+  - GlNewDropdown
+related:
   - buttons
   - checkbox
   - dropdowns
@@ -47,19 +47,19 @@ There are some special elements that can be included in dropdowns to better adap
 
 A header can be added to make the dropdown's purpose clear. For example, the header _Assign milestone_ can be added to make it clear that selecting an option will modify an issue's milestone instead of applying a filter.
 
-Todo: An example of a dropdown with a header.
+[[Example:new-dropdown-with-header]]
 
 #### Section headers
 
 Section headers are used to categorize the options in a dropdown. A separator must always be included in between sections.
 
-Todo: An example of a dropdown with section headers.
+[[Example:new-dropdown-with-section-headers]]
 
 #### Filter box
 
 If there are more than 10 elements in the list, it may be necessary to include a filter box.
 
-Todo: An example of a dropdown with a filter box.
+[[Example:new-dropdown-with-search]]
 
 #### Fixed rows
 
@@ -73,7 +73,7 @@ Dropdown buttons come in a few different button combinations to fit different si
 
 ### Dropdown
 
-Dropbown buttons trigger menus of options which can be either actions or input values. 
+Dropbown buttons trigger menus of options which can be either actions or input values.
 
 Todo: Add live component block with code example
 
@@ -85,17 +85,17 @@ If the dropdown menu has no related actions available, a split dropdown button s
 
 The currently selected action has a checkmark on the left side of the dropdown item. See also [checkmark dropdowns](/components/dropdowns).
 
-Todo: Add live component block with code example
+[[Example:new-dropdown-split]]
 
 #### Icon dropdown
 
 Icon dropdowns function similarly to other dropdown button combinations with the difference being an icon label.
 
-Todo: Add live component block with code example
+[[Example:new-dropdown-with-icon]]
 
 ## Demo
 
-Todo: Add live component block with code example
+[[Example:new-dropdown-default]]
 
 ## Design specifications
 
