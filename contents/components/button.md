@@ -140,7 +140,7 @@ Emoji buttons provide the user with visual to signify what the emotion users hav
 
 Dropbown buttons trigger menus of options which can be either actions or input values. 
 
-See [dropdowns](/components/dropdowns) for more information.
+[[Example:new-dropdown-default]]
 
 #### Split dropdown
 
@@ -150,13 +150,13 @@ If the dropdown menu has no related actions available, a split dropdown button s
 
 The currently selected action has a checkmark on the left side of the dropdown item. See also [checkmark dropdowns](/components/dropdowns).
 
-See [dropdowns](/components/dropdowns) for more information.
+[[Example:new-dropdown-split]]
 
 #### Icon dropdown
 
 Icon dropdowns function similar to other dropdown button combinations with the difference being an icon label.
 
-See [dropdowns](/components/dropdowns) for more information.
+[[Example:new-dropdown-with-icon]]
 
 ### Ellipsis
 
