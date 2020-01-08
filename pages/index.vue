@@ -120,7 +120,7 @@
               target="_blank"
               class="text-center"
             >
-              Download GitLab Sketch UI Kit
+              Sketch UI Kit
             </a>
           </div>
         </div>
