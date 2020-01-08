@@ -105,7 +105,7 @@
               target="_blank"
               class="text-center"
             >
-              Go to the Pajamas repository
+              Repository
             </a>
           </div>
           <div class="col col-33 d-flex flex-column align-items-center justify-content-center">
