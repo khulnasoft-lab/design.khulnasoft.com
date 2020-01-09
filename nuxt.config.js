@@ -14,8 +14,8 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    title: 'Home',
-    titleTemplate: '%s | Pajamas Design System',
+    titleTemplate: titleChunk =>
+      titleChunk ? `${titleChunk} | Pajamas Design System` : 'Pajamas Design System',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
