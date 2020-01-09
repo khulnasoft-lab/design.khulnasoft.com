@@ -37,7 +37,7 @@ Do not use trees to:
 
 #### Tree trunk 
 
-The tree trunk is the starting point of the tree. At the minimum, tree trunks possess a title which should inform the user of the content within the related branches and leaves. An icon is used to signify that the element is expandable and collapsible. This can be triggered by clicking either the icon, the title, or a single area containing both. If the tree is representing a navigation structure with links (eg.Group Link > Link project 1, Link project 2), clicking the title could display the tree content in another page. Additionally, tree trunks may also contain other descriptive elements such as a paragraph or label.
+The tree trunk is the starting point of the tree. At a minimum, tree trunks possess a title which should inform the user of the content within the related branches and leaves. An icon is used to signify that the element is expandable and collapsible. This can be triggered by clicking either the icon, the title, or a single area containing both. If the tree represents a navigation structure with links (e.g., Group Link > Link project 1, Link project 2), clicking the title could display the tree content in another page. Additionally, tree trunks may also contain other descriptive elements such as a paragraph or label.
 
 #### Branch
 
