@@ -93,6 +93,8 @@ Icon dropdowns function similarly to other dropdown button combinations with the
 
 [[Example:new-dropdown-with-icon]]
 
+[[Example:new-dropdown-with-icon-and-split]]
+
 ## Design specifications
 
 Color, spacing, dimension, and layout-specific information pertaining to this component can be viewed using the following link:
