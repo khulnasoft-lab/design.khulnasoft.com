@@ -1,6 +1,7 @@
 <script>
 import markdowner from 'markdown-it';
 import markdownAnchor from 'markdown-it-anchor';
+import markdownInclude from 'markdown-it-include';
 
 export default {
   props: {
@@ -22,7 +23,7 @@ export default {
       permalink: true,
       permalinkBefore: true,
       permalinkSymbol: '#',
-    });
+    }).use(markdownInclude, '/contents/includes');
     let mdOutput = md.render(this.md);
     mdOutput = mdOutput.replace(
       /\[\[Example:(.*?)\]\]/g,

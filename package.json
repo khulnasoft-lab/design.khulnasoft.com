@@ -29,6 +29,7 @@
     "front-matter": "^3.0.0",
     "frontmatter-markdown-loader": "^1.4.0",
     "markdown-it": "^8.4.2",
+    "markdown-it-include": "^1.1.0",
     "nuxt": "^2.8.1",
     "pikaday": "1.8.0"
   },
