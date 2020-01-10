@@ -35,17 +35,19 @@ Do not use trees to:
 
 ### Specifications
 
+Tree trunks, branches, and leaves all possess a title. Additionally, they may also contain other descriptive elements such as a paragraph or label. Since tree trunks and branches are collapsible, they should be paired with an icon that clearly signify the change of state (expand/collapse). This state can be triggered by clicking either the icon, the title, or the row. Trees should visually reflect the hierarchy and relationship differences between its elements using spacing (margin/padding) and/or lines.
+
 #### Tree trunk 
 
-The tree trunk is the starting point of the tree. At a minimum, tree trunks possess a title which should inform the user of the content within the related branches and leaves. An icon is used to signify that the element is expandable and collapsible. This can be triggered by clicking either the icon, the title, or the row. If the tree represents a navigation structure with links (e.g., Group Link > Link project 1, Link project 2), clicking the title could display the tree content in another page. Additionally, tree trunks may also contain other descriptive elements such as a paragraph or label.
+The tree trunk is the starting point of the tree. Tree trunks' title informs the user of the content within the related branches and leaves. If the tree represents a navigation structure with links (e.g., Group Link > Link project 1, Link project 2), clicking the title could display the tree content on another page.
 
 #### Branch
 
-Branches are directly related to tree trunks. They also possess a title, which directly refer to the tree trunk title, as well as an icon, to signify the expandable and collapsable states. Expanding a branch element would unveil a leaf.
+Branches are directly related to tree trunks. Their title directly refers to the tree trunk title. Expanding a branch element would unveil a leaf.
 
 #### Leaf
 
-Leaves are the smallest element possible within the tree, they too possess a title. The title should be as specific as possible about the underlying content (e.g., Charts). Leaves should remain tied to a tree.
+Leaves are the smallest element possible within the tree. The title should be as specific as possible about the underlying content (e.g.Charts). Leaves should remain tied to a branch.
 
 ## Demo
 
