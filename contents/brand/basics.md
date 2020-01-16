@@ -44,7 +44,7 @@ approved SVG versions of the logo should be used in the product without modifica
 
 ## Color
 The GitLab brand utilizes a base palette of six colors. These colors have limited 
-use in the product, other than when referenced as a [palette variable](https://design.gitlab.com/product-foundations/colors).
+use in the product, other than when referenced as a [palette variable](/product-foundations/colors).
 
 | Brand Palette |
 | ------ |
@@ -60,7 +60,7 @@ The GitLab brand uses the [Source Sans Pro](https://fonts.google.com/specimen/So
 font family, while the product takes advantage of system fonts to be more 
 performant and integrated with a user’s system.
 
-When designing for the GitLab product, refer to the [Foundations Typography](https://design.gitlab.com/product-foundations/typography).
+When designing for the GitLab product, refer to the [Foundations Typography](/product-foundations/typography).
 
 ## Iconography
 Icons are a valuable visual component to the GitLab brand; contributing to the 
@@ -72,7 +72,7 @@ In the product, icons are used for interaction, and rarely decoration alone.
 
 **Icon resources**
 * [Icon SVG Previewer](http://gitlab-org.gitlab.io/gitlab-svgs/)
-* [Product Foundations - Iconography](https://design.gitlab.com/product-foundations/iconography)
+* [Product Foundations - Iconography](/product-foundations/iconography)
 
 ## Voice and tone
 In general, there are different ways to address the GitLab audience depending on 
@@ -82,4 +82,4 @@ the audience context.
 
 **Voice and tone resources**
 * [Corporate marketing  - Tone of voice](https://about.gitlab.com/handbook/marketing/corporate-marketing/#tone-of-voice)
-* [Product Foundations - Voice and tone](https://design.gitlab.com/content/voice-tone)
+* [Product Foundations - Voice and tone](/content/voice-tone)

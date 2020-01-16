@@ -3,7 +3,7 @@ import path from 'path';
 import { getContentList, writeContentTree } from './modules/content_preparer';
 
 const routes = [
-  ...getContentList('components').map(c => `components/${c.id}`),
+  ...getContentList('product-components').map(c => `product-components/${c.id}`),
   ...glob.sync('**/*.md', { cwd: 'contents/' }).map(filePath => filePath.replace(/\.md$/, '')),
 ];
 

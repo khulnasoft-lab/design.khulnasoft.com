@@ -38,7 +38,7 @@ Todo: Add quick update example
 
 ### Skeleton loading
 
-Skeleton loaders use a horizontally pulsing animation with a linear 1s timing. Learn more about [skeleton loaders](/components/skeleton-loader).
+Skeleton loaders use a horizontally pulsing animation with a linear 1s timing. Learn more about [skeleton loaders](/product-components/skeleton-loader).
 
 Todo: Add skeleton loader transition example
 

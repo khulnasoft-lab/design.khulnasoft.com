@@ -20,7 +20,7 @@ export default {
           slug = item.split('/').pop();
         } else {
           slug = item;
-          url = `/components/${slug}`;
+          url = `/product-components/${slug}`;
         }
         return {
           slug,

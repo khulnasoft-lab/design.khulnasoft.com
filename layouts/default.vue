@@ -30,21 +30,21 @@
             <li>
               <span class="nav-sidebar__section-title">Product</span>
             </li>
-            <sub-menu :content-tree="contentTree" category="get-started" category-name="Get started" />
+            <sub-menu :content-tree="contentTree" category="product-get-started" category-name="Get started" />
             <sub-menu :content-tree="contentTree" category="product-foundations" category-name="Foundations" />
-            <sub-menu :content-tree="contentTree" category="layout" />
-            <sub-menu :content-tree="contentTree" category="components">
+            <sub-menu :content-tree="contentTree" category="product-layout" category-name="Layout" />
+            <sub-menu :content-tree="contentTree" category="product-components" category-name="Components">
               <nuxt-link
                   class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
-                  to="/components/status"
+                  to="/product-components/status"
                 >Status</nuxt-link>
             </sub-menu>
-            <sub-menu :content-tree="contentTree" category="regions" />
-            <sub-menu :content-tree="contentTree" category="content" />
-            <sub-menu :content-tree="contentTree" category="usability" />
+            <sub-menu :content-tree="contentTree" category="product-regions" category-name="Regions"/>
+            <sub-menu :content-tree="contentTree" category="product-content" category-name="Content"/>
+            <sub-menu :content-tree="contentTree" category="product-usability" category-name="Usability"/>
             <nuxt-link
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-1"
-              to="/resources/design-resources"
+              to="/product-resources/design-resources"
             >Design resources</nuxt-link>
           </ul>
           <menu-section :content-tree="contentTree" category="research">

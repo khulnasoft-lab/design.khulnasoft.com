@@ -55,7 +55,7 @@
                Pajamas is here to make it as comfortable as possible for anyone to contribute towards GitLab. You will find information such as our principles, components, usage guidelines, branding, research methodologies, and more!
             </p>
             <p class="max-w-sm">
-               Start by looking into our <a href="/components/status">interface components documentation</a>, including live Vue components.
+               Start by looking into our <a href="/product-components/status">interface components documentation</a>, including live Vue components.
             </p>
           </div>
         </div>

@@ -25,8 +25,8 @@ A lot of failures are auto-fixable, so simply run `yarn run lint:fix` to fix err
 ## Writing component documentation
 
 When starting from scratch:
-1. Copy the contents from `pages/components/template.md`
-1. Paste the contents in an existing placeholder file in `contents/components/` or create a new file and call it `componentname.md`
+1. Copy the contents from `pages/product-components/template.md`
+1. Paste the contents in an existing placeholder file in `contents/product-components/` or create a new file and call it `componentname.md`
 1. Edit and write your documentation
 
 ## Reviewing
