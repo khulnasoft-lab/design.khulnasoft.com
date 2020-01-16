@@ -22,7 +22,7 @@ GitLab is a single application for the entire DevOps lifecycle. See the [product
 
 ## Tone of Voice
 
-The tone of voice we use when speaking as GitLab should always be informed by our [Content Strategy](https://gitlab.com/gitlab-com/marketing/general/blob/master/content/content-strategy.md#strategy). Most importantly, we see our audience as co-conspirators, working together to define and create the next generation of software development practices. The below table should help to clarify further:
+The tone of voice we use when speaking as GitLab should always be informed by our [Content Strategy](https://gitlab.com/gitlab-com/marketing/general/blob/master/product-content/content-strategy.md#strategy). Most importantly, we see our audience as co-conspirators, working together to define and create the next generation of software development practices. The below table should help to clarify further:
 
 | **We are** | **We aren't** |
 | --- | --- |

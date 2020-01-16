@@ -23,7 +23,7 @@ Use banners to:
 
 Do not use banners to:
 
-* Communicate when a feature has not yet been configured or used. For example, when the security dashboard needs further setup or no issues have been added to a project. Instead, use an [empty-state](/regions/empty-states).
+* Communicate when a feature has not yet been configured or used. For example, when the security dashboard needs further setup or no issues have been added to a project. Instead, use an [empty-state](/product-regions/empty-states).
 * Give tips and hints on the use of a feature. For example, configuring a review app. Instead, use a tip style [alert](/product-components/alert).
 
 ### Dos and Dont's
@@ -48,11 +48,11 @@ The dismiss action is always represented by the `Close` icon and anchored to the
 
 #### Header
 
-The header should always be present and written to follow our [voice and tone](/content/voice-tone/) guidelines.
+The header should always be present and written to follow our [voice and tone](/product-content/voice-tone/) guidelines.
 
 #### Paragraph
 
-The supporting text should be concise and only include information specific to what is being promoted. The content should also follow our [voice and tone](/content/voice-tone/) guidelines.
+The supporting text should be concise and only include information specific to what is being promoted. The content should also follow our [voice and tone](/product-content/voice-tone/) guidelines.
 
 #### Illustration *(optional)*
 
@@ -60,7 +60,7 @@ A small illustration may be used but is optional. Keep in mind size and placemen
 
 #### Call to action
 
-A banner should always include a [button](/product-components/button) as the primary call to action. Avoid using multiple buttons and linking the user to different pages. An exception can be made in cases where we need to [help users](/usability/helping-users) by linking to documentation.
+A banner should always include a [button](/product-components/button) as the primary call to action. Avoid using multiple buttons and linking the user to different pages. An exception can be made in cases where we need to [help users](/product-usability/helping-users) by linking to documentation.
 
 ## Demo
 

@@ -46,7 +46,7 @@ Prevent horizontal scrolling to ensure the table doesn't break the layout. Table
 
 ### Empty state
 
-A table's empty state displays when there is no data, yet. [See empty states guidelines](/regions/empty-states).
+A table's empty state displays when there is no data, yet. [See empty states guidelines](/product-regions/empty-states).
 
 ### Content alignment
 

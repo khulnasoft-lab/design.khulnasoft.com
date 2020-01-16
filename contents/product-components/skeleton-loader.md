@@ -15,7 +15,7 @@ Skeleton loaders are to be used when pages or sections can be progressively popu
 
 ### Presentation
 
-Skeleton objects are presented in grayscale and never use color. They use a pulsing wave effect [motion](/foundations/motion) to indicate they are loading. The animation transitions color horizontally from left to right, starting with [$gray-200](/product-foundations/colors#neutral-palette) to [$gray-100](/product-foundations/colors#neutral-palette).
+Skeleton objects are presented in grayscale and never use color. They use a pulsing wave effect [motion](/product-foundations/motion) to indicate they are loading. The animation transitions color horizontally from left to right, starting with [$gray-200](/product-foundations/colors#neutral-palette) to [$gray-100](/product-foundations/colors#neutral-palette).
 
 [[Example:issue-card-skeleton-basic]]
 
@@ -33,7 +33,7 @@ Skeleton objects should generally be visualized by simple primitives which mimic
 
 ### Creating skeleton states
 
-Designers should provide additional skeleton state designs. Developers can then recreate those by using the `<gl-skeleton-loader>` component. Primitives should follow Pajama's [geometric progression](/layout/spacing#geometric-progression) and examples are available inside the pattern library.
+Designers should provide additional skeleton state designs. Developers can then recreate those by using the `<gl-skeleton-loader>` component. Primitives should follow Pajama's [geometric progression](/product-layout/spacing#geometric-progression) and examples are available inside the pattern library.
 
 ## Design specifications
 

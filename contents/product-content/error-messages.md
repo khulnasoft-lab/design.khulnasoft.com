@@ -7,7 +7,7 @@ related:
   - banner
 ---
 
-Error messages are an indication of system status. They let users know that they have encountered a problem and provide ways to resolve it, teaching them to avoid future impediments. Whenever possible, the system should keep potential errors to a minimum. See [error prevention](/usability/error-prevention) guidelines.
+Error messages are an indication of system status. They let users know that they have encountered a problem and provide ways to resolve it, teaching them to avoid future impediments. Whenever possible, the system should keep potential errors to a minimum. See [error prevention](/product-usability/error-prevention) guidelines.
 
 Error messages can be persistent, dismissible, or temporary. In order to be effective, error messages should be concise, specific, and consistent.
 
@@ -17,7 +17,7 @@ Todo: Add guidelines on when an error message should be persistent, dismissible,
 
 ### Concise
 
-Describe the error message and always inform users what has happened, and how to resolve it. The general [voice and tone](/content/voice-tone/#clear-error-messages) guidelines for GitLab’s public communications should apply to all error messages.
+Describe the error message and always inform users what has happened, and how to resolve it. The general [voice and tone](/product-content/voice-tone/#clear-error-messages) guidelines for GitLab’s public communications should apply to all error messages.
 
 Use messages like:
 
@@ -57,6 +57,6 @@ Error messages can be used in the following scenarios:
 
 ## Related patterns
 
-- [Error prevention](/usability/error-prevention)
-- [Helping users](/usability/helping-users)
+- [Error prevention](/product-usability/error-prevention)
+- [Helping users](/product-usability/helping-users)
 - [Saving and feedback](/product-foundations/saving-and-feedback)
