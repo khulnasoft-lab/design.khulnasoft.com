@@ -50,7 +50,7 @@ Todo: Add modal appearance example
 
 #### Shifting elements
 
-An example of a moving transition is when elements have to rearrange when you [drag an element](/foundations/interactions#drag-and-drop).
+An example of a moving transition is when elements have to rearrange when you [drag an element](/product-foundations/interactions#drag-and-drop).
 
 Todo: Add drag animation example
 

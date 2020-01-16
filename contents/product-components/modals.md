@@ -54,7 +54,7 @@ The header is either a question, a descriptive phrase, or title. The header also
 
 #### Body:
 
-The content in the body should never be ambiguous and unclear. Strive to be as concise as possible and provide the user with specific information in regards to their task. Do not ask a vague question or pose a vague statement. Instead, explain what you are asking the user to do in a [voice and tone](/content/voice-tone) that's straightforward and easy to understand.
+The content in the body should never be ambiguous and unclear. Strive to be as concise as possible and provide the user with specific information in regards to their task. Do not ask a vague question or pose a vague statement. Instead, explain what you are asking the user to do in a [voice and tone](/product-content/voice-tone) that's straightforward and easy to understand.
 
 #### Actions:
 

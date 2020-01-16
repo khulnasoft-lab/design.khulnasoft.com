@@ -38,7 +38,7 @@ Adhering to a baseline grid allows us to be more efficient by removing decision 
 
 ### Components
 
-Using a baseline grid of 8px allows flexibility when scaling and defining our [spacing](/layout/spacing) without overloading the system with options. By using multiples of 8 to define dimensions, padding, and margins of components, we ensure every UI element aligns to the pixel grid.
+Using a baseline grid of 8px allows flexibility when scaling and defining our [spacing](/product-layout/spacing) without overloading the system with options. By using multiples of 8 to define dimensions, padding, and margins of components, we ensure every UI element aligns to the pixel grid.
 
 <div class="baseline a-center m-b-6">
   <div class="w-13 h-3"></div>
@@ -66,7 +66,7 @@ When text is used within a UI element, set the line-height to be consistent with
 
 ### Typography
 
-All typography aligns to a 4px baseline grid. This allows for readable line heights at all sizes. See our [typography](/foundations/typography) for more information about how to use our type scale.
+All typography aligns to a 4px baseline grid. This allows for readable line heights at all sizes. See our [typography](/product-foundations/typography) for more information about how to use our type scale.
 
 #### UI typography
 

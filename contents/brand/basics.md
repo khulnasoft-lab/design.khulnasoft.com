@@ -82,4 +82,4 @@ the audience context.
 
 **Voice and tone resources**
 * [Corporate marketing  - Tone of voice](https://about.gitlab.com/handbook/marketing/corporate-marketing/#tone-of-voice)
-* [Product Foundations - Voice and tone](/content/voice-tone)
+* [Product Foundations - Voice and tone](/product-content/voice-tone)

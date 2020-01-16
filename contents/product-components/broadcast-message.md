@@ -10,7 +10,7 @@ In comparison with an [alert](/product-components/alert), broadcast messages are
 
 ## Usage
 
-Broadcast messages are always located at the top of the page, above the [global navigation](/regions/navigation). They use a background color that matches the available theme colors but should stand apart to ensure users notice the information.
+Broadcast messages are always located at the top of the page, above the [global navigation](/product-regions/navigation). They use a background color that matches the available theme colors but should stand apart to ensure users notice the information.
 
 Broadcast messages expire after a set period as defined by the admin but they can also be dismissed at the user level.
 

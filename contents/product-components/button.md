@@ -70,7 +70,7 @@ The neutral button style is used most often and is generally picked when using t
 
 ### Elementary
 
-Our elementary button styles all convey a different meaning due to their respective styling. Their colors are aligned with our [four primary chromatic colors](/foundations/colors).
+Our elementary button styles all convey a different meaning due to their respective styling. Their colors are aligned with our [four primary chromatic colors](/product-foundations/colors).
 
 #### Info
 
@@ -228,7 +228,7 @@ Please note to **not** place a button below another button if there is space to 
 
 ## Labels
 
-Button labels should be short and concise while conveying what happens when the button is clicked. Buttons use [sentence case](/content/punctuation) and a normal font weight. An icon can be used in place of text.
+Button labels should be short and concise while conveying what happens when the button is clicked. Buttons use [sentence case](/product-content/punctuation) and a normal font weight. An icon can be used in place of text.
 
 Please note to **not** mix text and icon label buttons together within the same interface.
 

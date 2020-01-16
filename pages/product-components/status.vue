@@ -134,19 +134,19 @@
             <th class="header">Status</th>
           </tr>
           <tr>
-            <td><a href="../../regions/empty-states">Empty states</a></td>
+            <td><a href="../../product-regions/empty-states">Empty states</a></td>
             <td>⚠️</td>
           </tr>
           <tr>
-            <td><a href="../../regions/filters">Filters</a></td>
+            <td><a href="../../product-regions/filters">Filters</a></td>
             <td>⚠️</td>
           </tr>
           <tr>
-            <td><a href="../../regions/navigation">Navigation</a></td>
+            <td><a href="../../product-regions/navigation">Navigation</a></td>
             <td>⚠️</td>
           </tr>
           <tr>
-            <td><a href="../../regions/search">Search</a></td>
+            <td><a href="../../product-regions/search">Search</a></td>
             <td>⚠️</td>
           </tr>
           <tr>
@@ -154,15 +154,15 @@
             <th class="header">Status</th>
           </tr>
           <tr>
-            <td><a href="../../content/voice-tone">Voice & tone</a></td>
+            <td><a href="../../product-content/voice-tone">Voice & tone</a></td>
             <td>⚠️</td>
           </tr>
           <tr>
-            <td><a href="../../content/terminology">Terminology</a></td>
+            <td><a href="../../product-content/terminology">Terminology</a></td>
             <td>⚠️</td>
           </tr>
           <tr>
-            <td><a href="../../content/punctuation">Punctuation</a></td>
+            <td><a href="../../product-content/punctuation">Punctuation</a></td>
             <td>⚠️</td>
           </tr>
           <tr>
@@ -170,15 +170,15 @@
             <th class="header">Status</th>
           </tr>
           <tr>
-            <td><a href="../../usability/a11y">Accessibility</a></td>
+            <td><a href="../../product-usability/a11y">Accessibility</a></td>
             <td>🚫</td>
           </tr>
           <tr>
-            <td><a href="../../usability/i18n">Internationalization</a></td>
+            <td><a href="../../product-usability/i18n">Internationalization</a></td>
             <td>🚫</td>
           </tr>
           <tr>
-            <td><a href="../../usability/helping-users">Helping users</a></td>
+            <td><a href="../../product-usability/helping-users">Helping users</a></td>
             <td>⚠️</td>
           </tr>
         </tbody>
@@ -231,19 +231,19 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="../../regions/empty-states">Empty states</a></td>
+            <td><a href="../../product-regions/empty-states">Empty states</a></td>
             <td>⚠️</td>
           </tr>
           <tr>
-            <td><a href="../../regions/filters">Filters</a></td>
+            <td><a href="../../product-regions/filters">Filters</a></td>
             <td>⚠️</td>
           </tr>
           <tr>
-            <td><a href="../../regions/xx">Navigation</a></td>
+            <td><a href="../../product-regions/xx">Navigation</a></td>
             <td>⚠️</td>
           </tr>
           <tr>
-            <td><a href="../../regions/xx">Search</a></td>
+            <td><a href="../../product-regions/xx">Search</a></td>
             <td>⚠️</td>
           </tr>
         </tbody>
@@ -259,15 +259,15 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="../../content/voice-tone">Voice & tone</a></td>
+            <td><a href="../../product-content/voice-tone">Voice & tone</a></td>
             <td>⚠️</td>
           </tr>
           <tr>
-            <td><a href="../../content/terminology">Terminology</a></td>
+            <td><a href="../../product-content/terminology">Terminology</a></td>
             <td>⚠️</td>
           </tr>
           <tr>
-            <td><a href="../../content/punctuation">Punctuation</a></td>
+            <td><a href="../../product-content/punctuation">Punctuation</a></td>
             <td>⚠️</td>
           </tr>
           <tr>

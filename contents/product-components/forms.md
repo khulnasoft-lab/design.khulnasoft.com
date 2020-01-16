@@ -142,7 +142,7 @@ Help text can be used as additional instructions to the user when filling in the
 * **Helpful**: If it doesn’t add value and make things easier for the user, it shouldn’t be used.
 * **Short**: It should be a short sentence or a small paragraph, not a single word or a big paragraph.
 
-It’s styled using the "Secondary" text style and should always be placed below the form element. Additionally, a [help link](/usability/helping-users) can be provided to give supplemental information. If there isn't enough space for help text, consider using a [placeholder](#placeholder).
+It’s styled using the "Secondary" text style and should always be placed below the form element. Additionally, a [help link](/product-usability/helping-users) can be provided to give supplemental information. If there isn't enough space for help text, consider using a [placeholder](#placeholder).
 
 Todo: Add live component block with code example (help text)
 
