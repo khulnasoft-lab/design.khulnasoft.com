@@ -22,16 +22,7 @@
       </div>
       <div class="nav-sidebar__body m-b-3">
         <template v-if="contentTree">
-<<<<<<< HEAD
           <menu-section :content-tree="contentTree" category="brand" />
-=======
-          <ul
-            :open="$route.fullPath.startsWith('/brand-get-started/')"
-            class="nav-sidebar__section"
-          >
-            <menu-section :content-tree="contentTree" category="brand" />
-          </ul>
->>>>>>> 1f9c3b9... Usage of menu-section component for Brand
           <ul
             :open="$route.fullPath.startsWith('/product/')"
             class="nav-sidebar__section"
