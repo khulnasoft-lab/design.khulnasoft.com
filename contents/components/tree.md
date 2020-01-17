@@ -47,7 +47,7 @@ Branches are directly related to tree trunks. Expanding a branch element would u
 
 #### Leaf
 
-Leaves are the smallest element possible within the tree. The title should be as specific as possible about the underlying content (e.g.Charts). Leaves should remain tied to a branch.
+Leaves are the smallest element possible within the tree. The title should be as specific as possible about the underlying content (for example, "Charts"). Leaves should remain tied to a branch.
 
 ## Demo
 
