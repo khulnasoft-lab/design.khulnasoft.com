@@ -39,7 +39,7 @@ Tree trunks, branches, and leaves all possess a title. Additionally, they may al
 
 #### Tree trunk 
 
-The tree trunk is the starting point of the tree. Tree trunks' title informs the user of the content within the related branches and leaves. If the tree represents a navigation structure with links (e.g., Group Link > Link project 1, Link project 2), clicking the title could display the tree content on another page.
+The tree trunk is the starting point of the tree. Tree trunks' title informs the user of the content within the related branches and leaves. If the tree represents a navigation structure with anchors (for example, Group Link > Link project 1, Link project 2), clicking the title will navigate to the linked page.
 
 #### Branch
 
