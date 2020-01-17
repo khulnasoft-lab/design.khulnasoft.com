@@ -35,7 +35,7 @@ Do not use trees to:
 
 ### Specifications
 
-Tree trunks, branches, and leaves all possess a title. Additionally, they may also contain other descriptive elements such as a paragraph or label. Since tree trunks and branches are collapsible, they should be paired with an icon that clearly signify the change of state (expand/collapse). This state can be triggered by clicking either the icon, the title, or the row. Trees should visually reflect the hierarchy and relationship differences between its elements using spacing (margin/padding) and/or lines.
+Tree trunks, branches, and leaves all possess a title. Additionally, they may also contain other descriptive elements such as a paragraph or label. Tree trunks and collapsible branches (branches that contain a leaf) should be paired with an icon that clearly signifies the change of state (expand/collapse). This state can be triggered by clicking either the icon, the title, or the row. Trees should visually reflect the hierarchy and relationship differences between its elements using spacing (margin/padding) and/or lines.
 
 #### Tree trunk 
 
