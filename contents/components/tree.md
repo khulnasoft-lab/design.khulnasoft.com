@@ -43,7 +43,7 @@ The tree trunk is the starting point of the tree. Tree trunks' title informs the
 
 #### Branch
 
-Branches are directly related to tree trunks. Their title directly refers to the tree trunk title. Expanding a branch element would unveil a leaf.
+Branches are directly related to tree trunks. Expanding a branch element would unveil a leaf, if leaves are present.
 
 #### Leaf
 
