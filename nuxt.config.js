@@ -1,5 +1,6 @@
 import glob from 'glob';
 import path from 'path';
+import Mode from "frontmatter-markdown-loader/mode";
 import { getContentList, writeContentTree } from './modules/content_preparer';
 
 const routes = [
@@ -133,14 +134,11 @@ module.exports = {
 
       config.module.rules.push({
         test: /\.md$/,
-        include: /static/,
-        loader: 'frontmatter-markdown-loader',
-      });
-
-      config.module.rules.push({
-        test: /\.md$/,
         include: /contents/,
         loader: 'frontmatter-markdown-loader',
+        options: {
+          mode: [Mode.HTML, Mode.BODY]
+        },
       });
 
       config.module.rules.push({
