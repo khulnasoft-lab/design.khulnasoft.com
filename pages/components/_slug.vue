@@ -1,8 +1,7 @@
 <template>
   <div class="content limited m-t-7 m-b-8">
-    <div v-if="component">
-      <component
-        :is="component"
+    <div v-if="fmResult">
+      <component-info
         :frontmatter-info="fmResult"
       />
     </div>
@@ -13,30 +12,19 @@
 </template>
 
 <script>
-const getPost = () => ({
-  component: import(`../../components/componentinfo.vue`),
-});
 export default {
-  data() {
-    return {
-      component: null,
-      fmResult: null,
-    };
+  components: {
+    ComponentInfo: () => (process.browser ? import('../../components/componentinfo.vue') : null),
   },
   editThisPage: {
     resolve: ({ route }) => `contents/components/${route.params.slug}.md`,
   },
-  beforeCreate() {
-    this.$axios
-      .$get(`/contents/components/${this.$route.params.slug}.json`)
-      .then(fmResult => {
-        this.fmResult = fmResult;
-        this.component = () => getPost(this.$route.params.slug);
-      })
-      .catch(e => {
-        // eslint-disable-next-line
-        console.log('Err : ', e);
-      });
+  async asyncData({ params }) {
+    const { slug } = params;
+    if (!slug) return { fmResult: '' };
+    const fmResult = await import(`~/contents/components/${slug}.md`);
+    
+    return { fmResult }
   },
 };
 </script>
