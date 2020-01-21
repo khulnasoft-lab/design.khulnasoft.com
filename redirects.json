@@ -1,0 +1,19 @@
+[
+    {
+        "from": "/components/",
+        "new": "/product-components/"
+    },
+    {
+        "from": "/this/",
+        "new": "/hello-world/"
+    },
+    {
+        "from": "/nice/",
+        "new": "/hello-world/"
+    },
+    {
+        "from": "/nice/yeah",
+        "new": "/hello-world/nice"
+    }
+
+]
