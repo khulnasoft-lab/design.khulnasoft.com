@@ -98,9 +98,7 @@ module.exports = {
   /*
    ** Axios module configuration
    */
-  serverMiddleware: [
-    '../redirect.js'
-  ],
+  serverMiddleware: ['../redirect.js'],
 
   watch: ['~/contents/'],
 

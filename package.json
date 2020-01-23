@@ -30,7 +30,8 @@
     "frontmatter-markdown-loader": "^1.4.0",
     "markdown-it": "^8.4.2",
     "nuxt": "^2.8.1",
-    "pikaday": "1.8.0"
+    "pikaday": "1.8.0",
+    "yarn": "^1.21.1"
   },
   "devDependencies": {
     "@gitlab/eslint-config": "^2.0.0",
