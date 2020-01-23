@@ -1,62 +1,126 @@
-const redirects = require('./redirects.json') // set redirections
+// This is the redirect middleware for design.gitlab.com. Since Nuxt generates a static pre-rendered
+// website, setting up redirects through the Vue router is not possible/straight-forward, so the recommended
+// guidance for this is to handle redirections with a service middleware.
+//
+// This redirect middleware doesn't cover complex redirection cases, but it does cover two important cases:
+//
+// 1) Top level redirection: Redirections at the first part of the url are all evaluated and rewritten if
+// existing. If the url has a second part and there's an existing match for the first part of the URL, the
+// first part is rewritten and the second part is kept intact.
+//
+// 2) Long tail redirections: Long paths are matched and redirected to their new destination even if there's a
+// top level redirection. In this case long defined paths take precedence over top level redirections.
 
-export default function(req) {
+// Set redirections in this file.
+const redirects = require('./redirects.json');
 
-  // // find the redirect if it exists where the from === the requested url
-  // const redirect = redirects.find(r => r.from === req.url)
-
-  // // If it exists, redirect the page with a 301 response else carry on
-  // if (redirect) {
-  //   context.redirect(to)
-  // } else {
-  //   next()
-  // }
-
-  let reqPath = req.url;
-
-  let cleanPath = stripSlash(reqPath)
-
-  let urlParts = cleanPath.split('/')
-
-
-  let redirect = redirects.find(r => arraysNotEqual(findMatch(stripSlash(r.from).split('/'), urlParts), []))
-
-  console.log("this is the context ", redirect);
-}  
-
-
+// Helper Functions
 function stripSlash(str) {
   let newStr;
 
-  //Strips Trailing Slash
-  if(str.substr(-1) === '/') {
-      newStr = str.substr(0, str.length - 1);
+  // Strips Trailing Slash
+  if (str.substr(-1) === '/') {
+    newStr = str.substr(0, str.length - 1);
   } else {
-      newStr = str
+    newStr = str;
   }
-  
+
   // Strips Forward Slash
-  if(newStr.charAt(0) === '/') {
-      newStr = newStr.substr(1, newStr.length);
+  if (newStr.charAt(0) === '/') {
+    newStr = newStr.substr(1, newStr.length);
   }
   return newStr;
 }
 
-
 function findMatch(arr1, arr2) {
-  let matchingElements = arr1.filter(element => arr2.includes(element))
-  let matchingPositions = []
+  const matchingElements = arr1.filter(element => arr2.includes(element));
+  const matchingPositions = [];
   matchingElements.forEach(element => {
-    let arr1Pos = arr1.indexOf(element)
-    let arr2Pos = arr2.indexOf(element)
+    const arr1Pos = arr1.indexOf(element);
+    const arr2Pos = arr2.indexOf(element);
 
     if (arr1Pos === arr2Pos) {
-      matchingPositions.push(arr1Pos)
+      matchingPositions.push(arr1Pos);
     }
   });
-  return matchingPositions
+  return matchingPositions;
 }
 
-function arraysNotEqual(arr1,arr2) {
-  return JSON.stringify(arr1)!=JSON.stringify(arr2);
+function arraysEqual(arr1, arr2) {
+  return JSON.stringify(arr1) === JSON.stringify(arr2);
+}
+
+function longestArray(nestedArray) {
+  let currentLongest = [];
+
+  nestedArray.forEach(array => {
+    if (array.length > currentLongest.length) {
+      currentLongest = array;
+    }
+  });
+  return currentLongest;
+}
+
+export default function(req, res, next) {
+  // We get the request URL
+  const reqPath = req.url;
+  const urlParts = stripSlash(reqPath).split('/');
+
+  // This a variable to track all evaluated matched directions.
+  const allMatchedRedirections = [];
+
+  // We loop through the existing redirections object
+  // to find matches.
+  redirects.forEach(r => {
+    // Cleaning the From and New keys to evaluate if there's
+    // a match for the existing request.
+    const redirectFromParts = stripSlash(r.from).split('/');
+    const redirectNewParts = stripSlash(r.new).split('/');
+
+    // We determine if there are matches and create an array
+    // with the positions in which the request has a match.
+    const evMatches = findMatch(redirectFromParts, urlParts);
+
+    // If the array is not empty there is match between the
+    // request and the existing set redirections.
+    const match = !arraysEqual(evMatches, []);
+
+    // If there's a match and both, the set redirection and
+    // current request path are the exactly the same we push
+    // the new redirection to the allMatchedRedirections array.
+    if (match && arraysEqual(redirectFromParts, urlParts)) {
+      allMatchedRedirections.push(redirectNewParts);
+
+      // If there's a match but the set redirection is just the first part of
+      // the current request, it means that this is a top level redirection
+      // so we need to keep subsequente parts intact.
+    } else if (
+      match &&
+      urlParts.length > 1 &&
+      redirectNewParts.length === 1 &&
+      redirectFromParts.length === 1
+    ) {
+      // We simply copy the urlParts array
+      const targetParts = [...urlParts];
+
+      // And add the new top-level path and we push
+      // the new redirection to the allMatchedRedirections array
+      targetParts.shift();
+      targetParts.splice(0, 0, redirectNewParts[0]);
+      allMatchedRedirections.push(targetParts);
+    }
+  });
+
+  // We determine the final redirectionPath by looking at
+  // all matched redirections and using the longest one (the
+  // most specific redirection)
+  const redirectionTarget = longestArray(allMatchedRedirections);
+  const redirectPath = `/${redirectionTarget.join('/')}`;
+
+  if (redirectPath !== '/') {
+    res.writeHead(301, { Location: redirectPath });
+    res.end();
+  } else {
+    next();
+  }
 }
