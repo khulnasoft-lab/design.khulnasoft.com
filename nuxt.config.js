@@ -84,7 +84,13 @@ module.exports = {
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
+    '@nuxtjs/redirect-module',
     '@gitlab/nuxt-edit-this-page',
+  ],
+
+  redirect: [
+    { from: '^/components/(.*)$', to: '/product-components/$1' },
+    { from: '^/components/things', to: '/components-y/things' },
   ],
 
   /**
