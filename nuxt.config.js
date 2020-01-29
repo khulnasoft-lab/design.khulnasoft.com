@@ -9,7 +9,7 @@ const routes = [
 
 const isProd = process.env.NODE_ENV === 'production';
 
-const simpleRedirectRules = require("./redirects.json");
+const simpleRedirectRules = require('./redirects.json');
 
 module.exports = {
   /*
@@ -90,12 +90,7 @@ module.exports = {
     '@gitlab/nuxt-edit-this-page',
   ],
 
-  redirect: [
-    ...simpleRedirectRules.map(({ from, to }) => ({
-      from: from,
-      to: to
-    }))
-  ],
+  redirect: simpleRedirectRules,
 
   /**
    * Edit this page module configuration
