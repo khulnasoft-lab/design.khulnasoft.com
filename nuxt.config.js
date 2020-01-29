@@ -9,6 +9,8 @@ const routes = [
 
 const isProd = process.env.NODE_ENV === 'production';
 
+const simpleRedirectRules = require("./redirects.json");
+
 module.exports = {
   /*
    ** Headers of the page
@@ -89,8 +91,10 @@ module.exports = {
   ],
 
   redirect: [
-    { from: '^/components/(.*)$', to: '/product-components/$1' },
-    { from: '^/components/things', to: '/components-y/things' },
+    ...simpleRedirectRules.map(({ from, to }) => ({
+      from: from,
+      to: to
+    }))
   ],
 
   /**
