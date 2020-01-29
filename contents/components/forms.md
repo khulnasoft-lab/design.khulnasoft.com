@@ -1,6 +1,8 @@
 ---
 name: Forms
+status: built
 vueComponents:
+  - GlForm
   - GlFormGroup
   - GlFormInput
   - GlFormTextarea
@@ -18,9 +20,9 @@ Forms allow for user input by mimicking paper forms where users fill in informat
 
 Form elements should move in a single direction so they should only be distributed through one column when the progression of the form is vertical and through one row when the progression is horizontal. Horizontally stacking input fields in a vertically moving form is only acceptable when they’re related, for example, name and surname.
 
-Todo: Add live component block with code example (Vertical form with stacked input fields)
+[[Example:form-basic]]
 
-Todo: Add live component block with code example (Horizontal form)
+[[Example:form-inline]]
 
 ### Labels
 
@@ -114,7 +116,7 @@ Error messages and validation should be shown inline and can, in general, happen
 
 The error message shows up below the input field that is in an error state. If there is help text below the input field, the error message pushes it further down as the error message needs to show up immediately below the input. Under no circumstances should the error message be displayed in a tooltip.
 
-Todo: Add live component block with code example (error state + message)
+[[Example:form-novalidate]]
 
 #### Submit form buttons
 
@@ -122,7 +124,7 @@ We don’t disable the submit buttons as a way of validating forms. We default t
 
 Disabling buttons by default can still make sense in some cases. Editing existing information within a form is a good example. In such cases, buttons are disabled by default and become enabled once a change has been made by the user. The state change indicates the need for saving the changes and shouldn’t be tied to whether the information in the form is valid or not.
 
-Todo: Add live component block with code example (form button)
+[[Example:form-edit]]
 
 #### Required information
 
