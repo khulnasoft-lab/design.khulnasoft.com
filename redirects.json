@@ -2,6 +2,30 @@
     { 
         "from": "^/components/(.*)$", 
         "to": "/product-components/$1" 
+    },
+    { 
+        "from": "^/content/(.*)$", 
+        "to": "/product-content/$1" 
+    },
+    { 
+        "from": "^/get-started/(.*)$", 
+        "to": "/product-get-started/$1" 
+    },
+    { 
+        "from": "^/layout/(.*)$", 
+        "to": "/product-layout/$1" 
+    },
+    { 
+        "from": "^/regions/(.*)$", 
+        "to": "/product-regions/$1" 
+    },
+    { 
+        "from": "^/resources/(.*)$", 
+        "to": "/product-resources/$1" 
+    },
+    { 
+        "from": "^/usability/(.*)$", 
+        "to": "/product-usability/$1" 
     }
 ]
 
