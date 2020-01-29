@@ -1,0 +1,7 @@
+[
+    { 
+        "from": "^/components/(.*)$", 
+        "to": "/product-components/$1" 
+    }
+]
+
