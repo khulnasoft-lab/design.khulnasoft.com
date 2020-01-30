@@ -148,7 +148,7 @@
                 alt=""
               >
               <span class="p-a-3">
-                Join GitLab First Look research program
+                Join the GitLab First Look research program
               </span>
             </a>
           </div>
