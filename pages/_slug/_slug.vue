@@ -1,15 +1,15 @@
 <template>
   <div class="content limited m-t-7 m-b-8">
-    <no-ssr>
-      <component-info :frontmatter-info="fmResult" />
-    </no-ssr>
+    <component-info :frontmatter-info="fmResult" />
   </div>
 </template>
 
 <script>
+import ComponentInfo from '../../components/componentinfo.vue';
+
 export default {
   components: {
-    ComponentInfo: () => (process.browser ? import('../../components/componentinfo.vue') : null),
+    ComponentInfo
   },
   editThisPage: {
     resolve: ({ route }) => `contents${route.path.replace(/\/+$/, '')}.md`,
