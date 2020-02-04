@@ -34,7 +34,7 @@
                     class="mb-3"
                   >Vue Component - {{ vueComponentName }}</h2>
                   <b-alert
-                    v-if="!vueComponentDocumentations[vueComponentName].followsDesignSystem"
+                    v-if="!$options.compliantComponents.includes(vueComponentName)"
                     :key="`design-alert-${vueComponentName}`"
                     show
                     variant="warning"
@@ -88,10 +88,13 @@ import {
   GlExampleExplorer,
 } from '@gitlab/ui/documentation';
 
+import compliantComponents from '../compliant_components.json';
+
 import mdDisplay from './md_display.vue';
 import RelatedPages from './related_pages.vue';
 
 export default {
+  compliantComponents,
   components: {
     'md-display': mdDisplay,
     GlComponentDocumentation,
