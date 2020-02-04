@@ -34,7 +34,7 @@
                     class="mb-3"
                   >Vue Component - {{ vueComponentName }}</h2>
                   <b-alert
-                    v-if="vueComponentDocumentations[vueComponentName] && !vueComponentDocumentations[vueComponentName].followsDesignSystem"
+                    v-if="frontmatterInfo.attributes.followsDesignSystem"
                     :key="`design-alert-${vueComponentName}`"
                     show
                     variant="warning"
@@ -46,12 +46,6 @@
                 <gl-example-explorer
                   :key="`examples-${vueComponentName}`"
                   :component-name="vueComponentName"
-                />
-                <md-display
-                  v-if="vueComponentDocumentations[vueComponentName] && vueComponentDocumentations[vueComponentName].description"
-                  :key="`description-${vueComponentName}`"
-                  :md="vueComponentDocumentations[vueComponentName].description"
-                  class="mt-3 mb-3"
                 />
                 <div
                   :key="`props-${vueComponentName}`"
@@ -82,16 +76,12 @@
 </template>
 
 <script>
-// import {
-//   ComponentDocumentations,
-// } from '@gitlab/ui/documentation';
-
-import mdDisplay from './md_display.vue';
+import MdDisplay from './md_display.vue';
 import RelatedPages from './related_pages.vue';
 
 export default {
   components: {
-    'md-display': mdDisplay,
+    MdDisplay,
     RelatedPages,
   },
   props: {
@@ -106,7 +96,6 @@ export default {
       componentAttributes: null,
       componentBody: null,
       vueComponents: null,
-      vueComponentDocumentations: {},
       tabIndex: 0,
     };
   },
@@ -127,12 +116,6 @@ export default {
         let snakeName = vueComponentName.replace(/([A-Z])/g, $1 => `_${$1.toLowerCase()}`);
         if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1);
         snakeName = snakeName.replace(/gl_/, '');
-
-        Object.keys(global.ComponentDocumentations).forEach(component => {
-          if (component.startsWith(vueComponentName)) {
-            this.vueComponentDocumentations[vueComponentName] = global.ComponentDocumentations[component];
-          }
-        });
       });
     }
   },
