@@ -34,7 +34,7 @@
                     class="mb-3"
                   >Vue Component - {{ vueComponentName }}</h2>
                   <b-alert
-                    v-if="!vueComponentDocumentations[vueComponentName].followsDesignSystem"
+                    v-if="vueComponentDocumentations[vueComponentName] && !vueComponentDocumentations[vueComponentName].followsDesignSystem"
                     :key="`design-alert-${vueComponentName}`"
                     show
                     variant="warning"
@@ -82,9 +82,9 @@
 </template>
 
 <script>
-import {
-  ComponentDocumentations,
-} from '@gitlab/ui/documentation';
+// import {
+//   ComponentDocumentations,
+// } from '@gitlab/ui/documentation';
 
 import mdDisplay from './md_display.vue';
 import RelatedPages from './related_pages.vue';
@@ -128,9 +128,9 @@ export default {
         if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1);
         snakeName = snakeName.replace(/gl_/, '');
 
-        Object.keys(ComponentDocumentations).forEach(component => {
+        Object.keys(global.ComponentDocumentations).forEach(component => {
           if (component.startsWith(vueComponentName)) {
-            this.vueComponentDocumentations[vueComponentName] = ComponentDocumentations[component];
+            this.vueComponentDocumentations[vueComponentName] = global.ComponentDocumentations[component];
           }
         });
       });
