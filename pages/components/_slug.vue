@@ -13,31 +13,30 @@
 </template>
 
 <script>
-const getPost = () => ({
-  component: import(`../../components/componentinfo.vue`),
-});
+import component from '../../components/componentinfo.vue';
+
 export default {
   data() {
     return {
-      component: null,
-      fmResult: null,
+      component,
+      fmResult: {
+        attributes: {}
+      },
     };
   },
   editThisPage: {
     resolve: ({ route }) => `contents/components/${route.params.slug}.md`,
   },
-  beforeCreate() {
-    this.$axios
-      .$get(`/contents/components/${this.$route.params.slug}.json`)
+  async asyncData({ $axios, route }) {
+    await $axios.$get(`/contents/components/${route.params.slug}.json`)
       // eslint-disable-next-line promise/always-return
       .then(fmResult => {
         this.fmResult = fmResult;
-        this.component = () => getPost(this.$route.params.slug);
       })
       .catch(e => {
         // eslint-disable-next-line
         console.log('Err : ', e);
       });
-  },
+  }
 };
 </script>
