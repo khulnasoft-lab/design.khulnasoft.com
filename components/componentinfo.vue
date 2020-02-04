@@ -84,8 +84,6 @@
 <script>
 import {
   ComponentDocumentations,
-  GlComponentDocumentation,
-  GlExampleExplorer,
 } from '@gitlab/ui/documentation';
 
 import mdDisplay from './md_display.vue';
@@ -94,8 +92,6 @@ import RelatedPages from './related_pages.vue';
 export default {
   components: {
     'md-display': mdDisplay,
-    GlComponentDocumentation,
-    GlExampleExplorer,
     RelatedPages,
   },
   props: {
