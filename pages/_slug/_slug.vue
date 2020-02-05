@@ -9,7 +9,7 @@ import ComponentInfo from '../../components/componentinfo.vue';
 
 export default {
   components: {
-    ComponentInfo
+    ComponentInfo,
   },
   editThisPage: {
     resolve: ({ route }) => `contents${route.path.replace(/\/+$/, '')}.md`,

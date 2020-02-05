@@ -11,22 +11,23 @@ import ComponentInfo from '../../components/componentinfo.vue';
 
 export default {
   components: {
-    ComponentInfo
+    ComponentInfo,
   },
   editThisPage: {
     resolve: ({ route }) => `contents/components/${route.params.slug}.md`,
   },
   async asyncData({ $axios, route }) {
     try {
-      const fmResult = await $axios.$get(`/contents/components/${route.params.slug}.json`)
+      const fmResult = await $axios.$get(`/contents/components/${route.params.slug}.json`);
 
       return {
-        fmResult
-      }
-    } catch (e) {
-      console.log('Err : ', e);
-      return {}
+        fmResult,
+      };
+    } catch (error) {
+      return {
+        error,
+      };
     }
-  }
+  },
 };
 </script>

@@ -10,6 +10,12 @@ import GlComponentDocumentation from '@gitlab/ui/documentation/components/compon
 Vue.use(BootstrapVue);
 Vue.use(gitlabComponents.GlToast); // The toast plugin needs to be registered before being used
 
-Object.entries({ ...gitlabComponents, ...gitlabCharts, GlExampleExplorer, GlExampleDisplay, GlComponentDocumentation })
+Object.entries({
+  ...gitlabComponents,
+  ...gitlabCharts,
+  GlExampleExplorer,
+  GlExampleDisplay,
+  GlComponentDocumentation,
+})
   .filter(([componentName]) => !componentName.includes('Directive'))
   .forEach(([componentName, component]) => Vue.component(componentName, component));
