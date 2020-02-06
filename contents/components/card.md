@@ -69,4 +69,5 @@ On mobile, there should be a longer hold on the card in order to grab it and mov
 
 ## Design Specifications
 
-TODO: Add Sketch Measure Preview for Cards
+[Sketch Measure Preview for Cards](https://gitlab-org/gitlab-services/design.gitlab.com/blob/timnoah-add-card-documentation/-/assets/images/resources/Cards_Main.png)
+
