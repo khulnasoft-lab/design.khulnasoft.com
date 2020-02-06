@@ -8,6 +8,10 @@ Cards are a flexible component used to display content and actions in a variety 
 
 Cards are used to connect similar concepts and/or activities to help make it easier for users to browse, read and learn more about GitLab. The use-cases vary from communicating pricing plans to organising content within issue boards.
 
+| Do | Don't |
+| --- | --- |
+| Use cards for snapshots or an overview of information. | Cards should not be scrollable. |
+
 ### Types
 
 There are two main types of Cards: Static and Dynamic.
@@ -15,13 +19,17 @@ There are two main types of Cards: Static and Dynamic.
 | Card type | Purpose |
 | --- | --- |
 | Static Card | Single topic component to help compare and contrast similar pieces of information. |
-| Dynamic card | Can be draggable. For use in a multidisciplinary list to help users stay organised. |
+| Dynamic card | Can be draggable. For use in a multidisciplinary list to help users stay organised, such as on GitLab boards. |
 
 ### Alternatives
 
 #### Table
 
 If the purpose of using the component is to compare and contrast 5 or more static (non-draggable) pieces of content a better option would be to structure the data within a [table component](https://design.gitlab.com/components/table).
+
+#### Single Stat
+
+If the purpose of using the component is to show a high level overview of incoming data (e.g. Security vulnerabilities, Threat Monitoring statistics), use a single stat component.
 
 ## Demo
 
@@ -31,7 +39,7 @@ Todo: Add live component block with code example
 
 ### Sections
 
-There are three main sections of a Card: Header, body, and actions.
+A card is a very flexible component - it is generally any information contained and repeated within square or rectangle containers. However, the card component is more commonly referred to as a container with three main sections: Header, body, and action(s). Dividers should be used between these sections.
 
 #### Header
 
@@ -41,7 +49,7 @@ The header is **optional** and acts as the title of the proceeding body content.
 
 The card body is **always required**. The content in the body should never be ambiguous or unclear. Strive to be as concise as possible and provide the user with content regarding a single topic. If a Card's purpose is to communicate a pricing plan, the body would contain the plan's price point and key feature information. 
 
-Use multiple sections within the body when you have two or more related but distinct pieces of information to communicate to users. Multiple sections can help break up complicated concepts like pricing data.
+Use multiple sections within the body when you have two or more related but distinct pieces of information to communicate to users. Multiple sections can help break up complicated concepts like pricing data. Content in this area can include media, photos
 
 #### Actions:
 
@@ -55,7 +63,9 @@ The Card width is fluid by default. When presenting two or more static cards in 
 
 #### Interactions
 
-Dynamic Cards can be draggable and re-ordered within a linear list. To help layer the component within this particular use-case a drop shadow is required. A draggable Card will maintain the ability to house individual links and actions. Its empty space becomes the trigger to enable the drag functionality.
+Dynamic Cards can be draggable and re-ordered within a list. To help layer the component within this particular use-case a drop shadow is required. A draggable Card will maintain the ability to house individual links and actions. Its empty space becomes the trigger to enable the drag functionality. The cursor should change to a pointer hand icon to convey functionality. When dragging the card to a new location, any cards in it's position behind it should move to show their new placement if the user were to let go of the selected card and drop it into the current position.
+
+On mobile, there should be a longer hold on the card in order to grab it and move it, so as not to interfere with a lighter, quicker touch for scrolling.
 
 ## Design Specifications
 
