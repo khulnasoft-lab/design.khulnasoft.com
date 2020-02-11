@@ -10,7 +10,7 @@ Cards are used to connect similar concepts and/or activities to help make it eas
 
 | Do | Don't |
 | --- | --- |
-| Use cards for snapshots or an overview of information. | Cards should not be scrollable. |
+| Use cards for snapshots or an overview of information. | Don't use a card for an entire workflow. Consider a dedicated content area (a drawer, modal, or even a dedicated page) for deep dives.|
 
 ### Types
 
@@ -25,11 +25,11 @@ There are two main types of Cards: Static and Dynamic.
 
 #### Table
 
-If the purpose of using the component is to compare and contrast 5 or more static (non-draggable) pieces of content a better option would be to structure the data within a [table component](https://design.gitlab.com/components/table).
+If the purpose of using the component is to compare and contrast 5 or more static (non-draggable) pieces of content, or if you're utilizing column headers to organize your content horizontally, a better option would be to structure the data within a [table component](https://design.gitlab.com/components/table).
 
 #### Single Stat
 
-If the purpose of using the component is to show a high level overview of incoming data (e.g. Security vulnerabilities, Threat Monitoring statistics), use a single stat component.
+If the purpose of using the component is to show a high level overview of incoming data (e.g. Security vulnerabilities, Threat Monitoring statistics), use a single stat component [todo: add link].
 
 ## Demo
 
@@ -51,9 +51,13 @@ The card body is **always required**. The content in the body should never be am
 
 Use multiple sections within the body when you have two or more related but distinct pieces of information to communicate to users. Multiple sections can help break up complicated concepts like pricing data. Content in this area can include media, photos
 
-#### Actions:
+#### Actions
 
 The action section is **optional**. There should be no more than 3 actions and no fewer than 1 in every card. Actions should always be located within an action bar at the bottom of the Card. Button order and positioning should follow our [guidelines for buttons](/components/buttons).
+
+### Component Combinations
+
+Todo: Add more context here (e.g. cards and alerts) and examples
 
 ### Behavior
 
@@ -66,6 +70,10 @@ The Card width is fluid by default. When presenting two or more static cards in 
 Dynamic Cards can be draggable and re-ordered within a list. To help layer the component within this particular use-case a drop shadow is required. A draggable Card will maintain the ability to house individual links and actions. Its empty space becomes the trigger to enable the drag functionality. The cursor should change to a pointer hand icon to convey functionality. When dragging the card to a new location, any cards in it's position behind it should move to show their new placement if the user were to let go of the selected card and drop it into the current position.
 
 On mobile, there should be a longer hold on the card in order to grab it and move it, so as not to interfere with a lighter, quicker touch for scrolling.
+
+#### Loading
+
+While the page is loading, cards should use skeleton loader. See example and more info [here](https://design.gitlab.com/components/skeleton-loader).
 
 ## Design Specifications
 
