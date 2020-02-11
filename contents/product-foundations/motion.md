@@ -56,7 +56,7 @@ Todo: Add drag animation example
 
 #### Page auto-scroll
 
-To keep an active element visible, a page auto-scroll transition can be used. An example of this includes clicking an issue board card that is out of then screen.
+To keep an active element visible, a page auto-scroll transition can be used. An example of this includes clicking an issue board card that is out of the screen.
 
 Todo: Add auto-scroll example (issue board cards)
 
