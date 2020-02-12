@@ -27,7 +27,7 @@ Occasionally, this can also include a [help link](/usability/helping-users) to p
 
 Taking the form of a primary button with the option to add a secondary button, the text within should be direct and actionable. [See buttons for more usage information](/components/button).
 
-For links to documentation, be sure users are taken to the `docs.gitlab.com...` pages (not the /help articles as were used in the past; these will eventually be deprecated).
+For links to documentation, be sure users are taken to the `docs.gitlab.com...` pages (not the `/help` articles as were used in the past; these will eventually be deprecated).
 
 
 ### When to use an empty state
