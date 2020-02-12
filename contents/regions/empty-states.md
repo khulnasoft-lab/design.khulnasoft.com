@@ -25,9 +25,10 @@ Occasionally, this can also include a [help link](/usability/helping-users) to p
 
 **3\. Call to action**
 
-Taking the form of a primary button with the option to add a secondary button, the text within should be direct and actionable.
+Taking the form of a primary button with the option to add a secondary button, the text within should be direct and actionable. [See buttons for more usage information](/components/button).
 
-[See buttons for more usage information](/components/button)
+For links to documentation, be sure users are taken to the `docs.gitlab.com...` pages (not the /help articles as were used in the past; these will eventually be deprecated).
+
 
 ### When to use an empty state
 
@@ -35,7 +36,7 @@ Empty states can be employed to:
 
 *   Make users aware that a feature is not configured for use.
 *   Act as a placeholder for regions in the app left blank intentionally.
-*   Convey an error state, which will depend on the nature of the error and should be used judiciously. An example of this would be a server response error, that is, 404 or 500.
+*   Convey an error state, which will depend on the nature of the error and should be used judiciously. An example of this would be a server response error, that is, 404 or 500. For an error that requires user investigation or action, consider an [alert component](/components/alert/).
 *   Display empty search results.
 
 Empty states differ from banners in that they are not intended to promote or advertise new features or functionality.
