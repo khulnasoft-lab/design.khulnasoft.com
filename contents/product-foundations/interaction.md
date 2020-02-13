@@ -31,8 +31,8 @@ Todo: Add design specs link
 
 ### Related patterns
 
-* [Data table](/components/data-table)
-* [List](/components/list)
+* [Data table](/product-components/data-table)
+* [List](/product-components/list)
 
 ## Cursors
 

@@ -14,11 +14,11 @@ The guideline for choosing between the two methods of saving progress is: introd
 
 ### Manual
 
-Happens after the user confirms the changes (clicks on a button), ideally without reloading the page, and a [toast](/components/toast) saying “Changes saved” should appear to confirm the changes were saved successfully.
+Happens after the user confirms the changes (clicks on a button), ideally without reloading the page, and a [toast](/product-components/toast) saying “Changes saved” should appear to confirm the changes were saved successfully.
 
 #### Safety measure
 
-As we move towards using both methods for saving changes, it makes sense to add a safety measure when using the manual method. The user might just experience auto-saving on another page but on the current page they need to manually save their changes. The users can’t know which of the two methods is being used as there are no indicators in the UI, so it's possible that they make changes and try to navigate off the page (expecting that the changes were saved automatically). In such cases we should track the changes made and whether they were saved or not. If they weren’t saved, a [modal](/components/modals) should appear asking: “Your changes are not saved. Do you want to save them now?” and offer “Save changes” as the primary option and “Discard changes and leave page” as the secondary one.
+As we move towards using both methods for saving changes, it makes sense to add a safety measure when using the manual method. The user might just experience auto-saving on another page but on the current page they need to manually save their changes. The users can’t know which of the two methods is being used as there are no indicators in the UI, so it's possible that they make changes and try to navigate off the page (expecting that the changes were saved automatically). In such cases we should track the changes made and whether they were saved or not. If they weren’t saved, a [modal](/product-components/modals) should appear asking: “Your changes are not saved. Do you want to save them now?” and offer “Save changes” as the primary option and “Discard changes and leave page” as the secondary one.
 
 ### Auto-save
 
@@ -28,7 +28,7 @@ Auto-saving in forms usually works best when the form is long and the “Save ch
 
 If the change is triggered by a click event, we auto-save immediately after it happens. If it’s triggered by typing, the auto-save should happen on the blur event of that input field but also 3 seconds after the last key is pressed.
 
-To inform the user that the change has been saved, a [toast](/components/toast) appears. The message is “Saving…” while the saving is in progress, “Change saved” if a single change was saved and “x changes saved” when more than one change was saved (instead of stacking messages up). The toast message should always have the option to undo the recent changes.
+To inform the user that the change has been saved, a [toast](/product-components/toast) appears. The message is “Saving…” while the saving is in progress, “Change saved” if a single change was saved and “x changes saved” when more than one change was saved (instead of stacking messages up). The toast message should always have the option to undo the recent changes.
 
 If a change fails to auto-save, we need to:
 
@@ -47,7 +47,7 @@ Never apply to whole forms (example: adding a personal access token needs a name
 
 Saving drafts is a form of auto-saving changes. It’s best used for saving progress in cases when users are expected to spend longer time inputting data (example: editing issue description). Automatic saving of progress should be indicated by either of two states, labeled:
 
-* “Saving…”: the user made changes and there’s background activity in progress to save a draft of these changes. Should be combined with a [spinner](/components/spinner) to indicate background activity.
+* “Saving…”: the user made changes and there’s background activity in progress to save a draft of these changes. Should be combined with a [spinner](/product-components/spinner) to indicate background activity.
 * “Saved”: no recent changes made, all changes are successfully saved as a draft. Should be combined with a timestamp (example: “Saved just now” or “Saved 1 min ago”).
 
 Indicating the current status reassures the users that their progress won’t be lost. In some cases it might be necessary to clearly state that a “Draft” is being saved to avoid confusion (“Draft saved 1 min ago”).
@@ -62,7 +62,7 @@ Think twice before applying to data that might have financial, security, or priv
 
 Instant feedback, also known as optimistic UI or eager execution, simply means that we show the expected result of a successfully saved change even before that change has actually been saved—we anticipate that the change will be saved successfully so we show it in the UI immediately. This has a positive impact on the perceived speed of the application. An example of a case when a successful result is expected is changing the assignee on an issue.
 
-The new information should be reflected in the UI immediately but we should also indicate that there's background activity for actually saving the change. To do that, we should combine a change in the new information’s opacity (50% until successfully saved) and the use of a [spinner](/components/spinner).
+The new information should be reflected in the UI immediately but we should also indicate that there's background activity for actually saving the change. To do that, we should combine a change in the new information’s opacity (50% until successfully saved) and the use of a [spinner](/product-components/spinner).
 
 Once the change is successfully saved, the opacity changes to 100% and the spinner disappears. There is no way of handling errors for such cases, we keep persisting until it gets successfully saved. To avoid loss of progress and changes, this method can be complemented with a [safety measure](#safety-measure) similar to the one described above: if changes aren’t successfully changed when the user tries to close the page, show a warning.
 
@@ -70,7 +70,7 @@ Todo: Add live component block with code example (example of newly added info as
 
 ## Related patterns
 
-* [Buttons](/components/button)
-* [Forms](/components/forms)
-* [Spinner](/components/spinner)
-* [Toast](/components/toast)
+* [Buttons](/product-components/button)
+* [Forms](/product-components/forms)
+* [Spinner](/product-components/spinner)
+* [Toast](/product-components/toast)

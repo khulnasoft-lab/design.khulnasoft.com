@@ -10,8 +10,8 @@
 
 * [ ] Page link with corresponding status added to `getting-started/status.vue`
 * [ ] Check if cross-reference to this page from other pages might be relevant or helpful
-<!-- For pages outside components only (NOT pages/components/) -->
+<!-- For pages outside components only (NOT pages/product-components/) -->
 * [ ] Page link added to `layout/default.vue`
-<!-- For component pages only (pages/components/) -->
+<!-- For component pages only (pages/product-components/) -->
 * [ ] Depending on type of the page, content should follow the documentation template
-  * [Component page template](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/blob/master/pages/components/template.vue)
+  * [Component page template](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/blob/master/pages/product-components/template.vue)

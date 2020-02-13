@@ -16,7 +16,7 @@ Depending on the severity of destructiveness, we can implement the following fri
 
 ### High severity
 
-If a destructive action is difficult to undo or data will be lost permanently, strongly consider implementing a [modal](/components/modals) to confirm the action or guide the user to an alternative route.
+If a destructive action is difficult to undo or data will be lost permanently, strongly consider implementing a [modal](/product-components/modals) to confirm the action or guide the user to an alternative route.
 
 ### Medium severity
 
@@ -24,7 +24,7 @@ Destructive actions can introduce annoyance to the user when performed unintenti
 
 ### Low severity
 
-The destructive action can easily be undone and no actual data was lost. Consider adding no friction at all in order to streamline the interface, especially in places where the action needs to be performed in bulk. These kinds of destructive actions can be exempt of being [elementary](/components/button/#elementary) styled and can instead be [neutral](/components/button/#neutral) styled buttons.
+The destructive action can easily be undone and no actual data was lost. Consider adding no friction at all in order to streamline the interface, especially in places where the action needs to be performed in bulk. These kinds of destructive actions can be exempt of being [elementary](/product-components/button/#elementary) styled and can instead be [neutral](/product-components/button/#neutral) styled buttons.
 
 ## References
 

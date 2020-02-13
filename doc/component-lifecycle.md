@@ -99,7 +99,7 @@ the [**build** and **style** diagram](https://gitlab.com/gitlab-org/gitlab-ui/bl
 ## Completing a component
 
 Once a component has gone through the **create**, **build**, and **style** stages, 
-it can then be marked as *Built* on our [status page](https://design.gitlab.com/components/status).
+it can then be marked as *Built* on our [status page](/product-components/status).
 
 A completed component should not have the warning alert on the Vue tab.
 
