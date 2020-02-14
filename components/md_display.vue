@@ -1,7 +1,4 @@
 <script>
-import markdowner from 'markdown-it';
-import markdownAnchor from 'markdown-it-anchor';
-
 export default {
   props: {
     md: {
@@ -14,16 +11,8 @@ export default {
       return createElement('p', "This component's documentation has not yet been added.");
     }
 
-    const md = markdowner({
-      html: true,
-      xhtmlOut: true,
-      typographer: true,
-    }).use(markdownAnchor, {
-      permalink: true,
-      permalinkBefore: true,
-      permalinkSymbol: '#',
-    });
-    let mdOutput = md.render(this.md);
+    let mdOutput = this.md;
+
     mdOutput = mdOutput.replace(
       /\[\[Example:(.*?)\]\]/g,
       '<div class="app-styles"><gl-example-display exampleName="$1" /></div>',
