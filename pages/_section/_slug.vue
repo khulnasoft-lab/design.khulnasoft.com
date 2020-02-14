@@ -8,7 +8,7 @@ export default {
   },
   asyncData({ route }) {
     const { path } = route;
-    return import(`~/contents${path}.md`).then(({ default: fmResult }) => ({ fmResult }));
+    return import(`~/static/contents${path}.json`).then(({ default: fmResult }) => ({ fmResult }));
   },
 };
 </script>
