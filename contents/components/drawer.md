@@ -62,7 +62,7 @@ Content selection should be based on the experience you intend to promote. Conte
 
 ### Interaction 
 
-The drawer will appear following the [motion guidelines](https://design.gitlab.com/product-foundations/motion). 
+The drawer will appear following the [motion guidelines](/product-foundations/motion). 
 
 * 200ms with an ease-in animation.
 * By default, the drawer overflows all page content. 
