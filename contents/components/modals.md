@@ -4,13 +4,8 @@ vueComponents:
   - GlModal
 related:
   - accordion
-<<<<<<< HEAD
-  - drawer
-  - button
-=======
   - button
   - drawer
->>>>>>> 3eb1c57621054a06d3ea41452266fb5c457760d1
   - popover
   - toast
   - tooltip
