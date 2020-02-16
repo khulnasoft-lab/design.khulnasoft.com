@@ -49,11 +49,7 @@ The header appears at the top of the drawer with a full-width horizontal break l
 
 #### Content
 
-<<<<<<< HEAD
 Content selection should be based on the experience you intend to promote. Content should be structured according to our [layout](/layout/spacing) guidelines. The container background can either be set in [`$white`](https://design.gitlab.com/product-foundations/colors#neutral-palette) or [`$gray-50`](https://design.gitlab.com/product-foundations/colors#neutral-palette) depending on the use case.
-=======
-Content selection should be based on the experience you intend to promote. Content should be structured according to our [layout](/layout/spacing) guidelines. 
->>>>>>> Apply suggestion to contents/components/drawer.md
 
 ### Interaction
 
