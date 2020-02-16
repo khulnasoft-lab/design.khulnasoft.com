@@ -22,7 +22,7 @@ A drawer is a convenient way to present context specific information or to provi
 | Include one focusable element within the drawer. | Close the drawer unless the user has taken action to do so. |
 | Layout content based on the pajamas layout and spacing guidelines. |   | 
 | Use an icon as the primary trigger when an element or item's main action is different than opening a drawer. |
-| Include a descriptive [tooltip](https://design.gitlab.com/components/tooltip) when using an icon to trigger drawer interaction. | |
+| Include a descriptive [tooltip](/components/tooltip) when using an icon to toggle the drawer. | |
 
 ### Example use cases 
 
