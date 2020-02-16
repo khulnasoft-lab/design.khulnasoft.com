@@ -89,7 +89,7 @@ The drawer should utilize the [skeleton loader](/components/skeleton-loader/) pa
 
 I an empty state is required, please follow the [empty-state](/regions/empty-states) guidelines while being mindful of illustration size. 
 
-#### Small screens and mobile 
+### Small screens and mobile 
 
 The drawer maintains its behavior down to the smallest breakpoint, at which point it takes up the full viewport width.
 
