@@ -97,7 +97,7 @@ The drawer maintains its behavior down to the smallest breakpoint, at which poin
 
 * Drawer states (expanded/collapsed) should be announced by screen reader (SR).
 * Focus moves within the drawer when expanded.
-* Intentional keyboard trap keeps tab order (looped) within the drawer until it is collapsed. This is so a user cannot focus on anything hidden under the drawer.
+* An intentional keyboard trap keeps tab order (looped) within the drawer until it is closed. This is so a user cannot focus on anything outside the drawer.
 * `esc` key should collapse the drawer along with the close button.
 
 ## Demo
