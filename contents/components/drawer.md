@@ -5,9 +5,7 @@ vueComponents:
   - GlDrawer
 related:
   - accordion
-  - buttons
   - modals
-  - spinner
 ---
 
 A drawer is a convenient way to present context specific information or to provide the user with a deeper interaction experience without leaving the page. 
