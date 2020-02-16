@@ -87,7 +87,7 @@ The drawer should utilize the [skeleton loading](https://design.gitlab.com/compo
 
 #### Empty 
 
-IF an empty state is required, please follow the [empty-state](https://design.gitlab.com/regions/empty-states) guidelines while being mindful of illustration size. 
+I an empty state is required, please follow the [empty-state](/regions/empty-states) guidelines while being mindful of illustration size. 
 
 #### Small screens and mobile 
 
