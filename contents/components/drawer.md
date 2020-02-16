@@ -73,8 +73,7 @@ Like [modals](/components/modals), drawers should never take the user by surpris
 
 #### Closing 
 - The primary way to close the drawer is by using the close icon in the header. All drawers should have this action.
-
-- The second way to close the drawer is by using the `esc` key. This is primarily meant to help with accessibility.  
+- The second way to close the drawer is by using the <kbd>esc</kbd> key. This is primarily meant to help with accessibility.  
 
 ##### Scrolling
 
