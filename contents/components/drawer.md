@@ -83,7 +83,7 @@ The drawer allows for scrolling content. When scrolling happens, the content scr
 
 #### Loading
 
-The drawer should utilize the [skeleton loading](https://design.gitlab.com/components/skeleton-loader/) pattern when possible. 
+The drawer should utilize the [skeleton loader](/components/skeleton-loader/) pattern when possible. 
 
 #### Empty 
 
