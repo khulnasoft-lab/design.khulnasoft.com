@@ -91,7 +91,7 @@ I an empty state is required, please follow the [empty-state](/regions/empty-sta
 
 #### Small screens and mobile 
 
-The drawer maintains the same behavior all the way down to the small breakpoint, at which point it begins taking up 100% of the viewport width.
+The drawer maintains its behavior down to the smallest breakpoint, at which point it takes up the full viewport width.
 
 #### Accessibility 
 
