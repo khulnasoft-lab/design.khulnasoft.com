@@ -77,7 +77,7 @@ Like [modals](/components/modals), drawers should never take the user by surpris
 
 #### Scrolling
 
-The drawer is designed to allow for scrolling content. When scrolling begins, the drawer content scrolls below the header. 
+The drawer allows for scrolling content. When scrolling happens, the content scrolls below the header.
 
 ### States
 
