@@ -40,7 +40,7 @@ The header appears at the top of the drawer with a full width horizontal break l
 
 ##### Title
 
-* Size and style can vary depending on use case. By default the drawer uses a `19px-bold weight font`.
+* Size and style can vary depending on the use case. By default, the drawer uses a `19px-bold weight font`.
 * The title should truncate **after 3 lines** to avoid pushing content too far down in the drawer.
 
 ##### Actions
