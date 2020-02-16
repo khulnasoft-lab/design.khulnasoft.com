@@ -72,7 +72,7 @@ The drawer will appear following the [motion guidelines](/product-foundations/mo
 - Like [modals](https://design.gitlab.com/components/modals), drawers should never take the user by surprise when they open. Let a user’s action, such as using a button, a link or selecting an option, trigger the drawer.
 
 #### Closing 
-- There is one primary way to close the drawer, by using the close icon in the actions section. All drawers should have this action available to users. 
+- The primary way to close the drawer is by using the close icon in the header. All drawers should have this action.
 
 - The second way to close the drawer is by using the `esc` key. This is primarily meant to help with accessibility.  
 
