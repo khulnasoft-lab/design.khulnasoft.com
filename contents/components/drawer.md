@@ -50,7 +50,7 @@ The header appears at the top of the drawer with a full width horizontal break l
 
 ##### Close icon
 
-* The close icon is always present, right-aligned in the header, and center aligned vertically with the first line of the title. 
+* The close icon is always present, right-aligned in the header, and center-aligned vertically with the first line of the title. 
 
 #### Content 
 
