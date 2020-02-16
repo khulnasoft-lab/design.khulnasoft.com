@@ -93,7 +93,7 @@ I an empty state is required, please follow the [empty-state](/regions/empty-sta
 
 The drawer maintains its behavior down to the smallest breakpoint, at which point it takes up the full viewport width.
 
-#### Accessibility 
+### Accessibility 
 
 * Drawer states (expanded/collapsed) should be announced by screen reader (SR).
 * Focus moves within the drawer when expanded.
