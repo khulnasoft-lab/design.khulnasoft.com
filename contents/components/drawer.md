@@ -54,7 +54,7 @@ The header appears at the top of the drawer with a full width horizontal break l
 
 #### Content 
 
-Content selection should be based on the experience you intend to promote. Content should be structured according to our [layout](https://design.gitlab.com/layout/spacing) guidelines. 
+Content selection should be based on the experience you intend to promote. Content should be structured according to our [layout](/layout/spacing) guidelines. 
 
 #### Container
 
