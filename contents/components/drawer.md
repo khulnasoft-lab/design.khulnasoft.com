@@ -28,7 +28,7 @@ A drawer is a convenient way to present context specific information or to provi
 
 * Show more information about an issue without taking the user to a new page.
 * Show more information about a feature without taking the user to the documentation.
-* Show more information about a vulnerability instead of using a modal.
+* Show more information about a vulnerability instead of using a [modal](/components/modals).
 
 ## Specifications
 
