@@ -69,7 +69,7 @@ The drawer will appear following the [motion guidelines](/product-foundations/mo
 * If full-width elements exist on the page and you do not want the drawer to cover them then you may specify the drawer to be embedded in the page and push all or some of the content rather than overflowing it. 
 
 #### Opening 
-- Like [modals](https://design.gitlab.com/components/modals), drawers should never take the user by surprise when they open. Let a user’s action, such as using a button, a link or selecting an option, trigger the drawer.
+Like [modals](/components/modals), drawers should never take the user by surprise when they open. Let a user’s action, such as using a button, a link or selecting an option, trigger the drawer.
 
 #### Closing 
 - The primary way to close the drawer is by using the close icon in the header. All drawers should have this action.
