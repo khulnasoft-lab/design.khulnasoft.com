@@ -36,7 +36,7 @@ A drawer is a convenient way to present context specific information or to provi
 
 #### Header 
 
-* The header appears at the top of the drawer and is defined by the use of a full width horizontal break line. 
+The header appears at the top of the drawer with a full width horizontal break line below it, separating the header from the content. It always has a title and a close icon, and it can also include actions related to the drawer's content.
 
 ##### Title
 
