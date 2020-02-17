@@ -16,13 +16,10 @@ A drawer is a convenient way to present context-specific information or to provi
 
 | Do | Don’t |
 |------------------------|-------------------|
-| Use to display additional or supplemental information to the user about an element or item. | Use for critical interactions, such as confirming a deletion event. |
-| Use for complex creation, edit, or management experiences. | Use when to display large tables, data sets or metrics that are better suited to a larger view. | 
-| Trigger the drawer after a user has taken action on an item. | Surprise the user by opening a drawer unexpectedly. |
-| Include one focusable element within the drawer. | Close the drawer unless the user has taken action to do so. |
-| Layout content based on the pajamas layout and spacing guidelines. |   | 
-| Use an icon as the primary trigger when an element or item's main action is different than opening a drawer. |
-| Include a descriptive [tooltip](/components/tooltip) when using an icon to toggle the drawer. | |
+| Use to display additional or supplemental information to the user about an element or item. | Use to display content that is not suited for small areas, such as large tables or visualizations. |
+| Use for simple tasks such as editing content or changing a setting. | Use for critical interactions, such as confirming a deletion event or for complex multi-step tasks. |
+| Let a user’s action, such as a button click, following a link or selecting an option, trigger the drawer to open or close. | Surprise the user by opening or closing a drawer without their action. |
+
 
 ### Example use cases
 
@@ -36,7 +33,7 @@ A drawer is a convenient way to present context-specific information or to provi
 
 #### Header
 
-The header appears at the top of the drawer with a full width horizontal break line below it, separating the header from the content. It always has a title and a close icon, and it can also include actions related to the drawer's content.
+The header appears at the top of the drawer with a full-width horizontal break line below it, separating the header from the content. It always has a title and a close icon, and it can also include actions related to the drawer's content.
 
 ##### Title
 
@@ -45,7 +42,7 @@ The header appears at the top of the drawer with a full width horizontal break l
 
 ##### Actions
 
-* Actions are not required and the type of actionvary depending on use case.
+* Actions, either [buttons](/components/button) or links are not required, and the type of action depends on the use case.
 * When used, actions are always left-aligned and placed below the title.
 
 ##### Close icon
@@ -54,11 +51,7 @@ The header appears at the top of the drawer with a full width horizontal break l
 
 #### Content
 
-Content selection should be based on the experience you intend to promote. Content should be structured according to our [layout](/layout/spacing) guidelines.
-
-#### Container
-
-* The container can either be set in `#ffffff` or `#fafafa` depending on the use case.
+Content selection should be based on the experience you intend to promote. Content should be structured according to our [layout](/layout/spacing) guidelines. The container background can either be set in [`$white`](https://design.gitlab.com/product-foundations/colors#neutral-palette) or [`$gray-50`](https://design.gitlab.com/product-foundations/colors#neutral-palette) depending on the use case.
 
 ### Interaction
 
@@ -70,12 +63,12 @@ The drawer will appear following the [motion guidelines](/product-foundations/mo
 
 #### Opening
 
-Like [modals](/components/modals), drawers should never take the user by surprise when they open. Let a user’s action, such as using a button, a link or selecting an option, trigger the drawer.
+Like [modals](/components/modals), drawers should never take the user by surprise when they open. Let a user’s action, such as using a button, a link, or selecting an option, trigger the drawer.
 
 #### Closing
 
-- The primary way to close the drawer is by using the close icon in the header. All drawers should have this action.
-- The second way to close the drawer is by using the <kbd>esc</kbd> key. This is primarily meant to help with accessibility.
+* The primary way to close the drawer is by using the close icon in the header. All drawers should have this action.
+* The second way to close the drawer is by using the <kbd>esc</kbd> key. This is primarily meant to help with accessibility.
 
 #### Scrolling
 
@@ -97,10 +90,9 @@ The drawer maintains its behavior down to the smallest breakpoint, at which poin
 
 ### Accessibility
 
-* Drawer states (expanded/collapsed) should be announced by screen reader (SR).
-* Focus moves within the drawer when expanded.
-* An intentional keyboard trap keeps tab order (looped) within the drawer until it is closed. This is so a user cannot focus on anything outside the drawer.
-* The <kbd>esc</kbd> key should closed the drawer along with the close icon.
+* Drawer states (open/closed) should be announced by a screen reader (SR).
+* The focus should move to the drawer once opened. An intentional keyboard trap keeps tab order (looped) within the drawer until it is closed. This is so a user cannot focus on anything outside the drawer
+* The <kbd>esc</kbd> key should close the drawer along with the close icon.
 
 ## Demo
 
