@@ -35,4 +35,6 @@ Todo: Add live component block with code example
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
-[Sketch Measure Preview for badges](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/badges-spec-previews/)
+[Open design specs in Figma →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Globals-beta?node-id=1659%3A119)
+
+<iframe style="border: none;" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FGlobals-beta%3Fnode-id%3D1659%253A119" allowfullscreen></iframe>
