@@ -79,5 +79,7 @@ While the page is loading, cards should use the [skeleton loader component](/com
 
 ## Design Specifications
 
+Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
+
 [Sketch Measure Preview for Cards](https://hosted/becka/#433-define-design-for-card-component)
 
