@@ -29,7 +29,7 @@ If the purpose of using the component is to compare and contrast 5 or more stati
 
 #### Single Stat
 
-If the purpose of using the component is to show a high level overview of incoming data (e.g. Security vulnerabilities, Threat Monitoring statistics), use a single stat component [todo: add link].
+If the purpose of using the component is to show a high level overview of incoming data such as Security vulnerabilities or Threat Monitoring statistics, use a single stat component.
 
 ## Demo
 
