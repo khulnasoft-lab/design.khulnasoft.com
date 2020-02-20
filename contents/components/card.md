@@ -25,7 +25,7 @@ There are two main types of Cards: Static and Dynamic.
 
 #### Table
 
-If the purpose of using the component is to compare and contrast 5 or more static (non-draggable) pieces of content, or if you're utilizing column headers to organize your content horizontally, a better option would be to structure the data within a [table component](https://design.gitlab.com/components/table).
+If the purpose of using the component is to compare and contrast 5 or more static (non-draggable) pieces of content, or if you're utilizing column headers to organize your content horizontally, a better option would be to structure the data within a [table component](/components/table).
 
 #### Single Stat
 
