@@ -48,7 +48,7 @@ Alerts should be used when the system needs to notify the user of its status or 
 
 | Alert | Use case | Example |
 | ----- | -------- | -------- |
-| Error | Loading error | Use an error alert when the user can try reloading or trying again later to fix the problem. |
+| Error | Loading error | Use an error alert when the backend fails to load a long list of issue comments and the user must reload to try again. |
 | Danger | Configuration issue | Use a danger alert when there is a configuration issue with the `.gitlab-ci.yml` file. |
 | Warning | Potential issue | Use a warning alert when the user has added an SSH key that doesn't appear to be public. |
 | Information | Provide supplemental information | Use an information alert in Settings/Export-project to detail what will happen when a user exports a project. |
