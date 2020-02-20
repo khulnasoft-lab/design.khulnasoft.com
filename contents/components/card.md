@@ -63,7 +63,7 @@ Todo: Add more context here (e.g. cards and alerts) and examples
 
 #### Responsiveness
 
-The Card width is fluid by default. When presenting two or more static cards in a row, care must be taken to ensure the appropriate stacking occurs across breakpoints.
+The card width is fluid by default. When presenting two or more static cards in a row, care must be taken to ensure the appropriate stacking occurs across breakpoints.
 
 #### Interactions
 
