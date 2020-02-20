@@ -73,7 +73,7 @@ On mobile, there should be a longer hold on the card in order to grab it and mov
 
 #### Loading
 
-While the page is loading, cards should use skeleton loader. See example and more info [here](https://design.gitlab.com/components/skeleton-loader).
+While the page is loading, cards should use the [skeleton loader component](/components/skeleton-loader).
 
 ## Design Specifications
 
