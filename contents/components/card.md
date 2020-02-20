@@ -67,7 +67,9 @@ The card width is fluid by default. When presenting two or more static cards in 
 
 #### Interactions
 
-Dynamic Cards can be draggable and re-ordered within a list. To help layer the component within this particular use-case a drop shadow is required. A draggable Card will maintain the ability to house individual links and actions. Its empty space becomes the trigger to enable the drag functionality. The cursor should change to a pointer hand icon to convey functionality. When dragging the card to a new location, any cards in it's position behind it should move to show their new placement if the user were to let go of the selected card and drop it into the current position.
+Dynamic cards can be draggable and re-ordered within a list. To help layer the component within this particular use-case, a drop shadow is required. A draggable card will maintain the ability to house individual links and actions. Its empty space becomes the trigger to enable the drag functionality. The cursor should change to a pointer hand icon to convey functionality. 
+
+When dragging the card to a new location, any cards positioned behind it should move to show their new placement as if the user were to let go of the selected card and drop it into the current position.
 
 On mobile, there should be a longer hold on the card in order to grab it and move it, so as not to interfere with a lighter, quicker touch for scrolling.
 
