@@ -16,6 +16,8 @@ The date picker comes in two parts: the input field and the date picker dropdown
 
 The user should be able to input the date by either typing it in or choosing a day from the datepicker dropdown. The user must never be forced to use only one of the two input methods.
 
+When using the input field, the date format defautls to GitLab's and is expected in ISO 8601 format. The input field only accepts the numeric characters `0123456789` and the *en dash* special character `-`. No other characters can be entered in the input field.
+
 [[Example:basic-date-picker]]
 
 ### Selecting a range of dates
