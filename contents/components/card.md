@@ -10,7 +10,7 @@ Cards are used to connect similar concepts and/or activities to help make it eas
 
 | Do | Don't |
 | --- | --- |
-| Use cards for snapshots or an overview of information. | Don't use a card for an entire workflow. Consider a dedicated content area (a drawer, modal, or even a dedicated page) for deep dives.|
+| Use cards for snapshots or an overview of information. | Don't use a card for an entire workflow. Consider a dedicated content area (a drawer, modal, or even a dedicated page) for deep dives. |
 
 ### Types
 
