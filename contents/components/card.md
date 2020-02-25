@@ -25,11 +25,11 @@ There are two main types of Cards: Static and Dynamic.
 
 #### Table
 
-If the purpose of using the component is to compare and contrast 5 or more static (non-draggable) pieces of content, or if you're utilizing column headers to organize your content horizontally, a better option would be to structure the data within a [table component](/components/table).
+If the purpose of using the component is to compare and contrast 5 or more static (non-draggable) pieces of content, or if you're utilizing column headers to organize your content horizontally, a better option would be to structure the data within a [table component](/contents/components/table).
 
 #### Single Stat
 
-If the purpose of using the component is to show a high level overview of incoming data such as Security vulnerabilities or Threat Monitoring statistics, use a single stat component.
+If the purpose of using the component is to show a high level overview of incoming data such as Security vulnerabilities or Threat Monitoring statistics, use a [single stat component](/contents/components/single-stat).
 
 ## Demo
 
