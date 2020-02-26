@@ -79,7 +79,7 @@ The zoom and scroll bar isn't added to all charts by default. In cases where the
 
 #### Chart popovers
 
-By hovering over specific data points on charts, users will see a detailed popover. Based on our standard [popover component](https://design.gitlab.com/components/popover/), the popovers for charts help provide more detailed information about both the values being hovered on and their corresponding positions on the x and y axes. The format of the popovers is as follows:
+By hovering over specific data points on charts, users will see a [popover](/components/popover/). The popovers for charts help provide users with more detailed information about both the values being hovered on and their corresponding positions on the x and y axes. The format of the popovers is as follows:
 
 *   Popover header: x axis value (x axis title)
 *   Popover body: y axis title, value
