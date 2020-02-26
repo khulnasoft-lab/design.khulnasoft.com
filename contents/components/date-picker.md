@@ -16,7 +16,7 @@ The date picker comes in two parts: the input field and the date picker dropdown
 
 The user should be able to input the date by either typing it in or choosing a day from the datepicker dropdown. The user must never be forced to use only one of the two input methods.
 
-When using the input field, GitLab's date format defaults to ISO 8601. The input field only accepts the numeric characters `0123456789`. The *en dash* special character `-` should be auto populated while the user types in the date. No other special characters can be entered in the input field.
+When using the input field, users are able to enter a date in different formats. For example, the user can type `January 22, 2020` or `22/01/2020`. The datepicker will translate the format to GitLab's defaults (ISO 8601) in the API. The input field accepts all special characters and numbers.
 
 [[Example:basic-date-picker]]
 
