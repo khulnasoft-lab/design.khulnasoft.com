@@ -38,7 +38,7 @@ Column charts can be considered the 'default' chart type. If you are thinking ab
 
 When choosing a chart type, first consider your data set. If you are hoping to show:
 
-*   a comparison of values across categories or across time, consider a column, bar, line or pie chart. 
+*   A comparison of values across categories or across time, consider a column, bar, line or pie chart. 
 *   a distribution of values, consider a scatter chart, a line histogram, or a column histogram. 
 *   the relationship between values, which are usually presented on the x and y axes, consider a scatter chart or a bubble chart.  
 *   the composition of elements within the data set, consider a stacked column, stacked area, pie, or waterfall chart. 
