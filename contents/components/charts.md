@@ -75,7 +75,9 @@ Our charting framework, [ECharts](https://echarts.apache.org/), has a default me
 
 The zoom and scroll bar isn't added to all charts by default. In cases where the chart neatly fits its container, it needn't be displayed. However, in instances where the chart would otherwise overflow its container or where there is a large amount of data for users to explore, a zoom and scroll bar should be introduced. The zoom and scroll bar allows users more control over how much data is displayed at any one time, and gives them the ability to dig into issues they are observing at a more granular level.
 
-### Chart popovers
+### Interaction
+
+#### Chart popovers
 
 By hovering over specific data points on charts, users will see a detailed popover. Based on our standard [popover component](https://design.gitlab.com/components/popover/), the popovers for charts help provide more detailed information about both the values being hovered on and their corresponding positions on the x and y axes. The format of the popovers is as follows:
 
