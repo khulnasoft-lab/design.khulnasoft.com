@@ -76,7 +76,7 @@ The interaction with a character counter for a limited length should proceed lik
 
 ##### Recommended length
 
-The interaction with a character counter for a limited length should proceed like this:
+The interaction with a character counter for a recommended length should proceed like this:
 
 - The character counter is *not* present by default.
 - When the number of characters entered is 30 away from the recommendation, the counter appears, styled with the `secondary` style. It remains styled like this even when it reaches 0.
