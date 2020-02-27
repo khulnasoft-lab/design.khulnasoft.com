@@ -50,7 +50,7 @@ The header is **optional** and acts as the title of the proceeding body content.
 
 #### Body
 
-The card body is **always required**. The content in the body should never be ambiguous or unclear. Strive to be as concise as possible and provide the user with content regarding a single topic. For example, if a card's purpose is to communicate a pricing plan, the body would contain the plan's price point and key feature information. 
+The card body is **always required**. The content in the body should never be ambiguous or unclear. Provide the user with content regarding a single topic and strive to be as concise as possible. For example, if a card's purpose is to communicate a pricing plan, the body would contain the plan's price point and key feature information. 
 
 Use multiple sections within the body when you have two or more related but distinct pieces of information to communicate to users. Multiple sections can help break up complicated concepts like pricing data. Content in this area can include media, photos
 
