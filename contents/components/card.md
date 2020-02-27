@@ -22,7 +22,7 @@ There are two main types of Cards: Static and Dynamic.
 | Card type | Purpose |
 | --- | --- |
 | Static Card | Single topic component to help compare and contrast similar pieces of information. |
-| Dynamic card | Can be draggable. For use in a multidisciplinary list to help users stay organised, such as on GitLab boards. |
+| Dynamic card | Can be draggable. For use in a multidisciplinary list to help users stay organized, such as on GitLab boards. |
 
 ### Alternatives
 
