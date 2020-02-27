@@ -818,9 +818,9 @@
   resolved "https://registry.yarnpkg.com/@gitlab/svgs/-/svgs-1.103.0.tgz#fb7136df9f5df3f53685740daf0ebf565b735608"
   integrity sha512-+Bt+a8ln9KSz3QxB2P57ub71/eiEnKXJQSheTagYh2KlT6Glzh7XeLjyc3W6uGWBOONqsp96H/tYEa9dmDnLqQ==
 
-"@gitlab/ui@https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/451860793/artifacts/raw/gitlab-ui.leipert-tree-shaking.tgz":
+"@gitlab/ui@https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/452116028/artifacts/raw/gitlab-ui.leipert-tree-shaking.tgz":
   version "9.17.0"
-  resolved "https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/451860793/artifacts/raw/gitlab-ui.leipert-tree-shaking.tgz#9a63a1041aa10ee10c2f8190ed1a7e2653afd6c4"
+  resolved "https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/452116028/artifacts/raw/gitlab-ui.leipert-tree-shaking.tgz#3c3d2a6a559ae705fc8612c2101d62f76f32503b"
   dependencies:
     "@babel/standalone" "^7.0.0"
     "@gitlab/vue-toasted" "^1.3.0"
