@@ -66,15 +66,27 @@ The character counter lets users know that the amount of allowed text in an inpu
 
 #### Interaction guidelines
 
-The interaction with a character counter should proceed like this:
+##### Limited length
+
+The interaction with a character counter for a limited length should proceed like this:
 
 - The character counter is present by default (whenever there’s a limit) and shows the maximum number of characters available.
 - When the number of characters entered is 30 away from the limit, the counter changes its color to the `warning` style. It remains styled like this even when it reaches 0.
 - When the number of characters entered crosses the limit, the counter changes its color to `danger`, its font weight to bold, and counts the number of characters that are over the limit (for example **-23**).
 
-Users are allowed to keep typing when the limit is reached. This is to make inputting text more friendly to users and prevents them from losing any information. Some people look at the keyboard when they type so blocking the input would create a poor experience. The characters that are over the limit are also marked with a background set in `$red-200`.
+##### Recommended length
 
-While hovering over the character counter a tooltip with the label “Characters left” must show up.
+The interaction with a character counter for a limited length should proceed like this:
+
+- The character counter is *not* present by default.
+- When the number of characters entered is 30 away from the recommendation, the counter appears, styled with the `secondary` style. It remains styled like this even when it reaches 0.
+- When the number of characters entered crosses the recommendation, the counter changes its color to `info`, its font weight remains regular, and counts the number of characters that are over the limit (for example -23).
+
+##### General interaction guidelines
+
+Users are allowed to keep typing when the limit or the recommended length is reached. This is to make inputting text more friendly to users and prevents them from losing any information. Some people look at the keyboard when they type so blocking the input would create a poor experience. The characters that are over the limit are also marked with a background set in `$red-200` for the limited length and with a background color of `$blue-100` for the recommended length.
+
+While hovering over the limited length character counter a tooltip with the label “Characters left” must show up and a tooltip with a label “Recommended characters left” for the recommended length character counter. Once over the limit, the label is changed to “Characters over limit” and once over the recommended length the label is changed to “Over recommended length”.
 
 #### Preventing text overlap
 
