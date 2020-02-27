@@ -5,7 +5,8 @@ vueComponents:
   - GlLineChart
   - GlColumnChart
   - GlStackedColumnChart
-  - Popover
+related:
+  - popover
 
 ---
 
