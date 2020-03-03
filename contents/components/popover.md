@@ -26,6 +26,10 @@ By default, popovers are placed above the referring element. However, when there
 
 To optimize for readability content within popovers uses left-alignment.
 
+## Sizing
+
+Popovers can be any width but are recommended to have the standard width of `280px`.
+
 ## Demo
 
 [[Example:popover-basic]]
