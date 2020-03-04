@@ -120,7 +120,13 @@ module.exports = {
     },
 
     loaders: {
-      scss: { includePaths: [path.resolve(__dirname, 'node_modules')] },
+      scss: {
+        implementation: require('sass'), // eslint-disable-line
+        sassOptions: {
+          includePaths: [path.resolve(__dirname, 'node_modules')],
+          fiber: require('fibers'), // eslint-disable-line
+        },
+      },
     },
     /*
      ** You can extend webpack config here
