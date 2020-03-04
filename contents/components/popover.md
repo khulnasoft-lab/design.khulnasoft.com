@@ -15,7 +15,7 @@ Popovers fade in upon hover or touch of its trigger element. They fade out upon 
 A popover should be used when:
 
 * You don't want to let the user lose context, but still want to provide additional useful unique information about referring elements.
-2.  When it isn’t critical for the user to act upon the information.
+* It isn’t critical for the user to act upon the information.
 3.  When you want to give a user a summary of extended information and the option to switch context if they want to dive in deeper.
 
 ## Placement
