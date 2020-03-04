@@ -18,9 +18,9 @@ Forms allow for user input by mimicking paper forms where users fill in informat
 
 Form elements should move in a single direction so they should only be distributed through one column when the progression of the form is vertical and through one row when the progression is horizontal. Horizontally stacking input fields in a vertically moving form is only acceptable when they’re related, for example, name and surname.
 
-Todo: Add live component block with code example (Vertical form with stacked input fields)
+[[Example:form-basic]]
 
-Todo: Add live component block with code example (Horizontal form)
+[[Example:form-inline]]
 
 ### Labels
 
@@ -148,7 +148,7 @@ When in doubt, hide a field instead of disabling it.
 
 ### Help text
 
-Help text can be used as additional instructions to the user when filling in the form. It should be: 
+Help text can be used as additional instructions to the user when filling in the form. It should be:
 
 * **Contextual**: An example or an explanation of the field, not a generic "Enter" or a repetition of the label. If it's an example, it must start with "For example,".
 * **Helpful**: If it doesn’t add value and make things easier for the user, it shouldn’t be used.
