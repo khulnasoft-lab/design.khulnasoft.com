@@ -9,6 +9,10 @@ const routes = [
 
 const isProd = process.env.NODE_ENV === 'production';
 
+const sassLoaderOptions = {
+  includePaths: [path.resolve(__dirname, 'node_modules')],
+};
+
 module.exports = {
   /*
    ** Headers of the page
@@ -120,7 +124,7 @@ module.exports = {
     },
 
     loaders: {
-      scss: { includePaths: [path.resolve(__dirname, 'node_modules')] },
+      scss: sassLoaderOptions,
     },
     /*
      ** You can extend webpack config here
@@ -130,6 +134,10 @@ module.exports = {
       config.resolve.alias['bootstrap-vue/src/index'] = 'bootstrap-vue/src/index.scss';
 
       config.module.rules.splice(0, 1);
+
+      config.module.rules.find(rule =>
+        /\.scss\$\/i$/.test(rule.test),
+      ).exclude = /example_display\.scss$/;
 
       config.module.rules.push({
         test: /\.md$/,
@@ -170,6 +178,17 @@ module.exports = {
         test: /\.css$/,
         include: /node-modules/,
         loader: 'css-loader',
+      });
+
+      config.module.rules.push({
+        test: /example_display\.scss$/,
+        loaders: [
+          'raw-loader',
+          {
+            loader: 'sass-loader',
+            options: sassLoaderOptions,
+          },
+        ],
       });
 
       // Run ESLint on save

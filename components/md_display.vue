@@ -2,6 +2,42 @@
 import markdowner from 'markdown-it';
 import markdownAnchor from 'markdown-it-anchor';
 
+import Vue from 'vue';
+import GlExampleDisplay from '@gitlab/ui/documentation/components/example_display.vue';
+import exampleDisplayStyles from '../assets/stylesheets/example_display.scss';
+
+const componentName = 'example-display';
+if (window.customElements && !customElements.get(componentName)) {
+  class ExampleDisplay extends HTMLElement {
+    constructor() {
+      super();
+
+      const shadow = this.attachShadow({ mode: 'open' });
+      const style = document.createElement('style');
+      style.textContent = exampleDisplayStyles;
+      this.wrapper = document.createElement('div');
+      shadow.appendChild(this.wrapper);
+      shadow.appendChild(style);
+    }
+
+    connectedCallback() {
+      const exampleName = this.getAttribute('example-name');
+      // eslint-disable-next-line no-new
+      new Vue({
+        el: this.wrapper,
+        render(h) {
+          return h(GlExampleDisplay, {
+            props: {
+              exampleName,
+            },
+          });
+        },
+      });
+    }
+  }
+  customElements.define(componentName, ExampleDisplay);
+}
+
 export default {
   props: {
     md: {
@@ -24,10 +60,7 @@ export default {
       permalinkSymbol: '#',
     });
     let mdOutput = md.render(this.md);
-    mdOutput = mdOutput.replace(
-      /\[\[Example:(.*?)\]\]/g,
-      '<div class="app-styles"><gl-example-display exampleName="$1" /></div>',
-    );
+    mdOutput = mdOutput.replace(/\[\[Example:(.*?)\]\]/g, '<example-display example-name="$1" />');
 
     // Format Todo Messages as before
     mdOutput = mdOutput.replace(
