@@ -28,7 +28,9 @@ To optimize for readability content within popovers uses left-alignment.
 
 ## Sizing
 
-Popovers can be any width but are recommended to have the standard width of `280px`.
+Popovers have a default width of `280px`, but they can be adapted to have different sizes, depending on the content being wrapped.
+
+Be mindful of the popover content that could overflow the viewport, and avoid popovers that flex 100% of the container width.
 
 ## Demo
 
