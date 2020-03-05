@@ -27,8 +27,6 @@ Occasionally, this can also include a [help link](/usability/helping-users) to p
 
 Taking the form of a primary button with the option to add a secondary button, the text within should be direct and actionable.
 
-[See buttons for more usage information](/components/button)
-
 ### When to use an empty state
 
 Empty states can be employed to:
@@ -48,13 +46,9 @@ Empty states differ from banners in that they are not intended to promote or adv
 
 ## Design specifications
 
-### Illustration Style
+### Illustration
 
-[See illustration guidelines](/product-foundations/illustration)
-
-### Size
-
-Max size on empty state illustrations is **512px wide by 512px tall**. Do not scale smaller illustrations up to this size as they will look too large. Instead use the original size of the illustration if it has already been drawn.
+[See illustration guidelines](/product-foundations/illustration) for design considerations, including style, size, and more.
 
 ### Fonts
 
@@ -69,6 +63,8 @@ Todo: Determine text alignment for description of empty states. [Issue gitlab-de
 
 *   The call to action button in the empty state should be a primary button.
 *   There is only one primary button since there can only be one primary button per form. If there is a need for more than one button, the other should be a secondary button.
+
+[See buttons for more usage information](/components/button)
 
 ### Mobile
 
