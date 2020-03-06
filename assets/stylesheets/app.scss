@@ -1,5 +1,8 @@
 @import 'variables';
 @import '@gitlab/ui/src/scss/variables';
+@import '@gitlab/ui/src/scss/gitlab_ui';
+@import '@gitlab/ui/src/scss/utilities';
+@include gl-typescale-ui;
 
 @import 'utilities/mixins';
 
@@ -25,12 +28,3 @@
 
 @import 'pages/p-color';
 @import 'pages/p_components';
-
-/**
- Import GitLab UI component styles.
- At the moment we only import component specific styles in order to avoid side-effects
- */
-.app-styles {
-  @import '@gitlab/ui/src/scss/gitlab_ui';
-  @import '@gitlab/ui/src/scss/utilities';
-}
