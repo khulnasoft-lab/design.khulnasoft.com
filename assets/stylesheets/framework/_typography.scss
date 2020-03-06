@@ -9,14 +9,6 @@ h1, h2, h3, h4, h5, h6 { font-weight: $font-weight--bold; }
 
 /* UI Typography */
 
-h1 { @include type-scale(7, 8) }
-h2 { @include type-scale(3, 6) }
-h3 { @include type-scale(0, 4) }
-h4 { @include type-scale(-1, 4) }
-h5 { @include type-scale(-1, 4) }
-h6 { @include type-scale(-1, 4) }
-p  { @include type-scale(0, 4, 0, 0) }
-
 a {
   text-decoration: none;
   color: $anchor-color;
@@ -35,43 +27,43 @@ a {
 .md {
   @include type-scale(1, 7, 0, 0);
 
-  h1 { 
+  & > h1 { 
     @include type-scale(14, 12, 2);
     padding-bottom: $gl-spacing-5;
     border-bottom: $border-width solid $gray-300;
   }
 
-  h2 { 
+  & > h2 { 
     @include type-scale(7, 8, 2);
     padding-bottom: $gl-spacing-5;
     border-bottom: $border-width solid $gray-300;
   }
 
-  h3 { @include type-scale(3, 6, 1) }
-  h4 { @include type-scale(1, 6, 1) }
-  h5 { @include type-scale(0, 5, 1) }
+  & > h3 { @include type-scale(3, 6, 1) }
+  & > h4 { @include type-scale(1, 6, 1) }
+  & > h5 { @include type-scale(0, 5, 1) }
 
-  h6 { 
+  & > h6 { 
     @include type-scale(0, 5, 1);
     color: $text-color--secondary;
   }
 
-  p  { @include type-scale(1, 7, 2, 0) }
+  & > p  { @include type-scale(1, 7, 2, 0) }
 
-  blockquote,
-  ul,
-  ol {
+  & > blockquote,
+  & > ul,
+  & > ol {
     margin-bottom: 16px;
     margin-top: 0;
   }
 
-  ul, ol {
+  & > ul, & > ol {
     padding-left: $gl-spacing-6;
 
     ul, ol { margin-bottom: 0; }
   }
 
-  blockquote {
+  & > blockquote {
     margin-left: $gl-spacing-6;
     margin-right: $gl-spacing-6;
     background: $gray-50;
@@ -150,11 +142,11 @@ a {
 }
 
 .md, .md.compact, .distributed {
-  *:first-child {
+  > *:first-child {
     margin-top: 0;
   }
 
-  *:last-child {
+  > *:last-child {
     margin-bottom: 0;
   }
 }
