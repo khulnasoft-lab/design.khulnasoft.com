@@ -45,7 +45,7 @@ This should be the preferred variant as adding filters is a somewhat complex int
 * They need to repeat all four steps for each filter they want to use
 * Once done, they need to confirm their search to trigger it
 
-### Fitlers with “search by type” search boxes
+### Filters with “search by type” search boxes
 
 This variant is rarely used in GitLab at the moment. Try to default to the “search by confirmation” search box whenever filters can be used. Only consider using this variant if the set of data that will be searched through is small and/or you’re certain that users will most likely use only one to two filters most of the time. The [correct search box component variant](https://design.gitlab.com/components/search/#search-by-typing) should be used to accurately suggest how users will interact with it.
 
