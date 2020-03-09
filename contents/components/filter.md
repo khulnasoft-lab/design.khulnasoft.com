@@ -8,16 +8,17 @@ related:
 
 Filters allow users to narrow down content by taking an existing list and removing items based on criteria that match or don't match.
 
-Filters are composed of three parts:
-* The *key* which also acts as a label for the value of the filter (for example: assignee)
-* The *logical operator* (`is` or `is not`)
-* The *value* (for example: a user’s username)
+Filters are composed of three main parts:
 
-All these three key parts are presented as variants of [tokens](/components/tokens/).
+* The **key** which also acts as a label for the value of the filter (for example: assignee)
+* The **logical operator** (`is` or `is not`)
+* The **value** (for example: a user’s username)
+
+All these three parts are presented as variants of [tokens](/components/tokens/).
 
 ## Usage
 
-Filters are always used in combination with [search boxes](/components/search/), preferably with the “search by confirmation” variant.
+Filters are always used in combination with [search boxes](/components/search/), preferably with the [“search by confirmation”](#filters-with-“search-by-confirmation”-search-boxes) variant.
 
 Each filter can consist of only one value and can’t be repeated. For example, a list of issues can only be narrowed down by specifying one assignee.
 
@@ -31,7 +32,7 @@ Filters inlclude a [remove icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~clo
 
 Clicking anywhere else on a filter opens the dropdown for selecting the value of the filter. The token of the filter value is removed and the text content of it becomes editable again. The text cursor is immediately placed at the end of that text string. 
 
-When in this mode where the text string can be edited, if a user selects a different value from the dropdown, that new value replaces the old one. 
+When in this mode where the text string can be edited, if a user selects a different value from the dropdown, that new value replaces the old one. If the user clicks anywhere outside the dropdown or the search box, the string is turned back to a token with whatever its value was at the time of the event.
 
 ### Filters with “search by confirmation” search boxes
 
@@ -54,6 +55,10 @@ This variant is rarely used in GitLab at the moment. Try to default to the “se
 * They then choose the value of the filter from a dropdown (for example: user’s username)
 * As soon as the filter value is chosen, the search is triggered
 * The users need to repeat all steps to add more filters to their search
+
+## Demo
+
+Todo: Add live component block with code example
 
 ## Design specifications
 
