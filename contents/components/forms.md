@@ -34,9 +34,6 @@ Todo: Add live component block with code example (horizontally distributed form)
 
 ### Input fields
 
-[[Example:input-text]]
-
-#### Input field with label and helper text
 [[Example:form-group]]
 
 Disabled input fields need an explanation on why they’re disabled and that comes as [help text](#help-text) below.
