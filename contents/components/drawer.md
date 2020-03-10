@@ -1,6 +1,5 @@
 ---
 name: Drawer
-status: built
 vueComponents:
   - GlDrawer
 related:
@@ -41,7 +40,7 @@ The header appears at the top of the drawer with a full-width horizontal break l
 
 ##### Actions
 
-* Actions, either [buttons](/components/button) or links are not required, and the type of action depends on the use case.
+* Actions, either [buttons](/components/button) or links, are not required. The type of action utilized depends on the use case.
 * When used, actions are always left-aligned and placed below the title.
 
 ##### Close icon
@@ -89,7 +88,7 @@ The drawer maintains its behavior down to the smallest breakpoint, at which poin
 
 ### Accessibility
 
-* Drawer states (open/closed) should be announced by a screen reader (SR).
+* Drawer states (open/closed) should be announced by a screen reader.
 * The focus should move to the drawer once opened. An intentional keyboard trap keeps tab order (looped) within the drawer until it is closed. This is so a user cannot focus on anything outside the drawer
 * The <kbd>esc</kbd> key should close the drawer along with the close icon.
 
