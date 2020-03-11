@@ -24,6 +24,8 @@ Creating an issue for each change allows us to easily track all proposals in one
 place. For changes that affect visual designs or user experiences, it can be 
 helpful to include a mockup.
 
+Additionally, if you want to add anew component or edit an existing component, familiarize yourself with our [Component Lifecycle](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/master/doc/component-lifecycle.md).
+
 ### UX proposals
 
 If your proposal involves a new guideline or UX paradigm, ping a 
