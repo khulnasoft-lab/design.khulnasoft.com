@@ -42,7 +42,7 @@ This should be the preferred variant as adding filters is a somewhat complex int
 1. The user chooses the logical operator (`is` or `is not`) from a dropdown
 1. The user chooses the value of the filter from a dropdown (for example, a `@username`)
 * They need to repeat all four steps for each filter they want to use
-* Once done, they need to confirm their search to trigger it
+1. Once done, the user needs to confirm the search to trigger it
 
 ### Filters with “search by type” search boxes
 
