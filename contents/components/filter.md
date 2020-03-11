@@ -46,7 +46,7 @@ This should be the preferred variant as adding filters is a somewhat complex int
 
 ### Filters with “search by type” search boxes
 
-This variant is rarely used in GitLab at the moment. Try to default to the “search by confirmation” search box whenever filters can be used. Only consider using this variant if the set of data that will be searched through is small and/or you’re certain that users will most likely use only one to two filters most of the time. The [correct search box component variant](https://design.gitlab.com/components/search/#search-by-typing) should be used to accurately suggest how users will interact with it.
+This variant is rarely used in GitLab at the moment. Try to default to the “search by confirmation” search box whenever filters can be used. Only consider using this variant if the set of data that will be searched through is small and/or you’re certain that a user will likely use only one to two filters most of the time. The [correct search box component variant](https://design.gitlab.com/components/search/#search-by-typing) should be used to accurately suggest how users will interact with it.
 
 1. The user clicks into a search box and a dropdown with the keys that can be used appears
 1. The user chooses the key of what they want to filter the list by (for example, `assignee`)
