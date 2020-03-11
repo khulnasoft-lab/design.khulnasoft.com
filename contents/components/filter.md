@@ -48,12 +48,13 @@ This should be the preferred variant as adding filters is a somewhat complex int
 
 This variant is rarely used in GitLab at the moment. Try to default to the “search by confirmation” search box whenever filters can be used. Only consider using this variant if the set of data that will be searched through is small and/or you’re certain that users will most likely use only one to two filters most of the time. The [correct search box component variant](https://design.gitlab.com/components/search/#search-by-typing) should be used to accurately suggest how users will interact with it.
 
-* The users click into a search box and a dropdown with the keys that can be used appears
-* The users then choose the key of what they want to filter the list by (for example: assignee)
-* They then choose the logical operator (`is` or `is not`) from a dropdown
-* They then choose the value of the filter from a dropdown (for example: user’s username)
-* As soon as the filter value is chosen, the search is triggered
-* The users need to repeat all steps to add more filters to their search
+1. The user clicks into a search box and a dropdown with the keys that can be used appears
+1. The user chooses the key of what they want to filter the list by (for example, `assignee`)
+1. The user chooses the logical operator (`is` or `is not`) from a dropdown
+1. The user chooses the value of the filter from a dropdown (for example, a `@username`)
+1. As soon as the filter value is chosen, the search is triggered
+1. The user needs to repeat steps 1–5 to add more filters to the search
+
 
 ## Demo
 
