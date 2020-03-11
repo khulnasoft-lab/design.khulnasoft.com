@@ -37,7 +37,7 @@ When in this mode where the text string can be edited, if a user selects a diffe
 
 This should be the preferred variant as adding filters is a somewhat complex interaction with usually large sets of data. The UI will be better performant if a user confirms their search by clicking on the search button, or by pressing “enter” on a keyboard. The [correct search box component variant](https://design.gitlab.com/components/search/#search-by-confirmation) should be used to accurately suggest how a user will interact with it.
 
-* The users click into a search box and a dropdown with the keys that can be used appears
+1. The user clicks into a search box and a dropdown with the keys that can be used appears
 * The users then choose the key of what they want to filter the list by (for example: assignee)
 * They then choose the logical operator (`is` or `is not`) from a dropdown
 * They then choose the value of the filter from a dropdown (for example: user’s username)
