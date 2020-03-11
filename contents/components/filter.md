@@ -6,7 +6,7 @@ related:
 
 ---
 
-Filters allow users to narrow down content by taking an existing list and removing items based on criteria that match or don't match.
+Filters allow a user to narrow down content by taking an existing list and removing items based on criteria that matches or doesn’t.
 
 Filters are composed of three main parts:
 
