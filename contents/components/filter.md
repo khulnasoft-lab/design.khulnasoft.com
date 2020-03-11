@@ -35,7 +35,7 @@ When in this mode where the text string can be edited, if a user selects a diffe
 
 ### Filters with “search by confirmation” search boxes
 
-This should be the preferred variant as adding filters is a somewhat complex interaction with usually large sets of data. The UI will be better performant if users confirm their search by clicking on the search button or by pressing “enter” on their keyboard. The [correct search box component variant](https://design.gitlab.com/components/search/#search-by-confirmation) should be used to accurately suggest how users will interact with it.
+This should be the preferred variant as adding filters is a somewhat complex interaction with usually large sets of data. The UI will be better performant if a user confirms their search by clicking on the search button, or by pressing “enter” on a keyboard. The [correct search box component variant](https://design.gitlab.com/components/search/#search-by-confirmation) should be used to accurately suggest how a user will interact with it.
 
 * The users click into a search box and a dropdown with the keys that can be used appears
 * The users then choose the key of what they want to filter the list by (for example: assignee)
