@@ -39,7 +39,7 @@ This should be the preferred variant as adding filters is a somewhat complex int
 
 1. The user clicks into a search box and a dropdown with the keys that can be used appears
 1. The user chooses the key of what they want to filter the list by (for example, `assignee`)
-* They then choose the logical operator (`is` or `is not`) from a dropdown
+1. The user chooses the logical operator (`is` or `is not`) from a dropdown
 * They then choose the value of the filter from a dropdown (for example: user’s username)
 * They need to repeat all four steps for each filter they want to use
 * Once done, they need to confirm their search to trigger it
