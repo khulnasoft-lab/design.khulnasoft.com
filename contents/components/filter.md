@@ -62,6 +62,6 @@ Todo: Add live component block with code example
 
 ## Design specifications
 
-Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
+Color, spacing, dimensions, and layout specific information pertaining to this component can be viewed using the following link:
 
 [Sketch Measure Preview for filters](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/filters-spec-previews/)
