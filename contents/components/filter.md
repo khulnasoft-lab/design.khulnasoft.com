@@ -28,7 +28,7 @@ Filters are positioned inline with the text cursor in a search box. They can wra
 
 ## Interaction guidelines
 
-Filters inlclude a [remove icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~close) which, when clicked, removes the whole filter from the search box.
+Filters include a [remove icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~close) which, when clicked, removes the whole filter from the search box.
 
 Clicking on any of the three parts of a filter opens a corrsponding dropdown for selecting the value for that part of the filter. For example, if a user clicks on the value part of the filter, the value dropdown appears, if they click on the operator, the operator dropdown appears and the value part of the filter is removed, if they click on the key the key dropdown appears and the operator and the value of the filter are removed. The text content of the corresponding part becomes editable and the text cursor is immediately placed at the end of that text string so that users can either type or select a suggestion from a dropdown. 
 
