@@ -10,10 +10,9 @@ Filters allow users to narrow down content by taking an existing list and removi
 
 Filters are composed of three main parts:
 
-* The **key** which also acts as a label for the value of the filter (for example: assignee)
-* The **logical operator** (`is` or `is not`)
-* The **value** (for example: a user’s username)
-
+1. **key**: acts as the label of the filter value, for example, `assignee`
+1. **logical operator**: the condition that binds the key to the value, for example, `is` or `is not`
+1. **value**: the item that the condition will base results on, for example, a `@username`
 Visually, each part is a variant of a [token](/components/token/).
 
 ## Usage
