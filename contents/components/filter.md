@@ -14,7 +14,7 @@ Filters are composed of three main parts:
 * The **logical operator** (`is` or `is not`)
 * The **value** (for example: a user’s username)
 
-All these three parts are presented as variants of [tokens](/components/tokens/).
+Visually, each part is a variant of a [token](/components/token/).
 
 ## Usage
 
