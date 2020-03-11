@@ -3,6 +3,7 @@ name: Filter
 related:
   - token
   - search
+  - list
 
 ---
 
