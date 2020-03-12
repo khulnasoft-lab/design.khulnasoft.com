@@ -36,27 +36,14 @@ When in this mode where the text string can be edited, if a user selects a diffe
 
 After a filter is successfully added, a dropdown with suggestions for other keys appears immediately.
 
-### Filters with “search by confirmation” search boxes
-
-This should be the preferred variant as adding filters is a somewhat complex interaction with usually large sets of data. The UI will be better performant if a user confirms their search by clicking on the search button, or by pressing “enter” on a keyboard. The [correct search box component variant](https://design.gitlab.com/components/search/#search-by-confirmation) should be used to accurately suggest how a user will interact with it.
+This is how a user should experience adding a filter: 
 
 1. The user clicks into a search box and a dropdown with the keys that can be used appears
 1. The user chooses the key of what they want to filter the list by (for example, `assignee`)
 1. The user chooses the logical operator (`is` or `is not`) from a dropdown
 1. The user chooses the value of the filter from a dropdown (for example, a `@username`)
 1. The user needs to repeat steps 1–4 for each filter they want to use
-1. Once done, the user needs to confirm the search to trigger it
-
-### Filters with “search by type” search boxes
-
-This variant is rarely used in GitLab at the moment. Try to default to the “search by confirmation” search box whenever filters can be used. Only consider using this variant if the set of data that will be searched through is small and/or you’re certain that a user will likely use only one to two filters most of the time. The [correct search box component variant](https://design.gitlab.com/components/search/#search-by-typing) should be used to accurately suggest how users will interact with it.
-
-1. The user clicks into a search box and a dropdown with the keys that can be used appears
-1. The user chooses the key of what they want to filter the list by (for example, `assignee`)
-1. The user chooses the logical operator (`is` or `is not`) from a dropdown
-1. The user chooses the value of the filter from a dropdown (for example, a `@username`)
-1. As soon as the filter value is chosen, the search is triggered
-1. The user needs to repeat steps 1–5 to add more filters to the search
+1. Once done, the user needs to confirm the search to trigger it. They do so by clicking on the search button or by using their keyoboard.
 
 
 ## Demo
