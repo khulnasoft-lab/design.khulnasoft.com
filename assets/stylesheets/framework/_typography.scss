@@ -76,36 +76,36 @@ a {
 
 .md.compact {
 
-  h1 {
+  & > h1 {
     @include type-scale(3, 6, 1);
     border: none;
     padding: 0;
   }
 
-  h2 {
+  & > h2 {
     @include type-scale(0, 5, 1);
     border: none;
     padding: 0;
   }
 
-  h3 { @include type-scale(-1, 4, 1); }
+  & > h3 { @include type-scale(-1, 4, 1); }
 
-  h4 { 
+  & > h4 { 
     @include type-scale(-1, 4, 1);
     color: $text-color--secondary;
   }
 
-  h5 { 
+  & > h5 { 
     @include type-scale(-1, 4, 1);
     color: $text-color--secondary;
   }
 
-  h6 { 
+  & > h6 { 
     @include type-scale(-1, 4, 1);
     color: $text-color--secondary;
   }
 
-  p { @include type-scale(0, 6, 2, 0); }
+  & > p { @include type-scale(0, 6, 2, 0); }
 }
 
 /*Distributed UI Typography */
