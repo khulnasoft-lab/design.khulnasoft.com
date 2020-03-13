@@ -1,9 +1,12 @@
 ---
 name: Drawer
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 status: built
 >>>>>>> add vue component tab, built status, and demo
+=======
+>>>>>>> 4b6a49a177b4b51aade68fe12b8b35e33586b99e
 vueComponents:
   - GlDrawer
 related:
@@ -93,7 +96,11 @@ The drawer maintains its behavior down to the smallest breakpoint, at which poin
 ### Accessibility
 
 * Drawer states (open/closed) should be announced by a screen reader.
+<<<<<<< HEAD
 * The focus should move to the drawer once opened. An intentional keyboard trap keeps tab order (looped) within the drawer until it is closed. This is so a user cannot focus on anything outside the drawer.
+=======
+* The focus should move to the drawer once opened. An intentional keyboard trap keeps tab order (looped) within the drawer until it is closed. This is so a user cannot focus on anything outside the drawer
+>>>>>>> 4b6a49a177b4b51aade68fe12b8b35e33586b99e
 * The <kbd>esc</kbd> key should close the drawer along with the close icon.
 
 ## Demo
