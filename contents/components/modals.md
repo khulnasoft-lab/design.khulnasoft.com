@@ -1,9 +1,6 @@
 ---
 name: Modals
-<<<<<<< HEAD
 status: built
-=======
->>>>>>> 4b6a49a177b4b51aade68fe12b8b35e33586b99e
 vueComponents:
   - GlModal
 related:
