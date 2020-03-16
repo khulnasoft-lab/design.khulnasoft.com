@@ -36,7 +36,7 @@ export default {
     let mdOutput = md.render(this.md);
     mdOutput = mdOutput.replace(
       /\[\[Example:(.*?)\]\]/g,
-      '<div class="app-styles"><gl-example-display exampleName="$1" /></div>',
+      '<gl-example-display exampleName="$1" />',
     );
 
     // Format Todo Messages as before
