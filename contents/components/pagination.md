@@ -17,13 +17,11 @@ Pagination breaks up results into several pages with controls for navigating to 
 
 ## Usage
 
-Pagination is similar to infinite scroll, so use the table below as a guide for choosing when to use either component.
+Use pagination to:
 
-| | Pagination | Infinite Scroll |
-| ----- | ---------- | --------------- |
-| **Description:** | Benefits users who are looking for a specific item in a list to complete their task. | Benefits users who are browsing through lists with content that updates frequently. |
-| **When to use:** | To be used on any list that can be sorted and/or filtered. | To be used on lists with no sort/filter functionality. Lists that only have a search function should use infinite scroll and not be considered in the sorted/filtered category. |
-| **Examples:** | Issues and Todos dashboards | Activity dashboards and the Commits page |
+* Benefit users who are looking for a specific item in a list to complete their task.
+* Navigate any list that can be sorted and/or filtered.
+* Navigate Issues, Todos, and Dashboards (Milestones, Environments, Operations).
 
 ### Behavior
 
