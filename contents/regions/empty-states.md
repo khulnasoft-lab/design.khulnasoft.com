@@ -25,7 +25,7 @@ Occasionally, this can also include a [help link](/usability/helping-users) to p
 
 **3\. Call to action**
 
-Taking the form of a primary button with the option to add a secondary button, the text within should be direct and actionable.
+The call to action takes the form of a primary button, with the option to add a secondary button. The label should be direct and actionable.
 
 ### When to use an empty state
 
