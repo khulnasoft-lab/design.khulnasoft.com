@@ -70,4 +70,4 @@ Todo: Determine text alignment for description of empty states. [Issue gitlab-de
 
 On mobile, the layout is same as the one on desktop. It only scales down the illustrations and changes the width of paragraph.
 
-Add Sketch Measure Preview for empty states
+TODO: Add Sketch Measure Preview for empty states
