@@ -12,7 +12,7 @@ An empty state is our way of communicating to the user that there is no content 
 
 ## Usage
 
-Empty states are composed of 3 elements: the illustration, description, and call to action. The illustration is optional but strongly recommended as it adds personality and aides the user in understanding the situation.
+Empty states are composed of 3 elements: the illustration, description, and call to action.
 
 **1\. Illustration**
 
