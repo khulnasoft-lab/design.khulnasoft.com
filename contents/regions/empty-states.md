@@ -5,7 +5,6 @@ vueComponents:
 related: 
   - banner
   - button
-  - illustration
 ---
 
 An empty state is our way of communicating to the user that there is no content to load and what action they should take next. They are vital in making the experience feel more approachable and understandable.
