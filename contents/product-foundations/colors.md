@@ -28,7 +28,7 @@ Priorities skip weights because, in most situations, the contrast between two ad
 At GitLab, we are dedicated to continually improving the accessibility of the application. Currently, all chromatic colors pass the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast) AA level for large text when used as a background color. Learn more in [Accessibility](/accessibility/a11y).
 
 <div class="color-palette row m-b-9">
-  <div class="green col col-50">
+  <div class="green col col-6">
     <h4>Green</h4>
     <div class="distributed palette">
       <div class="color">
@@ -275,7 +275,7 @@ At GitLab, we are dedicated to continually improving the accessibility of the ap
       </div>
     </div>
   </div>
-  <div class="blue col col-50">
+  <div class="blue col col-6">
     <h4>Blue</h4>
     <div class="distributed palette">
       <div class="color">
@@ -522,7 +522,7 @@ At GitLab, we are dedicated to continually improving the accessibility of the ap
       </div>
     </div>
   </div>
-  <div class="orange col col-50 m-t-7">
+  <div class="orange col col-6 m-t-7">
     <h4>Orange</h4>
     <div class="distributed palette">
       <div class="color">
@@ -769,7 +769,7 @@ At GitLab, we are dedicated to continually improving the accessibility of the ap
       </div>
     </div>
   </div>
-  <div class="red col col-50 m-t-7">
+  <div class="red col col-6 m-t-7">
     <h4>Red</h4>
     <div class="distributed palette">
       <div class="color">
@@ -1018,7 +1018,7 @@ At GitLab, we are dedicated to continually improving the accessibility of the ap
   </div>
 </div>
 <div class="row m-b-9">
-  <div class="col col-50">
+  <div class="col col-6">
 
 ## Neutral palette
 
@@ -1104,7 +1104,7 @@ Our neutral palette is primarily used within components to help differentiate hi
       </div>
     </div>
   </div>
-  <div class="col col-50">
+  <div class="col col-6">
 
 ## Transparencies
 

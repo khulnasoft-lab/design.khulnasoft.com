@@ -110,25 +110,25 @@ The default border radius is **2px**, with **0px**, **1px**, or multiples of **2
 </figure>
 
 <div class="row">
-  <div class="col col-50">
+  <div class="col col-6">
     <figure class="figure" role="figure" aria-label="A combination of 2px and 4px border radius helps the elements fit together better.">
       <img class="figure-img" src="/img/icons-border-radius-example.svg" alt="Icon with 2px and 4px border radius" role="img" />
       <figcaption class="figure-caption">A combination of 2px and 4px border radius helps the elements fit together better.</figcaption>
     </figure>
   </div>
-  <div class="col col-50">
+  <div class="col col-6">
     <figure class="figure" role="figure" aria-label="A combination of 0px and 4px best represents the subject matter.">
       <img class="figure-img" src="/img/icons-border-radius-alternates.svg" alt="Icon with 0px and 4px border radius" role="img" />
       <figcaption class="figure-caption">A combination of 0px and 4px best represents the subject matter.</figcaption>
     </figure>
   </div>
-  <div class="col col-50">
+  <div class="col col-6">
     <figure class="figure" role="figure" aria-label="A 1px border radius works well for angles that are less than 90º.">
       <img class="figure-img" src="/img/icons-border-radius-angle.svg" alt="Icon with 1px border radius" role="img" />
       <figcaption class="figure-caption">A 1px border radius works well for angles that are less than 90º.</figcaption>
     </figure>
   </div>
-  <div class="col col-50">
+  <div class="col col-6">
     <figure class="figure" role="figure" aria-label="This icon does not use a border radius because in doing so features critical to the meaning would be lost.">
       <img class="figure-img" src="/img/icons-border-radius-none.svg" alt="Icon with no border radius" role="img" />
       <figcaption class="figure-caption">This icon does not use a border radius, because doing so risks losing features critical to the icon’s meaning.</figcaption>
@@ -141,13 +141,13 @@ The default border radius is **2px**, with **0px**, **1px**, or multiples of **2
 Use increments of **15º** to achieve consistency throughout the icon set. Angles can be combined in an icon to create more dynamic shapes and movement, while remaining consistent as a whole.
 
 <div class="row">
-  <div class="col col-50">
+  <div class="col col-6">
     <figure class="figure" role="figure" aria-label="15º angle increments">
       <img class="figure-img" src="/img/icons-angles.svg" alt="Angle settings" role="img" />
       <figcaption class="figure-caption">15º angle increments</figcaption>
     </figure>
   </div>
-  <div class="col col-50">
+  <div class="col col-6">
     <figure class="figure" role="figure" aria-label="Icon with multiple angles">
       <img class="figure-img" src="/img/icons-angles-example.svg" alt="Icon with multiple angles" role="img" />
       <figcaption class="figure-caption">Icon with multiple angles</figcaption>
