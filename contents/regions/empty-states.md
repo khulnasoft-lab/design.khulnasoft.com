@@ -61,7 +61,7 @@ Todo: Determine text alignment for description of empty states. [Issue gitlab-de
 
 ### Call to action
 
-*   The call to action button in the empty state should be a primary button.
+*   The call to action [button](/components/button) in the empty state should be a primary button.
 *   There is only one primary button since there can only be one primary button per form. If there is a need for more than one button, the other should be a secondary button.
 
 [See buttons for more usage information](/components/button)
