@@ -16,7 +16,7 @@ Empty states are composed of 3 elements: the illustration, description, and call
 
 **1\. Illustration**
 
-The illustration should compliment the need for the empty state and help the user understand the situation.
+The [illustration](#illustration) should compliment the need for the empty state. It’s optional, but strongly recommended to help the user understand the situation and add personality.`
 
 **2\. Description**
 
