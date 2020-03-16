@@ -36,7 +36,7 @@ Empty states can be employed to:
 *   Convey an error state, which will depend on the nature of the error and should be used judiciously. An example of this would be a server response error, that is, 404 or 500.
 *   Display empty search results.
 
-Empty states differ from banners in that they are not intended to promote or advertise new features or functionality.
+Empty states differ from [banners](/components/banner) in that they are not intended to promote or advertise new features or functionality.
 
 [See banners for more usage information](/components/banner)
 
