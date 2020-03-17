@@ -9,7 +9,7 @@ related:
   - spinner
 ---
 
-Breaking up lists and distributing the results either by the use of [pagination](/components/pagination) or by infinite scroll helps the user parse a large number of items whenever there are too many results to show at once. We use both pagination and infinite scroll to segment results depending on the user’s task.
+Breaking up lists and distributing the results using infinite scroll helps the user parse a large number of items whenever there are too many results to show at once.
 
 ## Definition
 
@@ -19,9 +19,10 @@ Infinite scroll loads the next batch of items in a list once the user has reache
 
 Use infinite scroll to:
 
-* Benefit users who are browsing through lists with content that updates frequently.
+* Present lists with content that updates frequently. For example, Activity and Commits.
 * Navigate lists with no sort/filter functionality. Lists that only have a search function should use infinite scroll and not be considered in the sorted/filtered category.
-* Activity, and Commits page.
+
+We use both infinite scroll and pagination to segment results depending on the user’s task. Compare these guidelines with the [pagination usage guidelines](/components/pagination#usage) if you are unsure of which to use.
 
 ### Behavior
 
