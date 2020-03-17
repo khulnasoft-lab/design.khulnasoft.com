@@ -9,7 +9,7 @@ related:
   - list
 ---
 
-Breaking up lists and distributing the results either by the use of pagination or by [infinite scroll](/components/infinite-scroll) helps the user parse a large number of items whenever there are too many results to show at once. We use both pagination and infinite scroll to segment results depending on the user’s task.
+Breaking up lists and distributing the results using pagination helps the user parse a large number of items whenever there are too many results to show at once.
 
 ## Definition
 
@@ -19,9 +19,10 @@ Pagination breaks up results into several pages with controls for navigating to 
 
 Use pagination to:
 
-* Benefit users who are looking for a specific item in a list to complete their task.
-* Navigate any list that can be sorted and/or filtered.
-* Navigate Issues, Todos, and Dashboards (Milestones, Environments, Operations).
+* Present lists that dislplay a specific item type users need to complete their task. For example, Issues, Todos, and Dashboards (Milestones, Environments, Operations).
+* Navigate lists that can be sorted and/or filtered. 
+
+We use both pagination and infinite scroll to segment results depending on the user’s task. Compare these guidelines with the [infitnite scroll usage guidelines](/components/infinite-scroll#usage) if you are unsure of which to use.
 
 ### Behavior
 
