@@ -42,9 +42,11 @@ To reduce cognitive load and time to task completion, the icon should be located
 
 The following icon should be used:
 
-TODO:
-Add chevron-right icon
-Add chevron-down icon
+| **Chevrons** |
+| --- | --- |
+| <figure class="figure" role="figure" aria-label="Chevron right icon"><img class="figure-img" src="/static/img/chevron-right.svg" alt="Chevron right icon" role="img" /><figcaption class="figure-caption">icn/chevron-right</figcaption></figure> | <figure class="figure" role="figure" aria-label="Chevron down"><img class="figure-img" src="/static/img/chevron-down.svg" alt="Chevron down icon" role="img" /><figcaption class="figure-caption">icn/chevron-down</figcaption></figure> |
+
+
 
 The affordance of the chevron means that additional information can be found "under" the header.
 
