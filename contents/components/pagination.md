@@ -19,7 +19,7 @@ Pagination breaks up results into several pages with controls for navigating to 
 
 Use pagination to:
 
-* Present lists that dislplay a specific item type users need to complete their task. For example, Issues, Todos, and Dashboards (Milestones, Environments, Operations).
+* Present lists that contain specific items a user may need to find in order to complete their task. For example, Issues, Todos, Milestones, and Environments.
 * Navigate lists that can be sorted and/or filtered. 
 
 We use both pagination and infinite scroll to segment results depending on the user’s task. Compare these guidelines with the [infitnite scroll usage guidelines](/components/infinite-scroll#usage) if you are unsure of which to use.
