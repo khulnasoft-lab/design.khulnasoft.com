@@ -9,11 +9,7 @@ related:
   - spinner
 ---
 
-Breaking up lists and distributing the results using infinite scroll helps the user parse a large number of items whenever there are too many results to show at once.
-
-## Definition
-
-Infinite scroll loads the next batch of items in a list once the user has reached the bottom of the page and thus removes the need for pagination.
+Whenever there are too many results to show at once on a page, use infinite scroll to help users parse a large number of items by breaking up lists and distributing the results. Infinite scroll loads the next batch of items in a list below the existing results, once the user has reached the bottom of the page. Infinite scroll removes the need for (paginations](/components/pagination).
 
 ## Usage
 
