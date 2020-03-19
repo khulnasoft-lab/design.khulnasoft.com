@@ -9,7 +9,7 @@ related:
   - list
 ---
 
-Pagination is used to help user parse a large number of items on a page, whenever there are too many results to show at once. Pagination breaks up results into several pages with controls for navigating to a specific page, and to the next or previous pages. 
+Pagination is used to help users parse a large number of items on a page, whenever there are too many results to show at once. Pagination breaks up results into several pages with controls for navigating forward and backward, or to a specific page. 
 
 ## Usage
 
