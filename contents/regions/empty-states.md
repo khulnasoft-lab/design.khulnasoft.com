@@ -46,28 +46,6 @@ Empty states differ from [banners](/components/banner) in that they are not inte
 
 ## Design specifications
 
-### Illustration
-
-[See illustration guidelines](/product-foundations/illustration) for design considerations, including style, size, and more.
-
-### Fonts
-
-*   Header title: UI H4 style
-*   Description: UI paragraph style
-
-### Description
-
-Todo: Determine text alignment for description of empty states. [Issue gitlab-design#238](https://gitlab.com/gitlab-org/gitlab-design/issues/238)
-
-### Call to action
-
-*   The call to action [button](/components/button) in the empty state should be a primary button.
-*   There is only one primary button since there can only be one primary button per form. If there is a need for more than one button, the other should be a secondary button.
-
-[See buttons for more usage information](/components/button)
-
-### Mobile
-
-On mobile, the layout is same as the one on desktop. It only scales down the illustrations and changes the width of paragraph.
+Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
 TODO: Add Sketch Measure Preview for empty states
