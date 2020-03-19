@@ -19,7 +19,8 @@ The [illustration](#illustration) should compliment the need for the empty state
 
 **2\. Description**
 
-A description includes a title and message, and should be clear, concise, and explain why the user is seeing this screen.
+A description includes a title and message. It should be clear, concise, and explain why the user is seeing this screen.
+
 Occasionally, this can also include a [help link](/usability/helping-users) to provide supplemental information about the content.
 
 **3\. Call to action**
