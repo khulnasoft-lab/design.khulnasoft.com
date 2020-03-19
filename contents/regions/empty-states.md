@@ -48,4 +48,4 @@ Empty states differ from [banners](/components/banner) in that they are not inte
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
-TODO: Add Sketch Measure Preview for empty states
+TODO: Add Figma specs for empty states
