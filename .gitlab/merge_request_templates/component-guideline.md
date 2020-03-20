@@ -6,7 +6,9 @@
 
 ### Does this MR meet the acceptance criteria?
 
-- [ ] Added description to this MR explaining the reasons for the proposed change, and what is out of scope, per [say-why-not-just-what][transparency]
+- [ ] Added description to this MR explaining the reasons for the proposed change, per [say-why-not-just-what][transparency]
+- [ ] MR focus on the scope of the proposal.
+  - For example, if this MR is focused on `usage guidelines`, addressing `accessibility challenges` could be added separately with a different MR.
 - [ ] Follow the [Pajamas Voice & Tone Guidelines][voice-and-tone] and [GitLab Documentation Style Guide][style-guide]
 - [ ] Link components to and from other `related` components on the `.md` file, where helpful
 - [ ] Assign to DRI for review. All GitLab designers are reviewers, but you can also assign it directly to a [trainee maintainer][pajamas-assignments]
