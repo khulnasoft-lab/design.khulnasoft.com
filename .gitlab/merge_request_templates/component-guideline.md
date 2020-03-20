@@ -9,7 +9,7 @@
 - [ ] Added description to this MR explaining the reasons for the proposed change, and what is out of scope, per [say-why-not-just-what][transparency]
 - [ ] Follow the [Pajamas Voice & Tone Guidelines][voice-and-tone] and [GitLab Documentation Style Guide][style-guide]
 - [ ] Link components to and from other `related` components on the `.md` file, where helpful
-- [ ] Assign to DRI for review. All GitLab designers are reviewers, but you can also assign it directly to a [trainee maintainer][ux-maintainers]
+- [ ] Assign to DRI for review. All GitLab designers are reviewers, but you can also assign it directly to a [trainee maintainer][pajamas-assignments]
 - [ ] Apply the correct component label
 - [ ] Select a due date or milestone
 
@@ -24,5 +24,5 @@
 
 [voice-and-tone]: https://design.gitlab.com/content/voice-tone
 [style-guide]: https://docs.gitlab.com/ee/development/documentation/styleguide.html
-[ux-maintainers]: https://about.gitlab.com/handbook/engineering/ux/pajamas-design-system/design-review/#current-trainee-maintainers
+[pajamas-assignments]: hhttps://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com
 [transparency]: https://about.gitlab.com/handbook/values/#say-why-not-just-what
