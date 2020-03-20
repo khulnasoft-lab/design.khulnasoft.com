@@ -7,7 +7,7 @@
 ### Does this MR meet the acceptance criteria?
 
 - [ ] Added description to this MR explaining the reasons for the proposed change, per [say-why-not-just-what][transparency]
-- [ ] MR focus on the scope of the proposal.
+- [ ] MR includes scope that reflects the purpose of the change in the description.
   - For example, if this MR is focused on `usage guidelines`, addressing `accessibility challenges` could be added separately with a different MR.
 - [ ] Follow the [Pajamas Voice & Tone Guidelines][voice-and-tone] and [GitLab Documentation Style Guide][style-guide]
 - [ ] Link components to and from other `related` components on the `.md` file, where helpful
@@ -18,7 +18,6 @@
 ### Links
 
 <!-- Link related issues below. Insert the issue link or reference after the word "Closes" if merging this should automatically close it. -->
-
 
 <!-- Do not edit or remove the lines below -->
 
