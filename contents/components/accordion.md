@@ -80,7 +80,10 @@ Todo: Add live component block with code example
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
-TODO: Add Sketch Measure Preview for Accordion
+[Sketch Measure Preview for Accordion](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/accordion-spec-previews/)
+
+
+
 
 ## Resources
 
