@@ -17,6 +17,9 @@
 
 <!-- Link related issues below. Insert the issue link or reference after the word "Closes" if merging this should automatically close it. -->
 
+
+<!-- Do not edit or remove the lines below -->
+
 /label ~"Pajamas"
 
 [voice-and-tone]: https://design.gitlab.com/content/voice-tone
