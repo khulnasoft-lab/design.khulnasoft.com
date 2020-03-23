@@ -32,19 +32,19 @@ export default {
     // Format Todo Messages as before
     mdOutput = mdOutput.replace(
       /Note:(.*?)\n/gm,
-      '<span class="admonition admonition--note"><span>Note: </span>$1</span>',
+      '<div class="admonition admonition--note"><span>Note: </span>$1</div>',
     );
     mdOutput = mdOutput.replace(
       /Tip:(.*?)\n/gm,
-      '<span class="admonition admonition--tip"><span>Tip: </span>$1</span>',
+      '<div class="admonition admonition--tip"><span>Tip: </span>$1</div>',
     );
     mdOutput = mdOutput.replace(
       /Todo:(.*?)\n/gm,
-      '<span class="admonition admonition--todo"><span>Todo: </span>$1</span>',
+      '<div class="admonition admonition--todo"><span>Todo: </span>$1</div>',
     );
     mdOutput = mdOutput.replace(
       /Warning:(.*?)\n/gm,
-      '<span class="admonition admonition--warning"><span>Warning: </span>$1</span>',
+      '<div class="admonition admonition--warning"><span>Warning: </span>$1</div>',
     );
 
     const dynamicElement = {
