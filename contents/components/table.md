@@ -79,7 +79,15 @@ Avoid making all the columns an even width. The table columns should be sized ac
 
 #### Ordering & sorting
 
-A table is often displayed with a certain column taking precedence towards ordering. If the ordering is static, a visual cue can be given towards the user by displaying a [sorting icon](https://gitlab-org.gitlab.io/gitlab-svgs/?q=sort) next to the leading header to make it easier for the user to scan the table contents.
+The data set of a table is usually ordered by one specific column representing an attribute, such as status, last updated, or priority. 
+
+Sorting is designed as a native functionality of tables, and should not be confused with the [list sorting](/components/sorting) component.
+
+When sorting is enabled for the table, a [sorting icon](https://gitlab-org.gitlab.io/gitlab-svgs/?q=sort) is displayed next to the column header. A sortable table is identified by the sorting icon in one more of its table header cells. Clicking the icon will sort the rows based on the selected column, in ascending order first, and subsequently toggling between ascending and descending order.
+
+Table sorting can be useful in combination with the [filter](/components/filter) component.
+
+The sorting can be disabled to prevent users from changing the sorting order of a column. The default order will continue to be applied by one specific attribute.
 
 Note that this cue should not be visible in the table headers on mobile optmised table layouts.
 
