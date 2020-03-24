@@ -24,7 +24,7 @@ Use tables to:
 
 * Display large volumes of data.
 * Display a data set that will continue to grow; for example, a table used to display users, environments, and so on.
-*   Compare data in a set to in a way that makes each data point distinguishable.
+* Compare data in a set to in a way that makes each data point distinguishable.
 * Search, filter, or sort by all parameters in a data set.
 
 Todo: Add live component block with code example
