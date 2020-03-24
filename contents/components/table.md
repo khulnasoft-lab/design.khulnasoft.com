@@ -21,7 +21,7 @@ Use tables when:
 
 Use tables to:
 
-*   Display large volumes of data.
+* Display large volumes of data.
 *   When the data set will continue to grow; for example, a table used to display users, environments, and so on.
 *   Compare data in a set to in a way that makes each data point distinguishable.
 *   Search, filter, or sort by all parameters in a data set.
