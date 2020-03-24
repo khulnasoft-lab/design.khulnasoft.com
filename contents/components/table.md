@@ -77,7 +77,7 @@ If a cell is empty or unavailable, keep the cell empty to reduce noise and help 
 
 Avoid making all the columns an even width. The table columns should be sized according to the data they contain. Columns of small content should be narrow, while columns of paragraphs should be relatively wide. Allow the browser to lay out the tables according to the viewport size.
 
-#### Ordering
+#### Ordering & sorting
 
 A table is often displayed with a certain column taking precedence towards ordering. If the ordering is static, a visual cue can be given towards the user by displaying a [sorting icon](https://gitlab-org.gitlab.io/gitlab-svgs/?q=sort) next to the leading header to make it easier for the user to scan the table contents.
 
