@@ -6,6 +6,7 @@ related:
   - cards
   - list
   - tree
+  - filter
 ---
 
 Tables are used to render tabular data in a basic grid, making it easier for people to scan it. Tables are comprised of cells, columns, and rows.
