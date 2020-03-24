@@ -66,7 +66,7 @@ It is possible to hyphenate the text inside table cells, but note that hyphens a
 
 #### Truncation
 
-To fit a long string of text into a table cell, you can shorten the text with an ellipsis (“...”) to show exactly where the text is truncated. On hover, the truncated text should display a tooltip that includes the full text. [See tooltips guidelines](https://design.gitlab.com/components/tooltips)
+To fit a long string of text into a table cell, you can shorten the text with an ellipsis (“...”) to show exactly where the text is truncated. On hover, the truncated text should display a tooltip that includes the full text. [See tooltips guidelines](/components/tooltips)
 
 #### Empty values
 
