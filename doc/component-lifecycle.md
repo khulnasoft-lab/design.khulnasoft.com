@@ -80,7 +80,7 @@ L-->M[SUBFLOW: Build and style component]
 click M "https://gitlab.com/gitlab-org/gitlab-ui/blob/master/doc/component-lifecycle.md"
 M-->N[Use component]
 N-->O[Done]
-O-->|Yes| P[Needs an update]
+G-->|Yes| P[Needs an update]
 P-->Q{It's a small visual change and I understand its impact?}
 Q-->|Yes| R[Update Sketch UI Kit and specs]
 R-->S
