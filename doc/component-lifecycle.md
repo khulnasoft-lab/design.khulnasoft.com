@@ -67,9 +67,9 @@ A[Start] -->B[Review issue]
 B--> C[Review Pajamas]
 click C "https://design.gitlab.com"
 C-->D{Can I use Pajamas?}
-D -->|Yes| E[Use component]
-E --> F[Done]
-D -->|No| G{Does the component exist already?}
+D-->|Yes| E[Use component]
+E-->F[Done]
+D-->|No| G{Does the component exist already?}
 G-->|No| H[Determined that the component should be added to Pajamas]
 H-->I[Create issue in Pajamas to create Figma component and update usage docs]
 click I "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/new?issuable_template=New%20component"
