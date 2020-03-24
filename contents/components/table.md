@@ -50,7 +50,7 @@ A table's empty state displays when there is no data, yet. [See empty states gui
 
 ### Content alignment
 
-Left align content by importance, based on the information needs of your users. In some circumstances, right aligning data helps with comprehension. For example, numeric data is easier to read when right aligned. To aid scanning on right-aligned data, make sure to use the same number of decimal places for all numeric data. Tables may switch their alignment for right-to-left audiences, as well.
+Left align content by importance, based on the information needs of your users. In some circumstances, right aligning data helps with comprehension. For example, numeric data is easier to read when right aligned. To aid scanning on right-aligned data, make sure to use the same number of decimal places for all numeric data. Tables may switch their alignment for right-to-left audiences as well.
 
 Todo: Add live component block with code example of table alignment -- mixed data
 
