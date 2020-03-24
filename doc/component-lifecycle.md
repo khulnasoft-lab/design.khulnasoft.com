@@ -3,7 +3,7 @@ The goal of this process is to make it easy to: submit new designs (including do
 
 The component lifecycle has the following stages:
 
-* **Create:** A need for a component is identified. The component is added to the [GitLab Sketch UI Kit](https://gitlab.com/gitlab-org/gitlab-design/blob/master/doc/sketch-ui-kit.md), usage guidelines are written, and design specs are created to aid development.
+* **Create:** A need for a component is identified. The component is added to the [Pajamas UI Kit](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit---Beta) in Figma, and usage guidelines are written.
 ~"pajamas::create"
 * **Build:** The component is added to gitlab-ui, including examples 
 and documentation. The component is added to Pajamas. ~"pajamas::build"
