@@ -72,18 +72,19 @@ E --> F[Done]
 D -->|No| G{Does the component exist already?}
 G-->|No| H[Determined that the component should be added to Pajamas]
 H-->I[Create issue in Pajamas to create Figma component and update usage docs]
-click I "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/new"
-I-->J[Review by Product Designer]
-J-->K[Merge usage guidelines and specs into Pajamas]
-K-->L[SUBFLOW: Build and style component]
-click L "https://gitlab.com/gitlab-org/gitlab-ui/blob/master/doc/component-lifecycle.md"
-L-->M[Use component]
-M-->N[Done]
-N-->|Yes| O[Needs an update]
-O-->P{It's a small visual change and I understand its impact?}
-P-->|Yes| Q[Update Sketch UI Kit and specs]
-Q-->R
-P-->|No| I
+click I "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/new?issuable_template=New%20component"
+I-->J[Fill out the template, including usage docs, and follow its checklist]
+J-->K[Review by Product Designer]
+K-->L[Merge usage guidelines and specs into Pajamas]
+L-->M[SUBFLOW: Build and style component]
+click M "https://gitlab.com/gitlab-org/gitlab-ui/blob/master/doc/component-lifecycle.md"
+M-->N[Use component]
+N-->O[Done]
+O-->|Yes| P[Needs an update]
+P-->Q{It's a small visual change and I understand its impact?}
+Q-->|Yes| R[Update Sketch UI Kit and specs]
+R-->S
+Q-->|No| I
 ```
 
 ## Building and styling components
