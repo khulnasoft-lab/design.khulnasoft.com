@@ -40,8 +40,8 @@ the component in the Assets panel to ensure it aligns with what’s outlined in 
 1. [ ] **Assignee**: Update component link in the issue.
 1. [ ] **Assignee**: Move your draft file to the **Component archive** Figma project.
 1. [ ] **Assignee**: Open a merge request in this repository and on the component's page of Pajamas:
-  * [ ] Add a link to the Figma file.
-  * [ ] Add the pattern documentation.
+    * [ ] Add a link to the Figma file.
+    * [ ] Add the pattern documentation.
 
  Add an agenda item to the next UX weekly call to inform everyone (if it's a new pattern, not yet used in the application).
 Use `View design in Pajamas UI Kit →` for the link text. This replaces any link to
