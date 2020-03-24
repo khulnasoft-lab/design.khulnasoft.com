@@ -83,7 +83,7 @@ N-->|Yes| O[Needs an update]
 O-->P{It's a small visual change and I understand its impact?}
 P-->|Yes| Q[Update Sketch UI Kit and specs]
 Q-->R
-R-->|No| S
+R-->|No| I
 ```
 
 ## Building and styling components
