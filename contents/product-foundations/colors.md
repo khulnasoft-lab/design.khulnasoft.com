@@ -25,7 +25,12 @@ Priorities skip weights because, in most situations, the contrast between two ad
 
 ### Accessibility
 
-At GitLab, we are dedicated to continually improving the accessibility of the application. Currently, all chromatic colors pass the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast) AA level for large text when used as a background color. Learn more in [Accessibility](/accessibility/a11y).
+At GitLab, we are dedicated to continually improving the accessibility of the application. Contrast ratios for each color step below are calculated using white (#fff) and black (#000). The `50–400` steps all meet a 4.5:1 contrast ratio or higher against `$gray-950` (#1f1f1f) or darker, while the `500–950` steps all meet a 4.5:1 contrast ratio against `$gray-0` (#fafafa) or lighter. This satisfies the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast) AA level for normal text. Learn more in [Accessibility](/accessibility/a11y).
+
+* **AAA** - Pass 7:1+
+* **AA** - Pass 4.5:1+
+* **AA+** - Pass, large text only 3:1+. Large text is defined as 14pt Bold (18.5px) or 18pt (24px)
+* **F** - Doesn’t pass
 
 <div class="color-palette row m-b-9">
   <div class="green col col-50">
@@ -34,198 +39,126 @@ At GitLab, we are dedicated to continually improving the accessibility of the ap
       <div class="color">
         <div class="color-overview c-background-green-50 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable">$green-50</span>
-          <span class="hex f-small">#f1fdf6</span>
+          <span class="hex f-small">#ecf4ee</span>
         </div>
         <div class="color-details c-border-green-50 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-green-50 c-border-green-50 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-50 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-green-50 c-border-green-50 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-50 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-green-50 c-border-green-50 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-50 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-green-50 c-border-green-50 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-50 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
+            <div class="d-inline-block c-background-green-50 c-border-green-50 p-t-2 p-r-3 p-b-2 p-l-3">AAA</div>
+            <div class="d-inline-block c-border-green-50 p-t-2 p-r-3 p-b-2 p-l-3 pass">18.7</div>
+            <div class="f-inverted d-inline-block c-background-green-50 c-border-green-50 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">F</div>
+            <div class="d-inline-block c-border-green-50 p-t-2 p-r-3 p-b-2 p-l-3 fail">1.1</div>
           </div>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-green-100 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable">$green-100</span>
-          <span class="hex f-small">#dcf5e7</span>
+          <span class="hex f-small">#c3e6cd</span>
         </div>
         <div class="color-details c-border-green-100 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-green-100 c-border-green-100 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-100 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-green-100 c-border-green-100 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-100 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-green-100 c-border-green-100 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-100 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-green-100 c-border-green-100 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-100 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
+            <div class="d-inline-block c-background-green-100 c-border-green-100 p-t-2 p-r-3 p-b-2 p-l-3">AAA</div>
+            <div class="d-inline-block c-border-green-100 p-t-2 p-r-3 p-b-2 p-l-3 pass">15.5</div>
+            <div class="f-inverted d-inline-block c-background-green-100 c-border-green-100 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">F</div>
+            <div class="d-inline-block c-border-green-100 p-t-2 p-r-3 p-b-2 p-l-3 fail">1.3</div>
           </div>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-green-200 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable">$green-200</span>
-          <span class="hex f-small">#b3e6c8</span>
+          <span class="hex f-small">#91d4a8</span>
         </div>
         <div class="color-details c-border-green-200 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-green-200 c-border-green-200 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-200 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-green-200 c-border-green-200 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-200 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-green-200 c-border-green-200 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-200 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-green-200 c-border-green-200 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-200 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
+            <div class="d-inline-block c-background-green-200 c-border-green-200 p-t-2 p-r-3 p-b-2 p-l-3">AAA</div>
+            <div class="d-inline-block c-border-green-200 p-t-2 p-r-3 p-b-2 p-l-3 pass">12.1</div>
+            <div class="f-inverted d-inline-block c-background-green-200 c-border-green-200 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">F</div>
+            <div class="d-inline-block c-border-green-200 p-t-2 p-r-3 p-b-2 p-l-3 fail">1.7</div>
           </div>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-green-300 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable">$green-300</span>
-          <span class="hex f-small">#75d09b</span>
+          <span class="hex f-small">#52b87a</span>
         </div>
         <div class="color-details c-border-green-300 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-green-300 c-border-green-300 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-300 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-green-300 c-border-green-300 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-300 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-green-300 c-border-green-300 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-300 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-green-300 c-border-green-300 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-300 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
+            <div class="d-inline-block c-background-green-300 c-border-green-300 p-t-2 p-r-3 p-b-2 p-l-3">AAA</div>
+            <div class="d-inline-block c-border-green-300 p-t-2 p-r-3 p-b-2 p-l-3 pass">8.5</div>
+            <div class="f-inverted d-inline-block c-background-green-300 c-border-green-300 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">F</div>
+            <div class="d-inline-block c-border-green-300 p-t-2 p-r-3 p-b-2 p-l-3 fail">2.4</div>
           </div>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-green-400 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable">$green-400</span>
-          <span class="hex f-small">#37b96d</span>
+          <span class="hex f-small">#2da160</span>
         </div>
         <div class="color-details c-border-green-400 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
             <div class="d-inline-block c-background-green-400 c-border-green-400 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-400 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-green-400 c-border-green-400 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-400 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-green-400 c-border-green-400 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-400 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-green-400 c-border-green-400 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-400 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
+            <div class="d-inline-block c-border-green-400 p-t-2 p-r-3 p-b-2 p-l-3 pass">6.3</div>
+            <div class="f-inverted d-inline-block c-background-green-400 c-border-green-400 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA+</div>
+            <div class="d-inline-block c-border-green-400 p-t-2 p-r-3 p-b-2 p-l-3 pass">3.2</div>
           </div>
         </div>
       </div>
       <div class="color">
         <div class="color-priority color-overview c-background-green-500 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable f-inverted">$green-500</span>
-          <span class="hex f-small f-inverted">#1aaa55</span>
+          <span class="hex f-small f-inverted">#108548</span>
         </div>
         <div class="color-details c-border-green-500 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-green-500 c-border-green-500 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-500 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
+            <div class="d-inline-block c-background-green-500 c-border-green-500 p-t-2 p-r-3 p-b-2 p-l-3">AA+</div>
+            <div class="d-inline-block c-border-green-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">4.4</div>
             <div class="f-inverted d-inline-block c-background-green-500 c-border-green-500 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-500 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-green-500 c-border-green-500 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-green-500 c-border-green-500 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
+            <div class="d-inline-block c-border-green-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">4.7</div>
           </div>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-green-600 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable f-inverted">$green-600</span>
-          <span class="hex f-small f-inverted">#168f48</span>
+          <span class="hex f-small f-inverted">#217645</span>
         </div>
         <div class="color-details c-border-green-600 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-green-600 c-border-green-600 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-600 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
+            <div class="d-inline-block c-background-green-600 c-border-green-600 p-t-2 p-r-3 p-b-2 p-l-3">AA+</div>
+            <div class="d-inline-block c-border-green-600 p-t-2 p-r-3 p-b-2 p-l-3 pass">3.7</div>
             <div class="f-inverted d-inline-block c-background-green-600 c-border-green-600 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-600 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-green-600 c-border-green-600 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-600 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-green-600 c-border-green-600 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-600 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
+            <div class="d-inline-block c-border-green-600 p-t-2 p-r-3 p-b-2 p-l-3 pass">5.6</div>
           </div>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-green-700 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable f-inverted">$green-700</span>
-          <span class="hex f-small f-inverted">#12753a</span>
+          <span class="hex f-small f-inverted">#24663b</span>
         </div>
         <div class="color-details c-border-green-700 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-green-700 c-border-green-700 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-700 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
+            <div class="d-inline-block c-background-green-700 c-border-green-700 p-t-2 p-r-3 p-b-2 p-l-3">AA+</div>
+            <div class="d-inline-block c-border-green-700 p-t-2 p-r-3 p-b-2 p-l-3 pass">3</div>
             <div class="f-inverted d-inline-block c-background-green-700 c-border-green-700 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-700 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-green-700 c-border-green-700 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-700 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-            <div class="f-inverted d-inline-block c-background-green-700 c-border-green-700 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-700 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
+            <div class="d-inline-block c-border-green-700 p-t-2 p-r-3 p-b-2 p-l-3 pass">6.9</div>
           </div>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-green-800 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable f-inverted">$green-800</span>
-          <span class="hex f-small f-inverted">#0e5a2d</span>
+          <span class="hex f-small f-inverted">#0d532a</span>
         </div>
         <div class="color-details c-border-green-800 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-green-800 c-border-green-800 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-800 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-            <div class="f-inverted d-inline-block c-background-green-800 c-border-green-800 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-800 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-green-800 c-border-green-800 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-800 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-            <div class="f-inverted d-inline-block c-background-green-800 c-border-green-800 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-800 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
+            <div class="d-inline-block c-background-green-800 c-border-green-800 p-t-2 p-r-3 p-b-2 p-l-3">F</div>
+            <div class="d-inline-block c-border-green-800 p-t-2 p-r-3 p-b-2 p-l-3 fail">2.2</div>
+            <div class="f-inverted d-inline-block c-background-green-800 c-border-green-800 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AAA</div>
+            <div class="d-inline-block c-border-green-800 p-t-2 p-r-3 p-b-2 p-l-3 pass">9.1</div>
           </div>
         </div>
       </div>
@@ -236,18 +169,10 @@ At GitLab, we are dedicated to continually improving the accessibility of the ap
         </div>
         <div class="color-details c-border-green-900 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-green-900 c-border-green-900 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-900 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-            <div class="f-inverted d-inline-block c-background-green-900 c-border-green-900 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-900 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-green-900 c-border-green-900 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-900 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-            <div class="f-inverted d-inline-block c-background-green-900 c-border-green-900 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-900 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
+            <div class="d-inline-block c-background-green-900 c-border-green-900 p-t-2 p-r-3 p-b-2 p-l-3">F</div>
+            <div class="d-inline-block c-border-green-900 p-t-2 p-r-3 p-b-2 p-l-3 fail">1.7</div>
+            <div class="f-inverted d-inline-block c-background-green-900 c-border-green-900 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AAA</div>
+            <div class="d-inline-block c-border-green-900 p-t-2 p-r-3 p-b-2 p-l-3 pass">11.8</div>
           </div>
         </div>
       </div>
@@ -258,18 +183,10 @@ At GitLab, we are dedicated to continually improving the accessibility of the ap
         </div>
         <div class="color-details c-border-green-950 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-green-950 c-border-green-950 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-950 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-            <div class="f-inverted d-inline-block c-background-green-950 c-border-green-950 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-950 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-green-950 c-border-green-950 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-green-950 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-            <div class="f-inverted d-inline-block c-background-green-950 c-border-green-950 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-green-950 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
+            <div class="d-inline-block c-background-green-950 c-border-green-950 p-t-2 p-r-3 p-b-2 p-l-3">F</div>
+            <div class="d-inline-block c-border-green-950 p-t-2 p-r-3 p-b-2 p-l-3 fail">1.3</div>
+            <div class="f-inverted d-inline-block c-background-green-950 c-border-green-950 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AAA</div>
+            <div class="d-inline-block c-border-green-950 p-t-2 p-r-3 p-b-2 p-l-3 pass">15.3</div>
           </div>
         </div>
       </div>
@@ -281,242 +198,154 @@ At GitLab, we are dedicated to continually improving the accessibility of the ap
       <div class="color">
         <div class="color-overview c-background-blue-50 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable">$blue-50</span>
-          <span class="hex f-small">#f6fafe</span>
+          <span class="hex f-small">#e9f3fc</span>
         </div>
         <div class="color-details c-border-blue-50 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-blue-50 c-border-blue-50 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-50 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-blue-50 c-border-blue-50 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-50 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-blue-50 c-border-blue-50 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-50 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-blue-50 c-border-blue-50 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-50 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
+            <div class="d-inline-block c-background-blue-50 c-border-blue-50 p-t-2 p-r-3 p-b-2 p-l-3">AAA</div>
+            <div class="d-inline-block c-border-blue-50 p-t-2 p-r-3 p-b-2 p-l-3 pass">18.6</div>
+            <div class="f-inverted d-inline-block c-background-blue-50 c-border-blue-50 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">F</div>
+            <div class="d-inline-block c-border-blue-50 p-t-2 p-r-3 p-b-2 p-l-3 fail">1.1</div>
           </div>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-blue-100 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable">$blue-100</span>
-          <span class="hex f-small">#e4f0fb</span>
+          <span class="hex f-small">#cbe2f9</span>
         </div>
         <div class="color-details c-border-blue-100 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-blue-100 c-border-blue-100 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-100 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-blue-100 c-border-blue-100 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-100 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-blue-100 c-border-blue-100 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-100 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-blue-100 c-border-blue-100 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-100 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
+            <div class="d-inline-block c-background-blue-100 c-border-blue-100 p-t-2 p-r-3 p-b-2 p-l-3">AAA</div>
+            <div class="d-inline-block c-border-blue-100 p-t-2 p-r-3 p-b-2 p-l-3 pass">15.7</div>
+            <div class="f-inverted d-inline-block c-background-blue-100 c-border-blue-100 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">F</div>
+            <div class="d-inline-block c-border-blue-100 p-t-2 p-r-3 p-b-2 p-l-3 fail">1.3</div>
           </div>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-blue-200 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable">$blue-200</span>
-          <span class="hex f-small">#b8d6f4</span>
+          <span class="hex f-small">#9dc7f1</span>
         </div>
         <div class="color-details c-border-blue-200 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-blue-200 c-border-blue-200 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-200 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-blue-200 c-border-blue-200 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-200 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-blue-200 c-border-blue-200 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-200 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-blue-200 c-border-blue-200 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-200 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
+            <div class="d-inline-block c-background-blue-200 c-border-blue-200 p-t-2 p-r-3 p-b-2 p-l-3">AAA</div>
+            <div class="d-inline-block c-border-blue-200 p-t-2 p-r-3 p-b-2 p-l-3 pass">11.8</div>
+            <div class="f-inverted d-inline-block c-background-blue-200 c-border-blue-200 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">F</div>
+            <div class="d-inline-block c-border-blue-200 p-t-2 p-r-3 p-b-2 p-l-3 fail">1.7</div>
           </div>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-blue-300 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable">$blue-300</span>
-          <span class="hex f-small">#73afea</span>
+          <span class="hex f-small">#63a6e9</span>
         </div>
         <div class="color-details c-border-blue-300 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-blue-300 c-border-blue-300 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-300 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-blue-300 c-border-blue-300 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-300 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-blue-300 c-border-blue-300 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-300 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-blue-300 c-border-blue-300 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-300 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
+            <div class="d-inline-block c-background-blue-300 c-border-blue-300 p-t-2 p-r-3 p-b-2 p-l-3">AAA</div>
+            <div class="d-inline-block c-border-blue-300 p-t-2 p-r-3 p-b-2 p-l-3 pass">8.1</div>
+            <div class="f-inverted d-inline-block c-background-blue-300 c-border-blue-300 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">F</div>
+            <div class="d-inline-block c-border-blue-300 p-t-2 p-r-3 p-b-2 p-l-3 fail">2.5</div>
           </div>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-blue-400 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable">$blue-400</span>
-          <span class="hex f-small">#418cd8</span>
+          <span class="hex f-small">#428fdc</span>
         </div>
         <div class="color-details c-border-blue-400 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
             <div class="d-inline-block c-background-blue-400 c-border-blue-400 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-400 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-            <div class="f-inverted d-inline-block c-background-blue-400 c-border-blue-400 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-400 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-blue-400 c-border-blue-400 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-400 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-blue-400 c-border-blue-400 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-400 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
+            <div class="d-inline-block c-border-blue-400 p-t-2 p-r-3 p-b-2 p-l-3 pass">6.1</div>
+            <div class="f-inverted d-inline-block c-background-blue-400 c-border-blue-400 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA+</div>
+            <div class="d-inline-block c-border-blue-400 p-t-2 p-r-3 p-b-2 p-l-3 pass">3.3</div>
           </div>
         </div>
       </div>
       <div class="color">
         <div class="color-priority color-overview c-background-blue-500 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable f-inverted">$blue-500</span>
-          <span class="hex f-small f-inverted">#1f78d1</span>
+          <span class="hex f-small f-inverted">#1f75cb</span>
         </div>
         <div class="color-details c-border-blue-500 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-blue-500 c-border-blue-500 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-500 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
+            <div class="d-inline-block c-background-blue-500 c-border-blue-500 p-t-2 p-r-3 p-b-2 p-l-3">AA+</div>
+            <div class="d-inline-block c-border-blue-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">4.4</div>
             <div class="f-inverted d-inline-block c-background-blue-500 c-border-blue-500 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-blue-500 c-border-blue-500 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-blue-500 c-border-blue-500 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
+            <div class="d-inline-block c-border-blue-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">4.7</div>
           </div>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-blue-600 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable f-inverted">$blue-600</span>
-          <span class="hex f-small f-inverted">#1b69b6</span>
+          <span class="hex f-small f-inverted">#1068bf</span>
         </div>
         <div class="color-details c-border-blue-600 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-blue-600 c-border-blue-600 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-600 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
+            <div class="d-inline-block c-background-blue-600 c-border-blue-600 p-t-2 p-r-3 p-b-2 p-l-3">AA+</div>
+            <div class="d-inline-block c-border-blue-600 p-t-2 p-r-3 p-b-2 p-l-3 pass">3.7</div>
             <div class="f-inverted d-inline-block c-background-blue-600 c-border-blue-600 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-600 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-blue-600 c-border-blue-600 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-600 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-            <div class="f-inverted d-inline-block c-background-blue-600 c-border-blue-600 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-600 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
+            <div class="d-inline-block c-border-blue-600 p-t-2 p-r-3 p-b-2 p-l-3 pass">5.5</div>
           </div>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-blue-700 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable f-inverted">$blue-700</span>
-          <span class="hex f-small f-inverted">#17599c</span>
+          <span class="hex f-small f-inverted">#0b5cad</span>
         </div>
         <div class="color-details c-border-blue-700 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-blue-700 c-border-blue-700 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-700 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
+            <div class="d-inline-block c-background-blue-700 c-border-blue-700 p-t-2 p-r-3 p-b-2 p-l-3">AA+</div>
+            <div class="d-inline-block c-border-blue-700 p-t-2 p-r-3 p-b-2 p-l-3 pass">3.1</div>
             <div class="f-inverted d-inline-block c-background-blue-700 c-border-blue-700 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-700 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-blue-700 c-border-blue-700 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-700 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-            <div class="f-inverted d-inline-block c-background-blue-700 c-border-blue-700 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-700 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
+            <div class="d-inline-block c-border-blue-700 p-t-2 p-r-3 p-b-2 p-l-3 pass">6.6</div>
           </div>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-blue-800 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable f-inverted">$blue-800</span>
-          <span class="hex f-small f-inverted">#134a81</span>
+          <span class="hex f-small f-inverted">#064787</span>
         </div>
         <div class="color-details c-border-blue-800 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-blue-800 c-border-blue-800 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-800 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-            <div class="f-inverted d-inline-block c-background-blue-800 c-border-blue-800 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-800 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-blue-800 c-border-blue-800 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-800 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-            <div class="f-inverted d-inline-block c-background-blue-800 c-border-blue-800 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-800 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
+            <div class="d-inline-block c-background-blue-800 c-border-blue-800 p-t-2 p-r-3 p-b-2 p-l-3">F</div>
+            <div class="d-inline-block c-border-blue-800 p-t-2 p-r-3 p-b-2 p-l-3 fail">2.2</div>
+            <div class="f-inverted d-inline-block c-background-blue-800 c-border-blue-800 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AAA</div>
+            <div class="d-inline-block c-border-blue-800 p-t-2 p-r-3 p-b-2 p-l-3 pass">9.3</div>
           </div>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-blue-900 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable f-inverted">$blue-900</span>
-          <span class="hex f-small f-inverted">#0f3b66</span>
+          <span class="hex f-small f-inverted">#033464</span>
         </div>
         <div class="color-details c-border-blue-900 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-blue-900 c-border-blue-900 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-900 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-            <div class="f-inverted d-inline-block c-background-blue-900 c-border-blue-900 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-900 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-blue-900 c-border-blue-900 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-900 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-            <div class="f-inverted d-inline-block c-background-blue-900 c-border-blue-900 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-900 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
+            <div class="d-inline-block c-background-blue-900 c-border-blue-900 p-t-2 p-r-3 p-b-2 p-l-3">F</div>
+            <div class="d-inline-block c-border-blue-900 p-t-2 p-r-3 p-b-2 p-l-3 fail">1.6</div>
+            <div class="f-inverted d-inline-block c-background-blue-900 c-border-blue-900 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AAA</div>
+            <div class="d-inline-block c-border-blue-900 p-t-2 p-r-3 p-b-2 p-l-3 pass">12.5</div>
           </div>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-blue-950 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable f-inverted">$blue-950</span>
-          <span class="hex f-small f-inverted">#0a2744</span>
+          <span class="hex f-small f-inverted">#002850</span>
         </div>
         <div class="color-details c-border-blue-950 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-blue-950 c-border-blue-950 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-950 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-            <div class="f-inverted d-inline-block c-background-blue-950 c-border-blue-950 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-950 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
-            <div class="d-inline-block c-background-blue-950 c-border-blue-950 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-950 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-            <div class="f-inverted d-inline-block c-background-blue-950 c-border-blue-950 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-blue-950 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
+            <div class="d-inline-block c-background-blue-950 c-border-blue-950 p-t-2 p-r-3 p-b-2 p-l-3">F</div>
+            <div class="d-inline-block c-border-blue-950 p-t-2 p-r-3 p-b-2 p-l-3 fail">1.4</div>
+            <div class="f-inverted d-inline-block c-background-blue-950 c-border-blue-950 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AAA</div>
+            <div class="d-inline-block c-border-blue-950 p-t-2 p-r-3 p-b-2 p-l-3 pass">14.8</div>
           </div>
         </div>
       </div>
@@ -528,18 +357,10 @@ At GitLab, we are dedicated to continually improving the accessibility of the ap
       <div class="color">
         <div class="color-overview c-background-orange-50 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable">$orange-50</span>
-          <span class="hex f-small">#fffaf4</span>
+          <span class="hex f-small">#fdf1dd</span>
         </div>
         <div class="color-details c-border-orange-50 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Normal</div>
-            <div class="d-inline-block c-background-orange-50 c-border-orange-50 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
-            <div class="d-inline-block c-border-orange-50 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
-            <div class="f-inverted d-inline-block c-background-orange-50 c-border-orange-50 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
-            <div class="d-inline-block c-border-orange-50 p-t-2 p-r-3 p-b-2 p-l-3 fail">Fail</div>
-          </div>
-          <div class="color-details--section">
-            <div class="f-bold m-b-2">WCAG Large</div>
             <div class="d-inline-block c-background-orange-50 c-border-orange-50 p-t-2 p-r-3 p-b-2 p-l-3">AA</div>
             <div class="d-inline-block c-border-orange-50 p-t-2 p-r-3 p-b-2 p-l-3 pass">Pass</div>
             <div class="f-inverted d-inline-block c-background-orange-50 c-border-orange-50 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
