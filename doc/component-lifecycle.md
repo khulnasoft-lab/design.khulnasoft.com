@@ -82,9 +82,9 @@ M-->N[Use component]
 N-->O[Done]
 G-->|Yes| P[Needs an update]
 P-->Q{It's a small visual change and I understand its impact?}
-Q-->|Yes| R[Update Sketch UI Kit and specs]
-R-->S
+Q-->|Yes| R[Update Figma UI Kit]
 Q-->|No| I
+R-->S[Done]
 ```
 
 ## Building and styling components
