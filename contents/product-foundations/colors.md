@@ -118,7 +118,6 @@ At GitLab, we are dedicated to continually improving the accessibility of the ap
         </div>
         <div class="color-details c-border-green-500 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
-            <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-green-500 c-border-green-500 p-t-2 p-r-3 p-b-2 p-l-3">AA+</div>
             <div class="d-inline-block c-border-green-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">4.4</div>
             <div class="f-inverted d-inline-block c-background-green-500 c-border-green-500 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">AA</div>
