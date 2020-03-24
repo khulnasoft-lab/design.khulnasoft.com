@@ -143,3 +143,4 @@ Todo: Add live component block with code example
 View the following links to see color, spacing, dimension, and layout-specific information pertaining to this component:
 
 [Sketch Measure Preview for Tables](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/tables-spec-previews/)
+
