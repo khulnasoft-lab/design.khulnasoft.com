@@ -107,7 +107,7 @@ Todo: Add live component block with code example of Audit Events table
 
 When including triggers to manipulate the data, such as filters, they should be placed directly above the table.
 
-Additional actions a user can take from an individual table row are displayed in the far right column, and are visible at all times (no on-hover visibility). If there are two or more actions in a table row, consider using a button group or a "more menu" button with a dropdown list option.
+Additional actions a user can take from an individual table row are displayed in the far right column, and are visible at all times (no on-hover visibility). If there are two or more actions in a table row, consider using a button group or a ["more menu" button](/components/button#ellipsis) with a dropdown list option.
 
 It is also possible to use in-line links to provide additional information to other items in the table or route the user to a different page.
 
