@@ -62,7 +62,7 @@ Text in tables tends to end up in narrow columns. Don't justify or center the te
 
 A cell’s width and height will change according to its content.
 
-It is possible to hyphenate the text inside table cells, but note that hyphens are language sensitive. The ability to find break opportunities depends on the language, defined in the lang attribute of a parent element, and support depends on the specific browser.
+It is possible to hyphenate the text inside table cells, but note that hyphens are language sensitive. The ability to find break opportunities depends on the language, defined in the `lang` attribute of a parent element, and support depends on the specific browser.
 
 #### Truncation
 
