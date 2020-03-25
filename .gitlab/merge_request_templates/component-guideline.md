@@ -26,7 +26,7 @@
 /label ~"Pajamas"
 
 [transparency]: https://about.gitlab.com/handbook/values/#say-why-not-just-what
-[writting-documentation]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com#writing-component-documentation
+[writing-documentation]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com#writing-component-documentation
 [page-template]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/master/pages/components/template.md
 [voice-and-tone]: https://design.gitlab.com/content/voice-tone
 [style-guide]: https://docs.gitlab.com/ee/development/documentation/styleguide.html
