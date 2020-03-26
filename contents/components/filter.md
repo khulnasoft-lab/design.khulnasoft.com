@@ -46,6 +46,9 @@ This is how a user should experience adding a filter:
 1. The user needs to repeat steps 1–4 for each filter they want to use
 1. Once done, the user needs to confirm the search to trigger it. They do so by clicking on the search button or by using their keyoboard.
 
+## Accessibility guidelines
+
+TBD
 
 ## Demo
 
