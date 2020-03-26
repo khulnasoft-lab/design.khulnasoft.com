@@ -1026,68 +1026,68 @@ Our neutral palette is primarily used within components to help differentiate hi
     <div class="distributed palette neutral">
       <div class="color">
         <div class="color-overview c-white-background p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$white</span>
-          <span class="hex f-small">#ffffff</span>
+          <span class="variable">$gray-0</span>
+          <span class="hex f-small">#fafafa</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-50 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable">$gray-50</span>
-          <span class="hex f-small">#fafafa</span>
+          <span class="hex f-small">#f0f0f0</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-100 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable">$gray-100</span>
-          <span class="hex f-small">#f2f2f2</span>
+          <span class="hex f-small">#dbdbdb</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-200 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable">$gray-200</span>
-          <span class="hex f-small">#dfdfdf</span>
+          <span class="hex f-small">#bfbfbf</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-300 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable">$gray-300</span>
-          <span class="hex f-small">#cccccc</span>
+          <span class="hex f-small">#999999</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-400 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable">$gray-400</span>
-          <span class="hex f-small">#bababa</span>
+          <span class="hex f-small">#868686</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-500 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable f-inverted">$gray-500</span>
-          <span class="hex f-small f-inverted">#a7a7a7</span>
+          <span class="hex f-small f-inverted">#666666</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-600 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable f-inverted">$gray-600</span>
-          <span class="hex f-small f-inverted">#919191</span>
+          <span class="hex f-small f-inverted">#5e5e5e</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-700 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable f-inverted">$gray-700</span>
-          <span class="hex f-small f-inverted">#707070</span>
+          <span class="hex f-small f-inverted">#525252</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-800 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable f-inverted">$gray-800</span>
-          <span class="hex f-small f-inverted">#4f4f4f</span>
+          <span class="hex f-small f-inverted">#404040</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-900 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable f-inverted">$gray-900</span>
-          <span class="hex f-small f-inverted">#2e2e2e</span>
+          <span class="hex f-small f-inverted">#303030</span>
         </div>
       </div>
       <div class="color">
