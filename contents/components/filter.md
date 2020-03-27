@@ -48,7 +48,7 @@ This is how a user should experience adding a filter:
 
 ## Accessibility guidelines
 
-TBD
+Todo: Add accessibility guidelines and requirements
 
 ## Demo
 
