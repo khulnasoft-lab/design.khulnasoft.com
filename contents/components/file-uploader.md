@@ -18,30 +18,7 @@ A file uploader should state the action needed to take in order to upload your f
 | Darken the dashed border with a hand cursor on hover to indicate the clickable area |  |
 | Have a visible `Upload` and `Cancel` button to finalize or cancel upload |  |
 
-### When to use the file uploader
-
-<!--
-  WHEN TO USE, optionally, highlight specific rule sets for when to use a component.
-  e.g. Use tables when:
-  - Users need to review, enter, or edit uniform sets of data or options
-  - Displaying structured content, where each entry has the same attributes
--->
-
-### When not to use INSERT NAME OF COMPONENT HERE
-
-<!--
-  WHEN NOT TO USE, optionally, highlight specific rule sets for when not to use a component
-  e.g. Do not use tables to:
-  - Display a list of continuous, vertical indexes of text or images. Use Lists instead
-  - For hierarchical structures. Use the Tree view instead.
--->
-
 ### Sub section
-
-<!--
-  SUB SECTIONS, use these to highlight component specific rules. You can add as many sub-sections as needed, use your best judgement
-  e.g. truncation rules
--->
 
 A summary of a specific usage guideline.
 
