@@ -71,7 +71,7 @@ D-->|Yes| E[Use component]
 E-->F[Done]
 D-->|No| G{Does the component exist already?}
 G-->|No| H[Determined that the component should be added to Pajamas]
-H-->I[Create issue in Pajamas to create Figma component and update usage docs]
+H-->I[Create issue in Pajamas to discuss usage documentation and propose updates to the Pajamas UI Kit in Figma]
 click I "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/new?issuable_template=New%20component"
 I-->J[Fill out the template, including usage docs, and follow its checklist]
 J-->K[Review by Product Designer]
