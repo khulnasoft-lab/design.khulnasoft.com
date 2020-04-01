@@ -42,7 +42,7 @@ To reduce cognitive load and time to task completion, the icon should be located
 
 The following icon should be used:
 
-| Chevron right | Chevron down |
+| Collapsed state icon | Expanded state icon |
 | :---: | :---: |
 | <figure class="figure" role="figure" aria-label="`chevron-right.svg`"><img class="figure-img p-a-5" src="/img/chevron-right.svg" alt="Chevron right icon" role="img" /><figcaption class="figure-caption">`chevron-right.svg`</figcaption></figure> | <figure class="figure" role="figure" aria-label="`chevron-down.svg`"><img class="figure-img p-a-5" src="/img/chevron-down.svg" alt="Chevron down icon" role="img" /><figcaption class="figure-caption">`chevron-down.svg`</figcaption></figure> |
 
