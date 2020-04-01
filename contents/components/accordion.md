@@ -44,7 +44,7 @@ The following icons should be used:
 
 | Collapsed state icon | Expanded state icon |
 | :---: | :---: |
-| <figure class="figure" role="figure" aria-label="`chevron-right.svg`"><img class="figure-img p-a-5" src="/img/chevron-right.svg" alt="Chevron right icon" role="img" /><figcaption class="figure-caption">[`chevron-right.svg`]( https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-right)</figcaption></figure> | <figure class="figure" role="figure" aria-label="`chevron-down.svg`"><img class="figure-img p-a-5" src="/img/chevron-down.svg" alt="Chevron down icon" role="img" /><figcaption class="figure-caption">[`chevron-down.svg`](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-down)</figcaption></figure> |
+| <figure class="figure" role="figure" aria-label="`chevron-right.svg`"><img class="figure-img p-a-5 p-a-0" src="/img/chevron-right.svg" alt="Chevron right icon" role="img" /><figcaption class="figure-caption">[`chevron-right.svg`]( https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-right)</figcaption></figure> | <figure class="figure" role="figure" aria-label="`chevron-down.svg`"><img class="figure-img p-a-5 p-a-0" src="/img/chevron-down.svg" alt="Chevron down icon" role="img" /><figcaption class="figure-caption">[`chevron-down.svg`](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-down)</figcaption></figure> |
 
 
 
