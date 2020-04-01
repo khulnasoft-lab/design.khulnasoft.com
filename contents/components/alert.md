@@ -42,6 +42,18 @@ Use non-dismissible alerts when the user is prevented from completing a task unt
 
 * The user encounters an alert notifying them their license has expired. The alert is only removed when they have uploaded a new license in the admin area.
 
+### Alert width
+
+Alerts that appear on top of the page should match the width of the content of the page. This depends on user’s preference and setting between fixed or fluid layout width. These alers should never occupy the full width of the page.
+
+When alerts aren’t used on top of the page, the width should be adjusted accordingly to the UI element they relate to. For example, an alert displayed in a modal can occupy the full width of the modal, with apropriate margins of course.
+
+### Alert placement
+
+For alerts that appear on top of the page, they should be placed right below the navigation bar. Additional and consistent vertical spacing on top and bottom should separate it from the navigation and the page content. These alerts shouldn’t be placed below the breadcrumbs. Place alerts on top of the page when they’re referring to something that happened on the page level. 
+
+Alerts can also appear elsewhere, for example in a section of the page or a UI element like a modal. These alerts should be placed contextually so that the users are informed of the status of that particular section or element they’re referring to. For example, if we want to show an alert inside a modal we first need to know its purpose. Let’s say that it’s informing the user of what that will happen once they confirm an action by clicking on the primary button in that modal. Placing the alert at the bottom of the modal, but just before the section with the buttons makes most sense.
+
 ### When to use alerts
 
 Alerts should be used when the system needs to notify the user of its status or to provide the user with information about their current experience. Deciding when to use a broadcast message, error, toast, or an alert can be tricky. See the below use cases to get a better understanding of when to use an alert:
