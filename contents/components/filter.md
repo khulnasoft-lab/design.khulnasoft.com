@@ -19,7 +19,7 @@ Visually, each part is a variant of a [token](/components/token/).
 
 ## Usage
 
-Filters are always used in combination with [search boxes](/components/search/), preferably with the [“search by confirmation”](#filters-with-“search-by-confirmation”-search-boxes) variant.
+Filters are always used in combination with [search boxes](/components/search/), preferably with the [“search by confirmation”](/components/search/#search-by-confirmation) variant.
 
 Each filter can consist of only one value and can’t be repeated. For example, a list of issues can only be narrowed down by specifying one assignee.
 
