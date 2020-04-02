@@ -42,17 +42,13 @@ Use non-dismissible alerts when the user is prevented from completing a task unt
 
 * The user encounters an alert notifying them their license has expired. The alert is only removed when they have uploaded a new license in the admin area.
 
-### Alert width
+### Page-level alerts
 
-Alerts that appear on top of the page should match the width of the content of the page. This depends on user’s preference and setting between fixed or fluid layout width. These alerts should never occupy the full width of the page.
+Place alerts on top of the page when they’re referring to something that happened on the page level, “Something went wrong while fetching latest comments.” on the issue page, for example. These alerts should be placed directly below the navigation bar and above the breadcrumbs with vertical spacing on top and bottom to separate it from the page content. Page-level alerts never appear below the breadcrumbs. Additionally, they can be made sticky to make it more likely that the user notices them. The width of the page-level alerts should be restricted to the content container width which can be either fixed or fluid, depending on user’s preference.
 
-When alerts aren’t used on top of the page, the width should be adjusted accordingly to the UI element they relate to. For example, an alert displayed in a modal can occupy the full width of the modal, with apropriate spacing around it.
+### Embedded alerts
 
-### Alert placement
-
-For alerts that appear on top of the page, they should be placed right below the navigation bar. Vertical spacing on top and bottom should separate it from the navigation and the page content. These alerts shouldn’t be placed below the breadcrumbs. Place alerts on top of the page when they’re referring to something that happened on the page level, “Something went wrong while fetching latest comments.” on the issue page for example. These alerts can also be sticky to make it more likely that the user notices it.
-
-Alerts can also appear elsewhere, for example in a section of the page or a UI element like a modal. These alerts should be placed contextually so that the user is informed of the status of that particular section or element the alerts are referring to. For example, if we want to show an alert inside a modal we first need to know its purpose. Let’s say that it’s informing the user of what that will happen once they confirm an action by clicking on the primary button in that modal (placed at the bottom right). Placing the alert at the bottom of the modal, but just before the section with the buttons is the best option here. It generally doesn’t make sense to make these alerts sticky.
+Place alerts within a section of the page or UI element when the user needs to be informed of the status of that particular area the alert is referring to. For example, if we want to show an alert inside a modal we first need to know its purpose. Let’s say that it’s informing the user of what will happen once they confirm an action by clicking on the primary button in that modal. Placing the alert at the bottom of the modal, and above the action bar is the best option here. In most cases, it doesn’t make sense to make these alerts sticky.
 
 ### When to use alerts
 
