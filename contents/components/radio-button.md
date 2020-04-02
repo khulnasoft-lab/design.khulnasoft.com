@@ -38,8 +38,8 @@ Use the following table to see when radio buttons should be used over other alte
 ### Visual Design
 
 - Radio buttons use high-contrast colors for labels and default browser UI to indicate selected and unselected states.
-- A vertical (stacked) layout is preferred, with one radio button per line. For sets of two with short labels where wrapping or width constraints are not an issue the inline (horizontal) layout is acceptable.
-- Avoid mixing stacked and inline radio button groups within the same form or context.
+- A vertical (stacked) layout is preferred, with one radio button per line.
+- Avoid using the horizontal set.
 
 ### Interaction
 
@@ -54,4 +54,4 @@ Use the following table to see when radio buttons should be used over other alte
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
-[Sketch Measure Preview for radio buttons](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/radiobuttons-spec-previews/)
+[View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit-Beta?node-id=3947%3A143)
