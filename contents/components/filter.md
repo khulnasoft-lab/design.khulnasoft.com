@@ -10,12 +10,12 @@ related:
 
 Filters allow a user to narrow down content by taking an existing list and removing items based on criteria that matches or doesn’t.
 
-Filters are composed of three main parts:
+Filters utilize our [search component](/component/search/) with three main [token](/components/token/) parts:
 
 1. **key**: acts as the label of the filter value, for example, `assignee`
 1. **logical operator**: the condition that binds the key to the value, for example, `is` or `is not`
 1. **value**: the item that the condition will base results on, for example, a `@username`
-Visually, each part is a variant of a [token](/components/token/).
+Visually and functionally, each part is a variant of a [token](/components/token/).
 
 ## Usage
 
@@ -25,7 +25,7 @@ Each filter can consist of only one value and can’t be repeated. For example, 
 
 ### Placement
 
-Filters are positioned inline with the text cursor in a search box. They can wrap to a new row or cause a search box to become horizontally scrollable.
+Filters are positioned inline with the text cursor in a search box. The search box becomes horizontally scrollable when the filters can’t fit in it.
 
 ## Interaction guidelines
 
@@ -33,7 +33,7 @@ Filters include a [remove icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~clos
 
 Clicking on any of the three parts of a filter opens a corresponding dropdown for selecting the value for that part of the filter. For example, if a user clicks on the value part of the filter, the value dropdown appears. If they click on the operator, the operator dropdown appears and the value part of the filter is removed if the operator is changed. If they click on the key, the key dropdown appears and the operator and the value of the filter are removed if the key is changed. The text content of the corresponding part becomes editable and the text cursor is immediately placed at the end of that text string so that users can either type or select a suggestion from a dropdown. Certain keys are compatible so the operator and value don’t need to be removed in the event of change (for example, changing the key from author to assignee).
 
-If a user selects a different value from the dropdown when editing a text string, that new value replaces the old one. If the user clicks anywhere outside the dropdown or the search box, the string is turned back to a token with whatever its value was at the time of the event. An exception to this is when the values are limited to explicit options only, for example `yes` and `no`, or `is` and `is not`. In that case, we remove the string that isn’t valid and don’t turn it back into a token.
+If a user selects a different value from the dropdown when editing a text string, that new value replaces the old one. If the user clicks anywhere outside the dropdown or the search box, the string is turned back to a token with whatever its value was at the time of the event. If a user tries to edit a key with an invalid value, the token is removed and converted to a plain text string. If a user tries to edit an operator with an invalid value, the first option is chosen and the invalid text becomes the value text string.
 
 After a filter is successfully added, a dropdown with suggestions for other keys appears immediately.
 
