@@ -25,7 +25,7 @@ Make sure the following are completed before closing the issue:
 1. [ ] **Assignee**: Create component in your own draft file in Figma using the
 [component template](https://www.figma.com/file/OmvFfWkqEsdGhXAND133ou/%5BComponent%5D),
 including all variations and states.
-1. [ ] **Assignee**: Ask another Figma Pilot Designer to review your component
+1. [ ] **Assignee**: Ask another designer who is familiar with the [Figma workflow](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/CONTRIBUTING-Figma.md) to review your component
 (make sure they have edit permissions).
 1. [ ] **Reviewer**: Review and approve assignee’s addition. Ensure that component
 matches Sketch specs, includes all current variations and states, and (if applicable)
