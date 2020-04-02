@@ -38,8 +38,7 @@ Use the following table to see when radio buttons should be used over other alte
 ### Visual Design
 
 - Radio buttons use high-contrast colors for labels and default browser UI to indicate selected and unselected states.
-- A vertical (stacked) layout is preferred, with one radio button per line.
-- Avoid using the horizontal set.
+- Radio buttons are vertically stacked, with one radio button per line.
 
 ### Interaction
 
