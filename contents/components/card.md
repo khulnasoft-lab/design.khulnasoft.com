@@ -58,7 +58,7 @@ Use multiple sections within the body when you have two or more related but dist
 
 #### Actions
 
-The action section is **optional**. There should be no more than 3 actions. Actions should always be located within an action bar at the bottom of the Card. Button order and positioning should follow our [guidelines for buttons](/components/buttons).
+The action section is **optional**. There should be no more than 3 actions. Actions should always be located within an action bar at the bottom of the Card. Button order and positioning should follow our [guidelines for buttons](/components/button).
 
 ### Component Combinations
 
