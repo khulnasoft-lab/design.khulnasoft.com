@@ -27,9 +27,10 @@ Broadcast messages generally contain a small amount of content. It is a rare use
 
 * Content within a broadcast message should use the container width when user preference is set to use fixed width.
 * The close button tooltip should read “Dismiss”.
-* Background use `$[hue]-700` of chosen theme.
 
-## Design specifications
+### Design
+
+* Background uses `$[hue]-700` of chosen theme.
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
