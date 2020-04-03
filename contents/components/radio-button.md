@@ -35,11 +35,6 @@ Use the following table to see when radio buttons should be used over other alte
 - Use a `fieldset` with `legend` (set in bold font weight and positioned above the group of radio buttons) to group a set of radio buttons. Some screen readers will announce the contents of the legend before each nested input to maintain context for a user.
 - [Help text](/components/forms#help-text) can be added below the radio button label or as a paragraph below the group.
 
-### Visual Design
-
-- Radio buttons use custom styles (based on Bootstrap) instead of browser defaults, and label text uses high-contrast colors.
-- Radio buttons are vertically stacked, with one radio button per line.
-
 ### Interaction
 
 - Users are able to select an option with click/tap on the radio button or its label.
@@ -49,7 +44,12 @@ Use the following table to see when radio buttons should be used over other alte
 
 [[Example:form-radio-group-stacked]]
 
-## Design specifications
+## Specifications
+
+### Design
+
+* Radio buttons use custom styles (based on Bootstrap) instead of browser defaults, and label text uses high-contrast colors.
+* Radio buttons are vertically stacked, with one radio button per line.
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
