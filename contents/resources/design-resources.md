@@ -4,7 +4,7 @@ name: Design resources
 
 ## Design project
 
-All design files are stored in the [GitLab Design](https://gitlab.com/gitlab-org/gitlab-design) project and maintained by GitLab UX designers. The repository contains GitLab’s open source pattern library, prototypes, and work-in-progress files.
+All design files are stored in the [GitLab Design](https://gitlab.com/gitlab-org/gitlab-design) project and maintained by GitLab UX designers. The repository contains GitLab’s prototypes and work-in-progress files.
 
 ### Goals
 
