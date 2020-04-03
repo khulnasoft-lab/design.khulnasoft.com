@@ -59,4 +59,5 @@ Todo: add tree example
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
-Todo: add link
+[Sketch Measure Preview for the tree component](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/tree-spec-previews/)
+
