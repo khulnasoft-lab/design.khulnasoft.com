@@ -4,7 +4,7 @@ name: Design resources
 
 ## Design project
 
-All design files are stored in the [GitLab Design](https://gitlab.com/gitlab-org/gitlab-design) project and maintained by GitLab UX designers. The repository contains GitLab’s prototypes and work-in-progress files.
+In progress design files are stored in the [GitLab Design](https://gitlab.com/gitlab-org/gitlab-design) project and maintained by GitLab UX designers. The repository contains GitLab’s prototypes and work-in-progress files. The Pajamas UI Kit can be found in [Figma](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit---Beta).
 
 ### Goals
 
