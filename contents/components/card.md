@@ -32,7 +32,9 @@ If the purpose of using the component is to compare and contrast several static 
 
 #### Single Stat
 
-If the purpose of using the component is to show a high level overview of incoming data such as Security vulnerabilities or Threat Monitoring statistics, use a [single stat component](/contents/components/single-stat).
+If the purpose of using the component is to show a high level overview of incoming data such as Security vulnerabilities or Threat Monitoring statistics, use a single stat component.
+
+Todo: Add link to single stat component after it's been created
 
 ## Demo
 
