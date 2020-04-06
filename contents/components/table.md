@@ -85,7 +85,7 @@ Sorting is designed as a native functionality of tables, and should not be confu
 
 When sorting is enabled for the table, a [sorting icon](https://gitlab-org.gitlab.io/gitlab-svgs/?q=sort) is displayed next to the column header. A sortable table is identified by the sorting icon in one more of its table header cells. Clicking the icon will sort the rows based on the selected column, in ascending order first, and subsequently toggling between ascending and descending order. The sorting icon and functionality should not be visable on responsive tables.
 
-The sorting can be disabled to prevent users from changing the sorting order of a column. The default order will continue to be applied by one specific attribute.
+Sorting can be disabled to prevent users from changing the sorting order of a column. The default order will utilize one specific attribute.
 
 ### Rows
 
