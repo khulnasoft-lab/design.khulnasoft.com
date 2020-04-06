@@ -32,7 +32,7 @@ An accordion can be used on its own or with [more accordions](#multiple-accordio
 | ------ | ------ |
 | Use icons and [animation](/product-foundations/motion) to easily reflect collapsed and expanded states. | Leave the header without icon or use a [button](/components/buttons) to trigger the expand/collapse action.|
 | Trigger collapsed and expanded states when clicking on either the header or icon. | Make the icon the only way to trigger collapsed and expanded states. | 
-| Use [chevron](#icon) to indicate the expand/collapse behavior | Use an icon that can not reflect the transition like a [question mark](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~question). | 
+| Use a [chevron icon](#icon) to indicate the expand/collapse behavior. | Use an icon that can not reflect the transition like a [question mark icon](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~question). | 
 
 ## Specifications
 
