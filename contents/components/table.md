@@ -79,7 +79,7 @@ Avoid making all the columns an even width. The table columns should be sized ac
 
 #### Ordering & sorting
 
-The data set of a table is usually ordered by one specific column representing an attribute, such as status, last updated, or priority. Table sorting can be useful in combination with the [filter](/components/filter) component.
+The data set of a table is usually ordered by one specific column representing an attribute, such as status, last updated, or priority.
 
 Sorting is designed as a native functionality of tables, and should not be confused with the [list sorting](/components/sorting) component.
 
