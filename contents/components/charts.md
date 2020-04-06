@@ -28,11 +28,19 @@ Going forward, our charts will be built using [ECharts](https://echarts.apache.o
 
 General content and style considerations for charts include:
 
+<<<<<<< HEAD
 - If there is more than one series being displayed, add a legend.
 - In legends, the text after the series name is optional. It allows for the possibility of complementing the series legend with additional useful calculations (total, etc).
 - Use chart titles, category and value labels as necessary to clarify the content being shown (with units in parentheses, if required). Note that units aren't always necessary, for example, in the case of counts.
 - The default color order for charts with multiple series is blue, green, orange, then purple (see spec measure details for further information). If you need additional color options, utilize the 500 version of any of the color palette options at a 20% opacity. In addition, if you have charts that feature positive and negative values, feel free to utilize a green/red version of the chart to make the data gains (greens) and losses (reds) more immediately apparent. This variation of a column chart is usually known as a waterfall chart.
 - When hovering, detailed information on the data point is shown in a [popover](/components/popover).
+=======
+*   If there is more than one series being displayed, add a legend.
+*   In legends, the text after the series name is optional. It allows for the possibility of complementing the series legend with additional useful calculations (total, etc).
+*   Use chart titles, category and value labels as necessary to clarify the content being shown (with units in parentheses, if required). Note that units aren't always necessary, for example, in the case of counts.
+*   The default color order for charts with multiple series is blue, green, orange, then purple (see spec measure details for further information). If you need additional color options, utilize the 500 version of any of the color palette options at a 20% opacity. In addition, if you have charts that feature positive and negative values, feel free to utilize a green/red version of the chart to make the data gains (greens) and losses (reds) more immediately apparent. This variation of a column chart is usually known as a waterfall chart.
+*   When hovering, detailed information on the data point is shown in a [popover](/components/popover).
+>>>>>>> 2c057a1... Update component status through content tree
 
 ## Types
 
@@ -42,10 +50,17 @@ Column charts can be considered the 'default' chart type. If you are thinking ab
 
 When choosing a chart type, first consider your data set. If you are hoping to show:
 
+<<<<<<< HEAD
 - A comparison of values across categories or across time, consider a column, bar, line or pie chart.
 - A distribution of values, consider a scatter chart, a line histogram, or a column histogram.
 - The relationship between values, which are usually presented on the x and y axes, consider a scatter chart or a bubble chart.  
 - The composition of elements within the data set, consider a stacked column, stacked area, pie, or waterfall chart.
+=======
+*   A comparison of values across categories or across time, consider a column, bar, line or pie chart.
+*   A distribution of values, consider a scatter chart, a line histogram, or a column histogram.
+*   The relationship between values, which are usually presented on the x and y axes, consider a scatter chart or a bubble chart.  
+*   The composition of elements within the data set, consider a stacked column, stacked area, pie, or waterfall chart.
+>>>>>>> 2c057a1... Update component status through content tree
 
 ### Column charts
 

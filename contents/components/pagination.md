@@ -15,8 +15,13 @@ Pagination is used to help users parse a large number of items on a page, whenev
 
 Use pagination to:
 
+<<<<<<< HEAD
 - Present lists that contain specific items a user may need to find in order to complete their task. For example, Issues, Todos, Milestones, and Environments.
 - Navigate lists that can be sorted and/or filtered.
+=======
+* Present lists that contain specific items a user may need to find in order to complete their task. For example, Issues, Todos, Milestones, and Environments.
+* Navigate lists that can be sorted and/or filtered.
+>>>>>>> 2c057a1... Update component status through content tree
 
 We use both pagination and infinite scroll to segment results depending on the user’s task. Compare these guidelines with the [infitnite scroll usage guidelines](/components/infinite-scroll#usage) if you are unsure of which to use.
 

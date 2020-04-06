@@ -16,8 +16,13 @@ Tables are used to render tabular data in a basic grid, making it easier for peo
 
 Use tables when:
 
+<<<<<<< HEAD
 - Users need to review, enter, or edit uniform sets of data or options.
 - Displaying structured content, where each entry has the same attributes.
+=======
+* Users need to review, enter, or edit uniform sets of data or options.
+* Displaying structured content, where each entry has the same attributes.
+>>>>>>> 2c057a1... Update component status through content tree
 
 ### When to use tables
 
