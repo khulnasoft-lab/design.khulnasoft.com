@@ -1,6 +1,6 @@
 ---
 name: Modals
-status: built
+status: integrated
 vueComponents:
   - GlModal
 related:
@@ -26,7 +26,7 @@ Modals should be used when:
 - A non-revertible destructive action is about to take place and needs confirmation
 
 ### Alternatives
- 
+
 When designing an experience that incorporates the need for a modal, but does not match one of the use cases described above, consider one of the following before reverting to a modal:
 
 **Inline content:** Present your content inline to avoid disruption to the user's flow.

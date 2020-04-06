@@ -99,7 +99,7 @@
           </tr>
           <tr>
             <td><a href="../../product-foundations/saving-and-feedback">Saving and feedback</a></td>
-            <td>🚫</td>
+            <td>⚠️</td>
           </tr>
           <tr>
             <td><a href="../../product-foundations/typography">Typography</a></td>
@@ -135,11 +135,11 @@
           </tr>
           <tr>
             <td><a href="../../regions/empty-states">Empty states</a></td>
-            <td>⚠️</td>
+            <td>✅</td>
           </tr>
           <tr>
             <td><a href="../../regions/filters">Filters</a></td>
-            <td>⚠️</td>
+            <td>🚫</td>
           </tr>
           <tr>
             <td><a href="../../regions/navigation">Navigation</a></td>
