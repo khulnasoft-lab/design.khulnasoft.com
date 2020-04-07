@@ -77,34 +77,26 @@
             <th class="header">Foundations</th>
             <th class="header">Status</th>
           </tr>
-          <tr>
-            <td><a href="../../product-foundations/colors">Colors</a></td>
-            <td>✅</td>
-          </tr>
-          <tr>
-            <td><a href="../../product-foundations/iconography">Iconography</a></td>
-            <td>⚠️</td>
-          </tr>
-          <tr>
-            <td><a href="../../product-foundations/illustration">Illustration</a></td>
-            <td>⚠️</td>
-          </tr>
-          <tr>
-            <td><a href="../../product-foundations/interaction">Interaction</a></td>
-            <td>✅</td>
-          </tr>
-          <tr>
-            <td><a href="../../product-foundations/motion">Motion</a></td>
-            <td>⚠️</td>
-          </tr>
-          <tr>
-            <td><a href="../../product-foundations/saving-and-feedback">Saving and feedback</a></td>
-            <td>⚠️</td>
-          </tr>
-          <tr>
-            <td><a href="../../product-foundations/typography">Typography</a></td>
-            <td>⚠️</td>
-          </tr>
+          <template v-if="contentTree">
+            <tr
+              v-for="component in contentTree.product_foundations"
+              :key="component.id"
+            >
+              <td>
+                <nuxt-link
+                  :key="`link-${component.id}`"
+                  :to="`/product-foundations/${component.id}`"
+                >{{ component.name }}</nuxt-link>
+              </td>
+              <td class="app-styles">
+                {{getStatusIcon(component.status)}}
+                <b-badge
+                  v-if="component.hasVueComponent"
+                  variant="primary"
+                >Vue</b-badge>
+              </td>
+            </tr>
+          </template>
           <tr>
             <th class="header">Component</th>
             <th class="header">Status</th>
@@ -133,54 +125,98 @@
             <th class="header">Regions</th>
             <th class="header">Status</th>
           </tr>
-          <tr>
-            <td><a href="../../regions/empty-states">Empty states</a></td>
-            <td>✅</td>
-          </tr>
-          <tr>
-            <td><a href="../../regions/filters">Filters</a></td>
-            <td>🚫</td>
-          </tr>
-          <tr>
-            <td><a href="../../regions/navigation">Navigation</a></td>
-            <td>⚠️</td>
-          </tr>
-          <tr>
-            <td><a href="../../regions/search">Search</a></td>
-            <td>⚠️</td>
-          </tr>
+          <template v-if="contentTree">
+            <tr
+              v-for="component in contentTree.regions"
+              :key="component.id"
+            >
+              <td>
+                <nuxt-link
+                  :key="`link-${component.id}`"
+                  :to="`/regions/${component.id}`"
+                >{{ component.name }}</nuxt-link>
+              </td>
+              <td class="app-styles">
+                {{getStatusIcon(component.status)}}
+                <b-badge
+                  v-if="component.hasVueComponent"
+                  variant="primary"
+                >Vue</b-badge>
+              </td>
+            </tr>
+          </template>
           <tr>
             <th class="header">Content</th>
             <th class="header">Status</th>
           </tr>
+          <template v-if="contentTree">
+            <tr
+              v-for="component in contentTree.content"
+              :key="component.id"
+            >
+              <td>
+                <nuxt-link
+                  :key="`link-${component.id}`"
+                  :to="`/content/${component.id}`"
+                >{{ component.name }}</nuxt-link>
+              </td>
+              <td class="app-styles">
+                {{getStatusIcon(component.status)}}
+                <b-badge
+                  v-if="component.hasVueComponent"
+                  variant="primary"
+                >Vue</b-badge>
+              </td>
+            </tr>
+          </template>
           <tr>
-            <td><a href="../../content/voice-tone">Voice & tone</a></td>
-            <td>⚠️</td>
+            <th class="header">Accessibility</th>
+            <th class="header">Status</th>
           </tr>
-          <tr>
-            <td><a href="../../content/terminology">Terminology</a></td>
-            <td>⚠️</td>
-          </tr>
-          <tr>
-            <td><a href="../../content/punctuation">Punctuation</a></td>
-            <td>⚠️</td>
-          </tr>
+          <template v-if="contentTree">
+            <tr
+              v-for="component in contentTree.accessibility"
+              :key="component.id"
+            >
+              <td>
+                <nuxt-link
+                  :key="`link-${component.id}`"
+                  :to="`/accessibility/${component.id}`"
+                >{{ component.name }}</nuxt-link>
+              </td>
+              <td class="app-styles">
+                {{getStatusIcon(component.status)}}
+                <b-badge
+                  v-if="component.hasVueComponent"
+                  variant="primary"
+                >Vue</b-badge>
+              </td>
+            </tr>
+          </template>
           <tr>
             <th class="header">Usability</th>
             <th class="header">Status</th>
           </tr>
-          <tr>
-            <td><a href="../../usability/a11y">Accessibility</a></td>
-            <td>🚫</td>
-          </tr>
-          <tr>
-            <td><a href="../../usability/i18n">Internationalization</a></td>
-            <td>🚫</td>
-          </tr>
-          <tr>
-            <td><a href="../../usability/helping-users">Helping users</a></td>
-            <td>⚠️</td>
-          </tr>
+          <template v-if="contentTree">
+            <tr
+              v-for="component in contentTree.usability"
+              :key="component.id"
+            >
+              <td>
+                <nuxt-link
+                  :key="`link-${component.id}`"
+                  :to="`/usability/${component.id}`"
+                >{{ component.name }}</nuxt-link>
+              </td>
+              <td class="app-styles">
+                {{getStatusIcon(component.status)}}
+                <b-badge
+                  v-if="component.hasVueComponent"
+                  variant="primary"
+                >Vue</b-badge>
+              </td>
+            </tr>
+          </template>
         </tbody>
       </table>
 
