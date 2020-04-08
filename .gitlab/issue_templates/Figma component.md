@@ -25,25 +25,27 @@ Make sure the following are completed before closing the issue:
 1. [ ] **Assignee**: Create component in your own draft file in Figma using the
 [component template](https://www.figma.com/file/OmvFfWkqEsdGhXAND133ou/%5BComponent%5D),
 including all variations and states.
-1. [ ] **Assignee**: Ask another designer who is familiar with the [Figma workflow](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/CONTRIBUTING-Figma.md) to review your component
-(make sure they have edit permissions).
+1. [ ] **Assignee**: Ask [a FE/UX Foundation designer](https://about.gitlab.com/company/team/?department=fe-ux-foundations-team)
+to review your component (make sure they have edit permissions).
 1. [ ] **Reviewer**: Review and approve assignee’s addition. Ensure that component
 matches Sketch specs, includes all current variations and states, and (if applicable)
 is responsive.
 1. [ ] **Assignee**: Add notes about the component construction to the
 [Figma component build notes](https://gitlab.com/gitlab-org/gitlab-design/issues/778)
 issue description. Check off the component when complete.
-1. [ ] **Assignee**: Add the component to the **Pajamas UI Kit** file, and view
+1. [ ] **Reviewer**: Assign to a [Figma maintainer](https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com) for final review.
+1. [ ] **Maintainer**: Add the component to the **Pajamas UI Kit** file, and view
 the component in the Assets panel to ensure it aligns with what’s outlined in the
 [document and asset library structure](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/CONTRIBUTING-Figma.md#document-and-asset-library-structure) documentation.
-1. [ ] **Assignee**: Publish the library changes along with a clear commit message.
+1. [ ] **Maintainer**: Publish the library changes along with a clear commit message.
 1. [ ] **Assignee**: Update component link in the issue.
 1. [ ] **Assignee**: Move your draft file to the **Component archive** Figma project.
-1. [ ] **Assignee**: Create a merge request in this repository with the [component-guideline template](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/master/.gitlab/merge_request_templates/component-guideline.md) to create or update the component's documentation page. Link it here as a related merge request. 
+1. [ ] **Assignee**: Add an agenda item to the next UX weekly call to inform
+everyone (if it's a new pattern, not yet used in the application).
+1. [ ] **Assignee**: Create a merge request in this repository with the [component-guideline template](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/master/.gitlab/merge_request_templates/component-guideline.md)
+to create or update the component's documentation page. Link it here as a related
+merge request. Use `View design in Pajamas UI Kit →` for the link text. This replaces
+any link to Sketch Measure specs. Anyone with the link should be able to view the file. 
 1. [ ] **Assignee**: Once the merge request is created, close this issue. 
-
-Add an agenda item to the next UX weekly call to inform everyone (if it's a new pattern, not yet used in the application).
-Use `View design in Pajamas UI Kit →` for the link text. This replaces any link to
-Sketch Measure specs. Anyone with the link should be able to view the file.
 
 /label ~"UX" ~"Figma"
