@@ -48,7 +48,7 @@ Place alerts on top of the page when they’re referring to something that happe
 
 ### Embedded alerts
 
-Place alerts within a section of the page or UI element when the user needs to be informed of the status of that particular area the alert is referring to. For example, if we want to show an alert inside a modal we first need to know its purpose. Let’s say that it’s informing the user of what will happen once they confirm an action by clicking on the primary button in that modal. Placing the alert at the bottom of the modal, and above the action bar is the best option here. In most cases, it doesn’t make sense to make these alerts sticky.
+Place alerts within a section of the page or UI element when the user needs to be informed of the status of that particular area the alert is referring to. For example, if we want to show an alert inside a modal we first need to know its purpose. If the alert is informing the user of what will happen once they confirm an action by clicking the primary button in that modal, placing the alert at the bottom of the modal and above the action bar is the best option here. In most cases, sticky alerts should not be used.
 
 ### When to use alerts
 
