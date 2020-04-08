@@ -44,7 +44,7 @@ Use non-dismissible alerts when the user is prevented from completing a task unt
 
 ### Page-level alerts
 
-Place alerts on top of the page when they’re referring to something that happened on the page level, “Something went wrong while fetching latest comments.” on the issue page, for example. These alerts should be placed directly below the navigation bar and above the breadcrumbs with vertical spacing on top and bottom to separate it from the page content. Page-level alerts never appear below the breadcrumbs. Additionally, they can be made sticky to make it more likely that the user notices them. The width of the page-level alerts should be restricted to the content container width which can be either fixed or fluid, depending on user’s preference.
+Place alerts on top of the page when they’re referring to something that happened on the page level, “Something went wrong while fetching latest comments.” on the issue page, for example. These alerts should be placed directly below the navigation bar and above the breadcrumbs with vertical spacing on top and bottom to separate it from the page content. Page-level alerts never appear below the breadcrumbs. Additionally, error alerts can be made sticky to make it more likely that the user notices them. The width of the page-level alerts should be restricted to the content container width which can be either fixed or fluid, depending on user’s preference.
 
 ### Embedded alerts
 
