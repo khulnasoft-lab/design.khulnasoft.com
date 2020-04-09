@@ -57,7 +57,7 @@ Todo: An example of a toast with actions.
 
 ## Specifications
 
-* Use for a single line of text. The dimensions of a toast are dependent on its contents with a max-width of `568px`.
+* The dimensions of a toast are dependent on its contents with a max-width of `568px`.
 
 ### Design
 
