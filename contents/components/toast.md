@@ -69,4 +69,5 @@ Color, spacing, dimension, and layout specific information pertaining to this co
 
 ### Animation
 
-* A toast message eases in and eases out with a speed of 200 milliseconds from the bottom-left side of the screen (centered at smaller breakpoints)
+* A toast message eases in and out with a speed of 200 milliseconds from the bottom-left side of the screen (centered at smaller breakpoints).
+
