@@ -52,7 +52,14 @@ Todo: Add live component block with code example (predefined widths from specs +
 
 #### Clear icon
 
-A clear icon can appear in the right corner when the input field isn’t empty. It helps users clear the content with a single click. After removing the content it disappears and focus is placed on the input field. The clear icon isn’t necessary for the majority of input fields but is mandatory for [search boxes](/components/search).
+A clear icon can appear in the right corner when the input field isn’t empty. It helps users clear the content with a single click. After removing the content it disappears and focus is placed on the input field. The clear icon should be implemented as a button, should be accessible via keyboard and its name should be set to “Clear”. 
+
+The clear icon can be useful for input fields that satisfy both of the following criteria:
+
+* the input field is filled-in repeatedly by the same user
+* the data to be entered differs significantly from one use of the input field to the next
+
+Applied in practice, this means that only certain input fields should have the clear icon. [Search boxes](/components/search) tend to satisfy both of the criteria mentioned above so using a clear icon for them is mostly desirable.
 
 ### Text area
 
