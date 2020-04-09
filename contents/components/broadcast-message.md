@@ -26,7 +26,7 @@ Broadcast messages generally contain a small amount of content. It is a rare use
 ## Specifications
 
 * Content within a broadcast message should use the container width when user preference is set to use fixed width.
-* The close button tooltip should read “Dismiss”.
+* The close button tooltip should read “Dismiss” on hover.
 
 ### Design
 
