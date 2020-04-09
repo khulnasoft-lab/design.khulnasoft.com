@@ -164,8 +164,13 @@ Because the `500` step has at least a 3:1 contrast ratio on both light and dark 
     </div>
   </div>
 
+<<<<<<< HEAD
   <div class="data-vis-aqua col col-50">
     <h4 id="set-aqua">Aqua</h4>
+=======
+  <div class="data-vis-aqua col col-33">
+    <h4>Aqua</h4>
+>>>>>>> Set up doc outline and initial content
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview data-viz-aqua-50 p-t-3 p-r-5 p-b-3 p-l-5">
