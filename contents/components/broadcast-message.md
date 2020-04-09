@@ -31,6 +31,7 @@ Broadcast messages generally contain a small amount of content. It is a rare use
 ### Design
 
 * Background uses `$[hue]-700` of chosen theme.
+* Border-bottom uses `$[hue]-900` of chosen theme.
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
