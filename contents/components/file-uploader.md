@@ -1,6 +1,9 @@
 ---
 name: File uploader
 status: in-progress
+related:
+  - forms
+  - modals
 ---
 
 File uploaders are used to upload files from your computer. The accepted file types will be determined by the context of the file uploader.
