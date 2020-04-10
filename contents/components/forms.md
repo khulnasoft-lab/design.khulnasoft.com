@@ -56,8 +56,8 @@ A clear icon can appear on the right side of a text input when it has content, t
 
 The clear icon can be useful for input fields that satisfy both of the following criteria:
 
-* the input field is filled-in repeatedly by the same user
-* the data to be entered differs significantly from one use of the input field to the next
+* The input field is filled-in repeatedly by the same user
+* The data to be entered differs significantly from one use of the input field to the next
 
 Applied in practice, this means that only certain input fields should have the clear icon. [Search boxes](/components/search) tend to satisfy both of the criteria mentioned above so using a clear icon for them is mostly desirable.
 
