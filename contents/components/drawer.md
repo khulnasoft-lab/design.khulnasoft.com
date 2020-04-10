@@ -17,7 +17,7 @@ A drawer is a convenient way to present context-specific information or to provi
 |------------------------|-------------------|
 | Use to display additional or supplemental information to the user about an element or item. | Use to display content that is not suited for small areas, such as large tables or visualizations. |
 | Use for simple tasks such as editing content or changing a setting. | Use for critical interactions, such as confirming a deletion event or for complex multi-step tasks. |
-| Let a user’s action, such as a button click, following a link or selecting an option, trigger the drawer to open or close. | Surprise the user by opening or closing a drawer without their action. |
+| Let a user’s action trigger the drawer to open or close. For example, a button click, following a link, or selecting an option. | Surprise the user by opening or closing a drawer without their action. |
 
 ### Example use cases
 
