@@ -1,9 +1,9 @@
 ---
 name: File uploader
-# status: in-progress|built|implemented|deprecated (default: in-progress)
+status: in-progress
 ---
 
-File uploaders are used to upload files from your computer.
+File uploaders are used to upload files from your computer. The accepted file types will be determined by the context of the file uploader.
 
 ## Usage
 
@@ -38,7 +38,7 @@ Todo: Add live component block with code example
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
-[Sketch Measure Preview for INSERT NAME OF COMPONENT HERE](/)
+[Figma preview for INSERT NAME OF COMPONENT HERE](/)
 
 ## Resources
 
