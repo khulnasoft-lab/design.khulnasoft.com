@@ -15,7 +15,7 @@ View the [Color](/product-foundations/colors) section of Foundations for details
 There are 5 hues, each with 11 steps for a total of 55 variables. The palette is designed for both light and dark UI where:
 
 * Steps `50`—`500` meet or exceed a 3:1 contrast ratio on a dark `$gray-950` (`#1f1f1f`) surface.
-* Steps`500`—`950` meet or exceed a 3:1 contrast ratio on a light `$white` (`#ffffff`) surface.
+* Steps `500`—`950` meet or exceed a 3:1 contrast ratio on a light `$white` (`#ffffff`) surface.
 
 Because the `500` step has at least a 3:1 contrast ratio on both light and dark surfaces, there are 30 total variables that can be used for each surface. 
 
