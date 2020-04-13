@@ -32,9 +32,6 @@ matches Sketch specs, includes all current variations and states, and (if applic
 1. [ ] **Reviewer**: Review and approve assignee’s addition. Ensure that component
 includes all variations/states and, if applicable, matches existing Sketch specs and
 is responsive.
-1. [ ] **Assignee**: Add notes about the component construction to the
-[Figma component build notes](https://gitlab.com/gitlab-org/gitlab-design/issues/778)
-issue description. Check off the component when complete.
 1. [ ] **Reviewer**: Assign to a [Figma maintainer](https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com) for final review (make sure they have edit permissions in Figma).
 1. [ ] **Maintainer**: Review and approve assignee’s addition.
 1. [ ] **Maintainer**: Add the component to the **Pajamas UI Kit** file, and view
@@ -44,6 +41,9 @@ the component in the Assets panel to ensure it aligns with what’s outlined in 
 1. [ ] **Assignee**: Update component link in the issue.
 1. [ ] **Assignee** (or Maintainer, for community contributions): Move the draft file
 to the **Component archive** Figma project.
+1. [ ] **Assignee**: Add notes about the component construction to the
+[Figma component build notes](https://gitlab.com/gitlab-org/gitlab-design/issues/778)
+issue description. Check off the component when complete.
 1. [ ] **Assignee** (or Maintainer, for community contributions): If it's a new
 pattern or a significant change, add an agenda item to the next UX weekly call
 to inform everyone.
