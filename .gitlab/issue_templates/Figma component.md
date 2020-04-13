@@ -42,7 +42,8 @@ the component in the Assets panel to ensure it aligns with what’s outlined in 
 [document and asset library structure](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/CONTRIBUTING-Figma.md#document-and-asset-library-structure) documentation.
 1. [ ] **Maintainer**: Publish the library changes along with a clear commit message.
 1. [ ] **Assignee**: Update component link in the issue.
-1. [ ] **Assignee**: Move your draft file to the **Component archive** Figma project.
+1. [ ] **Assignee** (or Maintainer, for community contributions): Move the draft file
+to the **Component archive** Figma project.
 1. [ ] **Assignee** (or Maintainer, for community contributions): If it's a new
 pattern or a significant change, add an agenda item to the next UX weekly call
 to inform everyone.
