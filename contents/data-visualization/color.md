@@ -92,6 +92,7 @@ Because the `500` step has at least a 3:1 contrast ratio on both light and dark 
     </div>
   </div>
 
+<<<<<<< HEAD
   <div class="data-vis-orange col col-50">
     <h4 id="set-orange">Orange</h4>
     <div class="distributed palette">
@@ -169,6 +170,9 @@ Because the `500` step has at least a 3:1 contrast ratio on both light and dark 
     <h4 id="set-aqua">Aqua</h4>
 =======
   <div class="data-vis-aqua col col-33">
+=======
+  <div class="data-vis-aqua col col-50">
+>>>>>>> Add data viz docs and visuals
     <h4>Aqua</h4>
 >>>>>>> Set up doc outline and initial content
     <div class="distributed palette">
@@ -241,8 +245,13 @@ Because the `500` step has at least a 3:1 contrast ratio on both light and dark 
     </div>
   </div>
 
+<<<<<<< HEAD
   <div class="data-vis-green col col-50">
     <h4 id="set-green">Green</h4>
+=======
+  <div class="data-vis-blue col col-50">
+    <h4>Blue</h4>
+>>>>>>> Add data viz docs and visuals
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview data-viz-green-50 p-t-3 p-r-5 p-b-3 p-l-5">
@@ -314,7 +323,11 @@ Because the `500` step has at least a 3:1 contrast ratio on both light and dark 
   </div>
 
   <div class="data-vis-magenta col col-50">
+<<<<<<< HEAD
     <h4 id="set-magenta">Magenta</h4>
+=======
+    <h4>Magenta</h4>
+>>>>>>> Add data viz docs and visuals
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview data-viz-magenta-50 p-t-3 p-r-5 p-b-3 p-l-5">
@@ -384,6 +397,81 @@ Because the `500` step has at least a 3:1 contrast ratio on both light and dark 
       </div>
     </div>
   </div>
+<<<<<<< HEAD
+=======
+
+  <div class="data-vis-orange col col-50">
+    <h4>Orange</h4>
+    <div class="distributed palette">
+      <div class="color">
+        <div class="color-overview data-viz-orange-50 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-orange-50</span>
+          <span class="hex f-small">#fae8d1</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-100 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-orange-100</span>
+          <span class="hex f-small">#f7d8b5</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-200 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-orange-200</span>
+          <span class="hex f-small">#f3c291</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-300 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-orange-300</span>
+          <span class="hex f-small">#eb9a5c</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-400 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-orange-400</span>
+          <span class="hex f-small">#e17223</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-500 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-orange-500</span>
+          <span class="hex f-small f-inverted">#d14e00</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-600 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-orange-600</span>
+          <span class="hex f-small f-inverted">#b24800</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-700 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-orange-700</span>
+          <span class="hex f-small f-inverted">#944100</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-800 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-orange-800</span>
+          <span class="hex f-small f-inverted">#6f3500</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-900 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-orange-900</span>
+          <span class="hex f-small f-inverted">#5c2b00</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-950 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-orange-950</span>
+          <span class="hex f-small f-inverted">#421e00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+>>>>>>> Add data viz docs and visuals
 </div>
 
 ## Usage
@@ -402,6 +490,7 @@ Data types are covered in more detail below, but here’s a general summary of h
 
 ### Surfaces, visual separators, and patterns
 
+<<<<<<< HEAD
 Per [WCAG 2.1 Success Criterion 1.4.11: Non-text Contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html), UI components and graphical objects must have a contrast ratio of at least 3:1 against adjacent colors. This means sufficient contrast against the surface (backround), and each other.
 
 #### Surfaces
@@ -438,12 +527,38 @@ Sequential data uses steps within a single hue, and color lightness to indicate 
   <figcaption class="figure-caption">Default color sequence in a dark UI</figcaption>
 </figure>
 
+=======
+A surface is the solid background behind the content.
+
+* In a light UI, all data visualization should be on a `$white` (`#ffffff`) surface.
+* In a dark UI, all data visualization should be on a `$gray-950` (`#1f1f1f`) surface.
+
+### Sequential data
+
+Sequential data uses color lightness to indicate a range from low to high. Color transitions use steps within a single hue, starting at the `500` values, and step darker in a light UI, while stepping lighter in a dark UI.
+
+>>>>>>> Add data viz docs and visuals
 Todo: Include example of chart with sequential data
 
 **Potential applications:** stacked bar charts, heat maps, choropleth maps, funnels, cycle diagrams, clusters, pyramids, etc.
 
+#### Linear light UI
+
+Steps in a light UI go from `500` (low) to `950` (high) so that the higher the value, the darker it is and the more contrast it has against the light surface. 
+
+<img src="/img/dv-sequential-light.svg" alt="Progression of linear color steps in a light UI" role="img" />
+
+#### Linear dark UI
+
+Steps in a dark UI go from `500` (low) to `50` (high) so that the higher the value, the lighter is is and the more contrast it has against the dark surface.
+
+<img src="/img/dv-sequential-dark.svg" alt="Progression of linear color steps in a dark UI" role="img" />
+
+Todo: Create a dark UI wrapper for visuals and content
+
 ### Categorical data
 
+<<<<<<< HEAD
 Categorical data (also known as qualitative or thematic) uses hue to differentiate categories (qualitative), and lightness to differentiate a data range (quantitive).
 
 A chevron-skipping sequence is used to alternate both hue and lightness to increase contrast between sibling elements.
@@ -455,9 +570,21 @@ The default sequence loops through different steps of each hue in the following 
 1. Aqua
 1. Green
 1. Magenta
+=======
+Categorical data (also known as qualitative or thematic) uses hue to differentiate _qualitative_ data, and lightness to differentiate _quantitive_ data. The order of hues is alternated to increase contrast between sibling data points.
+
+For data sets where qualitative and quantitive data is presented, start with the `500` values for qualitative (categories), and follow the linear steps in each hue for the quantitive (as seen in the linear steps in the sequential visuals).
+
+For data sets where either qualitative or quantitive data is presented, use the sequence shown below to alternate hues. The sequence only needs to apply for large data sets, otherwise you can apply any of the `500` steps to a category.
+
+With 5 hues in the palette, we can alternate both the hue and lightness to create sequences with color and contrast differences. There are many patterns that can be explored (and have been by the IBM team within the article linked in the Resources), we use a chevron-skipping pattern by default.
+
+Todo: Include example of chart with categorical data
+>>>>>>> Add data viz docs and visuals
 
 Blue is always the default starting point, and `$data-viz-blue-500` is the base step for both light and dark UI.
 
+<<<<<<< HEAD
 <figure class="figure" role="figure" aria-label="Chevron-skipping pattern in a light UI">
   <img class="m-b-6" src="/img/dv-chevron-light-ui.svg" alt="Chevron-skipping pattern for color sequence" role="img" />
   <img class="m-b-5" src="/img/dv-chips-light-ui.svg" alt="Step order from chevron-pattern for color sequence" role="img" />
@@ -477,6 +604,51 @@ Todo: Add a sequence generator
 **Potential applications:** bar charts, pie charts, line graphs, stacked area charts, etc.
 
 ---
+=======
+#### Default category options
+
+<div class="color-palette row m-b-8">
+  <div class="col col-50">
+    <div class="distributed palette">
+      <div class="color">
+        <div class="color-overview data-viz-green-500 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-green-500</span>
+          <span class="hex f-small f-inverted">#608b2f</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-magenta-500 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-magenta-500</span>
+          <span class="hex f-small f-inverted">#d84280</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-blue-500 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-blue-500</span>
+          <span class="hex f-small f-inverted">#5772ff</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-500 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-orange-500</span>
+          <span class="hex f-small f-inverted">#d14e00</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-aqua-500 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-aqua-500</span>
+          <span class="hex f-small f-inverted">#0094b6</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+Todo: Add default chevron-skipping pattern for sequences
+
+Todo: Add default sequence order
+
+Todo: Add a sequence generator
 
 ### Divergent data
 
@@ -487,6 +659,347 @@ The pattern for selecting values skips every other step by default, and has a ra
 The number of steps required to make a useful progression would not meet 3:1 contrast ratios by using fill alone (each hue has 6 steps with enough contrast for each surface), so a border that uses the `500` value from the relative hue surrounds low-contrast fills.
 
 There are two divergent options, choose the one that works best with the type of data being shown.
+
+Todo: Include example of chart with divergent data
+>>>>>>> Add data viz docs and visuals
+
+### Divergent data
+
+<<<<<<< HEAD
+Divergent data moves in opposite directions from a central point. Color is used to indicate distance from the center by stepping darker in a light UI to each end, while stepping lighter in a dark UI to each end.
+=======
+#### Cool to warm light UI
+
+A cool to warm hue transition is helpful for showing a decrease vs. increase from a central point, where the warm steps show the increase.
+
+<div class="color-palette row m-b-8">
+  <div class="col col-50">
+    <div class="distributed palette">
+      <div class="color">
+        <div class="color-overview data-viz-blue-950 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-blue-950</span>
+          <span class="hex f-small f-inverted">#11118a</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-blue-800 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-blue-800</span>
+          <span class="hex f-small f-inverted">#232fcf</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-blue-600 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-blue-600</span>
+          <span class="hex f-small f-inverted">#445cf2</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-blue-400 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-blue-400</span>
+          <span class="hex f-small">#748eff</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-blue-200 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-blue-200</span>
+          <span class="hex f-small">#b7c6ff</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-blue-50 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-blue-50</span>
+          <span class="hex f-small">#e9ebff</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-200 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-orange-200</span>
+          <span class="hex f-small">#f3c291</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-400 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-orange-400</span>
+          <span class="hex f-small">#e17223</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-600 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-orange-600</span>
+          <span class="hex f-small f-inverted">#b24800</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-800 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-orange-800</span>
+          <span class="hex f-small f-inverted">#6f3500</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-950 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-orange-950</span>
+          <span class="hex f-small f-inverted">#421e00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col col-50">
+    <img src="/img/dv-divergent-warm-light.svg" alt="Progression of divergent color steps in a light UI" role="img" />
+  </div>
+</div>
+
+#### Cool to warm dark UI
+
+<div class="color-palette row m-b-8">
+  <div class="col col-50">
+    <div class="distributed palette">
+      <div class="color">
+        <div class="color-overview data-viz-blue-50 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-blue-50</span>
+          <span class="hex f-small">#e9ebff</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-blue-200 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-blue-200</span>
+          <span class="hex f-small">#b7c6ff</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-blue-400 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-blue-400</span>
+          <span class="hex f-small">#748eff</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-blue-600 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-blue-600</span>
+          <span class="hex f-small f-inverted">#445cf2</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-blue-800 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-blue-800</span>
+          <span class="hex f-small f-inverted">#232fcf</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-blue-950 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-blue-950</span>
+          <span class="hex f-small f-inverted">#11118a</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-800 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-orange-800</span>
+          <span class="hex f-small f-inverted">#6f3500</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-600 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-orange-600</span>
+          <span class="hex f-small f-inverted">#b24800</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-400 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-orange-400</span>
+          <span class="hex f-small">#e17223</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-200 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-orange-200</span>
+          <span class="hex f-small">#f3c291</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-orange-50 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-orange-50</span>
+          <span class="hex f-small">#fae8d1</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col col-50">
+    <img src="/img/dv-divergent-warm-dark.svg" alt="Progression of divergent color steps in a dark UI" role="img" />
+  </div>
+</div>
+
+#### Cool green to aqua light UI
+
+A cool to cool hue transition could be useful for showing data based on a central point, where either end of the range does not necessarily have positive or negative connotation.
+
+<div class="color-palette row m-b-8">
+  <div class="col col-50">
+    <div class="distributed palette">
+      <div class="color">
+        <div class="color-overview data-viz-aqua-950 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-aqua-950</span>
+          <span class="hex f-small f-inverted">#11118a</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-aqua-800 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-aqua-800</span>
+          <span class="hex f-small f-inverted">#232fcf</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-aqua-600 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-aqua-600</span>
+          <span class="hex f-small f-inverted">#445cf2</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-aqua-400 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-aqua-400</span>
+          <span class="hex f-small">#748eff</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-aqua-200 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-aqua-200</span>
+          <span class="hex f-small">#b7c6ff</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-aqua-50 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-aqua-50</span>
+          <span class="hex f-small">#e9ebff</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-green-200 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-green-200</span>
+          <span class="hex f-small">#f3c291</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-green-400 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-green-400</span>
+          <span class="hex f-small">#e17223</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-green-600 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-green-600</span>
+          <span class="hex f-small f-inverted">#b24800</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-green-800 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-green-800</span>
+          <span class="hex f-small f-inverted">#6f3500</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-green-950 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-green-950</span>
+          <span class="hex f-small f-inverted">#421e00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col col-50">
+    <img src="/img/dv-divergent-cool-light.svg" alt="Progression of divergent color steps in a light UI" role="img" />
+  </div>
+</div>
+
+#### Cool green to aqua dark UI
+
+<div class="color-palette row m-b-8">
+  <div class="col col-50">
+    <div class="distributed palette">
+      <div class="color">
+        <div class="color-overview data-viz-aqua-950 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-aqua-950</span>
+          <span class="hex f-small f-inverted">#11118a</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-aqua-800 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-aqua-800</span>
+          <span class="hex f-small f-inverted">#232fcf</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-aqua-600 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-aqua-600</span>
+          <span class="hex f-small f-inverted">#445cf2</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-aqua-400 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-aqua-400</span>
+          <span class="hex f-small">#748eff</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-aqua-200 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-aqua-200</span>
+          <span class="hex f-small">#b7c6ff</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-aqua-50 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-aqua-50</span>
+          <span class="hex f-small">#e9ebff</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-green-200 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-green-200</span>
+          <span class="hex f-small">#f3c291</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-green-400 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable">$data-viz-green-400</span>
+          <span class="hex f-small">#e17223</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-green-600 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-green-600</span>
+          <span class="hex f-small f-inverted">#b24800</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-green-800 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-green-800</span>
+          <span class="hex f-small f-inverted">#6f3500</span>
+        </div>
+      </div>
+      <div class="color">
+        <div class="color-overview data-viz-green-950 p-t-3 p-r-5 p-b-3 p-l-5">
+          <span class="variable f-inverted">$data-viz-green-950</span>
+          <span class="hex f-small f-inverted">#421e00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col col-50">
+    <img src="/img/dv-divergent-cool-dark.svg" alt="Progression of divergent color steps in a light UI" role="img" />
+  </div>
+</div>
+
+### Dashboards
+>>>>>>> Add data viz docs and visuals
+
+The pattern for selecting values skips every other step by default, and has a range of 11 steps including the central point. For data with a smaller range, the pattern could be a subset that starts at the same central point, but does not extend as far to each end. For data with a larger range, add skipped values into the sequence, starting from the center out.
+
+The number of steps required to make a useful progression would not meet 3:1 contrast ratios by using fill alone (each hue has 6 steps with enough contrast for each surface), so a border that uses the `500` value from the relative hue surrounds low-contrast fills.
+
+<<<<<<< HEAD
+There are two divergent options, choose the one that works best with the type of data being shown.
+=======
+At GitLab, we are dedicated to continually improving the accessibility of the application. Color is no exception. Every step of every hue in the data visualization palette has been evaluated to satisfy a 3:1 contrast ratio against a light or dark surface.
+>>>>>>> Add data viz docs and visuals
 
 * A cool to warm hue transition is helpful for showing a decrease vs. increase from a central point, where the warm steps show the increase.
 * A cool to cool hue transition could be useful for showing data based on a central point, where either end of the range does not necessarily have positive or negative connotation.
@@ -501,7 +1014,11 @@ There are two divergent options, choose the one that works best with the type of
   <figcaption class="figure-caption">Cool to warm, and cool divergent sequences in a dark UI</figcaption>
 </figure>
 
+<<<<<<< HEAD
 Todo: Include example of chart with divergent data
+=======
+Colors meet or exceed a 3:1 contrast ratio against either a light or dark surface, but not necessarily each other. There are a few solutions, but the easiest is space between each element. This means at least a `1px` gap between elements, where the gap is the color of the surface. Alternately, a border of at least `1px` can be used on elements, where the border matches the surface color. Whether this is an actual gap, or border, the effect is the same.
+>>>>>>> Add data viz docs and visuals
 
 **Potential applications:** butterfly charts, choropleth maps, sparklines, etc.
 
@@ -516,4 +1033,8 @@ At GitLab, we are dedicated to continually improving the accessibility of the ap
 
 * [Inclusive Color Sequences for Data Viz in 6 Steps](https://medium.com/design-ibm/inclusive-color-sequences-for-data-viz-in-6-steps-712869b910c2) - Design at IBM
 * [Re-approaching Color](https://design.lyft.com/re-approaching-color-9e604ba22c88) - Lyft Design
+<<<<<<< HEAD
 * [ColorBox](https://www.colorbox.io/) - Lyft Design
+=======
+* [ColorBox](https://www.colorbox.io/) - Lyft Design
+>>>>>>> Add data viz docs and visuals
