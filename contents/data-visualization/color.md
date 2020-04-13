@@ -6,11 +6,7 @@ name: Color
 
 Data visualization is critical content within GitLab. The presentation and interpretation of this content relies on visual nuance that is separate from the rest of the UI.
 
-<<<<<<< HEAD
 The data visualization palette is designed specifically for conveying different types of data. The meaning is derived from the data itself, not by color as a first measure. The palette is versatile enough to be applied in a number of [data types](#data-types) in both light and dark UI.
-=======
-The data visualization palette is designed specifically for conveying different types of data. The meaning is derived from the data itself, not by color as a first measure. Color sequence is intentional to help colorblind users distinguish data points. The palette is versatile enough to be applied in a number of use cases in both light and dark UI.
->>>>>>> Add data viz docs and visuals
 
 View the [Color](/product-foundations/colors) section of Foundations for details about the UI, neutral, and theme palettes.
 
@@ -19,22 +15,13 @@ View the [Color](/product-foundations/colors) section of Foundations for details
 There are 5 hues, each with 11 steps for a total of 55 variables. The palette is designed for both light and dark UI where:
 
 * Steps `50`—`500` meet or exceed a 3:1 contrast ratio on a dark `$gray-950` (`#1f1f1f`) surface.
-<<<<<<< HEAD
 * Steps `500`—`950` meet or exceed a 3:1 contrast ratio on a light `$white` (`#ffffff`) surface.
-=======
-* Steps`500`—`950` meet or exceed a 3:1 contrast ratio on a light `$white` (`#ffffff`) surface.
->>>>>>> Add data viz docs and visuals
 
 Because the `500` step has at least a 3:1 contrast ratio on both light and dark surfaces, there are 30 total variables that can be used for each surface.
 
 <div class="color-palette row m-b-8">
-<<<<<<< HEAD
   <div class="data-vis-blue col col-50">
     <h4 id="set-blue">Blue</h4>
-=======
-  <div class="data-vis-green col col-50">
-    <h4>Green</h4>
->>>>>>> Add data viz docs and visuals
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview data-viz-blue-50 p-t-3 p-r-5 p-b-3 p-l-5">
@@ -178,11 +165,7 @@ Because the `500` step has at least a 3:1 contrast ratio on both light and dark 
   </div>
 
   <div class="data-vis-aqua col col-50">
-<<<<<<< HEAD
     <h4 id="set-aqua">Aqua</h4>
-=======
-    <h4>Aqua</h4>
->>>>>>> Add data viz docs and visuals
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview data-viz-aqua-50 p-t-3 p-r-5 p-b-3 p-l-5">
@@ -253,13 +236,8 @@ Because the `500` step has at least a 3:1 contrast ratio on both light and dark 
     </div>
   </div>
 
-<<<<<<< HEAD
   <div class="data-vis-green col col-50">
     <h4 id="set-green">Green</h4>
-=======
-  <div class="data-vis-blue col col-50">
-    <h4>Blue</h4>
->>>>>>> Add data viz docs and visuals
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview data-viz-green-50 p-t-3 p-r-5 p-b-3 p-l-5">
@@ -331,11 +309,7 @@ Because the `500` step has at least a 3:1 contrast ratio on both light and dark 
   </div>
 
   <div class="data-vis-magenta col col-50">
-<<<<<<< HEAD
     <h4 id="set-magenta">Magenta</h4>
-=======
-    <h4>Magenta</h4>
->>>>>>> Add data viz docs and visuals
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview data-viz-magenta-50 p-t-3 p-r-5 p-b-3 p-l-5">
@@ -405,81 +379,6 @@ Because the `500` step has at least a 3:1 contrast ratio on both light and dark 
       </div>
     </div>
   </div>
-<<<<<<< HEAD
-=======
-
-  <div class="data-vis-orange col col-50">
-    <h4>Orange</h4>
-    <div class="distributed palette">
-      <div class="color">
-        <div class="color-overview data-viz-orange-50 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$data-viz-orange-50</span>
-          <span class="hex f-small">#fae8d1</span>
-        </div>
-      </div>
-      <div class="color">
-        <div class="color-overview data-viz-orange-100 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$data-viz-orange-100</span>
-          <span class="hex f-small">#f7d8b5</span>
-        </div>
-      </div>
-      <div class="color">
-        <div class="color-overview data-viz-orange-200 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$data-viz-orange-200</span>
-          <span class="hex f-small">#f3c291</span>
-        </div>
-      </div>
-      <div class="color">
-        <div class="color-overview data-viz-orange-300 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$data-viz-orange-300</span>
-          <span class="hex f-small">#eb9a5c</span>
-        </div>
-      </div>
-      <div class="color">
-        <div class="color-overview data-viz-orange-400 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$data-viz-orange-400</span>
-          <span class="hex f-small">#e17223</span>
-        </div>
-      </div>
-      <div class="color">
-        <div class="color-overview data-viz-orange-500 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$data-viz-orange-500</span>
-          <span class="hex f-small f-inverted">#d14e00</span>
-        </div>
-      </div>
-      <div class="color">
-        <div class="color-overview data-viz-orange-600 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$data-viz-orange-600</span>
-          <span class="hex f-small f-inverted">#b24800</span>
-        </div>
-      </div>
-      <div class="color">
-        <div class="color-overview data-viz-orange-700 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$data-viz-orange-700</span>
-          <span class="hex f-small f-inverted">#944100</span>
-        </div>
-      </div>
-      <div class="color">
-        <div class="color-overview data-viz-orange-800 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$data-viz-orange-800</span>
-          <span class="hex f-small f-inverted">#6f3500</span>
-        </div>
-      </div>
-      <div class="color">
-        <div class="color-overview data-viz-orange-900 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$data-viz-orange-900</span>
-          <span class="hex f-small f-inverted">#5c2b00</span>
-        </div>
-      </div>
-      <div class="color">
-        <div class="color-overview data-viz-orange-950 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$data-viz-orange-950</span>
-          <span class="hex f-small f-inverted">#421e00</span>
-        </div>
-      </div>
-    </div>
-  </div>
->>>>>>> Add data viz docs and visuals
 </div>
 
 ## Usage
