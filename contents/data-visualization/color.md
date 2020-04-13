@@ -831,3 +831,4 @@ Pattern fills can create accessibility issues of their own, namely cognitive, an
 * [Inclusive Color Sequences for Data Viz in 6 Steps](https://medium.com/design-ibm/inclusive-color-sequences-for-data-viz-in-6-steps-712869b910c2) - Design at IBM
 * [Re-approaching Color](https://design.lyft.com/re-approaching-color-9e604ba22c88) - Lyft Design
 * [ColorBox](https://www.colorbox.io/) - Lyft Design
+
