@@ -13,42 +13,9 @@ Though deciding which color to use depends on the situation, here are some gener
 * **Orange** indicates 'attention-required.' It communicates: warning, pending, missing, or impeded progress.
 * **Red** indicates a problem. It communicates: critical states, destructive actions, errors, fails, removals, or declines.
 
-### Color priorities
-
-Color priorities work similarly to font weights; different font weights can be used to create contrasting typography that communicates hierarchy. We apply this same logic to colors by tagging colors according to their priority: from 1 to 4. These priorities can be used to make better choices. When choosing how to apply color to a UI component:
-
-* Priority 1 is equal to the color weight 500.
-* Priority 2 is equal to the color weights 300 and 700.
-* Priority 3 is equal to the color weights 100 and 900.
-
-Priorities skip weights because, in most situations, the contrast between two adjoining weights would be subtle. However, those shades are available to use when needed. Color priorities are meant to act as a guideline, not a strict set of rules.
-
-### Accessibility
-
-At GitLab, we are dedicated to continually improving the accessibility of the application. Pajamas satisfies the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast) AA level for normal text.
-
-#### Normal text
-
-Normal text must have a contrast ratio of at least 4.5:1.
-
-#### Large text 
-
-Large text is defined as `14pt` Bold (`18.5px`) or `18pt` (`24px`) and must have a contrast ratio of at least 3:1.
-
-#### Passing level and contrast ratio
-
-* **AAA** - Pass 7:1+
-* **AA** - Pass 4.5:1+
-* **AA+** - Pass, large text only 3:1+
-* **F** - Doesn’t pass
-
-Contrast ratios for each color step below are calculated using white (`#fff`) and black (`#000`). The `50–400` steps all meet a 4.5:1 contrast ratio or higher against $gray-950 (`#1f1f1f`) or darker, while the `500–950` steps all meet a 4.5:1 contrast ratio against `$gray-0` (`#fafafa`) or lighter.
-
-Learn more in [Accessibility](/accessibility/a11y).
-
-<div class="color-palette row m-b-9">
-  <div class="green col col-50">
-    <h4>Green</h4>
+<div class="row m-b-9">
+  <div class="col col-50">
+    <h3>Green</h3>
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview c-background-green-50 p-t-3 p-r-5 p-b-3 p-l-5">
@@ -217,8 +184,8 @@ Learn more in [Accessibility](/accessibility/a11y).
       </div>
     </div>
   </div>
-  <div class="blue col col-50">
-    <h4>Blue</h4>
+  <div class="col col-50">
+    <h3>Blue</h3>
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview c-background-blue-50 p-t-3 p-r-5 p-b-3 p-l-5">
@@ -387,8 +354,8 @@ Learn more in [Accessibility](/accessibility/a11y).
       </div>
     </div>
   </div>
-  <div class="orange col col-50 m-t-7">
-    <h4>Orange</h4>
+  <div class="col col-50 m-t-7">
+    <h3>Orange</h3>
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview c-background-orange-50 p-t-3 p-r-5 p-b-3 p-l-5">
@@ -557,8 +524,8 @@ Learn more in [Accessibility](/accessibility/a11y).
       </div>
     </div>
   </div>
-  <div class="red col col-50 m-t-7">
-    <h4>Red</h4>
+  <div class="col col-50 m-t-7">
+    <h3>Red</h3>
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview c-background-red-50 p-t-3 p-r-5 p-b-3 p-l-5">
@@ -743,73 +710,73 @@ Our neutral palette is primarily used within components to help differentiate hi
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-0 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$gray-0</span>
+          <span class="variable">$t-gray-0</span>
           <span class="hex f-small">#fafafa</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-50 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$gray-50</span>
+          <span class="variable">$t-gray-50</span>
           <span class="hex f-small">#f0f0f0</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-100 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$gray-100</span>
+          <span class="variable">$t-gray-100</span>
           <span class="hex f-small">#dbdbdb</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-200 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$gray-200</span>
+          <span class="variable">$t-gray-200</span>
           <span class="hex f-small">#bfbfbf</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-300 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$gray-300</span>
+          <span class="variable">$t-gray-300</span>
           <span class="hex f-small">#999999</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-400 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$gray-400</span>
+          <span class="variable">$t-gray-400</span>
           <span class="hex f-small">#868686</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-500 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$gray-500</span>
+          <span class="variable f-inverted">$t-gray-500</span>
           <span class="hex f-small f-inverted">#666666</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-600 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$gray-600</span>
+          <span class="variable f-inverted">$t-gray-600</span>
           <span class="hex f-small f-inverted">#5e5e5e</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-700 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$gray-700</span>
+          <span class="variable f-inverted">$t-gray-700</span>
           <span class="hex f-small f-inverted">#525252</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-800 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$gray-800</span>
+          <span class="variable f-inverted">$t-gray-800</span>
           <span class="hex f-small f-inverted">#404040</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-900 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$gray-900</span>
+          <span class="variable f-inverted">$t-gray-900</span>
           <span class="hex f-small f-inverted">#303030</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-950 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$gray-950</span>
+          <span class="variable f-inverted">$t-gray-950</span>
           <span class="hex f-small f-inverted">#1f1f1f</span>
         </div>
       </div>
@@ -865,9 +832,9 @@ Transparencies are used only to indicate hover and active states within themes. 
 
 There are seven different theme options that users can choose to customize the appearance of the application header and navigation sidebar. Each theme draws inspiration from one of our primary chromatic colors, the neutral palette, or the corporate indigo color.
 
-<div class="color-palette row m-b-6">
-  <div class="indigo col col-25">
-    <h4>Indigo</h4>
+<div class="row m-b-6">
+  <div class="col col-25">
+    <h3>Indigo</h3>
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview t-indigo-50 p-t-3 p-r-5 p-b-3 p-l-5">
@@ -937,8 +904,8 @@ There are seven different theme options that users can choose to customize the a
       </div>
     </div>
   </div>
-  <div class="blue col col-25">
-    <h4>Dark Blue</h4>
+  <div class="col col-25">
+    <h3>Dark Blue</h3>
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview t-blue-50 p-t-3 p-r-5 p-b-3 p-l-5">
@@ -1008,8 +975,8 @@ There are seven different theme options that users can choose to customize the a
       </div>
     </div>
   </div>
-  <div class="light-blue col col-25">
-    <h4>Light Blue</h4>
+  <div class="col col-25">
+    <h3>Light Blue</h3>
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview t-light-blue-50 p-t-3 p-r-5 p-b-3 p-l-5">
@@ -1079,8 +1046,8 @@ There are seven different theme options that users can choose to customize the a
       </div>
     </div>
   </div>
-  <div class="green col col-25">
-    <h4>Green</h4>
+  <div class="col col-25">
+    <h3>Green</h3>
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview t-green-50 p-t-3 p-r-5 p-b-3 p-l-5">
@@ -1150,8 +1117,8 @@ There are seven different theme options that users can choose to customize the a
       </div>
     </div>
   </div>
-  <div class="red col col-25 m-t-7">
-    <h4>Dark Red</h4>
+  <div class="col col-25 m-t-7">
+    <h3>Dark Red</h3>
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview t-red-50 p-t-3 p-r-5 p-b-3 p-l-5">
@@ -1221,8 +1188,8 @@ There are seven different theme options that users can choose to customize the a
       </div>
     </div>
   </div>
-  <div class="light-red col col-25 m-t-7">
-    <h4>Light Red</h4>
+  <div class="col col-25 m-t-7">
+    <h3>Light Red</h3>
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview t-light-red-50 p-t-3 p-r-5 p-b-3 p-l-5">
@@ -1292,8 +1259,8 @@ There are seven different theme options that users can choose to customize the a
       </div>
     </div>
   </div>
-  <div class="gray col col-25 m-t-7">
-    <h4>Neutral</h4>
+  <div class="col col-25 m-t-7">
+    <h3>Neutral</h3>
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview c-background-gray-0 p-t-3 p-r-5 p-b-3 p-l-5">
@@ -1370,3 +1337,31 @@ There are seven different theme options that users can choose to customize the a
     </div>
   </div>
 </div>
+
+## Usage
+
+### Color priorities
+
+Color priorities work similarly to font weights; different font weights can be used to create contrasting typography that communicates hierarchy. We apply this same logic to colors by tagging colors according to their priority: from 1 to 4. These priorities can be used to make better choices. When choosing how to apply color to a UI component:
+
+* Priority 1 is equal to the color weight 500.
+* Priority 2 is equal to the color weights 300 and 700.
+* Priority 3 is equal to the color weights 100 and 900.
+
+Priorities skip steps because, in most situations, the contrast between two adjoining steps would be too subtle. However, those steps are available to use when needed. Color priorities are meant to act as a guideline, not a strict set of rules.
+
+## Accessibility
+
+At GitLab, we are dedicated to continually improving the accessibility of the application. Pajamas satisfies the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast) AA level for normal text. Learn more in [Accessibility](/accessibility/a11y).
+
+* **Normal text** must have a contrast ratio of at least 4.5:1.
+* **Large text** is defined as `14pt` Bold (`18.5px`) or `18pt` (`24px`) and must have a contrast ratio of at least 3:1.
+
+### Passing level and contrast ratio
+
+* **AAA** - Pass 7:1+
+* **AA** - Pass 4.5:1+
+* **AA+** - Pass, large text only 3:1+
+* **F** - Doesn’t pass
+
+Contrast ratios for each color step are calculated using white (`#fff`) and black (`#000`). The `50–400` steps all meet a 4.5:1 contrast ratio or higher against $gray-950 (`#1f1f1f`) or darker, while the `500–950` steps all meet a 4.5:1 contrast ratio against `$gray-0` (`#fafafa`) or lighter.
