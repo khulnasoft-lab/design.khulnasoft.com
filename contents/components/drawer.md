@@ -1,6 +1,5 @@
 ---
 name: Drawer
-status: built
 vueComponents:
   - GlDrawer
 related:
