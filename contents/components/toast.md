@@ -61,7 +61,7 @@ Todo: An example of a toast with actions.
 
 ### Design
 
-* On hover, action text changes from `$blue-300` to `$blue-200`.
+* Action text is underlined when hovered.
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
