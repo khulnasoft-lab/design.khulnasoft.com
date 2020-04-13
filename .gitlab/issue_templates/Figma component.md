@@ -25,7 +25,7 @@ Make sure the following are completed before closing the issue:
 1. [ ] **Assignee**: Create component in your own draft file in Figma using the
 [component template](https://www.figma.com/file/OmvFfWkqEsdGhXAND133ou/%5BComponent%5D),
 including all variations and states.
-1. [ ] **Assignee**: Ask [a FE/UX Foundation designer](https://about.gitlab.com/company/team/?department=fe-ux-foundations-team)
+1. [ ] **Assignee**: Ask a [FE/UX Foundation designer](https://about.gitlab.com/company/team/?department=fe-ux-foundations-team)
 to review your component (ensure they have edit permissions in Figma).
 1. [ ] **Reviewer**: Review and approve assignee’s addition. Ensure that component
 matches Sketch specs, includes all current variations and states, and (if applicable)
