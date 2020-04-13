@@ -36,6 +36,7 @@ is responsive.
 [Figma component build notes](https://gitlab.com/gitlab-org/gitlab-design/issues/778)
 issue description. Check off the component when complete.
 1. [ ] **Reviewer**: Assign to a [Figma maintainer](https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com) for final review (make sure they have edit permissions in Figma).
+1. [ ] **Maintainer**: Review and approve assignee’s addition.
 1. [ ] **Maintainer**: Add the component to the **Pajamas UI Kit** file, and view
 the component in the Assets panel to ensure it aligns with what’s outlined in the
 [document and asset library structure](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/CONTRIBUTING-Figma.md#document-and-asset-library-structure) documentation.
