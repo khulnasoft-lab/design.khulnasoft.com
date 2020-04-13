@@ -29,6 +29,8 @@ including all variations and states.
 to review your component (make sure they have edit permissions).
 1. [ ] **Reviewer**: Review and approve assignee’s addition. Ensure that component
 matches Sketch specs, includes all current variations and states, and (if applicable)
+1. [ ] **Reviewer**: Review and approve assignee’s addition. Ensure that component
+includes all variations/states and, if applicable, matches existing Sketch specs and
 is responsive.
 1. [ ] **Assignee**: Add notes about the component construction to the
 [Figma component build notes](https://gitlab.com/gitlab-org/gitlab-design/issues/778)
