@@ -59,12 +59,12 @@ Before        After (reflected below)
 400           200
 500           300
 600           400
-700           500*
+700           500†
 800           700
 900           900
 950           950
 
-* Passes 4.5:1 contrast ratio on $gray-0
+† 500 and up passes 4.5:1 contrast ratio on $gray-0
 */
 
 $white: #fff;
@@ -169,18 +169,18 @@ $t-indigo-a-06: rgba($t-indigo-200, 0.06);
 $t-indigo-a-08: rgba($t-indigo-200, 0.08);
 $t-indigo-a-24: rgba($t-indigo-200, 0.24);
 
-$t-gray-0: #fafafa;
-$t-gray-50: #f0f0f0;
-$t-gray-100: #dbdbdb;
-$t-gray-200: #bfbfbf;
-$t-gray-300: #999;
-$t-gray-400: #868686;
-$t-gray-500: #666;
-$t-gray-600: #5e5e5e;
-$t-gray-700: #525252;
-$t-gray-800: #404040;
-$t-gray-900: #303030;
-$t-gray-950: #1f1f1f;
+$t-gray-0: $gray-0;
+$t-gray-50: $gray-50;
+$t-gray-100: $gray-100;
+$t-gray-200: $gray-200;
+$t-gray-300: $gray-300;
+$t-gray-400: $gray-400;
+$t-gray-500: $gray-500;
+$t-gray-600: $gray-600;
+$t-gray-700: $gray-700;
+$t-gray-800: $gray-800;
+$t-gray-900: $gray-900;
+$t-gray-950: $gray-950;
 $t-gray-a-02: rgba($black, 0.02);
 $t-gray-a-04: rgba($black, 0.04);
 $t-gray-a-06: rgba($black, 0.06);
@@ -301,8 +301,6 @@ $font-weight--normal: 400;
 $font-weight--bold: 600;
 $text-color: $gray-900;
 $text-color--secondary: $gray-500;
-$text-color--placeholder: $gray-500;
-$text-color--disabled: $gray-500;
 $text-color--inverted: $white;
 $anchor-color: $blue-600;
 
