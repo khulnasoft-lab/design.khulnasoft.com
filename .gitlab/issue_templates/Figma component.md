@@ -39,7 +39,7 @@ is responsive.
 the component in the Assets panel to ensure it aligns with what’s outlined in the
 [document and asset library structure](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/CONTRIBUTING-Figma.md#document-and-asset-library-structure) documentation.
 1. [ ] **Maintainer**: Publish the library changes along with a clear commit message.
-1. [ ] **Assignee** (or Maintainer, for community contributions): Move the draft file to the **Component archive** Figma project. For community contributions, you can create a copy of the draft, and move that to the archive.
+1. [ ] **Assignee**: Move the draft file to the **Component archive** Figma project. If you're a community contributor, we ask that you [transfer ownership of your draft file](https://help.figma.com/hc/en-us/articles/360040530853) to the maintainer so they can move it to our archive, along with its version history and comments.
 1. [ ] **Assignee**: Add notes about the component construction to the
 [Figma component build notes](https://gitlab.com/gitlab-org/gitlab-design/issues/778)
 issue description. Check off the component when complete.
