@@ -52,7 +52,7 @@ Todo: Add live component block with code example (predefined widths from specs +
 
 #### Clear icon
 
-A clear icon can appear on the right side of a text input when it has content, to help a user clear the content with a single click. After removing the content, it disappears and focus is placed on the input field. The clear icon should be implemented as a button, accessible via keyboard, and its name announced as “Clear” for assistive technology. 
+A clear icon can appear on the right side of an input field when it has content, to help a user clear the content with a single click. After removing the content, it disappears and the focus is placed on the input field. The clear icon should be implemented as a button, accessible via keyboard, and its name announced as “Clear” for assistive technology. 
 
 The clear icon can be useful for input fields that satisfy both of the following criteria:
 
