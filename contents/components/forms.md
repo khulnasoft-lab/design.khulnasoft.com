@@ -59,7 +59,7 @@ The clear icon can be useful for input fields that satisfy both of the following
 * The input field is filled-in repeatedly by the same user
 * The data to be entered differs significantly from one use of the input field to the next
 
-In practice, only certain input fields should have the clear icon. [Search boxes](/components/search) tend to satisfy both of the criteria mentioned above, so using a clear icon for them is desirable.
+In practice, only certain input fields should have a clear icon. For example, [search boxes](/components/search) tend to satisfy both of the criteria mentioned above, so using a clear icon for them is desirable.
 
 ### Text area
 
