@@ -401,8 +401,7 @@ Per [WCAG 2.1 Success Criterion 1.4.11: Non-text Contrast](https://www.w3.org/WA
 
 #### Surfaces
 
-* In a light UI, all data visualization should be on a `$white` (`#ffffff`) surface.
-* In a dark UI, all data visualization should be on a `$gray-950` (`#1f1f1f`) surface.
+We categorize data into three general types: [sequential](#sequential-data), [categorical](#categorical-data), and [divergent](#divergent-data). Each type uses color differently to best present the data.
 
 #### Visual separators
 
@@ -433,25 +432,28 @@ Sequential data uses steps within a single hue, and color lightness to indicate 
   <figcaption class="figure-caption">Default color sequence in a dark UI</figcaption>
 </figure>
 
-Todo: Include example of chart with sequential data
+* **Sequential data** uses steps within a single hue to present a single data range.
+* **Categorical data** uses hues to differentiate categories, and like sequential data, steps within each hue to present a data range.
+* **Divergent data** uses hue transitions to present data ranges on either side of a common central point.
 
-**Potential applications:** stacked bar charts, heat maps, choropleth maps, funnels, cycle diagrams, clusters, pyramids, etc.
+### Surfaces, visual separators, and patterns
 
-#### Linear light UI
+Per [WCAG 2.1 Success Criterion 1.4.11: Non-text Contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html), UI components and graphical objects must have a contrast ratio of at least 3:1 against adjacent colors. This means sufficient contrast against the surface (backround), and each other.
 
-Steps in a light UI go from `500` (low) to `950` (high) so that the higher the value, the darker it is and the more contrast it has against the light surface. 
+#### Surfaces
 
-<img src="/img/dv-sequential-light.svg" alt="Progression of linear color steps in a light UI" role="img" />
+* In a light UI, all data visualization should be on a `$white` (`#ffffff`) surface.
+* In a dark UI, all data visualization should be on a `$gray-950` (`#1f1f1f`) surface.
 
-#### Linear dark UI
+#### Visual separators
 
-Steps in a dark UI go from `500` (low) to `50` (high) so that the higher the value, the lighter is is and the more contrast it has against the dark surface.
+Colors meet or exceed a 3:1 contrast ratio against either a light or dark surface, but not necessarily each other. There are a few solutions, but the easiest is space between each element. This means at least a `1px` gap between elements, where the gap is the color of the surface. Alternately, a border of at least `1px` can be used on elements, where the border matches the surface color. Whether this is an actual gap, or border, the effect is the same.
 
-<img src="/img/dv-sequential-dark.svg" alt="Progression of linear color steps in a dark UI" role="img" />
+#### Patterns
 
-Todo: Create a dark UI wrapper for visuals and content
+Pattern fills can create accessibility issues of their own, namely cognitive, and we currently do not support this as an option.
 
-### Categorical data
+## Data types
 
 Categorical data (also known as qualitative or thematic) uses hue to differentiate categories (qualitative), and lightness to differentiate a data range (quantitative).
 
@@ -487,13 +489,13 @@ Todo: Add a sequence generator
 
 ### Divergent data
 
-Divergent data moves in opposite directions from a central point. Color is used to indicate distance from the center by stepping darker in a light UI to each end, while stepping lighter in a dark UI to each end.
+### Categorical data
 
-The pattern for selecting values skips every other step by default, and has a range of 11 steps including the central point. For data with a smaller range, the pattern could be a subset that starts at the same central point, but does not extend as far to each end. For data with a larger range, add skipped values into the sequence, starting from the center out.
+Categorical data (also known as qualitative or thematic) uses hue to differentiate categories (qualitative), and lightness to differentiate a data range (quantitive).
 
-The number of steps required to make a useful progression would not meet 3:1 contrast ratios by using fill alone (each hue has 6 steps with enough contrast for each surface), so a border that uses the `500` value from the relative hue surrounds low-contrast fills.
+A chevron-skipping sequence is used to alternate both hue and lightness to increase contrast between sibling elements.
 
-There are two divergent options, choose the one that works best with the type of data being shown.
+The default sequence loops through different steps of each hue in the following order:
 
 * A cool to warm hue transition is helpful for showing a decrease vs. increase from a central point, where the warm steps show the increase.
 * A cool to cool hue transition could be useful for showing data based on a central point, where either end of the range does not necessarily have positive or negative connotation.
