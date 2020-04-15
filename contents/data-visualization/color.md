@@ -368,7 +368,7 @@ Because the `500` step has at least a 3:1 contrast ratio on both light and dark 
       <div class="color">
         <div class="color-overview data-viz-magenta-900 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable f-inverted">$data-viz-magenta-900</span>
-          <span class="hex f-small f-inverted">#7a0050</span>
+          <span class="hex f-small f-inverted">#7a0033</span>
         </div>
       </div>
       <div class="color">
