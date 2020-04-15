@@ -439,7 +439,7 @@ Todo: Include example of chart with sequential data
 
 ### Categorical data
 
-Categorical data (also known as qualitative or thematic) uses hue to differentiate categories (qualitative), and lightness to differentiate a data range (quantitive).
+Categorical data (also known as qualitative or thematic) uses hue to differentiate categories (qualitative), and lightness to differentiate a data range (quantitative).
 
 A chevron-skipping sequence is used to alternate both hue and lightness to increase contrast between sibling elements.
 
