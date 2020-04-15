@@ -17,7 +17,7 @@ There are 5 hues, each with 11 steps for a total of 55 variables. The palette is
 * Steps `50`—`500` meet or exceed a 3:1 contrast ratio on a dark `$gray-950` (`#1f1f1f`) surface.
 * Steps `500`—`950` meet or exceed a 3:1 contrast ratio on a light `$white` (`#ffffff`) surface.
 
-Because the `500` step has at least a 3:1 contrast ratio on both light and dark surfaces, there are 30 total variables that can be used for each surface. 
+Because the `500` step has at least a 3:1 contrast ratio on both light and dark surfaces, there are 30 total variables that can be used for each surface.
 
 <div class="color-palette row m-b-8">
   <div class="data-vis-blue col col-50">
