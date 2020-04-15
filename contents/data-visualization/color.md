@@ -397,7 +397,7 @@ Data types are covered in more detail below, but here’s a general summary of h
 
 ### Surfaces, visual separators, and patterns
 
-Per [WCAG 2.1 Success Criterion 1.4.11: Non-text Contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html), UI components and graphical objects must have a contrast ratio of at least 3:1 against adjacent colors. This means sufficient contrast against the surface (backround), and each other.
+Per [WCAG 2.1 Success Criterion 1.4.11: Non-text Contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html), UI components and graphical objects must have a contrast ratio of at least 3:1 against adjacent colors. This means sufficient contrast against the surface (background), and each other.
 
 #### Surfaces
 
