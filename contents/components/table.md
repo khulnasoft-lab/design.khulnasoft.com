@@ -59,7 +59,7 @@ Todo: Add demo
 
 Use expandable rows to progressively reveal more information about an item in a dataset.  Do not use expandable rows to display hierarchical structures. Use the [Tree](https://design.gitlab.com/components/tree) view instead.
 
-    To Do: Add Figma/Image Example
+Todo: Add demo
 
 # Styles
 
