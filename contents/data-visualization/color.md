@@ -17,7 +17,7 @@ There are 5 hues, each with 11 steps for a total of 55 variables. The palette is
 * Steps `50`—`500` meet or exceed a 3:1 contrast ratio on a dark `$gray-950` (`#1f1f1f`) surface.
 * Steps `500`—`950` meet or exceed a 3:1 contrast ratio on a light `$white` (`#ffffff`) surface.
 
-Because the `500` step has at least a 3:1 contrast ratio on both light and dark surfaces, there are 30 total variables that can be used for each surface. 
+Because the `500` step has at least a 3:1 contrast ratio on both light and dark surfaces, there are 30 total variables that can be used for each surface.
 
 <div class="color-palette row m-b-8">
   <div class="data-vis-blue col col-50">
@@ -368,7 +368,7 @@ Because the `500` step has at least a 3:1 contrast ratio on both light and dark 
       <div class="color">
         <div class="color-overview data-viz-magenta-900 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable f-inverted">$data-viz-magenta-900</span>
-          <span class="hex f-small f-inverted">#7a0050</span>
+          <span class="hex f-small f-inverted">#7a0033</span>
         </div>
       </div>
       <div class="color">
@@ -397,7 +397,7 @@ Data types are covered in more detail below, but here’s a general summary of h
 
 ### Surfaces, visual separators, and patterns
 
-Per [WCAG 2.1 Success Criterion 1.4.11: Non-text Contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html), UI components and graphical objects must have a contrast ratio of at least 3:1 against adjacent colors. This means sufficient contrast against the surface (backround), and each other.
+Per [WCAG 2.1 Success Criterion 1.4.11: Non-text Contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html), UI components and graphical objects must have a contrast ratio of at least 3:1 against adjacent colors. This means sufficient contrast against the surface (background), and each other.
 
 #### Surfaces
 
@@ -439,7 +439,7 @@ Todo: Include example of chart with sequential data
 
 ### Categorical data
 
-Categorical data (also known as qualitative or thematic) uses hue to differentiate categories (qualitative), and lightness to differentiate a data range (quantitive).
+Categorical data (also known as qualitative or thematic) uses hue to differentiate categories (qualitative), and lightness to differentiate a data range (quantitative).
 
 A chevron-skipping sequence is used to alternate both hue and lightness to increase contrast between sibling elements.
 
