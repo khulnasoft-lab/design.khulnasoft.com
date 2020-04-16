@@ -65,7 +65,7 @@ Todo: Add demo
 
 ### Default
 
-    To Do: Add Figma/Image Example
+Todo: Add demo
 
 ### Zebra stripes 🦓
 
