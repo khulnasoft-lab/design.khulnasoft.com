@@ -47,7 +47,7 @@ Todo: Add demo
 
 Tables displaying data sets with more than 20 items should use either pagination, lazy load or infinite scroll. Tables have embedded pagination controls which are located at the bottom of the table. [See pagination guidelines](https://design.gitlab.com/components/pagination)
 
-    To Do: Add Figma/Image Example
+Todo: Add demo
 
 ## Inline actions
 
