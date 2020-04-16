@@ -9,143 +9,134 @@ related:
   - filter
 ---
 
-Tables are used to render tabular data in a basic grid, making it easier for people to scan it. Tables are comprised of cells, columns, and rows.
+Tables display tabular data in a basic grid comprised of cells, columns, and rows. This format makes it easy for users to scan large amounts of data. 
 
-## Usage
+# **Usage**
 
-Use tables when: 
+✅ **Use tables to:**
 
-* Users need to review, enter, or edit uniform sets of data or options. 
-* Displaying structured content, where each entry has the same attributes.
+- Display structured content, where each entry has the same attributes.
+- Display a data set that will continue to grow (e.g. issues, user & environments)
+- Let users review, enter, edit or filter granular data sets.
 
-### When to use tables
+**🛑 Do not use tables to:**
 
-Use tables to:
+- Display a list of continuous, vertical indexes of text or images. Use [Lists](https://design.gitlab.com/components/list) instead.
+- Display contained content and actions on a single topic. Use [Cards](https://design.gitlab.com/components/cards) instead.
+- Display hierarchical structures. Use the [Tree](https://design.gitlab.com/components/tree) view instead.
 
-* Display large volumes of data.
-* Display a data set that will continue to grow; for example, a table used to display users, environments, and so on.
-* Compare data in a set to in a way that makes each data point distinguishable.
-* Search, filter, or sort by all parameters in a data set.
+## Basic table
 
-Todo: Add live component block with code example
+The basic table is the default option for this component, however, additional functionality below can be added to refine the table for any use case.
 
-### When not to use tables
+    To Do: Add Figma/Image Example
 
-Do not use tables to:
+## Search & filter
 
-* Display a list of continuous, vertical indexes of text or images. Use [Lists](/components/list) instead.
-* Display contained content and actions on a single topic. Use [Cards](/components/cards) instead.
-* For hierarchical structures. Use the [Tree](/components/tree) view instead.
+Any filtering controls that manipulate the data set (including clickable charts) should be placed directly above the table with the option to clear all data. [See filter guidelines](https://design.gitlab.com/components/filter)
 
-## Layout
+    To Do: Add Figma/Image Example
 
-Tables take up the full width of their container element. However, it is important to note that wide tables make it difficult to read and scan small amounts of content, because the data is widely separated. For legibility, ensure content is laid out and aligned properly.
+## Sorting
 
-Don’t simply shrink an entire table to fit the viewport or apply a fixed width to a table to the point that it compromises legibility. The same way stretching tables 100% to the width of the viewport is not recommended, a small, shrunken table view can create a cluttered interface. Use a responsive table view instead.
+Tables use column sorting rather than [list sorting](https://design.gitlab.com/components/sorting). The default sort direction of a table can be up or down depending on the use case and is indicated in the table header using an arrow icon. [See sorting guidelines](https://design.gitlab.com/components/sorting/)
 
-Prevent horizontal scrolling to ensure the table doesn't break the layout. Tables work across multiple screen sizes and conform to [responsive guidelines](/components/tables/#responsiveness).
+    To Do: Add Figma/Image Example
 
-### Empty state
+## Pagination, lazy load & infinite scroll
 
-A table's empty state displays when there is no data, yet. [See empty states guidelines](/regions/empty-states).
+Tables displaying data sets with more than 20 items should use either pagination, lazy load or infinite scroll. Tables have embedded pagination controls which are located at the bottom of the table. [See pagination guidelines](https://design.gitlab.com/components/pagination)
 
-### Content alignment
+    To Do: Add Figma/Image Example
 
-Left align content by importance, based on the information needs of your users. In some circumstances, right aligning data helps with comprehension. For example, numeric data is easier to read when right aligned. To aid scanning on right-aligned data, make sure to use the same number of decimal places for all numeric data. Tables may switch their alignment for right-to-left audiences as well.
+## Inline actions
 
-Todo: Add live component block with code example of table alignment -- mixed data
+Table rows can include inline actions located n their far-right column. Inline actions should be visible at all times rather than showing on-hover. If there are two or more actions in a table row, consider using a button group or a [“more menu” button](https://design.gitlab.com/components/button#ellipsis) with a dropdown list option.
 
-Text in tables tends to end up in narrow columns. Don't justify or center the text; it causes confusion and harms readability.
+    To Do: Add Figma/Image Example
 
-## Table anatomy
+## Expandable rows
 
-### Cells
+Use expandable rows to progressively reveal more information about an item in a dataset.  Do not use expandable rows to display hierarchical structures. Use the [Tree](https://design.gitlab.com/components/tree) view instead.
 
-A cell’s width and height will change according to its content.
+    To Do: Add Figma/Image Example
 
-It is possible to hyphenate the text inside table cells, but note that hyphens are language sensitive. The ability to find break opportunities depends on the language, defined in the `lang` attribute of a parent element, and support depends on the specific browser.
+# Styles
 
-#### Truncation
+### Default
 
-To fit a long string of text into a table cell, you can shorten the text with an ellipsis (“...”) to show exactly where the text is truncated. On hover, the truncated text should display a tooltip that includes the full text. [See tooltips guidelines](/components/tooltips)
+    To Do: Add Figma/Image Example
 
-#### Empty values
+### Zebra stripes 🦓
 
-If a cell is empty or unavailable, keep the cell empty to reduce noise and help with legibility.
+Alternating grey and white stripes can be used to help differentiate rows.
 
-### Columns
+    To Do: Add Figma/Image Example
 
-Avoid making all the columns an even width. The table columns should be sized according to the data they contain. Columns of small content should be narrow, while columns of paragraphs should be relatively wide. Allow the browser to lay out the tables according to the viewport size.
+# Content
 
-#### Ordering & sorting
+## Headers
 
-The data set of a table is usually ordered by one specific column representing an attribute, such as status, last updated, or priority.
+Always use column and/or row headers unless the table content is self-descriptive. Headers should be short, descriptive, and relevant. Avoid headers that are too long for the content in the rows below, and use title-case.
 
-Sorting is designed as a native functionality of tables, and should not be confused with the [list sorting](/components/sorting) component.
+## Columns
 
-When sorting is enabled for the table, a [sorting icon](https://gitlab-org.gitlab.io/gitlab-svgs/?q=sort) is displayed next to the column header. A sortable table is identified by the sorting icon that is present in the header cells. Clicking the icon will sort the rows based on the selected column, in ascending order first, and subsequently toggling between ascending and descending order. The sorting icon and functionality should not be visible on responsive tables.
+Columns should be ordered by priority or in a way that tells a story with the data. Size columns according to the data they contain rather than making them all an even width. 
 
-Sorting can be disabled to prevent users from changing the sorting order of a column. The default order will utilize one specific attribute.
+## Rows
 
-### Rows
+Rows can have a mix of interactive, read-only and editable cells. 
 
-Rows can have a mix of read-only and editable cells with content populated by users. When designing a table, make sure the cells work well together and fit nicely in the rows.
+## Text alignment
 
-### Header
+Left-align text content rather than justifying or centering it. Right-align numeric data with a consistent number of decimal places to improve scannability.
 
-A table header is the row at the top of the table that helps identify the columns below. The header provides clarity if data is non-descriptive or ambiguous. Labels in a header should be short, descriptive, and relevant. Avoid headers that are too long for the content in the rows below, and use title-case capitalization for table headers and labels.
+## Null values
 
-Always use column or row headers, unless all columns in a table have self-descriptive content, like names, dates, and so on. For example, a header in Audit Events is redundant:
+If the data for a cell is null, blank or unavailable, you can either:
 
-Todo: Add live component block with code example of Audit Events table
+- Keep the cell empty to reduce noise and help with legibility
+- Use a dash ("-") to signify missing data
 
-## Interaction
+## Truncation
 
-When including triggers to manipulate the data, such as filters, they should be placed directly above the table.
+You can truncate long text strings with an ellipsis (“…”). On hover, the truncated text should display a tooltip including the full text. [See tooltips guidelines](https://design.gitlab.com/components/tooltips)
 
-Additional actions a user can take from an individual table row are displayed in the far right column, and are visible at all times (no on-hover visibility). If there are two or more actions in a table row, consider using a button group or a ["more menu" button](/components/button#ellipsis) with a dropdown list option.
+## Empty state
 
-It is also possible to use in-line links to provide additional information to other items in the table or route the user to a different page.
+A table’s empty state displays when there is no data, yet. [See empty states guidelines](https://design.gitlab.com/regions/empty-states).
 
-## Pagination
+# Responsiveness
 
-Tables can include pagination. Pagination works by presenting a set number of rows in a view, with the ability to navigate to another set. [See pagination guidelines](/components/pagination)
+Tables work across multiple screen sizes and conform to [responsive guidelines](https://design.gitlab.com/components/tables/#responsiveness). Prevent horizontal scrolling to ensure the table doesn’t break the layout. 
 
-Tables with more than 20 items require pagination which is always located below the table and takes the form of a button group. Pagination is generally not required on tables with 20 or fewer items.
+    To Do: Add Figma/Image Example
 
-Todo: Add live component block with code example including pagination
-
-## Styling
-
-Use white space in tables to improve scannability, visually separating data elements so that each can be individually identified and read as separate from the others.
-
-To help with styling, use horizontal lines between rows to visually separate content. Avoid any border or frame surrounding the table. Do not style tables to look like nets, with every number enclosed. 
-
-Do not appply vertical lines between columns. In general, tables without vertical lines look better and are easier to scan and read.
-
-## Responsiveness
-
-Users may view an application on any device, so ensure the table will be usable whether displayed on mobile, tablet, or desktop.
-
-Todo: Add description of how the table behabes on responsive views
-
-## Accessibility
+# Accessibility
 
 Use proper semantic markup, so that users of screen readers can navigate through the table one cell at a time, hearing column and row headers spoken to them.
 
-* `<th>` should not contain heading elements.
-* `<th>` should be descriptive and relevant.
-* `<th>` should have a defined `scope` attribute to establish relationships between the table headings and rows/columns; for example, `<th scope="col">`.
-* `<caption>` should be used to provide a title for a table.
-* `<caption>` should be an immediate child element of `<table>`.
+- `<th>` should not contain heading elements.
+- `<th>` should be descriptive and relevant.
+- `<th>` should have a defined `scope` attribute to establish relationships between the table headings and rows/columns; for example, `<th scope="col">`.
+- `<caption>` should be used to provide a title for a table.
+- `<caption>` should be an immediate child element of `<table>`.
 
-## Demo
+# Design specifications
 
-Todo: Add live component block with code example
+Color, spacing, dimension, and layout specific information about this component can be viewed using the following link:
 
-## Design specifications
+- [View Table component in Figma →](https://www.figma.com/file/mZ4qECdXMJuFlUAvzl9XE1/Tables)
+- [Sketch Measure Preview for Tables →](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/tables-spec-previews/)(deprecating)
 
-View the following links to see color, spacing, dimension, and layout-specific information pertaining to this component:
+# Research
 
-[Sketch Measure Preview for Tables](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/tables-spec-previews/)
+- [Code Review Analytics + Table Component: Design evaluation & usability testing](https://gitlab.com/groups/gitlab-org/-/epics/2954)
+
+# Related
+
+- [Cards](https://design.gitlab.com/components/cards)
+- [List](https://design.gitlab.com/components/list)
+- [Tree](https://design.gitlab.com/components/tree)
+- [Filter](https://design.gitlab.com/components/filter)
 
