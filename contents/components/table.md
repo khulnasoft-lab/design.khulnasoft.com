@@ -11,7 +11,7 @@ related:
 
 Tables display tabular data in a basic grid comprised of cells, columns, and rows. This format makes it easy for users to scan large amounts of data. 
 
-# **Usage**
+# Usage
 
 ✅ **Use tables to:**
 
