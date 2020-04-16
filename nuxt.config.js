@@ -1,5 +1,6 @@
 import glob from 'glob';
 import path from 'path';
+import sass from 'sass';
 import { getContentList, writeContentTree } from './modules/content_preparer';
 
 const routes = [
@@ -121,7 +122,7 @@ module.exports = {
 
     loaders: {
       scss: {
-        implementation: require('sass'), // eslint-disable-line
+        implementation: sass,
         sassOptions: {
           includePaths: [path.resolve(__dirname, 'node_modules')],
           fiber: require('fibers'), // eslint-disable-line
