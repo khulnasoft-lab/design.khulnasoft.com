@@ -471,8 +471,6 @@ Todo: Add a sequence generator
 
 **Potential applications:** bar charts, pie charts, line graphs, stacked area charts, etc.
 
----
-
 ### Divergent data
 
 Divergent data moves in opposite directions from a central point. Color is used to indicate distance from the center by stepping darker in a light UI to each end, while stepping lighter in a dark UI to each end.
