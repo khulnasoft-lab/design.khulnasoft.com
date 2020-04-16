@@ -11,7 +11,7 @@ related:
 
 Tables display tabular data in a basic grid comprised of cells, columns, and rows. This format makes it easy for users to scan large amounts of data. 
 
-# Usage
+## Usage
 
 ✅ **Use tables to:**
 
@@ -25,43 +25,43 @@ Tables display tabular data in a basic grid comprised of cells, columns, and row
 - Display contained content and actions on a single topic. Use [Cards](https://design.gitlab.com/components/cards) instead.
 - Display hierarchical structures. Use the [Tree](https://design.gitlab.com/components/tree) view instead.
 
-## Basic table
+### Basic table
 
 The basic table is the default option for this component, however, additional functionality below can be added to refine the table for any use case.
 
 Todo: Add demo
 
-## Search & filter
+### Search & filter
 
 Any filtering controls that manipulate the data set (including clickable charts) should be placed directly above the table with the option to clear all data. [See filter guidelines](https://design.gitlab.com/components/filter)
 
 Todo: Add demo
 
-## Sorting
+### Sorting
 
 Tables use column sorting rather than [list sorting](https://design.gitlab.com/components/sorting). The default sort direction of a table can be up or down depending on the use case and is indicated in the table header using an arrow icon. [See sorting guidelines](https://design.gitlab.com/components/sorting/)
 
 Todo: Add demo
 
-## Pagination, lazy load & infinite scroll
+### Pagination, lazy load & infinite scroll
 
 Tables displaying data sets with more than 20 items should use either pagination, lazy load or infinite scroll. Tables have embedded pagination controls which are located at the bottom of the table. [See pagination guidelines](https://design.gitlab.com/components/pagination)
 
 Todo: Add demo
 
-## Inline actions
+### Inline actions
 
 Table rows can include inline actions located n their far-right column. Inline actions should be visible at all times rather than showing on-hover. If there are two or more actions in a table row, consider using a button group or a [“more menu” button](https://design.gitlab.com/components/button#ellipsis) with a dropdown list option.
 
 Todo: Add demo
 
-## Expandable rows
+### Expandable rows
 
 Use expandable rows to progressively reveal more information about an item in a dataset.  Do not use expandable rows to display hierarchical structures. Use the [Tree](https://design.gitlab.com/components/tree) view instead.
 
 Todo: Add demo
 
-# Styles
+## Styles
 
 ### Default
 
@@ -73,46 +73,46 @@ Alternating grey and white stripes can be used to help differentiate rows.
 
 Todo: Add demo
 
-# Content
+## Content
 
-## Headers
+### Headers
 
 Always use column and/or row headers unless the table content is self-descriptive. Headers should be short, descriptive, and relevant. Avoid headers that are too long for the content in the rows below, and use title-case.
 
-## Columns
+### Columns
 
 Columns should be ordered by priority or in a way that tells a story with the data. Size columns according to the data they contain rather than making them all an even width. 
 
-## Rows
+### Rows
 
 Rows can have a mix of interactive, read-only and editable cells. 
 
-## Text alignment
+### Text alignment
 
 Left-align text content rather than justifying or centering it. Right-align numeric data with a consistent number of decimal places to improve scannability.
 
-## Null values
+### Null values
 
 If the data for a cell is null, blank or unavailable, you can either:
 
 - Keep the cell empty to reduce noise and help with legibility
 - Use a dash ("-") to signify missing data
 
-## Truncation
+### Truncation
 
 You can truncate long text strings with an ellipsis (“…”). On hover, the truncated text should display a tooltip including the full text. [See tooltips guidelines](https://design.gitlab.com/components/tooltips)
 
-## Empty state
+### Empty state
 
 A table’s empty state displays when there is no data, yet. [See empty states guidelines](https://design.gitlab.com/regions/empty-states).
 
-# Responsiveness
+## Responsiveness
 
 Tables work across multiple screen sizes and conform to [responsive guidelines](https://design.gitlab.com/components/tables/#responsiveness). Prevent horizontal scrolling to ensure the table doesn’t break the layout. 
 
     To Do: Add Figma/Image Example
 
-# Accessibility
+## Accessibility
 
 Use proper semantic markup, so that users of screen readers can navigate through the table one cell at a time, hearing column and row headers spoken to them.
 
@@ -122,18 +122,18 @@ Use proper semantic markup, so that users of screen readers can navigate through
 - `<caption>` should be used to provide a title for a table.
 - `<caption>` should be an immediate child element of `<table>`.
 
-# Design specifications
+## Design specifications
 
 Color, spacing, dimension, and layout specific information about this component can be viewed using the following link:
 
 - [View Table component in Figma →](https://www.figma.com/file/mZ4qECdXMJuFlUAvzl9XE1/Tables)
 - [Sketch Measure Preview for Tables →](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/tables-spec-previews/)(deprecating)
 
-# Research
+## Research
 
 - [Code Review Analytics + Table Component: Design evaluation & usability testing](https://gitlab.com/groups/gitlab-org/-/epics/2954)
 
-# Related
+## Related
 
 - [Cards](https://design.gitlab.com/components/cards)
 - [List](https://design.gitlab.com/components/list)
