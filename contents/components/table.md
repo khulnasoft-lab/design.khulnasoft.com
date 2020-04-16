@@ -71,7 +71,7 @@ Todo: Add demo
 
 Alternating grey and white stripes can be used to help differentiate rows.
 
-    To Do: Add Figma/Image Example
+Todo: Add demo
 
 # Content
 
