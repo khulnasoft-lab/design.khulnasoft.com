@@ -41,7 +41,7 @@ Todo: Add demo
 
 Tables use column sorting rather than [list sorting](https://design.gitlab.com/components/sorting). The default sort direction of a table can be up or down depending on the use case and is indicated in the table header using an arrow icon. [See sorting guidelines](https://design.gitlab.com/components/sorting/)
 
-    To Do: Add Figma/Image Example
+Todo: Add demo
 
 ## Pagination, lazy load & infinite scroll
 
