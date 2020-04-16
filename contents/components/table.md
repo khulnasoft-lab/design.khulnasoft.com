@@ -29,7 +29,7 @@ Tables display tabular data in a basic grid comprised of cells, columns, and row
 
 The basic table is the default option for this component, however, additional functionality below can be added to refine the table for any use case.
 
-    To Do: Add Figma/Image Example
+Todo: Add demo
 
 ## Search & filter
 
