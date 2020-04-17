@@ -14,7 +14,7 @@ Though deciding which color to use depends on the situation, here are some gener
 * **Red** indicates a problem. It communicates: critical states, destructive actions, errors, fails, removals, or declines.
 
 <div class="row m-b-9">
-  <div class="col col-50">
+  <div class="col col-50 md p-b-7">
     <h3>Green</h3>
     <div class="distributed palette">
       <div class="color">
@@ -184,7 +184,7 @@ Though deciding which color to use depends on the situation, here are some gener
       </div>
     </div>
   </div>
-  <div class="col col-50">
+  <div class="col col-50 md p-b-7">
     <h3>Blue</h3>
     <div class="distributed palette">
       <div class="color">
@@ -354,7 +354,7 @@ Though deciding which color to use depends on the situation, here are some gener
       </div>
     </div>
   </div>
-  <div class="col col-50 m-t-7">
+  <div class="col col-50 md m-t-7">
     <h3>Orange</h3>
     <div class="distributed palette">
       <div class="color">
@@ -524,7 +524,7 @@ Though deciding which color to use depends on the situation, here are some gener
       </div>
     </div>
   </div>
-  <div class="col col-50 m-t-7">
+  <div class="col col-50 md m-t-7">
     <h3>Red</h3>
     <div class="distributed palette">
       <div class="color">
@@ -695,6 +695,7 @@ Though deciding which color to use depends on the situation, here are some gener
     </div>
   </div>
 </div>
+
 <div class="row m-b-9">
   <div class="col col-50 md">
 
@@ -710,73 +711,73 @@ Our neutral palette is primarily used within components to help differentiate hi
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-0 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$t-gray-0</span>
+          <span class="variable">$gray-0</span>
           <span class="hex f-small">#fafafa</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-50 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$t-gray-50</span>
+          <span class="variable">$gray-50</span>
           <span class="hex f-small">#f0f0f0</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-100 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$t-gray-100</span>
+          <span class="variable">$gray-100</span>
           <span class="hex f-small">#dbdbdb</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-200 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$t-gray-200</span>
+          <span class="variable">$gray-200</span>
           <span class="hex f-small">#bfbfbf</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-300 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$t-gray-300</span>
+          <span class="variable">$gray-300</span>
           <span class="hex f-small">#999999</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-400 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$t-gray-400</span>
+          <span class="variable">$gray-400</span>
           <span class="hex f-small">#868686</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-500 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$t-gray-500</span>
+          <span class="variable f-inverted">$gray-500</span>
           <span class="hex f-small f-inverted">#666666</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-600 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$t-gray-600</span>
+          <span class="variable f-inverted">$gray-600</span>
           <span class="hex f-small f-inverted">#5e5e5e</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-700 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$t-gray-700</span>
+          <span class="variable f-inverted">$gray-700</span>
           <span class="hex f-small f-inverted">#525252</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-800 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$t-gray-800</span>
+          <span class="variable f-inverted">$gray-800</span>
           <span class="hex f-small f-inverted">#404040</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-900 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$t-gray-900</span>
+          <span class="variable f-inverted">$gray-900</span>
           <span class="hex f-small f-inverted">#303030</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-950 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$t-gray-950</span>
+          <span class="variable f-inverted">$gray-950</span>
           <span class="hex f-small f-inverted">#1f1f1f</span>
         </div>
       </div>
@@ -788,6 +789,7 @@ Our neutral palette is primarily used within components to help differentiate hi
       </div>
     </div>
   </div>
+
   <div class="col col-50 md">
 
 ## Transparencies
@@ -833,7 +835,7 @@ Transparencies are used only to indicate hover and active states within themes. 
 There are seven different theme options that users can choose to customize the appearance of the application header and navigation sidebar. Each theme draws inspiration from one of our primary chromatic colors, the neutral palette, or the corporate indigo color.
 
 <div class="row m-b-6">
-  <div class="col col-25">
+  <div class="col col-25 md p-b-7">
     <h3>Indigo</h3>
     <div class="distributed palette">
       <div class="color">
@@ -904,7 +906,7 @@ There are seven different theme options that users can choose to customize the a
       </div>
     </div>
   </div>
-  <div class="col col-25">
+  <div class="col col-25 md p-b-7">
     <h3>Dark Blue</h3>
     <div class="distributed palette">
       <div class="color">
@@ -975,7 +977,7 @@ There are seven different theme options that users can choose to customize the a
       </div>
     </div>
   </div>
-  <div class="col col-25">
+  <div class="col col-25 md p-b-7">
     <h3>Light Blue</h3>
     <div class="distributed palette">
       <div class="color">
@@ -1046,7 +1048,7 @@ There are seven different theme options that users can choose to customize the a
       </div>
     </div>
   </div>
-  <div class="col col-25">
+  <div class="col col-25 md p-b-7">
     <h3>Green</h3>
     <div class="distributed palette">
       <div class="color">
@@ -1117,7 +1119,7 @@ There are seven different theme options that users can choose to customize the a
       </div>
     </div>
   </div>
-  <div class="col col-25 m-t-7">
+  <div class="col col-25 md m-t-7">
     <h3>Dark Red</h3>
     <div class="distributed palette">
       <div class="color">
@@ -1188,7 +1190,7 @@ There are seven different theme options that users can choose to customize the a
       </div>
     </div>
   </div>
-  <div class="col col-25 m-t-7">
+  <div class="col col-25 md m-t-7">
     <h3>Light Red</h3>
     <div class="distributed palette">
       <div class="color">
@@ -1259,78 +1261,79 @@ There are seven different theme options that users can choose to customize the a
       </div>
     </div>
   </div>
-  <div class="col col-25 m-t-7">
+
+  <div class="col col-25 md m-t-7">
     <h3>Neutral</h3>
     <div class="distributed palette">
       <div class="color">
         <div class="color-overview c-background-gray-0 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$gray-0</span>
+          <span class="variable">$t-gray-0</span>
           <span class="hex f-small">#fafafa</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-50 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$gray-50</span>
+          <span class="variable">$t-gray-50</span>
           <span class="hex f-small">#f0f0f0</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-100 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$gray-100</span>
+          <span class="variable">$t-gray-100</span>
           <span class="hex f-small">#dbdbdb</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-200 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$gray-200</span>
+          <span class="variable">$t-gray-200</span>
           <span class="hex f-small">#bfbfbf</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-300 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$gray-300</span>
+          <span class="variable">$t-gray-300</span>
           <span class="hex f-small">#999999</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-400 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable">$gray-400</span>
+          <span class="variable">$t-gray-400</span>
           <span class="hex f-small">#868686</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-500 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$gray-500</span>
+          <span class="variable f-inverted">$t-gray-500</span>
           <span class="hex f-small f-inverted">#666666</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-600 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$gray-600</span>
+          <span class="variable f-inverted">$t-gray-600</span>
           <span class="hex f-small f-inverted">#5e5e5e</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-700 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$gray-700</span>
+          <span class="variable f-inverted">$t-gray-700</span>
           <span class="hex f-small f-inverted">#525252</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-800 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$gray-800</span>
+          <span class="variable f-inverted">$t-gray-800</span>
           <span class="hex f-small f-inverted">#404040</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-900 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$gray-900</span>
+          <span class="variable f-inverted">$t-gray-900</span>
           <span class="hex f-small f-inverted">#303030</span>
         </div>
       </div>
       <div class="color">
         <div class="color-overview c-background-gray-950 p-t-3 p-r-5 p-b-3 p-l-5">
-          <span class="variable f-inverted">$gray-950</span>
+          <span class="variable f-inverted">$t-gray-950</span>
           <span class="hex f-small f-inverted">#1f1f1f</span>
         </div>
       </div>
