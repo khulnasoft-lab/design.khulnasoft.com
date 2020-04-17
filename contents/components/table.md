@@ -110,7 +110,7 @@ A table’s empty state displays when there is no data, yet. [See empty states g
 
 Tables work across multiple screen sizes and conform to [responsive guidelines](https://design.gitlab.com/components/tables/#responsiveness). Prevent horizontal scrolling to ensure the table doesn’t break the layout. 
 
-    To Do: Add Figma/Image Example
+Todo: Add demo
 
 ## Accessibility
 
@@ -132,11 +132,4 @@ Color, spacing, dimension, and layout specific information about this component 
 ## Research
 
 - [Code Review Analytics + Table Component: Design evaluation & usability testing](https://gitlab.com/groups/gitlab-org/-/epics/2954)
-
-## Related
-
-- [Cards](https://design.gitlab.com/components/cards)
-- [List](https://design.gitlab.com/components/list)
-- [Tree](https://design.gitlab.com/components/tree)
-- [Filter](https://design.gitlab.com/components/filter)
 
