@@ -778,10 +778,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@gitlab/eslint-plugin@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@gitlab/eslint-plugin/-/eslint-plugin-2.0.0.tgz#4eedd16cf95cf82dc359c1b220d4f5a08361df9c"
-  integrity sha512-ctmsGnCuokhfh/5goLdz3NdBIUpwTMkx/17QxxutxkWW7yOGMPIY8Na+WhjnUSdst8Wjwzexc+snbh5NMs8H/A==
+"@gitlab/eslint-plugin@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@gitlab/eslint-plugin/-/eslint-plugin-2.1.0.tgz#6e6492ae723a3c2c8cc8ac32eaa72d223183f47a"
+  integrity sha512-04xBIzG9MvG6JuYmMAI1VC9tUIQWX7PbgN9MPdJr6F1F7RdjxcUC4pwVfbHLsdJ4oEa29uM7gH+ZL7ww/nRXKg==
   dependencies:
     babel-eslint "^10.0.3"
     eslint-config-airbnb-base "^14.0.0"
@@ -798,15 +798,15 @@
   resolved "https://registry.yarnpkg.com/@gitlab/nuxt-edit-this-page/-/nuxt-edit-this-page-1.0.0.tgz#e926b8eab7a0d8c688c1649c8f2dc081533b0510"
   integrity sha512-SDW2EkSNGEmIvLRGSuLMBA/fmwjcRuX+hcDNPKcpoqU6WBvQxoFzrHKhoB9jz5p/JSRPAwr/O+igYheyeWqZuw==
 
-"@gitlab/svgs@1.117.0":
-  version "1.117.0"
-  resolved "https://registry.yarnpkg.com/@gitlab/svgs/-/svgs-1.117.0.tgz#05239ddcf529c62ca29e1ec1a25a7e24efb98207"
-  integrity sha512-dGy/VWuRAFCTZX3Yqu1+RnAHTSUWafteIk/RMfUCN9B/EMbYzjhYsNy0NLVoZ23Rj/KGv1bUGHvyQCoPP6VzpA==
+"@gitlab/svgs@1.121.0":
+  version "1.121.0"
+  resolved "https://registry.yarnpkg.com/@gitlab/svgs/-/svgs-1.121.0.tgz#77083a68f72e9aa0e294da7715f378eef13b839e"
+  integrity sha512-scz/6Y/eED7RMFLAlhT6PwXwe0Wj8ivnRsyulk9NXKoqUmAqZliNmBmzYsHy5bFf9NB6xVV/rOk1/92nbi/Yaw==
 
-"@gitlab/ui@11.0.0":
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/@gitlab/ui/-/ui-11.0.0.tgz#2dc6c4e92201911b80c1c24ff4ea6c5247810451"
-  integrity sha512-Cu50RQMbNGxEfMIxr3iv6i09hNs3deRS01CnkxNEdxmmokyKr86a2TItHwrAKyacjkb8IEfkn0Q/yoBMTpfPAw==
+"@gitlab/ui@12.0.1":
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/@gitlab/ui/-/ui-12.0.1.tgz#6e635c51a65a4385c36947a91b6559be5011179f"
+  integrity sha512-wQJ3UmhGUyktnrip8kzebqy5de8F99o5HauoTuG56WLV0SwQh+dQ1BR2KmGWrfQk3wIOQu7vR3ZTVRQHHVqs2Q==
   dependencies:
     "@babel/standalone" "^7.0.0"
     "@gitlab/vue-toasted" "^1.3.0"
