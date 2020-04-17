@@ -2,7 +2,7 @@
 name: Button
 status: built
 vueComponents:
-  - GlNewButton
+  - GlButton
 related:
   - dropdowns
   - segmented-control
