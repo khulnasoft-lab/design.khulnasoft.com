@@ -2,7 +2,7 @@
 name: Button
 status: integrated
 vueComponents:
-  - GlNewButton
+  - GlButton
 related:
   - dropdowns
   - segmented-control
