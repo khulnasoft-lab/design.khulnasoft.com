@@ -23,7 +23,7 @@ Tables display tabular data in a basic grid comprised of cells, columns, and row
 
 - Display a list of continuous, vertical indexes of text or images. Use [Lists](/components/list) instead.
 - Display contained content and actions on a single topic. Use [Cards](/components/cards) instead.
-- Display hierarchical structures. Use the [Tree](https://design.gitlab.com/components/tree) view instead.
+- Display hierarchical structures. Use the [Tree](/components/tree) view instead.
 
 ### Basic table
 
