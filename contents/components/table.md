@@ -19,7 +19,7 @@ Tables display tabular data in a basic grid comprised of cells, columns, and row
 - Display a data set that will continue to grow (e.g. issues, user & environments)
 - Let users review, enter, edit or filter granular data sets.
 
-**🛑 Do not use tables to:**
+### Do not use tables to
 
 - Display a list of continuous, vertical indexes of text or images. Use [Lists](https://design.gitlab.com/components/list) instead.
 - Display contained content and actions on a single topic. Use [Cards](https://design.gitlab.com/components/cards) instead.
