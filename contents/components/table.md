@@ -13,7 +13,7 @@ Tables display tabular data in a basic grid comprised of cells, columns, and row
 
 ## Usage
 
-✅ **Use tables to:**
+### Use tables to:
 
 - Display structured content, where each entry has the same attributes.
 - Display a data set that will continue to grow (e.g. issues, user & environments)
