@@ -67,7 +67,7 @@ Todo: Add demo
 
 Todo: Add demo
 
-### Zebra stripes 🦓
+### Zebra stripes
 
 Alternating grey and white stripes can be used to help differentiate rows.
 
