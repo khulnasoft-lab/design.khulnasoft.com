@@ -88,7 +88,7 @@ Todo: Add live component block with code example
 ## Design specifications
 
 <!--
-  DESIGN SPECIFICATIONS, add a link here to the component-specific figma preview.
+  DESIGN SPECIFICATIONS, add a link here to the component in the Pajamas UI Kit.
   *** Follow the Figma component issue template in Pajamas to create the figma component. 
 -->
 
