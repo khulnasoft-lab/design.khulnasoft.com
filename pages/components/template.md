@@ -88,7 +88,7 @@ Todo: Add live component block with code example
 ## Design specifications
 
 <!--
-  DESIGN SPECIFICATIONS, add a link here to the component in the Pajamas UI Kit.
+  DESIGN SPECIFICATIONS, add a link here to the component in the Pajamas UI Kit (in most cases this will be a link to the component’s “Variants” frame).
   *** Follow the “Figma component” issue template in Pajamas to create the component. 
 -->
 
