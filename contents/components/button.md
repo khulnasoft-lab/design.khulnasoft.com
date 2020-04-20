@@ -150,7 +150,7 @@ If the dropdown menu has no related actions available, a split dropdown button s
 
 The currently selected action has a checkmark on the left side of the dropdown item. See also [checkmark dropdowns](/components/dropdowns).
 
-[[Example:dropdown-split]]
+[[Example:new-dropdown-split]]
 
 #### Icon dropdown
 
