@@ -6,6 +6,7 @@ vueComponents:
 related:
   - accordion
   - button
+  - drawer
   - popover
   - toast
   - tooltip
@@ -31,7 +32,7 @@ When designing an experience that incorporates the need for a modal, but does no
 
 **Inline content:** Present your content inline to avoid disruption to the user's flow.
 
-**Expanding elements:** Utilize elements such as [accordions](/components/accordion), [tooltips](/components/tooltip), or other expanding non-modal patterns to convey your information.
+**Expanding elements:** Utilize elements such as [popovers](/components/popover), [accordions](/components/accordion), or [drawers](/components/drawer) to present additional information while allowing the user to maintain focus on the page.
 
 **Toast:** Present your message within a [toast](/components/toast); a brief, auto-expiring element for the user to consume while staying focused on their task.
 
@@ -81,6 +82,6 @@ Color, spacing, dimension, and layout specific information pertaining to this co
 
 ## Resources
 
-* [modalzmodalzmodalz](https://modalzmodalzmodalz.com/)
-* [Best Practices for Modals / Overlays / Dialog Windows](https://uxplanet.org/best-practices-for-modals-overlays-dialog-windows-c00c66cddd8c)
-* [Modal & Nonmodal Dialogs: When (& When Not) to Use Them](https://www.nngroup.com/articles/modal-nonmodal-dialog/)
+- [modalzmodalzmodalz](https://modalzmodalzmodalz.com/)
+- [Best Practices for Modals / Overlays / Dialog Windows](https://uxplanet.org/best-practices-for-modals-overlays-dialog-windows-c00c66cddd8c)
+- [Modal & Nonmodal Dialogs: When (& When Not) to Use Them](https://www.nngroup.com/articles/modal-nonmodal-dialog/)

@@ -45,9 +45,9 @@ There are some adjustments necessary for toasts displayed on smaller screens.
 
 *Note: In order to see what toasts look like on mobile, you can either view the demo section below from a mobile device, or resize your browser to the desired mobile width.*
 
-*   The width of the toast is full (100%).
-*   If the message has only one line and the only action is to dismiss, the toast retains the dismiss icon.
-*   If the message wraps onto another line, place the action buttons below the message, aligned to the right, with the “Dismiss” action first.
+- The width of the toast is full (100%).
+- If the message has only one line and the only action is to dismiss, the toast retains the dismiss icon.
+- If the message wraps onto another line, place the action buttons below the message, aligned to the right, with the “Dismiss” action first.
 
 ## Demo
 
@@ -55,12 +55,19 @@ Todo: An example of a toast.
 
 Todo: An example of a toast with actions.
 
-## Design specifications
+## Specifications
+
+- The dimensions of a toast are dependent on its contents with a max-width of `568px`.
+
+### Design
+
+- Action text is underlined when hovered.
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
 [View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit-Beta?node-id=1602%3A7)
 
-## Animation Specifications
+### Animation
 
-Specs: Ease-in(Show up) / Ease-out (Disappear) Time: 200 milliseconds Direction: Comes up from the bottom-left side of the screen.
+- A toast message eases in and out with a speed of 200 milliseconds from the bottom-left side of the screen (centered at smaller breakpoints).
+
