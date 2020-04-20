@@ -140,7 +140,7 @@ Emoji buttons provide the user with visual to signify what the emotion users hav
 
 Dropbown buttons trigger menus of options which can be either actions or input values. 
 
-[[Example:dropdown-default]]
+[[Example:new-dropdown-default]]
 
 #### Split dropdown
 
