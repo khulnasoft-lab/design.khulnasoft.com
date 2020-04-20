@@ -156,7 +156,7 @@ The currently selected action has a checkmark on the left side of the dropdown i
 
 Icon dropdowns function similar to other dropdown button combinations with the difference being an icon label.
 
-[[Example:dropdown-with-icon]]
+[[Example:new-dropdown-with-icon]]
 
 ### Ellipsis
 
