@@ -20,9 +20,9 @@ Data visualizations should be:
 
 When creating a data visualization, keep in mind:
 
-- In terms of cognition, visualizations where points are positioned along a common scale are most easily understood.
-- We are generally less adept at understanding lengths without a common base.
-- We are often worst at perceiving angles, directions and areas (which is why pie charts, for example, are generally not a great way to present data).
+*   In terms of cognition, visualizations where points are positioned along a common scale are most easily understood.
+*   We are generally less adept at understanding lengths without a common base.
+*   We are often worst at perceiving angles, directions and areas (which is why pie charts, for example, are generally not a great way to present data).
 
 ## Types
 
