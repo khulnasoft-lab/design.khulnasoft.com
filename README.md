@@ -7,6 +7,12 @@ Read about the [Component Lifecycle](https://gitlab.com/gitlab-org/gitlab-servic
 
 Before you move on, make sure you have [Node](https://nodejs.org/en/) 12.x and [Yarn](https://yarnpkg.com/) 1.10 or newer installed.
 
+### Start using Git on the command line
+
+- [Start using Git](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
+- [Command Line basic commands](https://docs.gitlab.com/ee/gitlab-basics/command-line-commands.html)
+- [Technical Tutorials for Product Designers](https://www.youtube.com/playlist?list=PL05JrBw4t0Kra6RseLWXFIXtu9UPzjzbT) on Unfiltered
+
 ## Quick start
 
 1. Clone the project with `git clone git@gitlab.com:gitlab-org/gitlab-services/design.gitlab.com.git`
@@ -22,6 +28,10 @@ We control this repositories code quality with automatic linting tools like `esl
 If you change something in the code, you can run `yarn test` to see if your changes are up to code.
 
 A lot of failures are auto-fixable, so simply run `yarn run lint:fix` to fix errors automatically.
+
+## Creating a Figma component
+
+To create a new Figma component, [create an issue with the Figma component template](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/new?issuable_template=Figma%20component) and follow the steps in the template. 
 
 ## Writing component documentation
 

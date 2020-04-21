@@ -1,3 +1,38 @@
+<script>
+import subMenu from '../components/sub_menu.vue';
+import menuSection from '../components/menu_section.vue';
+import contentTree from '../content_tree.json'; // eslint-disable-line import/no-unresolved
+
+export default {
+  components: {
+    subMenu,
+    menuSection,
+  },
+  data() {
+    return {
+      contentTree,
+    };
+  },
+  computed: {
+    contentWrapper() {
+      return this.$route.fullPath === '/' ? '' : 'content';
+    },
+  },
+  mounted() {
+    /**
+     * bootstrap-vue renders components outside of the usual DOM, in the body
+     * In order to apply our component-only styles, we are adding app-styles
+     * to the wrapper element
+     */
+    this.$root.$on('bv::modal::show', (bvEvent, modalId) => {
+      setTimeout(() => {
+        document.getElementById(modalId).parentElement.classList.add('app-styles');
+      }, 0);
+    });
+  },
+};
+</script>
+
 <template>
   <div class="page">
     <nav class="nav-sidebar">
@@ -39,6 +74,7 @@
                   to="/components/status"
                 >Status</nuxt-link>
             </sub-menu>
+            <sub-menu :content-tree="contentTree" category="data-visualization" category-name="Data visualization" />
             <sub-menu :content-tree="contentTree" category="regions" />
             <sub-menu :content-tree="contentTree" category="content" />
             <sub-menu :content-tree="contentTree" category="usability" />
@@ -79,41 +115,6 @@
 
   </div>
 </template>
-
-<script>
-import subMenu from '../components/sub_menu.vue';
-import menuSection from '../components/menu_section.vue';
-import contentTree from '../content_tree.json'; // eslint-disable-line import/no-unresolved
-
-export default {
-  components: {
-    subMenu,
-    menuSection,
-  },
-  data() {
-    return {
-      contentTree,
-    };
-  },
-  computed: {
-    contentWrapper() {
-      return this.$route.fullPath === '/' ? '' : 'content';
-    },
-  },
-  mounted() {
-    /**
-     * bootstrap-vue renders components outside of the usual DOM, in the body
-     * In order to apply our component-only styles, we are adding app-styles
-     * to the wrapper element
-     */
-    this.$root.$on('bv::modal::show', (bvEvent, modalId) => {
-      setTimeout(() => {
-        document.getElementById(modalId).parentElement.classList.add('app-styles');
-      }, 0);
-    });
-  },
-};
-</script>
 
 <style lang="scss">
 *,
