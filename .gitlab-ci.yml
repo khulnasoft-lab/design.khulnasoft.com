@@ -2,6 +2,7 @@
 # plus some defaults (e.g. tags).
 
 stages:
+  - pre-build
   - build
   - test
   - deploy  # dummy stage to follow the template guidelines
@@ -115,6 +116,8 @@ variables:
 
   DOCKER_TLS_CERTDIR: ""  # https://gitlab.com/gitlab-org/gitlab-runner/issues/4501
 
+  DANGER_GITLAB_API_TOKEN: $GITLAB_TOKEN
+
 include:
   - template: Jobs/Build.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Build.gitlab-ci.yml
   - template: Jobs/Test.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Test.gitlab-ci.yml
@@ -127,6 +130,19 @@ include:
   - template: Security/Dependency-Scanning.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Security/Dependency-Scanning.gitlab-ci.yml
   - template: Security/License-Management.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Security/License-Management.gitlab-ci.yml
   - template: Security/SAST.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Security/SAST.gitlab-ci.yml
+
+danger-review:
+  image: registry.gitlab.com/gitlab-org/gitlab-build-images:danger
+  stage: pre-build
+  dependencies: []
+  only:
+    variables:
+      - $DANGER_GITLAB_API_TOKEN
+  except:
+    refs:
+      - master
+  script:
+    - danger --fail-on-errors=true
 
 build:
   tags:
