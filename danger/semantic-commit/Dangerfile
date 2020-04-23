@@ -235,7 +235,7 @@ def lint_commits(commits)
   if type && bump
     add_release_type_markdown(type)
     markdown(<<~MARKDOWN)
-      This Merge Request will trigger a _#{type}_ of GitLab UI, triggered by commit:
+      This Merge Request will trigger a _#{type}_ of Pajamas Design System, triggered by commit:
       #{max_release[:commit].sha}
 
       #{bump}
