@@ -31,19 +31,19 @@ The basic table is the default option for this component, however, additional fu
 
 ### Search & filter
 
-Any filtering controls that manipulate the data set (including clickable charts) should be placed directly above the table with the option to clear all data. [See filter guidelines](https://design.gitlab.com/components/filter)
+Any filtering controls that manipulate the data set (including clickable charts) should be placed directly above the table with the option to clear all data. [See filter guidelines](/components/filter)
 
 Todo: Add demo
 
 ### Sorting
 
-Tables use column sorting rather than [list sorting](https://design.gitlab.com/components/sorting). The default sort direction of a table can be up or down depending on the use case and is indicated in the table header using an arrow icon. [See sorting guidelines](https://design.gitlab.com/components/sorting/)
+Tables use column sorting rather than [list sorting](/components/sorting). The default sort direction of a table can be up or down depending on the use case and is indicated in the table header using an arrow icon. [See sorting guidelines](/components/sorting/)
 
 Todo: Add demo
 
 ### Pagination, lazy load & infinite scroll
 
-Tables displaying data sets with more than 20 items should use either pagination, lazy load or infinite scroll. Tables have embedded pagination controls which are located at the bottom of the table. [See pagination guidelines](https://design.gitlab.com/components/pagination)
+Tables displaying data sets with more than 20 items should use either pagination, lazy load or infinite scroll. Tables have embedded pagination controls which are located at the bottom of the table. [See pagination guidelines](/components/pagination)
 
 Todo: Add demo
 
@@ -55,7 +55,7 @@ Todo: Add demo
 
 ### Expandable rows
 
-Use expandable rows to progressively reveal more information about an item in a dataset.  Do not use expandable rows to display hierarchical structures. Use the [Tree](https://design.gitlab.com/components/tree) view instead.
+Use expandable rows to progressively reveal more information about an item in a dataset.  Do not use expandable rows to display hierarchical structures. Use the [Tree](/components/tree) view instead.
 
 Todo: Add demo
 
