@@ -47,7 +47,7 @@ Tables displaying data sets with more than 20 items should use either pagination
 
 Todo: Add demo
 
-### Inline actions
+### Additional actions
 
 Table rows can include inline actions located n their far-right column. Inline actions should be visible at all times rather than showing on-hover. If there are two or more actions in a table row, consider using a button group or a [“more menu” button](https://design.gitlab.com/components/button#ellipsis) with a dropdown list option.
 
