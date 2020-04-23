@@ -70,7 +70,7 @@ def get_release_info(release_type)
     bump = <<~BUMP
       This will bump the first part of the version number, e.g. `v1.2.3` -> `v2.0.0`.
 
-      This means that GitLab UI has a breaking change.
+      This means that Pajamas Design System has a breaking change.
     BUMP
   when MINOR_RELEASE
     type = 'minor release'
