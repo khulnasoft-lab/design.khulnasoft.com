@@ -83,7 +83,7 @@ Left-align text content rather than justifying or centering it. Right-align nume
 
 ### Null values
 
-If the data for a cell is null, blank or unavailable, you can either:
+If a cell is empty or unavailable, keep the cell empty to reduce noise and help with legibility.
 
 - Keep the cell empty to reduce noise and help with legibility
 - Use a dash ("-") to signify missing data
