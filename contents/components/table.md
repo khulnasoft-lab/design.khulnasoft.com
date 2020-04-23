@@ -69,7 +69,7 @@ Always use column or row headers unless the table content is self-descriptive, l
 
 ### Columns
 
-Columns should be ordered by priority or in a way that tells a story with the data. Size columns according to the data they contain rather than making them all an even width. 
+Columns should be ordered by priority or in a way that tells a story with the data. Size columns according to the data they contain rather than making them all an even width. For example, columns of small content should be narrow, while columns of paragraphs should be relatively wide. Allow the browser to lay out the tables according to the viewport size.
 
 ### Rows
 
