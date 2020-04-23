@@ -16,8 +16,8 @@ Tables display tabular data in a basic grid comprised of cells, columns, and row
 ### Use tables to:
 
 - Display structured content, where each entry has the same attributes.
-- Display a data set that will continue to grow (e.g. issues, user & environments)
 - Let users review, enter, edit, or filter granular data sets.
+- Display a data set that will continue to grow (e.g. Issues, Environments, and User Profile page).
 
 ### Do not use tables to
 
@@ -33,7 +33,7 @@ Todo: Add demo
 
 ### Search & filter
 
-Any filtering controls that manipulate the data set (including clickable charts) should be placed directly above the table with the option to clear all data. [See filter guidelines](/components/filter)
+Any filtering controls that manipulate the data set (including clickable charts) should be placed directly above the table with the option to clear all data. [See filter guidelines](https://design.gitlab.com/components/filter)
 
 Todo: Add demo
 
@@ -58,18 +58,6 @@ Todo: Add demo
 ### Expandable rows
 
 Use expandable rows to progressively reveal more information about an item in a dataset.  Do not use expandable rows to display hierarchical structures. Use the [Tree](https://design.gitlab.com/components/tree) view instead.
-
-Todo: Add demo
-
-## Styles
-
-### Default
-
-Todo: Add demo
-
-### Zebra stripes
-
-Alternating grey and white stripes can be used to help differentiate rows.
 
 Todo: Add demo
 
@@ -121,6 +109,17 @@ Use proper semantic markup, so that users of screen readers can navigate through
 - `<th>` should have a defined `scope` attribute to establish relationships between the table headings and rows/columns; for example, `<th scope="col">`.
 - `<caption>` should be used to provide a title for a table.
 - `<caption>` should be an immediate child element of `<table>`.
+
+## Demo
+### Default
+
+Todo: Add demo
+
+### Zebra stripes
+
+Use Zebra stripes to help differentiate dense data sets with lots of columns and/or rows.
+
+Todo: Add demo
 
 ## Design specifications
 
