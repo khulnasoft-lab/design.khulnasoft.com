@@ -53,12 +53,6 @@ Table rows can include additional actions located in their far-right column. The
 
 Todo: Add demo
 
-### Expandable rows
-
-Use expandable rows to progressively reveal more information about an item in a dataset.  Do not use expandable rows to display hierarchical structures. Use the [Tree](/components/tree) view instead.
-
-Todo: Add demo
-
 ## Content
 
 ### Headers
@@ -115,12 +109,6 @@ Use proper semantic markup, so that users of screen readers can navigate through
 ## Demo
 
 ### Default
-
-Todo: Add demo
-
-### Zebra stripes
-
-Use Zebra stripes to help differentiate dense data sets with lots of columns and/or rows.
 
 Todo: Add demo
 
