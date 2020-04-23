@@ -13,13 +13,13 @@ Tables display tabular data in a basic grid comprised of cells, columns, and row
 
 ## Usage
 
-### Use tables to:
+### When to use tables
 
 - Display structured content, where each entry has the same attributes.
 - Let users review, enter, edit, or filter granular data sets.
 - Display a data set that will continue to grow (e.g. Issues, Environments, and User Profile page).
 
-### Do not use tables to
+### When not to use tables
 
 - Display a list of continuous, vertical indexes of text or images. Use [Lists](/components/list) instead.
 - Display contained content and actions on a single topic. Use [Cards](/components/cards) instead.
