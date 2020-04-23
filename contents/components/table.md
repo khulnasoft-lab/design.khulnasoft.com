@@ -27,7 +27,7 @@ Tables display tabular data in a basic grid comprised of cells, columns, and row
 
 ### Basic table
 
-The basic table is the default option for this component, however, additional functionality below can be added to refine the table for any use case.
+The basic table is the default option for this component, however, additional functionality can be added to enhance the table for different use cases.
 
 Todo: Add demo
 
