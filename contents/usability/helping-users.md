@@ -20,7 +20,7 @@ Don't use "Learn more about," "Tell me more about," or "Get help with this" phra
 
 - **Example:** [What are user cohorts?](#)
 
-If there isn't space available for a Help link text, use a circle question mark icon `?` (`#1068bf`) linked to the Help content, with a tooltip phrased in terms of the primary question answered by the help content.
+If there isn't space available for a Help link text, use a circle [question mark icon `?`](https://gitlab.com/gitlab-org/gitlab-svgs/blob/master/sprite_icons/question.svg) (`#1068bf`) linked to the Help content, with a tooltip phrased in terms of the primary question answered by the help content.
 
 Todo: Add live component block with code example
 
