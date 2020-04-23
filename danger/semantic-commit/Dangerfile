@@ -272,7 +272,7 @@ def lint_mr(mr)
     if type && bump
       add_release_type_markdown(type)
       markdown(<<~MARKDOWN)
-        This Merge Request will trigger a _#{type}_ of GitLab UI based on its title.
+        This Merge Request will trigger a _#{type}_ of Pajamas Design System based on its title.
 
         #{bump}
       MARKDOWN
