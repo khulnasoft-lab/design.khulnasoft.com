@@ -90,7 +90,7 @@ If the data for a cell is null, blank or unavailable, you can either:
 
 ### Truncation
 
-You can truncate long text strings with an ellipsis (“…”). On hover, the truncated text should display a tooltip including the full text. [See tooltips guidelines](https://design.gitlab.com/components/tooltips)
+Truncate long text strings with an ellipsis (“…”). On hover, the truncated text should display a tooltip including the full text. [See tooltips guidelines](/components/tooltips)
 
 ### Empty state
 
