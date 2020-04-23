@@ -49,7 +49,7 @@ Todo: Add demo
 
 ### Additional actions
 
-Table rows can include inline actions located n their far-right column. Inline actions should be visible at all times rather than showing on-hover. If there are two or more actions in a table row, consider using a button group or a [“more menu” button](https://design.gitlab.com/components/button#ellipsis) with a dropdown list option.
+Table rows can include additional actions located in their far-right column. These actions should be visible at all times rather than showing on-hover. If there are two or more actions in a table row, consider using a button group or a [“more menu” button](/components/button#ellipsis) with a dropdown list option.
 
 Todo: Add demo
 
