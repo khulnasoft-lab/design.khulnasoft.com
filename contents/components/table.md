@@ -111,6 +111,7 @@ Use proper semantic markup, so that users of screen readers can navigate through
 - `<caption>` should be an immediate child element of `<table>`.
 
 ## Demo
+
 ### Default
 
 Todo: Add demo
@@ -125,8 +126,7 @@ Todo: Add demo
 
 Color, spacing, dimension, and layout specific information about this component can be viewed using the following link:
 
-- [View Table component in Figma →](https://www.figma.com/file/mZ4qECdXMJuFlUAvzl9XE1/Tables)
-- [Sketch Measure Preview for Tables →](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/tables-spec-previews/)(deprecating)
+- [Sketch Measure Preview for Tables →](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/tables-spec-previews/)
 
 ## Links
 
