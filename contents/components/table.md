@@ -63,7 +63,9 @@ Todo: Add demo
 
 ### Headers
 
-Always use column and/or row headers unless the table content is self-descriptive. Headers should be short, descriptive, and relevant. Avoid headers that are too long for the content in the rows below, and use title-case.
+A table header is the row at the top of the table that helps identify the columns below. The header provides clarity if data is non-descriptive or ambiguous. 
+
+Always use column or row headers unless the table content is self-descriptive, like names, dates, and so on. Headers should be short, descriptive, and relevant. Avoid headers that are too long for the content in the rows below, and use title-case.
 
 ### Columns
 
