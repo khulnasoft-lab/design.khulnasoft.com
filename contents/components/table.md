@@ -73,7 +73,13 @@ Rows can have a mix of interactive, read-only and editable cells.
 
 ### Text alignment
 
-Left-align text content rather than justifying or centering it. Right-align numeric data with a consistent number of decimal places to improve scannability.
+Align the table content by importance, based on the information needs of your users. 
+
+Left-align text content, rather than justifying or centering it, to avoid confusion or readability issues. Text in tables tends to end up in narrow columns. Don’t justify or center the text; it causes confusion and harms readability.
+
+In some circumstances, right-aligning the text content helps with readability. Right-align the numeric data with a consistent number of decimal places to improve scannability.
+
+Tables may switch their alignment for right-to-left audiences when designing for [internationalization](/usability/i18n).
 
 ### Null values
 
