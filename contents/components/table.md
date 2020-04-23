@@ -17,7 +17,7 @@ Tables display tabular data in a basic grid comprised of cells, columns, and row
 
 - Display structured content, where each entry has the same attributes.
 - Display a data set that will continue to grow (e.g. issues, user & environments)
-- Let users review, enter, edit or filter granular data sets.
+- Let users review, enter, edit, or filter granular data sets.
 
 ### Do not use tables to
 
