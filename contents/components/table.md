@@ -33,7 +33,7 @@ Todo: Add demo
 
 ### Search & filter
 
-Any filtering controls that manipulate the data set (including clickable charts) should be placed directly above the table with the option to clear all data. [See filter guidelines](https://design.gitlab.com/components/filter)
+Any filtering controls that manipulate the data set (including clickable charts) should be placed directly above the table with the option to clear all data. [See filter guidelines](/components/filter)
 
 Todo: Add demo
 
