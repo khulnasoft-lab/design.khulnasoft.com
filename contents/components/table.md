@@ -73,6 +73,8 @@ Columns should be ordered by priority or in a way that tells a story with the da
 
 Rows can have a mix of interactive, read-only and editable cells. 
 
+## Content
+
 ### Text alignment
 
 Left-align text content rather than justifying or centering it. Right-align numeric data with a consistent number of decimal places to improve scannability.
