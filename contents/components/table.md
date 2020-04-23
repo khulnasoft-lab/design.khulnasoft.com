@@ -29,8 +29,6 @@ Tables display tabular data in a basic grid comprised of cells, columns, and row
 
 The basic table is the default option for this component, however, additional functionality can be added to enhance the table for different use cases.
 
-Todo: Add demo
-
 ### Search & filter
 
 Any filtering controls that manipulate the data set (including clickable charts) should be placed directly above the table with the option to clear all data. [See filter guidelines](https://design.gitlab.com/components/filter)
@@ -92,11 +90,11 @@ You can truncate long text strings with an ellipsis (“…”). On hover, the t
 
 ### Empty state
 
-A table’s empty state displays when there is no data, yet. [See empty states guidelines](https://design.gitlab.com/regions/empty-states).
+A table’s empty state displays when there is no data, yet. [See empty states guidelines](/regions/empty-states).
 
 ## Responsiveness
 
-Tables work across multiple screen sizes and conform to [responsive guidelines](https://design.gitlab.com/components/tables/#responsiveness). Prevent horizontal scrolling to ensure the table doesn’t break the layout. 
+Tables work across multiple screen sizes and conform to responsive guidelines. Prevent horizontal scrolling to ensure the table doesn’t break the layout. 
 
 Todo: Add demo
 
@@ -128,7 +126,7 @@ Color, spacing, dimension, and layout specific information about this component 
 - [View Table component in Figma →](https://www.figma.com/file/mZ4qECdXMJuFlUAvzl9XE1/Tables)
 - [Sketch Measure Preview for Tables →](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/tables-spec-previews/)(deprecating)
 
-## Research
+## Links
 
 - [Code Review Analytics + Table Component: Design evaluation & usability testing](https://gitlab.com/groups/gitlab-org/-/epics/2954)
 
