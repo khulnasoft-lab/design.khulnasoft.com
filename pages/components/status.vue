@@ -107,7 +107,7 @@ export default {
           </tr>
           <template v-if="contentTree">
             <tr
-              v-for="component in contentTree.product_foundations"
+              v-for="component in contentTree['product-foundations']"
               :key="component.id"
             >
               <td>

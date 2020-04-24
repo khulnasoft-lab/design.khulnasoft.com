@@ -52,7 +52,7 @@ export function writeContentTree(baseDirectory) {
   const directories = fs.readdirSync(path.resolve(baseDirectory, 'contents'));
 
   directories.forEach(dir => {
-    treeObj[dir.replace(/-/g, '_')] = getContentList(dir);
+    treeObj[dir] = getContentList(dir);
   });
 
   fs.writeFileSync(
