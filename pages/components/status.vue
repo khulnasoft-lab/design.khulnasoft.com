@@ -16,6 +16,9 @@ export default {
     };
   },
   methods: {
+    getSectionName(name) {
+      return name.split('-').join(' ');
+    },
     getStatusIcon(status) {
       return statusIcons[status];
     },
@@ -100,20 +103,20 @@ export default {
         class="m-t-6 m-b-6"
         style="width: 65%;"
       >
-        <tbody>
-          <tr>
-            <th class="header">Foundations</th>
-            <th class="header">Status</th>
-          </tr>
-          <template v-if="contentTree">
+        <template v-if="contentTree">
+          <tbody v-for="(value, name) in contentTree" :key="name">
+            <tr>
+              <th class="header">{{getSectionName(name)}}</th>
+              <th class="header">Status</th>
+            </tr>
             <tr
-              v-for="component in contentTree['product-foundations']"
+              v-for="component in value"
               :key="component.id"
             >
               <td>
                 <nuxt-link
                   :key="`link-${component.id}`"
-                  :to="`/product-foundations/${component.id}`"
+                  :to="`/${name}/${component.id}`"
                 >{{ component.name }}</nuxt-link>
               </td>
               <td class="app-styles">
@@ -124,128 +127,8 @@ export default {
                 >Vue</b-badge>
               </td>
             </tr>
-          </template>
-          <tr>
-            <th class="header">Component</th>
-            <th class="header">Status</th>
-          </tr>
-          <template v-if="contentTree">
-            <tr
-              v-for="component in contentTree.components"
-              :key="component.id"
-            >
-              <td>
-                <nuxt-link
-                  :key="`link-${component.id}`"
-                  :to="`/components/${component.id}`"
-                >{{ component.name }}</nuxt-link>
-              </td>
-              <td class="app-styles">
-                {{getStatusIcon(component.status)}}
-                <b-badge
-                  v-if="component.hasVueComponent"
-                  variant="primary"
-                >Vue</b-badge>
-              </td>
-            </tr>
-          </template>
-          <tr>
-            <th class="header">Regions</th>
-            <th class="header">Status</th>
-          </tr>
-          <template v-if="contentTree">
-            <tr
-              v-for="component in contentTree.regions"
-              :key="component.id"
-            >
-              <td>
-                <nuxt-link
-                  :key="`link-${component.id}`"
-                  :to="`/regions/${component.id}`"
-                >{{ component.name }}</nuxt-link>
-              </td>
-              <td class="app-styles">
-                {{getStatusIcon(component.status)}}
-                <b-badge
-                  v-if="component.hasVueComponent"
-                  variant="primary"
-                >Vue</b-badge>
-              </td>
-            </tr>
-          </template>
-          <tr>
-            <th class="header">Content</th>
-            <th class="header">Status</th>
-          </tr>
-          <template v-if="contentTree">
-            <tr
-              v-for="component in contentTree.content"
-              :key="component.id"
-            >
-              <td>
-                <nuxt-link
-                  :key="`link-${component.id}`"
-                  :to="`/content/${component.id}`"
-                >{{ component.name }}</nuxt-link>
-              </td>
-              <td class="app-styles">
-                {{getStatusIcon(component.status)}}
-                <b-badge
-                  v-if="component.hasVueComponent"
-                  variant="primary"
-                >Vue</b-badge>
-              </td>
-            </tr>
-          </template>
-          <tr>
-            <th class="header">Accessibility</th>
-            <th class="header">Status</th>
-          </tr>
-          <template v-if="contentTree">
-            <tr
-              v-for="component in contentTree.accessibility"
-              :key="component.id"
-            >
-              <td>
-                <nuxt-link
-                  :key="`link-${component.id}`"
-                  :to="`/accessibility/${component.id}`"
-                >{{ component.name }}</nuxt-link>
-              </td>
-              <td class="app-styles">
-                {{getStatusIcon(component.status)}}
-                <b-badge
-                  v-if="component.hasVueComponent"
-                  variant="primary"
-                >Vue</b-badge>
-              </td>
-            </tr>
-          </template>
-          <tr>
-            <th class="header">Usability</th>
-            <th class="header">Status</th>
-          </tr>
-          <template v-if="contentTree">
-            <tr
-              v-for="component in contentTree.usability"
-              :key="component.id"
-            >
-              <td>
-                <nuxt-link
-                  :key="`link-${component.id}`"
-                  :to="`/usability/${component.id}`"
-                >{{ component.name }}</nuxt-link>
-              </td>
-              <td class="app-styles">
-                {{getStatusIcon(component.status)}}
-                <b-badge
-                  v-if="component.hasVueComponent"
-                  variant="primary"
-                >Vue</b-badge>
-              </td>
-            </tr>
-          </template>
-        </tbody>
+          </tbody>
+        </template>
       </table>
     </div>
   </div>
