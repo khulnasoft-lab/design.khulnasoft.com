@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "Resources, components, and design guidelines behind GitLab",
   "author": "GitLab",
-  "repository": {
-    "type" : "git",
-    "url" : "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com.git"
-  },
   "scripts": {
     "start": "HOST=0.0.0.0 PORT=${PORT:=2018} nuxt",
     "buildsingle": "nuxt build",

@@ -148,3 +148,9 @@ sast:
 
 semantic-release:
   extends: .semantic-release
+  needs: []
+  script:
+    - semantic-release --dry-run --branches semantic-release-debug --debug
+  only:
+    refs:
+      - branches
