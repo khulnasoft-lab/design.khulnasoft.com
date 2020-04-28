@@ -79,7 +79,7 @@ meaningful changes, consider using `feat:` of `fix:` instead.
 - **refactor:** A code change that neither fixes a bug nor adds a feature.
 - **perf:** A code change that improves performance.
 - **test:** Adding missing tests or correcting existing tests.
-- **build:** Changes that affect the build system (changing WebPack's or Rollup's config for example).
+- **build:** Changes that affect the build system (changing webpack or Rollup config for example).
 - **ci:** Changes to our CI configuration files and scripts
 (changing `.gitlab-ci.yml`, adding or changing Danger plugins, etc.).
 - **chore:** Other changes that don't modify source or test files. Use this type when adding or
