@@ -72,7 +72,7 @@ We use the same types as [Angular's commit guidelines](https://github.com/angula
 - **feat:** A new feature (adding a new component, providing new variants for an existing component, etc.).
 - **fix:** A bug fix (correcting a styling issue, addressing a bug in a component's API, etc.).
 When updating non-dev dependencies, mark your changes with the `fix:` type.
-- **docs:** Documentation only changes.
+- **docs:** Documentation-only changes.
 - **style:** Changes that do not affect the meaning of the code
 (whitespace, formatting, missing semicolons, etc). _Not_ to be used for CSS changes as those are
 meaningful changes, consider using `feat:` of `fix:` instead.
