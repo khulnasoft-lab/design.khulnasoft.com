@@ -58,7 +58,7 @@ Following these conventions will result in a properly versioned package and clea
 
 ### When should my MR's title follow these conventions?
 
-It's always a good idea to follow the conventions for your MR's title as well as for commit messages, this way, if your MR is squashed
+It's always a good idea to follow the conventions for your MR's title as well as for commit messages. This way, if your MR is squashed
 upon merge, the maintainer will be able to use its title as the final commit message, which will result in a properly formatted history.
 
 ### Is it okay that all my commits don't follow the conventions in a single MR?
