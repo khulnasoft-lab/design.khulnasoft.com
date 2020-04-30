@@ -10,7 +10,7 @@ File uploaders are used to upload files from your computer or device. The accept
 
 ## Usage
 
-A file uploader should state the action needed to take in order to upload your file and a user should have the understanding of where a file is going to be uploaded. A couple common examples for how someone can upload a file is through clicking and selecting the file from your computer or through dragging and dropping a file from your computer to the file uploader.
+A user should know what action is needed to upload the file, and for what purpose. For example, the action “Upload an image for your avatar.” paired with a “Choose file…” button.
 
 ### Dos and Dont’s
 
