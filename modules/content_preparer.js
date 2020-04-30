@@ -26,15 +26,19 @@ export function getContentList(dirName) {
     );
 
     const hasInfo = content.body.length > 0;
-    const status = content.attributes.status || (hasInfo ? 'in-progress' : 'upcoming');
+    const docs = content.attributes.docs || (hasInfo ? 'in-progress' : 'upcoming');
+    const a11y = content.attributes.a11y || (hasInfo ? 'in-progress' : 'upcoming');
 
     componentInfos.push({
       id: componentFileName.replace('.md', ''),
       name: content.attributes.name,
+      figma: content.attributes.figma,
+      docs,
+      a11y,
+      gitlab_ui: content.attributes.gitlab_ui,
       hasVueComponent:
         content.attributes.vueComponents && content.attributes.vueComponents.length > 0,
       hasInfo,
-      status,
     });
   };
 
