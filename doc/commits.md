@@ -23,7 +23,7 @@ When opening an MR, make sure you do at least one of the following:
 - Include at least one commit message that complies with the conventional commit standards.
 - Ensure the MR's title itself complies with the conventional commit standards.
 
-Following these conventions will result in a properly versioned package and clear [changelogs](./CHANGELOG.md) for every version.
+Following these conventions will result in a properly versioned project and clear [changelogs](./CHANGELOG.md) for every version.
 
 ## When should my MR's title follow these conventions?
 
