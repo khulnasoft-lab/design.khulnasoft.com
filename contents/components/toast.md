@@ -1,6 +1,8 @@
 ---
 name: Toast
-status: integrated
+figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A139
+docs: in-progress
+gitlab_ui: https://gitlab.com/gitlab-org/gitlab-ui/-/tree/master/src/components/base/toast
 vueComponents:
   - GlToast
 related:
@@ -70,4 +72,3 @@ Color, spacing, dimension, and layout specific information pertaining to this co
 ### Animation
 
 - A toast message eases in and out with a speed of 200 milliseconds from the bottom-left side of the screen (centered at smaller breakpoints).
-
