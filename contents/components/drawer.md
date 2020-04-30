@@ -1,5 +1,7 @@
 ---
 name: Drawer
+docs: complete
+gitlab_ui: https://gitlab.com/gitlab-org/gitlab-ui/-/tree/master/src/components/base/drawer
 vueComponents:
   - GlDrawer
 related:
