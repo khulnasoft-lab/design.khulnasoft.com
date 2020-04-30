@@ -1,6 +1,7 @@
 ---
 name: Charts
-status: integrated
+docs: complete
+gitlab_ui: https://gitlab.com/gitlab-org/gitlab-ui/-/tree/master/src/components/charts/chart
 vueComponents:
   - GlAreaChart
   - GlLineChart
