@@ -6,7 +6,7 @@ related:
   - modals
 ---
 
-File uploaders are used to upload files from your computer. The accepted file types will be determined by the context of the file uploader.
+File uploaders are used to upload files from your computer or device. The accepted file types will be determined by the context of the file uploader.
 
 ## Usage
 
