@@ -10,7 +10,7 @@ File uploaders are used to upload files from your computer or device. The accept
 
 ## Usage
 
-A user should know what action is needed to upload the file, and for what purpose. For example, the action “Upload an image for your avatar.” paired with a “Choose file…” button.
+A user should know what action is needed to upload the file and for what purpose. For example, the action “Upload an image for your avatar.” paired with a “Choose file…” button. You should display an animated spinner icon and percentage of upload completion after the file is chosen for upload. This provides a status of the upload and serves to indicate issues, if any.
 
 ### Dos and Dont’s
 
