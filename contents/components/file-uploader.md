@@ -19,7 +19,7 @@ A file uploader should state the action needed to take in order to upload your f
 | Create a dashed border around the file uploader to indicate the upload/dropzone area. | Exclude a description on how to upload a file. |
 | Give the option to drag and drop a file to upload. |  |
 | Darken the dashed border with a hand cursor on hover to indicate the clickable area. |  |
-| Have a visible `Upload` and `Cancel` button to finalize or cancel upload. |  |
+| Have “Upload” (or similar verbiage) and “Cancel” buttons to complete or cancel uploading. |  |
 
 ## Demo
 
