@@ -32,3 +32,16 @@ table:not(.pika-table):not(.gl-table) {
     font-weight: $font-weight--bold;
   }
 }
+
+.status-table {
+  table-layout: fixed;
+
+  td:not(:first-child) {
+    color: black;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
