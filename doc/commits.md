@@ -1,6 +1,6 @@
 # Pajamas commit conventions
 
-We use conventional commits specifications to write meaningful commit messages that are used as part of our semantic release process. We chose to use [semantic-release](https://github.com/semantic-release/semantic-release) to handle our npm publishing because it is the most widely used tool for publishing and gave easy support for managing changelogs.
+We use conventional commits specifications to write meaningful commit messages that are used as part of our semantic release process. We chose to use [semantic-release](https://github.com/semantic-release/semantic-release) to handle our versioning because it is widely used and gives easy support for managing changelogs.
 
 For more detail on conventional commits, please read the [official specifications](https://www.conventionalcommits.org/).
 
