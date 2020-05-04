@@ -4,9 +4,7 @@ import contentTree from '../../content_tree.json'; // eslint-disable-line import
 const statusIcons = {
   upcoming: '🚫',
   'in-progress': '⚠',
-  built: '⚒',
-  integrated: '✅',
-  deprecated: '❌',
+  complete: '✅',
 };
 
 export default {
@@ -55,10 +53,6 @@ export default {
             <td>✅</td>
             <td>Complete</td>
           </tr>
-          <tr>
-            <td>❌</td>
-            <td>Deprecated</td>
-          </tr>
         </tbody>
       </table>
 
@@ -90,7 +84,7 @@ export default {
                   v-if="component.figma"
                   :href="component.figma"
                   target="_blank"
-                >{{getStatusIcon('integrated')}}</a>
+                >{{getStatusIcon('complete')}}</a>
                 <div v-else>
                   {{getStatusIcon('upcoming')}}
                 </div>
@@ -108,7 +102,7 @@ export default {
                   v-if="component.gitlab_ui"
                   :href="component.gitlab_ui"
                   target="_blank"
-                >{{getStatusIcon('integrated')}}</a>
+                >{{getStatusIcon('complete')}}</a>
                 <div v-else>
                   {{getStatusIcon('upcoming')}}
                 </div>
@@ -120,7 +114,7 @@ export default {
                   v-if="component.hasVueComponent"
                   :key="`link-${component.id}`"
                   :to="`/components/${component.id}`"
-                >{{getStatusIcon('integrated')}}</nuxt-link>
+                >{{getStatusIcon('complete')}}</nuxt-link>
                 <div v-else>{{getStatusIcon('upcoming')}}</div>
               </td>
               <!-- Accessibility review -->

@@ -1,9 +1,7 @@
 ---
 name: Alert
-status: integrated
+status: complete
 figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A1
-docs: integrated
-a11y: integrated
 gitlab_ui: https://gitlab.com/gitlab-org/gitlab-ui/-/blob/master/src/components/base/alert/alert.vue
 vueComponents:
   - GlAlert

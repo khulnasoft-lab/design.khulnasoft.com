@@ -1,6 +1,6 @@
 ---
 name: Search
-status: integrated
+status: complete
 vueComponents:
   - GlSearchBoxByClick
   - GlSearchBoxByType

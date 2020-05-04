@@ -1,6 +1,6 @@
 ---
 name: Checkbox
-status: integrated
+status: complete
 vueComponents:
   - GlFormCheckbox
 related:

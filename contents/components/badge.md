@@ -1,6 +1,7 @@
 ---
 name: Badge
-status: integrated
+status: complete
+figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A3
 vueComponents:
   - GlBadge
 related:
