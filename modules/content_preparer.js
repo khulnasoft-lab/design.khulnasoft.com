@@ -26,7 +26,6 @@ export function getContentList(dirName) {
     );
 
     const hasInfo = content.body.length > 0;
-    const status = content.attributes.status || (hasInfo ? 'in-progress' : 'upcoming');
     const docs = content.attributes.docs || (hasInfo ? 'in-progress' : 'upcoming');
     const a11y = content.attributes.a11y || (hasInfo ? 'in-progress' : 'upcoming');
 
@@ -40,7 +39,6 @@ export function getContentList(dirName) {
       hasVueComponent:
         content.attributes.vueComponents && content.attributes.vueComponents.length > 0,
       hasInfo,
-      status,
     });
   };
 

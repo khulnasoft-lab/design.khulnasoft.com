@@ -1,6 +1,5 @@
 ---
 name: Socks
-status: built
 docs: complete
 vueComponents: []
 related: []

@@ -1,6 +1,5 @@
 ---
 name: Forms
-status: complete
 figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A10
 docs: in-progress
 gitlab_ui: https://gitlab.com/gitlab-org/gitlab-ui/-/tree/master/src/components/base/form

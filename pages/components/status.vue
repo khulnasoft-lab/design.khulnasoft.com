@@ -63,7 +63,7 @@ export default {
             <tr>
               <th class="header" colspan="2">Component</th>
               <th class="header">Figma</th>
-              <th class="header">Docs</th>
+              <th class="header">Docs - Usage</th>
               <th class="header">Docs - Vue</th>
               <th class="header">GitLab UI</th>
               <th class="header">Accessibility</th>

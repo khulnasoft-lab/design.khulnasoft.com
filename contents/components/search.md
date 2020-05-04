@@ -1,6 +1,5 @@
 ---
 name: Search
-status: complete
 figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=4191%3A0
 docs: complete
 gitlab_ui: https://gitlab.com/gitlab-org/gitlab-ui/-/tree/master/src/components/base/search_box_by_click
