@@ -64,8 +64,8 @@ export default {
               <th class="header" colspan="2">Component</th>
               <th class="header">Figma</th>
               <th class="header">Docs</th>
+              <th class="header">Docs - Vue</th>
               <th class="header">GitLab UI</th>
-              <th class="header">Production</th>
               <th class="header">Accessibility</th>
             </tr>
             <tr
@@ -96,6 +96,16 @@ export default {
                   :to="`/components/${component.id}`"
                 >{{getStatusIcon(component.docs)}}</nuxt-link>
               </td>
+              <!-- Ready to use in production -->
+              <!-- TODO: Add new link address after creating direct links to Vue component on pages -->
+              <td class="app-styles">
+                <nuxt-link
+                  v-if="component.hasVueComponent"
+                  :key="`link-${component.id}`"
+                  :to="`/components/${component.id}`"
+                >{{getStatusIcon('complete')}}</nuxt-link>
+                <div v-else>{{getStatusIcon('upcoming')}}</div>
+              </td>
               <!-- GitLab UI -->
               <td class="app-styles">
                 <a
@@ -106,16 +116,6 @@ export default {
                 <div v-else>
                   {{getStatusIcon('upcoming')}}
                 </div>
-              </td>
-              <!-- Ready to use in production -->
-              <!-- TODO: Add new link address after creating direct links to Vue component on pages -->
-              <td class="app-styles">
-                <nuxt-link
-                  v-if="component.hasVueComponent"
-                  :key="`link-${component.id}`"
-                  :to="`/components/${component.id}`"
-                >{{getStatusIcon('complete')}}</nuxt-link>
-                <div v-else>{{getStatusIcon('upcoming')}}</div>
               </td>
               <!-- Accessibility review -->
               <td class="app-styles">
