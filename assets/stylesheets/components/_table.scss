@@ -24,7 +24,6 @@ table:not(.pika-table):not(.gl-table) {
     &.header {
       font-weight: $font-weight--bold;
       background: $gray-50;
-      border-right: $gl-spacing-1 solid $border-color--light;
     }
   }
 
@@ -35,6 +34,13 @@ table:not(.pika-table):not(.gl-table) {
 
 .status-table {
   table-layout: fixed;
+  border-spacing: 0px;
+
+  th {
+    position: sticky;
+    top: -2px;
+    margin: 0;
+  }
 
   td:not(:first-child) {
     color: black;
