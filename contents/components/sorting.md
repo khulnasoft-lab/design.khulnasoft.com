@@ -1,6 +1,7 @@
 ---
 name: Sorting
 docs: in-progress
+gitlab_ui: https://gitlab.com/gitlab-org/gitlab-ui/-/tree/master/src/components/base/sorting
 related:
   - dropdowns
   - filter

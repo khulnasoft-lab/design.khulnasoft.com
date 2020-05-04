@@ -3,6 +3,7 @@ name: Broadcast message
 status: built
 figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A6
 docs: complete
+gitlab_ui: https://gitlab.com/gitlab-org/gitlab-ui/-/blob/master/src/components/base/broadcast_message
 vueComponents:
   - GlBroadcastMessage
 related:

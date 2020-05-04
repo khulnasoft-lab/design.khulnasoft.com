@@ -2,6 +2,7 @@
 name: Dropdowns
 status: complete
 docs: in-progress
+gitlab_ui: https://gitlab.com/gitlab-org/gitlab-ui/-/tree/master/src/components/base/dropdown
 vueComponents:
   - GlNewDropdown
 related:

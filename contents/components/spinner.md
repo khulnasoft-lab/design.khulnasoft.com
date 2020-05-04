@@ -3,6 +3,7 @@ name: Spinner
 status: complete
 figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A137
 docs: complete
+gitlab_ui: https://gitlab.com/gitlab-org/gitlab-ui/-/blob/master/src/components/base/loading_icon
 vueComponents:
   - GlLoadingIcon
 related:
