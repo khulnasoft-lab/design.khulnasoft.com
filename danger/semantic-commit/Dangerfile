@@ -257,7 +257,7 @@ def lint_mr(mr)
       failed = true
     elsif !SEMANTIC_COMMIT_TYPES.include?(semantic_commit[:type])
       warn(
-        "The Semantic commit type `#{semantic_commit[:type]}` is not a well-known semantic commit type."
+        "The semantic commit type `#{semantic_commit[:type]}` is not a well-known semantic commit type."
       )
 
       failed = true
