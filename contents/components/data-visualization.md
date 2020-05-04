@@ -1,6 +1,7 @@
 ---
 name: Data visualization
 status: complete
+docs: in-progress
 vueComponents:
   - GlHeatmap
 related:

@@ -1,6 +1,7 @@
 ---
 name: Tables
 status: complete
+docs: complete
 vueComponents:
   - GlTable
 related:

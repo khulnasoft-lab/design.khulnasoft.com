@@ -1,6 +1,8 @@
 ---
 name: Checkbox
 status: complete
+figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=4347%3A7242
+docs: complete
 vueComponents:
   - GlFormCheckbox
 related:

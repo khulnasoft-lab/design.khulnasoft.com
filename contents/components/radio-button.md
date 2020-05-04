@@ -1,6 +1,8 @@
 ---
 name: Radio buttons
 status: complete
+figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=3947%3A4
+docs: complete
 vueComponents:
   - GlFormRadio
 related:

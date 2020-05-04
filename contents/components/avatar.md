@@ -2,6 +2,7 @@
 name: Avatar
 status: complete
 figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A2
+docs: in-progress
 vueComponents:
   - GlAvatar
 related:

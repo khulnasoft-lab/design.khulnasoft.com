@@ -1,6 +1,7 @@
 ---
 name: Dropdowns
 status: complete
+docs: in-progress
 vueComponents:
   - GlNewDropdown
 related:

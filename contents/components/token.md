@@ -1,6 +1,7 @@
 ---
 name: Token
 status: complete
+docs: complete
 vueComponents:
   - GlToken
 related:

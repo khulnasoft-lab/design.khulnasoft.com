@@ -1,6 +1,8 @@
 ---
 name: Search
 status: complete
+figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=4191%3A0
+docs: complete
 vueComponents:
   - GlSearchBoxByClick
   - GlSearchBoxByType

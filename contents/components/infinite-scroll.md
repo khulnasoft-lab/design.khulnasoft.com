@@ -1,6 +1,7 @@
 ---
 name: Infinite scroll
 status: complete
+docs: in-progress
 vueComponents:
   - GlInfiniteScroll
 related:
