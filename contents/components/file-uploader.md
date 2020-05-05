@@ -10,7 +10,7 @@ File uploaders are used to upload files from your computer or device. The accept
 
 ## Usage
 
-A user should know what action is needed to upload the file and for what purpose. For example, the action “Upload an image for your avatar.” paired with a “Choose file…” button. 
+A user should know what action is needed to upload the file and for what purpose. For example, the action “Upload an image for your avatar” paired with a “Choose file…” button. 
 
 After the upload begins, use the [spinner component](/components/spinner) and live text indicating the percentage complete. For example, “Uploading your image - 87%.”
 
