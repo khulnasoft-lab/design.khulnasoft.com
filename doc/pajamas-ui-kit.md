@@ -95,7 +95,7 @@ We aim to keep the hierarchy DRY, and focus on structure specific to component c
 **Layer:** Info/01 md <br>
 **Result:** Badge/Variants/Info/01 md
 
-Buttons are an example of something more complex, not because of the component, but because of the amount of variants. Given that it *may* be ideal to link to one design specs page, we could have something like this:
+Buttons are an example of something more complex, not because of the component, but because of the amount of variants. Since we prefer to link to one design spec frame, we could have something like this:
 
 **Page:** Buttons <br>
 **Frame:** Variants <br>
