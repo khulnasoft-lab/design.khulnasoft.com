@@ -162,7 +162,7 @@ Figma library updates are published by a [Figma maintainer][figma-maintainers], 
 
 We don’t use plugins for critical actions or capabilities, to avoid making any part of the design process reliant on plugin updates or functionality. Rather, we believe that each user should determine which plugins to use for their own workflow.
 
-That being said, we have put together [a table of plugins][sketch-figma-plugins] we currently use in Sketch, along with options in Figma.
+That being said, we have put together [a table of plugins][sketch-figma-plugins] we have used in Sketch, along with options in Figma.
 
 ## Code of conduct
 
