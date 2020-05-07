@@ -69,7 +69,7 @@ With Figma, components are organized in the asset library by how they are struct
 
 For both breakpoints and sizes, numerically prefixing the abbreviations correctly orders them in the asset library in a way that helps a user understand hierarchy (see examples below).
 
-Because we’d like to use Figma frames as a single spec, similar to how we output with Sketch Measure in the past, having common assets within one parent frame is the easiest way to share and incorporate designs into [Pajamas][pajamas], issues, and merge requests, etc.
+Because we’d like to use a single Figma frame as a design spec (as opposed to linking to multiple frames), having common assets within one parent frame is the easiest way to share and incorporate designs into [Pajamas][pajamas], issues, and merge requests, etc.
 
 We aim to keep the hierarchy DRY, and focus on structure specific to component context. If we didn’t put variants within a frame, we could easily keep the naming light, but it’d be at the cost of not having a specific frame to link to as a design spec.
 
