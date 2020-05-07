@@ -106,7 +106,7 @@ Buttons are an example of something more complex, not because of the component, 
 
 ### Base components
 
-Some components are built from *base* components. Base components provide foundational configuration, structure, or other settings for components to be built from. They are not published to the library. A change to a base component should propagate to any components built from it. In other systems you may see them called primitives, or master components. We chose “base” to indicate a starting place.
+Some components are built from *base* components. Base components provide foundational configuration, structure, or other settings for components to be built from. They are not published to the library, because we only want the variants created *from* them to be available for direct use. A change to a base component should propagate to any components built from it. In other systems you may see them called primitives, or master components. We chose “base” to indicate a starting place.
 
 ### Elements
 
