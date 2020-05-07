@@ -44,6 +44,16 @@ Todo: Add demo
 
 Tables use column sorting rather than [list sorting](/components/sorting). The default sort direction of a table can be up or down depending on the use case and is indicated in the table header using an arrow icon. [See sorting guidelines](/components/sorting/)
 
+Sorting is designed as a native functionality of tables. For sorting on [static lists](/components/list), use the [List sorting](/components/sorting) component.
+
+The default sort direction of a table is usually ordered by one specific column attribute, such as status, last updated, or priority. Sorting is indicated in the table header using the [chevron down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-down) and [chevron up](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-up) icons. 
+    
+Clicking the icon will sort the rows based on the selected column, in ascending order first, and subsequently toggling between ascending and descending order. 
+    
+Sorting can be disabled to prevent users from changing the sorting order of a column. The default order will utilize one specific attribute.
+    
+The sorting icon and functionality should not be visible on responsive tables.
+
 Todo: Add demo
 
 ### Pagination, lazy load & infinite scroll
