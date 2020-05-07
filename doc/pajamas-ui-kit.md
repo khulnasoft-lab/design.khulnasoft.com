@@ -125,7 +125,7 @@ Objects within a component will use constraints when they need to maintain their
 
 ### Using Auto Layout
 
-Components with Auto Layout dynamically resize based on the content within. This works well for components that need to maintain padding and spacing. With the current Auto Layout capabilities, a good rule of thumb is to use it when the component grows either vertically or horizontally, but not both. A button is a good candidate for Auto Layout, because it can resize horizontally based on label length and whether or not icons are included.
+Components with Auto Layout dynamically resize based on the content within. This works well for components that need to maintain padding and spacing. With the current Auto Layout capabilities, a good rule of thumb is to use it when the component grows either vertically or horizontally, but not both. A button is a good candidate for Auto Layout, because it can resize horizontally based on label length, and whether or not icons are included.
 
 [Using Auto Layout →][figma-docs-auto-layout]
 
