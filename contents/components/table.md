@@ -58,7 +58,7 @@ Table rows can include additional actions located in their far-right column. The
 
 Todo: Add demo
 
-## Content
+## Anatomy
 
 ### Headers
 
