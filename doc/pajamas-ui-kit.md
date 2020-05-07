@@ -131,7 +131,7 @@ Components with Auto Layout dynamically resize based on the content within. This
 
 ## Adding descriptions, notes, and annotations
 
-There are three primary ways to add descriptive, helper content for components and design assets.
+We use three primary methods to add descriptive, helper content for components and design assets in Figma.
 
 1. **Layer**
   * Audience: designers and users of the design file
