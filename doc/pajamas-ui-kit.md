@@ -155,7 +155,7 @@ We use three primary methods to add descriptive, helper content for components a
 Figma library updates are published by a [Figma maintainer][figma-maintainers], regardless of how minor. To support our [transparency value][handbook-transparency], follow these best practices:
 
 * Changes should be reviewed by another designer in a draft before a Maintainer adds it to the Pajamas UI Kit file.
-* Before closing the Globals file, changes should be published so other designs are aware of what’s been changed, and by whom.
+* Before closing the Pajamas UI Kit file, changes should be published so other designs are aware of what’s been changed, and by whom.
 * Use dashes to list items (no formatting options for the publish message field).
 
 ## Plugins
