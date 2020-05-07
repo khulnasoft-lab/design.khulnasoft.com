@@ -29,7 +29,12 @@ Tables display tabular data in a basic grid comprised of cells, columns, and row
 
 The basic table is the default option for this component, however, additional functionality can be added to enhance the table for different use cases.
 
+## Additional functionality
+
+The default option for the table component does not include complex interactions. However, additional functionality can be added to enhance the table for different use cases.
+
 ### Search & filter
+
 
 Any filtering controls that manipulate the data set (including clickable charts) should be placed directly above the table with the option to clear all data. [See filter guidelines](/components/filter)
 
