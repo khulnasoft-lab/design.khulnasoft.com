@@ -207,6 +207,5 @@ version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](htt
 [pajamas]: https://design.gitlab.com/
 [sketch-docs]: /doc/sketch-ui-kit.md
 [sketch-figma-plugins]: https://gitlab.com/groups/gitlab-org/-/epics/2334#evaluate-sketchfigma-plugin-libraries
-[team-profile]: https://www.figma.com/@GitLab
 [figma-maintainers]: https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com_maintainers_Figma
 [ui-kit-figma]: https://www.figma.com/community/file/781156790581391771
