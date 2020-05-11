@@ -32,7 +32,9 @@ Todo: Add live component block with code example
 
 Todo: Add live component block with code example
 
-## Design specifications
+## Specifications
+
+### Design
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
