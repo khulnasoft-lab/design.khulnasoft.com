@@ -37,6 +37,9 @@ Todo: Add live component block with code example
 ### Design
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
+
+TODO: Add design specs link
+
 ### Accessibility
 
 * Use the HTML `<progress>` element.
