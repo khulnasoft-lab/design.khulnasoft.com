@@ -16,7 +16,7 @@ Use progress bars if you are measuring a percentage of a total amount of progres
 
 ### Dos and Dont’s
 
-| Do | Don't |
+| Do | Don‘t |
 | --- | --- |
 | Use a progress bar to display a percentage. | Use a progress bar as a placeholder to indicate content loading, use a [skeleton loader](/components/skeleton-loader) or [spinner](/components/spinner) instead. |
 | Include text below the progress bar to indicate total progress and the maximum potential progress |  |
