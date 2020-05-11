@@ -37,5 +37,20 @@ Todo: Add live component block with code example
 ### Design
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
+### Accessibility
+
+* Use the HTML `<progress>` element.
+* Use either a `<label>` element or `aria-label` with `<progress>` to identify what the progress is for.
+
+**Example:**
+
+`<label for="time">Time used</label>`
+`<progress id="time" value="67" max="100">67%</progress>`
+
+or
+
+`<progress id="time" value="67" max="100" aria-label="Time used">67%</progress>`
+
+The WAI-ARIA [`progressbar`](https://www.w3.org/TR/wai-aria-1.1/#progressbar) role can also be used.
 
 [View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=4265%3A20)
