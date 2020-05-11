@@ -8,7 +8,7 @@ related:
   - skeleton-loader
 ---
 
-A progress bar is a UI element that indicates a percentage of total progress. Progress bars are a way to display analytics of progress. An example of this would be [time tracking](https://gitlab.com/help/user/project/time_tracking.md). Time is just one unit you can use to display in a progress bar, there may be other units, but as long as you have a percentage of a total amount, you can use progress bars to display that visually.
+A progress bar indicates a percentage of completion. For example, time tracking in GitLab allows you to compare time spent against the estimated time to complete an issue or merge request. Time is just one measurable unit for progress, and a progress bar can be used as long as you can calculate a percentage of a total.
 
 ## Usage
 
