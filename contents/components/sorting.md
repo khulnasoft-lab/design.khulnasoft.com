@@ -29,7 +29,9 @@ Sorting allows users to quickly re-organize similar content on a long list when 
 
 ### Sorting vs filtering
 
-Sorting and filtering are closely tied. Sorting can be used independently or coexist with filtering on the same page. As they are 2 different components, filtering and sorting should be separated in the layout to avoid any confusion (For example, on the top right of your page, if filters are on the top left). Consider displaying the sorting option above the content that is being sorted so the content and the sorting function are cognitively associated. 
+Sorting and filtering are closely tied. Sorting can be used on its own or can coexist with filtering on the same page. When both sorting and filtering are available, they should be presented as separate interactions and each interaction should take place in the context of its respective component. Sorting would take place within the sorting component, and filtering within the filtering component. The two interactions shouldn't be combined.
+
+Consider separating the sorting and filtering components visually. For example, if filters are displayed on the top right of your page, sort could appear on the left. You many also want to consider displaying the sort component above the content that is being sorted so the content and the sorting function are cognitively associated. 
 
 Filtering works by hiding part of the data that would otherwise be displayed on the list. Unlike filtering, sorting doesn't hide content, but rather re-orders it based on a specified criteria. Also, in contrast to filtering, sorting never produces zero search results.
 
