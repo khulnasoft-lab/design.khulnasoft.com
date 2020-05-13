@@ -20,7 +20,7 @@ Use progress bars if you are measuring a percentage of a total amount of progres
 | --- | --- |
 | Use a progress bar to display a percentage. | Use a progress bar as a placeholder to indicate content loading, use a [skeleton loader](/components/skeleton-loader) or [spinner](/components/spinner) instead. |
 | Include text below the progress bar to indicate total progress and the maximum potential progress |  |
-| Include a tooltip on hover to indicate total amount of progress |  |
+| Include an accessible [tooltip](https://design.gitlab.com/components/tooltip) on hover to indicate total amount of progress |  |
 
 Todo: Add live component block with code example
 
