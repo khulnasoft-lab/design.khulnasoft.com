@@ -40,7 +40,7 @@ Documentation markdown is defined as any markdown that is written outside of iss
 
 ### Base
 
-`16px` is used as the base size for body copy within documentation markdown.
+`16px` is the base size of body copy for documentation markdown.
 
 ### Responsive
 
