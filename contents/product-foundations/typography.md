@@ -36,7 +36,7 @@ The `h1` and `h2` headers within our UI type scale are responsive. All other typ
 
 ## Documentation Markdown Typescale
 
-Documentation markdown is defined as any markdown that is written outside of issuable pages, such as a README or Wiki page. Content written using markdown includes typography that contains fixed margins and increased line-heights to improve readability. Label text is not available for documentation markdown because all markdown is long-form content.
+Documentation markdown is defined as any markdown that is written outside of issuable pages, such as a README or Wiki page. Content written using markdown includes typography that contains fixed margins and increased line-heights to improve readability. Label text is not available for documentation markdown because all markdown is considered long-form content.
 
 ### Base
 
