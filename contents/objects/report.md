@@ -33,7 +33,7 @@ When a user wishes to drill-down into the details of a metric or chart, the Repo
 
 - None
 
-### Layout & regions
+### Components and regions
 
 - [Breadcrumb](/components/breadcrumb)
 - Page header
