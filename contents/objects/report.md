@@ -45,8 +45,7 @@ When a user wishes to drill-down into the details of a metric or chart, the Repo
 
 *Note: Variants of this object can be created by adding/removing the optional regions*
 
-
-### Entries & exits
+Entries and exits
 
 **Typical entry-points**:
 - Embedded analytics
