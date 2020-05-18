@@ -14,7 +14,7 @@ Todo: Add codeblock showing body font variable stack
 
 Todo: Add codeblock showing monospace variable stack
 
-## UI Typescale
+## UI typescale
 
 UI typography is used for any text within the product that is not markdown.
 
