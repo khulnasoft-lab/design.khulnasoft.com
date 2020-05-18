@@ -9,7 +9,7 @@ When a user wishes to drill-down into the details of a metric or chart, the Repo
 
 ### 1. Drill-down
 
-**Job-to-be-done**: When I drill-down into the details of a metric or chart; I want to view, filter and visualise the data set; so that I can spot patterns and take action on the information.
+**Job-to-be-done**: When I drill-down into the details of a metric or chart; I want to view, filter and visualize the data set; so that I can spot patterns and take action on the information.
 
 | Stage | Description | Signal |
 | ------ | ------ | ------ |
