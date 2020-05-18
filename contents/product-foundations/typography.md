@@ -24,7 +24,7 @@ UI typography is used for any text within GitLab that is not markdown.
 
 ### Label text
 
-Our UI type scale includes label text which is used for short-form content. Label text differs from long-form text because it doesn't include margins which allows for easier alignment with other UI elements.
+Our UI type scale includes “label” text which is used for short-form content. Label text differs from long-form text because it doesn’t include margins which allows for easier alignment with other UI elements.
 
 Long-form content includes copy in modals and empty states, whereas short-form content includes help text and popover messages.
 
