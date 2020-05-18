@@ -54,7 +54,7 @@ Within certain views, the markdown type scale is decreased in order to more clos
 
 ### Base
 
-`14px` is used as the base size for body copy within compact markdown.
+`14px` is the base size of body copy for compact markdown.
 
 ### Responsive
 
