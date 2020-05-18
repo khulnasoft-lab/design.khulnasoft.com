@@ -50,7 +50,7 @@ Entries and exits
 **Typical entry-points**:
 - Embedded analytics
 - Dashboard object
-- Project & group sidebar navigation
+- Project and group sidebar navigation
 
 **Typical exit-points**:
 - Individual objects (e.g. Merge Request or Issue page)
