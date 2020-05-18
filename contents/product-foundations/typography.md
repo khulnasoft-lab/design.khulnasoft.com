@@ -34,7 +34,7 @@ The `h1` and `h2` headers within our UI type scale are responsive. All other typ
 
 [View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=542%3A334)
 
-## Documentation Markdown Typescale
+## Documentation markdown typescale
 
 Documentation markdown is defined as any markdown that is written outside of issuable pages, such as a README or Wiki page. Content written using markdown includes typography that contains fixed margins and increased line-heights to improve readability. Label text is not available for documentation markdown because all markdown is considered long-form content.
 
