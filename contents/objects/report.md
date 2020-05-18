@@ -53,6 +53,6 @@ Entries and exits
 - Project and group sidebar navigation
 
 **Typical exit-points**:
-- Individual objects (e.g. Merge Request or Issue page)
-- Page actions (e.g. share chart or export table)
-- Back to entry-point (e.g. back to dashboard)
+- Individual object, for example, a Merge Request or Issue
+- Page action, for example, a share chart or export table
+- Back to entry-point, for example, a back to dashboard action
