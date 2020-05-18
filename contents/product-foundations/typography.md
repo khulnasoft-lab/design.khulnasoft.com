@@ -48,7 +48,7 @@ The `h1`, `h2`, and `h3` headers within our documentation markdown scale are res
 
 [View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=542%3A2)
 
-## Compact Markdown Typescale
+## Compact markdown typescale
 
 Within certain views, the markdown type scale is decreased in order to more closely align copy with other UI components. Compact markdown is used for descriptions and comments on issue and merge request pages. Label text is not available for compact markdown because all markdown is long-form content.
 
