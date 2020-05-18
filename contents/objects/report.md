@@ -3,7 +3,7 @@ name: Report
 ---
 
 ## Overview
-The Report object is the standard template for showing a granular data set to a user. When a user wishes to drill-down into the details of a metric or chart, the Report object is the destination where they end up. The Report object allows users to scope the data set with filters and visualise the data set with a table and chart. This works hand-in-hand with the Generic Metrics API.
+When a user wishes to drill-down into the details of a metric or chart, the Report object is the destination, and the standard template for showing the granular data set. It allows users to scope the data set with filters, and visualize the data set with a table and chart. This works hand-in-hand with the Generic Metrics API.
 
 ## Primary workflows
 
