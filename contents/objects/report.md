@@ -2,24 +2,23 @@
 name: Report
 ---
 
-## Overview
 When a user wishes to drill-down into the details of a metric or chart, the Report object is the destination, and the standard template for showing the granular data set. It allows users to scope the data set with filters, and visualize the data set with a table and chart. This works hand-in-hand with the Generic Metrics API.
 
 ## Primary workflows
 
-### 1. Drill-down
+### Workflow 1: Drill-down
 
 **Job-to-be-done**: When I drill-down into the details of a metric or chart; I want to view, filter and visualize the data set; so that I can spot patterns and take action on the information.
 
 | Stage | Description | Signal |
 | ------ | ------ | ------ |
 | **Awareness** | User becomes aware that the data is available | Interacts with embedded analytics, dashboard or navigation |
-| **Understanding** | User navigates to analytics page and scans the page for anything useful at a high-level | Page dwell, on-hovers, scrolling |
+| **Understanding** | User navigates to analytics page and scans the page for anything useful at a high-level | Page dwell, component hover interactions, scrolling |
 | **Scoping** | User scopes the content shown from the dataset to something they’re interested in | Filters |
 | **Exploring** | User manipulates the visualization of the dataset and deep-dives to uncover insight | Interacts with chart & table |
 | **Actioning** | User takes action on the information they uncovered | Clicks on table action buttons |
 
-### 2. Create custom report
+### Workflow 2: Create custom report
 
 **Job-to-be-done**: When I have a specific data set of interest; I want to create a custom Report with saved filters, views and table columns; so that I can regularly analyse, share or report on the information.
 
