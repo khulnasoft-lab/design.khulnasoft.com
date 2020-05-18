@@ -20,7 +20,7 @@ UI typography is used for any text within GitLab that is not markdown.
 
 ### Base
 
-`14px` is used as the base size for body copy within UI typography.
+`14px` is the base size of body copy for UI typography.
 
 ### Label text
 
