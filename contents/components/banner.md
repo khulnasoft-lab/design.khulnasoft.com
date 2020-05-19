@@ -57,7 +57,7 @@ Banner dismissal should work as follows:
 * Banners should only be shown to users who are logged in. This is not currently enforced but is trivial to add manually on each individual banner. We highly recommend specifying this behavior.
 
 **Implementation Notes:**
-*  * The dismissal of the banner is achieved using the `UserCallout` model on the backend and the `PersistentUserCallout` JS file on the frontend. If both parameters are implemented correctly, the banner will adhere to the dismissal guidelines above.
+* The dismissal of the banner is achieved using the `UserCallout` model on the backend and the `PersistentUserCallout` JS file on the frontend. If both parameters are implemented correctly, the banner will adhere to the dismissal guidelines above.
 
 
 #### Header
