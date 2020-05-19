@@ -32,7 +32,7 @@ Todo: Add live component block with code example
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
-TODO: Add design specs link
+[View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=4265%3A20)
 
 ### Accessibility
 
@@ -50,4 +50,3 @@ or
 
 The WAI-ARIA [`progressbar`](https://www.w3.org/TR/wai-aria-1.1/#progressbar) role can also be used.
 
-[View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=4265%3A20)
