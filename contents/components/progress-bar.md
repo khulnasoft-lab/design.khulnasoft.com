@@ -11,10 +11,6 @@ related:
 
 A progress bar indicates a percentage of completion. For example, time tracking in GitLab allows you to compare time spent against the estimated time to complete an issue or merge request. Time is just one measurable unit for progress, and a progress bar can be used as long as you can calculate a percentage of a total.
 
-## Usage
-
-Use progress bars if you are measuring a percentage of a total amount of progress. Units can include things like time. If you are displaying a percentage of total time spent on tasks, it is appropriate to use a progress bar to display that in a visual way.
-
 ### Dos and Dont’s
 
 | Do | Don‘t |
