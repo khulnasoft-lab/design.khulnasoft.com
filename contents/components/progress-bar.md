@@ -18,8 +18,6 @@ A progress bar indicates a percentage of completion. For example, time tracking 
 | Use a progress bar to display a percentage. | Use a progress bar as a placeholder to indicate content loading, use a [skeleton loader](/components/skeleton-loader) or [spinner](/components/spinner) instead. |
 | Include text below the progress bar to indicate total progress and the maximum potential progress |  |
 
-Todo: Add live component block with code example
-
 ## Demo
 
 <!--
