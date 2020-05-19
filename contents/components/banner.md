@@ -53,7 +53,6 @@ The dismiss action is always represented by the `Close` icon and anchored to the
 Banner dismissal should work as follows:
 * Banner dismissal must be associated with the user in the system database. Dismissal must persist, even across version upgrades and clients.
 * Banners do not reappear by default. In rare circumstances, you may present the banner again to a user after some time has passed.
-  * In rare cases, it makes sense to show a user a banner again after some time has passed. This functionality is available.
 * Banners should only be shown to users who are logged in. This is not currently enforced but is trivial to add manually on each individual banner. We highly recommend specifying this behavior.
 
 **Implementation Notes:**
