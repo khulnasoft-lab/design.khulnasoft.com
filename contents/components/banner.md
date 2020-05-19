@@ -51,7 +51,7 @@ Use a container to bound the banner within the page or page section. This is imp
 The dismiss action is always represented by the `Close` icon and anchored to the top right of the banner.
 
 Banner dismissal should work as follows:
-* Banner dismissal must be associated with the user in the system database, and it must persist, even across version upgrades.
+* Banner dismissal must be associated with the user in the system database. Dismissal must persist, even across version upgrades and clients.
 * If a user accesses GitLab with different clients, the dismissal state must be consistent and the user has zero chance of seeing that banner again.
   * In rare cases, it makes sense to show a user a banner again after some time has passed. This functionality is available.
 * Banners should only be shown to users who are logged in. This is not currently enforced but is trivial to add manually on each individual banner. We highly recommend specifying this behavior.
