@@ -13,7 +13,7 @@ When a user wishes to drill-down into the details of a metric or chart, the Repo
 | Stage | Description | Signal |
 | ------ | ------ | ------ |
 | **Awareness** | User becomes aware that the data is available | Interacts with embedded analytics, dashboard or navigation |
-| **Understanding** | User navigates to analytics page and scans the page for anything useful at a high-level | Page dwell, component hover interactions, scrolling |
+| **Understanding** | User navigates to analytics page and scans the page for anything useful at a high-level | Page dwell, hover interactions, scrolling |
 | **Scoping** | User scopes the content shown from the dataset to something they’re interested in | Filters |
 | **Exploring** | User manipulates the visualization of the dataset and deep-dives to uncover insight | Interacts with chart & table |
 | **Actioning** | User takes action on the information they uncovered | Clicks on table action buttons |
