@@ -54,7 +54,7 @@ Leaves are the smallest element possible within the tree. The title should be as
 
 Using the hierarchy structure set up above, our overall tree should look like the following:
 
-Todo: add tree example
+[View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=6175%3A17)
 
 ## Design specifications
 
