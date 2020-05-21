@@ -100,7 +100,7 @@ export default {
         >
           <gl-tab
             title="Design"
-            active
+            :active="this.$route.query.tab = 'design' ? true : false"
             class="p-t-3 js-gl-tab"
           >
             <md-display :md="componentBody" />
@@ -108,6 +108,7 @@ export default {
           </gl-tab>
           <gl-tab
             title="Vue Component"
+            active
             class="app-styles js-gl-tab"
           >
             <div class="pt-3">
