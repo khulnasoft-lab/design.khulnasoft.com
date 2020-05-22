@@ -10,7 +10,7 @@ related:
   - filter
 ---
 
-Tables are used to render tabular data in a basic grid, making it easier for people to scan it. Tables are comprised of cells, columns, and rows.
+Tables display tabular data in a basic grid comprised of cells, columns, and rows. This format makes it easy for users to scan large amounts of data.
 
 ## Usage
 
@@ -38,45 +38,15 @@ Do not use tables to:
 - Display contained content and actions on a single topic. Use [Cards](/components/cards) instead.
 - For hierarchical structures. Use the [Tree](/components/tree) view instead.
 
-## Layout
+### Basic table
 
-Tables take up the full width of their container element. However, it is important to note that wide tables make it difficult to read and scan small amounts of content, because the data is widely separated. For legibility, ensure content is laid out and aligned properly.
+The basic table is the default option for this component, however, additional functionality can be added to enhance the table for different use cases.
 
-Don’t simply shrink an entire table to fit the viewport or apply a fixed width to a table to the point that it compromises legibility. The same way stretching tables 100% to the width of the viewport is not recommended, a small, shrunken table view can create a cluttered interface. Use a responsive table view instead.
+## Additional functionality
 
-Prevent horizontal scrolling to ensure the table doesn't break the layout. Tables work across multiple screen sizes and conform to [responsive guidelines](/components/tables/#responsiveness).
+#### Search & filter
 
-### Empty state
-
-A table's empty state displays when there is no data, yet. [See empty states guidelines](/regions/empty-states).
-
-### Content alignment
-
-Left align content by importance, based on the information needs of your users. In some circumstances, right aligning data helps with comprehension. For example, numeric data is easier to read when right aligned. To aid scanning on right-aligned data, make sure to use the same number of decimal places for all numeric data. Tables may switch their alignment for right-to-left audiences as well.
-
-Todo: Add live component block with code example of table alignment -- mixed data
-
-Text in tables tends to end up in narrow columns. Don't justify or center the text; it causes confusion and harms readability.
-
-## Table anatomy
-
-### Cells
-
-A cell’s width and height will change according to its content.
-
-It is possible to hyphenate the text inside table cells, but note that hyphens are language sensitive. The ability to find break opportunities depends on the language, defined in the `lang` attribute of a parent element, and support depends on the specific browser.
-
-#### Truncation
-
-To fit a long string of text into a table cell, you can shorten the text with an ellipsis (“...”) to show exactly where the text is truncated. On hover, the truncated text should display a tooltip that includes the full text. [See tooltips guidelines](/components/tooltips)
-
-#### Empty values
-
-If a cell is empty or unavailable, keep the cell empty to reduce noise and help with legibility.
-
-### Columns
-
-Avoid making all the columns an even width. The table columns should be sized according to the data they contain. Columns of small content should be narrow, while columns of paragraphs should be relatively wide. Allow the browser to lay out the tables according to the viewport size.
+Any filtering controls that manipulate the data set (including clickable charts) should be placed directly above the table with the option to clear all data. [See filter guidelines](/components/filter)
 
 #### Ordering & sorting
 
@@ -88,9 +58,21 @@ When sorting is enabled for the table, a [sorting icon](https://gitlab-org.gitla
 
 Sorting can be disabled to prevent users from changing the sorting order of a column. The default order will utilize one specific attribute.
 
-### Rows
+#### Pagination
 
-Rows can have a mix of read-only and editable cells with content populated by users. When designing a table, make sure the cells work well together and fit nicely in the rows.
+Tables can include pagination. Pagination works by presenting a set number of rows in a view, with the ability to navigate to another set. [See pagination guidelines](/components/pagination)
+
+Tables with more than 20 items require pagination which is always located below the table and takes the form of a button group. Pagination is generally not required on tables with 20 or fewer items.
+
+Todo: Add live component block with code example including pagination
+
+#### Additional actions
+
+Table rows can include additional actions located in their far-right column. These actions should be visible at all times rather than showing on-hover. If there are two or more actions in a table row, consider using a button group or a [“more menu” button](/components/button#ellipsis) with a dropdown list option.
+
+Todo: Add demo
+
+## Anatomy
 
 ### Header
 
@@ -100,23 +82,51 @@ Always use column or row headers, unless all columns in a table have self-descri
 
 Todo: Add live component block with code example of Audit Events table
 
-## Interaction
+### Cells
 
-When including triggers to manipulate the data, such as filters, they should be placed directly above the table.
+A cell’s width and height will change according to its content.
 
-Additional actions a user can take from an individual table row are displayed in the far right column, and are visible at all times (no on-hover visibility). If there are two or more actions in a table row, consider using a button group or a ["more menu" button](/components/button#ellipsis) with a dropdown list option.
+It is possible to hyphenate the text inside table cells, but note that hyphens are language sensitive. The ability to find break opportunities depends on the language, defined in the `lang` attribute of a parent element, and support depends on the specific browser.
 
-It is also possible to use in-line links to provide additional information to other items in the table or route the user to a different page.
+### Columns
 
-## Pagination
+Avoid making all the columns an even width. The table columns should be sized according to the data they contain. Columns of small content should be narrow, while columns of paragraphs should be relatively wide. Allow the browser to lay out the tables according to the viewport size.
 
-Tables can include pagination. Pagination works by presenting a set number of rows in a view, with the ability to navigate to another set. [See pagination guidelines](/components/pagination)
+### Rows
 
-Tables with more than 20 items require pagination which is always located below the table and takes the form of a button group. Pagination is generally not required on tables with 20 or fewer items.
+Rows can have a mix of read-only and editable cells with content populated by users. When designing a table, make sure the cells work well together and fit nicely in the rows.
 
-Todo: Add live component block with code example including pagination
+### Layout
 
-## Styling
+Tables take up the full width of their container element. However, it is important to note that wide tables make it difficult to read and scan small amounts of content, because the data is widely separated. For legibility, ensure content is laid out and aligned properly.
+
+Don’t simply shrink an entire table to fit the viewport or apply a fixed width to a table to the point that it compromises legibility. The same way stretching tables 100% to the width of the viewport is not recommended, a small, shrunken table view can create a cluttered interface. Use a responsive table view instead.
+
+Prevent horizontal scrolling to ensure the table doesn't break the layout. Tables work across multiple screen sizes and conform to [responsive guidelines](/components/tables/#responsiveness).
+
+## Content
+
+### Empty state
+
+A table's empty state displays when there is no data, yet. [See empty states guidelines](/regions/empty-states).
+
+### Text alignment
+
+Left align content by importance, based on the information needs of your users. In some circumstances, right aligning data helps with comprehension. For example, numeric data is easier to read when right aligned. To aid scanning on right-aligned data, make sure to use the same number of decimal places for all numeric data. Tables may switch their alignment for right-to-left audiences as well.
+
+Todo: Add live component block with code example of table alignment -- mixed data
+
+Text in tables tends to end up in narrow columns. Don't justify or center the text; it causes confusion and harms readability.
+
+#### Truncation
+
+To fit a long string of text into a table cell, you can shorten the text with an ellipsis (“...”) to show exactly where the text is truncated. On hover, the truncated text should display a tooltip that includes the full text. [See tooltips guidelines](/components/tooltips)
+
+#### Null values
+
+If a cell is empty or unavailable, keep the cell empty to reduce noise and help with legibility.
+
+#### Styling
 
 Use white space in tables to improve scannability, visually separating data elements so that each can be individually identified and read as separate from the others.
 
@@ -149,3 +159,7 @@ Todo: Add live component block with code example
 View the following links to see color, spacing, dimension, and layout-specific information pertaining to this component:
 
 [Sketch Measure Preview for Tables](https://gitlab-org.gitlab.io/gitlab-design/hosted/design-gitlab-specs/tables-spec-previews/)
+
+## Links
+
+- [Code Review Analytics + Table Component: Design evaluation & usability testing](https://gitlab.com/groups/gitlab-org/-/epics/2954)
