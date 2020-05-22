@@ -116,7 +116,7 @@
           </div>
           <div class="col col-33 d-flex flex-column align-items-center justify-content-center">
             <a
-              href="https://www.figma.com/community/file/781156790581391771/Pajamas-UI-Kit/"
+              href="https://www.figma.com/community/file/781156790581391771/"
               target="_blank"
               class="text-center"
             >
