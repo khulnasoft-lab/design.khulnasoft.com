@@ -128,7 +128,7 @@
                 alt=""
               />
               <span class="d-block p-a-3">
-                Download our Sketch UI Kit
+                Duplicate our Figma UI Kit
               </span>
             </a>
           </div>
