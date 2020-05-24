@@ -24,7 +24,7 @@ When a user wishes to drill-down into the details of a metric or chart, the Repo
 
 | Stage | Description | Signal |
 | ------ | ------ | ------ |
-| TODO: Add stages | TODO: Add descriptions | TODO: Add signals |
+| Todo: Add stages | Todo: Add descriptions | Todo: Add signals |
 
 ## Anatomy
 
