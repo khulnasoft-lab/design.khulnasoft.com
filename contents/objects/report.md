@@ -20,7 +20,7 @@ When a user wishes to drill-down into the details of a metric or chart, the Repo
 
 ### Workflow 2: Create custom report
 
-**Job-to-be-done**: When I have a specific data set of interest; I want to create a custom Report with saved filters, views and table columns; so that I can regularly analyse, share or report on the information.
+**Job-to-be-done**: When I have a specific data set of interest; I want to create a custom Report with saved filters, views and table columns; so that I can regularly analyze, share, or report on the information.
 
 | Stage | Description | Signal |
 | ------ | ------ | ------ |
