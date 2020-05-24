@@ -2,7 +2,7 @@
 name: Report
 ---
 
-When a user wishes to drill-down into the details of a metric or chart, the Report object is the destination, and the standard template for showing the granular data set. It allows users to scope the data set with filters, and visualize the data set with a table and chart. This works hand-in-hand with the Generic Metrics API.
+When a user wishes to drill-down into the details of a metric or chart, the Report object is the destination, and the standard template for showing the granular data set. It allows users to scope the data set with filters, and visualize the data set with a table and chart. This works hand-in-hand with the [Generic Metrics API](https://gitlab.com/groups/gitlab-org/-/epics/3105).
 
 ## Primary workflows
 
