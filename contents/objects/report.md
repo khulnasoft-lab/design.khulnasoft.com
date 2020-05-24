@@ -42,7 +42,7 @@ When a user wishes to drill-down into the details of a metric or chart, the Repo
 - [Chart](/components/charts) (optional)
 - [Table](/components/table)
 
-*Note: Variants of this object can be created by adding/removing the optional regions*
+*Note: Variants of this object can be created by adding/removing the optional components/regions*
 
 Entries and exits
 
