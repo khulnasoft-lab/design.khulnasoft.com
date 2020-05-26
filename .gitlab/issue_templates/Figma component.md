@@ -47,6 +47,6 @@ merge request. Use `View design in Pajamas UI Kit →` for the link text. This r
 any link to Sketch Measure specs. Anyone with the link should be able to view the file. 
 1. [ ] **Assignee**: [Create an issue in GitLab UI](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/new)
 to build or update the component. Mark the new issue as related to this one.
-1. [ ] **Assignee**: Once the follow up issue is made, close this issue. 
+1. [ ] **Assignee**: 🎉 Congrats, you made it! You can now close this issue. 
 
 /label ~"UX" ~"Figma"
