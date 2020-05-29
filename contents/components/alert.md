@@ -53,7 +53,7 @@ Place alerts on top of the page when they’re referring to something that happe
 
 ### Global alerts
 
-Use a global alert when something affects the system at large. For example, “Your subscription has expired.” These alerts should be the full width of the page and placed directly below the navigation bar and above the breadcrumbs with a surrounding margin to separate it from the page content.
+Use a global alert when something affects the system at large. For example, “Your subscription has expired.” Global alerts should be positioned the same as page-level alerts, but they should be full width instead of being constrained by the page's content container width. They should have a surrounding margin to separate the alert from the page content.
 
 ### Embedded alerts
 
