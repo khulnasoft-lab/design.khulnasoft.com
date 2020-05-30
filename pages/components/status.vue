@@ -67,6 +67,7 @@ export default {
               <th class="header">Docs - Vue</th>
               <th class="header">GitLab UI</th>
               <th class="header">Accessibility</th>
+              <th class="header">Responsive</th>
             </tr>
             <tr
               v-for="component in contentTree.components"
