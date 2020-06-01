@@ -15,7 +15,38 @@ Use [system cursors](#cursors) to indicate when an element is draggable. The `gr
 
 ### Usage
 
-This interaction model is used to transform the position of elements. Usually, these are items in collections with other similar items. When moving items across collections, the collections should be similar in content.
+#### Draggable items
+
+Items contained in a list can be draggable to help a user manually reorder them. The direction of list items follows a top to bottom order.
+
+<!-- What happens if the object is particularly tall or wide (maybe even taller or wider than the area it is being previewed in)? An example of this would be dragging a tall board list or board swimlane (where the item could potentially be >1x the height of the screen. -->
+<!-- What does a draggable item look like? How does it respond when dragging? -->
+
+On drag, draggable items should be minimized to only show their title. For example, if you’re dragging a swimlane in issue boards, it would only it‘s title and it would hide the rest of it‘s content until it‘s dropped. This allows more drop areas to be visible and not be blocked by large draggable items. 
+
+<!-- How do we best afford that an object can be dragged? How might we make good use of our drag handle icons? -->
+
+Aside from having a box shadow to indicate that an item is draggable, the “grab“ cursor should appear when hovering to indicate that an item is draggable, and a subtle dot texture should appear to the left of the title. 
+
+Todo: Add visual example of subtle dot texture 
+<!-- Where and how should we provide guidance on which axis a user can drag? -->
+
+<!-- How do users "undo" or "abort" the drag action while it is happening or right after? -->
+<!-- How do we confirm an action has taken place as intended? Any microinteractions around dragging, landing/snapping in place, undoing? -->
+
+After dropping a draggable item, a toast should appear to indicate the order of draggable items has changed. That toast should contain an undo link to undo the previous dragged action. After clicking `Undo`, the previously dragged item will return to it‘s original position. A keyboard shortcut to undo a dropped item is to press `ctrl + z` to `undo` the dropped action. Once the drop is undone, the dropped item would initiate a short animation to visually indicate it‘s back into it‘s original position.
+
+<!-- This interaction model is used to transform the position of elements. Usually, these are items in collections with other similar items. When moving items across collections, the collections should be similar in content. -->
+
+#### Dropzone
+
+<!-- Could we simplify this drop target design in some way? Does it need to be a preview of the object, or can it be its own design? -->
+
+When dragging an item over a droppable area, a solid blue line should appear to show that an item can be dropped in that area. 
+
+<!-- How do we indicate that a drop target is not viable, that a user can't drag an object somewhere, and why? -->
+
+#### Limitations
 
 Drag and drop should be disabled if the collection is sorted by a specific attribute, as the logic of either contradicts the other. Example: you cannot manually reorder issues if they are sorted by popularity.
 
