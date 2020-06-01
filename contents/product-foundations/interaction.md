@@ -21,8 +21,7 @@ Use [system cursors](#cursors) to indicate when an element is draggable. The `gr
 
 <!-- What does a draggable item look like? How does it respond when dragging? -->
 
-<!-- Currently we show the entire object on drag. If the user is dragging a large object- this could get unusable fast.
-Is there some kind of minimized state of an object we could provide on drag? -->
+<!-- Currently we show the entire object on drag. If the user is dragging a large object- this could get unusable fast. Is there some kind of minimized state of an object we could provide on drag? -->
 
 <!-- How do we best afford that an object can be dragged? How might we make good use of our drag handle icons? -->
 
