@@ -15,7 +15,32 @@ Use [system cursors](#cursors) to indicate when an element is draggable. The `gr
 
 ### Usage
 
-This interaction model is used to transform the position of elements. Usually, these are items in collections with other similar items. When moving items across collections, the collections should be similar in content.
+#### Draggable items
+
+<!-- What happens if the object is particularly tall or wide (maybe even taller or wider than the area it is being previewed in)? An example of this would be dragging a tall board list or board swimlane (where the item could potentially be >1x the height of the screen. -->
+
+<!-- What does a draggable item look like? How does it respond when dragging? -->
+
+<!-- Currently we show the entire object on drag. If the user is dragging a large object- this could get unusable fast.
+Is there some kind of minimized state of an object we could provide on drag? -->
+
+<!-- How do we best afford that an object can be dragged? How might we make good use of our drag handle icons? -->
+
+<!-- Where and how should we provide guidance on which axis a user can drag? -->
+
+<!-- How do users "undo" or "abort" the drag action while it is happening or right after? -->
+
+<!-- How do we confirm an action has taken place as intended? Any microinteractions around dragging, landing/snapping in place, undoing? -->
+
+<!-- This interaction model is used to transform the position of elements. Usually, these are items in collections with other similar items. When moving items across collections, the collections should be similar in content. -->
+
+#### Dropzone
+
+<!-- Could we simplify this drop target design in some way? Does it need to be a preview of the object, or can it be its own design? -->
+
+<!-- How do we indicate that a drop target is not viable, that a user can't drag an object somewhere, and why? -->
+
+#### Limitations
 
 Drag and drop should be disabled if the collection is sorted by a specific attribute, as the logic of either contradicts the other. Example: you cannot manually reorder issues if they are sorted by popularity.
 
