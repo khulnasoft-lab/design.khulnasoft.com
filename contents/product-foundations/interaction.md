@@ -15,7 +15,24 @@ Use [system cursors](#cursors) to indicate when an element is draggable. The `gr
 
 ### Usage
 
-This interaction model is used to transform the position of elements. Usually, these are items in collections with other similar items. When moving items across collections, the collections should be similar in content.
+#### Draggable items
+
+Items contained in a list can be draggable to help a user manually reorder them. The direction of list items follows a top to bottom order.
+
+On drag, draggable items should be minimized to only show their title. For example, if you’re dragging a swimlane in issue boards, it would only it‘s title and it would hide the rest of it‘s content until it‘s dropped. This allows more drop areas to be visible and not be blocked by large draggable items.
+
+Aside from having a box shadow to indicate that an item is draggable, the “grab“ cursor should appear when hovering to indicate that an item is draggable, and a subtle dot texture should appear to the left of the title.
+
+Todo: Add visual example of subtle dot texture
+
+After dropping a draggable item, a toast should appear to indicate the order of draggable items has changed. That toast should contain an undo link to undo the previous dragged action. After clicking `Undo`, the previously dragged item will return to it‘s original position. A keyboard shortcut to undo a dropped item is to press `ctrl + z` to `undo` the dropped action.
+
+#### On drop
+
+- When dragging an item over a droppable area, a solid blue line should appear to show that an item can be dropped in that area.
+- Dropped items will display a short animation to visually indicate the drop of that item has been completed. 
+
+#### Limitations
 
 Drag and drop should be disabled if the collection is sorted by a specific attribute, as the logic of either contradicts the other. Example: you cannot manually reorder issues if they are sorted by popularity.
 
