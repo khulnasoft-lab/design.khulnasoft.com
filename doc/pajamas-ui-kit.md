@@ -43,7 +43,7 @@ to contribute to GitLab in a way that is efficient for everyone.
 
 ## Contributions to Pajamas UI Kit
 
-Everyone can contribute to GitLab. To contribute to our [Pajamas UI Kit][https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit], follow these steps:
+Everyone can contribute to GitLab. To contribute to our [Pajamas UI Kit][ui-kit-figma], follow these steps:
 
 1. [Create an issue][new-issue] (or assign yourself an existing one) for the work you’re doing. To create a new component, use the [Figma component issue template](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/new?issuable_template=Figma%20component).
 1. Choose one of the following based on your contribution:
