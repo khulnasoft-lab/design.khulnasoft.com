@@ -61,6 +61,13 @@ module.exports = {
     routes,
   },
 
+  router: {
+    extendRoutes(originalRoutes) {
+      const sectionSlugRoute = originalRoutes.find(route => route.name === 'section-slug');
+      sectionSlugRoute.path += '/:tab?';
+    },
+  },
+
   axios: {
     browserBaseURL: '/',
   },
