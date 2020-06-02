@@ -145,7 +145,7 @@ We use three primary methods to add descriptive, helper content for components a
 1. **Component description**
   * Audience: designers who are referencing or using final components in new designs
   * Use descriptions to identify the purpose and intended use of the component
-  * Consider using keywords in the description as meta for search. e.g., “Keywords: wrench, tool, admin” used for a wrench icon that is used to represent admin in the product.
+  * Consider using keywords in the description as meta for search. For example, “Keywords: wrench, tool, admin” used for a wrench icon that is used to represent admin in the product.
   * Consider mentioning where the component is used in the product, or for what purpose
   * Include usage notes that are applicable at the point of use
   * Keep descriptions short, when possible
