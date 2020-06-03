@@ -39,10 +39,9 @@ We accept contributions from wider community members who share a Figma [draft][f
 ## Structure
 
 With Figma, components are organized in the asset library by how they are structured and named in the file. The default hierarchy is **File/Page/Frame/Layer**. Depending on the complexity of the component, the slash convention could also be used on the frame. Here’s our working hierarchy for structure and naming, the file name has been left out for brevity:
-
-1. **Page:** [Component] <br>
-1. **Frame:** [Category], [Group], or “Variants” (“Variants” is the default frame name) <br>
-1. **Layer:** [Breakpoint/Item/Size/State] <br>
+1. **Page:** [Component]
+1. **Frame:** [Category], [Group], or “Variants” (“Variants” is the default frame name)
+1. **Layer:** [Breakpoint/Item/Size/State]
 
 * Optional breakpoints (uppercase): XS, SM, MD, LG, XL, breakpoints can also use symbols to indicate range, such as ≥MD or ≤SM
 * Optional sizes (lowercase): xs, sm, md, lg, xl, xxl
