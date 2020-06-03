@@ -55,32 +55,32 @@ We aim to keep the hierarchy [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_
 
 **Examples**
 
-**Page:** Icons <br>
-**Frame:** Actions <br>
-**Layer:** Export <br>
-**Result:** Icons/Actions/Export
+1. **Page:** Icons
+1. **Frame:** Actions
+1. **Layer:** Export
+1. **Result:** Icons/Actions/Export
 
-**Page:** Alerts <br>
-**Frame:** Variants <br>
-**Layer:** Danger <br>
-**Result:** Alerts/Variants/Danger
+1. **Page:** Alerts
+1. **Frame:** Variants
+1. **Layer:** Danger
+1. **Result:** Alerts/Variants/Danger
 
-**Page:** Pagination <br>
-**Frame:** Variants <br>
-**Layer:** ≤MD/Truncated <br>
-**Result:** Pagination/Variants/≤MD/Truncated
+1. **Page:** Pagination
+1. **Frame:** Variants
+1. **Layer:** ≤MD/Truncated
+1. **Result:** Pagination/Variants/≤MD/Truncated
 
-**Page:** Badge <br>
-**Frame:** Variants <br>
-**Layer:** Info/01 md <br>
-**Result:** Badge/Variants/Info/01 md
+1. **Page:** Badge
+1. **Frame:** Variants
+1. **Layer:** Info/01 md
+1. **Result:** Badge/Variants/Info/01 md
 
 Buttons are an example of something more complex, not because of the component, but because of the amount of variants. Since we prefer to link to one design spec frame, we could have something like this:
 
-**Page:** Buttons <br>
-**Frame:** Variants <br>
-**Layer:** Info/Primary/Default <br>
-**Result:** Buttons/Variants/Info/Primary/Default
+1. **Page:** Buttons
+1. **Frame:** Variants
+1. **Layer:** Info/Primary/Default
+1. **Result:** Buttons/Variants/Info/Primary/Default
 
 ## Building components
 
