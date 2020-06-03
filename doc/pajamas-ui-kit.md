@@ -53,7 +53,7 @@ Related components are placed within one parent frame (as opposed to one “floa
 
 We aim to keep the hierarchy [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), and focus on structure specific to component context. If we didn’t put variants within a frame, we’d prevent the naming from being verbose, but it’d be at the cost of not having a specific frame to link to as a design spec.
 
-**Examples**
+### Examples
 
 1. **Page:** Icons
 1. **Frame:** Actions
