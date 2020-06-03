@@ -27,9 +27,9 @@ Everyone can contribute to GitLab, including our UI design library in Figma, [Pa
 
 1. [Create an issue][new-issue] (or assign yourself an existing one) for the work you’re doing. To create a new component or update an existing one, use the [Figma component issue template](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/new?issuable_template=Figma%20component).
 1. Choose one of the following based on your contribution:
-  * For changes in the [Pajamas UI Kit][ui-kit-figma], duplicate the file to your drafts.
-  * To create a new component, duplicate our [component template][component-template] to your drafts.
-  * For all other changes, create a new file in your drafts.
+   - For changes in the [Pajamas UI Kit][ui-kit-figma], duplicate the file to your drafts.
+   - To create a new component, duplicate our [component template][component-template] to your drafts.
+   - For all other changes, create a new file in your drafts.
 1. Review the [Structure](#structure) section to learn about how we structure and document our work within Figma.
 1. Share a link to your draft in the issue.
 1. High-five yourself and go brew some coffee while you wait for the review. Thanks!
