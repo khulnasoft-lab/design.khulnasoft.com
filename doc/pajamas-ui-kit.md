@@ -39,12 +39,11 @@ We accept contributions from wider community members who share a Figma [draft][f
 ## Structure
 
 With Figma, components are organized in the asset library by how they are structured and named in the file. The default hierarchy is **File/Page/Frame/Layer**. Depending on the complexity of the component, the slash convention could also be used on the frame. Here’s our working hierarchy for structure and naming, the file name has been left out for brevity:
-1. **Page:** [Component]
-1. **Frame:** [Category], [Group], or “Variants” (“Variants” is the default frame name)
-1. **Layer:** [Breakpoint/Item/Size/State]
-
-* Optional breakpoints (uppercase): XS, SM, MD, LG, XL, breakpoints can also use symbols to indicate range, such as ≥MD or ≤SM
-* Optional sizes (lowercase): xs, sm, md, lg, xl, xxl
+- **Page:** [Component]
+- **Frame:** [Category], [Group], or “Variants” (“Variants” is the default frame name)
+- **Layer:** [Breakpoint/Item/Size/State]
+   - Optional breakpoints (uppercase): XS, SM, MD, LG, XL, breakpoints can also use symbols to indicate range, such as ≥MD or ≤SM
+   - Optional sizes (lowercase): xs, sm, md, lg, xl, xxl
 
 For both breakpoints and sizes, numerically prefixing the abbreviations correctly orders them in the asset library in a way that helps a user understand hierarchy (see [examples](#examples) below).
 
@@ -54,32 +53,42 @@ We aim to keep the hierarchy [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_
 
 ### Examples
 
-1. **Page:** Icons
-1. **Frame:** Actions
-1. **Layer:** Export
-1. **Result:** Icons/Actions/Export
+#### Icons
 
-1. **Page:** Alerts
-1. **Frame:** Variants
-1. **Layer:** Danger
-1. **Result:** Alerts/Variants/Danger
+- **Page:** Icons
+- **Frame:** Actions
+- **Layer:** Export
+- **Result:** Icons/Actions/Export
 
-1. **Page:** Pagination
-1. **Frame:** Variants
-1. **Layer:** ≤MD/Truncated
-1. **Result:** Pagination/Variants/≤MD/Truncated
+#### Alerts
 
-1. **Page:** Badge
-1. **Frame:** Variants
-1. **Layer:** Info/01 md
-1. **Result:** Badge/Variants/Info/01 md
+- **Page:** Alerts
+- **Frame:** Variants
+- **Layer:** Danger
+- **Result:** Alerts/Variants/Danger
+
+#### Pagination
+
+- **Page:** Pagination
+- **Frame:** Variants
+- **Layer:** ≤MD/Truncated
+- **Result:** Pagination/Variants/≤MD/Truncated
+
+#### Badge
+
+- **Page:** Badge
+- **Frame:** Variants
+- **Layer:** Info/01 md
+- **Result:** Badge/Variants/Info/01 md
+
+#### Buttons
 
 Buttons are an example of something more complex, not because of the component, but because of the amount of variants. Since we prefer to link to one design spec frame, we could have something like this:
 
-1. **Page:** Buttons
-1. **Frame:** Variants
-1. **Layer:** Info/Primary/Default
-1. **Result:** Buttons/Variants/Info/Primary/Default
+- **Page:** Buttons
+- **Frame:** Variants
+- **Layer:** Info/Primary/Default
+- **Result:** Buttons/Variants/Info/Primary/Default
 
 ## Building components
 
