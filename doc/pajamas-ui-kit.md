@@ -47,7 +47,7 @@ With Figma, components are organized in the asset library by how they are struct
 * Optional breakpoints (uppercase): XS, SM, MD, LG, XL, breakpoints can also use symbols to indicate range, such as ≥MD or ≤SM
 * Optional sizes (lowercase): xs, sm, md, lg, xl, xxl
 
-For both breakpoints and sizes, numerically prefixing the abbreviations correctly orders them in the asset library in a way that helps a user understand hierarchy (see examples below).
+For both breakpoints and sizes, numerically prefixing the abbreviations correctly orders them in the asset library in a way that helps a user understand hierarchy (see [examples](#examples) below).
 
 Related components are placed within one parent frame (as opposed to one “floating” frame for each component). For example, all button variations are inside its “Variants” frame. This way, we can link to a single Figma frame as a design spec, in the [Pajamas documentation][pajamas], issues, merge requests, and other places.
 
