@@ -178,7 +178,7 @@ version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](htt
 [figma-pilot-epic]: https://gitlab.com/groups/gitlab-org/-/epics/2334
 [handbook-transparency]: https://about.gitlab.com/handbook/values/#transparency
 [gitlab-issue-tracker]: https://gitlab.com/gitlab-org/gitlab/issues
-[new-issue]: https://gitlab.com/gitlab-org/gitlab-design/issues/new
+[new-issue]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/new
 [pajamas]: https://design.gitlab.com/
 [sketch-docs]: /doc/sketch-ui-kit.md
 [sketch-figma-plugins]: https://gitlab.com/groups/gitlab-org/-/epics/2334#evaluate-sketchfigma-plugin-libraries
