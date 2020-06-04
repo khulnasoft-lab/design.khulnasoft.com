@@ -24,7 +24,7 @@ A counter path contains stages with a "counter" badge showing the number of item
 
 Todo: Add demo
 
-### Metric paths
+### Metric path
 
 A metric path contains stages with an abbreviated metric such as 12d or 1.5h. The metric can be an integer or float, but should be limited to 5 digits maximum (and fewer when possible). Do not use multiple metric types on a single path (e.g. 1d & 6kg). 
 
