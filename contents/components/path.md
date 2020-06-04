@@ -61,8 +61,3 @@ Todo: Add design specs link
 | `→`      | Focuses and activates the next stage in the path. If the current tab is the last tab in the tab list it activates the first tab. |
 | `←`      | Focuses and activates the previous stage in the path. If the current tab is the first tab in the tab list it activates the last tab. |
 
-## Design specification
-
-Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
-
-[View Path component in Figma →](https://www.figma.com/file/IPkJnV9JOR9pdywAE7coDn/Path?node-id=1%3A70)
