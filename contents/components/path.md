@@ -18,7 +18,7 @@ A simple path only contains stages with titles.
 
 Todo: Add demo
 
-### Counter paths
+### Counter path
 
 A counter path contains stages with a "counter" badge showing the number of items it contains. If there are any "All", "Overview" or "Summary"-type stages, then the counter of that stage should equal the sum total of all the others. Counters should not be included if they break this pattern.
 
