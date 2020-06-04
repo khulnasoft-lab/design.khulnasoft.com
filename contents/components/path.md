@@ -40,7 +40,9 @@ Todo: Add demo
 
 Todo: Add demo when Value Stream Analytics functionality is released
 
-## Responsiveness
+## Specifications
+
+### Design
 
 Paths share similar overflow properties to those of [tabs](https://design.gitlab.com/components/tabs):
 - Design specifications - [View Path/Instances/Overflow](https://www.figma.com/file/IPkJnV9JOR9pdywAE7coDn/Path?node-id=1%3A70)
