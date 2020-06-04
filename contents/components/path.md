@@ -51,9 +51,9 @@ Color, spacing, dimension, and layout specific information pertaining to this co
 
 Todo: Add design specs link
 
-## Accessibility
+### Accessibility
 
-### Keyboard controls
+#### Keyboarding
 
 | Key    | Action                                                                                                                                                                                                       |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
