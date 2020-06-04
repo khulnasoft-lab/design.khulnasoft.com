@@ -44,7 +44,7 @@ Todo: Add demo when Value Stream Analytics functionality is released
 
 ### Design
 
-Paths share similar overflow properties to those of [tabs](https://design.gitlab.com/components/tabs):
+Paths share similar overflow properties as [tabs](https://design.gitlab.com/components/tabs):
 - Design specifications - [View Path/Instances/Overflow](https://www.figma.com/file/IPkJnV9JOR9pdywAE7coDn/Path?node-id=1%3A70)
 - Animation - [Overflow arrow slide animation](https://www.figma.com/proto/IFjuIcRE3YiEdd1d2J7c6b/Value-Stream-Path-rough-exploration?node-id=4220%3A2&viewport=-948%2C-100%2C2.0932257175445557&scaling=min-zoom) - 250ms, ease in & out
 
