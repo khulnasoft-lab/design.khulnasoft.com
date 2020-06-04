@@ -12,7 +12,7 @@ Paths are horizontal process flows composed of a series of “stages.” Like [t
 
 Paths are designed to be flexible. Therefore, there are a number of options and combinations which can be used to represent a process as accurately as possible...
 
-### Simple paths
+### Simple path
 
 A simple path only contains stages with titles. 
 
