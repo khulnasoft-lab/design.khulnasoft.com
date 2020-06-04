@@ -14,7 +14,7 @@ Paths are designed to be flexible. Therefore, there are a number of options and 
 
 ### Simple paths
 
-A simple path just contains stages with titles. 
+A simple path only contains stages with titles. 
 
 Todo: Add demo
 
