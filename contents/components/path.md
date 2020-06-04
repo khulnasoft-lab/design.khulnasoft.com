@@ -1,3 +1,9 @@
+---
+name: Path
+docs: in-progress
+related:
+  - tabs
+---
 
 Paths are horizontal process flows composed of a series of “stages.” Like [tabs](https://design.gitlab.com/components/tabs), paths have one stage visible at a time, while keeping other stage links available.
 
