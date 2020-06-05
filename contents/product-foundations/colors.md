@@ -731,7 +731,7 @@ Though deciding which color to use depends on the situation, here are some gener
       <div class="color">
         <div class="color-overview c-background-purple-200 p-t-3 p-r-5 p-b-3 p-l-5">
           <span class="variable">$purple-200</span>
-          <span class="hex f-small">#fcb5aa</span>
+          <span class="hex f-small">#cbbbf2</span>
         </div>
         <div class="color-details c-border-purple-200 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
