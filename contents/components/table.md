@@ -66,7 +66,7 @@ Tables with more than 20 items require pagination which is always located below 
 
 Todo: Add live component block with code example including pagination
 
-#### Additional actions
+### Additional actions
 
 It is also possible to use in-line links to provide additional information to other items in the table or route the user to a different page.
 
