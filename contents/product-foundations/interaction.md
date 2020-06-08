@@ -17,19 +17,22 @@ Use [system cursors](#cursors) to indicate when an element is draggable. The `gr
 
 #### Draggable items
 
-<!-- What happens if the object is particularly tall or wide (maybe even taller or wider than the area it is being previewed in)? An example of this would be dragging a tall board list or board swimlane (where the item could potentially be >1x the height of the screen. -->
+Items contained in a list can be draggable to help users manually order these items based on priority. The direction of the list can be from left to right or from top to bottom. If items are in a grid view, the order would be from left to right, then top to bottom. 
 
+<!-- What happens if the object is particularly tall or wide (maybe even taller or wider than the area it is being previewed in)? An example of this would be dragging a tall board list or board swimlane (where the item could potentially be >1x the height of the screen. -->
 <!-- What does a draggable item look like? How does it respond when dragging? -->
 
-<!-- Currently we show the entire object on drag. If the user is dragging a large object- this could get unusable fast. Is there some kind of minimized state of an object we could provide on drag? -->
+When an object is being dragged, it should lower it's opacity so you're able to see content behind it. To account for draggable items that extend beyond the viewport, during drag, it should minimize to contain the minimum amount of content to keep it recognizable as the item you're dragging. For example, if you are dragging a swimlane in issue boards, you would only see the swimlane title while dragging and you should not see all of the issues contained within it.
 
 <!-- How do we best afford that an object can be dragged? How might we make good use of our drag handle icons? -->
-
 <!-- Where and how should we provide guidance on which axis a user can drag? -->
 
-<!-- How do users "undo" or "abort" the drag action while it is happening or right after? -->
+When dragging an item over an area it can be dropped, a solid blue line should appear to show that an item can be dropped in that area. 
 
+<!-- How do users "undo" or "abort" the drag action while it is happening or right after? -->
 <!-- How do we confirm an action has taken place as intended? Any microinteractions around dragging, landing/snapping in place, undoing? -->
+
+After dropping a draggable item, a toast should appear to indicate the order of draggable items has changed. That toast should contain an undo link to undo the previous dragged action. This provides a shortcut to undo a moved draggable item, rather than having to re-drag that item back to it's original place. 
 
 <!-- This interaction model is used to transform the position of elements. Usually, these are items in collections with other similar items. When moving items across collections, the collections should be similar in content. -->
 
