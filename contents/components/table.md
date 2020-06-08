@@ -58,7 +58,7 @@ When sorting is enabled for the table, a [sorting icon](https://gitlab-org.gitla
 
 Sorting can be disabled to prevent users from changing the sorting order of a column. The default order will utilize one specific attribute.
 
-#### Pagination
+### Pagination
 
 Tables can include pagination. Pagination works by presenting a set number of rows in a view, with the ability to navigate to another set. [See pagination guidelines](/components/pagination)
 
