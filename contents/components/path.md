@@ -50,7 +50,9 @@ Todo: Add demo when Value Stream Analytics functionality is released
 
 ### Design
 
-Paths share similar overflow properties as [tabs](https://design.gitlab.com/components/tabs):
+Paths share similar overflow properties as [tabs](https://design.gitlab.com/components/tabs).
+
+Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
 Todo: Add design specs link
 
