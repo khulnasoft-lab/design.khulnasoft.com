@@ -13,7 +13,7 @@ Paths are horizontal process flows composed of a series of “stages.” Like [t
 
 | Do | Don’t |
 |-----------------------|------------------------|
-| Use paths rather than tabs when there is a process with unique content at each stage (e.g. [DevOps lifecycle](https://about.gitlab.com/stages-devops-lifecycle/)). | Paths should not be nested. |
+| Use paths rather than tabs when there is a process with unique content at each stage, for example, a [DevOps lifecycle](https://about.gitlab.com/stages-devops-lifecycle/). | Paths should not be nested. |
 |  | Paths should not be used as an indicator of a user’s progress within a process, for example, in a checkout flow. |
 
 Paths are designed to be flexible. Therefore, there are a number of options and combinations which can be used to represent a process as accurately as possible...
