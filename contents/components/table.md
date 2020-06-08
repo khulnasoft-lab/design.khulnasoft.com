@@ -48,7 +48,7 @@ The basic table is the default option for this component, however, additional fu
 
 Any filtering controls that manipulate the data set should be placed directly above the table with the option to clear all data. [See filter guidelines](/components/filter)
 
-#### Ordering & sorting
+### Ordering & sorting
 
 The data set of a table is usually ordered by one specific column representing an attribute, such as status, last updated, or priority.
 
