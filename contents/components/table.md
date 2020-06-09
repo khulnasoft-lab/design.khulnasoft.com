@@ -40,7 +40,7 @@ Do not use tables to:
 
 ### Basic table
 
-The basic table is the default option for this component, however, additional functionality can be added to enhance the table for different use cases.
+The basic table is the default option for this component. However, additional functionality can be added to enhance the table for different use cases.
 
 ## Additional functionality
 
