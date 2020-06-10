@@ -74,6 +74,10 @@ There are times when using an alternative component other than an alert is neces
 | [Validation error](https://design.gitlab.com/components/forms#validation) | Notification of an invalid action | Use an error when the user has entered invalid characters into the project name field. | A validation error is tied to a specific invalid action that the user performed, whereas danger alerts inform users of when something has gone wrong separate from any immediate action the user has taken. |
 | [Toast](https://design.gitlab.com/components/toast) | Immediate confirmation of an action | Use a toast when the user has dismissed a vulnerability and it no longer appears in the list. |  We want to immediately reaffirm to the user the system recognized their action and that no further action is needed on their part. |
 
+## Styling
+
+As alerts feature backgrounds of various colors, links have a pre configured color that relates and contrasts to the background color. Additionally, they feature an underline by default.
+
 ## Demo
 
 The alert pattern is designed to be flexible and accounts for as many use cases as possible.
