@@ -4,7 +4,7 @@ name: Typography
 
 ## Typeface
 
-GitLab utilizes a system font stack. System fonts are the default fonts used by any given OS, helping performance by eliminating the need to download font files.
+GitLab utilizes a system font stack, which references the default system fonts used by any given OS. Using system fonts helps performance by eliminating the need to download font files, and maintains the language support of the user’s system.
 
 ### Body font stack
 
