@@ -44,7 +44,9 @@ Any filtering controls that manipulate the data set should be placed directly ab
 
 ### Ordering & sorting
 
-Tables use column sorting rather than [list sorting](/components/sorting). The default sort direction of a table can be up or down depending on the use case and is indicated in the table header using an arrow icon. [See sorting guidelines](/components/sorting/)
+Tables use column sorting rather than [list sorting](/components/sorting). 
+
+The default sort direction of a table can be up or down depending on the use case and is indicated in the table header using the [chevron down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-down) and [chevron up](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-up) icons. The sort direction is usually ordered by one specific column attribute, such as status, last updated, or priority.
 
 Sorting is designed as a native functionality of tables. For sorting on [static lists](/components/list), use the [List sorting](/components/sorting) component.
 
