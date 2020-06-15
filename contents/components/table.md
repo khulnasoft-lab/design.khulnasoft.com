@@ -4,7 +4,7 @@ docs: in-progress
 vueComponents:
   - GlTable
 related:
-  - cards
+  - card
   - list
   - tree
   - filter
