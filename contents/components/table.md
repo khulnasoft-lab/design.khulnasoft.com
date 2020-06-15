@@ -106,7 +106,7 @@ Left-align text content, rather than justifying or centering it, to avoid confus
 
 In some circumstances, right-aligning the text content helps with readability. For example, right-align the numeric data with a consistent number of decimal places to improve scannability.
 
-Tables may switch their alignment for right-to-left audiences when designing for [internationalization](notion://www.notion.so/usability/i18n).
+Tables may switch their alignment for right-to-left audiences when designing for [internationalization](/usability/i18n).
 
 #### Null values
 
