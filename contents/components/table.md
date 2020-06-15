@@ -116,7 +116,7 @@ If a cell is empty or unavailable:
 
 ### Truncation
 
-Truncate long text strings with an ellipsis (“…”). On hover, the truncated text should display a tooltip including the full text. [See tooltips guidelines](/components/tooltips)
+Truncate long text strings with an ellipsis (“…”). On hover, the truncated text should display a tooltip including the full text. [See tooltip guidelines](/components/tooltip)
 
 ### Empty state
 
