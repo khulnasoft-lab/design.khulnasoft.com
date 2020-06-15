@@ -20,7 +20,7 @@ Use tables to:
 
 - Display structured content, where each entry has the same attributes.
 - Let users review, enter, edit, or filter granular data sets.
-- Display a data set that will continue to grow (e.g. Issues, Environments, and User Profile page).
+- Display a data set that will continue to grow (e.g. Issues, Environments, and User Profile pages).
 
 Todo: Add live component block with code example
 
