@@ -122,7 +122,7 @@ Truncate long text strings with an ellipsis (“…”). On hover, the truncated
 
 A table's empty state displays when there is no data, yet. [See empty states guidelines](/regions/empty-states).
 
-#### Styling
+### Styling
 
 Use white space in tables to improve scannability, visually separating data elements so that each can be individually identified and read as separate from the others.
 
