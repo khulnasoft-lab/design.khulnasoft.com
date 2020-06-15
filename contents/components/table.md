@@ -108,7 +108,7 @@ In some circumstances, right-aligning the text content helps with readability. F
 
 Tables may switch their alignment for right-to-left audiences when designing for [internationalization](/usability/i18n).
 
-#### Null values
+### Null values
 
 If a cell is empty or unavailable: 
 - Keep the cell empty to reduce noise and help with legibility.
