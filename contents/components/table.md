@@ -114,7 +114,7 @@ If a cell is empty or unavailable:
 - Keep the cell empty to reduce noise and help with legibility.
 - Use a dash ("-") to signify missing data.
 
-#### Truncation
+### Truncation
 
 Truncate long text strings with an ellipsis (“…”). On hover, the truncated text should display a tooltip including the full text. [See tooltips guidelines](/components/tooltips)
 
