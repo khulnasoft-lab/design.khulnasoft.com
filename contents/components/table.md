@@ -46,8 +46,6 @@ Any filtering controls that manipulate the data set should be placed directly ab
 
 Tables use column sorting rather than [list sorting](/components/sorting). 
 
-The default sort direction of a table can be up or down depending on the use case and is indicated in the table header using the [chevron down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-down) and [chevron up](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-up) icons. The sort direction is usually ordered by one specific column attribute, such as status, last updated, or priority.
-
 Sorting is designed as a native functionality of tables. For sorting on [static lists](/components/list), use the [List sorting](/components/sorting) component.
 
 The default sort direction of a table is usually ordered by one specific column attribute, such as status, last updated, or priority. Sorting is indicated in the table header using the [chevron down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-down) and [chevron up](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-up) icons.
@@ -60,7 +58,7 @@ The sorting icon and functionality should not be visible on responsive tables.
 
 ### Pagination
 
-Tables displaying data sets with more than 20 items should use either pagination, lazy load or infinite scroll. Tables have embedded pagination controls which are located at the bottom of the table. [See pagination guidelines](/components/pagination)
+Tables displaying data sets with more than 20 items should use pagination. [See pagination guidelines](/components/pagination)
 
 Todo: Add live component block with code example including pagination
 
@@ -98,6 +96,10 @@ Prevent horizontal scrolling to ensure the table doesn't break the layout. Table
 
 ## Content
 
+### Empty state
+
+A table's empty state displays when there is no data, yet. [See empty states guidelines](/regions/empty-states).
+
 ### Content alignment
 
 Align the table content by importance, based on the information needs of your users.
@@ -117,10 +119,6 @@ If a cell is empty or unavailable:
 ### Truncation
 
 Truncate long text strings with an ellipsis (“…”). On hover, the truncated text should display a tooltip including the full text. [See tooltip guidelines](/components/tooltip)
-
-### Empty state
-
-A table's empty state displays when there is no data, yet. [See empty states guidelines](/regions/empty-states).
 
 ### Styling
 
