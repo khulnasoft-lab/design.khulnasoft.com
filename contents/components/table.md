@@ -86,7 +86,7 @@ Columns should be ordered by priority or in a way that tells a story with the da
 
 ### Rows
 
-Rows can have a mix of read-only and editable cells with content populated by users.
+Rows can have a mix of read-only and editable cells with content populated by users. See [additional actions](#additional-actions) on table rows.
 
 ### Layout
 
