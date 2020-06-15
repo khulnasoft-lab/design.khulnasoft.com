@@ -112,7 +112,7 @@ Tables may switch their alignment for right-to-left audiences when designing for
 
 If a cell is empty or unavailable: 
 - Keep the cell empty to reduce noise and help with legibility.
-- Use a dash ("-") to signify missing data
+- Use a dash ("-") to signify missing data.
 
 #### Truncation
 
