@@ -66,7 +66,7 @@ Todo: Add live component block with code example including pagination
 
 ### Additional actions
 
-Table rows can include additional actions located in their far-right column. These actions should be visible at all times rather than showing on-hover. If there are two or more actions in a table row, consider using a button group or a “more menu” button with a dropdown list option.
+Table rows can include additional actions located in their far-right column. These actions should be visible at all times rather than showing on-hover. If there are two or more actions in a table row, consider using a button group or a [“more menu” button](/components/button#ellipsis) with a dropdown list option.
 
 Todo: Add demo
 
