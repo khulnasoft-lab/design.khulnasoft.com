@@ -76,7 +76,9 @@ Todo: Add demo
 
 A table header is the row at the top of the table that helps identify the columns below. The header provides clarity if data is non-descriptive or ambiguous.
 
-Always use column or row headers unless the table content is self-descriptive, like names, dates, and so on. Headers should be short, descriptive, and relevant. Avoid headers that are too long for the content in the rows below, and use title-case.
+Tables should always include table headers. For short tables and for tables whose data are self explanatory, column headers are sufficient. For long tables or tables where data may be confusing, it is best to include row and column headers.
+
+Headers should be short, descriptive, and relevant. Avoid headers that are too long for the content in the rows below, and use title-case.
 
 ### Columns
 
