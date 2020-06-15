@@ -104,7 +104,7 @@ Align the table content by importance, based on the information needs of your us
 
 Left-align text content, rather than justifying or centering it, to avoid confusion or readability issues. Text in tables tends to end up in narrow columns. Don’t justify or center the text; it causes confusion and harms readability.
 
-In some circumstances, right-aligning the text content helps with readability. Right-align the numeric data with a consistent number of decimal places to improve scannability.
+In some circumstances, right-aligning the text content helps with readability. For example, right-align the numeric data with a consistent number of decimal places to improve scannability.
 
 Tables may switch their alignment for right-to-left audiences when designing for [internationalization](notion://www.notion.so/usability/i18n).
 
