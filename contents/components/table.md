@@ -44,9 +44,8 @@ Any filtering controls that manipulate the data set should be placed directly ab
 
 ### Ordering & sorting
 
-Tables use column sorting rather than [list sorting](/components/sorting). 
+Sorting is designed as a native functionality of tables. Tables use column sorting rather than [list sorting](/components/sorting).
 
-Sorting is designed as a native functionality of tables. For sorting on [static lists](/components/list), use the [List sorting](/components/sorting) component.
 
 The default sort direction of a table is usually ordered by one specific column attribute, such as status, last updated, or priority. Sorting is indicated in the table header using the [chevron down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-down) and [chevron up](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-up) icons.
 
@@ -98,7 +97,7 @@ Prevent horizontal scrolling to ensure the table doesn't break the layout. Table
 
 ### Empty state
 
-A table's empty state displays when there is no data, yet. [See empty states guidelines](/regions/empty-states).
+A table's empty state displays when there is no data, yet. [See empty states guidelines](/regions/empty-states)
 
 ### Content alignment
 
