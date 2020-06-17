@@ -17,7 +17,7 @@ Use [system cursors](#cursors) to indicate when an element is draggable. The `gr
 
 #### Draggable items
 
-Items contained in a list can be draggable to help users manually order these items based on priority. The direction of the list can be from left to right or from top to bottom. If items are in a grid view, the order would be from left to right, then top to bottom. 
+Items contained in a list can be draggable to help a user manually reorder them. The direction of list items follows a left to right and top to bottom order.
 
 <!-- What happens if the object is particularly tall or wide (maybe even taller or wider than the area it is being previewed in)? An example of this would be dragging a tall board list or board swimlane (where the item could potentially be >1x the height of the screen. -->
 <!-- What does a draggable item look like? How does it respond when dragging? -->
