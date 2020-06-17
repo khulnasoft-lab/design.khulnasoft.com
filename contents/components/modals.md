@@ -75,11 +75,11 @@ There should always be multiple ways to close/dismiss this type of modal, includ
 
 **Scrolling:** 
 
-The height of the modal is limited by the viewport size on bigger screens. This makes content within the modal scrollable if it exceeds the modal height. In this instance, double scrolling is disabled by the component. When the modal is active, the page itself is no longer scrollable.
+The modal height is limited by the viewport size on large screens, making content within scrollable if it exceeds the height. In this instance, only the modal content is scrollable, not the page itself.
 
-Some users have smaller screens, so for these instances where the content requires scrolling, the modal extends in height below the window. This avoids the modal UI taking up too much of the viewport's surface area. This will in turn allow the page itself to become scrollable again.
+On small screens where content requires scrolling, the modal extends in height below the viewport. This prevents the modal UI from taking too much of the viewport and decreasing the content area. This doesn’t prevent the page from scrolling.
 
-Alternatively, consider taking the user to another page in instances where a tall modal requires the user to scroll more than a few times to consume all the content.
+For instances where a user has to scroll more than a few times to consume all the modal content, consider opening the content in a new page instead.
 
 ## Design Specifications
 
