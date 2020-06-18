@@ -32,7 +32,7 @@ Todo: Add demo
 
 ### Metric path
 
-A metric path contains stages with an abbreviated metric, such as 12d or 1.5h. The metric can be an integer or float, but should be limited to 5 digits maximum (and fewer when possible). Do not use multiple metric types on a single path, for example, 1d and 6kg. 
+A metric path contains stages with an abbreviated metric, such as 12d or 1.5h. The metric can be an integer or float, but should be limited to 5 digits maximum (and fewer when possible). Don’t use multiple metric types on a single path, for example, 1d and 6kg. 
 
 Todo: Add demo
 
