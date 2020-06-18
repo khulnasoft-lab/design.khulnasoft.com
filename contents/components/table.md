@@ -135,7 +135,7 @@ Do not appply vertical lines between columns. In general, tables without vertica
 
 Tables work across multiple screen sizes and conform to responsive guidelines. Prevent horizontal scrolling to ensure the table doesn’t break the layout.
 
-Todo: Add description of how the table behabes on responsive views
+Todo: Add description of how the table behaves on responsive views
 
 ## Accessibility
 
