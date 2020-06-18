@@ -64,5 +64,5 @@ Todo: Add design specs link
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `Tab`    | When focus is outside of the path, moves focus to the active stage. If focus is on the active stage, moves focus to the content within the content of that stage |
 | `→`      | Focuses and activates the next stage in the path. If the current tab is the last tab in the tab list, it activates the first tab. |
-| `←`      | Focuses and activates the previous stage in the path. If the current tab is the first tab in the tab list it activates the last tab. |
+| `←`      | Focuses and activates the previous stage in the path. If the current tab is the first tab in the tab list, it activates the last tab. |
 
