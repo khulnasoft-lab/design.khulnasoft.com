@@ -35,7 +35,7 @@ Use the following table to see when a toggle should be used over other alternati
 
 Toggle labels are set in bold, positioned above the element by default, and should concisely describe what the control does when the toggle is on.
 
-In rare cases and exceptions, the label can be placed to the left of the input field. Examples include non inline positioned elements. Do not use help text if you are placing the label to the left of the toggle. Use the default layout if you are using both a label and help text. 
+In rare cases and exceptions, the label can be placed to the left of the toggle. Examples include non-inline (block) positioned elements. Don’t use help text if you are placing the label to the left of the toggle. Use the default layout if you are using both a label and help text. 
 
 ### Visual Design
 
