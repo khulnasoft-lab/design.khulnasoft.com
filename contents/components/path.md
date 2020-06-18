@@ -26,7 +26,7 @@ Todo: Add demo
 
 ### Counter path
 
-A counter path contains stages with a “counter” badge showing the number of items it contains. If there are any ”All,” “Overview” or “Summary” stages, then the counter of that stage should equal the sum total of all the others. Counters should not be included if they break this pattern.
+A counter path contains stages with a “counter” badge showing the number of items it contains. If there are any ”All,” “Overview,” or “Summary” stages, then the counter of that stage should equal the sum total of all the others. Counters shouldn’t be included if they break this pattern.
 
 Todo: Add demo
 
