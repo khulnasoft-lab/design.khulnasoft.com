@@ -115,9 +115,10 @@ Tables may switch their alignment for right-to-left audiences when designing for
 
 ### Null values
 
-If a cell is empty or unavailable: 
+Representing null values should be made on a case-by-case basis. Some ways of addressing this are: 
 - Keep the cell empty to reduce noise and help with legibility.
 - Use a dash ("-") to signify missing data.
+- Put an "empty" message in a cell. 
 
 ### Truncation
 
