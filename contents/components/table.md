@@ -117,8 +117,8 @@ Tables may switch their alignment for right-to-left audiences when designing for
 
 Representing null values should be made on a case-by-case basis. Some ways of addressing this are: 
 - Keep the cell empty to reduce noise and help with legibility.
-- Use a dash ("-") to signify missing data.
-- Put an "empty" message in a cell. 
+- Use text to indicate what is missing. For example, "Unassigned" if there is no assignee.
+- Use a dash ("-"). For example, if there is no data and a text explanation is not applicable.
 
 ### Truncation
 
