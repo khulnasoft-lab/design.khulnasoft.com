@@ -12,7 +12,7 @@ Though deciding which color to use depends on the situation, here are some gener
 - **Green** indicates success. It communicates save, create, add, available, done, approved, or resolved.
 - **Orange** indicates 'attention-required.' It communicates warning, pending, missing, or impeded progress.
 - **Red** indicates a problem. It communicates critical states, destructive actions, errors, fails, removals, or declines.
-- **Purple** is not assigned meaning in the same way the other chromatic hues are, like green for success or red for error. It does, however, have meaning associated with the GitLab brand. It communicates brand affinity and relationship, and can be used for things like illustrations or company-related announcements in the product.
+- **Purple** is not assigned meaning in the same way the other chromatic hues are, like green for success or red for a problem. It does, however, have meaning associated with the GitLab brand. It communicates brand affinity and relationship, and can be used for things like illustrations or company-related announcements in the product.
 
 <div class="row m-b-9">
   <div class="col col-50 md p-b-7">
