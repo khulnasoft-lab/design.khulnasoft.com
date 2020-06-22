@@ -120,7 +120,7 @@ export default {
             title="Vue Component"
             :active="this.$route.params.tab === 'code'"
             class="app-styles js-gl-tab"
-            @click.prevent="activateTab('usage')"
+            @click.prevent="activateTab('code')"
           >
             <div class="pt-3">
               <template v-for="vueComponentName in vueComponents">
