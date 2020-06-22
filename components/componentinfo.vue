@@ -118,7 +118,7 @@ export default {
           </gl-tab>
           <gl-tab
             title="Vue Component"
-            :active="this.$route.params.tab === 'usage'"
+            :active="this.$route.params.tab === 'code'"
             class="app-styles js-gl-tab"
             @click.prevent="activateTab('usage')"
           >
