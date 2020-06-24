@@ -57,7 +57,7 @@ export default {
         v-for="page in contentTree[category]"
         :key="page.id"
         :name="page.name"
-        :to="`/${category}/${page.id}`"
+        :to="`/${category}/${page.id}/`"
       />
     </details>
   </li>
