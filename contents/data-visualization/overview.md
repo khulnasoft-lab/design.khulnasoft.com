@@ -1,5 +1,5 @@
 ---
-name: Data visualization
+name: Overview
 docs: in-progress
 vueComponents:
   - GlHeatmap
