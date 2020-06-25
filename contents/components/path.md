@@ -22,7 +22,7 @@ Paths are designed to be flexible. Therefore, there are a number of options and 
 
 ### Simple path
 
-A simple path only contains stages with titles. 
+A simple path only contains stages with labels.
 
 Todo: Add demo
 
