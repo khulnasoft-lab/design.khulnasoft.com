@@ -55,7 +55,7 @@ Todo: Add demo for heat map when it's completed
 
 Charts are statistical graphics that help users quickly digest, visualize and see trends in their data.
 
-Full list of chart types and design specifications is detailed on the [Charts](components/data-visualization/charts) component page.
+Full list of chart types and design specifications is detailed on the [Charts](/data-visualization/charts) component page.
 
 [[Example:stacked-column-basic]]
 
