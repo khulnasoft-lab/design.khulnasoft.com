@@ -54,7 +54,7 @@ Todo: Add demo when Value Stream Analytics functionality is released
 
 ### Design
 
-Paths share similar overflow properties as [tabs](tabs).
+Paths share similar overflow properties as [tabs](/components/tabs).
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
