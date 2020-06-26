@@ -5,7 +5,7 @@ related:
   - tabs
 ---
 
-Paths are horizontal process flows composed of a series of stages. Like [tabs](tabs), paths have one stage visible at a time, while keeping other stage links available.
+Paths are horizontal process flows composed of a series of stages. Like [tabs](/components/tabs), paths have one stage visible at a time, while keeping other stage links available.
 
 ## Usage
  
