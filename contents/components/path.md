@@ -44,7 +44,9 @@ Some processes may be more complicated and require a path with a combination of 
 
 Todo: Add demo
 
-### Custom ordering
+## Custom ordering
+
+Todo: Add usage documentation about custom ordering. See https://gitlab.com/gitlab-org/gitlab/-/issues/216227 for progress.
 
 Todo: Add demo when Value Stream Analytics functionality is released
 
