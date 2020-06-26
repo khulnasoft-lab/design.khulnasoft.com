@@ -4,7 +4,7 @@ docs: in-progress
 vueComponents:
   - GlHeatmap
 related:
-  - /data-visualization/chart
+  - /data-visualization/charts
 ---
 
 Data visualizations pull insights from data sets into a narrative and allow users to explore data themselves to discover their own insights.
