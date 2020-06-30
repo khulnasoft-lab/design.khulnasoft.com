@@ -1,7 +1,7 @@
 ---
 name: Toast
 figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A139
-docs: in-progress
+docs: complete
 vueComponents:
   - GlToast
 related:
@@ -52,9 +52,13 @@ There are some adjustments necessary for toasts displayed on smaller screens.
 
 ## Demo
 
-Todo: An example of a toast.
+### Basic toast
 
-Todo: An example of a toast with actions.
+[[Example:toast-default]]
+
+### Toast with action
+
+[[Example:toast-action]]
 
 ## Specifications
 
