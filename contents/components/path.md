@@ -1,6 +1,8 @@
 ---
 name: Path
 docs: in-progress
+vueComponents:
+  - GlPath
 related:
   - tabs
 ---
@@ -24,7 +26,7 @@ Paths are designed to be flexible. Therefore, there are a number of options and 
 
 A simple path only contains stages with labels.
 
-Todo: Add demo
+[[Example:path-path-basic]]
 
 ### Counter path
 
@@ -36,7 +38,7 @@ Todo: Add demo
 
 A metric path contains stages with an abbreviated metric, such as 12d or 1.5h. The metric can be an integer or float, but should be limited to 5 digits maximum (and fewer when possible). Don’t use multiple metric types on a single path. For example, 1d and 6kg. 
 
-Todo: Add demo
+[[Example:path-path-with-metric]]
 
 ### Combination path
 
