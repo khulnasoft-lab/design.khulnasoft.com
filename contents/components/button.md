@@ -45,11 +45,11 @@ Todo: Add live component block with code example
 
 #### Links to external resources
 
-- If a link goes to a resource outside of GitLab, show the external_link icon if the link does not already clarify the desintation.
+- If a link goes to a resource outside of GitLab and doesn’t specify the destination in text, then show the external_link icon at the end of the text.
     - Example:
-        - [View file in new page]() -- indicates the destination, and doesn't require an icon
-        - [View file]() -- does not indicate the destination, so should have an icon
-- Always show the icon for better accessibility (i.e. not only on hover) and to account for inline instances.
+        - [View file in new page]() -- indicates the destination and doesn’t require an icon.
+        - [View file]() -- does’t indicate the destination and should have an icon.
+- Always show the icon for better accessibility (i.e., not only on hover) and to account for inline instances. The icon should use `aria-label="external link"`, or similar, to communicate the purpose to screen reader users.
 
 ## States
 
