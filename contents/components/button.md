@@ -43,6 +43,14 @@ Todo: Add link category button documentation
 
 Todo: Add live component block with code example
 
+#### Links to external resources
+
+- If a link goes to a resource outside of GitLab, show the external_link icon if the link does not already clarify the desintation.
+    - Example:
+        - [View file in new page]() -- indicates the destination, and doesn't require an icon
+        - [View file]() -- does not indicate the destination, so should have an icon
+- Always show the icon for better accessibility (i.e. not only on hover) and to account for inline instances.
+
 ## States
 
 Buttons change depending on the user's interaction or set behavior. This is to ensure they are accessible and feel responsive in both desktop and mobile environments. Additionally, disabled and read-only buttons have specific styling and interaction restrictions that inform the user of their meaning.
