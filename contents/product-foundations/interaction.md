@@ -59,4 +59,4 @@ Use sticky containers with caution as they can easily crowd the interface and ma
     - Example:
         - [View file in new page]() -- indicates the destination and doesn’t require an icon.
         - [View file]() -- doesn’t indicate the destination and should have an icon.
-- Always show the icon for better accessibility (i.e., not only on hover) and to account for inline instances. The icon should use `aria-label="external link"`, or similar, to communicate the purpose to screen reader users.
+- When using the external link icon, ensure it is always displayed for better accessibility and to account for inline instances. Do not only show it on hover. The icon should use `aria-label="external link"`, or similar, to communicate the purpose to screen reader users.
