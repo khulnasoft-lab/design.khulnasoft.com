@@ -52,13 +52,9 @@ There are some adjustments necessary for toasts displayed on smaller screens.
 
 ## Demo
 
-### Basic toast
+Todo: An example of a toast.
 
-[[Example:toast-default]]
-
-### Toast with action
-
-[[Example:toast-action]]
+Todo: An example of a toast with actions.
 
 ## Specifications
 
