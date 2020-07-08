@@ -55,7 +55,7 @@ Use sticky containers with caution as they can easily crowd the interface and ma
 
 ## Links to external resources
 
-- If a link goes to a resource outside of GitLab and doesn’t specify the destination in text, then show the [external_link icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~external-link) at the end of the text.
+- If a link goes to a resource outside of GitLab and doesn’t specify the destination in text, then show the [external-link icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~external-link) at the end of the text.
     - Example:
         - [View file in new page]() -- indicates the destination and doesn’t require an icon.
         - [View file]() -- doesn’t indicate the destination and should have an icon.
