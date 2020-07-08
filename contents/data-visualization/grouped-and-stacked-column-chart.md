@@ -3,11 +3,11 @@ name: Grouped and stacked column charts
 docs: in-progress
 ---
 
-Grouped and stacked column charts
+Grouped and stacked column charts display two categories of data (one nested within another) moving across a time series.
 
 ## Usage
 
-Grouped and stacked column charts typically represent two [categories](https://design.gitlab.com/data-visualization/color#categorical-data) (one nested within another) moving across a time series:
+There are three categories of data displayed on grouped and stacked column charts:
 - **Groups**: The first category is represented by a group of columns.
 - **Stacks**: The second nested category is represented as a stacked column.
 - **Series**: The time series is represented across the X-axis.
@@ -35,6 +35,8 @@ Colors patterns can apply to both symmetric and asymmetric chart variants.
 - **Cross-column colors**: Use to highlight the relationship of the same stack category across different columns
 - **Graded transparency**: Use to highlight the relationship between the category in the same stacked column and differentiate with other stacked columns
 - **Specific colors**: Use sparingly when the values in the chart have specific colors associated with them (for example, Merge Request state or Vulnerability status)
+
+See [color](/data-visualization/color/#categorical-data) for a full description of data visualization color patterns.
 
 ### Cross-column colors
 
