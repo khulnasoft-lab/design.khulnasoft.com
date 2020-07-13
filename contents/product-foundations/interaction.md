@@ -34,15 +34,16 @@ Todo: Add visual example of subtle dot texture
 <!-- How do users "undo" or "abort" the drag action while it is happening or right after? -->
 <!-- How do we confirm an action has taken place as intended? Any microinteractions around dragging, landing/snapping in place, undoing? -->
 
-After dropping a draggable item, a toast should appear to indicate the order of draggable items has changed. That toast should contain an undo link to undo the previous dragged action. After clicking `Undo`, the previously dragged item will return to it‘s original position. A keyboard shortcut to undo a dropped item is to press `ctrl + z` to `undo` the dropped action. Once the drop is undone, the dropped item would initiate a short animation to visually indicate it‘s back into it‘s original position.
+After dropping a draggable item, a toast should appear to indicate the order of draggable items has changed. That toast should contain an undo link to undo the previous dragged action. After clicking `Undo`, the previously dragged item will return to it‘s original position. A keyboard shortcut to undo a dropped item is to press `ctrl + z` to `undo` the dropped action. 
 
 <!-- This interaction model is used to transform the position of elements. Usually, these are items in collections with other similar items. When moving items across collections, the collections should be similar in content. -->
 
-#### Dropzone
+#### On drop
 
 <!-- Could we simplify this drop target design in some way? Does it need to be a preview of the object, or can it be its own design? -->
 
-When dragging an item over a droppable area, a solid blue line should appear to show that an item can be dropped in that area. 
+- When dragging an item over a droppable area, a solid blue line should appear to show that an item can be dropped in that area. 
+- Dropped items will display a short animation to visually indicate the drop of that item has been completed. 
 
 <!-- How do we indicate that a drop target is not viable, that a user can't drag an object somewhere, and why? -->
 
