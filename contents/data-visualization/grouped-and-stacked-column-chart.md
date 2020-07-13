@@ -3,13 +3,13 @@ name: Grouped and stacked column charts
 docs: in-progress
 ---
 
-Grouped and stacked column charts display two categories of data (one nested within another) moving across a time series.
+Grouped and stacked column charts display two dimensions of data (one nested within another) moving across a time series.
 
 ## Usage
 
-There are three categories of data displayed on grouped and stacked column charts:
-- **Groups**: The first category is represented by a group of columns.
-- **Stacks**: The second nested category is represented as a stacked column.
+There are three dimensions of data displayed on grouped and stacked column charts:
+- **Groups**: The first dimension is represented by a group of columns.
+- **Stacks**: The second nested dimension is represented as a stacked column.
 - **Series**: The time series is represented across the X-axis.
 
 ## Variants
@@ -18,7 +18,7 @@ There are two types of grouped and stacked charts:
 - **Symmetric**: The number of stacks in each column is equal.
 - **Asymmetric**: The number of stacks in each column is not equal.
 
-*Note: For both symmetric and asymmetric variants, try to avoid using more than 5 values in each category.*
+*Note: For both symmetric and asymmetric variants, try to avoid using more than 5 values in each dimension to prevent visaul complexity in the charts.*
 
 ### Symmetric
 
@@ -32,9 +32,9 @@ Todo: Add asymmetric example
 
 Colors patterns can apply to both symmetric and asymmetric chart variants.
 
-- **Cross-column colors**: Use to highlight the relationship of the same stack category across different columns
-- **Graded transparency**: Use to highlight the relationship between the category in the same stacked column and differentiate with other stacked columns
-- **Specific colors**: Use sparingly when the values in the chart have specific colors associated with them (for example, Merge Request state or Vulnerability status)
+- **Cross-column colors**: Use to highlight the relationship of the dimension spanning across columns.
+- **Graded transparency**: Use to highlight the relationship of the dimension in the same stacked column while differentiating between other stacked columns.
+- **Specific colors**: Use sparingly. For example, when the values in the chart have specific colors associated with them (for example, Merge Request state or Vulnerability status).
 
 See [color](/data-visualization/color/#categorical-data) for a full description of data visualization color patterns.
 
