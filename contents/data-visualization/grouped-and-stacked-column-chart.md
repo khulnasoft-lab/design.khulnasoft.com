@@ -19,7 +19,7 @@ Todo: add details
 
 ### Symmetric grouped and stacked
 
-Symmetric grouped and stacked column charts display two dimensions of data (one nested within another) moving across a time series. The number of stacks in a symmetric grouped and stacked column chart is equal as opposed to the [asymmetric grouped and stacked column chart](/data-visualization/column-charts/asymmetric-grouped-and-stacked).
+Symmetric grouped and stacked column charts display two dimensions of data (one nested within another) moving across a time series. The number of stacks in a symmetric grouped and stacked column chart is equal as opposed to the [asymmetric grouped and stacked column chart](/data-visualization/column-charts/#asymmetric-grouped-and-stacked).
 
 Todo: Add symmetric example
 
@@ -54,7 +54,7 @@ Todo: Add example
 
 ### Asymmetric grouped and stacked
 
-Asymmetric grouped and stacked column charts display two dimensions of data (one nested within another) moving across a time series. The number of stacks in an asymmetric grouped and stacked column chart is not equal as opposed to the [symmetric grouped and stacked column chart](/data-visualization/column-charts/symmetric-grouped-and-stacked).
+Asymmetric grouped and stacked column charts display two dimensions of data (one nested within another) moving across a time series. The number of stacks in an asymmetric grouped and stacked column chart is not equal as opposed to the [symmetric grouped and stacked column chart](/data-visualization/column-charts/#symmetric-grouped-and-stacked).
 
 Todo: Add asymmetric example
 
