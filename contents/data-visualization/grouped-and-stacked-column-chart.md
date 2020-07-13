@@ -26,9 +26,9 @@ Todo: Add symmetric example
 There are three dimensions of data displayed on symmetric grouped and stacked column charts:
 - **Groups**: The first dimension is represented by a group of columns.
 - **Stacks**: The second nested dimension is represented as a stacked column.
-- **Series**: The time series is represented across the X-axis.
+- **Series**: The time series is represented across the x-axis.
 
-*Note: Try to avoid using more than 5 values in each dimension to prevent visaul complexity in the charts.*
+*Note: Try to avoid using more than 5 values in each dimension to prevent visual complexity in the charts.*
 
 #### Color patterns
 
@@ -63,7 +63,7 @@ There are three dimensions of data displayed on asymmetric grouped and stacked c
 - **Stacks**: The second nested dimension is represented as a stacked column.
 - **Series**: The time series is represented across the X-axis.
 
-*Note: Try to avoid using more than 5 values in each dimension to prevent visaul complexity in the charts.*
+*Note: Try to avoid using more than 5 values in each dimension to prevent visual complexity in the charts.*
 
 #### Color patterns
 
