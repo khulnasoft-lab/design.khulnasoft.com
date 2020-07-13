@@ -54,7 +54,7 @@ Todo: Add example
 
 ### Asymmetric grouped and stacked
 
-Asymmetric grouped and stacked column charts display two dimensions of data (one nested within another) moving across a time series. The number of stacks in an asymmetric grouped and stacked column chart is  notequal as opposed to the [symmetric grouped and stacked column chart](/data-visualization/column-charts/symmetric-grouped-and-stacked).
+Asymmetric grouped and stacked column charts display two dimensions of data (one nested within another) moving across a time series. The number of stacks in an asymmetric grouped and stacked column chart is  not equal as opposed to the [symmetric grouped and stacked column chart](/data-visualization/column-charts/symmetric-grouped-and-stacked).
 
 Todo: Add asymmetric example
 
