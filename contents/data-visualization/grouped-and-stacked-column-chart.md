@@ -48,7 +48,7 @@ See [color](/data-visualization/color/) for a full description of data visualiza
 
 ##### Cross-column colors
 
-Use to highlight the "Groups" dimension spanning across columns.
+Use cross-column colors to highlight the "Groups" dimension spanning across columns.
 
 Todo: Add example
 
