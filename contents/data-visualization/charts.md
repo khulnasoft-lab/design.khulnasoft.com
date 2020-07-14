@@ -138,8 +138,15 @@ The zoom bar is not added to all charts by default and shouldn't be used in case
 
 By hovering over specific data points on charts, users will see a [popover](/components/popover/). The popovers for charts help provide users with more detailed information about both the values being hovered on and their corresponding positions on the x and y axes. The data displayed in the chart popovers is as follows:
 
-- Popover header: x axis value (x axis title)
-- Popover body: y axis title, value
+- Popover header: x-axis value (x-axis title)
+- Popover body: y-axis title, value
+
+Because chart labels can be long, the max-width of chart popovers can extend to 512px. Long labels should wrap rather than truncate. 
+
+Text wrapping recommendations:
+
+- If the word that needs to wrap is 10 characters or less, the entire word can be sent to the next line.
+- If the word that needs to wrap is longer than 10 characters, we recommend breaking the word without using a hyphen. 
 
 #### More options menu
 
