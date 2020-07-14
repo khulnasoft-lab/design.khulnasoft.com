@@ -60,7 +60,7 @@ Todo: Add example
 
 ##### Specific colors
 
-Use sparingly. For example, when the values in the chart have specific colors associated with them (for example, Merge Request state or Vulnerability status).
+Specific colors may be used when values in a chart have certain colors associated with them. For example, merge request state or vulnerability status. Specific colors should be used sparingly.
 
 Todo: Add example
 
