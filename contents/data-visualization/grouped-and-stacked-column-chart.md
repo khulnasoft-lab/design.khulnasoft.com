@@ -54,7 +54,7 @@ Todo: Add example
 
 ##### Graded transparency
 
-Use to highlight the "Stacks" dimension within the columns whilst differentiating between the other columns.
+Use graded transparency to highlight the "Stacks" dimension within the columns whilst differentiating between the other columns.
 
 Todo: Add example
 
