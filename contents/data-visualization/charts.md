@@ -141,7 +141,7 @@ By hovering over specific data points on charts, users will see a [popover](/com
 - Popover header: x-axis value (x-axis title)
 - Popover body: y-axis title, value
 
-Because chart labels can be long, the max-width of chart popovers can extend to 512px. Long labels should wrap rather than truncate. 
+The max-width of chart popovers is 512px. Long labels that extend beyond this width should wrap rather than truncate. 
 
 Text wrapping recommendations:
 
