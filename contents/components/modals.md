@@ -75,7 +75,7 @@ There should always be multiple ways to close/dismiss this type of modal, includ
 
 **Scrolling:** 
 
-By default the height of the modal is determined by the content, and the modal can extend below the viewport. In this instance the page itself remains scrollable. 
+By default, the height of the modal is determined by the content, and the modal can extend below the viewport. In this instance, the viewport remains scrollable. 
 
 If the modal itself would exceed the height of the viewport and a user’s ability to maintain context or see important actions is impeded, it’s preferred to make the content within the modal scrollable. This way the modal will always fit within the viewport. This is configurable with an opt-in option and makes it so that only the modal content is scrollable, not the page itself.
 
