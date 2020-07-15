@@ -146,7 +146,7 @@ Because chart labels can be long, the max-width of chart popovers can extend to 
 Text wrapping recommendations:
 
 - If the word that needs to wrap is 10 characters or less, the entire word can be moved to the next line.
-- If the word that needs to wrap is longer than 10 characters, we recommend breaking the word without using a hyphen. 
+- If the word that needs to wrap is longer than 10 characters, break the word into two lines without using a hyphen. 
 
 #### More options menu
 
