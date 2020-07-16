@@ -25,12 +25,11 @@ Aside from having a box shadow to indicate that an item is draggable, the “gra
 
 Todo: Add visual example of subtle dot texture
 
-After dropping a draggable item, a toast should appear to indicate the order of draggable items has changed. That toast should contain an undo link to undo the previous dragged action. After clicking `Undo`, the previously dragged item will return to it‘s original position. A keyboard shortcut to undo a dropped item is to press `ctrl + z` to `undo` the dropped action.
-
 #### On drop
 
 - When dragging an item over a droppable area, a solid blue line should appear to show that an item can be dropped in that area.
 - Dropped items will display a short animation to visually indicate the drop of that item has been completed. 
+- The keyboard shortcut to undo a dropped item is to press `ctrl + z`, much like you would to undo a text change. 
 
 #### Limitations
 
