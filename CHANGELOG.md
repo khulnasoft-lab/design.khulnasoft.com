@@ -1,3 +1,52 @@
+# [1.27.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.26.0...v1.27.0) (2020-07-15)
+
+
+### Features
+
+* **broadcast:** Add anchor styling specification ([850e88d](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/850e88dcae280cb907a0517aa0e1bc9af812f83a))
+
+# [1.26.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.25.1...v1.26.0) (2020-07-15)
+
+
+### Features
+
+* **card:** Add details for when and when not to use cards with examples ([e8d23d4](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/e8d23d4df0bc4e61f0ae09c48402cb7fb07f5332))
+
+## [1.25.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.25.0...v1.25.1) (2020-07-09)
+
+
+### Bug Fixes
+
+* **font-awesome:** Remove font awesome from repo ([26d2e47](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/26d2e47ad8ccc3e391ca24d100a8bb838dc72ec8))
+
+# [1.25.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.24.0...v1.25.0) (2020-07-08)
+
+
+### Features
+
+* **interaction:** Adds recommendations on external links ([ebd6221](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/ebd62218e1f173b22a9bc2820aacbe5bffaf364a))
+
+# [1.24.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.23.0...v1.24.0) (2020-07-08)
+
+
+### Features
+
+* **badge:** Add badge demos ([985181a](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/985181acfcb89ada0093c48e4d8cdcbdbce0d2df))
+* **dropdowns:** Add dropdown demos ([e3222cf](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/e3222cfa3fad869b0adea62270e68174b9030314))
+* **infinite-scroll:** Mark docs complete ([b11915d](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/b11915d20ed66de845c3e5eb3652961b36c048e6))
+* **progess-bar:** Add todo back for demo ([d9d04d2](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/d9d04d2cbb61342a2455004723395cd158b30d71))
+* **progress-bar:** Add demo to progress bar ([869674e](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/869674ee209a59705c89ad865c35e3ac649dc43f))
+* **table:** Add demo to tables ([4482eda](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/4482edaf5ac0fb713a64be867287d197a440c6c1))
+* **toast:** Add demos to toast ([03a16b3](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/03a16b3d375922cfa29eb41aefccd383d91ddde0))
+* **toast:** Change docs status to in progress ([b613071](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/b6130715c06b16ec526ae19752756d97c5ede77d))
+
+# [1.23.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.22.0...v1.23.0) (2020-07-07)
+
+
+### Features
+
+* **file-uploader:** Add design specs ([e431a67](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/e431a67dda22b0bbafc0992a51fea06e4bd6b203))
+
 # [1.22.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.21.4...v1.22.0) (2020-06-29)
 
 

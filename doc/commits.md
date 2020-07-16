@@ -65,7 +65,7 @@ We use the same types as [Angular's commit guidelines](https://github.com/angula
 - **feat:** A new feature (adding a new component page, providing new variants/usage guidelines for an existing component, etc.).
 - **fix:** A bug fix (correcting grammar, addressing broken links, etc.).
 When updating non-dev dependencies, mark your changes with the `fix:` type.
-- **docs:** Documentation-only changes. Since Pajamas is mostly documenation, the `doc:` type should be used for project documentation, not Pajamas documentation.
+- **docs:** Documentation-only changes. Since Pajamas is mostly documenation, the `docs:` type should be used for documentation for the Pajamas project (files in the `doc/` folder or README.md ), not Pajamas documentation.
 - **style:** Changes that do not affect the meaning of the code
 (whitespace, formatting, missing semicolons, etc). _Not_ to be used for CSS changes as those are
 meaningful changes, consider using `feat:` of `fix:` instead.
@@ -90,6 +90,13 @@ feat(GlButton): add secondary variant usage guidelines
 > **Note:** Only `feat:`, `fix:`, and `perf:` types trigger a new release
 > If you're introducing a breaking change, the message body should start with [`BREAKING CHANGE:`](https://www.conventionalcommits.org/en/v1.0.0/#commit-message-with-description-and-breaking-change-footer),
 > this will trigger a major version bump (e.g. `v1.2.3` -> `v2.0.0`)
+>
+> An example of a breaking change in Pajamas is changing one of our foundational
+> guidelines, such as spacing or typography documentation, which would affect other components.
+> Adding a new component could be considered a breaking change if the component is
+> being introduced in order to replace an incorrect usage of an existing component
+> (for example, toasts were introduced to replace a use case that previously used alerts).
+> A new component is not a breaking change by default.
 
 ## Commitizen
 
