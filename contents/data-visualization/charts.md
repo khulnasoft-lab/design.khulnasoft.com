@@ -89,7 +89,9 @@ By hovering over specific data points on charts, users will see a [popover](/com
 
 The max-width of chart popovers is 512px. Long labels that extend beyond this width should wrap rather than truncate. 
 
-Text wrapping recommendations:
+##### Text wrapping in chart popovers
+
+The max-width of chart popovers is `512px`. Long labels that extend beyond this width should wrap rather than truncate. Text wrapping should work as follows:
 
 - If the word that needs to wrap is 10 characters or less, the entire word can be moved to the next line.
 - If the word that needs to wrap is longer than 10 characters, break the word into two lines without using a hyphen. 
