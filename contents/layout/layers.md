@@ -36,7 +36,7 @@ Cards in issue boards
 
 ![sm shadow example](/img/layers/sm-shadow-example.png)
 
-### 8px - md shadow
+### Medium
 
 #### Base
 
