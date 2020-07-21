@@ -90,12 +90,6 @@ Surfaces with elevation that appear as a result of a user/system action.
 
 box-shadow:<br>0px 0px 4px rgba(0, 0, 0, 0.16),<br>0px 4px 12px rgba(0, 0, 0, 0.16);
 
-#### Example
-
-Card on drag in issue boards
-
-![lg shadow example](/img/layers/lg-shadow-example.png)
-
 ### Extra large
 
 #### Base
