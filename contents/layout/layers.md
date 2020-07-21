@@ -6,7 +6,7 @@ Layers addresses dimensional hierarchy and content relationships — not just to
 
 ## Shadows
 
-### 4px - sm shadow
+### Small
 
 #### Base
 
