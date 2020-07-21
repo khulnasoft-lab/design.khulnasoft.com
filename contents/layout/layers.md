@@ -30,12 +30,6 @@ Surfaces that need an indication they can be manually interacted with.
 
 box-shadow:<br>0px 2px 4px rgba(0, 0, 0, 0.08),<br>0px 0px 1px rgba(0, 0, 0, 0.24);
 
-#### Example
-
-Cards in issue boards
-
-![sm shadow example](/img/layers/sm-shadow-example.png)
-
 ### Medium
 
 #### Base
