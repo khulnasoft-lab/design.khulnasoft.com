@@ -67,7 +67,7 @@ Popovers
 
 ![md shadow example](/img/layers/md-shadow-example.png)
 
-### 12px - lg shadow
+### Large
 
 #### Base
 
