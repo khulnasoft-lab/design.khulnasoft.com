@@ -44,7 +44,7 @@ Cards in issue boards
 
 #### Definition
 
-Surfaces that need boundary definition and appear on hover.
+Surfaces that need boundary definition and appear on hover. For example, [popovers](/components/popover).
 
 #### Components
 
