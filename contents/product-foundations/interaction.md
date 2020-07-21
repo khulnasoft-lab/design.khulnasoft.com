@@ -23,7 +23,6 @@ Todo: Add visual example of draggable item (which includes border radius, shadow
 
 Items contained in a list can be draggable to help a user manually reorder them. The direction of list items follows only a top to bottom order whereas items in a grid may move left to right as well.
 
-
 On drag, draggable items should be minimized to only show their title. For example, if you’re dragging an epic swimlane in an issue board, it would only show its title on drag and it would hide the rest of its content until it‘s dropped. This allows more drop areas to be visible and not be blocked by large draggable items.
 
 
