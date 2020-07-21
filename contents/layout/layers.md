@@ -14,7 +14,7 @@ Layers addresses dimensional hierarchy and content relationships — not just to
 
 #### Definition
 
-Surfaces that need an indication they can be manually interacted with.
+Surfaces that need an indication they can be manually interacted with. For example, cards in issue boards.
 
 #### Components
 
