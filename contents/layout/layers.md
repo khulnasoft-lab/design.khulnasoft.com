@@ -138,7 +138,7 @@ Layers that need to appear above a layer with an existing elevation should follo
 
 ![Scrolling layers](/img/layers/scrolling-layers.png)
 
-### Interactive layers
+## Interactive layers
 
 Layers that can be moved or dragged by the user use the lg shadow to create a greater sense of depth in the UI and define the element from other elements that may have an existing elevation.
 
