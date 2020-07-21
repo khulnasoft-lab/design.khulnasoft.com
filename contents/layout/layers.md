@@ -126,7 +126,7 @@ Modals
 
 ![xl shadow example](/img/layers/xl-shadow-example.png)
 
-### Stacking & overflowing layers
+## Stacking & overflowing layers
 
 Layers that need to appear above a layer with an existing elevation should follow the stacking guidelines. By default, these stacked layers will use the md-shadow.
 
