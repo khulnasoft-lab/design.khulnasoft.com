@@ -132,7 +132,7 @@ Layers that need to appear above a layer with an existing elevation should follo
 
 ![Stacking layers](/img/layers/stacking-layers.png)
 
-#### Use case
+### Use case
 
 - Content scrolls beneath static elements
 
