@@ -75,7 +75,7 @@ Popovers
 
 #### Definition
 
-Surfaces with elevation that appear as a result of a user/system action.
+Surfaces with elevation that appear as a result of a user/system action. For example, when dragging a card on an issue board.
 
 #### Components
 
