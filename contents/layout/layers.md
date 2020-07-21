@@ -102,12 +102,6 @@ Large surfaces with elevation that appear in our UI. For example, [modals](/comp
 
 box-shadow:<br>0px 0px 2px rgba(0, 0, 0, 0.24),<br>0px 4px 16px rgba(0, 0, 0, 0.24);
 
-#### Example
-
-Modals
-
-![xl shadow example](/img/layers/xl-shadow-example.png)
-
 ## Stacking & overflowing layers
 
 Layers that need to appear above a layer with an existing elevation should follow the stacking guidelines. By default, these stacked layers will use the md-shadow.
