@@ -145,3 +145,5 @@ Layers that can be moved or dragged by the user use the lg shadow to create a gr
 ![Dragging layers](/img/layers/dragging-layers.png)
 
 ## Accessibility
+
+TODO: Add accessibility guidelines
