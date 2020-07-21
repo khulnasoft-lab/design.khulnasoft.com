@@ -104,7 +104,7 @@ Card on drag in issue boards
 
 #### Definition
 
-Large surfaces with elevation that appear in our UI.
+Large surfaces with elevation that appear in our UI. For example, [modals](/components/modal).
 
 #### Components
 
