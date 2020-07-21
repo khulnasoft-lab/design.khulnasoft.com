@@ -34,7 +34,7 @@ box-shadow:<br>0px 2px 4px rgba(0, 0, 0, 0.08),<br>0px 0px 1px rgba(0, 0, 0, 0.2
 
 #### Base
 
-![md shadow](/img/layers/sm-shadow.png)
+![md shadow](/img/layers/md-shadow.png)
 
 #### Definition
 
