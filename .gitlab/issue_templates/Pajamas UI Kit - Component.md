@@ -1,6 +1,6 @@
 <!--
 Start by choosing one of the following based on the nature of your contribution:
-   - For changes in the Pajamas UI Kit, duplicate the general template (https://www.figma.com/file/v7I3e2CqmRagoi5jSzjROQ/Title-group-project-1337) to the UX Foundations Figma project (https://www.figma.com/files/project/8421515/UX-Foundation). Update the file name and cover details (this new file is considered the “working file”). Make changes in this new file to detached instances of a component, or copy/paste from instances in the UI kit.
+   - For changes in the Component Library file, duplicate the general template (https://www.figma.com/file/v7I3e2CqmRagoi5jSzjROQ/Title-group-project-1337) to the UX Foundations Figma project (https://www.figma.com/files/project/8421515/UX-Foundation). Update the file name and cover details (this new file is considered the “working file”). Make changes in this new file to detached instances of a component, or copy/paste from instances in the UI kit.
    - To create a new component, duplicate our component template (https://www.figma.com/file/OmvFfWkqEsdGhXAND133ou/Component-template) to the UX Foundations Figma project (https://www.figma.com/files/project/8421515/UX-Foundation). Update the file name and cover details (this new file is considered the “working file”) and start designing.
    - For community contributions, create a new file in your drafts.
 
@@ -35,7 +35,7 @@ Make sure the following are completed before closing the issue:
 1. [ ] **Reviewer**: Assign to a [Figma maintainer](https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com) for final review (make sure 
    they have edit permissions to the working file).
 1. [ ] **Maintainer**: Review and approve assignee’s changes.
-1. [ ] **Maintainer**: Apply the changes to the **Pajamas UI Kit** file, and 
+1. [ ] **Maintainer**: Apply the changes to the **Component Library** file, and 
    view the components in the Assets panel to ensure they align with our [asset library structure guidelines][structure]. Ensure that any new styles now belong to the target file.
 1. [ ] **Maintainer**: [Publish][publishing] the library changes along with a 
    clear commit message.
@@ -49,7 +49,7 @@ Make sure the following are completed before closing the issue:
    to build or update the component code. Mark the new issue as related to this one.
 1. [ ] **Assignee**: 🎉 Congrats, you made it! You can now close this issue.
 
-/label ~"UX" ~"Figma"
+/label ~"UX" ~"Figma" ~"Pajamas UI Kit"
 
 [annotation]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/master/doc/pajamas-ui-kit.md#adding-descriptions-notes-and-annotations
 [building]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/master/doc/pajamas-ui-kit.md#building-components
