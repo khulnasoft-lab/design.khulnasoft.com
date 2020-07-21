@@ -96,7 +96,7 @@ Card on drag in issue boards
 
 ![lg shadow example](/img/layers/lg-shadow-example.png)
 
-### 16px - xl shadow
+### Extra large
 
 #### Base
 
