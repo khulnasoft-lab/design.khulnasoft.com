@@ -23,6 +23,10 @@ Alerts allow the application to pass along relevant system information to the us
 | Tip alert | To educate the user about new or unused features, and other useful information. |
 | Success alert | To reaffirm to the user that a prior action they have taken, often in a different location within the application, has been accepted by the system. |
 
+### Actionable
+
+Alerts are ideally actionable depending on the context. This makes sure the user's experience towards resolving for example an error alert is logical and easy.
+
 ### Dismissal
 
 Alerts may contain a dismiss action, as well as an additional action button, depending on the use case.
