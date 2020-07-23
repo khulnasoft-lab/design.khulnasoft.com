@@ -21,10 +21,6 @@ CI/CD.
 | The project's repository is replicated using Geo.           | The Project's Repository is replicated using Geo.           |
 | The Runner executes the code during the CI/CD pipeline run. | The runner executes the code during the ci/cd pipeline run. |
 
-| Do | Don’t |
-| --- | --- |
-| Add issues to the Issue Board feature in GitLab Hosted. | Add Issues to the Issue Board Feature in GitLab Hosted. |
-
 Always capitalize the first word in bulleted lists. This includes sentences that complete an introductory stem.
 
 <table>
