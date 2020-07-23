@@ -4,10 +4,22 @@ name: Punctuation
 
 ## Case
 
-Use sentence case for titles, headings, labels, menu items, and buttons.
-Use title case when referring to [features](https://about.gitlab.com/features/)
-or [products](https://about.gitlab.com/products/). Note that some features are 
-also objects. For example, “Merge Requests” and “merge requests” are both valid.
+Use regular sentence capitalization:
+
+- For titles, headings, labels, menu items, and buttons.
+- When referring to [features](https://about.gitlab.com/features/) or
+  [products](https://about.gitlab.com/products/) named generically. For example,
+  issue, project, merge request, pipeline, and project.
+
+When a GitLab feature is not a generic term, capitalize it as a
+[proper noun](https://en.wiktionary.org/wiki/proper_noun). For example, Geo, Runner, and
+CI/CD.
+
+| Do                                                          | Don’t                                                       |
+|:------------------------------------------------------------|:------------------------------------------------------------|
+| Add issues to the issue board in GitLab.                    | Add Issues to the Issue Board in GitLab.                    |
+| The project's repository is replicated using Geo.           | The Project's Repository is replicated using Geo.           |
+| The Runner executes the code during the CI/CD pipeline run. | The runner executes the code during the ci/cd pipeline run. |
 
 | Do | Don’t |
 | --- | --- |
