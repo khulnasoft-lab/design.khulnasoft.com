@@ -25,7 +25,7 @@ Alerts allow the application to pass along relevant system information to the us
 
 ### Actionable
 
-Alerts are ideally actionable depending on the context. This makes sure the user's experience towards resolving for example an error alert is logical and easy.
+Where possible, ensure alerts are actionable so they can be easily resolved.
 
 ### Dismissal
 
