@@ -141,7 +141,7 @@ By hovering over specific data points on charts, users will see a [popover](/com
 - Popover header: x-axis value (x-axis title)
 - Popover body: y-axis title, value
 
-The popovers on the [column chart measure spec](https://gitlab-org.gitlab.io/gitlab-design/hosted/amelia/gd%23195-column-chart-design-spec-previews/) are examples of how these popovers could be structured, in practice.
+The [column chart measure spec](https://gitlab-org.gitlab.io/gitlab-design/hosted/amelia/gd%23195-column-chart-design-spec-previews/) shows examples of how popover content could be structured, in practice.
 
 ##### Text wrapping in chart popovers
 
