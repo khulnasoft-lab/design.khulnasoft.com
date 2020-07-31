@@ -10,9 +10,9 @@ Use sentence case for:
 
 Use lowercase for:
 
-- Most words, including [features](https://about.gitlab.com/features/) and
-  [products](https://about.gitlab.com/products/). For example, these terms
-  should all be lowercase: epic, issue, project, merge request, pipeline, and project.
+- Most words, including [features](https://about.gitlab.com/features/) that:
+  - Match a type of object in GitLab. For example: issue(s), merge request(s), epic(s).
+  - Describe an action. For example: "You can reorder issues in an epic."
 
 A few features are specific to GitLab and important for branding. These should be capitalized.
 Examples are Geo, Runner, and CI/CD.
