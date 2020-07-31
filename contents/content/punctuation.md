@@ -24,7 +24,6 @@ Capitalize:
 |:------------------------------------------------------------|:------------------------------------------------------------|
 | Add issues to the issue board in GitLab.                    | Add Issues to the Issue Board in GitLab.                    |
 | The project's repository is replicated using Geo.           | The Project's Repository is replicated using Geo.           |
-| The Runner executes the code during the CI/CD pipeline run. | The runner executes the code during the ci/cd pipeline run. |
 
 Always capitalize the first word in bulleted lists. This includes sentences that complete an introductory stem.
 
