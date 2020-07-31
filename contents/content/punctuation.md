@@ -6,7 +6,7 @@ name: Punctuation
 
 Use sentence case for:
 
-- Titles, headings, labels, menu items, and buttons.
+- Titles, headings, labels, menu items, buttons, and microcopy. Capitalize individual terms that require it, as described below.
 
 Use lowercase for:
 
