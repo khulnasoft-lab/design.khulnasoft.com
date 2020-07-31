@@ -14,8 +14,11 @@ Use lowercase for:
   - Match a type of object in GitLab. For example: issue(s), merge request(s), epic(s).
   - Describe an action. For example: "You can reorder issues in an epic."
 
-A few features are specific to GitLab and important for branding. These should be capitalized.
-Examples are Geo, Runner, and CI/CD.
+Capitalize:
+
+- Features that are nouns naming a capability, methodology, or tool; not an object type.
+   - For example: GitLab CI/CD, Repository Mirroring, the Web IDE, Container Registry, Value Stream Analytics, the To-Do List.
+      - Exception: Use lowercase for capabilities that are common industry terms, for example, syntax highlighting.
 
 | Do                                                          | Don’t                                                       |
 |:------------------------------------------------------------|:------------------------------------------------------------|
