@@ -22,7 +22,7 @@ Capitalize:
 
 | Do                                                          | Don’t                                                       |
 |:------------------------------------------------------------|:------------------------------------------------------------|
-| Add issues to the issue board in GitLab.                    | Add Issues to the Issue Board in GitLab.                    |
+| Use epics to organize your issues.                          | Use Epics to organize your issues.                          |
 | The project's repository is replicated using Geo.           | The Project's Repository is replicated using Geo.           |
 
 Always capitalize the first word in bulleted lists. This includes sentences that complete an introductory stem.
