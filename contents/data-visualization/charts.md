@@ -145,7 +145,7 @@ The [column chart measure spec](https://gitlab-org.gitlab.io/gitlab-design/hoste
 
 ##### Text wrapping in chart popovers
 
-The max-width of chart popovers is 512px, with long chart values wrapping rather than truncating. When chart values in popovers wrap, break the word into two lines without using a hyphen.
+The max-width of chart popovers is `512px`, with long chart values wrapping rather than truncating. When chart values in popovers wrap, break the word into two lines without using a hyphen.
 
 #### More options menu
 
