@@ -1,7 +1,7 @@
 <!--
 Start by choosing one of the following based on the nature of your contribution:
    - For changes to an existing file, duplicate the general template (https://www.figma.com/file/v7I3e2CqmRagoi5jSzjROQ/Title-group-project-1337) to the UX Foundations Figma project (https://www.figma.com/files/project/8421515/UX-Foundation). Update the file name and cover details (this new file is considered the “working file”). Make changes in the working file to detached instances of a component, or copy/paste from designs in the original (target) file.
-   - For additions, duplicate the template that is most relevant (https://www.figma.com/files/project/5846042/Templates) to the project that also is the most relevant. Update the file name and cover details (this new file is considered the “working file”) and proceed with the design.
+   - For additions, duplicate the template that is most relevant (https://www.figma.com/files/project/5846042/Templates) to the project that also is the most relevant. For example, a file making a change to the component library would belong in the UX Foundations project. Update the file name and cover details (this new file is considered the “working file”) and proceed with the design.
    - For community contributions, create a new file in your drafts.
 
 To move a duplicate file:
