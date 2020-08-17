@@ -6,7 +6,7 @@
 
 ### Does this MR meet the acceptance criteria?
 
-- [ ] The MR title and commit message meet the [commits][Pajamas commit conventions]
+- [ ] The MR title and commit message meet the [Pajamas commit conventions][commits]
 - [ ] Add a description to this MR explaining the reasons for the proposed change, per [say-why-not-just-what][transparency]
 - [ ] Include MR scope that reflects the purpose of the change in the description
   - For example, if this MR is focused on `usage guidelines`, addressing `accessibility challenges` could be added separately with a different MR
