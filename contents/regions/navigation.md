@@ -1,16 +1,24 @@
 ---
 name: Navigation
 ---
+## GitLab Home Page
+This page is considered navigation, as it is meant to help users orient themselves upon logging in. Currently this page is configurable in User Settings.
 
 ## Global navigation
 
-The items in the header include a list of pages that allow you to view global content throughout GitLab. For example, you can view your todos, issues, and merge requests across projects and groups. You can also create new groups and projects, as well as search the application.
+Global navigation refers to the top horizontal navigation. The items in the global navigation include a list of pages that allow you to view global content throughout GitLab. For example, you can view your todos, issues, and merge requests across projects and groups. You can also create new groups and projects, as well as search the application.
 
 Todo: Add global navigation example
 
+### User settings menu
+The user settings menu is the rightmost menu which contains items related to the logged-in user.
+
+### Help menu
+The help menu is the drop down second from the right and contains links to docs and support. 
+
 ## Contextual navigation
 
-The left-side sidebar consists of content that is contextual to each page. These options change depending on if you are looking at a project, group, or settings page. There can be up to two levels of navigation. Each sub nav group should be a self-contained group of functionality. For example, everything related to the issue tracker should be under the 'Issue' tab, while everything relating to the wiki will be grouped under the 'Wiki' tab. The names used for each section should be short and easy to remember, ideally 1-2 words in length.
+Contextual navigation refers to the left-side sidebar and consists of content that is contextual to each page. These options change depending on if you are looking at a project, group, or settings page. There can be up to two levels of navigation. Each sub nav group should be a self-contained group of functionality. For example, everything related to the issue tracker should be under the 'Issue' tab, while everything relating to the wiki will be grouped under the 'Wiki' tab. The names used for each section should be short and easy to remember, ideally 1-2 words in length.
 
 ### Behavior 
 
