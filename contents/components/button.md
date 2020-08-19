@@ -192,7 +192,7 @@ See [segmented control](/components/segmented-control) for more information.
 
 ### Loading
 
-Any button can utilize the `loading` property to turn a button's state into a loading state. This state indicates that an action is in progress.
+Any button can utilize the `loading` property to turn a button’s state into a loading state. This state indicates that an action is in progress, and the button can’t be clicked while the state persists.
 
 Todo: Add loading button example
 
