@@ -1,8 +1,6 @@
 ---
-name: Component lifecycle
+name: Lifecycle
 ---
-
-# Component lifecycle
 
 The goal of this process is to make it easy to: submit new designs (including documentation), propose changes to existing designs, and translate component designs into built components.
 
@@ -66,31 +64,7 @@ we add it in.
 The following diagram outlines the **create** stage and is available to help 
 determine when and how a component should be added to Pajamas:
 
-```mermaid
-graph TD;
-A[Start] -->B[Review issue]
-B--> C[Review Pajamas]
-click C "https://design.gitlab.com"
-C-->D{Can I use Pajamas?}
-D-->|Yes| E[Use component]
-E-->F[Done]
-D-->|No| G{Does the component exist already?}
-G-->|No| H[Determined that the component should be added to Pajamas]
-H-->I[Create issue in Pajamas to discuss usage documentation and propose updates to the Pajamas UI Kit in Figma]
-click I "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/new?issuable_template=New%20component"
-I-->J[Fill out the template, including usage docs, and follow its checklist]
-J-->K[Review by Product Designer]
-K-->L[Merge usage guidelines and specs into Pajamas]
-L-->M[SUBFLOW: Build and style component]
-click M "https://gitlab.com/gitlab-org/gitlab-ui/blob/master/doc/component-lifecycle.md"
-M-->N[Use component]
-N-->O[Done]
-G-->|Yes| P[Needs an update]
-P-->Q{It's a small visual change and I understand its impact?}
-Q-->|Yes| R[Update Figma UI Kit]
-Q-->|No| I
-R-->S[Done]
-```
+<img class="d-block a-center m-b-7" src="/img/component-lifecycle.svg" alt="Pajamas Create component lifecycle" role="img" />
 
 ## Building and styling components
 
