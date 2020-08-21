@@ -16,7 +16,7 @@ The Dashboard is the page users see at the top level of GitLab.com or their inst
 The user settings menu is the rightmost menu which contains items related to the logged-in user.
 
 ### Help menu
-The help menu is the drop down second from the right and contains links to docs and support. 
+The help menu is the dropdown with the question mark icon and contains links to docs and support. 
 
 ## Contextual navigation
 Contextual navigation refers to the left-side sidebar and consists of content that is contextual to each page. These options change depending on if you are looking at a project, group, or settings page. There can be up to two levels of navigation. Each sub nav group should be a self-contained group of functionality. For example, everything related to the issue tracker should be under the 'Issue' tab, while everything relating to the wiki will be grouped under the 'Wiki' tab. The names used for each section should be short and easy to remember, ideally 1-2 words in length.
