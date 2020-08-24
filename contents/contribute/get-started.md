@@ -25,10 +25,14 @@ place. For changes that affect visual designs or user experiences, it can be
 helpful to include a mockup.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Additionally, if you want to add a new component or edit an existing one, familiarize yourself with our [Component Lifecycle](/contribute/lifecycle/).
 =======
 Additionally, if you want to add a new component or edit an existing one, familiarize yourself with our [Component Lifecycle](/contribute/component-lifecycle/).
 >>>>>>> b49ccd8... docs(contribute): Move component lifecycle up
+=======
+Additionally, if you want to add a new component or edit an existing one, familiarize yourself with our [Component Lifecycle](/contribute/lifecycle/).
+>>>>>>> e7ceb30... docs(contribute): Update lifecycle diagram
 
 ### UX proposals
 
