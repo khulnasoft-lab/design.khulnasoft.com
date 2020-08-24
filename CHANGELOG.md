@@ -1,3 +1,59 @@
+# [1.39.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.38.0...v1.39.0) (2020-08-20)
+
+
+### Features
+
+* **alert:** Add guidelines for global alerts ([a772a8e](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/a772a8ea15bb8257c17c35d7dd22e59d5c0b4248))
+
+# [1.38.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.37.1...v1.38.0) (2020-08-19)
+
+
+### Features
+
+* **layers:** Add layers documentation ([862679f](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/862679f1c5fc77824bfb4da9b8d8759261d67742))
+
+## [1.37.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.37.0...v1.37.1) (2020-08-19)
+
+
+### Bug Fixes
+
+* **GlDropdown:** Update GlNewDropdown with GlDropdown ([3b6f171](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/3b6f17154c071d14aabd45f003f2b457e0c87cd2))
+
+# [1.37.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.36.0...v1.37.0) (2020-08-18)
+
+
+### Features
+
+* **Buttons:** Clarify icon use in default dropdown button ([bca9210](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/bca92109066305fa36311409046fea5b395f9503))
+
+# [1.36.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.35.0...v1.36.0) (2020-08-11)
+
+
+### Features
+
+* **forms:** Add recommended Enter key behavior ([b2aa4a4](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/b2aa4a4c66b06e7e5e19ea761517da846f8851bc))
+
+# [1.35.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.34.0...v1.35.0) (2020-08-04)
+
+
+### Features
+
+* **content:** Clarify case for features that are also objects ([eb3286a](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/eb3286a24bac073a478b09053b48ac2eba5c05ed))
+
+# [1.34.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.33.0...v1.34.0) (2020-08-03)
+
+
+### Features
+
+* **alerts:** Document that alerts should be actionable ([393997f](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/393997fd4dba82956e3d751bbedac3d4c6649301))
+
+# [1.33.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.32.0...v1.33.0) (2020-08-03)
+
+
+### Features
+
+* **Charts:** add popover text wrap info ([fe1443b](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/fe1443b4ffd21f79aae4dd1ca0e71bb8d4a1a84e))
+
 # [1.32.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.31.1...v1.32.0) (2020-07-24)
 
 

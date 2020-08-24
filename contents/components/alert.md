@@ -23,6 +23,10 @@ Alerts allow the application to pass along relevant system information to the us
 | Tip alert | To educate the user about new or unused features, and other useful information. |
 | Success alert | To reaffirm to the user that a prior action they have taken, often in a different location within the application, has been accepted by the system. |
 
+### Actionable
+
+Where possible, ensure alerts are actionable so they can be easily resolved.
+
 ### Dismissal
 
 Alerts may contain a dismiss action, as well as an additional action button, depending on the use case.
@@ -46,6 +50,10 @@ Use non-dismissible alerts when the user is prevented from completing a task unt
 ### Page-level alerts
 
 Place alerts on top of the page when they’re referring to something that happened on the page level, “Something went wrong while fetching latest comments.” on the issue page, for example. These alerts should be placed directly below the navigation bar and above the breadcrumbs with vertical spacing on top and bottom to separate it from the page content. Page-level alerts never appear below the breadcrumbs. Additionally, error alerts can be made sticky to make it more likely that the user notices them. The width of the page-level alerts should be restricted to the content container width which can be either fixed or fluid, depending on user’s preference.
+
+### Global alerts
+
+Use a global alert when something affects the system at large. For example, “Your subscription has expired.” Global alerts are triggered by the system, and not by an admin. They’re positioned the same as page-level alerts, but they should be full width instead of being constrained by the page’s content container width. They should have top and bottom margin to separate the alert from other page content.
 
 ### Embedded alerts
 
