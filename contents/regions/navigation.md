@@ -22,7 +22,7 @@ The help menu is the dropdown with the question mark icon and contains links to 
 Contextual navigation refers to the left-side sidebar and consists of content that is contextual to each page. These options change depending on if you are looking at a project, a group, or a settings page. There can be up to two levels of navigation. Each sub nav group should be a self-contained group of functionality. For example, everything related to the issue tracker should be under the 'Issues' nav item, while everything relating to the wiki will be grouped under the 'Wiki' nav item. The names used for each section should be short and easy to remember, ideally 1-2 words in length.
 
 ### Product Landing Pages
-Product landing pages are the top level pages in the contextual navigation for Projects and Groups. For example, the Issue List page is the landing page for issues. Ideally these pages display the most important functionality for that navigation category and when appropriate, facilitate navigation into related functionality.
+Product landing pages are the top level pages in the contextual navigation for Projects and Groups. For example, the Issue List page is the landing page for issues. These pages are used to display the most important functionality for that navigation category and when appropriate, facilitate navigation into related functionality.
 
 ### Behavior 
 
