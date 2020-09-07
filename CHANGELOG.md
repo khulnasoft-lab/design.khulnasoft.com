@@ -1,3 +1,31 @@
+## [1.40.2](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.40.1...v1.40.2) (2020-09-03)
+
+
+### Bug Fixes
+
+* **skeleton-loader:** Update link to carbon DS loading guidelines ([f7d599a](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/f7d599ab8b1f7247cb510554b418394c985ffa46))
+
+## [1.40.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.40.0...v1.40.1) (2020-09-02)
+
+
+### Bug Fixes
+
+* Correct link to dropdown specs in Figma ([0438b6f](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/0438b6f0562d47848a27e1c4d65e1c9e8cd8595a))
+
+# [1.40.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.39.1...v1.40.0) (2020-08-27)
+
+
+### Features
+
+* **contribute:** Add conventional commits to get started ([fd267d3](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/fd267d33efdb2a5333eecb8ef15a5208d00d68c3))
+
+## [1.39.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.39.0...v1.39.1) (2020-08-24)
+
+
+### Bug Fixes
+
+* **tree:** Update broken link accordionS to accordion ([126b8e3](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/126b8e364c6b05fc540100d0e2623b6077aedf2e))
+
 # [1.39.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v1.38.0...v1.39.0) (2020-08-20)
 
 
