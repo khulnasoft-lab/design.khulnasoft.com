@@ -40,7 +40,7 @@ end
 
 def match_semantic_commit(text)
   ## Suggestions applied through GitLab UI are not enforced for semantics 
-  if text.match(/^.*?\bApply\b.*?\bsuggestion(s)\b.*?$/m)
+  if text.match(/^.*?\bApply\b.*?\bsuggestion\b.*?$/m)
     return true
   end  
   text.match(/^(?<type>\w+)(?:\((?<scope>.+?)\))?:(?<description>.+?)$/)
