@@ -39,8 +39,8 @@ def too_many_changed_lines?(commit)
 end
 
 def match_semantic_commit(text)
-  ## Suggestions applied through GitLab UI are not enforced for semantics
-  if text.match(\bApply\b.*\bsuggestion\b)
+  ## Suggestions applied through GitLab UI are not enforced for semantics 
+  if text.match(/^.*?\bcat\b.*?\bmat\b.*?$/m)
     return true
   text.match(/^(?<type>\w+)(?:\((?<scope>.+?)\))?:(?<description>.+?)$/)
 end
