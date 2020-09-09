@@ -96,7 +96,7 @@ def lint_commit(commit)
 
   ## Suggestions applied through GitLab UI are not enforced for semantics as
   ## long as the squash option is enabled.
-  if commit.message..match(/^.*?\bApply\b.*?\bsuggestion\b.*?$/m) && gitlab.mr_json['squash']
+  if commit.message.match(/^.*?\bApply\b.*?\bsuggestion\b.*?$/m) && gitlab.mr_json['squash']
     return { failed: false, release: NO_RELEASE }
   end  
 
