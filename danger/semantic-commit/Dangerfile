@@ -113,7 +113,7 @@ def lint_commit(commit)
     failed = true
   end
 
-  # Fail if a suggestion commit is used and squash is not enabled
+  # Fail if a suggestion commit is used and squash is not enabled.
   if commit.message.match(/^.*?\bApply\b.*?\bsuggestion\b.*?$/m) && !gitlab.mr_json['squash']
     fail_commit(
       commit,
