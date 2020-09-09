@@ -94,6 +94,12 @@ def lint_commit(commit)
     return { failed: false, release: NO_RELEASE }
   end
 
+  ## Suggestions applied through GitLab UI are not enforced for semantics as
+  ## long as the squash option is enabled.
+  if commit.message.match(/^.*?\bApply\b.*?\bsuggestion\b.*?$/m) && gitlab.mr_json['squash']
+    return { failed: false, release: NO_RELEASE }
+  end  
+
   release = NO_RELEASE
   failed = false
   subject, separator, details = commit.message.split("\n", 3)
@@ -108,7 +114,7 @@ def lint_commit(commit)
   end
 
   # Fail if a suggestion commit is used and squash is not enabled
-  if commit.message.start_with?('Apply suggestion to') && !gitlab.mr_json['squash']
+  if commit.message.match(/^.*?\bApply\b.*?\bsuggestion\b.*?$/m) && !gitlab.mr_json['squash']
     fail_commit(
       commit,
       'If you are applying suggestions, squash needs to be enabled in the merge request'
