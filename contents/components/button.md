@@ -224,19 +224,15 @@ Buttons can be expanded to the full width of the parent container. This can be u
 
 [[Example:button-full-width]]
 
-## Order
+## Ordering and positioning
 
-Buttons are ordered by importance from right to left. This means the primary action is the rightmost button, followed by secondary actions and so on to the left. Buttons with dismissive actions are generally on the left and buttons with affirmative actions are on the right. Depending on the context, the primary, affirmative action may be destructive.
+Historically, buttons are ordered by importance from left to right. This means primary buttons are always on the left, followed by secondary buttons, and so on.
 
-Todo: Add a visual example of button order
-
-## Positioning
-
-Buttons are positioned towards the right and are placed next to each other when there are multiple. This applies to buttons with affirmative, dismissive, and destructive actions.
-
-An exception to this rule is the use of buttons in [alerts](/components/alert), which are always left-aligned.
+Affirmative actions have been positioned to the left and dismissive actions have been positioned to the right. An affirmative action is something that takes the users further in their journey (for example, Save or Delete), while a dismissive action takes a user back (for example, Cancel). Depending on the context, an affirmative action may be destructive.
 
 Please note to **not** place a button below another button if there is space to place them side by side.
+
+We are currently doing a [visual audit of button order and placement](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1019) in order to determine the best guidelines that work in a variety of use cases. If you have use cases or additional thoughts, please contribute to the related issue.
 
 ## Labels
 
