@@ -230,9 +230,9 @@ Buttons are ordered by importance from right to left. This means primary buttons
 
 ## Positioning
 
-Buttons are positioned towards the right and are placed next to each other when there are multiple. This applies to buttons with affirmative, dismissive, and destructive actions.
+Historically, affirmative actions have been placed to the left and dismissive actions have been placed to the right. An affirmative action is something that takes the users further in their journey (for example, Save or Delete), while a dismissive action takes a user back (for example, Cancel).
 
-An exception to this rule is the use of buttons in [alerts](/components/alert), which are always left-aligned.
+We are currently doing a [visual audit of button order and placement](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1019) in order to determine the best guidelines that work in a variety of use cases. If you have use cases or additional thoughts, please contribute to the related issue.
 
 Please note to **not** place a button below another button if there is space to place them side by side.
 
