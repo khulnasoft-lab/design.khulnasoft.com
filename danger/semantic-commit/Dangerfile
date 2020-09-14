@@ -113,14 +113,15 @@ def lint_commit(commit)
     failed = true
   end
 
-  # Fail if a suggestion commit is used and squash is not enabled
+  # Warn if a suggestion commit is used and squash is not enabled
   if commit.message.match(/^.*?\bApply\b.*?\bsuggestion\b.*?$/m) && !gitlab.mr_json['squash']
-    fail_commit(
+    warn_commit(
       commit,
-      'If you are applying suggestions, squash needs to be enabled in the merge request'
+      'This MR contain applied suggestions commits, but the squash commits option is disabled. ' \ 
+      'If you are a maintainer merging this MR, please enable the squash commits option before merging.'
     )
 
-    failed = true
+    failed = false
   end
 
   if subject.end_with?('.')
