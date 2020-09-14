@@ -117,8 +117,7 @@ def lint_commit(commit)
   if commit.message.match(/^.*?\bApply\b.*?\bsuggestion\b.*?$/m) && !gitlab.mr_json['squash']
     warn_commit(
       commit,
-      'This MR contain applied suggestions commits, but the squash commits option is disabled. ' \ 
-      'If you are a maintainer merging this MR, please enable the squash commits option before merging.'
+      'This MR contains applied suggestions, but the squash commits option is disabled. If you are a maintainer merging this MR, please enable the squash commits option before merging.'
     )
 
     failed = false
