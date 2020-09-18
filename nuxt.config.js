@@ -107,6 +107,7 @@ module.exports = {
 
   sentry: {
     dsn: 'https://77ebbeb22fb243c786286ecd01caa19f@sentry.gitlab.net/109', // Enter your project's DSN here
+    disabled: !isProd,
   },
 
   /**
