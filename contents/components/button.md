@@ -124,6 +124,19 @@ Icon buttons provide the user with visual iconography to signify what the button
 
 [[Example:button-icon]]
 
+#### Icon toggle
+
+In some cases, it may be appropriate to use an Icon button that toggles between two states, like locking and unlocking a feature. When using an Icon button that toggles:
+
+- A tooltip must be used to display the current state of the button.
+- The button must be placed to the right of a label.
+- The `tertiary` button variant should be used.
+- The `small` button size should be used.
+
+As an example, if the idea is to lock and unlock a feature, when a `lock` icon is present, the tooltip must read as `Locked` and when the `lock-open` is present, the tooltip must read as `Unlocked`.
+
+![Icon button toggle](/img/ui/icon-toggle.gif)
+
 ### Icon + text
 
 Text buttons might be supplemented with an icon to both clarify an action and call attention to a button. Icons are always positioned to the left of the text label.
