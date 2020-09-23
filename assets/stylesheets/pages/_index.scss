@@ -114,3 +114,8 @@
     width: 100%;
   }
 }
+
+.gif {
+  @include box-shadow;
+  box-shadow: $border-radius;
+}
