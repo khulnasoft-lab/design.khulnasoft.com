@@ -121,7 +121,7 @@ Validation should be shown inline and can happen live or on form submission. Liv
 
 #### Errors
 
-An error indicates content that either can’t be submitted, or was incorrect after submission and needs to be corrected. For example, an email address that doesn’t contain the '@' symbol.
+An error indicates content that can’t be submitted or was found to be invalid after submission and needs to be corrected. For example, an email address that doesn’t contain the '@' symbol.
 
 The error message is placed directly below the input field that is in an error state. If there is help text below the input field, the error message pushes it further down. The input will have a red border to help visually emphasize what needs corrected.
 
