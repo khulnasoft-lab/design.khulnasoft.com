@@ -117,21 +117,21 @@ Todo: Add live component block with code example (placeholder)
 
 ### Validation
 
-Validation should be shown inline and can happen live or on form submission. Live validation should confirm correct content or assist a user to input the correct information to prevent them from attempting to submit the form with possibly incorrect information. Live validation might be front-end-only, but a user has no way of knowing that. Validation should always be visible, and not placed in a tooltip. See also the [submit form buttons section](#submit-form-buttons) below.
+Validation should be shown inline and can happen in real-time or on form submission. Live validation should confirm correct content or assist a user to input the correct information to prevent them from attempting to submit the form with possibly incorrect information. Live validation might be front-end-only, but a user has no way of knowing that. Validation should always be visible and not placed in a tooltip. See also the [submit form buttons section](#submit-form-buttons) below.
 
 #### Errors
 
 An error indicates content that can’t be submitted or was found to be invalid after submission and needs to be corrected. For example, an email address that doesn’t contain the '@' symbol.
 
-The error message is placed directly below the input field that is in an error state. If there is help text below the input field, the error message pushes it further down. The input will have a red border to help visually emphasize what needs corrected.
+The error message is placed directly below the input field that has an error state. If there is help text below the input field, the error message pushes it further down. The input will have a red border to help visually emphasize what needs to be corrected.
 
 [[Example:form-group-validations]]
 
 #### Warnings
 
-A warning indicates content that may be formatted incorrectly or not match the expected content. For example, an SSH key where the number of characters does not match the expected length.
+A warning indicates content that may be formatted incorrectly or does not match the expected content. For example, an SSH key where the number of characters does not match the expected length.
 
-The warning message is placed directly below the input field that is in a warning state. If there is help text below the input field, the warning message pushes it further down.
+The warning message is placed directly below the input field that has a warning state. If there is help text below the input field, the warning message pushes it further down.
 
 Todo: Add live component block with code example (warning)
 
@@ -139,7 +139,7 @@ Todo: Add live component block with code example (warning)
 
 Success indicates content that is valid. For example, a URL that is formatted correctly or has been successfully pinged.
 
-The success message is placed directly below the input field that is in a success state. If there is help text below the input field, the success message pushes it further down.
+The success message is placed directly below the input field that has a success state. If there is help text below the input field, the success message pushes it further down.
 
 Todo: Add live component block with code example (success)
 
