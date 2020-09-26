@@ -249,3 +249,5 @@ Please note to **not** mix text and icon label buttons together within the same 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
 [View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit-Beta?node-id=2956%3A3357)
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D2956%253A3357&chrome=DOCUMENTATION" allowfullscreen></iframe>
