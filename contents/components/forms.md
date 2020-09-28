@@ -117,7 +117,7 @@ Todo: Add live component block with code example (placeholder)
 
 ### Validation
 
-Validation should be shown inline and can happen in real-time or on form submission. Live validation should confirm correct content or assist a user to input the correct information to prevent them from attempting to submit the form with possibly incorrect information. Live validation might be front-end-only, but a user has no way of knowing that. Validation should always be visible and not placed in a tooltip. See also the [submit form buttons section](#submit-form-buttons) below.
+Validation should be shown inline and can happen in real-time or on form submission. Real-time validation should confirm correct content or assist a user to input the correct information to prevent them from attempting to submit the form with possibly incorrect information. Real-time validation might be front-end-only, but a user has no way of knowing that. Validation should always be visible and not placed in a tooltip. See also [submit form buttons](#submit-form-buttons) below.
 
 #### Errors
 
