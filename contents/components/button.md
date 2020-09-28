@@ -228,7 +228,11 @@ Buttons can be expanded to the full width of the parent container. This can be u
 
 Historically, buttons have been ordered by importance from left to right. This means primary buttons on the left, followed by secondary buttons, and so on.
 
-Affirmative actions have been positioned to the left and dismissive actions have been positioned to the right. An affirmative action is something that takes the users further in their journey (for example, Save or Delete), while a dismissive action takes a user back (for example, Cancel). Depending on the context, an affirmative action may be destructive.
+By default, affirmative actions are positioned to the left and dismissive actions are positioned to the right. Deviate from this default if there's a strong reason.
+
+In all cases, affirmative actions are positioned to the outer edge of a container. This means that on left-aligned buttons the affirmative action is the left-most action, and on right-aligned buttons, the affirmative action is the right-most action.
+
+An affirmative action is something that takes the users further in their journey (for example, Save or Delete), while a dismissive action takes a user back (for example, Cancel). Depending on the context, an affirmative action may be destructive.
 
 Don’t place a button below another button if there is space to place them side by side.
 
