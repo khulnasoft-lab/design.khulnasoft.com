@@ -230,7 +230,7 @@ Historically, buttons have been ordered by importance from left to right. This m
 
 Affirmative actions have been positioned to the left and dismissive actions have been positioned to the right. An affirmative action is something that takes the users further in their journey (for example, Save or Delete), while a dismissive action takes a user back (for example, Cancel). Depending on the context, an affirmative action may be destructive.
 
-Please note to **not** place a button below another button if there is space to place them side by side.
+Don’t place a button below another button if there is space to place them side by side.
 
 We are currently doing a [visual audit of button order and placement](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1019) in order to determine the best guidelines that work in a variety of use cases. If you have use cases or additional thoughts, please contribute to the related issue.
 
