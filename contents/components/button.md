@@ -228,7 +228,7 @@ Buttons can be expanded to the full width of the parent container. This can be u
 
 Historically, buttons have been ordered by importance from left to right. This means primary buttons on the left, followed by secondary buttons, and so on.
 
-By default, affirmative actions are positioned to the left and dismissive actions are positioned to the right. Deviate from this default if there's a strong reason.
+By default, all buttons are aligned to the left of their container. Deviate from this default if there's a strong reason.
 
 In all cases, affirmative actions are positioned to the outer edge of a container. This means that on left-aligned buttons the affirmative action is the left-most action, and on right-aligned buttons, the affirmative action is the right-most action.
 
