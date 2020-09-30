@@ -26,7 +26,15 @@ For example, in the merge request list view, there should not be "Open" and "WIP
 
 ### Fitted tabs
 
-When tabs are used in a narrow container, column, or space, the tabs themselves may be fitted to the entire width instead of remaining left aligned.
+By default, tab width is determined by the tab’s content, however, fitted tabs use a fluid width to fill the entire container instead of remaining left-aligned.
+
+**Use fitted tabs when:**
+
+* There are only 2–3 tabs.
+* The tabs fit horizontally within a mobile viewport without wrapping.
+* The breakpoint is ≤ MD. The exception is tabs in a modal or other constrained container that isn’t relying on breakpoint to determine the width of nested content.
+
+Todo: Add fitted tab example
 
 ## Demo
 
@@ -43,5 +51,3 @@ When tabs are used in a narrow container, column, or space, the tabs themselves 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
 [View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit-Beta?node-id=2497%3A25)
-
-Todo: Add design for fitted tabs
