@@ -26,7 +26,7 @@ For example, in the merge request list view, there should not be "Open" and "WIP
 
 ### Fitted tabs
 
-By default, tab width is determined by the tab’s content, however, fitted tabs use a fluid width to fill the entire container instead of remaining left-aligned.
+By default, tab width is determined by the tab’s content. However, fitted tabs use a fluid width to fill the entire container instead of remaining left-aligned.
 
 **Use fitted tabs when:**
 
