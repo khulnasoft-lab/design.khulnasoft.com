@@ -21,7 +21,7 @@ Before you move on, make sure you have [Node](https://nodejs.org/en/) 12.x and [
 1. Run `yarn start` to start build & watch changes
 1. Open http://localhost:2018
 
-Alternatively you can also [open this repository in Gitpod](https://gitpod.io/#https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/master/) to make and preview changes directly in your browser.
+Alternatively, you can also [open this repository in Gitpod](https://gitpod.io/#https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/master/) to make and preview changes directly in your browser.
 
 ## Linting
 
