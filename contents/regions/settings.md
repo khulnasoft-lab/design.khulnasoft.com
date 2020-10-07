@@ -26,7 +26,7 @@ Settings can be accessed through the sidebar [navigation](/regions/navigation), 
 
 The options in the settings pages are grouped by categories inside [accordions](/components/accordion). The most frequently used options sould be made easily available to users on the page. Horizontal separators are placed between each grouped option to give elements enough room to breathe.
 
-Eached grouped option displays a title and a brief explanation of what users should expect when the the accordion is expanded. Use consistent terms and follow the [voice and tone](/content/voice-tone) guidelines. 
+Each group displays a title and a brief explanation of what users should expect when the the accordion is expanded. Use consistent terms and follow the [voice and tone](/content/voice-tone) guidelines. 
 
 ### Saving settings
 
