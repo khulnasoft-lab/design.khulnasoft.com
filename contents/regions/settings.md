@@ -20,7 +20,7 @@ There are several settings options with GitLab:
 
 ### Placement of settings options
 
-Settings can be accessed trough the sidebar navigation, user settings menu, or contextual options in feature pages. Learn more about [navigation](/regions/navigation)
+Settings can be accessed through the sidebar [navigation](/regions/navigation), user settings menu, or contextual options in feature pages. 
 
 ### Grouping
 
