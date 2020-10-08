@@ -38,7 +38,7 @@ Double truncation occurs when the current page is separated by 5 or more pages f
 
 #### Page counters
 
-When page counters are not available, the Compact Pagination component can display only the `previous` and `next` options.
+When page counters are not available due to a technical restraint, the Compact Pagination component may be used without the page count.
 
 ## Demo
 
