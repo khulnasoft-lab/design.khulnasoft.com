@@ -24,7 +24,7 @@ Settings can be accessed through the [top horizontal navigation](/regions/naviga
 
 ### Grouping
 
-The options for admin, user, project and group settings are displayed in pages and are grouped by categories inside [accordions](/components/accordion). The most frequently used options should be made easily available to users on the page. Horizontal separators are placed between each category to give elements enough room to breathe.
+Admin, group, project, and user settings utilize full pages to group different categories inside [accordions](/components/accordion). This is different from feature settings which live next to a specific UI element. On settings pages, the most frequently used options should be made easily available to users by not collapsing the content. Horizontal separators are placed between each category to give elements enough room to breathe.
 
 Each category displays a title and a brief explanation of what users should expect when the the accordion is expanded. Use consistent terms and follow the [voice and tone](/content/voice-tone) guidelines. 
 
