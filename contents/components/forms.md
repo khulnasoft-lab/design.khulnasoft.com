@@ -34,6 +34,10 @@ Todo: Add live component block with code example (sort by dropdown)
 
 Todo: Add live component block with code example (horizontally distributed form)
 
+### Description
+
+A 1-2 sentence description can go underneath the label if one is needed to explain the variable in the form, e.g. in the case of security scanner configuration variables. This is not required and should not be used if the variable is self-explanatory, e.g. for First or Last Name when creating an account. It follows the same guidelines as [help text](#help-text), but is an alternative placement. The description field can be a bit longer than the help text, as the help text must wrap underneath the width of the input container while the description is not limited by text input width. 
+
 ### Input fields
 
 [[Example:form-group]]
