@@ -303,9 +303,37 @@ In all cases, affirmative actions are positioned to the outer edge of a containe
 
 An affirmative action is something that takes the users further in their journey (for example, Save or Delete), while a dismissive action takes a user back (for example, Cancel). Depending on the context, an affirmative action may be destructive.
 
-This means the visual hierarchy is primary buttons on the outer edge, followed by secondary buttons, and so on.
+<div class="row">
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="Affirmative action on left edge for left alignment">
+      <img class="figure-img" src="/img/buttons-order-left.png" alt="Two buttons with the affirmative one on the left" role="img" style="width:100%; max-width:332px; height:auto" />
+      <figcaption class="figure-caption">Affirmative action on left edge for left alignment</figcaption>
+    </figure>
+  </div>
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="Affirmative action on right edge for right alignment">
+      <img class="figure-img" src="/img/buttons-order-right.png" alt="Two buttons with the affirmative one on the right" role="img" style="width:100%; max-width:332px; height:auto" />
+      <figcaption class="figure-caption">Affirmative action on right edge for right alignment</figcaption>
+    </figure>
+  </div>
+</div>
 
-Todo: Add visuals to demonstrate button order
+The visual hierarchy is primary buttons on the outer edge, followed by secondary buttons, and so on.
+
+<div class="row">
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="Hierarchy from left to right for left alignment">
+      <img class="figure-img" src="/img/buttons-hierarchy-left.png" alt="Button hierarchy from left to right for left alignment" role="img" style="width:100%; max-width:332px; height:auto" />
+      <figcaption class="figure-caption">Hierarchy from left to right for left alignment</figcaption>
+    </figure>
+  </div>
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="Hierarchy from right to left for right alignment">
+      <img class="figure-img" src="/img/buttons-hierarchy-right.png" alt="Button hierarchy from right to left for right alignment" role="img" style="width:100%; max-width:332px; height:auto" />
+      <figcaption class="figure-caption">Hierarchy from right to left for right alignment</figcaption>
+    </figure>
+  </div>
+</div>
 
 ### Right to left languages
 
@@ -315,13 +343,9 @@ Button alignment should be reversed for RTL languages, but order should remain t
 
 | **Do** | **Don’t** |
 | ------ | ------ |
-| Keep buttons visually grouped. | Separate buttons or mix alignment. |
-| Keep buttons inline when space allows. | Stack buttons vertically if there is space to place them inline. |
-| Maintain parity between focus order and visual order. | Use CSS to visually order buttons differently than the DOM order. |
-
-Todo: Add do/don’t visuals within the table
-
----
+| <figure class="figure" role="figure" aria-label="Keep buttons visually grouped"><img class="figure-img" src="/img/buttons-do-group.svg" alt="Buttons in a group" role="img" /><figcaption class="figure-caption">Keep buttons visually grouped</figcaption></figure> | <figure class="figure" role="figure" aria-label="Separate buttons or mix alignment."><img class="figure-img" src="/img/buttons-dont-separate.svg" alt="Buttons that should be in a group are separated" role="img" /><figcaption class="figure-caption">Separate buttons or mix alignment</figcaption></figure> |
+| <figure class="figure" role="figure" aria-label="Keep buttons inline when space allows"><img class="figure-img" src="/img/buttons-do-inline.svg" alt="Buttons presented inline" role="img" /><figcaption class="figure-caption">Keep buttons inline when space allows</figcaption></figure> | <figure class="figure" role="figure" aria-label="Stack buttons vertically if there is space to place them inline"><img class="figure-img" src="/img/buttons-dont-wrap.svg" alt="Buttons wrapping to a new line when there’s room to keep them inline" role="img" /><figcaption class="figure-caption">Stack buttons vertically if there is space to place them inline</figcaption></figure> |
+| <figure class="figure" role="figure" aria-label="Maintain parity between focus order and visual order"><img class="figure-img" src="/img/buttons-do-dom-order.png" alt="Buttons that visually match the DOM order" role="img" style="width:100%; max-width:332px; height:auto" /><figcaption class="figure-caption">Maintain parity between focus order and visual order</figcaption></figure> | <figure class="figure" role="figure" aria-label="Use CSS to visually order buttons differently than the DOM order"><img class="figure-img" src="/img/buttons-dont-dom-order.png" alt="Buttons that visually are presented opposite of the DOM order" role="img" style="width:100%; max-width:332px; height:auto" /><figcaption class="figure-caption">Use CSS to visually order buttons differently than the DOM order</figcaption></figure> |
 
 ## Labels
 
