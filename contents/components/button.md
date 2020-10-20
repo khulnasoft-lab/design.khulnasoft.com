@@ -230,19 +230,98 @@ Buttons can be expanded to the full width of the parent container. This can be u
 
 [[Example:button-full-width]]
 
-## Ordering and positioning
+## Alignment and order
 
-Historically, buttons have been ordered by importance from left to right. This means primary buttons on the left, followed by secondary buttons, and so on.
+Buttons can be aligned left, right, or center depending on the context. Multiple alignments can be combined within a single screen, but not within an individual context. For example, on a single screen the main content uses left alignment, while the sidebar with multiple settings uses right alignment.
 
-By default, all buttons are aligned to the left of their container. Deviate from this default if there's a strong reason.
+Each type of alignment and recommended application is covered more below.
+
+### Left alignment
+
+Buttons are aligned left in page content and forms where the content is typically unconstrained other than the grid layout. In these instances an F-pattern (top to bottom and left to right in a horizontal movement) is common for reading flow, and buttons align with other content on the page like headings, lists, input labels, and form labels.
+
+Left alignment is a benefit for accessibility in many ways, including reading flow, focus order, and page zoom where right-aligned buttons may be initially off screen.
+
+<div class="row">
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="Left-aligned buttons in a form">
+      <img class="figure-img" src="/img/buttons-left-alignment.png" alt="A group of two buttons aligned to the left at the bottom of a form" role="img" style="width:100%; max-width:332px; height:auto" />
+      <figcaption class="figure-caption">Left-aligned buttons in a form</figcaption>
+    </figure>
+  </div>
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="Left-aligned buttons in a page flow">
+      <img class="figure-img" src="/img/buttons-left-alignment-2.png" alt="A page flow where several sets of buttons are aligned to the left of the page" role="img" style="width:100%; max-width:332px; height:auto" />
+      <figcaption class="figure-caption">Left-aligned buttons in a page flow</figcaption>
+    </figure>
+  </div>
+</div>
+
+### Right alignment 
+
+Buttons are aligned right in constrained containers like modals and dialogs, flows that continue in a progressive direction, actions with a global impact, and toolbars. In these instances a Z-pattern (top to bottom and left to right with a diagonal, scanning movement) is common for reading flow where a user is needing to take a progressive action or an action _upon_ a section rather than _within_ it.
+
+<div class="row">
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="Right-aligned buttons in a modal">
+      <img class="figure-img" src="/img/buttons-right-alignment.png" alt="A group of two buttons aligned to the right in a modal" role="img" style="width:100%; max-width:332px; height:auto" />
+      <figcaption class="figure-caption">Right-aligned buttons in a modal</figcaption>
+    </figure>
+  </div>
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="Right-aligned buttons in a sidebar with multiple settings">
+      <img class="figure-img" src="/img/buttons-right-alignment-2.png" alt="A sidebar with stacked sections of settings where each section has an edit button on the right" role="img" style="width:100%; max-width:332px; height:auto" />
+      <figcaption class="figure-caption">Right-aligned buttons in a sidebar with multiple settings</figcaption>
+    </figure>
+  </div>
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="Right-aligned buttons as global actions">
+      <img class="figure-img" src="/img/buttons-right-alignment-3.png" alt="A group of two buttons aligned to the top right of a page" role="img" style="width:100%; max-width:332px; height:auto" />
+      <figcaption class="figure-caption">Right-aligned buttons as global actions</figcaption>
+    </figure>
+  </div>
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="Right-aligned buttons in toolbars">
+      <img class="figure-img" src="/img/buttons-right-alignment-4.png" alt="Two unique toolbars with actions above and to the right of the content they act upon" role="img" style="width:100%; max-width:332px; height:auto" />
+      <figcaption class="figure-caption">Right-aligned buttons in toolbars</figcaption>
+    </figure>
+  </div>
+</div>
+
+### Center alignment
+
+Center alignment is only used for empty states where limited content is either promotional or the actions are the only one available in context.
+
+<figure class="figure" role="figure" aria-label="Center-aligned buttons in an empty state">
+  <img class="figure-img" src="/img/buttons-center-alignment.png" alt="Centered buttons at the bottom of empty state content" role="img" style="width:100%; max-width:332px; height:auto" />
+  <figcaption class="figure-caption">Center-aligned buttons in an empty state</figcaption>
+</figure>
+
+### Order
 
 In all cases, affirmative actions are positioned to the outer edge of a container. This means that on left-aligned buttons the affirmative action is the left-most action, and on right-aligned buttons, the affirmative action is the right-most action.
 
 An affirmative action is something that takes the users further in their journey (for example, Save or Delete), while a dismissive action takes a user back (for example, Cancel). Depending on the context, an affirmative action may be destructive.
 
-Don’t place a button below another button if there is space to place them side by side.
+This means the visual hierarchy is primary buttons on the outer edge, followed by secondary buttons, and so on.
 
-We are currently doing a [visual audit of button order and placement](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1019) in order to determine the best guidelines that work in a variety of use cases. If you have use cases or additional thoughts, please contribute to the related issue.
+Todo: Add visuals to demonstrate button order
+
+### Right to left languages
+
+Button alignment should be reversed for RTL languages, but order should remain the same.
+
+### Dos and dont’s
+
+| **Do** | **Don’t** |
+| ------ | ------ |
+| Keep buttons visually grouped. | Separate buttons or mix alignment. |
+| Keep buttons inline when space allows. | Stack buttons vertically if there is space to place them inline. |
+| Maintain parity between focus order and visual order. | Use CSS to visually order buttons differently than the DOM order. |
+
+Todo: Add do/don’t visuals within the table
+
+---
 
 ## Labels
 
