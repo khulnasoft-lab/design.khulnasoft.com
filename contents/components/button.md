@@ -303,9 +303,37 @@ In all cases, affirmative actions are positioned to the outer edge of a containe
 
 An affirmative action is something that takes the users further in their journey (for example, Save or Delete), while a dismissive action takes a user back (for example, Cancel). Depending on the context, an affirmative action may be destructive.
 
-This means the visual hierarchy is primary buttons on the outer edge, followed by secondary buttons, and so on.
+<div class="row">
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="Affirmative action on left edge for left alignment">
+      <img class="figure-img" src="/img/buttons-order-left.png" alt="Two buttons with the affirmative one on the left" role="img" style="width:100%; max-width:332px; height:auto" />
+      <figcaption class="figure-caption">Affirmative action on left edge for left alignment</figcaption>
+    </figure>
+  </div>
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="Affirmative action on right edge for right alignment">
+      <img class="figure-img" src="/img/buttons-order-right.png" alt="Two buttons with the affirmative one on the right" role="img" style="width:100%; max-width:332px; height:auto" />
+      <figcaption class="figure-caption">Affirmative action on right edge for right alignment</figcaption>
+    </figure>
+  </div>
+</div>
 
-Todo: Add visuals to demonstrate button order
+The visual hierarchy is primary buttons on the outer edge, followed by secondary buttons, and so on.
+
+<div class="row">
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="Hierarchy from left to right for left alignment">
+      <img class="figure-img" src="/img/buttons-hierarchy-left.png" alt="Button hierarchy from left to right for left alignment" role="img" style="width:100%; max-width:332px; height:auto" />
+      <figcaption class="figure-caption">Hierarchy from left to right for left alignment</figcaption>
+    </figure>
+  </div>
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="Hierarchy from right to left for right alignment">
+      <img class="figure-img" src="/img/buttons-hierarchy-right.png" alt="Button hierarchy from right to left for right alignment" role="img" style="width:100%; max-width:332px; height:auto" />
+      <figcaption class="figure-caption">Hierarchy from right to left for right alignment</figcaption>
+    </figure>
+  </div>
+</div>
 
 ### Right to left languages
 
