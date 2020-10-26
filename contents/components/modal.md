@@ -2,7 +2,7 @@
 name: Modal
 figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A129
 docs: complete
-vueComponents: 
+vueComponents:
   - GlModal
 related:
   - accordion
