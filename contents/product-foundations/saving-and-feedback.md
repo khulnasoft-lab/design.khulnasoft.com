@@ -71,7 +71,7 @@ Todo: Add live component block with code example (example of newly added info as
 
 ## Related patterns
 
-* [Buttons](/components/button)
+- [Buttons](/components/button)
 - [Forms](/components/form)
 - [Spinner](/components/spinner)
 - [Toast](/components/toast)
