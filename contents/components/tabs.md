@@ -18,7 +18,7 @@ There can only be one tab active at a given time. Tabs may be nested, with a max
 
 ### Basic tabs
 
-Basic tabs are the default tab style. These are used when you simply need to separate content within tabs, without needing to use a `counter badge`. If you need tabs with counter badges, see [tabs with counter badges](#tabs-with-counter-badges).
+Basic tabs are the default tab style. Tab width is determined by the tab’s content and they’re aligned left by default. These are used when you simply need to separate content within tabs, without needing to use a `counter badge`. If you need tabs with counter badges, see [tabs with counter badges](#tabs-with-counter-badges).
 
 [[Example:tabs-basic]]
 
