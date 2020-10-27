@@ -34,7 +34,7 @@ For example, in the merge request list view, there should not be "Open" and "WIP
 
 ### Justified tabs
 
-By default, tab width is determined by the tab’s content. However, justified tabs use a fluid width to fill the entire container instead of remaining left-aligned. Tabs will take up an equal percentage of the container width. Text truncation is triggered for longer labels, but they should be as concise as possible.
+Justified tabs use a fluid width to fill the entire container instead of remaining left-aligned. Tabs will take up an equal percentage of the container width. Text truncation is triggered for longer labels, but they should be as concise as possible.
 
 **Consider using justified tabs when:**
 
