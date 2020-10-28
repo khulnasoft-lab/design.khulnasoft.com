@@ -12,11 +12,24 @@ export default {
     return {
       open: false,
       contentTree,
+      componentPage: false,
     };
   },
   computed: {
     contentWrapper() {
       return this.$route.fullPath === '/' ? '' : 'content main';
+    },
+    isComponentPage() {
+      return (
+        this.$route.path.includes('components') && this.$route.fullPath !== '/components/status'
+      );
+    },
+    componentLinkName() {
+      let componentName = this.$route.params.slug;
+      if (componentName.endsWith('s', componentName.length) && componentName !== 'tabs') {
+        componentName = componentName.slice(0, -1);
+      }
+      return componentName;
     },
   },
   mounted() {
@@ -30,6 +43,18 @@ export default {
         document.getElementById(modalId).parentElement.classList.add('app-styles');
       }, 0);
     });
+  },
+  methods: {
+    relatedIssuesLink() {
+      return `https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=component%3A${
+        this.componentLinkName
+      }`;
+    },
+    relatedMergeRequestsLink() {
+      return `https://gitlab.com/groups/gitlab-org/-/merge_requests?label_name%5B%5D=component%3A${
+        this.componentLinkName
+      }`;
+    },
   },
 };
 </script>
@@ -110,15 +135,18 @@ export default {
     </nav>
     <div :class="contentWrapper">
       <nuxt />
-      <footer class="content footer limited m-b-7">
-        Edit <edit-this-page-link>this page</edit-this-page-link> &mdash;
-        Open
+      <footer class="content footer limited m-b-7 row justify-content-center">
+        <edit-this-page-link>Edit this page</edit-this-page-link>
         <edit-this-page-link
           edit-url="https://gitlab.com/-/ide/project/gitlab-org/gitlab-services/design.gitlab.com/edit/master/-"
         >
-          Web IDE
-        </edit-this-page-link> &mdash;
-        Please <nuxt-link to="/contribute/get-started">contribute</nuxt-link>
+          Open Web IDE
+        </edit-this-page-link>
+        <template v-if="isComponentPage">
+          <a :href="relatedIssuesLink()">Related issues</a>
+          <a :href="relatedMergeRequestsLink()">Related merge requests</a>
+        </template>
+        <nuxt-link to="/contribute/get-started">Please contribute</nuxt-link>
       </footer>
     </div>
 
