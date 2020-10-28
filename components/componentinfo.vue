@@ -5,6 +5,8 @@ import {
   GlExampleExplorer,
 } from '@gitlab/ui/documentation';
 
+import { GlButton, GlIcon } from '@gitlab/ui';
+
 import componentExamples from '../contents/examples';
 
 import mdDisplay from './md_display.vue';
@@ -16,6 +18,8 @@ export default {
     GlComponentDocumentation,
     GlExampleExplorer,
     RelatedPages,
+    GlButton,
+    GlIcon,
   },
   props: {
     frontmatterInfo: {
@@ -91,6 +95,23 @@ export default {
         },
       });
     },
+    updateComponentLinkName(name) {
+      let componentName = name;
+      if (componentName.endsWith('s', name.length) && componentName !== 'tabs') {
+        componentName = componentName.slice(0, -1);
+      }
+      return componentName;
+    },
+    componentIssueLink() {
+      return `https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=component%3A${this.updateComponentLinkName(
+        this.$route.params.slug,
+      )}&sort=milestone`;
+    },
+    componentMergeRequestsLink() {
+      return `https://gitlab.com/groups/gitlab-org/-/merge_requests?label_name%5B%5D=component%3A${this.updateComponentLinkName(
+        this.$route.params.slug,
+      )}&sort=milestone`;
+    },
   },
   head() {
     return {
@@ -103,10 +124,14 @@ export default {
 <template>
   <div>
     <div v-if="componentAttributes">
-      <div v-if="vueComponents && vueComponents.length > 0">
-        <div class="md typography">
-          <h1>{{ componentAttributes.name }}</h1>
+      <div class="md typography component-title row align-items-center justify-content-space-between">
+        <h1>{{ componentAttributes.name }}</h1>
+        <div class="app-styles">
+          <gl-button :href="componentIssueLink()" target="_blank">Issues <gl-icon name="external-link" /></gl-button>
+          <gl-button :href="componentMergeRequestsLink()" target="_blank" class="m-l-2">Merge requests <gl-icon name="external-link" /></gl-button>
         </div>
+      </div>
+      <div v-if="vueComponents && vueComponents.length > 0">
         <gl-tabs
           v-model="tabIndex"
           nav-class="top-area nav-links issues-state-filters mobile-separator nav nav-tabs"
@@ -174,8 +199,7 @@ export default {
           </gl-tab>
         </gl-tabs>
       </div>
-      <div v-else class="md typography">
-        <h1>{{ componentAttributes.name }}</h1>
+      <div v-else class="md typography p-t-5">
         <md-display :md="componentBody" />
         <related-pages :related="frontmatterInfo.attributes.related" class="m-t-6" />
       </div>
