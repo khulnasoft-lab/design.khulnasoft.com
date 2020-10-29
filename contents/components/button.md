@@ -259,7 +259,7 @@ Left alignment is a benefit for accessibility in many ways, including reading fl
 
 ### Right alignment 
 
-Buttons are aligned right in constrained containers like modals and dialogs, flows that continue in a progressive direction, actions with a global impact, and toolbars. In these instances a Z-pattern (top to bottom and left to right with a diagonal, scanning movement) is common for reading flow where a user is needing to take a progressive action or an action _upon_ a section rather than _within_ it.
+Buttons are aligned right in constrained containers like modals and dialogs, flows that continue in a progressive direction, actions with a global impact, and toolbars. In these instances a Z-pattern (top to bottom and left to right with a diagonal, scanning movement) is common for reading flow. In these instances a user may be taking a progressive action, like affirming a modal, or an action upon a section, like formatting text in a comment.
 
 <div class="row">
   <div class="col col-50">
