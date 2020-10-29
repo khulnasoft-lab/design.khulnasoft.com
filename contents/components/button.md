@@ -234,11 +234,11 @@ Buttons can be expanded to the full width of the parent container. This can be u
 
 Buttons can be aligned left, right, or center depending on the context. Multiple alignments can be combined within a single screen, but not within an individual context. For example, on a single screen the main content uses left alignment, while the sidebar with multiple settings uses right alignment.
 
-Each type of alignment and recommended application is covered more below.
+Each type of alignment and its recommended application is covered more below.
 
 ### Left alignment
 
-Buttons are aligned left in page content and forms where the content is typically unconstrained other than the grid layout. In these instances an F-pattern (top to bottom and left to right in a horizontal movement) is common for reading flow, and buttons align with other content on the page like headings, lists, input labels, and form labels.
+Buttons are aligned left in page content and forms where the content is typically unconstrained other than by the grid layout. In these instances an F-pattern (top to bottom and left to right in a horizontal movement) is common for reading flow, and buttons align with other content on the page like headings, lists, input labels, and form labels.
 
 Left alignment is a benefit for accessibility in many ways, including reading flow, focus order, and page zoom where right-aligned buttons may be initially off screen.
 
@@ -290,7 +290,7 @@ Buttons are aligned right in constrained containers like modals and dialogs, flo
 
 ### Center alignment
 
-Center alignment is only used for empty states where limited content is either promotional or the actions are the only one available in context.
+Center alignment is only used for empty states where content is promotional or the actions are the only ones available in context.
 
 <figure class="figure" role="figure" aria-label="Center-aligned buttons in an empty state">
   <img class="figure-img" src="/img/buttons-center-alignment.png" alt="Centered buttons at the bottom of empty state content" role="img" style="width:100%; max-width:332px; height:auto" />
