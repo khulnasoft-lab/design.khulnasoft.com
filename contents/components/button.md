@@ -341,7 +341,7 @@ The visual hierarchy is primary buttons on the outer edge, followed by secondary
 
 ### Right to left languages
 
-Button alignment should be reversed for RTL languages, but order should remain the same.
+Button alignment should be reversed for [Right-to-left languages](/usability/i18n), but order should remain the same.
 
 ### Dos and dont’s
 
