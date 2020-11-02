@@ -8,6 +8,10 @@ vueComponents:
 related:
   - dropdowns
   - segmented-control
+  - spinner 
+  - pagination
+  - /usability/i18n
+  - /accessibility/best-practices
 ---
 
 Buttons execute an action, either in the background or foreground of an experience. Different button categories help guide users through certain actions. Buttons express what action will occur when the user clicks or touches it either by text, icon, or both. Additional meaning can be derived from the button style.
