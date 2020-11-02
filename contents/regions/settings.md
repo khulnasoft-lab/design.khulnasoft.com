@@ -4,10 +4,11 @@ related:
   - accordion
   - /regions/navigation
   - /content/voice-tone
+  - /content/terminology
   - /product-foundations/saving-and-feedback
 ---
 
-Settings allow users to specify preferences for how their instance should behave. Settings should be predictable, structured, and display a focused number of options.
+[Settings](/content/terminology#settings-%26-configuration) allow users to specify preferences for how their instance should behave. Settings should be predictable, structured, and display a focused number of options.
 
 There are several settings options with GitLab:
 

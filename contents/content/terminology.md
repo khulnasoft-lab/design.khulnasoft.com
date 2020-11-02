@@ -59,6 +59,27 @@ Milestones in GitLab are a way to track issues and merge requests created to ach
 
 Activity refers to any action taken by a user that results in the creation of a system note. Commenting, resolving/opening an issue, resolving/opening a merge request, and creating/deleting a branch are all types of activities.
 
+### Settings & Configuration
+
+The term "Settings" should be used within the product for consistent language.
+
+| Do  | Don’t |
+| --- |  ---  |
+| Configure the settings | Configure the configuration|
+| Set the `Show default award emojis` setting to `true`  | Set the `Show default award emojis` property to `true`.<br />Set the `Show default award emojis` configuration to `true`. |
+
+#### Settings
+
+A setting is value that can be changed to alter the default behaviour in the product. A setting consists of a label and can have one or more values.
+
+#### Configuration
+
+Configuration is a collection of settings. Commonly associated with installation and setup to set up the foundation of execution.
+
+#### Preferences
+
+Preferences is a collection of settings that is specific to a user. These settings are associated with system level settings like theme and fonts.
+
 ## Verbs and adjectives
 
 When using verbs or adjectives:
