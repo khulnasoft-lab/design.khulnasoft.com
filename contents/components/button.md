@@ -244,7 +244,7 @@ Each type of alignment and its recommended application is covered more below.
 
 Buttons are aligned left in page content and forms where the content is typically unconstrained other than by the grid layout. In these instances an F-pattern (top to bottom and left to right in a horizontal movement) is common for reading flow, and buttons align with other content on the page like headings, lists, input labels, and form labels.
 
-Left alignment is a benefit for accessibility in many ways, including reading flow, focus order, and page zoom where right-aligned buttons may be initially off screen.
+Left alignment is a benefit for [accessibility](/accessibility/best-practices) in many ways, including reading flow, focus order, and page zoom where right-aligned buttons may be initially off screen.
 
 <div class="row">
   <div class="col col-50">
