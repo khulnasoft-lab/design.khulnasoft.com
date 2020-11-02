@@ -10,7 +10,7 @@ related:
   - toast
 ---
 
-Alerts allow the application to pass along relevant system information to the user without impeding their journey. Alerts are system generated and may or may not be derived by a user's action. They are not [validation](https://design.gitlab.com/components/forms#validation) error messages, nor are they feedback notifications after the user takes action — see [toasts](https://design.gitlab.com/components/toast) for more information.
+Alerts allow the application to pass along relevant system information to the user without impeding their journey. Alerts are system generated and may or may not be derived by a user's action. They are not [validation](/components/form#validation) error messages, nor are they feedback notifications after the user takes action — see [toasts](/components/toast) for more information.
 
 ## Usage
 
