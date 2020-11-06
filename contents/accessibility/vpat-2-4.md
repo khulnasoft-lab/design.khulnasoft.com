@@ -7,7 +7,7 @@ name: GitLab Accessibility Conformance Report
 ### Based on VPAT® Version 2.4
 
 - **Name of Product/Version:** GitLab 13.5
-- **Report Date:** December, 2020
+- **Report Date:** November, 2020
 - **Product Description:** From project planning and source code management to CI/CD and monitoring, GitLab is a single application for [the entire DevOps lifecycle](https://about.gitlab.com/stages-devops-lifecycle/).
 - **Contact information:** [ux@gitlab.com](mailto:ux@gitlab.com)
 - **Notes:** This evaluation only refers to GitLab the product and does not include the about.gitlab.com website.
