@@ -1,5 +1,5 @@
 ---
-name: VPAT Conformance Report
+name: GitLab Accessibility Conformance Report
 ---
 
 ## Revised Section 508 Edition
