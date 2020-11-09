@@ -11,7 +11,7 @@ Using a keyboard is a fundamental aspect of accessibility. In fact, many other t
 - [Keyboarding basics](#keyboarding-basics)
 - [Focus order](#focus-order)
 - [Focus states](#focus-states)
-- [Focus traps](#focus-traps)
+- [Keyboard traps](#keyboard-traps)
 - [Skip links](#skip-links)
 - [Resources](#resources)
 
@@ -26,7 +26,10 @@ Using a keyboard is a fundamental aspect of accessibility. In fact, many other t
 
 The focus order is the sequence that a keyboard user tabs through focusable elements. In most cases the focus order and DOM order should be the same. Visually reordering elements with CSS, like floats, flexbox, or grid can be problematic for focus order, so ensure content makes sense both visually and linearly in the markup. To learn more about what elements should be focusable by default read this [Introduction to Focus](https://developers.google.com/web/fundamentals/accessibility/focus/).
 
-Todo: Add visual of bluelines showing focus order in the GitLab UI
+<figure class="figure" role="figure" aria-label="Example tab order moving through navigation">
+  <img class="figure-img" src="/img/a11y-tab-order.png" alt="Example navigation with tab order overlays" role="img" style="width:100%; max-width:640px; height:auto" />
+  <figcaption class="figure-caption">Example tab order moving through navigation</figcaption>
+</figure>
 
 Some HTML elements, like form elements and buttons, receive focus by default because they have native event handling. In these cases nothing has to be done for them to be in the focus order. That being said, it’s possible to use the `tabindex` attribute to make elements focusable.
 
@@ -62,7 +65,10 @@ Some HTML elements, like form elements and buttons, receive focus by default bec
 
 Every focusable element must have a visible focus state for keyboard navigation. Typically a focused element has a stronger border, glow, or shadow to highlight it. Browsers provide a focus ring by default, but this can be removed or enhanced with CSS.
 
-Todo: Add a visual of A GitLab button with default Chrome focus ring and a custom focus ring
+<figure class="figure" role="figure" aria-label="Buttons with custom and default focus rings">
+  <img class="figure-img" src="/img/a11y-focus-ring.png" alt="One button with a custom focus ring, and another with browser default" role="img" style="width:100%; max-width:299px; height:auto" />
+  <figcaption class="figure-caption">Buttons with custom and default focus rings</figcaption>
+</figure>
 
 ### Expected behavior
 
@@ -75,11 +81,14 @@ An element has focus, but there’s no visual indication.
 - Inspect the CSS to see if `outline` is set to `none` without adding styles to the `:focus` state.
 - A utility like [What Input?](https://ten1seven.github.io/what-input/) can detect the input method (mouse, keyboard, or touch) and provide ways to change focus styles based on the input method. Make sure you’re using a keyboard for the input method and that no utilities are interfering with the styles.
 
-## Focus traps
+## Keyboard traps
 
-A focus trap keeps the focus order looping within a section. A modal, for example, uses a focus trap to prevent a user from focusing on content elsewhere in the page — content that could even be hidden by the modal itself.
+A keyboard trap keeps the focus order looping within a section. A modal, for example, uses a keyboard trap to prevent a user from focusing on content elsewhere in the page — content that could even be hidden by the modal itself.
 
-Todo: Add a visual of a GitLab modal with bluelines showing the focus trap
+<figure class="figure" role="figure" aria-label="A modal with a keyboard trap and multiple ways to dismiss">
+  <img class="figure-img" src="/img/a11y-keyboard-trap.png" alt="A modal with overlays showing how focus is trapped within the modal" role="img" style="width:100%; max-width:560px; height:auto" />
+  <figcaption class="figure-caption">A modal with a keyboard trap and multiple ways to dismiss</figcaption>
+</figure>
 
 ### Expected behavior
 
@@ -97,7 +106,10 @@ Todo: Add a visual of a GitLab modal with bluelines showing the focus trap
 
 Skip links are anchor links placed before a section, typically site navigation, that skip a user to the main content without the need to tab through repeating page sections. They’re typically not visible until they receive focus, and then they’re visible for all users.
 
-Todo: Add a visual of a GitLab skip link in header
+<figure class="figure" role="figure" aria-label="Skip link with focus in GitLab’s primary navigation">
+  <img class="figure-img" src="/img/a11y-skip-link.png" alt="Skip link visible when focused in the GitLab header navigation" role="img" style="width:100%; max-width:816px; height:auto" />
+  <figcaption class="figure-caption">Skip link with focus in GitLab’s primary navigation</figcaption>
+</figure>
 
 ### Expected behavior
 
