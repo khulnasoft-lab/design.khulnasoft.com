@@ -1,6 +1,9 @@
 ---
 name: Card
 docs: in-progress
+gitlab_ui: https://gitlab.com/gitlab-org/gitlab-ui/-/blob/master/src/components/base/card
+vueComponents:
+  - GlCard
 related:
   - table
 ---
@@ -35,11 +38,11 @@ If the purpose of using the component is to compare and contrast several static 
 
 If the purpose of using the component is to show a high level overview of incoming data such as Security vulnerabilities or Threat Monitoring statistics, use a single stat component.
 
-Todo: Add link to single stat component after it's been created
+[[Example:simple]]
 
 ## Demo
 
-Todo: Add live component block with code example
+[[Example:card-with-header-footer]]
 
 ## Specifications
 
