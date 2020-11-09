@@ -67,6 +67,7 @@ The term "Settings" should be used within the product for consistent language.
 | --- |  ---  |
 | Configure the settings. | Configure the configuration. |
 | Set the `Show default award emojis` setting to `true`.  | Set the `Show default award emojis` property to `true`.<br />Set the `Show default award emojis` configuration to `true`. |
+| The script deploys our setup configuration. | The script deploys our setup settings. |
 
 #### Settings
 
