@@ -37,7 +37,7 @@ These patterns can be used as initial prompts to start the guiding flows. Consul
 | Popover      | High      | High          | No major changes to the UI required. Don’t use in the middle of a complex flow/task, rather at the beginning or the end. Can also be used to guide users through different pages. |
 | UI modification| Medium  | Medium        | Not really a pattern. Can be used in combination with others but generally requires significant changes to UI. Example: an empty pipeline widget when no pipeline present on the Merge Request page. |
 | Banner       | Low       | Low           | Might require significant changes to the UI (displacement of default elements for example). |
-| Empty state  | Low       | High          | Empty states can be used as great starting points for guiding flows. They’re not intrusive as there’s no content to show, can give context, explain the value and provide a CTA. |
+| Empty state  | Low       | High          | Empty states can be used as great starting points for guiding flows. They’re not intrusive as there’s no content to show; they can give context, explain the value and provide a CTA. |
 
 #### Recommendations for writing copy and providing context
 
