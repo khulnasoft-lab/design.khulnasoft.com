@@ -22,7 +22,7 @@ This is a [Narrative Object Model](https://medium.com/@hpadkisson/object-modelin
 
 ## Layouts
 
-MR attributes and actions can be embedded in related objects, like issue or pipeline, that rely on specific layouts. 
+MR attributes and actions can be embedded in related objects that rely on specific layouts. For example, an issue or pipeline. 
 
 The MR object itself is interacted with and represented in the UI through different layouts in the user’s journey, each with a different purpose.
 As an example, some of the layouts used by MRs are list/catalog, form, and record.
