@@ -29,7 +29,7 @@ The next step should be to think about the users’ context. Where in the app ar
 
 ## Designing onboarding flows
 
-Guiding flows generally consist of two different types of prompts:
+Onboarding flows generally consist of two different types of prompts:
 * **Initial prompt**: shown to explain the value and context, as well as provide the CTA to start the guiding flow.
 * **Follow-up prompts**: shown on subsequent steps of the flow to help keep the user on the right path. Can be shown on the same page or on different pages.
 
