@@ -6,22 +6,22 @@ related:
   - /regions/empty-states
 ---
 
-According to the [FOGG Behavior Model](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/2131), three factors impact people's behavior with regards to completion of tasks: their ability to perform the task, their motivation for it, and the prompt that triggers the behavior. A general principle summarizing this model would be that prompts to trigger the desired behavior succeed when motivation and ability for performing the task are high enough. Keeping this principle in mind helps us to improve both the onboarding experience and our guides for users within our product.
+According to the [FOGG Behavior Model](https://behaviormodel.org/), three factors impact people's behavior with regards to completion of tasks: their ability to perform the task, their motivation for it, and the prompt that triggers the behavior. A general principle summarizing this model would be that prompts to trigger the desired behavior succeed when motivation and ability for performing the task are high enough. Keeping this principle in mind helps us to improve both the onboarding experience and our guides for users within our product.
 
 To help users improve their ability to perform a task we can guide them by using certain UI elements, which connect into a guiding flow. For example, we can show a prompt to suggest that they should set up a CI/CD pipeline. If they opt in, we show visual cues that guide them through different pages until the task is complete.
 
-To increase users' motivation for performing a task, we can clearly communicate the value of the task and provide them with the relevant context for completing it. Clear and value-focused copywriting is the main tool for this. For example: _Setting up a CI/CD pipeline can help increase the quality of your code by showing a code quality report every time someone commits._ Showing the prompt in the right place, in this example on the Merge Request pipeline widget, makes sure that the prompt is contextual.
+To increase users' motivation for performing a task, we can clearly communicate the value of the task and provide them with the relevant context for completing it. Clear and value-focused copywriting is the main tool for this. For example: _Setting up a CI/CD pipeline helps increase the quality of your code by showing a code quality report every time someone commits._ Showing the prompt in the right place, in this example on the Merge Request pipeline widget, ensures that the prompt is contextual.
 
 ## Start with users’ benefits in mind
 
-Users can be onboarded to features (e.g., set up CI/CD) or product stages (e.g., adopt the Secure DevOps stage).
+Users can be onboarded to features (for example, set up CI/CD) or product stages (for example, adopt the Secure DevOps stage).
 
-Showing the users the value that they’ll get from going through onboarding and education in general should always be the main goals of such guiding flows.
+Showing the value that users will gain from a feature or stage should always be the main goal of onboarding.
 
 ### Guidelines for onboarding experiences
 
 * Identify the value that you're trying to give to the user and work backwards from that. Having a new feature that you want to showcase alone isn't a good reason for onboarding. What is the user-facing value of the new feature? How will they benefit from it? If you can't find good answers to these questions, you probably shouldn't use onboarding.
-* Always give users an option to opt out. A simple “No, thanks” button should do.
+* Provide a "No, thanks" option that allows users to opt out.
 
 ## Think about the users’ context
 
@@ -35,14 +35,14 @@ Onboarding flows generally consist of two different types of prompts:
 
 ### Patterns for initial prompts
 
-The following patterns can be used as initial prompts to start the guiding flows. Consult the intrusion level, pattern effectiveness and recommendations for each one when deciding which to use.
+The following patterns can be used as initial prompts to start the guiding flows. Consult the intrusion level, pattern effectiveness, and recommendations for each one when deciding which to use.
 
 | Pattern name | Intrusion | Effectiveness | Notes and recommendations |
 |--------------|-----------|---------------|---------------------------|
-| Popover      | High      | High          | No major changes to the UI required. Don’t use in the middle of a complex flow/task, rather at the beginning or the end. Can also be used to guide users through different pages. |
-| UI modification| Medium  | Medium        | Not really a pattern. Can be used in combination with others but generally requires significant changes to UI. For example, an empty pipeline widget when no pipeline is present on the Merge Request page. |
+| Popover      | High      | High          | No major changes to the UI required. Use at the beginning or end, not in the middle, of a complex flow or task. Use to guide users through different pages. |
+| UI modification| Medium  | Medium        | Not a reusable component. Can be used in combination with others but generally requires significant changes to UI. For example, an empty pipeline widget when no pipeline is present on the Merge Request page. |
 | Banner       | Low       | Low           | Might require significant changes to the UI. For example, displacement of default elements. |
-| Empty state  | Low       | High          | Empty states can be used as great starting points for guiding flows. They’re not intrusive as there’s no content to show; they can give context, explain the value and provide a CTA. |
+| Empty state  | Low       | High          | Empty states can be used as great starting points for guiding flows. They’re not intrusive as there’s no content to show; they can give context, explain the value, and provide a CTA. |
 
 ### Recommendations for writing copy and providing context
 
@@ -54,8 +54,8 @@ Consider the following recommendations to make your initial prompts more effecti
 
 ### Follow-up prompts
 
-Sometimes, the guiding flow will span across different pages. When that’s the case, use the [popover](/components/popover) pattern to keep the users on the right path. The popovers can be animated in a couple of seconds after the page has loaded to make sure that they’re noticed.
+Sometimes, the guiding flow will span across different pages. When that’s the case, use the [popover](/components/popover) component to keep the users on the right path. The popovers can be animated in a couple of seconds after the page has loaded to make sure that they’re noticed.
 
 ### How many steps?
 
-When a guiding flow expands across several steps (and possibly pages), try to aim for three steps, 5 should be the maximum. If you think you need more, consider breaking it down into multiple and smaller flows. The more steps a guiding flow has, the less likely it is that a user will complete it.
+When a guiding flow expands across several steps (and possibly pages), try to aim for three steps. Five should be the maximum. If you think you need more, consider breaking it down into multiple and smaller flows. The more steps a guiding flow has, the less likely it is that a user will complete it.
