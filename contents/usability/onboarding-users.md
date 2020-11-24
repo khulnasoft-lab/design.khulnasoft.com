@@ -54,7 +54,7 @@ Consider the following recommendations to make your initial prompts more effecti
 
 ### Follow-up prompts
 
-Sometimes, the onboarding flow will span across different pages. When that’s the case, use the [popover](/components/popover) component to keep the users on the right path. The popovers can be animated in a couple of seconds after the page has loaded to make sure that they’re noticed.
+Sometimes, the onboarding flow will span across different pages. When that’s the case, use the [popover](/components/popover) component to keep the users on the right path. The popovers can be animated in with a short delay after the page has loaded to make sure that they’re noticed.
 
 ### How many steps?
 
