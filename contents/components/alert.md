@@ -85,16 +85,16 @@ There are times when using an alternative component other than an alert is neces
 ### Copy and content guidelines
 All copy within an alert should be short, actionable, and use clear language. Be sure to keep translations in mind when writing copy. 
 
-##### Titles
+#### Titles
 
 - Alert titles are optional. Use these when...
 - These should highlight the main message that needs to be conveyed by the alert. 
-- Keep these brief and ideally to a single line. Use either microcopy or one sentence for titles.
+- Keep these brief and ideally to a single line, for example a sentence or a sentence fragment.
 - Avoid using punctuation such as periods, commas, or semicolons.
 - Use a full stop only when the title is a full sentence. 
 
 
-##### Body copy
+#### Body copy
 
 - Alert body copy should clarify the purpose of the alert.
 - Avoid paraphrasing the title if one is included. Write the body copy as if the title was the first sentence of this message.
