@@ -28,9 +28,8 @@ We use four spinner sizes:
 - **Large**: 32 pixels
 - **Extra Large**: 64 pixels
 
-and three spinner colors:
+and two spinner colors:
 
-- **Orange**: `$orange-600`
 - **Dark**: `$grey-700`
 - **Light**: white
 
@@ -55,10 +54,6 @@ This size can be used for indicating that loading is in progress for larger comp
 This size is the largest we allow for our spinners. It can be used for indicating that loading is in progress for content areas and sections of the UI.
 
 ### Colors
-
-#### Orange
-
-This is the primary color for the spinner and it should be used in most cases.
 
 #### Dark
 
