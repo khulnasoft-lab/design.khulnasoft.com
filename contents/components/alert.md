@@ -82,6 +82,27 @@ There are times when using an alternative component other than an alert is neces
 | [Validation error](https://design.gitlab.com/components/form#validation) | Notification of an invalid action | Use an error when the user has entered invalid characters into the project name field. | A validation error is tied to a specific invalid action that the user performed, whereas danger alerts inform users of when something has gone wrong separate from any immediate action the user has taken. |
 | [Toast](https://design.gitlab.com/components/toast) | Immediate confirmation of an action | Use a toast when the user has dismissed a vulnerability and it no longer appears in the list. |  We want to immediately reaffirm to the user the system recognized their action and that no further action is needed on their part. |
 
+### Copy and content guidelines
+All copy within an alert should be short, actionable, and use clear language. Be sure to keep translations in mind when writing copy. 
+
+##### Titles
+
+- Alert titles are optional. Use these when...
+- These should highlight the main message that needs to be conveyed by the alert. 
+- Keep these brief and ideally to a single line. Use either microcopy or one sentence for titles.
+- Avoid using punctuation such as periods, commas, or semicolons.
+- Use a full stop only when the title is a full sentence. 
+
+
+##### Body copy
+
+- Alert body copy should clarify the purpose of the alert.
+- Avoid paraphrasing the title if one is included. Write the body copy as if the title was the first sentence of this message.
+- Provide any next steps, troubleshooting actions, or links needed for the user to progress or learn more.
+- Keep these to one or two sentences when possible.
+- Write these in sentence case and use appropriate punctuation.
+
+
 ## Demo
 
 The alert pattern is designed to be flexible and accounts for as many use cases as possible.
