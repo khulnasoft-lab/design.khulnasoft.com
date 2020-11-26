@@ -20,7 +20,7 @@ Showing the value that users will gain from a feature or stage should always be 
 
 ### Guidelines for onboarding experiences
 
-* Identify the value that you're trying to give to the user and work backwards from that. Having a new feature that you want to showcase alone isn't a good reason for onboarding. What is the user-facing value of the new feature? How will they benefit from it? If you can't find good answers to these questions, you probably shouldn't use onboarding.
+* Identify the value that you're trying to give to the user and work backwards from that. Having a new feature that you want to showcase alone isn't a good reason for onboarding. What is the user-facing value of the new feature? How will they benefit from it?
 * Provide a "No, thanks" option that allows users to opt out.
 
 ## Think about the users’ context
@@ -50,7 +50,7 @@ Consider the following recommendations to make your initial prompts more effecti
 
 * Always explain why the initial prompt is shown (for example, _you don’t have a pipeline to check the quality of your code, we can show you how to set it up quickly._)
 * What is the value that the user will get from it (for example, _it will make your code more secure and robust._)
-* Avoid generic CTA copy like “Let’s go” or “Show me how”. Use something that will tell the user what value they’ll get out of it so that even if they only scan through the copy of the prompt, they’ll still have a good idea of what it is they’re doing and what the result will be. Good example: ”Show me how to add a pipeline.”
+* Avoid generic CTA copy like “Let’s go” or “Show me how”. Use something that will tell the user what value they’ll get out of it so that even if they only scan through the copy of the prompt, they’ll still have a good idea of what it is they’re doing and what the result will be. Good example: ”Secure your code”.
 
 ### Follow-up prompts
 
