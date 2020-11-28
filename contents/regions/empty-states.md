@@ -25,7 +25,7 @@ Occasionally, the message can also include a [help link](/usability/helping-user
 
 **3\. Call to action**
 
-The call to action takes the form of a primary button, with the option to add a secondary button. The label should be direct and actionable.
+The call to action takes the form of a primary button, with the option to add a secondary button. The label should be direct and actionable. Use blue (info) if the action leads to relaying information and/or linking anywhere outside the UI, such as docs, and green (success) if the button leads to a creation of something new, or the start of a new flow within the UI.
 
 ### When to use an empty state
 
