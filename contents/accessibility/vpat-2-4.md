@@ -10,7 +10,7 @@ name: GitLab Accessibility Conformance Report
 - **Report Date:** November, 2020
 - **Product Description:** From project planning and source code management to CI/CD and monitoring, GitLab is a single application for [the entire DevOps lifecycle](https://about.gitlab.com/stages-devops-lifecycle/).
 - **Contact information:** [ux@gitlab.com](mailto:ux@gitlab.com)
-- **Notes:** This evaluation only refers to GitLab the product and does not include the about.gitlab.com website.
+- **Notes:** This evaluation only refers to GitLab the product and does not include the [about.gitlab.com](https://about.gitlab.com/) or [docs.gitlab.com](https://docs.gitlab.com/ee/) websites.
 - **Evaluation Methods Used:** Conformance to the listed accessibility standards has been evaluated by GitLab using a combination of static analysis tools and manual testing with assistive technologies. These tools include: [Axe plugin for Chrome](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/), Lighthouse, and iOS VoiceOver.
 
 ### Applicable Standards/Guidelines
