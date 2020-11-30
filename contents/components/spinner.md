@@ -61,7 +61,7 @@ This is the secondary color for the spinner. It’s a great alternative for time
 
 #### Light
 
-This color is reserved for spinners on dark background only (buttons for example).
+The light variant is reserved for spinners on a dark background. For example, primary buttons or in the context of a dark UI.
 
 ## Design specification
 
