@@ -57,7 +57,7 @@ This size is the largest we allow for our spinners. It can be used for indicatin
 
 #### Dark
 
-This is the secondary color for the spinner. It’s a great alternative for times when the spinner doesn’t need to stand out as much. For example, when used to indicate background activity or when used within small elements such as icon buttons.
+A neutral spinner with sufficient contrast helps indicate background activity while not inferring meaning or being too distracting.
 
 #### Light
 
