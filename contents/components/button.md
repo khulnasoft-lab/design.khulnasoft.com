@@ -68,7 +68,7 @@ Disabled buttons prevent the user from performing an action. They are there to l
 
 Any button can utilize the `loading` property to turn a button’s state into a loading state. The loading status is indicated by the use of a [spinner](/components/spinner), and the button is disabled while the state persists.
 
-For [text buttons](#text) or [icon and text buttons](#icon-%2B-text), the spinner is added to the left of the button, before the icon or label.
+For [buttons containing text](#combinations), the spinner is added to the left of the button, before the icon or label.
 
 [[Example:button-loading]]
 
