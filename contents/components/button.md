@@ -22,7 +22,7 @@ Different button categories bring varying emphasis to potential user actions. Th
 
 ### Action hierarchy
 
-Button categories are chosen based on the overall information architecture on a given page, as well as the individual contexts found within. Defining context depends on the hierarchy of information displayed on the screen, the motivated user flow, and the available tasks. As an example: Settings pages may have multiple equally important contexts, each requiring its own primary button to complete its task.
+Button categories are chosen based on the overall hierarchy on a given page, as well as the individual contexts found within. Defining context depends on the hierarchy of information displayed on the screen, the motivated user flow, and the available tasks. As an example: Settings pages may have multiple equally important contexts, each requiring its own primary button to complete its task.
 
 Note that contexts may be temporary, such as a modal.
 
