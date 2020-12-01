@@ -78,7 +78,7 @@ Todo: Add live component block with example of loading icon button
 
 ### Selected
 
-Selected buttons indicate whether or not an option is active.
+Selected buttons act like a toggle that indicate whether or not an option is in a selected state. To indicate to screen readers that the button functions as a toggle it should have `aria-pressed="true"` to align with the visually selected state, otherwise `aria-pressed="false"`.
 
 [[Example:button-selected]]
 
