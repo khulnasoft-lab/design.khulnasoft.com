@@ -56,7 +56,7 @@ Buttons derive additional meaning from their presented style and help the user q
 
 ## States
 
-Buttons change depending on the user's interaction or set behavior. This is to ensure they are accessible and feel responsive in both desktop and mobile environments.
+Button states change visually and/or programmatically depending on user interaction or a predetermined state. For example, programmatically moving focus to a button in a modal when it opens. This ensures they’re accessible and feel reactive for different modalities.
 
 ### Disabled
 
