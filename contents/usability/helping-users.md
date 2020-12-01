@@ -14,7 +14,7 @@ Help comes in the form of various types of content designed to:
 
 If the most relevant information can be summarized succinctly, put the summary directly in the UI instead of using a Help link. However, you can use a Help link to provide supplemental information. Help links open up their page in a new tab.
 
-- **Example:** User cohorts show how active users are in the last 12 months. [More information](#)
+- **Example:** User cohorts show how active users are in the last 12 months. [More information](#).
 
 Don't use "Learn more about," "Tell me more about," or "Get help with this" phrasing. Phrase help links to indicate assistance and predict the results of the link. Help links should never read like action links, for example, “Open documentation.” As an exception, you can use "More information" to supplement instructions that are directly in the UI, especially if providing specific information in the Help link leads to unnecessary repetition or makes the link less compelling.
 
