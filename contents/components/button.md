@@ -20,7 +20,7 @@ Buttons execute an action, either in the background or foreground of an experien
 
 Different button categories bring varying emphasis to potential user actions. This makes the page comprehensive while guiding the user through performing a task. We have three button categories: Primary, Secondary, and Tertiary.
 
-### Information architecture
+### Action hierarchy
 
 Button categories are chosen based on the overall information architecture on a given page, as well as the individual contexts found within. Defining context depends on the hierarchy of information displayed on the screen, the motivated user flow, and the available tasks. As an example: Settings pages may have multiple equally important contexts, each requiring its own primary button to complete its task.
 
