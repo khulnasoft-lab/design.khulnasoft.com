@@ -100,7 +100,7 @@ A button may also be attached to a label, such as a commit SHA.
 
 ### Emoji
 
-Emoji buttons provide the user with visual to signify what the emotion users have attributed to the parent object. They only contain an emoji label and convert to a selected state when pressed.
+Emoji buttons provide the user with a visual to indicate what emotion has been attributed to the parent object. They only contain an emoji character and convert to a [selected](#selected) state when pressed.
 
 [[Example:button-emoji]]
 
