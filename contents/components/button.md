@@ -132,7 +132,7 @@ Ellipsis buttons allow for expanding content inline. It can be used when content
 
 ## Group
 
-Button groups merge frequently used buttons with a close relationship or similar actions together to aid with arrangement and spacing. Button groups are always displayed in a horizontal row.
+Button groups visually group buttons that have similar or related actions together to emphasize the relationship and aid with arrangement and spacing.
 
 A [segmented control](/components/segmented-control) should be used when a button group has one option always selected. [Pagination](/components/pagination) is a specific type of segmented control that utilizes it's own design.
 
