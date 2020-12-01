@@ -84,7 +84,7 @@ Selected buttons act like a toggle that indicate whether or not an option is in 
 
 ## Combinations
 
-Buttons can contain different content, depending on the situation. For example, some buttons contain only text while others include only icons. A combination may be used when space allows and more emphasis is required. Icons are always positioned to the left of text. Two icons should never be used in the same button, unless it is an [icon dropdown](#text-%2B-icon-dropdowns).
+Buttons can contain different content depending on the situation. For example, some buttons only have text, while others only have an icon. A combination may be used when space allows and more emphasis is required. Icons are always positioned to the left of text. Two icons should never be used in the same button, unless it is an [icon dropdown](#text-%2B-icon-dropdowns).
 
 [[Example:button-basic]]
 
