@@ -14,7 +14,7 @@ related:
   - /accessibility/best-practices
 ---
 
-Buttons execute an action, either in the background or foreground of an experience. Buttons express what action will occur either by text, icon, or both. Additional meaning can be derived from the button variant.
+Buttons execute an action, either in the background or foreground of an experience. Buttons express what action will occur either by text, icon, or both. Additional meaning can be derived from the button variant and occasionally [tooltips](/components/tooltip).
 
 ## Categories
 
