@@ -92,6 +92,8 @@ Buttons can contain different content depending on the situation. For example, s
 
 [[Example:button-icon-and-text]]
 
+### Label
+
 A button may also be attached to a label, such as a commit SHA.
 
 [[Example:button-label]]
