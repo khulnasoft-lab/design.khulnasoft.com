@@ -718,7 +718,7 @@ Notes: The GitLab product has not been evaluated for WCAG 2.0 Level AAA conforma
         302.2 With Limited Vision
       </td>
       <td>
-        Supports
+        Partially supports
       </td>
       <td>
         <p>The product does not override any built-in screen magnification provided by the browser or assistive device.</p>
