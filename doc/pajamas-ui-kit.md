@@ -62,7 +62,12 @@ The current files are:
 
 ### Components
 
-With Figma, components are organized in the asset library by how they are structured and named in the file. The default hierarchy is **File/Page/Frame/Layer**. There are two methods for organizing components. The first uses Figma's [Variants](https://help.figma.com/hc/en-us/articles/360056440594-Create-and-use-variants) feature. The second is by using a slash naming convention. For the rest of this article, components created with Figma’s variants feature will be referred to as **variant** or **variants**. Here’s our working hierarchy for structure and naming, the file name has been left out for brevity:
+With Figma, components are organized in the asset library by how they are structured and named in the file. The default hierarchy is **File/Page/Frame/Layer**. There are two methods for organizing components: 
+
+1. Using Figma's [Variants](https://help.figma.com/hc/en-us/articles/360056440594-Create-and-use-variants) feature. 
+2. Using a slash naming convention. 
+
+For the rest of this article, components created with Figma’s variants feature will be referred to as **variant** or **variants**. Here’s our working hierarchy for structure and naming, the file name has been left out for brevity:
 - **Page:** [Component]
 - **Frame:** [Variant], [Category], [Group], or literally “Variants.” “Variants” is the default frame name when components aren’t created with the variants feature.
 - **Layer:** [Property=Value, Property=Value] as a variant or [Breakpoint/Item/Size/State] when manually organized.
