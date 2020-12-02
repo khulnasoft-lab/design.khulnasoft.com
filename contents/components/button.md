@@ -140,7 +140,7 @@ A [segmented control](/components/segmented-control) should be used when a butto
 
 ## Sizing
 
-Depending on the interface buttons may either use the medium or small size. Buttons can be expanded to the full width of the parent container. This can be used for buttons embedded inside smaller width containers or to improve usability on mobile viewports.
+Depending on the interface buttons may either use the medium or small size. Block buttons expand to fill the width of their parent container. This can be used for buttons embedded inside smaller width containers or to improve usability on mobile viewports.
 
 [[Example:button-sizes]]
 
