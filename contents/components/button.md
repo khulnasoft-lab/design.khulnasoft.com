@@ -110,7 +110,7 @@ Dropdown buttons trigger option menus.
 
 ### Text and icon dropdowns
 
-A dropdown button is identified by the use of a [chevron-down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-down) icon to the right of the text label.
+A dropdown button is identified by the use of a [chevron-down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-down) icon to the right of the text label. The chevron is the only icon that should be present with a text label.
 
 [[Example:new-dropdown-default]]
 
