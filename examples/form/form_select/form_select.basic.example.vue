@@ -3,10 +3,7 @@ export default {
   data() {
     return {
       selected: 'pizza',
-      options: [
-        { text: 'Pizza', value: 'pizza' },
-        { text: 'Tacos', value: 'tacos' },
-      ],
+      options: [{ text: 'Pizza', value: 'pizza' }, { text: 'Tacos', value: 'tacos' }],
     };
   },
 };

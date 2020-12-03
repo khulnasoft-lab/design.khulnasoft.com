@@ -2,10 +2,7 @@
 export default {
   data() {
     return {
-      options: [
-        { value: true, text: 'Show' },
-        { value: false, text: 'Hide' },
-      ],
+      options: [{ value: true, text: 'Show' }, { value: false, text: 'Hide' }],
       selected: true,
     };
   },
