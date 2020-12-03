@@ -78,8 +78,6 @@ When creating a component as a variant, only a single instance of that component
 
 If a component is not part of a variant container, numerically prefixing the breakpoint and size abbreviations correctly orders them in the asset library in a way that helps a user understand hierarchy (see [examples](#examples) below).
 
-We aim to keep the hierarchy [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), and focus on structure specific to component context. If we didn’t put variants within a frame, we’d prevent the naming from being verbose, but it’d be at the cost of not having a specific frame to link to as a design spec.
-
 ### Examples
 
 #### Icons
