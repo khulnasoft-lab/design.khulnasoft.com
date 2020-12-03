@@ -179,7 +179,7 @@ Figma library updates are published by a [Figma maintainer][figma-maintainers], 
 
 ## Sharing or linking to changes
 
-Because components can be in multiple frames on a page, it’s best to link to the entire page when referencing as a design spec, in the [Pajamas documentation][pajamas]. Otherwise, you can link directly to the specific frame in issues, merge requests, and other places where a specific portion of the design is referenced.
+Because components can be in multiple frames on a page, it’s best to link to the entire page when referencing as a design spec in the [Pajamas documentation][pajamas]. Otherwise, you can link directly to the specific frame in issues, merge requests, and other places where a specific portion of the design is referenced.
 
 ## Updating the libraries locally
 
