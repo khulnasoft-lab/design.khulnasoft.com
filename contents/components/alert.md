@@ -87,18 +87,17 @@ All copy within an alert should be short, actionable, and use clear language. Be
 
 #### Titles
 
-- The alert title should convey to the user what has happened- clarifying what event triggered the alert.
-- Keep these brief and ideally to a single line for example a sentence or a sentence fragment.
+- Alert titles are optional. When used, they should convey to the user what event triggered the alert.
+- Be brief. Keep titles to a single line by utilizing a sentence fragment.
 - Avoid using punctuation such as periods, commas, or semicolons.
 - Use a full stop only when the title is a full sentence. 
-- Alert titles are optional.
 
 
 #### Body copy
 
-- Alert body copy should clarify to the user what they need to do- providing next steps, troubleshooting actions, or links needed for the user to learn about or remedy the event that triggered the alert.
+- Alert body copy should clarify to the user what they need to do. For example, providing next steps, troubleshooting actions, or links needed for the user to learn about or remedy the event that triggered the alert.
 - Avoid paraphrasing the title if one is included. Write the body copy as if the title was the first sentence of this message.
-- Keep these to one or two sentences when possible.
+- Keep to one or two sentences when possible.
 - Use sentence case and appropriate punctuation.
 
 
