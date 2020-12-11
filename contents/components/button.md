@@ -6,7 +6,9 @@ vueComponents:
   - GlButton
   - GlButtonGroup
 related:
+  - tooltip
   - dropdown
+  - modal
   - segmented-control
   - spinner 
   - pagination
