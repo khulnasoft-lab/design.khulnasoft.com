@@ -37,7 +37,7 @@ Two colors are available to choose from, depending on the background color:
 |Color|Use|
 |-----|---|
 |Dark| For [neutral](/foundations/colors#neutral-palette) backgrounds that are `$gray-200` or lighter, or [chromatic](/foundations/colors#chromatic-palette) backgrounds that are `300` or lighter.|
-|Light|For [neutral](/foundations/colors#neutral-palette) backgrounds that are `$gray-400` or darker, or [chromatic](/foundations/colors#chromatic-palette) backgrounds that are `400` or darker.|
+|Light|For [neutral or chromatic](/foundations/colors) backgrounds that are `400` or darker.|
 
 [[Example:loading-icon-all-options]]
 
