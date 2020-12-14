@@ -17,7 +17,7 @@ Using a keyboard is a fundamental aspect of accessibility. In fact, many other t
 
 ## Keyboarding basics
 
-- Use the `Tab `key to navigate in a linear direction through focusable elements like links, forms, and buttons.
+- Use the `Tab` key to navigate in a linear direction through focusable elements like links, forms, and buttons.
 - The `Enter` key (and sometimes `Spacebar`) selects an element.
 - Arrow keys are used to move within certain elements or element groups like a radio button group or set of tabs.
 - For a more comprehensive list of actions, review this table of [common keyboard interactions](https://webaim.org/techniques/keyboard/#testing).
