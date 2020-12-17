@@ -104,7 +104,7 @@ A keyboard trap keeps the focus order looping within a section. A modal, for exa
 
 ## Skip links
 
-Skip links are anchor links placed before a section, typically site navigation, that skip a user to the main content without the need to tab through repeating page sections. They’re typically not visible until they receive focus, and then they’re visible for all users.
+Skip links are anchor links placed before a section that allow a user to bypass blocks of repeating page sections (typically navigation), and "skip" to the main content. They’re typically not visible until they receive focus, and then they’re visible for all users.
 
 <figure class="figure" role="figure" aria-label="Skip link with focus in GitLab’s primary navigation">
   <img class="figure-img" src="/img/a11y-skip-link.png" alt="Skip link visible when focused in the GitLab header navigation" role="img" style="width:100%; max-width:816px; height:auto" />
