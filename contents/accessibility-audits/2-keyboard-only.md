@@ -83,7 +83,7 @@ An element has focus, but there’s no visual indication.
 
 ## Keyboard traps
 
-A keyboard trap keeps the focus order looping within a section. A modal, for example, uses a keyboard trap to prevent a user from focusing on content elsewhere in the page — content that could even be hidden by the modal itself.
+A keyboard trap keeps the focus order looping within a section. A modal, for example, uses a keyboard trap to prevent a user from focusing on content elsewhere in the page — content that could even be hidden by the modal itself. There should never be a keyboard trap that a user can’t get out of.
 
 <figure class="figure" role="figure" aria-label="A modal with a keyboard trap and multiple ways to dismiss">
   <img class="figure-img" src="/img/a11y-keyboard-trap.png" alt="A modal with overlays showing how focus is trapped within the modal" role="img" style="width:100%; max-width:560px; height:auto" />
