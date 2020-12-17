@@ -56,7 +56,7 @@ Some HTML elements, like form elements and buttons, receive focus by default bec
   - It’s possible that focus is received, but a visible focus state is missing, see the section on [Focus States](#focus-states) for more.
   - If the element is custom, or not one that natively receives focus it should have `tabindex` set to `0`.
 - Focus gets trapped somewhere in the page and can’t complete a loop back to the browser’s address bar.
-  - See the section on [Focus Traps](#focus-traps).
+  - See the section on [Keyboard Traps](#keyboard-traps).
 - Focus seems to disappear when tabbing.
   - Elements that are visually hidden, like a mobile menu in a desktop view, can still receive focus if they don’t use a method which also removes them from the focus order. Use an extension, like [NerdeFocus](https://github.com/wizzyfx/nerdeFocusPlugIn) for Chrome, to reveal where focus is being placed.
   - In CSS, `display: none;` or `visibility: hidden;` are good ways to remove focus. The element could also have the `tabindex="-1"` or hidden attributes added.
@@ -67,7 +67,7 @@ Every focusable element must have a visible focus state for keyboard navigation.
 
 <figure class="figure" role="figure" aria-label="Buttons with custom and default focus rings">
   <img class="figure-img" src="/img/a11y-focus-ring.png" alt="One button with a custom focus ring, and another with browser default" role="img" style="width:100%; max-width:299px; height:auto" />
-  <figcaption class="figure-caption">Buttons with custom and default focus rings</figcaption>
+  <figcaption class="figure-caption">Buttons with custom and browser default focus rings</figcaption>
 </figure>
 
 ### Expected behavior
@@ -92,7 +92,7 @@ A keyboard trap keeps the focus order looping within a section. A modal, for exa
 
 ### Expected behavior
 
-- After encountering a focus trap a user should be able to “untrap” the focus with the `Esc` key, a close button, or other action that navigates the user away from the current experience.
+- After encountering a keyboard trap a user should be able to “untrap” the focus with the `Esc` key, a close button, or other action that navigates the user away from the current experience.
 - When the user exits the focus trap (without navigating away) the focus should return to the previously focused element, usually the one that triggered the modal in the first place.
 
 ### Identifying problems
