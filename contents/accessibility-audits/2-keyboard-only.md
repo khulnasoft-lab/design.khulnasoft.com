@@ -93,13 +93,13 @@ A keyboard trap keeps the focus order looping within a section. A modal, for exa
 ### Expected behavior
 
 - After encountering a keyboard trap a user should be able to “untrap” the focus with the `Esc` key, a close button, or other action that navigates the user away from the current experience.
-- When the user exits the focus trap (without navigating away) the focus should return to the previously focused element, usually the one that triggered the modal in the first place.
+- When the user exits the keyboard trap (without page reload or navigating away) the focus should return to the previously focused element, usually the one that triggered the keyboard trap in the first place.
 
 ### Identifying problems
 
 - An element like a modal or dialog that overlays other content is activated, but the focus can leave that element, and even focus on items covered by it.
   - A keyboard trap should be created and controls should exist to close the element and return focus to its previous location.
-- An item that should be a focus trap never receives focus.
+- An item that should be a keyboard trap never receives focus.
   - Custom elements should have `tabindex="-1"` set and focus should be programmatically placed in them from the triggering element.
 
 ## Skip links
