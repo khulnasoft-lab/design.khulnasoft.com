@@ -10,6 +10,7 @@ related:
   - buttons
   - dropdown
   - date-picker
+  - colorpicker
 ---
 
 Forms allow for user input by mimicking paper forms where users fill in information into particular fields and submit it to the system. They’re a fundamental but a complex part of interacting with web applications such as GitLab. Getting them right and assisting the users to successfully complete their tasks is essential.
