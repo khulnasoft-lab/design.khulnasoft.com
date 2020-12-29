@@ -74,61 +74,43 @@ Todo: Determine pattern for multiple alerts that occur in the same area of a pag
 
 ## Specifications
 
-### Content
+### Alert structure
 
 All copy within an alert should be short, actionable, and use clear language. Be sure to keep translations in mind when writing copy.
 
-<figure class="figure" role="figure" aria-label="Center-aligned buttons in an empty state">
-  <img class="figure-img" src="/img/alert-diagram.svg" alt="Centered buttons at the bottom of empty state content" role="img" />
-  <figcaption class="figure-caption">
-    <ol>
-      <li>Icon</li>
-      <li>Title</li>
-      <li>Close button</li>
-      <li>Message</li>
-      <li>Action buttons</li>
-    </ol>
-  </figcaption>
+<figure class="figure" role="figure" aria-label="Alert structure">
+  <img class="figure-img" src="/img/alert-diagram.svg" alt="Numbered diagram of an alert structure" role="img" />
 </figure>
 
-#### Icon
-
-- An icon is required. Each variant has an associated icon:
-  - [error](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~error) icon for error and danger alerts.
-  - [warning](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~warning) icon for the warning alert.
-  - [check-circle](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~check-circle) icon for the success alert.
-  - [information-o](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~information-o) icon for the information alert.
-  - [bulb](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~bulb) icon for the tip alert.
-
-#### Title
-
-- A title (optional) conveys what event triggered the alert.
-- Be brief and keep the title to a single line by utilizing a sentence fragment.
-- Avoid using punctuation such as periods, commas, or semicolons.
-- Use a full stop only when the title is a full sentence.
-
-#### Dismissal
-
-- Dismissible alerts can be removed by the user and can reappear if an action or system event reproduces the alert.
-- Non-dismissible alerts can only be removed after a system condition is met.
-- An alert can be permanently dismissed by a user with an explicit [action button](#actions) only when the alert relates to their individual instance and doesn't relate to a system condition.
-- A close (×) button (optional) positioned at the top right closes an alert.
-- Alerts may contain a dismiss action (in addition to the close button), as well as an additional action button below the body content, depending on the use case.
-- Allow an alert to be dismissed when a task isn't blocked if no action is taken.
-- Don't use a dismiss button or action when the user is prevented from completing a task until a system-condition is met.
-
-#### Message
-
-- Alert body copy (required) clarifies what needs to be done. For example, providing next steps, troubleshooting actions, or links to learn about or remedy the event that triggered the alert.
-- Avoid paraphrasing the title if one is included. Write the body copy as if the title was the first sentence of this message.
-- Keep to one or two sentences when possible.
-- Use sentence case and appropriate punctuation.
-
-#### Actions
-
-- Buttons (optional) should be used when possible to provide explicit action(s) the user can take to either remedy the alert or continue with a task.
-- Up to two actions can be used at a time where the primary action uses the info button variant and the secondary action uses the default button variant.
-- Buttons are always left aligned, except in right-to-left languages where they are right aligned and the order is the same. See [button alignment and order](/components/button#alignment-and-order) for more details.
+1. **Icon**
+   - An icon is required. Each variant has an associated icon:
+     - [error](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~error) icon for error and danger alerts.
+     - [warning](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~warning) icon for the warning alert.
+     - [check-circle](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~check-circle) icon for the success alert.
+     - [information-o](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~information-o) icon for the information alert.
+     - [bulb](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~bulb) icon for the tip alert.
+1. **Title**
+   - A title (optional) conveys what event triggered the alert.
+   - Be brief and keep the title to a single line by utilizing a sentence fragment.
+   - Avoid using punctuation such as periods, commas, or semicolons.
+   - Use a full stop only when the title is a full sentence.
+1. **Dismissal**
+   - Dismissible alerts can be removed by the user and can reappear if an action or system event reproduces the alert.
+   - Non-dismissible alerts can only be removed after a system condition is met.
+   - An alert can be permanently dismissed by a user with an explicit [action button](#actions) only when the alert relates to their individual instance and doesn't relate to a system condition.
+   - A close (×) button (optional) positioned at the top right closes an alert.
+      - Alerts may contain a dismiss action (in addition to the close button), as well as an additional action button below the body content, depending on the use case.
+   - Allow an alert to be dismissed when a task isn't blocked if no action is taken.
+   - Don't use a dismiss button or action when the user is prevented from completing a task until a system-condition is met.
+1. **Message**
+   - Alert body copy (required) clarifies what needs to be done. For example, providing next steps, troubleshooting actions, or links to learn about or remedy the event that triggered the alert.
+   - Avoid paraphrasing the title if one is included. Write the body copy as if the title was the first sentence of this message.
+   - Keep to one or two sentences when possible.
+   - Use sentence case and appropriate punctuation.
+1. **Actions**
+   - Buttons (optional) should be used when possible to provide explicit action(s) the user can take to either remedy the alert or continue with a task.
+   - Up to two actions can be used at a time where the primary action uses the info button variant and the secondary action uses the default button variant.
+   - Buttons are always left aligned, except in right-to-left languages where they are right aligned and the order is the same. See [button alignment and order](/components/button#alignment-and-order) for more details.
 
 ### Design
 
