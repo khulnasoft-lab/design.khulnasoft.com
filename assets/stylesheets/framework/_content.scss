@@ -131,6 +131,12 @@
     margin-bottom: $gl-spacing-7;
     padding: $gl-spacing-6 $gl-spacing-5;
   }
+
+  ul, ol {
+    margin: 0 0 0 1rem;
+    padding: 0;
+    text-align: left;
+  }
 }
 
 .figure-img {
