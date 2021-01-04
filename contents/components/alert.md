@@ -16,7 +16,7 @@ Alerts provide relevant information to the user without impeding their task. Ale
 
 ### When to use an alert
 
-Deciding when to use an alert versus other components like a broadcast message, validation error, or toast can be tricky. See the purpose and examples for each variant below to get a better understanding of when to use each.
+Determining which alert variant to use can sometimes be tricky. See the purpose and examples for each variant below to get a better understanding of when to use each.
 
 | Variant | Purpose | Example |
 | ------ | ------ | ------ |
@@ -95,7 +95,7 @@ All copy within an alert should be short, actionable, and use clear language. Be
    - Avoid using punctuation such as periods, commas, or semicolons.
    - Use a full stop only when the title is a full sentence.
 1. **Dismissal**
-  - Allow an alert to be dismissed when a task isn't blocked if no action is taken.
+   - Allow an alert to be dismissed when a task isn't blocked if no action is taken.
    - Don't use a dismiss button or action when the user is prevented from completing a task until a system-condition is met.
    - Dismissible alerts can be removed by the user and can reappear if an action or system event reproduces the alert.
    - Non-dismissible alerts can only be removed after a system condition is met.
@@ -106,7 +106,7 @@ All copy within an alert should be short, actionable, and use clear language. Be
    - Alert body copy (required) clarifies what needs to be done. For example, providing next steps, troubleshooting actions, or links to learn about or remedy the event that triggered the alert.
    - Avoid paraphrasing the title if one is included. Write the body copy as if the title was the first sentence of this message.
    - Keep to one or two sentences when possible.
-   - Use sentence case and appropriate punctuation.
+   - Use sentence case and appropriate punctuation based on our [punctuation guidelines](/content/punctuation). 
 1. **Actions**
    - Buttons (optional) can be used to provide explicit action(s) the user can take to either remedy the alert or continue with a task.
    - Up to two actions can be used at a time where the primary action uses the info button variant and the secondary action uses the default button variant.
