@@ -95,12 +95,12 @@ All copy within an alert should be short, actionable, and use clear language. Be
    - Avoid using punctuation such as periods, commas, or semicolons.
    - Use a full stop only when the title is a full sentence.
 1. **Dismissal**
+   - A close (×) button (optional) positioned at the top right closes an alert.
+   - An alert can be permanently dismissed by a user with an explicit [action button](#actions) only when the alert relates to their individual instance and wasn't triggered by a system condition.
    - Allow an alert to be dismissed when a task isn't blocked if no action is taken.
    - Don't use a dismiss button or action when the user is prevented from completing a task until a system-condition is met.
    - Dismissible alerts can be removed by the user and can reappear if an action or system event reproduces the alert.
-   - Non-dismissible alerts can only be removed after a system condition is met.
-   - An alert can be permanently dismissed by a user with an explicit [action button](#actions) only when the alert relates to their individual instance and wasn't triggered by a system condition.
-   - A close (×) button (optional) positioned at the top right closes an alert.
+   - Non-dismissible alerts can only be removed after a system condition is met.   
    - Alerts may contain a dismiss action (in addition to the close button), as well as an additional action button below the body content, depending on the use case.
 1. **Message**
    - Alert body copy (required) clarifies what needs to be done. For example, providing next steps, troubleshooting actions, or links to learn about or remedy the event that triggered the alert.
