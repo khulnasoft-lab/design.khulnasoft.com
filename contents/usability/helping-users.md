@@ -20,7 +20,7 @@ Use a question to lead the user to helpful information.
 
 If a question doesn't make sense, use the sentence, "Learn more." Do not use "More information" or other phrases, and always use a period.
 
-- **Example:** User cohorts show how active users are in the last 12 months. [Learn more](#).
+- **Example:** User cohorts show how active users are in the last 12 months. [Learn more.](#)
 
 If no room is available for text, use the [question svg](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~question) (`#1068bf`) to link to the Help content. Use a tooltip to indicate the primary question answered by the help content.
 
@@ -28,4 +28,4 @@ Todo: Add live component block with code example
 
 If the help content is outside of the GitLab instance (for example, content at about.gitlab.com), make that clear in the link text. Doing so helps make the result of the links predictable. This is often not possible due to space limitations. An external link icon can be added in place of more copy.
 
-- **Example:** For more integrations, go to [GitLab’s website](#).
+- **Example:** For more integration, go to [GitLab’s website](#).
