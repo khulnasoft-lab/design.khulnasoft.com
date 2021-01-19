@@ -33,6 +33,11 @@ export default {
       tabIndex: 0,
     };
   },
+  head() {
+    return {
+      title: this.frontmatterInfo.attributes.name,
+    };
+  },
   created() {
     this.componentAttributes = this.frontmatterInfo.attributes;
 
@@ -92,11 +97,6 @@ export default {
       });
     },
   },
-  head() {
-    return {
-      title: this.frontmatterInfo.attributes.name,
-    };
-  },
 };
 </script>
 
@@ -107,7 +107,7 @@ export default {
         <div class="md typography">
           <h1>{{ componentAttributes.name }}</h1>
         </div>
-        <gl-tabs v-model="tabIndex" nav-wrapper-class="app-styles" lazy>
+        <gl-tabs v-model="tabIndex" content-class="p-t-0" lazy>
           <gl-tab title="Design" active class="p-t-3 js-gl-tab" @click.prevent="activateTab()">
             <md-display :md="componentBody" />
             <related-pages :related="frontmatterInfo.attributes.related" class="m-t-6" />
