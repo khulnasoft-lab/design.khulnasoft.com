@@ -17,7 +17,9 @@
     ]"
   >
     <template #header>
-      <gl-deprecated-button variant="success" class="order-1"> Foo Button </gl-deprecated-button>
+      <gl-button variant="success" class="order-1">
+        Foo Button
+      </gl-button>
     </template>
   </gl-paginated-list>
 </template>
