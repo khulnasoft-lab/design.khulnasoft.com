@@ -6,7 +6,7 @@ related:
   - /product-foundations/typography
 ---
 
-Markdown text formatting used within the product.
+Markdown text formatting used within the product. The size of the text will adjust based on the parent text size.
 
 ## Inline code
 
