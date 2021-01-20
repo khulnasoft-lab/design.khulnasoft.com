@@ -17,9 +17,7 @@
     ]"
   >
     <template #header>
-      <gl-button variant="confirm" class="order-1">
-        Foo Button
-      </gl-button>
+      <gl-button variant="confirm" class="order-1"> Foo Button </gl-button>
     </template>
   </gl-paginated-list>
 </template>
