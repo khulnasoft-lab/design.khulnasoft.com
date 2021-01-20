@@ -10,8 +10,8 @@ The copy for GitLab is clear and direct. We strike a balance between professiona
 
 Whenever possible, write in [active voice](https://www.grammarly.com/blog/active-vs-passive-voice/), instead of passive voice. Active voice is easier for users to understand and often results in shorter content. 
 
-- Passive voice: _Files can be added by developers._
-- Active voice: _Developers can add files._ 
+- Passive voice: _Files are added by developers._
+- Active voice: _Developers add files._ 
 
 Sometimes, using passive voice is appropriate. Make sure it’s an intentional choice that communicates the idea more clearly than active voice would&mdash;for example, when the system is the actor, rather than a person. 
 
