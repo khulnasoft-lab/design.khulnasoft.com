@@ -18,7 +18,7 @@ export default {
         <gl-input-group-text>Username</gl-input-group-text>
       </template>
       <template #append>
-        <gl-button variant="success">Add</gl-button>
+        <gl-button variant="confirm">Add</gl-button>
       </template>
     </gl-form-input-group>
   </div>
