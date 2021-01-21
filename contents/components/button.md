@@ -44,15 +44,23 @@ Note that contexts may be temporary, such as a modal.
 
 Buttons derive additional meaning from their presented style and help the user quickly presume any consequences that button may cause when clicked.
 
+|Variant|Used for|Example|
+|-------|--------|-------|
+|Confirm|A positive or negative non-destructive action that is confirmation of what the user desires to take place (replaces `info`, `success`, and `warning`).|The **New issue** button when creating a new issue.|
+|Default|An action that doesn’t warrant prominence, typically when a primary variant is already used in the same context.|The **Cancel** button when leaving a modal.|
+|Dashed|An object that has yet to be created.|The **Add LICENSE** button on a project that doesn't contain a license.|
+|Danger|A destructive action that can't be undone or has potentially detrimental consequences.|The **Delete account** button when deleting an account.|
+|Link|An action that is visually styled like an anchor link.|The **Edit** links in the issue sidebar.|
+
+### Deprecated variants
+
+These variants have been deprecated, do not use in production.
+
 |Variant|Used for|
 |-------|--------|
-|Default|Actions that may fall into any other variant but do not warrant prominence|
-|Dashed|Objects that have yet to be created|
 |Info|Activation or informative processes|
 |Success|Positive actions such as the creation or addition of items|
 |Warning|Actions that can be undone or rectified but warrant caution|
-|Danger|Destructive actions that cannot be undone|
-|Link|Actions that visually function as anchors|
 
 [[Example:button-variants]]
 
