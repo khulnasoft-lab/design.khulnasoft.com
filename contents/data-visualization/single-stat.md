@@ -33,27 +33,32 @@ Do not use single stats to:
 - Display standard text or labels
 - Repeatedly display how the same metric has been performing over time
 
+## Demo
+
+### Simple
+
+The default pattern for displaying a metric.
+
+[[Example:simple]]
+
 ### Title icon
 
 A single stat with a title icon to convey extra meaning to the metric.
 
-[[Example:single-stat-title-icon]] 
+[[Example:title-icon]] 
 
 ### Meta icon
 
 A single stat with an icon which can be used to convey status or trend.
 
-[[Example:single-stat-meta-icon]] 
+[[Example:meta-icon]] 
 
 ### Badge
 
 A single stat with a badge which can be used to convey status or trend in more detail.
 
-[[Example:single-stat-badge]] 
+[[Example:badge]] 
 
-## Demo
-
-[[Example:single-stat-simple]]
 
 ## Design specifications
 
