@@ -46,13 +46,21 @@ Buttons derive additional meaning from their presented style and help the user q
 
 |Variant|Used for|
 |-------|--------|
+|Confirm|Actions that fall under creation, activation, or informative (replaces `info`, `success`, and `warning`)|
 |Default|Actions that may fall into any other variant but do not warrant prominence|
 |Dashed|Objects that have yet to be created|
+|Danger|Destructive actions that cannot be undone|
+|Link|Actions that visually function as anchors|
+
+### Deprecated variants
+
+These variants have been deprecated, do not use in production.
+
+|Variant|Used for|
+|-------|--------|
 |Info|Activation or informative processes|
 |Success|Positive actions such as the creation or addition of items|
 |Warning|Actions that can be undone or rectified but warrant caution|
-|Danger|Destructive actions that cannot be undone|
-|Link|Actions that visually function as anchors|
 
 [[Example:button-variants]]
 
