@@ -39,25 +39,25 @@ Do not use single stats to:
 
 The default pattern for displaying a metric.
 
-[[Example:Simple]]
+[[Example:simple]]
 
 ### Title icon
 
 A single stat with a title icon to convey extra meaning to the metric.
 
-[[Example:Title Icon]] 
+[[Example:titleicon]] 
 
 ### Meta icon
 
 A single stat with an icon which can be used to convey status or trend.
 
-[[Example:Meta Icon]] 
+[[Example:metaicon]] 
 
 ### Badge
 
 A single stat with a badge which can be used to convey status or trend in more detail.
 
-[[Example:Badge]] 
+[[Example:badge]] 
 
 
 ## Design specifications
