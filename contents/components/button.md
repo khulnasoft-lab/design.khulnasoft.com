@@ -46,7 +46,7 @@ Buttons derive additional meaning from their presented style and help the user q
 
 |Variant|Used for|
 |-------|--------|
-|Confirm|Actions that fall under creation, activation, or informative (replaces `info`, `success`, and `warning`)|
+|Confirm|A positive or negative non-destructive action that is confirmation of what the user desires to take place (replaces `info`, `success`, and `warning`).|
 |Default|Actions that may fall into any other variant but do not warrant prominence|
 |Dashed|Objects that have yet to be created|
 |Danger|Destructive actions that cannot be undone|
