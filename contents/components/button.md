@@ -47,10 +47,10 @@ Buttons derive additional meaning from their presented style and help the user q
 |Variant|Used for|
 |-------|--------|
 |Confirm|A positive or negative non-destructive action that is confirmation of what the user desires to take place (replaces `info`, `success`, and `warning`).|
-|Default|Actions that may fall into any other variant but do not warrant prominence|
-|Dashed|Objects that have yet to be created|
-|Danger|Destructive actions that cannot be undone|
-|Link|Actions that visually function as anchors|
+|Default|An action that doesn’t warrant prominence, typically when a primary variant is already used in the same context.|
+|Dashed|An object that has yet to be created.|
+|Danger|A destructive action that can't be undone or has potentially detrimental consequences.|
+|Link|An action that is visually styled like an anchor link.|
 
 ### Deprecated variants
 
