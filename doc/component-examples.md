@@ -17,16 +17,11 @@ component's name in snake_case, without the `Gl` prefix. For example, you would 
 2. In the new directory, create `.vue` files for all of your examples. Examples are basic Vue Single
 File Components. By convention, those files should be named like
 `<component_name>.<example_id>.example.vue`, for example `broadcast_message.basic.example.vue`.
-
-> **Notes:**
-> * You do not need to explicitly import/register GitLab UI components in examples as they are
-> globally available.
-> * Examples' templates are visible in the **Vue Component** tab. Keep in mind that, while you can
-> use `<script>` tags in your examples, their content will not be visible in the source panel. Thus,
-> try to rely on the `<template>` as much as possible to make examples more relevant.
+   * You don't need to explicitly import/register GitLab UI components in examples as they are globally available.
+   * Example templates are visible in the **Vue Component** tab. Keep in mind that, while you can use `<script>` tags in your examples, their content will not be visible in the source panel. Thus, try to rely on the `<template>` as much as possible to make examples more relevant.
 
 3. Create an `index.js` file in the new directory. This is where you'll register all of your
-examples to make them available in the docs. Here's how this file should look like:
+examples to make them available in the docs. Here's how this file should look:
 
 ```javascript
 // Import all of your examples at the top
