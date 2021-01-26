@@ -50,7 +50,7 @@ Buttons derive additional meaning from their presented style and help the user q
 |Default|An action that doesn’t warrant prominence, typically when a primary variant is already used in the same context.|The **Cancel** button when leaving a modal.|
 |Dashed|An object that has yet to be created.|The **Add LICENSE** button on a project that doesn't contain a license.|
 |Danger|A destructive action that can't be undone or has potentially detrimental consequences.|The **Delete account** button when deleting an account.|
-|Link|An action that is visually styled like an anchor link.|The **Edit** links in the issue sidebar.|
+|Link|An action that is visually styled like an anchor link.|The **Attach a file** button when leaving a comment in a discussion.|
 
 ### Deprecated variants
 
