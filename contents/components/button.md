@@ -44,7 +44,7 @@ Note that contexts may be temporary, such as a modal.
 
 Buttons derive additional meaning from their presented style and help the user quickly presume any consequences that button may cause when clicked.
 
-|Variant|Used for|Example|
+|Variant|Purpose|Example|
 |-------|--------|-------|
 |Confirm|A positive or negative non-destructive action that is confirmation of what the user desires to take place (replaces `info`, `success`, and `warning`).|The **New issue** button when creating a new issue from the Issues list.|
 |Default|An action that doesn’t warrant prominence, typically when a primary variant is already used in the same context.|The **Cancel** button when leaving a modal.|
