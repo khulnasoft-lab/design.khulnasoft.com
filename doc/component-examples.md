@@ -1,6 +1,6 @@
 # Component examples
 
-Component examples are a handy way of demonstrating how a GitLab UI component implements Pajamas'
+Component examples are a handy way of demonstrating how a GitLab UI component implements Pajamas
 specifications. They can be included in documentation pages and can be browsed through in the
 **Vue Component** tab when properly linked to a page.
 
