@@ -40,7 +40,7 @@ Use the following table to see when radio buttons should be used over other alte
 ### Interaction
 
 - Users are able to select an option with click/tap on the radio button or its label.
-- Selecting one option unselects all others.
+- Selecting one option clears all others.
 
 ## Demo
 
