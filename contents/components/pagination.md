@@ -20,7 +20,7 @@ When to use pagination
 - Presenting lists that contain specific items a user may need to find in order to complete their task. For example, Issues, Todos, Milestones, and Environments.
 - Navigating lists that can be sorted and/or filtered.
 
-There are two types of pagination, **offset**, and **keyset** (sometimes called cursor-based).
+There are two types of pagination, **offset**, and **keyset** (sometimes called cursor-based). General use is outlined below, but either can be used for any scenario since factors like performance, number of results returned, user expectations, and how data is queried will ultimately help determine the best approach.
 
 #### Offset pagination
 
