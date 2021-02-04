@@ -143,7 +143,7 @@ Todo: Add live component block with code example (warning)
 
 #### Success
 
-Success indicates content that is valid. For example, a URL that is formatted correctly or has been successfully pinged.
+Success indicates content that is valid. For example, a URL that is formatted correctly or has been successfully pinged. You don't need to provide successful validation in most cases, like when there is a long form. By *not* providing invalid feedback, you are also saying to the user that what they've entered *is* valid. 
 
 Todo: Add live component block with code example (success)
 
