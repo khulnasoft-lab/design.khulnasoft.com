@@ -143,7 +143,7 @@ Todo: Add live component block with code example (warning)
 
 #### Success
 
-Success indicates content that is valid. For example, a URL that is formatted correctly or has been successfully pinged.
+Success indicates content that is valid. For example, a URL that is formatted correctly or has been successfully pinged. You don't need to provide successful validation in most cases, like when there is a long form. By *not* providing invalid feedback, you are also saying to the user that what they‘ve entered *is* valid. 
 
 Todo: Add live component block with code example (success)
 
@@ -151,7 +151,7 @@ Todo: Add live component block with code example (success)
 
 We don’t disable the submit buttons as a way of validating forms. We default to active submit buttons in forms and disable them once clicked to avoid the possibility of submitting the form twice.
 
-Disabling buttons by default can still make sense in some cases. Editing existing information within a form is a good example. In such cases, buttons are disabled by default and become enabled once a change has been made by the user. The state change indicates the need for saving the changes and shouldn’t be tied to whether the information in the form is valid or not.
+Disabling buttons by default can still make sense in some cases. Editing existing information within a form is a good example. In such cases, buttons are disabled by default and become enabled once a fix has been made by the user. The state change indicates the need for saving the changes and shouldn’t be tied to whether the information in the form is valid or not. If you do disable buttons for a form when a field is invalid, you must display [error validation](####errors) for the fields that are invalid. This way, users can see they need to make a fix in order to enable the button tied to the form. 
 
 Todo: Add live component block with code example (form button)
 
