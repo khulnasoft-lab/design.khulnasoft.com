@@ -133,6 +133,7 @@ include:
   - project: 'gitlab-org/frontend/frontend-build-images'
     file: '/semantic-release/.gitlab-ci-template.yml'
   - project: gitlab-org/frontend/untamper-my-lockfile
+    ref: maybe-this-works
     file: .gitlab-ci-template.yml
 
 danger-review:
