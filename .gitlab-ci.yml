@@ -20,8 +20,8 @@ stages:
 
 workflow:
   rules:
-    - if: '$CI_MERGE_REQUEST_IID'
-      when: never
+    # - if: '$CI_MERGE_REQUEST_IID'
+    #   when: never
     - if: '$BUILDPACK_URL || $AUTO_DEVOPS_EXPLICITLY_ENABLED == "1"'
 
     - exists:
