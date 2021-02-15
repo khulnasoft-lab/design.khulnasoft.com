@@ -23,7 +23,7 @@ A single stat can be used by itself or side-by-side with other single stats to d
 ### When not to use single stat
 
 - To display standard text or labels.
-- To display the same metric over a period of time (use a [chart](contents/data-visualization/charts) instead).
+- To display the same metric over a period of time (use a [chart](/data-visualization/charts) instead).
 
 ## Demo
 
