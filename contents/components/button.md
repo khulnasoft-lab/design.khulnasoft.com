@@ -275,6 +275,11 @@ Button alignment should be reversed for [Right-to-left languages](/usability/i18
 
 Button labels should be short and concise while conveying what happens when the button is clicked. Buttons use [sentence case](/content/punctuation) and a normal font weight. An icon can be used in place of text.
 
+If a button links to additional information, please add an ellipsis `...` after the button label to indicate there will be futher interaction required.
+| Direct action | Subsequent additional action |
+| ------ | ------ |
+| <img src="/img/buttons-label.png"> | <img src="/img/buttons-label-ellipsis.png"> |
+
 Please note to **not** mix text and icon label buttons together within the same interface.
 
 ## Design specifications
