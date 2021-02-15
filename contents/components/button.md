@@ -278,7 +278,7 @@ Button labels should be short and concise while conveying what happens when the 
 If a button links to additional information, please add an ellipsis `...` after the button label to indicate there will be futher interaction required.
 | Direct action | Subsequent additional action |
 | ------ | ------ |
-| <img src="/img/buttons-label.png"> | <img src="/img/buttons-label-ellipsis.png"> |
+| <img src="/img/buttons-label.png" alt="A green confirmation button labeled save changes"> | <img src="/img/buttons-label-ellipsis.png" alt="a blue primary action button labeled commit..." |
 
 Please note to **not** mix text and icon label buttons together within the same interface.
 
