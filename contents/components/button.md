@@ -275,7 +275,7 @@ Button alignment should be reversed for [Right-to-left languages](/usability/i18
 
 Button labels should be short and concise while conveying what happens when the button is clicked. Buttons use [sentence case](/content/punctuation) and a normal font weight. An icon can be used in place of text.
 
-If a button links to additional information, please add an ellipsis `...` after the button label to indicate there will be futher interaction required.
+For button actions that need more information to complete a task (for example, having to select a file or branch upon which to act), append an ellipsis (`...`) to the button label text.
 | Direct action | Subsequent additional action |
 | ------ | ------ |
 | <img src="/img/buttons-label.png" alt="A green confirmation button labeled save changes"> | <img src="/img/buttons-label-ellipsis.png" alt="a blue primary action button labeled commit..."> |
