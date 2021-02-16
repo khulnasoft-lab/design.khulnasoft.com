@@ -73,10 +73,12 @@ A sticky container is a div that sticks to the top or bottom of it's parent cont
 
 Use sticky containers with caution as they can easily crowd the interface and make it difficult to navigate the page by shrinking the content area.
 
-## Links to external resources
+## Links
 
+- By default, any links that keep the user within GitLab should open in the same page rather than in a new tab or window. This is the default browser behavior and still allows a user to open the link elsewhere if preferred.
 - If a link goes to a resource outside of GitLab and doesn’t specify the destination in text, then show the [external-link icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~external-link) at the end of the text.
     - Example:
-        - [View file in new page]() -- indicates the destination and doesn’t require an icon.
+        - [Open configuration instructions in a new page]() -- indicates the destination and doesn’t require an icon.
         - [View file]() -- doesn’t indicate the destination and should have an icon.
 - When using the external link icon, ensure it is always displayed for better accessibility and to account for inline instances. Do not only show it on hover. The icon should use `aria-label="external link"`, or similar, to communicate the purpose to screen reader users.
+    - Example: <a href="someAddress" class="gl-link">Learn more about Kubernetes <svg data-testid="external-link-icon" class="gl-icon s16" aria-label="(external link)">…</svg></a>
