@@ -20,7 +20,6 @@ Determining which alert variant to use can sometimes be tricky. See the purpose 
 
 | Variant | Purpose | Example |
 | ------ | ------ | ------ |
-| Error | Advise the user that their attention is needed to address or be aware of a critical issue in the system. | An error alert is present when the backend fails to load a long list of issue comments and the user must reload to try again. |
 | Danger | Advise the user that their attention is needed to address or be aware of a critical issue that relates to the current context. | A danger alert appears when there is a configuration issue with the **.gitlab-ci.yml** file. |
 | Warning | Caution the user that their attention or action may be needed within the current context, but it may not be critical. | A warning alert appears when the user has added an SSH key that doesn't appear to be public. |
 | Success | Reaffirm to the user that a prior action they have taken, often in a different location within the application, has been successful. | A success alert appears in the pipeline view after the user activates SAST using the Web IDE and the SAST job runs properly for the first time. |
@@ -41,13 +40,13 @@ There are times when using a component other than an alert is necessary to provi
 
 ### Placement
 
-#### Global error
+#### Global
 
-An error alert happens in a global context that impacts the entire experience and is placed directly below the navigation bar. For example, an alert that states “Your subscription has expired” after a user has authenticated. Only the error alert uses `position: sticky`, while other alert variants are contextual within a page and scroll with content.
+An alert happens in a global context that impacts the entire experience and is placed directly below the navigation bar. For example, an alert that states “Your subscription has expired” after a user has authenticated.
 
-<figure class="figure" role="figure" aria-label="Full-width sticky error alert under the navigation">
+<figure class="figure" role="figure" aria-label="Full-width error alert under the navigation">
   <img class="figure-img" src="/img/alert-global.png" alt="Error alert position" role="img" style="width:100%; max-width:332px; height:auto" />
-  <figcaption class="figure-caption">Full-width sticky error alert under the navigation</figcaption>
+  <figcaption class="figure-caption">Full-width error alert under the navigation</figcaption>
 </figure>
 
 #### Page-level
@@ -67,6 +66,10 @@ Place an alert within a section of the page when the message is specific to that
   <img class="figure-img" src="/img/alert-in-page.png" alt="In-page alert position" role="img" style="width:100%; max-width:332px; height:auto" />
   <figcaption class="figure-caption">In-page alert contextually placed with space above and below</figcaption>
 </figure>
+
+#### Sticky positioning
+
+ A "sticky" alert uses `position: sticky` to to keep critical information in view as the page scrolls. It can be helpful when an alert is added without a page refresh and its position would otherwise be out of view. This typically is reserved for errors, as they need to be addressed by users. Only one sticky alert should be used at a time.
 
 ### Multiple alerts
 
@@ -131,3 +134,4 @@ All copy within an alert should be short, actionable, and use clear language. Be
   <img class="figure-img" src="/img/alert-form-validation.png" alt="Alert with arrow pointing to an input with an error" role="img" style="width:100%; max-width:332px; height:auto" />
   <figcaption class="figure-caption">An alert that links to form errors</figcaption>
 </figure>
+- Ensure that if sticky positioning is used the user can still access and view focusable elements they may be covering.
