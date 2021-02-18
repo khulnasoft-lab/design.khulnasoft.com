@@ -277,7 +277,7 @@ Button labels should be short and concise while conveying what happens when the 
 
 For button actions that do not immediately perform an action, append an ellipsis (`...`) to the button label text. For example, when committing a change in the Web IDE you are asked to select a branch before the action occurs.
 
-| Direct action | Subsequent additional action |
+| Direct action | Subsequent action needed |
 | ------ | ------ |
 | <img src="/img/buttons-label.png" alt="A green confirmation button labeled save changes"> | <img src="/img/buttons-label-ellipsis.png" alt="a blue primary action button labeled commit..."> |
 
