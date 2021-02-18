@@ -44,9 +44,9 @@ There are times when using a component other than an alert is necessary to provi
 
 A global alert impacts the entire experience and is placed directly below the navigation bar. For example, an alert that states “Your subscription has expired” after a user has authenticated.
 
-<figure class="figure" role="figure" aria-label="Full-width error alert under the navigation">
-  <img class="figure-img" src="/img/alert-global.png" alt="Error alert position" role="img" style="width:100%; max-width:332px; height:auto" />
-  <figcaption class="figure-caption">Full-width error alert under the navigation</figcaption>
+<figure class="figure" role="figure" aria-label="Full-width danger alert under the navigation">
+  <img class="figure-img" src="/img/alert-global.png" alt="Global alert position" role="img" style="width:100%; max-width:332px; height:auto" />
+  <figcaption class="figure-caption">Full-width danger alert under the navigation</figcaption>
 </figure>
 
 #### Page-level
