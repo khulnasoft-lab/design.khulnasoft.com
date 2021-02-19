@@ -81,5 +81,4 @@ Use sticky containers with caution as they can easily crowd the interface and ma
         - [Open configuration instructions in a new page]() -- indicates the destination and doesn’t require an icon.
         - [View file]() -- doesn’t indicate the destination and should have an icon.
 - When using the external link icon, ensure it is always displayed for better accessibility and to account for inline instances. Do not only show it on hover. The icon should use `aria-label="(external link)"`, or similar, to communicate the purpose to screen reader users.
-    - Example: [Learn more about Kubernetes]()![image](img/sprite_icons_external-link.svg)
-    
+    - Example: [Learn more about Kubernetes]()![image](img/external-link.svg)
