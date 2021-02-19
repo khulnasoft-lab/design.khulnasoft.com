@@ -42,7 +42,7 @@ There are times when using a component other than an alert is necessary to provi
 
 #### Global
 
-A global alert impacts the entire experience and is placed directly below the navigation bar. For example, an alert that states “Your subscription has expired” after a user has authenticated.
+A global alert impacts the entire experience and is placed directly below the navigation bar. For example, after a user has authenticated an alert appears that states, “Your subscription has expired.”
 
 <figure class="figure" role="figure" aria-label="Full-width danger alert under the navigation">
   <img class="figure-img" src="/img/alert-global.png" alt="Global alert position" role="img" style="width:100%; max-width:332px; height:auto" />
@@ -51,7 +51,7 @@ A global alert impacts the entire experience and is placed directly below the na
 
 #### Page-level
 
-A page-level alert appears at the top of a page, directly below the navigation bar and above the breadcrumbs, when it refers to something that happened at the page level. For example, an alert that states “Something went wrong while fetching latest comments” on an issue page. Page-level alerts are restricted to the content container width which can be either fixed or fluid, depending on user’s preference.
+A page-level alert appears at the top of a page, directly below the navigation bar and above the breadcrumbs. For example, an alert on an issue page might state, “Something went wrong while fetching latest comments.” Page-level alerts are restricted to the content container width which can be either fixed or fluid, depending on user’s preference.
 
 <figure class="figure" role="figure" aria-label="Page-level alert in the main content area with space above and below">
   <img class="figure-img" src="/img/alert-page-level.png" alt="Page-level alert position" role="img" style="width:100%; max-width:332px; height:auto" />
