@@ -29,3 +29,15 @@ Todo: Add live component block with code example
 If the help content is outside of the GitLab instance (for example, content at about.gitlab.com), make that clear in the link text. Doing so helps make the result of the links predictable. This is often not possible due to space limitations. An external link icon can be added in place of more copy.
 
 - **Example:** For more integrations, go to [GitLab’s website](#).
+
+### UI text example code
+
+When you link from the UI to the documentation, ensure the link opens in a new tab and has `aria-label` alt text. For example:
+
+```shell
+= link_to _('Learn more.'), help_page_path('user/project/repository/repository_mirroring', anchor: 'overwrite-diverged-branches'), target: '_blank', rel: 'noopener noreferrer', aria-label: _(Learn more about repository mirroring)
+```
+
+- This code makes the link open in a new tab: `target: '_blank', rel: 'noopener noreferrer'`
+- This code adds text for screenreaders and does not need punctuation: `aria-label: _(Learn more about repository mirroring)`
+  The `aria-label` is not required if the link text is a question like, "How do I use repository mirroring?"
