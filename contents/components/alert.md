@@ -42,11 +42,11 @@ There are times when using a component other than an alert is necessary to provi
 
 #### Global
 
-A global alert impacts the entire experience and is placed directly below the navigation bar. For example, after a user has authenticated an alert appears that states, “Your subscription has expired.”
+A global alert impacts the entire experience, is full-width, and is placed directly below the navigation bar. For example, after a user has authenticated an alert appears that states, “Your subscription has expired.”
 
-<figure class="figure" role="figure" aria-label="Full-width danger alert under the navigation">
+<figure class="figure" role="figure" aria-label="Full-width danger alert under the global navigation and above the contextual navigation">
   <img class="figure-img" src="/img/alert-global.png" alt="Global alert position" role="img" style="width:100%; max-width:332px; height:auto" />
-  <figcaption class="figure-caption">Full-width danger alert under the navigation</figcaption>
+  <figcaption class="figure-caption">Full-width danger alert under the global navigation and above the contextual navigation</figcaption>
 </figure>
 
 #### Page-level
@@ -69,7 +69,7 @@ Place an alert within a section of the page when the message is specific to that
 
 #### Sticky positioning
 
- A "sticky" alert uses `position: sticky` to keep critical information in view as the page scrolls. It can be helpful when an alert is added without a page refresh and its position would otherwise be out of view. This typically is reserved for errors, as they need to be addressed by users. Only one sticky alert should be used at a time.
+A "sticky" alert uses `position: sticky` to keep critical information in view as the page scrolls. It can be helpful when an alert is added without a page refresh and its position would otherwise be out of view. This typically is reserved for errors, as they need to be addressed by users. Only one sticky alert should be used at a time.
 
 ### Multiple alerts
 
