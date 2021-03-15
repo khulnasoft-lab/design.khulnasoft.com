@@ -106,6 +106,29 @@ Commitizen is a CLI tool that provides an interactive interface to help you writ
 
 > **Note:** We also limit the length of both the subject and the body of a commit message with Danger: [Dangerfile](./danger/semantic-commit/Dangerfile).
 
-## Amending commits
+## Squashing and amending commits
 
-If you need to amend your commit in order to follow the above guidelines, reference the [Git guidelines on rewriting history](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History).
+Many times, you will need to squash or amend your commit message.
+
+### Squashing
+
+There are multipe ways to squash commits. One typical workflow is as follows:
+
+1. For the branch you are working on, type `git rebase -i HEAD~[COMMIT NUMBER]` where `[COMMIT NUMBER]` is the number of commits in your merge request. For example, if you have 2 commits, you would type `git rebase -i HEAD~2`.
+1. This will bring up a prompt that shows your commits. If using Vim, type `a` to start editing the contents of this prompt.
+1. In order to squash your commits, change `pick` to `f` for all commits except your first one. `f` stands for `fixup` and will move the contents of that commit to the previous commit.
+1. Once you have updated all commits except the first to utilize `f`, save your changes by first hitting `esc` to get out of edit mode and then `:wq` to save the changes.
+1. After you have squashed your commits, you will need to force push your changes up to your branch using `git push -f origin [BRANCH NAME]`.
+
+Note: It is valid to have multiple commits if there are multiple distinct changes in your merge request. Not every MR should be squashed to use only one commit.
+
+### Amending
+
+If you need to amend your commit in order to follow the above conventional commit guidelines, reference the [Git guidelines on rewriting history](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History).
+
+A typical workflow is as follows:
+
+1. After squashing your commits down to the correct number of commits, type `git commit --amend` to pull up a prompt to edit your last commit message.
+1. If using Vim, type `a` to start editing the contents of this prompt. From here, you can change your commit message. Adding an additional line and then more content will allow you to add a commit description, if needed.
+1. Once you have updated your commit, save your changes by first hitting `esc` to get out of edit mode and then `:wq` to save the changes.
+1. After amending your commit, you will need to force push your changes up to your branch using `git push -f origin [BRANCH NAME]`.
