@@ -498,6 +498,10 @@ Todo: Include example of chart with divergent data
 
 **Potential applications:** butterfly charts, choropleth maps, sparklines, etc.
 
+### Data associated with system status
+
+If the data shown in a visualization is a representing the state of the system in any way, the color chosen to represent it should correspond to the existing associations that users are familiar with. For example, green for success, red for failure, blue for running, etc.. To ensure high contrast ratio (while not adhering to skipping patterns) use the `500` value from the relative hue.  
+
 ## Accessibility
 
 At GitLab, we are dedicated to continually improving the accessibility of the application. Color is no exception. Every step of every hue in the data visualization palette has been evaluated to satisfy a 3:1 contrast ratio against a light or dark surface.
