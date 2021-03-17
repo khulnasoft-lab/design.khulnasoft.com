@@ -115,7 +115,7 @@ Many times, you will need to squash or amend your commit message.
 There are multipe ways to squash commits. One typical workflow is as follows:
 
 1. For the branch you are working on, type `git rebase -i HEAD~[COMMIT NUMBER]` where `[COMMIT NUMBER]` is the number of commits in your merge request. For example, if you have 2 commits, you would type `git rebase -i HEAD~2`.
-1. This will bring up a prompt that shows your commits. If using Vim, type `a` to start editing the contents of this prompt.
+1. This will bring up a prompt that shows your commits. If using Vim, type `i` to start editing the contents of this prompt.
 1. In order to squash your commits, change `pick` to `f` for all commits except your first one. `f` stands for `fixup` and will move the contents of that commit to the previous commit.
 1. Once you have updated all commits except the first to utilize `f`, save your changes by first hitting `esc` to get out of edit mode and then `:wq` to save the changes.
 1. After you have squashed your commits, you will need to force push your changes up to your branch using `git push -f origin [BRANCH NAME]`.
