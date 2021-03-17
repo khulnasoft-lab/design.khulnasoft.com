@@ -10,11 +10,11 @@ related:
   - empty-states
 ---
 
-Banners promote user awareness for new or unused features. Unlike [alerts](/components/alert), banners are solely for in-product marketing, conveying information about a priority feature to the user.
+Banners promote user awareness for new features or high-priority research initiatives. Unlike [alerts](/components/alert), banners are solely for in-product marketing, conveying information about a priority feature or study to the user.  
 
 ## Usage
 
-Designating the use of a banner should be the result of careful consideration and planning between a Designer and their Product Manager. Reserve the use of banners for high priority features and configurations that would benefit the user to activate. Banners can be placed either inline with the content or at the top of a page. The location is flexible depending on the promotion and the context in which the promotion is taking place.
+Designating the use of a banner should be the result of careful consideration and planning between a Designer and their Product Manager. Reserve the use of banners for high priority features, capabilities or initatives that would benefit the user to take action on. Banners can be placed either inline with the content or at the top of a page. The location is flexible depending on the promotion and the context in which the promotion is taking place.
 
 ### When to use banners
 
@@ -22,6 +22,7 @@ Use banners to:
 
 - Inform a user of a feature that has yet to be enabled. For example, Auto DevOps.
 - Promote a new feature. For example, a free trial of GitLab Ultimate by featuring the new squash commit functionality in merge requests.
+- Solicit user feedback. For example, you are evaluating a set of new features to help prioritize your roadmap through a survey. 
 
 ### When not to use banners
 
@@ -38,7 +39,6 @@ Do not use banners to:
 | Allow banners to be dismissible. | Use banners to communicate instruction or critical information that should not be dismissible by a user. |
 | Use sparingly and with consideration of other components in proximity. | Overuse and clutter the experience with promotions. |
 | Display to users who can take immediate action if they desire. | Display to users who cannot activate the feature or benefit from its use. |
-| Use a single action-oriented button as the only call to action. | Use multiple buttons or text links as primary actions. |
 
 ### Specifications
 
@@ -58,6 +58,14 @@ Banner dismissal should work as follows:
 **Implementation Notes:**
 * The dismissal of the banner is achieved using the `UserCallout` model on the backend and the `PersistentUserCallout` JS file on the frontend. If both parameters are implemented correctly, the banner will adhere to the dismissal guidelines above.
 
+#### Temporary dismiss action
+
+The temporary dismiss action takes the form of a secondary or tertiarty button and is placed alongside to the primary action following the [button](https://design.gitlab.com/components/button#alignment-and-order) guidelines.  
+
+Temporary dismissals should work as follows: 
+* Banners dismissed temporarily will reappear after **7 days** 
+* After a banner is disimssed temporarily, use a [toast](/components/toast) message to make the user aware that they will see the banner again in 7 days.
+
 
 #### Header
 
@@ -73,7 +81,7 @@ A small illustration may be used but is optional. Keep in mind size and placemen
 
 #### Call to action
 
-A banner should always include a [button](https://design.gitlab.com/components/button) as the primary call to action. Avoid using multiple buttons and linking the user to different pages. An exception can be made in cases where we need to [help users](https://design.gitlab.com/usability/helping-users) by linking to documentation.
+A banner should always include a [button](https://design.gitlab.com/components/button) as the primary call to action. Avoid using multiple buttons to link the user to different pages. An exception can be made in cases where we need to [help users](https://design.gitlab.com/usability/helping-users) by linking to documentation or allowing the user to temporarily dismiss the banner. 
 
 ## Demo
 
