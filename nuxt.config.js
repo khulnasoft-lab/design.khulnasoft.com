@@ -117,6 +117,7 @@ module.exports = {
     '@nuxtjs/axios',
     '@gitlab/nuxt-edit-this-page',
     '@nuxtjs/sentry',
+    '@nuxtjs/lunr-module',
   ],
 
   sentry: {
@@ -238,7 +239,31 @@ module.exports = {
     build: {
       before(builder) {
         const { srcDir } = builder.nuxt.options;
-        writeContentTree(srcDir);
+        const contentTree = writeContentTree(srcDir);
+
+        Object.keys(contentTree).forEach((section) => {
+          contentTree[section].forEach((page) => {
+            const route = `/${section}/${page.id}`;
+            import(`./static/contents/${section}/${page.id}.json`)
+              .then(({ body }) => {
+                return builder.nuxt.callHook('lunr:document', {
+                  document: {
+                    id: page.id,
+                    title: page.name,
+                    body,
+                  },
+                  meta: {
+                    title: page.name,
+                    route,
+                  },
+                });
+              })
+              .catch((error) => {
+                // eslint-disable-next-line no-console
+                console.error(error);
+              });
+          });
+        });
       },
     },
   },

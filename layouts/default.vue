@@ -1,5 +1,6 @@
 <script>
 import menuSection from '../components/menu_section.vue';
+import Search from '../components/search.vue';
 import subMenu from '../components/sub_menu.vue';
 import contentTree from '../content_tree.json'; // eslint-disable-line import/no-unresolved
 
@@ -19,6 +20,7 @@ export default {
   components: {
     subMenu,
     menuSection,
+    Search,
   },
   data() {
     return {
@@ -120,6 +122,7 @@ export default {
           <span class="m-l-4">GitLab Design System</span>
         </nuxt-link>
       </div>
+      <search />
       <div class="nav-sidebar__body m-b-3">
         <template v-if="contentTree">
           <menu-section :content-tree="contentTree" category="brand" />
