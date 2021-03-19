@@ -9,7 +9,9 @@ export default {
   asyncData({ route }) {
     const { path } = route;
     const mdFile = path.replace(new RegExp(`/${route?.params?.tab}/?`), '');
-    return import(`~/contents${mdFile}.md`).then(({ default: fmResult }) => ({ fmResult }));
+    return import(`~/static/contents${mdFile}.json`).then(({ default: fmResult }) => ({
+      fmResult,
+    }));
   },
 };
 </script>
