@@ -25,7 +25,7 @@ Settings can be accessed through the [top horizontal navigation](/regions/naviga
 
 ### Inheritance and enforcement
 
-Settings apply from the top down using a parent-child relationship. This means that new or existing child items at any point in the hierarchy inherit settings set at the top - or parent - by default. Child items must inherit the settings of the parent unless given an explicit opt-out option.
+Settings cascade down our [knowledge architecture](https://about.gitlab.com/handbook/product/product-principles/#principled-adherence-to-the-established-knowledge-architecture) in the form of parent-child relationships. Children inherit settings from their direct parent by default and parents govern the ability for a child to opt-out of the default inheritance model.
 
 ### Grouping
 
