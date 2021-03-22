@@ -23,6 +23,10 @@ There are several areas within GitLab to manage settings:
 
 Settings can be accessed through the [top horizontal navigation](/regions/navigation#global-navigation), [sidebar navigation](/regions/navigation#contextual-navigation), or contextual options on feature pages. 
 
+### Inheritance and enforcement
+
+By default, settings that are mirrored between the different layers of GitLab are inherited by new and existing children when applied by a parent object. Children are required to follow their parent, unless given an explict opt out option.
+
 ### Grouping
 
 Admin, group, project, and user settings utilize full pages to group different categories inside [accordions](/components/accordion). This is different from feature settings which live next to a specific UI element. On settings pages, the most frequently used options should be made easily available to users by not collapsing the content. Horizontal separators are placed between each category to give elements enough room to breathe.
@@ -38,3 +42,4 @@ To keep the experience of settings consistent, avoid using a combination of manu
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
 Todo: Add Figma specs for settings
+
