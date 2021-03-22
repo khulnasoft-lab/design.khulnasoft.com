@@ -25,7 +25,7 @@ Settings can be accessed through the [top horizontal navigation](/regions/naviga
 
 ### Inheritance and enforcement
 
-Settings apply from the top-down using a parent-child relationship. This means that new or existing child items at any point in the hierarchy will inherit settings set at the top - or parent - by default. Children must inherit the settings of the parent unless given an explicit opt-out option.
+Settings apply from the top down using a parent-child relationship. This means that new or existing child items at any point in the hierarchy inherit settings set at the top - or parent - by default. Child items must inherit the settings of the parent unless given an explicit opt-out option.
 
 ### Grouping
 
