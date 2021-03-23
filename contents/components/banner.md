@@ -10,7 +10,7 @@ related:
   - empty-states
 ---
 
-Banners promote user awareness for new features or high-priority research initiatives. Unlike [alerts](/components/alert), banners are solely for in-product marketing, conveying information about a priority feature or study to the user.
+Banners promote user awareness for new features or high-priority research initiatives. Unlike [alerts](/components/alert), banners are solely for in-product marketing or for conveying information about a priority feature or study to the user.
 
 ## Usage
 
@@ -21,7 +21,7 @@ Reserve banners for high priority features or initiatives that benefit the user.
 Use banners to:
 
 - Inform a user of a feature that has yet to be enabled. For example, Auto DevOps.
-- Promote a new feature. For example, a free trial of GitLab Ultimate by featuring the new squash commit functionality in merge requests.
+- Promote a new feature. For example, a free trial of GitLab Ultimate featuring the new squash commit functionality in merge requests.
 - Solicit user feedback. For example, evaluating a set of new features to help prioritize your roadmap through a survey. 
 
 ### When not to use banners
@@ -58,7 +58,7 @@ Banner dismissal should work as follows:
 **Implementation Notes:**
 * The dismissal of the banner is achieved using the `UserCallout` model on the backend and the `PersistentUserCallout` JS file on the frontend. If both parameters are implemented correctly, the banner will adhere to the dismissal guidelines above.
 
-You may also introduce the option to temporarily dismiss the banner by including a secondary or tertiary button placed alongside to the primary action button, following the [button](https://design.gitlab.com/components/button#alignment-and-order) guidelines.
+You may also introduce the option to temporarily dismiss the banner by including a secondary or tertiary button placed alongside the primary action button, following the [button](https://design.gitlab.com/components/button#alignment-and-order) guidelines.
 
 Temporary dismissals should work as follows: 
 * Banners dismissed temporarily will reappear after **7 days**.
