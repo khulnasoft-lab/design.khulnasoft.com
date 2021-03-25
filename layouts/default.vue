@@ -229,9 +229,9 @@ export default {
         </template>
         <nuxt-link to="/contribute/get-started">Please contribute</nuxt-link>
       </footer>
-      <div v-if="lastUpdatedAt" class="row justify-content-center m-t-5 p-b-5">
+      <p v-if="lastUpdatedAt" class="row justify-content-center m-t-5 p-b-5">
         Last updated at: {{ lastUpdatedAt }}
-      </div>
+      </p>
     </div>
   </div>
 </template>
