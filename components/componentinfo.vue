@@ -4,7 +4,6 @@ import {
   GlComponentDocumentation,
   GlExampleExplorer,
 } from '@gitlab/ui/documentation';
-import moment from 'moment';
 
 import componentExamples from '../examples';
 
@@ -38,15 +37,6 @@ export default {
     return {
       title: this.frontmatterInfo.attributes.name,
     };
-  },
-  computed: {
-    lastUpdatedAt() {
-      const { lastUpdatedAt } = this.frontmatterInfo;
-      if (!lastUpdatedAt) {
-        return null;
-      }
-      return moment(lastUpdatedAt).format('LLLL');
-    },
   },
   created() {
     this.componentAttributes = this.frontmatterInfo.attributes;
@@ -177,9 +167,6 @@ export default {
         <h1>{{ componentAttributes.name }}</h1>
         <md-display :md="componentBody" />
         <related-pages :related="frontmatterInfo.attributes.related" class="m-t-6" />
-      </div>
-      <div v-if="lastUpdatedAt" class="row justify-content-center m-t-5">
-        Last updated at: {{ lastUpdatedAt }}
       </div>
     </div>
     <div v-else>Loading ...</div>
