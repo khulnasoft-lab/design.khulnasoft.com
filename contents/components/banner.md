@@ -48,7 +48,7 @@ Banners appear within containers in the page or section. This is important for d
 
 #### Dismiss
 
-Users can permanently dismiss banners by default. Banners may also be dismisssed temporarily, depending on the use case.
+Users are able to permanently dismiss banners by default. Banners may also be dismissed temporarily, depending on the use case.
 
 ##### Permanent dismissal
 
