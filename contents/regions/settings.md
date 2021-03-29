@@ -25,7 +25,7 @@ Settings can be accessed through the [top horizontal navigation](/regions/naviga
 
 ### Inheritance and enforcement
 
-Settings cascade down our [knowledge architecture](https://about.gitlab.com/handbook/product/product-principles/#principled-adherence-to-the-established-knowledge-architecture) in the form of parent-child relationships. Children inherit settings from their direct parent by default and parents govern the ability for a child to opt-out of the default inheritance model.
+When enabled, restrictive settings cascade down our [knowledge architecture](https://about.gitlab.com/handbook/product/product-principles/#principled-adherence-to-the-established-knowledge-architecture) in the form of parent-child relationships. Children inherit settings from their direct parent by default and parents govern the ability to remove restrictions from the child. Children should always be able to configure a more restrictive environment than their parent.
 
 ### Grouping
 
