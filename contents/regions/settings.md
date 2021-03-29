@@ -27,9 +27,9 @@ Settings can be accessed through the [top horizontal navigation](/regions/naviga
 
 When enabled, restrictive settings cascade down our [knowledge architecture](https://about.gitlab.com/handbook/product/product-principles/#principled-adherence-to-the-established-knowledge-architecture) in the form of parent-child relationships. Children inherit settings from their direct parent by default and parents govern the ability to remove restrictions from the child. Children should always be able to configure a more restrictive environment than their parent.
 
-| Parents specifies | Child specifies, but parent overrides |
-|-----------------------------------------------------|---------------------------------|
-|<figure class="figure" role="figure" aria-label="In-page alert contextually placed with space above and below"><img class="figure-img" src="static/img/parent-child-parent.gif" alt="Parent restricsts settings" role="img" style="width:100%; max-width:474px; height:auto" /></figure> |<figure class="figure" role="figure" aria-label="In-page alert contextually placed with space above and below"><img class="figure-img" src="static/img/child-parent-parent-child.gif" alt="Child defines settings" role="img" style="width:100%; max-width:474px; height:auto" /></figure> |
+| Parents enables, and child must follow | Child enables, but parent can enforce|
+|----------------------------------------|--------------------------------------|
+|<figure class="figure" role="figure" aria-label="Parent setting being inherited"><img class="figure-img" src="/img/parent-child-parent.gif" alt="Parent restricsts settings" role="img" style="width:100%; max-width:474px; height:auto" /></figure> |<figure class="figure" role="figure" aria-label="Child defining setting enforcement"><img class="figure-img" src="/img/child-parent-parent-child.gif" alt="Child defines settings" role="img" style="width:100%; max-width:474px; height:auto" /></figure> |
 
 ### Grouping
 
