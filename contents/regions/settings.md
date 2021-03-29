@@ -27,6 +27,10 @@ Settings can be accessed through the [top horizontal navigation](/regions/naviga
 
 When enabled, restrictive settings cascade down our [knowledge architecture](https://about.gitlab.com/handbook/product/product-principles/#principled-adherence-to-the-established-knowledge-architecture) in the form of parent-child relationships. Children inherit settings from their direct parent by default and parents govern the ability to remove restrictions from the child. Children should always be able to configure a more restrictive environment than their parent.
 
+| Parents specifies | Child specifies, but parent overrides |
+|-----------------------------------------------------|---------------------------------|
+|<figure class="figure" role="figure" aria-label="In-page alert contextually placed with space above and below"><img class="figure-img" src="static/img/parent-child-parent.gif" alt="Parent restricsts settings" role="img" style="width:100%; max-width:474px; height:auto" /></figure> |<figure class="figure" role="figure" aria-label="In-page alert contextually placed with space above and below"><img class="figure-img" src="static/img/child-parent-parent-child.gif" alt="Child defines settings" role="img" style="width:100%; max-width:474px; height:auto" /></figure> |
+
 ### Grouping
 
 Admin, group, project, and user settings utilize full pages to group different categories inside [accordions](/components/accordion). This is different from feature settings which live next to a specific UI element. On settings pages, the most frequently used options should be made easily available to users by not collapsing the content. Horizontal separators are placed between each category to give elements enough room to breathe.
