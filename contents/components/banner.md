@@ -63,8 +63,7 @@ Banner dismissal should work as follows:
 * The dismissal of the banner is achieved using the `UserCallout` model on the backend and the `PersistentUserCallout` JS file on the frontend. If both parameters are implemented correctly, the banner will adhere to the dismissal guidelines above.
 
 ##### Temporary dismissal
-
-To introduce temporary dismissal, include a secondary or tertiary button placed alongside the primary action button. Follow the [button](https://design.gitlab.com/components/button#alignment-and-order) guidelines.
+To introduce temporary dismissal, include a secondary or tertiary button placed alongside the primary action button. Follow the [button](/components/button#alignment-and-order) alignment and order guidelines.
 
 Temporary dismissals should work as follows: 
 * Banners dismissed temporarily will reappear after **7 days**.
