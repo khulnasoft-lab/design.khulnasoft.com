@@ -1,6 +1,6 @@
-# Pajamas maintainer review checklist
+## Pajamas maintainer review checklist
 
-## General guidance
+### General guidance
 - Focus your review on content, website user experience and information architecture (IA).
 - If you know of any related or similar issues/MRs, note them so we can verify the proposed changes all work together seamlessly.
 - It's okay (and preferred) to ask others for help when you don't know something yourself.
@@ -12,14 +12,14 @@
    - Keyboard navigation is documented.
    - Text to be read out loud by screen readers is documented.
 
-## In the copy, ensure
+### In the copy, ensure
 - There are no grammar or spelling errors.
-- Writing follows our [voice and tone guidelines]().
-- Text follows the [punctuation guidelines](). Don't forget those Oxford commas!
+- Writing follows our [voice and tone guidelines](https://docs.gitlab.com/ee/development/documentation/styleguide/).
+- Text follows the [punctuation guidelines](https://docs.gitlab.com/ee/development/documentation/styleguide/#punctuation/). Don't forget those Oxford commas!
 - Headings are correctly nested (top-level headings are ##) and don’t end with a period or a colon.
 - Keep an eye on section and paragraph length. Neither should be too short or too long.
 - _Emphasis_ and **strong** are used sparingly.
-- Component page structure follows the [documentation guidelines]().
+- Component page structure follows the [documentation guidelines](https://docs.gitlab.com/ee/development/documentation/styleguide/ ).
 - Text is as simple and clear as possible. Everything in Pajamas should be understandable even without additional background information.
 - All links work as intended. In addition, if a link is changed in the MR, make sure there are no references to it outside of the diff that also need to be updated. Component references also need to be cross-linked to their respective component pages (for example, mentions of Alerts should link to the Alerts component page).
 - Use `For example` instead of `e.g`.
@@ -30,6 +30,6 @@ Technology or GitLab terms are correctly used.
 - Keyboard navigation is documented.
 - Text to be read out loud by screen readers is documented.
 
-## For the MR itself, ensure
+### For the MR itself, ensure
 - That at least the first commit message is formatted according to [conventional commit standards](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/master/doc/commits.md)
 - That you review the MR locally, either through checking out the branch or looking at the review app to ensure the content is formatted appropriately.
