@@ -1,6 +1,6 @@
 <script>
-import markdowner from 'markdown-it';
-import markdownAnchor from 'markdown-it-anchor';
+// import markdowner from 'markdown-it';
+// import markdownAnchor from 'markdown-it-anchor';
 
 const makeAdmonitions = (html, type) => {
   const typeCapitalized = type.charAt(0).toUpperCase() + type.substring(1);
@@ -24,17 +24,10 @@ export default {
       return createElement('p', "This component's documentation has not yet been added.");
     }
 
-    const md = markdowner({
-      html: true,
-      xhtmlOut: true,
-      typographer: true,
-    }).use(markdownAnchor, {
-      permalink: true,
-      permalinkBefore: true,
-      permalinkSymbol: '#',
-      slugify: (s) => encodeURIComponent(s.toLowerCase().replace(/[^a-z0-9]+/g, '-')),
-    });
-    let mdOutput = md.render(this.md);
+    let mdOutput = this.md;
+
+    console.log(mdOutput)
+
     mdOutput = mdOutput.replace(
       /\[\[Example:(.*?)\]\]/g,
       '<div class="app-styles"><gl-example-display exampleName="$1" /></div>',

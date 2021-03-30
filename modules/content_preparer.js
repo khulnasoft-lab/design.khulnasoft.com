@@ -3,6 +3,9 @@ import fs from 'fs';
 import path from 'path';
 import fm from 'front-matter';
 
+import markdowner from 'markdown-it';
+import markdownAnchor from 'markdown-it-anchor';
+
 export function getContentList(dirName) {
   const baseContentsDir = path.resolve(__dirname, '../static/contents/');
   const outputDir = path.join(baseContentsDir, dirName);
@@ -31,6 +34,19 @@ export function getContentList(dirName) {
     }
     // We don't actually need the raw frontmatter, good to save some bytes
     delete content.frontmatter;
+
+    const md = markdowner({
+      html: true,
+      xhtmlOut: true,
+      typographer: true,
+    }).use(markdownAnchor, {
+      permalink: true,
+      permalinkBefore: true,
+      permalinkSymbol: '#',
+      slugify: (s) => encodeURIComponent(s.toLowerCase().replace(/[^a-z0-9]+/g, '-')),
+    });
+    content.body = md.render(content.body);
+
     fs.writeFileSync(
       `${outputDir}/${componentFileName.replace(/.md/g, '.json')}`,
       JSON.stringify(content),

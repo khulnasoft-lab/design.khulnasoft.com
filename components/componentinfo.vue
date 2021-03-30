@@ -141,7 +141,7 @@ export default {
                   :key="`examples-${vueComponentName}`"
                   :component-name="vueComponentName"
                 />
-                <md-display
+                <!-- <md-display
                   v-if="
                     vueComponentDocumentations[vueComponentName] &&
                     vueComponentDocumentations[vueComponentName].description
@@ -149,7 +149,7 @@ export default {
                   :key="`description-${vueComponentName}`"
                   :md="vueComponentDocumentations[vueComponentName].description"
                   class="mt-3 mb-3"
-                />
+                /> -->
                 <div :key="`props-${vueComponentName}`" class="component md mt-3">
                   <h3>Component Properties</h3>
                   <gl-component-documentation
