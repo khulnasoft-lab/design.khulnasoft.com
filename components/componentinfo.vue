@@ -1,11 +1,8 @@
 <script>
 import {
-  ComponentDocumentations,
   GlComponentDocumentation,
   GlExampleExplorer,
 } from '@gitlab/ui/documentation';
-
-import componentExamples from '../examples';
 
 import mdDisplay from './md_display.vue';
 import RelatedPages from './related_pages.vue';
@@ -50,16 +47,6 @@ export default {
         let snakeName = vueComponentName.replace(/([A-Z])/g, ($1) => `_${$1.toLowerCase()}`);
         if (snakeName.indexOf('_') === 0) snakeName = snakeName.substr(1);
         snakeName = snakeName.replace(/gl_/, '');
-
-        Object.keys(ComponentDocumentations).forEach((component) => {
-          if (component === `${vueComponentName}Documentation`) {
-            this.vueComponentDocumentations[vueComponentName] = ComponentDocumentations[component];
-            if (componentExamples[vueComponentName]) {
-              this.vueComponentDocumentations[vueComponentName].examples =
-                componentExamples[vueComponentName];
-            }
-          }
-        });
       });
     }
   },

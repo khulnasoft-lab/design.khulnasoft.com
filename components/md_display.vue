@@ -26,8 +26,6 @@ export default {
 
     let mdOutput = this.md;
 
-    console.log(mdOutput)
-
     mdOutput = mdOutput.replace(
       /\[\[Example:(.*?)\]\]/g,
       '<div class="app-styles"><gl-example-display exampleName="$1" /></div>',
