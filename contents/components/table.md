@@ -71,6 +71,8 @@ fields: [
 ]
 ```
 
+Todo: Add column sorting example
+
 ### Pagination
 
 Tables displaying data sets with more than 20 items should use pagination. [See pagination guidelines](/components/pagination)
