@@ -27,9 +27,29 @@ Settings can be accessed through the [top horizontal navigation](/regions/naviga
 
 When enabled, restrictive settings cascade down our [knowledge architecture](https://about.gitlab.com/handbook/product/product-principles/#principled-adherence-to-the-established-knowledge-architecture) in the form of parent-child relationships. Children inherit settings from their direct parent by default and parents govern the ability to remove restrictions from the child. Children should always be able to configure a more restrictive environment than their parent.
 
-| Parents enables, and child must follow | Child enables, but parent can enforce|
-|----------------------------------------|--------------------------------------|
-|<figure class="figure" role="figure" aria-label="Parent setting being inherited"><img class="figure-img" src="/img/parent-child-parent.gif" alt="Parent restricsts settings" role="img" style="width:100%; max-width:474px; height:auto" /></figure> |<figure class="figure" role="figure" aria-label="Child defining setting enforcement"><img class="figure-img" src="/img/child-parent-parent-child.gif" alt="Child defines settings" role="img" style="width:100%; max-width:474px; height:auto" /></figure> |
+| Do                                                          | Don't                                     |
+|-------------------------------------------------------------|-------------------------------------------|
+| Show why a setting is inherited and enfored                 | Make a user guess why it is disabled      |
+
+#### Scenario 1
+
+I am a group owner, and I want to enforce a specific setting on all my group's projects except for one of them.
+
+<figure class="figure" role="figure" aria-label="Parent setting being inherited"><img class="figure-img" src="/img/settings-inheritance-scenario-1.gif" alt="Parent restricsts settings" role="img" style="width:100%; max-width:600px; height:auto" /></figure> 
+
+#### Scenario 2
+
+I am a subgroup owner, and I enforce all our projects to reject unverified users. Next, my group owner just enforced this setting at the root group level, and undoes this change when they had projects that were negatively impacted by the enforcement. This should not affect the restriction I had in place before the parent enforcement took place.
+
+<figure class="figure" role="figure" aria-label="Child defining setting enforcement"><img class="figure-img" src="/img/settings-inheritance-scenario-2.gif" alt="Child defines settings" role="img" style="width:100%; max-width:850px; height:auto" /></figure>
+
+#### When not to default to inheritance and enforcement
+
+In some cases situations forcing inheritance of settings is not performant. In these cases, another mechanism should be provide to allow the child to keep up to date with its parent.
+
+> Example: [Forcing project MR Approvals rules  on open Merge Reuqests is not feasible](https://gitlab.com/gitlab-org/gitlab/-/issues/254958)
+
+Additionally, not all settings are useful with enforcement. If a setting better serves as a sensible default, then it should be customizable and not be inherited by existing childern to avoid breaking changes.
 
 ### Grouping
 
