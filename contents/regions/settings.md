@@ -39,7 +39,7 @@ I am a group owner, and I want to enforce a specific setting on all my group's p
 
 #### Scenario 2
 
-I am a subgroup owner, and I enforce all our projects to reject unverified users. Next, my group owner just enforced this setting at the root group level, and undoes this change when they had projects that were negatively impacted by the enforcement. This should not affect the restriction I had in place before the parent enforcement took place.
+I am a subgroup owner, and enforce a specific setting on all projects. This restriction should remain in place regardless of the group level's selection.
 
 <figure class="figure" role="figure" aria-label="Child defining setting enforcement"><img class="figure-img" src="/img/settings-inheritance-scenario-2.gif" alt="Child defines settings" role="img" style="width:100%; max-width:850px; height:auto" /></figure>
 
