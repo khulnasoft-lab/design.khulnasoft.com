@@ -28,7 +28,6 @@
 - Content that is similar or related in meaning is grouped together, if possible.
 Technology or GitLab terms are correctly used.
 - Keyboard navigation is documented.
-- Text to be read out loud by screen readers is documented.
 
 ### For the MR itself, ensure
 - That at least the first commit message is formatted according to [conventional commit standards](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/master/doc/commits.md)
