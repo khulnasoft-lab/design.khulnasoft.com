@@ -26,7 +26,7 @@
 - Avoid using should statements. Just tell people what to do instead.
 - Use full, descriptive sentences so that readers don't have to go back and reference the section title to understand the content within a section. For example, rather than `Use to highlight...`, instead try: `Use cross-column colors to highlight...`
 - Content that is similar or related in meaning is grouped together, if possible.
-Technology or GitLab terms are correctly used.
+- Terminology, such as technical or GitLab-specific, is used correctly.
 
 ### For the MR itself, ensure
 - That at least the first commit message is formatted according to [conventional commit standards](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/master/doc/commits.md)
