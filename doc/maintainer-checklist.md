@@ -17,7 +17,7 @@
 - Writing follows our [voice and tone guidelines](https://docs.gitlab.com/ee/development/documentation/styleguide/).
 - Text follows the [punctuation guidelines](https://docs.gitlab.com/ee/development/documentation/styleguide/#punctuation/). Don't forget those Oxford commas!
 - Headings are correctly nested and don’t end with a period or a colon. Pages that utilize a template will inherit the h1 from the `name` specified on the template, so the content should start with an h2.
-- Keep an eye on section and paragraph length. Neither should be too short or too long.
+- Keep an eye on section and paragraph length. Neither should be too long.
 - _Emphasis_ and **strong** are used sparingly.
 - Component page structure follows the [documentation guidelines](https://docs.gitlab.com/ee/development/documentation/styleguide/ ).
 - Text is as simple and clear as possible. Everything in Pajamas should be understandable even without additional background information.
