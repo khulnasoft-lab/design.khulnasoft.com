@@ -1,7 +1,7 @@
 ## Pajamas maintainer review checklist
 
 ### General guidance
-- Focus your review on content, website user experience and information architecture (IA).
+- Focus your review on content, website user experience, and information architecture (IA).
 - If you know of any related or similar issues/MRs, note them so we can verify the proposed changes all work together seamlessly.
 - It's okay (and preferred) to ask others for help when you don't know something yourself.
 - If the updates refer specifically to designs that have been created, double check everything matches what's in Figma.
