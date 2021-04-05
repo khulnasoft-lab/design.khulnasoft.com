@@ -16,7 +16,7 @@
 - There are no grammar or spelling errors.
 - Writing follows our [voice and tone guidelines](https://docs.gitlab.com/ee/development/documentation/styleguide/).
 - Text follows the [punctuation guidelines](https://docs.gitlab.com/ee/development/documentation/styleguide/#punctuation/). Don't forget those Oxford commas!
-- Headings are correctly nested (top-level headings are ##) and don’t end with a period or a colon.
+- Headings are correctly nested and don’t end with a period or a colon. Pages that utilize a template will inherit the h1 from the `name` specified on the template, so the content should start with an h2.
 - Keep an eye on section and paragraph length. Neither should be too short or too long.
 - _Emphasis_ and **strong** are used sparingly.
 - Component page structure follows the [documentation guidelines](https://docs.gitlab.com/ee/development/documentation/styleguide/ ).
