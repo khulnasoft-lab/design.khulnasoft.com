@@ -6,7 +6,7 @@
 - It's okay (and preferred) to ask others for help when you don't know something yourself.
 - If the updates refer specifically to designs that have been created, double check everything matches what's in Figma.
 - Component demos should be used whenever possible. If not possible yet, a TODO should be used instead.
-- Related components are listed on each component page (alternative components or components that are usually paired).
+- Add related components as applicable (alternative components or components that are usually paired).
 - If the status page is being updated, ensure the related content pages match the updated status. (For example, complete vue docs should not have the banner that states the component does not conform to pajamas. A separate issue/MR should be created to remove the banner if we are updating the status to complete. Complete usage docs should also not have todo banners.)
 - Component accessibility:
    - Keyboard navigation is documented.
