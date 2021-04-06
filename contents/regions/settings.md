@@ -29,11 +29,11 @@ When enabled, restrictive settings cascade down our [knowledge architecture](htt
 
 | Do                                                          | Don't                                     |
 |-------------------------------------------------------------|-------------------------------------------|
-| Show why a setting is inherited and enfored                 | Make a user guess why it is disabled      |
+| Show why a setting is inherited and enforced                 | Make a user guess why it is disabled      |
 
 #### Scenario 1
 
-I am a group owner, and I want to enforce a specific setting on all my group's projects except for one of them.
+I am a group owner and I want to enforce a specific setting on all my group's projects except for one of them.
 
 <figure class="figure" role="figure" aria-label="Parent setting being inherited"><img class="figure-img" src="/img/settings-inheritance-scenario-1.gif" alt="Parent restricsts settings" role="img" style="width:100%; max-width:600px; height:auto" /></figure> 
 
@@ -45,17 +45,17 @@ I am a subgroup owner, and enforce a specific setting on all projects. This rest
 
 #### When not to default to inheritance and enforcement
 
-In some cases situations forcing inheritance of settings is not performant. In these cases, another mechanism should be provide to allow the child to keep up to date with its parent.
+In some cases, forcing inheritance of settings is not performant. In these cases, another mechanism should be provided to allow the child to keep up to date with its parent.
 
 > Example: [Forcing project MR Approvals rules  on open Merge Reuqests is not feasible](https://gitlab.com/gitlab-org/gitlab/-/issues/254958)
 
-Additionally, not all settings are useful with enforcement. If a setting better serves as a sensible default, then it should be customizable and not be inherited by existing childern to avoid breaking changes.
+Additionally, not all settings are useful with enforcement. If a setting better serves as a sensible default, then it should be customizable and not be inherited by existing children to avoid breaking changes.
 
 ### Grouping
 
 Admin, group, project, and user settings utilize full pages to group different categories inside [accordions](/components/accordion). This is different from feature settings which live next to a specific UI element. On settings pages, the most frequently used options should be made easily available to users by not collapsing the content. Horizontal separators are placed between each category to give elements enough room to breathe.
 
-Each category displays a title and a brief explanation of what users should expect when the the accordion is expanded. Use consistent terms and follow the [voice and tone](/content/voice-tone) guidelines. 
+Each category displays a title and a brief explanation of what users should expect when the accordion is expanded. Use consistent terms and follow the [voice and tone](/content/voice-tone) guidelines. 
 
 ### Saving settings
 
