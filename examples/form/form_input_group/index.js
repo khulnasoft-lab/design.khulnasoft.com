@@ -2,6 +2,7 @@ import BasicExample from './form_input_group.basic.example.vue';
 import PredefinedOptionsExample from './form_input_group.predefined_options.example.vue';
 import PredefinedReactiveExample from './form_input_group.predefined_reactive.example.vue';
 import ReactiveExample from './form_input_group.reactive.example.vue';
+import FormInvalidFeedbackExample from './form_invalid_feedback.example.vue';
 
 export default [
   {
@@ -26,6 +27,11 @@ export default [
         id: 'input-text-group-predefined-reactive',
         name: 'With predefined options and reactive updates',
         component: PredefinedReactiveExample,
+      },
+      {
+        id: 'form-invalid-feedback',
+        name: 'Invalid Feedback',
+        component: FormInvalidFeedbackExample,
       },
     ],
   },

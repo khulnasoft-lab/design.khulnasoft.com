@@ -6,6 +6,7 @@ vueComponents:
   - GlFormGroup
   - GlFormInput
   - GlFormTextarea
+  - GlFormInvalidFeedback
 related:
   - buttons
   - dropdown
@@ -99,7 +100,7 @@ The interaction with a character counter for a limited length should proceed lik
 
 The interaction with a character counter for a recommended length should proceed like this:
 
-- The character counter is *not* present by default.
+- The character counter is _not_ present by default.
 - When the number of characters entered is 30 away from the recommendation, the counter appears, styled with the `secondary` style. It remains styled like this even when it reaches 0.
 - When the number of characters entered crosses the recommendation, the counter changes its color to `info`, its font weight remains regular, and counts the number of characters that are over the limit (for example -23).
 - The characters that are over the recommended length are also marked with a background set in `$blue-100`.
