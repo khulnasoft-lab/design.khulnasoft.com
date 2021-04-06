@@ -18,23 +18,35 @@ export default {
       required: false,
       default: '',
     },
+    prerenderedMd: {
+      type: String,
+      required: false,
+      default: '',
+    },
   },
   render(createElement) {
-    if (!this.md) {
+    if (!this.md && !this.prerenderedMd) {
       return createElement('p', "This component's documentation has not yet been added.");
     }
 
-    const md = markdowner({
-      html: true,
-      xhtmlOut: true,
-      typographer: true,
-    }).use(markdownAnchor, {
-      permalink: true,
-      permalinkBefore: true,
-      permalinkSymbol: '#',
-      slugify: (s) => encodeURIComponent(s.toLowerCase().replace(/[^a-z0-9]+/g, '-')),
-    });
-    let mdOutput = md.render(this.md);
+    let mdOutput;
+
+    if (this.md) {
+      const md = markdowner({
+        html: true,
+        xhtmlOut: true,
+        typographer: true,
+      }).use(markdownAnchor, {
+        permalink: true,
+        permalinkBefore: true,
+        permalinkSymbol: '#',
+        slugify: (s) => encodeURIComponent(s.toLowerCase().replace(/[^a-z0-9]+/g, '-')),
+      });
+      mdOutput = md.render(this.md);
+    } else {
+      mdOutput = this.prerenderedMd;
+    }
+
     mdOutput = mdOutput.replace(
       /\[\[Example:(.*?)\]\]/g,
       '<div class="app-styles"><gl-example-display exampleName="$1" /></div>',
