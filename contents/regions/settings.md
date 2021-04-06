@@ -47,7 +47,7 @@ I am a subgroup owner, and enforce a specific setting on all projects. This rest
 
 In some cases, forcing inheritance of settings is not performant. In these cases, another mechanism should be provided to allow the child to keep up to date with its parent.
 
-> Example: [Forcing project MR Approvals rules  on open Merge Reuqests is not feasible](https://gitlab.com/gitlab-org/gitlab/-/issues/254958)
+> Example: [Forcing project merge request (MR) approvals rules on open MRs is not feasible](https://gitlab.com/gitlab-org/gitlab/-/issues/254958)
 
 Additionally, not all settings are useful with enforcement. If a setting better serves as a sensible default, then it should be customizable and not be inherited by existing children to avoid breaking changes.
 
