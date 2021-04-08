@@ -15,6 +15,7 @@
     "eslint:fix": "yarn run eslint --fix",
     "prettier": "prettier --list-different --ignore-path .gitignore '**/*.{js,vue}'",
     "prettier-all-save": "yarn run prettier --write",
+    "markdown-lint": "bash ./scripts/markdown_lint.sh",
     "test": "bash ./scripts/test.sh",
     "lint:fix": "yarn run eslint:fix && yarn run prettier-all-save",
     "prepare": "husky install"
