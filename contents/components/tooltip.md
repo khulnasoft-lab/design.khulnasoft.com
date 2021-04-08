@@ -11,12 +11,20 @@ related:
 
 Tooltips identify elements or provide additional, useful information about the referring elements. Tooltips are different from ALT-attributes, which are intended primarily for static images.
 
-Tooltips fade in upon hover or touch of its trigger element. They fade out upon interacting with an area or element outside of the tooltip or its trigger, or on a delay of the cursor moving outside the tooltip or its trigger element.
+Tooltips fade in upon hover or touch of its trigger element. Tooltips remain open until the cursor is outside the tooltip or the target triggering the tooltip.
 
 ## Usage
 
-
 Tooltips display unique data, and shouldn’t repeat information that is shown near the referring element. Information provided in a tooltip should be short and concise. The text will wrap when the content is wider than the max-width.
+
+Tooltips also have a default delay of `500ms` on `show`. Due to the nature of tooltips being open when hovering them, this ensures:
+
+- Users don't accidentally hover an element with a tooltip, which might cover the adjacent element they intended to click
+- Keeps the UI quiet by not constantly showing/hiding tooltips for elements already familiar to existing users
+
+While overriding the `show` delay for a tooltip is strongly discouraged for the reasons above, there are instances where it's useful to have an instant `show` of a tooltip, such as pipeline icons. Pipeline icons are the same between all Merge Requests, however, no two Merge Request pipeline titles will be the same. In this case, it's more beneficial to get this information to users quickly. If the `show` delay default of `500ms` is made quicker, please consider the following:
+
+- Do not override the `show` default delay if these tooltips will cover adjacent buttons or links
 
 ### When to use tooltips
 
