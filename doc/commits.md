@@ -150,3 +150,23 @@ f 51fa598 Commit 5
 ```
 
 After saving this, Git will automatically open editors for you to rewrite the commits marked with `r`.
+
+## I'm seeing error upon committing changes
+
+We're using a combination of [husky] and [lint-staged] to run a few lint tasks when changes are
+committed. This is to reduce the chances of badly formatted code landing on the remote and
+triggering timely and costly pipelines that would fail anyways.
+
+If your commit command is erroring out, you likely need to fix some formatting issues manually.
+Inspect the command's output to find out what needs fixing, apply and stage the required changes,
+then try committing again.
+
+If you'd like to bypass the verification step when committing, you can do so by adding the
+`--no-verify` flag to your command. For example:
+
+```sh
+git commit -m "chore: reticulate splines" --no-verify
+```
+
+[husky]: https://typicode.github.io/husky
+[lint-staged]: https://www.npmjs.com/package/lint-staged
