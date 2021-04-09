@@ -6,7 +6,7 @@ To learn more about how we create, build, style, and implement components, read 
 
 ## Prerequisites
 
-Ensure sure you have [Node](https://nodejs.org/en/) 12.x and [Yarn](https://yarnpkg.com/) 1.10 or newer installed.
+Ensure you have [Node](https://nodejs.org/en/) 12.x and [Yarn](https://yarnpkg.com/) 1.10 or newer installed.
 
 ### Start using Git on the command line
 
