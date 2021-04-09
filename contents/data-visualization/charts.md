@@ -151,7 +151,7 @@ The max-width of chart popovers is `512px`, with long chart values wrapping rath
 
 ##### Chart legends
 
-Both base and tabular chart legends allow to hide chart series by clicking on them in the chart legend. It makes it easy to investigate a specific set of data in charts with multiple series.
+To make it easier to investigate a specific set of data in charts with multiple series, a chart series in both base and tabular chart legends can toggle visibility by clicking it.
 
 #### More options menu
 
