@@ -19,7 +19,7 @@ Tooltips display unique data, and shouldn’t repeat information that is shown n
 
 A tooltip has a default delay of `500ms` on `show` to help confirm hover intent and ensure that:
 
-- A user doesn’t accidentally hover an element with a tooltip, which might cover an adjacent element they intended to click.
+- A user doesn’t accidentally hover an element with a tooltip, which might cover an adjacent element they intended to select.
 - The UI isn't constantly showing tooltips when a user is moving their mouse over the page.
 
 Overriding the `show` delay for a tooltip is strongly discouraged for the reasons above, but there are useful circumstances for a tooltip to appear instantly. For example, pipeline icons that are visually the same, but have unique tooltip text that a user relies on to determine the pipeline status. Here, a delay would make it cumbersome to decipher the pipeline while hovering from one icon to the next. To shorten the delay in these cases, utilize `ds###` in the tooltip directive, where `###` is the milliseconds of delay. 
