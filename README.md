@@ -49,7 +49,7 @@ whenever possible.
 
 We control code quality with automatic linting tools like `eslint` and `prettier`.
 
-If you change something in the code, you can run `yarn test` to see if your changes are up to code. A lot of failures are auto-fixable, so simply run `yarn run lint:fix` to fix errors automatically.
+If you change something in the code, you can run `yarn test` to see if your changes are up-to-code. A lot of failures are auto-fixable, so simply run `yarn run lint:fix` to fix errors automatically.
 
 ### Reviewing
 
@@ -62,7 +62,7 @@ contributions. Please refer to [CONTRIBUTING.md](/CONTRIBUTING.md) for details.
 
 ### Pajamas UI Kit
 
-To contribute to our UI design library in Figma, [Pajamas UI Kit](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit), [review our contributing guidelines](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/master/doc/pajamas-ui-kit.md).
+To contribute to our [Pajamas UI Kit](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit), [review our contributing guidelines](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/master/doc/pajamas-ui-kit.md).
 
 ## Why is the design system called Pajamas?
 
