@@ -20,11 +20,6 @@ stages:
 
 workflow:
   rules:
-    # AutoDevops doesn't use MR pipelines, so we can skip the execution of them
-    # in order to avoid duplication of e.g. untamper-my-lockfile
-    - if: '$CI_MERGE_REQUEST_IID'
-      when: never
-
     - if: '$BUILDPACK_URL || $AUTO_DEVOPS_EXPLICITLY_ENABLED == "1"'
 
     - exists:
@@ -155,24 +150,65 @@ danger-review:
   script:
     - danger --fail-on-errors=true
 
+# The following changes overwrite the `rules` section of Auto Devops Jobs
+# a) to ensure they are run on gitlab-org-docker infrastructure
+# b) to work with MR pipelines: https://gitlab.com/gitlab-org/gitlab/-/issues/121933
+
+.mr-pipeline-rules:
+  rules:
+    - if: $CI_MERGE_REQUEST_IID
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+
 build:
   tags:
     - gitlab-org-docker
+  rules: !reference [.mr-pipeline-rules, rules]
 
 code_quality:
   tags:
     - gitlab-org-docker
+  rules: !reference [.mr-pipeline-rules, rules]
 
 dependency_scanning:
   tags:
     - gitlab-org-docker
+  rules: !reference [.mr-pipeline-rules, rules]
 
 sast:
   tags:
     - gitlab-org-docker
+  rules: !reference [.mr-pipeline-rules, rules]
+
+container_scanning_new:
+  rules: !reference [.mr-pipeline-rules, rules]
+
+license_scanning:
+  rules: !reference [.mr-pipeline-rules, rules]
+
+test:
+  rules: !reference [.mr-pipeline-rules, rules]
+
+dast_environment_deploy:
+  rules: !reference [.mr-pipeline-rules, rules]
+
+dast:
+  rules: !reference [.mr-pipeline-rules, rules]
+
+stop_dast_environment:
+  rules: !reference [.mr-pipeline-rules, rules]
+
+production:
+  rules: !reference [.mr-pipeline-rules, rules]
+
+performance:
+  rules: !reference [.mr-pipeline-rules, rules]
+
 
 semantic-release:
   extends: .semantic-release
   allow_failure: true
   script:
     - semantic-release --debug
+
+
