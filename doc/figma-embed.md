@@ -16,10 +16,10 @@ When [embedding Figma files](https://www.figma.com/developers/embed), make sure 
 ### Example embed
 
 ```md
-[View conceptual model in Figma →](https://www.figma.com/file/J68bePHXIN5OPWqaFFY9ri/Conceptual-model?node-id=51%3A18)
+[View conceptual model in Figma →](https://www.figma.com/file/shVF8UZwrQtkNfMDjcrsyH/Semantic-layouts?node-id=50%3A217)
 
-<div class="figma-embed" aria-label="Conceptual model" role="img">
-  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FJ68bePHXIN5OPWqaFFY9ri%2FConceptual-model%3Fnode-id%3D51%253A18" allowfullscreen></iframe>
+<div class="figma-embed" aria-label="A semantic layout depicting a Merge Request with the concepts of the merge request object overlaid" role="img">
+  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FshVF8UZwrQtkNfMDjcrsyH%2FSemantic-layouts%3Fnode-id%3D50%253A217" allowfullscreen></iframe>
 </div>
 ```
 
