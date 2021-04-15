@@ -18,7 +18,7 @@ When [embedding Figma files](https://www.figma.com/developers/embed), make sure 
 ```md
 [View conceptual model in Figma →](https://www.figma.com/file/shVF8UZwrQtkNfMDjcrsyH/Semantic-layouts?node-id=50%3A217)
 
-<div class="figma-embed" aria-label="A semantic layout depicting a Merge Request with the concepts of the merge request object overlaid" role="img">
+<div class="figma-embed" aria-label="A layout of a merge request with overlays to highlight different sections that represent objects within the merge request" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FshVF8UZwrQtkNfMDjcrsyH%2FSemantic-layouts%3Fnode-id%3D50%253A217" allowfullscreen></iframe>
 </div>
 ```
