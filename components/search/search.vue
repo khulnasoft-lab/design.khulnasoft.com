@@ -118,7 +118,7 @@ export default {
       return this.searchMeta?.[ref];
     },
     getFocusedResult() {
-      return this.$refs.results.querySelector(':focus');
+      return this.$refs.results?.querySelector(':focus');
     },
     keyEnter() {
       const el = this.getFocusedResult();
@@ -134,9 +134,14 @@ export default {
 
       const el = this.getFocusedResult();
       if (!el) {
-        this.$refs.results.querySelector(':last-child').focus();
-      } else if (el.previousSibling && el.previousSibling.focus) {
-        el.previousSibling.focus();
+        return;
+      }
+
+      const previousResult = el.parentElement.previousSibling;
+      if (previousResult.querySelector) {
+        previousResult.querySelector('a').focus();
+      } else {
+        this.$refs.input.$el.querySelector('input').focus();
       }
     },
     keyDown() {
@@ -146,9 +151,13 @@ export default {
 
       const el = this.getFocusedResult();
       if (!el) {
-        this.$refs.results.querySelector(':first-child').focus();
-      } else if (el.nextSibling) {
-        el.nextSibling.focus();
+        this.$refs.results.querySelector(':first-child a')?.focus();
+        return;
+      }
+
+      const nextResult = el.parentElement.nextSibling.querySelector('a');
+      if (nextResult) {
+        nextResult.focus();
       }
     },
   },
@@ -156,24 +165,29 @@ export default {
 </script>
 
 <template>
-  <div ref="lunr" class="app-styles" style="position: relative">
+  <div
+    ref="lunr"
+    class="app-styles"
+    style="position: relative"
+    @keyup.enter="keyEnter"
+    @keyup.up="keyUp"
+    @keyup.down="keyDown"
+  >
     <div class="gl-p-3 gl-inset-border-b-1-gray-200">
       <gl-search-box-by-type
+        ref="input"
         v-model="searchText"
         aria-label="Search"
         aria-haspopup="true"
         :aria-expanded="showResults"
         autocomplete="off"
         spellcheck="false"
-        @keyup.enter="keyEnter"
-        @keyup.up="keyUp"
-        @keyup.down="keyDown"
       />
     </div>
 
     <ul v-if="showResults" role="menu" tabindex="-1" class="gl-new-dropdown dropdown-menu show">
       <div class="gl-new-dropdown-inner">
-        <div class="gl-new-dropdown-contents">
+        <div ref="results" class="gl-new-dropdown-contents">
           <gl-dropdown-item v-if="statusMsg">
             {{ statusMsg }}
           </gl-dropdown-item>
