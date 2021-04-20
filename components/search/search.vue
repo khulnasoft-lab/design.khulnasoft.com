@@ -155,7 +155,7 @@ export default {
         return;
       }
 
-      const nextResult = el.parentElement.nextSibling.querySelector('a');
+      const nextResult = el.parentElement.nextSibling?.querySelector('a');
       if (nextResult) {
         nextResult.focus();
       }
@@ -169,9 +169,9 @@ export default {
     ref="lunr"
     class="app-styles"
     style="position: relative"
-    @keyup.enter="keyEnter"
-    @keyup.up="keyUp"
-    @keyup.down="keyDown"
+    @keydown.enter.prevent="keyEnter"
+    @keydown.up.prevent="keyUp"
+    @keydown.down.prevent="keyDown"
   >
     <div class="gl-p-3 gl-inset-border-b-1-gray-200">
       <gl-search-box-by-type
