@@ -10,9 +10,7 @@ export default {
 </script>
 
 <template>
-  <gl-dropdown-item class="lunr-result" v-on="$listeners">
-    <nuxt-link :to="meta.route" role="menuitem">
-      {{ meta.title }}
-    </nuxt-link>
+  <gl-dropdown-item :to="meta.route" class="lunr-result" v-on="$listeners">
+    {{ meta.title }}
   </gl-dropdown-item>
 </template>
