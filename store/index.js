@@ -6,6 +6,7 @@ const getDefaultFrontmatter = () => ({
 
 export const state = () => ({
   frontmatter: getDefaultFrontmatter(),
+  sidebarOpen: false,
 });
 
 export const mutations = {
@@ -14,5 +15,11 @@ export const mutations = {
   },
   setFrontmatter(currentState, frontmatter) {
     currentState.frontmatter = frontmatter;
+  },
+  toggleSidebar(currentState) {
+    currentState.sidebarOpen = !currentState.sidebarOpen;
+  },
+  closeSidebar(currentState) {
+    currentState.sidebarOpen = false;
   },
 };
