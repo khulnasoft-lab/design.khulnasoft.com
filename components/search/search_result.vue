@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <gl-dropdown-item :to="meta.route" class="lunr-result" v-on="$listeners">
+  <gl-dropdown-item :to="meta.route" v-on="$listeners">
     {{ meta.title }}
   </gl-dropdown-item>
 </template>
