@@ -7,7 +7,6 @@ if (!lunr.stemmerSupport) {
   lunrStemmer(lunr);
 }
 
-const INDEX_LANGUAGE = 'en';
 const STATUS_SEARCHING = 'STATUS_SEARCHING';
 const STATUS_NO_RESULTS = 'STATUS_NO_RESULTS';
 const STATUS_ERROR = 'STATUS_ERROR';
@@ -21,7 +20,6 @@ export default {
   components: {
     SearchResult,
   },
-
   data() {
     return {
       statusId: null,
@@ -33,7 +31,7 @@ export default {
     };
   },
   async fetch() {
-    const url = `/_nuxt/search-index/${INDEX_LANGUAGE}.json`;
+    const url = `/_nuxt/search-index/en.json`;
     const searchJson = await fetch(url).then((res) => {
       if (res.status === 200) {
         return res.json();
@@ -41,7 +39,7 @@ export default {
 
       return this.setStatus(STATUS_ERROR);
     });
-    this.searchMeta = searchJson.metas || undefined;
+    this.searchMeta = searchJson.metas || null;
     this.searchIndex = lunr.Index.load(searchJson);
   },
   computed: {
@@ -91,7 +89,7 @@ export default {
       this.removeBodyListener();
       this.clearStatus();
     },
-    async search(txt) {
+    search(txt) {
       if (!this.searchIndex) {
         return;
       }
@@ -114,7 +112,7 @@ export default {
     clearStatus() {
       this.statusId = null;
     },
-    getResultMeta({ ref }) {
+    getResultMeta(ref) {
       return this.searchMeta?.[ref];
     },
     getFocusedResult() {
@@ -192,10 +190,9 @@ export default {
             {{ statusMsg }}
           </gl-dropdown-item>
           <search-result
-            v-for="(result, index) in searchResults"
-            :key="result.ref"
-            :tab-index="100 + index"
-            :meta="getResultMeta(result)"
+            v-for="{ ref } in searchResults"
+            :key="ref"
+            :meta="getResultMeta(ref)"
             @click.prevent="closeResults"
           />
         </div>
