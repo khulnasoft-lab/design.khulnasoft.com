@@ -157,17 +157,19 @@ export default {
 
 <template>
   <div ref="lunr" class="app-styles" style="position: relative">
-    <gl-search-box-by-type
-      v-model="searchText"
-      aria-label="Search"
-      aria-haspopup="true"
-      :aria-expanded="showResults"
-      autocomplete="off"
-      spellcheck="false"
-      @keyup.enter="keyEnter"
-      @keyup.up="keyUp"
-      @keyup.down="keyDown"
-    />
+    <div class="gl-p-3 gl-inset-border-b-1-gray-200">
+      <gl-search-box-by-type
+        v-model="searchText"
+        aria-label="Search"
+        aria-haspopup="true"
+        :aria-expanded="showResults"
+        autocomplete="off"
+        spellcheck="false"
+        @keyup.enter="keyEnter"
+        @keyup.up="keyUp"
+        @keyup.down="keyDown"
+      />
+    </div>
 
     <ul v-if="showResults" role="menu" tabindex="-1" class="gl-new-dropdown dropdown-menu show">
       <div class="gl-new-dropdown-inner">
