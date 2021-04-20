@@ -121,7 +121,7 @@ export default {
     keyEnter() {
       const el = this.getFocusedResult();
       if (el) {
-        el.querySelector('a').click();
+        el.click();
         this.closeResults();
       }
     },
