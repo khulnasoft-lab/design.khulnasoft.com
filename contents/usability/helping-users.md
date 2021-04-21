@@ -12,7 +12,7 @@ Help comes in the form of various types of content designed to:
 
 ## Formatting help content
 
-If the most relevant information can be summarized succinctly, put the summary directly in the UI instead of using a Help link. However, you can use a Help link to provide supplemental information. Help links open up their page in a new tab.
+If the most relevant information can be summarized succinctly, put the summary directly in the UI instead of using a link. However, you can use a informational link "i" to provide supplemental information through a tooltip or popover ([when not to use tooltips](https://design.gitlab.com/components/tooltip#when-not-to-use-tooltips)), while help links "?" should awlays open their page in a new tab.
 
 Use a question to lead the user to helpful information.
 
@@ -22,7 +22,8 @@ If a question doesn't make sense, use the sentence, "Learn more." Do not use "Mo
 
 - **Example:** User cohorts show how active users are in the last 12 months. [Learn more.](#)
 
-If no room is available for text, then use an icon.
+If no room is available for text, then use an icon. The "?" icon should be used to direct users to the docs, while the "i" is reserved for presenting details through a tooltip or popover that are not directly exposed in the UI.
+
 
 | Do | Don't |
 | - | - |
