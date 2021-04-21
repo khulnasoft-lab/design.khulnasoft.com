@@ -26,9 +26,9 @@ If no room is available for text, then use an icon. The "?" icon should be used 
 
 
 | Do | Don't |
-| - | - |
+| :-: | :-: |
 | <div class="app-styles"><gl-icon name="question-o" class="gl-text-blue-600" /></div>Use the outlined [question-o.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) icon in `$blue-600` (`#1078bf`) | <div class="app-styles"><gl-icon name="question" /></div>Use the solid icon [question.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question) or a color other than blue |
-| <div class="app-styles"><gl-icon name="information-o" class="gl-text-blue-600" /></div>Use the outlined [information-o.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~information-o) with a tooltip or popover | <div class="app-styles"><gl-icon name="question-o" class="gl-text-blue-600" /></div>Use the outlined [question-o.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) without a direct link |
+| <figure class="figure" role="figure" aria-label="Info icon with popover"><img class="figure-img" src="/img/info-popover.png" alt="Info icon with popover" role="img" /><figcaption class="figure-caption">Use the outlined [information-o.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~information-o) with a tooltip or popover</figcaption></figure> | <figure class="figure" role="figure" aria-label="Help icon with popover"><img class="figure-img" src="/img/info-popover.png" alt="Help icon with popover" role="img" /><figcaption class="figure-caption">Use the outlined [question-o.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) without a direct link</figcaption></figure>|
 
 Todo: Add live component block with code example
 
