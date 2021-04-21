@@ -5,7 +5,7 @@ name: Navigation
 
 ## Top menu
 
-Top menu refers to the top horizontal navigation. The items in the top menu include a list of pages that allow you to view global content throughout GitLab. For example, you can view your todos, issues, and merge requests across projects and groups. You can also create new groups and projects, as well as search the application.
+The top menu refers to the top horizontal navigation. The items in the top menu include a list of pages that allow you to view global content throughout GitLab. For example, you can view your todos, issues, and merge requests across projects and groups. You can also create new groups and projects, as well as search the application.
 
 Todo: Add top menu example
 
