@@ -12,7 +12,7 @@ Help comes in the form of various types of content designed to:
 
 ## Formatting help content
 
-If the most relevant information can be summarized succinctly, put the summary directly in the UI instead of using a Help link. However, you can use a Help link to provide supplemental information. Help links open up their page in a new tab.
+If the most relevant information can be summarized succinctly, put the summary directly in the UI instead of using a link. However, you can use a informational link "i" to provide supplemental information through a tooltip or popover ([when not to use tooltips](https://design.gitlab.com/components/tooltip#when-not-to-use-tooltips)), while help links "?" should awlays open their page in a new tab.
 
 Use a question to lead the user to helpful information.
 
@@ -22,11 +22,13 @@ If a question doesn't make sense, use the sentence, "Learn more." Do not use "Mo
 
 - **Example:** User cohorts show how active users are in the last 12 months. [Learn more.](#)
 
-If no room is available for text, then use an icon.
+If no room is available for text, then use an icon. The "?" icon should be used to direct users to the docs, while the "i" is reserved for presenting details through a tooltip or popover that are not directly exposed in the UI.
+
 
 | Do | Don't |
 | - | - |
 | <div class="app-styles"><gl-icon name="question-o" class="gl-text-blue-600" /></div>Use the outlined [question-o.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) icon in `$blue-600` (`#1078bf`) | <div class="app-styles"><gl-icon name="question" /></div>Use the solid icon [question.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question) or a color other than blue |
+| <div class="app-styles"><gl-icon name="information-o" class="gl-text-blue-600" /></div>Use the outlined [information-o.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~information-o) with a tooltip or popover | <div class="app-styles"><gl-icon name="question-o" class="gl-text-blue-600" /></div>Use the outlined [question-o.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) without a direct link |
 
 Todo: Add live component block with code example
 
