@@ -6,7 +6,7 @@ ERROR=false
 
 while IFS= read -r -d '' file; do
   if test "$(tail -c 1 "$file" | wc -l)" -eq 0; then
-    echo -e "\tError: No new line at end of $file"
+    echo -e "\tError: No newline at end of $file"
     ERROR=true
   fi
 done < <(git ls-files -z -- '*.md')
