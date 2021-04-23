@@ -32,15 +32,19 @@ export default {
   },
   async fetch() {
     const url = `/_nuxt/search-index/en.json`;
-    const searchJson = await fetch(url).then((res) => {
-      if (res.status === 200) {
-        return res.json();
-      }
+    try {
+      const searchJson = await fetch(url).then((res) => {
+        if (res.status === 200) {
+          return res.json();
+        }
 
-      return this.setStatus(STATUS_ERROR);
-    });
-    this.searchMeta = searchJson.metas || null;
-    this.searchIndex = lunr.Index.load(searchJson);
+        return this.setStatus(STATUS_ERROR);
+      });
+      this.searchMeta = searchJson.metas || null;
+      this.searchIndex = lunr.Index.load(searchJson);
+    } catch {
+      this.setStatus(STATUS_ERROR);
+    }
   },
   computed: {
     showResults() {
