@@ -138,9 +138,12 @@ export default {
           <span class="m-l-4">GitLab Design System</span>
         </nuxt-link>
       </div>
-      <no-ssr>
+      <client-only>
         <search />
-      </no-ssr>
+        <template #placeholder>
+          <div class="gl-py-6"></div>
+        </template>
+      </client-only>
       <div class="nav-sidebar__body m-b-3">
         <template v-if="contentTree">
           <menu-section :content-tree="contentTree" category="brand" />
