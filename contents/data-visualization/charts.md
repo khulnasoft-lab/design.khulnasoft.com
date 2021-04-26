@@ -28,7 +28,7 @@ Going forward, our charts will be built using [ECharts](https://echarts.apache.o
 General content and style considerations for charts include:
 
 - If there is more than one series being displayed, add a legend.
-- If a series has more than one or two values (for example, average, median, and maximum values), consider using the tabular chart legend instead of the base legend for better readability.
+- We have two legend types: default and tabular. The default legend option works best for simple charts. If a chart has many series, or if you want to display multiple values for a series (for example, average, median, and maximum), use the tabular chart legend for better readability.
 - Line and area charts should use the series label with the rectangular color chip to match the line colors in the chart, while column and heat map charts should use the square color chip to match the fill and stroke color of the elements in the visualization. The fill of the chip needs to match the fill of the column and the border of the chip needs to match the border of the column. 
 - In legends, the text after the series name is optional. It allows for the possibility of complementing the series legend with additional useful calculations (total, etc).
 - Use chart titles, category and value labels as necessary to clarify the content being shown (with units in parentheses, if required). Note that units aren't always necessary, for example, in the case of counts.
