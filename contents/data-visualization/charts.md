@@ -151,7 +151,7 @@ The max-width of chart popovers is `512px`, with long chart values wrapping rath
 
 #### Chart legends
 
-To make it easier to investigate a specific set of data in charts with multiple series, a chart series in both base and tabular chart legends can toggle visibility by clicking it.
+Lines and columns in charts can be toggled on and off by clicking on items in the legends.
 
 #### More options menu
 
