@@ -149,7 +149,7 @@ The [column chart measure spec](https://gitlab-org.gitlab.io/gitlab-design/hoste
 
 The max-width of chart popovers is `512px`, with long chart values wrapping rather than truncating. When chart values in popovers wrap, break the word into two lines without using a hyphen.
 
-##### Chart legends
+#### Chart legends
 
 To make it easier to investigate a specific set of data in charts with multiple series, a chart series in both base and tabular chart legends can toggle visibility by clicking it.
 
