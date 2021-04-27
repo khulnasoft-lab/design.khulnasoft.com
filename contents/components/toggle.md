@@ -41,6 +41,14 @@ In rare cases and exceptions, the label can be placed to the left of the toggle.
 
 Toggles should use high-contrast colors to indicate the states - On and Off.
 
+### Possible conflict between [Toggles](/components/toggle) and [Checkbox](/components/checkbox)
+- If an action is expected to have an instant effect, choose Toggle over Checkbox.
+- When there is a need to provide sub-options to select from, use Checkboxes as they could have an indeterminate state.
+- For a list of independant choices, use toggles. For a list of related items, use checkboxes.
+- Use a single checkbox when the result of a checked/unchecked state is not effective or noticeable immediately, and the user needs a confirmation of it being saved. (Use a toggle when a state change has an immediate effect.)
+- If an action is enabling users to progressively disclose a new possibility for customization, use Checkbox. This will encourage users to audit the newly appeared options before they confirm to retain them.
+
+
 ## Demo
 
 [[Example:toggle-default]]
@@ -54,3 +62,6 @@ Toggles should use high-contrast colors to indicate the states - On and Off.
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
 [View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A282)
+
+
+
