@@ -103,19 +103,19 @@ Bar charts are a variation of column charts, where the columns are horizontal ra
 
 Scatter charts give a sense of the distribution and relative size of values.
 
-[[Example:discrete-scatter-chart]]
+[[Example:discrete-scatter-basic]]
 
 ## Gauge charts
 
 Gauge charts highlight the current value within the range of possible values for the metric.
 
-[[Example:gauge-chart]]
+[[Example:gauge-basic]]
 
 ## Sparkline charts
 
 Sparkline charts give a quick indication of trend and a summary of the current value. They are particularly useful when space is limited.
 
-[[Example:sparkline-chart]]
+[[Example:sparkline-basic]]
 
 ## Interaction
 
