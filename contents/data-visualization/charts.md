@@ -19,32 +19,30 @@ Charts should be:
 - Simple to understand, and easy to interact with.
 - Have a consistent visual appearance, and be accessible on all screen sizes.
 - Be easy to build, and straightforward to modify.
-- Built using a flexible framework, so we have room to grow.
 
-In cases where the charting principles conflict, consider data representation accuracy over speed of delivery, speed over visual consistency, and consistency over interaction.
-
-Going forward, our charts will be built using [ECharts](https://echarts.apache.org/).
+Our charts are built with resources from the [Apache ECharts](https://echarts.apache.org/) Open Source Library.
 
 General content and style considerations for charts include:
 
 - If there is more than one series being displayed, add a legend.
-- In legends, the text after the series name is optional. It allows for the possibility of complementing the series legend with additional useful calculations (total, etc).
-- Use chart titles, category and value labels as necessary to clarify the content being shown (with units in parentheses, if required). Note that units aren't always necessary, for example, in the case of counts.
-- The default color order for charts with multiple series is blue, green, orange, then purple (see spec measure details for further information). If you need additional color options, utilize the 500 version of any of the color palette options at a 20% opacity. In addition, if you have charts that feature positive and negative values, feel free to utilize a green/red version of the chart to make the data gains (greens) and losses (reds) more immediately apparent. This variation of a column chart is usually known as a waterfall chart.
+- In legends, any text after the series name is optional. Use this space to add complementary information as needed, such as total or average values.
+- Use chart titles, category and value labels as necessary to clarify the content being shown, with units in parentheses, if required. Note that units aren't always necessary, for example, in the case of counts.
+- Charts follow the data visualization recommendations for [color](/data_visualization/color). 
 - When hovering, detailed information on the data point is shown in a [popover](/components/popover).
 
-## Types
+## Type overview
 
-We currently support column charts, line charts, and area charts. More charting types will be added, in future.
+GitLab UI supports [column](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-column-chart--default), [line](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-line-chart--default), [area](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-area-chart--default), [bar](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-bar-chart--default), [scatter](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-discrete-scatter-chart--default), [gauge](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-gauge-chart--default) and [sparkline](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-sparkline-chart--default) charts. In addition, there are other forms of data visualizations available (see, for example, the [overview](/data_visualization/overview) page for information on heat maps, and the separate [single stat](/data_visualization/singlestat) page).
 
-Column charts can be considered the 'default' chart type. If you are thinking about using a pie chart, consider that a column chart may tell the story more clearly.
+Column charts are the default chart type. If you are thinking about using a pie chart, consider that a column chart may tell the story more clearly.
 
 When choosing a chart type, first consider your data set. If you are hoping to show:
 
-- A comparison of values across categories or across time, consider a column, bar, line or pie chart.
-- A distribution of values, consider a scatter chart, a line histogram, or a column histogram.
-- The relationship between values, which are usually presented on the x and y axes, consider a scatter chart or a bubble chart.  
-- The composition of elements within the data set, consider a stacked column, stacked area, pie, or waterfall chart.
+- A comparison of values across categories or across time, consider a column, bar, line or sparkline chart.
+- A comparison between groups or to show how a whole is divided into parts, consider an area chart.
+- A distribution of values or the relationship between them, consider a scatter chart. 
+- A value within a given range, consider using a gauge chart.
+- The composition of elements within the data set, consider a grouped or stacked column chart.
 
 ### Column charts
 
