@@ -18,7 +18,7 @@ Todo: Add codeblock showing monospace variable stack
 
 ## UI typescale
 
-UI typography is used for any text within GitLab that is not markdown.
+UI typography is used for any text within GitLab that is not [Markdown](/components/markdown).
 
 ### Base
 
