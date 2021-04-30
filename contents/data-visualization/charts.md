@@ -12,105 +12,77 @@ related:
 
 Charts help users quickly digest, visualize and see trends in their data.
 
-## Usage
+## Overview
 
 Charts should be:
 
 - Simple to understand, and easy to interact with.
 - Have a consistent visual appearance, and be accessible on all screen sizes.
 - Be easy to build, and straightforward to modify.
-- Built using a flexible framework, so we have room to grow.
 
-In cases where the charting principles conflict, consider data representation accuracy over speed of delivery, speed over visual consistency, and consistency over interaction.
+Our charts are built with resources from the [Apache ECharts](https://echarts.apache.org/) Open Source Library.
 
-Going forward, our charts will be built using [ECharts](https://echarts.apache.org/).
+### Content and style
 
 General content and style considerations for charts include:
 
 - If there is more than one series being displayed, add a legend.
-- In legends, the text after the series name is optional. It allows for the possibility of complementing the series legend with additional useful calculations (total, etc).
-- Use chart titles, category and value labels as necessary to clarify the content being shown (with units in parentheses, if required). Note that units aren't always necessary, for example, in the case of counts.
-- The default color order for charts with multiple series is blue, green, orange, then purple (see spec measure details for further information). If you need additional color options, utilize the 500 version of any of the color palette options at a 20% opacity. In addition, if you have charts that feature positive and negative values, feel free to utilize a green/red version of the chart to make the data gains (greens) and losses (reds) more immediately apparent. This variation of a column chart is usually known as a waterfall chart.
+- In legends, any text after the series name is optional. Use this space to add complementary information as needed, such as total or average values.
+- Use chart titles, category and value labels as necessary to clarify the content being shown, with units in parentheses, if required. Note that units aren't always necessary, for example, in the case of counts.
+- Charts follow the data visualization recommendations for [color](/color). 
 - When hovering, detailed information on the data point is shown in a [popover](/components/popover).
 
-## Types
+### Types
 
-We currently support column charts, line charts, and area charts. More charting types will be added, in future.
-
-Column charts can be considered the 'default' chart type. If you are thinking about using a pie chart, consider that a column chart may tell the story more clearly.
+GitLab UI supports [column](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-column-chart--default), [line](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-line-chart--default), [area](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-area-chart--default), [bar](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-bar-chart--default), [scatter](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-discrete-scatter-chart--default), [gauge](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-gauge-chart--default) and [sparkline](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-sparkline-chart--default) charts. In addition, there are other forms of data visualizations available (see, for example, the [overview](overview) page for information on heat maps, and the separate [single stat](singlestat) page).
 
 When choosing a chart type, first consider your data set. If you are hoping to show:
 
-- A comparison of values across categories or across time, consider a column, bar, line or pie chart.
-- A distribution of values, consider a scatter chart, a line histogram, or a column histogram.
-- The relationship between values, which are usually presented on the x and y axes, consider a scatter chart or a bubble chart.  
-- The composition of elements within the data set, consider a stacked column, stacked area, pie, or waterfall chart.
+- A comparison of values across categories or across time, consider a column, bar, line or sparkline chart.
+- A comparison between groups or to show how a whole is divided into parts, consider an area chart.
+- A distribution of values or the relationship between them, consider a scatter chart. 
+- A value within a given range, consider using a gauge chart.
+- The composition of elements within the data set, consider a grouped or stacked column chart.
 
-### Column charts
+### Chart variations
 
-Column charts are used to compare values across categories. The categories are usually presented on the x-axis, with the values on the y-axis.
+While most charts only have a single x and y axis, two y-axis charts may occasionally be used; for example, when showing data sets at different orders of magnitude (for example, issues closed, 10; issues opened, 10; total issues 1,000). In this instance, the second y-axis shows how the two data sets are related while ensuring the visualisation at both orders of magnitude is still usable and parsable.
+
+Todo: Add example
+
+## Column charts
+
+Column charts are the default chart type, and they are used to compare values across categories. The categories are usually presented on the x-axis, with the values on the y-axis. If you are thinking about using a pie chart, consider that a column chart may tell the story more clearly.
 
 The bars on a column chart are presented vertically rather than horizontally, and they can be stacked. Stacking can be useful for comparing multiple series.
 
 [[Example:column-basic]]
 
-#### Column chart variants
+### Grouped and stacked column charts
 
-##### Stacked
-
-Todo: add details
+It may sometimes be necessary to stack values in a column or to have groups of columns within your chart, for example when there are two dimensions of data (one nested within another) moving across time. Stacked columns can be either symmetric (where the number of stacks in each column is equal) or asymmetric (where the number of stacks in each column is not equal).
 
 [[Example:stacked-column-basic]]
 
-##### Grouped
+Todo: Add grouped column chart example
 
-Todo: add details
+#### Color in stacked and grouped charts
 
-##### Grouped and stacked
+When utilizing stacked and grouped charts, consider using color as an additional indicator that items in different groups are related. In addition, graded transparency may help to highlight differences in stacked variables while still differentiating stacks from groups in your chart.
 
-Grouped and stacked column charts display two dimensions of data (one nested within another) moving across a time series. 
+Specific colors may be used when values in a chart have certain colors associated with them in the product; for example, merge request state or vulnerability status. Specific colors should, however, be used sparingly in favor of following the more general [color](/color) guidelines for data visualizations.
 
-There are three dimensions displayed in total on grouped and stacked column charts:
-- **Groups**: The first dimension is represented by a group of columns.
-- **Stacks**: The second nested dimension is represented as a stacked column.
-- **Series**: The time series is represented across the x-axis.
+#### Using grouped and stacked column charts together
 
-*Note: Try to avoid using more than 5 values in each dimension to prevent visual complexity in the charts.*
+When there are three dimensions of data you want to display, it's also possible to group and stack columns in the same chart. If, for example, you want to display all of the merged merge requests in one column, open and closed merge requests together in a second column, and show both of these dimensions over time, you would use:
 
-There are two kinds of grouped and stacked column charts:
-- **Symmetric**: The number of stacks in each column is equal.
-- **Asymmetric**: The number of stacks in each columnn is not equal.
+- A group of columns for the first dimension (merged MRs).
+- A stacked column for the second dimension (open and closed MRs).
+- Show time across the x-axis.
 
-Todo: Add symmetric example
-Todo: Add asymmetric example
+*Note: Since a grouped and stacked chart already contains a lot of inforamtion, avoid using more than 5 values in each dimension.*
 
-See [color](/data-visualization/color/) for a full description of data visualization color patterns.
-
-###### Cross-column colors
-
-Use cross-column colors to highlight the "Groups" dimension spanning across columns.
-
-Todo: Add example
-
-###### Graded transparency
-
-Use graded transparency to highlight the "Stacks" dimension within the columns whilst differentiating between the other columns.
-
-Todo: Add example
-
-###### Specific colors
-
-Specific colors may be used when values in a chart have certain colors associated with them. For example, merge request state or vulnerability status. Specific colors should be used sparingly.
-
-Todo: Add example
-
-##### 2 y-axes
-
-2 y-axis charts may be used when showing data sets at different orders of magnitude (for example, issues closed, 10; issues opened, 10; total issues 1,000). This helps to show the correlation between the two data sets whilst maintaining the visualisation at lower orders of magnitude at a usable and parsable size.
-
-Todo: add details
-
-### Line charts
+## Line charts
 
 Line charts are used to display continuous data.
 
@@ -118,7 +90,7 @@ They are useful when you are looking to identify trends or to see larger pattern
 
 [[Example:line-basic]]
 
-### Area charts
+## Area charts
 
 Area charts are used to represent "[cumulated totals](http://www.vizwiz.com/2012/10/stacked-area-chart-vs-line-chart-great.html) using numbers or percentages."
 
@@ -126,15 +98,15 @@ In instances where you want to see both the overall trend and the percent contri
 
 [[Example:area-basic]]
 
-### Interaction
+## Interaction
 
-#### Zoom bar
+### Zoom bar
 
 ECharts has a default mechanism for [zooming on charts](https://echarts.apache.org/en/feature.html#interaction). A zoom bar gives users more control over how much data is displayed at any one time, and gives them the ability to dig into issues they are observing at a more granular level.
 
 The zoom bar is not added to all charts by default and shouldn't be used in cases where the chart neatly fits its container. However, in instances where the chart would otherwise overflow its container or where there is a large amount of data for users to explore, the zoom bar should be introduced.
 
-#### Chart popovers
+### Chart popovers
 
 By hovering over specific data points on charts, users will see a [popover](/components/popover/). The popovers for charts help provide users with more detailed information about both the values being hovered on and their corresponding positions on the x and y axes. The data displayed in the chart popovers is as follows:
 
@@ -143,11 +115,11 @@ By hovering over specific data points on charts, users will see a [popover](/com
 
 The [column chart measure spec](https://gitlab-org.gitlab.io/gitlab-design/hosted/amelia/gd%23195-column-chart-design-spec-previews/) shows examples of how popover content could be structured, in practice.
 
-##### Text wrapping in chart popovers
+#### Text wrapping in chart popovers
 
 The max-width of chart popovers is `512px`, with long chart values wrapping rather than truncating. When chart values in popovers wrap, break the word into two lines without using a hyphen.
 
-#### More options menu
+### More options menu
 
 A "more options" menu (vertical ellipses) can be used in the top righthand corner of charts. This provides users with access to additional chart functionality (such as copying chart embed code) which isn't directly displayed on or near the chart.
 
