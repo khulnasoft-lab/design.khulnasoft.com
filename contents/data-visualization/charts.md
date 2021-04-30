@@ -14,27 +14,24 @@ Charts help users quickly digest, visualize and see trends in their data.
 
 ## Overview
 
-Charts should be:
+Our charts are built with resources from the [Apache ECharts](https://echarts.apache.org/) Open Source Library. Charts should be:
 
 - Simple to understand, and easy to interact with.
 - Have a consistent visual appearance, and be accessible on all screen sizes.
-- Be easy to build, and straightforward to modify.
 
-Our charts are built with resources from the [Apache ECharts](https://echarts.apache.org/) Open Source Library.
+### General guidelines
 
-### Content and style
+When putting together your chart, consider the following:
 
-General content and style considerations for charts include:
-
-- If there is more than one series being displayed, add a legend.
+- If there is more than one data series being displayed, add a legend to differentiate them.
 - In legends, any text after the series name is optional. Use this space to add complementary information as needed, such as total or average values.
 - Use chart titles, category and value labels as necessary to clarify the content being shown, with units in parentheses, if required. Note that units aren't always necessary, for example, in the case of counts.
-- Charts follow the data visualization recommendations for [color](/color). 
+- Charts follow the data visualization recommendations for [color](/data-visualization/color). 
 - When hovering, detailed information on the data point is shown in a [popover](/components/popover).
 
 ### Types
 
-GitLab UI supports [column](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-column-chart--default), [line](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-line-chart--default), [area](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-area-chart--default), [bar](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-bar-chart--default), [scatter](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-discrete-scatter-chart--default), [gauge](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-gauge-chart--default) and [sparkline](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-sparkline-chart--default) charts. In addition, there are other forms of data visualizations available (see, for example, the [overview](overview) page for information on heat maps, and the separate [single stat](singlestat) page).
+GitLab UI supports [column](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-column-chart--default), [line](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-line-chart--default), [area](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-area-chart--default), [bar](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-bar-chart--default), [scatter](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-discrete-scatter-chart--default), [gauge](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-gauge-chart--default) and [sparkline](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-sparkline-chart--default) charts. In addition, there are other forms of data visualizations available (see, for example, the [overview](/data-visualization/overview) page for information on heat maps, and the [single stat](/data-visualization/single-stat) page for additional information on the single stat component).
 
 When choosing a chart type, first consider your data set. If you are hoping to show:
 
@@ -54,31 +51,29 @@ Todo: Add example
 
 Column charts are the default chart type, and they are used to compare values across categories. The categories are usually presented on the x-axis, with the values on the y-axis. If you are thinking about using a pie chart, consider that a column chart may tell the story more clearly.
 
-The bars on a column chart are presented vertically rather than horizontally, and they can be stacked. Stacking can be useful for comparing multiple series.
+The bars on a column chart are presented vertically rather than horizontally, and they can be stacked. See the next section for more details.
 
 [[Example:column-basic]]
 
 ### Grouped and stacked column charts
 
-It may sometimes be necessary to stack values in a column or to have groups of columns within your chart, for example when there are two dimensions of data (one nested within another) moving across time. Stacked columns can be either symmetric (where the number of stacks in each column is equal) or asymmetric (where the number of stacks in each column is not equal).
+It may sometimes be necessary to stack values in a column or to have groups of columns within your chart, for example when there are two dimensions of data (one nested within another) moving across time. Stacked columns can be either symmetric or asymmetric, meaning the number of stacks may or may not be equal across groups.
 
 [[Example:stacked-column-basic]]
-
-Todo: Add grouped column chart example
 
 #### Color in stacked and grouped charts
 
 When utilizing stacked and grouped charts, consider using color as an additional indicator that items in different groups are related. In addition, graded transparency may help to highlight differences in stacked variables while still differentiating stacks from groups in your chart.
 
-Specific colors may be used when values in a chart have certain colors associated with them in the product; for example, merge request state or vulnerability status. Specific colors should, however, be used sparingly in favor of following the more general [color](/color) guidelines for data visualizations.
+Specific colors may be used when values in a chart have certain colors associated with them in the product; for example, merge request state or vulnerability status. Specific colors should, however, be used sparingly in favor of following the more general [color](/data-visualization/color) guidelines for data visualizations.
 
 #### Using grouped and stacked column charts together
 
-When there are three dimensions of data you want to display, it's also possible to group and stack columns in the same chart. If, for example, you want to display all of the merged merge requests in one column, open and closed merge requests together in a second column, and show both of these dimensions over time, you would use:
+When there are three dimensions of data you want to display, it's also possible to group and stack columns in the same chart. If, for example, you want to display all of the merged merge requests in one column, open and closed merge requests together in a second column, and show both of these dimensions on the same chart, over time, you could display:
 
-- A group of columns for the first dimension (merged MRs).
-- A stacked column for the second dimension (open and closed MRs).
-- Show time across the x-axis.
+- Merged MRs in one column (column).
+- Open and closed in another column (stacked column).
+- Both groups of data would be show across time on the x-axis.
 
 *Note: Since a grouped and stacked chart already contains a lot of inforamtion, avoid using more than 5 values in each dimension.*
 
@@ -98,13 +93,31 @@ In instances where you want to see both the overall trend and the percent contri
 
 [[Example:area-basic]]
 
+## Bar charts
+
+Bar charts are a variation of column charts, where the columns are horizontal rather than vertical. It can be used for the same purposes as column charts, which is to compare values across categories.
+
+[[Example:bar-basic]]
+
+## Scatter charts
+
+Scatter charts give a sense of the distribution and relative size of values.
+
+[[Example:discrete-scatter-chart]]
+
+## Gauge charts
+
+Gauge charts highlight the current value within the range of possible values for the metric.
+
+[[Example:gauge-chart]]
+
+## Sparkline charts
+
+Sparkline charts give a quick indication of trend and a summary of the current value. They are particularly useful when space is limited.
+
+[[Example:sparkline-chart]]
+
 ## Interaction
-
-### Zoom bar
-
-ECharts has a default mechanism for [zooming on charts](https://echarts.apache.org/en/feature.html#interaction). A zoom bar gives users more control over how much data is displayed at any one time, and gives them the ability to dig into issues they are observing at a more granular level.
-
-The zoom bar is not added to all charts by default and shouldn't be used in cases where the chart neatly fits its container. However, in instances where the chart would otherwise overflow its container or where there is a large amount of data for users to explore, the zoom bar should be introduced.
 
 ### Chart popovers
 
@@ -123,9 +136,17 @@ The max-width of chart popovers is `512px`, with long chart values wrapping rath
 
 A "more options" menu (vertical ellipses) can be used in the top righthand corner of charts. This provides users with access to additional chart functionality (such as copying chart embed code) which isn't directly displayed on or near the chart.
 
+### Zoom bar
+
+ECharts has a default mechanism for [zooming on charts](https://echarts.apache.org/en/feature.html#interaction). A zoom bar gives users more control over how much data is displayed at any one time, and gives them the ability to dig into issues they are observing at a more granular level.
+
+The zoom bar is not added to all charts by default and shouldn't be used in cases where the chart neatly fits its container. However, in instances where the chart would otherwise overflow its container or where there is a large amount of data for users to explore, the zoom bar should be introduced.
+
 ## Design specifications
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following links:
+
+[Pajamas UI Kit →](https://www.figma.com/file/17NxNEMa7i28Is8sMetO2H/Data-Visualization?node-id=275%3A731)
 
 [Column charts measure spec](http://gitlab-org.gitlab.io/gitlab-design/hosted/amelia/gd%23195-column-chart-design-spec-previews/)
 
@@ -134,3 +155,7 @@ Color, spacing, dimension, and layout specific information pertaining to this co
 [Area chart measure spec](http://gitlab-org.gitlab.io/gitlab-design/hosted/amelia/gitlab-design%23304-area-charts-spec-previews/)
 
 [Zoom bar measure spec](http://gitlab-org.gitlab.io/gitlab-design/hosted/amelia/gd%23221-charts-scrolling-spec-previews/)
+
+## Related
+
+- [Single stat](/data-visualization/single-stat)
