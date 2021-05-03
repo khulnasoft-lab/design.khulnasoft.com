@@ -33,7 +33,7 @@ Each category displays a title and a brief explanation of what users should expe
 
 Settings can be locked by admins or group owners. To visualize this, gray out the setting, and add a lock icon with a tool tip to explain the nature of the restriction.
 
-![locked-setting.png](/img/locked-setting.png)
+![locked-setting-example.png](/img/locked-setting-example.png)
 
 ### Saving settings
 
