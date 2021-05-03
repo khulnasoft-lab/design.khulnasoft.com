@@ -38,7 +38,7 @@ When choosing a chart type, first consider your data set. If you are hoping to s
 - A comparison of values across categories or across time, consider a column, bar, line or sparkline chart.
 - A comparison between groups or to show how a whole is divided into parts, consider an area chart.
 - A distribution of values or the relationship between them, consider a scatter chart. 
-- A value within a given range, consider using a gauge chart.
+- A value within a given range, consider a gauge chart.
 - The composition of elements within the data set, consider a grouped or stacked column chart.
 
 ### Chart variations
@@ -69,13 +69,13 @@ Specific colors may be used when values in a chart have certain colors associate
 
 #### Using grouped and stacked column charts together
 
-When there are three dimensions of data you want to display, it's also possible to group and stack columns in the same chart. If, for example, you want to display all of the merged merge requests in one column, open and closed merge requests together in a second column, and show both of these dimensions on the same chart, over time, you could display:
+When there are three dimensions of data you want to display, it's also possible to group and stack columns in the same chart. If, for example, you want to display all merged MRs in one column, open and closed MRs together in a second column, and show both of these dimensions on the same chart, over time, you could display:
 
-- Merged MRs in one column (column).
-- Open and closed in another column (stacked column).
-- Both groups of data would be show across time on the x-axis.
+- Merged MRs in one column.
+- Open and closed MRs in a separate, stacked column.
+- Both columns of data across time (on the x-axis).
 
-*Note: Since a grouped and stacked chart already contains a lot of inforamtion, avoid using more than 5 values in each dimension.*
+*Note: Since a grouped and stacked chart already contains a lot of information, avoid using more than 5 values in each dimension.*
 
 ## Line charts
 
@@ -146,7 +146,7 @@ The zoom bar is not added to all charts by default and shouldn't be used in case
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following links:
 
-[Pajamas UI Kit →](https://www.figma.com/file/17NxNEMa7i28Is8sMetO2H/Data-Visualization?node-id=275%3A731)
+[Pajamas UI Kit →](https://www.figma.com/file/17NxNEMa7i28Is8sMetO2H/Data-Visualization?node-id=3%3A0)
 
 [Column charts measure spec](http://gitlab-org.gitlab.io/gitlab-design/hosted/amelia/gd%23195-column-chart-design-spec-previews/)
 
