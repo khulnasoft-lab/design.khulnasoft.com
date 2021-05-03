@@ -44,7 +44,7 @@ The `h1` header within our compact Markdown scale is responsive. All other type 
 
 Highlights an inline text element of code. Commonly used for a line of code, class names, and variable names. The size of the text will adjust based on the parent text size.
 
-[View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=19965%3A0)
+[View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=29627%3A56)
 
 ## Code blocks
 
@@ -52,4 +52,4 @@ Displays a block of code. Commonly used for multi-line code and to display code 
 
 Code blocks should fit the width of the parent container. Code content will scroll horizontally if it overflows the block.
 
-[View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=19965%3A0)
+[View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=19965%3A13)
