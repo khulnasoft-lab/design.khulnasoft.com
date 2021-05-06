@@ -91,7 +91,26 @@ export default {
 
       this.setStatus(STATUS_SEARCHING);
 
-      const searchResults = this.searchIndex.search(txt);
+      const searchTokens = txt.split(' ').map((term) => {
+        // Remove ':' to prevent field-specific search
+        // https://lunrjs.com/guides/searching.html#fields
+        const searchTerm = term.replace(':', '');
+
+        if (!searchTerm) {
+          return '';
+        }
+
+        // Add a wildcard to match words that begin with the search term
+        // https://lunrjs.com/guides/searching.html#wildcards
+        let queryString = `${searchTerm}*`;
+
+        // Add a bit of fuzziness to the search term
+        // https://lunrjs.com/guides/searching.html#fuzzy-matches
+        queryString += ` ${searchTerm}~1`;
+
+        return queryString;
+      });
+      const searchResults = this.searchIndex.search(searchTokens.join(' '));
       this.searchResults = searchResults.filter(({ score }) => score > 0);
 
       if (!this.searchResults?.length) {
