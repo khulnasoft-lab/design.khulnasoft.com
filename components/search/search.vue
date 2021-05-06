@@ -1,11 +1,6 @@
 <script>
 import lunr from 'lunr';
-import lunrStemmer from 'lunr-languages/lunr.stemmer.support';
 import SearchResult from './search_result.vue';
-
-if (!lunr.stemmerSupport) {
-  lunrStemmer(lunr);
-}
 
 const STATUS_SEARCHING = 'STATUS_SEARCHING';
 const STATUS_NO_RESULTS = 'STATUS_NO_RESULTS';
@@ -100,7 +95,8 @@ export default {
 
       this.setStatus(STATUS_SEARCHING);
 
-      this.searchResults = this.searchIndex.search(txt);
+      const searchResults = this.searchIndex.search(txt);
+      this.searchResults = searchResults.filter(({ score }) => score > 0);
 
       if (!this.searchResults?.length) {
         this.setStatus(STATUS_NO_RESULTS);
