@@ -42,9 +42,6 @@ export default {
     }
   },
   computed: {
-    showResults() {
-      return this.statusId || this.resultsVisible;
-    },
     statusMsg() {
       return STATUS_MESSAGE[this.statusId] || '';
     },
@@ -59,8 +56,8 @@ export default {
       clearTimeout(this.searchTimeout);
       this.searchTimeout = setTimeout(() => this.search(searchText), 200);
     },
-    showResults(showResults) {
-      if (showResults) {
+    resultsVisible(resultsVisible) {
+      if (resultsVisible) {
         this.addBodyListener();
       } else {
         this.removeBodyListener();
@@ -83,7 +80,6 @@ export default {
       this.resultsVisible = true;
     },
     closeResults() {
-      this.searchText = '';
       this.resultsVisible = false;
       this.removeBodyListener();
       this.clearStatus();
@@ -126,7 +122,7 @@ export default {
       }
     },
     keyUp() {
-      if (!this.showResults) {
+      if (!this.resultsVisible) {
         return;
       }
 
@@ -143,7 +139,7 @@ export default {
       }
     },
     keyDown() {
-      if (!this.showResults) {
+      if (!this.resultsVisible) {
         return;
       }
 
@@ -158,6 +154,11 @@ export default {
         nextResult.focus();
       }
     },
+    onFocus() {
+      if (this.searchResults.length) {
+        this.resultsVisible = true;
+      }
+    },
   },
 };
 </script>
@@ -169,6 +170,7 @@ export default {
     @keydown.enter.prevent="keyEnter"
     @keydown.up.prevent="keyUp"
     @keydown.down.prevent="keyDown"
+    @keydown.esc="closeResults"
   >
     <div class="gl-p-3 gl-inset-border-b-1-gray-200">
       <gl-search-box-by-type
@@ -176,13 +178,14 @@ export default {
         v-model="searchText"
         aria-label="Search"
         aria-haspopup="true"
-        :aria-expanded="showResults"
+        :aria-expanded="resultsVisible"
         autocomplete="off"
         spellcheck="false"
+        @focus="onFocus"
       />
     </div>
 
-    <ul v-if="showResults" role="menu" tabindex="-1" class="gl-new-dropdown dropdown-menu show">
+    <ul v-if="resultsVisible" role="menu" tabindex="-1" class="gl-new-dropdown dropdown-menu show">
       <div class="gl-new-dropdown-inner">
         <div ref="results" class="gl-new-dropdown-contents">
           <gl-dropdown-item v-if="statusMsg">
