@@ -2,6 +2,7 @@ import path from 'path';
 import fiber from 'fibers';
 import glob from 'glob';
 import { startCase } from 'lodash';
+import { parse } from 'node-html-parser';
 import sass from 'sass';
 import { getContentList, writeContentTree } from './modules/content_preparer';
 
@@ -236,13 +237,19 @@ module.exports = {
         Object.keys(contentTree).forEach((section) => {
           contentTree[section].forEach((page) => {
             const route = `/${section}/${page.id}`;
-            import(`./static/contents/${section}/${page.id}.json`)
-              .then(({ body }) => {
+            const contentsFile = `./static/contents/${section}/${page.id}.json`;
+            import(contentsFile)
+              .then((data) => {
+                const { body } = data;
+                const html = parse(`<div>${body}</div>`);
+                const text = html.textContent;
+                const words = text.split(' ').filter((term) => term.match(/^[a-z]{2,}$/i));
+                const cleanText = words.join(' ');
                 return builder.nuxt.callHook('lunr:document', {
                   document: {
                     id: page.id,
                     title: page.name,
-                    body,
+                    body: cleanText,
                   },
                   meta: {
                     title: `${startCase(section)} > ${page.name}`,
@@ -252,7 +259,7 @@ module.exports = {
               })
               .catch((error) => {
                 // eslint-disable-next-line no-console
-                console.error(error);
+                console.error(`Could not load contents from ${contentsFile}`, error);
               });
           });
         });
