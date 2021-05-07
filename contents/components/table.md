@@ -111,7 +111,7 @@ Tables take up the full width of their container element. However, it is importa
 
 Don’t simply shrink an entire table to fit the viewport or apply a fixed width to a table to the point that it compromises legibility. The same way stretching tables 100% to the width of the viewport is not recommended, a small, shrunken table view can create a cluttered interface. Use a responsive table view instead.
 
-Prevent horizontal scrolling that could break the page layout by using a responsive table. Tables work across multiple screen sizes and conform to [responsive guidelines](/components/table/#responsiveness).
+Tables work across multiple screen sizes and conform to [responsive guidelines](/components/table/#responsiveness).
 
 ## Content
 
@@ -152,9 +152,9 @@ Do not apply vertical lines between columns. In general, tables without vertical
 
 At smaller breakpoints tables can either maintain a tabular layout and scroll horizontally to view the overflow without breaking the page layout, or each row can be transformed into its own group where header content is present within each group.
 
-- If the data in each row needs to be compared to data in other rows then maintaining the tabular layout is best.
-- If the content simply shares headers and can live on its own without comparison, consider transforming each row into its own group.
-- If a row has embedded actions that could be missed when overflowing in the default tabular layout, then consider transforming each row into its own group so the actions can always be visible.
+- If the data in each row needs to be compared to data in other rows then maintain the tabular layout.
+- If the content simply shares headers and can live on its own without comparison, transform each row into its own group.
+- If a row has embedded actions that could be missed when overflowing in the default tabular layout, transform each row into its own group so the actions can always be visible.
 
 Todo: Add responsive table examples
 
