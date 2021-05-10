@@ -23,9 +23,11 @@ Our charts are built with resources from the [Apache ECharts](https://echarts.ap
 
 When creating and utilizing charts, consider the following:
 
-- If there is more than one data series being displayed, add a legend to differentiate them.
-- In legends, any text after the series name is optional. Use this space to add complementary information as needed, such as total or average values.
 - Use chart titles, category and value labels as necessary to clarify the content being shown, with units in parentheses, if required. Note that units aren't always necessary, for example, in the case of counts.
+- If there is more than one data series being displayed, add a legend to differentiate them.
+- We have two legend types: default and tabular. The default legend option works best for simple charts. If a chart has many series, or if you want to display multiple values for a series (for example, average, median, and maximum), use the tabular chart legend for better readability.
+- In legends, any text after the series name is optional. Use this space to add complementary information as needed, such as total or average values.
+- Line and area charts use the series label with the rectangular color chip to match the line colors in the chart, while column and heat map charts use the square color chip to match the fill and stroke color of the elements in the visualization. The fill of the chip should match the fill of the column and the border of the chip should match the border of the column. 
 - Charts follow the data visualization recommendations for [color](/data-visualization/color). 
 - When hovering, detailed information on the data point is shown in a [popover](/components/popover).
 
@@ -131,6 +133,10 @@ The [column chart measure spec](https://gitlab-org.gitlab.io/gitlab-design/hoste
 #### Text wrapping in chart popovers
 
 The max-width of chart popovers is `512px`, with long chart values wrapping rather than truncating. When chart values in popovers wrap, break the word into two lines without using a hyphen.
+
+### Chart legends
+
+Chart data can be toggled on and off by clicking its related item in the legend.
 
 ### More options menu
 
