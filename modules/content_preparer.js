@@ -42,7 +42,8 @@ export function getContentList(dirName) {
     );
 
     const { name, figma, docs, a11y, gitlab_ui, vueComponents } = content.attributes;
-    const id = componentFileName.replace('.md', '');
+    let id = componentFileName.replace(/\.md$/, '');
+    id = id.replace(/^_/, '');
 
     componentInfos.push({
       id,
