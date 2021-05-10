@@ -53,7 +53,7 @@ Todo: Add example
 
 Column charts are the default chart type, and they are used to compare values across categories. The categories are usually presented on the x-axis, with the values on the y-axis. If you are thinking about using a pie chart, consider that a column chart may tell the story more clearly.
 
-The bars on a column chart are presented vertically rather than horizontally, and they can be stacked. See the next section for more details.
+The bars on a column chart are presented vertically rather than horizontally, and they can be stacked. 
 
 [[Example:column-basic]]
 
@@ -78,6 +78,8 @@ When there are three dimensions of data you want to display, it's also possible 
 - Both columns of data across time (on the x-axis).
 
 *Note: Since a grouped and stacked chart already contains a lot of information, avoid using more than 5 values in each dimension.*
+
+Todo: Add example
 
 ## Line charts
 
@@ -154,13 +156,13 @@ Color, spacing, dimension, and layout specific information pertaining to this co
 
 [Pajamas UI Kit →](https://www.figma.com/file/17NxNEMa7i28Is8sMetO2H/Data-Visualization?node-id=3%3A0)
 
-[Column charts measure spec](http://gitlab-org.gitlab.io/gitlab-design/hosted/amelia/gd%23195-column-chart-design-spec-previews/)
+[Column charts measure spec →](http://gitlab-org.gitlab.io/gitlab-design/hosted/amelia/gd%23195-column-chart-design-spec-previews/)
 
-[Line chart measure spec](https://www.figma.com/file/17NxNEMa7i28Is8sMetO2H/Data-Visualization?node-id=47%3A0/)
+[Line chart in Pajamas UI Kit →](https://www.figma.com/file/17NxNEMa7i28Is8sMetO2H/Data-Visualization?node-id=63%3A697)
 
-[Area chart measure spec](http://gitlab-org.gitlab.io/gitlab-design/hosted/amelia/gitlab-design%23304-area-charts-spec-previews/)
+[Area chart measure spec →](http://gitlab-org.gitlab.io/gitlab-design/hosted/amelia/gitlab-design%23304-area-charts-spec-previews/)
 
-[Zoom bar measure spec](http://gitlab-org.gitlab.io/gitlab-design/hosted/amelia/gd%23221-charts-scrolling-spec-previews/)
+[Zoom bar measure spec →](http://gitlab-org.gitlab.io/gitlab-design/hosted/amelia/gd%23221-charts-scrolling-spec-previews/)
 
 ## Related
 
