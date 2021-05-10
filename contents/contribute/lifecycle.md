@@ -2,7 +2,7 @@
 name: Component lifecycle
 ---
 
-The goal of this process is to make it easy to: submit new designs (including documentation), propose changes to existing designs, and translate component designs into built components.
+The component lifecycle is a flexible set of guidelines to help product teams efficiently and iteratively add components to Pajamas. The goal of this process is to make it easy to: submit new designs (including documentation), propose changes to existing designs, and translate component designs into built components.
 
 The component lifecycle has the following stages:
 
@@ -13,21 +13,21 @@ and documentation. The component is added to Pajamas. ~"pajamas::build"
 - **Style:** Each component is styled according to the design specs found in
 Pajamas. Components function correctly and match usage guidelines. ~"pajamas::style"
 - **Integrate:** The documented component is integrated into GitLab the
-product. ~"pajamas::integrate"
+product. This stage could involve removing old HAML components
+in order to replace them with the newly defined Vue components. ~"pajamas::integrate"
 
-Some stages may happen in tandem, depending on how mature the component currently
+Stages may happen in tandem and in different orders, depending on how mature the component currently
 is. For example:
 
 - If the component is already in GitLab and widely used, **build** and
 **style** stages may happen together. This often involves migrating styles from GitLab
-to gitlab-ui.
+to gitlab-ui. The **create** stage may occur at the same time, or even sometimes after.
 - If the component is not yet available as a Vue component, the **style** stage
 may come after the **build** stage.
 - If a component is brand new, the **create** stage may need some revisions as the
 **build** and **style** stages progress.
-
-The **integrate** stage will come last and could involve removing old HAML components
-in order to replace them with the newly defined Vue components.
+- If a component is built in GitLab UI and included in Pajamas, it may be partially
+**integrated** into the product, even if not all variants needed exist in Pajamas yet.
 
 ## Determining whether a component should be included in Pajamas
 
