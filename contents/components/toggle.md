@@ -23,21 +23,19 @@ Consider providing feedback of the toggle state change by using a [toast](/compo
 
 Note: 🔍 Insight: [Toggles were preferred to checkboxes because of relation to turning something on/off](https://dovetailapp.com/projects/c3e1c2a0-fcfd-449e-9994-5c9f3f4f02af/insights/present/aeb1fead-f023-4afc-ad39-68b4462fccc4)
 
-### When not to use a toggle
+### Do not use a toggle when:
 
-Avoid using toggles when a submit button is needed. This confuses users and dilutes the experience by preventing instant results.
+- A submit button is needed to apply or save a selection.
+- A change in toggle state would trigger other changes that would have to be applied or saved.
+- Two choices don't map to a boolean relationship like on and off.
+- There are more than two choices.
 
-- When there are 2 choices that don't map to a boolean relationship like on & off.
-- There are more than 2 choices.
-- Consider using a [checkbox](/components/checkbox) when there are sub-options to select from and there is the ability to select/deselect all. A checkbox has an indeterminate state that could be used to show that not all sub-options have been selected.
-- When a change to the toggle state allows for possible customization and requires user action to confirm the change. Some examples of this include adding/removing items from a list and/or changing the default settings.
+If the scenario doesn't align with the usage outlined above, consider using a:
 
-Components to consider using in these scenarios instead of a toggle:
-
-- [Checkbox](/components/checkbox)
-- [Dropdown](/components/dropdown)
-- [Radio buttons](/components/radio-button)
-- [Segmented control](/components/segmented-control)
+- [Checkbox](/components/checkbox) when multiple items can be selected, including nested items, and the result of the selection has to be saved or submitted.
+- [Radio button](/components/radio-button) when only one item can be selected and the result of the selection has to be saved or submitted.
+- [Dropdown](/components/dropdown) to make a selection from a list of items.
+- [Segmented control](/components/segmented-control) to change a content view or preference in the context of that content.
 
 ### Labels
 
