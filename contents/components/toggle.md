@@ -17,13 +17,11 @@ A toggle is a visual switch which acts as a boolean.
 
 Use a toggle when:
 
-- There's a binary choice between two selections. For example, notifications on or off.
+- There's a binary choice for enabling a setting. For example, notifications on or off.
 - The item being toggled has a default state. For example, notifications default to off for a merge request you haven't participated in. 
 - The result of changing the toggle state is immediately effective and there's **no need** for an additional action to apply or save a change.
 
 Consider providing feedback of the toggle state change by using a [toast](/components/toast).
-
-Note: 🔍 Insight: [Toggles were preferred to checkboxes because of relation to turning something on/off](https://dovetailapp.com/projects/c3e1c2a0-fcfd-449e-9994-5c9f3f4f02af/insights/present/aeb1fead-f023-4afc-ad39-68b4462fccc4)
 
 ### Do not use a toggle when:
 
