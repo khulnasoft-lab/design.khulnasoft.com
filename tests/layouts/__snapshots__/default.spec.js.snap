@@ -92,9 +92,7 @@ exports[`default layout renders sidebar properly 1`] = `
           class="nav-sidebar__section-items-anchor nav-sidebar--indent-1"
           to="/brand/basics"
         >
-          
-      Basics
-    
+          Basics
         </nuxt-link-stub>
       </li>
       <li>
@@ -102,14 +100,10 @@ exports[`default layout renders sidebar properly 1`] = `
           class="nav-sidebar__section-items-anchor nav-sidebar--indent-1"
           to="/brand/resources"
         >
-          
-      Resources
-    
+          Resources
         </nuxt-link-stub>
       </li>
-       
     </ul>
-     
     <ul
       class="nav-sidebar__section"
     >
@@ -132,15 +126,13 @@ exports[`default layout renders sidebar properly 1`] = `
       Get started
     
           </summary>
-            
+           
           <li>
             <nuxt-link-stub
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/get-started/principles"
             >
-              
-    Principles
-  
+              Principles
             </nuxt-link-stub>
           </li>
           <li>
@@ -148,14 +140,11 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/get-started/structure"
             >
-              
-    Structure
-  
+              Structure
             </nuxt-link-stub>
           </li>
         </details>
       </li>
-       
       <li>
         <details
           class="nav-sidebar__section"
@@ -167,15 +156,13 @@ exports[`default layout renders sidebar properly 1`] = `
       Foundations
     
           </summary>
-            
+           
           <li>
             <nuxt-link-stub
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/product-foundations/colors"
             >
-              
-    Color
-  
+              Color
             </nuxt-link-stub>
           </li>
           <li>
@@ -183,9 +170,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/product-foundations/iconography"
             >
-              
-    Iconography
-  
+              Iconography
             </nuxt-link-stub>
           </li>
           <li>
@@ -193,9 +178,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/product-foundations/illustration"
             >
-              
-    Illustration
-  
+              Illustration
             </nuxt-link-stub>
           </li>
           <li>
@@ -203,9 +186,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/product-foundations/interaction"
             >
-              
-    Interactions
-  
+              Interactions
             </nuxt-link-stub>
           </li>
           <li>
@@ -213,9 +194,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/product-foundations/motion"
             >
-              
-    Motion
-  
+              Motion
             </nuxt-link-stub>
           </li>
           <li>
@@ -223,9 +202,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/product-foundations/saving-and-feedback"
             >
-              
-    Saving and feedback
-  
+              Saving and feedback
             </nuxt-link-stub>
           </li>
           <li>
@@ -233,14 +210,11 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/product-foundations/typography"
             >
-              
-    Typography
-  
+              Typography
             </nuxt-link-stub>
           </li>
         </details>
       </li>
-       
       <li>
         <details
           class="nav-sidebar__section"
@@ -252,15 +226,13 @@ exports[`default layout renders sidebar properly 1`] = `
       Layout
     
           </summary>
-            
+           
           <li>
             <nuxt-link-stub
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/layout/grid"
             >
-              
-    Grid
-  
+              Grid
             </nuxt-link-stub>
           </li>
           <li>
@@ -268,9 +240,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/layout/layers"
             >
-              
-    Layers
-  
+              Layers
             </nuxt-link-stub>
           </li>
           <li>
@@ -278,14 +248,11 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/layout/spacing"
             >
-              
-    Spacing
-  
+              Spacing
             </nuxt-link-stub>
           </li>
         </details>
       </li>
-       
       <li>
         <details
           class="nav-sidebar__section"
@@ -298,21 +265,20 @@ exports[`default layout renders sidebar properly 1`] = `
     
           </summary>
            
-          <nuxt-link-stub
-            class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
-            to="/components/status"
-          >
-            Status
-          </nuxt-link-stub>
-           
+          <li>
+            <nuxt-link-stub
+              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
+              to="/components/status"
+            >
+              Status
+            </nuxt-link-stub>
+          </li>
           <li>
             <nuxt-link-stub
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/accordion"
             >
-              
-    Accordion
-  
+              Accordion
             </nuxt-link-stub>
           </li>
           <li>
@@ -320,9 +286,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/alert"
             >
-              
-    Alert
-  
+              Alert
             </nuxt-link-stub>
           </li>
           <li>
@@ -330,9 +294,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/avatar"
             >
-              
-    Avatar
-  
+              Avatar
             </nuxt-link-stub>
           </li>
           <li>
@@ -340,9 +302,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/badge"
             >
-              
-    Badge
-  
+              Badge
             </nuxt-link-stub>
           </li>
           <li>
@@ -350,9 +310,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/banner"
             >
-              
-    Banner
-  
+              Banner
             </nuxt-link-stub>
           </li>
           <li>
@@ -360,9 +318,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/breadcrumb"
             >
-              
-    Breadcrumb
-  
+              Breadcrumb
             </nuxt-link-stub>
           </li>
           <li>
@@ -370,9 +326,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/broadcast-message"
             >
-              
-    Broadcast message
-  
+              Broadcast message
             </nuxt-link-stub>
           </li>
           <li>
@@ -380,9 +334,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/button"
             >
-              
-    Button
-  
+              Button
             </nuxt-link-stub>
           </li>
           <li>
@@ -390,9 +342,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/card"
             >
-              
-    Card
-  
+              Card
             </nuxt-link-stub>
           </li>
           <li>
@@ -400,9 +350,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/checkbox"
             >
-              
-    Checkbox
-  
+              Checkbox
             </nuxt-link-stub>
           </li>
           <li>
@@ -410,9 +358,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/date-picker"
             >
-              
-    Date picker
-  
+              Date picker
             </nuxt-link-stub>
           </li>
           <li>
@@ -420,9 +366,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/drawer"
             >
-              
-    Drawer
-  
+              Drawer
             </nuxt-link-stub>
           </li>
           <li>
@@ -430,9 +374,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/dropdown"
             >
-              
-    Dropdown
-  
+              Dropdown
             </nuxt-link-stub>
           </li>
           <li>
@@ -440,9 +382,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/file-uploader"
             >
-              
-    File uploader
-  
+              File uploader
             </nuxt-link-stub>
           </li>
           <li>
@@ -450,9 +390,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/filter"
             >
-              
-    Filter
-  
+              Filter
             </nuxt-link-stub>
           </li>
           <li>
@@ -460,9 +398,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/form"
             >
-              
-    Form
-  
+              Form
             </nuxt-link-stub>
           </li>
           <li>
@@ -470,9 +406,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/infinite-scroll"
             >
-              
-    Infinite scroll
-  
+              Infinite scroll
             </nuxt-link-stub>
           </li>
           <li>
@@ -480,9 +414,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/label"
             >
-              
-    Label
-  
+              Label
             </nuxt-link-stub>
           </li>
           <li>
@@ -490,9 +422,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/list"
             >
-              
-    List
-  
+              List
             </nuxt-link-stub>
           </li>
           <li>
@@ -500,9 +430,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/markdown"
             >
-              
-    Markdown
-  
+              Markdown
             </nuxt-link-stub>
           </li>
           <li>
@@ -510,9 +438,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/modal"
             >
-              
-    Modal
-  
+              Modal
             </nuxt-link-stub>
           </li>
           <li>
@@ -520,9 +446,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/pagination"
             >
-              
-    Pagination
-  
+              Pagination
             </nuxt-link-stub>
           </li>
           <li>
@@ -530,9 +454,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/path"
             >
-              
-    Path
-  
+              Path
             </nuxt-link-stub>
           </li>
           <li>
@@ -540,9 +462,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/popover"
             >
-              
-    Popover
-  
+              Popover
             </nuxt-link-stub>
           </li>
           <li>
@@ -550,9 +470,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/progress-bar"
             >
-              
-    Progress bar
-  
+              Progress bar
             </nuxt-link-stub>
           </li>
           <li>
@@ -560,9 +478,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/radio-button"
             >
-              
-    Radio button
-  
+              Radio button
             </nuxt-link-stub>
           </li>
           <li>
@@ -570,9 +486,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/search"
             >
-              
-    Search
-  
+              Search
             </nuxt-link-stub>
           </li>
           <li>
@@ -580,9 +494,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/segmented-control"
             >
-              
-    Segmented control
-  
+              Segmented control
             </nuxt-link-stub>
           </li>
           <li>
@@ -590,9 +502,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/skeleton-loader"
             >
-              
-    Skeleton loader
-  
+              Skeleton loader
             </nuxt-link-stub>
           </li>
           <li>
@@ -600,9 +510,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/socks"
             >
-              
-    Socks
-  
+              Socks
             </nuxt-link-stub>
           </li>
           <li>
@@ -610,9 +518,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/sorting"
             >
-              
-    Sorting
-  
+              Sorting
             </nuxt-link-stub>
           </li>
           <li>
@@ -620,9 +526,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/spinner"
             >
-              
-    Spinner
-  
+              Spinner
             </nuxt-link-stub>
           </li>
           <li>
@@ -630,9 +534,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/table"
             >
-              
-    Table
-  
+              Table
             </nuxt-link-stub>
           </li>
           <li>
@@ -640,9 +542,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/tabs"
             >
-              
-    Tabs
-  
+              Tabs
             </nuxt-link-stub>
           </li>
           <li>
@@ -650,9 +550,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/toast"
             >
-              
-    Toast
-  
+              Toast
             </nuxt-link-stub>
           </li>
           <li>
@@ -660,9 +558,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/toggle"
             >
-              
-    Toggle
-  
+              Toggle
             </nuxt-link-stub>
           </li>
           <li>
@@ -670,9 +566,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/token"
             >
-              
-    Token
-  
+              Token
             </nuxt-link-stub>
           </li>
           <li>
@@ -680,9 +574,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/tooltip"
             >
-              
-    Tooltip
-  
+              Tooltip
             </nuxt-link-stub>
           </li>
           <li>
@@ -690,14 +582,11 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/components/tree"
             >
-              
-    Tree
-  
+              Tree
             </nuxt-link-stub>
           </li>
         </details>
       </li>
-       
       <li>
         <details
           class="nav-sidebar__section"
@@ -709,15 +598,13 @@ exports[`default layout renders sidebar properly 1`] = `
       Data visualization
     
           </summary>
-            
+           
           <li>
             <nuxt-link-stub
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/data-visualization/charts"
             >
-              
-    Charts
-  
+              Charts
             </nuxt-link-stub>
           </li>
           <li>
@@ -725,9 +612,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/data-visualization/color"
             >
-              
-    Color
-  
+              Color
             </nuxt-link-stub>
           </li>
           <li>
@@ -735,9 +620,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/data-visualization/overview"
             >
-              
-    Overview
-  
+              Overview
             </nuxt-link-stub>
           </li>
           <li>
@@ -745,14 +628,11 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/data-visualization/single-stat"
             >
-              
-    Single stat
-  
+              Single stat
             </nuxt-link-stub>
           </li>
         </details>
       </li>
-       
       <li>
         <details
           class="nav-sidebar__section"
@@ -764,15 +644,13 @@ exports[`default layout renders sidebar properly 1`] = `
       Regions
     
           </summary>
-            
+           
           <li>
             <nuxt-link-stub
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/regions/empty-states"
             >
-              
-    Empty States
-  
+              Empty States
             </nuxt-link-stub>
           </li>
           <li>
@@ -780,9 +658,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/regions/filters"
             >
-              
-    Filters
-  
+              Filters
             </nuxt-link-stub>
           </li>
           <li>
@@ -790,9 +666,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/regions/navigation"
             >
-              
-    Navigation
-  
+              Navigation
             </nuxt-link-stub>
           </li>
           <li>
@@ -800,9 +674,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/regions/search"
             >
-              
-    Search
-  
+              Search
             </nuxt-link-stub>
           </li>
           <li>
@@ -810,14 +682,11 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/regions/settings"
             >
-              
-    Settings
-  
+              Settings
             </nuxt-link-stub>
           </li>
         </details>
       </li>
-       
       <li>
         <details
           class="nav-sidebar__section"
@@ -829,15 +698,13 @@ exports[`default layout renders sidebar properly 1`] = `
       Objects
     
           </summary>
-            
+           
           <li>
             <nuxt-link-stub
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/objects/merge-request"
             >
-              
-    Merge request
-  
+              Merge request
             </nuxt-link-stub>
           </li>
           <li>
@@ -845,14 +712,11 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/objects/report"
             >
-              
-    Report
-  
+              Report
             </nuxt-link-stub>
           </li>
         </details>
       </li>
-       
       <li>
         <details
           class="nav-sidebar__section"
@@ -864,15 +728,13 @@ exports[`default layout renders sidebar properly 1`] = `
       Content
     
           </summary>
-            
+           
           <li>
             <nuxt-link-stub
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/content/error-messages"
             >
-              
-    Error messages
-  
+              Error messages
             </nuxt-link-stub>
           </li>
           <li>
@@ -880,9 +742,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/content/punctuation"
             >
-              
-    Punctuation
-  
+              Punctuation
             </nuxt-link-stub>
           </li>
           <li>
@@ -890,9 +750,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/content/terminology"
             >
-              
-    Terminology
-  
+              Terminology
             </nuxt-link-stub>
           </li>
           <li>
@@ -900,14 +758,11 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/content/voice-tone"
             >
-              
-    Voice and tone
-  
+              Voice and tone
             </nuxt-link-stub>
           </li>
         </details>
       </li>
-       
       <li>
         <details
           class="nav-sidebar__section"
@@ -919,15 +774,13 @@ exports[`default layout renders sidebar properly 1`] = `
       Usability
     
           </summary>
-            
+           
           <li>
             <nuxt-link-stub
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/usability/error-prevention"
             >
-              
-    Error prevention
-  
+              Error prevention
             </nuxt-link-stub>
           </li>
           <li>
@@ -935,9 +788,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/usability/helping-users"
             >
-              
-    Helping users
-  
+              Helping users
             </nuxt-link-stub>
           </li>
           <li>
@@ -945,9 +796,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/usability/i18n"
             >
-              
-    Internationalization
-  
+              Internationalization
             </nuxt-link-stub>
           </li>
           <li>
@@ -955,22 +804,20 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/usability/onboarding-users"
             >
-              
-    Onboarding users
-  
+              Onboarding users
             </nuxt-link-stub>
           </li>
         </details>
       </li>
-       
-      <nuxt-link-stub
-        class="nav-sidebar__section-items-anchor nav-sidebar--indent-1"
-        to="/resources/design-resources"
-      >
-        Design resources
-      </nuxt-link-stub>
+      <li>
+        <nuxt-link-stub
+          class="nav-sidebar__section-items-anchor nav-sidebar--indent-1"
+          to="/resources/design-resources"
+        >
+          Design resources
+        </nuxt-link-stub>
+      </li>
     </ul>
-     
     <ul
       class="nav-sidebar__section"
     >
@@ -987,12 +834,9 @@ exports[`default layout renders sidebar properly 1`] = `
           class="nav-sidebar__section-items-anchor nav-sidebar--indent-1"
           to="/research/get-started"
         >
-          
-      Get started
-    
+          Get started
         </nuxt-link-stub>
       </li>
-       
       <li>
         <a
           class="nav-sidebar__section-items-anchor nav-sidebar--indent-1"
@@ -1000,14 +844,13 @@ exports[`default layout renders sidebar properly 1`] = `
           rel="noopener"
           target="_blank"
         >
-          First Look
+          First look
         </a>
       </li>
-       
       <li>
         <a
           class="nav-sidebar__section-items-anchor nav-sidebar--indent-1"
-          href="https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/"
+          href="https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/"
           rel="noopener"
           target="_blank"
         >
@@ -1015,7 +858,6 @@ exports[`default layout renders sidebar properly 1`] = `
         </a>
       </li>
     </ul>
-     
     <ul
       class="nav-sidebar__section"
     >
@@ -1032,9 +874,7 @@ exports[`default layout renders sidebar properly 1`] = `
           class="nav-sidebar__section-items-anchor nav-sidebar--indent-1"
           to="/accessibility/a11y"
         >
-          
-      Statement of compliance
-    
+          Statement of compliance
         </nuxt-link-stub>
       </li>
       <li>
@@ -1042,9 +882,7 @@ exports[`default layout renders sidebar properly 1`] = `
           class="nav-sidebar__section-items-anchor nav-sidebar--indent-1"
           to="/accessibility/best-practices"
         >
-          
-      Best practices
-    
+          Best practices
         </nuxt-link-stub>
       </li>
       <li>
@@ -1052,12 +890,9 @@ exports[`default layout renders sidebar properly 1`] = `
           class="nav-sidebar__section-items-anchor nav-sidebar--indent-1"
           to="/accessibility/vpat"
         >
-          
-      GitLab Accessibility Conformance Report
-    
+          GitLab Accessibility Conformance Report
         </nuxt-link-stub>
       </li>
-       
       <li>
         <details
           class="nav-sidebar__section"
@@ -1069,75 +904,13 @@ exports[`default layout renders sidebar properly 1`] = `
       Audit guides
     
           </summary>
-            
-          <li>
-            <nuxt-link-stub
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
-              to="/accessibility-audits/1-accessibility-audits"
-            >
-              
-    Accessibility audits
-  
-            </nuxt-link-stub>
-          </li>
-          <li>
-            <nuxt-link-stub
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
-              to="/accessibility-audits/2-keyboard-only"
-            >
-              
-    Keyboard-only
-  
-            </nuxt-link-stub>
-          </li>
-          <li>
-            <nuxt-link-stub
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
-              to="/accessibility-audits/3-Screen readers"
-            >
-              
-    Screen readers
-  
-            </nuxt-link-stub>
-          </li>
-          <li>
-            <nuxt-link-stub
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
-              to="/accessibility-audits/4-visual"
-            >
-              
-    Visual
-  
-            </nuxt-link-stub>
-          </li>
-          <li>
-            <nuxt-link-stub
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
-              to="/accessibility-audits/5-content"
-            >
-              
-    Content
-  
-            </nuxt-link-stub>
-          </li>
+           
           <li>
             <nuxt-link-stub
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/accessibility-audits/accessibility-audits"
             >
-              
-    Accessibility audits
-  
-            </nuxt-link-stub>
-          </li>
-          <li>
-            <nuxt-link-stub
-              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
-              to="/accessibility-audits/content"
-            >
-              
-    Content
-  
+              Accessibility audits
             </nuxt-link-stub>
           </li>
           <li>
@@ -1145,9 +918,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/accessibility-audits/keyboard-only"
             >
-              
-    Keyboard-only
-  
+              Keyboard-only
             </nuxt-link-stub>
           </li>
           <li>
@@ -1155,9 +926,7 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/accessibility-audits/screen-readers"
             >
-              
-    Screen readers
-  
+              Screen readers
             </nuxt-link-stub>
           </li>
           <li>
@@ -1165,15 +934,20 @@ exports[`default layout renders sidebar properly 1`] = `
               class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
               to="/accessibility-audits/visual"
             >
-              
-    Visual
-  
+              Visual
+            </nuxt-link-stub>
+          </li>
+          <li>
+            <nuxt-link-stub
+              class="nav-sidebar__section-items-anchor nav-sidebar--indent-2"
+              to="/accessibility-audits/content"
+            >
+              Content
             </nuxt-link-stub>
           </li>
         </details>
       </li>
     </ul>
-     
     <ul
       class="nav-sidebar__section"
     >
@@ -1190,9 +964,7 @@ exports[`default layout renders sidebar properly 1`] = `
           class="nav-sidebar__section-items-anchor nav-sidebar--indent-1"
           to="/contribute/get-started"
         >
-          
-      Get started
-    
+          Get started
         </nuxt-link-stub>
       </li>
       <li>
@@ -1200,12 +972,9 @@ exports[`default layout renders sidebar properly 1`] = `
           class="nav-sidebar__section-items-anchor nav-sidebar--indent-1"
           to="/contribute/lifecycle"
         >
-          
-      Component lifecycle
-    
+          Component lifecycle
         </nuxt-link-stub>
       </li>
-       
     </ul>
   </div>
 </nav>
