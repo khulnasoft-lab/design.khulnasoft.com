@@ -14,7 +14,7 @@ A toggle is a visual switch which acts as a boolean.
 
 ## Usage
 
-Use a toggle when:
+### ✅ When to use a toggle
 
 - There's a binary choice for enabling a setting. For example, notifications on or off.
 - The item being toggled has a default state. For example, notifications default to off for a merge request you haven't participated in. 
@@ -22,7 +22,7 @@ Use a toggle when:
 
 Consider providing feedback of the toggle state change by using a [toast](/components/toast).
 
-### Do not use a toggle when:
+### ⛔️ When not to use a toggle
 
 - A submit button is needed to apply or save a selection.
 - A change in toggle state would trigger other changes that would have to be applied or saved.
