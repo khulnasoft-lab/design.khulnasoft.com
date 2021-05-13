@@ -51,7 +51,7 @@ Todo: Add example
 
 ## Column charts
 
-Column charts are the default chart type, and they are used to compare values across categories. The categories are usually presented on the x-axis, with the values on the y-axis. If you are thinking about using a pie chart, consider that a column chart may tell the story more clearly.
+Column charts are the default chart type, and they are used to compare values across categories. The categories are usually presented on the x-axis, with the values on the y-axis. Column charts are favored over pie charts because they more clearly communicate data.
 
 The bars on a column chart are presented vertically rather than horizontally, and they can be stacked. 
 
@@ -65,7 +65,7 @@ It may sometimes be necessary to stack values in a column or to have groups of c
 
 #### Color in stacked and grouped charts
 
-When utilizing stacked and grouped charts, consider using color as an additional indicator that items in different groups are related. In addition, graded transparency may help to highlight differences in stacked variables while still differentiating stacks from groups in your chart.
+When utilizing stacked and grouped charts, you may choose not to follow the standard [color sequencing patterns](https://design.gitlab.com/data-visualization/color#color-sequence) when doing so provides an extra indicator that items in different groups are related. In addition, graded transparency may help to highlight differences in stacked variables while still differentiating stacks from groups in your chart.
 
 Specific colors may be used when values in a chart have certain colors associated with them in the product; for example, merge request state or vulnerability status. Specific colors should, however, be used sparingly in favor of following the more general [color](/data-visualization/color) guidelines for data visualizations.
 
@@ -146,7 +146,7 @@ A "more options" menu (vertical ellipses) can be used in the top righthand corne
 
 ### Zoom bar
 
-ECharts has a default mechanism for [zooming on charts](https://echarts.apache.org/en/feature.html#interaction). A zoom bar gives users more control over how much data is displayed at any one time, and gives them the ability to dig into issues they are observing at a more granular level.
+ECharts has a default mechanism for [zooming on charts](https://echarts.apache.org/en/option.html#dataZoom). A zoom bar gives users more control over how much data is displayed at any one time, and gives them the ability to dig into issues they are observing at a more granular level.
 
 The zoom bar is not added to all charts by default and shouldn't be used in cases where the chart neatly fits its container. However, in instances where the chart would otherwise overflow its container or where there is a large amount of data for users to explore, the zoom bar should be introduced.
 
