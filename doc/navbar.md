@@ -5,7 +5,7 @@
 The navbar is populated via a [JSON configuration file](../nav.json).
 
 The configuration file consists of a list of objects that each define a single item in the navbar.
-Each item should have a title and a path. In the example below, **My page** can be accessed at
+Each item should have a `title` and a `path`. In the example below, **My page** can be accessed at
 `/my-page`:
 
 ```json
@@ -54,6 +54,31 @@ configuration, **My nested page** will be available at `/my-category/my-nested-p
 ]
 ```
 
+### Nesting limitations
+
+Only one level of nesting is supported. In other words, the following `nav.json` configuration isn't currently supported:
+
+```json
+
+// bad
+[
+  {
+    "title": "My category",
+    "path": "my-category",
+    "items": [
+      {
+        "title": "My nested page",
+        "path": "my-nested-page",
+        "items": [
+          {
+            "title": "My deeply nested page",
+            "path": "my-deeply-nested-page"
+          }
+        ]
+      }
+    ]
+  }
+]
 ## Tying the navigation items to Markdown contents
 
 When configuring paths in the navbar, make sure that they match the Markdown contents structure.

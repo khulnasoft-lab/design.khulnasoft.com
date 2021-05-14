@@ -35,6 +35,10 @@ describe('default layout', () => {
     createComponent();
   });
 
+  afterEach(() => {
+    wrapper.destroy();
+  });
+
   it('renders sidebar properly', () => {
     expect(wrapper.find('nav').element).toMatchSnapshot();
   });
