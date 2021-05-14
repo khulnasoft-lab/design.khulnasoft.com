@@ -4,7 +4,7 @@
 
 The navbar is populated via a [JSON configuration file](../nav.json).
 
-The configuration file consists in a list of objects that each define a single item in the navbar.
+The configuration file consists of a list of objects that each define a single item in the navbar.
 Each item should have a title and a path. In the example below, **My page** can be accessed at
 `/my-page`:
 
