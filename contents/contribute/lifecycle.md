@@ -72,7 +72,7 @@ of your team.
 [View component lifecycle in Figma →](https://www.figma.com/file/sd0mmLWaejswQUSJ3ei3kj/Component-Lifecycle?node-id=2%3A2263)
 
 <div class="figma-embed" aria-label="Component lifecycle diagram depicting the various stages of contributing to Pajamas." role="img">
-  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fsd0mmLWaejswQUSJ3ei3kj%2FComponent-Lifecycle%3Fnode-id%3D2%253A2263" allowfullscreen></iframe>
+  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fsd0mmLWaejswQUSJ3ei3kj%2FComponent-Lifecycle%3Fnode-id%3D3%253A752" allowfullscreen></iframe>
 </div>
 
 ## Viewing changes in Pajamas
@@ -96,7 +96,7 @@ conform to design specs.
 
 There are a few cases where components have been migrated from GitLab to
 GitLab UI but do not yet reflect Pajamas documentation. When a complex component
-is difficult to style or update because many features use it, we recommend creating a migration plan and coordinating with the [Foundations team](https://about.gitlab.com/handbook/product/categories/#ecosystem-group) on its rollout.
+is difficult to style or update because many features use it, we recommend creating a migration plan and coordinating with the [Foundations team](https://about.gitlab.com/company/team/?department=fe-ux-foundations-team) on its rollout.
 
 In the past, a `New` version of the component has been created to allow the team to build and
 style the component according to design specs without causing inadvertent side effects to features
