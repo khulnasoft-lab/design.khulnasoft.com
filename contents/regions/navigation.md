@@ -26,9 +26,9 @@ Product landing pages are the top level pages in the left sidebar for Projects a
 
 ### Sub nav group
 
-Each sub nav group should be a self-contained group of functionality:
+Each sub nav group should be a self-contained group of functionality, for example:
 
-- Items related to the planning and managing issues should be under the `Issues` nav item.
+- Items related to planning and managing issues should be under the `Issues` nav item.
 - Viewing and editing pipelines should be under the `CI/CD` nav item.
 
 The default active item should be the first sub nav group item.
