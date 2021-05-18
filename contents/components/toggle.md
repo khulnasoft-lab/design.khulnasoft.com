@@ -16,7 +16,8 @@ A toggle is a visual switch which acts as a boolean.
 
 ### ✅ When to use a toggle
 
-- There's a binary choice for enabling a setting. For example, notifications on or off.
+- There's a binary choice for enabling a setting ([ux-research#1215](https://gitlab.com/gitlab-org/ux-research/-/issues/1215#note_492752885)).
+   - Choices that would work as a toggle: on/off, true/false, enable/disable, activate/deactivate.
 - The item being toggled has a default state. For example, notifications default to off for a merge request you haven't participated in. 
 - The result of changing the toggle state is immediately effective and there's **no need** for an additional action to apply or save a change.
 
