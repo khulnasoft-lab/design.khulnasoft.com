@@ -62,7 +62,7 @@ we add it in.
 ## Creating or updating a component
 
 There are three distinct areas that should be reviewed when adding or updating a component:
-[Pajamas](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com), [Figma](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit), and [GitLab UI](https://gitlab.com/gitlab-org/gitlab-ui).
+[Pajamas](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com), [Pajamas UI Kit (Figma)](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit), and [GitLab UI](https://gitlab.com/gitlab-org/gitlab-ui).
 
 The following diagram outlines the various component lifecycle stages and is available to help
 determine how to add or update a component in Pajamas, based on the current state
@@ -95,14 +95,12 @@ conform to design specs.
 ## Complex components
 
 There are a few cases where components have been migrated from GitLab to
-GitLab UI but do not yet reflect Pajamas documentation. When a complex component
+GitLab UI, but do not yet reflect Pajamas documentation. When a complex component
 is difficult to style or update because many features use it, we recommend creating a migration plan and coordinating with the [Foundations team](https://about.gitlab.com/company/team/?department=fe-ux-foundations-team) on its rollout.
 
 In the past, a `New` version of the component has been created to allow the team to build and
 style the component according to design specs without causing inadvertent side effects to features
-that are already using the migrated Vue component.
-
-However, this has led to confusion about which components to use; technical debt involved in migrating the component and not allowing them both to flourish; and follow-on effects keeping other complex components up-to-date. Until there is an officially determined path, we recommend coordinating a plan with the wider group.
+that are already using the migrated Vue component. However, this has led to confusion about which components to use; technical debt involved in migrating the component and not allowing them both to flourish; and follow-on effects keeping other complex components up-to-date. Until there is an officially determined path, we recommend coordinating a plan with the wider group.
 
 ## Completing a component
 
