@@ -72,12 +72,11 @@ determine how to add or update a component in Pajamas, based on the current stat
 of the component. This diagram is meant to be a guide and is flexible to account for the needs
 of your team.
 
-[View component lifecycle in Figma →](https://www.figma.com/file/sd0mmLWaejswQUSJ3ei3kj/Component-Lifecycle?node-id=2%3A2263)
-
 <div class="figma-embed" aria-label="Component lifecycle diagram depicting the various stages of contributing to Pajamas." role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fsd0mmLWaejswQUSJ3ei3kj%2FComponent-Lifecycle%3Fnode-id%3D3%253A752" allowfullscreen></iframe>
 </div>
 
+[View component lifecycle in Figma →](https://www.figma.com/file/sd0mmLWaejswQUSJ3ei3kj/Component-Lifecycle?node-id=2%3A2263)
 ## Viewing changes in Pajamas
 
 When a change to GitLab UI is made, it will not be reflected in
