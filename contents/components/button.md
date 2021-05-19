@@ -131,7 +131,7 @@ A dropdown button is identified by the use of a [chevron-down](https://gitlab-or
 
 ### Split dropdown
 
-Dropdown buttons may be split when additional related actions are available. The text button will allow immediate access to the most common option and an attached dropdown button to change the default action.
+Dropdown buttons may be split when additional related actions are available. The text button should be the primary action and the attached dropdown should contain those related actions. The related actions in the dropdown should act as buttons. 
 
 If the dropdown menu has no related actions available, a split dropdown button should be converted back to a text button.
 
