@@ -14,20 +14,19 @@ A toggle is a visual switch which acts as a boolean.
 
 ## Usage
 
-### ✅ When to use a toggle
+### Use a toggle when:
 
-- There's a binary choice for enabling a setting ([ux-research#1215](https://gitlab.com/gitlab-org/ux-research/-/issues/1215#note_492752885)).
-   - Choices that would work as a toggle: on/off, true/false, enable/disable, activate/deactivate.
+- There's a binary choice for enabling a setting ([ux-research#1215](https://gitlab.com/gitlab-org/ux-research/-/issues/1215#note_492752885)). For examples, choices that follow a pattern of on/off, true/false, enable/disable, or activate/deactivate.
 - The item being toggled has a default state. For example, notifications default to off for a merge request you haven't participated in. 
 - The result of changing the toggle state is immediately effective and there's **no need** for an additional action to apply or save a change.
 
 Consider providing feedback of the toggle state change by using a [toast](/components/toast).
 
-### ⛔️ When not to use a toggle
+### Do not use a toggle when:
 
 - A submit button is needed to apply or save a selection.
 - A change in toggle state would trigger other changes that would have to be applied or saved.
-- Two choices don't map to a boolean relationship like on and off.
+- Two choices don't map to a boolean relationship like on/off.
 - There are more than two choices.
 
 If the scenario doesn't align with the usage outlined above, consider using a:
@@ -60,6 +59,4 @@ Toggles should use high-contrast colors to indicate the states - On and Off.
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
 [View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A282)
-
-
 
