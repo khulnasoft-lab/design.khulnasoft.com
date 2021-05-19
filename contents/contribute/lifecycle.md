@@ -2,7 +2,7 @@
 name: Component lifecycle
 ---
 
-The component lifecycle is a flexible set of guidelines to help product teams efficiently and iteratively add components to Pajamas. The goal of this process is to make it easy to: submit new designs (including documentation), propose changes to existing designs, and translate component designs into built components.
+The component lifecycle is a flexible set of guidelines to help product teams efficiently and iteratively add components to Pajamas. The goal of this process is to make it easy to submit new designs (including documentation), propose changes to existing designs, and translate component designs into built components.
 
 The component lifecycle has the following stages:
 
@@ -62,7 +62,10 @@ we add it in.
 ## Creating or updating a component
 
 There are three distinct areas that should be reviewed when adding or updating a component:
-[Pajamas](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com), [Pajamas UI Kit (Figma)](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit), and [GitLab UI](https://gitlab.com/gitlab-org/gitlab-ui).
+
+1. [Pajamas](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)
+1. [Pajamas UI Kit (Figma)](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit)
+1. [GitLab UI](https://gitlab.com/gitlab-org/gitlab-ui).
 
 The following diagram outlines the various component lifecycle stages and is available to help
 determine how to add or update a component in Pajamas, based on the current state
