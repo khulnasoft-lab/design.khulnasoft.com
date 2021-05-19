@@ -25,7 +25,7 @@ Consider providing feedback of the toggle state change by using a [toast](/compo
 ### Do not use a toggle when:
 
 - A submit button is needed to apply or save a selection.
-- A change in toggle state would trigger other changes that would have to be applied or saved.
+- When the setting exists within the context of a form that would need with other elements to be actioned and saved. For example, adding an item to a protected project list.
 - Two choices don't map to a boolean relationship like on/off.
 - There are more than two choices.
 
