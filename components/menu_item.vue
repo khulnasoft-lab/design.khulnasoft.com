@@ -1,4 +1,6 @@
 <script>
+import { mapState, mapActions } from 'vuex';
+
 export default {
   name: 'MenuItem',
 
@@ -19,8 +21,12 @@ export default {
     },
   },
   computed: {
+    ...mapState(['activeNavItem']),
     hasChildren() {
       return this.item.items?.length;
+    },
+    isExpanded() {
+      return this.activeNavItem.startsWith(this.nextBasePath);
     },
     nextBasePath() {
       let { basePath: nextBasePath } = this;
@@ -43,23 +49,7 @@ export default {
     },
   },
   methods: {
-    selectFirstSubItem(ev) {
-      const { target } = ev;
-      if (target && target.parentNode) {
-        const detailsLinks = target.parentNode.querySelectorAll('a');
-        if (detailsLinks.length > 0) {
-          const firstLink = detailsLinks[0].getAttribute('href');
-          if (firstLink) {
-            const that = this;
-            setTimeout(() => {
-              that.$router.push({
-                path: firstLink.replace(/#/, ''),
-              });
-            }, 1);
-          }
-        }
-      }
-    },
+    ...mapActions(['toggleActiveNavItem']),
   },
 };
 </script>
@@ -77,19 +67,21 @@ export default {
       :base-path="nextBasePath"
     />
   </ul>
-  <li v-else>
-    <details
+  <li
+    v-else-if="hasChildren"
+    class="nav-sidebar__section"
+    :class="{ 'nav-sidebar__section--expanded': isExpanded }"
+  >
+    <a
       v-if="hasChildren"
-      :open="$route.fullPath.startsWith(nextBasePath)"
-      class="nav-sidebar__section"
+      role="button"
+      href="#"
+      class="nav-sidebar__section-summary gl-display-block"
+      :class="`nav-sidebar--indent-${depth}`"
+      @click.prevent="toggleActiveNavItem(nextBasePath)"
+      >{{ item.title }}</a
     >
-      <summary
-        class="nav-sidebar__section-summary"
-        :class="`nav-sidebar--indent-${depth}`"
-        @click="selectFirstSubItem"
-      >
-        {{ item.title }}
-      </summary>
+    <ul v-if="isExpanded" class="nav-sidebar__section-submenu">
       <menu-item
         v-for="child in item.items"
         :key="child.title"
@@ -97,24 +89,24 @@ export default {
         :depth="depth + 1"
         :base-path="nextBasePath"
       />
-    </details>
-    <template v-else>
-      <a
-        v-if="isExternalLink"
-        :href="path"
-        target="_blank"
-        rel="noopener"
-        :class="`nav-sidebar--indent-${depth}`"
-        class="nav-sidebar__section-items-anchor"
-        >{{ item.title }}</a
-      >
-      <nuxt-link
-        v-else
-        :to="path"
-        :class="`nav-sidebar--indent-${depth}`"
-        class="nav-sidebar__section-items-anchor"
-        >{{ item.title }}</nuxt-link
-      >
-    </template>
+    </ul>
+  </li>
+  <li v-else>
+    <a
+      v-if="isExternalLink"
+      :href="path"
+      target="_blank"
+      rel="noopener"
+      :class="`nav-sidebar--indent-${depth}`"
+      class="nav-sidebar__section-items-anchor"
+      >{{ item.title }}</a
+    >
+    <nuxt-link
+      v-else
+      :to="path"
+      :class="`nav-sidebar--indent-${depth}`"
+      class="nav-sidebar__section-items-anchor"
+      >{{ item.title }}</nuxt-link
+    >
   </li>
 </template>

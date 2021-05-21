@@ -46,7 +46,6 @@
   ul {
     margin: 0;
     padding: $gl-spacing-3 0 $gl-spacing-3 0;
-    border-top: $border-width solid $border-color;
 
     &:first-child {
       border-top: 0;
@@ -57,6 +56,10 @@
       margin: 0;
       padding: 0;
     }
+  }
+
+  & > ul {
+    border-top: $border-width solid $border-color;
   }
 
   .nav-sidebar__header {
@@ -87,6 +90,14 @@
   }
 
   .nav-sidebar__section {
+    a {
+      color: $gray-900;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
     .nav-sidebar__section-title,
     .nav-sidebar__section-summary {
       cursor: pointer;
@@ -102,7 +113,6 @@
 
       a {
         display: flex;
-        color: $gray-900;
         text-decoration: none;
       }
     }
@@ -134,20 +144,24 @@
     .nav-sidebar__section-items {
       @include unstyled-list;
     }
-  }
 
-  details[open] {
-    background-color: $black-o-04;
+    .nav-sidebar__section-submenu {
+      background-color: $black-o-04;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
 
-    .nav-sidebar__section-summary {
-      background-color: $black-o-06;
+    &--expanded {
+      .nav-sidebar__section-summary {
+        background-color: $black-o-08;
 
-      &:after {
-        transform: rotate(-45deg) translate(-0.4em, 0px);
-      }
+        &:after {
+          transform: rotate(-45deg) translate(-0.4em, 0px);
+        }
 
-      .nuxt-link-active {
-        font-weight: $font-weight--bold;
+        .nuxt-link-active {
+          font-weight: $font-weight--bold;
+        }
       }
     }
   }
@@ -188,16 +202,4 @@
   z-index: $z-nav-sidebar;
 
   @include hide-sm-up;
-}
-
-// Hides summary arrow //
-details > summary:first-of-type {
-  list-style-type: none;
-}
-
-// Hides summary arrow on chrome //
-summary {
-  &::-webkit-details-marker {
-    display: none;
-  }
 }
