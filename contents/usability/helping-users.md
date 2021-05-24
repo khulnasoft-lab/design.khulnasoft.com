@@ -30,7 +30,7 @@ If no room is available for text, then use an icon.
 | :-: | :-: |
 | <div class="app-styles"><gl-icon name="question-o" class="gl-text-blue-600" /></div>Use the outlined [question-o.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) icon in `$blue-600` (`#1078bf`) | <div class="app-styles"><gl-icon name="question" /></div>Use the solid icon [question.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question) or a color other than blue |
 
- Display supplemental information in a popover to helps users avoid navigating away from their task to the documentation. However, you should always include a link to documentation.
+Display supplemental information in a popover to help users avoid navigating away from their task to the documentation. However, you should always include a link to the documentation source.
 
 <figure class="figure" role="figure" aria-label="Popover with link to documentation"><img class="figure-img" src="/img/help-popover-with-link.png" alt="Popover with link to documentation" role="img" style="max-width: 280px;" /><figcaption class="figure-caption">Example: Supplemental information in popover</figcaption></figure>
 
