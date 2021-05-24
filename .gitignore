@@ -94,3 +94,6 @@ public/
 
 # GitLab specific
 content_tree.json
+
+# Ignore tool-versions if using asdf
+.tool-versions
