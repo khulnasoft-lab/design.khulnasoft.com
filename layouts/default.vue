@@ -44,7 +44,7 @@ export default {
       });
     },
     contentWrapper() {
-      return this.$route.fullPath === '/' ? '' : 'content main';
+      return this.$route.fullPath === '/' ? '' : 'app-styles content main';
     },
     componentLabel() {
       const { section, slug } = this.$route.params;

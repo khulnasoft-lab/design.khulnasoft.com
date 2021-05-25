@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-  <div class="content limited m-t-7 m-b-8">
+  <div class="gl-markdown content limited m-t-7 m-b-8">
     <no-ssr>
       <component-info :frontmatter-info="frontmatter" />
     </no-ssr>
