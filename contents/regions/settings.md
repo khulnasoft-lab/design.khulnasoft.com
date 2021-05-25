@@ -31,7 +31,7 @@ Each category displays a title and a brief explanation of what users should expe
 
 ### Locked settings
 
-Settings can be locked by admins or group owners. To visualize this, disable the setting and add a lock icon with a [popover](/components/popover) to explain the nature of the restriction.
+Settings can be locked by admins or group owners. To visualize this, disable the setting option and add a lock icon with a [popover](/components/popover) to explain the nature of the restriction.
 
 ![locked-setting-example.png](/img/locked-setting-example.png)
 
