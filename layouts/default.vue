@@ -44,7 +44,7 @@ export default {
       });
     },
     contentWrapper() {
-      return this.$route.fullPath === '/' ? '' : 'content main';
+      return this.$route.fullPath === '/' ? '' : 'gl-markdown content main';
     },
     componentLabel() {
       const { section, slug } = this.$route.params;
@@ -70,7 +70,7 @@ export default {
 </script>
 
 <template>
-  <div class="page">
+  <div class="app-styles page">
     <div v-if="open" class="nav-sidebar__overlay" @click="open = false"></div>
     <button type="button" class="nav-sidebar__toggle" :aria-expanded="open" @click="open = !open">
       <svg
