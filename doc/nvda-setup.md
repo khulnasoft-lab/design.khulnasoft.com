@@ -41,7 +41,7 @@ The following instructions walk you through setup of an instance of Windows 10 w
 
 ### Guest Additions
 
-1. In the top menu for VirtualBox, select **Devices > Insert Guest Additions CD Image**. Guest Additions includes device drivers and system applications that optimize the guest OS for better performance and usability.
+1. In the top menu for VirtualBoxVM, select **Devices > Insert Guest Additions CD Image**. Guest Additions includes device drivers and system applications that optimize the guest OS for better performance and usability.
 1. Now, back in Windows, navigate to the **CD Drive (D)** and double-click the **VBoxWindowsAdditions-amd64** file. Use the default install settings and choose to reboot.
    ![Locate Guest Additions file](images/nvda-5-w-guest-additions.png)
 
@@ -49,7 +49,7 @@ The following instructions walk you through setup of an instance of Windows 10 w
 
 Being able to copy and paste from the host to guest can be very helpful.
 
-1. In the top menu for VirtualBox, select **Devices > Shared Clipboard > Host to Guest** (or another setting if you prefer).
+1. In the top menu for VirtualBoxVM, select **Devices > Shared Clipboard > Host to Guest** (or another setting if you prefer).
 
 ### Screen resize
 
@@ -100,7 +100,7 @@ For help using NVDA, read or download Deque University's [NVDA Keyboard Shortcut
 
 ## Install Karabiner-Elements
 
-Karabiner-Elements is a macOS app that allows you to remap keys. NVDA relies on the <key>insert</key> by default to run commands, which Mac keyboard don’t have. By using the utility you can remap an unused key to function in the same way. If you happen to have a PC keyboard you can skip this section.
+Karabiner-Elements is a macOS app that allows you to remap keys. NVDA relies on the <key>insert</key> by default to run commands, which Mac keyboards don’t have. By using the utility you can remap an unused key to function in the same way. If you happen to have a PC keyboard you can skip this section.
 
 1. Start by downloading and installing [Karabiner-Elements](https://karabiner-elements.pqrs.org/).
 1. In order to complete the install open **System Preferences** and go to **Security & Privacy > General** where you can enter the admin password to install.
