@@ -29,7 +29,7 @@ The following instructions walk you through setup of an instance of Windows 10 w
    ![VirtualBox new machine settings](images/nvda-2-vb-setup.png)
 1. You can start off with less space than default, here **30 GB** has been entered. Choose the "Fixed size" option. Using a predetermined size should help with performance since it won’t have to dynamically be allocated. Select **Create** to continue.
    ![imgVirtualBox new machine size](images/nvda-3-vb-size.png)
-1.Select the **Settings** button and a new window will open. Go to the **Storage** tab. 
+1. Select the **Settings** button and a new window will open. Go to the **Storage** tab. 
 1. In the left pane, choose the item with the CD icon. Then on the right, choose the CD icon and locate the ISO file you downloaded earlier. Select **OK** to continue.
    ![VirtualBox locate ISO file](images/nvda-4-vb-disc.png)
 1. Back in the main VirtualBox window, double-click the name of your virtual machine to start it. A window will open where the ISO file should be selected to start from. Select the **Start** button.
