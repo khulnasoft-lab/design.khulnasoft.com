@@ -34,7 +34,16 @@ Use the following table to see when a toggle should be used over other alternati
 
 Toggle labels are set in bold, positioned above the element by default, and should concisely describe what the control does when the toggle is on.
 
-In rare cases and exceptions, the label can be placed to the left of the toggle. Examples include non-inline (block) positioned elements. Don’t use help text if you are placing the label to the left of the toggle. Use the default layout if you are using both a label and help text. 
+In rare cases and exceptions, the label can be placed to the left of the toggle. Examples include non-inline (block) positioned elements. 
+
+### Help text and description
+
+For the vertical toggles (Label placed above the element), you can use descriptions or helptext to help user in different situations. The description is different from help text.  
+
+- Help text provides examples or formatting information. 
+- Description provides an explanation or instructions.
+
+For the horizantal toggles (Label placed next to the element), please don't use either helptext nor description. 
 
 ### Visual Design
 
