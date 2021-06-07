@@ -84,9 +84,8 @@ export default {
       >{{ item.title }}</a
     >
     <ul
-      v-if="isExpanded"
       class="nav-sidebar__section-submenu"
-      :class="`tree-indent-${depth}`"
+      :class="{ 'visually-hidden': !isExpanded, [`tree-indent-${depth}`]: true }"
       :aria-label="item.title"
       role="menu"
     >
