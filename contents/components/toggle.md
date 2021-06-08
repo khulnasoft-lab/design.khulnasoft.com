@@ -42,6 +42,16 @@ Toggle labels are set in bold, positioned above the element by default, and shou
 
 In rare cases and exceptions, the label can be placed to the left of the toggle. Examples include non-inline (block) positioned elements. Don’t use help text if you are placing the label to the left of the toggle. Use the default layout if you are using both a label and help text. 
 
+### Description and help text
+
+A description and help text are only used for the default toggle.
+
+A 1–2 sentence description can go underneath the label to describe the purpose or intent of the toggle. The description is different from help text in that help text can clarify the outcome of changing the toggle state, while the description provides an explanation or instructions.
+
+Consider using a description to provide an explanation beyond what a label infers.
+
+Use `aria-describedby` to associate the description and help text with the toggle for screen reader users.
+
 ### Visual Design
 
 Toggles should use high-contrast colors to indicate the states - On and Off.
