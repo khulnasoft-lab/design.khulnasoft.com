@@ -14,7 +14,6 @@ Help comes in the form of various types of content designed to:
 
 If the most relevant information can be summarized succinctly, put the summary directly in the UI. However, you can utilize other components to provide supplemental information to keep the layout concise. 
 
-[when not to use tooltips](https://design.gitlab.com/components/tooltip#when-not-to-use-tooltips)
 
 Use a question to lead the user to helpful information.
 
