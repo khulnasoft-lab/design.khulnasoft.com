@@ -123,7 +123,7 @@ variables:
 
   DANGER_GITLAB_API_TOKEN: $GITLAB_TOKEN
 
-  # If this variable is not present, the migration jobs will not show up
+  # If this variable is not present, the migration jobs will not show up.
   MIGRATE_HELM_2TO3: "true"
 
 include:
