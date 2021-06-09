@@ -145,7 +145,6 @@ include:
   - remote: https://gitlab.com/hfyngvason/ci-templates/-/raw/master/Helm-2to3.gitlab-ci.yml
 
 .auto-deploy:
-  image: registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.0.0-beta.1
   variables:
     AUTO_DEVOPS_FORCE_DEPLOY_V2: 1
 
