@@ -1,5 +1,8 @@
 ---
 name: Helping users
+related:
+  - tooltip
+  - popover
 ---
 
 Help content should be used as a fallback to help users complete and better understand tasks, with the primary method of understanding being the UI itself. Embedding help content directly within the feature it serves is the best way to assist users who have hit a roadblock. Affordance is higher when help content is available in context.
