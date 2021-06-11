@@ -1,5 +1,6 @@
 ---
 name: Broadcast message
+principle: Deliver an instance level message from the admin to all users.
 figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A6
 docs: complete
 vueComponents:
@@ -8,33 +9,35 @@ related:
   - alert
 ---
 
-Broadcast messages provide an efficient and prominent way to deliver critical messages at the instance level to all users. For example, a broadcast message can be used when an admin wants to announce that their platform will experience downtime during a specific period.
-
-In comparison with an [alert](/components/alert), broadcast messages are created by an admin and not triggered by the system.
-
 ## Usage
 
-Broadcast messages are always located at the top of the page, above the [global navigation](/regions/navigation). They use a background color that matches the available theme colors but should stand apart to ensure users notice the information.
+A broadcast message is an efficient and prominent way for an admin to deliver critical messages at the instance-level to all users. It can be used to notify users about scheduled maintenance, recent upgrades, and more.
 
-Broadcast messages expire after a set period as defined by the admin but they can also be dismissed at the user level.
-
-Broadcast messages generally contain a small amount of content. It is a rare usecase for multiple broadcast messages to be present at a given time. When this happens, however, the messages should stack.
-
-## Demo
+## Examples
 
 [[Example:broadcast-message-basic-example]]
 
-## Specifications
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit-Beta?node-id=1501%3A1583)
 
-- The content within a broadcast message should use the container width when user preference is set to use a [fixed width](https://docs.gitlab.com/ee/user/profile/preferences.html#layout-width) layout.
-- The close button tooltip should read “Dismiss” on hover.
+## Structure
 
-### Design
+<figure class="figure" role="figure" aria-label="Broadcast message structure">
+  <img class="figure-img" src="/img/broadcast-message-structure.svg" alt="Numbered diagram of the broadcast message structure" role="img" />
+</figure>
 
-- Background uses `$[hue]-700` of chosen theme.
-- Border-bottom uses `$[hue]-900` of chosen theme.
-- Anchoring message text uses `text-decoration: underline;` 
+1. **Container**: Wraps the content.
+1. **Icon**: The [bullhorn](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~bullhorn) icon indicates an announcement.
+1. **Message**: Text content indicating the purpose.
+1. **Dismiss button** (optional): Permanently removes the broadcast message for a user.
 
-Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
+## Guidelines
 
-[View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit-Beta?node-id=1501%3A1583)
+- Located at the top of the page, above the [global navigation](/regions/navigation).
+- Multiple broadcast messages stack vertically.
+- Contains a small amount of text content that uses the container width when user preference is set to use a [fixed width](https://docs.gitlab.com/ee/user/profile/preferences.html#layout-width) layout.
+- Expires after a set period defined by the admin, but can also be dismissed by a user.
+
+### Accessibility
+
+- Part of the DOM order on load, and should flow in the natural reading order.
+- The dismiss button uses `aria-label="Dismiss"`.
