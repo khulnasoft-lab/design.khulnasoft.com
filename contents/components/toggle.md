@@ -46,7 +46,7 @@ In rare cases and exceptions, the label can be placed to the left of the toggle.
 
 - An optional 1–2 sentence description underneath the label provides an explanation of the purpose or intent of the toggle beyond what the label infers.
 - Optional help text clarifies the outcome of changing the toggle state.
-- A description and help text are only available for the default toggle.
+- Description and help text are only available when using a vertical layout.
 - Use `aria-describedby` to associate the description and help text with the toggle for screen reader users.
 
 ### Visual Design
