@@ -40,7 +40,7 @@ If the scenario doesn't align with the usage outlined above, consider using a:
 
 Toggle labels are set in bold, positioned above the element by default, and should concisely describe what the control does when the toggle is on.
 
-In rare cases and exceptions, the label can be placed to the left of the toggle. Examples include non-inline (block) positioned elements. Don’t use help text if you are placing the label to the left of the toggle. Use the default layout if you are using both a label and help text. 
+In rare cases and exceptions, the label can be placed to the left of the toggle. Examples include non-inline (block) positioned elements.
 
 ### Description and help text
 
