@@ -1,6 +1,6 @@
 ---
 name: Broadcast message
-principle: Deliver an instance level message from the admin to all users.
+description: A broadcast message delivers an instance level message from the admin to all users.
 figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A6
 docs: complete
 vueComponents:
@@ -8,10 +8,6 @@ vueComponents:
 related:
   - alert
 ---
-
-## Usage
-
-A broadcast message is an efficient and prominent way for an admin to deliver critical messages at the instance-level to all users. It can be used to notify users about scheduled maintenance, recent upgrades, and more.
 
 ## Examples
 
