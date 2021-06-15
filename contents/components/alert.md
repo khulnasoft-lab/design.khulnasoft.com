@@ -1,6 +1,6 @@
 ---
 name: Alert
-principle: Provide a contextual, timely message to a user.
+description: An alert is a system generated, contextual, and timely message to a user that may or may not result from their action.
 figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A1
 docs: complete
 gitlab_ui: /components/alert/code
@@ -11,10 +11,6 @@ related:
   - form
   - toast
 ---
-
-## Usage
-
-An alert provides relevant information to the user without impeding their task. It's system generated and may or may not result from a user's action.
 
 ## Examples
 
