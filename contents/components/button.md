@@ -1,6 +1,6 @@
 ---
 name: Button
-principle: Indicate distinct action and function.
+description: A button indicates a distinct action and executes a function. Text, icon, or a combination of the two express the action and are supported by the variant and occasionally a tooltip.
 figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A7
 docs: in-progress
 gitlab_ui: /components/button/code
@@ -17,10 +17,6 @@ related:
   - /usability/i18n
   - /accessibility/best-practices
 ---
-
-## Usage
-
-A button executes an action in the background or foreground of an experience. Buttons express what action will occur by text, icon, or both. Additional meaning can be derived from the button variant and occasionally [tooltips](/components/tooltip).
 
 ## Examples
 
