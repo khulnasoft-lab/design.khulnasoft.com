@@ -18,44 +18,6 @@ related:
   - /accessibility/best-practices
 ---
 
-## Examples
-
-[[Example:button-primary]]
-
-[[Example:button-secondary]]
-
-[[Example:button-tertiary]]
-
-[[Example:button-variants]]
-
-[[Example:button-sizes]]
-
-[[Example:button-selected]]
-
-[[Example:button-loading]]
-
-Todo: Add live component block with example of loading icon button
-
-[[Example:button-disabled]]
-
-[[Example:button-icon]]
-
-[[Example:button-icon-and-text]]
-
-[[Example:button-emoji]]
-
-[[Example:button-label]]
-
-[[Example:new-dropdown-default]]
-
-[[Example:new-dropdown-with-icon]]
-
-[[Example:new-dropdown-split]]
-
-[[Example:button-ellipsis]]
-
-[[Example:button-group-basic]]
-
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit-Beta?node-id=2956%3A3357)
 
 ## Structure

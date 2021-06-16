@@ -109,7 +109,20 @@ export default {
           <p>{{ componentAttributes.description }}</p>
         </div>
         <gl-tabs v-model="tabIndex" nav-wrapper-class="app-styles gl-mb-5" lazy>
-          <gl-tab title="Usage" active class="p-t-3 js-gl-tab" @click.prevent="activateTab()">
+          <gl-tab
+            title="Usage"
+            active
+            class="p-t-3 js-gl-tab app-styles"
+            @click.prevent="activateTab()"
+          >
+            <template v-for="vueComponentName in vueComponents">
+              <div :key="`header-${vueComponentName}`" class="component md mb-3">
+                <gl-example-explorer
+                  :key="`examples-${vueComponentName}`"
+                  :component-name="vueComponentName"
+                />
+              </div>
+            </template>
             <md-display :prerendered-md="componentBody" />
             <related-pages :related="frontmatterInfo.attributes.related" class="m-t-6" />
           </gl-tab>
@@ -138,10 +151,6 @@ export default {
                     component.
                   </b-alert>
                 </div>
-                <gl-example-explorer
-                  :key="`examples-${vueComponentName}`"
-                  :component-name="vueComponentName"
-                />
                 <md-display
                   v-if="
                     vueComponentDocumentations[vueComponentName] &&

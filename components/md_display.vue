@@ -48,7 +48,7 @@ export default {
     });
 
     const dynamicElement = {
-      template: `<div class="component md  typography">${mdOutput}</div>`,
+      template: `<div class="component gl-markdown typography">${mdOutput}</div>`,
     };
 
     return createElement(dynamicElement);
