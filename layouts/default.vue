@@ -152,7 +152,7 @@ export default {
         <menu-item v-for="item in $options.nav" :key="item.title" :item="item" />
       </div>
     </nav>
-    <div :class="contentWrapper">
+    <div id="primary-content" :class="contentWrapper" tabindex="-1">
       <nuxt />
       <footer class="content footer limited m-b-7">
         <div class="row justify-content-center">
