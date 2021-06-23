@@ -2,6 +2,6 @@
 export default function navigationMiddleware({ store }) {
   store.commit('closeSidebar');
   if (process.client) {
-    document.querySelector('main').focus();
+    document.body.focus();
   }
 }
