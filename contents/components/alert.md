@@ -48,7 +48,8 @@ related:
 
 ### Content
 
-- All copy within an alert should be short, actionable, and use clear language.- Keep translations in mind when writing copy and follow [voice and tone](/content/voice-tone) guidelines.
+- All copy within an alert should be short, actionable, and use clear language.
+- Keep translations in mind when writing copy and follow [voice and tone](/content/voice-tone) guidelines.
 - The contents of an alert are constrained by a `max-width` variable that:
   - Prevents the line length (measure) of the text from being too wide and impacting readability.
   - Keeps short alert content and the close button more central in the layout, preventing it from getting lost in a user's peripheral vision or too stretched out in a wide viewport.
