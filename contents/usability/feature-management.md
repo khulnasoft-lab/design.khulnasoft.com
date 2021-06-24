@@ -12,7 +12,7 @@ Feature discovery moments are notices presented in the UI that inform users of a
 
 When planning a discovery moment consider the following:
 
-* Why this feature needs to be promoted? Is it a value driver and reportedly leads to an increase in conversion?
+* Why does this feature need to be promoted? Is it a value driver that leads to an increase in conversion?
 * If a feature is already being promoted on the page, how does it perform? Will the new notice directly compete with it?
 * If two features need a discovery moment, can they be bundled into one? (If they are part of the same Job To be Done for example.)
 
