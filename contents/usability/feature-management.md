@@ -8,7 +8,7 @@ The ability to configure features by disabling unwanted functionality is possibl
 
 ## Feature discovery moments
 
-Feature discovery moments are notices presented in the UI that inform users of additional features available in higher tiers. These notices are contextual, immediately dismissable, and temporary by default. Once dismissed, the notice does not reappear unless a change in behavior or a predefined passage of time has occurred. Contextual notices relate directly to an action that a user or namespace has performed.
+Feature discovery moments are notices presented in the UI that inform users of additional features. These could be features available in higher tiers, or free features that unlock significant value to users. These notices are contextual, immediately dismissable, and temporary by default. Contextual notices relate directly to an action that a user or namespace has performed. Once dismissed, the notice does not reappear unless the user attempts to re-engage with that feature. Re-engaging with a dismissed feature discovery moment might include clicking on a page that contains a locked feature, or clicking on a badge or placeholder. Acceptable patterns for feature discovery moments will be added here as they are tested and approved.
 
 When planning a discovery moment consider the following:
 
