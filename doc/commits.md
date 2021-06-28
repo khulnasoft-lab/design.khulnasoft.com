@@ -126,6 +126,38 @@ There are multipe ways to squash commits. One typical workflow is as follows:
 1. Once you have updated all commits except the first to utilize `f`, save your changes by first hitting `esc` to get out of edit mode and then `:wq` to save the changes.
 1. After you have squashed your commits, you will need to force push your changes up to your branch using `git push --force-with-lease origin [BRANCH NAME]`. If your branch on GitLab has changes that your local branch does not know about, you will first need to fetch or pull the remote changes.
 
+Another option:
+
+1. First, ensure the `main` branch is up to date.
+  1. Enter `git checkout main`
+  1. Enter `git pull origin main`
+1. Enter `git checkout your-branch-name`. This will switch to your branch.
+1. Enter `git rebase -i main`. 
+1. You're now in [Vim](https://github.com/chrisbra/vim_faq/). You should see a list of your commits:
+  ![Vim example](images/squashing/vim-example.png)
+1. Hit `i` to enter `Insert mode`. 
+1. In your commits list, change all `pick`’s to `squash`, **except the first one**:
+  ![Change pick to squash](images/squashing/from-pick-to-squash.png)
+1. Hit `esc`. You’re no longer in `Insert mode`. 
+1. Type `:wq!`. 
+1. Hit `enter`.
+1. If there are merge conflicts, follow these steps. If not, skip to the next step:
+  1. Go to the page with the conflict. 
+  1. Resolve conflict. 
+  1. Once conflicts are resolved, enter `git add .`. 
+  1. Enter `git rebase --continue`. 
+1. You should now see a list of all your commit messages:
+  ![Commit messages](images/squashing/commit-body.png)
+1. Hit `i` to enter `Insert mode`. 
+1. Delete all commit messages besides the top one.
+1. Change the top commit message to follow the [conventional commits pattern](#when-should-my-mrs-title-follow-these-conventions):
+  ![Update commit message](images/squashing/update-commit-message.png)
+1. Hit `esc`. You’re no longer in `Insert mode`.
+1. Type `:wq!`.
+1. Hit `enter`. 
+1. Enter `git push origin your-branch-name -f`.
+1. Success!
+
 **Note:** It is valid to have multiple commits if there are multiple distinct changes in your merge request. Not every MR should be squashed to use only one commit.
 
 ### Amending
