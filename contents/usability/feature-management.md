@@ -18,4 +18,3 @@ When planning a discovery moment consider the following:
 
 Use input data to determine where, when and why a feature discovery moment is needed. After introducing a feature discovery moment, measure its effect on both conversion and feature adoption before making it a permanent part of the product.
 
-
