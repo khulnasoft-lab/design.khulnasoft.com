@@ -14,7 +14,7 @@ When planning a discovery moment consider the following:
 
 * Why does this feature need to be promoted? Is it a value driver that leads to an increase in conversion?
 * If a feature is already being promoted on the page, how does it perform? Will the new notice directly compete with it?
-* If two features need a discovery moment, can they be bundled into one? (If they are part of the same Job To be Done for example.)
+* If two features need a discovery moment, can they be bundled into one? This may be possible, for example, if they are part of the same [Job to be Done](https://about.gitlab.com/handbook/engineering/ux/jobs-to-be-done/).
 
-Use input data to determine where, when and why a feature discovery moment is needed. After introducing a feature discovery moment, measure its effect on both conversion and feature adoption before making it a permanent part of the product.
+Use input data to determine where, when, and why a feature discovery moment is needed. After introducing a feature discovery moment, measure its effect on both conversion and feature adoption before making it a permanent part of the product.
 
