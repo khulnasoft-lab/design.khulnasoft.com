@@ -4,7 +4,7 @@ name: Feature management
 
 ## Feature configuration
 
-The ability to configure features by disabling unwanted functionality is possible at the project level. Admin users cannot disable features at the instance level, as they do not know what functionality end users may use.
+The ability to configure features by disabling unwanted functionality is possible at the project level. Admin users cannot disable features at the instance level, as they do not know what functionality end users may need.
 
 ## Feature discovery moments
 
