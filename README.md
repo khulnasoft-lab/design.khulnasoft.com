@@ -47,6 +47,17 @@ Component examples can be included in component docs and are available in the **
 
 [Learn how to write and use component examples](/doc/component-examples.md).
 
+### Adding images
+
+When adding images to documentation, wrap the image in a `figure` element with a `caption` to help describe the image. Also, if using an `svg` in an `img`, be sure to add `role="img"` to the element. It should look something like this:
+
+```
+<figure class="figure" role="figure" aria-label="Alert structure">
+  <img class="figure-img" src="/img/alert-diagram.svg" alt="Numbered diagram of an alert structure" role="img" />
+  <caption>Displaying an alert diagram</caption>
+</figure>
+```
+
 ### Linting
 
 We control code quality with automatic linting tools like `eslint` and `prettier`.
