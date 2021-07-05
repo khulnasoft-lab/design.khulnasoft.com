@@ -17,7 +17,7 @@ The language of the conceptual model diagram is meant to be as simple and access
 [View conceptual model in Figma →](https://www.figma.com/file/0pQXky3SCtdzydXRZSQZm8/Release-Group-%E2%80%A2-Ops-Object-Models?node-id=1%3A786)
 
 <div class="figma-embed" aria-label="Conceptual diagram connecting objects, along with their attributes and actions, to the primary Environment object." role="img">
-  <iframe frameborder="0" src="https://www.figma.com/file/0pQXky3SCtdzydXRZSQZm8/Release-Group-%E2%80%A2-Ops-Object-Models?node-id=1%3A786" allowfullscreen></iframe>
+  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F0pQXky3SCtdzydXRZSQZm8%2FRelease-Group-%25E2%2580%25A2-Ops-Object-Models%3Fnode-id%3D1%253A786" allowfullscreen></iframe>
 </div>
 
 ## Layouts
