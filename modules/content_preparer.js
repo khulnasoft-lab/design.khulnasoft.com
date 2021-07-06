@@ -34,6 +34,11 @@ export function getContentList(dirName) {
     delete content.frontmatter;
 
     const md = initMarkdownIt();
+    const matches = content.body.match(/\[\[Story:(.*)\]\]/g);
+    matches?.forEach((match) => {
+      const replacement = match.replace(/-/g, '\\-');
+      content.body = content.body.replace(match, replacement);
+    });
     content.body = md.render(content.body);
 
     fs.writeFileSync(
