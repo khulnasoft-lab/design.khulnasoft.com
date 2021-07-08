@@ -36,11 +36,19 @@ Todo: Add live component block with code example (horizontally distributed form)
 
 ### Description
 
-A 1–2 sentence description can go underneath the label to describe the purpose or intent of the input. The description is different from [help text](#help-text) in that help text provides examples or formatting information, while the description provides an explanation or instructions.
+A 1–2 sentence description can go underneath the form input to describe the purpose or intent of the input. The description is different from [help text](#help-text) in that help text provides examples or formatting information, while the description provides an explanation or instructions.
 
 Consider using a description when it may be unclear how or where the user input will be used, or to provide an explanation beyond what a label or help text infers.
 
 Use `aria-describedby` to associate the description with the input for screen reader users.
+
+[[Example:form-group]]
+
+### Label Description
+
+A 1-2 sentence label description can go underneath the form label to describe the purpose or intent of the input. The label description is different from [description](#description) in that goes immediately underneath the label, while description goes underneath the form input.
+
+[[Example:form-group-label-description]]
 
 ### Input fields
 
