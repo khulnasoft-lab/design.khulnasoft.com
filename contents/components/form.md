@@ -42,6 +42,20 @@ Consider using a description when it may be unclear how or where the user input 
 
 Use `aria-describedby` to associate the description with the input for screen reader users.
 
+[[Example:form-group-description]]
+
+### Help text
+
+Help text can be used as additional instructions to the user when filling in the form. It should be:
+
+- **Contextual**: An example or an explanation of the field, not a generic "Enter" or a repetition of the label. If it's an example, it must start with "For example,".
+- **Helpful**: If it doesn’t add value and make things easier for the user, it shouldn’t be used.
+- **Short**: It should be a short sentence or a small paragraph, not a single word or a big paragraph.
+
+It’s styled using the "Secondary" text style and should always be placed below the form element. Additionally, a [help link](/usability/helping-users) can be provided to give supplemental information. If there isn't enough space for help text, consider using a [placeholder](#placeholder).
+
+[[Example:form-group-help-text]]
+
 ### Input fields
 
 [[Example:form-group]]
@@ -176,18 +190,6 @@ Hiding fields allows for progressive disclosure. For example, as the user enters
 The page layout will need to adapt to display the revealed form fields, but this approach is more consistent, avoids distraction, and lowers the user's cognitive load.
 
 When in doubt, hide a field instead of disabling it.
-
-### Help text
-
-Help text can be used as additional instructions to the user when filling in the form. It should be:
-
-- **Contextual**: An example or an explanation of the field, not a generic "Enter" or a repetition of the label. If it's an example, it must start with "For example,".
-- **Helpful**: If it doesn’t add value and make things easier for the user, it shouldn’t be used.
-- **Short**: It should be a short sentence or a small paragraph, not a single word or a big paragraph.
-
-It’s styled using the "Secondary" text style and should always be placed below the form element. Additionally, a [help link](/usability/helping-users) can be provided to give supplemental information. If there isn't enough space for help text, consider using a [placeholder](#placeholder).
-
-Todo: Add live component block with code example (help text)
 
 ### Icons
 

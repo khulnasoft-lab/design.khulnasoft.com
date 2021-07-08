@@ -4,7 +4,6 @@
     label="Label"
     label-size="sm"
     label-description="Description or instructions for input"
-    description="Help text"
     label-for="input1"
   >
     <gl-form-input id="input1" />
