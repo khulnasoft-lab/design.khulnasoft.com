@@ -27,5 +27,5 @@ Todo: Add live component block with code example (inputs of different widths)
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
-[View design in Pajamas UI Kit →]()
+Todo: Add to Pajamas UI Kit
 
