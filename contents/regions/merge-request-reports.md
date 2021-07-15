@@ -4,11 +4,13 @@ name: Merge request reports
 
 The merge request reports region synchronizes a wide variety of merge request (MR) widgets that serve many purposes. By systematizing attributes like layout, hierarchy, and content sections, the widgets will be more consistent, scannable, and utilitarian. Widgets will better adapt to page layout (responsive), and future widgets will have patterns to follow. The framework provides constraints where possible, but ultimately a widget's unique purpose should define the extent of how it's applied.
 
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=38193%3A30482)
+
 ## Layout
 
 Each widget is laid out as a grid with three possible horizontal levels and three vertical sections. Levels define [hierarchy](#hierarchy) and sections define [content sections](#content-sections) for each level.
 
-<div class="figma-embed" aria-label="A grid layout of the merge request widget structure" role="img">
+<div class="figma-embed" aria-label="A grid layout of the merge request widget structure marking the levels and content sections" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38345%253A40393" allowfullscreen></iframe>
 </div>
 
@@ -31,7 +33,7 @@ The MR widget uses the base-8 scale from Pajamas to align elements within. Exter
 - Level 1 adjusts vertical spacing responsively to keep more widgets in view at smaller breakpoints.
 - All levels adjust horizontal spacing responsively to provide more room for the subject at smaller breakpoints.
 
-<div class="figma-embed" aria-label="A layout with different sized overlays to indicate content spacing" role="img">
+<div class="figma-embed" aria-label="A layout with different sized overlays to indicate content spacing within a widget" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38345%253A39976" allowfullscreen></iframe>
 </div>
 
@@ -43,7 +45,7 @@ Content sections follow a left-to-right reading order at all breakpoints.
 - Actions other than info and the expand/collapse toggle are within an overflow (ellipse) navigation for the medium breakpoint and down (< 768px).
 - A download dropdown unfurls within the overflow navigation so that each option is its own item within the overflow.
 
-<div class="figma-embed" aria-label="A layout with different sized overlays to indicate content spacing" role="img">
+<div class="figma-embed" aria-label="Examples of different padding and action options as they change responsively" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38345%253A40168" allowfullscreen></iframe>
 </div>
 
@@ -51,7 +53,7 @@ Content sections follow a left-to-right reading order at all breakpoints.
 
 The expanded area under each level 1 has a maximum height with a subtle visual affordance that scrolling is necessary to view all of the level 2 and level 3 content.
 
-<div class="figma-embed" aria-label="A layout with different sized overlays to indicate content spacing" role="img">
+<div class="figma-embed" aria-label="Overflow example with scrim overlay to indicate scrolling for the combined levels 2 and 3" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38345%253A40424
 " allowfullscreen></iframe>
 </div>
@@ -71,7 +73,7 @@ The container wraps one or more widgets.
 - `$white` background
 - `4px` border radius
 
-<div class="figma-embed" aria-label="A grid layout of the merge request widget structure" role="img">
+<div class="figma-embed" aria-label="The container that groups merge request widgets with a slightly rounded border radius and light border" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38381%253A40790" allowfullscreen></iframe>
 </div>
 
@@ -84,7 +86,7 @@ Level 1 is the parent level of the widget and has the primary status in text and
 - Collapsed by default
 - Status icon: required
 
-<div class="figma-embed" aria-label="A grid layout of the merge request widget structure" role="img">
+<div class="figma-embed" aria-label="The default layout of level 1 in a widget" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38381%253A40795" allowfullscreen></iframe>
 </div>
 
@@ -101,7 +103,7 @@ Level 2 has a status that may be the same or different from the parent, as well 
 - Actions: optional
 - Section title and description: optional
 
-<div class="figma-embed" aria-label="A grid layout of the merge request widget structure" role="img">
+<div class="figma-embed" aria-label="The default layout of level 2 in a widget" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38381%253A40828" allowfullscreen></iframe>
 </div>
 
@@ -115,7 +117,7 @@ Level 3 has a status that may be the same or different from the level 2 parent. 
 - Actions: inline text links only
 - Section title and description: optional
 
-<div class="figma-embed" aria-label="A grid layout of the merge request widget structure" role="img">
+<div class="figma-embed" aria-label="The default layout of level 3 in a widget" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38381%253A40923" allowfullscreen></iframe>
 </div>
 
@@ -129,29 +131,29 @@ Each widget has rules that determine its status. The icon at the top level of ea
 
 #### Level 1
 
-- Failed
-- Warning
-- Success
-- Neutral
-- Loading
+- <img class="gl-vertical-align-middle" src="/img/mr-status-failed-1.svg" alt="Failed status icon" role="img"> Failed
+- <img class="gl-vertical-align-middle" src="/img/mr-status-warning-1.svg" alt="Warning status icon" role="img"> Warning
+- <img class="gl-vertical-align-middle" src="/img/mr-status-success-1.svg" alt="Success status icon" role="img"> Success
+- <img class="gl-vertical-align-middle" src="/img/mr-status-neutral-1.svg" alt="Neutral status icon" role="img"> Neutral
+- <img class="gl-vertical-align-middle" src="/img/mr-status-loading-1.svg" alt="Loading status icon" role="img"> Loading
 
 #### Level 2–3 general
 
-- Failed
-- Error
-- Warning
-- Notice
-- Success
-- Neutral
+- <img class="gl-vertical-align-middle" src="/img/mr-status-failed.svg" alt="Failed status icon" role="img"> Failed
+- <img class="gl-vertical-align-middle" src="/img/mr-status-error.svg" alt="Error status icon" role="img"> Error
+- <img class="gl-vertical-align-middle" src="/img/mr-status-warning.svg" alt="Warning status icon" role="img"> Warning
+- <img class="gl-vertical-align-middle" src="/img/mr-status-notice.svg" alt="Notice status icon" role="img"> Notice
+- <img class="gl-vertical-align-middle" src="/img/mr-status-success.svg" alt="Success status icon" role="img"> Success
+- <img class="gl-vertical-align-middle" src="/img/mr-status-neutral.svg" alt="Neutral status icon" role="img"> Neutral
 
 #### Level 2–3 severity
 
-- Critical
-- High
-- Medium
-- Low
-- Info
-- Unknown
+- <img class="gl-vertical-align-middle" src="/img/mr-status-critical.svg" alt="Severity critical status icon" role="img"> Critical
+- <img class="gl-vertical-align-middle" src="/img/mr-status-high.svg" alt="Severity high status icon" role="img"> High
+- <img class="gl-vertical-align-middle" src="/img/mr-status-medium.svg" alt="Severity medium status icon" role="img"> Medium
+- <img class="gl-vertical-align-middle" src="/img/mr-status-low.svg" alt="Severity low status icon" role="img"> Low
+- <img class="gl-vertical-align-middle" src="/img/mr-status-info.svg" alt="Severity info status icon" role="img"> Info
+- <img class="gl-vertical-align-middle" src="/img/mr-status-unknown.svg" alt="Severity unknown status icon" role="img"> Unknown
 
 ### Subject
 
@@ -159,9 +161,11 @@ Since everything in a widget is technically content, identifying a specific _sub
 
 - Section title, description, and meta information are optional, but the main text is required.
 - Subject can only be truncated on level 2 and 3 for the small breakpoint and down (< `576px`).
-- Follow [Pajamas Voice and Tone](/content/voice-and-tone) guidelines for writing all text content.
+- Follow [Pajamas Voice and Tone](/content/voice-tone) guidelines for writing all text content.
 
-IMG
+<div class="figma-embed" aria-label="Example options and formatting within the subject area with numbered markers corresponding to the list that follows" role="img">
+  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38475%253A43352" allowfullscreen></iframe>
+</div>
 
 1. **Section title and description** - groups level 2 and level 3 status items. A description must be preceeded by a title, but a title does not require a description.
 1. **Text** - identifies the item, what it means for a user, and how to remedy problems. It can contain inline links and formatting to emphasize text.
@@ -175,7 +179,9 @@ Actions are available for level 1 and level 2. By default, the **MR widget actio
 - Level 3 can only have inline text links.
 - All actions are optional with the exception of the expand/collapse toggle for a level 1 item with children.
 
-IMG
+<div class="figma-embed" aria-label="Example actions with numbered markers corresponding to the list that follows" role="img">
+  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38475%253A43468" allowfullscreen></iframe>
+</div>
 
 1. **Info button** - provides suplemental information in a popover.
 1. **Options button** - provides suplemental information in a popover. On hover/focus a tooltip reads “{widget} options”.
@@ -189,16 +195,18 @@ The following provides guidance on roles, keyboarding, and content for screen re
 
 **Legend**
 
-- Region
-- Tab stop
-- Screen reader
-- Note
+- <img class="gl-vertical-align-middle" src="/img/a11y-annotation-region.svg" alt="Region marker" role="img"> Region
+- <img class="gl-vertical-align-middle" src="/img/a11y-annotation-tab-order.svg" alt="Tab order marker" role="img"> Tab order
+- <img class="gl-vertical-align-middle" src="/img/a11y-annotation-screen-reader.svg" alt="Screen reader marker" role="img"> Screen reader
+- <img class="gl-vertical-align-middle" src="/img/a11y-annotation-note.svg" alt="Note marker" role="img"> Note
 
 ### Landmark
 
 The widget area is an important enough section or a merge request page that it should be identified as its own region. The region contains the unordered list where each widget is a list item.
 
-IMG
+<div class="figma-embed" aria-label="A basic merge request report region is contained within a border highlighting the parent div that has an assigned role of region" role="img">
+  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38475%253A43619" allowfullscreen></iframe>
+</div>
 
 1. `<div role=“region” aria-label=”Merge request reports”>`
 
@@ -214,7 +222,9 @@ The focus order traverses focusable elements in the DOM in a left to right, top 
 
 The following highlights element attributes and the general expectation of how they should be announced by a screen reader.
 
-IMG
+<div class="figma-embed" aria-label="Numbered markers represent the expected tab order of the focusable content within a widget" role="img">
+  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38475%253A43641" allowfullscreen></iframe>
+</div>
 
 1. `aria-label=“{status} {widget}”`<br>
    SR: “{status} {widget}, image”
@@ -242,7 +252,9 @@ IMG
 
 The widgets are organized in an unordered list, which has the benefit of providing hierarchy and a report count (number of list items) to screen reader users.
 
-IMG
+<div class="figma-embed" aria-label="The merge request report region with overlays that highlight the semantic container div and unordered list structure" role="img">
+  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38475%253A43793" allowfullscreen></iframe>
+</div>
 
 1. The widget group is wrapped in a `<div>` that functions as a [landmark](#landmark).
 1. Each level is a `<ul>` with `<li>`s for individual reports. A title and description for a report are contained within that report’s `<li>`.
