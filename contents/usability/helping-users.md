@@ -19,7 +19,7 @@ If the most relevant information can be summarized succinctly, put the summary d
 
 - **Example:** A merge request approval is required when a security report contains a new vulnerability of high, critical, or unknown severity.
 
-If that's not possible and space is tight, use the ([help icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o)) which, when hovered or focused on, shows the summary in a [popover](/components/popover). The popover title should be the question that is answered by the summary. A “Learn more” link can be added to link to additional information (see [Links](#links)).
+If that's not possible and space is tight, use the ([help icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o)) that, when hovered or focused on, shows the summary in a [popover](/components/popover). The popover title should be the question that is answered by the summary. A “Learn more” link can be added to link to additional information (see [Links](#links)).
 
 | Do | Don't |
 | :-: | :-: |
