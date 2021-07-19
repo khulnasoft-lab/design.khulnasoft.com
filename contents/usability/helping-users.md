@@ -13,7 +13,7 @@ Help comes in the form of various types of content designed to:
 - Help users to understand a concept in more detail.
 - Provide additional technical details not available in the UI.
 
-## Formatting
+## Formatting help content
 
 If the most relevant information can be summarized succinctly, put the summary directly in the UI.
 
