@@ -15,7 +15,7 @@ Help comes in the form of various types of content designed to:
 
 ## Formatting help content
 
-If the most relevant information can be summarized succinctly, put the summary directly in the UI.
+If the most relevant information can be summarized succinctly, put the summary directly in the UI instead of using a Help link. However, you can use a Help link to provide supplemental information. Help links open up their page in a new tab.
 
 - **Example:** A merge request approval is required when a security report contains a new vulnerability of high, critical, or unknown severity.
 
