@@ -19,15 +19,6 @@ If the most relevant information can be summarized succinctly, put the summary d
 
 - **Example:** A merge request approval is required when a security report contains a new vulnerability of high, critical, or unknown severity.
 
-If that's not possible and space is tight, use the ([help icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o)) that, when hovered or focused on, shows the summary in a [popover](/components/popover). The popover title should be the question that is answered by the summary. A “Learn more” link can be added to link to additional information (see [Links](#links)).
-
-| Do | Don't |
-| :-: | :-: |
-| <div class="app-styles"><gl-icon name="question-o" class="gl-text-blue-600" /></div>Use the outlined [question-o.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) icon in `$blue-600` (`#1078bf`) | <div class="app-styles"><gl-icon name="question" size="16" /></div>Use the solid icon [question.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question) or a color other than blue | 
-| <figure class="figure" role="figure" aria-label="Popover with link to documentation"><img class="figure-img" src="/img/help-popover-with-link.png" alt="Popover with link to documentation" role="img" style="max-width: 280px;" /><figcaption class="figure-caption" style="font-size: 16px;">Show information in the popover with a link to documentation</figcaption></figure> | <figure class="figure" role="figure" aria-label="Popover with link to documentation"><img class="figure-img" src="/img/help-tooltip.png" alt="Popover with link to documentation" role="img" style="max-width: 280px;" /><figcaption class="figure-caption" style="font-size: 16px;">Use the icon as a link or with a tooltip|
-
-## Links
-
 All help links should open in a new window. Doing so helps make the result of the links predictable and prevents users from needing to navigate away from their task.
 
 Try phrasing the link as the question that will be answered by the linked content.
@@ -42,3 +33,12 @@ If the help content is outside of the GitLab instance (for example, content at a
 
 - **Example:** For more integrations, go to [GitLab’s website](#).
 - An external link icon can be added in place of more copy if space is tight.
+
+If that's not possible and space is tight, use the ([help icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o)) that, when hovered or focused on, shows the summary in a [popover](/components/popover). The popover title should be the question that is answered by the summary. A “Learn more” link can be added to link to additional information (see [Links](#links)).
+
+| Do | Don't |
+| :-: | :-: |
+| <div class="app-styles"><gl-icon name="question-o" class="gl-text-blue-600" /></div>Use the outlined [question-o.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) icon in `$blue-600` (`#1078bf`) | <div class="app-styles"><gl-icon name="question" size="16" /></div>Use the solid icon [question.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question) or a color other than blue | 
+| <figure class="figure" role="figure" aria-label="Popover with link to documentation"><img class="figure-img" src="/img/help-popover-with-link.png" alt="Popover with link to documentation" role="img" style="max-width: 280px;" /><figcaption class="figure-caption" style="font-size: 16px;">Show information in the popover with a link to documentation</figcaption></figure> | <figure class="figure" role="figure" aria-label="Popover with link to documentation"><img class="figure-img" src="/img/help-tooltip.png" alt="Popover with link to documentation" role="img" style="max-width: 280px;" /><figcaption class="figure-caption" style="font-size: 16px;">Use the icon as a link or with a tooltip|
+
+
