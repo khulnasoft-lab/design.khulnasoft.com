@@ -15,11 +15,9 @@ Help comes in the form of various types of content designed to:
 
 ## Formatting help content
 
-If the most relevant information can be summarized succinctly, put the summary directly in the UI instead of using a Help link. However, you can use a Help link to provide supplemental information. Help links open up their page in a new tab.
+If the most relevant information can be summarized succinctly, put the summary directly in the UI instead of using a Help link. However, you can use a help link to provide supplemental information. Help links open in a new tab. Doing so makes the result of clicking the links predictable and prevents users from needing to immediately navigate away from their task.
 
 - **Example:** A merge request approval is required when a security report contains a new vulnerability of high, critical, or unknown severity.
-
-All help links should open in a new window. Doing so helps make the result of the links predictable and prevents users from needing to navigate away from their task.
 
 Try phrasing the link as the question that will be answered by the linked content.
 
