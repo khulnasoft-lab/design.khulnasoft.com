@@ -2,7 +2,7 @@
 name: Merge request reports
 ---
 
-The merge request reports region synchronizes a wide variety of merge request (MR) widgets that serve many purposes. By systematizing attributes like layout, hierarchy, and content sections, the widgets will be more consistent, scannable, and utilitarian. Widgets will better adapt to page layout (responsive), and future widgets will have patterns to follow. The framework provides constraints where possible, but ultimately a widget's unique purpose should define the extent of how it's applied.
+The merge request (MR) reports region includes a wide variety of widgets that report information about the MR changes, helping authors and reviewers understand their impact and what needs to be improved. The following guidelines systematize attributes like layout, hierarchy, and content sections, making the widgets consistent, scannable, and utilitarian. Widgets are designed to adapt to page layout (responsive), and future widgets will have patterns to follow. We provide constraints where possible, but ultimately a widget's unique purpose should define the extent of how the guidelines are applied.
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=38193%3A30482)
 
@@ -23,12 +23,12 @@ Each widget is laid out as a grid with three possible horizontal levels and thre
 ### Sections
 
 - [Status](#status) - contains the status icon for the widget and each child item.
-- [Subject](#subject) - defines the widget and each child item.
+- [Subject](#subject) - describes the widget and each child item.
 - [Actions](#actions) - a group of optional actions for the widget and each level 2 child item.
 
 ### Grid
 
-The MR widget uses the base-8 scale from Pajamas to align elements within. External spacing is always greater than or equal to internal spacing, meaning that as nesting increases, the space decreases. This helps identify content relationships and make the higher levels more scannable. Widget content nests up to two levels deep.
+The widgets use [our 8px spacing system](/layout/spacing/) to align elements within. External spacing is always greater than or equal to internal spacing, meaning that as nesting increases, space decreases. This helps identify content relationships and makes the higher levels more scannable. Widget content nests up to two levels deep.
 
 - Level 1 adjusts vertical spacing responsively to keep more widgets in view at smaller breakpoints.
 - All levels adjust horizontal spacing responsively to provide more room for the subject at smaller breakpoints.
@@ -42,7 +42,7 @@ The MR widget uses the base-8 scale from Pajamas to align elements within. Exter
 Content sections follow a left-to-right reading order at all breakpoints.
 
 - Subject content wraps depending on available space.
-- Actions other than info and the expand/collapse toggle are within an overflow (ellipse) navigation for the medium breakpoint and down (< 768px).
+- Actions other than info and the expand/collapse toggle are within an overflow (ellipse) dropdown for the medium breakpoint and down (`<768px`).
 - A download dropdown unfurls within the overflow navigation so that each option is its own item within the overflow.
 
 <div class="figma-embed" aria-label="Examples of different padding and action options as they change responsively" role="img">
@@ -58,8 +58,8 @@ The expanded area under each level 1 has a maximum height with a subtle visual a
 " allowfullscreen></iframe>
 </div>
 
-1. The maximum height of the expanded level 2 and level 3 area is 170px. Scroll is set to overflow: auto.
-1. A scrim visual indicator overlays the bottom of the scroll area when the content height excedes the maximun height. The scrim is hidden once the end of the scrolling content is reached.
+1. A maximum height is set for the expanded level 2 and level 3 area with overflow scrolling set to `auto`.
+1. A scrim visual indicator overlays the bottom of the scroll area when the content height exceeds the maximum height. The scrim is hidden once the end of the scrolling content is reached.
 
 ## Hierarchy
 
@@ -79,7 +79,7 @@ The container wraps one or more widgets.
 
 ### Level 1
 
-Level 1 is the parent level of the widget and has the primary status in text and icon form, as well as optional controls and actions that apply to the entire widget. The status icon is surrounded by a highlight to make it a stronger visual anchor while emphasizing the status. The primary status is determined by the widget's rules and influenced by level 2 statuses if present. Expand/collapse controls are only visible when this level contains children.
+Level 1 is the parent level of the widget and has the primary status in text and icon form, as well as optional controls and actions that apply to the entire widget. The status icon is surrounded by a highlight to make it a stronger visual anchor while emphasizing the status. The primary status is determined by the widget's rules and influenced by level 2 statuses if present. The expand/collapse control is only visible when this level contains children.
 
 - Top border `1px` `$gray-100` for `n+1`
 - `$white` background
@@ -92,7 +92,7 @@ Level 1 is the parent level of the widget and has the primary status in text and
 
 ### Level 2
 
-Level 2 has a status that may be the same or different from the parent, as well as optional controls and actions that apply to itself. Its influence on the parent status will depend on the type of widget and the rules that are applicable. Likewise, its own status will be determined by applicable rules and influenced by level 3 status if present.
+Level 2 has a status that may be the same or different from the parent, as well as optional controls and actions that apply to itself. Its influence on the parent status will depend on the type of widget and the applicable rules. Likewise, its status will be determined by applicable rules and influenced by level 3 status if present.
 
 - Content indented and left-aligned to the level 1 subject.
 - Full width `1px` `$gray-100` top border for `n+1`
@@ -109,7 +109,7 @@ Level 2 has a status that may be the same or different from the parent, as well 
 
 ### Level 3
 
-Level 3 has a status that may be the same or different from the level 2 parent. Its influence on the level 2 parent status will depend on the type of widget and the rules that are applicable.
+Level 3 has a status that may be the same or different from the level 2 parent. Its influence on the level 2 parent status will depend on the type of widget and the applicable rules.
 
 - Content indented and left-aligned to the level 2 subject.
 - `$gray-10` background
@@ -123,7 +123,7 @@ Level 3 has a status that may be the same or different from the level 2 parent. 
 
 ## Content sections
 
-There are three content sections: status, subject, and actions.
+As shown in the [layout](#layout), there are three content sections: status, subject, and actions.
 
 ### Status
 
@@ -160,34 +160,34 @@ Each widget has rules that determine its status. The icon at the top level of ea
 Since everything in a widget is technically content, identifying a specific _subject_ section allows us to focus on the text and meta information that identifies the item, what it means for a user, and how to remedy problems.
 
 - Section title, description, and meta information are optional, but the main text is required.
-- Subject can only be truncated on level 2 and 3 for the small breakpoint and down (< `576px`).
-- Follow [Pajamas Voice and Tone](/content/voice-tone) guidelines for writing all text content.
+- Subject can only be truncated on levels 2 and 3 for the small breakpoint and down (< `576px`).
+- Follow the [voice and tone](/content/voice-tone) guidelines for writing all text content.
 
 <div class="figma-embed" aria-label="Example options and formatting within the subject area with numbered markers corresponding to the list that follows" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38475%253A43352" allowfullscreen></iframe>
 </div>
 
-1. **Section title and description** - groups level 2 and level 3 status items. A description must be preceeded by a title, but a title does not require a description.
+1. **Section title and description** - groups level 2 and level 3 status items. A description must be preceded by a title, but a title does not require a description.
 1. **Text** - identifies the item, what it means for a user, and how to remedy problems. It can contain inline links and formatting to emphasize text.
-1. **Meta** - suplemental text, links, and badges that add meaningful context to an item. Text can include formatting for emphasis.
+1. **Meta** - supplemental text, links, and badges that add meaningful context to an item. Text can include formatting for emphasis.
 
 ### Actions
 
-Actions are available for level 1 and level 2. By default, the **MR widget actions** component includes all the actions that are available, however, it is extremely unlikely that all would be present at once — show and hide actions as needed.
+Actions available for level 1 and level 2 and always use the tertiary confirm or default [button](/components/button) variants.
 
 - Only level 1 can be expanded and collapsed.
 - Level 3 can only have inline text links.
-- All actions are optional with the exception of the expand/collapse toggle for a level 1 item with children.
+- All actions are optional except the expand/collapse toggle for a level 1 item with children.
 
 <div class="figma-embed" aria-label="Example actions with numbered markers corresponding to the list that follows" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38475%253A43468" allowfullscreen></iframe>
 </div>
 
-1. **Info button** - provides suplemental information in a popover.
-1. **Options button** - provides suplemental information in a popover. On hover/focus a tooltip reads “{widget} options”.
-1. **Download dropdown** - ability to download assets related to the widget. On hover/focus a tooltip reads “{widget} downloads”.
+1. **Info button** - provides supplemental information in a [popover](/components/popover/).
+1. **Options button** - at smaller breakpoints opens a dropdown with available actions. On hover/focus a [tooltip](/components/tooltip/) reads “{widget} options”.
+1. **Download dropdown** - ability to download assets related to the widget. On hover/focus a [tooltip](/components/tooltip/) reads “{widget} downloads”.
 1. **Tertiary button** - actions that can be taken on or from the widget, like “Manage licenses” or “View report”.
-1. **Expand/collapse button** - toggles the visiblity of level 2 and level 3 items when present. On hover/focus a tooltip reads “Show {widget} details” when collapsed and “Hide {widget} details” when expanded.
+1. **Expand/collapse button** - toggles the visibility of level 2 and level 3 items when present. On hover/focus a [tooltip](/components/tooltip/) reads “Show {widget} details” when collapsed and “Hide {widget} details” when expanded.
 
 ## Accessibility
 
@@ -202,17 +202,17 @@ The following provides guidance on roles, keyboarding, and content for screen re
 
 ### Landmark
 
-The widget area is an important enough section or a merge request page that it should be identified as its own region. The region contains the unordered list where each widget is a list item.
+The widget area is an important enough section of a merge request page that it should be identified as its own region. The region contains the unordered list where each widget is a list item. See the [notes](#notes) section below for markup recommendations.
 
 <div class="figma-embed" aria-label="A basic merge request report region is contained within a border highlighting the parent div that has an assigned role of region" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38475%253A43619" allowfullscreen></iframe>
 </div>
 
-1. `<div role=“region” aria-label=”Merge request reports”>`
+1. `<div role="region" aria-label="Merge request reports">`
 
 ### Focus order
 
-The focus order traverses focusable elements in the DOM in a left to right, top down order.
+The focus order traverses focusable elements in the DOM in a left-to-right, top-down order.
 
 - `TAB` key moves through the list of interactive items in the order of the DOM.
 - `ENTER` or `SPACE` key expands/collapses the mobile overflow dropdown.
@@ -226,26 +226,26 @@ The following highlights element attributes and the general expectation of how t
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38475%253A43641" allowfullscreen></iframe>
 </div>
 
-1. `aria-label=“{status} {widget}”`<br>
+1. `aria-label="{status} {widget}"`<br>
    SR: “{status} {widget}, image”
-1. `aria-label=“{widget} information”`<br>
-   `aria-describedby=“{popoverID}”`
+1. `aria-label="{widget} information"`<br>
+   `aria-describedby="{popoverID}"`
    SR: “{widget} information, button, {popoverID content}”
-1. `aria-label=“[widget} options”`<br>
-   Collapsed: `aria-expanded=“false”` → Expanded: `aria-expanded=“true"`<br>
-   `aria-haspopup=“true”`<br>
-   `aria-controls=“{menuID}”`<br>
+1. `aria-label="[widget} options"`<br>
+   Collapsed: `aria-expanded="false"` → Expanded: `aria-expanded="true"`<br>
+   `aria-haspopup="true"`<br>
+   `aria-controls="{menuID}"`<br>
    SR collapsed: “{widget} options, collapsed, pop up button” → SR expanded: “{widget} options, expanded, pop up button”
-1. Collapsed” `aria-label=“Show {widget} details”` → Expanded: `aria-label=“Hide {widget} details”`<br>
-   Collapsed: `aria-expanded=“false”` → Expanded: `aria-expanded=“true”`<br>
-   `aria-controls=“{nestedStatusID}”`<br>
+1. Collapsed: `aria-label="Show {widget} details"` → Expanded: `aria-label="Hide {widget} details"`<br>
+   Collapsed: `aria-expanded="false"` → Expanded: `aria-expanded="true"`<br>
+   `aria-controls="{nestedStatusID}"`<br>
    SR collapsed: “Show {widget} details, collapsed, button” → SR expanded: “Hide {widget} details, expanded, button”
-1. `aria-label=“Downloads”`
-   Collapsed: `aria-expanded=“false”` → Expanded: `aria-expanded=“true”`<br>
-   `aria-haspopup=“true”`<br>
-   `aria-controls=“{menuID}”`<br>
+1. `aria-label="Downloads"`
+   Collapsed: `aria-expanded="false"` → Expanded: `aria-expanded="true"`<br>
+   `aria-haspopup="true"`<br>
+   `aria-controls="{menuID}"`<br>
    SR collapsed: “Downloads, collapsed, pop up button” → SR expanded: “Downloads, expanded, pop up button”
-1. `aria-label=“{status} {report}”`<br>
+1. `aria-label="{status} {report}"`<br>
    SR: “{status} {report}, image”
 
 ### Notes
