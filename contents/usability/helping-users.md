@@ -30,7 +30,7 @@ If the help content is outside of the GitLab instance (for example, content at a
 - **Example:** For more integrations, go to [GitLab’s website](#).
 - An external link icon can be added in place of more copy if space is tight.
 
-If that's not possible and space is tight, use the ([help icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o)) that, when hovered or focused on, shows the summary in a [popover](/components/popover). The popover title should be the question that is answered by the summary. A “Learn more” link can be added to link to additional information (see [Links](#links)).
+If that's not possible and space is tight, use the [help icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) that, when hovered or focused on, shows the summary in a [popover](/components/popover). The popover title should be the question that is answered by the summary. A “Learn more” link can be added to the popover to associate additional, relevant information (see [Links](#links)).
 
 | Do | Don't |
 | :-: | :-: |
