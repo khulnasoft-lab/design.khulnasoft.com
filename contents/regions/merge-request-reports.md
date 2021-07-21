@@ -135,7 +135,7 @@ Each widget has rules that determine its status. The icon at the top level of ea
 - <img class="gl-vertical-align-middle" src="/img/mr-status-warning-1.svg" alt="Warning status icon" role="img"> Warning
 - <img class="gl-vertical-align-middle" src="/img/mr-status-success-1.svg" alt="Success status icon" role="img"> Success
 - <img class="gl-vertical-align-middle" src="/img/mr-status-neutral-1.svg" alt="Neutral status icon" role="img"> Neutral
-- <img class="gl-vertical-align-middle" src="/img/mr-status-loading-1.svg" alt="Loading status icon" role="img"> Loading
+- <img class="gl-vertical-align-middle" src="/img/mr-status-loading-1.svg" alt="Loading status icon" role="img"> Loading ([spinner](/components/spinner))
 
 #### Level 2–3 general
 
