@@ -87,10 +87,6 @@
         "path": "components",
         "items": [
           {
-            "title": "Status",
-            "path": "status"
-          },
-          {
             "title": "Accordion",
             "path": "accordion"
           },
@@ -129,6 +125,10 @@
           {
             "title": "Checkbox",
             "path": "checkbox"
+          },
+          {
+            "title": "Color picker",
+            "path": "color-picker"
           },
           {
             "title": "Date picker",
@@ -285,8 +285,7 @@
         "title": "Objects",
         "path": "objects",
         "items": [
-          { "title": "Merge request", "path": "merge-request" },
-          { "title": "Report", "path": "report" }
+          { "title": "Merge request", "path": "merge-request" }
         ]
       },
       {

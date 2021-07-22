@@ -1,3 +1,87 @@
+# [2.40.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.39.2...v2.40.0) (2021-07-21)
+
+
+### Features
+
+* **UserHelp:** Encourage usage of popover with help icon ([7453343](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/7453343b510ccaafc40fbb7da7ed5b7272af2358))
+
+## [2.39.2](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.39.1...v2.39.2) (2021-07-21)
+
+
+### Bug Fixes
+
+* **Color:** Reset html indentation ([aadae0a](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/aadae0a67cb2bbe38518aa2be494144234ee793a))
+
+## [2.39.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.39.0...v2.39.1) (2021-07-15)
+
+
+### Bug Fixes
+
+* **banner:** Update SVG URL in examples ([082151f](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/082151f1f5db21882be7b4b5de64a77eb28b3ad8))
+
+# [2.39.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.38.0...v2.39.0) (2021-07-14)
+
+
+### Features
+
+* **Color:** Add color theme notes ([73a71fb](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/73a71fb782340f19e2f42facbd3a86686a757322))
+
+# [2.38.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.37.0...v2.38.0) (2021-07-09)
+
+
+### Features
+
+* **badge:** Add definitions around badge size ([a40f1e6](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/a40f1e68a351142f09bf78828bba461f9407f801))
+
+# [2.37.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.36.2...v2.37.0) (2021-07-09)
+
+
+### Features
+
+* **colorPicker:** Add color picker to docs ([f616b81](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/f616b81ef5ef1ff1532ebd0739c694bb751f22e3))
+
+## [2.36.2](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.36.1...v2.36.2) (2021-07-08)
+
+
+### Bug Fixes
+
+* **lifecycle:** Use prototype link to fix links in figma embed ([9c72277](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/9c722770fc22d4817553394494ef95523857ef83))
+
+## [2.36.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.36.0...v2.36.1) (2021-07-07)
+
+
+### Bug Fixes
+
+* **lifecycle:** Correct description of build phase ([77f061e](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/77f061e79c7b2f39ee2ce9f025bef7701ec6e21a))
+
+# [2.36.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.35.0...v2.36.0) (2021-06-30)
+
+
+### Features
+
+* **vpat:** Add language regarding 14.0 version in VPAT ([275c8b3](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/275c8b35925f98f780d6d0bcf476c9bec0870522))
+
+# [2.35.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.34.0...v2.35.0) (2021-06-30)
+
+
+### Features
+
+* **Modal:** Add inline editing examples under alternatives ([9797fca](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/9797fca696e0d2de40c3c1d479571fd1a354cdb6))
+
+# [2.34.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.33.0...v2.34.0) (2021-06-29)
+
+
+### Features
+
+* **Navigation:** add top-menu variant guideline ([2dd5177](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/2dd5177c3e1931bf4ae6c832458ae06623c2843d))
+
+# [2.33.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.32.1...v2.33.0) (2021-06-29)
+
+
+### Features
+
+* **voice-tone:** Updated examples for customer perspective ([310e558](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/310e55813a16adfb5a75984ddbd6e66a5acd5be8))
+
 ## [2.32.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.32.0...v2.32.1) (2021-06-17)
 
 

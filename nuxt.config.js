@@ -78,6 +78,7 @@ module.exports = {
     ],
     bodyAttrs: {
       class: 'ui-indigo',
+      tabindex: '-1',
     },
   },
 
@@ -87,7 +88,7 @@ module.exports = {
   },
 
   router: {
-    middleware: 'frontmatter',
+    middleware: ['frontmatter', 'navigation'],
     extendRoutes(originalRoutes) {
       const sectionSlugRoute = originalRoutes.find((route) => route.name === 'section-slug');
       sectionSlugRoute.path += '/:tab?';

@@ -28,10 +28,31 @@ related:
 
 ## Guidelines
 
+### When to use
+
+- Make an announcement or provide a notification from an admin to all users within a single instance.
+
+### When not to use
+
+- If you need to provide a system generated, contextual, and timely message to a user, use an [alert](/components/alert) instead.
+- If you are immediately confirming a user's action while they remain in the same view, use a [toast](/components/toast) instead.
+
+### Appearance
+
+Background color is chosen by the admin from a set of swatches when creating the broadcast message.
+
+### Behavior
+
+Expires after a set period defined by the admin, but can also be dismissed by a user.
+
+### Content
+
+Contains a small amount of text content that uses the container width when user preference is set to use a [fixed width](https://docs.gitlab.com/ee/user/profile/preferences.html#layout-width) layout.
+
+### Placement
+
 - Located at the top of the page, above the [global navigation](/regions/navigation).
 - Multiple broadcast messages stack vertically.
-- Contains a small amount of text content that uses the container width when user preference is set to use a [fixed width](https://docs.gitlab.com/ee/user/profile/preferences.html#layout-width) layout.
-- Expires after a set period defined by the admin, but can also be dismissed by a user.
 
 ### Accessibility
 
