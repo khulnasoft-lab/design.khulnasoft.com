@@ -12,7 +12,7 @@ To focus on the essence of an MR and the concepts associated with it, below is t
 This model allows for proper separation of concerns: concepts (meaning) and user interface (representation; see [layouts](#layouts)).
 In other words, a conceptual model is only focused on the concepts and how they relate to each other, not how it’s technically implemented or used in the UI.
 A conceptual model defines the **objects** and **actions**, and enumerates the **attributes** for every object.
-The language of the conceptual model diagram is meant to be as simple and accessible as possible to everyone, even if they are not familiar with these kinds of diagrams (for more information, see [Object Modeling for Designers](https://medium.com/@hpadkisson/object-modeling-for-designers-an-introduction-7871bdcf8baf).
+The language of the conceptual model diagram is meant to be as simple and accessible as possible to everyone, even if they are not familiar with these kinds of diagrams (for more information, see [Object Modeling for Designers](https://medium.com/@hpadkisson/object-modeling-for-designers-an-introduction-7871bdcf8baf)).
 
 [View conceptual model in Figma →](https://www.figma.com/file/J68bePHXIN5OPWqaFFY9ri/Conceptual-model?node-id=51%3A18)
 
