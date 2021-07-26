@@ -42,7 +42,7 @@ The widgets use [our 8px spacing system](/layout/spacing/) to align elements wit
 Content sections follow a left-to-right reading order at all breakpoints.
 
 - Subject content wraps depending on available space.
-- Actions other than info and the expand/collapse toggle are within an overflow (ellipse) dropdown for the medium breakpoint and down (`<768px`).
+- Actions other than info and the expand/collapse toggle are within an overflow (ellipsis) dropdown for the medium breakpoint and down (`<768px`).
 - A download dropdown unfurls within the overflow navigation so that each option is its own item within the overflow.
 
 <div class="figma-embed" aria-label="Examples of different padding and action options as they change responsively" role="img">
@@ -202,7 +202,7 @@ The following provides guidance on roles, keyboarding, and content for screen re
 
 ### Landmark
 
-The widget area is an important enough section of a merge request page that it should be identified as its own region. The region contains the unordered list where each widget is a list item. See the [notes](#notes) section below for markup recommendations.
+The widget area is an important enough section of a merge request page that it should be identified as its own [landmark region](https://www.w3.org/TR/wai-aria-practices-1.1/examples/landmarks/region.html). It contains the unordered list where each widget is a list item. See the [notes](#notes) section below for markup recommendations.
 
 <div class="figma-embed" aria-label="A basic merge request report region is contained within a border highlighting the parent div that has an assigned role of region" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38475%253A43619" allowfullscreen></iframe>
