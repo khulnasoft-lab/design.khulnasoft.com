@@ -214,6 +214,10 @@ The widget area is an important enough section of a merge request page that it s
 
 The focus order traverses focusable elements in the DOM in a left-to-right, top-down order.
 
+<div class="figma-embed" aria-label="Numbered markers represent the expected tab order of the focusable content within a widget" role="img">
+  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D40306%253A41333" allowfullscreen></iframe>
+</div>
+
 - `TAB` key moves through the list of interactive items in the order of the DOM.
 - `ENTER` or `SPACE` key expands/collapses the mobile overflow dropdown.
 - `ENTER` or `SPACE` key expands/collapses a level 1 item to reveal level 2–3 content.
