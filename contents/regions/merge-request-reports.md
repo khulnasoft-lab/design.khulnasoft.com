@@ -41,7 +41,6 @@ The widgets use [our 8px spacing system](/layout/spacing/) to align elements wit
 
 Content sections follow a left-to-right reading order at all breakpoints.
 
-- Subject content wraps depending on available space.
 - Actions other than info and the expand/collapse toggle are within an overflow (ellipsis) dropdown for the medium breakpoint and down (`<768px`).
 - A download dropdown unfurls within the overflow navigation so that each option is its own item within the overflow.
 
@@ -51,7 +50,7 @@ Content sections follow a left-to-right reading order at all breakpoints.
 
 ### Overflow
 
-The expanded area under each level 1 has a maximum height with a subtle visual affordance that scrolling is necessary to view all of the level 2 and level 3 content.
+The expanded area under each level 1 has an optional maximum height with a subtle visual affordance that scrolling is necessary to view all of the level 2 and level 3 content.
 
 <div class="figma-embed" aria-label="Overflow example with scrim overlay to indicate scrolling for the combined levels 2 and 3" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38345%253A40424
@@ -102,6 +101,7 @@ Level 2 has a status that may be the same or different from the parent, as well 
 - Status icon: optional
 - Actions: optional
 - Section title and description: optional
+- Items that share the same title and/or description do not have a top border.
 
 <div class="figma-embed" aria-label="The default layout of level 2 in a widget" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38381%253A40828" allowfullscreen></iframe>
@@ -160,7 +160,6 @@ Each widget has rules that determine its status. The icon at the top level of ea
 Since everything in a widget is technically content, identifying a specific _subject_ section allows us to focus on the text and meta information that identifies the item, what it means for a user, and how to remedy problems.
 
 - Section title, description, and meta information are optional, but the main text is required.
-- Subject can only be truncated on levels 2 and 3 for the small breakpoint and down (< `576px`).
 - Follow the [voice and tone](/content/voice-tone) guidelines for writing all text content.
 
 <div class="figma-embed" aria-label="Example options and formatting within the subject area with numbered markers corresponding to the list that follows" role="img">
