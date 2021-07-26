@@ -21,13 +21,13 @@ Wrap a block of `<code>` within a `<pre>` element. For example, multi-line code 
 
 A code block fits the width of the parent container and its content scrolls horizontally if it overflows the block.
 
-[View code block design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=19965%3A13)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=19965%3A13)
 
 ### Inline code
 
 Highlight inline text as `<code>`. For example, a short line of code, a CSS class, or a variable. The size of the text will adjust based on the parent text size.
 
-[View inline code design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=29627%3A56)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=29627%3A56)
 
 ### Inline diffs
 

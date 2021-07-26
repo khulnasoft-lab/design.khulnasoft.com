@@ -25,7 +25,7 @@ Long-form content includes copy in modals and empty states, whereas short-form c
 
 The `h1` and `h2` headers within our UI type scale are responsive. All other type options within this scale are not dependent on screen size.
 
-[View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=542%3A334)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=542%3A334)
 
 ## Documentation Markdown type scale
 
