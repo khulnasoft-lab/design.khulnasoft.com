@@ -10,9 +10,10 @@ The merge request (MR) reports region includes a wide variety of widgets that re
 
 Each widget is laid out as a grid with three possible horizontal levels and three vertical sections. Levels define [hierarchy](#hierarchy) and sections define [content sections](#content-sections) for each level.
 
-<div class="figma-embed" aria-label="A grid layout of the merge request widget structure marking the levels and content sections" role="img">
-  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38345%253A40393" allowfullscreen></iframe>
-</div>
+<figure class="figure" role="figure" aria-label="A grid layout of the merge request widget structure identifying the levels and content sections">
+  <img class="figure-img" src="/img/mrw-layout.png" alt="Merge request widget layout grid" role="img" />
+  <figcaption class="figure-caption">A grid layout of the merge request widget structure identifying the levels and content sections</figcaption>
+</figure>
 
 ### Levels
 
@@ -33,29 +34,33 @@ The widgets use [our 8px spacing system](/layout/spacing/) to align elements wit
 - Level 1 adjusts vertical spacing responsively to keep more widgets in view at smaller breakpoints.
 - All levels adjust horizontal spacing responsively to provide more room for the subject at smaller breakpoints.
 
-<div class="figma-embed" aria-label="A layout with different sized overlays to indicate content spacing within a widget" role="img">
-  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38345%253A39976" allowfullscreen></iframe>
-</div>
+<figure class="figure" role="figure" aria-label="A layout with different sized overlays to indicate content spacing within a widget">
+  <img class="figure-img" src="/img/mrw-grid.png" alt="Merge request widget spacing" role="img" />
+  <figcaption class="figure-caption">A layout with different sized overlays to indicate content spacing within a widget</figcaption>
+</figure>
 
 ### Responsive
 
 Content sections follow a left-to-right reading order at all breakpoints.
 
 - Actions other than info and the expand/collapse toggle are within an overflow (ellipsis) dropdown for the medium breakpoint and down (`<768px`).
-- A download dropdown unfurls within the overflow navigation so that each option is its own item within the overflow.
+- When download options are available, they merge into the overflow menu at small viewports.
 
-<div class="figma-embed" aria-label="Examples of different padding and action options as they change responsively" role="img">
-  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38345%253A40168" allowfullscreen></iframe>
-</div>
+<figure class="figure" role="figure" aria-label="Examples of different padding and action options as they change responsively">
+  <img class="figure-img" src="/img/mrw-responsive.png" alt="Merge request widget changes per breakpoint" role="img" />
+  <figcaption class="figure-caption">Examples of different padding and action options as they change responsively</figcaption>
+</figure>
 
 ### Overflow
 
 An optional maximum height can be applied to the nested content when level 1 is expanded. This is best used when the number of nested reports typically exceeds five, or when the expanded view introduces a large amount of scrolling that makes it difficult to view the rest of the page content.
 
-<div class="figma-embed" aria-label="Overflow example with scrim overlay to indicate scrolling for the combined levels 2 and 3" role="img">
-  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38345%253A40424
-" allowfullscreen></iframe>
-</div>
+<figure class="figure" role="figure" aria-label="Overflow example with scrim overlay to indicate scrolling for the combined levels 2 and 3">
+  <img class="figure-img" src="/img/mrw-overflow.png" alt="Merge request widget overflow scrolling" role="img" />
+  <figcaption class="figure-caption">Overflow example with scrim overlay to indicate scrolling for the combined levels 2 and 3</figcaption>
+</figure>
+
+Todo: Replace static visual with live example
 
 1. A maximum height is set for the expanded level 2 and level 3 area with overflow scrolling set to `auto`.
 1. A scrim visual indicator overlays the bottom of the scroll area when the content height exceeds the maximum height. The scrim is hidden once the end of the scrolling content is reached.
@@ -72,9 +77,12 @@ The container wraps one or more widgets.
 - `$white` background
 - `4px` border radius
 
-<div class="figma-embed" aria-label="The container that groups merge request widgets with a slightly rounded border radius and light border" role="img">
-  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38381%253A40790" allowfullscreen></iframe>
-</div>
+<figure class="figure" role="figure" aria-label="The container that groups merge request widgets with a slightly rounded border radius and light border">
+  <img class="figure-img" src="/img/mrw-container.png" alt="Merge request widget container shape" role="img" />
+  <figcaption class="figure-caption">The container that groups merge request widgets with a slightly rounded border radius and light border</figcaption>
+</figure>
+
+Todo: Replace static visual with live example
 
 ### Level 1
 
@@ -85,9 +93,12 @@ Level 1 is the parent level of the widget and has the primary status in text and
 - Collapsed by default
 - Status icon: required
 
-<div class="figma-embed" aria-label="The default layout of level 1 in a widget" role="img">
-  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38381%253A40795" allowfullscreen></iframe>
-</div>
+<figure class="figure" role="figure" aria-label="The default layout of level 1 in a widget">
+  <img class="figure-img" src="/img/mrw-level-1.png" alt="Merge request widget level 1" role="img" />
+  <figcaption class="figure-caption">The default layout of level 1 in a widget</figcaption>
+</figure>
+
+Todo: Replace static visual with live example
 
 ### Level 2
 
@@ -103,9 +114,12 @@ Level 2 has a status that may be the same or different from the parent, as well 
 - Section title and description: optional
 - Items that share the same title and/or description do not have a top border.
 
-<div class="figma-embed" aria-label="The default layout of level 2 in a widget" role="img">
-  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38381%253A40828" allowfullscreen></iframe>
-</div>
+<figure class="figure" role="figure" aria-label="The default layout of level 2 in a widget">
+  <img class="figure-img" src="/img/mrw-level-2.png" alt="Merge request widget level 2" role="img" />
+  <figcaption class="figure-caption">The default layout of level 2 in a widget</figcaption>
+</figure>
+
+Todo: Replace static visual with live example
 
 ### Level 3
 
@@ -117,9 +131,12 @@ Level 3 has a status that may be the same or different from the level 2 parent. 
 - Actions: inline text links only
 - Section title and description: optional
 
-<div class="figma-embed" aria-label="The default layout of level 3 in a widget" role="img">
-  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38381%253A40923" allowfullscreen></iframe>
-</div>
+<figure class="figure" role="figure" aria-label="The default layout of level 3 in a widget">
+  <img class="figure-img" src="/img/mrw-level-3.png" alt="Merge request widget level 3" role="img" />
+  <figcaption class="figure-caption">The default layout of level 3 in a widget</figcaption>
+</figure>
+
+Todo: Replace static visual with live example
 
 ## Content sections
 
@@ -162,13 +179,16 @@ Since everything in a widget is technically content, identifying a specific _sub
 - Section title, description, and meta information are optional, but the main text is required.
 - Follow the [voice and tone](/content/voice-tone) guidelines for writing all text content.
 
-<div class="figma-embed" aria-label="Example options and formatting within the subject area with numbered markers corresponding to the list that follows" role="img">
-  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38475%253A43352" allowfullscreen></iframe>
-</div>
+<figure class="figure" role="figure" aria-label="Example options and formatting within the subject area with numbered markers corresponding to the list that follows">
+  <img class="figure-img" src="/img/mrw-subject.png" alt="Merge request widget subject styles" role="img" />
+  <figcaption class="figure-caption">Example options and formatting within the subject area with numbered markers corresponding to the list that follows</figcaption>
+</figure>
 
 1. **Section title and description** - groups level 2 and level 3 status items. A description must be preceded by a title, but a title does not require a description.
 1. **Text** - identifies the item, what it means for a user, and how to remedy problems. It can contain inline links and formatting to emphasize text.
 1. **Meta** - supplemental text, links, and badges that add meaningful context to an item. Text can include formatting for emphasis.
+
+Todo: Replace static visual with live example
 
 ### Actions
 
@@ -178,15 +198,18 @@ Actions available for level 1 and level 2 and always use the tertiary confirm or
 - Level 3 can only have inline text links.
 - All actions are optional except the expand/collapse toggle for a level 1 item with children.
 
-<div class="figma-embed" aria-label="Example actions with numbered markers corresponding to the list that follows" role="img">
-  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38475%253A43468" allowfullscreen></iframe>
-</div>
+<figure class="figure" role="figure" aria-label="Example actions with numbered markers corresponding to the list that follows">
+  <img class="figure-img" src="/img/mrw-actions.png" alt="Merge request widget actions" role="img" />
+  <figcaption class="figure-caption">Example actions with numbered markers corresponding to the list that follows</figcaption>
+</figure>
 
 1. **Info button** - provides supplemental information in a [popover](/components/popover/).
 1. **Options button** - at smaller breakpoints opens a dropdown with available actions. On hover/focus a [tooltip](/components/tooltip/) reads “{widget} options”.
 1. **Download dropdown** - ability to download assets related to the widget. On hover/focus a [tooltip](/components/tooltip/) reads “{widget} downloads”.
 1. **Tertiary button** - actions that can be taken on or from the widget, like “Manage licenses” or “View report”.
 1. **Expand/collapse button** - toggles the visibility of level 2 and level 3 items when present. On hover/focus a [tooltip](/components/tooltip/) reads “Show {widget} details” when collapsed and “Hide {widget} details” when expanded.
+
+Todo: Replace static visual with live example
 
 ## Accessibility
 
@@ -203,9 +226,10 @@ The following provides guidance on roles, keyboarding, and content for screen re
 
 The widget area is an important enough section of a merge request page that it should be identified as its own [landmark region](https://www.w3.org/TR/wai-aria-practices-1.1/examples/landmarks/region.html). It contains the unordered list where each widget is a list item. See the [notes](#notes) section below for markup recommendations.
 
-<div class="figma-embed" aria-label="A basic merge request report region is contained within a border highlighting the parent div that has an assigned role of region" role="img">
-  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38475%253A43619" allowfullscreen></iframe>
-</div>
+<figure class="figure" role="figure" aria-label="A basic merge request report region is contained within a border highlighting the parent div that has an assigned role of region">
+  <img class="figure-img" src="/img/mrw-a11y-landmark.png" alt="Merge request landmark highlight" role="img" />
+  <figcaption class="figure-caption">A basic merge request report region is contained within a border highlighting the parent div that has an assigned role of region</figcaption>
+</figure>
 
 1. `<div role="region" aria-label="Merge request reports">`
 
@@ -213,9 +237,10 @@ The widget area is an important enough section of a merge request page that it s
 
 The focus order traverses focusable elements in the DOM in a left-to-right, top-down order.
 
-<div class="figma-embed" aria-label="Numbered markers represent the expected tab order of the focusable content within a widget" role="img">
-  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D40306%253A41333" allowfullscreen></iframe>
-</div>
+<figure class="figure" role="figure" aria-label="Numbered markers represent the expected tab order of the focusable content within a widget">
+  <img class="figure-img" src="/img/mrw-a11y-focus-order.png" alt="Merge request focus order highlights" role="img" />
+  <figcaption class="figure-caption">Numbered markers represent the expected tab order of the focusable content within a widget</figcaption>
+</figure>
 
 - `TAB` key moves through the list of interactive items in the order of the DOM.
 - `ENTER` or `SPACE` key expands/collapses the mobile overflow dropdown.
@@ -225,9 +250,10 @@ The focus order traverses focusable elements in the DOM in a left-to-right, top-
 
 The following highlights element attributes and the general expectation of how they should be announced by a screen reader.
 
-<div class="figma-embed" aria-label="Numbered markers represent the expected tab order of the focusable content within a widget" role="img">
-  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38475%253A43641" allowfullscreen></iframe>
-</div>
+<figure class="figure" role="figure" aria-label="Numbered markers highlight areas to identify how they're announced within a widget">
+  <img class="figure-img" src="/img/mrw-a11y-screen-reader.png" alt="Merge request screen reader announcement highlights" role="img" />
+  <figcaption class="figure-caption">Numbered markers highlight areas to identify how they're announced within a widget</figcaption>
+</figure>
 
 1. `aria-label="{status} {widget}"`<br>
    SR: “{status} {widget}, image”
@@ -255,9 +281,10 @@ The following highlights element attributes and the general expectation of how t
 
 The widgets are organized in an unordered list, which has the benefit of providing hierarchy and a report count (number of list items) to screen reader users.
 
-<div class="figma-embed" aria-label="The merge request report region with overlays that highlight the semantic container div and unordered list structure" role="img">
-  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqEddyqCrI7kPSBjGmwkZzQ%2FComponent-library%3Fnode-id%3D38475%253A43793" allowfullscreen></iframe>
-</div>
+<figure class="figure" role="figure" aria-label="The merge request report region with overlays that highlight the semantic container div and unordered list structure">
+  <img class="figure-img" src="/img/mrw-a11y-notes.png" alt="Merge request notes highlights" role="img" />
+  <figcaption class="figure-caption">The merge request report region with overlays that highlight the semantic container div and unordered list structure</figcaption>
+</figure>
 
 1. The widget group is wrapped in a `<div>` that functions as a [landmark](#landmark).
 1. Each level is a `<ul>` with `<li>`s for individual reports. A title and description for a report are contained within that report’s `<li>`.
