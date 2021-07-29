@@ -39,6 +39,12 @@ Settings can be locked by admins or group owners. To visualize this, disable the
 
 To keep the experience of settings consistent, avoid using a combination of manual and auto-save in form options. Learn more about [saving progress](/product-foundations/saving-and-feedback#saving-progress).
 
+### User feedback
+
+Error and success messages should be displayed within the corresponding section.
+
+{To-do: insert example}
+
 ## Design specifications
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
