@@ -45,7 +45,7 @@ Error and success messages should be displayed within the corresponding section.
 
 | **Do** | **Don't** |
 | ------ | --------- |
-| <figure class="figure" role="figure" aria-label="Keep message in its section."><img class="figure-img" src="/img/settings-message-do.png" alt="Message in section" role="img" /><figcaption class="figure-caption">Keep message in its section.</figcaption></figure> | <figure class="figure" role="figure" aria-label="Refresh page, and put message at top of page."><img class="figure-img" src="/img/settings-message-do.png" alt="Message in wrong place" role="img" /><figcaption class="figure-caption">Refresh page, and put message at top of page.</figcaption></figure> |
+| <figure class="figure" role="figure" aria-label="Keep message in its section."><img class="figure-img" src="/img/settings-message-do.png" alt="Message in section" role="img" /><figcaption class="figure-caption">Keep message in its section.</figcaption></figure> | <figure class="figure" role="figure" aria-label="Refresh page, and put message at top of page."><img class="figure-img" src="/img/settings-message-dont.png" alt="Message in wrong place" role="img" /><figcaption class="figure-caption">Refresh the page, and put message at top of page.</figcaption></figure> |
 
 ## Design specifications
 
