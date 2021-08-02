@@ -43,7 +43,7 @@ Background color is chosen by the admin from a set of swatches when creating the
 
 ### Behavior
 
-Expires after a set period defined by the admin, but can also be dismissed by a user.
+Expires after a set period defined by the admin, but may also be dismissed by a user if the dismiss setting is enabled by the admin.
 
 ### Content
 

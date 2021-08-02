@@ -61,8 +61,7 @@ related:
 ### Behavior
 
 - Permanently dismissible only when the alert relates to a user's individual instance and wasn't triggered by a system condition.
-- Permanently dismissible when a task isn't blocked if no action is required.
-- No dismiss button or action should be present when a system-condition must be met.
+- Permanently dismissible when a task isn't blocked or if no action is required.
 - A dismissed alert can reappear if an action or system event reproduces it.
 
 ### Content
@@ -105,7 +104,7 @@ related:
     <img class="figure-img" src="/img/alert-global.png" alt="Global alert position" role="img" style="width:100%; max-width:332px; height:auto" />
     <figcaption class="figure-caption">Full-width danger alert under the global navigation and above the contextual navigation</figcaption>
   </figure>
-- **Page-level** Appears at the top of a page, directly below the navigation bar and above the breadcrumbs, and restricted to the content container width which can be either fixed or fluid, depending on user’s preference.
+- **Page-level**: Appears at the top of a page, directly below the navigation bar and above the breadcrumbs, and restricted to the content container width which can be either fixed or fluid, depending on user’s preference.
   <figure class="figure" role="figure" aria-label="Page-level alert in the main content area with space above and below">
     <img class="figure-img" src="/img/alert-page-level.png" alt="Page-level alert position" role="img" style="width:100%; max-width:332px; height:auto" />
     <figcaption class="figure-caption">Page-level alert in the main content area with space above and below</figcaption>

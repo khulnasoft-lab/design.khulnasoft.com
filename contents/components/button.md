@@ -114,14 +114,15 @@ States change visually and/or programmatically depending on user interaction or 
 - **Disabled**: Prevents the user from performing an action. It lets the user know a certain action would be possible if circumstances were different. All buttons regardless of variant appear the same when disabled. Additionally, they will show the "not-allowed" cursor when hovered.
 - **Loading**: Place a button in the loading state with the `loading` property. The loading status is indicated by the use of a [spinner](/components/spinner), and the button is disabled while the state persists.
   - For [buttons containing text](#combinations), the spinner is added to the left of the button, before the icon or label.
-  - For [icon buttons](#icon), the spinner replaces the icon.
+  - For icon buttons, the spinner replaces the icon.
 - **Selected**: Acts like a toggle that indicate whether or not an option is in a selected state. To indicate to screen readers that the button functions as a toggle it should have `aria-pressed="true"` to align with the visually selected state, otherwise `aria-pressed="false"`.
 
 ### Content
 
 #### Labels
 
-- Use concise language that conveys what happens when the button is activated. - Use [sentence case](/content/punctuation),
+- Use concise language that conveys what happens when the button is activated. 
+- Use [sentence case](/content/punctuation).
 - When an action leads to another action, consider appending an ellipsis (...) to the button label text.
 - Try not to use text-only and icon-only buttons in the same context.
 
@@ -129,7 +130,7 @@ States change visually and/or programmatically depending on user interaction or 
 
 - Only use icons from [GitLab's SVG library](http://gitlab-org.gitlab.io/gitlab-svgs/).
 - Icons use the default size (16×16px).
-- An icon can be used in place of text. If the action may not be universally understood consider using a [tooltips](/components/tooltip) to provide the action is text form.
+- An icon can be used in place of text. If the action may not be universally understood consider using a [tooltip](/components/tooltip) to provide the action is text form.
 
 ### Alignment
 
@@ -183,7 +184,7 @@ Multiple alignments can be combined within a single screen, but not within an in
     <img class="figure-img" src="/img/buttons-center-alignment.png" alt="Centered buttons at the bottom of empty state content" role="img" style="width:100%; max-width:332px; height:auto" />
     <figcaption class="figure-caption">Center-aligned buttons in an empty state</figcaption>
   </figure>
-- **Right to left languages**: Reverse button alignment for [Right-to-left languages](/usability/i18n) while maintaining the same order.
+- **Right to left languages**: Reverse button alignment for [right-to-left languages](/usability/i18n) while maintaining the same order.
 
 Additional considerations:
 
@@ -246,10 +247,10 @@ Additional considerations:
 
 ### Combinations
 
-Buttons can contain different content depending on the situation. For example, some buttons only have text, while others only have an icon. A combination may be used when space allows and more emphasis is required. Icons are always positioned to the left of text. Two icons should never be used in the same button, unless it is an [icon dropdown](#text-%2B-icon-dropdowns).
+Buttons can contain different content depending on the situation. For example, some buttons only have text, while others only have an icon. A combination may be used when space allows and more emphasis is required. Icons are always positioned to the left of text. Two icons should never be used in the same button, unless it is an icon dropdown.
 
 - **Label**: A button may also be attached to a label, such as a commit SHA.
-- **Emoji**: An emoji button provides a user with a visual to indicate what emotion has been attributed to the parent object. It only contains an emoji character and uses the [selected](#selected) state when pressed.
+- **Emoji**: An emoji button provides a user with a visual to indicate what emotion has been attributed to the parent object. It only contains an emoji character and uses the [selected state](#states) when pressed.
 
 ### Dropdown buttons
 
@@ -279,5 +280,5 @@ Button groups visually group buttons that have similar or related actions togeth
 These variants have been deprecated, don‘t use in production:
 
 - **Info**: Activation or informative processes, replaced by **confirm** variant.
-- **Success**: |Positive actions such as the creation or addition of items, replaced by **confirm** variant.
-- **Warning**: Actions that can be undone or rectified but warrant caution, , replaced by **confirm** or **default** variant depending on context.
+- **Success**: Positive actions such as the creation or addition of items, replaced by **confirm** variant.
+- **Warning**: Actions that can be undone or rectified but warrant caution, replaced by **confirm** or **default** variant depending on context.
