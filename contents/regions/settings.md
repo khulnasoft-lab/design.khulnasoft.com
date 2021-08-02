@@ -41,11 +41,17 @@ To keep the experience of settings consistent, avoid using a combination of manu
 
 ### User feedback
 
-Error and success messages should be displayed within the corresponding section.
+Error or failure messages should be displayed within the corresponding section.
 
 | **Do** | **Don't** |
 | ------ | --------- |
-| <figure class="figure" role="figure" aria-label="Keep message in its section."><img class="figure-img" src="/img/settings-message-do.png" alt="Message in section" role="img" /><figcaption class="figure-caption">Keep message in its section.</figcaption></figure> | <figure class="figure" role="figure" aria-label="Refresh page, and put message at top of page."><img class="figure-img" src="/img/settings-message-dont.png" alt="Message in wrong place" role="img" /><figcaption class="figure-caption">Refresh the page, and put message at top of page.</figcaption></figure> |
+| <figure class="figure" role="figure" aria-label="Keep message in its section."><img class="figure-img" src="/img/settings-error-do.png" alt="Message as in-page alert" role="img" /><figcaption class="figure-caption">Asynchronously save section, and display an in-page alert.</figcaption></figure> | <figure class="figure" role="figure" aria-label="Put message at top of page."><img class="figure-img" src="/img/settings-error-dont.png" alt="Message as page-level alert" role="img" /><figcaption class="figure-caption">Refresh the page, and display a page-level flash message.</figcaption></figure> |
+
+Display success messages as a toast rather than as an alert.
+
+| **Do** | **Don't** |
+| ------ | --------- |
+| <figure class="figure" role="figure" aria-label="Display toast message."><img class="figure-img" src="/img/settings-success-do.png" alt="Using a toast message" role="img" /><figcaption class="figure-caption">Asynchronously save section, and display a toast message.</figcaption></figure> | <figure class="figure" role="figure" aria-label="Put message at top of page."><img class="figure-img" src="/img/settings-success-dont.png" alt="Message as page-level alert" role="img" /><figcaption class="figure-caption">Refresh the page, and display a page-level flash message.</figcaption></figure> |
 
 ## Design specifications
 
