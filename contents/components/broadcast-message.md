@@ -53,9 +53,6 @@ Contains a small amount of text content that uses the container width when user 
 
 - Located at the top of the page, above the [global navigation](/regions/navigation).
 - Multiple broadcast messages stack vertically.
-- Contains a small amount of text content that uses the container width when user preference is set to use a [fixed width](https://docs.gitlab.com/ee/user/profile/preferences.html#layout-width) layout.
-- Expires after a set period defined by the admin, but can also be dismissed by a user.
-- Background color is chosen by the admin from a set of swatches when creating the broadcast message.
 
 ### Accessibility
 
