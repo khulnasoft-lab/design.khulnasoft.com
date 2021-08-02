@@ -185,31 +185,29 @@ Multiple alignments can be combined within a single screen, but not within an in
     <figcaption class="figure-caption">Center-aligned buttons in an empty state</figcaption>
   </figure>
 - **Right to left languages**: Reverse button alignment for [right-to-left languages](/usability/i18n) while maintaining the same order.
-
-Additional considerations:
-
-<div class="row">
-  <div class="col col-50">
-    <figure class="figure" role="figure" aria-label="Keep buttons visually grouped"><img class="figure-img" src="/img/buttons-do-group.svg" alt="Buttons in a group" role="img" /><figcaption class="figure-caption"><strong>Do</strong>: Keep buttons visually grouped</figcaption></figure>
+- **Additional considerations:**
+  <div class="row gl-mt-6">
+    <div class="col col-50">
+      <figure class="figure" role="figure" aria-label="Keep buttons visually grouped"><img class="figure-img" src="/img/buttons-do-group.svg" alt="Buttons in a group" role="img" /><figcaption class="figure-caption"><strong>Do</strong>: Keep buttons visually grouped</figcaption></figure>
+    </div>
+    <div class="col col-50">
+      <figure class="figure" role="figure" aria-label="Separate buttons or mix alignment."><img class="figure-img" src="/img/buttons-dont-separate.svg" alt="Buttons that should be in a group are separated" role="img" /><figcaption class="figure-caption"><strong>Don't</strong>: Separate buttons or mix alignment (unless the separated button is destructive)</figcaption></figure>
+    </div>
+    <div class="col col-50">
+      <figure class="figure" role="figure" aria-label="Keep destructive buttons separate"><img class="figure-img" src="/img/buttons-with-danger-do-separate.svg" alt="Destructive button separated from other actions" role="img" /><figcaption class="figure-caption"><strong>Do</strong>: Keep destructive buttons separate</figcaption></figure>
+    </div>
+    <div class="col col-50">
+      <figure class="figure" role="figure" aria-label="Group destructive buttons with confirmation buttons"><img class="figure-img" src="/img/buttons-with-danger-dont-group.svg" alt="Destructive button between other buttons" role="img" /><figcaption class="figure-caption"><strong>Don't</strong>: Group destructive buttons with confirmation buttons</figcaption></figure>
+      </figure>
+    </div>
+    <div class="col col-50">
+      <figure class="figure" role="figure" aria-label="Keep buttons inline when space allows"><img class="figure-img" src="/img/buttons-do-inline.svg" alt="Buttons presented inline" role="img" /><figcaption class="figure-caption"><strong>Do</strong>: Keep buttons inline when space allows</figcaption></figure>
+    </div>
+    <div class="col col-50">
+      <figure class="figure" role="figure" aria-label="Stack buttons vertically if there is space to place them inline"><img class="figure-img" src="/img/buttons-dont-wrap.svg" alt="Buttons wrapping to a new line when there’s room to keep them inline" role="img" /><figcaption class="figure-caption"><strong>Don't</strong>: Stack buttons vertically if there is space to place them inline</figcaption></figure>
+      </figure>
+    </div>
   </div>
-  <div class="col col-50">
-    <figure class="figure" role="figure" aria-label="Separate buttons or mix alignment."><img class="figure-img" src="/img/buttons-dont-separate.svg" alt="Buttons that should be in a group are separated" role="img" /><figcaption class="figure-caption"><strong>Don't</strong>: Separate buttons or mix alignment</figcaption></figure>
-  </div>
-  <div class="col col-50">
-    <figure class="figure" role="figure" aria-label="Keep destructive buttons separate"><img class="figure-img" src="/img/buttons-with-danger-do-separate.svg" alt="Destructive button separated from other actions" role="img" /><figcaption class="figure-caption"><strong>Do</strong>: Keep destructive buttons separate</figcaption></figure>
-  </div>
-  <div class="col col-50">
-    <figure class="figure" role="figure" aria-label="Group destructive buttons with confirmation buttons"><img class="figure-img" src="/img/buttons-with-danger-dont-group.svg" alt="Destructive button between other buttons" role="img" /><figcaption class="figure-caption"><strong>Don't</strong>: Group destructive buttons with confirmation buttons</figcaption></figure>
-    </figure>
-  </div>
-  <div class="col col-50">
-    <figure class="figure" role="figure" aria-label="Keep buttons inline when space allows"><img class="figure-img" src="/img/buttons-do-inline.svg" alt="Buttons presented inline" role="img" /><figcaption class="figure-caption"><strong>Do</strong>: Keep buttons inline when space allows</figcaption></figure>
-  </div>
-  <div class="col col-50">
-    <figure class="figure" role="figure" aria-label="Stack buttons vertically if there is space to place them inline"><img class="figure-img" src="/img/buttons-dont-wrap.svg" alt="Buttons wrapping to a new line when there’s room to keep them inline" role="img" /><figcaption class="figure-caption"><strong>Don't</strong>: Stack buttons vertically if there is space to place them inline</figcaption></figure>
-    </figure>
-  </div>
-</div>
 
 ### Order
 
