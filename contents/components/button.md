@@ -8,14 +8,12 @@ vueComponents:
   - GlButton
   - GlButtonGroup
 related:
-  - tooltip
   - dropdown
-  - modal
   - segmented-control
-  - spinner
   - pagination
-  - /usability/i18n
-  - /accessibility/best-practices
+  - tooltip
+  - spinner
+  - modal
 ---
 
 ## Examples
@@ -71,6 +69,14 @@ Todo: Add live component block with example of loading icon button
 
 ## Guidelines
 
+### When to use
+
+- A button (`<button>`) element is used to indicate an action.
+
+### When not to use
+
+- If you are directing a user to a new location, consider using an anchor (`<a>`) element, which can also be styled like a button when actions and destinations are present in the same set of controls.
+
 ### Categories
 
 Use categories to bring varying action hierarchy and emphasis that guide the user when performing tasks.
@@ -118,6 +124,7 @@ States change visually and/or programmatically depending on user interaction or 
 - Use concise language that conveys what happens when the button is activated. 
 - Use [sentence case](/content/punctuation).
 - When an action leads to another action, consider appending an ellipsis (...) to the button label text.
+- Try not to use text-only and icon-only buttons in the same context.
 
 #### Icons
 

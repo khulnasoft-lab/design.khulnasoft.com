@@ -8,8 +8,8 @@ vueComponents:
   - GlAlert
 related:
   - broadcast-message
-  - form
   - toast
+  - form
 ---
 
 ## Examples
@@ -37,6 +37,18 @@ related:
 1. **Actions** (optional): Buttons used to provide explicit action(s) the user can take to either remedy the alert or continue with a task.
 
 ## Guidelines
+
+### When to use
+
+- Advise the user that they should be aware of, or address something related to their current context.
+- Reaffirm to the user that a prior action, likely in a different location or context, has been successful.
+- Educate the user about new or unused feature, or information related to their current context.
+- In combination with form validation to help users remedy errors. See the [accessibility](#accessibility) section for more.
+
+### When not to use
+
+- If you need to deliver an instance level message from an admin to all users, use a [broadcast message](/components/broadcast-message) instead.
+- If you are immediately confirming a user's action while they remain in the same view, use a [toast](/components/toast) instead.
 
 ### Variants
 
@@ -85,13 +97,6 @@ related:
 - Secondary action uses the **default** button variant.
 - Left aligned, except in right-to-left languages where they are right aligned and the order is the same. See [button alignment and order](/components/button#alignment-and-order) for more details.
 
-### Behavior
-
-- Permanently dismissible only when the alert relates to a user's individual instance and wasn't triggered by a system condition.
-- Permanently dismissible when a task isn't blocked if no action is required.
-- No dismiss button or action should be present when a system-condition must be met.
-- A dismissed alert can reappear if an action or system event reproduces it.
-
 ### Placement
 
 - **Global**: Impacts the entire experience, is full-width, and is placed directly below the navigation bar.
@@ -117,9 +122,9 @@ related:
 - Typically is reserved for errors, as they need to be addressed by users.
 - Only one sticky alert should be used at a time.
 
-### Multiple alerts
+#### Multiple alerts
 
-- Multiple alerts should be avoided if at all possible, but if necessary ensure the [placement](#placement) of each is in the same context as the content it relates to.
+- Multiple alerts should be avoided if at all possible, but if necessary ensure the placement of each is in the same context as the content it relates to.
 - When multiple alerts are present in the same location, order them from most to least severe.
 
 ### Accessibility
