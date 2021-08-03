@@ -10,26 +10,21 @@
   - If content isn't available for a required section, add a todo for
     future completion.
 -->
-
 ---
 name: Component name
 description: 1–2 sentence description of the component (including the description here keeps it visible above the Usage and Implementation tabs).
 figma: Link to component page or variant frame in Pajamas UI Kit (Figma)
 docs: upcoming | in-progress | complete
 a11y: upcoming | in-progress | complete
-gitlab_ui: Relative link to that component‘s /code tab. For example, /component/popover/code.
-
-<!--
-  RELATED VUE COMPONENTS should be added when available
-  Remove this section if there are no related vue components at this time. List them in alphabetical order.
--->
-
 vueComponents:
   - Related vue component name
-
 <!--
-  RELATED PATTERNS should be similar in usage/type of pattern, or if the component is also part of another component.
-  For example, a tooltip and a popover are similar constructs used for different purposes, or a button is its own component, but also present in a modal. Remove this section if there are no related patterns. List them in order of most to least related.
+  RELATED VUE COMPONENTS is used to pull the component from Storybook in order to generate the Implementation tab. Removing this will remove the Implementation tab for the component. List in alphabetical order.
+-->
+related:
+  - Related component or pattern name
+<!--
+  RELATED PATTERNS generates a list of links under a "Related" heading at the bottom of the rendered page. A related pattern should be similar in usage/type of pattern, or if the component is also part of another component. For example, a tooltip and a popover are similar constructs used for different purposes, or a button is its own component, but also present in a modal. Remove this section if there are no related patterns. List in order of most to least related. 
 
   EXAMPLE:
   related:
@@ -37,13 +32,9 @@ vueComponents:
     - badge
 -->
 
-related:
-  - Related component or pattern name
-
 ---
 
 ## Usage
-
 <!-- 
   LIVE CODED EXAMPLES are included here.
 
@@ -56,7 +47,6 @@ related:
 [View in Pajamas UI Kit →](link-to-page-or-frame)
 
 ## Structure
-
 <!--
   Include a simplified visual of the component with the sections and parts numbered to match the text reference below. Examples can be viewed in Figma at https://www.figma.com/file/2XRq1MnIG69iti76Mh9HpJ/Pajamas-visual-examples?node-id=39%3A0. Request access if needed to create a new visual. An ordered list should match the numbering in the visual. The section or part name should be the first item and use **bold** formatting.
 
@@ -68,13 +58,11 @@ related:
 1. …
 
 ## Guidelines
-
 <!--
   The Guidelines section contains the bulk of the page content. Sections are in the same order for every component and there's room where variable sections can be added.
 -->
 
 ### When to use
-
 <!--
   Include a few items in a bulleted list that clarify when to use this component. Be direct and try not to reference specific parts of GitLab to keep these guides evergreen and applicable to any GitLab property.
 
@@ -86,7 +74,6 @@ related:
 - …
 
 ### When not to use
-
 <!--
   Include a few items in a bulleted list that clarify when NOT to use this component. Be direct and try not to reference specific parts of GitLab to keep these guides evergreen and applicable to any GitLab property.
 
@@ -100,7 +87,6 @@ related:
 - …
 
 ### Variants
-
 <!--
   If the component has no variants, change this heading to "Appearance."
 
@@ -118,7 +104,6 @@ related:
 1. …
 
 ### Behavior
-
 <!--
   Bulleted list of items that describe the component behavior.
 
@@ -130,7 +115,6 @@ related:
 - …
 
 ### Content
-
 <!--
   Bulleted list of items that describe the content within the component. Use a subheading when multiple bullet points relate to one item.
 
@@ -162,7 +146,6 @@ related:
 <!-- End variable content -->
 
 ### Accessibility
-
 <!--
   Bulleted list of items that describe the accessibility considerations within the component.
 
@@ -174,7 +157,6 @@ related:
 - …
 
 ## Reference
-
 <!--
   An optional section for anecdotal comments on key decisions related to the component. This can also include notes about deprecated variants. Reference links should go to publicly available GitLab resources, like an issue, or the Docs site.
 -->
