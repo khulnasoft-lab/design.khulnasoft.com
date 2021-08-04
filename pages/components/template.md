@@ -20,6 +20,10 @@ vueComponents:
   - Related vue component name
 <!--
   `vueComponents` is used to pull the component from Storybook in order to generate the Implementation tab. Removing this will remove the Implementation tab for the component. List in alphabetical order.
+
+  EXAMPLE:
+  vueComponents:
+    - GlAlert
 -->
 related:
   - Related component or pattern name
@@ -31,20 +35,20 @@ related:
     - /layout/grid (link to pages that are not components using '/directory/pattern-name')
     - badge
 -->
-
 ---
 
-## Usage
+## Examples
 <!-- 
   LIVE CODED EXAMPLES are included here.
 
   EXAMPLE:
   [[Example:alert-variants]]
-
-  DESIGN SPECIFICATIONS, Update the link below to the component in the Pajamas UI Kit. In most cases this will be a link the component’s “Variants” frame. You can find this link by clicking on the “Variants” frame and then copying the link from the “Share” option. Follow the “Figma component” issue template in Pajamas to create the component.
 -->
 
 [View in Pajamas UI Kit →](link-to-page-or-frame)
+<!--
+  DESIGN SPECIFICATIONS, Update the link above to the component in the Pajamas UI Kit. In most cases this will be a link the component’s “Variants” frame. You can find this link by clicking on the “Variants” frame and then copying the link from the “Share” option. Follow the “Figma component” issue template in Pajamas to create the component.
+-->
 
 ## Structure
 <!--
@@ -103,6 +107,19 @@ related:
 1. **{variant}** description.
 1. …
 
+<!-- Begin variable content -->
+
+<!--
+  VARIABLE SECTIONS that relate to the component's visual appearance can be placed here. For example, sizes and states.
+
+  ### Heading
+
+  - …
+  - …
+-->
+
+<!-- End variable content -->
+
 ### Behavior
 <!--
   Bulleted list of items that describe the component behavior.
@@ -134,8 +151,7 @@ related:
 <!-- Begin variable content -->
 
 <!--
-  VARIABLE SECTIONS can be placed here. An example of variable sections
-  are size, alignment, and states.
+  VARIABLE SECTIONS that are unique to this component can be placed here. For example, alignment and combinations.
 
   ### Heading
 
