@@ -7,6 +7,8 @@ vueComponents:
   - GlBadge
 related:
   - label
+  - button
+  - tabs
 ---
 
 ## Examples
