@@ -47,7 +47,7 @@ related:
 
 [View in Pajamas UI Kit →](link-to-page-or-frame)
 <!--
-  DESIGN SPECIFICATIONS, Update the link above to the component in the Pajamas UI Kit. In most cases this will be a link the component’s “Variants” frame. You can find this link by clicking on the “Variants” frame and then copying the link from the “Share” option. Follow the “Figma component” issue template in Pajamas to create the component.
+  Update the design specifications link above to the component in the Pajamas UI Kit. In most cases this will be a link the component’s “Variants” frame. You can find this link by clicking on the “Variants” frame and then copying the link from the “Share” option. Follow the “Figma component” issue template in Pajamas to create the component.
 -->
 
 ## Structure
