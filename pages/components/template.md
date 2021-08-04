@@ -17,9 +17,9 @@ figma: Link to component page or variant frame in Pajamas UI Kit (Figma)
 docs: upcoming | in-progress | complete
 a11y: upcoming | in-progress | complete
 vueComponents:
-  - Related vue component name
+  - Related vue component name (For example, `GlButton`)
 <!--
-  RELATED VUE COMPONENTS is used to pull the component from Storybook in order to generate the Implementation tab. Removing this will remove the Implementation tab for the component. List in alphabetical order.
+  `vueComponents` is used to pull the component from Storybook in order to generate the Implementation tab. Removing this will remove the Implementation tab for the component. List in alphabetical order.
 -->
 related:
   - Related component or pattern name
