@@ -13,7 +13,6 @@ related:
 
 ## Examples
 
-[[Example:badge-basic]]
 
 [[Example:badge-variants]]
 
@@ -67,7 +66,8 @@ related:
 
 ### Content
 
-- Information can be represented by an icon, text (static or linked), or icon and text together.
+- Badge content is static by default, but can be linked, and in the form of an icon, text, or both.
+- 
 - Avoid long text strings.
 - When text overflows the width, it's truncated and aided by a [tooltip](/components/tooltip) (content doesn't wrap).
 - Text can be emphasized with **bold** weight, but use sparingly.
