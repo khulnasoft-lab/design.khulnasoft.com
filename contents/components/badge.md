@@ -74,10 +74,6 @@ related:
 - Text can contain not only words, but also numbers which act as _counters_ (for example, a number badge in a [tab](/components/tabs)).
 - When only using an icon, provide a [tooltip](/components/tooltip) with a brief explanation.
 
-### Combinations
-
-A badge can be used within a [button](/components/button) or a [tab](/components/tabs).
-
 ## Accessibility
 
 - When a badge only has an icon, the icon must use `aria-label` with text that identifies the metadata.
