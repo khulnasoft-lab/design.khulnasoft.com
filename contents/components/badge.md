@@ -66,7 +66,7 @@ related:
 
 ### Content
 
-- Badge content is static by default, but can be linked, and in the form of an icon, text, or both.
+- Information can be represented by an icon, text, or both together.
 - 
 - Avoid long text strings.
 - When text overflows the width, it's truncated and aided by a [tooltip](/components/tooltip) (content doesn't wrap).
