@@ -67,7 +67,6 @@ related:
 ### Content
 
 - Information can be represented by an icon, text, or both together.
-- 
 - Avoid long text strings.
 - When text overflows the width, it's truncated and aided by a [tooltip](/components/tooltip) (content doesn't wrap).
 - Text can be emphasized with **bold** weight, but use sparingly.
