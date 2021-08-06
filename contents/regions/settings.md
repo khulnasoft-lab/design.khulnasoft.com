@@ -41,18 +41,8 @@ To keep the experience of settings consistent, avoid using a combination of manu
 
 ### User feedback
 
-Error or failure messages should be displayed within the corresponding section.
-
-| **Do** | **Don't** |
-| ------ | --------- |
-| <figure class="figure" role="figure" aria-label="Keep message in its section."><img class="figure-img" src="/img/settings-error-do.png" alt="Message as in-page alert" role="img" /><figcaption class="figure-caption">Asynchronously save section, and display an in-page alert.</figcaption></figure> | <figure class="figure" role="figure" aria-label="Put message at top of page."><img class="figure-img" src="/img/settings-error-dont.png" alt="Message as page-level alert" role="img" /><figcaption class="figure-caption">Refresh the page, and display a page-level flash message.</figcaption></figure> |
-
-Display success messages as a toast rather than as an alert.
-
-| **Do** | **Don't** |
-| ------ | --------- |
-| <figure class="figure" role="figure" aria-label="Display toast message."><img class="figure-img" src="/img/settings-success-do.png" alt="Using a toast message" role="img" /><figcaption class="figure-caption">Asynchronously save section, and display a toast message.</figcaption></figure> | <figure class="figure" role="figure" aria-label="Put message at top of page."><img class="figure-img" src="/img/settings-success-dont.png" alt="Message as page-level alert" role="img" /><figcaption class="figure-caption">Refresh the page, and display a page-level flash message.</figcaption></figure> |
-
+- Use an [alert](/components/alert) for validation messages that are not directly correlated with an input (for example, failures). These alerts utilize [in-page placement](/components/alert#in-page) when data is saved asynchronously.
+- Use a [toast](/components/toast) for success messages that provide immediate confirmation of an action (for example, saving).
 ## Design specifications
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
