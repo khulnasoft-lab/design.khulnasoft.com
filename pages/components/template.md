@@ -17,7 +17,7 @@ figma: Link to component page or variant frame in Pajamas UI Kit (Figma)
 docs: upcoming | in-progress | complete
 a11y: upcoming | in-progress | complete
 vueComponents:
-  - Related vue component name
+  - Vue component name
 <!--
   `vueComponents` is used to pull the component from Storybook in order to generate the Implementation tab. Removing this will remove the Implementation tab for the component. List in alphabetical order.
 
@@ -68,7 +68,7 @@ related:
 
 ### When to use
 <!--
-  Include a few items in a bulleted list that clarify when to use this component. Be direct and try not to reference specific parts of GitLab to keep these guides evergreen and applicable to any GitLab property.
+  Include item(s) in a bulleted list that clarify when to use this component. Be direct and try not to reference specific parts of GitLab to keep these guides evergreen and applicable to any GitLab property.
 
   EXAMPLE:
   - Advise the user that they should be aware of, or address something related to their current context.
@@ -79,7 +79,7 @@ related:
 
 ### When not to use
 <!--
-  Include a few items in a bulleted list that clarify when NOT to use this component. Be direct and try not to reference specific parts of GitLab to keep these guides evergreen and applicable to any GitLab property.
+  Include item(s) in a bulleted list that clarify when NOT to use this component. Be direct and try not to reference specific parts of GitLab to keep these guides evergreen and applicable to any GitLab property.
 
   Here is a good place to reference an alternate component if it fits the use case better.
 
