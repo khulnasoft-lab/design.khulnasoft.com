@@ -13,9 +13,6 @@
 ---
 name: Component name
 description: 1–2 sentence description of the component (including the description here keeps it visible above the Usage and Implementation tabs).
-figma: Link to component page or variant frame in Pajamas UI Kit (Figma)
-docs: upcoming | in-progress | complete
-a11y: upcoming | in-progress | complete
 vueComponents:
   - Vue component name
 <!--
