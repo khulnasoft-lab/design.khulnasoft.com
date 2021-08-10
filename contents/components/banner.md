@@ -1,6 +1,6 @@
 ---
 name: Banner
-description: Banners promote user awareness for new features or high-priority research initiatives. Unlike [alerts](/components/alert), banners are solely for in-product marketing or for conveying information about a priority feature or study to the user.
+description: A banner promotes awareness of a new feature or high-priority research initiative.
 vueComponents:
   - GlBanner
 related:
@@ -26,20 +26,20 @@ related:
   <img class="figure-img" src="/img/banner-structure.svg" alt="Numbered diagram of a banner structure" role="img" />
 </figure>
 
-1. **Container**: Container that wraps the Banner content.
-1. **Illustration**: Illustration that compliments the Banner content.
-1. **Title**: Top level header for the Banner content.
-1. **Body**: The description in the Banner content.
-1. **Button**: The primary button used to take action within the Banner content.
-1. **Close**: The close icon that dismisses or removes the Banner.
+1. **Container**: Wraps the content.
+1. **Illustration** (optional): Compliments the content.
+1. **Title**: Header for the content.
+1. **Message**: Text content indicating the purpose and potential next steps.
+1. **Action**: A single button to provide an explicit action the user can take based on the message.
+1. **Dismissal**: Permanently removes the banner for a user.
 
 ## Guidelines
 
 ### When to use 
 
-- Inform a user of a feature that has yet to be enabled. For example, Auto DevOps.
-- Promote a new feature. For example, a free trial of GitLab Ultimate featuring the new squash commit functionality in merge requests.
-- Solicit user feedback. For example, evaluating a set of new features to help prioritize your roadmap through a survey. 
+- Inform a user of a feature that isn't enabled.
+- Promote a new feature.
+- Solicit user feedback. 
 
 ### When not to use
 
@@ -52,14 +52,19 @@ related:
 - **Promotion with Banner**: A promotional Banner with an illustration that encourages upgrading to new features.
 - **Basic Promotion**: Same as `Promotion with Banner`, but without an illustration.
 
-### Behaviors
+### Behavior
 
-- Title should be concise, describing the Banner content or feature being promoted.
-- Description describes the benefits of a feature, if encouraged to upgrade or to use that feature.
-- Banners do not reappear by default. In rare circumstances, you may present the banner again to a user after some time has passed.
-- Banners dismissed temporarily will reappear after **7 days**.
-- Primary button directs users to docs for an installation guide or to upgrade their plan to enable features.
+- A banner can always be dismissed.
+  - It doesn't reappear by default and in rare circumstances, the banner can appear again after some time has passed.
+  - When temporarily dismissed, it will reappear after **7 days**.
+- The action should direct a user to docs for an installation guide or to where they can upgrade their plan to enable a feature.
+
+### Content
+
+- Title should be concise and indicate the purpose of the banner.
+- The message describes the benefits of using or upgrading to a feature or the benefit of providing feedback.
+- An optional illustration uses the [medium](/product-foundations/illustration#medium) size, and supports the message.
 
 ### Accessibility
 
-- When an illustration is used, the illustration should be hidden from screen readers with `aria-hidden="true"`.
+- When an illustration is used, it should be hidden from screen readers with `aria-hidden="true"`.
