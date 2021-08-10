@@ -43,14 +43,13 @@ related:
 
 ### When not to use
 
-- Communicate when a feature has not yet been configured or used. For example, when the security dashboard needs further setup or no issues have been added to a project. Instead, use an [empty-state](https://design.gitlab.com/regions/empty-states).
-- Give tips and hints on the use of a feature. For example, configuring a review app. Instead, use a tip style [alert](/components/alert).
+- If you need to communicate that a feature hasn't been configured or used, consider using an [empty state](https://design.gitlab.com/regions/empty-states) instead.
+- If you're giving tips and hints for a feature, but it isn't necessarily new, consider the [tip alert variant](/components/alert#variants) instead.
 
 ### Variants
 
-- **Basic Introduction**: Provides a basic introduction to help users get started with an existing feature.
-- **Promotion with Banner**: A promotional Banner with an illustration that encourages upgrading to new features.
-- **Basic Promotion**: Same as `Promotion with Banner`, but without an illustration.
+- **Introduction**: Provide a basic introduction to help users get started with an existing feature. Illustration optional.
+- **Promotion**: A promotional message to encourage exploring or upgrading to a new feature. Illustration optional
 
 ### Behavior
 
