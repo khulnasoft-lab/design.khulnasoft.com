@@ -49,7 +49,7 @@ related:
 ### Variants
 
 - **Introduction**: Provide a basic introduction to help users get started with an existing feature. Illustration optional.
-- **Promotion**: A promotional message to encourage exploring or upgrading to a new feature. Illustration optional
+- **Promotion**: A promotional message to encourage exploring or upgrading to a new feature. Illustration optional.
 
 ### Behavior
 
@@ -62,7 +62,7 @@ related:
 
 - Title should be concise and indicate the purpose of the banner.
 - The message describes the benefits of using or upgrading to a feature or the benefit of providing feedback.
-- An optional illustration uses the [medium](/product-foundations/illustration#medium) size, and supports the message.
+- An optional [illustration](/product-foundations/illustration) uses the [medium](/product-foundations/illustration#medium) size, and supports the message.
 
 ### Accessibility
 
