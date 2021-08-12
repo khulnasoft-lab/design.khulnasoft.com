@@ -104,7 +104,7 @@ Use the visual style (variant) in combination with an icon or label to identify 
 ### Sizes
 
 - **Medium** (default): The medium button size is sufficient in most cases and provides the largest possible click target size.
-- **Small**: Decrease the size of a button to prevent it from competing with a primary button, or to decrease the overall size of a group or string of buttons.
+- **Small**: Decrease the size of a button to prevent it from competing with a primary button, or to decrease the overall size of a group or string of buttons. Don't use the small size for icon buttons, as the click target size can be too small.
 - **Block**: Expand the width of a button to fill the parent container which can help provide balance in mobile layouts.
 
 ### States
