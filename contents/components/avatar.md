@@ -19,7 +19,7 @@ Todo: Add group demo
 
 Todo: Add stack demo
 
-[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit-Beta?node-id=1833%3A2845)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A2)
 
 ## Structure
 
@@ -42,7 +42,7 @@ Todo: Add stack demo
 
 ### Variants
 
-1. **Ellipse**: An ellipse is used for a person.
+1. **Circle**: A circle is used for a person.
 1. **Square**: A rounded square is used for a group or project.
 
 ### Size
@@ -63,9 +63,10 @@ The size of an avatar varies depending upon its context. Common uses are listed 
 ### Content
 
 - An avatar image is added to a profile, group, or project by a user.
-  - An ellipse avatar for a user has a [Gravatar](https://gravatar.com) fallback of either a configured or randomly generated image.
+  - A circle avatar for a user has a [Gravatar](https://gravatar.com) fallback of either a configured or randomly generated image.
   - A square avatar uses a text fallback (identicon) where the text character is an abbreviation of the object it represents.
-- Text 
+- A text label identifies the subject of the avatar.
+- A text sub-label provides content or metadata for the label.
 
 ### Multiple avatars
 
