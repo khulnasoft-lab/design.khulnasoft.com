@@ -45,16 +45,10 @@ Todo: Add stack demo
 1. **Circle**: A circle is used for a person.
 1. **Square**: A rounded square is used for a group or project.
 
-### Size
+### Sizes
 
-The size of an avatar varies depending upon its context. Common uses are listed below, but are not prescriptive unless otherwise mentioned.
-
-- **16**: Used in a [breadcrumb](/components/breadcrumb) and other condensed areas of the UI.
-- **24**: The only size used in an [avatar group](#group), also the default for an [avatar stack](#stack).
-- **32**: The larger size for an [avatar stack](#stack).
-- **48**:
-- **64**: Used for group or project overview pages.
-- **96**: Used for user profile pages.
+- The size of an avatar varies depending upon its context.
+- **Available sizes** (in pixels): 16, 24, 32, 48, 64, 96.
 
 ### Behavior
 
