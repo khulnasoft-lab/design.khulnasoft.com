@@ -31,7 +31,7 @@ related:
 1. **Title**: Header for the content.
 1. **Message**: Text content indicating the purpose and potential next steps.
 1. **Action**: A single button to provide an explicit action the user can take based on the message.
-1. **Dismissal**: Permanently removes the banner for a user.
+1. **Dismissal**: Removes the banner for a user.
 
 ## Guidelines
 
@@ -62,7 +62,7 @@ related:
 
 - Title should be concise and indicate the purpose of the banner.
 - The message describes the benefits of using or upgrading to a feature or the benefit of providing feedback.
-- An optional [illustration](/product-foundations/illustration) uses the [medium](/product-foundations/illustration#medium) size, and supports the message.
+- An optional [illustration](/product-foundations/illustration) to support the message uses the [medium](/product-foundations/illustration#medium) illustration size.
 
 ### Accessibility
 
