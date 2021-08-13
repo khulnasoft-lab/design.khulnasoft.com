@@ -114,7 +114,7 @@ Scatter charts give a sense of the distribution and relative size of values.
 
 Gauge charts highlight the current value within the range of possible values for the metric.
 
-[[Example:gauge-basic]]
+[[Example:gauge-basic-chart]]
 
 ## Sparkline charts
 
