@@ -86,7 +86,7 @@ The size of an avatar varies depending upon its context. Common uses are listed 
 
 - Avatars form a horizontal stack when space is especially limited.
 - The number of avatars in a stack is variable, but should never cause wrapping.
-- Use a [badge](/components/badge) after the last avatar item to display the number of additional avatars.
+- Use a [badge](/components/badge) after the last avatar to display the number of avatars that aren't visible. It can optionally be an action that leads a user to more context for all associated avatars. 
 
 <figure class="figure" role="figure" aria-label="A horizontal avatar stack">
   <img class="figure-img" src="/img/avatar-stack.svg" alt="Three avatars slightly overlap each other in a horizontal row. A badge at the end includes the number of additional avatars that aren't visible" role="img" />
