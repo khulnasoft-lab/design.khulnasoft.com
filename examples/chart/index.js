@@ -1,5 +1,6 @@
 import ChartBasicExample from './chart.basic.example.vue';
 import ChartConnectedExample from './chart.connected.example.vue';
+import GaugeBasicExample from './gauge.basic.example.vue';
 
 export default [
   {
@@ -16,6 +17,12 @@ export default [
         name: 'Connected',
         description: 'Connected Charts',
         component: ChartConnectedExample,
+      },
+      {
+        id: 'gauge-basic',
+        name: 'Basic',
+        description: 'Basic Gauge',
+        component: GaugeBasicExample,
       },
     ],
   },
