@@ -64,6 +64,8 @@ Todo: Add stack demo
 
 ### Multiple avatars
 
+The following only applies to circle avatars.
+
 #### Group
 
 - A collection of avatars without labels can be grouped.
@@ -80,7 +82,7 @@ Todo: Add stack demo
 
 - Avatars form a horizontal stack when space is especially limited.
 - The number of avatars in a stack is variable, but should never cause wrapping.
-- Use a [badge](/components/badge) after the last avatar to display the number of avatars that aren't visible. It can optionally be an action that leads a user to more context for all associated avatars. 
+- Use a [badge](/components/badge) after the last avatar to display the number of avatars that aren't visible. It can optionally be an action that leads a user to more context for all associated avatars. The badge and avatar sizes should be the same.
 
 <figure class="figure" role="figure" aria-label="A horizontal avatar stack">
   <img class="figure-img" src="/img/avatar-stack.svg" alt="Three avatars slightly overlap each other in a horizontal row. A badge at the end includes the number of additional avatars that aren't visible" role="img" />
