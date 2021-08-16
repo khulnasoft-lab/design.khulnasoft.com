@@ -44,7 +44,8 @@ related:
 ### When not to use
 
 - If you need to communicate that a feature hasn't been configured or used, consider using an [empty state](https://design.gitlab.com/regions/empty-states) instead.
-- If you're giving tips and hints for a feature, but it isn't necessarily new, consider the [tip alert variant](/components/alert#variants) instead.
+- If you're giving tips and hints for an existing or established feature, consider the [tip alert variant](/components/alert#variants) instead.
+- If you need to communicate system status, consider using an [alert](/components/alert) instead.
 
 ### Variants
 
@@ -54,14 +55,16 @@ related:
 ### Behavior
 
 - A banner can always be dismissed.
-  - It doesn't reappear by default and in rare circumstances, the banner can appear again after some time has passed.
-  - When temporarily dismissed, it will reappear after **7 days**.
-- The action should direct a user to docs for an installation guide or to where they can upgrade their plan to enable a feature.
+  - It doesn't reappear by default, but in rare circumstances the banner can reappear after 7 days have passed.
+- The action should direct a user to one of the following:
+  - Docs for an installation guide.
+  - Where they can upgrade their plan to enable a feature.
+  - A format for contributing or providing feedback.
 
 ### Content
 
 - Title should be concise and indicate the purpose of the banner.
-- The message describes the benefits of using or upgrading to a feature or the benefit of providing feedback.
+- The message describes the benefits of performing the action.
 - An optional [illustration](/product-foundations/illustration) to support the message uses the [medium](/product-foundations/illustration#medium) illustration size.
 
 ### Accessibility
