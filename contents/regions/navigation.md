@@ -26,6 +26,8 @@ The left sidebar refers to the navigation that is contextual to each page. These
 ### Product landing pages
 Product landing pages are the top level pages in the left sidebar for Projects and Groups. For example, the Issue List page is the landing page for issues. These pages are used to display the most important functionality for that navigation category and when appropriate, facilitate navigation into related functionality.
 
+Product landing pages nav items should not be replaced by a sub nav item. Changing the menu like this reduces the learnability of the menu over time. 
+
 ### Sub nav group
 
 Each sub nav group should be a self-contained group of functionality, for example:
