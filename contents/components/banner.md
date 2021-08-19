@@ -37,6 +37,8 @@ related:
 
 ### When to use 
 
+A banner should be used sparingly and with consideration of its impact to neighboring components and the overall user experience to:
+
 - Inform a user of a feature that isn't enabled.
 - Promote a new feature.
 - Solicit user feedback. 
@@ -46,6 +48,7 @@ related:
 - If you need to communicate that a feature hasn't been configured or used, consider using an [empty state](https://design.gitlab.com/regions/empty-states) instead.
 - If you're giving tips and hints for an existing or established feature, consider the [tip alert variant](/components/alert#variants) instead.
 - If you need to communicate system status, consider using an [alert](/components/alert) instead.
+- If a user can't take immediate action, activate a feature, or benefit from the content, then the banner shouldn't be displayed.
 
 ### Variants
 
@@ -60,8 +63,6 @@ related:
   - Docs for an installation guide.
   - Where they can upgrade their plan to enable a feature.
   - A format for contributing or providing feedback.
-- Use sparingly and with consideration of other components in proximity.
-- Display to users who can take immediate action if they desire. Don't display to users who cannot activate the feature or benefit from its use.
 
 ### Content
 
