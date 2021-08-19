@@ -199,14 +199,14 @@ export default {
                     <a
                       :href="`${$options.gitlabOrgBaseUrl}issues?label_name%5B%5D=component%3A${componentLabel}`"
                     >
-                      Related issues
+                      Related {{ componentLabel }} issues
                     </a>
                   </li>
                   <li>
                     <a
                       :href="`${$options.gitlabOrgBaseUrl}merge_requests?label_name%5B%5D=component%3A${componentLabel}`"
                     >
-                      Related merge requests
+                      Related {{ componentLabel }} merge requests
                     </a>
                   </li>
                   <li>
