@@ -29,15 +29,6 @@ export default {
     GlExampleExplorer,
     RelatedPages,
   },
-  computed: {
-    componentLabel() {
-      const { section, slug } = this.$route.params;
-      if (section !== 'components') {
-        return null;
-      }
-      return componentNameToLabelMap[slug] || slug;
-    },
-  },
   props: {
     frontmatterInfo: {
       type: Object,
@@ -58,6 +49,15 @@ export default {
     return {
       title: this.frontmatterInfo.attributes.name,
     };
+  },
+  computed: {
+    componentLabel() {
+      const { section, slug } = this.$route.params;
+      if (section !== 'components') {
+        return null;
+      }
+      return componentNameToLabelMap[slug] || slug;
+    },
   },
   created() {
     this.componentAttributes = this.frontmatterInfo.attributes;
