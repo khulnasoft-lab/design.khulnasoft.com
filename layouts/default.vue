@@ -14,7 +14,6 @@ const componentNameToLabelMap = {
 };
 
 export default {
-  gitlabOrgBaseUrl: 'https://gitlab.com/groups/gitlab-org/-/',
   components: {
     Navbar,
   },
@@ -36,13 +35,6 @@ export default {
     },
     contentWrapper() {
       return this.$route.fullPath === '/' ? '' : 'content main';
-    },
-    componentLabel() {
-      const { section, slug } = this.$route.params;
-      if (section !== 'components') {
-        return null;
-      }
-      return componentNameToLabelMap[slug] || slug;
     },
   },
   mounted() {
@@ -105,20 +97,6 @@ export default {
             Open Web IDE
           </edit-this-page-link>
           <span class="footer-link-divider"></span>
-          <template v-if="componentLabel">
-            <a
-              :href="`${$options.gitlabOrgBaseUrl}issues?label_name%5B%5D=component%3A${componentLabel}`"
-            >
-              Related issues
-            </a>
-            <span class="footer-link-divider"></span>
-            <a
-              :href="`${$options.gitlabOrgBaseUrl}merge_requests?label_name%5B%5D=component%3A${componentLabel}`"
-            >
-              Related merge requests
-            </a>
-            <span class="footer-link-divider"></span>
-          </template>
           <nuxt-link to="/contribute/get-started">Please contribute</nuxt-link>
         </div>
         <p v-if="lastUpdatedAt" class="row justify-content-center m-t-5 p-b-5">
