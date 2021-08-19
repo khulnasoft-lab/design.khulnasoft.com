@@ -621,7 +621,7 @@ Note: When reporting on conformance with the WCAG 2.0 Success Criteria, they are
       </td>
       <td>
         <p>The product uses visual changes to elements to indicate the current focus position.</p>
-        <p>There are instances where a state change happens but does not include a visible focus indicator. There are other instances where the default browser focus ring is present and make lack sufficient contrast.</p>
+        <p>There are instances where a state change happens but does not include a visible focus indicator. There are other instances where the default browser focus ring is present and may lack sufficient contrast.</p>
       </td>
     </tr>
     <tr>
