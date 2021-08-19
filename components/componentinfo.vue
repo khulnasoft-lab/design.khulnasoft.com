@@ -10,12 +10,33 @@ import componentExamples from '../examples';
 import mdDisplay from './md_display.vue';
 import RelatedPages from './related_pages.vue';
 
+const componentNameToLabelMap = {
+  dropdowns: 'dropdown',
+  forms: 'form',
+  labels: 'label',
+  modals: 'modal',
+  'radio-button': 'radio',
+  tables: 'table',
+  tabs: 'tab',
+  toggles: 'toggle',
+};
+
 export default {
+  gitlabOrgBaseUrl: 'https://gitlab.com/groups/gitlab-org/-/',
   components: {
     'md-display': mdDisplay,
     GlComponentDocumentation,
     GlExampleExplorer,
     RelatedPages,
+  },
+  computed: {
+    componentLabel() {
+      const { section, slug } = this.$route.params;
+      if (section !== 'components') {
+        return null;
+      }
+      return componentNameToLabelMap[slug] || slug;
+    },
   },
   props: {
     frontmatterInfo: {
@@ -161,6 +182,45 @@ export default {
                 </div>
               </template>
             </div>
+          </gl-tab>
+          <gl-tab
+            title="Contribute"
+            class="p-t-3 js-gl-tab"
+            :active="this.$route.params.tab === 'contribute'"
+            @click.prevent="activateTab('contribute')"
+          >
+            <template v-if="componentLabel">
+              <div class="md typography">
+                <h2>Contribute to Pajamas components</h2>
+                <p>Use an <nuxt-link to="/get-started/contribute#contribute-an-issue">issue</nuxt-link> or <nuxt-link to="/get-started/contribute#contribute-a-merge-request">merge request</nuxt-link> to collaborate on the <strong>{{ componentLabel }}</strong> component.</p>
+
+                <ul>
+                  <li>
+                    <a
+                      :href="`${$options.gitlabOrgBaseUrl}issues?label_name%5B%5D=component%3A${componentLabel}`"
+                    >
+                      Related issues
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      :href="`${$options.gitlabOrgBaseUrl}merge_requests?label_name%5B%5D=component%3A${componentLabel}`"
+                    >
+                      Related merge requests
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/new"
+                    >
+                      Create a new issue</nuxt-link>
+                    </a>
+                  </li>
+                </ul>
+
+                <nuxt-link to="/contribute/get-started">Learn more about contributing to Pajamas</nuxt-link>
+              </div>
+            </template>
           </gl-tab>
         </gl-tabs>
       </div>
