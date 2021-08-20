@@ -2,17 +2,6 @@
 import { mapState, mapMutations } from 'vuex';
 import Navbar from '../components/navbar.vue';
 
-const componentNameToLabelMap = {
-  dropdowns: 'dropdown',
-  forms: 'form',
-  labels: 'label',
-  modals: 'modal',
-  'radio-button': 'radio',
-  tables: 'table',
-  tabs: 'tab',
-  toggles: 'toggle',
-};
-
 export default {
   components: {
     Navbar,
