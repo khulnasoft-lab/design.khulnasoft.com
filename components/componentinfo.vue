@@ -192,7 +192,14 @@ export default {
             <template v-if="componentLabel">
               <div class="md typography">
                 <h2>Contribute to Pajamas components</h2>
-                <p>Use an <nuxt-link to="/get-started/contribute#contribute-an-issue">issue</nuxt-link> or <nuxt-link to="/get-started/contribute#contribute-a-merge-request">merge request</nuxt-link> to collaborate on the <strong>{{ componentLabel }}</strong> component.</p>
+                <p>
+                  Use an
+                  <nuxt-link to="/get-started/contribute#contribute-an-issue">issue</nuxt-link> or
+                  <nuxt-link to="/get-started/contribute#contribute-a-merge-request"
+                    >merge request</nuxt-link
+                  >
+                  to collaborate on the <strong>{{ componentLabel }}</strong> component.
+                </p>
 
                 <ul>
                   <li>
@@ -213,12 +220,14 @@ export default {
                     <a
                       href="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/new"
                     >
-                      Create a new issue</nuxt-link>
+                      Create a new issue
                     </a>
                   </li>
                 </ul>
 
-                <nuxt-link to="/contribute/get-started">Learn more about contributing to Pajamas</nuxt-link>
+                <nuxt-link to="/contribute/get-started"
+                  >Learn more about contributing to Pajamas</nuxt-link
+                >
               </div>
             </template>
           </gl-tab>
