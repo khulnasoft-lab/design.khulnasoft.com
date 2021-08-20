@@ -28,7 +28,7 @@ A combination of two date pickers can be used for selecting a range of dates. Th
 - The order of the “From” and “To” date input fields should match the user’s reading direction setting (left-to-right or right-to-left). On mobile devices, the two date input fields are full-width and stacked so the user’s reading direction shouldn’t have an effect on the order—the starting date field (“From”) is always on top, the ending date field (“To”) is always on the bottom.
 - Once a user selects the starting date (“From”), the date picker for the ending date (“To”) should only allow them to pick a date that is either equal or after that. The days preceding the start date should be disabled and thus not selectable.
 - The default month shown in the date picker dropdown should be the current month (M). If the user picks a start date (“From”) that’s in the future (for example M+1), the default month shown for the ending date (“To”) date picker dropdown should be that same month (M+1) and not the current month (M). This doesn’t apply for starting dates selected in the past.
-- When the date range has a limit on the number of days selectable, include the daterange indicator. 
+- When the date range has a limit on the number of days selectable, include the date range indicator. This is necessary until the date range component supports constraints, which will be addressed in [#601](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/601).
 
 [[Example:basic-daterange-picker]]
 
