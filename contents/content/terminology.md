@@ -113,15 +113,15 @@ Related: You can _sign out_ through the _sign-out_ screen.
 
 ### Download and Export
 
-Use "Download" when saving a copy of data to the user's device. The data is already represented by files in GitLab.
+Use `Download` when saving a copy of data to the user's device. The data is already represented by files in GitLab.
 
-Example: I want to download pipeline artifacts.
+- **Example:** I want to download pipeline artifacts.
 
-Use "Export" when translating data into one (or more) standard format(s), which can then be imported elsewhere.
-The data is NOT represented by files in GitLab, but needs to be translated into files. Often there are some export
+Use `Export` when translating data into one (or more) standard format(s), which can then be imported elsewhere.
+The data is _not_ represented by files in GitLab, but needs to be translated into files. Often there are some export
 options to tweak the output. 
 
-Example: I want to export the content of a Vulnerability Report to CSV format.
+- **Example:** I want to export the content of a Vulnerability Report to CSV format.
 
 For a user, one difference between these two can be the duration of each. The duration of a _download_ is primarily
 dependent on the user's network speed, while the duration of an _export_ is primarily dependent on the data
