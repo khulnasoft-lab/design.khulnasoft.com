@@ -122,7 +122,3 @@ The data is _not_ represented by files in GitLab, but needs to be translated int
 options to tweak the output. 
 
 - **Example:** I want to export the content of a Vulnerability Report to CSV format.
-
-For a user, one difference between these two can be the duration of each. The duration of a _download_ is primarily
-dependent on the user's network speed, while the duration of an _export_ is primarily dependent on the data
-collation phase.
