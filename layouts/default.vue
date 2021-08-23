@@ -86,7 +86,7 @@ export default {
             Open Web IDE
           </edit-this-page-link>
           <span class="footer-link-divider"></span>
-          <nuxt-link to="/contribute/get-started">Please contribute</nuxt-link>
+          <nuxt-link to="/get-started/contribute">Please contribute</nuxt-link>
         </div>
         <p v-if="lastUpdatedAt" class="row justify-content-center m-t-5 p-b-5">
           Last updated at:&nbsp;<time :datetime="frontmatter.lastUpdatedAt">{{
