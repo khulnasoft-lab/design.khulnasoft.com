@@ -225,7 +225,7 @@ export default {
                   </li>
                 </ul>
 
-                <nuxt-link to="/contribute/get-started"
+                <nuxt-link to="/get-started/contribute"
                   >Learn more about contributing to Pajamas</nuxt-link
                 >
               </div>
