@@ -7,6 +7,7 @@ import {
 
 import componentExamples from '../examples';
 
+import ContributeToComponent from './contribute_to_component.vue';
 import mdDisplay from './md_display.vue';
 import RelatedPages from './related_pages.vue';
 
@@ -22,8 +23,8 @@ const componentNameToLabelMap = {
 };
 
 export default {
-  gitlabOrgBaseUrl: 'https://gitlab.com/groups/gitlab-org/-/',
   components: {
+    ContributeToComponent,
     'md-display': mdDisplay,
     GlComponentDocumentation,
     GlExampleExplorer,
@@ -184,52 +185,13 @@ export default {
             </div>
           </gl-tab>
           <gl-tab
+            v-if="componentLabel"
             title="Contribute"
             class="p-t-3 js-gl-tab"
             :active="this.$route.params.tab === 'contribute'"
             @click.prevent="activateTab('contribute')"
           >
-            <template v-if="componentLabel">
-              <div class="md typography">
-                <h2>Contribute to Pajamas components</h2>
-                <p>
-                  Use an
-                  <nuxt-link to="/get-started/contribute#contribute-an-issue">issue</nuxt-link> or
-                  <nuxt-link to="/get-started/contribute#contribute-a-merge-request"
-                    >merge request</nuxt-link
-                  >
-                  to collaborate on the <strong>{{ componentLabel }}</strong> component.
-                </p>
-
-                <ul>
-                  <li>
-                    <a
-                      :href="`${$options.gitlabOrgBaseUrl}issues?label_name%5B%5D=component%3A${componentLabel}`"
-                    >
-                      Related {{ componentLabel }} issues
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      :href="`${$options.gitlabOrgBaseUrl}merge_requests?label_name%5B%5D=component%3A${componentLabel}`"
-                    >
-                      Related {{ componentLabel }} merge requests
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/new"
-                    >
-                      Create a new issue
-                    </a>
-                  </li>
-                </ul>
-
-                <nuxt-link to="/get-started/contribute"
-                  >Learn more about contributing to Pajamas</nuxt-link
-                >
-              </div>
-            </template>
+            <contribute-to-component :component-label="componentLabel" />
           </gl-tab>
         </gl-tabs>
       </div>
