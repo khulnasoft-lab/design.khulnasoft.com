@@ -57,11 +57,8 @@ export default {
       }, 0);
     });
   },
-  created() {
-    this.setActiveNavItem(this.$route.fullPath);
-  },
   methods: {
-    ...mapMutations(['setActiveNavItem', 'toggleSidebar', 'closeSidebar']),
+    ...mapMutations(['toggleSidebar', 'closeSidebar']),
   },
 };
 </script>
