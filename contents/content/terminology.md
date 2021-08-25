@@ -99,17 +99,17 @@ Buttons that copy content to the clipboard don’t need the “to clipboard” p
 
 Todo: Add comprehensive list of terminology Do/Don’t
 
-## Frequently confused nouns / verbs
+## Frequently confused words
 
 ### Authentication: sign in and sign-in
 
 As noted in our [Documentation style guide](https://docs.gitlab.com/ee/development/documentation/styleguide.html#other-terms),
-we use "sign in" (verb) and "sign-in" (noun) instead of
-"log in" (verb) and "login" (noun).
+we use `sign in` (verb) and `sign-in` (noun) instead of
+`log in` (verb) and `login` (noun).
 
-Usage: You can _sign in_ using the _sign-in_ screen.
+- **Usage:** You can _sign in_ using the _sign-in_ screen.
 
-Related: You can _sign out_ through the _sign-out_ screen.
+- **Related:** You can _sign out_ through the _sign-out_ screen.
 
 ### Download and Export
 
