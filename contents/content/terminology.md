@@ -108,7 +108,6 @@ we use `sign in` (verb) and `sign-in` (noun) instead of
 `log in` (verb) and `login` (noun).
 
 - **Usage:** You can _sign in_ using the _sign-in_ screen.
-
 - **Related:** You can _sign out_ through the _sign-out_ screen.
 
 ### Download and Export
