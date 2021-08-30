@@ -114,3 +114,30 @@
     width: 100%;
   }
 }
+
+.components-list {
+  display: grid;
+  gap: 36px;
+  grid: 1fr / repeat(3, 1fr);
+
+  .component-card {
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    background: white;
+    border: 1px solid #dbdbdb;
+
+    &:hover {
+      text-decoration: none;
+      color: black;
+    }
+
+    .component-info {
+
+      p {
+        line-height: inherit;
+        font-size: inherit;
+      }
+    }
+  }
+}
