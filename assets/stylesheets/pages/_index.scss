@@ -114,3 +114,38 @@
     width: 100%;
   }
 }
+
+.components-list {
+  display: grid;
+  gap: 36px;
+  grid: 1fr / repeat(3, 1fr);
+  list-style: none;
+  padding-left: 0 !important;
+
+  li {
+    display: flex;
+
+    .component-card {
+      text-decoration: none;
+      color: black;
+      border-radius: 3px;
+      background: white;
+      border: 1px solid #dbdbdb;
+      overflow: hidden;
+      padding: 16px;
+      width: 100%;
+
+      p {
+        line-height: inherit;
+        font-size: inherit;
+      }
+  
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        color: black;
+        border-color: #b9b9b9;
+      }
+    }
+  }
+}
