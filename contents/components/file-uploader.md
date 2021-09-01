@@ -19,8 +19,17 @@ docs: in-progress
 1. **File name**: Name of the file once uploaded to the frontend.
 1. **Removal**: Icon button that removes the file uploaded to the frontend.
 1. **Help text**: Help text describing the upload process or requirements.
+1. **Submit**: Once uploaded to the frontend, submits the file to the system.
 
-<!-- Old docs below -->
+## Guidelines
+
+### When to use
+
+- Users need to upload one or more files to the system.
+
+### Behavior
+
+- 
 
 ## Usage
 
