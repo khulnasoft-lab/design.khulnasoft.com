@@ -1,9 +1,26 @@
 ---
 name: File uploader
+description: File uploaders are used to upload files from your computer or device. The accepted file types will be determined by the context of the file uploader.
 docs: in-progress
 ---
 
-File uploaders are used to upload files from your computer or device. The accepted file types will be determined by the context of the file uploader.
+## Examples
+
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=8000%3A0)
+
+## Structure
+
+<figure class="figure" role="figure" aria-label="File uploader structure">
+  <img class="figure-img" src="/img/file-uploader-structure.svg" alt="Numbered diagram of a file uploader structure" role="img" />
+</figure>
+
+1. **Title**: Title giving context to the file uploader.
+1. **Button**: Button that triggers the file upload process.
+1. **File name**: Name of the file once uploaded to the frontend.
+1. **Removal**: Icon button that removes the file uploaded to the frontend.
+1. **Help text**: Help text describing the upload process or requirements.
+
+<!-- Old docs below -->
 
 ## Usage
 
