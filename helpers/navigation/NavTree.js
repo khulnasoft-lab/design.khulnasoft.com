@@ -81,7 +81,7 @@ export class NavTree {
 
   /**
    * Attempts to find the node that matches a list of paths.
-   * Since, multiple nodes could have the same path, we also check all of the matching nodes'
+   * Since, multiple nodes could have the same path, we also check all of the matching node's
    * parents to make sure the whole branch matches the paths list.
    *
    * @param {Array} paths Paths to be matched against.
