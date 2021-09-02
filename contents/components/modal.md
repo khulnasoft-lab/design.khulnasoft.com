@@ -1,5 +1,6 @@
 ---
 name: Modal
+description: Modals are used to reveal critical information, show information without losing context, or when the system requires a user response.
 figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A129
 docs: complete
 gitlab_ui: /components/modal/code
@@ -13,6 +14,27 @@ related:
   - toast
   - tooltip
 ---
+
+## Examples
+
+[[Example:modal-sizes]]
+
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=4263%3A21)
+
+## Structure
+
+<figure class="figure" role="figure" aria-label="Modal structure">
+  <img class="figure-img" src="/img/modal-structure.svg" alt="Numbered diagram of a modal structure" role="img" />
+</figure>
+
+1. **Wrapper**: Contains the modal dialog. 
+1. **Title**: Title giving context to the modal dialog.
+1. **Dialog**: Modal dialog container.
+1. **Dismissal**: Icon to dismiss the modal.
+1. **Message**: Modal description.
+1. **Actions**: Buttons to take action from the modal.
+
+<!-- Old docs -->
 
 Modals are used to reveal critical information, show information without losing context, or when the system requires a user response. Modals can also fragment a complex workflow into simpler steps and should serve a single purpose dedicated to completing the user's task.
 
