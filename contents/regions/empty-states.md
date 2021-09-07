@@ -40,6 +40,20 @@ Empty states differ from [banners](/components/banner) in that they are not inte
 
 [See banners for more usage information](/components/banner)
 
+## Variants
+
+### Blank content
+
+A `Blank content` empty state serves as a placeholder when no content exists on a page. It should contain a call to action that triggers the creation of content. 
+
+### Configuration required
+
+A `Configuration required` empty state serves as a placeholder for features that need to be configured in order to create content.
+
+### Empty search results
+
+A `Empty search results` empty state serves as a placeholder when there are no search results after doing a search or filtering results. If there is no content to search or filter, use a `Blank content` empty state. 
+
 ## Demo
 
 [[Example:empty-state-multiple-buttons]]
