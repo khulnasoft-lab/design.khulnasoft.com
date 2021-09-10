@@ -35,11 +35,6 @@ related:
 
 - If you need to link to sibling or related pages, use a form of [navigation](/regions/navigation) instead.
 
-### Appearance
-
-- A horizontal list of one or more links separated by a chevron.
-- A breadcrumb is one line by default.
-
 ### Behavior
 
 - Use an [ellipsis button](/components/button) to hide groups when there are three or more subgroups in the path.
