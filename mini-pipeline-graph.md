@@ -13,7 +13,7 @@ A mini pipeline graph is a visualization of a CI/CD pipeline. It shows the statu
 
 A mini pipeline graph can be used in different layouts throughout the product as a way to monitor the pipeline run and navigate between the pipelines stages and jobs.
 
-### When to use a mini pipeline graph
+### When to use
 
 - When it's necessary to communicate the status of the different pipeline stages and jobs in one place.
 
