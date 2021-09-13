@@ -15,7 +15,7 @@ A mini pipeline graph can be used in different layouts throughout the product as
 
 ### When to use
 
-- When it's necessary to communicate the status of the different pipeline stages and jobs in one place.
+- Communicate the status of the different pipeline stages and jobs in one place.
 
 ### When not to use single stat
 
