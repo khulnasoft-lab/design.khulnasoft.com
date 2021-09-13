@@ -7,7 +7,7 @@ gitlab_ui: upcoming
 
 ---
 
-A mini pipeline graph is a visualisation of a CI/CD pipeline. It shows the status of the pipeline stages and downstream or upstream pipelines, and allows to view the status and navigate between the individual jobs of the pipeline.
+A mini pipeline graph is a visualization of a CI/CD pipeline. It shows the status of the pipeline stages and downstream or upstream pipelines. A user is able to navigate between individual pipeline jobs.
 
 ## Usage
 
