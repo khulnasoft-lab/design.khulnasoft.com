@@ -17,7 +17,7 @@ A mini pipeline graph can be used in different layouts throughout the product as
 
 - Communicate the status of the different pipeline stages and jobs in one place.
 
-### When not to use single stat
+### When not to use
 
 - To display the status of the whole pipeline. A pipeline status badge should be used in that case.
 
