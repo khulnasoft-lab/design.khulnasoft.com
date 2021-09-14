@@ -408,13 +408,13 @@
           {
             "title": "Content",
             "path": "content"
+          },
+          {
+            "title": "Mini pipeline graph",
+            "path": "/contents/data-visualization/mini-pipeline-graph"
           }
         ]
       }
-      {
-        "title": "Mini pipeline graph",
-        "path": "/contents/data-visualization/mini-pipeline-graph"
-      },
     ]
   }
 ]
