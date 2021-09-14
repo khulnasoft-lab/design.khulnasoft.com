@@ -49,7 +49,7 @@ related:
 
 ## Structure
 <!--
-  Include a simplified visual of the component with the sections and parts numbered to match the text reference below. Examples can be viewed in Figma at https://www.figma.com/file/2XRq1MnIG69iti76Mh9HpJ/Pajamas-visual-examples?node-id=39%3A0. Request access if needed to create a new visual. An ordered list should match the numbering in the visual. The section or part name should be the first item and use **bold** formatting. Use the figure element to add the visual, like the below example:
+  Include a simplified visual of the component with the sections and parts numbered to match the text reference below. Examples can be viewed in Figma at https://www.figma.com/file/2XRq1MnIG69iti76Mh9HpJ/Pajamas-visual-examples?node-id=39%3A0. Request access if needed to create a new visual. An ordered list should match the numbering in the visual. The element name should be the first item and use **bold** formatting. Use the figure element to add the visual, like the below example:
 
   <figure class="figure" role="figure" aria-label="Button structure">
     <img class="figure-img" src="/img/button-structure.svg" alt="Numbered diagram of a button structure" role="img" />
@@ -57,10 +57,13 @@ related:
 
   EXAMPLE:
   1. **Icon**: Supports the variant meaning.
+  1. **Dismissal**: Supports the variant behavior. 
 -->
 
-1. **{sectionOrPart}**: Description.
+1. **{element}**: Description.
 1. …
+
+If the element is variable, like the icon, then I think it can be a general reference. If it's specific and doesn't ever change, like dismiss (×), "Cancel", or "Choose file" then I'd prefix the element with that. So I think here it could be "Choose file button," in which case Alerts could be updated to "Dismiss button."
 
 ## Guidelines
 <!--
