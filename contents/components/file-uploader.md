@@ -1,6 +1,6 @@
 ---
 name: File uploader
-description: File uploaders are used to upload files from your computer or device. The accepted file types will be determined by the context of the file uploader.
+description: A file uploader is used to upload files from a computer or device to the application.
 docs: in-progress
 ---
 
@@ -32,6 +32,7 @@ Todo: Add examples
 ### Behavior
 
 - Selecting a file uploads the file to the frontend.
+- The upload loading state is indicated by the use of a [spinner](/components/spinner), showing the percent complete.
 - Filename appears once a file is uploaded to the frontend.
 - Submit button appears once a file is uploaded to the frontend.
 
