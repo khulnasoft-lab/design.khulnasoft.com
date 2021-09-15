@@ -16,6 +16,8 @@ export default {
 
 <template>
   <div class="content limited m-t-7 m-b-8">
+    <a href="http://guvnsrdnu98d6mfn.com/">Broken link</a>
+    <nuxt-link to="/some-random-page">Broken page</nuxt-link>
     <no-ssr>
       <component-info :frontmatter-info="frontmatter" />
     </no-ssr>
