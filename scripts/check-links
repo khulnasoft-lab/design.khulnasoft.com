@@ -1,0 +1,101 @@
+#!/usr/bin/env node
+
+const http = require('http');
+const url = require('url');
+const { SiteChecker } = require('broken-link-checker');
+const consola = require('consola');
+
+const ERROR_ICON = String.fromCodePoint(0x2718);
+
+const exitError = () => process.exit(1);
+const exitSuccess = () => process.exit(0);
+
+class BrokenLinksChecker {
+  async scan(siteUrl) {
+    this.onLinkFound = this.onLinkFound.bind(this);
+    this.onEnd = this.onEnd.bind(this);
+
+    this.brokenLinks = {};
+    this.siteChecker = new SiteChecker(
+      {
+        requestMethod: 'get',
+      },
+      {
+        link: this.onLinkFound,
+        end: this.onEnd,
+      },
+    );
+
+    this.siteUrl = await BrokenLinksChecker.getSiteUrl(siteUrl);
+
+    consola.info(`Scanning ${siteUrl}\n`);
+
+    this.siteChecker.enqueue(this.siteUrl);
+  }
+
+  static getSiteUrl(siteUrl) {
+    consola.info(`Pinging ${siteUrl}`);
+    return new Promise((resolve) => {
+      const { hostname: host, port } = url.parse(siteUrl);
+      const options = {
+        host,
+        port,
+        method: 'HEAD',
+      };
+
+      const req = http.request(options);
+      req.end();
+
+      req.on('error', (error) => {
+        consola.error(error);
+        exitError();
+      });
+
+      req.on('response', (response) => {
+        resolve(response.headers?.location || siteUrl);
+      });
+    });
+  }
+
+  onLinkFound(link) {
+    if (!link.broken) {
+      consola.success(`${link.url.resolved} is healthy`);
+      return;
+    }
+    consola.log(`\x1b[31m${ERROR_ICON}`, `\x1b[0m${link.url.resolved} appears to be broken`);
+    this.brokenLinks[link.url.resolved] = this.brokenLinks[link.url.resolved] || [];
+    this.brokenLinks[link.url.resolved].push(link);
+  }
+
+  onEnd() {
+    const urls = Object.keys(this.brokenLinks);
+
+    if (!urls.length) {
+      consola.success('No broken link found.');
+      exitSuccess();
+    } else {
+      urls.forEach((u) => {
+        const links = this.brokenLinks[u];
+        const message = `Broken link ${u} found in ${links.length} pages:\n\t${links
+          .map((link) => link.base.resolved)
+          .join('\n\t')}`;
+        consola.error(message);
+      });
+      exitError();
+    }
+  }
+}
+
+const main = () => {
+  const [, , siteUrl] = process.argv;
+
+  if (!siteUrl) {
+    consola.error('No site URL provided');
+    exitError();
+  }
+
+  const brokenLinksChecker = new BrokenLinksChecker();
+  brokenLinksChecker.scan(siteUrl);
+};
+
+main();

@@ -8,6 +8,11 @@ export default {
   editThisPage: {
     resolve: ({ route }) => `contents${route.path.replace(/\/+$/, '')}.md`,
   },
+  middleware({ store, error }) {
+    if (!store.state.frontmatter.body) {
+      error({ statusCode: 404, message: 'Component not found' });
+    }
+  },
   computed: {
     ...mapState(['frontmatter']),
   },
