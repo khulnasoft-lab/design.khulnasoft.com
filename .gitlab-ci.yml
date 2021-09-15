@@ -105,6 +105,9 @@ default:
   tags:
     - gitlab-org
 
+# .node:
+#   image: node:14-buster
+
 variables:
   # KUBE_INGRESS_BASE_DOMAIN is the application deployment domain and should be set as a variable at the group or project level.
   # KUBE_INGRESS_BASE_DOMAIN: domain.example.com
@@ -175,3 +178,14 @@ semantic-release:
   only:
     refs:
       - main
+
+broken-links:
+  stage: dast
+  image: node:14-buster
+  # needs:
+  #   - job: review
+  #     artifacts: true
+  script:
+    - export REVIEW_APP_URL=${REVIEW_APP_URL:-$(cat environment_url.txt)}
+    - yarn --frozen-lockfile
+    - node ./check-links.js
