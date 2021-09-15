@@ -37,6 +37,7 @@ Todo: Add toast examples.
 
 - If you need to communicate an error to a user, consider using a [danger or warning alert](/components/alert#variants) instead.
 - If there's a page refresh, or a message needs to be communicated after a user visits a new page, consider using an [alert](/components/alert) instead.
+- If the action is irreversible, consider using a [modal](/components/modal) instead.
 
 ### Behavior
 
