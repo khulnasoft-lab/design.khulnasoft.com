@@ -24,6 +24,21 @@ const cspPolicies = [
   "connect-src 'self' https://sentry.gitlab.net",
 ];
 
+const headScripts = [];
+
+const { CI_PROJECT_ID, CI_MERGE_REQUEST_IID, CI_PROJECT_PATH } = process.env;
+console.log('visual review tool env vars', CI_PROJECT_ID, CI_MERGE_REQUEST_IID, CI_PROJECT_PATH);
+if (CI_PROJECT_ID && CI_MERGE_REQUEST_IID && CI_PROJECT_PATH) {
+  headScripts.push({
+    'data-project-id': CI_PROJECT_ID,
+    'data-merge-request-id': CI_MERGE_REQUEST_IID,
+    'data-mr-url': 'https://gitlab.com',
+    'data-project-path': CI_PROJECT_PATH,
+    id: 'review-app-toolbar-script',
+    src: 'https://gitlab.com/assets/webpack/visual_review_toolbar.js',
+  });
+}
+
 module.exports = {
   /*
    ** Headers of the page
@@ -76,6 +91,7 @@ module.exports = {
         sizes: '16x16',
       },
     ],
+    script: headScripts,
     bodyAttrs: {
       class: 'ui-indigo',
       tabindex: '-1',
