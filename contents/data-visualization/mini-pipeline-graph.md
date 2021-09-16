@@ -1,6 +1,6 @@
 ---
 name: Mini pipeline graph
-figma: TBD
+figma: https://www.figma.com/file/17NxNEMa7i28Is8sMetO2H/Data-Visualization?node-id=1006%3A1674
 docs: complete
 a11y: upcoming
 gitlab_ui: upcoming
