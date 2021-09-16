@@ -19,7 +19,7 @@ A mini pipeline graph can be used in different layouts throughout the product as
 
 ### When not to use
 
-- To display the status of the whole pipeline. A pipeline status badge should be used in that case.
+- If you need to display the status of the pipeline as a whole, use a pipeline status [badge](/components/badge).
 
 ## Demo
 
