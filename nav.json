@@ -288,6 +288,10 @@
           {
             "title": "Single stat",
             "path": "single-stat"
+          },
+           {
+            "title": "Mini pipeline graph",
+            "path": "/contents/data-visualization/mini-pipeline-graph"
           }
         ]
       },
@@ -408,10 +412,6 @@
           {
             "title": "Content",
             "path": "content"
-          },
-          {
-            "title": "Mini pipeline graph",
-            "path": "/contents/data-visualization/mini-pipeline-graph"
           }
         ]
       }
