@@ -9,6 +9,9 @@ set -euo pipefail; IFS=$'\n\t'
 # Setting the NODE_ENV to production if it isn't set
 export NODE_ENV=${NODE_ENV:-production}
 
+export CI_PROJECT_ID=${CI_PROJECT_ID:-production}
+echo "CI_PROJECT_ID = $CI_PROJECT_ID"
+
 if [[ "$NODE_ENV" == "test" ]]; then
     echo "We are not running \`nuxt generate\` when $NODE_ENV is set to 'test'"
 else
