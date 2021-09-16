@@ -33,7 +33,7 @@ Todo: Add mini pipeline example
 
 A 3-stage pipeline with an upstream and a downstream pipelines.
 
-Example TBD
+Todo: Add upstream/downstream mini pipeline example
 
 ## Design specifications
 
