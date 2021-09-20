@@ -29,21 +29,6 @@ The left sidebar refers to the navigation that is contextual to each page. These
 
 A top-level menu item is the first anchor the appears within the left sidebar. These pages are used to display the most important functionality for that navigation category and when appropriate, facilitate navigation into related functionality. A top-level menu item may contain sub nav group containing multiple related items.
 
-### Messaging changes to users
-
-Making changes to our Navigation structure is necessary in order to ensure we are providing the best possible user experience. The following guidance ensures we are using appropriate in-app messaging based on feature usage: 
-
-- **None required:** No in-app messaging is required if a feature has less than 0.025% of clicks per active user per month.
-- **Subsequent:** An in-app [toast](/components/toast) or [broadcast message](/components/toast) is required after moving a top-level menu item if that item has between 0.026%-0.99% of clicks per active user per month.
-- **Advanced:** An advanced in-app [alert](/components/alert) is required if a feature has equal to or greater than 0.1% of clicks per active user per month. Advanced notice should be in place for at least one milestone.
-- **Temporary opt-in:** If more than 5 top-level navigation items are being changed that have a combined 5% of clicks per active users per month, a temporary opt-in method should be provided for at least 2 milestones. Temporary opt-in provides time to communicate major navigation overhauls while also allowing a user to preview changes.
-
-Consider the following for all top-level menu item changes:
-
-- Documentation should always be updated.
-- All changes should be included in the release post.
-- A canary rollout may also be used in order to slowly roll out the change to user's over time in order to get feedback early prior to releasing to all users.
-
 #### Sub-nav groups
 
 Each sub-nav group should be a self-contained group of functionality, for example:
