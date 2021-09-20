@@ -27,7 +27,7 @@ The left sidebar refers to the navigation that is contextual to each page. These
 
 ### Top-level menu items
 
-A top-level menu item is the first anchor the appears within the left sidebar. These pages are used to display the most important functionality for that navigation category and when appropriate, facilitate navigation into related functionality. A top-level menu item may contain sub nav group containing multiple related items.
+A top-level menu item is the first anchor that appears within the left sidebar. These pages are used to display the most important functionality for that navigation category. A top-level menu item may contain a sub-nav group with multiple related items in it.
 
 #### Sub-nav groups
 
