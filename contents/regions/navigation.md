@@ -40,7 +40,7 @@ The default active item should be the first sub nav group item.
 
 In some cases, items within a sub nav group may change depending on the context, permissions, and roles. For example, the admin area may include more or less items under a top-level menu item than a group or project. When this occurs, the top-level menu item should remain consistent, even if there is only one sub-menu item. The reason for top-level menu consistency is to reduce the cognitive effort needed from users to understand the navigation and task hierarchy. For example, we should not replace **CI/CD** with **Runners** or **Infrastructure** with **Terraform** as the top-level menu item in the sidebar.
 
-### Behavior 
+### Behavior
 
 - A cookie is set to remember a user's preference between collapsed or expanded.
 - For medium and large viewports, the left sidebar is collapsed. When expanded manually, it overlaps the page content. The user's cookie preference is not overrode during this state.
