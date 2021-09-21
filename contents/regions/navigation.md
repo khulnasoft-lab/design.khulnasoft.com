@@ -23,7 +23,7 @@ The help menu is the dropdown with the question mark icon and contains links to 
 
 ## Left sidebar
 
-The left sidebar refers to the navigation that is contextual to each page. These options change depending on if you are looking at a project, a group, or a settings page. The names used for each nav item should be short and easy to remember, ideally 1-2 words in length. There can be up to two levels of navigation: product landing pages and sub nav group. 
+The left sidebar refers to the navigation that is contextual to each page. These options change depending on if you are looking at a project, a group, or a settings page. The names used for each nav item should be short and easy to remember, ideally 1-2 words in length. There can be up to two levels of navigation: product landing pages and sub-nav group. 
 
 ### Top-level menu items
 
@@ -45,7 +45,7 @@ When this occurs, the top-level menu item should remain consistent, even if ther
 ### Behavior
 
 - A cookie is set to remember a user's preference between collapsed or expanded.
-+- For medium and large viewports, the left sidebar is collapsed. When expanded manually, it overlaps the page content. The user's cookie preference is not overridden during this state.
+- For medium and large viewports, the left sidebar is collapsed. When expanded manually, it overlaps the page content. The user's cookie preference is not overridden during this state.
 - For small and extra small viewports, the left sidebar is hidden behind a "hamburger" icon. When expanded, the sidebar overlaps the page and a semi-transparent overlay covers the page content. The user's cookie preference is not overridden during this state.
 
 #### Breakpoints
