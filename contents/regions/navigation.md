@@ -36,7 +36,7 @@ Each sub-nav group should be a self-contained group of functionality, for exampl
 - Items related to planning and managing issues should be under the `Issues` nav item.
 - Viewing and editing pipelines should be under the `CI/CD` nav item.
 
-The default active item should be the first sub nav group item.
+The default active item should be the first sub-nav group item.
 
 In some cases, items within a sub-nav group may change depending on the context, permissions, and roles. For example, the admin area may include more or less items under a top-level menu item than a group or project. 
 
