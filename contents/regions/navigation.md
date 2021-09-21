@@ -23,7 +23,7 @@ The help menu is the dropdown with the question mark icon and contains links to 
 
 ## Left sidebar
 
-The left sidebar refers to the navigation that is contextual to each page. These options change depending on if you are looking at a project, a group, or a settings page. The names used for each nav item should be short and easy to remember, ideally 1-2 words in length. There can be up to two levels of navigation: product landing pages and sub-nav group. 
+The left sidebar refers to the navigation that is contextual to each page. These options change depending on if you are looking at a project, a group, or a settings page. The names used for each nav item should be short and easy to remember, ideally 1-2 words in length. There can be up to two levels of navigation: top-level menu items and a sub-nav group. 
 
 ### Top-level menu items
 
