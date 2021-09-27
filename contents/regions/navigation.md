@@ -44,7 +44,7 @@ Consider the following for all top-level menu item changes:
 
 - Documentation should always be updated.
 - All changes should be included in the release post.
-- A canary rollout may be used to slowly roll out changes to users and get their feedback before releasing to all users.
+- A [canary rollout](https://docs.gitlab.com/ee/user/project/canary_deployments.html) may be used to slowly roll out changes to users and get their feedback before releasing to all users.
 
 #### Sub-nav groups
 
