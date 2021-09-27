@@ -1,3 +1,31 @@
+# [2.69.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.68.0...v2.69.0) (2021-09-23)
+
+
+### Features
+
+* **Drawer:** Update content to use new template ([2a574cd](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/2a574cda3ce7a95c779db69ed630241632af758a))
+
+# [2.68.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.67.0...v2.68.0) (2021-09-23)
+
+
+### Features
+
+* **Card:** Use new content template ([9cd2d4e](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/9cd2d4e4e858f80473ab5c5b7f7ffbbdeb9061a0))
+
+# [2.67.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.66.0...v2.67.0) (2021-09-22)
+
+
+### Features
+
+* **mini pipeline graph:** Add intial docs ([0bea121](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/0bea1213bf512fda4c3056779b990af56fb4a255))
+
+# [2.66.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.65.0...v2.66.0) (2021-09-21)
+
+
+### Features
+
+* **navigation:** Clean up nav content to make it easier to read ([89b29f6](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/89b29f613ee1a364c19a7132636790db64eb9558))
+
 # [2.65.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.64.0...v2.65.0) (2021-09-20)
 
 
