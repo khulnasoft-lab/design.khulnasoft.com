@@ -1,6 +1,6 @@
 ---
 name: Modal
-description: Modals are used to reveal critical information, show information without losing context, or when the system requires a user response.
+description: A modal is used to reveal critical information, show information without losing context, or when the system requires a user response.
 figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A129
 docs: complete
 gitlab_ui: /components/modal/code
@@ -27,12 +27,12 @@ related:
   <img class="figure-img" src="/img/modal-structure.svg" alt="Numbered diagram of a modal structure" role="img" />
 </figure>
 
-1. **Wrapper**: Contains the modal dialog. 
-1. **Title**: Title giving context to the modal dialog.
+1. **Backdrop**: Transparent overlay that contains the modal dialog.
+1. **Title**: A question or descriptive phrase that conveys an overview of the purpose.
 1. **Dialog**: Modal dialog container.
 1. **Dismissal**: Icon to dismiss the modal.
-1. **Message**: Modal description.
-1. **Actions**: Buttons to take action from the modal.
+1. **Message**: Text content indicating the purpose and potential next steps.
+1. **Actions**: Buttons used to provide explicit action(s) the user can take to either remedy the modal or continue with a task.
 
 ## Guidelines
 
@@ -40,27 +40,27 @@ related:
 
 - When a complex workflow needs to be broken down into simpler steps.
 - Serve as a single purpose dedicated to completing the user's task.
-- Revealing critical information without losing context.
-- When the system requires a user response.
-- A non-revertible destructive action is about to take place and needs confirmation
+- Reveal critical information without losing context.
+- Require a user response from the system.
+- Confirm a non-revertible destructive action.
 
 ### When not to use
 
 - When content can be displayed inline. Utilize elements such as [popovers](/components/popover), [accordions](/components/accordion), or [drawers](/components/drawer) to present additional information while allowing the user to maintain focus on the page.
-- When displaying a simple message, present your message within a [toast](/components/toast); a brief, auto-expiring element for the user to consume while staying focused on their task.
+- If you need to deliver a brief, auto-expiring element for a user to consume while staying focused on their task, use a [toast](/components/toast) instead.
 - For a significant amount of content, take the user to a different page to utilize space a modal can‘t provide.
 - Consider alternative patterns such as non-modal dialogs or undo patterns to continue the system-user conversation while keeping the user focused on their task.
-- For simple edits, users can [edit their content inline](#inline-alternative) to avoid showing a modal or bringing user’s to a new page. 
 
 #### Inline alternative
 
+- For simple edits, consider inline editing:
 ![Content before edit mode](/img/modal/inline-editing-1.svg)
 
-When clicking the "edit" button, users will be put in an "edit mode" for this row, which will make text fields editable through a form input:
+Clicking the "edit" button places a user in an "edit mode" for this row, which utilizes form inputs to edit text fields:
 
 ![Inline content in edit mode](/img/modal/inline-editing-2.svg)
 
-### Variants
+### Sizes
 
 - **Small**: Small modals are used for simple tasks with little content.
 - **Default**: Default modals are used in most use cases.
@@ -90,4 +90,5 @@ Todo: Add accessibility docs
 
 - [modalzmodalzmodalz](https://modalzmodalzmodalz.com/)
 - [Best Practices for Modals / Overlays / Dialog Windows](https://uxplanet.org/best-practices-for-modals-overlays-dialog-windows-c00c66cddd8c)
+- [Accessibility guidelines](https://www.w3.org/TR/wai-aria-practices/examples/dialog-modal/dialog.html)
 - [Modal & Nonmodal Dialogs: When (& When Not) to Use Them](https://www.nngroup.com/articles/modal-nonmodal-dialog/)
