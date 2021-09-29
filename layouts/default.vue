@@ -1,10 +1,12 @@
 <script>
 import { mapState, mapMutations } from 'vuex';
+import CookieConsentBanner from '../components/cookie_consent_banner.vue';
 import Navbar from '../components/navbar.vue';
 
 export default {
   components: {
     Navbar,
+    CookieConsentBanner,
   },
   computed: {
     ...mapState(['frontmatter', 'sidebarOpen']),
@@ -92,6 +94,9 @@ export default {
         </p>
       </footer>
     </main>
+    <client-only>
+      <cookie-consent-banner />
+    </client-only>
   </div>
 </template>
 
