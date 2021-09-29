@@ -1,6 +1,6 @@
 ---
 name: Spinner
-description: A spinner is a simple animated element that appears after a user's action to indicate that saving or loading of information/data is in progress.
+description: A spinner is an animated element that appears after a user's action to indicate that saving or loading is in progress.
 vueComponents:
   - GlLoadingIcon
 related:
@@ -29,8 +29,8 @@ related:
 
 ### When to use
 
-- Use a spinner to provide a looping animation that attracts attention to a loading instance.
-- In some instances the UI will reflect a change before the change is actually saved and the spinner is used to indicate background activity until information is successfully saved.
+- Use a spinner to signify that something is loading.
+- In some instances, the UI will reflect a change before the change is actually saved and the spinner is used to indicate background activity until information is successfully saved.
 
 ### When not to use
 
@@ -46,7 +46,7 @@ related:
 
 - **Small**: 16px, used with text labels or inside other UI elements, like buttons.
 - **Medium**: 24px, used within larger visual elements, like merge widget status icons.
-- **Large**: 32px, indicates larger components are loading, like a chart.
+- **Large**: 32px, indicates larger components are loading, like a [chart](/data-visualization/charts).
 - **Extra large**: 64px, indicates a large content area of the UI is loading.
 
 ### Behavior
