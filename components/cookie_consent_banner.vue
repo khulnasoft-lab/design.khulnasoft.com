@@ -1,0 +1,62 @@
+<script>
+import { bootstrap } from 'vue-gtag';
+
+export default {
+  data() {
+    return {
+      isOpen: false,
+    };
+  },
+  computed: {
+    isAccepted() {
+      if (process.browser) {
+        return localStorage.getItem('GDPR:accepted');
+      }
+      return false;
+    },
+  },
+  created() {
+    if (this.isAccepted === null) {
+      this.isOpen = true;
+    }
+  },
+  methods: {
+    accept() {
+      if (process.browser) {
+        bootstrap()
+          .then(() => {
+            this.isOpen = false;
+            localStorage.setItem('GDPR:accepted', 'true');
+            window.location.reload();
+            return true;
+          })
+          .catch(() => {});
+      }
+    },
+    reject() {
+      if (process.browser) {
+        this.isOpen = false;
+        localStorage.setItem('GDPR:accepted', 'false');
+      }
+    },
+  },
+};
+</script>
+
+<template>
+  <div
+    v-if="isOpen"
+    class="app-styles gl-fixed gl-left-0 gl-bottom-0 gl-w-full gl-border-1 gl-border-t-solid gl-border-gray-100 gl-z-index-9999"
+  >
+    <gl-alert
+      primary-button-text="I accept"
+      secondary-button-text="Reject"
+      @primaryAction="accept"
+      @secondaryAction="reject"
+      @dismiss="reject"
+    >
+      The Pajamas website uses cookies to analyze website traffic. By accepting, you agree to the
+      storage of cookies on your device. Pajamas and cookies do make a great combination.
+    </gl-alert>
+  </div>
+</template>
