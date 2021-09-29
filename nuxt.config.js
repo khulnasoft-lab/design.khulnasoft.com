@@ -16,7 +16,7 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const cspPolicies = [
   "default-src 'self'",
-  "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
+  "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com",
   "style-src 'self' 'unsafe-inline'",
   "object-src 'none'",
   "img-src 'self' https: data:",
@@ -124,10 +124,16 @@ module.exports = {
     '@nuxtjs/sentry',
     '@nuxtjs/lunr-module',
   ],
+  buildModules: ['@nuxtjs/google-analytics'],
 
   sentry: {
     dsn: 'https://77ebbeb22fb243c786286ecd01caa19f@sentry.gitlab.net/109', // Enter your project's DSN here
     disabled: !isProd,
+  },
+
+  googleAnalytics: {
+    id: process.env.GOOGLE_ANALYTICS_ID,
+    dev: !isProd,
   },
 
   /**
