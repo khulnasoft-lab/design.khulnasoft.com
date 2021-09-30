@@ -51,7 +51,7 @@ Todo: Update structure with date range limit indicator.
 
 - The user can either type a date into the text field or choose a day from the calendar dropdown which will populate the text field with the chosen date.
 - A user can enter a date in different formats. For example, `January 22, 2020` or `22/01/2020`. The date picker translates the format to GitLab's default (ISO 8601) in the API.
-- Once a user selects the start (“From”) date, the date picker for the end (“To”) date only allows them to pick a date that is either equal to or after the selection. The days preceding the start date will be disabled.
+- For date ranges, the date picker for the end ("To") date only allows a user to pick a date that is either equal to or after the start ("From") date. The days preceding the start date will be disabled.
 - For date ranges, the ending date month should initially default to the same month chosen for the start date.
 - On smaller viewports, the two date text fields in a date range picker are full-width and vertically stacked so the user’s language reading direction doesn’t have an effect on the order.
 
