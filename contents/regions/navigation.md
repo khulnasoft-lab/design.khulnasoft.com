@@ -31,7 +31,7 @@ A top-level menu item is the first anchor that appears within the left sidebar. 
 
 #### Additions
 
-Proposing new top-level menu items follows the [process outlined in the handbook](https://about.gitlab.com/handbook/engineering/ux/navigation/). New additions are very deliberate, with data that supports it as key/foundational functionality within our DevOps platform.
+Proposing new top-level menu items follows the [process outlined in the handbook](https://about.gitlab.com/handbook/engineering/ux/navigation/). New additions are very deliberate and are made to optimize user workflows. Proposals should include data that supports it as key/foundational functionality within our DevOps platform.
 
 We do not add new top-level menu items in order to:
 
