@@ -1,58 +1,71 @@
 ---
 name: Tabs
-description: Tabs are used to divide content into meaningful, related sections.
-figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A138
-docs: complete
-gitlab_ui: /components/tabs/code
+description: Tabs divide content into meaningful, related sections.
 vueComponents:
   - GlTabs
   - GlTab
 related:
-  - /regions/navigation
+  - accordion
 ---
 
-Tabs allow users to focus on one specific view at a time while maintaining sight of all the relevant content options available. Each tab, when active, will reveal it's own unique content.
-
-## Usage
-
-There can only be one tab active at a given time. Tabs may be nested, with a maximum nesting of two levels. Please note that this should be considered only as a last resort.
-
-### Basic tabs
-
-Basic tabs are the default tab style. Tab width is determined by the tab’s content and they’re aligned left by default. These are used when you simply need to separate content within tabs, without needing to use a `counter badge`. If you need tabs with counter badges, see [tabs with counter badges](#tabs-with-counter-badges).
+## Examples
 
 [[Example:tabs-basic]]
 
-### Tabs with counter badges
-
-Each tab may include a [badge](/components/badge) with a counter of how many items that particular view contains.
-
-If tabs contain such a badge, the “All” tab should have a badge that is the sum of the other tabs. A tab with a badge should not be included if it breaks this pattern.
-
-For example, in the merge request list view, there should not be "Open" and "WIP" tabs. As a merge request can be both "Open" and "WIP," this will cause the sum of all badges not to match the number of "All" merge requests. An alternative would be to have a separate sorting function within the tab's content which filters open merge requests by "WIP."
-
 [[Example:tabs-with-counter-badges]]
-
-### Justified tabs
-
-Justified tabs use a fluid width to fill the entire container instead of remaining left-aligned. Tabs will take up an equal percentage of the container width. Text truncation is triggered for longer labels, but they should be as concise as possible.
-
-**Consider using justified tabs when:**
-
-* There are only 2–3 tabs.
-* The tabs fit horizontally within a mobile viewport without wrapping.
-* The breakpoint is ≤ MD. The exception is tabs in a modal or other constrained container that isn’t relying on breakpoint to determine the width of nested content.
 
 [[Example:justified-tabs]]
 
-## Specifications
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A138)
 
-### Design
+## Structure
 
-Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
+<figure class="figure" role="figure" aria-label="Tabs structure">
+  <img class="figure-img" src="/img/tabs-structure.svg" alt="Numbered diagram of tabs structure" role="img" />
+</figure>
 
-[View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit-Beta?node-id=2497%3A25)
+1. **Tab group**: Contains all tabs.
+1. **Tab**: Contains text label and badge.
+1. **Active indicator**: Highlights the active tab.
+1. **Label**: Text representing the content of the tab panel.
+1. **Badge** (optional): Counts the number of items within the tab panel.
+1. **Overflow indicator**: Chevron that dynamically appears on either side of the tab group so that a user can scroll to view tabs that aren't visible when the combined tab width is greater than the tab group width.
+1. **Tab panel**: Contains the content related to the active tab.
+
+## Guidelines
+
+### When to use
+
+-  To reveal one content section at a time while maintaining view of related, parallel content options.
+
+### When not to use
+
+- If content from multiple tabs should be viewed at the same time, consider using an [accordion](/components/accordion) instead.
+- Tabs are not navigation since the goal is to remain in the same context. Use [navigation](/regions/navigation) for changing context.
+
+### Behavior
+
+- A tab reveals its associated content (tab panel) when activated.
+- Only one tab can be active at a given time.
+- Tabs may be nested with a maximum nesting of two levels. This should only be considered as a last resort.
+
+### Content
+
+- Label should be concise and indicate what is is the tab panel.
+- Text truncation is triggered for longer labels.
+- Each tab can include a [badge](/components/badge) with a count of how many items the related tab panel contains.
+  - If an “All” tab exists, it should have a badge that is the sum of the other tab badges.
+- The label + badge (if present) determines individual tab width unless justified tabs are used (see [Alignment](#alignment)).
+
+### Alignment
+
+- Tabs are left aligned by default.
+- Justified tabs use a fluid width to fill the entire container and each tab takes up an equal percentage of the container width.
+- Consider using justified tabs when:
+  - There's only 2–3 tabs.
+  - The tabs fit horizontally within a mobile viewport without wrapping.
+  - The breakpoint is ≤ MD. The exception is tabs in a modal or other constrained container that isn’t relying on breakpoint to determine the width of nested content.
 
 ### Accessibility
 
-Tabs follow the [WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/#tabpanel) guidelines for functionality.
+- Tabs follow the [WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/#tabpanel) guidelines for functionality.
