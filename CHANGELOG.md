@@ -1,3 +1,39 @@
+# [2.73.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.72.0...v2.73.0) (2021-09-30)
+
+
+### Features
+
+* **Spinner:** Update content to utilize new template ([c698173](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/c6981732b9194131957a4f4eeea5439b93c681ef))
+
+# [2.72.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.71.1...v2.72.0) (2021-09-30)
+
+
+### Features
+
+* **navigation:** Add guidance around top-level menu item additions ([52b6e9a](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/52b6e9a9b4b41faadbea2107f2beeed645f8ae29))
+
+## [2.71.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.71.0...v2.71.1) (2021-09-30)
+
+
+### Bug Fixes
+
+* Remove progress bar component broken page ([91ca7c7](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/91ca7c74751b020223f86cef0feefd3166269417))
+
+# [2.71.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.70.0...v2.71.0) (2021-09-30)
+
+
+### Features
+
+* **typography:** Add guidance on use of monospace ([f360f7e](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/f360f7ebffd7d5c1b5b73272b369958f8774d7c2))
+
+# [2.70.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.69.0...v2.70.0) (2021-09-29)
+
+
+### Features
+
+* **Drawer:** Update docs remove note on truncation ([a61de85](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/a61de8556505eae753a73b551a10e0406162cec4))
+* **Modal:** Update docs to use new template ([ba88f77](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/ba88f7775ed3228cc33e1c424003258ab563e03d))
+
 # [2.69.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.68.0...v2.69.0) (2021-09-23)
 
 
