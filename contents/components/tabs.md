@@ -56,3 +56,7 @@ Color, spacing, dimension, and layout specific information pertaining to this co
 ### Accessibility
 
 Tabs follow the [WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/#tabpanel) guidelines for functionality.
+
+### Implementation
+
+Each tab at the parent level (at the top of the page) should have its own unique URL. Use best judgement for determining whether or not child tabs on the page should have unique URLs. Consider the persona's JTBDs and whether or not they may want to bookmark a URL that goes directly to a specific tab, or in the case that they want to send information within a specific tab to a coworker without having to give them instructions to click on that tab.
