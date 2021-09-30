@@ -1,6 +1,6 @@
 ---
 name: Date picker
-description: The date picker allows a user to choose and/or input a date by by using a calendar dropdown or by typing the date into a text field.
+description: The date picker allows a user to choose and/or input a date by using a calendar dropdown or by typing the date into a text field.
 vueComponents:
   - GlDatepicker
 related:
@@ -52,7 +52,7 @@ Todo: Update structure with date range limit indicator.
 - The user can either type a date into the text field or choose a day from the calendar dropdown which will populate the text field with the chosen date.
 - A user can enter a date in different formats. For example, `January 22, 2020` or `22/01/2020`. The date picker translates the format to GitLab's default (ISO 8601) in the API.
 - Once a user selects the start (“From”) date, the date picker for the end (“To”) date only allows them to pick a date that is either equal to or after the selection. The days preceding the start date will be disabled.
-- If the user picks a future start date, the default month shown for the ending date date picker dropdown should be that same month and not the current month. This doesn’t apply for starting dates selected in the past.
+- For date ranges, the ending date month should initially default to the same month chosen for the start date.
 - On smaller viewports, the two date text fields in a date range picker are full-width and vertically stacked so the user’s language reading direction doesn’t have an effect on the order.
 
 ### Content
