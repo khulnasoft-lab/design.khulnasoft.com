@@ -35,7 +35,7 @@ Proposing new top-level menu items follows the [process outlined in the handbook
 
 We do not add new top-level menu items in order to:
 
-- Improve discoverability of new features. Instead, look for other opportunities for featuring the functionality throughout the product.
+- Improve discoverability of new features. Instead, look for other opportunities to highlight the functionality throughout the product.
 - Optimize for the potential future. We should be forward thinking without over optimizing. As features are developed and added, we can look into what changes may need to occur to support a growing feature.
 
 #### Sub-nav groups
