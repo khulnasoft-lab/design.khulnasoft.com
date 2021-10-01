@@ -12,9 +12,9 @@ related:
 
 [[Example:tabs-basic]]
 
-[[Example:tabs-with-counter-badges]]
-
 [[Example:justified-tabs]]
+
+[[Example:tabs-with-counter-badges]]
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A138)
 
@@ -29,29 +29,29 @@ related:
 1. **Active indicator**: Highlights the active tab.
 1. **Label**: Text representing the content of the tab panel.
 1. **Badge** (optional): Counts the number of items within the tab panel.
-1. **Overflow indicator**: Chevron that dynamically appears on either side of the tab group so that a user can scroll to view tabs that aren't visible when the combined tab width is greater than the tab group width.
+1. **Overflow indicator**: Chevron that dynamically appears on either side of the tab group when the combined tab width is greater than the tab group width. Enables scrolling to view tabs that aren't immediately visible. 
 1. **Tab panel**: Contains the content related to the active tab.
 
 ## Guidelines
 
 ### When to use
 
--  To reveal one content section at a time while maintaining view of related, parallel content options.
+-  To show one content section at a time while maintaining a view of related options that reveal parallel content.
 
 ### When not to use
 
 - If content from multiple tabs should be viewed at the same time, consider using an [accordion](/components/accordion) instead.
-- Tabs are not navigation since the goal is to remain in the same context. Use [navigation](/regions/navigation) for changing context.
+- Avoid confusing tabs with navigation. Tabs help users remain in the same context; use [navigation](/regions/navigation) for changing context.
 
 ### Behavior
 
 - A tab reveals its associated content (tab panel) when activated.
 - Only one tab can be active at a given time.
-- Tabs may be nested with a maximum nesting of two levels. This should only be considered as a last resort.
+- Tabs may be nested with a maximum nesting of two levels. This pattern should only be considered as a last resort due to the complexity it creates both in code and for the user experience.
 
 ### Content
 
-- Label should be concise and indicate what is is the tab panel.
+- A text label should be concise and indicate what is in the related tab panel.
 - Text truncation is triggered for longer labels.
 - Each tab can include a [badge](/components/badge) with a count of how many items the related tab panel contains.
   - If an “All” tab exists, it should have a badge that is the sum of the other tab badges.
@@ -59,7 +59,7 @@ related:
 
 ### Alignment
 
-- Tabs are left aligned by default.
+- Tabs are left-aligned by default.
 - Justified tabs use a fluid width to fill the entire container and each tab takes up an equal percentage of the container width.
 - Consider using justified tabs when:
   - There's only 2–3 tabs.
