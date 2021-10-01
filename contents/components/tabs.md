@@ -6,15 +6,16 @@ vueComponents:
   - GlTab
 related:
   - accordion
+  - path
 ---
 
 ## Examples
 
 [[Example:tabs-basic]]
 
-[[Example:tabs-with-counter-badges]]
-
 [[Example:justified-tabs]]
+
+[[Example:tabs-with-counter-badges]]
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A138)
 
@@ -41,6 +42,7 @@ related:
 ### When not to use
 
 - If content from multiple tabs should be viewed at the same time, consider using an [accordion](/components/accordion) instead.
+- If content is part of a flow, consider using the [path](/components/path) component instead.
 - Avoid confusing tabs with navigation. Tabs help users remain in the same context; use [navigation](/regions/navigation) for changing context.
 
 ### Behavior
@@ -60,15 +62,10 @@ related:
 ### Alignment
 
 - Tabs are left-aligned by default.
-- Justified tabs use a fluid width to fill the entire container and each tab takes up an equal percentage of the container width.
-- Consider using justified tabs when:
-  - There's only 2–3 tabs.
-  - The tabs fit horizontally within a mobile viewport without wrapping.
 - Justified tabs use a fluid width to fill the entire container. Each tab takes up an equal percentage of the container width. Consider using when:
   - There are only 2–3 tabs.
   - The tabs fit horizontally within a mobile viewport without wrapping.
   - The breakpoint is ≤ MD. The exception is tabs in a modal or other constrained container that isn’t relying on breakpoint to determine the width of nested content.
-```
 
 ### Accessibility
 
