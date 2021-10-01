@@ -36,7 +36,7 @@ related:
 
 ### When to use
 
--  To show one content section at a time while maintaining a view of related options that reveal parallel content.
+-  To show one content section at a time while maintaining a view of related options.
 
 ### When not to use
 
@@ -64,7 +64,11 @@ related:
 - Consider using justified tabs when:
   - There's only 2–3 tabs.
   - The tabs fit horizontally within a mobile viewport without wrapping.
+- Justified tabs use a fluid width to fill the entire container. Each tab takes up an equal percentage of the container width. Consider using when:
+  - There are only 2–3 tabs.
+  - The tabs fit horizontally within a mobile viewport without wrapping.
   - The breakpoint is ≤ MD. The exception is tabs in a modal or other constrained container that isn’t relying on breakpoint to determine the width of nested content.
+```
 
 ### Accessibility
 
