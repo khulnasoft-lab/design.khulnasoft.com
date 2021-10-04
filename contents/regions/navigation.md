@@ -42,7 +42,7 @@ We do not add new top-level menu items in order to:
 
 Continuously improving the navigation ensures the best possible user experience. To minimize disruption and properly introduce users to changes, follow these guidelines.
 
-Use these approaches based on feature usage:
+Use these approaches based on item usage:
 
 - **None required:** No in-app messaging is required if an item has less than 0.025% of clicks per active user per month.
 - **Subsequent:** An in-app [toast](/components/toast) or [broadcast message](/components/toast) is required after moving a top-level menu item if that item has between 0.026%-0.099% of clicks per active user per month.
