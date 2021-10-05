@@ -46,7 +46,7 @@ Use these approaches based on item usage:
 
 - **None required:** No in-app messaging is required if an item has less than 0.025% of clicks per active user per month.
 - **Subsequent:** An in-app [toast](/components/toast) or [broadcast message](/components/toast) is required after moving a top-level menu item if that item has between 0.026%-0.099% of clicks per active user per month.
-- **Advanced:** An advanced in-app [alert](/components/alert) is required if an item has equal to or greater than 0.1% of clicks per active user per month. Advanced notice should be in place for at least one milestone.
+- **Advanced:** An advanced page-level info [alert](/components/alert) is required if an item has equal to or greater than 0.1% of clicks per active user per month. Advanced notice should be in place for at least one milestone.
 - **Temporary opt-in:** If more than 5 top-level navigation items are being changed that have a combined 5% of clicks per active users per month, a temporary opt-in method should be provided for at least 2 milestones. Temporary opt-in provides time to communicate major navigation overhauls while also allowing a user to preview changes.
 
 Consider the following for all top-level menu item changes:
