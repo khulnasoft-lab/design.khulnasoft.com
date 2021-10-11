@@ -44,6 +44,8 @@ Todo: Add live component block with example of loading icon button
 
 [[Example:button-label]]
 
+Todo: Add badge in button examples
+
 [[Example:new-dropdown-default]]
 
 [[Example:new-dropdown-with-icon]]
