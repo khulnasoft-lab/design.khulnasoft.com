@@ -70,7 +70,7 @@ Todo: Add live component block with example of loading icon button
 1. **Label**: Text clarifying the action.
 1. **Dropdown**: [chevron-down](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~chevron-down) icon indicating a dropdown menu.
 1. **Emoji**: Pictogram character.
-1. **Badge**: Appended to the label.
+1. **Badge** (optional): Counts the number of items or provides a status related to the action.
 
 ## Guidelines
 
