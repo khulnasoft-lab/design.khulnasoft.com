@@ -7,12 +7,14 @@ gitlab_ui: /components/button/code
 vueComponents:
   - GlButton
   - GlButtonGroup
+  - GlBadge
 related:
   - dropdown
   - segmented-control
   - pagination
   - tooltip
   - spinner
+  - badge
   - modal
 ---
 
@@ -44,7 +46,7 @@ Todo: Add live component block with example of loading icon button
 
 [[Example:button-label]]
 
-Todo: Add badge in button examples
+[[Example:badge-button]]
 
 [[Example:new-dropdown-default]]
 
@@ -68,6 +70,7 @@ Todo: Add badge in button examples
 1. **Label**: Text clarifying the action.
 1. **Dropdown**: [chevron-down](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~chevron-down) icon indicating a dropdown menu.
 1. **Emoji**: Pictogram character.
+1. **Badge**: Appended to the label.
 
 ## Guidelines
 
@@ -133,6 +136,13 @@ States change visually and/or programmatically depending on user interaction or 
 - Only use icons from [GitLab's SVG library](http://gitlab-org.gitlab.io/gitlab-svgs/).
 - Icons use the default size (16×16px).
 - An icon can be used in place of text. If the action may not be universally understood consider using a [tooltip](/components/tooltip) to provide the action is text form.
+
+#### Badges
+
+- A single [badge](/components/badge) can be used to the right of a text label to indicate status or a numeric count.
+- A badge that functions as a numeric count should be followed by a `<span>` with the `sr-only` class to provide text context for what the number is counting.
+- The badge variant should match the button variant. For example, a danger badge within a danger button.
+- The badge size should match the button size. For example, a small badge within a small button.
 
 ### Alignment
 
