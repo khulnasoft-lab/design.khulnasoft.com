@@ -1,3 +1,66 @@
+## [2.78.2](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.78.1...v2.78.2) (2021-10-11)
+
+
+### Bug Fixes
+
+* **Badge:** Add aria-label for icon-only badge ([3fe557b](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/3fe557b13fbc60e31a042059063323a478e18fcc))
+
+## [2.78.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.78.0...v2.78.1) (2021-10-11)
+
+
+### Bug Fixes
+
+* **deps:** update gitlab ui/svg ([224c9f1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/224c9f1a6a59d9baaffbb4d9a676f022131232b4))
+
+# [2.78.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.77.2...v2.78.0) (2021-10-08)
+
+
+### Features
+
+* **navigation:** Add initial guidance for in-app messaging ([b5d894a](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/b5d894acfc230a0deb31b91811fc2ed41e5121e7))
+
+## [2.77.2](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.77.1...v2.77.2) (2021-10-08)
+
+
+### Bug Fixes
+
+* **AccessibilityAudits:** Update links and order ([2691793](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/26917931bb82fb24fc95f3fc46e14c79e228369c))
+
+## [2.77.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.77.0...v2.77.1) (2021-10-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gitlab/svgs to v1.217.0 ([7184aa4](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/7184aa47dead5b297b70d7e6017dfa2c6e3bd803))
+
+# [2.77.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.76.0...v2.77.0) (2021-10-07)
+
+
+### Features
+
+* **tabs:** Adds URL guidelines to tab component ([c3281f6](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/c3281f6074926ee780540520d4a2a3c6a8633d72))
+
+# [2.76.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.75.0...v2.76.0) (2021-10-05)
+
+
+### Features
+
+* **Footer:** Add policy links ([b5149af](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/b5149afb5298d57b0da3ae4ef8b46b0e5d655b1b))
+
+# [2.75.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.74.0...v2.75.0) (2021-10-01)
+
+
+### Features
+
+* **Tabs:** Update content to utilize new template ([979e1e5](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/979e1e52c18f391ddc74c0137a552f3eac4c58c5))
+
+# [2.74.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.73.0...v2.74.0) (2021-10-01)
+
+
+### Features
+
+* **DatePicker:** Update content to utilize new template ([66a2579](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/66a257983cd4f07c1aaffccd45687fde2768e4eb))
+
 # [2.73.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.72.0...v2.73.0) (2021-09-30)
 
 

@@ -36,30 +36,34 @@ Todo: Add or refactor examples to compare offset and keyset pagination.
 1. **Truncation**: Indicates more pages exist that can't be listed due to space.
 1. **Next label**: Text that indicates navigating to the next page.
 1. **Next icon**: A [chevron-right](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~chevron-right) icon as part of the "next page" link.
-1. **Help text**: Text that indicates the current page.
+1. **Help text**: Text that indicates the current page and total number of pages.
 
 ## Guidelines
 
 ### When to use
 
-- Break up a list of results or a large content block into multiple pages that can be navigated sequentially or by choosing a specific page within the set.
+- Break up a list or a large content block into multiple pages that can be navigated sequentially or by choosing a specific page within the set.
+- Lists with **more than 20** items require pagination at the bottom of a page. Pagination is generally not required on lists with **20 or fewer** items but can be considered depending on the context (that is, the paginated list is embedded within another component).
 
 ### When not to use
 
 - If content is not part of the same set, consider using [navigation](/regions/navigation) instead.
-- If you need to navigation between steps in a flow, consider using the [path](/components/path) component or [buttons](/components/button) to navigate steps.
+- If the content is not part of the same set, consider using [navigation](/regions/navigation) instead.
+- If you need to navigate between steps in a flow, consider using the [path](/components/path) component or [buttons](/components/button) instead.
 
 ### Types of pagination
 
-There are two types of pagination, **offset**, and **keyset** (sometimes called cursor-based). General use is outlined below, but either can be used for any scenario since factors like performance, number of results returned, user expectations, and how data is queried will ultimately help determine the best approach.
+There are two types of pagination, **offset**, and **keyset** (sometimes called cursor-based). General use is outlined below, but either can be used for any scenario since factors like performance, the number of results returned, user expectations, and how data is queried will ultimately help determine the best approach.
 
 #### Offset pagination
 
-Offset pagination allows a user to navigation page by page within a defined set of pages. The page number is visible and can be directly clicked in the pagination component. This method is good when records aren't added or subtracted to the results as a user navigates through the them.
+Offset pagination allows a user to navigate page by page within a defined set of pages. The page number is visible and can be directly clicked in the pagination component. This method is good when records aren't added or subtracted to the results as a user navigates through them.
+
+Because page numbers are visible, the first and last page links are not truncated so that a user can quickly navigate to the beginning or end of the contents.
 
 #### Keyset pagination
 
-Keyset pagination only has **Prev** and **Next** options and no page numbers. It's ideal for paginating results that may have dynamic additions or subtractions as a user can only move to the previous or next set of results, regardless of where it is in the set. Keyset pagination is a good alternative to [infitnite scroll](/components/infinite-scroll) since it can provide a more predictive and accessible experience.
+Keyset pagination only has **Prev** and **Next** options and no page numbers. It's ideal for paginating results that may have dynamic additions or subtractions as a user can only move to the previous or next set of results, regardless of where it is in the set. Keyset pagination is a good alternative to [infinite scroll](/components/infinite-scroll) since it can provide a more predictive and accessible experience.
 
 ### States
 
@@ -68,11 +72,8 @@ Keyset pagination only has **Prev** and **Next** options and no page numbers. It
 
 ### Behavior
 
-- Lists with **more than 20** items require pagination at the bottom of a page. Pagination is generally not required on lists with **20 or fewer** items but can be considered depending on the context (that is, the paginated list is embedded within another component).
 - Truncation is shown using `…` when the number of pages exceeds the pagination display limit. By default `…` are shown after the **5th page** on large and medium viewports and after the **2nd page** on small and mobile viewports.
 - Double truncation occurs when the current page is separated by 5 or more pages from the first and last page on large and medium viewports. On small and mobile viewports, double truncation occurs when 1 or more pages separate the current page from the first and last page.
-
-### Content
 
 ### Accessibility
 
@@ -80,8 +81,8 @@ Keyset pagination only has **Prev** and **Next** options and no page numbers. It
   - Wrap the list in a `<nav>` element with `aria-label` so it can easily be navigated to as a [landmark](https://www.w3.org/TR/wai-aria-practices/examples/landmarks/navigation.html).
   - Use `aria-current="page"` on the active page link.
   - Each link should have `aria-label` to clarify what the page number means. For example, `<a href="/p3" aria-label="Page 3">3</a>`.
-- When navigating with pagination, the focus should be placed at the top of the new page content so a user can continue moving through the results.
+- When navigating with pagination, the focus and scroll position should be at the top of the new page content so a user can continue moving through the results.
 
 ## Reference
 
-Todo: Add reference for pagination item count requirements.
+Todo: Add reference for the "more than 20" pagination item count requirements.
