@@ -1,8 +1,6 @@
 ---
 name: Toggle
 description: A toggle is a visual switch which acts as a boolean.
-figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A140
-docs: complete
 vueComponents:
   - GlToggle
 related:
@@ -10,6 +8,49 @@ related:
   - radio-button
   - segmented-control
 ---
+
+## Examples
+
+[[Example:toggle-default]]
+
+[[Example:toggle-disabled]]
+
+[[Example:toggle-loading]]
+
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A140)
+
+## Structure
+
+<figure class="figure" role="figure" aria-label="Modal structure">
+  <img class="figure-img" src="/img/modal-structure.svg" alt="Numbered diagram of a modal structure" role="img" />
+</figure>
+
+1. **element**: description
+
+## Guidelines
+
+### When to use
+
+- 
+
+### When not to use
+
+- 
+
+### Sizes
+
+### Behavior
+
+### Content
+
+### Accessibility
+
+## Reference
+
+- 
+
+_______________________________________
+
 
 ## Usage
 
@@ -52,17 +93,4 @@ In rare cases and exceptions, the label can be placed to the left of the toggle.
 
 Toggles should use high-contrast colors to indicate the states - On and Off.
 
-## Demo
-
-[[Example:toggle-default]]
-
-[[Example:toggle-disabled]]
-
-[[Example:toggle-loading]]
-
-## Design specifications
-
-Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
-
-[View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A282)
 
