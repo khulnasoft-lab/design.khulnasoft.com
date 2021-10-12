@@ -140,7 +140,7 @@ States change visually and/or programmatically depending on user interaction or 
 #### Badges
 
 - A single [badge](/components/badge) can be used to the right of a text label to indicate status or a numeric count.
-- A badge that functions as a numeric count should be followed by a `<span>` with the `sr-only` class to provide text context for what the number is counting.
+- A badge that includes a numeric count should be followed by a `<span>` with the `sr-only` class providing a text description of what's being counted.
 - The badge variant should match the button variant. For example, a danger badge within a danger button.
 - The badge size should match the button size. For example, a small badge within a small button.
 
