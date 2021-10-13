@@ -21,11 +21,14 @@ related:
 
 ## Structure
 
-<figure class="figure" role="figure" aria-label="Modal structure">
-  <img class="figure-img" src="/img/modal-structure.svg" alt="Numbered diagram of a modal structure" role="img" />
+<figure class="figure" role="figure" aria-label="Toggle structure">
+  <img class="figure-img" src="/img/toggle-structure.svg" alt="Numbered diagram of a toggle structure" role="img" />
 </figure>
 
-1. **element**: description
+1. **Label**: Describes the control when the toggle is on.
+1. **Switch**: Visual indication of whether the toggle is on or off. 
+1. **Body**: Containing body for the switch to move on and off.
+1. **Help text**: Provides additional context for the toggle.
 
 ## Guidelines
 
