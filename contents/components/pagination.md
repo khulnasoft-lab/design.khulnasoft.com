@@ -43,6 +43,7 @@ Todo: Add or refactor examples to compare offset and keyset pagination.
 ### When to use
 
 - Break up a list or a large content block into multiple pages that can be navigated sequentially or by choosing a specific page within the set.
+- Lists with **more than 20** items require pagination at the bottom of a page. Pagination is generally not required on lists with **20 or fewer** items but can be considered depending on the context (that is, the paginated list is embedded within another component).
 
 ### When not to use
 
@@ -71,11 +72,8 @@ Keyset pagination only has **Prev** and **Next** options and no page numbers. It
 
 ### Behavior
 
-- Lists with **more than 20** items require pagination at the bottom of a page. Pagination is generally not required on lists with **20 or fewer** items but can be considered depending on the context (that is, the paginated list is embedded within another component).
 - Truncation is shown using `…` when the number of pages exceeds the pagination display limit. By default `…` are shown after the **5th page** on large and medium viewports and after the **2nd page** on small and mobile viewports.
 - Double truncation occurs when the current page is separated by 5 or more pages from the first and last page on large and medium viewports. On small and mobile viewports, double truncation occurs when 1 or more pages separate the current page from the first and last page.
-
-### Content
 
 ### Accessibility
 
@@ -87,4 +85,4 @@ Keyset pagination only has **Prev** and **Next** options and no page numbers. It
 
 ## Reference
 
-Todo: Add reference for pagination item count requirements.
+Todo: Add reference for the "more than 20" pagination item count requirements.
