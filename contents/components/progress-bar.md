@@ -56,4 +56,4 @@ The progress indicator is a static representation of progress at a given point o
 
 ## Reference
 
-Although browser support is good for `<progress>`, screen readers handle them inconsistently and you may want to consider hiding it from screen readers while relying on visible text instead. Read the [Styles Progress Bar](https://scottaohara.github.io/a11y_styled_form_controls/src/progress-bar/) post, by Scott O'Hara, for more details. 
+Although browser support is good for `<progress>`, screen readers handle them inconsistently. You may want to consider hiding it from screen readers and relying on visible text instead. For more details, read Scott O'Hara's post, [Styles Progress Bar](https://scottaohara.github.io/a11y_styled_form_controls/src/progress-bar/).
