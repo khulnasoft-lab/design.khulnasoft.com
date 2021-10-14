@@ -19,7 +19,7 @@ Todo: Add code example.
 </figure>
 
 1. **Progress indicator**: Element that indicates the current progress of completion.
-1. **Track**: Background that indicates total progress available.
+1. **Track**: Background indicating the available space the progress indicator can fill.
 
 ## Guidelines
 
