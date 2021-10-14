@@ -18,7 +18,7 @@ Todo: Add code example.
   <img class="figure-img" src="/img/progress-bar-structure.svg" alt="Numbered diagram of progress bar structure" role="img" />
 </figure>
 
-1. **Progress indicator**: Element that indicates the current progress of completion.
+1. **Progress indicator**: Solid shape indicating the current percent of completion.
 1. **Track**: Background indicating the available space the progress indicator can fill.
 
 ## Guidelines
