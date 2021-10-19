@@ -13,7 +13,7 @@ Localized using [Intl.DateTimeFormat()](https://developer.mozilla.org/en-US/docs
     - dateStyle: "medium"
     - timeStyle: "medium"
 
-Using[ ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html):
+Using [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html):
   - Internationally agreed way to represent dates is `YYYY-MM-DD`
   - Time can also be appended if necessary as `HH:MM:SS`
 
