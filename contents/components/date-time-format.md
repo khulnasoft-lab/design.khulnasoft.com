@@ -23,7 +23,7 @@ Using [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html):
 - For example `1 minute ago` or `10 months ago`
 - Always display absolute time in a tooltip (using which absolute format please check the flow chart below)
 
-### **When to use what date/time format**
+### When to use what date/time format
 
 Use the following suggestion, unless your use case matches either of the two exceptions listed.
 
