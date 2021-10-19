@@ -28,8 +28,7 @@ Using [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html):
 Use the following suggestion, unless your use case matches either of the two exceptions listed.
 
 - Display date and time in absolute format, unless [users specify they want to use relative formatting](https://docs.gitlab.com/ee/user/profile/preferences.html#use-relative-times) instead.
-- Try to display localized time, for example `Jan 03, 2021`
-- If we can't detect browser settings, fallback to displaying ISO 8601: `YYYY-MM-DD` (time is optional `HH:MM:SS`)
+- If detecting browser settings is possible, display localized time. For example `Jan 03, 2021`. Otherwise, fall back to displaying ISO 8601: `YYYY-MM-DD` (time is optional `HH:MM:SS`).
 - Relative formatting would include the absolute time in a tooltip
 
 <figure class="figure" role="figure" aria-label="Date picker structure">
