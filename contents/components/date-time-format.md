@@ -36,16 +36,15 @@ Use the following suggestion, unless your use case matches either of the two exc
 
 ### Exceptions
 
-In either case, the preferences of a user should not change what is displayed. These exceptions keep the date and time in a specific format to ensure that it matches its context.
+In the following scenarios, the user preference does not override what is displayed. These exceptions keep the date and time in a specific format to ensure that it matches its context.
 
-#### When to only use the absolute format
-- When users need to show clarification due to technical, security or legal reasons, such as in an audit log file, tax form, security alert.
-- If users would need to convert relative time to absolute themselves, we always show absolute time to avoid adding extra works to users themselves.
-- When we need to show a range of time like in the date picker.
+Use [absolute format](#absolute-format) when:
+- Users need clarification due to a technical, security, or legal reason. For example, an audit log, tax form, or security alert.
+- Users would need to convert relative time to absolute time in order to complete a task.
+- A range of time is displayed, such as a date picker.
 
-#### When to only use the relative format
-- When the content is updated very frequently and specifics are not critical
-  - For example, a live newsfeed or notification
+Use [relative format](#relative-format) when:
+- Content is updated frequently and specifics are not critical. For example, a live news-feed or notification.
 
 ### Adding timezone data
 
