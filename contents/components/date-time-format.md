@@ -48,4 +48,4 @@ Use [relative format](#relative-format) when:
 
 ### Adding timezone data
 
-Always use the local time based on the user's browser setting. In edge cases, such as in a chart, when different timezones are displayed together, then add timezone information at the end of date/time format.
+When multiple timezones are present, append the timezone information to the end of the date and time format.
