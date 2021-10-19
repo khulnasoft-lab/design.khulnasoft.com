@@ -34,7 +34,6 @@ Use the following suggestion, unless your use case matches either of the two exc
   <img class="figure-img" src="img/Date and time format flow chart.png" alt="flow chart to help make decison when to use what date and time format" role="img" />
 </figure>
 
-
 ### Exceptions
 
 In either case, the preferences of a user should not change what is displayed. These exceptions keep the date and time in a specific format to ensure that it matches its context.
