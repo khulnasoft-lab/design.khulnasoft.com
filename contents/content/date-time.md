@@ -1,4 +1,3 @@
-contents/date-time.md
 name: Date and time
 description: The way that dates and times are formatted is crucial for ensuring that information is context-specific. Users should not be left wondering when something occurred. It should be formatted so that it matches its intent to inform and not be disruptive. While we offer users the choice to use their preferred format, there are exceptions when it should never change. 
 ---
