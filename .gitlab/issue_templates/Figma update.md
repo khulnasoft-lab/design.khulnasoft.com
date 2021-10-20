@@ -1,6 +1,6 @@
 <!--
 Start by choosing one of the following based on the nature of your contribution:
-   - For changes or additions to an existing file, create a branch in Figma (this new file is considered the “working file”). Include the issue or MR number in the branch number. Make changes in the working file and request a review when ready. See https://www.figma.com/best-practices/branching-in-figma/ for details about branching.
+   - For changes or additions to an existing file, create a branch in Figma (this new file is considered the “working file”). Include the issue or MR number in the branch name. Make changes in the working file and request a review when ready. See https://www.figma.com/best-practices/branching-in-figma/ for details about branching.
    - For new files, duplicate the template that is most relevant (https://www.figma.com/files/project/5846042/Templates) to the project that also is the most relevant. Update the file name and cover details (this new file is considered the “working file”) and proceed with the design.
    - For community contributions, create a new file in your drafts, or duplicate an existing file to your drafts.
 
@@ -41,7 +41,7 @@ Make sure the following are completed before closing the issue:
      1. [ ] For changes to the **Component Library** file, view the components in the Assets panel to ensure they align with our [asset library structure guidelines][structure].
 1. [ ] **Maintainer**: When applicable, [publish][publishing] any library 
    changes along with a clear commit message.
-1. [ ] **Assignee**: If work was not done in a branch, move your working file 
+1. [ ] **Assignee**: If work was not done in a branch (a merged branch will automatically be archived), move your working file 
    to the shared Figma project:
      1. [ ] For Component Library changes, move your file to the [**Component archive**][component-archive] project.
      1. [ ] For all other changes, move your file to the [**Misc archive**][misc-archive] project.
