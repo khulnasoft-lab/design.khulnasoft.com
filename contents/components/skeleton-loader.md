@@ -58,7 +58,7 @@ To create a new skeleton loader:
 ### Accessibility
 
 - When a change occurs in the UI, like a loading state, it's good to notify a user what is happening. While a skeleton loader visually indicates that a process is happening, it should also be announced by assistive technology through the use of `aria-live`.
-- See the [WAI-ARIA ``aria-live`` documentation](https://www.w3.org/TR/wai-aria-1.1/#aria-live) for more details.
+- See the WAI-ARIA `aria-live` [documentation](https://www.w3.org/TR/wai-aria-1.1/#aria-live) for more details.
 
 ## Reference
 
