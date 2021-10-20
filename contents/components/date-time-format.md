@@ -30,7 +30,7 @@ Using [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html):
 - If detecting browser settings is possible, display localized time. For example `Jan 03, 2021`. Otherwise, fall back to displaying ISO 8601: `YYYY-MM-DD` (time is optional `HH:MM:SS`).
 
 <figure class="figure" role="figure" aria-label="Date picker structure">
-  <img class="figure-img" src="img/Date and time format flow chart.png" alt="flow chart to help make decison when to use what date and time format" role="img" />
+  <img class="figure-img" src="/img/Date and time format flow chart.png" alt="flow chart to decide date and time format" role="img" />
 </figure>
 
 ### Exceptions
