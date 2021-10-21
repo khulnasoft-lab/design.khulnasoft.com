@@ -78,6 +78,8 @@ When creating a component as a variant, only a single instance of that component
 
 If a component is not part of a variant container, numerically prefixing the breakpoint and size abbreviations correctly orders them in the asset library in a way that helps a user understand hierarchy (see [examples](#examples) below).
 
+Lastly, when you create a component variant in Figma it automatically adds a border radius and dashed purple border to the frame. Remove both the border radius and border.
+
 ### Examples
 
 #### Icons
