@@ -1,3 +1,4 @@
+# syntax = docker/dockerfile:experimental
 FROM node:14 AS builder
 WORKDIR /app
 COPY package.json yarn.lock ./
