@@ -154,6 +154,12 @@ danger-review:
 build:
   tags:
     - gitlab-org-docker
+  before_script:
+    - echo "WHAAAAAT before"
+    - env
+  after_script:
+    - echo "WHAAAAAT after"
+    - env
 
 code_quality:
   tags:

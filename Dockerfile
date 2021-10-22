@@ -1,6 +1,8 @@
 FROM node:14 AS builder
 ARG GOOGLE_ANALYTICS_ID
 ENV GOOGLE_ANALYTICS_ID=$GOOGLE_ANALYTICS_ID
+RUN echo "HEY WORLD"
+RUN env
 WORKDIR /app
 COPY package.json yarn.lock ./
 RUN yarn
