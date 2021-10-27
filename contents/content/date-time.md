@@ -21,8 +21,10 @@ Absolute date and time information can be [localized](https://developer.mozilla.
 
 ## Guidelines
 
-- Display date and time in absolute format, unless [users specify they want to use relative formatting](https://docs.gitlab.com/ee/user/profile/preferences.html#use-relative-times) instead.
-- If detecting browser settings is possible, display localized time. For example `Jan 03, 2021`. Otherwise, fall back to displaying ISO 8601: `YYYY-MM-DD` (time is optional `HH:MM:SS`).
+### Which format to use when
+
+- Display date and time information in the absolute format unless [users specify they want to use relative formatting](https://docs.gitlab.com/ee/user/profile/preferences.html#use-relative-times) instead.
+- If it's possible to detect the browser settings, display the localized time, for example `Jan 03, 2021`. Otherwise, fall back to displaying the date in ISO 8601: `YYYY-MM-DD` (time is optionally appended after the date, `HH:MM:SS`).
 
 <figure class="figure" role="figure" aria-label="Date picker structure">
   <img class="figure-img" src="/img/Date and time format flow chart.png" alt="flow chart to decide date and time format" role="img" />
