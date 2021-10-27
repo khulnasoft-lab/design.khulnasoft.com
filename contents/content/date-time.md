@@ -35,7 +35,7 @@ Absolute date and time information can be [localized](https://developer.mozilla.
 In certain scenarios, the date and time are displayed in a specific format and the user's preference is overridden.
 
 Use [absolute format](#absolute-format) when:
-- Users need clarification due to a technical, security, or legal reason. For example, an audit log, tax form, or security alert.
+- Users need specific dates and/or times for technical, security, or legal reasons. For example, in an audit log, a tax form, or a security alert.
 - Users would need to convert relative time to absolute time in order to complete a task.
 - A range of time is displayed, such as a date picker.
 
