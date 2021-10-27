@@ -44,4 +44,4 @@ Use [relative format](#relative-format) when:
 
 ### Adding timezone data
 
-When multiple timezones are present, append the timezone information to the end of the date and time format.
+In situations where timezone context is important, for example in alerts or incidents, append the timezone information to the end of the date and time.
