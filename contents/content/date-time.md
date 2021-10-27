@@ -40,7 +40,7 @@ Use [absolute format](#absolute-format) when:
 - A range of time is displayed, for example in a date picker.
 
 Use [relative format](#relative-format) when:
-- Content is updated frequently and specifics are not critical. For example, a live news-feed or notification.
+- Content is updated frequently and specifics are not critical. For example, a live newsfeed or notification.
 
 ### Adding timezone data
 
