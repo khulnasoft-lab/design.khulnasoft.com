@@ -15,9 +15,10 @@ Absolute date and time information can be [localized](https://developer.mozilla.
 
 ### Relative format
 
-- XX minute(s), hour(s), day(s), week(s), month(s), or year(s) ago
-- For example `1 minute ago` or `10 months ago`
-- Always display absolute time in a tooltip (using which absolute format please check the flow chart below)
+The relative format communicates the approximate amount of time that has passed since an event occurred; whether that event occurred XX minute(s), hour(s), day(s), week(s), month(s), or year(s) ago. For example, it is used to communicate that an issue was opened `1 minute ago` or `10 months ago`. 
+
+When using the relative format, always display the absolute time in a tooltip following the [Guidelines](#guidelines) below. 
+
 
 ## Guidelines
 
