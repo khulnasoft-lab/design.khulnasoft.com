@@ -7,7 +7,9 @@ description: Dates and times clarify when something occurred. The way they are f
 
 ### Absolute format
 
-Localized using [Intl.DateTimeFormat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat):
+The absolute format clarifies the precise date and time that something occurred. 
+
+Absolute date and time information can be [localized](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat) to display a user's local date and time or follow the [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) format. See the [Guidelines](#Guidelines) section for more information about when dates should be localized, and when they should be shown in ISO 8601.
   - For example, `Jan 03, 2021` or shortened `Jan 03`. Always show the full string of the date and time data in a tooltip if shortened.
   - **options**
     - dateStyle: "medium"
