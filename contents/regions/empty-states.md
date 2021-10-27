@@ -47,7 +47,9 @@ A `Configuration required` empty state serves as a placeholder for features that
 - Contains a primary action for configuring a feature.
 - Contains a secondary action for inviting a member to configure a feature. The secondary action should read as `Invite member to configure`, which should trigger the invite modal, created by the [Growth Expansion team](https://about.gitlab.com/handbook/engineering/development/growth/expansion/).
 
-Use the following implementation to trigger the invite modal [components/invite_members_trigger.vue](https://gitlab.com/gitlab-org/gitlab/-/blob/master/app/assets/javascripts/invite_members/components/invite_members_trigger.vue).
+Use the following implementation to trigger the invite modal:
+- Initialize from a Vue component(http://gitlab.com/gitlab-org/gitlab/blob/81fc02642a748484af91e45abda84c24a54b7ac9/app/assets/javascripts/vue_shared/components/markdown/toolbar.vue#L70-70).
+- Initialize as a separate button/link using haml(https://gitlab.com/gitlab-org/gitlab/blob/81fc02642a748484af91e45abda84c24a54b7ac9/app/views/projects/_invite_members_empty_project.html.haml#L6-13).
 
 ### Higher tier feature
 
