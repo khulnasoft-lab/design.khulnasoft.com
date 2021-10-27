@@ -37,7 +37,7 @@ In certain scenarios, the date and time are displayed in a specific format and t
 Use [absolute format](#absolute-format) when:
 - Users need specific dates and/or times for technical, security, or legal reasons. For example, in an audit log, a tax form, or a security alert.
 - Users would need to convert relative time to absolute time in order to complete a task.
-- A range of time is displayed, such as a date picker.
+- A range of time is displayed, for example in a date picker.
 
 Use [relative format](#relative-format) when:
 - Content is updated frequently and specifics are not critical. For example, a live news-feed or notification.
