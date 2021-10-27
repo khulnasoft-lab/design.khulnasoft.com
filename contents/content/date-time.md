@@ -32,7 +32,7 @@ Absolute date and time information can be [localized](https://developer.mozilla.
 
 ### Exceptions
 
-In the following scenarios, the user preference does not override what is displayed. These exceptions keep the date and time in a specific format to ensure that it matches its context.
+In certain scenarios, the date and time are displayed in a specific format and the user's preference is overridden.
 
 Use [absolute format](#absolute-format) when:
 - Users need clarification due to a technical, security, or legal reason. For example, an audit log, tax form, or security alert.
