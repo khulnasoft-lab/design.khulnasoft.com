@@ -19,7 +19,7 @@ Absolute date and time information can be [localized](https://developer.mozilla.
 - For example `1 minute ago` or `10 months ago`
 - Always display absolute time in a tooltip (using which absolute format please check the flow chart below)
 
-### When to use what date/time format
+## Guidelines
 
 - Display date and time in absolute format, unless [users specify they want to use relative formatting](https://docs.gitlab.com/ee/user/profile/preferences.html#use-relative-times) instead.
 - If detecting browser settings is possible, display localized time. For example `Jan 03, 2021`. Otherwise, fall back to displaying ISO 8601: `YYYY-MM-DD` (time is optional `HH:MM:SS`).
