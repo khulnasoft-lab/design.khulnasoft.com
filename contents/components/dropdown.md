@@ -10,6 +10,8 @@ related:
 
 Todo: Add updated examples once complete in GitLab UI.
 
+Todo: An example of a dropdown with fixed rows.
+
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A14)
 
 ## Structure
