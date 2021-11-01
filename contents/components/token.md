@@ -1,6 +1,6 @@
 ---
 name: Token
-description: Tokens represent keywords and are used to add or filter objects. They allow users to input information, converting their text to tokens.
+description: A token represents a keyword used to add or filter objects.
 vueComponents:
   - GlToken
 related:
