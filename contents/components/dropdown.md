@@ -1,16 +1,73 @@
 ---
 name: Dropdown
-description: Dropdowns lists (or simply dropdowns) are used to provide the user with a list of options, which can be either actions or input values. Dropdown lists are triggered by dropdown buttons or form inputs.
-docs: in-progress
-vueComponents:
-  - GlDropdown
+description: A dropdown is a widget that includes a panel opened by a trigger button.
 related:
   - button
-  - checkbox
-  - dropdown
-  - form
-  - segmented-control
+  - accordion
 ---
+
+## Examples
+
+[[Example:new-dropdown-default]]
+
+[[Example:new-dropdown-with-header]]
+
+[[Example:new-dropdown-with-section-headers]]
+
+[[Example:new-dropdown-with-search]]
+
+[[Example:new-dropdown-split]]
+
+[[Example:new-dropdown-with-icon]]
+
+[[Example:new-dropdown-with-icon-and-split]]
+
+Todo: An example of a single-selection dropdown
+
+Todo: An example of a multi-selection dropdown
+
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A14)
+
+## Structure
+
+## Guidelines
+
+### When to use
+
+### When not to use
+
+### Variants
+
+- **Disclosure widget**: 
+- **Menu**: 
+- **Combobox**: 
+- **Listbox**: 
+
+// Variable sections
+
+### Behavior
+
+By default, dropdowns are placed below and aligned to the left of the element they stem from. However, when there isn't enough space in the viewport, the dropdown should be moved above and/or be aligned to the right of the element it stems from.
+
+If there are more rows than fit the dropdown, an overlay with a fade effect will be added at the top or bottom of the dropdown to indicate there are more rows to be scrolled. When reaching the end of the scrollable area, the overlay will be removed.
+
+### Content
+
+### Accessibility
+
+## Reference
+
+- [Drop down usability](https://baymard.com/blog/drop-down-usability)
+
+
+
+
+
+
+
+
+
+
 
 ## Usage
 
@@ -35,25 +92,7 @@ Use the following table to see when a dropdown should be used over other alterna
 | UI space | Little room | Not a problem | Little room | Not a problem | Not a problem | Not a problem | Little room |
 | Example | Accepting terms and conditions on sign up | Enabling/disabling project features | “Sort by” dropdowns | Project visibility setting | 7, 30, 90 days timeframe in analytics dashboards | Scopes selection in User settings > Applications | Add/remove labels |
 
-### Behavior
 
-By default, dropdowns are placed below and aligned to the left of the element they stem from. However, when there isn't enough space in the viewport, the dropdown should be moved above and/or be aligned to the right of the element it stems from.
-
-If there are more rows than fit the dropdown, an overlay with a fade effect will be added at the top or bottom of the dropdown to indicate there are more rows to be scrolled. When reaching the end of the scrollable area, the overlay will be removed.
-
-## Example
-
-#### Plain dropdown
-
-[[Example:new-dropdown-default]]
-
-#### Single-selection dropdown
-
-Todo: An example of a single-selection dropdown
-
-#### Multi-selection dropdown
-
-Todo: An example of a multi-selection dropdown
 
 ### Accessories
 
@@ -63,19 +102,16 @@ There are some special elements that can be included in dropdowns to better adap
 
 A header can be added to make the dropdown's purpose clear. For example, the header _Assign milestone_ can be added to make it clear that selecting an option will modify an issue's milestone instead of applying a filter.
 
-[[Example:new-dropdown-with-header]]
 
 #### Section headers
 
 Section headers are used to categorize the options in a dropdown. A separator must always be included in between sections.
 
-[[Example:new-dropdown-with-section-headers]]
 
 #### Search box
 
 If there are more than 10 elements in the list, it may be necessary to include a search box.
 
-[[Example:new-dropdown-with-search]]
 
 #### Fixed rows
 
@@ -91,8 +127,6 @@ Dropdown buttons come in a few different button combinations to fit different si
 
 Dropbown buttons trigger menus of options which can be either actions or input values.
 
-[[Example:new-dropdown-default]]
-
 #### Split dropdown
 
 Dropdown buttons may be split when there are multiple action options. The text button will allow immediate access to the most common option and an attached dropdown button is available to either change the default action. The dropdown button is attached to the right of the text button and has a chevron icon as its label.
@@ -101,22 +135,7 @@ If the dropdown menu has no related actions available, a split dropdown button s
 
 The currently selected action has a checkmark on the left side of the dropdown item. See also [checkmark dropdowns](/components/dropdowns).
 
-[[Example:new-dropdown-split]]
 
 #### Icon dropdown
 
 Icon dropdowns function similarly to other dropdown button combinations with the difference being an icon label.
-
-[[Example:new-dropdown-with-icon]]
-
-[[Example:new-dropdown-with-icon-and-split]]
-
-## Design specifications
-
-Color, spacing, dimension, and layout-specific information pertaining to this component can be viewed using the following link:
-
-[View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A14)
-
-## Resources
-
-- [Drop down usability](https://baymard.com/blog/drop-down-usability)
