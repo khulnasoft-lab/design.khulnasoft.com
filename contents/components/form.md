@@ -191,7 +191,7 @@ Todo: Add live component block with code example (help text)
 
 ### Icons
 
-Icons can be placed inside input fields for various use cases. For example, date picker input fields come with a calendar icon, and dropdown input fields come with a downward facing chevron icon. 
+An icon can be placed inside input fields for various use cases. For example, date picker input fields come with a calendar icon, and dropdown input fields come with a downward facing chevron icon. Only a single icon is recommended to be used within the field.
 
 When working with sensitive credentials or keys, users would want to avoid prying eyes. When using a pattern to show/hide the content of an input form, use the eye icon for show and eye-slash icon for hide.
 
