@@ -29,10 +29,14 @@ When using the relative format, always display the absolute time in a tooltip fo
 
 <figure class="figure" role="figure" aria-label="Date picker structure">
 <<<<<<< HEAD
+<<<<<<< HEAD
   <img class="figure-img" src="/img/date-time-format-flow-chart.svg" alt="Flow chart date and time format decision tree; read the guidelines to learn how to use absolute and relative time and date." role="img" />
 =======
   <img class="figure-img" src="/img/date-time-format-flow-chart.png" alt="Flow chart date and time format decision tree; read the guidelines to learn how to use absolute and relative time and date." role="img" />
 >>>>>>> 9e97753...  feat(date): update the alt message for flowchart
+=======
+  <img class="figure-img" src="/img/date-time-format-flow-chart.svg" alt="Flow chart date and time format decision tree; read the guidelines to learn how to use absolute and relative time and date." role="img" />
+>>>>>>> 6e1fecd... feat(date): update flowchart to svg
 </figure>
 
 ### Exceptions
