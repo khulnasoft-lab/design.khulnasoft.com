@@ -35,12 +35,12 @@ related:
 ### When to use
 
 - In a search query where the user is expected to include multiple queries.
-- Represent dynamic user input in a [filter](/components/filter) and verify the input by converting the text into a token.
+- To represent dynamic user input in a [filter](/components/filter) and verify the input by converting the text into a token.
 - Allow a user to manage, filter, and search in a compact area.
 
 ### When not to use
 
-- If you need to categorize an object, use a [label](https://design.gitlab.com/components/label) instead.
+- If you need to categorize an object, use a [label](/components/label) instead.
 - To highlight more generic object metadata that is system-generated, use a [badge](/components/badge) instead.
 
 ### Variants
