@@ -52,7 +52,7 @@ There are two primary interactions in a tree:
 
 ### Content
 
-- The title should clear and concise.
+- The title should be clear and concise.
 - Additional content, like an [avatar](/components/avatar), [icon](https://gitlab-org.gitlab.io/gitlab-svgs/), [label](/components/label), or description can be attributes of the node.
 
 ### Accessibility
