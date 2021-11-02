@@ -1,6 +1,6 @@
 ---
 name: Tree
-description: A tree provides hierarchy for parent and child nodes.
+description: A tree component structures parent and child nodes into a meaningful hierarchy.
 related:
 - accordion
 - breadcrumb
@@ -48,7 +48,7 @@ Todo: Add tree example
 There are two primary interactions in a tree:
 
 1. Expanding and collapsing nodes.
-1. Linking to node content.
+1. Links to node content.
 
 ### Content
 
