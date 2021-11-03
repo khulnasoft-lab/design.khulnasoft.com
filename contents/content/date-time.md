@@ -19,7 +19,6 @@ The relative format communicates the approximate amount of time that has passed 
 
 When using the relative format, always display the absolute time in a tooltip following the [Guidelines](#guidelines) below.
 
-
 ## Guidelines
 
 ### Which format to use when
