@@ -32,9 +32,7 @@ Todo: An example of a dropdown with fixed rows.
 
 ## Structure
 
-1. ** **:
-1. ** **:
-1. ** **:
+Todo: Add structure visual and element list.
 
 ## Guidelines
 
@@ -54,54 +52,49 @@ In general, use a dropdown to:
 
 ### Variants
 
-- **Disclosure widget**: 
-- **Menu**: 
-- **Combobox**: 
-- **Listbox**: 
+Details about each variant's accessibility requirements and implementation are located in the [accessibility](#accessibility) section below.
 
-### Trigger variants
+- **Disclosure**: A disclosure dropdown is a button that toggles a panel containing a list of links or navigational items where each item has its own tab stop. If a dropdown contains both a link and an action, it should be a disclosure with a tab stop for each item.
+- **Menu**: A menu dropdown is a button that toggles a panel containing a list of actions or functions, similar to the way a menu works in an operating system or native application. This type of dropdown uses `role="menu"` which puts a screen reader into application mode and uses different keyboarding than regular browse and read mode. For this reason, a menu dropdown isn't suitable for navigation, and should only be used for JavaScript initiated actions.
+- **Combobox**: A combobox dropdown is an input that triggers a panel containing a list of options. The input can use autocomplete capability that filters the available options.
+  - **Single select**: Typing or selection populates the input with the choice.
+  - **Multiselect**: Allows a user to select multiple options. Those options should be visible outside of the component and not populate the input.
+- **Listbox**: A listbox dropdown is a button that toggles a panel containing a list of options. It's similar to a combobox, but is activated by a button instead of an input.
+  - **Single select**: Selecting an option updates the button label with the choice.
+  - **Multiselect**: Allows a user to select multiple options. Those options should be visible outside of the component and not replace the button label.
 
-Dropdown buttons come in a few different combinations to fit different situations. Some offer additional options, while others save on space.
+### Trigger button variants
 
-- **Dropdown button**: Dropdown buttons trigger menus of options which can be either actions or input values.
-- **Split dropdown button**: Dropdown buttons may be split when there are multiple action options. The text button will allow immediate access to the most common option and an attached dropdown button is available to either change the default action. The dropdown button is attached to the right of the text button and has a chevron icon as its label. If the dropdown menu has no related actions available, a split dropdown button should be converted back to a text button. The currently selected action has a checkmark on the left side of the dropdown item. See also [checkmark dropdowns](/components/dropdowns).
-- **Icon dropdown**: Icon dropdowns function similarly to other dropdown button combinations with the difference being an icon label.
+Buttons that trigger a dropdown panel come in a few variants to fit different situations.
+
+- **Dropdown button**: A dropdown button has a [chevron-down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~chevron-down) icon to indicate that it will toggle additional content.
+- **Split dropdown button**: A split dropdown button is a special button group with two segments. The left button is for the most common option and an attached dropdown button to the right opens a panel with additional options.
+- **Icon dropdown**: An icon button, like one that uses the vertical or horizontal [ellipsis icons](https://gitlab-org.gitlab.io/gitlab-svgs/?q=elli), functions similarly to other trigger buttons with the only difference being an icon label.
 
 ### Behavior
 
-- By default, dropdowns are placed below and aligned to the left of the element they stem from. However, when there isn't enough space in the viewport, the dropdown should be moved above and/or be aligned to the right of the element it stems from.
-- If there are more rows than fit the dropdown, an overlay with a fade effect will be added at the top or bottom of the dropdown to indicate there are more rows to be scrolled. When reaching the end of the scrollable area, the overlay will be removed.
+- By default, the dropdown panel opens below and aligned to the left of the trigger button. However, when there isn't enough space in the viewport, the panel uses edge detection to position it above and/or aligned to the right of the trigger.
+- If the content within the dropdown panel exceeds the maximum height then a scrim (gradient overlay) appears at the bottom of the panel as an overflow affordance. When a user has scrolled to the bottom of the overflowed content the scrim is removed.
+- When a link is selected the user is taken to the destination.
+- When an action is selected that impacts the current view, the panel is closed and the action performed.
+- When an action option is selected that causes a page refresh or other change of context the panel returns to a closed state.
+- In a single select context when an option is selected, the panel is closed and the control updated.
+- In a multiselect context the panel stays open until the user applies the selection. The panel then closes and the changes are visible in the UI.
+- All panels can be closed by clicking outside of them or using the <kbd>esc</kbd> key.
+- If there are more than 10 elements in the list, it may be necessary to include a search box.
+- A limited amount of options that don't scroll can be fixed at the bottom of a dropdown panel.
 
 ### Content
 
-- **Header**: A header can be added to make the dropdown's purpose clear.
-- **Section header**: A section header is used to categorize the options in a dropdown. A separator must always be included in between sections.
-- **Search box**: If there are more than 10 elements in the list, it may be necessary to include a search box.
-- **Fixed rows**: A limited amount of rows that don't scroll can be fixed at the bottom of a dropdown. For example, the dropdown used to switch between issue boards has two fixed options at the bottom: _Create new board_ and _Delete board_.
+- A header provides context for the list of options.
+- Section headers categorizes options into meaningful groups.
+- An option should be concise and clearly indicate the link destination, action it performs, or choice it represents.
 
 ### Accessibility
-
 
 Todo: Add accessibility requirements and considerations.
 
 ## Reference
 
-- [Dropdown usability](https://baymard.com/blog/drop-down-usability)
-
-
-
-
-
----
-
-
-
-// Repurpose the table content below.
-
-There are three main types of dropdowns:
-
-| Type                       | Purpose                                                                                               | Behavior                                                                                                                                                                                                                                               |
-| -------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Plain dropdowns            | These dropdowns usually present a list of actions. They can be thought of as a collection of buttons or links. | If a user clicks a link inside a plain dropdown, it would navigate to the path specified in the link. If a user clicks a button with a function, it would complete that function and close the dropdown. Another way to close the dropdown is to click outside the dropdown container.                             |
-| Single-selection dropdowns | These dropdowns are used as a collection of single selection inputs.                                  | The radio button indicates that this is a single selection. After a user makes a selection, the dropdown will close and the request will update the content, if needed.                                                                                                |
-| Multi-selection dropdowns  | These dropdowns are used when selecting multiple items.                                   | Each item contains a checkbox and can be clicked to select that item. The dropdown stays open when making selections and each selection will send a request to update the content. The dropdown closes when a user clicks outside of the dropdown or if the user clicks the "x" icon in the top right corner. |
+- [Menus & Menu Buttons](https://inclusive-components.design/menus-menu-buttons/) by Heydon Pickering
+- [Drop-Down Usability: When You Should (and Shouldn’t) Use Them](https://baymard.com/blog/drop-down-usability), by Baymard Institute
