@@ -59,7 +59,7 @@ A button that triggers a dropdown panel comes in a few variants to fit different
 
 - By default, the dropdown panel opens below and aligned to the left of the trigger button. However, when there isn't enough space in the viewport, the panel uses edge detection to position it above and/or aligned to the right of the trigger.
 - If the content within the dropdown panel exceeds the maximum height then a scrim (gradient overlay) appears at the bottom of the panel as an overflow affordance. When a user has scrolled to the bottom of the overflowed content the scrim is removed.
-- When a link is selected the user is taken to the destination and the panel doesn't need to close.
+- When a link is selected the user is taken to the destination.
 - When an action is selected that impacts the current view, the panel is closed and the action performed.
 - When an action option is selected that causes a page refresh or other change of context the panel returns to a closed state.
 - In a single select context when an option is selected, the panel is closed and the control updated.
