@@ -26,8 +26,8 @@ Todo: Add infinite scroll to Pajamas UI Kit
 
 ## Structure
 
-<figure class="figure" role="figure" aria-label="Badge structure">
-  <img class="figure-img" src="/img/badge-structure.svg" alt="Numbered diagram of a badge structure" role="img" />
+<figure class="figure" role="figure" aria-label="Infinite scroll structure">
+  <img class="figure-img" src="/img/infinite-scroll-structure.svg" alt="Numbered diagram of an infinite scroll structure" role="img" />
 </figure>
 
 1. **Container**: Wraps the content.
