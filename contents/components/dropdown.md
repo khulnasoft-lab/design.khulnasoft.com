@@ -22,9 +22,9 @@ related:
 
 [[Example:new-dropdown-with-icon-and-split]]
 
-Todo: An example of a single-selection dropdown
+Todo: An example of a single select dropdown
 
-Todo: An example of a multi-selection dropdown
+Todo: An example of a multiselect dropdown
 
 Todo: An example of a dropdown with fixed rows.
 
@@ -42,8 +42,8 @@ The term "dropdown" generally refers to a component made of a trigger button tha
 
 In general, use a dropdown to:
 
-- Reveal a panel of actions that can be performed in a specific context, including [navigation](/regions/navigation).
-- Reveal a panel of single or multi-select options that don't require a form submission to take effect.
+- Reveal a panel of links or actions that can be performed in a specific context, including [navigation](/regions/navigation).
+- Reveal a panel of single or multiselect options that don't require a form submission to take effect.
 
 ### When not to use
 
@@ -52,36 +52,36 @@ In general, use a dropdown to:
 
 ### Variants
 
-Details about each variant's accessibility requirements and implementation are located in the [accessibility](#accessibility) section below.
+Each variant's accessibility requirements and implementation are linked in the [accessibility](#accessibility) section below.
 
 - **Disclosure**: A disclosure dropdown is a button that toggles a panel containing a list of links or navigational items where each item has its own tab stop. If a dropdown contains both a link and an action, it should be a disclosure with a tab stop for each item.
 - **Menu**: A menu dropdown is a button that toggles a panel containing a list of actions or functions, similar to the way a menu works in an operating system or native application. This type of dropdown uses `role="menu"` which puts a screen reader into application mode and uses different keyboarding than regular browse and read mode. For this reason, a menu dropdown isn't suitable for navigation, and should only be used for JavaScript initiated actions.
 - **Combobox**: A combobox dropdown is an input that triggers a panel containing a list of options. The input can use autocomplete capability that filters the available options.
   - **Single select**: Typing or selection populates the input with the choice.
-  - **Multiselect**: Allows a user to select multiple options. Those options should be visible outside of the component and not populate the input.
+  - **Multiselect**: Allows a user to select multiple options. Those options should be visible outside of the component and not populate the input — typing only filters the options.
 - **Listbox**: A listbox dropdown is a button that toggles a panel containing a list of options. It's similar to a combobox, but is activated by a button instead of an input.
   - **Single select**: Selecting an option updates the button label with the choice.
   - **Multiselect**: Allows a user to select multiple options. Those options should be visible outside of the component and not replace the button label.
 
 ### Trigger button variants
 
-Buttons that trigger a dropdown panel come in a few variants to fit different situations.
+A button that triggers a dropdown panel comes in a few variants to fit different situations.
 
-- **Dropdown button**: A dropdown button has a [chevron-down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~chevron-down) icon to indicate that it will toggle additional content.
-- **Split dropdown button**: A split dropdown button is a special button group with two segments. The left button is for the most common option and an attached dropdown button to the right opens a panel with additional options.
-- **Icon dropdown**: An icon button, like one that uses the vertical or horizontal [ellipsis icons](https://gitlab-org.gitlab.io/gitlab-svgs/?q=elli), functions similarly to other trigger buttons with the only difference being an icon label.
+- **Dropdown button**: A dropdown button has a [chevron-down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~chevron-down) icon to the right of the text label to indicates it will toggle additional content.
+- **Split dropdown button**: A split dropdown button is a special button group with two segments. The left text button is for the most common option and an attached dropdown button to the right opens a panel with additional options.
+- **Icon dropdown**: An icon button, like one that uses the vertical or horizontal [ellipsis icons](https://gitlab-org.gitlab.io/gitlab-svgs/?q=elli), functions similarly to other trigger buttons with the only difference being only an icon label with no text.
 
 ### Behavior
 
 - By default, the dropdown panel opens below and aligned to the left of the trigger button. However, when there isn't enough space in the viewport, the panel uses edge detection to position it above and/or aligned to the right of the trigger.
 - If the content within the dropdown panel exceeds the maximum height then a scrim (gradient overlay) appears at the bottom of the panel as an overflow affordance. When a user has scrolled to the bottom of the overflowed content the scrim is removed.
-- When a link is selected the user is taken to the destination.
+- When a link is selected the user is taken to the destination and the panel doesn't need to close.
 - When an action is selected that impacts the current view, the panel is closed and the action performed.
 - When an action option is selected that causes a page refresh or other change of context the panel returns to a closed state.
 - In a single select context when an option is selected, the panel is closed and the control updated.
 - In a multiselect context the panel stays open until the user applies the selection. The panel then closes and the changes are visible in the UI.
 - All panels can be closed by clicking outside of them or using the <kbd>esc</kbd> key.
-- If there are more than 10 elements in the list, it may be necessary to include a search box.
+- If there are more than 10 elements in the list, it may be necessary to include an autocomplete search box to filter options.
 - A limited amount of options that don't scroll can be fixed at the bottom of a dropdown panel.
 
 ### Content
@@ -92,9 +92,16 @@ Buttons that trigger a dropdown panel come in a few variants to fit different si
 
 ### Accessibility
 
-Todo: Add accessibility requirements and considerations.
+- See the [WAI-ARIA Disclosure (Show/Hide) documentation](https://www.w3.org/TR/wai-aria-practices/#disclosure) for more details.
+- See the [WAI-ARIA Menu documentation](https://www.w3.org/TR/wai-aria-practices/#menu) for more details.
+- See the [WAI-ARIA Menu Button documentation](https://www.w3.org/TR/wai-aria-practices/#menubutton) for more details.
+- See the [WAI-ARIA Combobox documentation](https://www.w3.org/TR/wai-aria-practices/#combobox) for more details.
+- See the [WAI-ARIA Listbox documentation](https://www.w3.org/TR/wai-aria-practices/#Listbox) for more details.
 
 ## Reference
 
 - [Menus & Menu Buttons](https://inclusive-components.design/menus-menu-buttons/) by Heydon Pickering
 - [Drop-Down Usability: When You Should (and Shouldn’t) Use Them](https://baymard.com/blog/drop-down-usability), by Baymard Institute
+- [Link + Disclosure Widget Navigation](https://adrianroselli.com/2019/06/link-disclosure-widget-navigation.html), by Adrian Roselli
+- [A11y Nav Menus – an in-depth overview of three patterns for accessible navigation](https://www.evinced.com/blog/a11y-nav-menus/), by Illai Zeevi
+- [Menu (or not)](https://marcus.io/blog/menu-or-not), by Marcus Herrmann
