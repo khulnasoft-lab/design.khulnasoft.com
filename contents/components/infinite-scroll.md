@@ -31,8 +31,9 @@ Todo: Add infinite scroll to Pajamas UI Kit
 </figure>
 
 1. **Container**: Wraps the content.
-1. **Icon** (optional): Supports or directly communicates the metadata meaning, always left aligned.
-1. **Text** (optional): Conveys the status or other attribute of the metadata.
+1. **Item**: Item within the infinite scroll list.
+1. **Scrollbar**: Scrollbar that appears when scrolling the list.
+1. **Count**: Text displaying number of shown items out of total number of items in the list.
 
 ## Guidelines
 
@@ -43,7 +44,7 @@ Todo: Add infinite scroll to Pajamas UI Kit
 
 ### When not to use
 
-- If a list is **more than 20** items long, consider using [pagination](/components/pagination)
+- If a list is **more than 20** items long, consider using [pagination](/components/pagination).
 
 ### Behavior
 
@@ -55,7 +56,34 @@ Todo: Add infinite scroll to Pajamas UI Kit
 
 #### List count
 
-Always display a counter that details how many items have already loaded and how many items remain. This gives the user an indication of where they are relative to the list. The examples below show how to display different variations of list counts:
+Always display a counter that details how many items have already loaded and how many items remain. This gives the user an indication of where they are relative to the list.
 
+### Accessibility
 
-------------------------------------
+- Infinite scroll container should use the `role="feed"` attribute. 
+- Set `aria-busy="true"` when loading new content. Make `false` when content has finished loading.
+- Use `aria-labeledby` to provide an accessible name for the feed.
+- For `aria-setsize`, the value should be the total number of items in the list, whether they're shown or not. Additionally, this value should be set on every item in the list, not the container. If the total number in the feed is not known, set `aria-setsize="-1"`.
+- For `aria-posinset`, the value should indicate the position of the of each item in the list. 
+- Each article within a feed should be focusable. 
+- A list item should be scrolled into view when it, or a descendant element, receives focus.
+
+#### Aria examples for an infinite scroll list
+
+Here's an example that shows items 5 through 9 in a set of 14.
+
+```
+<h2 id="label_colors">Available Colors</h2>
+<ul role="feed" aria-labelledby="label_colors" aria-busy="...">
+  <li role="article" aria-posinset="5" aria-setsize="14">Orange</li>
+  <li role="article" aria-posinset="6" aria-setsize="14">Yellow</li>
+  <li role="article" aria-posinset="7" aria-setsize="14">Blue</li>
+  <li role="article" aria-posinset="8" aria-setsize="14">Red</li>
+  <li role="article" aria-posinset="9" aria-setsize="14">Green</li>
+</ul>
+```
+
+### References
+
+- [Accessibility guidelines for a Feed](https://www.w3.org/TR/wai-aria-1.1/#feed)
+- [MDN docs for role="feed"](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Feed_Role)
