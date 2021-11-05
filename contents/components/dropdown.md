@@ -8,25 +8,7 @@ related:
 
 ## Examples
 
-[[Example:new-dropdown-default]]
-
-[[Example:new-dropdown-with-header]]
-
-[[Example:new-dropdown-with-section-headers]]
-
-[[Example:new-dropdown-with-search]]
-
-[[Example:new-dropdown-split]]
-
-[[Example:new-dropdown-with-icon]]
-
-[[Example:new-dropdown-with-icon-and-split]]
-
-Todo: An example of a single select dropdown
-
-Todo: An example of a multiselect dropdown
-
-Todo: An example of a dropdown with fixed rows.
+Todo: Add updated examples once complete in GitLab UI.
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A14)
 
@@ -47,7 +29,7 @@ In general, use a dropdown to:
 
 ### When not to use
 
-- If a user is selecting from group of options within a [form](/components/form), consider using a `<select>` element, [radio group](/components/radio-button), or [checkboxes](/components/checkbox) instead.
+- If a user is selecting from a group of options within a [form](/components/form), consider using a `<select>` element, [radio group](/components/radio-button), or [checkboxes](/components/checkbox) instead.
 - If you need a way for a user to expand or collapse a content section, use an [accordion](/components/accordion) instead.
 
 ### Variants
@@ -58,10 +40,10 @@ Each variant's accessibility requirements and implementation are linked in the [
 - **Menu**: A menu dropdown is a button that toggles a panel containing a list of actions or functions, similar to the way a menu works in an operating system or native application. This type of dropdown uses `role="menu"` which puts a screen reader into application mode and uses different keyboarding than regular browse and read mode. For this reason, a menu dropdown isn't suitable for navigation, and should only be used for JavaScript initiated actions.
 - **Combobox**: A combobox dropdown is an input that triggers a panel containing a list of options. The input can use autocomplete capability that filters the available options.
   - **Single select**: Typing or selection populates the input with the choice.
-  - **Multiselect**: Allows a user to select multiple options. Those options should be visible outside of the component and not populate the input — typing only filters the options.
+  - **Multiselect**: Allows a user to select multiple options. Those options should be visible outside of the component (typically as a [label](/components/label) or [token](/components/token)) and not populate the input — typing only filters the options.
 - **Listbox**: A listbox dropdown is a button that toggles a panel containing a list of options. It's similar to a combobox, but is activated by a button instead of an input.
   - **Single select**: Selecting an option updates the button label with the choice.
-  - **Multiselect**: Allows a user to select multiple options. Those options should be visible outside of the component and not replace the button label.
+  - **Multiselect**: Allows a user to select multiple options. Those options should be visible outside of the component (typically as a [label](/components/label) or [token](/components/token)) and not replace the button label.
 
 ### Trigger button variants
 
