@@ -4,6 +4,14 @@ import { initMarkdownIt } from '../helpers/render_markdown';
 const makeAdmonitions = (html, type) => {
   const typeCapitalized = type.charAt(0).toUpperCase() + type.substring(1);
   const pattern = new RegExp(`(<[^>]+>)?${typeCapitalized}:(.*?)(</[^>]+>)?\n`, 'gm');
+  const newIssueUrl = `https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/new?issue%5Btitle%5D=$2`;
+  const createIssueHtml = `<a href="${newIssueUrl}">Create an issue</a>`;
+  if (type === 'todo') {
+    return html.replace(
+      pattern,
+      `$1<span class="admonition admonition--${type}"><span>${typeCapitalized}: </span>$2<br>${createIssueHtml}</span>$3`,
+    );
+  }
   return html.replace(
     pattern,
     `$1<span class="admonition admonition--${type}"><span>${typeCapitalized}: </span>$2</span>$3`,
