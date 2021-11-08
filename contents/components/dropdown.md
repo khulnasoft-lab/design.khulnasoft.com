@@ -38,7 +38,7 @@ Each variant's accessibility requirements and implementation are linked in the [
 
 - **Disclosure**: A disclosure dropdown is a button that toggles a panel containing a list of links or navigational items where each item has its own tab stop. If a dropdown contains both a link and an action, it should be a disclosure with a tab stop for each item.
 - **Menu**: A menu dropdown is a button that toggles a panel containing a list of actions or functions, similar to the way a menu works in an operating system or native application. This type of dropdown uses `role="menu"` which puts a screen reader into application mode and uses different keyboarding than regular browse and read mode. For this reason, a menu dropdown isn't suitable for navigation, and should only be used for JavaScript initiated actions.
-- **Combobox**: A combobox dropdown is an input that triggers a panel containing a list of options. The input can use autocomplete capability that filters the available options.
+- **Combobox**: A combobox dropdown is a text input that triggers a panel containing a list of options. The input can use autocomplete capability that filters the available options.
   - **Single select**: Typing or selection populates the input with the choice.
   - **Multiselect**: Allows a user to select multiple options. Those options should be visible outside of the component (typically as a [label](/components/label) or [token](/components/token)) and not populate the input — typing only filters the options.
 - **Listbox**: A listbox dropdown is a button that toggles a panel containing a list of options. It's similar to a combobox, but is activated by a button instead of an input.
@@ -57,7 +57,7 @@ A button that triggers a dropdown panel comes in a few variants to fit different
 
 - By default, the dropdown panel opens below and aligned to the left of the trigger button. However, when there isn't enough space in the viewport, the panel uses edge detection to position it above and/or aligned to the right of the trigger.
 - If the content within the dropdown panel exceeds the maximum height then a scrim (gradient overlay) appears at the bottom of the panel as an overflow affordance. When a user has scrolled to the bottom of the overflowed content the scrim is removed.
-- When a link is selected the user is taken to the destination and the panel doesn't need to close.
+- When a link is selected the user is taken to the destination.
 - When an action is selected that impacts the current view, the panel is closed and the action performed.
 - When an action option is selected that causes a page refresh or other change of context the panel returns to a closed state.
 - In a single select context when an option is selected, the panel is closed and the control updated.
