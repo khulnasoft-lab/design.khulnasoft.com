@@ -72,7 +72,7 @@
 
 .admonition {
   padding: $gl-spacing-5;
-  display: block;
+  display: flex;
 
   a {
     text-decoration: underline;
@@ -94,9 +94,17 @@
     background-color: $orange-50;
   }
 
-  span {
+  .admonition-type {
     text-transform: uppercase;
     font-weight: $font-weight--bold;
+  }
+
+  a {
+    margin-left: auto;
+
+    @include media-sm-down {
+      margin-left: 0;
+    }
   }
 }
 
