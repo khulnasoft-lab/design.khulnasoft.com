@@ -6,7 +6,7 @@ docs: in-progress
 
 ## Examples
 
-Todo: Add examples
+Todo: Add examples.
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=8000%3A0)
 
