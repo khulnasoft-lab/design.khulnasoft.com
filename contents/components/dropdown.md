@@ -38,12 +38,11 @@ Each variant's accessibility requirements and implementation are linked in the [
 
 - **Disclosure**: A disclosure dropdown is a button that toggles a panel containing a list of links or navigational items where each item has its own tab stop. If a dropdown contains both a link and an action, it should be a disclosure with a tab stop for each item.
 - **Menu**: A menu dropdown is a button that toggles a panel containing a list of actions or functions, similar to the way a menu works in an operating system or native application. This type of dropdown uses `role="menu"` which puts a screen reader into application mode and uses different keyboarding than regular browse and read mode. For this reason, a menu dropdown isn't suitable for navigation, and should only be used for JavaScript initiated actions.
-- **Combobox**: A combobox dropdown is a text input that triggers a panel containing a list of options. The input can use autocomplete capability that filters the available options.
-  - **Single select**: Typing or selection populates the input with the choice.
-  - **Multiselect**: Allows a user to select multiple options. Those options should be visible outside of the component (typically as a [label](/components/label) or [token](/components/token)) and not populate the input — typing only filters the options.
-- **Listbox**: A listbox dropdown is a button that toggles a panel containing a list of options. It's similar to a combobox, but is activated by a button instead of an input.
-  - **Single select**: Selecting an option updates the button label with the choice.
-  - **Multiselect**: Allows a user to select multiple options. Those options should be visible outside of the component (typically as a [label](/components/label) or [token](/components/token)) and not replace the button label.
+- **Listbox**: A listbox dropdown is a button that toggles a panel containing a list of options. It can be activated by a button, or an input when part of a combobox.
+  - **Single select**: Selecting an option updates the button label or input with the choice.
+  - **Multiselect**: Allows a user to select multiple options. Those options should be visible outside of the component (typically as a [label](/components/label) or [token](/components/token)) and not replace the button label. Multiselect is not available in a combobox.
+  - **Filtering**: An autocomplete input can be used to filter single select listbox options, but it shouldn't be confused with the input that's part of a combobox.
+- **Combobox**: A combobox dropdown is a text input that triggers a panel containing a list of options (typically a single select listbox). The input can use autocomplete capability that filters the available options. In addition to selecting an option, typing also populates the input with the choice.
 
 ### Trigger button variants
 
@@ -79,6 +78,8 @@ A button that triggers a dropdown panel comes in a few variants to fit different
 - See the [WAI-ARIA Menu Button documentation](https://www.w3.org/TR/wai-aria-practices/#menubutton) for more details.
 - See the [WAI-ARIA Combobox documentation](https://www.w3.org/TR/wai-aria-practices/#combobox) for more details.
 - See the [WAI-ARIA Listbox documentation](https://www.w3.org/TR/wai-aria-practices/#Listbox) for more details.
+- When options in a panel are filtered, a screen reader should announce how many options are now available via `aria-live`.
+
 
 ## Reference
 
