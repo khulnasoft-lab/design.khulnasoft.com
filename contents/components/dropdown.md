@@ -41,7 +41,7 @@ Each variant's accessibility requirements and implementation are linked in the [
 - **Listbox**: A listbox dropdown is a button that toggles a panel containing a list of options. It can be activated by a button, or an input when part of a combobox.
   - **Single select**: Selecting an option updates the button label or input with the choice.
   - **Multiselect**: Allows a user to select multiple options. Those options should be visible outside of the component (typically as a [label](/components/label) or [token](/components/token)) and not replace the button label. Multiselect is not available in a combobox.
-  - **Filtering**: An autocomplete input can be used to filter single select listbox options, but it shouldn't be confused with the input that's part of a combobox.
+  - **Filtering**: An autocomplete input can be used to filter listbox options, but it shouldn't be confused with the input that's part of a combobox.
 - **Combobox**: A combobox dropdown is a text input that triggers a panel containing a list of options (typically a single select listbox). The input can use autocomplete capability that filters the available options. In addition to selecting an option, typing also populates the input with the choice.
 
 ### Trigger button variants
