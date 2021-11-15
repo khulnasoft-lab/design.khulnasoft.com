@@ -128,6 +128,7 @@ States change visually and/or programmatically depending on user interaction or 
 
 - Use concise language that conveys what happens when the button is activated. 
 - Use [sentence case](/content/punctuation).
+- Consider appending an ellipsis (…) to the button label text when the action will require additional input from the user before final completion.
 - Try not to use text-only and icon-only buttons in the same context.
 
 #### Icons
