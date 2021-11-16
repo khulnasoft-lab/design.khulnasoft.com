@@ -37,107 +37,106 @@ Todo: Add form structure visual and item list.
 
 ### When not to use
 
-- If user selection or input invokes an immediate change, like a page refresh or setting being applied, and submission isn't required then a form shouldn't be used.
+- If user selection or input invokes an immediate change, like a page refresh or setting being applied and submission isn't required, then a form shouldn't be used.
 
 Todo: Make Forms it's own section with subpages for components and concepts.
 
-### Form items
+### Form elements
 
-There are many parts that comprise a form. To help organize these better they're grouped into the following categories:
-
-- [Text](#text)
-- [Input and selection](#input-and-selection)
-- [Buttons](#buttons)
+Forms may include a variety of elements. By default all information in forms is required unless stated otherwise with "(optional)" added to the label of the corresponding element.
 
 #### Text
 
-Identify and clarify input and selection.
+- **Label**: Clearly and concisely identifies an input.
+- **Description**: Clarifies the purpose or intent of an input. Provides supplementary explanations or instructions, and positioned directly below a label.
+- **Help**: Provides contextual examples or formatting information, and positioned directly below an input. May include a supplemental [help link](/usability/helping-users) when necessary.
+- **Placeholder**: only used when the input purpose is still understood in its absence; it's not a replacement for a visible label. An exception is the [search](/components/search) component, which includes a [search](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~search) icon to further clarify its purpose.
 
-- **Label**: A `<label>` clearly and concisely identifies the input.
-- **Description**: 1–2 sentences directly below the label can be used to describe the purpose or intent of the input as an explanation or instructions when it may be unclear how or where the user's entry or selection will be used, or to provide an explanation beyond what a label infers.
-- **Help**: Text directly below the input can be used to provide contextual examples or formatting information. Additionally, a link or [help link](/usability/helping-users) can provide a contextual action or supplemental information.
-- **Placeholder**: Text in a `placeholder` attribute should only be used if the input purpose is still understood were it not there. It is not a replacement for a visible label. An exception is the [search](/components/search) component, which also includes a [search](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~search) icon to identify its purpose.
-- **Character counter**: There are two methods for providing character count feedback. A user are can keep typing when the limit or the recommended length is reached, although it may prevent form submission.
-  - **Limited length**: Let a user know the amount of characters allowed in a text input field or text area.
-    - Visible by default when there is a limit.
-    - Includes a scrim (gradient overlay) to prevent colliding with characters in the input. 
-    - As a user types, the counter shows how many characters remain before reaching the limit.
-    - When the number of characters entered is 30 away from the limit, the counter changes its color to the `warning` style. It remains styled like this even when it reaches 0.
-    - When the number of characters entered crosses the limit, the counter changes its color to `danger`, its font weight to bold, and counts the number of characters that are over the limit (for example **-23**).
-    - The characters that are over the limit are also marked with a background set in `$red-200`.
-    - While hovering over the limited length character counter a tooltip with the label “Characters left” must show up. Once over the limit, the label is changed to “Characters over limit”.
-  - **Recommended length**: Let a user know when they've reached and/or surpassed the recommended length in a text input or a text area.
-    - The character counter is *not* present by default.
-    - When the number of characters entered is 30 away from the recommendation, the counter appears within the text area bounds, but below the characters, and styled with the `secondary` style. It remains styled like this even when it reaches 0.
-    - When the number of characters entered crosses the recommendation, the counter changes its color to `info`, its font weight remains regular, and counts the number of characters that are over the limit (for example -23).
-    - The characters that are over the recommended length are also marked with a background set in `$blue-100`.
-    - While hovering over the recommended length character counter a tooltip with a label “Recommended characters left” must show up. Once over the recommended range, it changes to “Over recommended length”.
+#### Field
 
-#### Input and selection
+- **Text input**: The `<input type="text">` element is the default input type,  used for a single line of text.
+- **Text area**: The `<textarea>` is used for multi-line text. 
 
-Controls that accept user input and provide selection.
+#### Checkbox
 
-- **Text input**: The `<input type="text">` element is the default input type and used for a single line of text.
-- **Text area**: The `<textarea>` is used for multi-line text. Predefined widths from the **Input fields** section apply to text area as well.
-- **Checkbox**: See the [checkbox](/components/checkbox) component page for details.
-- **Radio button**: See the [radio button](/components/radio-button) component page for details.
-- **Select**: The `<select>` element creates a dropdown of options.
+See the [checkbox](/components/checkbox) component page for details.
+
+#### Radio button
+
+See the [radio button](/components/radio-button) component page for details.
+
+#### Select
+
+The `<select>` element creates a dropdown of options.
 
 #### Buttons
 
-Interactive options and submission.
+- **Clear**: The [clear](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~clear) icon is positioned on the right side of the field and clears the content. When the content is cleared, the button is removed.
+- **Search**: The [search](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~search) icon submits a query. See the [search](/components/search) component page for details.
+- **Calendar**: The [calendar](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~calendar) icon toggles a date picker. See the [date picker](/components/date-picker) component page for details.
+- **Show/hide**: Switching between the [eye](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~eye) and [eye-slash](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~eye-slash) icons toggles masked and unmasked appearance of content.
+- **Submit**: Either `<input type="submit">` or a `<button>` element submits the form data. Both use the [confirm](/components/button#variants) button variant.
 
-- **Clear button**: A button with the [clear](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~clear) icon can appear within the right bounds of a populated input field to clear the content. After clearing the content, the button is removed.
-- **Search button**: A button with the [search](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~search) icon can be used to submit a query. See the [search](/components/search) component page for details.
-- **Calendar button**: A button with the [calendar](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~calendar) icon can be used to toggle a date picker. See the [date picker](/components/date-picker) component page for details.
-- **Show/hide button**: A button that switches between the [eye](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~eye) and [eye-slash](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~eye-slash) icons as it toggles masked and unmasked appearance of the content.
-- **Submit button**: Either `<input type="submit">` or a `<button>` element submit the form data. The [confirm](/components/button#variants) button variant should be used.
+### Layout
 
-### Sizes
+By default a form flows top to bottom in a single column. Inline inputs in a vertical form are only acceptable when they’re related, for example, name and surname. In a tabular layout, a form can use both columns and rows. 
 
-- Input and selection controls can be any width that uses a [base-8 progression](/layout/spacing).
-- There are also five preset sizes that can be used to normalize the width in any given form. When considering responsive behavior, these should be regarded as maximum widths.
+In rare cases, a `<label>` can be placed to the left of the input. For example, in a [filter](/components/filter) section or a [date picker](/components/date-picker).
+
+Input and selection controls can be any width that uses a [base-8 progression](/layout/spacing). There are also five preset sizes that can be used to normalize the width in any form. When considering responsive behavior, these should be regarded as maximum widths.
+
   - **Extra small**: 80px wide
   - **Small**: 160px wide
   - **Medium**: 240px
   - **Large**: 320px
   - **Extra large**: 560px
 
-### Layout
+### Behavior 
 
-- By default a form flows top to bottom in a single column.
-- In a tabular layout a form can use both columns and rows.
-- Inline inputs in a vertical form are only acceptable when they’re related. For example, name and surname. 
-- In a rare case a `<label>` can be placed to the left of the input. For example, in a [filter](/components/filter) section or a [date picker](/components/date-picker).
+Form components may display the following behaviors: 
 
-### Validation
+#### Validation
 
-- Validation should be shown inline and happen in real-time or on submission.
-- Real-time validation should confirm correct content or assist a user to input the correct information to prevent them from attempting to submit the form with possibly incorrect information.
-- Validation should always be visible and not placed in a tooltip.
-- The validation message is placed directly below the input, and above any help text.
-- There are three types of validation messages:
-  - **Error**: Indicates content that can’t be submitted or was found to be missing or invalid and needs to be corrected.
+Validation is shown inline and may happen in real-time or on form submission. Real-time validation should confirm correct content or help prevent users from submitting the form with incorrect information.
+
+Validation should always be visible and not placed in a tooltip. The validation message is placed directly below the input, and above any help text.
+
+There are three types of validation messages:
+
+  - **Error**: Indicates content that can’t be submitted, or was invalid and in need of correction.
   - **Warning**: Indicates content that may be formatted incorrectly or does not match the expected content.
   - **Success**: Indicates content that is valid. In most cases a success message isn't shown.
 
-#### Required vs. optional
+#### Text limits
 
-By default all information is required unless stated otherwise with "(optional)" added to the label of the corresponding input field.
+Text limits are indicated through a character counter. A user may keep typing when the limit is reached, though that might impact successful form submission.
 
-### Disabling and hiding elements
+There are two kinds of character counters:
 
-- Disable an element with the `disabled` attribute when the a user doesn't have permission to populate or select it, but still needs to know it exists.
-- If an element is already populated, but the user doesn't have permission, use the `readonly` attribute.
-- Including help text below the field to explaining why it's disabled can be helpful, but note that a disabled element isn't in the focus order. The content will still be discoverable with other screen reader methods.
-- Hide an element for all users if a user doesn't need disclosure or access to an item.
-- By default a submit button is enabled and isn't disabled as a way of validating forms.
-- A submit button is disabled once clicked to avoid the possibility of submitting the form twice.
-- Disabling a submit button by default can still make sense in some cases.For example, when editing content and a change has yet to be made that would necessitate submitting.
+  - **Limited length**: Indicates the total number of characters allowed. When a limit is in place, the counter should be visible by default, and include a scrim (gradient overlay) to prevent collisions with characters in the input. As a user types, the counter shows how many characters remain before reaching the limit.
+    - When the number of characters is 30 from the limit, the counter color changes to the `warning` style. It remains styled this way even when the counter reaches 0.
+    - When the number of characters crosses the limit, the counter color changes to `danger`, and its font weight to bold. The counter then displays the number of characters over the limit (for example **-23**) with a `$red-200` background color.
+    - Hovering over the counter reveals a tooltip that says, “Characters left”. Once over the limit, the text changes to, “Characters over limit”.
 
-##### Quick submit
+  - **Recommended length**: Indicates how close a user is to reaching (or surpassing) 
+  a recommended character length for the field. This type of counter is *not* present by default.
+    - When the number of characters is 30 away from the recommended length, the counter appears within the text area, below the characters, in a `secondary` style. It remains styled like this even when the counter reaches 0.
+    - When the number of characters crosses the recommendation, the counter color changes to `info`. The count displays the number of characters over the limit (for example -23) with a `$blue-100` background color.
+    - Hovering over the counter reveals a tooltip that says, “Recommended characters left”. Once over the recommended range, the text changes to, “Over recommended length”.
 
-- A Form should support the "quick submit" behavior, which allows it to be submitted from any control (including Markdown editors) using <kbd>⌘</kbd> + <kbd>Enter</kbd> (or <kbd>Ctrl</kbd> + <kbd>Enter</kbd>).
+#### Hiding and disabling elements
+
+Hide an element if a user doesn't need access to it.
+
+Disable an element with the `disabled` attribute if the user lacks permission to interact with it, but still needs to know it exists. If an element is already populated, but the user doesn't have permission to edit it, use the `readonly` attribute.
+
+By default a submit button is enabled. Don't disable submit buttons as a way of validating forms.However, disabling a submit button may still make sense in some cases. For example, when editing content and a required change is still incomplete, or after the submit button has already been clicked, which prevents form re-submission.
+
+Including help text below a field explaining why it's disabled can be useful, but note that a disabled element isn't in the focus order. However, the content will still be discoverable with other screen reader methods.
+
+#### Quick submit
+
+A Form should support the "quick submit" behavior, which allows it to be submitted from any control (including Markdown editors) using <kbd>⌘</kbd> + <kbd>Enter</kbd> (or <kbd>Ctrl</kbd> + <kbd>Enter</kbd>).
 
 Note to developers: the quick submit behavior can be automatically added to a form using the `js-quick-submit` CSS class implemented in [`quick_submit.js`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/app/assets/javascripts/behaviors/quick_submit.js).
 
