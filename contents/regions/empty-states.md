@@ -79,7 +79,7 @@ If you're unable to come up with a solution to achieve one of the [3 goals of an
 
 ## Implementation
 
-Before you merge your final empty state solution, create an issue and [follow the Empty state issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Empty%20state).
+Create an issue and [follow the Empty state issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Empty%20state).
 
 ## References
 
