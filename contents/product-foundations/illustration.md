@@ -14,31 +14,29 @@ Illustrations should visually support topics and goals within context, complemen
 
 ## Style
 
-### Color
+The illustration style is a derivative of the [GitLab Brand Standards](https://about.gitlab.com/handbook/marketing/corporate-marketing/brand-activation/brand-standards/#brand-resources), and is designed to work both in light and dark UI.
 
-For consistency, choose colors from the following palette.
+### Fill
 
-| Orange | Purple | Neutral |
-| -------- | -------- | -------- |
-| <div class="color-overview p-a-3" style="background-color:#fc6d26;"><span class="variable f-inverted">Orange</span> <span class="hex f-small f-inverted">#fc6d26</span></div> | <div class="color-overview p-a-3" style="background-color:#6e49cb;"><span class="variable f-inverted">Purple</span> <span class="hex f-small f-inverted">#6e49cb</span></div> | <div class="color-overview p-a-3" style="background-color:#a7a7a7;"><span class="variable">$gray-500</span> <span class="hex f-small">#a7a7a7</span></div> |
-| <div class="color-overview p-a-3" style="background-color:#f4c6ac;"><span class="variable">+60% White</span> <span class="hex f-small">#f4c6ac</span></div> | <div class="color-overview p-a-3" style="background-color:#c2b7e6;"><span class="variable">+60% White</span> <span class="hex f-small">#c2b7e6</span></div> | <div class="color-overview p-a-3" style="background-color:#dfdfdf;"><span class="variable">$gray-200</span> <span class="hex f-small">#dfdfdf</span></div> |
-| <div class="color-overview p-a-3" style="background-color:#f9e2d5;"><span class="variable">+80% White</span> <span class="hex f-small">#f9e2d5</span></div> | <div class="color-overview p-a-3" style="background-color:#e0dbf2;"><span class="variable">+80% White</span> <span class="hex f-small">#e0dbf2</span></div> | <div class="color-overview p-a-3" style="background-color:#f2f2f2;"><span class="variable">$gray-100</span> <span class="hex f-small">#f2f2f2</span></div> |
-| <div class="color-overview p-a-3" style="background-color:#fcf0ea;"><span class="variable">+90% White</span> <span class="hex f-small">#fcf0ea</span></div> | <div class="color-overview p-a-3" style="background-color:#efedf8;"><span class="variable">+90% White</span> <span class="hex f-small">#efedf8</span></div> |   |
+An solid fill gives an element visual weight, emphasis, and dimension.
 
-Todo: Consider palette updates. For example, percentage of base swatch + white options.
+- Three steps for each hue provides a base (default) along with a highlight and shadow so that individual objects can have dimension and separate objects of the same hue can come forward or recede by comparison to each other.
+  Todo: Add example.
+- Transparency is used for fills, containers, and backgrounds where the object recedes in both light/dark UI. The transparency allows it to blend with the background so the effect is similar regardless of theme.
+  Todo: Add example.
 
-### Shape
+Todo: Add new fill table (consider Figma embed).
 
-Illustrations are primarily comprised of geometric shapes. Use circles, rectangles, squares, and triangles for base elements, with lines and organic shapes for details as needed. Avoid typography or tanuki in illustrations.
+### Stroke
 
-<figure class="figure" role="figure" aria-label="Basic geometric shapes">
-  <img class="figure-img p-a-5" src="/img/illus-shape.svg" alt="square, rectangle, triangle, circle" role="img" />
-  <figcaption class="figure-caption">Basic geometric shapes</figcaption>
-</figure>
+A stroke encapsulates an element, whether filled or not, and is used for line work.
 
-### Strokes
-
-The default stroke is **4px**, but **2px** can be used for smaller details and lines. You can also alternate the stroke weights to emphasize different elements of the illustration, with the heavier stroke providing more emphasis. Lines use rounded caps, unless doing so would misrepresent the object. Round line joins are optional and also depend on the object. When possible, align the stroke to the inside of the shape.
+- The default stroke is **4px**, but **2px** can be used for the occasional detail.
+- Similar to a transparent fill, a transparent stroke blends with the background so receding effect is similar regardless of theme.
+- A dashed stroke makes connections and infers empty or unpopulated elements.
+- A line uses rounded caps, unless doing so would misrepresent the object.
+- Round line joins are optional and also depend on the object.
+- Align the stroke to the center or inside of the shape.
 
 <div class="row">
   <div class="col col-33">
@@ -66,9 +64,23 @@ The default stroke is **4px**, but **2px** can be used for smaller details and l
   <figcaption class="figure-caption">4px and 2px strokes at 100%</figcaption>
 </figure>
 
+Todo: Add new stroke table (consider Figma embed).
+
+### Shape
+
+Illustrations are primarily comprised of geometric shapes. Use circles, rectangles, squares, and triangles for base elements, with lines and organic shapes for details as needed. Avoid typography or tanuki in illustrations.
+
+<figure class="figure" role="figure" aria-label="Basic geometric shapes">
+  <img class="figure-img p-a-5" src="/img/illus-shape.svg" alt="square, rectangle, triangle, circle" role="img" />
+  <figcaption class="figure-caption">Basic geometric shapes</figcaption>
+</figure>
+
+
 ### Border radius
 
-The default border radius for shapes is **8px**, with **0px**, **4px**, or multiples of **4px** allowed to better represent an object or parts of it. Clarity should always override consistency, and the guides are flexible when necessary.
+- Use a multiple of **2px** to keep values even when scaling up or down between grid sizes.
+- Use minimal or no border radius to represent sharp corners, and anywhere between **4px** to **12px** for softer, rounded objects.
+- Clarity should always override consistency, and the guides are flexible when necessary.
 
 <figure class="figure" role="figure" aria-label="Border radius options, 8px is default">
   <img class="figure-img p-a-5" src="/img/illus-border-radius.svg" alt="Shapes with 0px, 4px, 8px, and 16px border radius" role="img" />
