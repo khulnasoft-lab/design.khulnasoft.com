@@ -18,7 +18,7 @@ The illustration style is a derivative of the [GitLab Brand Standards](https://a
 
 ### Fill
 
-An solid fill gives an element visual weight, emphasis, and dimension.
+A solid fill gives an element visual weight, emphasis, and dimension.
 
 - Three steps for each hue provides a base (default) along with a highlight and shadow so that individual objects can have dimension and separate objects of the same hue can come forward or recede by comparison to each other.
   Todo: Add example.
