@@ -70,10 +70,10 @@ export default {
       <template #header>
         <div class="row">
           <div class="col">
-            <strong>{{ cardTitle }}</strong>
+            <strong data-testid="story-title">{{ cardTitle }}</strong>
           </div>
           <div class="text-right col">
-            <gl-link :href="storyUrl" target="_blank">
+            <gl-link :href="storyUrl" target="_blank" data-testid="story-link">
               Open in Storybook
               <gl-icon name="external-link" />
             </gl-link>
