@@ -91,6 +91,9 @@
     "fail": false
   },
   "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|svg|css)$": "<rootDir>/tests/__mocks__/file_mock.js"
+    },
     "moduleFileExtensions": [
       "js",
       "json",
@@ -105,6 +108,9 @@
     ],
     "setupFilesAfterEnv": [
       "<rootDir>/tests/test_setup.js"
+    ],
+    "transformIgnorePatterns": [
+      "/node_modules/(?!(@gitlab/ui|bootstrap-vue))"
     ]
   }
 }
