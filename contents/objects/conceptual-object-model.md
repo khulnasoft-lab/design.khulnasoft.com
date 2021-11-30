@@ -23,7 +23,7 @@ Objects and the conceptual model can help:
 A conceptual model defines the **objects** and **actions**, and enumerates the **attributes** for every object.
 The language of the conceptual model diagram is meant to be as simple and accessible as possible to everyone, even if they are not familiar with these kinds of diagrams. 
 
-As an example, see the [Merge request conceptual model diagram.](/objects/merge-request/#conceptual-model)
+As an example, see the [Merge request conceptual model diagram.](/objects/merge-request#conceptual-model)
 
 ## Layouts
 
@@ -31,7 +31,7 @@ An object itself is iteracted with and represented in the UI through different l
 
 A semantic layout is a visualization of the object layout, overlayed with the concepts of the object (its relationships, attributes, and actions; see [conceptual model](#conceptual-model-diagrams) for more information).
 
-As an example, see the [Merge request semantic layout.](/objects/merge-request/#layouts)
+As an example, see the [Merge request semantic layout.](/objects/merge-request#layouts)
 
 ## How to contribute an object in Pajamas
 
