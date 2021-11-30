@@ -33,6 +33,6 @@ A semantic layout is a visualization of the object layout, overlayed with the co
 
 As an example, see the [Merge request semantic layout.](/objects/merge-request/#layouts)
 
-## How to document an object in Pajamas
+## How to contribute an object in Pajamas
 
-To contribute an object to Pajamas, create an issue in the [Pajamas Design System project](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com) using the [Object issue template](pages/components/object-template) and follow the instructions in the issue template.
+To contribute an object to Pajamas, create an issue in the [Pajamas Design System project](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com) using the Object issue template (TBD).
