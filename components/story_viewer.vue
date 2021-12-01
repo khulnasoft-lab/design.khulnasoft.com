@@ -1,13 +1,17 @@
 <script>
-import { GlCard, GlIcon, GlLink, GlLoadingIcon } from '@gitlab/ui';
+import { GlCard, GlIcon, GlLink } from '@gitlab/ui';
 import { iframeResize } from 'iframe-resizer';
+import StoryIframe from './story_iframe.vue';
+
+const VIEW_MODE_STORY = 'story';
+const VIEW_MODE_DOCS = 'docs';
 
 export default {
   components: {
     GlCard,
     GlIcon,
     GlLink,
-    GlLoadingIcon,
+    StoryIframe,
   },
   props: {
     storyName: {
@@ -22,8 +26,8 @@ export default {
     viewMode: {
       type: String,
       required: false,
-      default: 'story',
-      validator: (viewMode) => ['story', 'docs'].includes(viewMode),
+      default: VIEW_MODE_STORY,
+      validator: (viewMode) => [VIEW_MODE_STORY, VIEW_MODE_DOCS].includes(viewMode),
     },
   },
   data() {
@@ -32,6 +36,9 @@ export default {
     };
   },
   computed: {
+    isDocsMode() {
+      return this.viewMode === VIEW_MODE_DOCS;
+    },
     cardTitle() {
       return this.title || this.storyName;
     },
@@ -66,7 +73,8 @@ export default {
 
 <template>
   <div class="app-styles">
-    <gl-card>
+    <story-iframe v-if="isDocsMode" :url="iFrameUrl" />
+    <gl-card v-else>
       <template #header>
         <div class="row">
           <div class="col">
@@ -80,21 +88,7 @@ export default {
           </div>
         </div>
       </template>
-      <div class="gl-relative">
-        <div
-          v-if="!loaded"
-          class="gl-display-flex gl-flex-direction-column gl-align-items-center gl-justify-content-center gl-absolute gl-top-0 gl-right-0 gl-bottom-0 gl-left-0"
-        >
-          <gl-loading-icon size="lg" class="gl-mb-3" />
-          Loading story...
-        </div>
-        <iframe
-          :style="iFrameStyles"
-          :src="iFrameUrl"
-          class="gl-border-none gl-min-w-full responsive-iframe"
-          @load="iFrameLoaded"
-        ></iframe>
-      </div>
+      <story-iframe :url="iFrameUrl" />
     </gl-card>
   </div>
 </template>
