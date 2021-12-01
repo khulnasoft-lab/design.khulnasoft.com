@@ -1,9 +1,7 @@
-import { GlLoadingIcon } from '@gitlab/ui';
-import { mount } from '@vue/test-utils';
-import { iframeResize } from 'iframe-resizer';
+import { GlCard } from '@gitlab/ui';
+import { shallowMount } from '@vue/test-utils';
 import StoryViewer from '../../components/story_viewer.vue';
-
-jest.mock('iframe-resizer');
+import StoryIframe from '../../components/story_iframe.vue';
 
 describe('story viewer component', () => {
   let wrapper;
@@ -14,21 +12,24 @@ describe('story viewer component', () => {
   // Mocks
   const $gitlabUiUrl = 'http://gitlab-ui.test';
 
-  // Helpers
+  // Finders
   const findByTestId = (id) => wrapper.find(`[data-testid="${id}"]`);
-  const findIframe = () => wrapper.find('iframe');
-  const findLoadingIcon = () => wrapper.findComponent(GlLoadingIcon);
+  const findCard = () => wrapper.findComponent(GlCard);
+  const findStoryIframe = () => wrapper.findComponent(StoryIframe);
   const findStoryTitle = () => findByTestId('story-title');
   const findStoryLink = () => findByTestId('story-link');
 
   const createComponent = (props = {}) => {
-    wrapper = mount(StoryViewer, {
+    wrapper = shallowMount(StoryViewer, {
       propsData: {
         storyName,
         ...props,
       },
       mocks: {
         $gitlabUiUrl,
+      },
+      stubs: {
+        GlCard,
       },
     });
   };
@@ -45,48 +46,58 @@ describe('story viewer component', () => {
     });
 
     it('renders an iframe with the proper URL', () => {
-      expect(findIframe().attributes('src')).toBe(
+      expect(findStoryIframe().props('url')).toBe(
         `${$gitlabUiUrl}/iframe.html?id=${storyName}&viewMode=${viewMode}&isEmbeddedStory=1`,
       );
+    });
+  });
+
+  describe('story mode', () => {
+    beforeEach(() => {
+      createComponent();
     });
 
     it('renders a link to Storybook', () => {
       expect(findStoryLink().attributes('href')).toBe(
-        `${$gitlabUiUrl}/?path=%2F${viewMode}%2F${storyName}`,
+        `${$gitlabUiUrl}/?path=%2Fstory%2F${storyName}`,
       );
     });
-  });
 
-  it('calls the iframe resizer once the iframe has loaded', () => {
-    createComponent();
-    findIframe().trigger('load');
+    it('renders the story inside a card', () => {
+      const card = findCard();
 
-    expect(iframeResize).toHaveBeenCalled();
-  });
-
-  it('shows a loading icon until the iframe has finished loading', async () => {
-    createComponent();
-
-    expect(findLoadingIcon().exists()).toBe(true);
-
-    findIframe().trigger('load');
-    await wrapper.vm.$nextTick();
-
-    expect(findLoadingIcon().exists()).toBe(false);
-  });
-
-  it("renders the story's ID as the default title", () => {
-    createComponent();
-
-    expect(findStoryTitle().text()).toBe(storyName);
-  });
-
-  it('renders the custom title if provided', () => {
-    const title = 'Custom title';
-    createComponent({
-      title,
+      expect(card.exists()).toBe(true);
+      expect(card.findComponent(StoryIframe).exists()).toBe(true);
     });
 
-    expect(findStoryTitle().text()).toBe(title);
+    it("renders the story's ID as the default title", () => {
+      createComponent();
+
+      expect(findStoryTitle().text()).toBe(storyName);
+    });
+
+    it('renders the custom title if provided', () => {
+      const title = 'Custom title';
+      createComponent({
+        title,
+      });
+
+      expect(findStoryTitle().text()).toBe(title);
+    });
+  });
+
+  describe('docs mode', () => {
+    const viewMode = 'docs';
+
+    beforeEach(() => {
+      createComponent({
+        viewMode,
+      });
+    });
+
+    it('renders the story directly', () => {
+      expect(findCard().exists()).toBe(false);
+      expect(findStoryIframe().exists()).toBe(true);
+    });
   });
 });
