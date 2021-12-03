@@ -77,14 +77,8 @@ If you're unable to come up with a solution to achieve one of the [3 goals of an
 
 ### Content
 
-#### Title 
-
-- Consicely states why the empty state is appearing. 
-
-#### Description
-
-- Describes what needs to be done to remove the empty state. 
-
+* The title concisely states why the empty state is appearing.
+* The description tells a user what action to take to resolve the empty state.
 ### Example
 
 [[Example:empty-state-basic]]
