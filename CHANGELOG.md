@@ -1,3 +1,163 @@
+## [2.101.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.101.0...v2.101.1) (2021-11-29)
+
+
+### Bug Fixes
+
+* **deps:** update gitlab ui/svg ([d0be343](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/d0be3434549c5ffe155800be56afef4b58a8f65f))
+
+# [2.101.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.100.0...v2.101.0) (2021-11-22)
+
+
+### Features
+
+* **Button:** Update ellipsis use docs ([a48af40](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/a48af4047129a74285339630f9506083b5cf6bd0))
+* **date:** update timezone related info ([b2d1fe8](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/b2d1fe85846827657b02f2f8cdb26e5dd20c710d))
+* **Dropdown:** Update content to utilize new template ([9086410](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/9086410756576318b43d1cae6254320497177c96))
+* **EmptyState:** Add issue template link to empty state docs ([35eb527](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/35eb5274e3e458ae909fd7f18d23f430f6c96ad2))
+* **Form:** Update content to utilize new template ([0b5e826](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/0b5e82643491a7f077581040d40b8d2f37ba2f9c))
+* **Table:** Update table docs to new template ([c594939](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/c5949391719fbfccc10bd4f1da78cbfcb4eaafe5))
+* **Tooltip:** Update tooltip docs to new template ([f91409a](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/f91409aface12a2237dd8649cc0246b7d8fa6959))
+
+# [2.100.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.99.0...v2.100.0) (2021-11-11)
+
+
+### Features
+
+* **FileUploader:** Add multi file uploader to structure image ([aa4ce0d](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/aa4ce0d836a73c125adfd3845442e5baa917e361))
+
+# [2.99.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.98.0...v2.99.0) (2021-11-09)
+
+
+### Features
+
+* **InfiniteScroll:** Update infinite scroll docs to new template ([29ed7d2](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/29ed7d2ad273bc7304056437708d1bff716db1ef))
+
+# [2.98.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.97.0...v2.98.0) (2021-11-09)
+
+
+### Features
+
+* Add open issue link to todos ([836af5a](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/836af5a46bd9ed755490762bf2ba216b3acf7f7a))
+
+# [2.97.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.96.0...v2.97.0) (2021-11-08)
+
+
+### Features
+
+* **Toggle:** Update toggle docs to use new template ([980c7e4](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/980c7e4c5337b2d05b718885917a6c9448788809))
+
+# [2.96.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.95.0...v2.96.0) (2021-11-04)
+
+
+### Features
+
+* **Accordion:** Update accordion structure image ([06b694a](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/06b694a97feb00950518789ef95a52e5444cad60))
+
+# [2.95.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.94.1...v2.95.0) (2021-11-03)
+
+
+### Features
+
+* **Token:** Update content to utilize new template ([abf5190](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/abf5190d653003ea02f2083c316973139aca4af0))
+
+## [2.94.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.94.0...v2.94.1) (2021-11-03)
+
+
+### Bug Fixes
+
+* **form:** Remove unnecessary files ([14dbff3](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/14dbff3ca35dff7fbd338a069be1ef691b8cebd8))
+
+# [2.94.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.93.0...v2.94.0) (2021-11-03)
+
+
+### Features
+
+* **content:** Add date time format guidelines ([9166870](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/91668706863065bef5ff167f88895f4522221c87))
+
+# [2.93.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.92.1...v2.93.0) (2021-11-02)
+
+
+### Features
+
+* **Tree:** Update content to utilize new template ([a2c5d1f](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/a2c5d1f5b1cb7ac55071d01ff4201473d05ecd07))
+
+## [2.92.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.92.0...v2.92.1) (2021-11-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gitlab/ui to v32.31.0 ([3d00842](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/3d00842597eaeae93933e1c59dacae9905edad6a))
+
+# [2.92.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.91.0...v2.92.0) (2021-11-01)
+
+
+### Features
+
+* **EmptyStates:** Update doc with link to invite member modal component ([b0cec78](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/b0cec78fe4bde0a3beb06e630610c4e6611a51ec))
+
+# [2.91.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.90.1...v2.91.0) (2021-11-01)
+
+
+### Features
+
+* **Accordion:** Add guidelines heading ([417823b](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/417823bab35adf5103e63a9a4d57b1bea3534438))
+
+## [2.90.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.90.0...v2.90.1) (2021-10-29)
+
+
+### Bug Fixes
+
+* **deps:** update gitlab ui/svg ([998f7cb](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/998f7cbee6ef17b4719aed23f9c51f9fdb1815ed))
+
+# [2.90.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.89.3...v2.90.0) (2021-10-27)
+
+
+### Features
+
+* **Accordion:** Update accordion docs to new template ([28919ff](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/28919ff11c360bb35f699d84d76e2148d6e1450a))
+
+## [2.89.3](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.89.2...v2.89.3) (2021-10-27)
+
+
+### Bug Fixes
+
+* **issue-template:** Use correct label for component issue template ([f5baee1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/f5baee161dbf8374e6beff629d8b9be2fd8cf98b))
+
+## [2.89.2](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.89.1...v2.89.2) (2021-10-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gitlab/ui to v32.24.1 ([99ea88b](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/99ea88b9d5a60ef1bd9d1dd524ffca780576256a))
+
+## [2.89.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.89.0...v2.89.1) (2021-10-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gitlab/ui to v32.24.0 ([380a9cb](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/380a9cbfe887e509895c06a6bb6f0836672630c2))
+
+# [2.89.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.88.0...v2.89.0) (2021-10-22)
+
+
+### Features
+
+* **Badge:** Update accessibility guides ([3200591](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/32005910cf4a441cf20f91a5e97be5c5ba2adaa1))
+
+# [2.88.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.87.0...v2.88.0) (2021-10-21)
+
+
+### Features
+
+* **EmptyStates:** Add empty state variants ([ff4f81a](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/ff4f81a3b4165717f71c059da107e5ffb7087e5f))
+
+# [2.87.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.86.1...v2.87.0) (2021-10-21)
+
+
+### Features
+
+* **SkeletonLoader:** Update content to utilize new template ([ce68ed9](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/ce68ed941557c32ff3c9ff31cede9ebea839570b))
+
 ## [2.86.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.86.0...v2.86.1) (2021-10-21)
 
 
