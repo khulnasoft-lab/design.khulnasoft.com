@@ -159,7 +159,7 @@ Todo: Add live component block with code example (form button)
 
 We default to all information being required unless stated otherwise with "(optional)" added to the label of the corresponding input field.
 
-However, if your form is entirely optional except for 1-2 fields, it might make sense to mark those as "(required)" instead
+However, if your form is entirely optional except for 1-2 fields, you may opt to append "(required)" to the field label instead.
 
 Todo: Add live component block with code example (optional)
 
