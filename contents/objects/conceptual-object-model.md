@@ -35,4 +35,4 @@ As an example, see the [Merge request semantic layout](/objects/merge-request#la
 
 ## How to contribute an object in Pajamas
 
-To contribute an object to Pajamas, create an issue in the [Pajamas Design System project](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com) using the Object issue template (TBD).
+To contribute an object to Pajamas, create an issue in the [Pajamas Design System project](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com) using the `Object` issue template (TBD).
