@@ -1,6 +1,5 @@
 <script>
 import { GlCard, GlIcon, GlLink } from '@gitlab/ui';
-import { iframeResize } from 'iframe-resizer';
 import StoryIframe from './story_iframe.vue';
 
 const VIEW_MODE_STORY = 'story';
@@ -30,11 +29,6 @@ export default {
       validator: (viewMode) => [VIEW_MODE_STORY, VIEW_MODE_DOCS].includes(viewMode),
     },
   },
-  data() {
-    return {
-      loaded: false,
-    };
-  },
   computed: {
     isDocsMode() {
       return this.viewMode === VIEW_MODE_DOCS;
@@ -55,17 +49,6 @@ export default {
       url.searchParams.append('isEmbeddedStory', 1);
 
       return url.href;
-    },
-    iFrameStyles() {
-      return {
-        opacity: this.loaded ? 1 : 0,
-      };
-    },
-  },
-  methods: {
-    iFrameLoaded({ target }) {
-      iframeResize({}, target);
-      this.loaded = true;
     },
   },
 };
