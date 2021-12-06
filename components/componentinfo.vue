@@ -144,7 +144,7 @@ export default {
             class="app-styles js-gl-tab"
             @click.prevent="activateTab('code')"
           >
-            <div class="pt-0">
+            <div class="gl-pt-0">
               <div
                 v-for="story in frontmatterInfo.attributes.stories"
                 :key="story"
