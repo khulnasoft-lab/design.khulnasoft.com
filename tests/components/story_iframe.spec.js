@@ -15,6 +15,12 @@ describe('story iframe component', () => {
   const findIframe = () => wrapper.find('iframe');
   const findLoadingIcon = () => wrapper.findComponent(GlLoadingIcon);
 
+  // Helpers
+  const loadIframe = () => {
+    findIframe().trigger('load');
+    return wrapper.vm.$nextTick();
+  };
+
   const createComponent = () => {
     wrapper = mount(StoryIframe, {
       propsData: {
@@ -44,9 +50,18 @@ describe('story iframe component', () => {
   it('shows a loading icon until the iframe has finished loading', async () => {
     expect(findLoadingIcon().exists()).toBe(true);
 
-    findIframe().trigger('load');
-    await wrapper.vm.$nextTick();
+    await loadIframe();
 
     expect(findLoadingIcon().exists()).toBe(false);
+  });
+
+  it('removes opacity class once iframe has finished loading', async () => {
+    const glOpacityUtility = 'gl-opacity-0';
+
+    expect(findIframe().classes()).toContain(glOpacityUtility);
+
+    await loadIframe();
+
+    expect(findIframe().classes()).not.toContain(glOpacityUtility);
   });
 });

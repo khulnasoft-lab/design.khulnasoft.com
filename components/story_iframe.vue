@@ -18,9 +18,9 @@ export default {
     };
   },
   computed: {
-    iFrameStyles() {
+    iFrameClass() {
       return {
-        opacity: this.loaded ? 1 : 0,
+        'gl-opacity-0': !this.loaded,
       };
     },
   },
@@ -43,8 +43,8 @@ export default {
       Loading story...
     </div>
     <iframe
-      :style="iFrameStyles"
       :src="url"
+      :class="iFrameClass"
       class="gl-border-none gl-min-w-full responsive-iframe"
       @load="iFrameLoaded"
     ></iframe>
