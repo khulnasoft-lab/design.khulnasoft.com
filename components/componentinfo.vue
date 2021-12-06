@@ -60,7 +60,9 @@ export default {
       return componentNameToLabelMap[slug] || slug;
     },
     showTabs() {
-      return this.vueComponents?.length || this.frontmatterInfo?.attributes?.stories?.length;
+      return Boolean(
+        this.vueComponents?.length || this.frontmatterInfo?.attributes?.stories?.length,
+      );
     },
   },
   created() {
