@@ -5,6 +5,7 @@ vueComponents:
   - GlPopover
 related:
   - tooltip
+  - modal
 ---
 
 ## Examples
@@ -28,6 +29,7 @@ Todo: Add structure image.
 ### When not to use
 
 - If you‘re not providing rich markup or actionable items, consider using a [tooltip](/components/tooltip).
+- If you‘re displaying critical content needed for users to complete a task, consider using a [modal](/components/modal).
 
 ### Appearance
 
