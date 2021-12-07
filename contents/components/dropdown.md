@@ -64,6 +64,7 @@ A button that triggers a dropdown panel comes in a few variants to fit different
 - All panels can be closed by clicking outside of them or using the <kbd>esc</kbd> key.
 - If there are more than 10 elements in the list, it may be necessary to include an autocomplete search box to filter options.
 - A limited amount of options that don't scroll can be fixed at the bottom of a dropdown panel.
+- If another component, e.g. a text input, is beside the dropdown, choose a fixed with dropdown container to prevent the other components on the same line from jumping around on the page based on the selection.
 
 ### Content
 
