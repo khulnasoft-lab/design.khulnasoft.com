@@ -2,7 +2,7 @@
 name: Conceptual object model
 ---
 
-A conceptual object model is a visual representation of a system’s objects, actions, and associated attributes. An object model can be used, in conjunction with a design system, to create a consistent experience across a system’s higher-level constructs such as organisms, templates and pages. [Learn more about Atomic Design here.](https://bradfrost.com/blog/post/atomic-web-design/)
+A conceptual object model is a visual representation of a system’s objects, actions, and associated attributes. An object model can be used, in conjunction with a design system, to create a consistent experience across a system’s higher-level constructs such as organisms, templates and pages. [Learn more about Atomic Design here](https://bradfrost.com/blog/post/atomic-web-design/).
 
 This model allows for proper separation of concerns: concepts (meaning) and user interface (representation; see [layouts](#layouts)).
 In other words, a conceptual model is only focused on the concepts and how they relate to each other, not how it’s technically implemented or used in the UI.
