@@ -33,7 +33,7 @@ An object itself is interacted with and represented in the UI through different 
 
 A semantic layout is a visualization of the object layout, overlayed with the concepts of the object (its relationships, attributes, and actions; see [conceptual model](#conceptual-model-diagrams) for more information).
 
-As an example, see the [Merge request semantic layout](/objects/merge-request#layouts).
+As an example, see the [merge request semantic layout](/objects/merge-request#layouts).
 
 ## How to contribute an object in Pajamas
 
