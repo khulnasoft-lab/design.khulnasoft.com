@@ -18,13 +18,46 @@ Todo: Add link to design specs.
 
 ## Structure
 
+### Card elements
+
 Todo: Add structure diagram based on design specs.
 
 1. **Container**: Wraps the content.
 1. **Header** (optional): Contains the title.
 1. **Title** (optional): Conveys the purpose of the card.
+1. **Picture** (optional): Visual indication about the content of the card
 1. **Content**: Contains a wide variety of content types and controls depending on the purpose.
 1. **Actions** (optional): Buttons or links used to provide explicit action(s) the user can take related to the card content.
+
+### Card layout
+
+Todo: Add structure diagram based on design specs.
+
+There are two different layouts for the cars: vertical and horizontal.
+
+A horizontal layout fits better for bigger screen size. On the other hand, a vertical layout suits smaller screen sizes like mobile because the text can keep the small screen's entire length, which is better for readability.
+
+### Page layout and breakpoints
+
+Todo: Add structure diagram based on design specs.
+
+**Three columns**
+
+- Three columns are more suitable for vertical cards
+- Cards spacing is 16 px; between columns spacing is 24px
+- The minimum page size for three-column is 1200 px
+
+**Two columns**
+
+- Two-column can be for both horizontal or vertical cards
+- Cards spacing is 24 px; between columns spacing is 40px
+- The minimum page size for two-column is 768 px
+
+**One column**
+
+- One column is more suitable for vertical cards
+- Cards spacing is 24px
+- When the column width is smaller than 480px, we recommend using a vertical layout.
 
 ## Guidelines
 
@@ -45,6 +78,7 @@ Todo: Add structure diagram based on design specs.
 - A card can be static or draggable when there is an option to reorder it within a set of other cards.
   - When dragging the card to a new location, any cards positioned behind it should move to show their new placement as if the user were to let go of the selected card and drop it into the current position.
   - For touch devices there should be a longer hold on the card in order to grab it and move it, so that the user intent isn't confused with scrolling.
+  - The clickable item in the cards are buttons or links; the cards themselves shouldn't be clickable. It means, TECHNICALLY, we don't make the whole card clickable(don't attach a link to the entire card, links only are connected to the action itself).
 
 ### Content
 
@@ -62,6 +96,27 @@ Todo: Add structure diagram based on design specs.
 - Since a card can be used for many purposes, body content can be just about anything from an image to meta information and plain text.
 - Body content for each card within a set should follow a similar pattern and structure so that the cards are scannable and consistent.
 
+#### Visual elements
+
+Todo: Add examples based on design specs.
+
+The image could be pictures, illustrations or icons; choosing the visual element depends on the particular scenario.
+
+Regarding visual element's size, there are no rigid guidelines neither. Depending on the situation, it could be a full width/height image or a small visual icon-like image.
+
+If the image is smaller than the content container, for a horizontal layout, it should be top/left-aligned with the content container; for a vertical layout, the images should be centre-aligned with the content container.
+
+
 #### Actions
 
-- Left aligned, except in right-to-left languages where they are right aligned and the order is the same. See [button alignment and order](/components/button#alignment-and-order) for more details.
+Todo: Add examples based on design specs.
+
+There are two types of actions that can be added to a card: Buttons (primary, secondary and tertiary) and links. Buttons are always left aligned, except in right-to-left languages where they are right aligned. The button order should follow the current [guidelines about how to use buttons](https://design.gitlab.com/components/button).
+
+Buttons are always located at the bottom of the cards: they could take the entire width of the card and create its footer section, or it could be at the bottom in the text area when there is a picture element on the left. The button is obvious enough to tell the user that it is clickable, and there is no need to add hover status to the whole card.
+
+Links are allowed within the content. When there are links mixed in the content, to make sure the user knows this is clickable, we can add hover status to the whole card as an affordance to indicate the clickable action. 
+
+
+
+
