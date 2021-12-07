@@ -23,7 +23,7 @@ Objects and the conceptual model can help:
 A conceptual model defines the **objects** and **actions**, and enumerates the **attributes** for every object.
 The language of the conceptual model diagram is meant to be as simple and accessible as possible to everyone, even if they are not familiar with these kinds of diagrams. 
 
-As an example, see the [Merge request conceptual model diagram.](/objects/merge-request#conceptual-model)
+As an example, see the [Merge request conceptual model diagram](/objects/merge-request#conceptual-model).
 
 ## Layouts
 
