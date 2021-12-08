@@ -50,7 +50,6 @@ An illustration is primarily comprised of geometric shapes. Use circles, rectang
 
 - Use a multiple of **2px** to keep values even when scaling up or down between grid sizes.
 - Use minimal or no border radius to represent sharp corners, and anywhere between **4px** to **12px** for softer, rounded objects.
-- Clarity should always override consistency, and the guides are flexible when necessary.
 
 ### Content
 
