@@ -17,7 +17,6 @@ Todo: Add structure image.
 
 - If you need puppets in a pinch.
 - To create separation between your feet and your shoes.
-- If you‘re a dad wearing sandals.
 
 ### When not to use
 
