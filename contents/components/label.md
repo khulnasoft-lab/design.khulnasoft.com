@@ -37,6 +37,7 @@ Todo: Add when to use.
 
 - Clicking on a label navigates the user to a list view filtered by that label.
 - Users can manually filter lists and other types of views by labels.
+- Labels can include a [close icon](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~close) that, when clicked, remove the label from the interface.
 
 ### Content
 
