@@ -17,9 +17,7 @@ const GOOGLE_ANALYTICS_ID = process.env.GOOGLE_ANALYTICS_ID
   ? process.env.GOOGLE_ANALYTICS_ID
   : false;
 
-const GITLAB_UI_URL = (
-  process.env.GITLAB_UI_URL || 'https://gitlab-org.gitlab.io/gitlab-ui'
-).replace(/\/+$/, '');
+const GITLAB_UI_URL = process.env.GITLAB_UI_URL || 'https://gitlab-org.gitlab.io/gitlab-ui';
 
 if (GOOGLE_ANALYTICS_ID) {
   console.log(`GOOGLE_ANALYTICS_ID found and applied`);
@@ -33,7 +31,9 @@ const cspPolicies = [
   "style-src 'self' 'unsafe-inline'",
   "object-src 'none'",
   "img-src 'self' https: data:",
-  `child-src https://www.figma.com ${GITLAB_UI_URL}`,
+  `child-src https://www.figma.com https://gitlab.com https://projects.gitlab.io ${
+    new URL(GITLAB_UI_URL).origin
+  }`,
   "connect-src 'self' https://sentry.gitlab.net https://www.google-analytics.com",
 ];
 
