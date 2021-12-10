@@ -33,7 +33,7 @@ const cspPolicies = [
   "style-src 'self' 'unsafe-inline'",
   "object-src 'none'",
   "img-src 'self' https: data:",
-  `child-src https://www.figma.com ${GITLAB_UI_URL}`,
+  `frame-src https://www.figma.com ${new URL(GITLAB_UI_URL).origin}`,
   "connect-src 'self' https://sentry.gitlab.net https://www.google-analytics.com",
 ];
 
