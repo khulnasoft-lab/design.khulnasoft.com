@@ -52,8 +52,6 @@ Todo: Add live component block with example of loading icon button
 
 [[Example:new-dropdown-with-icon]]
 
-[[Example:new-dropdown-split]]
-
 [[Example:button-ellipsis]]
 
 [[Example:button-group-basic]]
@@ -267,7 +265,6 @@ Buttons can contain different content depending on the situation. For example, s
 A dropdown button triggers an option menu.
 
 - **Text and icon dropdowns**: A dropdown button uses the [chevron-down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-down) icon to the right of the text label. The chevron is the only icon that should be present with a text label.
-- **Split dropdown**: A dropdown button is split when additional related actions are available. The left half displays the default action and the additional related actions are contained within the attached dropdown on the right half. The options available in the dropdown perform the action on click.
 
 ### Ellipsis
 
