@@ -103,7 +103,9 @@ A horizontal layout fits better for bigger screen size. On the other hand, a ver
 #### Button
 
 
-There are two types of actions that can be added to a card: Buttons (primary, secondary and tertiary) and links. Buttons are always left aligned, except in right-to-left languages where they are right aligned. The button order should follow the current [guidelines about how to use buttons](https://design.gitlab.com/components/button).
+- Buttons are left aligned, except in right-to-left languages where they are right aligned and should follow the [alignment and order guidelines for buttons](https://design.gitlab.com/components/button#alignment).
+- Contains the primary and secondary action for a card.
+- Located below the content of a card.
 
 Buttons are always located at the bottom of the cards: they could take the entire width of the card and create its footer section, or it could be at the bottom in the text area when there is a picture element on the left. The button is obvious enough to tell the user that it is clickable, and there is no need to add hover status to the whole card.
 
