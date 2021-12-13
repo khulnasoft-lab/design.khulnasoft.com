@@ -75,7 +75,7 @@ A horizontal layout fits better for bigger screen size. On the other hand, a ver
 - A card can be static or draggable when there is an option to reorder it within a set of other cards.
   - When dragging the card to a new location, any cards positioned behind it should move to show their new placement as if the user were to let go of the selected card and drop it into the current position.
   - For touch devices there should be a longer hold on the card in order to grab it and move it, so that the user intent isn't confused with scrolling.
-  - The clickable item in the cards are buttons or links; the cards themselves shouldn't be clickable. It means, TECHNICALLY, we don't make the whole card clickable(don't attach a link to the entire card, links only are connected to the action itself).
+  - If a card contains an action, a button or link inside the card should trigger the action, not the entire card.
 
 ### Content
 
