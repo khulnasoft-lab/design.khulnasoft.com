@@ -114,8 +114,4 @@ There are two types of actions that can be added to a card: Buttons (primary, se
 
 Buttons are always located at the bottom of the cards: they could take the entire width of the card and create its footer section, or it could be at the bottom in the text area when there is a picture element on the left. The button is obvious enough to tell the user that it is clickable, and there is no need to add hover status to the whole card.
 
-Links are allowed within the content. When there are links mixed in the content, to make sure the user knows this is clickable, we can add hover status to the whole card as an affordance to indicate the clickable action. 
-
-
-
-
+Links are allowed within the content. When there are links mixed in the content, to make sure the user knows this is clickable, we can add hover status to the whole card as an affordance to indicate the clickable action.
