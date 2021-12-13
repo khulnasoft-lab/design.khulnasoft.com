@@ -96,11 +96,8 @@ A horizontal layout fits better for bigger screen size. On the other hand, a ver
 #### Image
 
 
-The image could be pictures, illustrations or icons; choosing the visual element depends on the particular scenario.
-
-Regarding visual element's size, there are no rigid guidelines neither. Depending on the situation, it could be a full width/height image or a small visual icon-like image.
-
-If the image is smaller than the content container, for a horizontal layout, it should be top/left-aligned with the content container; for a vertical layout, the images should be centre-aligned with the content container.
+- For a horizontal layout, the image should be top/left-aligned with the content container. 
+- For a vertical layout, the image should be center-aligned with the content container.
 
 
 #### Actions
