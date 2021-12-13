@@ -18,7 +18,6 @@ Todo: Add link to design specs.
 
 ## Structure
 
-### Card elements
 
 Todo: Add structure diagram based on design specs.
 
