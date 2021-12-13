@@ -37,7 +37,6 @@ A horizontal layout fits better for bigger screen size. On the other hand, a ver
 
 ### Page layout and breakpoints
 
-Todo: Add structure diagram based on design specs.
 
 **Three columns**
 
