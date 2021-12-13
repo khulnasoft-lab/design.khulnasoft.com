@@ -93,7 +93,7 @@ A horizontal layout fits better for bigger screen size. On the other hand, a ver
 - Since a card can be used for many purposes, body content can be just about anything from an image to meta information and plain text.
 - Body content for each card within a set should follow a similar pattern and structure so that the cards are scannable and consistent.
 
-#### Visual elements
+#### Image
 
 
 The image could be pictures, illustrations or icons; choosing the visual element depends on the particular scenario.
