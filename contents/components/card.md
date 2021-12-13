@@ -102,7 +102,6 @@ A horizontal layout fits better for bigger screen size. On the other hand, a ver
 
 #### Actions
 
-Todo: Add examples based on design specs.
 
 There are two types of actions that can be added to a card: Buttons (primary, secondary and tertiary) and links. Buttons are always left aligned, except in right-to-left languages where they are right aligned. The button order should follow the current [guidelines about how to use buttons](https://design.gitlab.com/components/button).
 
