@@ -30,7 +30,6 @@ Todo: Add structure diagram based on design specs.
 
 ### Card layout
 
-Todo: Add structure diagram based on design specs.
 
 There are two different layouts for the cars: vertical and horizontal.
 
