@@ -28,34 +28,6 @@ Todo: Add structure diagram based on design specs.
 1. **Content**: Contains a wide variety of content types and controls depending on the purpose.
 1. **Actions** (optional): Buttons or links used to provide explicit action(s) the user can take related to the card content.
 
-### Card layout
-
-
-There are two different layouts for the cars: vertical and horizontal.
-
-A horizontal layout fits better for bigger screen size. On the other hand, a vertical layout suits smaller screen sizes like mobile because the text can keep the small screen's entire length, which is better for readability.
-
-### Page layout and breakpoints
-
-
-**Three columns**
-
-- Three columns are more suitable for vertical cards
-- Cards spacing is 16 px; between columns spacing is 24px
-- The minimum page size for three-column is 1200 px
-
-**Two columns**
-
-- Two-column can be for both horizontal or vertical cards
-- Cards spacing is 24 px; between columns spacing is 40px
-- The minimum page size for two-column is 768 px
-
-**One column**
-
-- One column is more suitable for vertical cards
-- Cards spacing is 24px
-- When the column width is smaller than 480px, we recommend using a vertical layout.
-
 ## Guidelines
 
 ### When to use
@@ -68,6 +40,15 @@ A horizontal layout fits better for bigger screen size. On the other hand, a ver
 - If you're only displaying static text or items that don't require comparison or additional grouping, consider using a [list](/components/list) instead.
 - If you need to present or compare data, consider using a [table](/components/table) instead.
 - If you need to show a high level overview of a single data point, use a single stat component. Todo: Add link to single stat component after it's been created
+
+### Variants
+
+There are two different variants for the cards: vertical and horizontal.
+
+- A horizontal layout fits better for a bigger screen size. On the other hand
+  - When using horizontal layout cards, there could be two columns or one column of cards on a page.
+- A vertical layout suits smaller screen sizes like mobile because the text can keep the small screen's entire length, which is better for readability.
+  - When using horizontal layout cards, there could be three columns or two cards on a page.
 
 ### Behavior
 
