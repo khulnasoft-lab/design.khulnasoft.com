@@ -95,7 +95,6 @@ A horizontal layout fits better for bigger screen size. On the other hand, a ver
 
 #### Visual elements
 
-Todo: Add examples based on design specs.
 
 The image could be pictures, illustrations or icons; choosing the visual element depends on the particular scenario.
 
