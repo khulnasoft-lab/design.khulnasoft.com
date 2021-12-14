@@ -18,7 +18,6 @@ Todo: Add link to design specs.
 
 ## Structure
 
-
 Todo: Add structure diagram based on design specs.
 
 1. **Container**: Wraps the content.
@@ -45,18 +44,17 @@ Todo: Add structure diagram based on design specs.
 
 There are two different variants for the cards: vertical and horizontal.
 
-- A horizontal layout fits better for a bigger screen size. On the other hand
-  - When using horizontal layout cards, there could be two columns or one column of cards on a page.
-- A vertical layout suits smaller screen sizes like mobile because the text can keep the small screen's entire length, which is better for readability.
-  - When using horizontal layout cards, there could be three columns or two cards on a page.
+1. **Horizontal**: Horizontal cards work well on larger screens. They can be used in a maximum of 2 columns due to their larger width.
+1. **Vertical**: Vertical cards work well on smaller screens and increase readability. They can be used in a maximum of 3 colums due to their smaller width.
 
 ### Behavior
 
 - Card width is fluid by default.
 - A card can be static or draggable when there is an option to reorder it within a set of other cards.
-  - When dragging the card to a new location, any cards positioned behind it should move to show their new placement as if the user were to let go of the selected card and drop it into the current position.
-  - For touch devices there should be a longer hold on the card in order to grab it and move it, so that the user intent isn't confused with scrolling.
-  - If a card contains an action, a button or link inside the card should trigger the action, not the entire card.
+  - When dragging a card, any adjacent cards should remain visible.
+  - For touch devices, there should be a longer hold on the card to avoid collision with the act of scrolling. 
+  - When a card is currently being dragged, there should be an indication it's in a draggable state.
+- If a card contains an action, a button or link inside the card should trigger the action, not the entire card.
 
 ### Content
 
@@ -76,18 +74,15 @@ There are two different variants for the cards: vertical and horizontal.
 
 #### Image
 
-
-- For a horizontal layout, the image should be top/left-aligned with the content container. 
-- For a vertical layout, the image should be center-aligned with the content container.
-
+- For horizontal layout, the image should be top/left-aligned with the content container. 
+- For vertical layout, the image should be center-aligned with the content container.
 
 #### Button
 
-
 - Buttons are left aligned, except in right-to-left languages where they are right aligned and should follow the [alignment and order guidelines for buttons](https://design.gitlab.com/components/button#alignment).
-- Contains the primary and secondary action for a card.
-- Located below the content of a card.
+- Contains the primary and secondary action (if applicable) for a card.
+- Located below the content. 
 
-Buttons are always located at the bottom of the cards: they could take the entire width of the card and create its footer section, or it could be at the bottom in the text area when there is a picture element on the left. The button is obvious enough to tell the user that it is clickable, and there is no need to add hover status to the whole card.
+### Accessibility
 
-Links are allowed within the content. When there are links mixed in the content, to make sure the user knows this is clickable, we can add hover status to the whole card as an affordance to indicate the clickable action.
+Todo: Add accessibility guidelines.
