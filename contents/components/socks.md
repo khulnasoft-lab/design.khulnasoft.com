@@ -17,6 +17,8 @@ Todo: Add structure image.
 
 - If you need puppets in a pinch.
 - To create separation between your feet and your shoes.
+- To show off your quirky personality.
+- To walk around the house without waking up anyone.
 
 ### When not to use
 
@@ -33,3 +35,8 @@ Todo: Add appearance.
 ### Behavior
 
 Todo: Add behavior.
+
+### Accessibility
+
+- Socks should be in an easy-to-reach drawer.
+
