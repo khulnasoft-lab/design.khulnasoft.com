@@ -19,11 +19,6 @@ stages:
 
 workflow:
   rules:
-    # AutoDevops doesn't use MR pipelines, so we can skip the execution of them
-    # in order to avoid duplication of e.g. untamper-my-lockfile
-    - if: '$CI_MERGE_REQUEST_IID'
-      when: never
-
     - if: '$BUILDPACK_URL || $AUTO_DEVOPS_EXPLICITLY_ENABLED == "1"'
 
     - exists:
@@ -200,3 +195,34 @@ semantic-release:
 untamper-my-lockfile:
   rules:
     - if: "$CI_COMMIT_BRANCH"
+
+pages:
+  image: node:18
+  stage: deploy
+  pages:
+    path_prefix: "$PAGES_PREFIX"
+  variables:
+    ENV_NAME: "production"
+    PAGES_PREFIX: "" # no prefix by default (master)
+  script:
+    - yarn install --frozen-lockfile
+    - yarn build
+    - apk add --no-cache gzip brotli
+    - find dist -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|json\|css\)$' -exec gzip -f -k {} \;
+    - find dist -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|json\|css\)$' -exec brotli -f -k {} \; #  TODO: BROTLI only in production
+    - ls -a dist
+    - echo "Pages accessible through ${CI_PAGES_URL}/${PAGES_PREFIX}"
+  needs: []
+  artifacts:
+    paths:
+      - dist/*
+  environment:
+    name: $ENV_NAME
+    url: "${CI_PAGES_URL}/${PAGES_PREFIX}"
+  publish: dist
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_MERGE_REQUEST_IID # conditionally change the prefix on Merge Requests
+      variables:
+        ENV_NAME: "review/$CI_MERGE_REQUEST_IID"
+        PAGES_PREFIX: 'review-mr-$CI_MERGE_REQUEST_IID' # prefix with the mr<iid>, like `mr123`

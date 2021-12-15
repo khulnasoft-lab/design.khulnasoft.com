@@ -116,6 +116,7 @@ export default {
 
   router: {
     middleware: ['navigation'],
+    base: process.env.REVIEW_APP_ROOT ? new URL(process.env.REVIEW_APP_ROOT).pathname : '/',
   },
 
   /*
