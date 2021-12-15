@@ -101,6 +101,7 @@ module.exports = {
   },
 
   router: {
+    base: process.env.REVIEW_APP_ROOT ? new URL(process.env.REVIEW_APP_ROOT).pathname : '/',
     middleware: ['frontmatter', 'navigation'],
     extendRoutes(originalRoutes) {
       const sectionSlugRoute = originalRoutes.find((route) => route.name === 'section-slug');
