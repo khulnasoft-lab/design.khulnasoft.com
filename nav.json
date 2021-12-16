@@ -224,6 +224,10 @@
             "path": "segmented-control"
           },
           {
+            "title": "Single stat",
+            "path": "single-stat"
+          },
+          {
             "title": "Skeleton loader",
             "path": "skeleton-loader"
           },
