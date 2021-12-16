@@ -126,3 +126,21 @@
     }
   }
 }
+
+.home-cards {
+  display: grid;
+  gap: $gl-spacing-7;
+  padding: $gl-spacing-7;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+  .home-card {
+    &:hover,
+    &:focus {
+      border-color: $gray-200;
+    }
+  }
+
+  @include media-sm-down {
+    padding: 0;
+  }
+}

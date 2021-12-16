@@ -21,6 +21,38 @@
       <img src="../assets/images/cover.png" class="banner__image animated" />
       <div class="overlay"></div>
     </div>
+    <div class="gl-p-7 bg-dark">
+      <div class="home-cards">
+        <nuxt-link
+          to="/components/overview"
+          class="home-card gl-text-decoration-none! gl-text-black-normal! gl-rounded-base gl-bg-white gl-p-7 gl-w-full gl-border-1 gl-border-solid gl-border-gray-100"
+        >
+          <!-- Insert illustration here -->
+          <div>
+            <h2 class="gl-mt-0! gl-mb-4!">Components</h2>
+            <p>
+              Components are the UI elements that make up Pajamas and serve as a core part of the
+              design system. Explore our components to learn more about their usage, implementation,
+              and copy code snippets to use in your projects.
+            </p>
+          </div>
+        </nuxt-link>
+        <nuxt-link
+          to="/get-started/contribute"
+          class="home-card gl-text-decoration-none! gl-text-black-normal! gl-rounded-base gl-bg-white gl-p-7 gl-w-full gl-border-1 gl-border-solid gl-border-gray-100"
+        >
+          <!-- Insert illustration here -->
+          <div>
+            <h2 class="gl-mt-0! gl-mb-4!">Contribute</h2>
+            <p>
+              Pajamas is an open source project where everyone can contribute. Explore the process
+              for contributing to every part of our design system, from icons to colors to empty
+              states, we welcome your contributions.
+            </p>
+          </div>
+        </nuxt-link>
+      </div>
+    </div>
     <div class="p-t-10 p-b-10">
       <div class="content limited distributed contributing-box__content">
         <div class="contribute-row">
