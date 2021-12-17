@@ -139,8 +139,4 @@
       border-color: $gray-200;
     }
   }
-
-  @include media-sm-down {
-    padding: 0;
-  }
 }
