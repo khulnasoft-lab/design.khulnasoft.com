@@ -47,10 +47,10 @@ Forms may include a variety of elements. By default all information in forms is 
 
 #### Text
 
-- **Label**: Clearly and concisely identifies an input. For example, _First name_.
+- **Label**: Clearly and concisely identifies an input. For example, _Phone number_.
 - **Description**: Clarifies and explains the purpose or intent of an input. Positioned directly below a label. For example, _A phone number is required for security purposes_.
 - **Help**: Provides contextual examples, formatting information, details about the input state, validation messages, or any combination of these options. Positioned directly below an input. May include a [help link](/usability/helping-users) when necessary. For example, _Format: +1-234-567-8901_.
-- **Placeholder**: only used when the input purpose is still understood in its absence; it's not a replacement for a visible label. An exception is the [search](/components/search) component, which includes a [search](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~search) icon to further clarify its purpose. For example, _Search or go to…_.
+- **Placeholder**: Only used when the input purpose is still understood in its absence; it's not a replacement for a visible label. An exception is the [search](/components/search) component, which includes a [search](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~search) icon to further clarify its purpose. For example, _Search or go to…_.
 
 #### Field
 
