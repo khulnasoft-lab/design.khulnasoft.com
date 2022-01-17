@@ -18,7 +18,7 @@ Regions are areas of the application that are formed by combining multiple compo
 
 ## Objects
 
-[Objects](/objects/overview) help users understand how the product works and fits together. They capture and organize data as a single source of truth around specific tasks and user interactions. Objects are described in terms of attributes (what they contain), functions (what they do), and relationships (what they interact with). Effective objects tightly align our user's mental model with the product's data model. For example, Issuables, Groups, and Reports.
+[Objects](/objects/overview) capture and organize data as a single source of truth around specific tasks and user interactions. Objects are described in terms of attributes (what they contain), functions (what they do), and relationships (what they interact with). When documented as a [conceptual model](/objects/overview#conceptual-model-diagrams), objects help understand how the product works and fits together on a system level, detached from the constraints of the user interface. An effective object model tightly aligns our user's mental model with the product's data model. Examples include Issuables, Groups, and [Merge Requests](/objects/merge-request).
 
 ## Content
 
