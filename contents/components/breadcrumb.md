@@ -29,24 +29,25 @@ related:
 
 ### When to use
 
-- A breadcrumb should exist on every page of the application, except for register and profile, to show the hierarchy of parent and child pages in the context of the current page where the current page is the last item in the list.
+- A breadcrumb should exist on every page of the application. Its role is to show the hierarchy of parent and child pages in the context of the current page, where the current page is the last item in the list. Exceptions to this guideline are the register and profile pages.
 
 ### When not to use
 
-- If you need to link to sibling or related pages, use a form of [navigation](/regions/navigation) instead.
+- To link to sibling or related pages, use a form of [navigation](/regions/navigation) instead.
 
 ### Behavior
 
-- Use an [ellipsis button](/components/button) to hide groups when there are three or more subgroups in the path.
-- Use an [ellipsis button](/components/button) to hide all Wiki page breadcrumb items except the current page.
+- To hide groups when there are three or more subgroups in the path use an [ellipsis button](/components/button).
+- To hide all Wiki page breadcrumb items except the current page use an [ellipsis button](/components/button).
 - The top-level group and the subgroup closest to the project are never collapsed.
 - All breadcrumb items, except the last one, are truncated to 128px if there isn't enough horizontal space to fit them on one line.
 
 ### Content
 
 - Ignore the **GitLab** instance name in the breadcrumb.
-- For a page that presents the details of an individual item (issue, merge request, snippet, pipeline, job, milestone, commit, tag, environment, cluster, pipeline schedule), the last element of the breadcrumb should include the ID of the element. For example, merge request **!1234** becomes **GitLab.org > GitLab > Merge Requests > !1234**.
+- For a page that presents the details of an individual item (issue, merge request, snippet, pipeline, job, milestone, commit, tag, environment, cluster, pipeline schedule), the last element of the breadcrumb should include the ID of the element. For example, merge request **!1234** becomes **GitLab.org > GitLab > Merge requests > !1234**.
 - For a contextual page within the navigation, the breadcrumb should only include the submenu title. For example, **Overview > Details** becomes just **Details**.
+- [Use sentence case](../content/punctuation.md#case) for each breadcrumb element.
 
 #### Special breadcrumbs
 
@@ -55,23 +56,23 @@ Some pages have a special breadcrumb path to make the text intuitive. They are d
 | Path | Title in breadcrumb |
 | ------ | ------ |
 | Group > Issues > List                     | Group > Issues                               |
-| Group > Issues > Boards                   | Group > Issue Boards                         |
-| Group > Settings > General                | Group > General Settings                     |
-| Group > Settings > CI / CD                | Group > CI / CD Settings                     |
+| Group > Issues > Boards                   | Group > Issue boards                         |
+| Group > Settings > General                | Group > General settings                     |
+| Group > Settings > CI / CD                | Group > CI / CD settings                     |
 | Group > Project > Repository > Files      | Group > Project > Repository                 |
-| Group > Project > Repository > Compare    | Group > Project > Compare Revisions          |
-| Group > Project > Repository > Charts     | Group > Project > Contribution Charts        |
+| Group > Project > Repository > Compare    | Group > Project > Compare revisions          |
+| Group > Project > Repository > Charts     | Group > Project > Contribution charts        |
 | Group > Project > Issues > List           | Group > Project > Issues                     |
-| Group > Project > Issues > Boards         | Group > Project > Issue Boards               |
-| Group > Project > CI / CD > Charts        | Group > Project > CI/CD Charts               |
-| Group > Project > Settings > General      | Group > Project > General Settings           |
-| Group > Project > Settings > Integrations | Group > Project > Integration Settings       |
-| Group > Project > Settings > Repository   | Group > Project > Repository Settings        |
-| Group > Project > Settings > CI / CD      | Group > Project > CI/CD Settings             |
-| User Settings > Profile                   | User settings > Edit Profile                 |
-| User Settings > Password                  | User settings > Edit Password                |
-| Admin Area > System Hooks > Edit          | Admin Area > System Hooks > Edit System Hook |
-| Admin Area > Label > Edit                 | Admin Area > Labels > Edit Label             |
+| Group > Project > Issues > Boards         | Group > Project > Issue boards               |
+| Group > Project > CI / CD > Charts        | Group > Project > CI/CD charts               |
+| Group > Project > Settings > General      | Group > Project > General settings           |
+| Group > Project > Settings > Integrations | Group > Project > Integration settings       |
+| Group > Project > Settings > Repository   | Group > Project > Repository settings        |
+| Group > Project > Settings > CI / CD      | Group > Project > CI/CD settings             |
+| User settings > Profile                   | User settings > Edit profile                 |
+| User settings > Password                  | User settings > Edit password                |
+| Admin area > System hooks > Edit          | Admin area > System hooks > Edit system hook |
+| Admin area > Label > Edit                 | Admin area > Labels > Edit label             |
 
 ### Accessibility
 
