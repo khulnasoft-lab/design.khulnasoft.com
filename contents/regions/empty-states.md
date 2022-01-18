@@ -78,6 +78,7 @@ A `Higher tier feature` empty state serves as a placeholder when a certain featu
 - Specifications and actions should be determined by [the Growth team](https://about.gitlab.com/handbook/product/categories/#growth-section). If implementing a solution for this empty state region, collaborate with the Growth Product Designer and Product Manager. 
 
 Todo: Add specifications for Higher Tier empty state region.
+
 Todo: Add content for Higher Tier empty state region.
 
 ### Empty search results
