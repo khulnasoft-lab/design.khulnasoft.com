@@ -10,7 +10,7 @@ related:
 
 ## Examples
 
-[[Story:base-card--default]]
+[[Story:base-card--default|Default card]]
 
 Todo: Provide additional card examples.
 

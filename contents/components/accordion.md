@@ -11,7 +11,7 @@ related:
 
 ## Examples
 
-[[Story:base-accordion--default]]
+[[Story:base-accordion--default|Default accordion]]
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A0)
 

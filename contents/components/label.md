@@ -9,9 +9,9 @@ related:
 
 ## Examples
 
-[[Story:base-label--default]]
+[[Story:base-label--default|Default label]]
 
-[[Story:base-label--scoped]]
+[[Story:base-label--scoped|Scoped label]]
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A127)
 

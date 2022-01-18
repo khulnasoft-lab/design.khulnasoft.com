@@ -11,9 +11,9 @@ related:
 
 ## Examples
 
-[[Story:base-avatar--image]]
+[[Story:base-avatar--image|Avatar image]]
 
-[[Story:base-avatar-labeled--default]]
+[[Story:base-avatar-labeled--default|Labeled avatar]]
 
 Todo: Add group demo
 

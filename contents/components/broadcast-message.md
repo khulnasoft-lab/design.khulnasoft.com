@@ -11,7 +11,7 @@ related:
 
 ## Examples
 
-[[Story:base-broadcast-message--default]]
+[[Story:base-broadcast-message--default|Default broadcast message]]
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit-Beta?node-id=1501%3A1583)
 
