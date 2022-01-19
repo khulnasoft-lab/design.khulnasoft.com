@@ -14,7 +14,7 @@ A small design primitive. Components build upon the design foundations (typograp
 
 ## Regions
 
-Regions are areas of the application that are formed by combining multiple components, creating a layout section that can be reused across various pages. For example, issuable comments.
+Regions are areas formed by combining multiple components, creating a layout section that can be reused across various pages. For example, the comments and activity feed in issues or merge requests.
 
 ## Objects
 
