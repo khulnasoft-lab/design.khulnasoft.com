@@ -2,11 +2,11 @@
 name: Content reflow
 ---
 
-All GitLab components should allow for content to reflow when text is larger than the space available, or when they are applied in layouts with less horizontal space.
+Content and functionality should be accessible regardless of available space. Consider reflow, truncation, or affordance for horizontal scrolling depending on the situation.
 
 
 ### Content strategy
-While designing UI for a feature, be mindful of it's primary objective and group the associated content semantically instead of tying them with specific component. When grouped semantically, it gets much easier to reuse and adapt the content to use different components if need be, for responsive behaviour.
+While designing an interface, be mindful of its primary objective, and group the associated content semantically instead of tying them with a specific component. When grouped semantically, it becomes much easier to reuse and adapt the content to use different components if need be, for responsive behaviour.
 
 
 ### Mobile first
