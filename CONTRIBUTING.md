@@ -10,3 +10,7 @@ terms.
 [DCO + License](https://gitlab.com/gitlab-org/dco/blob/master/README.md)
 
 _This notice should stay as the first item in the CONTRIBUTING.md file._
+
+## Contribution guidelines
+
+TBD
