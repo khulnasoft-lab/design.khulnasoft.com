@@ -47,6 +47,7 @@ Todo: Add structure image.
 - Similar to [tooltips](/components/tooltip), popovers have a default delay of `500ms` on `show` to help confirm hover intent and ensure that:
   - A user doesn’t accidentally hover an element with a popover, which might cover an adjacent element they intended to select.
   - The UI isn‘t constantly showing popovers when a user is moving their mouse over the page.
+- The exception to this is a popover with a close button, which is triggered on page load and stays in view until dismissal. These should be used sparingly (no more than one per page), and only when highlighting a new feature or area.
 
 ### Content
 
