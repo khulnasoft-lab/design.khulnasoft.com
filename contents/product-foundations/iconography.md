@@ -108,6 +108,8 @@ Here are a few considerations when trying to achieve optical balance.
 
 ## Strokes
 
+Note:  Icons now use a 1.5-pixel stroke. This change allows icons to be more balanced with other UI elements and work well in both light and dark UI. More information in the [Hey icons, lighten up (Dec 17, 2021)](https://about.gitlab.com/blog/2021/12/17/hey-icons-lighten-up/) blog post.
+
 All icons use a **2px** stroke weight and are most commonly aligned to the inside of shapes. Lines use rounded caps, unless doing so would misrepresent the metaphor, or if you are trying to infer depth or element clipping. Round line joins are optional and also depend on the metaphor. For example, a checkmark is one continuous object and the round line infers fluidity, whereas clock hands are two joined objects and a miter join defines a joint.
 
 <div class="row">
