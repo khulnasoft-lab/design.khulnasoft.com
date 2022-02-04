@@ -22,9 +22,7 @@ Using a keyboard is a fundamental aspect of accessibility. In fact, many other t
 - Arrow keys are used to move within certain elements, element groups, and widgets. For example, within form `select` elements, radio button groups, and a set of tabs.
 - For a more comprehensive list of actions, review this table of [common keyboard interactions](https://webaim.org/techniques/keyboard/#testing).
 
-If you're testing in Safari or Firefox in macOS then you'll likely have to update a few settings so that all focusable elements can receive focus. If that sounds odd, you're right, it is. The [resources](#resources) section below contains a few links with more information.
-
-In the meantime, you'll want to make sure you have the following settings enabled.
+If you're testing in Safari or Firefox in macOS, you'll likely have to update a few settings so that all focusable elements can receive focus; details below. The [resources](#resources) section contains additional links with more details on enabling keyboard navigation for focusable elements.
 
 **For Firefox:**
 
