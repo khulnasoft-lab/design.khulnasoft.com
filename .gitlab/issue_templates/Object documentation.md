@@ -20,7 +20,7 @@ Follow the checklist at the bottom of this template to use it appropriately.
 
 Make sure the following are completed before closing the issue:
 
-1. [ ] **Assignee**: Identify the necessary updates or additions necessary and define a clear scope of your contribution in the issue description. For example: "This issue will document a new User object in Figma and add the User object documentation to Pajamas." View the [Object Overview page](https://design.gitlab.com/objects/overview) for more information about objects.
+1. [ ] **Assignee**: Identify the necessary updates or additions, and define a clear scope of your contribution in the “Description” section above. For example: “This issue will document a new User object in Figma and add the User object documentation to Pajamas.” Learn more about objects in the [object overview page](https://design.gitlab.com/objects/overview).
 1. [ ] **Assignee**: For changes to or additions of an object, create a branch in Figma from the [Conceptual Model Figma File](https://www.figma.com/file/J68bePHXIN5OPWqaFFY9ri/Conceptual-model?node-id=5422%3A470) (this file on the new branch is considered the “working file”). 
 1. [ ] **Assignee**: Make the necessary changes in your working file. If you have any questions, reach out to a [FE/UX Foundations designer][foundations-team].
     - [ ] Start by identifying the object that needs to be documented. Objects and their attributes are meant to follow the existing product data structure as closely as possible. GitLab [API documentation](https://docs.gitlab.com/ee/api/) is a good starting point to identify the existing objects, their attributes, actions and relationships. 
