@@ -8,7 +8,7 @@ Follow the checklist at the bottom of this template to use it appropriately.
 
 ### Description
 
-<!-- Add a short description of your contribution. Identify an object that requires documentation or updating and add your reasoning for why those changes or additions are necessary. Consider creating a list of required changes or updates, such as modifications to the Figma file and/or changes to Pajamas Object documentation.-->
+<!-- Add a short description of your contribution. Why are those changes or additions necessary? Consider adding a task list that details the changes you are aiming to make, such as specific modifications in Figma or in the object documentation page.-->
 
 ### Figma file
 
