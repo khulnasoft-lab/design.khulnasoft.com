@@ -27,7 +27,8 @@ Make sure these tasks are completed before closing the issue. If you have any qu
     - [ ] Study the UI layouts that represent the object and it's attributes, actions and relationships to inform your diagram. However, be careful to keep the object model UI-agnostic. Sometimes an attribute that seems directly related to your object in the UI is inherited from a different object. 
     - [ ] Use [the existing file components](https://www.figma.com/file/J68bePHXIN5OPWqaFFY9ri/branch/bMpqqGQtDoPqty4sAFPUsy/Conceptual-model?node-id=5423%3A453) to map out the object diagram.
     - [ ] It's recommended to gather feedback from the engineers, product manager or technical writing who might point out any inconsistencies in your object digram as it relates to the existing data structure. 
-1. [ ] **Assignee**: When adding or updating an object, its semantic layout might need to be added or updated in the [Semantic Layouts Figma File](https://www.figma.com/file/shVF8UZwrQtkNfMDjcrsyH/Semantic-layouts?node-id=1%3A79). Create a branch in Figma from the [Semantic Layouts Figma File](https://www.figma.com/file/shVF8UZwrQtkNfMDjcrsyH/Semantic-layouts?node-id=1%3A79) (this file on the new branch is considered the “working file”). 
+1. [ ] **Assignee**: Change or add an object's **semantic layout**. This may be required if the object's conceptual model was also changed.
+   1. [ ] [Create a branch in Figma](https://www.figma.com/best-practices/branching-in-figma/) from the [Semantic layouts file]((https://www.figma.com/file/shVF8UZwrQtkNfMDjcrsyH/Semantic-layouts?node-id=1%3A79), and add the issue/MR number to the new branch name. That new branch is your “working file”.
     - [ ] Map out the primary layout for the object you're adding or updating. View [Layouts](https://design.gitlab.com/objects/overview#layouts) for more information.
 1. [ ] **Assignee**: Update the link to the working file or files in the issue 
    description.
