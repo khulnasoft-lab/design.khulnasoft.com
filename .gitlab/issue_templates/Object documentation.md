@@ -33,7 +33,7 @@ Make sure these tasks are completed before closing the issue. If you have any qu
 1. [ ] **Assignee**: Update the link to the working file(s) in the issue 
    description.
 1. [ ] **Assignee**: Ask a [FE/UX Foundations designer][foundations-team]
-   to review your object model (ensure they have edit permissions in Figma).
+   to review your working file(s) (ensure they have edit permissions in Figma).
 1. [ ] **Reviewer**: Review and approve assignee’s design. Specific object 
    questions can be addressed with comments in Figma. Comment in this issue when the content is less specific to the object or requires greater visibility.
 1. [ ] **Reviewer**: Assign to a [Figma maintainer][figma-maintainer]
