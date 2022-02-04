@@ -46,7 +46,7 @@ Make sure these tasks are completed before closing the issue. If you have any qu
    changes along with a clear commit message.
 1. [ ] **Assignee** (or Maintainer, for community contributions): If it’s a new
    object or a significant change, add an agenda item to the next UX weekly call to inform the team.
-1. [ ] **Assignee**: When applicable, create an MR to create or update the object’s documentation page. If you do not have the capacity, create an issue in this repository using the "Object documentation" issue template. Bring the issue to your team planning session for prioritization and scheduling. Mark the new issue as related to this one.
+1. [ ] **Assignee**: When applicable, create an MR to add or update the object’s documentation page. If you do not have the capacity, create an issue in this repository using the `Object documentation` issue template. Bring the issue to your team planning session for prioritization and scheduling. Mark the new issue as related to this one.
 1. [ ] **Assignee**: 🎉 Congrats, you made it! You can now close this issue.
 
 /label ~"UX" ~"Figma"
