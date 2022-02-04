@@ -1,13 +1,9 @@
 <!--
-For changes to or additions of an object, create a branch in Figma from the [Conceptual Model Figma File](https://www.figma.com/file/J68bePHXIN5OPWqaFFY9ri/Conceptual-model?node-id=5422%3A470) (this file on the new branch is considered the “working file”). 
+Thanks for your interest in contributing to Pajamas!
 
-For changes to or additions of a semantic layout, create a branch in Figma from the [Semantic Layouts Figma File](https://www.figma.com/file/shVF8UZwrQtkNfMDjcrsyH/Semantic-layouts?node-id=1%3A79) (this file on the new branch is considered the “working file”). 
+This issue template is for changes or additions to an object documentation, such as their documentation page, the conceptual model, or their semantic layout. Learn more about objects in https://design.gitlab.com/objects/overview
 
-Include the issue or MR number in the branch name. Make changes in the working file and request a review when ready. See https://www.figma.com/best-practices/branching-in-figma/ for details about branching. 
-
-For updates to the object documentation, create an MR and request a review when ready.
-
-View the [Object Overview page](https://design.gitlab.com/objects/overview) for more information about objects.
+Follow the checklist at the bottom of this template to use it appropriately.
 -->
 
 ### Description
