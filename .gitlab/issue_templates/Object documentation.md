@@ -30,7 +30,7 @@ Make sure these tasks are completed before closing the issue. If you have any qu
 1. [ ] **Assignee**: Change or add an object's **semantic layout**. This may be required if the object's conceptual model was also changed.
    1. [ ] [Create a branch in Figma](https://www.figma.com/best-practices/branching-in-figma/) from the [Semantic layouts file]((https://www.figma.com/file/shVF8UZwrQtkNfMDjcrsyH/Semantic-layouts?node-id=1%3A79), and add the issue/MR number to the new branch name. That new branch is your “working file”.
     - [ ] Map out the primary layout for the object you're adding or updating. View [Layouts](https://design.gitlab.com/objects/overview#layouts) for more information.
-1. [ ] **Assignee**: Update the link to the working file or files in the issue 
+1. [ ] **Assignee**: Update the link to the working file(s) in the issue 
    description.
 1. [ ] **Assignee**: Ask a [FE/UX Foundations designer][foundations-team]
    to review your object model (ensure they have edit permissions in Figma).
