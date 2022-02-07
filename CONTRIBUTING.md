@@ -13,4 +13,4 @@ _This notice should stay as the first item in the CONTRIBUTING.md file._
 
 ## Contribution guidelines
 
-TBD
+View contribution guidelines [here](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/main/README.md).
