@@ -380,12 +380,12 @@
     "title": "Accessibility",
     "items": [
       {
-        "title": "Principles",
-        "path": "accessibility/a11y-principles"
-      },
-      {
         "title": "Statement of compliance",
         "path": "accessibility/a11y"
+      },
+      {
+        "title": "Inclusive design principles",
+        "path": "accessibility/inclusive-design-principles"
       },
       {
         "title": "Best practices",
