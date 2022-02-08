@@ -50,4 +50,4 @@ Consider the value of features and how they improve the experience for different
 
 …
 
-Visit [inclusivedesignprinciples.org](https://inclusivedesignprinciples.org/) for more examples and resrouces.
+Visit [inclusivedesignprinciples.org](https://inclusivedesignprinciples.org/) for more examples and resources.
