@@ -118,3 +118,5 @@ item accordingly:
   }
 ]
 ```
+
+After making changes to the navigation locally, be sure to run `yarn jest -u tests/components/navbar.spec.js`.
