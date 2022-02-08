@@ -322,6 +322,15 @@ exports[`navbar component renders sidebar properly 1`] = `
         <nuxt-link-stub
           class="nav-sidebar__section-items-anchor tree-indent-1"
           role="menuitem"
+          to="/accessibility/inclusive-design-principles"
+        >
+          Inclusive design principles
+        </nuxt-link-stub>
+      </li>
+      <li>
+        <nuxt-link-stub
+          class="nav-sidebar__section-items-anchor tree-indent-1"
+          role="menuitem"
           to="/accessibility/best-practices"
         >
           Best practices
