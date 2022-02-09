@@ -21,6 +21,10 @@
         "path": "get-started",
         "items": [
           {
+            "title": "Overview",
+            "path": "overview"
+          },
+          {
             "title": "Contribute",
             "path": "contribute"
           },
@@ -351,10 +355,6 @@
             "path": "onboarding-users"
           }
         ]
-      },
-      {
-        "title": "Design resources",
-        "path": "resources/design-resources"
       }
     ]
   },
