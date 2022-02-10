@@ -2,6 +2,8 @@
 name: Iconography
 ---
 
+Note: Icons have recently been refreshed to be more balanced with other UI elements while addressing other considerations. Updates to the following guidelines are forthcoming. Read more about the changes in this [blog post](https://about.gitlab.com/blog/2021/12/17/hey-icons-lighten-up/) and take some time to familiarize yourself with the new icons in the [GitLab SVGs project](https://gitlab-org.gitlab.io/gitlab-svgs/).
+
 One of our values is to create a distinct GitLab personality that is strong and consistent. Iconography is a powerful visual cue to the user and should reflect our particular sense of style.
 
 Icons take inspiration from elements expressed by our tanuki logomark.
@@ -107,8 +109,6 @@ Here are a few considerations when trying to achieve optical balance.
 - At times, optically adjusting an icon may mean less adherence to the grid or other spacing rules to the benefit of balance or clarity.
 
 ## Strokes
-
-Note:  Icons now use a 1.5-pixel stroke. This change allows icons to be more balanced with other UI elements and work well in both light and dark UI. More information in the [Hey icons, lighten up (Dec 17, 2021)](https://about.gitlab.com/blog/2021/12/17/hey-icons-lighten-up/) blog post.
 
 All icons use a **2px** stroke weight and are most commonly aligned to the inside of shapes. Lines use rounded caps, unless doing so would misrepresent the metaphor, or if you are trying to infer depth or element clipping. Round line joins are optional and also depend on the metaphor. For example, a checkmark is one continuous object and the round line infers fluidity, whereas clock hands are two joined objects and a miter join defines a joint.
 
