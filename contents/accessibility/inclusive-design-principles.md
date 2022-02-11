@@ -52,7 +52,7 @@ Consider the value of features and how they improve the experience for different
 
 Of course, all of these principles in and of themselves add value, but we can also add value by leveraging device capabilities or removing friction points throughout an experience. Even our concept of the [Minimal Viable Change](https://about.gitlab.com/handbook/product/product-principles/#the-minimal-viable-change-mvc) is designed to "deliver the smallest possible solution that offers value to our users."
 
->Do a little and do it well, for as many people as you can. – Heydon Pickering
+> Do a little and do it well, for as many people as you can. – Heydon Pickering
 
 ## Resources
 
