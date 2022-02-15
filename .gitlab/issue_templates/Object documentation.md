@@ -32,7 +32,7 @@ Make sure these tasks are completed before closing the issue. If you have any qu
     - [ ] Map out the primary layout for the object you're adding or updating. View [Layouts](https://design.gitlab.com/objects/overview#layouts) for more information.
 1. [ ] **Assignee**: Update the link to the working file(s) in the issue 
    description.
-1. [ ] **Assignee**: Ask a [FE/UX Foundations designer][foundations-team]
+1. [ ] **Assignee**: Ask a [Foundations designer][foundations-team]
    to review your working file(s) (ensure they have edit permissions in Figma).
 1. [ ] **Reviewer**: Review and approve assignee’s working file(s). Specific 
    questions can be addressed with comments in Figma. Comment in this issue when the content is less specific to the working file(s) or requires greater visibility.
