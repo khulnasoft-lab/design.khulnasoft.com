@@ -7,7 +7,7 @@ A job is a basic building block of a CI/CD pipeline. A job contains the scripts 
 
 ## Conceptual model
 
-To focus on the essence of a Job and the concepts associated with it, below is the Job **conceptual model**.
+To focus on the essence of a job and the concepts associated with it, below is the job **conceptual model**.
 This model allows for proper separation of concerns: concepts (meaning) and user interface (representation; see [layouts](#layouts)).
 In other words, a conceptual model is only focused on the concepts and how they relate to each other, not how it’s technically implemented or used in the UI.
 A conceptual model defines the **objects** and **actions**, and enumerates the **attributes** for every object.
@@ -23,12 +23,12 @@ The language of the conceptual model diagram is meant to be as simple and access
 
 Job attributes and actions can be embedded in related objects that rely on specific layouts. For example, a pipeline or [merge request](/objects/merge-request).
 
-The Job object itself is interacted with and represented in the UI through different layouts in the user’s journey, each with a different purpose.
-As an example, some of the layouts used by Jobs are a jobs list, mini-pipeline graph or a merge request widget.
+The job object itself is interacted with and represented in the UI through different layouts in the user’s journey, each with a different purpose.
+As an example, some of the layouts used by jobs are a jobs list page, mini-pipeline graph or a merge request pipeline widget.
 
-The main representation of a Job is the **Job page** layout.
-Below is the **semantic layout** of the combination between the Job object and the Job page layout.
-It's a visualization of the Job page layout, overlayed with the concepts of the Job object (its relationships, attributes, and actions; see [conceptual model](#conceptual-model) for more information).
+The main representation of a job is the **job page** layout.
+Below is the **semantic layout** of the combination between the job object and the job page layout.
+It's a visualization of the job page layout, overlayed with the concepts of the job object (its relationships, attributes, and actions; see [conceptual model](#conceptual-model) for more information).
 
 [View semantic layout in Figma →](https://www.figma.com/file/shVF8UZwrQtkNfMDjcrsyH/?node-id=4636%3A208)
 
