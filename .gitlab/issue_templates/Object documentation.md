@@ -49,6 +49,6 @@ Make sure these tasks are completed before closing the issue. If you have any qu
 
 /label ~"UX" ~"Figma" ~"pajamas::define" 
 
-[foundations-team]: https://about.gitlab.com/company/team/?department=fe-ux-foundations-team
+[foundations-team]: https://about.gitlab.com/company/team/?department=ecosystem-foundations-team
 [figma-maintainer]: https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com
 [publishing]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/main/doc/pajamas-ui-kit.md#publishing-changes
