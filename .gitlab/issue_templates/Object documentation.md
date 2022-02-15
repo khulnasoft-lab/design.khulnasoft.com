@@ -18,7 +18,7 @@ Follow the checklist at the bottom of this template to use it appropriately.
 
 ### Checklist
 
-Make sure these tasks are completed before closing the issue. If you have any questions, reach out to a [FE/UX Foundations designer][foundations-team].
+Make sure these tasks are completed before closing the issue. If you have any questions, reach out to a [Foundations designer][foundations-team].
 
 1. [ ] **Assignee**: Identify the necessary updates or additions, and define a clear scope of your contribution in the “Description” section above. Learn more about objects in the [object overview page](https://design.gitlab.com/objects/overview).
 1. [ ] **Assignee**: Change or add an object's **conceptual model**.
