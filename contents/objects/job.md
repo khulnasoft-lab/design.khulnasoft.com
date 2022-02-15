@@ -2,7 +2,7 @@
 name: Job
 ---
 
-A Job is a basic building block of a CI/CD pipeline. A Job contains the scripts and the configuration that defines when and how those scripts run as part of an automated CI/CD pipeline.
+A job is a basic building block of a CI/CD pipeline. A job contains the scripts and the configuration that defines when and how those scripts run as part of an automated CI/CD pipeline.
 [How are Jobs used in the product?](https://docs.gitlab.com/ee/ci/jobs/)
 
 ## Conceptual model
