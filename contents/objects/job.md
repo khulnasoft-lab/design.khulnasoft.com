@@ -21,7 +21,7 @@ The language of the conceptual model diagram is meant to be as simple and access
 
 ## Layouts
 
-Job attributes and actions can be embedded in related objects that rely on specific layouts. For example, a pipeline page or a merge request.
+Job attributes and actions can be embedded in related objects that rely on specific layouts. For example, a pipeline or [merge request](/objects/merge-request).
 
 The Job object itself is interacted with and represented in the UI through different layouts in the user’s journey, each with a different purpose.
 As an example, some of the layouts used by Jobs are a jobs list, mini-pipeline graph or a merge request widget.
