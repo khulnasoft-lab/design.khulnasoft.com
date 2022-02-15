@@ -30,9 +30,9 @@ The main representation of a Job is the **Job page** layout.
 Below is the **semantic layout** of the combination between the Job object and the Job page layout.
 It's a visualization of the Job page layout, overlayed with the concepts of the Job object (its relationships, attributes, and actions; see [conceptual model](#conceptual-model) for more information).
 
-[View semantic layout in Figma →](TBD)
+[View semantic layout in Figma →](https://www.figma.com/file/shVF8UZwrQtkNfMDjcrsyH/?node-id=4636%3A208)
 
 <div class="figma-embed" aria-label="A layout of a Job object with overlays to highlight different sections that represent the actions, attributes and object relationships within the Job layout." role="img">
-  <iframe frameborder="0" src="TBD" allowfullscreen></iframe>
+  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FshVF8UZwrQtkNfMDjcrsyH%2FSemantic-layouts%3Fnode-id%3D4636%253A208" allowfullscreen></iframe>
 </div>
 
