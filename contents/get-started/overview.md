@@ -6,7 +6,7 @@ Welcome to Pajamas! We're excited to help you get started using the design syste
 
 ## Pajamas
 
-This design system is managed in the [Pajamas respository](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com) and maintained by GitLab product designers. The repository contains efforts on the Pajamas roadmap and ongoing improvements to our Figma component library.
+The [Pajamas design system project](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com) is maintained by GitLab product designers and engineers. The project contains [issues](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues) related to our ongoing roadmap, including improvements to our documentation and [Figma UI Kit](https://www.figma.com/@gitlab).
 
 <div class="app-styles">
   <gl-button href="https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library" target="_blank">View Figma library<gl-icon name="external-link" class="gl-ml-2" /></gl-button>
@@ -14,10 +14,10 @@ This design system is managed in the [Pajamas respository](https://gitlab.com/gi
 
 ### Goals
 
-- Jumpstart design work by using the pattern library and existing working files.
+- Jumpstart design work by using the UI Kit and existing working files.
 - Enable frequent, stable, and consistent contributions.
 - Make GitLab’s design open, transparent, and open source.
-- Facilitate design handoffs and design–development communication design handoffs.
+- Facilitate design–development communication.
 
 The project is primarily used by GitLab’s UX Design department to host design files and hand them off for implementation. To learn about the best practices to manage the project, including the repository’s organization, check out the [contribution guidelines](https://gitlab.com/gitlab-org/gitlab-design/blob/master/CONTRIBUTING.md). For more information about the UX department as a whole, you can find useful information in [our handbook page](https://about.gitlab.com/handbook/engineering/ux/).
 
