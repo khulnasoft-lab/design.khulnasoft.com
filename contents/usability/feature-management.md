@@ -19,3 +19,24 @@ Use discovery moments to promote features that aren't in use rather than to intr
 * If two features need a discovery moment, can they be bundled into one? This may be possible, for example, if they are part of the same [Job to be Done](https://about.gitlab.com/handbook/engineering/ux/jobs-to-be-done/).
 
 Use input data to determine where, when, and why a feature discovery moment is needed. After introducing a feature discovery moment, measure its effect on both conversion and feature adoption before making it a permanent part of the product.
+
+### Patterns
+
+#### Highlighting higher tier features
+
+Higher tier features should be easy to identify from the rest of the interface. Consider using the following badge to highlight them: 
+
+<figure class="figure" role="figure" aria-label="Higher tier feature badge">
+  <img class="figure-img" src="/img/higher-tier-feature-badges.svg" alt="Premium feature badge" role="img" />
+</figure>
+
+#### How to use
+
+* Pair the badge with the name of your feature.
+* Use a tooltip if using the smallest version.
+
+#### Behaviour
+
+Badge can: 
+* Be clicked and link to [tiers details](https://about.gitlab.com/pricing/).
+* Removed from the U.I via group level settings (TODO: add a link to documentation).
