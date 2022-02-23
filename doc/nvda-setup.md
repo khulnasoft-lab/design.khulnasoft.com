@@ -1,6 +1,25 @@
-# NVDA + Chrome setup
+# Testing with NVDA
 
-According to WebAIM’s [Screen Reader User Survey #8 Results](https://webaim.org/projects/screenreadersurvey8/#primary), the NVDA screen reader is the most commonly used. And while JAWS with Chrome is the most popular combination, NVDA with Chrome is not far behind. Given that JAWS may not be the best screen reader to test on, because it attempts to fill in the gaps or guess what label it should use based on context, and with [Chrome increasing in use over Firefox](https://webaim.org/projects/screenreadersurvey8/#browsers), the NVDA with Chrome combination is a safe bet moving forward.
+There are two methods available to test the NVDA screen reader with Chrome or other browsers, Assisstiv Labs and locally in VirtualBox. The first option is by far the easiest and also provides quick access to other screen readers and browsers. The second option will provide you with a better sense of how a screen reader integrates with the operating system in general. If you need to test in "ee" or "jh," then you must use the second option since the Assisstiv Labs license only covers the free, open source versions of GitLab.
+
+## Assistiv Labs
+
+GitLab is able to use [Assisstiv Labs](https://assistivlabs.com) with an open source account. From the Assisstiv Labs website:
+
+>Assistiv Labs remotely connects you to real assistive technologies, like NVDA, JAWS, and Windows High Contrast Mode, using any modern web browser. Forget maintaining your own expensive devices & complicated virtual machines. Start testing in seconds.
+
+### To get started
+
+1. Go to the [Assisstiv Labs dashboard](https://assistivlabs.com/dashboard) and login with the credentials that can be found in our engineering password manager.
+1. Choose the configuration options you'd like to test with and begin your session. Assisstiv Labs recommends Firefox as the testing browser, but with [Chrome increasing in use over Firefox](https://webaim.org/projects/screenreadersurvey8/#browsers), the NVDA + Chrome combination is also a good option.
+
+[AssisstivTunnel](https://assistivlabs.com/support/assistivtunnel) is an available CLI to help test `localhost`, but it's currently being evaluated by the security team and shouldn't be used until this is updated.
+
+For help using NVDA, read or download Deque University's [NVDA Keyboard Shortcuts](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts) resource. You can also change voice, speed, and language preferences during the session.
+
+## NVDA + Chrome setup in VirtualBox
+
+According to WebAIM’s [Screen Reader User Survey #8 Results](https://webaim.org/projects/screenreadersurvey8/#primary), the NVDA screen reader is the most commonly used. And while JAWS with Chrome is the most popular combination, NVDA with Chrome is not far behind. Given that JAWS may not be the best screen reader to test on, because it attempts to fill in the gaps or guess what label it should use based on context, and with [Chrome increasing in use over Firefox](https://webaim.org/projects/screenreadersurvey8/#browsers), the NVDA + Chrome combination is a safe bet moving forward.
 
 The following instructions walk you through setup of an instance of Windows 10 with NVDA and Chrome through VirtualBox on macOS along with other utilities and tips along the way.
 
