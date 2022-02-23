@@ -23,7 +23,7 @@ According to WebAIM’s [Screen Reader User Survey #8 Results](https://webaim.or
 
 The following instructions walk you through setup of an instance of Windows 10 with NVDA and Chrome through VirtualBox on macOS along with other utilities and tips along the way.
 
-## Contents
+### Contents
 
 - [Install and configure VirtualBox](#install-and-configure-virtualbox)
    - [Guest Additions](#guest-additions)
@@ -36,7 +36,7 @@ The following instructions walk you through setup of an instance of Windows 10 w
 
 ---
 
-## Install and configure VirtualBox
+### Install and configure VirtualBox
 
 1. Start by downloading and installing [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 1. You'll need to download a Windows 10 Disc Image (ISO File). To do that, go to the [Windows 10 ISO page](https://www.microsoft.com/en-us/software-download/windows10ISO). Under the **Select edition** dropdown choose "Windows 10" and then select the **Confirm** button to continue.
@@ -58,32 +58,32 @@ The following instructions walk you through setup of an instance of Windows 10 w
 1. Choose the custom install option. In the resulting view the drive that was created should be highlighted. Select **Next** to continue. Windows will begin installing.
 1. If you don't have an account, you'll need to create one to continue and complete the Windows setup. Once Windows is running, continue to the next section.
 
-### Guest Additions
+#### Guest Additions
 
 1. In the top menu for VirtualBoxVM, select **Devices > Insert Guest Additions CD Image**. Guest Additions includes device drivers and system applications that optimize the guest OS for better performance and usability.
 1. Now, back in Windows, navigate to the **CD Drive (D)** and double-click the **VBoxWindowsAdditions-amd64** file. Use the default install settings and choose to reboot.
    ![Locate Guest Additions file](images/nvda-5-w-guest-additions.png)
 
-### Shared clipboard
+#### Shared clipboard
 
 Being able to copy and paste from the host to guest can be very helpful.
 
 1. In the top menu for VirtualBoxVM, select **Devices > Shared Clipboard > Host to Guest** (or another setting if you prefer).
 
-### Screen resize
+#### Screen resize
 
 There are several screen resize options, and you can choose what suites your preference.
 
 1. Locate the monitor icon in the bottom right of the virtual machine window. Under the **Virtual Screen 1** item you'll find many options to choose from, and you'll likely need to test out a few options depending on your monitor resolution.
    ![VirtualBox display settings](images/nvda-6-vb-screen-size.png)
 
-## Install Chrome
+### Install Chrome
 
 1. Using the default browser, Edge, navigate to https://www.google.com/chrome/ and download the Chrome browser.
 1. Run the **ChromeSetup.exe** file.
 1. You will be able to set up Chrome as your preferred browser, as well as sign in to the account you prefer to use.
 
-### Extensions and bookmarklets
+#### Extensions and bookmarklets
 
 The following utilities are not required, but can help when testing certain aspects of a webpage.
 
@@ -94,7 +94,7 @@ The following utilities are not required, but can help when testing certain aspe
 1. [WAVE Evaluation Tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh): Evaluate web accessibility.
 1. [ChromeLens](https://chrome.google.com/webstore/detail/chromelens/idikgljglpfilbhaboonnpnnincjhjkd): Visual impairment simulation and a tab-tracker that allows you to record the focus order.
 
-## Install NVDA
+### Install NVDA
 
 NVDA (NonVisual Desktop Access) is a fully functional screen reader that is free, and open-source. You can also choose to add a donation at the time of download.
 
@@ -117,7 +117,7 @@ You’ll notice that NVDA begins speaking immediately, and announces everything 
 
 For help using NVDA, read or download Deque University's [NVDA Keyboard Shortcuts](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts) resource.
 
-## Install Karabiner-Elements
+### Install Karabiner-Elements
 
 Karabiner-Elements is a macOS app that allows you to remap keys. NVDA relies on the <key>insert</key> by default to run commands, which Mac keyboards don’t have. By using the utility you can remap an unused key to function in the same way. If you happen to have a PC keyboard you can skip this section.
 
