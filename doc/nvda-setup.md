@@ -1,19 +1,19 @@
 # Testing with NVDA
 
-There are two methods available to test the NVDA screen reader with Chrome or other browsers, Assisstiv Labs and locally in VirtualBox. The first option is by far the easiest and also provides quick access to other screen readers and browsers. The second option will provide you with a better sense of how a screen reader integrates with the operating system in general. If you need to test in "ee" or "jh," then you must use the second option since the Assisstiv Labs license only covers the free, open source versions of GitLab.
+There are two methods available to test the NVDA screen reader with Chrome or other browsers, Assistiv Labs and locally in VirtualBox. The first option is by far the easiest and also provides quick access to other screen readers and browsers. The second option will provide you with a better sense of how a screen reader integrates with the operating system in general. If you need to test in "ee" or "jh," then you must use the second option since the Assistiv Labs license only covers the free, open source versions of GitLab.
 
 ## Assistiv Labs
 
-GitLab is able to use [Assisstiv Labs](https://assistivlabs.com) with an open source account. From the Assisstiv Labs website:
+GitLab is able to use [Assisstiv Labs](https://assistivlabs.com) with an open source account. From the Assistiv Labs website:
 
 >Assistiv Labs remotely connects you to real assistive technologies, like NVDA, JAWS, and Windows High Contrast Mode, using any modern web browser. Forget maintaining your own expensive devices & complicated virtual machines. Start testing in seconds.
 
 ### To get started
 
-1. Go to the [Assisstiv Labs dashboard](https://assistivlabs.com/dashboard) and login with the credentials that can be found in our engineering password manager.
-1. Choose the configuration options you'd like to test with and begin your session. Assisstiv Labs recommends Firefox as the testing browser, but with [Chrome increasing in use over Firefox](https://webaim.org/projects/screenreadersurvey8/#browsers), the NVDA + Chrome combination is also a good option.
+1. Go to the [Assistiv Labs dashboard](https://assistivlabs.com/dashboard) and login with the credentials that can be found in our engineering password manager.
+1. Choose the configuration options you'd like to test with and begin your session. Assistiv Labs recommends Firefox as the testing browser, but with [Chrome increasing in use over Firefox](https://webaim.org/projects/screenreadersurvey8/#browsers), the NVDA + Chrome combination is also a good option.
 
-[AssisstivTunnel](https://assistivlabs.com/support/assistivtunnel) is an available CLI to help test `localhost`, but it's currently being evaluated by the security team and shouldn't be used until this is updated.
+[AssistivTunnel](https://assistivlabs.com/support/assistivtunnel) is an available CLI to help test `localhost`, but it's currently being evaluated by the security team and shouldn't be used until this is updated.
 
 For help using NVDA, read or download Deque University's [NVDA Keyboard Shortcuts](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts) resource. You can also change voice, speed, and language preferences during the session.
 
