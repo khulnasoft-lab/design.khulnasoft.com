@@ -147,6 +147,7 @@ module.exports = {
     '@gitlab/nuxt-edit-this-page',
     '@nuxtjs/sentry',
     '@nuxtjs/lunr-module',
+    './modules/mdx',
   ],
 
   sentry: {
