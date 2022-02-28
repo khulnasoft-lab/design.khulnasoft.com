@@ -2,7 +2,7 @@
 name: Responsive-first
 ---
 
-We take a responsive-first approach that considers each component and content block in light of its ability to adapt and function regardless of viewport or layout. Content and functionality are designed to be available and useful independent of page constraints. By default, content should [reflow](#reflow), but [truncation](#truncation) or [visual affordance](#visual-affordance) indicating behavior can also be used to keep the overall experience robust.
+We take a [responsive-first](/layout/grid#responsive-ui) approach that considers each component and content block in light of its ability to adapt and function regardless of viewport or layout. Content and functionality are designed to be available and useful independent of page constraints. By default, content should [reflow](#reflow), but [truncation](#truncation) or [visual affordance](#visual-affordance) indicating behavior can also be used to keep the overall experience robust.
 
 ## Reflow
 
@@ -14,4 +14,5 @@ Individual lines of text can be truncated with an ellipsis when length or wrappi
 
 ## Visual affordance
 
-Similar to how an ellipsis provides a visual indicator for text truncation, providing visual affordance for other components and content helps a user understand when there's a behavior that allows them to access additional content or controls. Examples include a scrim (gradient overlay) at the bottom of a dropdown panel to indicate scrolling or arrows to access offscreen tabs.
+Similar to how an ellipsis provides a visual indicator for text truncation, providing visual affordance for other components and content helps a user understand when there's a behavior that allows them to access additional content or controls. Examples include a scrim (gradient overlay) at the bottom of a [dropdown](/components/dropdown) panel to indicate scrolling or arrows to access offscreen tabs.
+
