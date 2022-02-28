@@ -1,6 +1,6 @@
 # Testing with NVDA
 
-There are two methods available to test the NVDA screen reader with Chrome or other browsers, Assistiv Labs and locally in VirtualBox. The first option is by far the easiest and also provides quick access to other screen readers and browsers. The second option will provide you with a better sense of how a screen reader integrates with the operating system in general. If you need to test in "ee" or "jh," then you must use the second option since the Assistiv Labs license only covers the free, open source versions of GitLab.
+There are two methods available to test the NVDA screen reader with Chrome or other browsers, Assistiv Labs and locally in VirtualBox. The first option is by far the easiest and also provides quick access to other screen readers and browsers. The second option will provide you with a better sense of how a screen reader integrates with the operating system in general. If you need to test Ultimate features, then you must use the second option since the Assistiv Labs license only covers the free, open source versions of GitLab.
 
 ## Assistiv Labs
 
