@@ -20,9 +20,7 @@ Use discovery moments to promote features that aren't in use rather than to intr
 
 Use input data to determine where, when, and why a feature discovery moment is needed. After introducing a feature discovery moment, measure its effect on both conversion and feature adoption before making it a permanent part of the product.
 
-### Patterns
-
-#### Highlighting higher tier features
+### Highlighting higher tier features
 
 Higher tier features should be easy to identify from the rest of the interface. Consider using the following badge to highlight them: 
 
@@ -33,7 +31,7 @@ Higher tier features should be easy to identify from the rest of the interface. 
 #### How to use
 
 * Pair the badge with the name of your feature.
-* Use a tooltip if using the smallest version.
+* When using the icon only badge, use a [tooltip](/components/tooltip) to display the tier name.
 
 #### Behaviour
 
