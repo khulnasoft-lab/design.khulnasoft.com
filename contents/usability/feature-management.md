@@ -37,4 +37,4 @@ Higher tier features should be easy to identify from the rest of the interface. 
 
 Badge can: 
 * Be clicked and link to [tiers details](https://about.gitlab.com/pricing/).
-* Removed from the U.I via group level settings (TODO: add a link to documentation).
+* Be removed from the UI via group or instance level settings (TODO: add a link to documentation).
