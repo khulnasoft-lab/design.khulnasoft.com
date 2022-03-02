@@ -36,6 +36,8 @@ related:
 
 - Ideally, only one spinner should be used at a time. If a larger section of content is loading, consider using a larger size spinner instead of multiple smaller ones or a [skeleton loader](/components/skeleton-loader) instead.
 - A spinner shouldn’t be used in combination with a [skeleton loader](/components/skeleton-loader), choose the one that fits the use case best.
+- Consider using a [progress bar](https://design.gitlab.com/components/progress-bar) if loading is expected to last longer than a few minutes.
+- A spinner shouldn’t be used if user action is required before content can be displayed.
 
 ### Appearance
 
