@@ -8,6 +8,10 @@ We take a [responsive-first](/layout/grid#responsive-ui) approach that considers
 
 As content reflows responsively to leverage available space, the hierarchy, structure, and relationships remain intact and clear within any viewport. In almost all cases the visual order should match the DOM order. Reflow isn't limited to just wrapping. For example, a list of actions could be grouped into a single dropdown when space is limited.
 
+#### Plan ahead for content resize
+When there is not enough space in a layout, a change to viewport size that couldn't accommodate the content in the current form will reload the page. When a page reloads, there can be a delay in the loading time for different components and this can negatively impact the perceived performance of the page. To avoid this situation, always plan adding spaces to a layout in advance for resizing use-cases for a smooth responsive behaviour.
+
+
 ## Truncation
 
 Individual lines of text can be truncated with an ellipsis when length or wrapping would break a component, negatively impact surrounding content, or cause some content to flow off screen. When text is truncated, there must be a method, like a [tooltip](/components/tooltip) to easily view and access all of the content for both sighted and unsighted users, as well as those using assistive technology.
