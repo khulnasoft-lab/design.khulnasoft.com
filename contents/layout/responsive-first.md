@@ -9,7 +9,7 @@ We take a [responsive-first](/layout/grid#responsive-ui) approach that considers
 As content reflows responsively to leverage available space, the hierarchy, structure, and relationships remain intact and clear within any viewport. In almost all cases the visual order should match the DOM order. Reflow isn't limited to just wrapping. For example, a list of actions could be grouped into a single dropdown when space is limited.
 
 #### Plan ahead for content resize
-When there is not enough space in a layout, a change to viewport size that couldn't accommodate the content in the current form will reload the page. When a page reloads, there can be a delay in the loading time for different components and this can negatively impact the perceived performance of the page. To avoid this situation, always plan adding spaces to a layout in advance for resizing use-cases for a smooth responsive behaviour.
+When there is not enough space in a layout, a change to viewport size that couldn't accommodate the content in the current form will rearrange the page frequently. When a page rearranges, the jump in content and sometimes the associated loading time for different components  can negatively impact the perceived performance of the page. To avoid this situation, always plan adding spaces to a layout in advance for resizing use-cases for a smooth responsive behaviour.
 
 
 ## Truncation
