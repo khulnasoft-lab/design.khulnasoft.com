@@ -28,6 +28,13 @@ Higher tier features should be easy to identify from the rest of the interface. 
   <img class="figure-img" src="/img/higher-tier-feature-badges.svg" alt="Premium feature badge" role="img" />
 </figure>
 
+#### Specification
+
+* Component name: Badge
+* Size: MD
+* Icon: 16
+* Colors: Text & Icon, $purple-500. Background, $purple-50
+
 #### How to use
 
 * Pair the badge with the name of your feature.
