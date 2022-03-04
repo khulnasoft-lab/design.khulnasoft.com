@@ -37,11 +37,11 @@ Higher tier features should be easy to identify from the rest of the interface. 
 
 #### How to use
 
-* Pair the badge with the name of your feature.
+* Ensure there is a clear connection between the badge and the feature being highlighted. For example, place the badge next to the name of the feature.
 * When using the icon only badge, use a [tooltip](/components/tooltip) to display the tier name.
 
 #### Behaviour
 
-Badge can: 
-* Be clicked and link to [tiers details](https://about.gitlab.com/pricing/).
+* Links to [tiers details](https://about.gitlab.com/pricing/).
+* Can be removed from the UI via group or instance level settings (TODO: add a link to documentation)
 * Be removed from the UI via group or instance level settings (TODO: add a link to documentation).
