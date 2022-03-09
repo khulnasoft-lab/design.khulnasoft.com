@@ -6,6 +6,7 @@ vueComponents:
 related:
   - tooltip
   - modal
+  - drawer
 ---
 
 ## Examples
