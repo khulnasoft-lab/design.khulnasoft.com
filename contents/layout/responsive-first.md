@@ -11,7 +11,6 @@ As content reflows responsively to leverage available space, the hierarchy, stru
 #### Plan ahead for content resize
 When there is not enough space in a layout, a change to viewport size that couldn't accommodate the content in the current form will rearrange the page frequently. When a page rearranges, the jump in content and sometimes the associated loading time for different components can negatively impact the perceived performance of the page. To avoid this situation, always plan adding spaces to a layout in advance for resizing use-cases for a smooth responsive behaviour.
 
-
 ## Truncation
 
 Individual lines of text can be truncated with an ellipsis when length or wrapping would break a component, negatively impact surrounding content, or cause some content to flow off screen. When text is truncated, there must be a method, like a [tooltip](/components/tooltip) to easily view and access all of the content for both sighted and unsighted users, as well as those using assistive technology.
