@@ -31,12 +31,12 @@ related:
 
 - Use a spinner to signify that something is loading.
 - In some instances, the UI will reflect a change before the change is actually saved and the spinner is used to indicate background activity until information is successfully saved.
++ Consider replacing the generic `loading...` message with something more descriptive when the action is dependent on GitLab. For example the ['merge active' status message](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/60521).
 
 ### When not to use
 
 - Ideally, only one spinner should be used at a time. If a larger section of content is loading, consider using a larger size spinner instead of multiple smaller ones or a [skeleton loader](/components/skeleton-loader) instead.
 - In combination with a [skeleton loader](/components/skeleton-loader), choose the one that fits the use case best.
-- Consider using a [progress bar](https://design.gitlab.com/components/progress-bar) if loading is expected to last longer than a few minutes.
 - If user action is required before content can be displayed.
 
 ### Appearance
