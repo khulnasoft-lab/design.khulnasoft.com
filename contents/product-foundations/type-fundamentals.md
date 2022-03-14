@@ -3,6 +3,7 @@ name: Type fundamentals
 related:
   - /product-foundations/type-scales
   - /product-foundations/type-markdown
+  - /product-foundations/colors
 ---
 
 ## Typeface
@@ -54,3 +55,38 @@ GitLab uses two font weights within the application: normal and bold. A bold fon
 </tr>
 </tbody>
 </table>
+
+## Font color
+
+Use a primary color for main titles and body text. Use a secondary color for accompanying text that adds further information, details, or features to the primary content. Examples include help text and menu subtitles.
+
+<table class="font-weight m-b-6">
+<thead>
+<tr>
+<th>Background</th>
+<th>Primary color</th>
+<th>HEX</th>
+<th>Secondary color</th>
+<th>HEX</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Light</td>
+<td>$gray-900</td>
+<td>`#303030`</td>
+<td>$gray-500</td>
+<td>`#666666`</td>
+</tr>
+<tr>
+<td>Dark</td>
+<td>$white</td>
+<td>`#FFFFFF`</td>
+<td>$gray-100</td>
+<td>`#DBDBDB`</td>
+</tr>
+</tbody>
+</table>
+
+
+
