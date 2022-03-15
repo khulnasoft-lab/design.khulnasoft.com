@@ -82,8 +82,8 @@ Use a primary color for main titles and body text. Use a secondary color for acc
 <td>Dark</td>
 <td>$white</td>
 <td>#FFFFFF</td>
-<td>$gray-100</td>
-<td>#DBDBDB</td>
+<td>$gray-200</td>
+<td>#BFBFBF</td>
 </tr>
 </tbody>
 </table>
