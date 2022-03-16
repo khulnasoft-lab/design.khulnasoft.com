@@ -7,7 +7,7 @@ We take a [responsive-first](/layout/grid#responsive-ui) approach that considers
 ## Reflow
 
 When the content on a page reflows to respond to the available space, the hierarchy, structure, and relationships remain intact and clear within any viewport. 
-- The visual order should match the [DOM order](https://www.w3.org/WAI/WCAG21/Techniques/css/C27) in almost all situations. 
+- The visual order should match the [DOM order](https://www.w3.org/WAI/WCAG21/Techniques/css/C27). 
 - Reflow isn't limited to just wrapping. For example, consider grouping a list of actions into a single dropdown in a small viewport.
 - Content should not abruptly rearrange; this can negatively impact the perceived performance of a page. 
 ## Truncation
