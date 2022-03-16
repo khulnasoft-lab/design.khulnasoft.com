@@ -93,18 +93,9 @@ An `Empty search results` empty state serves as a placeholder when there are no 
 
 #### Content
 
-When using the [search](/components/search) component, the text should always be:
+- When using the [filter component](/components/filter), if there are no matching results, follow the [empty search filter](/components/filter#empty-state-content) guidelines.
 
-- For the title, `No results found`.
-- For the text underneath, `Edit your search and try again`.
-
-When using the [filter](/components/filter) component, the text should always be:
-
-- For the title, `No results found`.
-- For the text underneath, `Edit your filters and try again`.
-
-No period on the end of either phrase.
-
+- When using the [search component](/components/search), if there are no matching results, follow the [empty search results](/components/search#empty-state-content) guidelines.
 ## Fallback
 
 If you're unable to come up with a solution to achieve one of the [3 goals of an empty state region](#goals), you can use the empty state fallback. Using the fallback should still achieve one of the three goals and should include a way to track conversion. 

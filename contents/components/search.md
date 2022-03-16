@@ -51,5 +51,8 @@ Todo: Add when not to use.
 - Don’t use ellipsis (…) in the placeholder unless it’s truncated or the text is incomplete (see [Punctuation](/content/punctuation)). For example, “Search” or “Search labels” don’t need an ellipsis, but “Search and jump to…” uses one because the text is incomplete.
 - Even though the search patterns can be used for either filtering or searching for information, always try to use the word “Search” for the placeholder. This is another small detail that makes the pattern easier to recognize. As an exception, it’s OK to use another word if it makes the interaction and the experience clearer.
 
-### Content
-- If there are no matching search results, follow the [empty search results](/regions/empty-states#empty-search-results) guidelines.
+### Empty state content
+If a search results in no matching results, the empty state text should always be:
+
+- For the title, `No results found`.
+- For the text underneath, `Edit your search and try again`.
