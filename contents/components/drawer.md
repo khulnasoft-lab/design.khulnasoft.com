@@ -58,10 +58,10 @@ related:
 
 ### Content
 
-- Left aligned, except in right-to-left languages where the content is right aligned. 
 - All copy within a drawer should be short, actionable, and use clear language.
 - The drawer should utilize the [skeleton loader](/components/skeleton-loader/) pattern when possible to represent loading content.
 - If an empty state is required, please follow the [empty-state](/regions/empty-states) guidelines.
+- Left aligned, except in right-to-left languages where the content is right aligned.
 
 #### Title
 
