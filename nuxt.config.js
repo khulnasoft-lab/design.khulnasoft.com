@@ -101,7 +101,12 @@ module.exports = {
       },
       {
         hid: 'cookie-banner-callback',
-        innerHTML: 'function OptanonWrapper() { alert("hello world!"); }',
+        innerHTML: `
+          function OptanonWrapper() {
+            if (typeof window.gtagOneTrustCallback == 'function') {
+              window.gtagOneTrustCallback();
+            }
+          }`,
       },
     ],
     __dangerouslyDisableSanitizersByTagID: {
