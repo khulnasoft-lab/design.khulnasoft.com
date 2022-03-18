@@ -65,7 +65,7 @@ There are a number of text colors defined in GitLab. Which color is used when de
 <tr>
 <th>Type</th>
 <th>Variable</th>
-<th>Value</th>
+<th>HEX value</th>
 <th>Demo</th>
 </tr>
 </thead>
