@@ -56,34 +56,37 @@ GitLab uses two font weights within the application: normal and bold. A bold fon
 </tbody>
 </table>
 
-## Font color
+## Text color
 
-Use a primary color for main titles and body text. Use a secondary color for accompanying text that adds further information, details, or features to the primary content. Examples include help text and menu subtitles.
+GitLab uses three color options that other variations are derived from.
 
 <table class="font-weight m-b-6">
 <thead>
 <tr>
-<th>Background</th>
-<th>Primary color</th>
-<th>HEX</th>
-<th>Secondary color</th>
-<th>HEX</th>
+<th>Type</th>
+<th>Variable</th>
+<th>Value</th>
+<th>Demo</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Light</td>
+<td>Primary</td>
 <td>$gray-900</td>
 <td>#303030</td>
-<td>$gray-500</td>
-<td>#666666</td>
+<td class="gl-text-gray-900">Main titles and body</td>
 </tr>
 <tr>
-<td>Dark</td>
-<td>$white</td>
-<td>#FFFFFF</td>
-<td>$gray-200</td>
-<td>#BFBFBF</td>
+<td>Secondary</td>
+<td>$gray-500</td>
+<td>#666666</td>
+<td class="gl-text-gray-500">Accompanying help text or menu subtitles</td>
+</tr>
+<tr>
+<td>Tertiary</td>
+<td>$gray-400</td>
+<td>#868686</td>
+<td class="gl-text-gray-400">Placeholder or disabled</td>
 </tr>
 </tbody>
 </table>
