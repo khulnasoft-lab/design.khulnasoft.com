@@ -12,22 +12,30 @@ related:
 
 There are several areas within GitLab to manage settings:
 
-* Admin settings
-* User settings
-* Project or Group settings
-* Feature settings
+- **Admin settings**: Settings that apply for the the entire instance. Only accessible for the [owner role](https://docs.gitlab.com/ee/user/permissions.html). Accessible in self-managed instances via the [top menu](regions/navigation#top-menu): Menu > Admin. Example: set a favicon
+- **User settings:** Preferences that you have an ownership on as an individual user. Accessible via the top navigation Profile > Preferences. Example: change how date and time is displayed.
+- **Group settings:** Settings for group features, or settings that apply to projects within that group. Only accessible for the [maintainer role](https://docs.gitlab.com/ee/user/permissions.html). Accessible via the [sidebar navigation](/regions/navigation#left-sidebar): Settings. Example: set up an integration that all projects in the group inherit.
+- **Feature settings:** Settings for project features. Only accessible for the [maintainer role](https://docs.gitlab.com/ee/user/permissions.html). Accessible via the [sidebar navigation](/regions/navigation#left-sidebar): Settings. Example: protected branches
 
 ## Usage
 
-### Placement of settings options
+### Placement of settings
 
-Settings can be accessed through the [top horizontal navigation](/regions/navigation#global-navigation), [sidebar navigation](/regions/navigation#contextual-navigation), or contextual options on feature pages. 
+When considering where to place a setting within the product, consider the following:
+
+- What is the [job to be done](https://about.gitlab.com/handbook/engineering/ux/jobs-to-be-done/) that corresponds with the setting?
+- What [persona](https://about.gitlab.com/handbook/product/personas/) performs that job to be done? What [role](https://docs.gitlab.com/ee/user/permissions.html) or permission does that persona have?
+- For feature settings: does the feature exist and the Group or Project level? Generally, the setting should be available at the same level as the feature.
+
+### Group versus Project settings
+
+The same setting can exist at the Group and Project level. Group settings can be convienient as a single place to set a setting that all projects inherit. Depending on the use case, it's possible that projects can override settings set at the group. When a setting is set at the group level, make it clear that the setting will impact all Projects in the group. At the Project level, indicate that the setting came from the Group level.
 
 ### Grouping
 
 Admin, group, project, and user settings utilize full pages to group different categories inside [accordions](/components/accordion). This is different from feature settings which live next to a specific UI element. On settings pages, the most frequently used options should be made easily available to users by not collapsing the content. Horizontal separators are placed between each category to give elements enough room to breathe.
 
-Each category displays a title and a brief explanation of what users should expect when the the accordion is expanded. Use consistent terms and follow the [voice and tone](/content/voice-tone) guidelines. 
+Each category displays a title and a brief explanation of what users should expect when the the accordion is expanded. Use consistent terms and follow the [voice and tone](/content/voice-tone) guidelines.
 
 ### Locked settings
 
