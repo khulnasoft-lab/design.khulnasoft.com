@@ -34,7 +34,7 @@ const cspPolicies = [
   "object-src 'none'",
   "img-src 'self' https: data:",
   `frame-src https://www.figma.com ${new URL(GITLAB_UI_URL).origin}`,
-  "connect-src 'self' https://sentry.gitlab.net https://www.google-analytics.com https://cdn.cookielaw.org https://geolocation.onetrust.com",
+  "connect-src 'self' https://sentry.gitlab.net https://www.google-analytics.com https://cdn.cookielaw.org https://geolocation.onetrust.com  https://gitlab-requests.my.onetrust.com",
 ];
 
 module.exports = {
