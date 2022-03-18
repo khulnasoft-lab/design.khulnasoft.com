@@ -58,7 +58,7 @@ GitLab uses two font weights within the application: normal and bold. A bold fon
 
 ## Text color
 
-GitLab uses three color options that other variations are derived from.
+There are a number of text colors defined in GitLab. Which color is used when depends on the location and purpose of the text.
 
 <table class="font-weight m-b-6">
 <thead>
