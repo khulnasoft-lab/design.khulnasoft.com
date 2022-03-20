@@ -19,25 +19,24 @@ There are several areas within GitLab to manage settings:
 
 ## Usage
 
-### Navigating to Settings
+###  Placement of settings options
 
-Project or Group Settings can be accessed through the [sidebar navigation](/regions/navigation#contextual-navigation) or via contextual options on the feature pages.
-Admin and User Settings can be accessed through the [top horizontal navigation](regions/navigation#global-navigation).
+Settings can be accessed through the top horizontal navigation, sidebar navigation, or contextual options on feature pages.
 
-### Linking to Settings from a feature page
+### Linking to settings from a feature page
 
-To make a feature's Project or Group Settings more discoverable, consider linking to Settings from the feature page.
+Users often look within the feature page to adjust the settings. Make a feature's settings more discoverable by linking to settings from the feature page.
 
-When linking from the feature page to Settings, use an icon-only [button](/components/button) with the settings icon. On hover, the button shows a [tooltip](/components/tooltip) with the text "Configure in Settings":
+- Use an icon-only [button](/components/button) with the [settings icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=settings) on the feature page. On hover, the button shows a [tooltip](/components/tooltip) with the text "Configure in settings":
 
 <figure class="figure" role="figure" aria-label="Settings button with tooltip on hover">
   <img class="figure-img" src="/img/settings-hover.svg" alt="Settings button with tooltip on hover" role="img" />
   <figcaption class="figure-caption">Settings button with tooltip on hover</figcaption>
 </figure>
 
-When navigating from a feature page to Settings, the user should be navigated to the specific settings page and category of that feature. For example, navigating to Settings via the Package Registry will end up on the Packages & Registries page of Settings.
+- Place the button near the title or header of the page. Set the expectation that the user is going to be navigated away from the feature page to the settings by not embeding in a granular function of the page.
+- Navigate to the specific settings page and category of that feature. For example, navigating to settings via the Package Registry will end up on the Packages & Registries page of settings.
 
-Be mindful of the placement of the Settings button within the feature page. Set the expectation that the user is going to be navigated away from the feature page to the Group or Project Settings. Don't embed the settings button within a granular function of the page. Instead, consider placing the button near the title or header of the page.
 
 ### Grouping
 
