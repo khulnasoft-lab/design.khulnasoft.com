@@ -28,6 +28,8 @@ Higher tier features should be easy to identify from the rest of the interface. 
   <img class="figure-img" src="/img/higher-tier-feature-badges.svg" alt="Premium feature badge" role="img" />
 </figure>
 
+Todo: Replace badge image with live example or link once the new variant has been added to GitLab UI.
+ 
 #### Specification
 
 * Component name: Badge
