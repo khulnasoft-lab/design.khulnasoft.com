@@ -34,7 +34,7 @@ Users often look within the feature page to adjust the settings. Make a feature'
   <figcaption class="figure-caption">Settings button with tooltip on hover</figcaption>
 </figure>
 
-- Place the button near the title or header of the page. Set the expectation that the user is going to be navigated away from the feature page to the settings by not embeding in a granular function of the page.
+- Place the button in the top right corner of the page. This sets the expectation that the button leads to the settings for that page as a whole rather than a granular function within the page. 
 - Navigate to the specific settings page and category of that feature. For example, navigating to settings via the Package Registry will end up on the Packages & Registries page of settings.
 
 
