@@ -31,7 +31,6 @@ related:
 
 - Use a spinner to signify that something is loading.
 - In some instances, the UI will reflect a change before the change is actually saved and the spinner is used to indicate background activity until information is successfully saved.
-- Consider replacing the generic `loading...` message with something more descriptive when the action is dependent on GitLab. For example the ['merge active' status message](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/60521).
 
 ### When not to use
 
