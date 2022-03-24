@@ -35,11 +35,11 @@ Todo: Add responsive table examples.
 1. **Caption** (optional): Describes the nature of the table.
 1. **Header row**: Can optionally be selectable.
 1. **Body row**: Can optionally be selectable.
-1. **Header cell**: Can optionally be sortable.
-1. **Icon**: Supports the variant meaning.
+1. **Header cell**: Can be used to sort table content.
+1. **Icon**: Indicates sort direction:
    - [arrow-up](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~arrow-up) icon for sorting ascending.
    - [arrow-down](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~arrow-down) icon for sorting descending.
-1. **Body cell**: Supports text, buttons, links, and text accompanied by other common elements.
+1. **Body cell**: Supports text, buttons, links, and text accompanied by other common elements like an avatar or icon.
 
 ## Guidelines 
 
@@ -59,9 +59,9 @@ Todo: Add responsive table examples.
 
 ### Variants
 
-- **Basic table**: The basic table is the default option for this component. However, additional functionality can be added to enhance the table for different use cases.
-- **Striped table**: The striped option adds zebra-striping to the entire table, starting with the the header row.
-- **Compressed table**: The compressed option cuts the body cell padding in half. This option should be used when the content presented is data heavy and text only. For example, displaying log files. 
+- **Basic**: A basic table is the default option for this component, however, additional functionality can be added to enhance the table for different use cases.
+- **Striped**: A striped table adds zebra-striping to the entire table, starting with the the header row. The alternating row background colors can be helpful to differentiate row content.
+- **Condensed**: A condensed table cuts the body cell padding in half. Use a condensed table when the content presented is data heavy and text only. For example, displaying log files. 
 
 ### Appearance 
 
@@ -70,8 +70,8 @@ Todo: Add responsive table examples.
 - Don’t simply shrink an entire table to fit the viewport or apply a fixed width to a table to the point that it compromises legibility. The same way stretching tables 100% to the width of the viewport is not recommended, a small, shrunken table view can create a cluttered interface. Use a responsive table view instead.
 - Order the table content by importance, based on the information needs of your users.
 - Text in tables tends to end up in narrow columns. Left-align text content, rather than justifying or centering it, to avoid confusion or readability issues. 
-- For tables found in the product, we use the `UI/Label` text styles since these tables are more data rich and require less line height. 
-- For markdown tables seen in GitLab Issues, Merge requests, and Documentation, we use the `Pargraph` text styles. 
+- The **Label** text styles from the [UI type scale](/product-foundations/type-scales#ui-type-scale) are used for product tables since the content is more data rich and requires less line height. 
+- The `Paragraph` text styles from the [Documentation Markdown](https://design.gitlab.com/product-foundations/type-scales#documentation-markdown-type-scale) and [Compact Markdown](https://design.gitlab.com/product-foundations/type-scales#compact-markdown-type-scale) type scales are used for markdown tables in GitLab issues, merge requests, and documentation.
 - In some circumstances, right-aligning the text content helps with readability. For example, right-align the numeric data with a consistent number of decimal places to improve scannability.
 - Tables may switch their alignment for right-to-left audiences when designing for [internationalization](/usability/i18n).
 - Use white space in tables to improve [scannability](https://www.nngroup.com/articles/how-users-read-on-the-web/), visually separating data elements so that each can be individually identified and read as separate from the others.
@@ -103,7 +103,7 @@ Todo: Add responsive table examples.
 
 #### New row
 
-- When a new row is dynamically added by the system, the background color of the row should be set to `$green-50` in order to hightlight the new change in the interface.
+- When a new row is dynamically added by the system, the background color of the row should be set to `$green-50` in order to highlight the addition.
 
 #### Ordering & sorting
 
@@ -128,7 +128,7 @@ fields: [
 #### Pagination
 
 - Tables displaying data sets with more than 20 items should use pagination. [See pagination guidelines](/components/pagination)
-- If the compressed table option is used, data sets with more than 40 items should use pagination.
+- If a condensed table is used, data sets with more than 40 items should use [pagination](/components/pagination).
 
 #### Additional actions
 
@@ -147,7 +147,7 @@ At smaller breakpoints, tables can either maintain a tabular layout and scroll h
 ### Content
 
 #### Caption
-- A `<caption>` acts like a heading for a table. It helps users with screen readers to find a table and understand the nature of the table.
+- A `<caption>` provides a meaningful description for a table.
 
 #### Header
 
