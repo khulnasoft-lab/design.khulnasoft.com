@@ -2,8 +2,6 @@
 name: Iconography
 ---
 
-Note: Icons have recently been refreshed to be more balanced with other UI elements while addressing other considerations. Updates to the following guidelines are forthcoming. Read more about the changes in this [blog post](https://about.gitlab.com/blog/2021/12/17/hey-icons-lighten-up/) and take some time to familiarize yourself with the new icons in the [GitLab SVGs project](https://gitlab-org.gitlab.io/gitlab-svgs/).
-
 One of our values is to create a distinct GitLab personality that is strong and consistent. Iconography is a powerful visual cue to the user and should reflect our particular sense of style.
 
 Icons take inspiration from elements expressed as part of the GitLab brand.
@@ -17,12 +15,9 @@ Icons take inspiration from elements expressed as part of the GitLab brand.
 
 ### Pixel grid
 
-Icon elements are aligned to the pixel grid to avoid subpixel antialiasing and be as crisp as possible on all screens and resolutions. Elements within an icon, such as curves or diagonal lines, won’t always align exactly to the grid, and in these instances it’s better for the element to feel natural rather than forced.
+Icon elements are aligned to the pixel grid. Elements within an icon, such as curves or diagonal lines, won’t always align exactly to the grid, and in these instances it’s better for the element to feel natural rather than forced.
 
-Since icons use a **1.5px** stroke, there are a few alignment considerations:
-
-- Outside edges of closed shapes should align to whole pixels.
-- A line should have at least one edge aligned to a whole pixel. This won't always be possible when two lines comprise an element that has to be centered within the grid or to other elements.
+Alignment considerations for a **1.5px** stroke are covered in the [Strokes](#strokes) section below.
 
 | **Do** | **Don’t** |
 | :---: | :---: |
@@ -115,11 +110,23 @@ Here are a few considerations when trying to achieve optical balance.
 
 All icons use a **1.5px** stroke weight. Lines use rounded caps, unless doing so would misrepresent the metaphor, or if you are trying to infer depth or element clipping. Round line joins are optional and also depend on the metaphor. For example, a checkmark is one continuous object and the round line infers fluidity, whereas clock hands are two joined objects and a miter join defines a joint.
 
+A **1.5px** stroke:
+
+- Is more balanced with other UI elements and is similarly weighted to regular system font weights at body text sizes.
+- Provides more room to convey abstract concepts and metaphors by allowing for both more detail where needed and extra space between elements for clarity.
+- Works well in both light and dark UI.
+
+Since icons use a **1.5px** stroke, there are a few alignment considerations:
+
+- A stroke is either aligned to inside or center.
+- Outside edges of closed shapes should align to whole pixels.
+- A line should have at least one edge aligned to a whole pixel. This won't always be possible when two lines comprise an element that has to be centered within the grid or to other elements, but the line end points should always terminate on a whole pixel.
+
 <div class="row">
   <div class="col col-33">
     <figure class="figure" role="figure" aria-label="1.5px stroke weight and rounded stroke caps">
       <img class="figure-img" src="/img/icons-strokes.svg" alt="Icon stroke settings" role="img" />
-      <figcaption class="figure-caption">1.5px stroke weight and rounded stroke caps</figcaption>
+      <figcaption class="figure-caption">1.5px stroke weight inside aligned and rounded stroke caps</figcaption>
     </figure>
   </div>
   <div class="col col-33">
@@ -136,20 +143,16 @@ All icons use a **1.5px** stroke weight. Lines use rounded caps, unless doing so
   </div>
 </div>
 
-### Stroke alignment
-
-A stroke is either aligned to inside or center.
-
 ## Border radius
 
-With a  **1.5px** stroke, the border radius options are:
+To have parity between inside and center aligned strokes with a  **1.5px** weight the border radius options are:
 
-| **Stroke aligned inside** | **Stroke aligned center** |
-| ------ | ------ |
-| 0 | 0 |
-| 1px | 0.25px |
-| 2px (default) | 1.25px |
-| 3px | 2.25px |
+| **Stroke aligned inside** | **Stroke aligned center** |  **Result** |
+| ------ | ------ | ------ |
+| 0px | 0px | <img src="/img/icons-0-inside.svg" alt="0 border radius example" role="img" /> |
+| 1px | 0.25px |  <img src="/img/icons-1-inside.svg" alt="1 pixel border radius example" role="img" /> |
+| 2px (default) | 1.25px |  <img src="/img/icons-2-inside.svg" alt="2 pixel border radius example" role="img" /> |
+| 3px | 2.25px |  <img src="/img/icons-3-inside.svg" alt="3 pixel border radius example" role="img" /> |
 
 Clarity should always override consistency, and the guides are flexible when necessary to best represent the metaphor or parts of it.
 
@@ -270,7 +273,7 @@ Try to avoid potentially antiquated concepts, especially when something more mod
 
 | **Do** | **Don’t** |
 | --- | --- |
-| <figure class="figure" role="figure" aria-label="Flat screen TV"><img class="figure-img" src="/img/icons-concept-new.svg" alt="Flat screen TV with play symbol" role="img" /><figcaption class="figure-caption">Flat screen TV</figcaption></figure> | <figure class="figure" role="figure" aria-label="Old tube TV"><img class="figure-img" src="/img/icons-concept-old.svg" alt="Tube TV with antenna" role="img" /><figcaption class="figure-caption">Old tube TV</figcaption></figure> |
+| <figure class="figure" role="figure" aria-label="Flat screen display"><img class="figure-img" src="/img/icons-concept-new.svg" alt="Flat screen display with play symbol" role="img" /><figcaption class="figure-caption">Flat screen display</figcaption></figure> | <figure class="figure" role="figure" aria-label="Old tube TV"><img class="figure-img" src="/img/icons-concept-old.svg" alt="Tube TV with antenna" role="img" /><figcaption class="figure-caption">Old tube TV</figcaption></figure> |
 
 ## Icon viewer
 
