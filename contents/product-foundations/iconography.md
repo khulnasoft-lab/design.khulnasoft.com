@@ -275,10 +275,6 @@ Try to avoid potentially antiquated concepts, especially when something more mod
 | --- | --- |
 | <figure class="figure" role="figure" aria-label="Flat screen display"><img class="figure-img" src="/img/icons-concept-new.svg" alt="Flat screen display with play symbol" role="img" /><figcaption class="figure-caption">Flat screen display</figcaption></figure> | <figure class="figure" role="figure" aria-label="Old tube TV"><img class="figure-img" src="/img/icons-concept-old.svg" alt="Tube TV with antenna" role="img" /><figcaption class="figure-caption">Old tube TV</figcaption></figure> |
 
-## Icon viewer
-
-You can view all of the current icons in GitLab at the following link: [GitLab SVGs](http://gitlab-org.gitlab.io/gitlab-svgs/)
-
 ## Usage
 
 Icons are used to stress visual weight for elements with a high priority or to explain the universal knowledge in a simple way.
@@ -288,3 +284,8 @@ The level of visual weight from heavy to light is: **Icon + label > Icon > label
 ### Referencing icons in code
 
 For more information on how icons are referenced in the product, go to [GitLab Docs - Icons and SVG Illustrations](https://docs.gitlab.com/ee/development/fe_guide/icons.html).
+
+## Resources
+
+- You can view all of the current icons at the [GitLab SVGs](http://gitlab-org.gitlab.io/gitlab-svgs/) site.
+- View the [GitLab Product Icons](https://www.figma.com/community/file/1051267829358377715/GitLab-Product-Icons) Figma file.
