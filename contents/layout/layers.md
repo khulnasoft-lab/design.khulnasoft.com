@@ -56,7 +56,7 @@ box-shadow:<br>0px 2px 8px rgba(0, 0, 0, 0.16),<br>0px 0px 2px rgba(0, 0, 0, 0.1
 
 ### Large
 
-![lg shadow](/img/layers/layer-shadow-large.png)
+![lg shadow](/img/layers/layers-shadow-large.png)
 
 #### Definition
 
