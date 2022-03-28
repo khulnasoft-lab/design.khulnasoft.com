@@ -12,7 +12,7 @@ Though deciding which color to use depends on the situation, here are some gener
 
 - **Blue** indicates a current or active state. It communicates management, progress, connectivity, or organization.
 - **Green** indicates success. It communicates save, create, add, available, done, approved, or resolved.
-- **Orange** indicates attention required. It communicates warning, pending, missing, or impeded progress.
+- **Orange** indicates attention is required. It communicates warning, pending, missing, or impeded progress.
 - **Red** indicates a problem. It communicates a critical state, destructive action, error, failure, removal, stop, or decline.
 - **Purple** is not assigned meaning in the same way the other chromatic hues are, like green for success or red for a problem. Purple, however, has meaning associated with the GitLab brand. It communicates brand affinity and relationship and can be used for things like illustrations or company-related announcements in the product.
 
@@ -874,7 +874,7 @@ Though deciding which color to use depends on the situation, here are some gener
 
 ## Neutral palette
 
-The neutral palette is primarily used within components to help differentiate hierarchy. Shades of gray can be used as backgrounds, borders, and shadows to emphasize certain areas or set them apart.
+The neutral palette is primarily used within components to help differentiate hierarchy. Use shades of gray as backgrounds, borders, and shadows to emphasize areas or set them apart.
     <div class="distributed palette neutral">
       <div class="color">
         <div class="color-overview c-white-background p-t-3 p-r-5 p-b-3 p-l-5">
@@ -967,7 +967,7 @@ The neutral palette is primarily used within components to help differentiate hi
 
 ## Transparency
 
-Transparency is used only to indicate hover and active states within themes. Each theme has its own series of four transparencies to utilize with alpha levels ranging from 0.02 to 0.08.
+Transparency is used only to indicate hover and active states within themes. Each theme has a series of four transparencies to utilize alpha levels ranging from 0.02 to 0.08.
     <div class="distributed palette neutral m-b-6">
       <div class="color">
         <div class="color-overview t-gray-a-02 p-t-3 p-r-5 p-b-3 p-l-5">
