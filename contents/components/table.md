@@ -144,6 +144,13 @@ At smaller breakpoints, tables can either maintain a tabular layout and scroll h
 - If the content simply shares headers and can live on its own without comparison, transform each row into its own group.
 - If a row has embedded actions that could be missed when overflowing in the default tabular layout, transform each row into its own group so the actions can always be visible.
 
+#### Interactive tables
+
+If table cells needs to be navigable (not just some the content within), consider extending the table as a [grid](https://www.w3.org/TR/wai-aria-practices-1.2/#grid) composite widget.
+
+#### Selecting rows
+
+Todo: Add behavior guidelines for selectable rows.
 ### Content
 
 #### Caption
