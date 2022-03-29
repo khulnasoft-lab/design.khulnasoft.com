@@ -23,14 +23,10 @@ There are several areas within GitLab to manage settings:
 
 When considering where to place a setting within the product, consider the following:
 
-- What is the [job to be done](https://about.gitlab.com/handbook/engineering/ux/jobs-to-be-done/) that corresponds with the setting?
-- What [persona](https://about.gitlab.com/handbook/product/personas/) performs that job to be done? What [role](https://docs.gitlab.com/ee/user/permissions.html) or permission does that persona have?
-- For feature settings: does the feature exist and the Group or Project level? Generally, the setting should be available at the same level as the feature.
+- **Access:** Which [persona](https://about.gitlab.com/handbook/product/personas/) performs the JTBD related to the setting? What [role](https://docs.gitlab.com/ee/user/permissions.html) or permission does that persona have?
+- **Flexibility and control:** At what namespace level (for example, admin, group, or project) should the setting be available? Should the setting cascade down to children namespaces? Should there be a way to override a setting set at a parent namespace?
 
-### Group versus Project settings
-
-The same setting can exist at the Group and Project level. Group settings can be convienient as a single place to set a setting that all projects inherit. Depending on the use case, it's possible that projects can override settings set at the group. When a setting is set at the group level, make it clear that the setting will impact all Projects in the group. At the Project level, indicate that the setting came from the Group level.
-
+It should be clear when settings cascade, at which level the setting is set at, and when they can be overrode.
 ### Grouping
 
 Admin, group, project, and user settings utilize full pages to group different categories inside [accordions](/components/accordion). This is different from feature settings which live next to a specific UI element. On settings pages, the most frequently used options should be made easily available to users by not collapsing the content. Horizontal separators are placed between each category to give elements enough room to breathe.
