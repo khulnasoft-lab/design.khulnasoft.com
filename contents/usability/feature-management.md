@@ -46,6 +46,5 @@ Todo: Replace badge image with live example or link once the new variant has bee
 
 * Links to [tiers details](https://about.gitlab.com/pricing/).
 * Can be removed from the UI via group or instance level settings.
-* Be removed from the UI via group or instance level settings.
 
 Todo: Add links to the documentation.
