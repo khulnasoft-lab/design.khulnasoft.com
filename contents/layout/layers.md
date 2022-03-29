@@ -26,7 +26,7 @@ Surfaces that need an indication they can be manually interacted with. For examp
 
 #### Style
 
-box-shadow:<br>0px 1px 2px rgba(0, 0, 0, 0.1)
+`box-shadow:`<br>`0px 1px 2px rgba(0, 0, 0, 0.1)`
 
 ### Medium
 
@@ -52,7 +52,7 @@ Surfaces that need boundary definition and appear on hover. For example, [popove
 
 #### Style
 
-box-shadow:<br>0px 2px 8px rgba(0, 0, 0, 0.16),<br>0px 0px 2px rgba(0, 0, 0, 0.16);
+`box-shadow:`<br>`0px 2px 8px rgba(0, 0, 0, 0.16),<br>0px 0px 2px rgba(0, 0, 0, 0.16);`
 
 ### Large
 
@@ -73,7 +73,7 @@ Large surfaces that present additional context to the user.
 
 #### Style
 
-box-shadow:<br>0px 4px 12px rgba(0, 0, 0, 0.16),<br>0px 0px 4px rgba(0, 0, 0, 0.16);
+`box-shadow:`<br>`0px 4px 12px rgba(0, 0, 0, 0.16),`<br>`0px 0px 4px rgba(0, 0, 0, 0.16);`
 
 ## Stacking & overflowing layers
 
@@ -95,6 +95,3 @@ Layers that can be moved or dragged by the user use the lg shadow to create a gr
 
 ![Dragging layers](/img/layers/layers-interactive.png)
 
-## Accessibility
-
-TODO: Add accessibility guidelines
