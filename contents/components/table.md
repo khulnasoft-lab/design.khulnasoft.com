@@ -32,9 +32,7 @@ Todo: Add responsive table examples.
   <img class="figure-img" src="/img/table-structure.svg" alt="Numbered diagram of a table structure" role="img" />
 </figure>
 
-1. **Caption** (optional): Describes the nature of the table.
-1. **Header row**: Can optionally be selectable.
-1. **Body row**: Can optionally be selectable.
+1. **Caption**: Provides a meaningful description for a table. A caption should only be optional when a heading directly precedes the table and provides clear enough context for it.
 1. **Header cell**: Can be used to sort table content.
 1. **Icon**: Indicates sort direction:
    - [arrow-up](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~arrow-up) icon for sorting ascending.
