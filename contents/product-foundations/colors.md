@@ -1461,4 +1461,4 @@ At GitLab, we are dedicated to continually improving the accessibility of the ap
 
 Contrast ratios for each color step are calculated using white (`#fff`) and black (`#000`). The `50–400` steps all meet a 4.5:1 contrast ratio or higher against $gray-950 (`#1f1f1f`) or darker, while the `500–950` steps all meet a 4.5:1 contrast ratio against `$gray-10` (`#fafafa`) or lighter.
 
-In UI elements, try to use a combination of steps that are at least two steps apart to ensure a baseline level of contrast for states and border/fill combinations.
+Use colors at least two steps apart to ensure distinguishable contrast for states and border/fill combination.
