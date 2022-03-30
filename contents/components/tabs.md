@@ -14,7 +14,7 @@ related:
 
 [[Story:base-tabs--justified-tabs]]
 
-[[Example:base-tabs--with-counter-badges]]
+[[Story:base-tabs--with-counter-badges]]
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A138)
 
