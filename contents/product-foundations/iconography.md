@@ -145,7 +145,7 @@ Since icons use a **1.5px** stroke, there are a few alignment considerations:
 
 ## Border radius
 
-To have parity between inside and center aligned strokes with a  **1.5px** weight the border radius options are:
+To have parity between inside and center aligned strokes with a **1.5px** weight, the border radius options are:
 
 | **Stroke aligned inside** | **Stroke aligned center** |  **Result** |
 | ------ | ------ | ------ |
