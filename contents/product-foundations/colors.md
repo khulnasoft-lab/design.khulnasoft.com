@@ -14,7 +14,7 @@ Though deciding which color to use depends on the situation, here are some gener
 - **Green** indicates success. It communicates save, create, add, available, done, approved, or resolved.
 - **Orange** indicates attention is required. It communicates warning, pending, missing, or impeded progress.
 - **Red** indicates a problem. It communicates a critical state, destructive action, error, failure, removal, stop, or decline.
-- **Purple** is not assigned meaning in the same way the other chromatic hues are, like green for success or red for a problem. Purple, however, has meaning associated with the GitLab brand. It communicates brand affinity and relationship and can be used for things like illustrations or company-related announcements in the product.
+- **Purple** is not assigned meaning in the same way the other chromatic hues are, and instead is associated with the GitLab brand. It communicates an affinity with the brand, and is used for things like illustrations or company-related announcements in the product.
 
 <div class="row m-b-9">
   <div class="col col-50 md p-b-7">
@@ -1005,7 +1005,7 @@ Transparency is used only to indicate hover and active states within themes. Eac
 
 ## Themes
 
-There are ten different theme options in GitLab that a user can choose from to customize the appearance of the application header and navigation sidebar. Each theme draws inspiration from one of the primary chromatic colors, the neutral palette, or the corporate indigo color.
+A user may choose between ten different themes to customize the appearance of the application header and navigation sidebar in GitLab. Each theme draws inspiration from one of the primary chromatic colors, the neutral palette, or the corporate indigo color.
 
 - Indigo and light indigo share the same `$t-indigo-` variables.
 - Green and light green share the same `$t-green-` variables.
@@ -1461,4 +1461,4 @@ At GitLab, we are dedicated to continually improving the accessibility of the ap
 
 Contrast ratios for each color step are calculated using white (`#fff`) and black (`#000`). The `50–400` steps all meet a 4.5:1 contrast ratio or higher against $gray-950 (`#1f1f1f`) or darker, while the `500–950` steps all meet a 4.5:1 contrast ratio against `$gray-10` (`#fafafa`) or lighter.
 
-Use colors at least two steps apart to ensure distinguishable contrast for states and border/fill combination.
+Use colors at least two steps apart to ensure distinguishable contrast for states and border/fill combinations.
