@@ -25,9 +25,9 @@ Settings can be accessed through the top horizontal navigation, sidebar navigati
 
 ### Linking to settings from a feature page
 
-Users often look within the feature page to adjust the settings. Make a feature's settings more discoverable by linking to settings from the feature page.
+Users often look within the feature page to adjust the settings. Make configuration options more discoverable by linking to settings from the feature page.
 
-- Use an icon-only [button](/components/button) with the [settings icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=settings) on the feature page. On hover, the button shows a [tooltip](/components/tooltip) with the text "Configure in settings":
+- Use an icon-only [button](/components/button) with the [settings icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=settings) on the feature page. On hover, the button shows a [tooltip](/components/tooltip) with the text "Configure in settings".
 
 <figure class="figure" role="figure" aria-label="Settings button with tooltip on hover">
   <img class="figure-img" src="/img/settings-hover.svg" alt="Settings button with tooltip on hover" role="img" />
@@ -35,7 +35,7 @@ Users often look within the feature page to adjust the settings. Make a feature'
 </figure>
 
 - Place the button in the top right corner of the page. This sets the expectation that the button leads to the settings for that page as a whole rather than a granular function within the page. 
-- Navigate to the specific settings page and category of that feature. For example, navigating to settings via the Package Registry will end up on the Packages & Registries page of settings.
+- Navigate to the specific configuration page of that feature. For example, navigating via the Package Registry page will end up on the Packages & Registries section of settings.
 
 
 ### Grouping
