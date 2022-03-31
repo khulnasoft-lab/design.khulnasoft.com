@@ -12,14 +12,14 @@ related:
 
 There are several areas within GitLab to manage settings:
 
-- Admin settings
-- User settings
-- Project or Group settings
-- Feature settings
+* Admin settings
+* User settings
+* Project or Group settings
+* Feature settings
 
 ## Usage
 
-###  Placement of settings options
+### Placement of settings options
 
 Settings can be accessed through the top horizontal navigation, sidebar navigation, or contextual options on feature pages.
 
