@@ -12,10 +12,10 @@ related:
 
 There are several areas within GitLab to manage settings:
 
-* Admin settings
-* User settings
-* Project or Group settings
-* Feature settings
+- Admin settings
+- User settings
+- Project or Group settings
+- Feature settings
 
 ## Usage
 
@@ -34,9 +34,8 @@ Consider making configuration options more discoverable to users by linking to s
   <figcaption class="figure-caption">Settings button with tooltip on hover</figcaption>
 </figure>
 
-- Place it at the page-level, in the top right corner of the page, below the breadcrumbs. This sets the expectation that the settings apply to the page as a whole. 
-- Navigate to the specific configuration section of that page in the settings area. Doing so makes the result of clicking the button predictable and prevents users from needing to immediately navigate away from their task. For example, navigating via the Package Registry page will end up on the **Settings > Packages & Registries** section of settings.
-
+- Place it at the page-level, in the top right corner of the page, below the breadcrumbs. This sets the expectation that the settings apply to the page as a whole.
+- Navigate to the specific configuration section of that page in the settings area. Doing so makes the result of clicking the button predictable and prevents users from needing to navigate away from their task. For example, navigating via the Package Registry page will end up on the **Settings > Packages & Registries** section of settings.
 
 ### Grouping
 
