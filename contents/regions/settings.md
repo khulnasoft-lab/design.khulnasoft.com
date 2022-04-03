@@ -25,17 +25,17 @@ Settings can be accessed through the top horizontal navigation, sidebar navigati
 
 ### Linking to settings from a feature page
 
-Users often look within the feature page to adjust the settings. Make configuration options more discoverable by linking to settings from the feature page.
+Consider making configuration options more discoverable to users by linking to settings from the feature page.
 
-- Use an icon-only [button](/components/button) with the [settings icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=settings) on the feature page. On hover, the button shows a [tooltip](/components/tooltip) with the text "Configure in settings".
+- Use an icon-only [button](/components/button) with the [settings icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=settings) that, when hovered, shows a [tooltip](/components/tooltip) with the text `Configure in settings`.
 
 <figure class="figure" role="figure" aria-label="Settings button with tooltip on hover">
   <img class="figure-img" src="/img/settings-hover.svg" alt="Settings button with tooltip on hover" role="img" />
   <figcaption class="figure-caption">Settings button with tooltip on hover</figcaption>
 </figure>
 
-- Place the button in the top right corner of the page. This sets the expectation that the button leads to the settings for that page as a whole rather than a granular function within the page. 
-- Navigate to the specific configuration page of that feature. For example, navigating via the Package Registry page will end up on the Packages & Registries section of settings.
+- Place it at the page-level, in the top right corner of the page, below the breadcrumbs. This sets the expectation that the settings apply to the page as a whole. 
+- Navigate to the specific configuration section of that page in the settings area. Doing so makes the result of clicking the button predictable and prevents users from needing to immediately navigate away from their task. For example, navigating via the Package Registry page will end up on the **Settings > Packages & Registries** section of settings.
 
 
 ### Grouping
