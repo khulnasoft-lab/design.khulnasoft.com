@@ -21,7 +21,7 @@ There are several areas within GitLab to manage settings:
 
 ### Placement of settings options
 
-Settings can be accessed through the top horizontal navigation, sidebar navigation, or contextual options on feature pages.
+Settings can be accessed through the [top menu](/regions/navigation#top-menu), [left sidebar](/regions/navigation#left-sidebar), or contextual options on feature pages.
 
 ### Linking to settings from a feature page
 
