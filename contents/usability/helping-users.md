@@ -19,18 +19,26 @@ If the most relevant information can be summarized succinctly, put the summary d
 
 Help links open in a new tab. Doing so makes the result of clicking the links predictable and prevents users from needing to immediately navigate away from their task.
 
+### Phrase link text as a question
+
 Try phrasing the link as the question that will be answered by the linked content.
 
 - **Example:** A merge request approval is required when a security report contains a new vulnerability of high, critical, or unknown severity. [Who can approve?](#)
+
+### Learn more
 
 If a question doesn't make sense, use the sentence, "Learn more." Do not use "More information" or other phrases, and always use a period.
 
 - **Example:** A merge request approval is required when a security report contains a new vulnerability of high, critical, or unknown severity. [Learn more.](#)
 
+### External links
+
 If the help content is outside of the GitLab instance (for example, content at about.gitlab.com), make that clear in the link text.
 
 - **Example:** For more integrations, go to [GitLab’s website](#).
 - An external link icon can be added in place of more copy if space is tight.
+
+### Help icon
 
 If that's not possible and space is tight, use the [help icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) that, when hovered or focused on, shows the summary in a [popover](/components/popover). The popover title should be the question that is answered by the summary. A “Learn more” link can be added to the popover to associate additional, relevant information.
 
