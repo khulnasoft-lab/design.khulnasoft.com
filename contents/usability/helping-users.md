@@ -31,6 +31,10 @@ If a question doesn't make sense, use the sentence, "Learn more." Do not use "Mo
 
 - **Example:** A merge request approval is required when a security report contains a new vulnerability of high, critical, or unknown severity. [Learn more.](#)
 
+When you use `Learn more.`, also add an [aria-label](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8) with an expanded description for screen reader users.
+
+- **Example:** Learn more about creating an issue.
+
 ### External links
 
 If the help content is outside of the GitLab instance (for example, content at about.gitlab.com), make that clear in the link text.
