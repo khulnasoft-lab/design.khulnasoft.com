@@ -17,7 +17,7 @@ There are several areas within GitLab to manage settings:
 - Project or Group settings
 - Feature settings
 
-Settings visibility and access depend on the [permissions and roles](https://docs.gitlab.com/ee/user/permissions.html) users have in a particular GitLab instance, group or project.
+Settings visibility and access depend on the [permissions and roles](https://docs.gitlab.com/ee/user/permissions.html) users have in a particular GitLab instance, group, or project.
 - **User settings:** Preferences that you have an ownership on as an individual user. Accessible via the top navigation Profile > Preferences. Example: change how date and time is displayed.
 - **Group settings:** Settings for group features, or settings that apply to projects within that group. Only accessible for the [maintainer role](https://docs.gitlab.com/ee/user/permissions.html). Accessible via the [sidebar navigation](/regions/navigation#left-sidebar): Settings. Example: set up an integration that all projects in the group inherit.
 - **Feature settings:** Settings for project features. Only accessible for the [maintainer role](https://docs.gitlab.com/ee/user/permissions.html). Accessible via the [sidebar navigation](/regions/navigation#left-sidebar): Settings. Example: protected branches
