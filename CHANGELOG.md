@@ -1,3 +1,46 @@
+# [2.116.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.115.0...v2.116.0) (2022-04-04)
+
+
+### Bug Fixes
+
+* **deps:** update gitlab ui/svg ([fe94ffd](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/fe94ffdb938f6625824c650c87c81cbf60e61c8c))
+* **Documentation:** Adding guidance that I learned from a failing pipeline ([7b5d995](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/7b5d995398521e2544578292e58d3c843781c437))
+
+
+### Features
+
+* **Color:** Text and use updates ([c7ccf21](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/c7ccf215008bd8f757199a9e430243071256bbef))
+* **FeatureManagement:** add guidelines for highlighting higher tier features ([3bf052c](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/3bf052c0467bd74b86da704bcdd826fbb3425491))
+* **Iconography:** Update icon guidelines ([c55bfd7](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/c55bfd74a251927e29718427ae9945f4aedb34ae))
+
+# [2.115.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.114.0...v2.115.0) (2022-03-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gitlab/ui to v38.0.1 ([7a6269b](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/7a6269b0e7c1f87ef7edac858364ccd167cf27ec))
+
+
+### Features
+
+* **drawer:** update status and links in the docs ([b7f068c](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/b7f068c78cae63e682633ac264e332b67a1ba513))
+* **Drawer:** Update behavior and content docs ([81f93da](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/81f93daf4d6c8ccd008d8dd38a482a17bcbc80c8))
+* **Spinner:** update usage guidance ([8cb3ed0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/8cb3ed0148e9730ab6aa0499275d07e868d4e1b1))
+
+# [2.114.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.113.0...v2.114.0) (2022-03-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gitlab/ui to v38 ([1f6e378](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/1f6e37845dd84ad080e49df2f0b3e6e96e9762be))
+* **objects:** Refactor overview page ([1cf626f](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/1cf626ffda0f5e739ba20452c6a5deb3eebe831c))
+
+
+### Features
+
+* **ResponsiveFirst:** Planning ahead for spaces in layout ([6a2d3df](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/6a2d3df34c07d0f906342c69c27a557ec9368a1e))
+* **Typography:** Adding font color standards to type ([21b67ed](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/21b67ed885002b6f031764450985b35a0ca94861))
+
 # [2.113.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.112.0...v2.113.0) (2022-03-14)
 
 
