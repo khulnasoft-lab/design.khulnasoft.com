@@ -51,7 +51,6 @@ export default {
       tabIndex: 0,
     };
   },
-
   head() {
     return {
       title: this.frontmatterInfo.attributes.name,
@@ -99,6 +98,7 @@ export default {
     }
   },
   mounted() {
+    console.log('this.page', this.page);
     if (this.$route.hash) {
       const targetAnchor = this.$el.querySelector(this.$route.hash);
 
