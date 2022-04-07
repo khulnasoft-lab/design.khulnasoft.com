@@ -19,6 +19,8 @@ If the most relevant information can be summarized succinctly, put the summary d
 
 Help links open in a new tab. Doing so makes the result of clicking the links predictable and prevents users from needing to immediately navigate away from their task.
 
+To learn how to link to GitLab docs in various programming languages, see [Linking to /help](https://docs.gitlab.com/ee/development/documentation/#linking-to-help).
+
 ### Phrase link text as a question
 
 Try phrasing the link as the question that will be answered by the linked content.
