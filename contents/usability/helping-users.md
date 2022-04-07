@@ -28,12 +28,10 @@ Try phrasing the link as the question that will be answered by the linked conten
 ### Learn more
 
 If a question doesn't make sense, use the sentence, "Learn more." Do not use "More information" or other phrases, and always use a period.
+Add an [aria-label](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8) with an full-sentence description for screen reader users.
 
-- **Example:** A merge request approval is required when a security report contains a new vulnerability of high, critical, or unknown severity. [Learn more.](#)
-
-When you use `Learn more.`, also add an [aria-label](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8) with an expanded description for screen reader users.
-
-- **Example:** Learn more about creating an issue.
+- **Example:** Approve a merge request. [Learn more.](#)
+- Make sure the period is part of the link text.
 
 ### External links
 
