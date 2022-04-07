@@ -11,7 +11,7 @@ Each markdown scale utilizes GitLab Flavored Markdown (GFM) and is used to view 
 
 ## Blockquote
 
-Todo: Add blockquote
+<admonition type="todo">Add blockquote</admonition>
 
 ## Code
 
@@ -31,88 +31,88 @@ Highlight inline text as `<code>`. For example, a short line of code, a CSS clas
 
 ### Inline diffs
 
-Todo: Add inline diffs
+<admonition type="todo">Add inline diffs</admonition>
 
 ### Syntax highlight code block
 
-Todo: Add syntax highlight code block
+<admonition type="todo">Add syntax highlight code block</admonition>
 
 ## Collapsible content
 
-Todo: Add collapsible content
+<admonition type="todo">Add collapsible content</admonition>
 
 ## Color chips
 
-Todo: Add color chips
+<admonition type="todo">Add color chips</admonition>
 
 ## Diagrams (mermaid)
 
-Todo: Add mermaid diagrams
+<admonition type="todo">Add mermaid diagrams</admonition>
 
 ## Emoji
 
-Todo: Add emoji
+<admonition type="todo">Add emoji</admonition>
 
 ## Footnotes
 
-Todo: Add footnotes
+<admonition type="todo">Add footnotes</admonition>
 
 ## Horizontal rule
 
-Todo: Add horizontal rule
+<admonition type="todo">Add horizontal rule</admonition>
 
 ## Labels
 
-Todo: Add labels
+<admonition type="todo">Add labels</admonition>
 
 ## Lists
 
 ### Unordered list
 
-Todo: Add unordered lists
+<admonition type="todo">Add unordered lists</admonition>
 
 ### Ordered list
 
-Todo: Add ordered lists
+<admonition type="todo">Add ordered lists</admonition>
 
 ### Table
 
-Todo: Add tables
+<admonition type="todo">Add tables</admonition>
 
 ### Task list
 
-Todo: Add task lists
+<admonition type="todo">Add task lists</admonition>
 
 ### Definition list
 
-Todo: Add definition lists
+<admonition type="todo">Add definition lists</admonition>
 
 ## Math (KaTeX)
 
-Todo: Add KaTeX math
+<admonition type="todo">Add KaTeX math</admonition>
 
 ## Media
 
 ### Images
 
-Todo: Add images
+<admonition type="todo">Add images</admonition>
 
 ### Embedded video
 
-Todo: Add embedded video
+<admonition type="todo">Add embedded video</admonition>
 
 ### Embedded audio
 
-Todo: Add embedded audio
+<admonition type="todo">Add embedded audio</admonition>
 
 ## Table of contents
 
-Todo: Add horizontal rule
+<admonition type="todo">Add horizontal rule</admonition>
 
 ## Super/subscript
 
-Todo: Add super/subscript
+<admonition type="todo">Add super/subscript</admonition>
 
 ## User/group mentions
 
-Todo: Add user/group mentions
+<admonition type="todo">Add user/group mentions</admonition>

@@ -9,17 +9,17 @@ related:
 
 ## Examples
 
-[[Example:path-basic]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="path-basic"></gl-example-display>
 
-[[Example:path-with-metric]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="path-with-metric"></gl-example-display>
 
-[[Example:path-full]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="path-full"></gl-example-display>
 
-Todo: Add to Pajamas UI Kit.
+<admonition type="todo">Add to Pajamas UI Kit.</admonition>
 
 ## Structure
 
-Todo: Add structure image.
+<admonition type="todo">Add structure image.</admonition>
 
 ## Guidelines
 
@@ -29,7 +29,7 @@ Todo: Add structure image.
 
 ### When not to use
 
-Todo: Add when not to use.
+<admonition type="todo">Add when not to use.</admonition>
 
 ### Variants
 

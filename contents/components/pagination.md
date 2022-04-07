@@ -13,13 +13,13 @@ related:
 
 ## Examples
 
-[[Example:pagination-basic]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="pagination-basic"></gl-example-display>
 
-[[Example:pagination-double-truncation]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="pagination-double-truncation"></gl-example-display>
 
-[[Example:pagination-compact]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="pagination-compact"></gl-example-display>
 
-Todo: Add or refactor examples to compare offset and keyset pagination.
+<admonition type="todo">Add or refactor examples to compare offset and keyset pagination.</admonition>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A130)
 
@@ -84,4 +84,4 @@ Keyset pagination only has **Prev** and **Next** options and no page numbers. It
 
 ## Reference
 
-Todo: Add reference for the "more than 20" pagination item count requirements.
+<admonition type="todo">Add reference for the "more than 20" pagination item count requirements.</admonition>

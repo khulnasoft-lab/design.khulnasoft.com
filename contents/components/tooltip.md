@@ -10,13 +10,13 @@ related:
 
 ## Examples
 
-[[Example:tooltip-directive]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="tooltip-directive"></gl-example-display>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A142)
 
 ## Structure
 
-Todo: Add tooltip structure image.
+<admonition type="todo">Add tooltip structure image.</admonition>
 
 ## Guidelines
 
@@ -76,4 +76,4 @@ Here's an example of a tooltip directive with a `0ms` delay (instant) on `show`:
 
 ### Accessibility
 
-Todo: Update accessibility guidelines.
+<admonition type="todo">Update accessibility guidelines.</admonition>

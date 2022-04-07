@@ -11,11 +11,11 @@ related:
 
 ## Examples
 
-[[Example:token-basic]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="token-basic"></gl-example-display>
 
-[[Example:token-view-only]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="token-view-only"></gl-example-display>
 
-[[Example:token-with-avatar]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="token-with-avatar"></gl-example-display>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A141)
 
@@ -63,4 +63,4 @@ A token can be used to both add and filter content where:
 
 ### Accessibility
 
-Todo: Add accessibility requirements and considerations.
+<admonition type="todo">Add accessibility requirements and considerations.</admonition>

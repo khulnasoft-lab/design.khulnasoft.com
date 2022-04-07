@@ -30,31 +30,31 @@ We include 12px as one of our measures, but it should only be reserved for right
   <span class="w-13 h-13 c-background-blue-300 d-inline-block" title="256px"></span>
 </div>
 
-Todo: Add spacing class examples
+<admonition type="todo">Add spacing class examples</admonition>
 
 ## Standard spacing guidelines
 
 `2px` or `4px` is used for spacing within a component.
 
-Todo: Add example of 2px spacing
+<admonition type="todo">Add example of 2px spacing</admonition>
 
-Todo: Add example of 4px spacing
+<admonition type="todo">Add example of 4px spacing</admonition>
 
 `8px` is used to separate related elements.
 
-Todo: Add example of 8px spacing (buttons)
+<admonition type="todo">Add example of 8px spacing (buttons)</admonition>
 
 `16px` is used to separate unrelated elements.
 
-Todo: Add example of 16px spacing
+<admonition type="todo">Add example of 16px spacing</admonition>
 
 `24px` is used to separate sub-sections of content.
 
-Todo: Add example of 24px spacing
+<admonition type="todo">Add example of 24px spacing</admonition>
 
 `32x` is used to separate sections of content.
 
-Todo: Add example of 32px spacing
+<admonition type="todo">Add example of 32px spacing</admonition>
 
 ## GitLab UI spacing variable conversion
 
@@ -81,5 +81,5 @@ The table is based on the configuration of `1rem = 16px` and `$grid-size = 8px`.
 | $gl-spacing-scale-15	| 120 px |
 | $gl-spacing-scale-20	| 160 px |
 
-Note: Anytime you see a spacing variable, the number will correspond with the spacing scale here. For example, `.gl-pr-4` uses `$gl-spacing-scale-4` which equals `12px`.
+<admonition type="note">Anytime you see a spacing variable, the number will correspond with the spacing scale here. For example, `.gl-pr-4` uses `$gl-spacing-scale-4` which equals `12px`.</admonition>
 
