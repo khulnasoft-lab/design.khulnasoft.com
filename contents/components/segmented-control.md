@@ -16,13 +16,13 @@ related:
 
 ## Examples
 
-[[Example:segmented-control-whitespace]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="segmented-control-whitespace"></gl-example-display>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A135)
 
 ## Structure
 
-Todo: Add structure image.
+<admonition type="todo">Add structure image.</admonition>
 
 ## Guidelines
 
@@ -32,7 +32,7 @@ Todo: Add structure image.
 
 ### When not to use
 
-Todo: Add when not to use items.
+<admonition type="todo">Add when not to use items.</admonition>
 
 ### Appearance
 
@@ -57,4 +57,4 @@ Todo: Add when not to use items.
 
 ### Accessibility
 
-Todo: Add accessibility guidelines.
+<admonition type="todo">Add accessibility guidelines.</admonition>

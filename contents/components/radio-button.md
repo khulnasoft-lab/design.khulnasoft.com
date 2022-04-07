@@ -13,13 +13,13 @@ related:
 
 ## Examples
 
-[[Example:form-radio-group-stacked]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="form-radio-group-stacked"></gl-example-display>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=3947%3A4)
 
 ## Structure
 
-Todo: Add structure image.
+<admonition type="todo">Add structure image.</admonition>
 
 ## Guidelines
 
@@ -29,7 +29,7 @@ Todo: Add structure image.
 
 ### When not to use
 
-Todo: Add when not to use.
+<admonition type="todo">Add when not to use.</admonition>
 
 ### Appearance
 
@@ -58,4 +58,4 @@ Todo: Add when not to use.
 
 ### Accessibility
 
-Todo: Add accessibility specifications.
+<admonition type="todo">Add accessibility specifications.</admonition>

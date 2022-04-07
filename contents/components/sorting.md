@@ -11,13 +11,13 @@ related:
 
 ## Examples
 
-[[Example:sorting-default]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="sorting-default"></gl-example-display>
 
-Todo: Add to Pajamas UI kit.
+<admonition type="todo">Add to Pajamas UI kit.</admonition>
 
 ## Structure
 
-Todo: Add structure image.
+<admonition type="todo">Add structure image.</admonition>
 
 ## Guidelines
 
@@ -46,4 +46,4 @@ Todo: Add structure image.
 
 ### Accessibility
 
-Todo: Add accessibility guidelines.
+<admonition type="todo">Add accessibility guidelines.</admonition>

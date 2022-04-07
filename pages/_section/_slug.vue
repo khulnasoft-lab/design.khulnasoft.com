@@ -9,14 +9,12 @@ export default {
     resolve: ({ route }) => `contents${route.path.replace(/\/+$/, '')}.md`,
   },
   async asyncData({ $content, route }) {
-    const path = route.path.replace(/^\/+/, '');
-    console.log('path', path);
+    const path = route.path.replace(/^\/+/, '').replace(/\/(code|contribute)$/, '');
     const page = await $content(path)
       .fetch()
       .catch((err) => {
         console.log(`Could not load content for ${path}`, err);
       });
-    console.log('page', page);
     return { page };
   },
   computed: {

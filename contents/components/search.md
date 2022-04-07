@@ -14,27 +14,27 @@ related:
 
 ## Examples
 
-[[Example:search-box-by-type-loading]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="search-box-by-type-loading"></gl-example-display>
 
-[[Example:search-box-by-click-v-model]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="search-box-by-click-v-model"></gl-example-display>
 
-[[Example:search-box-by-click-with-history]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="search-box-by-click-with-history"></gl-example-display>
 
-Todo: Add to Pajamas UI Kit.
+<admonition type="todo">Add to Pajamas UI Kit.</admonition>
 
 ## Structure
 
-Todo: Add structure image.
+<admonition type="todo">Add structure image.</admonition>
 
 ## Guidelines
 
 ### When to use
 
-Todo: Add when to use.
+<admonition type="todo">Add when to use.</admonition>
 
 ### When not to use
 
-Todo: Add when not to use.
+<admonition type="todo">Add when not to use.</admonition>
 
 ### Variants
 
