@@ -35,6 +35,11 @@ export default {
       type: Object,
       required: true,
     },
+    page: {
+      type: Object,
+      required: false,
+      default: null,
+    },
   },
   data() {
     return {
@@ -46,6 +51,7 @@ export default {
       tabIndex: 0,
     };
   },
+
   head() {
     return {
       title: this.frontmatterInfo.attributes.name,
@@ -145,7 +151,10 @@ export default {
       <div v-if="showTabs">
         <gl-tabs v-model="tabIndex" nav-wrapper-class="app-styles gl-mb-5" lazy>
           <gl-tab title="Usage" active class="p-t-3 js-gl-tab" @click.prevent="activateTab()">
-            <md-display :prerendered-md="componentBody" />
+            <div v-if="page" class="component md typography">
+              <nuxt-content :document="page" />
+            </div>
+            <md-display v-else :prerendered-md="componentBody" />
             <related-pages :related="frontmatterInfo.attributes.related" class="m-t-6" />
           </gl-tab>
           <gl-tab
