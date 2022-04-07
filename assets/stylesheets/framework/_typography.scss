@@ -44,7 +44,8 @@ code {
 
 /*  MD Typography */
 
-.md {
+.md,
+.md .nuxt-content {
   @include type-scale(1, 7, 0, 0);
 
   > h1 {
@@ -161,7 +162,7 @@ code {
   p  { @include type-scale(0, 6, 2, 0); }
 }
 
-.md, .md.compact, .distributed {
+.md, .md.compact, .distributed, .md .nuxt-content {
   > *:first-child {
     margin-top: 0;
   }

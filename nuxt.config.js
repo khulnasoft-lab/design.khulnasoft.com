@@ -170,6 +170,7 @@ module.exports = {
     '@gitlab/nuxt-edit-this-page',
     '@nuxtjs/sentry',
     '@nuxtjs/lunr-module',
+    '@nuxt/content',
   ],
 
   sentry: {
@@ -183,6 +184,14 @@ module.exports = {
    */
   editThisPage: {
     repo: 'git@gitlab.com:gitlab-org/gitlab-services/design.gitlab.com.git',
+  },
+
+  /**
+   * Nuxt Content module configuration
+   * https://content.nuxtjs.org/
+   */
+  content: {
+    liveEdit: true,
   },
 
   /*

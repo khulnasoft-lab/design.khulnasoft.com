@@ -83,7 +83,9 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@import '~/assets/stylesheets/variables';
+
 .header-anchor {
   margin-left: -1em;
   visibility: hidden;
@@ -91,5 +93,28 @@ export default {
 
 *:hover > .header-anchor {
   visibility: visible;
+}
+
+.nuxt-content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    > a {
+      margin-left: -1em;
+      padding-right: $gl-spacing-3;
+      visibility: hidden;
+
+      &::before {
+        content: '#';
+      }
+    }
+
+    &:hover > a {
+      visibility: visible;
+    }
+  }
 }
 </style>
