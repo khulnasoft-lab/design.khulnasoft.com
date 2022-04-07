@@ -76,10 +76,10 @@ vueComponents:
 
 ## Using examples in docs
 
-Component examples can easily be included in docs pages thanks to the `[[Example:<component_id>]]`
+Component examples can easily be included in docs pages thanks to the `<gl-example-display class="app-styles gl-mb-5"  example-name="<component_id>"></gl-example-display>`
 shortcode. Simply replace `<component_id>` with the ID that's in the `index.js` entry file. For
 example, with the code snippet above, the ID is `my-component-default`, so you would include the
-example with `[[Example:my-component-default]]`.
+example with `<gl-example-display class="app-styles gl-mb-5"  example-name="my-component-default"></gl-example-display>`.
 
 ## FAQ
 

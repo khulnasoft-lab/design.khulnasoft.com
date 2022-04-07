@@ -24,7 +24,7 @@ component's Markdown docs file.
 The shortcode requires a story ID to be passed after the semi-colon:
 
 ```markdown
-[[Story:base-alert--default]]
+<story-viewer story-name="base-alert--default"></story-viewer>
 ```
 
 To find a story's ID, open it in GitLab UI's Storybook. The ID is whatever is after `/story/`
@@ -43,7 +43,7 @@ ID. To use a custom title, append a vertical bar (`|`) to the story ID in the sh
 title after it:
 
 ```markdown
-[[Story:base-alert--default|My custom title]]
+<story-viewer story-name="base-alert--default" title="My custom title"></story-viewer>
 ```
 
 ## Embedding GitLab UI docs pages
