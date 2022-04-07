@@ -80,14 +80,29 @@ Todo: Add responsive table examples.
 <div class="row">
     <div class="col col-50">
       <figure class="figure" role="figure" aria-label="Table row content vertially aligned to top">
-        <img class="figure-img" src="/img/table-valign-top.svg" alt="A table row example with a multiple lines that wrap with a red line highlighting the top alignment" role="img" />
+        <img class="figure-img" src="/img/table-valign-top.svg" alt="A table row example with a multiple lines that wrap with a green line highlighting the top alignment" role="img" />
         <figcaption class="figure-caption">Top aligned</figcaption>
       </figure>
     </div>
     <div class="col col-50">
       <figure class="figure" role="figure" aria-label="Table row content vertially aligned to middle">
-        <img class="figure-img" src="/img/table-valign-middle.svg" alt="A table row example with a single line with a red line highlighting the middle alignment" role="img" />
+        <img class="figure-img" src="/img/table-valign-top-incorrect.svg" alt="An incorrect table row example with a single line with a red line highlighting the middle alignment" role="img" />
+        <figcaption class="figure-caption">Top aligned - Incorrect</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col col-50">
+      <figure class="figure" role="figure" aria-label="Table row content vertially aligned to middle">
+        <img class="figure-img" src="/img/table-valign-middle.svg" alt="A table row example with a multiple lines that wrap with a green line highlighting the middle alignment" role="img" />
         <figcaption class="figure-caption">Middle aligned</figcaption>
+      </figure>
+    </div>
+    <div class="col col-50">
+      <figure class="figure" role="figure" aria-label="Table row content vertially aligned to middle">
+        <img class="figure-img" src="/img/table-valign-middle-incorrect.svg" alt="An incorrect table row example with a single line with a red line highlighting the middle alignment" role="img" />
+        <figcaption class="figure-caption">Middle aligned - incorrect</figcaption>
       </figure>
     </div>
   </div>
