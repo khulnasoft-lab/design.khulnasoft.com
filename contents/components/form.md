@@ -15,19 +15,19 @@ related:
 
 ## Examples
 
-[[Example:form-group]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="form-group"></gl-example-display>
 
-[[Example:form-group-disabled]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="form-group-disabled"></gl-example-display>
 
-[[Example:form-group-validations]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="form-group-validations"></gl-example-display>
 
-Todo: Add additional examples to demonstrate different configurations and capabilities.
+<admonition type="todo">Add additional examples to demonstrate different configurations and capabilities.</admonition>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A10)
 
 ## Structure
 
-Todo: Add form structure visual and item list.
+<admonition type="todo">Add form structure visual and item list.</admonition>
 
 ## Guidelines
 
@@ -39,7 +39,7 @@ Todo: Add form structure visual and item list.
 
 - If user selection or input invokes an immediate change, like a page refresh or setting being applied and submission isn't required, then a form shouldn't be used.
 
-Todo: Make Forms it's own section with subpages for components and concepts.
+<admonition type="todo">Make Forms it's own section with subpages for components and concepts.</admonition>
 
 ### Form elements
 

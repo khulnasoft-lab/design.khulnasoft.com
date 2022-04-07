@@ -16,19 +16,19 @@ related:
 
 ## Examples
 
-[[Example:table-basic]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="table-basic"></gl-example-display>
 
-Todo: Add column sorting example.
+<admonition type="todo">Add column sorting example.</admonition>
 
-Todo: Add pagination example.
+<admonition type="todo">Add pagination example.</admonition>
 
-Todo: Add responsive table examples.
+<admonition type="todo">Add responsive table examples.</admonition>
 
 [View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A11)
 
 ## Structure
 
-Todo: Add structure image.
+<admonition type="todo">Add structure image.</admonition>
 
 ## Guidelines 
 

@@ -12,13 +12,13 @@ related:
 
 ## Examples
 
-Todo: Add example.
+<admonition type="todo">Add example.</admonition>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A128)
 
 ## Structure
 
-Todo: Add structure image.
+<admonition type="todo">Add structure image.</admonition>
 
 ## Guidelines
 
@@ -30,7 +30,7 @@ Todo: Add structure image.
 
 ### When not to use
 
-Todo: Add when not to use.
+<admonition type="todo">Add when not to use.</admonition>
 
 ### Variants
 
@@ -46,4 +46,4 @@ Todo: Add when not to use.
 
 ### Accessibility
 
-Todo: Add accessibility guidelines.
+<admonition type="todo">Add accessibility guidelines.</admonition>

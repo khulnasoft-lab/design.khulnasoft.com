@@ -17,7 +17,7 @@ related:
 
 ## Examples
 
-[[Example:modal-sizes]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="modal-sizes"></gl-example-display>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=4263%3A21)
 
@@ -89,7 +89,7 @@ Clicking the "edit" button places a user in an "edit mode" for this row, which u
 
 ### Accessibility
 
-Todo: Add accessibility docs
+<admonition type="todo">Add accessibility docs</admonition>
 
 ## Reference
 

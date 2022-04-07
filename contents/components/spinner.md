@@ -12,7 +12,7 @@ related:
 
 ## Examples
 
-[[Example:loading-icon-all-options]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="loading-icon-all-options"></gl-example-display>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=19944%3A0)
 

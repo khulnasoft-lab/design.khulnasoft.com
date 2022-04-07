@@ -12,17 +12,17 @@ related:
 
 ## Examples
 
-[[Example:infinite-scroll-basic]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="infinite-scroll-basic"></gl-example-display>
 
-[[Example:infinite-scroll-with-finite-total-items]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="infinite-scroll-with-finite-total-items"></gl-example-display>
 
-[[Example:infinite-scroll-small-fetched-items]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="infinite-scroll-small-fetched-items"></gl-example-display>
 
-[[Example:infinite-scroll-large-fetched-items]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="infinite-scroll-large-fetched-items"></gl-example-display>
 
-[[Example:infinite-scroll-all-items]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="infinite-scroll-all-items"></gl-example-display>
 
-Todo: Add infinite scroll to Pajamas UI Kit
+<admonition type="todo">Add infinite scroll to Pajamas UI Kit</admonition>
 
 ## Structure
 
@@ -60,4 +60,4 @@ Always display a counter that details how many items have already loaded and how
 
 ### Accessibility
 
-Todo: Add accessibility guidelines
+<admonition type="todo">Add accessibility guidelines</admonition>

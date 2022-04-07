@@ -12,23 +12,23 @@ related:
 
 ## Examples
 
-[[Example:filtered-search]]
+<gl-example-display class="app-styles gl-mb-5"  example-name="filtered-search"></gl-example-display>
 
-Todo: Add Filter to Pajamas UI Kit.
+<admonition type="todo">Add Filter to Pajamas UI Kit.</admonition>
 
 ## Structure
 
-Todo: Add structure image.
+<admonition type="todo">Add structure image.</admonition>
 
 ## Guidelines
 
 ### When to use
 
-Todo: Add when to use.
+<admonition type="todo">Add when to use.</admonition>
 
 ### When not to use
 
-Todo: Add when not to use.
+<admonition type="todo">Add when not to use.</admonition>
 
 ### Appearance
 
@@ -68,4 +68,4 @@ Todo: Add when not to use.
 
 ### Accessibility
 
-Todo: Add accessibility guidelines.
+<admonition type="todo">Add accessibility guidelines.</admonition>
