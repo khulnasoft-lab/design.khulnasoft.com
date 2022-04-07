@@ -170,6 +170,7 @@ module.exports = {
     '@gitlab/nuxt-edit-this-page',
     '@nuxtjs/sentry',
     '@nuxtjs/lunr-module',
+    '@nuxt/content',
   ],
 
   sentry: {
@@ -185,12 +186,19 @@ module.exports = {
     repo: 'git@gitlab.com:gitlab-org/gitlab-services/design.gitlab.com.git',
   },
 
+  /**
+   * Nuxt Content module configuration
+   * https://content.nuxtjs.org/
+   */
+  content: {
+    liveEdit: true,
+    dir: 'contents',
+  },
+
   /*
    ** Axios module configuration
    */
   serverMiddleware: [],
-
-  watch: ['~/contents/'],
 
   /*
    ** Build configuration
@@ -202,8 +210,6 @@ module.exports = {
     // Enabling extractCSS in production ensures that we don't run into CSS ordering issues
     // See https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/418
     extractCSS: isProd,
-
-    watch: ['~/contents'],
 
     postcss: {
       order: ['postcss-preset-env'],

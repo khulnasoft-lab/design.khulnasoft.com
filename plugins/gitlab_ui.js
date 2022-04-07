@@ -6,6 +6,7 @@ import GlExampleExplorer from '@gitlab/ui/documentation/components/example_explo
 import BootstrapVue from 'bootstrap-vue';
 import Vue from 'vue';
 import StoryViewer from '../components/story_viewer.vue';
+import Admonition from '../components/admonition.vue';
 
 Vue.use(BootstrapVue);
 Vue.use(gitlabComponents.GlToast); // The toast plugin needs to be registered before being used
@@ -16,6 +17,7 @@ Object.entries({
   GlExampleExplorer,
   GlExampleDisplay,
   StoryViewer,
+  Admonition,
 })
   .filter(([componentName]) => !componentName.includes('Directive'))
   .forEach(([componentName, component]) => Vue.component(componentName, component));
