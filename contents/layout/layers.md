@@ -8,7 +8,10 @@ Layers addresses dimensional hierarchy and content relationships — not just to
 
 ### Small
 
-![sm shadow](/img/layers/layers-shadow-small.png)
+<figure class="figure" role="figure" aria-label="Small shadow example with elevation">
+  <img class="figure-img" src="/img/layers/layers-shadow-small.png" alt="Small shadow example with elevation" role="img" />
+  <figcaption class="figure-caption">Small shadow example with elevation</figcaption>
+</figure>
 
 #### Definition
 
@@ -26,11 +29,14 @@ Surfaces that need an indication they can be manually interacted with. For examp
 
 #### Style
 
-box-shadow:<br>0px 1px 2px rgba(0, 0, 0, 0.1)
+`box-shadow:`<br>`0px 1px 2px rgba(0, 0, 0, 0.1)`
 
 ### Medium
 
-![md shadow](/img/layers/layers-shadow-medium.png)
+<figure class="figure" role="figure" aria-label="Medium shadow example with elevation">
+  <img class="figure-img" src="/img/layers/layers-shadow-medium.png" alt="Meduim shadow example with elevation" role="img" />
+  <figcaption class="figure-caption">Medium shadow example with elevation</figcaption>
+</figure>
 
 #### Definition
 
@@ -52,11 +58,14 @@ Surfaces that need boundary definition and appear on hover. For example, [popove
 
 #### Style
 
-box-shadow:<br>0px 2px 8px rgba(0, 0, 0, 0.16),<br>0px 0px 2px rgba(0, 0, 0, 0.16);
+`box-shadow:`<br>`0px 2px 8px rgba(0, 0, 0, 0.16),<br>0px 0px 2px rgba(0, 0, 0, 0.16);`
 
 ### Large
 
-![lg shadow](/img/layers/layer-shadow-large.png)
+<figure class="figure" role="figure" aria-label="Large shadow example with elevation">
+  <img class="figure-img" src="/img/layers/layers-shadow-large.png" alt="Large shadow example with elevation" role="img" />
+  <figcaption class="figure-caption">Large shadow example with elevation</figcaption>
+</figure>
 
 #### Definition
 
@@ -73,7 +82,7 @@ Large surfaces that present additional context to the user.
 
 #### Style
 
-box-shadow:<br>0px 4px 12px rgba(0, 0, 0, 0.16),<br>0px 0px 4px rgba(0, 0, 0, 0.16);
+`box-shadow:`<br>`0px 4px 12px rgba(0, 0, 0, 0.16),`<br>`0px 0px 4px rgba(0, 0, 0, 0.16);`
 
 ## Stacking & overflowing layers
 
@@ -83,7 +92,10 @@ Layers that need to appear above a layer with an existing elevation should follo
 
 - Content scrolls beneath static elements
 
-![Stacking layers](/img/layers/layers-scrolling.png)
+<figure class="figure" role="figure" aria-label="Stacking layers example with elevation">
+  <img class="figure-img" src="/img/layers/layers-scrolling.png" alt="Stacking layers example with elevation" role="img" />
+  <figcaption class="figure-caption">Stacking layers example with elevation</figcaption>
+</figure>
 
 ## Interactive layers
 
@@ -91,10 +103,7 @@ Layers that can be moved or dragged by the user use the lg shadow to create a gr
 
 ### Use case 
 
-- Repositioning cards on boards
-
-![Dragging layers](/img/layers/layers-interactive.png)
-
-## Accessibility
-
-TODO: Add accessibility guidelines
+<figure class="figure" role="figure" aria-label="Interactive layers example with elevation">
+  <img class="figure-img" src="/img/layers/layers-interactive.png" alt="Interactive layers example with elevation" role="img" />
+  <figcaption class="figure-caption">Interactive layers example with elevation</figcaption>
+</figure>
