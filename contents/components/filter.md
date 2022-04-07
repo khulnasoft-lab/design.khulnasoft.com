@@ -61,18 +61,11 @@ Todo: Add when not to use.
 
 ### Content
 
+While filter results aren't part of the component itself, the [Empty States](/regions/empty-states#empty-search-results) page has additional guidance on what to display if there are no matching filters.
+
 - Each part is a variant of a [token](/components/token/).
 - Filters are always used in combination with the [“search by confirmation” search box](/components/search/#search-by-confirmation) pattern.
 - Each filter can consist of only one value and can’t be repeated. For example, a list of issues can only be narrowed down by specifying one assignee.
-
-### Empty state content
-
-If a set of filters results in no matching results, the empty state text should always be:
-
-- For the title, `No results found`.
-- For the text underneath, `Edit your search filter and try again`.
-
-No period on the end of either phrase.
 
 ### Accessibility
 
