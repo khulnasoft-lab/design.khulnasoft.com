@@ -1,0 +1,33 @@
+<svg width="512" height="331" viewBox="0 0 512 331" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="512" height="331" fill="#E5E5E5"/>
+<path d="M0 4C0 1.79086 1.79086 0 4 0H508C510.209 0 512 1.79086 512 4V48H0V4Z" fill="white"/>
+<g clip-path="url(#clip0_1231_76512)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M488.28 23.2197C487.987 22.9268 487.513 22.9268 487.22 23.2197C486.927 23.5126 486.927 23.9874 487.22 24.2803L490.939 28L487.22 31.7197C486.927 32.0126 486.927 32.4874 487.22 32.7803C487.513 33.0732 487.987 33.0732 488.28 32.7803L492 29.0607L495.72 32.7803C496.013 33.0732 496.487 33.0732 496.78 32.7803C497.073 32.4874 497.073 32.0126 496.78 31.7197L493.061 28L496.78 24.2803C497.073 23.9874 497.073 23.5126 496.78 23.2197C496.487 22.9268 496.013 22.9268 495.72 23.2197L492 26.9393L488.28 23.2197Z" fill="#666666"/>
+</g>
+<text fill="#303030" xml:space="preserve" style="white-space: pre" font-family="Helvetica Neue" font-size="16" font-weight="bold" letter-spacing="0px"><tspan x="16" y="34.064">Add protected tag</tspan></text>
+<rect width="512" height="283" transform="translate(0 48)" fill="white"/>
+<text fill="#303030" xml:space="preserve" style="white-space: pre" font-family="Helvetica Neue" font-size="14" font-weight="bold" letter-spacing="0em"><tspan x="17" y="181.306">Who can create this tag?</tspan></text>
+<circle cx="25" cy="200" r="7.5" fill="white" stroke="#868686"/>
+<text fill="#303030" xml:space="preserve" style="white-space: pre" font-family="Helvetica Neue" font-size="14" letter-spacing="0em"><tspan x="41" y="205.173">Maintainers</tspan></text>
+<circle cx="25" cy="224" r="7.5" fill="white" stroke="#868686"/>
+<text fill="#303030" xml:space="preserve" style="white-space: pre" font-family="Helvetica Neue" font-size="14" letter-spacing="0em"><tspan x="41" y="229.173">Developers and maintainers</tspan></text>
+<circle cx="25" cy="248" r="7.5" fill="white" stroke="#868686"/>
+<text fill="#303030" xml:space="preserve" style="white-space: pre" font-family="Helvetica Neue" font-size="14" letter-spacing="0em"><tspan x="41" y="253.173">No one</tspan></text>
+<text fill="#666666" xml:space="preserve" style="white-space: pre" font-family="Helvetica Neue" font-size="14" letter-spacing="0em"><tspan x="18" y="139.173">Wildcards are supported</tspan></text>
+<rect x="350.5" y="283.5" width="67" height="31" rx="3.5" fill="white"/>
+<text fill="#303030" xml:space="preserve" style="white-space: pre" font-family="Helvetica Neue" font-size="14" letter-spacing="0em"><tspan x="362" y="304.173">Cancel</tspan></text>
+<rect x="350.5" y="283.5" width="67" height="31" rx="3.5" stroke="#BFBFBF"/>
+<path d="M426 287C426 284.791 427.791 283 430 283H492C494.209 283 496 284.791 496 287V311C496 313.209 494.209 315 492 315H430C427.791 315 426 313.209 426 311V287Z" fill="#1F75CB"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Helvetica Neue" font-size="14" letter-spacing="0em"><tspan x="438" y="304.173">Protect</tspan></text>
+<path d="M430 284H492V282H430V284ZM495 287V311H497V287H495ZM492 314H430V316H492V314ZM427 311V287H425V311H427ZM430 314C428.343 314 427 312.657 427 311H425C425 313.761 427.239 316 430 316V314ZM495 311C495 312.657 493.657 314 492 314V316C494.761 316 497 313.761 497 311H495ZM492 284C493.657 284 495 285.343 495 287H497C497 284.239 494.761 282 492 282V284ZM430 282C427.239 282 425 284.239 425 287H427C427 285.343 428.343 284 430 284V282Z" fill="#1068BF"/>
+<text fill="#303030" xml:space="preserve" style="white-space: pre" font-family="Helvetica Neue" font-size="14" font-weight="bold" letter-spacing="0em"><tspan x="16" y="75.306">Tag to protect</tspan></text>
+<rect x="16.5" y="86.5" width="478" height="31" rx="3.5" fill="white"/>
+<rect x="16.5" y="86.5" width="478" height="31" rx="3.5" stroke="#868686"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M473.22 100.22C473.513 99.9268 473.987 99.9268 474.28 100.22L477 102.939L479.72 100.22C480.013 99.9268 480.487 99.9268 480.78 100.22C481.073 100.513 481.073 100.987 480.78 101.28L477.53 104.53C477.237 104.823 476.763 104.823 476.47 104.53L473.22 101.28C472.927 100.987 472.927 100.513 473.22 100.22Z" fill="black"/>
+<rect x="0.5" y="0.5" width="511" height="330" rx="3.5" stroke="#BFBFBF"/>
+<defs>
+<clipPath id="clip0_1231_76512">
+<rect width="16" height="16" fill="white" transform="translate(484 20)"/>
+</clipPath>
+</defs>
+</svg>
