@@ -8,7 +8,7 @@ related:
   - /product-foundations/saving-and-feedback
 ---
 
-[Settings](/content/terminology#settings-configuration) is an area in the product that allows users to configure how their instance should behave.
+[Settings](/content/terminology#settings-%26-configuration) is an area in the product that allows users to configure how their instance should behave.
 
 There are several areas within GitLab to manage settings:
 
@@ -18,6 +18,7 @@ There are several areas within GitLab to manage settings:
 - Feature settings
 
 Settings visibility and access depend on the [permissions and roles](https://docs.gitlab.com/ee/user/permissions.html) users have in a particular GitLab instance, group, or project.
+
 - **User settings:** Preferences that you have an ownership of as an individual user. Accessible via the top navigation, under Profile > Preferences. Example setting: Changing how the date and time are displayed.
 - **Group settings:** Settings for group features, or settings that apply to projects within a group. Group settings are only visible to [maintainers](https://docs.gitlab.com/ee/user/permissions.html) and above, and are accessed via the Settings section in the [left sidebar](/regions/navigation#left-sidebar). Example setting: Configuring an integration that all projects in the group will inherit.
 - **Project settings:** Settings for project features. Project settings are only visible to [maintainers](https://docs.gitlab.com/ee/user/permissions.html) and above, and are accessed via the Settings section in the [left sidebar](/regions/navigation#left-sidebar). Example setting: Enabling protected branches.
