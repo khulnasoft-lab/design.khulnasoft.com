@@ -2,7 +2,7 @@
 name: Adding data to a list
 ---
 
-This pattern explains how to allow users to add complex data to a list, such a as a [table](/components/table).
+This pattern explains how to allow users to add complex data to a [list](/components/list), such a as a [table](/components/table).
 
 ### When to use this pattern
 
@@ -36,4 +36,4 @@ The content of the [form](components/form) should use the same terminology as th
 
 #### Presenting data
 
-Submitting the form adds a new row or entry to the list. The newest item added should generally be first in the list. If the newest item is not first in the list, the sort order of the list should be signaled to the user.
+Submitting the form adds a new row or entry to the top of the list. If the newest item is not first in the list, the sort order of the list should be signaled to the user.
