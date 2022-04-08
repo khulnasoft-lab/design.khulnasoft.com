@@ -10,7 +10,7 @@ related:
 
 ## Examples
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="tooltip-directive"></gl-example-display>
+<example-display  example-name="tooltip-directive"></example-display>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A142)
 

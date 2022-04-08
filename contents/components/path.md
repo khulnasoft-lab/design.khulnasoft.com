@@ -9,11 +9,11 @@ related:
 
 ## Examples
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="path-basic"></gl-example-display>
+<example-display  example-name="path-basic"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="path-with-metric"></gl-example-display>
+<example-display  example-name="path-with-metric"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="path-full"></gl-example-display>
+<example-display  example-name="path-full"></example-display>
 
 <admonition type="todo">Add to Pajamas UI Kit.</admonition>
 

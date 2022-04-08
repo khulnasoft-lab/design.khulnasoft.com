@@ -106,7 +106,7 @@ If you're unable to come up with a solution to achieve one of the [3 goals of an
 
 ### Example
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="empty-state-basic"></gl-example-display>
+<example-display  example-name="empty-state-basic"></example-display>
 
 ## Implementation
 
