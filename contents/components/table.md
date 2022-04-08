@@ -16,7 +16,7 @@ related:
 
 ## Examples
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="table-basic"></gl-example-display>
+<example-display  example-name="table-basic"></example-display>
 
 <admonition type="todo">Add column sorting example.</admonition>
 

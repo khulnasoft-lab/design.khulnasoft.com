@@ -11,11 +11,11 @@ related:
 
 ## Examples
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="toggle-default"></gl-example-display>
+<example-display  example-name="toggle-default"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="toggle-disabled"></gl-example-display>
+<example-display  example-name="toggle-disabled"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="toggle-loading"></gl-example-display>
+<example-display  example-name="toggle-loading"></example-display>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A140)
 

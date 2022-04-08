@@ -15,11 +15,11 @@ related:
 
 ## Examples
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="form-group"></gl-example-display>
+<example-display  example-name="form-group"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="form-group-disabled"></gl-example-display>
+<example-display  example-name="form-group-disabled"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="form-group-validations"></gl-example-display>
+<example-display  example-name="form-group-validations"></example-display>
 
 <admonition type="todo">Add additional examples to demonstrate different configurations and capabilities.</admonition>
 

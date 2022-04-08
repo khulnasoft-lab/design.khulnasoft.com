@@ -20,43 +20,43 @@ related:
 
 ## Examples
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="button-primary"></gl-example-display>
+<example-display  example-name="button-primary"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="button-secondary"></gl-example-display>
+<example-display  example-name="button-secondary"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="button-tertiary"></gl-example-display>
+<example-display  example-name="button-tertiary"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="button-variants"></gl-example-display>
+<example-display  example-name="button-variants"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="button-sizes"></gl-example-display>
+<example-display  example-name="button-sizes"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="button-selected"></gl-example-display>
+<example-display  example-name="button-selected"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="button-loading"></gl-example-display>
+<example-display  example-name="button-loading"></example-display>
 
 <admonition type="todo">Add live component block with example of loading icon button</admonition>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="button-disabled"></gl-example-display>
+<example-display  example-name="button-disabled"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="button-icon"></gl-example-display>
+<example-display  example-name="button-icon"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="button-icon-and-text"></gl-example-display>
+<example-display  example-name="button-icon-and-text"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="button-emoji"></gl-example-display>
+<example-display  example-name="button-emoji"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="button-label"></gl-example-display>
+<example-display  example-name="button-label"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="badge-button"></gl-example-display>
+<example-display  example-name="badge-button"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="new-dropdown-default"></gl-example-display>
+<example-display  example-name="new-dropdown-default"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="new-dropdown-with-icon"></gl-example-display>
+<example-display  example-name="new-dropdown-with-icon"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="new-dropdown-split"></gl-example-display>
+<example-display  example-name="new-dropdown-split"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="button-ellipsis"></gl-example-display>
+<example-display  example-name="button-ellipsis"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="button-group-basic"></gl-example-display>
+<example-display  example-name="button-group-basic"></example-display>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit-Beta?node-id=2956%3A3357)
 
