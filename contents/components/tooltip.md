@@ -16,7 +16,7 @@ related:
 
 ## Structure
 
-<admonition type="todo">Add tooltip structure image.</admonition>
+<todo>Add tooltip structure image.</todo>
 
 ## Guidelines
 
@@ -76,4 +76,4 @@ Here's an example of a tooltip directive with a `0ms` delay (instant) on `show`:
 
 ### Accessibility
 
-<admonition type="todo">Update accessibility guidelines.</admonition>
+<todo>Update accessibility guidelines.</todo>

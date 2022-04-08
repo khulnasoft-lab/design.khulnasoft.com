@@ -27,13 +27,13 @@ A mini pipeline graph can be used in different layouts throughout the product as
 
 A mini pipeline graph for a simple 3-stage pipeline.
 
-<admonition type="todo">Add mini pipeline example</admonition>
+<todo>Add mini pipeline example</todo>
 
 ### Upstream and downstream pipelines
 
 A 3-stage pipeline with an upstream and a downstream pipelines.
 
-<admonition type="todo">Add upstream/downstream mini pipeline example</admonition>
+<todo>Add upstream/downstream mini pipeline example</todo>
 
 ## Design specifications
 

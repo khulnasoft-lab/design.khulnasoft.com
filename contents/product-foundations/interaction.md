@@ -13,9 +13,9 @@ There is a clear affordance that distinguishes draggable items from non-draggabl
 
 Use [system cursors](#cursors) to indicate when an element is draggable. The `grab` cursor appears on hover when an element is draggable. Once it’s dragged, the cursor will change to `grabbing`. For areas where an element cannot be dropped, use the `not-allowed` cursor.
 
-<admonition type="todo">Add visual example of non draggable item</admonition>
+<todo>Add visual example of non draggable item</todo>
 
-<admonition type="todo">Add visual example of draggable item (which includes border radius, shadow, and handle)</admonition>
+<todo>Add visual example of draggable item (which includes border radius, shadow, and handle)</todo>
 
 ### Usage
 
@@ -31,9 +31,9 @@ On drag, draggable items should be minimized to only show their title. For examp
 - Dropped items will display a short animation to visually indicate the drop of that item has been completed. 
 - The keyboard shortcut to undo a dropped item is to press `ctrl + z`, much like you would to undo a text change. 
 
-<admonition type="todo">Add visual example of drop zone with blue line</admonition>
+<todo>Add visual example of drop zone with blue line</todo>
 
-<admonition type="todo">Add visual example successful drop animation</admonition>
+<todo>Add visual example successful drop animation</todo>
 
 #### Limitations
 
@@ -43,11 +43,11 @@ Be cautious when allowing drag and drop in a large collection with dozens or hun
 
 ### Demo
 
-<admonition type="todo">Add live component block with code example</admonition>
+<todo>Add live component block with code example</todo>
 
 ### Design specifications
 
-<admonition type="todo">Add design specs link</admonition>
+<todo>Add design specs link</todo>
 
 ### Related patterns
 

@@ -30,31 +30,31 @@ We include 12px as one of our measures, but it should only be reserved for right
   <span class="w-13 h-13 c-background-blue-300 d-inline-block" title="256px"></span>
 </div>
 
-<admonition type="todo">Add spacing class examples</admonition>
+<todo>Add spacing class examples</todo>
 
 ## Standard spacing guidelines
 
 `2px` or `4px` is used for spacing within a component.
 
-<admonition type="todo">Add example of 2px spacing</admonition>
+<todo>Add example of 2px spacing</todo>
 
-<admonition type="todo">Add example of 4px spacing</admonition>
+<todo>Add example of 4px spacing</todo>
 
 `8px` is used to separate related elements.
 
-<admonition type="todo">Add example of 8px spacing (buttons)</admonition>
+<todo>Add example of 8px spacing (buttons)</todo>
 
 `16px` is used to separate unrelated elements.
 
-<admonition type="todo">Add example of 16px spacing</admonition>
+<todo>Add example of 16px spacing</todo>
 
 `24px` is used to separate sub-sections of content.
 
-<admonition type="todo">Add example of 24px spacing</admonition>
+<todo>Add example of 24px spacing</todo>
 
 `32x` is used to separate sections of content.
 
-<admonition type="todo">Add example of 32px spacing</admonition>
+<todo>Add example of 32px spacing</todo>
 
 ## GitLab UI spacing variable conversion
 

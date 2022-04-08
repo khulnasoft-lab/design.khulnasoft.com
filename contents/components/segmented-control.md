@@ -22,7 +22,7 @@ related:
 
 ## Structure
 
-<admonition type="todo">Add structure image.</admonition>
+<todo>Add structure image.</todo>
 
 ## Guidelines
 
@@ -32,7 +32,7 @@ related:
 
 ### When not to use
 
-<admonition type="todo">Add when not to use items.</admonition>
+<todo>Add when not to use items.</todo>
 
 ### Appearance
 
@@ -57,4 +57,4 @@ related:
 
 ### Accessibility
 
-<admonition type="todo">Add accessibility guidelines.</admonition>
+<todo>Add accessibility guidelines.</todo>

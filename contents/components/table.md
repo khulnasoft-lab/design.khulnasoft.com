@@ -18,17 +18,17 @@ related:
 
 <example-display  example-name="table-basic"></example-display>
 
-<admonition type="todo">Add column sorting example.</admonition>
+<todo>Add column sorting example.</todo>
 
-<admonition type="todo">Add pagination example.</admonition>
+<todo>Add pagination example.</todo>
 
-<admonition type="todo">Add responsive table examples.</admonition>
+<todo>Add responsive table examples.</todo>
 
 [View design in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A11)
 
 ## Structure
 
-<admonition type="todo">Add structure image.</admonition>
+<todo>Add structure image.</todo>
 
 ## Guidelines 
 
