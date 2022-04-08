@@ -2,7 +2,7 @@
 name: Navigation
 ---
 
-<admonition type="note">For guidance on how to propose a change to navigation menu items, see the [Navigation handbook page](https://about.gitlab.com/handbook/engineering/ux/navigation/).</admonition>
+<note>For guidance on how to propose a change to navigation menu items, see the [Navigation handbook page](https://about.gitlab.com/handbook/engineering/ux/navigation/).</note>
 
 ## Top menu
 
