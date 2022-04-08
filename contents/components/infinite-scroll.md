@@ -22,7 +22,7 @@ related:
 
 <example-display  example-name="infinite-scroll-all-items"></example-display>
 
-<admonition type="todo">Add infinite scroll to Pajamas UI Kit</admonition>
+<todo>Add infinite scroll to Pajamas UI Kit</todo>
 
 ## Structure
 
@@ -60,4 +60,4 @@ Always display a counter that details how many items have already loaded and how
 
 ### Accessibility
 
-<admonition type="todo">Add accessibility guidelines</admonition>
+<todo>Add accessibility guidelines</todo>

@@ -28,7 +28,7 @@ Higher tier features should be easy to identify from the rest of the interface. 
   <img class="figure-img" src="/img/higher-tier-feature-badges.svg" alt="Premium feature badge" role="img" />
 </figure>
 
-<admonition type="todo">Replace badge image with live example or link once the new variant has been added to GitLab UI.</admonition>
+<todo>Replace badge image with live example or link once the new variant has been added to GitLab UI.</todo>
  
 #### Specification
 
@@ -47,4 +47,4 @@ Higher tier features should be easy to identify from the rest of the interface. 
 * Links to [tiers details](https://about.gitlab.com/pricing/).
 * Can be removed from the UI via group or instance level settings.
 
-<admonition type="todo">Add links to the documentation.</admonition>
+<todo>Add links to the documentation.</todo>

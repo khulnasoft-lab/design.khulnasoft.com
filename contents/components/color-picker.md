@@ -7,23 +7,23 @@ related:
 
 ## Examples
 
-<admonition type="todo">Add example.</admonition>
+<todo>Add example.</todo>
 
-<admonition type="todo">Add to Pajamas UI kit.</admonition>
+<todo>Add to Pajamas UI kit.</todo>
 
 ## Structure
 
-<admonition type="todo">Add structure image.</admonition>
+<todo>Add structure image.</todo>
 
 ## Guidelines
 
 ### When to use
 
-<admonition type="todo">Add when to use.</admonition>
+<todo>Add when to use.</todo>
 
 ### When not to use
 
-<admonition type="todo">Add when not to use.</admonition>
+<todo>Add when not to use.</todo>
 
 ### Behavior
 
@@ -45,4 +45,4 @@ related:
 
 ### Accessibility
 
-<admonition type="todo">Add accessibility guidelines.</admonition>
+<todo>Add accessibility guidelines.</todo>
