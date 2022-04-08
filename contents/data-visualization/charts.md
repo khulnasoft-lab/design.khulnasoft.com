@@ -56,13 +56,13 @@ Column charts are the default chart type, and they are used to compare values ac
 
 The bars on a column chart are presented vertically rather than horizontally, and they can be stacked. 
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="column-basic"></gl-example-display>
+<example-display  example-name="column-basic"></example-display>
 
 ### Grouped and stacked column charts
 
 It may sometimes be necessary to stack values in a column or to have groups of columns within your chart, for example when there are two dimensions of data (one nested within another) moving across time. Stacked columns can be either symmetric or asymmetric, meaning the number of stacks may or may not be equal across groups.
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="stacked-column-basic"></gl-example-display>
+<example-display  example-name="stacked-column-basic"></example-display>
 
 #### Color in stacked and grouped charts
 
@@ -88,7 +88,7 @@ Line charts are used to display continuous data.
 
 They are useful when you are looking to identify trends or to see larger patterns in your data, and to see how your data changes over time.
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="line-basic"></gl-example-display>
+<example-display  example-name="line-basic"></example-display>
 
 ## Area charts
 
@@ -96,31 +96,31 @@ Area charts are used to represent "[cumulated totals](http://www.vizwiz.com/2012
 
 In instances where you want to see both the overall trend and the percent contribution, it is preferable to use a line chart rather than an area chart. It can be very difficult for our eyes to correctly assess the width of areas and how it trends.
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="area-basic"></gl-example-display>
+<example-display  example-name="area-basic"></example-display>
 
 ## Bar charts
 
 Bar charts are a variation of column charts, where the columns are horizontal rather than vertical. It can be used for the same purposes as column charts, which is to compare values across categories.
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="bar-basic"></gl-example-display>
+<example-display  example-name="bar-basic"></example-display>
 
 ## Scatter charts
 
 Scatter charts give a sense of the distribution and relative size of values.
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="discrete-scatter-basic"></gl-example-display>
+<example-display  example-name="discrete-scatter-basic"></example-display>
 
 ## Gauge charts
 
 Gauge charts highlight the current value within the range of possible values for the metric.
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="gauge-basic"></gl-example-display>
+<example-display  example-name="gauge-basic"></example-display>
 
 ## Sparkline charts
 
 Sparkline charts give a quick indication of trend and a summary of the current value. They are particularly useful when space is limited.
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="sparkline-basic"></gl-example-display>
+<example-display  example-name="sparkline-basic"></example-display>
 
 ## Interaction
 

@@ -10,9 +10,9 @@ related:
 
 ## Examples
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="basic-date-picker"></gl-example-display>
+<example-display  example-name="basic-date-picker"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="basic-daterange-picker"></gl-example-display>
+<example-display  example-name="basic-daterange-picker"></example-display>
 
 <admonition type="todo">Add example date range limit indicator.</admonition>
 
