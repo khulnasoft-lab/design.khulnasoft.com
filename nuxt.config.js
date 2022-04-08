@@ -158,6 +158,7 @@ module.exports = {
    */
   plugins: [
     { src: '~/plugins/gitlab_ui.js', ssr: false },
+    { src: '~/plugins/register_global_components.js', ssr: false },
     GOOGLE_ANALYTICS_ID ? { src: '~/plugins/gtag.js', ssr: false } : false,
   ].filter(Boolean),
 
