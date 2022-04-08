@@ -9,9 +9,9 @@ related:
 
 ## Examples
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="default-skeleton-basic"></gl-example-display>
+<example-display  example-name="default-skeleton-basic"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="issue-card-skeleton-basic"></gl-example-display>
+<example-display  example-name="issue-card-skeleton-basic"></example-display>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=2844%3A0)
 

@@ -31,25 +31,25 @@ A single stat can be used by itself or side-by-side with other single stats to d
 
 The default pattern for displaying a metric.
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="simple"></gl-example-display>
+<example-display  example-name="simple"></example-display>
 
 ### Title icon
 
 A single stat with a title icon to convey extra meaning to the metric.
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="titleIcon"></gl-example-display> 
+<example-display  example-name="titleIcon"></example-display> 
 
 ### Meta icon
 
 A single stat with an icon which can be used to convey status or trend.
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="metaIcon"></gl-example-display> 
+<example-display  example-name="metaIcon"></example-display> 
 
 ### Badge
 
 A single stat with a badge which can be used to convey status or trend in more detail.
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="badge"></gl-example-display> 
+<example-display  example-name="badge"></example-display> 
 
 ## Design specifications
 

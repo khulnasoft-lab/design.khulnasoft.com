@@ -12,15 +12,15 @@ related:
 
 ## Examples
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="infinite-scroll-basic"></gl-example-display>
+<example-display  example-name="infinite-scroll-basic"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="infinite-scroll-with-finite-total-items"></gl-example-display>
+<example-display  example-name="infinite-scroll-with-finite-total-items"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="infinite-scroll-small-fetched-items"></gl-example-display>
+<example-display  example-name="infinite-scroll-small-fetched-items"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="infinite-scroll-large-fetched-items"></gl-example-display>
+<example-display  example-name="infinite-scroll-large-fetched-items"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="infinite-scroll-all-items"></gl-example-display>
+<example-display  example-name="infinite-scroll-all-items"></example-display>
 
 <admonition type="todo">Add infinite scroll to Pajamas UI Kit</admonition>
 

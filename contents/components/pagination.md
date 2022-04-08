@@ -13,11 +13,11 @@ related:
 
 ## Examples
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="pagination-basic"></gl-example-display>
+<example-display  example-name="pagination-basic"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="pagination-double-truncation"></gl-example-display>
+<example-display  example-name="pagination-double-truncation"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="pagination-compact"></gl-example-display>
+<example-display  example-name="pagination-compact"></example-display>
 
 <admonition type="todo">Add or refactor examples to compare offset and keyset pagination.</admonition>
 

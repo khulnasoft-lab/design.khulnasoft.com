@@ -57,7 +57,7 @@ Charts are statistical graphics that help users quickly digest, visualize and se
 
 Full list of chart types and design specifications is detailed on the [Charts](/data-visualization/charts) component page.
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="stacked-column-basic"></gl-example-display>
+<example-display  example-name="stacked-column-basic"></example-display>
 
 ## Design specifications
 

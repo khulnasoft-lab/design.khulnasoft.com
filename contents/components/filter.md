@@ -12,7 +12,7 @@ related:
 
 ## Examples
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="filtered-search"></gl-example-display>
+<example-display  example-name="filtered-search"></example-display>
 
 <admonition type="todo">Add Filter to Pajamas UI Kit.</admonition>
 

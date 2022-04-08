@@ -11,7 +11,7 @@ related:
 
 ## Examples
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="sorting-default"></gl-example-display>
+<example-display  example-name="sorting-default"></example-display>
 
 <admonition type="todo">Add to Pajamas UI kit.</admonition>
 

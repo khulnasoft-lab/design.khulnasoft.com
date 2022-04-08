@@ -14,11 +14,11 @@ related:
 
 ## Examples
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="search-box-by-type-loading"></gl-example-display>
+<example-display  example-name="search-box-by-type-loading"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="search-box-by-click-v-model"></gl-example-display>
+<example-display  example-name="search-box-by-click-v-model"></example-display>
 
-<gl-example-display class="app-styles gl-mb-5"  example-name="search-box-by-click-with-history"></gl-example-display>
+<example-display  example-name="search-box-by-click-with-history"></example-display>
 
 <admonition type="todo">Add to Pajamas UI Kit.</admonition>
 
