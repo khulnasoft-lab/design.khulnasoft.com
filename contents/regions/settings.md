@@ -62,4 +62,4 @@ To keep the experience of settings consistent, avoid using a combination of manu
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
 
-<admonition type="todo">Add Figma specs for settings</admonition>
+<todo>Add Figma specs for settings</todo>

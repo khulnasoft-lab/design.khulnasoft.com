@@ -14,21 +14,21 @@ related:
 
 <example-display  example-name="filtered-search"></example-display>
 
-<admonition type="todo">Add Filter to Pajamas UI Kit.</admonition>
+<todo>Add Filter to Pajamas UI Kit.</todo>
 
 ## Structure
 
-<admonition type="todo">Add structure image.</admonition>
+<todo>Add structure image.</todo>
 
 ## Guidelines
 
 ### When to use
 
-<admonition type="todo">Add when to use.</admonition>
+<todo>Add when to use.</todo>
 
 ### When not to use
 
-<admonition type="todo">Add when not to use.</admonition>
+<todo>Add when not to use.</todo>
 
 ### Appearance
 
@@ -67,4 +67,4 @@ related:
 
 ### Accessibility
 
-<admonition type="todo">Add accessibility guidelines.</admonition>
+<todo>Add accessibility guidelines.</todo>

@@ -21,13 +21,13 @@ related:
 
 <example-display  example-name="form-group-validations"></example-display>
 
-<admonition type="todo">Add additional examples to demonstrate different configurations and capabilities.</admonition>
+<todo>Add additional examples to demonstrate different configurations and capabilities.</todo>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A10)
 
 ## Structure
 
-<admonition type="todo">Add form structure visual and item list.</admonition>
+<todo>Add form structure visual and item list.</todo>
 
 ## Guidelines
 
@@ -39,7 +39,7 @@ related:
 
 - If user selection or input invokes an immediate change, like a page refresh or setting being applied and submission isn't required, then a form shouldn't be used.
 
-<admonition type="todo">Make Forms it's own section with subpages for components and concepts.</admonition>
+<todo>Make Forms it's own section with subpages for components and concepts.</todo>
 
 ### Form elements
 

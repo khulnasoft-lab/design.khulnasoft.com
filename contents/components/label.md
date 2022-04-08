@@ -17,13 +17,13 @@ related:
 
 ## Structure
 
-<admonition type="todo">Add structure image.</admonition>
+<todo>Add structure image.</todo>
 
 ## Guidelines
 
 ### When to use
 
-<admonition type="todo">Add when to use.</admonition>
+<todo>Add when to use.</todo>
 
 ### When not to use
 
@@ -47,4 +47,4 @@ related:
 
 ### Accessibility
 
-<admonition type="todo">Add accessibility guidelines.</admonition>
+<todo>Add accessibility guidelines.</todo>

@@ -6,7 +6,7 @@ docs: in-progress
 
 ## Examples
 
-<admonition type="todo">Add examples.</admonition>
+<todo>Add examples.</todo>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=8000%3A0)
 
@@ -36,7 +36,7 @@ docs: in-progress
 
 ### Variants
 
-<admonition type="todo">Add file uploader variants.</admonition>
+<todo>Add file uploader variants.</todo>
 
 ### Behavior
 
@@ -46,4 +46,4 @@ docs: in-progress
 
 ### Accessibility
 
-<admonition type="todo">Add accessibility specs.</admonition>
+<todo>Add accessibility specs.</todo>

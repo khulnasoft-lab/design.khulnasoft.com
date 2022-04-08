@@ -15,9 +15,9 @@ related:
 
 <story-viewer story-name="base-avatar-labeled--default" title="Labeled avatar"></story-viewer>
 
-<admonition type="todo">Add group demo</admonition>
+<todo>Add group demo</todo>
 
-<admonition type="todo">Add stack demo</admonition>
+<todo>Add stack demo</todo>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A2)
 

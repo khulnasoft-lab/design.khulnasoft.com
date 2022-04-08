@@ -34,7 +34,7 @@ related:
 
 <example-display  example-name="button-loading"></example-display>
 
-<admonition type="todo">Add live component block with example of loading icon button</admonition>
+<todo>Add live component block with example of loading icon button</todo>
 
 <example-display  example-name="button-disabled"></example-display>
 
