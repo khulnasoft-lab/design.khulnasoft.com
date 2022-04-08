@@ -81,5 +81,5 @@ The table is based on the configuration of `1rem = 16px` and `$grid-size = 8px`.
 | $gl-spacing-scale-15	| 120 px |
 | $gl-spacing-scale-20	| 160 px |
 
-<admonition type="note">Anytime you see a spacing variable, the number will correspond with the spacing scale here. For example, `.gl-pr-4` uses `$gl-spacing-scale-4` which equals `12px`.</admonition>
+<note>Anytime you see a spacing variable, the number will correspond with the spacing scale here. For example, `.gl-pr-4` uses `$gl-spacing-scale-4` which equals `12px`.</note>
 
