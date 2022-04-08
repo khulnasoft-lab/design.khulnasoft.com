@@ -10,18 +10,28 @@ Use this pattern when a user needs to input complex data via a [form](/component
 
 ### When not to use this pattern
 
-Do not use this pattern when the data being entered is simple and could be done in-line or when adding data is the primary usecase.
+* The data being entered is a single form field and could be done in-line
+* Adding data is the primary usecase
+* The list will only display one item
 
 ## How it works
 
 #### Triggering the form
 
-Place a [button](/components/button) to the top right of the list to allow the user to add new content. The button content should reference the name of the list in combination with a verb such as "add". The button can either open a [modal](/components/modal) or a new page to display the form.
+Place a [button](/components/button) to the top right of the list to allow the user to add new content.
 
 <figure class="figure" role="figure" aria-label="Table with add button on top right">
   <img class="figure-img" src="/img/add-data-to-list-table.svg" alt="Table with add button on top right" role="img" />
   <figcaption class="figure-caption"></figcaption>
 </figure>
+
+The button content should reference the name of the list in combination with a verb such as "add". For example, if the header of the list is called **Deploy tokens**,
+
+| Do | Don't |
+| --- | --- |
+| Button label: `Add deploy token` | Button label: `New` |
+
+The button can either open a [modal](/components/modal) or a new page to display the form.
 
 If the list content is editable, clicking the edit button opens an editable filled out form.
 
@@ -34,6 +44,13 @@ The content of the [form](components/form) should use the same terminology as th
   <figcaption class="figure-caption"></figcaption>
 </figure>
 
+The confirmation button on the form should reference the specific action the user is taking. For example, if the header of the form's purpose is to add deploy tokens:
+
+| Do | Don't |
+| --- | --- |
+| Button label: `Add deploy token` | Button label: `Save` |
+
+
 #### Presenting data
 
-Submitting the form adds a new row or entry to the top of the list. If the newest item is not first in the list, the sort order of the list should be signaled to the user.
+After pressing the confirmation button on the form, the user directed back to the list. If the form was on a new page, they are redirected back to the page displaying the list. Submitting the form adds a new row or entry to the top of the list. If the newest item is not first in the list, the sort order of the list should be signaled to the user.
