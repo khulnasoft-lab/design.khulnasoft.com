@@ -63,4 +63,4 @@ A token can be used to both add and filter content where:
 
 ### Accessibility
 
-<admonition type="todo">Add accessibility requirements and considerations.</admonition>
+<todo>Add accessibility requirements and considerations.</todo>

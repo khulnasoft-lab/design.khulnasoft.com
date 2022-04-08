@@ -89,7 +89,7 @@ Clicking the "edit" button places a user in an "edit mode" for this row, which u
 
 ### Accessibility
 
-<admonition type="todo">Add accessibility docs</admonition>
+<todo>Add accessibility docs</todo>
 
 ## Reference
 

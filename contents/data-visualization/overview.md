@@ -41,7 +41,7 @@ We have use cases for Relational, Statistical, and Spatial-temporal. The other c
 
 The GitLab [commit graph](https://gitlab.com/gitlab-org/gitlab-ui/-/network/master) is an example of a relational data visualization, as it shows how all of the individual commits are related to the master.
 
-<admonition type="todo">Create component for the Commit Graph in GitLab UI</admonition>
+<todo>Create component for the Commit Graph in GitLab UI</todo>
 
 ### Spatial-temporal
 
@@ -49,7 +49,7 @@ A heat map is an example of a spatial-temporal data visualization.
 
 Heat maps can be used to more quickly visualize and compare values in a dataset. In heat maps, data points are grouped and displayed using shades of color. Darker colors are generally used to communicate a higher density of data.
 
-<admonition type="todo">Add demo for heat map when it's completed</admonition>
+<todo>Add demo for heat map when it's completed</todo>
 
 ### Statistical graphics
 

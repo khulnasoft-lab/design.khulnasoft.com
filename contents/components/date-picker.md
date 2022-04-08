@@ -14,7 +14,7 @@ related:
 
 <example-display  example-name="basic-daterange-picker"></example-display>
 
-<admonition type="todo">Add example date range limit indicator.</admonition>
+<todo>Add example date range limit indicator.</todo>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A13)
 
@@ -30,7 +30,7 @@ related:
 1. **Clear button**: Clears the text field content.
 1. **Calendar dropdown**: Dropdown showing the month.
 
-<admonition type="todo">Update structure with date range limit indicator.</admonition>
+<todo>Update structure with date range limit indicator.</todo>
 
 ## Guidelines
 
@@ -66,7 +66,7 @@ related:
 
 ### Accessibility
 
-<admonition type="todo">Add accessibility notes.</admonition>
+<todo>Add accessibility notes.</todo>
 
 ## Reference
 

@@ -10,7 +10,7 @@ The top menu refers to the top horizontal navigation. The items in the top menu 
 
 The top menu navigation items are replaced by exit links during scenarios that have a business impact. This includes signing up, purchasing a subscription, and starting a trial. By doing so, we facilitate task completion and reduce user errors, such as accidentally navigating away.
 
-<admonition type="todo">Add top menu example</admonition>
+<todo>Add top menu example</todo>
 
 ### GitLab Start Page
 The GitLab Start Page is the page users see at the top level of GitLab.com or their instance, and it's where users are directed after logging in. This page is considered navigation, as it is meant to help users orient themselves upon logging in. Currently this page is configurable in User Settings.

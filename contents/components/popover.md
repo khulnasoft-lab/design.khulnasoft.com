@@ -17,7 +17,7 @@ related:
 
 ## Structure
 
-<admonition type="todo">Add structure image.</admonition>
+<todo>Add structure image.</todo>
 
 ## Guidelines
 
@@ -59,4 +59,4 @@ related:
 
 ### Accessibility
 
-<admonition type="todo">Add accessibility guidelines.</admonition>
+<todo>Add accessibility guidelines.</todo>

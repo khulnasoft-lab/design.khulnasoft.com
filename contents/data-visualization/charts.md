@@ -48,7 +48,7 @@ When choosing a chart type, first consider your data set. If you are hoping to s
 
 While most charts only have a single x and y axis, two y-axis charts may occasionally be used; for example, when showing data sets at different orders of magnitude (for example, issues closed, 10; issues opened, 10; total issues 1,000). In this instance, the second y-axis shows how the two data sets are related while ensuring the visualisation at both orders of magnitude is still usable and parsable.
 
-<admonition type="todo">Add example</admonition>
+<todo>Add example</todo>
 
 ## Column charts
 
@@ -80,7 +80,7 @@ When there are three dimensions of data you want to display, it's also possible 
 
 <admonition type="note">Since a grouped and stacked chart already contains a lot of information, avoid using more than 5 values in each dimension.</admonition>
 
-<admonition type="todo">Add example</admonition>
+<todo>Add example</todo>
 
 ## Line charts
 

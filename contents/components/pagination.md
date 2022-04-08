@@ -19,7 +19,7 @@ related:
 
 <example-display  example-name="pagination-compact"></example-display>
 
-<admonition type="todo">Add or refactor examples to compare offset and keyset pagination.</admonition>
+<todo>Add or refactor examples to compare offset and keyset pagination.</todo>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A130)
 
@@ -84,4 +84,4 @@ Keyset pagination only has **Prev** and **Next** options and no page numbers. It
 
 ## Reference
 
-<admonition type="todo">Add reference for the "more than 20" pagination item count requirements.</admonition>
+<todo>Add reference for the "more than 20" pagination item count requirements.</todo>

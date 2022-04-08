@@ -8,7 +8,7 @@ related:
 
 ## Examples
 
-<admonition type="todo">Add code example.</admonition>
+<todo>Add code example.</todo>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A132)
 
@@ -37,7 +37,7 @@ related:
 - Small
 - Medium
 
-<admonition type="todo">Add size use cases.</admonition>
+<todo>Add size use cases.</todo>
 
 ### Behavior
 

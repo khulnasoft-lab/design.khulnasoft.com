@@ -15,11 +15,11 @@ related:
 
 <example-display  example-name="path-full"></example-display>
 
-<admonition type="todo">Add to Pajamas UI Kit.</admonition>
+<todo>Add to Pajamas UI Kit.</todo>
 
 ## Structure
 
-<admonition type="todo">Add structure image.</admonition>
+<todo>Add structure image.</todo>
 
 ## Guidelines
 
@@ -29,7 +29,7 @@ related:
 
 ### When not to use
 
-<admonition type="todo">Add when not to use.</admonition>
+<todo>Add when not to use.</todo>
 
 ### Variants
 

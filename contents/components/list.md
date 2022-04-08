@@ -12,13 +12,13 @@ related:
 
 ## Examples
 
-<admonition type="todo">Add example.</admonition>
+<todo>Add example.</todo>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A128)
 
 ## Structure
 
-<admonition type="todo">Add structure image.</admonition>
+<todo>Add structure image.</todo>
 
 ## Guidelines
 
@@ -30,7 +30,7 @@ related:
 
 ### When not to use
 
-<admonition type="todo">Add when not to use.</admonition>
+<todo>Add when not to use.</todo>
 
 ### Variants
 
@@ -46,4 +46,4 @@ related:
 
 ### Accessibility
 
-<admonition type="todo">Add accessibility guidelines.</admonition>
+<todo>Add accessibility guidelines.</todo>

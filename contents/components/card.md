@@ -12,13 +12,13 @@ related:
 
 <story-viewer story-name="base-card--default" title="Default card"></story-viewer>
 
-<admonition type="todo">Provide additional card examples.</admonition>
+<todo>Provide additional card examples.</todo>
 
-<admonition type="todo">Add link to design specs.</admonition>
+<todo>Add link to design specs.</todo>
 
 ## Structure
 
-<admonition type="todo">Add structure diagram based on design specs.</admonition>
+<todo>Add structure diagram based on design specs.</todo>
 
 1. **Container**: Wraps the content.
 1. **Header** (optional): Contains the title.
@@ -85,4 +85,4 @@ There are two different variants for the cards: vertical and horizontal.
 
 ### Accessibility
 
-<admonition type="todo">Add accessibility guidelines.</admonition>
+<todo>Add accessibility guidelines.</todo>
