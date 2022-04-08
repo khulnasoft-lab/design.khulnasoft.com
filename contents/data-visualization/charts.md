@@ -78,7 +78,7 @@ When there are three dimensions of data you want to display, it's also possible 
 - Open and closed MRs in a separate, stacked column.
 - Both columns of data across time (on the x-axis).
 
-<admonition type="note">Since a grouped and stacked chart already contains a lot of information, avoid using more than 5 values in each dimension.</admonition>
+<note>Since a grouped and stacked chart already contains a lot of information, avoid using more than 5 values in each dimension.</note>
 
 <todo>Add example</todo>
 
