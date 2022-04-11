@@ -1,5 +1,6 @@
 <script>
 import { GlCard, GlIcon, GlLink } from '@gitlab/ui';
+import { camelCase } from 'lodash';
 import StoryIframe from './story_iframe.vue';
 
 const VIEW_MODE_STORY = 'story';
@@ -42,11 +43,21 @@ export default {
 
       return url.href;
     },
+    storyBookArgs() {
+      return Object.entries(this.$attrs)
+        .map(([key, value]) => {
+          return `${camelCase(key)}:${value}`;
+        })
+        .join(';');
+    },
     iFrameUrl() {
       const url = new URL(`${this.$gitlabUiUrl}/iframe.html`);
       url.searchParams.append('id', this.storyName);
       url.searchParams.append('viewMode', this.viewMode);
       url.searchParams.append('isEmbeddedStory', 1);
+      if (this.storyBookArgs) {
+        url.searchParams.append('args', this.storyBookArgs);
+      }
 
       return url.href;
     },
