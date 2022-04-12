@@ -40,11 +40,20 @@ Admin, group, project, and user settings utilize full pages to group different c
 
 Each category displays a title and a brief explanation of what users should expect when the the accordion is expanded. Use consistent terms and follow the [voice and tone](/content/voice-tone) guidelines.
 
-### Locked settings
+### Settings inheritance
 
-Settings can be locked by admins or group owners. To visualize this, disable the setting option and add a lock icon with a [popover](/components/popover) to explain the nature of the restriction.
+Admin settings can affect groups or projects in the namespace. Group settings can affect projects in the group. If a setting will be applied to its children groups or projects, make it clear that the setting will be inherited and whether or not it can be overridden.
 
-![locked-setting-example.png](/img/locked-setting-example.png)
+| Do  | Don't |
+| --- | --- |
+| <figure class="figure" role="figure" aria-label="Settings communicates that it will apply to all projects in group"><img class="figure-img" src="/img/settings-inheritance.svg" alt="Setting communicates that it will apply to all projects in group" role="img" /><figcaption class="figure-caption"></figcaption></figure> | <figure class="figure" role="figure" aria-label="Settings communicates that it will apply to all projects in group"><img class="figure-img" src="/img/settings-inheritance-dont.svg" alt="Setting is unclear that it will be inherited and that it can be overridden" role="img" /><figcaption class="figure-caption"></figcaption></figure> |
+
+Some settings may allow a choice of whether or not it allowed to be overridden at the group or project level.
+<figure class="figure" role="figure" aria-label="Option to allow overrides"><img class="figure-img" src="/img/allow-overrides.svg" alt="Option to allow overrides" role="img" /><figcaption class="figure-caption"></figcaption></figure>
+
+When a setting is can not be overridden, it can be shown in a locked state to communicate that the setting is enforced. To visualize this, disable the setting option and add a lock icon with a [popover](/components/popover) to explain the nature of the restriction.
+
+<figure class="figure" role="figure" aria-label="Example of locked setting"><img class="figure-img" src="/img/locked-setting-example.png" alt="Example of locked setting" role="img" /><figcaption class="figure-caption"></figcaption></figure>
 
 ### Saving settings
 
