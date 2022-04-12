@@ -99,7 +99,7 @@ Layers that need to appear above a layer with an existing elevation should follo
 
 ## Interactive layers
 
-Layers that can be moved or dragged by the user use the lg shadow to create a greater sense of depth in the UI and define the element from other elements that may have an existing elevation.
+Layers that can be moved or dragged by the user use the large shadow to create a greater sense of depth in the UI and define the element from other elements that may have an existing elevation.
 
 ### Use case 
 
