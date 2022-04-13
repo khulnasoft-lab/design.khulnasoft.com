@@ -4,7 +4,9 @@ import sass from 'sass';
 import webpack from 'webpack';
 
 const routes = [
-  ...glob.sync('**/*.md', { cwd: 'contents/' }).map((filePath) => filePath.replace(/\.md$/, '')),
+  ...glob
+    .sync('**/*.md', { cwd: 'contents/' })
+    .map((filePath) => `/${filePath}`.replace(/\.md$/, '')),
 ];
 
 const isProd = process.env.NODE_ENV === 'production';
@@ -34,6 +36,10 @@ const cspPolicies = [
 ];
 
 module.exports = {
+  /**
+   * Render a static result of our page
+   */
+  target: 'static',
   /*
    ** Headers of the page
    */

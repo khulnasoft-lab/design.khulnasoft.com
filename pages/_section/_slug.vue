@@ -1,4 +1,5 @@
 <script>
+import ComponentInfo from "../../components/componentinfo.vue";
 /*
 We only need the "section" and "slug" of the routes to find the file.
 Currently the "third" component is the "tab" (e.g. implementation on component pages)
@@ -12,7 +13,7 @@ const getPathFromRoute = (route) => {
 
 export default {
   components: {
-    ComponentInfo: () => (process.browser ? import('../../components/componentinfo.vue') : null),
+    ComponentInfo,
   },
   editThisPage: {
     resolve: ({ route }) => `contents/${getPathFromRoute(route)}.md`,
@@ -41,8 +42,6 @@ export default {
 
 <template>
   <div class="content limited m-t-7 m-b-8">
-    <no-ssr>
-      <component-info :page="page" />
-    </no-ssr>
+    <component-info :page="page" />
   </div>
 </template>
