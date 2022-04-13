@@ -114,35 +114,37 @@ export default {
         <p>{{ page.description }}</p>
       </div>
       <div v-if="showTabs">
-        <gl-tabs v-model="tabIndex" nav-wrapper-class="app-styles gl-mb-5" lazy>
-          <gl-tab title="Usage" active class="p-t-3 js-gl-tab" @click.prevent="activateTab()">
-            <div v-if="page" class="component md typography">
-              <nuxt-content :document="page" />
-            </div>
-            <related-pages :related="page.related" class="m-t-6" />
-          </gl-tab>
-          <gl-tab
-            title="Implementation"
-            :active="this.$route.params.tab === 'code'"
-            class="app-styles js-gl-tab"
-            @click.prevent="activateTab('code')"
-          >
-            <div class="gl-pt-0">
-              <div v-for="story in page.stories" :key="story" class="container">
-                <story-viewer :story-name="story" view-mode="docs" />
+        <client-only>
+          <gl-tabs v-model="tabIndex" nav-wrapper-class="app-styles gl-mb-5" lazy>
+            <gl-tab title="Usage" active class="p-t-3 js-gl-tab" @click.prevent="activateTab()">
+              <div v-if="page" class="component md typography">
+                <nuxt-content :document="page" />
               </div>
-            </div>
-          </gl-tab>
-          <gl-tab
-            v-if="componentLabel"
-            title="Contribute"
-            class="p-t-3 js-gl-tab"
-            :active="this.$route.params.tab === 'contribute'"
-            @click.prevent="activateTab('contribute')"
-          >
-            <contribute-to-component :component-label="componentLabel" />
-          </gl-tab>
-        </gl-tabs>
+              <related-pages :related="page.related" class="m-t-6" />
+            </gl-tab>
+            <gl-tab
+              title="Implementation"
+              :active="this.$route.params.tab === 'code'"
+              class="app-styles js-gl-tab"
+              @click.prevent="activateTab('code')"
+            >
+              <div class="gl-pt-0">
+                <div v-for="story in page.stories" :key="story" class="container">
+                  <story-viewer :story-name="story" view-mode="docs" />
+                </div>
+              </div>
+            </gl-tab>
+            <gl-tab
+              v-if="componentLabel"
+              title="Contribute"
+              class="p-t-3 js-gl-tab"
+              :active="this.$route.params.tab === 'contribute'"
+              @click.prevent="activateTab('contribute')"
+            >
+              <contribute-to-component :component-label="componentLabel" />
+            </gl-tab>
+          </gl-tabs>
+        </client-only>
       </div>
       <div v-else class="md typography">
         <nuxt-content :document="page" />
