@@ -1,5 +1,5 @@
 <script>
-import ComponentInfo from "../../components/componentinfo.vue";
+import ComponentInfo from '../../components/componentinfo.vue';
 /*
 We only need the "section" and "slug" of the routes to find the file.
 Currently the "third" component is the "tab" (e.g. implementation on component pages)
