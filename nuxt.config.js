@@ -1,11 +1,6 @@
 import path from 'path';
-import glob from 'glob';
 import sass from 'sass';
 import webpack from 'webpack';
-
-const routes = [
-  ...glob.sync('**/*.md', { cwd: 'contents/' }).map((filePath) => filePath.replace(/\.md$/, '')),
-];
 
 const isProd = process.env.NODE_ENV === 'production';
 
@@ -116,7 +111,6 @@ module.exports = {
 
   generate: {
     dir: 'public',
-    routes,
   },
 
   router: {
