@@ -47,7 +47,7 @@ related:
 
 <story-viewer story-name="base-button--ellipsis" title="Buttons with badges"></story-viewer>
 
-<story-viewer story-name="base-button-group--default" title="Button Group"></story-viewer>
+<story-viewer story-name="base-button-group--default" title="Button Group" iframe-padding="0 0 50px 0"></story-viewer>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit-Beta?node-id=2956%3A3357)
 
