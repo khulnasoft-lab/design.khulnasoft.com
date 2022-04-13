@@ -9,8 +9,12 @@ related:
   - spinner
 ---
 
+<note>
 
+Our most recent [Accessibility audit](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/1196) for Infinite scrolls seems
+to suggest that they are better replaced with a "Load More" button _or_ Pagination. Please follow the issue above for updates. 
 
+</note>
 
 
 ## Examples
