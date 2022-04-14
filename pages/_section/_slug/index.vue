@@ -1,5 +1,7 @@
 <script>
-import ComponentInfo from '../../components/componentinfo.vue';
+import ComponentInfo from '../../../components/componentinfo.vue';
+import RelatedPages from '../../../components/related_pages.vue';
+
 /*
 We only need the "section" and "slug" of the routes to find the file.
 Currently the "third" component is the "tab" (e.g. implementation on component pages)
@@ -14,6 +16,7 @@ const getPathFromRoute = (route) => {
 export default {
   components: {
     ComponentInfo,
+    RelatedPages,
   },
   editThisPage: {
     resolve: ({ route }) => `contents/${getPathFromRoute(route)}.md`,
@@ -42,6 +45,13 @@ export default {
 
 <template>
   <div class="content limited m-t-7 m-b-8">
-    <component-info :page="page" />
+    <client-only>
+      <component-info :page="page">
+        <div v-if="page" class="component md typography">
+          <nuxt-content :document="page" />
+        </div>
+        <related-pages :related="page.related" class="m-t-6" />
+      </component-info>
+    </client-only>
   </div>
 </template>

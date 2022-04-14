@@ -1,6 +1,6 @@
 <script>
-import { GlDropdownItem, GlSearchBoxByType } from '@gitlab/ui';
 import lunr from 'lunr';
+import { GlDropdownItem, GlSearchBoxByType } from '../../helpers/gitlab_ui';
 import SearchResult from './search_result.vue';
 
 const STATUS_SEARCHING = 'STATUS_SEARCHING';

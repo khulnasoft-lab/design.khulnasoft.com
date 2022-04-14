@@ -127,10 +127,10 @@ module.exports = {
 
   router: {
     middleware: ['navigation'],
-    extendRoutes(originalRoutes) {
-      const sectionSlugRoute = originalRoutes.find((route) => route.name === 'section-slug');
-      sectionSlugRoute.path += '/:tab?';
-    },
+    // extendRoutes(originalRoutes) {
+    //   const sectionSlugRoute = originalRoutes.find((route) => route.name === 'section-slug');
+    //   sectionSlugRoute.path += '/:tab?';
+    // },
   },
 
   axios: {

@@ -1,5 +1,5 @@
 <script>
-import { GlDropdownItem } from '@gitlab/ui';
+import { GlDropdownItem } from '../../helpers/gitlab_ui';
 
 export default {
   components: {
