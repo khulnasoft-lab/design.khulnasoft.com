@@ -1,4 +1,6 @@
 <script>
+import { GlTab, GlTabs } from '@gitlab/ui';
+import StoryViewer from './story_viewer.vue';
 import ContributeToComponent from './contribute_to_component.vue';
 import RelatedPages from './related_pages.vue';
 
@@ -15,8 +17,11 @@ const componentNameToLabelMap = {
 
 export default {
   components: {
+    GlTab,
+    GlTabs,
     ContributeToComponent,
     RelatedPages,
+    StoryViewer,
   },
   props: {
     page: {
