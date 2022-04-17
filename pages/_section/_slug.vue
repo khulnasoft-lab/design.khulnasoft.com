@@ -28,6 +28,7 @@ export default {
     GlNav,
     GlNavItem,
   },
+  scrollToTop: true,
   editThisPage: {
     resolve: ({ route }) => `contents/${getPathFromRoute(route)}.md`,
   },
