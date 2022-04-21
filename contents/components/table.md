@@ -75,7 +75,7 @@ Todo: Add responsive table examples.
 - Use white space in tables to improve [scannability](https://www.nngroup.com/articles/how-users-read-on-the-web/), visually separating data elements so that each can be individually identified and read as separate from the others.
 - To help with styling, use horizontal lines between rows to visually separate content, including the last row item. Avoid any border or frame surrounding the table. Do not style tables to look like nets, with every number enclosed.
 - Do not apply vertical lines between columns. In general, tables without vertical lines look better and are easier to scan and read.
-- By default all row content should be vertically `top` aligned. Unless the content of the entire row has single lines of content, then the content of the row should be `middle` aligned.
+- By default, all row content should be vertically `top` aligned unless the content of the entire row has single lines of content, then the content of the row should be `middle` aligned.
 
 <div class="row">
     <div class="col col-50">
