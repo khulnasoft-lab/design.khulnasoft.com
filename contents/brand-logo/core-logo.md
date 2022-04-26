@@ -39,9 +39,9 @@ The minimum size is 20px for digital and 0.4” (11mm) for print.
 
 ## Placement
 
-The GitLab logo and tanuki logomark are bold, eye-catching devices, so their placement requires thought and care. Alone, these assets can anchor text or expand to become the hero. They should not be overused or excessively repeated in a single asset. 
+The GitLab logo and tanuki logomark are bold, eye-catching devices, so their placement requires thought and care. Alone, these assets can anchor text or expand to become the hero. They should not be overused or excessively repeated in a single asset.
 
-Placement should primarily be left-aligned, either at the top or bottom corner, depending on which location balances the design and surrounding elements best. This placement allows the copy to be the main focus. 
+Placement should primarily be left-aligned, either at the top or bottom corner, depending on which location balances the design and surrounding elements best. This placement allows the copy to be the main focus.
 
 Centered placement should be reserved for times when the logo needs to be the main focus (i.e. video bumpers/end slates). In these cases, the logo is typically scaled larger.
 
@@ -61,7 +61,7 @@ The full color logo is the default logo to be used, however, there are times tha
 
 ## Incorrect usage
 
-<img class="d-block a-center m-t-7 m-b-7 img-75" src="/img/brand/core-logo-incorrect-usage.svg" alt="GitLab logo incorrect usage" role="img" />
+<img class="d-block a-center m-t-7 m-b-7" src="/img/brand/core-logo-incorrect-usage.svg" alt="GitLab logo incorrect usage" role="img" />
 
 1. Do not apply a stroke to the logo
 1. Do not recolor any part of the logo

@@ -28,7 +28,7 @@ Refer to the guidelines below when working with typography:
 
 ## Type repetitions
 
-Type repetitions are a stylistic expression of GitLab’s commitment to iteration. It is reserved for moments of emphasis and adding visual interest. 
+Type repetitions are a stylistic expression of GitLab’s commitment to iteration. It is reserved for moments of emphasis and adding visual interest.
 
 <figure class="figure" role="figure" aria-label="Type repetitions mockup">
   <img class="figure-img img-50" src="/img/brand/devops-shirt-mockup.png" alt="Type repetitions mockup" role="img" />

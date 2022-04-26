@@ -13,7 +13,7 @@ name: Photography
   <figcaption class="figure-caption">Customer portrait samples</figcaption>
 </figure>
 
-Customers and contributors are our heroes, so their portraits should feel heroic. We capture this by photographing people at eye-level on a neutral background with soft, natural lighting. A shallow depth of field minimizes background distractions and draws the viewer’s attention to the person. 
+Customers and contributors are our heroes, so their portraits should feel heroic. We capture this by photographing people at eye-level on a neutral background with soft, natural lighting. A shallow depth of field minimizes background distractions and draws the viewer’s attention to the person.
 
 ## Metaphors
 
@@ -24,11 +24,11 @@ Customers and contributors are our heroes, so their portraits should feel heroic
 
 Metaphorical photography allows us to convey intricate ideas in an abstract way. These photos are primarily shot top-down, with a focus on texture, patterns, or paths. The imagery should bring feelings of innovation, sustainability, positivity, and/or repetition. Images featuring infrastructure, people, nature, and structural repetition are excellent starting points.
 
-## Collaboration 
+## Collaboration
 
 <figure class="figure" role="figure" aria-label="Collaboration photo samples">
   <img class="figure-img p-a-5" src="/img/brand/stock-collaboration-samples.jpg" alt="Overhead views of people collaborating around various devices and technology" role="img" />
   <figcaption class="figure-caption">Collaboration photo samples</figcaption>
 </figure>
 
-Collaboration is a common theme at GitLab, as it highlights our mission that _everyone can contribute_. Capture collaborative scenes top-down or over a subject’s shoulder to show their working environment in a positive light. Subjects should be using their devices in a natural, candid way to show GitLab and DevOps as a normal part of everyday life. This technique draws attention to the working environment, rather than to the individual. 
+Collaboration is a common theme at GitLab, as it highlights our mission that _everyone can contribute_. Capture collaborative scenes top-down or over a subject’s shoulder to show their working environment in a positive light. Subjects should be using their devices in a natural, candid way to show GitLab and DevOps as a normal part of everyday life. This technique draws attention to the working environment, rather than to the individual.

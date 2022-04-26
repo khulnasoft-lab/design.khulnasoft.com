@@ -6,7 +6,7 @@ name: Logomark
 
 The logomark personifies GitLab’s values, culture, and stewardship of open source, taking inspiration from the tanuki – a raccoon dog native to Japan.
 
-The tanuki is known for being fast, efficient, and collaborative. It is thought to symbolize trustworthiness, agility, and preparedness. Known for its transformational powers and collaborative nature, the tanuki works with others to achieve a common goal – a behavior that is also embodied by GitLab’s mission that everyone can contribute. 
+The tanuki is known for being fast, efficient, and collaborative. It is thought to symbolize trustworthiness, agility, and preparedness. Known for its transformational powers and collaborative nature, the tanuki works with others to achieve a common goal – a behavior that is also embodied by GitLab’s mission that everyone can contribute.
 
 The tanuki logomark can be used when the core logo has already been presented to provide context. It should never be obscured or hard to recognize.
 
@@ -19,7 +19,7 @@ The tanuki logomark can be used when the core logo has already been presented to
 
 DevOps is at our core, and the logomark represents adaptability, iteration, development, and – like the DevOps loop – momentum.
 
-The construction of the GitLab tanuki was based on an infinity loop, representing the limitless possibilities of The DevOps Platform. 
+The construction of the GitLab tanuki was based on an infinity loop, representing the limitless possibilities of The DevOps Platform.
 
 <figure class="figure" role="figure" aria-label="Logomark construction">
   <img class="figure-img p-a-5 img-50" src="/img/brand/tanuki-construction.svg" alt="Logomark construction" role="img" />
@@ -39,7 +39,7 @@ Ensuring proper clear space between the logomark and surrounding elements preser
 
 ## Incorrect usage
 
-<img class="d-block a-center m-t-7 m-b-7 img-75" src="/img/brand/tanuki-incorrect-usage.svg" alt="Logomark incorrect usage" role="img" />
+<img class="d-block a-center m-t-7 m-b-7" src="/img/brand/tanuki-incorrect-usage.svg" alt="Logomark incorrect usage" role="img" />
 
 1. Do not apply a stroke to the mark
 1. Do not apply color to the mark
