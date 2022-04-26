@@ -1,5 +1,5 @@
 ---
-name: typography
+name: Typography
 ---
 
 ## Primary typeface
@@ -7,7 +7,7 @@ name: typography
 [Inter](https://fonts.google.com/specimen/Inter?preview.text=Inter&preview.text_type=custom&query=Inter) is the default typeface for all GitLab materials. It is an open source font and features a tall x-height to aid in readability. Although it comes in an array of weights, we only use Semi Bold and Regular to preserve simplicity.
 
 <figure class="figure" role="figure" aria-label="Inter font">
-  <img class="figure-img p-a-5" src="/img/brand/inter.gif" alt="Inter font" role="img" />
+  <img class="figure-img p-a-5 img-50" src="/img/brand/inter.gif" alt="Inter font" role="img" />
   <figcaption class="figure-caption"> </figcaption>
 </figure>
 

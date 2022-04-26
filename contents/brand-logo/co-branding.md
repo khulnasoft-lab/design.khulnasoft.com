@@ -1,5 +1,5 @@
 ---
-name: co-branding
+name: Co-branding
 ---
 
 Co-branded lockups are created by the Brand Design team for approved GitLab partnerships, events, and campaigns. We default to the partner company’s co-branding lockup standards, but adhere to the following when such standards do not exist:
@@ -14,4 +14,4 @@ Ensure the clear space (x-height equal to the height of the a from our wordmark)
 <figure class="figure" role="figure" aria-label="GitLab co-branding guidelines">
   <img class="figure-img p-a-5" src="/img/brand/co-branding.svg" alt="Co-branding guidelines" role="img" />
   <figcaption class="figure-caption"> </figcaption>
-
+</figure>
