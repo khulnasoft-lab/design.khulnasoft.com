@@ -14,7 +14,7 @@ Illustrations are the primary visual tool that we use throughout our marketing m
 
 An illustration typically accompanies copy; the two together are necessary and should balance and complement one another. An illustration should elevate the message and act as a form of brand storytelling, adding clarity and context to complex ideas.
 
-When building illustrations, use this [template](https://drive.google.com/file/d/1jjX3DXkAjA01DSwwR9FpcY43R4L8E9AZ/view?usp=sharing) and adhere to the following guidelines to maintain visual consistency:
+When building illustrations, use this [template](https://drive.google.com/file/d/15DiL1BM9L9PeGpLuLMTl8YyUU03-Tlgw/view?usp=sharing) and adhere to the following guidelines to maintain visual consistency:
 
 1. **Solid-filled shapes and Charcoal linework** are combined and balanced throughout.
 1. **Shapes** add weight to the piece and create the overall composition of the illustration.
