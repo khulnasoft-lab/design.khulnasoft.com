@@ -1,5 +1,5 @@
 ---
-name: photography
+name: Photography
 ---
 
 ## Overview

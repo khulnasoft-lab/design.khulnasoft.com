@@ -3,7 +3,7 @@ name: Overview
 ---
 
 <figure class="figure" role="figure" aria-label="GitLab Logo">
-  <img class="figure-img p-a-5" src="/img/brand/gitlab-logo.svg" alt="GitLab logo" role="img" />
+  <img class="figure-img p-a-5 img-50" src="/img/brand/gitlab-logo.svg" alt="GitLab logo" role="img" />
   <figcaption class="figure-caption"> </figcaption>
 </figure>
 
