@@ -1,5 +1,5 @@
 ---
-name: core-logo
+name: Marketing illustrations
 ---
 
 ## Overview
@@ -30,7 +30,7 @@ When building illustrations, use this [template](https://drive.google.com/file/d
 1. **Color** is used intentionally, with white and purples from the [secondary palette](https://drive.google.com/file/d/1kCcvxYMKPkDCEFQd6imQcHhFGC14Hgte/view?usp=sharing) making up the majority of the composition. The remaining colors in that palette are used as highlights and accents to differentiate objects within the illustration.
 
 <figure class="figure" role="figure" aria-label="GitLab illustration sample">
-  <img class="figure-img p-a-5" src="/img/brand/illustrations.svg" alt="GitLab illustration sample" role="img" />
+  <img class="figure-img p-a-5 img-50" src="/img/brand/illustrations.svg" alt="GitLab illustration sample" role="img" />
   <figcaption class="figure-caption"> </figcaption>
 </figure>
 
