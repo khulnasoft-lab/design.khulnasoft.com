@@ -10,9 +10,9 @@ Proper color proportions are essential to maintaining GitLab’s look and feel. 
 
 [Color swatches](https://drive.google.com/drive/folders/19GvtyyW638cq4p96hj8w5yloSNuIBFjg?usp=sharing) are denoted with a _P_ (for primary palette), _G_ (for gradients), or _S_ (for secondary palette, which is reserved for illustration usage).
 
-<figure class="figure" role="figure" aria-label="GitLab color usage">
+<figure class="figure" role="figure" aria-label="Color use ratios">
   <img class="figure-img p-a-5" src="/img/brand/color-usage.svg" alt="GitLab color usage" role="img" />
-  <figcaption class="figure-caption"> </figcaption>
+  <figcaption class="figure-caption">Color use ratios</figcaption>
 </figure>
 
 ### Primary color palette
@@ -55,8 +55,3 @@ Using color combinations that have sufficient contrast benefits everyone and pre
 Color combinations (foreground and background) shown here have sufficient contrast. Charcoal is the only color that should be used on gradients to ensure sufficient contrast over every part of the gradient.
 
 Color accessibility enables people with visual impairments or color vision deficiencies to interact with digital experiences in the same way as their non-visually-impaired counterparts. For more information about color contrast in a digital context, view the [WCAG Success Criterion 1.4.3 Contrast (Minimum)](https://www.w3.org/TR/WCAG21/#contrast-minimum) guidelines.
-
-
-
-
-

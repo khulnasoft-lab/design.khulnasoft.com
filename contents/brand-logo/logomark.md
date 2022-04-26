@@ -10,9 +10,9 @@ The tanuki is known for being fast, efficient, and collaborative. It is thought 
 
 The tanuki logomark can be used when the core logo has already been presented to provide context. It should never be obscured or hard to recognize.
 
-<figure class="figure" role="figure" aria-label="GitLab tanuki logomark">
+<figure class="figure" role="figure" aria-label="Tanuki logomark sizing">
   <img class="figure-img p-a-5" src="/img/brand/tanuki-scalability.svg" alt="Logomark sizing" role="img" />
-  <figcaption class="figure-caption"> </figcaption>
+  <figcaption class="figure-caption">Tanuki logomark sizing</figcaption>
 </figure>
 
 ## Construction
@@ -23,26 +23,23 @@ The construction of the GitLab tanuki was based on an infinity loop, representin
 
 <figure class="figure" role="figure" aria-label="Logomark construction">
   <img class="figure-img p-a-5 img-50" src="/img/brand/tanuki-construction.svg" alt="Logomark construction" role="img" />
-  <figcaption class="figure-caption"> </figcaption>
+  <figcaption class="figure-caption">Logomark construction</figcaption>
 </figure>
 
 ## Clear space
 
-Like the logo, the clear space for the tanuki logomark is measured by the x-height, which equals the height of the letter a from the wordmark.
+Like the logo, the clear space for the tanuki logomark is measured by the x-height, which equals the height of the letter "a" from the wordmark.
 
 Ensuring proper clear space between the logomark and surrounding elements preserves the visual integrity of our brand; this area should be kept free of any visual elements, including text, graphics, borders, patterns, and other logos.
 
-<figure class="figure" role="figure" aria-label="Logomark clearspace">
+<figure class="figure" role="figure" aria-label="Clear space around the logomark equal to the lowercase 'a' from the wordmark">
   <img class="figure-img p-a-5 img-50" src="/img/brand/tanuki-clearspace.svg" alt="Logomark clear space" role="img" />
-  <figcaption class="figure-caption"> </figcaption>
+  <figcaption class="figure-caption">Clear space around the logomark equal to the lowercase "a" from the wordmark</figcaption>
 </figure>
 
 ## Incorrect usage
 
-<figure class="figure" role="figure" aria-label="Logomark incorrect usage">
-  <img class="figure-img p-a-5 img-75" src="/img/brand/tanuki-incorrect-usage.svg" alt="Logomark incorrect usage" role="img" />
-  <figcaption class="figure-caption"> </figcaption>
-</figure>
+<img class="d-block a-center m-t-7 m-b-7 img-75" src="/img/brand/tanuki-incorrect-usage.svg" alt="Logomark incorrect usage" role="img" />
 
 1. Do not apply a stroke to the mark
 1. Do not apply color to the mark

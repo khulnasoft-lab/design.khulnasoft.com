@@ -6,11 +6,6 @@ name: Typography
 
 [Inter](https://fonts.google.com/specimen/Inter?preview.text=Inter&preview.text_type=custom&query=Inter) is the default typeface for all GitLab materials. It is an open source font and features a tall x-height to aid in readability. Although it comes in an array of weights, we only use Semi Bold and Regular to preserve simplicity.
 
-<figure class="figure" role="figure" aria-label="Inter font">
-  <img class="figure-img p-a-5 img-50" src="/img/brand/inter.gif" alt="Inter font" role="img" />
-  <figcaption class="figure-caption"> </figcaption>
-</figure>
-
 ### Usage
 
 Refer to the guidelines below when working with typography:
@@ -26,9 +21,9 @@ Refer to the guidelines below when working with typography:
 - Captions and labels should use Inter Italic with 135% leading, 0 tracking, and auto kerning.
 - Small titles and copy in buttons should use Inter Semi Bold.
 
-<figure class="figure" role="figure" aria-label="Typography samples">
+<figure class="figure" role="figure" aria-label="Inter typography samples">
   <img class="figure-img p-a-5" src="/img/brand/typography.svg" alt="Typography samples" role="img" />
-  <figcaption class="figure-caption"> </figcaption>
+  <figcaption class="figure-caption">Inter typography samples</figcaption>
 </figure>
 
 ## Type repetitions
@@ -36,8 +31,8 @@ Refer to the guidelines below when working with typography:
 Type repetitions are a stylistic expression of GitLab’s commitment to iteration. It is reserved for moments of emphasis and adding visual interest. 
 
 <figure class="figure" role="figure" aria-label="Type repetitions mockup">
-  <img class="figure-img p-a-5" src="/img/brand/devops-shirt-mockup.png" alt="Type repetitions mockup" role="img" />
-  <figcaption class="figure-caption"> </figcaption>
+  <img class="figure-img img-50" src="/img/brand/devops-shirt-mockup.png" alt="Type repetitions mockup" role="img" />
+  <figcaption class="figure-caption">Type repetitions mockup</figcaption>
 </figure>
 
 ### Construction
@@ -50,7 +45,7 @@ Follow these guidelines to properly achieve the type repetitions effect:
 1. Ensure that the vertical spacing between each repetition equals 75% of the bottom portion that was removed.
 1. Keep the font weight and color the same throughout, although opacity changes can be applied to the repetitions.
 
-<figure class="figure" role="figure" aria-label="Type repetitions">
+<figure class="figure" role="figure" aria-label="Type repetition settings">
   <img class="figure-img p-a-5" src="/img/brand/type-repetitions.svg" alt="Type repetitions" role="img" />
-  <figcaption class="figure-caption"> </figcaption>
+  <figcaption class="figure-caption">Type repetition settings</figcaption>
 </figure>

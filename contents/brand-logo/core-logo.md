@@ -4,11 +4,6 @@ name: Core logo
 
 The core [logo](https://about.gitlab.com/press/press-kit/) consists of the full-color logomark and wordmark in horizontal format. The core logo is the standard logo orientation to be used across all marketing materials, when the application or surrounding elements are ideal for the width of its proportions.
 
-<figure class="figure" role="figure" aria-label="GitLab logo animation">
-  <img class="figure-img p-a-5" src="/img/brand/logo-construction-animation.gif" alt="GitLab logo animation" role="img" />
-  <figcaption class="figure-caption"> </figcaption>
-</figure>
-
 ## Wordmark
 
 The name GitLab is inspired by the name of the Git open source version control system that GitLab uses, and the collaboration, experimentation, and innovation that occurs when teams iterate in a laboratory.
@@ -17,9 +12,8 @@ The wordmark is a modified version of [Inter Semi Bold](https://fonts.google.com
 
 <figure class="figure" role="figure" aria-label="GitLab logo anatomy">
   <img class="figure-img p-a-5 img-50" src="/img/brand/gitlab-logo-anatomy.svg" alt="Anatomy of the GitLab logo" role="img" />
-  <figcaption class="figure-caption"> </figcaption>
+  <figcaption class="figure-caption">GitLab logo anatomy</figcaption>
 </figure>
-
 
 ## Clear space
 
@@ -27,9 +21,9 @@ Clear space is the area, equal to the x-height, surrounding the entire logo; the
 
 This area should be kept free of any visual elements, including text, graphics, borders, patterns, and other logos. Ensuring proper clear space between the logo and surrounding elements preserves the visual integrity of our brand.
 
-<figure class="figure" role="figure" aria-label="GitLab logo clear space">
+<figure class="figure" role="figure" aria-label="with clear space equal to the width of the lowercase 'a' from the wordmark">
   <img class="figure-img p-a-5 img-50" src="/img/brand/core-logo-clearspace.svg" alt="GitLab logo with clear space" role="img" />
-  <figcaption class="figure-caption"> </figcaption>
+  <figcaption class="figure-caption">GitLab logo with clear space equal to the width of the lowercase "a" from the wordmark</figcaption>
 </figure>
 
 ## Scalability
@@ -40,7 +34,7 @@ The minimum size is 20px for digital and 0.4” (11mm) for print.
 
 <figure class="figure" role="figure" aria-label="GitLab logo sizing">
   <img class="figure-img p-a-5" src="/img/brand/core-logo-scalability.svg" alt="GitLab logo sizing" role="img" />
-  <figcaption class="figure-caption"> </figcaption>
+  <figcaption class="figure-caption">GitLab logo sizing</figcaption>
 </figure>
 
 ## Placement
@@ -60,17 +54,14 @@ The full color logo is the default logo to be used, however, there are times tha
 - Restricted to a single-color use (i.e. print/merchandise applications)
 - Additional logo brand awareness needed in combination with the the full color logo (i.e. large event booths)
 
-<figure class="figure" role="figure" aria-label="GitLab logo variations">
-  <img class="figure-img p-a-5" src="/img/brand/core-logo-logo-variations.svg" alt="GitLab logo sizing" role="img" />
-  <figcaption class="figure-caption"> </figcaption>
+<figure class="figure" role="figure" aria-label="Single color GitLab logo variations">
+  <img class="figure-img p-a-5" src="/img/brand/core-logo-logo-variations.svg" alt="Single color logo use" role="img" />
+  <figcaption class="figure-caption">Single color GitLab logo variations</figcaption>
 </figure>
 
 ## Incorrect usage
 
-<figure class="figure" role="figure" aria-label="GitLab logo incorrect usage">
-  <img class="figure-img p-a-5 img-75" src="/img/brand/core-logo-incorrect-usage.svg" alt="GitLab logo incorrect usage" role="img" />
-  <figcaption class="figure-caption"> </figcaption>
-</figure>
+<img class="d-block a-center m-t-7 m-b-7 img-75" src="/img/brand/core-logo-incorrect-usage.svg" alt="GitLab logo incorrect usage" role="img" />
 
 1. Do not apply a stroke to the logo
 1. Do not recolor any part of the logo

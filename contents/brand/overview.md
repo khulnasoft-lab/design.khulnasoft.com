@@ -2,10 +2,7 @@
 name: Overview
 ---
 
-<figure class="figure" role="figure" aria-label="GitLab Logo">
-  <img class="figure-img p-a-5 img-50" src="/img/brand/gitlab-logo.svg" alt="GitLab logo" role="img" />
-  <figcaption class="figure-caption"> </figcaption>
-</figure>
+<img class="d-block a-center m-b-7 img-50" src="/img/brand/gitlab-logo.svg" alt="GitLab logo" role="img" />
 
 These guidelines set the standard for upholding a cohesive brand image. Our brand, like our product and company, has arrived to where it is today through the collaboration of numerous contributors and iterative processes. It exists as the creative expression of our company mission, vision, and [values](https://about.gitlab.com/handbook/values/). 
 
@@ -13,8 +10,8 @@ At GitLab, we’ve created an environment where everyone can contribute, even wh
 
 Our product propels users into the future of DevOps. With that purpose in mind, we’ve designed our brand to embody the efficiency, innovation, modern-edge, and simplicity of our all-in-one DevOps Platform. 
 
-
 ## Brand principles
+
 Our designs are inspired by four key principles that allow us to create a multitude of visuals that maintain a consistent and cohesive brand identity. These brand principles embody the personality of our brand and are actuated by our product; they should be equally balanced when designing, each working together to tell an intentional story.
 
 - **Human** - We are a people-first company with a community-centric product. We strive for open and approachable designs that prioritize inclusivity, accessibility, and transparency. 
@@ -23,6 +20,7 @@ Our designs are inspired by four key principles that allow us to create a multit
 - **Clear** - We streamline the complex and show intricate concepts in a minimal way. We aim for simplified designs and messaging that are confident, clean, and informative, keeping many audiences in mind.
 
 ## Tone of voice
+
 Our voice embodies our [values](https://about.gitlab.com/handbook/values/) and [mission](https://about.gitlab.com/company/mission/#mission). We openly welcome others into our collaborative space, sharing an inclusive perspective on GitLab’s vision. 
 
 Our brand principles extend to our voice and [communications](https://about.gitlab.com/handbook/communication/#writing-style-guidelines) as well. Consider how each characteristic works together to create a holistic narrative. For instance, our human-centric approach balances our ambitious edge; our concise messaging reinforces our trustworthiness; and so on. All facets are needed to fully represent who we are. Depending on the audience, it may make sense to lean into one area more than another.
@@ -33,7 +31,6 @@ Our brand principles extend to our voice and [communications](https://about.gitl
 | _Powerful, scalable, end-to-end automation is certain with GitLab._ | **Reliable**. We provide others with trustworthy and knowledgeable resources. We are helpful, confident, and consistent. |  
 | _A community of big ideas for better DevOps._ | **Dynamic**. We are dedicated to positive change. We are iterative, clever, and curious. |  
 | _GitLab. The One DevOps Platform._ | **Clear**. We are concise and straight to the point. We are efficient, informative, and organized. |  
-
 
 ## Resources
 
@@ -63,5 +60,3 @@ Our brand principles extend to our voice and [communications](https://about.gitl
 **Quick links**
 - [Corporate Marketing handbook](https://about.gitlab.com/handbook/marketing/corporate-marketing/)
 - [Brand Design handbook](https://about.gitlab.com/handbook/marketing/corporate-marketing/brand-activation/brand-design/)
-
-
