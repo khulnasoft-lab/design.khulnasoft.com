@@ -198,6 +198,9 @@ export default {
     },
 
     loaders: {
+      imgUrl: {
+        limit: 1,
+      },
       scss: {
         implementation: sass,
         sassOptions: {
