@@ -312,13 +312,6 @@
         ]
       },
       {
-      "title": "Patterns",
-      "path": "patterns",
-      "items": [
-        { "title": "Adding data to a list", "path": "adding-data-to-a-list" }
-      ]
-    },
-      {
         "title": "Objects",
         "path": "objects",
         "items": [
@@ -361,6 +354,10 @@
           {
             "title": "Onboarding users",
             "path": "onboarding-users"
+          },
+          {
+            "title": "Progressive disclosure",
+            "path": "progressive-disclosure"
           }
         ]
       },
