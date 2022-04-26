@@ -136,11 +136,12 @@ At smaller breakpoints, tables can either maintain a tabular layout and scroll h
 
 #### Interactive tables
 
-If table cells needs to be navigable (not just some the content within), consider extending the table as a [grid](https://www.w3.org/TR/wai-aria-practices-1.2/#grid) composite widget.
+If table cells needs to be navigable (not just some of the content within), consider extending the table as a [grid](https://www.w3.org/TR/wai-aria-practices-1.2/#grid) composite widget.
 
 #### Selecting rows
 
 Todo: Add behavior guidelines for selectable rows.
+
 ### Content
 
 #### Caption
