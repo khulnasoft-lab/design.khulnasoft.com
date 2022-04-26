@@ -39,7 +39,7 @@ When scaling either the logo or logomark, it should take up no more than 20% of 
 The minimum size is 20px for digital and 0.4” (11mm) for print.
 
 <figure class="figure" role="figure" aria-label="GitLab logo sizing">
-  <img class="figure-img p-a-5 img-75" src="/img/brand/core-logo-scalability.svg" alt="GitLab logo sizing" role="img" />
+  <img class="figure-img p-a-5" src="/img/brand/core-logo-scalability.svg" alt="GitLab logo sizing" role="img" />
   <figcaption class="figure-caption"> </figcaption>
 </figure>
 
