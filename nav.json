@@ -1,16 +1,19 @@
 [
   {
     "title": "Brand",
-    "path": "brand",
     "items": [
       {
         "title": "Overview",
-        "path": "overview"
+        "path": "brand/overview"
       },
- {
+      {
         "title": "Logo",
-        "path": "core-logo",
+        "path": "brand-logo",
         "items": [
+          {
+            "title": "Core logo",
+            "path": "core-logo"
+          },
           {
             "title": "Logomark",
             "path": "logomark"
@@ -18,8 +21,10 @@
           {
             "title": "Co-branding",
             "path": "co-branding"
-          },
-  {
+          }
+        ]
+      },
+      {
         "title": "Brand Design",
         "path": "brand-design",
         "items": [
@@ -38,7 +43,11 @@
           {
             "title": "Photography",
             "path": "photography"
-          },
+          }
+        ]
+      }
+    ]
+  },
   {
     "title": "Product",
     "items": [
