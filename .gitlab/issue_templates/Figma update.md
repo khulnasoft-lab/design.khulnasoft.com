@@ -47,6 +47,7 @@ The purpose of these tasks is to ensure consistency with the rest of the compone
 1. [ ] **Layers**: Make sure all your layers are correctly named and the order match visual from left to right. In the case of Auto Layout, Figma will determine layer order.
 1. [ ] **Variants**: Remove the default dashed purple stroke, border radius, and padding from all variants.
 1. [ ] **Variants**: Reorder variants in properties panel to match visual order. In the case of Auto Layout, Figma will determine layer order.
+1. [ ] **Comments**: Make sure all comments and discussion are resolved.
 
 If any of these tasks are unclear, see the [Table component](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=47785%3A58915) for reference. 
 
