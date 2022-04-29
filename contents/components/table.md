@@ -137,7 +137,7 @@ If table cells needs to be navigable (not just some of the content within), cons
 
 #### Selecting rows
 
-Todo: Add behavior guidelines for selectable rows.
+<todo>Add behavior guidelines for selectable rows.</todo>
 
 ### Content
 
