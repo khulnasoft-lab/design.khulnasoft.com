@@ -23,7 +23,8 @@ Open the duplicate, then use the dropdown next to the file name to select
 
 Make sure the following are completed before closing the issue:
 
-### Assignee tasks: 
+### Assignee tasks:
+
 <details><summary>Getting started:</summary>
 
 1. [ ] If you’re making updates or breaking changes to an existing component in the [Pajamas UI Kit](https://www.figma.com/community/file/781156790581391771), start with a [branch](https://www.figma.com/best-practices/branching-in-figma/) of the UI kit. Prefix the branch name with the issue, MR, or epic number, and add your GitLab username as the suffix. For example, `#860-table-component-updates-lvanc`. 
@@ -73,7 +74,8 @@ Once the Reviewer or Maintainer has approved your update, consider the following
 
 </details>
 
-### Reviewer tasks: 
+### Reviewer tasks:
+
 <details><summary>See tasks:</summary>
 
 1. [ ] Review and approve assignee’s design. Specific design questions can be addressed with comments in Figma. Comment in this issue when the content is less specific to the design or requires greater visibility.
@@ -86,7 +88,8 @@ Once the Reviewer or Maintainer has approved your update, consider the following
 
 </details>
 
-### Maintainer tasks: 
+### Maintainer tasks:
+
 <details><summary>See tasks:</summary>
 
 1. [ ] Review and approve assignee’s changes.
@@ -105,7 +108,6 @@ Once the Reviewer or Maintainer has approved your update, consider the following
 [figma-maintainer]: https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com
 [publishing]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/main/doc/pajamas-ui-kit.md#publishing-changes
 [structure]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/main/doc/pajamas-ui-kit.md#structure
-[component-guideline-template]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/main/.gitlab/merge_request_templates/component-guideline.md
 [component-archive]: https://www.figma.com/files/project/5472112/Component-archive
 [misc-archive]: https://www.figma.com/files/project/10620392/Misc-archive
 [gitlab-ui-component-template]: https://gitlab.com/gitlab-org/gitlab-ui/-/issues/new?issuable_template=Component
