@@ -28,7 +28,13 @@ related:
 
 ## Structure
 
-<todo>Add form structure visual and item list.</todo>
+<todo>Add form structure visual.</todo>
+
+1. **Label**: Clearly and concisely identifies an input.
+1. **Description**: Clarifies and explains the purpose or intent of an input.
+1. **Input field**: Container for the user's input.
+1. **Validation message**: Message shown if the user's input is invalid.
+1. **Help text**: Additional user guidance on completing the field.
 
 ## Guidelines
 
