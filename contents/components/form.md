@@ -28,7 +28,13 @@ related:
 
 ## Structure
 
-<todo>Add form structure visual and item list.</todo>
+<todo>Add form structure visual.</todo>
+
+1. **Label**: Clearly and concisely identifies an input.
+1. **Description**: Clarifies and explains the purpose or intent of an input.
+1. **Input field**: Container for the user's input.
+1. **Validation message**: Message shown if the user's input is invalid.
+1. **Help text** (optional): Additional user guidance on completing the field.
 
 ## Guidelines
 
@@ -57,8 +63,12 @@ Forms may include a variety of elements. By default all information in forms is 
   - Avoid repetitive or unnecessary text. For example, _This setting is..._ or _Use this setting to..._
   - Positioned directly below a label.
   - Don't use "allow" unless you're specifically talking about security. For example, _Allows users to fork the repo_ should be _Users can fork the repo_.
-- **Help**: Provides contextual examples, formatting information, details about the input state, validation messages, or any combination of these options. Positioned directly below an input. May include a [help link](/usability/helping-users) when necessary. For example: _Must have 11 digits including the country code. For example, +1-234-567-8901. Learn more._
-- **Placeholder**: Only used for extra, non-essential information when the input purpose is still understood in its absence; it's not a replacement for a visible label. An exception is the [search](/components/search) component, which includes a [search](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~search) icon to further clarify its purpose. For example, _Search or go to…_.
+- Input field
+  - **Placeholder** (optional): Only used for extra, non-essential information when the input purpose is still understood in its absence; it's not a replacement for a visible label. An exception is the [search](/components/search) component, which includes a [search](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~search) icon to further clarify its purpose. For example, _Search or go to…_.
+  - **Prefix/suffix**: Only one should be present and provide a unit or specificity.
+  - **Addons** (optional): A count should only be used for characters, and a clear button may be used if necessary.
+- **Validation message** (optional): Message either confirming correct input, or inform the user of incorrect input. May be of type warning, error, or success.
+- **Help** (optional): Provides contextual examples, formatting information, details about the input state, validation messages, or any combination of these options. Positioned directly below an input. May include a [help link](/usability/helping-users) when necessary. For example: _Must have 11 digits including the country code. For example, +1-234-567-8901. Learn more._
 
 #### Field
 
