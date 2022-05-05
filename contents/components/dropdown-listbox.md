@@ -1,6 +1,8 @@
 ---
 name: Listbox
 description: A listbox is panel of options typically opened by a button or text input.
+stories:
+  - base-new-dropdowns-listbox--default
 related:
   - dropdown-combobox
   - dropdown-disclosure
@@ -11,7 +13,7 @@ related:
 
 ## Examples
 
-<todo>Add updated examples once complete in GitLab UI.</todo>
+<story-viewer story-name="base-new-dropdowns-listbox--default" title="Default listbox"></story-viewer>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A14)
 
