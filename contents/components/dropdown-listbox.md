@@ -51,13 +51,12 @@ A [button](/components/button) that triggers a listbox comes in a few variants t
 - In a single select context, when an option is selected the panel is closed and the control updated.
 - In a multiselect context, the panel stays open until the user applies the selection. The panel then closes and the changes are visible in the UI.
 - All panels can be closed by clicking outside of them or using the <kbd>esc</kbd> key.
-- If there are more than 10 elements in the list, it may be necessary to include an autocomplete search box to filter options.
 
 ### Content
 
 - A header can provide context for the list of options.
 - Section headers can categorize options into meaningful groups.
-- An option should be concise and clearly indicate the link destination or action it performs.
+- Option text should be concise and clearly indicate the choice it represents.
 
 ### Accessibility
 

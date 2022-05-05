@@ -40,7 +40,6 @@ The term "dropdown" generally refers to a component made of a trigger button tha
 - In a single select context when an option is selected, the panel is closed and the control updated.
 - In a multiselect context the panel stays open until the user applies the selection. The panel then closes and the changes are visible in the UI.
 - All panels can be closed by clicking outside of them or using the <kbd>esc</kbd> key.
-- If there are more than 10 elements in the list, it may be necessary to include an autocomplete search box to filter options.
 - A limited amount of options that don't scroll can be fixed at the bottom of a dropdown panel.
 
 ### Content
