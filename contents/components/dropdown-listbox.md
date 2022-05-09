@@ -42,7 +42,6 @@ The term "dropdown" generally refers to a component made of a trigger button tha
 A [button](/components/button) that triggers a listbox comes in a few variants to fit different situations.
 
 - **Dropdown button**: A dropdown button has a [chevron-down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~chevron-down) icon to the right of the text label to indicates it will toggle additional content.
-- **Split dropdown button**: A split dropdown button is a special button group with two segments. The left text button is for the most common option and an attached dropdown button to the right opens a panel with additional options.
 - **Icon dropdown**: An icon button, like one that uses the vertical or horizontal [ellipsis icons](https://gitlab-org.gitlab.io/gitlab-svgs/?q=elli), functions similarly to other trigger buttons with the only difference being only an icon label with no text.
 
 ### Behavior
