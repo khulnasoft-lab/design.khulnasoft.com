@@ -253,10 +253,12 @@ GitLab icons should reflect positive or neutral metaphors. Avoid concepts relate
 
 Using consistent icons to convey one meaning helps with the learnability for the user. An icon that is used for a feature like Issues or an [object](/objects/merge-request) like merge requests should not be used to refer to other things.
 
-In some cases, there will still be areas in the UI where meaning will have to be inferred from context. In these instances, do everything possible to differentiate the icons. Examples of these cases are: 
+In some cases, there will still be areas in the UI where meaning will have to be inferred from context. Examples of these cases are: 
 
 - a × symbol may be used for closing a modal and at the same time represent a failed pipeline.
 - an `eye` symbol may be used for indicating that an issue is confidential, showing or hiding a password, or to show a preview of an object.
+
+In these instances, ensure that `aria-label` attributes and/or tooltips are used to communicate the meaning of the icon.
 
 | **Do** | **Don’t** |
 | --- | --- |
