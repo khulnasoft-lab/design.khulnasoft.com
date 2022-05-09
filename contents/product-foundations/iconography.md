@@ -249,25 +249,34 @@ As with all of the guidelines, there will always be some level of subjectivity. 
 
 GitLab icons should reflect positive or neutral metaphors. Avoid concepts related to violence or that generally have a negative meaning. Ask yourself, will this icon benefit all users? Is there any potential that its meaning could be confusing or cause anxiety? If there's any doubt, explore other options that are at least neutral in meaning.
 
-Don’t use one icon to refer to multiple meanings. In some cases, there will still be areas in the UI where meaning will have to be inferred from context; for example, a × symbol may be used for closing a modal and at the same time represent a failed pipeline. In these instances, do everything possible to differentiate the icons.
+#### Don’t use one icon to refer to multiple meanings
+
+Using consistent icons to convey one meaning helps with the learnability for the user. An icon that is used for a feature like Issues or an [object](/objects/merge-request) like merge requests should not be used to refer to other things.
+
+In some cases, there will still be areas in the UI where meaning will have to be inferred from context. In these instances, do everything possible to differentiate the icons. Examples of these cases are: 
+
+- a × symbol may be used for closing a modal and at the same time represent a failed pipeline.
+- an `eye` symbol may be used for confidentiality, show/hide password, and show preview.
 
 | **Do** | **Don’t** |
 | --- | --- |
 | <figure class="figure" role="figure" aria-label="Icon represents “menu”"><img class="figure-img" src="/img/icons-concept-dup.svg" alt="Menu icon" role="img" /><figcaption class="figure-caption">Icon represents “menu”</figcaption></figure> | <figure class="figure" role="figure" aria-label="menu icon used for “list”"><img class="figure-img" src="/img/icons-concept-dup-dont.svg" alt="menu icon" role="img" /><figcaption class="figure-caption">Menu icon used for “list”</figcaption></figure> |
 
-Don’t use different icons to refer to one specific meaning.
+#### Don’t use different icons to refer to one specific meaning
 
 | **Do** | **Don’t** |
 | --- | --- |
 | <figure class="figure" role="figure" aria-label="Correct icon for “full screen”"><img class="figure-img" src="/img/icons-concept-meaning-do.svg" alt="Full screen icon" role="img" /><figcaption class="figure-caption">Correct icon for “full screen”</figcaption></figure> | <figure class="figure" role="figure" aria-label="Different icon for “full screen”"><img class="figure-img" src="/img/icons-concept-meaning-dont.svg" alt="Alternate full screen icon" role="img" /><figcaption class="figure-caption">Different icon for “full screen”</figcaption></figure> |
 
-Don’t use an icon to explain a meaning which is not straight-forward. If an icon is not accompanied by a label, provide a quick explanation for users in a tooltip.
+#### Don’t use an icon to explain a meaning which is not straight-forward
+
+If an icon is not accompanied by a label, provide a quick explanation for users in a tooltip.
 
 | **Do** | **Don’t** |
 | --- | --- |
 | <figure class="figure" role="figure" aria-label="Icon meaning is available"><img class="figure-img" src="/img/icons-concept-clear.svg" alt="Got hook icon with label and tooltip" role="img" /><figcaption class="figure-caption">Icon meaning is available</figcaption></figure> | <figure class="figure" role="figure" aria-label="Is that a smiling cat?"><img class="figure-img" src="/img/icons-concept-unclear.svg" alt="Git hook icon" role="img" /><figcaption class="figure-caption">Is that a smiling cat?</figcaption></figure> |
 
-### Modern metaphors
+#### Modern metaphors
 
 Try to avoid potentially antiquated concepts, especially when something more modern is recognizable.
 
