@@ -256,7 +256,7 @@ Using consistent icons to convey one meaning helps with the learnability for the
 In some cases, there will still be areas in the UI where meaning will have to be inferred from context. In these instances, do everything possible to differentiate the icons. Examples of these cases are: 
 
 - a × symbol may be used for closing a modal and at the same time represent a failed pipeline.
-- an `eye` symbol may be used for confidentiality, show/hide password, and show preview.
+- an `eye` symbol may be used for indicating that an issue is confidential, showing or hiding a password, or to show a preview of an object.
 
 | **Do** | **Don’t** |
 | --- | --- |
