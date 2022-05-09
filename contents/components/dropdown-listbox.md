@@ -27,7 +27,7 @@ The term "dropdown" generally refers to a component made of a trigger button tha
 
 ### When to use
 
-- Use a **listbox** when a list of single or multiselect options ([`role="option"`](https://www.w3.org/TR/wai-aria-1.2/#option)) that don't require a form submission to take effect are needed.
+- Use a **listbox** when a list of single or multiselect options ([`role="option"`](https://www.w3.org/TR/wai-aria-1.2/#option)) are needed.
 - A listbox is part of a [combobox](/components/dropdown-combobox) composite widget.
 
 ### When not to use

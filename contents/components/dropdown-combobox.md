@@ -35,7 +35,7 @@ The term "dropdown" generally refers to a component made of a trigger button tha
 ### Behavior
 
 - The text input can use autocomplete capability that filters the available options. In addition to selecting an option, typing also populates the input with the choice.
-- By default, the dropdown panel that contains the listbox opens below and is aligned to the left of the trigger button. However, when there isn't enough space in the viewport, the panel uses edge detection to position it above and/or aligned to the right of the trigger.
+- By default, the dropdown panel that contains the listbox opens below and is aligned to the left of the text input. However, when there isn't enough space in the viewport, the panel uses edge detection to position it above and/or aligned to the right of the text input.
 - If the content within the dropdown panel exceeds the maximum height then a scrim (gradient overlay) appears at the bottom of the panel as an overflow affordance. When a user has scrolled to the bottom of the overflowed content the scrim is removed.
 - In a single select context when an option is selected, the panel is closed and the control updated.
 - In a multiselect context the panel stays open until the user applies the selection. The panel then closes and the changes are visible in the UI.
