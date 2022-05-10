@@ -267,7 +267,7 @@ Avoid using different icons to refer to one specific meaning.
 
 There are, however, several icons whose design doesn't match a single metaphor, but multiple. In these cases, meaning must be provided in context. Examples of these cases are: 
 
-- An '×' icon in a close button on a modal can also represent the status of a failed pipeline.
+- An '×' icon in a close button on a modal can also represent a failed status.
 - An 'eye' icon to indicate a confidential issue can also be used to show a password, or to view a preview of an object.
 - A 'chevron' icon in a [dropdown button](/components/button#dropdown-buttons) can also represent the expanded state of an [accordion](/components/accordion).
 
