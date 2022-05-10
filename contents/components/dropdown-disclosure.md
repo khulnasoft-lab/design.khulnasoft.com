@@ -54,8 +54,6 @@ A [button](/components/button) that triggers a dropdown panel comes in a few var
 
 ### Content
 
-- A header can provide context for the list of options.
-- Section headers can categorize options into meaningful groups.
 - Link and button text should be concise and clearly indicate the link destination or action it performs.
 
 ### Accessibility

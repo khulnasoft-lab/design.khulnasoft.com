@@ -15,6 +15,8 @@ related:
 
 <story-viewer story-name="base-new-dropdowns-listbox--default" title="Default listbox"></story-viewer>
 
+<note>Listbox styles will be updated to match the UI kit.</note>
+
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A14)
 
 ## Structure
