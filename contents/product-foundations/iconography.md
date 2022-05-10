@@ -251,7 +251,7 @@ GitLab icons should reflect positive or neutral metaphors. Avoid concepts relate
 
 #### Specific meaning, specific icon
 
-Using an icon consistently to represent a single concept or action helps with overall learnability for a user. For example, the icon used for the Issues feature, or another for the [merge request object](/objects/merge-request), shouldn't be used to refer to other unrelated concepts or actions in the UI.
+Using an icon consistently to represent a single concept or action helps with overall learnability for a user. For example, the icon used to represent a feature or [object](/objects/overview) shouldn't be used to refer to other unrelated concepts or actions in the UI.
 
 Avoid using different icons to refer to one specific meaning.
 
