@@ -18,17 +18,9 @@ Displaying the key actions prominently reduces cognitive load while revealing ad
 
 ### Best practices
 
-**Distinguish between are the primary versus secondary features**
-
-Determine which features are most important using a combination of available user research and usage data.
-
-**Create clear trigger actions for secondary content**
-
-Use an established call to action, such as links or [buttons](/components/button), that set the expectation for what to do next.
-
-**Avoid multiple levels of disclosure**
-
-If an interaction has three or more levels of disclosure, it could be a sign that the feature is too complex.
+- Distinguish between the primary and secondary actions. Determine which actions are most important using a combination of available user research and usage data.
+- Create clear trigger actions for secondary content. Use an established call to action, such as links or [buttons](/components/button), that set the expectation for what to do next.
+- Avoid multiple levels of disclosure. If an interaction has three or more levels of disclosure, it could be a sign that the feature is too complex.
 
 ### Examples
 
