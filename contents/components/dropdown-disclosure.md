@@ -30,7 +30,7 @@ The term "dropdown" generally refers to a component made of a trigger button tha
 
 ### When not to use
 
-- If the options within the panel are selectable options, refer to the [listbox](/components/dropdown-listbox) component.
+- If the options within the panel are selectable, refer to the [listbox](/components/dropdown-listbox) component.
 - If the options within the panel perform app-like JavaScript actions, consider using a [menu](/components/dropdown-menu) instead.
 - If a user is selecting a single text option from a group of options within a [form](/components/form), consider using a `<select>` element, [radio group](/components/radio-button), or [checkboxes](/components/checkbox) instead.
 - If you need a way for a user to expand or collapse a content section, use an [accordion](/components/accordion) instead.
@@ -50,6 +50,7 @@ A [button](/components/button) that triggers a dropdown panel comes in a few var
 - When a link is selected the user is taken to the destination.
 - When an action is selected that impacts the current view, the panel is closed and the action performed.
 - When an action option is selected that causes a page refresh or other change of context the panel returns to a closed state.
+- All panels can be closed by clicking outside of them, using the <kbd>esc</kbd> key, or by focus moving to an element outside of the component.
 - A limited amount of options that don't scroll can be fixed at the bottom of a dropdown panel.
 
 ### Content

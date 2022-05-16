@@ -25,12 +25,12 @@ The term "dropdown" generally refers to a component made of a trigger button tha
 
 ### When to use
 
-- A menu is a particular type of dropdown that should only be used for app-like JavaScript actions or functions.
+- A menu is a particular type of dropdown that should only be used for app-like JavaScript actions or functions, like replicating a desktop application's main menu bar.
 
 ### When not to use
 
 - A menu is not for website navigation, use a [disclosure](/components/dropdown-disclosure) widget instead.
-- If the options within the panel are selectable options, refer to the [listbox](/components/dropdown-listbox) component.
+- If the options within the panel are selectable, refer to the [listbox](/components/dropdown-listbox) component.
 - If a user is selecting a single text option from a group of options within a [form](/components/form), consider using a `<select>` element, [radio group](/components/radio-button), or [checkboxes](/components/checkbox) instead.
 - If you need a way for a user to expand or collapse a content section, use an [accordion](/components/accordion) instead.
 
@@ -48,6 +48,7 @@ A button that triggers a dropdown panel comes in a few variants to fit different
 - If the content within the dropdown panel exceeds the maximum height then a scrim (gradient overlay) appears at the bottom of the panel as an overflow affordance. When a user has scrolled to the bottom of the overflowed content the scrim is removed.
 - When an action is selected that impacts the current view, the panel is closed and the action performed.
 - When an action option is selected that causes a page refresh or other change of context the panel returns to a closed state.
+- All panels can be closed by clicking outside of them, using the <kbd>esc</kbd> key, or by focus moving to an element outside of the component.
 - A limited amount of actions that don't scroll can be fixed at the bottom of a dropdown panel.
 
 ### Content

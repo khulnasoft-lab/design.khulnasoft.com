@@ -29,13 +29,13 @@ The term "dropdown" generally refers to a component made of a trigger button tha
 
 ### When to use
 
-- Use a **listbox** when a list of single or multiselect options ([`role="option"`](https://www.w3.org/TR/wai-aria-1.2/#option)) are needed.
+- Use a **listbox** when a list of single or multiselect options ([`role="option"`](https://www.w3.org/TR/wai-aria-1.2/#option)) is needed.
 - A listbox is part of a [combobox](/components/dropdown-combobox) composite widget.
 
 ### When not to use
 
-- If the options within the panel are links, or perform app-like JavaScript actions, consider using a [disclosure](/components/dropdown-disclosure) or [menu](/components/dropdown-menu) instead.
-- If the panel of options is revealed when focus is placed on a text input, or button related to a text input instead of a standalone dropdown button, then the listbox should be part of a [combobox](/components/dropdown-combobox).
+- If the options within the panel are links or perform app-like JavaScript actions, consider using a [disclosure](/components/dropdown-disclosure) or [menu](/components/dropdown-menu) instead.
+- If the panel of options is revealed when the focus is on a text input, or a button related to a text input, instead of a standalone dropdown button, then the listbox should be part of a [combobox](/components/dropdown-combobox).
 - If a user is selecting a single text option from a group of options within a [form](/components/form), consider using a `<select>` element, [radio group](/components/radio-button), or [checkboxes](/components/checkbox) instead.
 - If you need a way for a user to expand or collapse a content section, use an [accordion](/components/accordion) instead.
 
@@ -44,7 +44,7 @@ The term "dropdown" generally refers to a component made of a trigger button tha
 A [button](/components/button) that triggers a listbox comes in a few variants to fit different situations.
 
 - **Dropdown button**: A dropdown button has a [chevron-down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~chevron-down) icon to the right of the text label to indicate it will toggle additional content.
-- **Icon dropdown**: An icon button, like one that uses the vertical or horizontal [ellipsis icons](https://gitlab-org.gitlab.io/gitlab-svgs/?q=elli), functions similarly to other trigger buttons with the only difference being only an icon label with no text.
+- **Icon dropdown**: An icon button, like one that uses the vertical or horizontal [ellipsis icons](https://gitlab-org.gitlab.io/gitlab-svgs/?q=elli), functions similarly to other trigger buttons with the only difference being only an icon label with no visible text.
 
 ### Behavior
 
@@ -53,7 +53,7 @@ A [button](/components/button) that triggers a listbox comes in a few variants t
 - If the content within the dropdown panel exceeds the maximum height then a scrim (gradient overlay) appears at the bottom of the panel as an overflow affordance. When a user has scrolled to the bottom of the overflowed content the scrim is removed.
 - In a single select context, when an option is selected the panel is closed and the control updated.
 - In a multiselect context, the panel stays open until the user applies the selection. The panel then closes and the changes are visible in the UI.
-- All panels can be closed by clicking outside of them or using the <kbd>esc</kbd> key.
+- All panels can be closed by clicking outside of them, using the <kbd>esc</kbd> key, or by focus moving to an element outside of the component.
 
 ### Content
 
