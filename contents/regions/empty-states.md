@@ -47,6 +47,16 @@ Examples:
 - `Monitor vulnerabilities in your project`
 - `Get started with monitoring`
 
+#### Considerations
+
+##### Archived content
+
+It’s ok to hide most, if not all, of the UI that would be displayed if there was some content. This helps emphasize the next action that a user should perform. But not all Blank content empty states are the same. Some don’t have any content because all of it was archived. If there’s a benefit for users to be able to see that archived content, the regular UI should be shown instead of the empty state.
+
+##### Technical implementation
+
+Sometimes, content is lazy loaded, which means it’s impossible for the system to know if an empty state should be used until a user clicks on a certain element that would lazy load some content that isn’t initially shown. Be sure to check with engineers how interactions on a page in question work before you decide to hide the UI in favor of showing an empty state.
+
 ### Configuration required
 
 A `Configuration required` empty state serves as a placeholder for features that need to be configured first, before having the ability to create content.
