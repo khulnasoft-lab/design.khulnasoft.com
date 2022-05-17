@@ -3,6 +3,7 @@ name: Helping users
 related:
   - tooltip
   - popover
+  - drawer
 ---
 
 Help content should be used as a fallback to help users complete and better understand tasks, with the primary method of understanding being the UI itself. Embedding help content directly within the feature it serves is the best way to assist users who have hit a roadblock. Affordance is higher when help content is available in context.
@@ -51,4 +52,45 @@ If that's not possible and space is tight, use the [help icon](http://gitlab-org
 | <div class="app-styles"><gl-icon name="question-o" class="gl-text-blue-600" /></div>Use the outlined [question-o.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) icon in `$blue-600` (`#1068bf`) | <div class="app-styles"><gl-icon name="question" size="16" /></div>Use the solid icon [question.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question) or a color other than blue | 
 | <figure class="figure" role="figure" aria-label="Popover with link to documentation"><img class="figure-img" src="/img/help-popover-with-link.png" alt="Popover with link to documentation" role="img" style="max-width: 280px;" /><figcaption class="figure-caption" style="font-size: 16px;">Show information in the popover with a link to documentation</figcaption></figure> | <figure class="figure" role="figure" aria-label="Popover with link to documentation"><img class="figure-img" src="/img/help-tooltip.png" alt="Popover with link to documentation" role="img" style="max-width: 280px;" /><figcaption class="figure-caption" style="font-size: 16px;">Use the icon as a link or with a tooltip|
 
+## Providing reference information
 
+In some cases users might need to reference additional information for completing a task in the UI. When the content length is short, we can surface such information using the [drawer](/components/drawer) component.
+
+### When to use help drawers
+
+- When the help information is supplemental and not critical to the completion of a task.
+- When we expect the user to reference that information while performing tasks in the UI.
+- When the content is too long to show in a tooltip.
+- When the content is short enough to comfortably read in the drawer.
+
+### When not to use help drawers
+
+- When help content is a necessary part of the flow for completing a specific task, consider using a [modal](/components/modal) instead.
+- When help content is short, consider using a [popover](/components/popover) instead.
+- When help content is too long to comfortably read it in the drawer, consider using a popover and/or linking to the documentation instead. 
+- When help content is not related to a specific concept or task.
+
+### Help drawer content guidelines
+
+There are two ways to pull in content into the Help drawer:
+
+- Pull the content directly from GitLab documentation (see this [merge request](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/82516) as an example)
+- Customize the content and store it in an .md file in the docs/TBD directory in the GitLab repository
+
+When the content can be pulled into the drawer from documentation without hurting the legibility of content, we should pull it directly from the documentation. When content is too long or is formatted in a way that hurts the legibility of content, we should customize the content and store it in a markdown file.
+
+When writing custom content, use the [documentation topic types guidelines.](https://docs.gitlab.com/ee/development/documentation/structure.html)
+
+### Linking to documentation in help drawers
+
+Links to the documentation should be used very sparingly since our goal is to present the information in the UI. When adding links to the drawer markdown file implementation should include a test to test the links between the drawers and docs.
+
+### Localization of Help Drawer content
+
+TBD
+
+### Help Drawer behavior
+
+For general guidelines follow the [drawer behavior documentation.](components/drawer/#behavior) 
+
+- Help drawer trigger should be specific to the content of the drawer. For example, a "Syntax options" link opens a help drawer with syntax options documentation.
