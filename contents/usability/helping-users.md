@@ -54,36 +54,38 @@ If that's not possible and space is tight, use the [help icon](http://gitlab-org
 
 ## Providing reference information
 
-In some cases users might need to reference additional information for completing a task in the UI. When the content length is short, we can surface such information using the [drawer](/components/drawer) component.
+In some cases users might need to reference additional information for completing a task in the UI. When the content length allows, we can surface such information using the [drawer](/components/drawer) component.
 
 ### When to use help drawers
 
 - When the help information is supplemental and not critical to the completion of a task.
 - When we expect the user to reference that information while performing tasks in the UI.
-- When the content is too long to show in a tooltip.
+- When the content is too long to show in a tooltip or popover.
 - When the content is short enough to comfortably read in the drawer.
 
 ### When not to use help drawers
 
 - When help content is a necessary part of the flow for completing a specific task, consider using a [modal](/components/modal) instead.
-- When help content is short, consider using a [popover](/components/popover) instead.
-- When help content is too long to comfortably read it in the drawer, consider using a popover and/or linking to the documentation instead. 
-- When help content is not related to a specific concept or task.
+- When help content is short enough, consider using a [popover](/components/popover) and/or linking to the documentation instead.
 
 ### Help drawer content guidelines
 
-There are two ways to pull in content into the Help drawer:
+Help drawer content should always be related to a specific context or task in the UI. 
 
-- Pull the content directly from GitLab documentation (see this [merge request](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/82516) as an example)
-- Customize the content and store it in an .md file in the docs/TBD directory in the GitLab repository
+The drawer header should reflect the context or task the user is performing.
+
+There are two ways to implement reference content in a help drawer:
+
+- Pull the content directly from GitLab Documentation (see this [merge request](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/82516) as an example.)
+- Customize the content and store it in a markdown file in the Docs directory in the GitLab repository.
 
 When the content can be pulled into the drawer from documentation without hurting the legibility of content, we should pull it directly from the documentation. When content is too long or is formatted in a way that hurts the legibility of content, we should customize the content and store it in a markdown file.
 
-When writing custom content, use the [documentation topic types guidelines.](https://docs.gitlab.com/ee/development/documentation/structure.html)
+When writing custom content, use the [documentation topic types guidelines](https://docs.gitlab.com/ee/development/documentation/structure.html) and general [drawer content guidelines](/components/drawer/#content).
 
 ### Linking to documentation in help drawers
 
-Links to the documentation should be used very sparingly since our goal is to present the information in the UI. When adding links to the drawer markdown file implementation should include a test to test the links between the drawers and docs.
+Links to the documentation should be used sparingly since our goal is to present the necessary reference information in the UI. If you need to link to additional documentation, add one link at the end of the drawer content so users can learn more if they found the drawer content insufficient. When adding links to the drawer markdown file implementation should include a test to test the links between the drawers and docs.
 
 ### Localization of Help Drawer content
 
