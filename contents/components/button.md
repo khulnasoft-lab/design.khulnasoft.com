@@ -231,6 +231,7 @@ Multiple alignments can be combined within a single screen, but not within an in
     </div>
   </div>
 - The visual hierarchy is primary buttons on the outer edge, followed by secondary buttons, and so on.
+- One exception to the visual hierarchy is an ellipsis button. When using an ellipsis button, place it on the outer edge.
   <div class="row">
     <div class="col col-50">
       <figure class="figure" role="figure" aria-label="Hierarchy from left to right for left alignment">
@@ -245,7 +246,6 @@ Multiple alignments can be combined within a single screen, but not within an in
       </figure>
     </div>
   </div>
-  - One exception to the visual hierarchy is an ellipsis button. When using an ellipsis button, place it on the outer edge.
 
 ### Combinations
 
