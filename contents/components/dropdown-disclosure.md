@@ -31,7 +31,7 @@ The term "dropdown" generally refers to a component made of a trigger button tha
 ### When not to use
 
 - If the options within the panel are selectable, refer to the [listbox](/components/dropdown-listbox) component.
-- If the options within the panel perform app-like JavaScript actions, consider using a [menu](/components/dropdown-menu) instead.
+- If the options within the panel _only_ perform app-like JavaScript actions, consider using a [menu](/components/dropdown-menu) instead.
 - If a user is selecting a single text option from a group of options within a [form](/components/form), consider using a `<select>` element, [radio group](/components/radio-button), or [checkboxes](/components/checkbox) instead.
 - If you need a way for a user to expand or collapse a content section, use an [accordion](/components/accordion) instead.
 
