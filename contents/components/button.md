@@ -245,7 +245,7 @@ Multiple alignments can be combined within a single screen, but not within an in
       </figure>
     </div>
   </div>
-  - One expetion to the visual hierchy is an ellipsis button.  When using an ellipsis button, place it on the outer edge.
+  - One exception to the visual hierarchy is an ellipsis button. When using an ellipsis button, place it on the outer edge.
 
 ### Combinations
 
