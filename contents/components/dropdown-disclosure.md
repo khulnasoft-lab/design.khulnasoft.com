@@ -25,7 +25,7 @@ The term "dropdown" generally refers to a component made of a trigger button tha
 
 ### When to use
 
-- Use a **disclosure** dropdown to toggle a panel of links (`<a>`) or actions (`<button>`) that can be performed in a specific context, including [navigation](/regions/navigation).
+- Use a disclosure dropdown to toggle a panel of links (`<a>`) or actions (`<button>`) that can be performed in a specific context, including [navigation](/regions/navigation).
 - In the instance where a combination of links and actions are present in the dropdown, a disclosure is preferred over other dropdown options that are more semantically prescriptive.
 
 ### When not to use

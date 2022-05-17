@@ -29,7 +29,8 @@ The term "dropdown" generally refers to a component made of a trigger button tha
 
 ### When to use
 
-- Use a **listbox** when a list of single or multiselect options ([`role="option"`](https://www.w3.org/TR/wai-aria-1.2/#option)) is needed.
+- Use a listbox when a list of single or multiselect options ([`role="option"`](https://www.w3.org/TR/wai-aria-1.2/#option)) is needed.
+- Use a listbox for sorting (see [reference](#reference)).
 - A listbox is also part of a [combobox](/components/dropdown-combobox) composite widget when the trigger is a text input.
 
 ### When not to use
@@ -68,4 +69,5 @@ A [button](/components/button) that triggers a listbox comes in a few variants t
 
 ## Reference
 
+- Why use a listbox for sorting? After much [discussion](https://gitlab.com/gitlab-org/gitlab/-/issues/346804#note_749546915), we determined that this route provides the most consistent implementation while aligning with a user's goal of selecting an option (in this case the option for how they'd like to sort) and having the selected choice reflected in the UI and the control itself.
 - [Drop-Down Usability: When You Should (and Shouldn’t) Use Them](https://baymard.com/blog/drop-down-usability), by Baymard Institute
