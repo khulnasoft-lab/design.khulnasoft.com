@@ -70,9 +70,7 @@ In some cases users might need to reference additional information for completin
 
 ### Help drawer content guidelines
 
-Help drawer content should always be related to a specific context or task in the UI. 
-
-The drawer header should reflect the context or task the user is performing.
+Help drawer content should always be related to a specific context or task in the UI. The drawer header should reflect the context or task the user is performing.
 
 There are two ways to implement reference content in a help drawer:
 
