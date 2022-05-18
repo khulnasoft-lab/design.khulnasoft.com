@@ -10,9 +10,7 @@ related:
   - progress-bar
 ---
 
-"Progressive disclosure defers advanced or rarely used features to a secondary screen, making applications easier to learn and less error-prone." –Jakob Nielsen, Nielsen Norman Group
-
-Progressive disclosure prevents users from becoming overwhelmed when there is a large amount of content to consume. By using a trigger to reveal an object hidden from view, it can reduce the amount of content on the page at any one time without sacrificing features.
+Progressive disclosure is an interaction pattern which defers less important information and features to secondary screens. By initially only showing the most important information, users are prevented from becoming overwhelmed when there is a large amount of content to consume. By using a trigger to reveal an object hidden from view, it can reduce the amount of content on the page at any one time without sacrificing features.
 
 When employing progressive disclosure, display key information prominently to reduce cognitive load, and reveal additional information only upon request. Keeping the interface simple in this way allows users to focus their attention and also helps with new user [onboarding](onboarding-users).
 
@@ -33,7 +31,3 @@ Best practices for progressive disclosure include:
 - Enabling scrolling for overflow content
 - Using [skeleton loaders](/components/skeleton-loader) while lazy loading a page
 - Introducing step-by-step flows for complex scenarios
-
-## Resources
-
-- <a href="https://www.nngroup.com/articles/progressive-disclosure/">Nielsen Norman Group: Progressive disclosure</a>
