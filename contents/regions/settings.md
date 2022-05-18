@@ -42,7 +42,12 @@ Each category displays a title and a brief explanation of what users should expe
 
 ### Settings inheritance
 
-Admin settings can affect groups or projects in the namespace. Group settings can affect projects in the group. If a specific option impacts its groups or projects, make it clear if it will be inherited and whether or not it is possible to override.
+By default, settings cascade down from the parent namespace. Admin settings will thus affect groups or projects in the namespace, and group settings will affect projects in the group. However, some settings can be overridden at the group or project level, so it's important to clarify if a setting will be inherited, and whether or not it's possible to override it.
+
+Given these inheritance patterns:
+
+- When a parent setting can be overridden, make that clear in the parent setting's UI.
+- When a child setting is enforced from a parent, make this clear in the child setting's UI.
 
 | Do  | Don't |
 | --- | --- |
@@ -51,7 +56,7 @@ Admin settings can affect groups or projects in the namespace. Group settings ca
 Settings can have an option that explicitly allows overrides at the group or project level.
 <figure class="figure" role="figure" aria-label="Option to allow overrides"><img class="figure-img" src="/img/allow-overrides.svg" alt="Option to allow overrides" role="img" /><figcaption class="figure-caption"></figcaption></figure>
 
-An enforced setting should show it is in a locked state. To visualize this, disable the setting option and add a lock icon with a [popover](/components/popover) to explain the nature of the restriction.
+When a child setting is enforced from a parent, make this clear in the child setting's UI by disabling the setting option and adding a lock icon with a [popover](/components/popover) to explain the nature of the restriction.
 
 <figure class="figure" role="figure" aria-label="Example of locked setting"><img class="figure-img" src="/img/locked-setting-example.png" alt="Example of locked setting" role="img" /><figcaption class="figure-caption"></figcaption></figure>
 
