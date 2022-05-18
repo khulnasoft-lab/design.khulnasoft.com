@@ -10,7 +10,7 @@ related:
   - progress-bar
 ---
 
-Progressive disclosure is an interaction pattern which defers less important information and features to secondary screens. By initially only showing the most important information, users are prevented from becoming overwhelmed when there is a large amount of content to consume. By using a trigger to reveal an object hidden from view, it can reduce the amount of content on the page at any one time without sacrificing features.
+Progressive disclosure is an interaction pattern that defers less important information and features to secondary screens. By initially only showing the most important information, users are less likely to become overwhelmed when there is a large amount of content to consume. Using a trigger to reveal an object hidden from view, it can reduce the amount of content on the page at any one time without sacrificing features.
 
 When employing progressive disclosure, display key information prominently to reduce cognitive load, and reveal additional information only upon request. Keeping the interface simple in this way allows users to focus their attention and also helps with new user [onboarding](onboarding-users).
 
