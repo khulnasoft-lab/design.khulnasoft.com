@@ -32,33 +32,21 @@ When considering where to place a setting within the product, consider the follo
 - **Access:** Which [persona](https://about.gitlab.com/handbook/product/personas/) performs the JTBD related to the setting? What [role](https://docs.gitlab.com/ee/user/permissions.html) or permission does that persona have?
 - **Flexibility and control:** At what namespace level (for example, admin, group, or project) should the setting be available? Should the setting cascade down to children namespaces? Should there be a way to override a setting set at a parent namespace?
 
-It should be clear when settings cascade, at which level the setting is set at, and when they can be overridden.
+### Settings inheritance
+
+By default, settings cascade down from the parent namespace. Admin settings will thus affect groups or projects in the namespace, and group settings will affect projects in the group. However, some settings can be overridden at the group or project level, so it's important to clarify if a setting will be inherited, and whether or not it's possible to override it.
+
+When a parent setting can be overridden, make that clear in the parent setting's UI. For example, add help text to the setting saying "can be overidden in each project".
+
+When a child setting is enforced from a parent, make this clear in the child setting's UI. For example, by disabling the setting and adding a lock icon with a [popover](/components/popover) to explain the nature of the restriction.
+
+<figure class="figure" role="figure" aria-label="Example of locked setting"><img class="figure-img" src="/img/locked-setting-example.png" alt="Example of locked setting" role="img" /><figcaption class="figure-caption">Example of enforced setting</figcaption></figure>
 
 ### Grouping
 
 Admin, group, project, and user settings utilize full pages to group different categories inside [accordions](/components/accordion). This is different from feature settings which live next to a specific UI element. On settings pages, the most frequently used options should be made easily available to users by not collapsing the content. Horizontal separators are placed between each category to give elements enough room to breathe.
 
 Each category displays a title and a brief explanation of what users should expect when the the accordion is expanded. Use consistent terms and follow the [voice and tone](/content/voice-tone) guidelines.
-
-### Settings inheritance
-
-By default, settings cascade down from the parent namespace. Admin settings will thus affect groups or projects in the namespace, and group settings will affect projects in the group. However, some settings can be overridden at the group or project level, so it's important to clarify if a setting will be inherited, and whether or not it's possible to override it.
-
-Given these inheritance patterns:
-
-- When a parent setting can be overridden, make that clear in the parent setting's UI.
-- When a child setting is enforced from a parent, make this clear in the child setting's UI.
-
-| Do  | Don't |
-| --- | --- |
-| <figure class="figure" role="figure" aria-label="Settings communicates that it will apply to all projects in group"><img class="figure-img" src="/img/settings-inheritance.svg" alt="Setting communicates that it will apply to all projects in group" role="img" /><figcaption class="figure-caption"></figcaption></figure> | <figure class="figure" role="figure" aria-label="Settings communicates that it will apply to all projects in group"><img class="figure-img" src="/img/settings-inheritance-dont.svg" alt="Setting is unclear that it will be inherited and that it can be overridden" role="img" /><figcaption class="figure-caption"></figcaption></figure> |
-
-Settings can have an option that explicitly allows overrides at the group or project level.
-<figure class="figure" role="figure" aria-label="Option to allow overrides"><img class="figure-img" src="/img/allow-overrides.svg" alt="Option to allow overrides" role="img" /><figcaption class="figure-caption"></figcaption></figure>
-
-When a child setting is enforced from a parent, make this clear in the child setting's UI by disabling the setting option and adding a lock icon with a [popover](/components/popover) to explain the nature of the restriction.
-
-<figure class="figure" role="figure" aria-label="Example of locked setting"><img class="figure-img" src="/img/locked-setting-example.png" alt="Example of locked setting" role="img" /><figcaption class="figure-caption"></figcaption></figure>
 
 ### Saving settings
 
