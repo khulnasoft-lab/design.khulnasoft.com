@@ -72,10 +72,12 @@ In some cases users might need to reference additional information for completin
 
 Help drawer content should always be related to a specific context or task in the UI. The drawer header should reflect the context or task the user is performing.
 
-There are two ways to implement reference content in a help drawer:
+Drawer content is stored as Markdown in the GitLab repository `/doc` directory, rather than hard-coded in the product code. The drawer content is either:
 
-- Pull the content directly from GitLab Documentation (see this [merge request](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/82516) as an example.)
-- Customize the content and store it in a markdown file in the Docs directory in the GitLab repository.
+- Pulled directly from the GitLab documentation, in which case it will be visible in the UI and on `docs.gitlab.com`.
+- Displayed only in the drawer. In this case, the content is stored in the `/doc/drawers` folder and is not displayed on `docs.gitlab.com`.
+
+[This merge request](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/82516) shows an example of how to pull docs content into a drawer.
 
 When the content can be pulled into the drawer from documentation without hurting the legibility of content, then pull it directly from the documentation. When content is too long or is formatted in a way that hurts the legibility of content, then customize the content and store it in a markdown file.
 
