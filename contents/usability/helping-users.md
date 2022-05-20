@@ -83,7 +83,7 @@ When writing custom content, use the [documentation topic types guidelines](http
 
 ### Linking to documentation in help drawers
 
-Links to the documentation should be used sparingly since our goal is to present the necessary reference information in the UI. If you need to link to additional documentation, add one link at the end of the drawer content so users can learn more if they found the drawer content insufficient. When adding links to the drawer markdown file implementation should include a test to test the links between the drawers and docs.
+Links to the documentation should be used sparingly since our goal is to present the necessary reference information in the UI. If you need to link to additional documentation, add one link at the end of the drawer content so users can learn more if they found the drawer content insufficient.
 
 ### Localization of Help Drawer content
 
