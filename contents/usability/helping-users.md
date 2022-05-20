@@ -77,7 +77,7 @@ There are two ways to implement reference content in a help drawer:
 - Pull the content directly from GitLab Documentation (see this [merge request](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/82516) as an example.)
 - Customize the content and store it in a markdown file in the Docs directory in the GitLab repository.
 
-When the content can be pulled into the drawer from documentation without hurting the legibility of content, we should pull it directly from the documentation. When content is too long or is formatted in a way that hurts the legibility of content, we should customize the content and store it in a markdown file.
+When the content can be pulled into the drawer from documentation without hurting the legibility of content, then pull it directly from the documentation. When content is too long or is formatted in a way that hurts the legibility of content, then customize the content and store it in a markdown file.
 
 When writing custom content, use the [documentation topic types guidelines](https://docs.gitlab.com/ee/development/documentation/structure.html) and general [drawer content guidelines](/components/drawer/#content).
 
