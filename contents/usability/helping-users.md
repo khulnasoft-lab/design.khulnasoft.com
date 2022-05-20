@@ -87,7 +87,7 @@ Links to the documentation should be used sparingly since our goal is to present
 
 ### Localization of Help Drawer content
 
-TBD
+It's not required to localize the help drawer content.
 
 ### Help Drawer behavior
 
