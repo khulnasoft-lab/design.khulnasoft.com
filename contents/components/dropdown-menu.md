@@ -21,7 +21,7 @@ related:
 
 ## Guidelines
 
-The term "dropdown" generally refers to a component made of a trigger button that opens a panel of options. How the trigger and panel are visually presented doesn't vary much, but the semantic meaning can change significantly; refer to the other dropdown types to learn more about the differences.
+While the term "dropdown" generally refers to an element that reveals a related panel, the dropdown menu component is specifically a button with an `aria-haspopup="menu"` attribute that opens a panel of options with `role="menu"`.
 
 ### When to use
 

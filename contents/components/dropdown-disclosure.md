@@ -21,7 +21,6 @@ related:
 
 ## Guidelines
 
-The term "dropdown" generally refers to a component made of a trigger button that opens a panel of options. How the trigger and panel are visually presented doesn't vary much, but the semantic meaning can change significantly; refer to the other dropdown types to learn more about the differences.
 
 ### When to use
 

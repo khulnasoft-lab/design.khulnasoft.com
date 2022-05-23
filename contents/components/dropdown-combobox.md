@@ -21,11 +21,11 @@ related:
 
 ## Guidelines
 
-The term "dropdown" generally refers to a component made of a trigger button that opens a panel of options. In the case of a combobox, the panel is primarily triggered by a text input. How the trigger and panel are visually presented doesn't vary much, but the semantic meaning can change significantly; refer to the other dropdown types to learn more about the differences.
+While the term "dropdown" generally refers to an element that reveals a related panel, in the dropdown combobox component the panel is primarily triggered by a text input, although it can be accompanied by a button that also opens the panel.
 
 ### When to use
 
-- Use a combobox to toggle and search through a [listbox](/components/dropdown-combobox) of single or multiselect options ([`role="option"`](https://www.w3.org/TR/wai-aria-1.2/#option)) that don't require a form submission to take effect.
+- Use a combobox to toggle and search through a [listbox](/components/dropdown-listbox) of single or multiselect options ([`role="option"`](https://www.w3.org/TR/wai-aria-1.2/#option)) that don't require a form submission to take effect.
 
 ### When not to use
 
@@ -39,7 +39,7 @@ The term "dropdown" generally refers to a component made of a trigger button tha
 - If the content within the dropdown panel exceeds the maximum height then a scrim (gradient overlay) appears at the bottom of the panel as an overflow affordance. When a user has scrolled to the bottom of the overflowed content the scrim is removed.
 - In a single select context when an option is selected, the panel is closed and the control updated.
 - In a multiselect context the panel stays open until the user applies the selection. The panel then closes and the changes are visible in the UI.
-- All panels can be closed by clicking outside of them, using the <kbd>esc</kbd> key, or by focus moving to an element outside of the component..
+- All panels can be closed by clicking outside of them, using the <kbd>esc</kbd> key, or by focus moving to an element outside of the component.
 - A limited amount of options that don't scroll can be fixed at the bottom of a dropdown panel.
 
 ### Content
