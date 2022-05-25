@@ -78,17 +78,11 @@ Settings can be displayed in two ways:
 
 ### Side by side
 
-The side by side layout puts the settings content in a smaller width area when the screen is greater than the `lg` breakpoint (> 992px).
-
-This allows the form content to fit the optimal width at larger screen widths while utilizing white space efficiently.
+When the viewport is greater than the `lg` breakpoint (> 992px), the settings layout is two column. The left column has a title and optionally a description, and the right column holds the settings. The two column layout ensures that the overall page height is short.
 
 <todo>Add example of form input at full width versus side by side</todo>
 
-The headings of search section will be placed on the left side. Each section may have an optional description to describe the content.
-
 When scrolling, the headings of each section should remain sticky to provide context of the section form.
-
-By placing the headings next to the settings form content it will shorten the overall page height.
 
 <todo>Add diagram of how many columns this layout will take up</todo>
 
