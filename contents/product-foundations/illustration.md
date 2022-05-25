@@ -22,7 +22,7 @@ To better support reuse, the [illustration library](https://www.figma.com/file/1
 
 <figure class="figure" role="figure" aria-label="Elements come together as part of a larger illustration.">
   <img class="figure-img p-a-5" src="/img/illus-reuse.svg" alt="Illustration elements and components assembled into larger illustration" role="img" />
-  <figcaption class="figure-caption">An element and components combine as part of a larger illustration.</figcaption>
+  <figcaption class="figure-caption">Elements come together as part of a larger illustration.</figcaption>
 </figure>
 
 By combining a multipurpose mindset with reusable components, the time it takes to create a new illustration, and the resulting number of illustrations, should both be reduced. This is a win both for designers, and users where time and consistency matters.
