@@ -69,6 +69,42 @@ Consider making configuration options more discoverable to users by linking to s
 - Place it at the page-level, in the top right corner of the page, below the breadcrumbs. This sets the expectation that the settings apply to the page as a whole.
 - Navigate to the specific configuration section of that page in the settings area. Doing so makes the result of clicking the button predictable and prevents users from needing to navigate away from their task. For example, navigating via the Package Registry page will end up on the **Settings > Packages & Registries** section of settings.
 
+## Layout
+
+Settings can be displayed in two ways:
+
+- Side by side
+- Stacked
+
+### Side by side
+
+The side by side layout puts the settings content in a smaller width area when the screen is greater than the `lg` breakpoint (> 992px).
+
+This allows the form content to fit the optimal width at larger screen widths while utilizing white space efficiently.
+
+<todo>Add example of form input at full width versus side by side</todo>
+
+The headings of search section will be placed on the left side. Each section may have an optional description to describe the content.
+
+When scrolling, the headings of each section should remain sticky to provide context of the section form.
+
+By placing the headings next to the settings form content it will shorten the overall page height.
+
+<todo>Add diagram of how many columns this layout will take up</todo>
+
+This layout when the user preference is set to `fluid`, this layout will ignore that setting and will have a max width of 1200px to maintain optimal form input sizes.
+
+### Stacked
+
+For breakpoints less than equal to the `lg` breakpoint (≤ 992px), the form section heading and description will be stacked on top of the form content.
+
+### Mixed layout
+
+There are times when settings form content is not able to fit in the side by side layout. The resolution to these cases are:
+
+- Display that content in the full width area
+- Make the group responsible for that settings section aware that they will need to redesign that section to conform to the general pattern
+
 ## Design specifications
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
