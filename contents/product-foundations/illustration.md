@@ -25,7 +25,7 @@ To better support reuse, the [illustration library](https://www.figma.com/file/1
   <figcaption class="figure-caption">Elements come together as part of a larger illustration.</figcaption>
 </figure>
 
-By combining a multipurpose mindset with reusable components, the time it takes to create a new illustration, and the resulting number of illustrations, should both be reduced. This is a win both for designers, and users where time and consistency matters.
+By combining a multipurpose mindset with reusable components, the time it takes to create a new illustration, and the resulting number of illustrations, should both be reduced. This is a win both for designers and users where time and consistency matters.
 
 ## Style
 
@@ -38,7 +38,7 @@ Use [brand colors](/brand-design/color) to create continuity with the larger Git
 All shapes have a solid fill, or overlap an element with a fill, so that they remain visible against any background color.
 
 - White is used for a majority of fills.
-- Purple 01p can be used to highlight the main ‘action’ or emphasis of the illustration, but it's not required.
+- Purple 01p may be used to highlight the main ‘action’ or emphasis of the illustration.
 - Primary oranges and Purple 02p are used sparingly in favor of the secondary palette.
 - Secondary purples are used for background fills and muted elements. Note that muted elements will appear much stronger on a dark surface unless place on or over a container with a lighter fill.
 - Teals are useful to communicate positive actions or success.
@@ -53,7 +53,7 @@ All shapes have a solid fill, or overlap an element with a fill, so that they re
 A stroke encapsulates most elements and is used for line work and depicting motion or action.
 
 - All strokes use a **2px** weight and are aligned to the center or inside of the shape.
-- A dashed stroke makes connections and infers empty or unpopulated elements.
+- A dashed stroke makes connections and conveys empty or unpopulated elements.
 - A line uses square caps. Miter line joins are the default, but a bevel can be used if the resulting point is too extreme.
 - Charcoal is used for object strokes and small fill areas. Note that these strokes may not be visible on a dark surface and in most cases should overlap a background container.
 - Purple 04s can be used on strokes that make connections, depict motion, or represent unpopulated elements.
