@@ -52,11 +52,11 @@ All shapes have a solid fill, or overlap an element with a fill, so that they re
 
 A stroke encapsulates most elements and is used for line work and depicting motion or action.
 
-- Charcoal is used for object strokes and small fill areas. Note that these strokes may not be visible on a dark surface and in most cases should overlap a background container.
-- Purple 04s can be used on strokes that make connections, depict motion, or represent unpopulated elements.
 - All strokes use a **2px** weight and are aligned to the center or inside of the shape.
 - A dashed stroke makes connections and infers empty or unpopulated elements.
 - A line uses square caps. Miter line joins are the default, but a bevel can be used if the resulting point is too extreme.
+- Charcoal is used for object strokes and small fill areas. Note that these strokes may not be visible on a dark surface and in most cases should overlap a background container.
+- Purple 04s can be used on strokes that make connections, depict motion, or represent unpopulated elements.
 
 <div class="figma-embed" aria-label="Stroke color palette and styles" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2XRq1MnIG69iti76Mh9HpJ%2FPajamas-visual-examples%3Fpage-id%3D947%253A12232%26node-id%3D1018%253A12285%26viewport%3D241%252C48%252C1%26scaling%3Dmin-zoom%26starting-point-node-id%3D1018%253A12285%26hotspot-hints%3D0" allowfullscreen></iframe>
