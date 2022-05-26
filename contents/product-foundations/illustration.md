@@ -29,20 +29,20 @@ By combining a multipurpose mindset with reusable components, the time it takes 
 
 ## Style
 
-The product illustration style is a derivative of the [GitLab Brand Design marketing illustrations](/brand-design/marketing-illustrations), and is designed to work both in light and dark UI by placing most objects in a container and using solid fills.
+Product illustration style derives from the [GitLab Brand Design marketing illustrations](/brand-design/marketing-illustrations) guidelines. It's designed to work in both light and dark UI by placing most objects in or above containers with solid fills.
 
-[Brand colors](/brand-design/color) are used intentionally, with white, charcoal, and purple used most frequently. The remaining colors in the brand palette are used to highlight and accent objects within an illustration. Specific uses are listed below.
+Use [brand colors](/brand-design/color) to create continuity with the larger GitLab brand. White, charcoal, and purple are used most frequently; the remaining colors are used to highlight and accent objects within an illustration. Specific uses are listed below.
 
 ### Fill
 
-All shapes have a solid fill or are placed over an element with a fill, even if a stroke doesn't fully contain it.
+All shapes have a solid fill, or overlap an element with a fill, so that they remain visible against any background color.
 
 - White is used for a majority of fills.
-- Purple 01p can be used for the main ‘action’, but not required.
-- Secondary purples are used for background fills and muted elements. Note that muted elements will appear much stronger on a dark surface unless place on or over a container with a lighter fill.
-- Teals are good for positive actions or to represent success.
-- The remaining colors in the secondary palette are used as highlights, shadows, and accents to differentiate objects within the illustration.
+- Purple 01p can be used to highlight the main ‘action’ or emphasis of the illustration, but it's not required.
 - Primary oranges and Purple 02p are used sparingly in favor of the secondary palette.
+- Secondary purples are used for background fills and muted elements. Note that muted elements will appear much stronger on a dark surface unless place on or over a container with a lighter fill.
+- Teals are useful to communicate positive actions or success.
+- The remaining colors in the secondary palette are used as highlights, shadows, and accents to differentiate objects within the illustration.
 
 <div class="figma-embed" aria-label="Illustration color palette" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2XRq1MnIG69iti76Mh9HpJ%2FPajamas-visual-examples%3Fpage-id%3D947%253A12232%26node-id%3D947%253A12407%26viewport%3D241%252C48%252C1%26scaling%3Dmin-zoom%26starting-point-node-id%3D947%253A12407%26hotspot-hints%3D0" allowfullscreen></iframe>
@@ -54,11 +54,9 @@ A stroke encapsulates most elements and is used for line work and depicting moti
 
 - Charcoal is used for object strokes and small fill areas. Note that these strokes may not be visible on a dark surface and in most cases should overlap a background container.
 - Purple 04s can be used on strokes that make connections, depict motion, or represent unpopulated elements.
-- All strokes use a **2px** weight.
+- All strokes use a **2px** weight and are aligned to the center or inside of the shape.
 - A dashed stroke makes connections and infers empty or unpopulated elements.
-- A line uses square caps.
-- Miter line joins are the default, but a bevel can be used if the resulting point is too extreme.
-- Align the stroke to the center or inside of the shape.
+- A line uses square caps. Miter line joins are the default, but a bevel can be used if the resulting point is too extreme.
 
 <div class="figma-embed" aria-label="Stroke color palette and styles" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2XRq1MnIG69iti76Mh9HpJ%2FPajamas-visual-examples%3Fpage-id%3D947%253A12232%26node-id%3D1018%253A12285%26viewport%3D241%252C48%252C1%26scaling%3Dmin-zoom%26starting-point-node-id%3D1018%253A12285%26hotspot-hints%3D0" allowfullscreen></iframe>
@@ -71,7 +69,7 @@ An illustration is primarily comprised of geometric shapes. Use circles, rectang
 ### Border radius
 
 - Corners and angles have no border radius by default, but a border radius between **4px** to **16px** can be used for softer, rounded objects.
-- In many cases an **8px** border radius is applied to the bottom right angle to create an upward sweep with a bit of personality.
+- When possible, apply a border radius to the bottom right corner of a shape to create an upward sweep and add a bit of personality.
 
 ### Content
 
