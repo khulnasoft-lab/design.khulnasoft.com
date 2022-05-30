@@ -63,7 +63,7 @@ In some cases users might need to reference additional information for completin
 - When the content is too long to show in a tooltip or popover.
 - When the content is short enough to comfortably read in the drawer.
 
-### When not to use help drawers
+### When not to use a drawer
 
 - When help content is a necessary part of the flow for completing a specific task, consider using a [modal](/components/modal) instead.
 - When help content is short enough, consider using a [popover](/components/popover) and/or linking to the documentation instead.
