@@ -84,7 +84,7 @@ When the content can be pulled into the drawer from documentation without hurtin
 
 When writing custom content, use the [documentation topic types guidelines](https://docs.gitlab.com/ee/development/documentation/structure.html) and general [drawer content guidelines](/components/drawer/#content). You should collaborate with a technical writer when defining the content, and a technical writer review is required on related merge requests.
 
-### Linking to documentation in help drawers
+### Linking to documentation in a drawer
 
 Links to the documentation should be used sparingly since our goal is to present the necessary reference information in the UI. If you need to link to additional documentation, add one link at the end of the drawer content so users can learn more if they found the drawer content insufficient.
 
