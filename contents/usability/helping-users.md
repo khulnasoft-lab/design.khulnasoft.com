@@ -66,7 +66,8 @@ In some cases users might need to reference additional information for completin
 ### When not to use a drawer
 
 - When help content is a necessary part of the flow for completing a specific task, consider using a [modal](/components/modal) instead.
-- When help content is short enough, consider using a [popover](/components/popover) and/or linking to the documentation instead.
+- When help content is short enough, consider using a [popover](/components/popover).
+- When help content is too long to comfortable ready in a drawer, consider linking to the documentation instead.
 
 ### Content guidelines
 
