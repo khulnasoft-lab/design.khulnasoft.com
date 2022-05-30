@@ -96,4 +96,4 @@ It's not required to localize the help drawer content.
 
 For general guidelines follow the [drawer behavior documentation.](components/drawer/#behavior) 
 
-- Help drawer trigger should be specific to the content of the drawer. For example, a "Syntax options" link opens a help drawer with syntax options documentation.
+- The trigger that opens the drawer should be specific to the content it contains. For example, a "Syntax options" link opens a drawer with syntax options documentation.
