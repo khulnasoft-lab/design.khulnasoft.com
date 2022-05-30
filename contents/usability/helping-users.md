@@ -88,7 +88,7 @@ When writing custom content, use the [documentation topic types guidelines](http
 
 Links to the documentation should be used sparingly since our goal is to present the necessary reference information in the UI. If you need to link to additional documentation, add one link at the end of the drawer content so users can learn more if they found the drawer content insufficient.
 
-### Localization of Help Drawer content
+### Localization of drawer content
 
 It's not required to localize the help drawer content.
 
