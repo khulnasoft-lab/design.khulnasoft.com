@@ -92,7 +92,7 @@ Links to the documentation should be used sparingly since our goal is to present
 
 It's not required to localize the help drawer content.
 
-### Help Drawer behavior
+### Behavior
 
 For general guidelines follow the [drawer behavior documentation.](components/drawer/#behavior) 
 
