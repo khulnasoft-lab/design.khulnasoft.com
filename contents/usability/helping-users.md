@@ -97,3 +97,4 @@ It's not required to localize the help drawer content.
 For general guidelines follow the [drawer behavior documentation.](components/drawer/#behavior) 
 
 - The trigger that opens the drawer should be specific to the content it contains. For example, a "Syntax options" link opens a drawer with syntax options documentation.
+- Both text and icon buttons can be used as the drawer trigger depending on the context. In either case it should be clear from the visible text or aria-label (for icons) that help will be provided.
