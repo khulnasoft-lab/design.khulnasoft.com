@@ -68,9 +68,9 @@ In some cases users might need to reference additional information for completin
 - When help content is a necessary part of the flow for completing a specific task, consider using a [modal](/components/modal) instead.
 - When help content is short enough, consider using a [popover](/components/popover) and/or linking to the documentation instead.
 
-### Help drawer content guidelines
+### Content guidelines
 
-Help drawer content should always be related to a specific context or task in the UI. The drawer header should reflect the context or task the user is performing.
+Drawer content should always be related to a specific context or task in the UI. The drawer header should reflect the context or task the user is performing.
 
 Drawer content is stored as Markdown in the GitLab repository `/doc` directory, rather than hard-coded in the product code. The drawer content is either:
 
