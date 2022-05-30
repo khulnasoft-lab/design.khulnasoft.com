@@ -56,7 +56,7 @@ If that's not possible and space is tight, use the [help icon](http://gitlab-org
 
 In some cases users might need to reference additional information for completing a task in the UI. When the content length allows, we can surface such information using the [drawer](/components/drawer) component.
 
-### When to use help drawers
+### When to use a drawer
 
 - When the help information is supplemental and not critical to the completion of a task.
 - When we expect the user to reference that information while performing tasks in the UI.
