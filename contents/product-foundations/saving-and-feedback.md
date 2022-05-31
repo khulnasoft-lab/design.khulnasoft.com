@@ -61,11 +61,13 @@ Think twice before applying to data that might have financial, security, or priv
 
 ## Instant feedback
 
-Instant feedback, also known as optimistic UI or eager execution, simply means that we show the expected result of a successfully saved change even before that change has actually been saved—we anticipate that the change will be saved successfully so we show it in the UI immediately. This has a positive impact on the perceived speed of the application. An example of a case when a successful result is expected is changing the assignee on an issue.
+Instant feedback, also known as optimistic UI or eager execution, simply means that we show the expected result of a successfully saved change even before that change has actually been saved— we anticipate that the change will be saved successfully so we show it in the UI immediately. This has a positive impact on the perceived speed of the application. An example of a case when a successful result is expected is changing the assignee on an issue.
 
 The new information should be reflected in the UI immediately but we should also indicate that there's background activity for actually saving the change. To do that, we should combine a change in the new information’s opacity (50% until successfully saved) and the use of a [spinner](/components/spinner).
 
 Once the change is successfully saved, the opacity changes to 100% and the spinner disappears. There is no way of handling errors for such cases, we keep persisting until it gets successfully saved. To avoid loss of progress and changes, this method can be complemented with a [safety measure](#safety-measure) similar to the one described above: if changes aren’t successfully changed when the user tries to close the page, show a warning.
+
+Successful changes should be confirmed with a [toast](/components/toast) notification.
 
 <todo>Add live component block with code example (example of newly added info as designed in [this issue](https://gitlab.com/gitlab-org/gitlab-design/issues/121#round-trip-server-processing-versus-instant-feedback))</todo>
 
