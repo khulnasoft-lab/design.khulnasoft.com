@@ -41,7 +41,6 @@ related:
 ### When to use
 
 - Advise the user that they should be aware of, or address something related to their current context.
-- Reaffirm to the user that a prior action, likely in a different location or context, has been successful.
 - Educate the user about new or unused feature, or information related to their current context.
 - In combination with form validation to help users remedy errors. See the [accessibility](#accessibility) section for more.
 
