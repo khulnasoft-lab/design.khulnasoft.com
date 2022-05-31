@@ -32,6 +32,7 @@ related:
 ### When to use
 
 - Provide a contextual message based on a user's action in the same view the action took place.
+- Reaffirm to the user that a prior action has been successful.
 
 ### When not to use
 
