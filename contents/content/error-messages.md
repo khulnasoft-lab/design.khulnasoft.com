@@ -21,15 +21,15 @@ Describe the error message and always inform users what has happened, and how to
 
 An error message should be helpful and clear. Overly friendly tone of voice can be perceived as careless in the context of error resolution, especially if the error can't be easily resolved by the user.
 
-Use messages like:
+Avoid using messages like:
+
+- Whoops, GitLab is currently unavailable.
+
+Instead, use messages like:
 
 - An error occurred while importing the project to GitLab. For more information, see how to [import your project from GitHub to GitLab](https://docs.gitlab.com/ee/user/project/import/github.html).
 - The project name must be 40 characters or fewer.
 - Your email is required to sign up with GitLab.
-
-Don't use messages like:
-
-- Whoops, GitLab is currently unavailable.
 
 ### Specific
 
