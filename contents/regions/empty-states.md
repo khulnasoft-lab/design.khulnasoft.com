@@ -37,6 +37,7 @@ A `Blank content` empty state serves as a placeholder when no content exists on 
 
 - Appears when no content exists within a configured feature.
 - Contains a method for creating content.
+- Don’t hide the default page UI when using this empty state if lazy loading is used to load content or if there’s archived content on the page that is accessed through the UI.
 
 #### Content
 
@@ -46,16 +47,6 @@ Examples:
 
 - `Monitor vulnerabilities in your project`
 - `Get started with monitoring`
-
-#### Considerations
-
-##### Archived content
-
-It’s ok to hide most, if not all, of the UI that would be displayed if there was some content. This helps emphasize the next action that a user should perform. But not all Blank content empty states are the same. Some don’t have any content because all of it was archived. If there’s a benefit for users to be able to see that archived content, the regular UI should be shown instead of the empty state.
-
-##### Technical implementation
-
-Sometimes, content is lazy loaded, which means it’s impossible for the system to know if an empty state should be used until a user clicks on a certain element that would lazy load some content that isn’t initially shown. Be sure to check with engineers how interactions on a page in question work before you decide to hide the UI in favor of showing an empty state.
 
 ### Configuration required
 
