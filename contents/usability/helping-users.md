@@ -80,6 +80,8 @@ Drawer content is stored as Markdown in the GitLab repository `/doc` directory, 
 
 [This merge request](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/82516) shows an example of how to pull docs content into a drawer.
 
+<todo>Add a live example.</todo>
+
 When the content can be pulled into the drawer from documentation without hurting the legibility of content, then pull it directly from the documentation. When content is too long or is formatted in a way that hurts the legibility of content, then customize the content and store it in a markdown file.
 
 When writing custom content, use the [documentation topic types guidelines](https://docs.gitlab.com/ee/development/documentation/structure.html) and general [drawer content guidelines](/components/drawer/#content). You should collaborate with a technical writer when defining the content, and a technical writer review is required on related merge requests.
