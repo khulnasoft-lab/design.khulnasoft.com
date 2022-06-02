@@ -10,7 +10,7 @@ html {
   margin: 0;
 }
 
-html {
+:root {
   --default-fg: #{$gray-950};
   --default-bg: #{$white};
   --inverse-fg: var(--default-bg);
