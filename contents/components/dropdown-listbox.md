@@ -60,7 +60,7 @@ A [button](/components/button) that triggers a listbox comes in a few variants t
 
 Error validation is shown inline and may happen in real-time or on submission if used in a form. Real-time validation should help a user understand and remedy the error if possible.
 
-Validation should always be visible and not placed in a tooltip. The validation message is placed directly below the trigger element and that element should also have an error state.
+A validation message should always be visible and not placed in a tooltip. The message is placed directly below the trigger element, similar to [form validation](/components/form/#validation), and both are presented in an error state, which changes the text and border color of the trigger element to red.
 
 ### Content
 
