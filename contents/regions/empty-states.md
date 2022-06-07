@@ -37,7 +37,7 @@ A `Blank content` empty state serves as a placeholder when no content exists on 
 
 - Appears when no content exists within a configured feature.
 - Contains a method for creating content.
-- Avoid hiding page elements if lazy loading is populating content or if there’s content on the page that is accessible.
+- Hides unnecessary UI elements unless lazy loading is populating content or there's content on the page that’s hidden but accessible through the UI (for example, archived content).
 
 #### Content
 
