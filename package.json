@@ -39,7 +39,10 @@
     "iframe-resizer": "^4.3.2",
     "nuxt": "2.15.8",
     "pikaday": "1.8.0",
-    "vue-gtag": "^1.16.1"
+    "vue": "2.6.14",
+    "vue-gtag": "^1.16.1",
+    "vue-server-renderer": "2.6.14",
+    "vuex": "3"
   },
   "devDependencies": {
     "@arkweid/lefthook": "^0.7.7",
@@ -55,7 +58,7 @@
     "sass": "^1.26.3",
     "sass-loader": "^8.0.2",
     "vue-jest": "^3.0.7",
-    "vue-template-compiler": "2.6.12"
+    "vue-template-compiler": "2.6.14"
   },
   "resolutions": {
     "chokidar": "3.5.3",
