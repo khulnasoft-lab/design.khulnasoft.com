@@ -96,7 +96,7 @@ Not all illustrations will have multiple objects or objects that need to align t
 
 <figure class="figure" role="figure" aria-label="Focal point grid sizes: large, medium, and small">
   <img class="figure-img p-a-5" src="/img/illus-focal-point.svg" alt="Large, medium, and small focal point grid sizes" role="img" />
-  <figcaption class="figure-caption">Focal point grid sizes: large, medium, small and extra small</figcaption>
+  <figcaption class="figure-caption">Focal point grid sizes: large, medium, small, and extra small</figcaption>
 </figure>
 
 <figure class="figure" role="figure" aria-label="Focal point grid example">
