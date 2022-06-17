@@ -17,7 +17,7 @@ name: GitLab Accessibility Conformance Report
 
 This report covers the degree of conformance for the following accessibility standard/guidelines:
 
-<table class="m-b-6">
+<table class="gl-mb-6">
   <thead>
     <tr>
       <th>Standard/Guideline</th>
@@ -71,7 +71,7 @@ Tables 1 and 2 also document conformance with Revised Section 508:
 
 ### Table 1: Success Criteria, Level A
 
-<table class="m-b-6">
+<table class="gl-mb-6">
   <thead>
     <tr>
       <th>Criteria</th>
