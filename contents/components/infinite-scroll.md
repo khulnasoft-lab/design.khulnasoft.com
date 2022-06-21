@@ -38,7 +38,7 @@ related:
 
 ### When not to use
 
-- If a list is **more than 20** items long, consider using [pagination](/components/pagination).
+- If a list has to load **more than 20 items at a time**, consider using [pagination](/components/pagination).
 
 ### Behavior
 
