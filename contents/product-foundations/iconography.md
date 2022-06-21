@@ -294,6 +294,12 @@ The level of visual weight from heavy to light is: **Icon + label > Icon > label
 
 Todo: Add live component block with code example
 
+### Icon definitions
+
+Some icons should be consistently used for certain cases. When deciding which icon to use, consider using:
+
+- [Pencil](https://gitlab-org.gitlab.io/gitlab-svgs/?q=pencil) for editing or updating an item.
+
 ### Referencing icons in code
 
 For more information on how icons are referenced in the product, go to [GitLab Docs - Icons and SVG Illustrations](https://docs.gitlab.com/ee/development/fe_guide/icons.html).

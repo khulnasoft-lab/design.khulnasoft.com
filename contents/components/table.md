@@ -96,7 +96,7 @@ fields: [
 #### Additional actions
 
 - Table rows can include additional actions located in their far-right column.
-  - If one of the actions indicates the ability to edit an object in the table row, use the [pencil](https://gitlab-org.gitlab.io/gitlab-svgs/?q=pencil) icon.
+  - When the action is to edit/update an object in the table row, use the [pencil](https://gitlab-org.gitlab.io/gitlab-svgs/?q=pencil) icon.
 - These actions should be visible at all times rather than showing on-hover. 
 - If there are two or more actions in a table row, consider using a button group or a [“more menu” button](/components/button#ellipsis) with a dropdown list option.
 
