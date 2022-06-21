@@ -297,7 +297,6 @@ Todo: Add live component block with code example
 ### Icon definitions
 
 Some icons should be consistently used for certain cases. When deciding which icon to use, consider using:
-
 - [Pencil](https://gitlab-org.gitlab.io/gitlab-svgs/?q=pencil) for editing or updating an item.
 
 ### Referencing icons in code
