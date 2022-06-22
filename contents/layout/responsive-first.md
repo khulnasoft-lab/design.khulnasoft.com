@@ -16,5 +16,4 @@ Individual lines of text can be truncated with an ellipsis when length or wrappi
 
 ## Visual affordance
 
-Similar to how an ellipsis provides a visual indicator for text truncation, providing visual affordance for other components and content helps a user understand when there's a behavior that allows them to access additional content or controls. Examples include a scrim (gradient overlay) at the bottom of a [dropdown](/components/dropdown) panel to indicate scrolling or arrows to access offscreen tabs.
-
+Similar to how an ellipsis provides a visual indicator for text truncation, providing visual affordance for other components and content helps a user understand when there's a behavior that allows them to access additional content or controls. Examples include a scrim (gradient overlay) at the bottom of a [dropdown](/components/dropdown-menu) panel to indicate scrolling or arrows to access offscreen tabs.
