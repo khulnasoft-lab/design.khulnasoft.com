@@ -24,67 +24,67 @@ Because the `500` step has at least a 3:1 contrast ratio on both light and dark 
     <h4 id="set-blue">Blue</h4>
     <div class="distributed palette">
       <div class="color">
-        <div class="color-overview data-viz-blue-50 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-blue-50 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-blue-50</span>
           <span class="hex f-small">#e9ebff</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-blue-100 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-blue-100 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-blue-100</span>
           <span class="hex f-small">#d4dcfa</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-blue-200 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-blue-200 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-blue-200</span>
           <span class="hex f-small">#b7c6ff</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-blue-300 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-blue-300 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-blue-300</span>
           <span class="hex f-small">#97acff</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-blue-400 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-blue-400 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-blue-400</span>
           <span class="hex f-small">#748eff</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-blue-500 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-blue-500 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-blue-500</span>
           <span class="hex f-small f-inverted">#5772ff</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-blue-600 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-blue-600 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-blue-600</span>
           <span class="hex f-small f-inverted">#445cf2</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-blue-700 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-blue-700 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-blue-700</span>
           <span class="hex f-small f-inverted">#3547de</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-blue-800 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-blue-800 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-blue-800</span>
           <span class="hex f-small f-inverted">#232fcf</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-blue-900 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-blue-900 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-blue-900</span>
           <span class="hex f-small f-inverted">#1e23a8</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-blue-950 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-blue-950 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-blue-950</span>
           <span class="hex f-small f-inverted">#11118a</span>
         </div>
@@ -96,67 +96,67 @@ Because the `500` step has at least a 3:1 contrast ratio on both light and dark 
     <h4 id="set-orange">Orange</h4>
     <div class="distributed palette">
       <div class="color">
-        <div class="color-overview data-viz-orange-50 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-orange-50 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-orange-50</span>
           <span class="hex f-small">#fae8d1</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-orange-100 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-orange-100 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-orange-100</span>
           <span class="hex f-small">#f7d8b5</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-orange-200 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-orange-200 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-orange-200</span>
           <span class="hex f-small">#f3c291</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-orange-300 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-orange-300 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-orange-300</span>
           <span class="hex f-small">#eb9a5c</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-orange-400 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-orange-400 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-orange-400</span>
           <span class="hex f-small">#e17223</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-orange-500 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-orange-500 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-orange-500</span>
           <span class="hex f-small f-inverted">#d14e00</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-orange-600 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-orange-600 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-orange-600</span>
           <span class="hex f-small f-inverted">#b24800</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-orange-700 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-orange-700 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-orange-700</span>
           <span class="hex f-small f-inverted">#944100</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-orange-800 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-orange-800 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-orange-800</span>
           <span class="hex f-small f-inverted">#6f3500</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-orange-900 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-orange-900 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-orange-900</span>
           <span class="hex f-small f-inverted">#5c2b00</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-orange-950 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-orange-950 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-orange-950</span>
           <span class="hex f-small f-inverted">#421e00</span>
         </div>
@@ -168,67 +168,67 @@ Because the `500` step has at least a 3:1 contrast ratio on both light and dark 
     <h4 id="set-aqua">Aqua</h4>
     <div class="distributed palette">
       <div class="color">
-        <div class="color-overview data-viz-aqua-50 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-aqua-50 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-aqua-50</span>
           <span class="hex f-small">#b8fff2</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-aqua-100 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-aqua-100 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-aqua-100</span>
           <span class="hex f-small">#93fae7</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-aqua-200 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-aqua-200 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-aqua-200</span>
           <span class="hex f-small">#5eebdf</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-aqua-300 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-aqua-300 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-aqua-300</span>
           <span class="hex f-small">#25d2d2</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-aqua-400 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-aqua-400 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-aqua-400</span>
           <span class="hex f-small">#0bb6c6</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-aqua-500 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-aqua-500 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-aqua-500</span>
           <span class="hex f-small f-inverted">#0094b6</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-aqua-600 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-aqua-600 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-aqua-600</span>
           <span class="hex f-small f-inverted">#0080a1</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-aqua-700 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-aqua-700 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-aqua-700</span>
           <span class="hex f-small f-inverted">#006887</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-aqua-800 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-aqua-800 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-aqua-800</span>
           <span class="hex f-small f-inverted">#004d67</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-aqua-900 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-aqua-900 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-aqua-900</span>
           <span class="hex f-small f-inverted">#003f57</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-aqua-950 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-aqua-950 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-aqua-950</span>
           <span class="hex f-small f-inverted">#00293d</span>
         </div>
@@ -240,67 +240,67 @@ Because the `500` step has at least a 3:1 contrast ratio on both light and dark 
     <h4 id="set-green">Green</h4>
     <div class="distributed palette">
       <div class="color">
-        <div class="color-overview data-viz-green-50 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-green-50 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-green-50</span>
           <span class="hex f-small">#ddfab7</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-green-100 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-green-100 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-green-100</span>
           <span class="hex f-small">#c9f097</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-green-200 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-green-200 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-green-200</span>
           <span class="hex f-small">#b0de73</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-green-300 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-green-300 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-green-300</span>
           <span class="hex f-small">#94c25e</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-green-400 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-green-400 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-green-400</span>
           <span class="hex f-small">#83ab4a</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-green-500 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-green-500 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-green-500</span>
           <span class="hex f-small f-inverted">#608b2f</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-green-600 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-green-600 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-green-600</span>
           <span class="hex f-small f-inverted">#487900</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-green-700 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-green-700 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-green-700</span>
           <span class="hex f-small f-inverted">#366800</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-green-800 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-green-800 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-green-800</span>
           <span class="hex f-small f-inverted">#275600</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-green-900 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-green-900 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-green-900</span>
           <span class="hex f-small f-inverted">#1a4500</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-green-950 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-green-950 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-green-950</span>
           <span class="hex f-small f-inverted">#0f3300</span>
         </div>
@@ -312,67 +312,67 @@ Because the `500` step has at least a 3:1 contrast ratio on both light and dark 
     <h4 id="set-magenta">Magenta</h4>
     <div class="distributed palette">
       <div class="color">
-        <div class="color-overview data-viz-magenta-50 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-magenta-50 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-magenta-50</span>
           <span class="hex f-small">#ffe3eb</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-magenta-100 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-magenta-100 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-magenta-100</span>
           <span class="hex f-small">#ffc9d9</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-magenta-200 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-magenta-200 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-magenta-200</span>
           <span class="hex f-small">#fcacc5</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-magenta-300 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-magenta-300 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-magenta-300</span>
           <span class="hex f-small">#ff85af</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-magenta-400 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-magenta-400 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable">$data-viz-magenta-400</span>
           <span class="hex f-small">#f2639a</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-magenta-500 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-magenta-500 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-magenta-500</span>
           <span class="hex f-small f-inverted">#d84280</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-magenta-600 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-magenta-600 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-magenta-600</span>
           <span class="hex f-small f-inverted">#c52c6b</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-magenta-700 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-magenta-700 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-magenta-700</span>
           <span class="hex f-small f-inverted">#b31756</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-magenta-800 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-magenta-800 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-magenta-800</span>
           <span class="hex f-small f-inverted">#950943</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-magenta-900 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-magenta-900 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-magenta-900</span>
           <span class="hex f-small f-inverted">#7a0033</span>
         </div>
       </div>
       <div class="color">
-        <div class="color-overview data-viz-magenta-950 gl-pt-3 p-r-5 p-b-3 p-l-5">
+        <div class="color-overview data-viz-magenta-950 gl-pt-3 p-r-5 gl-pb-3 p-l-5">
           <span class="variable f-inverted">$data-viz-magenta-950</span>
           <span class="hex f-small f-inverted">#570028</span>
         </div>
