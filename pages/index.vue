@@ -45,7 +45,7 @@
       </div>
       <img src="../assets/images/cover-gradient.png" class="banner__image animated" />
     </div>
-    <div class="gl-pt-13 p-b-10">
+    <div class="gl-pt-13 gl-pb-13">
       <div class="content limited distributed contributing-box__content">
         <div class="contribute-row">
           <div class="contribute-copy">
@@ -96,7 +96,7 @@
         </div>
       </div>
     </div>
-    <div class="gl-pt-6 p-b-10">
+    <div class="gl-pt-6 gl-pb-13">
       <div class="content limited distributed contributing-box__content">
         <div class="contribute-row">
           <div class="contribute-copy">
