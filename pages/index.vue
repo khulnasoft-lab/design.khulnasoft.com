@@ -114,7 +114,7 @@
             </p>
           </div>
           <div class="contribute-img text-center">
-            <img src="../assets/images/pajamas_stars.svg" class="p-a-10" />
+            <img src="../assets/images/pajamas_stars.svg" class="gl-p-13" />
           </div>
         </div>
         <div class="row gl-mt-9">
