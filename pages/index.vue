@@ -70,7 +70,7 @@
             <img
               src="../assets/images/contribute.png"
               srcset="../assets/images/contribute@2x.png 2x"
-              class="p-a-8"
+              class="gl-p-9"
             />
           </div>
         </div>
@@ -80,7 +80,7 @@
       <div class="content limited distributed contributing-box__content">
         <div class="contribute-row">
           <div class="contribute-img text-center">
-            <img src="../assets/images/content.svg" class="p-a-8" />
+            <img src="../assets/images/content.svg" class="gl-p-9" />
           </div>
           <div class="contribute-copy">
             <h2>Everything you need</h2>
