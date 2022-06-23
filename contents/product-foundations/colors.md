@@ -28,10 +28,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-blue-50 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-blue-50 c-border-blue-50 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-50 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (18.6)</div>
-            <div class="f-inverted d-inline-block c-background-blue-50 c-border-blue-50 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-50 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.1)</div>
+            <div class="d-inline-block c-background-blue-50 c-border-blue-50 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-50 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (18.6)</div>
+            <div class="f-inverted d-inline-block c-background-blue-50 c-border-blue-50 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-50 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.1)</div>
           </div>
         </div>
       </div>
@@ -43,10 +43,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-blue-100 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-blue-100 c-border-blue-100 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-100 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (15.7)</div>
-            <div class="f-inverted d-inline-block c-background-blue-100 c-border-blue-100 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-100 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.3)</div>
+            <div class="d-inline-block c-background-blue-100 c-border-blue-100 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-100 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (15.7)</div>
+            <div class="f-inverted d-inline-block c-background-blue-100 c-border-blue-100 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-100 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.3)</div>
           </div>
         </div>
       </div>
@@ -58,10 +58,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-blue-200 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-blue-200 c-border-blue-200 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-200 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (11.8)</div>
-            <div class="f-inverted d-inline-block c-background-blue-200 c-border-blue-200 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-200 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.7)</div>
+            <div class="d-inline-block c-background-blue-200 c-border-blue-200 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-200 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (11.8)</div>
+            <div class="f-inverted d-inline-block c-background-blue-200 c-border-blue-200 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-200 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.7)</div>
           </div>
         </div>
       </div>
@@ -73,10 +73,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-blue-300 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-blue-300 c-border-blue-300 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-300 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (8.1)</div>
-            <div class="f-inverted d-inline-block c-background-blue-300 c-border-blue-300 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-300 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (2.5)</div>
+            <div class="d-inline-block c-background-blue-300 c-border-blue-300 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-300 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (8.1)</div>
+            <div class="f-inverted d-inline-block c-background-blue-300 c-border-blue-300 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-300 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (2.5)</div>
           </div>
         </div>
       </div>
@@ -88,10 +88,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-blue-400 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-blue-400 c-border-blue-400 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-400 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA (6.1)</div>
-            <div class="f-inverted d-inline-block c-background-blue-400 c-border-blue-400 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-400 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.3)</div>
+            <div class="d-inline-block c-background-blue-400 c-border-blue-400 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-400 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA (6.1)</div>
+            <div class="f-inverted d-inline-block c-background-blue-400 c-border-blue-400 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-400 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.3)</div>
           </div>
         </div>
       </div>
@@ -103,10 +103,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-blue-500 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-blue-500 c-border-blue-500 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA+ (4.4)</div>
-            <div class="f-inverted d-inline-block c-background-blue-500 c-border-blue-500 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA (4.7)</div>
+            <div class="d-inline-block c-background-blue-500 c-border-blue-500 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-500 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA+ (4.4)</div>
+            <div class="f-inverted d-inline-block c-background-blue-500 c-border-blue-500 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-500 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA (4.7)</div>
           </div>
         </div>
       </div>
@@ -118,10 +118,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-blue-600 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-blue-600 c-border-blue-600 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-600 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.7)</div>
-            <div class="f-inverted d-inline-block c-background-blue-600 c-border-blue-600 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-600 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA (5.5)</div>
+            <div class="d-inline-block c-background-blue-600 c-border-blue-600 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-600 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.7)</div>
+            <div class="f-inverted d-inline-block c-background-blue-600 c-border-blue-600 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-600 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA (5.5)</div>
           </div>
         </div>
       </div>
@@ -133,10 +133,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-blue-700 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-blue-700 c-border-blue-700 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-700 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.1)</div>
-            <div class="f-inverted d-inline-block c-background-blue-700 c-border-blue-700 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-700 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA (6.6)</div>
+            <div class="d-inline-block c-background-blue-700 c-border-blue-700 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-700 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.1)</div>
+            <div class="f-inverted d-inline-block c-background-blue-700 c-border-blue-700 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-700 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA (6.6)</div>
           </div>
         </div>
       </div>
@@ -148,10 +148,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-blue-800 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-blue-800 c-border-blue-800 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-800 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (2.2)</div>
-            <div class="f-inverted d-inline-block c-background-blue-800 c-border-blue-800 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-800 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (9.3)</div>
+            <div class="d-inline-block c-background-blue-800 c-border-blue-800 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-800 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (2.2)</div>
+            <div class="f-inverted d-inline-block c-background-blue-800 c-border-blue-800 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-800 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (9.3)</div>
           </div>
         </div>
       </div>
@@ -163,10 +163,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-blue-900 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-blue-900 c-border-blue-900 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-900 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.6)</div>
-            <div class="f-inverted d-inline-block c-background-blue-900 c-border-blue-900 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-900 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (12.5)</div>
+            <div class="d-inline-block c-background-blue-900 c-border-blue-900 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-900 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.6)</div>
+            <div class="f-inverted d-inline-block c-background-blue-900 c-border-blue-900 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-900 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (12.5)</div>
           </div>
         </div>
       </div>
@@ -178,10 +178,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-blue-950 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-blue-950 c-border-blue-950 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-950 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.4)</div>
-            <div class="f-inverted d-inline-block c-background-blue-950 c-border-blue-950 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-blue-950 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (14.8)</div>
+            <div class="d-inline-block c-background-blue-950 c-border-blue-950 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-950 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.4)</div>
+            <div class="f-inverted d-inline-block c-background-blue-950 c-border-blue-950 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-blue-950 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (14.8)</div>
           </div>
         </div>
       </div>
@@ -198,10 +198,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-green-50 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-green-50 c-border-green-50 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-green-50 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (18.7)</div>
-            <div class="f-inverted d-inline-block c-background-green-50 c-border-green-50 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-green-50 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.1)</div>
+            <div class="d-inline-block c-background-green-50 c-border-green-50 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-green-50 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (18.7)</div>
+            <div class="f-inverted d-inline-block c-background-green-50 c-border-green-50 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-green-50 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.1)</div>
           </div>
         </div>
       </div>
@@ -213,10 +213,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-green-100 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-green-100 c-border-green-100 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-green-100 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (15.5)</div>
-            <div class="f-inverted d-inline-block c-background-green-100 c-border-green-100 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-green-100 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.3)</div>
+            <div class="d-inline-block c-background-green-100 c-border-green-100 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-green-100 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (15.5)</div>
+            <div class="f-inverted d-inline-block c-background-green-100 c-border-green-100 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-green-100 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.3)</div>
           </div>
         </div>
       </div>
@@ -228,10 +228,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-green-200 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-green-200 c-border-green-200 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-green-200 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (12.1)</div>
-            <div class="f-inverted d-inline-block c-background-green-200 c-border-green-200 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-green-200 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.7)</div>
+            <div class="d-inline-block c-background-green-200 c-border-green-200 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-green-200 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (12.1)</div>
+            <div class="f-inverted d-inline-block c-background-green-200 c-border-green-200 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-green-200 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.7)</div>
           </div>
         </div>
       </div>
@@ -243,10 +243,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-green-300 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-green-300 c-border-green-300 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-green-300 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (8.5)</div>
-            <div class="f-inverted d-inline-block c-background-green-300 c-border-green-300 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-green-300 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (2.4)</div>
+            <div class="d-inline-block c-background-green-300 c-border-green-300 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-green-300 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (8.5)</div>
+            <div class="f-inverted d-inline-block c-background-green-300 c-border-green-300 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-green-300 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (2.4)</div>
           </div>
         </div>
       </div>
@@ -258,10 +258,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-green-400 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-green-400 c-border-green-400 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-green-400 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA (6.3)</div>
-            <div class="f-inverted d-inline-block c-background-green-400 c-border-green-400 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-green-400 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.2)</div>
+            <div class="d-inline-block c-background-green-400 c-border-green-400 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-green-400 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA (6.3)</div>
+            <div class="f-inverted d-inline-block c-background-green-400 c-border-green-400 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-green-400 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.2)</div>
           </div>
         </div>
       </div>
@@ -273,10 +273,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-green-500 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-green-500 c-border-green-500 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-green-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA+ (4.4)</div>
-            <div class="f-inverted d-inline-block c-background-green-500 c-border-green-500 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-green-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA (4.7)</div>
+            <div class="d-inline-block c-background-green-500 c-border-green-500 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-green-500 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA+ (4.4)</div>
+            <div class="f-inverted d-inline-block c-background-green-500 c-border-green-500 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-green-500 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA (4.7)</div>
           </div>
         </div>
       </div>
@@ -288,10 +288,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-green-600 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-green-600 c-border-green-600 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-green-600 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.7)</div>
-            <div class="f-inverted d-inline-block c-background-green-600 c-border-green-600 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-green-600 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA (5.6)</div>
+            <div class="d-inline-block c-background-green-600 c-border-green-600 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-green-600 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.7)</div>
+            <div class="f-inverted d-inline-block c-background-green-600 c-border-green-600 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-green-600 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA (5.6)</div>
           </div>
         </div>
       </div>
@@ -303,10 +303,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-green-700 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-green-700 c-border-green-700 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-green-700 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3)</div>
-            <div class="f-inverted d-inline-block c-background-green-700 c-border-green-700 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-green-700 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA (6.9)</div>
+            <div class="d-inline-block c-background-green-700 c-border-green-700 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-green-700 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3)</div>
+            <div class="f-inverted d-inline-block c-background-green-700 c-border-green-700 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-green-700 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA (6.9)</div>
           </div>
         </div>
       </div>
@@ -318,10 +318,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-green-800 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-green-800 c-border-green-800 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-green-800 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (2.2)</div>
-            <div class="f-inverted d-inline-block c-background-green-800 c-border-green-800 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-green-800 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (9.1)</div>
+            <div class="d-inline-block c-background-green-800 c-border-green-800 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-green-800 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (2.2)</div>
+            <div class="f-inverted d-inline-block c-background-green-800 c-border-green-800 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-green-800 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (9.1)</div>
           </div>
         </div>
       </div>
@@ -333,10 +333,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-green-900 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-green-900 c-border-green-900 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-green-900 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.7)</div>
-            <div class="f-inverted d-inline-block c-background-green-900 c-border-green-900 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-green-900 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (11.8)</div>
+            <div class="d-inline-block c-background-green-900 c-border-green-900 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-green-900 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.7)</div>
+            <div class="f-inverted d-inline-block c-background-green-900 c-border-green-900 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-green-900 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (11.8)</div>
           </div>
         </div>
       </div>
@@ -348,10 +348,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-green-950 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-green-950 c-border-green-950 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-green-950 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.3)</div>
-            <div class="f-inverted d-inline-block c-background-green-950 c-border-green-950 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-green-950 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (15.3)</div>
+            <div class="d-inline-block c-background-green-950 c-border-green-950 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-green-950 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.3)</div>
+            <div class="f-inverted d-inline-block c-background-green-950 c-border-green-950 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-green-950 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (15.3)</div>
           </div>
         </div>
       </div>
@@ -368,10 +368,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-orange-50 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-orange-50 c-border-orange-50 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-50 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (18.8)</div>
-            <div class="f-inverted d-inline-block c-background-orange-50 c-border-orange-50 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-50 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.1)</div>
+            <div class="d-inline-block c-background-orange-50 c-border-orange-50 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-50 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (18.8)</div>
+            <div class="f-inverted d-inline-block c-background-orange-50 c-border-orange-50 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-50 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.1)</div>
           </div>
         </div>
       </div>
@@ -383,10 +383,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-orange-100 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-orange-100 c-border-orange-100 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-100 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (15.3)</div>
-            <div class="f-inverted d-inline-block c-background-orange-100 c-border-orange-100 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-100 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.3)</div>
+            <div class="d-inline-block c-background-orange-100 c-border-orange-100 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-100 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (15.3)</div>
+            <div class="f-inverted d-inline-block c-background-orange-100 c-border-orange-100 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-100 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.3)</div>
           </div>
         </div>
       </div>
@@ -398,10 +398,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-orange-200 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-orange-200 c-border-orange-200 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-200 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (12)</div>
-            <div class="f-inverted d-inline-block c-background-orange-200 c-border-orange-200 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-200 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.7)</div>
+            <div class="d-inline-block c-background-orange-200 c-border-orange-200 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-200 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (12)</div>
+            <div class="f-inverted d-inline-block c-background-orange-200 c-border-orange-200 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-200 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.7)</div>
           </div>
         </div>
       </div>
@@ -413,10 +413,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-orange-300 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-orange-300 c-border-orange-300 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-300 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (8.2)</div>
-            <div class="f-inverted d-inline-block c-background-orange-300 c-border-orange-300 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-300 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (2.5)</div>
+            <div class="d-inline-block c-background-orange-300 c-border-orange-300 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-300 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (8.2)</div>
+            <div class="f-inverted d-inline-block c-background-orange-300 c-border-orange-300 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-300 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (2.5)</div>
           </div>
         </div>
       </div>
@@ -428,10 +428,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-orange-400 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-orange-400 c-border-orange-400 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-400 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA (6.2)</div>
-            <div class="f-inverted d-inline-block c-background-orange-400 c-border-orange-400 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-400 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.3)</div>
+            <div class="d-inline-block c-background-orange-400 c-border-orange-400 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-400 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA (6.2)</div>
+            <div class="f-inverted d-inline-block c-background-orange-400 c-border-orange-400 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-400 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.3)</div>
           </div>
         </div>
       </div>
@@ -443,10 +443,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-orange-500 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-orange-500 c-border-orange-500 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA+ (4.4)</div>
-            <div class="f-inverted d-inline-block c-background-orange-500 c-border-orange-500 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA (4.7)</div>
+            <div class="d-inline-block c-background-orange-500 c-border-orange-500 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-500 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA+ (4.4)</div>
+            <div class="f-inverted d-inline-block c-background-orange-500 c-border-orange-500 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-500 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA (4.7)</div>
           </div>
         </div>
       </div>
@@ -458,10 +458,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-orange-600 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-orange-600 c-border-orange-600 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-600 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.7)</div>
-            <div class="f-inverted d-inline-block c-background-orange-600 c-border-orange-600 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-600 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA (5.6)</div>
+            <div class="d-inline-block c-background-orange-600 c-border-orange-600 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-600 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.7)</div>
+            <div class="f-inverted d-inline-block c-background-orange-600 c-border-orange-600 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-600 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA (5.6)</div>
           </div>
         </div>
       </div>
@@ -473,10 +473,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-orange-700 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-orange-700 c-border-orange-700 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-700 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3)</div>
-            <div class="f-inverted d-inline-block c-background-orange-700 c-border-orange-700 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-700 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA (6.8)</div>
+            <div class="d-inline-block c-background-orange-700 c-border-orange-700 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-700 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3)</div>
+            <div class="f-inverted d-inline-block c-background-orange-700 c-border-orange-700 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-700 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA (6.8)</div>
           </div>
         </div>
       </div>
@@ -488,10 +488,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-orange-800 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-orange-800 c-border-orange-800 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-800 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (2.2)</div>
-            <div class="f-inverted d-inline-block c-background-orange-800 c-border-orange-800 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-800 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (9.3)</div>
+            <div class="d-inline-block c-background-orange-800 c-border-orange-800 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-800 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (2.2)</div>
+            <div class="f-inverted d-inline-block c-background-orange-800 c-border-orange-800 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-800 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (9.3)</div>
           </div>
         </div>
       </div>
@@ -503,10 +503,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-orange-900 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-orange-900 c-border-orange-900 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-900 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.7)</div>
-            <div class="f-inverted d-inline-block c-background-orange-900 c-border-orange-900 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-900 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (11.8)</div>
+            <div class="d-inline-block c-background-orange-900 c-border-orange-900 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-900 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.7)</div>
+            <div class="f-inverted d-inline-block c-background-orange-900 c-border-orange-900 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-900 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (11.8)</div>
           </div>
         </div>
       </div>
@@ -518,10 +518,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-orange-950 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-orange-950 c-border-orange-950 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-950 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.4)</div>
-            <div class="f-inverted d-inline-block c-background-orange-950 c-border-orange-950 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-orange-950 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (14.7)</div>
+            <div class="d-inline-block c-background-orange-950 c-border-orange-950 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-950 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.4)</div>
+            <div class="f-inverted d-inline-block c-background-orange-950 c-border-orange-950 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-orange-950 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (14.7)</div>
           </div>
         </div>
       </div>
@@ -538,10 +538,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-red-50 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-red-50 c-border-red-50 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-red-50 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (18.9)</div>
-            <div class="f-inverted d-inline-block c-background-red-50 c-border-red-50 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-red-50 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.1)</div>
+            <div class="d-inline-block c-background-red-50 c-border-red-50 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-red-50 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (18.9)</div>
+            <div class="f-inverted d-inline-block c-background-red-50 c-border-red-50 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-red-50 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.1)</div>
           </div>
         </div>
       </div>
@@ -553,10 +553,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-red-100 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-red-100 c-border-red-100 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-red-100 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (15.4)</div>
-            <div class="f-inverted d-inline-block c-background-red-100 c-border-red-100 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-red-100 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.3)</div>
+            <div class="d-inline-block c-background-red-100 c-border-red-100 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-red-100 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (15.4)</div>
+            <div class="f-inverted d-inline-block c-background-red-100 c-border-red-100 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-red-100 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.3)</div>
           </div>
         </div>
       </div>
@@ -568,10 +568,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-red-200 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-red-200 c-border-red-200 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-red-200 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (12.3)</div>
-            <div class="f-inverted d-inline-block c-background-red-200 c-border-red-200 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-red-200 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.7)</div>
+            <div class="d-inline-block c-background-red-200 c-border-red-200 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-red-200 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (12.3)</div>
+            <div class="f-inverted d-inline-block c-background-red-200 c-border-red-200 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-red-200 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.7)</div>
           </div>
         </div>
       </div>
@@ -583,10 +583,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-red-300 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-red-300 c-border-red-300 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-red-300 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (8.1)</div>
-            <div class="f-inverted d-inline-block c-background-red-300 c-border-red-300 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-red-300 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (2.5)</div>
+            <div class="d-inline-block c-background-red-300 c-border-red-300 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-red-300 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (8.1)</div>
+            <div class="f-inverted d-inline-block c-background-red-300 c-border-red-300 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-red-300 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (2.5)</div>
           </div>
         </div>
       </div>
@@ -598,10 +598,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-red-400 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-red-400 c-border-red-400 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-red-400 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA (6)</div>
-            <div class="f-inverted d-inline-block c-background-red-400 c-border-red-400 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-red-400 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.4)</div>
+            <div class="d-inline-block c-background-red-400 c-border-red-400 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-red-400 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA (6)</div>
+            <div class="f-inverted d-inline-block c-background-red-400 c-border-red-400 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-red-400 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.4)</div>
           </div>
         </div>
       </div>
@@ -613,10 +613,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-red-500 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-red-500 c-border-red-500 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-red-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA+ (4.4)</div>
-            <div class="f-inverted d-inline-block c-background-red-500 c-border-red-500 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-red-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA (4.7)</div>
+            <div class="d-inline-block c-background-red-500 c-border-red-500 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-red-500 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA+ (4.4)</div>
+            <div class="f-inverted d-inline-block c-background-red-500 c-border-red-500 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-red-500 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA (4.7)</div>
           </div>
         </div>
       </div>
@@ -628,10 +628,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-red-600 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-red-600 c-border-red-600 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-red-600 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.6)</div>
-            <div class="f-inverted d-inline-block c-background-red-600 c-border-red-600 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-red-600 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA (5.7)</div>
+            <div class="d-inline-block c-background-red-600 c-border-red-600 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-red-600 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.6)</div>
+            <div class="f-inverted d-inline-block c-background-red-600 c-border-red-600 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-red-600 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA (5.7)</div>
           </div>
         </div>
       </div>
@@ -643,10 +643,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-red-700 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-red-700 c-border-red-700 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-red-700 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (2.9)</div>
-            <div class="f-inverted d-inline-block c-background-red-700 c-border-red-700 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-red-700 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (7.1)</div>
+            <div class="d-inline-block c-background-red-700 c-border-red-700 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-red-700 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (2.9)</div>
+            <div class="f-inverted d-inline-block c-background-red-700 c-border-red-700 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-red-700 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (7.1)</div>
           </div>
         </div>
       </div>
@@ -658,10 +658,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-red-800 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-red-800 c-border-red-800 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-red-800 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (2.2)</div>
-            <div class="f-inverted d-inline-block c-background-red-800 c-border-red-800 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-red-800 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (9.4)</div>
+            <div class="d-inline-block c-background-red-800 c-border-red-800 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-red-800 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (2.2)</div>
+            <div class="f-inverted d-inline-block c-background-red-800 c-border-red-800 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-red-800 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (9.4)</div>
           </div>
         </div>
       </div>
@@ -673,10 +673,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-red-900 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-red-900 c-border-red-900 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-red-900 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.6)</div>
-            <div class="f-inverted d-inline-block c-background-red-900 c-border-red-900 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-red-900 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (12.9)</div>
+            <div class="d-inline-block c-background-red-900 c-border-red-900 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-red-900 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.6)</div>
+            <div class="f-inverted d-inline-block c-background-red-900 c-border-red-900 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-red-900 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (12.9)</div>
           </div>
         </div>
       </div>
@@ -688,10 +688,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-red-950 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-red-950 c-border-red-950 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-red-950 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.3)</div>
-            <div class="f-inverted d-inline-block c-background-red-950 c-border-red-950 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-red-950 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (15.4)</div>
+            <div class="d-inline-block c-background-red-950 c-border-red-950 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-red-950 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.3)</div>
+            <div class="f-inverted d-inline-block c-background-red-950 c-border-red-950 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-red-950 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (15.4)</div>
           </div>
         </div>
       </div>
@@ -708,10 +708,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-purple-50 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-purple-50 c-border-purple-50 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-50 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (18.75)</div>
-            <div class="f-inverted d-inline-block c-background-purple-50 c-border-purple-50 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-50 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.11)</div>
+            <div class="d-inline-block c-background-purple-50 c-border-purple-50 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-50 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (18.75)</div>
+            <div class="f-inverted d-inline-block c-background-purple-50 c-border-purple-50 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-50 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.11)</div>
           </div>
         </div>
       </div>
@@ -723,10 +723,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-purple-100 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-purple-100 c-border-purple-100 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-100 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (15.39)</div>
-            <div class="f-inverted d-inline-block c-background-purple-100 c-border-purple-100 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-100 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.36)</div>
+            <div class="d-inline-block c-background-purple-100 c-border-purple-100 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-100 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (15.39)</div>
+            <div class="f-inverted d-inline-block c-background-purple-100 c-border-purple-100 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-100 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.36)</div>
           </div>
         </div>
       </div>
@@ -738,10 +738,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-purple-200 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-purple-200 c-border-purple-200 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-200 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (11.92)</div>
-            <div class="f-inverted d-inline-block c-background-purple-200 c-border-purple-200 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-200 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.76)</div>
+            <div class="d-inline-block c-background-purple-200 c-border-purple-200 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-200 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (11.92)</div>
+            <div class="f-inverted d-inline-block c-background-purple-200 c-border-purple-200 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-200 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.76)</div>
           </div>
         </div>
       </div>
@@ -753,10 +753,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-purple-300 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-purple-300 c-border-purple-300 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-300 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (8.07)</div>
-            <div class="f-inverted d-inline-block c-background-purple-300 c-border-purple-300 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-300 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (2.6)</div>
+            <div class="d-inline-block c-background-purple-300 c-border-purple-300 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-300 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (8.07)</div>
+            <div class="f-inverted d-inline-block c-background-purple-300 c-border-purple-300 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-300 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (2.6)</div>
           </div>
         </div>
       </div>
@@ -768,10 +768,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-purple-400 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-purple-400 c-border-purple-400 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-400 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA (5.82)</div>
-            <div class="f-inverted d-inline-block c-background-purple-400 c-border-purple-400 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-400 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.6)</div>
+            <div class="d-inline-block c-background-purple-400 c-border-purple-400 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-400 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA (5.82)</div>
+            <div class="f-inverted d-inline-block c-background-purple-400 c-border-purple-400 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-400 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.6)</div>
           </div>
         </div>
       </div>
@@ -783,10 +783,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-purple-500 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-purple-500 c-border-purple-500 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA+ (4.13)</div>
-            <div class="f-inverted d-inline-block c-background-purple-500 c-border-purple-500 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-500 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA (5.07)</div>
+            <div class="d-inline-block c-background-purple-500 c-border-purple-500 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-500 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA+ (4.13)</div>
+            <div class="f-inverted d-inline-block c-background-purple-500 c-border-purple-500 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-500 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA (5.07)</div>
           </div>
         </div>
       </div>
@@ -798,10 +798,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-purple-600 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-purple-600 c-border-purple-600 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-600 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.39)</div>
-            <div class="f-inverted d-inline-block c-background-purple-600 c-border-purple-600 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-600 p-t-2 p-r-3 p-b-2 p-l-3 pass">AA (6.18)</div>
+            <div class="d-inline-block c-background-purple-600 c-border-purple-600 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-600 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA+ (3.39)</div>
+            <div class="f-inverted d-inline-block c-background-purple-600 c-border-purple-600 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-600 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AA (6.18)</div>
           </div>
         </div>
       </div>
@@ -813,10 +813,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-purple-700 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-purple-700 c-border-purple-700 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-700 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (2.9)</div>
-            <div class="f-inverted d-inline-block c-background-purple-700 c-border-purple-700 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-700 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (7.23)</div>
+            <div class="d-inline-block c-background-purple-700 c-border-purple-700 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-700 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (2.9)</div>
+            <div class="f-inverted d-inline-block c-background-purple-700 c-border-purple-700 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-700 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (7.23)</div>
           </div>
         </div>
       </div>
@@ -828,10 +828,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-purple-800 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-purple-800 c-border-purple-800 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-800 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (2.24)</div>
-            <div class="f-inverted d-inline-block c-background-purple-800 c-border-purple-800 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-800 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (9.34)</div>
+            <div class="d-inline-block c-background-purple-800 c-border-purple-800 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-800 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (2.24)</div>
+            <div class="f-inverted d-inline-block c-background-purple-800 c-border-purple-800 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-800 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (9.34)</div>
           </div>
         </div>
       </div>
@@ -843,10 +843,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-purple-900 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-purple-900 c-border-purple-900 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-900 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.66)</div>
-            <div class="f-inverted d-inline-block c-background-purple-900 c-border-purple-900 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-900 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (12.61)</div>
+            <div class="d-inline-block c-background-purple-900 c-border-purple-900 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-900 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.66)</div>
+            <div class="f-inverted d-inline-block c-background-purple-900 c-border-purple-900 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-900 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (12.61)</div>
           </div>
         </div>
       </div>
@@ -858,10 +858,10 @@ Though deciding which color to use depends on the situation, here are some gener
         <div class="color-details c-border-purple-950 p-t-6 p-r-5 p-b-6 p-l-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
-            <div class="d-inline-block c-background-purple-950 c-border-purple-950 p-t-2 p-r-3 p-b-2 p-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-950 p-t-2 p-r-3 p-b-2 p-l-3 fail">F (1.4)</div>
-            <div class="f-inverted d-inline-block c-background-purple-950 c-border-purple-950 p-t-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
-            <div class="d-inline-block c-border-purple-950 p-t-2 p-r-3 p-b-2 p-l-3 pass">AAA (14.94)</div>
+            <div class="d-inline-block c-background-purple-950 c-border-purple-950 gl-pt-2 p-r-3 p-b-2 p-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-950 gl-pt-2 p-r-3 p-b-2 p-l-3 fail">F (1.4)</div>
+            <div class="f-inverted d-inline-block c-background-purple-950 c-border-purple-950 gl-pt-2 p-r-3 p-b-2 p-l-3 m-l-3">Text</div>
+            <div class="d-inline-block c-border-purple-950 gl-pt-2 p-r-3 p-b-2 p-l-3 pass">AAA (14.94)</div>
           </div>
         </div>
       </div>
