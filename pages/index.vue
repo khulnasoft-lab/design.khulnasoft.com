@@ -131,7 +131,7 @@
                 class="a-center d-block"
                 alt=""
               />
-              <span class="d-block p-a-3"> View the issue tracker </span>
+              <span class="d-block gl-p-3"> View the issue tracker </span>
             </a>
           </div>
           <div class="col col-33 d-flex flex-column align-items-center justify-content-center">
@@ -147,7 +147,7 @@
                 class="a-center d-block"
                 alt=""
               />
-              <span class="d-block p-a-3"> Explore the repository </span>
+              <span class="d-block gl-p-3"> Explore the repository </span>
             </a>
           </div>
           <div class="col col-33 d-flex flex-column align-items-center justify-content-center">
@@ -163,7 +163,7 @@
                 class="a-center d-block"
                 alt=""
               />
-              <span class="d-block p-a-3"> Duplicate our Figma UI Kit </span>
+              <span class="d-block gl-p-3"> Duplicate our Figma UI Kit </span>
             </a>
           </div>
         </div>
@@ -181,7 +181,7 @@
                 class="d-block"
                 alt=""
               />
-              <span class="p-a-3"> Join the GitLab First Look research program </span>
+              <span class="gl-p-3"> Join the GitLab First Look research program </span>
             </a>
           </div>
         </div>
