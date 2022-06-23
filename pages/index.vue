@@ -96,7 +96,7 @@
         </div>
       </div>
     </div>
-    <div class="p-t-6 p-b-10">
+    <div class="gl-pt-6 p-b-10">
       <div class="content limited distributed contributing-box__content">
         <div class="contribute-row">
           <div class="contribute-copy">
