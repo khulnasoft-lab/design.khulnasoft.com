@@ -11,7 +11,7 @@ Proper color proportions are essential to maintaining GitLab’s look and feel. 
 [Color swatches](https://drive.google.com/drive/folders/19GvtyyW638cq4p96hj8w5yloSNuIBFjg?usp=sharing) are denoted with a _P_ (for primary palette), _G_ (for gradients), or _S_ (for secondary palette, which is reserved for illustration usage).
 
 <figure class="figure" role="figure" aria-label="Color use ratios">
-  <img class="figure-img p-a-5" src="/img/brand/color-usage.svg" alt="GitLab color usage" role="img" />
+  <img class="figure-img gl-p-5" src="/img/brand/color-usage.svg" alt="GitLab color usage" role="img" />
   <figcaption class="figure-caption">Color use ratios</figcaption>
 </figure>
 
