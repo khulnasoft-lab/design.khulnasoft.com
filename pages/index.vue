@@ -76,7 +76,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-dark p-t-8 p-b-8">
+    <div class="bg-dark gl-pt-9 p-b-8">
       <div class="content limited distributed contributing-box__content">
         <div class="contribute-row">
           <div class="contribute-img text-center">
