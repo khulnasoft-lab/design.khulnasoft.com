@@ -25,7 +25,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$blue-50</span>
           <span class="hex f-small">#e9f3fc</span>
         </div>
-        <div class="color-details c-border-blue-50 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-blue-50 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-blue-50 c-border-blue-50 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -40,7 +40,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$blue-100</span>
           <span class="hex f-small">#cbe2f9</span>
         </div>
-        <div class="color-details c-border-blue-100 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-blue-100 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-blue-100 c-border-blue-100 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -55,7 +55,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$blue-200</span>
           <span class="hex f-small">#9dc7f1</span>
         </div>
-        <div class="color-details c-border-blue-200 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-blue-200 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-blue-200 c-border-blue-200 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -70,7 +70,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$blue-300</span>
           <span class="hex f-small">#63a6e9</span>
         </div>
-        <div class="color-details c-border-blue-300 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-blue-300 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-blue-300 c-border-blue-300 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -85,7 +85,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$blue-400</span>
           <span class="hex f-small">#428fdc</span>
         </div>
-        <div class="color-details c-border-blue-400 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-blue-400 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-blue-400 c-border-blue-400 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -100,7 +100,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$blue-500</span>
           <span class="hex f-small f-inverted">#1f75cb</span>
         </div>
-        <div class="color-details c-border-blue-500 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-blue-500 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-blue-500 c-border-blue-500 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -115,7 +115,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$blue-600</span>
           <span class="hex f-small f-inverted">#1068bf</span>
         </div>
-        <div class="color-details c-border-blue-600 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-blue-600 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-blue-600 c-border-blue-600 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -130,7 +130,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$blue-700</span>
           <span class="hex f-small f-inverted">#0b5cad</span>
         </div>
-        <div class="color-details c-border-blue-700 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-blue-700 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-blue-700 c-border-blue-700 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -145,7 +145,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$blue-800</span>
           <span class="hex f-small f-inverted">#064787</span>
         </div>
-        <div class="color-details c-border-blue-800 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-blue-800 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-blue-800 c-border-blue-800 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -160,7 +160,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$blue-900</span>
           <span class="hex f-small f-inverted">#033464</span>
         </div>
-        <div class="color-details c-border-blue-900 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-blue-900 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-blue-900 c-border-blue-900 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -175,7 +175,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$blue-950</span>
           <span class="hex f-small f-inverted">#002850</span>
         </div>
-        <div class="color-details c-border-blue-950 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-blue-950 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-blue-950 c-border-blue-950 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -195,7 +195,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$green-50</span>
           <span class="hex f-small">#ecf4ee</span>
         </div>
-        <div class="color-details c-border-green-50 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-green-50 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-green-50 c-border-green-50 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -210,7 +210,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$green-100</span>
           <span class="hex f-small">#c3e6cd</span>
         </div>
-        <div class="color-details c-border-green-100 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-green-100 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-green-100 c-border-green-100 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -225,7 +225,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$green-200</span>
           <span class="hex f-small">#91d4a8</span>
         </div>
-        <div class="color-details c-border-green-200 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-green-200 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-green-200 c-border-green-200 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -240,7 +240,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$green-300</span>
           <span class="hex f-small">#52b87a</span>
         </div>
-        <div class="color-details c-border-green-300 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-green-300 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-green-300 c-border-green-300 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -255,7 +255,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$green-400</span>
           <span class="hex f-small">#2da160</span>
         </div>
-        <div class="color-details c-border-green-400 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-green-400 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-green-400 c-border-green-400 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -270,7 +270,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$green-500</span>
           <span class="hex f-small f-inverted">#108548</span>
         </div>
-        <div class="color-details c-border-green-500 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-green-500 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-green-500 c-border-green-500 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -285,7 +285,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$green-600</span>
           <span class="hex f-small f-inverted">#217645</span>
         </div>
-        <div class="color-details c-border-green-600 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-green-600 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-green-600 c-border-green-600 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -300,7 +300,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$green-700</span>
           <span class="hex f-small f-inverted">#24663b</span>
         </div>
-        <div class="color-details c-border-green-700 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-green-700 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-green-700 c-border-green-700 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -315,7 +315,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$green-800</span>
           <span class="hex f-small f-inverted">#0d532a</span>
         </div>
-        <div class="color-details c-border-green-800 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-green-800 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-green-800 c-border-green-800 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -330,7 +330,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$green-900</span>
           <span class="hex f-small f-inverted">#0a4020</span>
         </div>
-        <div class="color-details c-border-green-900 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-green-900 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-green-900 c-border-green-900 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -345,7 +345,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$green-950</span>
           <span class="hex f-small f-inverted">#072b15</span>
         </div>
-        <div class="color-details c-border-green-950 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-green-950 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-green-950 c-border-green-950 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -365,7 +365,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$orange-50</span>
           <span class="hex f-small">#fdf1dd</span>
         </div>
-        <div class="color-details c-border-orange-50 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-orange-50 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-orange-50 c-border-orange-50 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -380,7 +380,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$orange-100</span>
           <span class="hex f-small">#f5d9a8</span>
         </div>
-        <div class="color-details c-border-orange-100 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-orange-100 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-orange-100 c-border-orange-100 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -395,7 +395,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$orange-200</span>
           <span class="hex f-small">#e9be74</span>
         </div>
-        <div class="color-details c-border-orange-200 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-orange-200 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-orange-200 c-border-orange-200 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -410,7 +410,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$orange-300</span>
           <span class="hex f-small">#d99530</span>
         </div>
-        <div class="color-details c-border-orange-300 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-orange-300 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-orange-300 c-border-orange-300 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -425,7 +425,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$orange-400</span>
           <span class="hex f-small">#c17d10</span>
         </div>
-        <div class="color-details c-border-orange-400 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-orange-400 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-orange-400 c-border-orange-400 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -440,7 +440,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$orange-500</span>
           <span class="hex f-small">#ab6100</span>
         </div>
-        <div class="color-details c-border-orange-500 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-orange-500 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-orange-500 c-border-orange-500 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -455,7 +455,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$orange-600</span>
           <span class="hex f-small">#9e5400</span>
         </div>
-        <div class="color-details c-border-orange-600 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-orange-600 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-orange-600 c-border-orange-600 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -470,7 +470,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$orange-700</span>
           <span class="hex f-small f-inverted">#8f4700</span>
         </div>
-        <div class="color-details c-border-orange-700 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-orange-700 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-orange-700 c-border-orange-700 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -485,7 +485,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$orange-800</span>
           <span class="hex f-small f-inverted">#703800</span>
         </div>
-        <div class="color-details c-border-orange-800 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-orange-800 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-orange-800 c-border-orange-800 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -500,7 +500,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$orange-900</span>
           <span class="hex f-small f-inverted">#5c2900</span>
         </div>
-        <div class="color-details c-border-orange-900 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-orange-900 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-orange-900 c-border-orange-900 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -515,7 +515,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$orange-950</span>
           <span class="hex f-small f-inverted">#421f00</span>
         </div>
-        <div class="color-details c-border-orange-950 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-orange-950 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-orange-950 c-border-orange-950 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -535,7 +535,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$red-50</span>
           <span class="hex f-small">#fcf1ef</span>
         </div>
-        <div class="color-details c-border-red-50 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-red-50 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-red-50 c-border-red-50 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -550,7 +550,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$red-100</span>
           <span class="hex f-small">#fdd4cd</span>
         </div>
-        <div class="color-details c-border-red-100 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-red-100 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-red-100 c-border-red-100 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -565,7 +565,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$red-200</span>
           <span class="hex f-small">#fcb5aa</span>
         </div>
-        <div class="color-details c-border-red-200 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-red-200 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-red-200 c-border-red-200 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -580,7 +580,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$red-300</span>
           <span class="hex f-small">#f57f6c</span>
         </div>
-        <div class="color-details c-border-red-300 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-red-300 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-red-300 c-border-red-300 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -595,7 +595,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$red-400</span>
           <span class="hex f-small">#ec5941</span>
         </div>
-        <div class="color-details c-border-red-400 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-red-400 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-red-400 c-border-red-400 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -610,7 +610,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$red-500</span>
           <span class="hex f-small f-inverted">#dd2b0e</span>
         </div>
-        <div class="color-details c-border-red-500 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-red-500 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-red-500 c-border-red-500 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -625,7 +625,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$red-600</span>
           <span class="hex f-small f-inverted">#c91c00</span>
         </div>
-        <div class="color-details c-border-red-600 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-red-600 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-red-600 c-border-red-600 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -640,7 +640,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$red-700</span>
           <span class="hex f-small f-inverted">#ae1800</span>
         </div>
-        <div class="color-details c-border-red-700 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-red-700 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-red-700 c-border-red-700 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -655,7 +655,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$red-800</span>
           <span class="hex f-small f-inverted">#8d1300</span>
         </div>
-        <div class="color-details c-border-red-800 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-red-800 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-red-800 c-border-red-800 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -670,7 +670,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$red-900</span>
           <span class="hex f-small f-inverted">#660e00</span>
         </div>
-        <div class="color-details c-border-red-900 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-red-900 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-red-900 c-border-red-900 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -685,7 +685,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$red-950</span>
           <span class="hex f-small f-inverted">#4d0a00</span>
         </div>
-        <div class="color-details c-border-red-950 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-red-950 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-red-950 c-border-red-950 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -705,7 +705,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$purple-50</span>
           <span class="hex f-small">#f4f0ff</span>
         </div>
-        <div class="color-details c-border-purple-50 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-purple-50 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-purple-50 c-border-purple-50 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -720,7 +720,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$purple-100</span>
           <span class="hex f-small">#e1d8f9</span>
         </div>
-        <div class="color-details c-border-purple-100 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-purple-100 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-purple-100 c-border-purple-100 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -735,7 +735,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$purple-200</span>
           <span class="hex f-small">#cbbbf2</span>
         </div>
-        <div class="color-details c-border-purple-200 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-purple-200 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-purple-200 c-border-purple-200 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -750,7 +750,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$purple-300</span>
           <span class="hex f-small">#ac93e6</span>
         </div>
-        <div class="color-details c-border-purple-300 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-purple-300 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-purple-300 c-border-purple-300 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -765,7 +765,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable">$purple-400</span>
           <span class="hex f-small">#9475db</span>
         </div>
-        <div class="color-details c-border-purple-400 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-purple-400 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-purple-400 c-border-purple-400 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -780,7 +780,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$purple-500</span>
           <span class="hex f-small f-inverted">#7b58cf</span>
         </div>
-        <div class="color-details c-border-purple-500 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-purple-500 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-purple-500 c-border-purple-500 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -795,7 +795,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$purple-600</span>
           <span class="hex f-small f-inverted">#694cc0</span>
         </div>
-        <div class="color-details c-border-purple-600 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-purple-600 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-purple-600 c-border-purple-600 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -810,7 +810,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$purple-700</span>
           <span class="hex f-small f-inverted">#5943b6</span>
         </div>
-        <div class="color-details c-border-purple-700 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-purple-700 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-purple-700 c-border-purple-700 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -825,7 +825,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$purple-800</span>
           <span class="hex f-small f-inverted">#453894</span>
         </div>
-        <div class="color-details c-border-purple-800 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-purple-800 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-purple-800 c-border-purple-800 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -840,7 +840,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$purple-900</span>
           <span class="hex f-small f-inverted">#2f2a6b</span>
         </div>
-        <div class="color-details c-border-purple-900 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-purple-900 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-purple-900 c-border-purple-900 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
@@ -855,7 +855,7 @@ Though deciding which color to use depends on the situation, here are some gener
           <span class="variable f-inverted">$purple-950</span>
           <span class="hex f-small f-inverted">#232150</span>
         </div>
-        <div class="color-details c-border-purple-950 p-t-6 gl-pr-5 p-b-6 gl-pl-5">
+        <div class="color-details c-border-purple-950 gl-pt-6 gl-pr-5 p-b-6 gl-pl-5">
           <div class="color-details--section">
             <div class="f-bold m-b-2">Passing level and contrast ratio</div>
             <div class="d-inline-block c-background-purple-950 c-border-purple-950 gl-pt-2 gl-pr-3 gl-pb-2 gl-pl-3">Text</div>
