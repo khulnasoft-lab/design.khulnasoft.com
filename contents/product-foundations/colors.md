@@ -17,7 +17,7 @@ Though deciding which color to use depends on the situation, here are some gener
 - **Purple** is not assigned meaning in the same way the other chromatic hues are, and instead is associated with the GitLab brand. It communicates an affinity with the brand, and is used for things like illustrations or company-related announcements in the product.
 
 <div class="row m-b-9">
-  <div class="col col-50 md p-b-7">
+  <div class="col col-50 md gl-pb-7">
     <h3>Blue</h3>
     <div class="distributed palette">
       <div class="color">
@@ -187,7 +187,7 @@ Though deciding which color to use depends on the situation, here are some gener
       </div>
     </div>
   </div>
-  <div class="col col-50 md p-b-7">
+  <div class="col col-50 md gl-pb-7">
     <h3>Green</h3>
     <div class="distributed palette">
       <div class="color">
@@ -357,7 +357,7 @@ Though deciding which color to use depends on the situation, here are some gener
       </div>
     </div>
   </div>
-  <div class="col col-50 md m-t-7 p-b-7">
+  <div class="col col-50 md m-t-7 gl-pb-7">
     <h3>Orange</h3>
     <div class="distributed palette">
       <div class="color">
@@ -1012,7 +1012,7 @@ A user may choose between ten different themes to customize the appearance of th
 - Dark and light share the same `$t-gray-` variables.
 
 <div class="row m-b-6">
-  <div class="col col-25 md p-b-7">
+  <div class="col col-25 md gl-pb-7">
     <h3>Indigo / Light indigo</h3>
     <div class="distributed palette">
       <div class="color">
@@ -1083,7 +1083,7 @@ A user may choose between ten different themes to customize the appearance of th
       </div>
     </div>
   </div>
-  <div class="col col-25 md p-b-7">
+  <div class="col col-25 md gl-pb-7">
     <h3>Blue</h3>
     <div class="distributed palette">
       <div class="color">
@@ -1154,7 +1154,7 @@ A user may choose between ten different themes to customize the appearance of th
       </div>
     </div>
   </div>
-  <div class="col col-25 md p-b-7">
+  <div class="col col-25 md gl-pb-7">
     <h3>Light blue</h3>
     <div class="distributed palette">
       <div class="color">
@@ -1225,7 +1225,7 @@ A user may choose between ten different themes to customize the appearance of th
       </div>
     </div>
   </div>
-  <div class="col col-25 md p-b-7">
+  <div class="col col-25 md gl-pb-7">
     <h3>Green / Light green</h3>
     <div class="distributed palette">
       <div class="color">
