@@ -70,34 +70,27 @@ Consider making configuration options more discoverable to users by linking to s
 - Navigate to the specific configuration section of that page in the settings area. Doing so makes the result of clicking the button predictable and prevents users from needing to navigate away from their task. For example, navigating via the Package Registry page will end up on the **Settings > Packages & Registries** section of settings.
 
 ## Layout
+### Two column
 
-Settings can be displayed in two ways:
-
-- Side by side
-- Stacked
-
-### Side by side
-
-When the viewport is greater than the `lg` breakpoint (> 992px), the settings layout is two column. The left column has a title and optionally a description, and the right column holds the settings. The two column layout ensures that the overall page height is short.
+The two column layout is the recommended layout for a section of settings. The first column contains the section title and optionally a description, and the second column contains the settings form content. The two column layout optimizes for individual section height and readable character length.
 
 <todo>Add example of form input at full width versus side by side</todo>
 
 When scrolling, the headings of each section should remain sticky to provide context of the section form.
 
-<todo>Add diagram of how many columns this layout will take up</todo>
+<todo>Add diagram of how many columns this layout will take up in grid</todo>
 
-This layout when the user preference is set to `fluid`, this layout will ignore that setting and will have a max width of 1200px to maintain optimal form input sizes.
+### Single column
 
-### Stacked
+For breakpoints less than equal to the `lg` breakpoint (≤ 992px), the section heading and description will be stacked on top of the settings form content.
 
-For breakpoints less than equal to the `lg` breakpoint (≤ 992px), the form section heading and description will be stacked on top of the form content.
+The single column layout is recommended for the page when one of the settings section's form content cannot fit within the two column layout. 
 
-### Mixed layout
+### Settings form input elements
 
-There are times when settings form content is not able to fit in the side by side layout. The resolution to these cases are:
+Input elements should sized to the expected content using the [form layout sizes](/components/form#layout).
 
-- Display that content in the full width area
-- Make the group responsible for that settings section aware that they will need to redesign that section to conform to the general pattern
+<todo>Show good vs. bad example of form</todo>
 
 ## Design specifications
 
