@@ -186,3 +186,7 @@ semantic-release:
     # This allows us to have a weekly release cadence:
     # https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/pipeline_schedules
     - if: $CI_PIPELINE_SOURCE == "schedule" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+untamper-my-lockfile:
+  rules:
+    - if: "$CI_COMMIT_BRANCH"
