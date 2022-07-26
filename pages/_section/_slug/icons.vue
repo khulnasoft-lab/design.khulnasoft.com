@@ -14,17 +14,42 @@ export default {
     SvgIcon,
   },
   data() {
-    const { q, size, color } = this.$route.query || {};
-    console.log('DATA', q, size, color);
     return {
       iconData,
-      searchString: q || '',
-      selectedClass: size || DEFAULT_ICON_SIZE,
-      selectedColor: color || DEFAULT_COLORING,
+      $color: null,
+      $search: null,
+      $size: null,
       copyStatus: 0,
     };
   },
   computed: {
+    searchString: {
+      get() {
+        return this.$data.$search ?? this.$route?.query?.q ?? '';
+      },
+      set(val) {
+        this.$data.$search = val;
+        this.updateQueryParams();
+      },
+    },
+    selectedClass: {
+      get() {
+        return this.$data.$size ?? this.$route?.query?.size ?? DEFAULT_ICON_SIZE;
+      },
+      set(val) {
+        this.$data.$size = val;
+        this.updateQueryParams();
+      },
+    },
+    selectedColor: {
+      get() {
+        return this.$data.$color ?? this.$route?.query?.color ?? DEFAULT_COLORING;
+      },
+      set(val) {
+        this.$data.$color = val;
+        this.updateQueryParams();
+      },
+    },
     filteredIcons() {
       if (this.searchString && this.searchString.startsWith('~')) {
         return this.iconData.icons.filter((icon) => `~${icon}` === this.searchString);
@@ -42,25 +67,6 @@ export default {
         { value: 'gray', name: 'Gray' },
         { value: 'red', name: 'Red' },
       ];
-    },
-  },
-  watch: {
-    searchString() {
-      this.updateQueryParams();
-    },
-    selectedClass() {
-      this.updateQueryParams();
-    },
-    selectedColor() {
-      this.updateQueryParams();
-    },
-    // eslint-disable-next-line func-names
-    '$route.query': function (query) {
-      const { q, size, color } = query || {};
-      console.log('watcher', q, size, color);
-      this.searchString = q || '';
-      this.selectedClass = size || DEFAULT_ICON_SIZE;
-      this.selectedColor = color || DEFAULT_COLORING;
     },
   },
   methods: {
@@ -87,8 +93,11 @@ export default {
       if (this.selectedColor !== DEFAULT_COLORING) {
         query.color = this.selectedColor;
       }
-      console.log('updateQueryParams', query);
-      this.$router.push({ path: this.$route.path, query });
+      console.log(this.$route);
+      const url = new URL(this.$route.path, window.location);
+      url.search = new URLSearchParams(query).toString();
+      console.log(url, url.toString());
+      window.history.pushState({}, '', url);
     },
   },
 };
@@ -103,6 +112,7 @@ export default {
         <div v-if="copyStatus === -1">Copying didn't work :-(</div>
         <div v-else-if="copyStatus === 0">Click Icons to copy their name</div>
       </div>
+
       <gl-search-box-by-type
         ref="input"
         v-model="searchString"
@@ -126,6 +136,7 @@ export default {
             <option value="image-nav">Sidemenu</option>
           </select>
         </label>
+        <br />
         <strong> Select a color combination </strong>
         <template v-for="color in colors">
           <br :key="color.value + 'br'" />
