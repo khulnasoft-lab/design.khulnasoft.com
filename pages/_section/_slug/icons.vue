@@ -7,6 +7,43 @@ import { GlSearchBoxByType } from '../../../helpers/gitlab_ui';
 const DEFAULT_ICON_SIZE = 'image-sm';
 const DEFAULT_COLORING = 'default';
 
+const queryFields = [
+  ['searchString', 'q', ''],
+  ['selectedClass', 'size', DEFAULT_ICON_SIZE],
+  ['selectedColor', 'color', DEFAULT_COLORING],
+];
+
+const mapQueryFieldsToData = (fields) =>
+  fields.reduce((acc, [key, routeKey]) => {
+    acc[`$${key}_${routeKey}`] = null;
+    return acc;
+  }, {});
+
+const mapQueryFieldsToComputed = (fields) =>
+  fields.reduce((acc, [key, routeKey, defaultValue], idx, array) => {
+    acc[key] = {
+      get() {
+        return this.$data[`$${key}_${routeKey}`] ?? this.$route?.query?.[routeKey] ?? defaultValue;
+      },
+      set(val) {
+        this.$data[`$${key}_${routeKey}`] = val;
+
+        const query = {};
+        // eslint-disable-next-line no-restricted-syntax
+        for (const [key1, routeKey1, defaultValue1] of array) {
+          if (this[key1] !== defaultValue1) {
+            query[routeKey1] = this[key1];
+          }
+        }
+
+        const url = new URL(this.$route.path, window.location);
+        url.search = new URLSearchParams(query).toString();
+        window.history.pushState({}, '', url);
+      },
+    };
+    return acc;
+  }, {});
+
 export default {
   components: {
     GlSearchBoxByType,
@@ -16,40 +53,12 @@ export default {
   data() {
     return {
       iconData,
-      $color: null,
-      $search: null,
-      $size: null,
       copyStatus: 0,
+      ...mapQueryFieldsToData(queryFields),
     };
   },
   computed: {
-    searchString: {
-      get() {
-        return this.$data.$search ?? this.$route?.query?.q ?? '';
-      },
-      set(val) {
-        this.$data.$search = val;
-        this.updateQueryParams();
-      },
-    },
-    selectedClass: {
-      get() {
-        return this.$data.$size ?? this.$route?.query?.size ?? DEFAULT_ICON_SIZE;
-      },
-      set(val) {
-        this.$data.$size = val;
-        this.updateQueryParams();
-      },
-    },
-    selectedColor: {
-      get() {
-        return this.$data.$color ?? this.$route?.query?.color ?? DEFAULT_COLORING;
-      },
-      set(val) {
-        this.$data.$color = val;
-        this.updateQueryParams();
-      },
-    },
+    ...mapQueryFieldsToComputed(queryFields),
     filteredIcons() {
       if (this.searchString && this.searchString.startsWith('~')) {
         return this.iconData.icons.filter((icon) => `~${icon}` === this.searchString);
@@ -81,23 +90,6 @@ export default {
       setTimeout(() => {
         this.copyStatus = 0;
       }, 5000);
-    },
-    updateQueryParams() {
-      const query = {};
-      if (this.searchString) {
-        query.q = this.searchString;
-      }
-      if (this.selectedClass !== DEFAULT_ICON_SIZE) {
-        query.size = this.selectedClass;
-      }
-      if (this.selectedColor !== DEFAULT_COLORING) {
-        query.color = this.selectedColor;
-      }
-      console.log(this.$route);
-      const url = new URL(this.$route.path, window.location);
-      url.search = new URLSearchParams(query).toString();
-      console.log(url, url.toString());
-      window.history.pushState({}, '', url);
     },
   },
 };
