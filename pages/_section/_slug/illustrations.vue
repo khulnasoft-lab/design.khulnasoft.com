@@ -97,22 +97,22 @@ export default {
           <span v-else-if="copyStatus === -1">Copying didn't work :-(</span>
           <span v-else-if="copyStatus === 0">Click Illustration to copy their name</span>
         </small>
-        <gl-search-box-by-type
-          ref="input"
-          v-model="searchString"
-          aria-label="Search"
-          autocomplete="off"
-          spellcheck="false"
-          :is-loading="false"
-        />
+        <client-only>
+          <gl-search-box-by-type
+            ref="input"
+            v-model="searchString"
+            aria-label="Search"
+            autocomplete="off"
+            spellcheck="false"
+            :is-loading="false"
+          />
+        </client-only>
         <label>
           <strong>Select a background color:</strong>
           <select v-model="selectedColor" class="form-control select-control chevron-down">
-            <template v-for="color in colors">
-              <option :key="color.value" :value="color.value">
-                {{ color.name }}
-              </option>
-            </template>
+            <option v-for="color in colors" :key="color.value" :value="color.value">
+              {{ color.name }}
+            </option>
           </select>
         </label>
       </aside>

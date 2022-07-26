@@ -53,7 +53,7 @@ export default {
       <slot></slot>
       <div class="image-name">
         {{ imageName }}
-        <span v-if="imageSize"> ({{ kbSize }}Kb) </span>
+        <span v-show="imageSize"> ({{ kbSize }}Kb) </span>
       </div>
     </div>
     <div class="image-actions">

@@ -77,6 +77,16 @@ export default {
         { value: 'red', name: 'Red' },
       ];
     },
+    copyStatusText() {
+      switch (this.copyStatus) {
+        case 1:
+          return 'Copied to your clipboard!';
+        case -1:
+          return "Copying didn't work :-(";
+        default:
+          return 'Click Icons to copy their name';
+      }
+    },
   },
   methods: {
     setSearchString(value) {
@@ -99,20 +109,17 @@ export default {
   <div class="icons-explorer">
     <header class="app-styles m-b-4">
       <h5 class="subtitle">{{ iconData.iconCount }} Icons ({{ kbSize }}Kb)</h5>
-      <div class="mb-2">
-        <div v-if="copyStatus === 1">Copied to your clipboard!</div>
-        <div v-if="copyStatus === -1">Copying didn't work :-(</div>
-        <div v-else-if="copyStatus === 0">Click Icons to copy their name</div>
-      </div>
-
-      <gl-search-box-by-type
-        ref="input"
-        v-model="searchString"
-        aria-label="Search"
-        autocomplete="off"
-        spellcheck="false"
-        :is-loading="false"
-      />
+      <div class="mb-2">{{ copyStatusText }}</div>
+      <client-only>
+        <gl-search-box-by-type
+          ref="input"
+          v-model="searchString"
+          aria-label="Search"
+          autocomplete="off"
+          spellcheck="false"
+          :is-loading="false"
+        />
+      </client-only>
     </header>
     <section class="icons-list" :class="selectedClass + '-list'">
       <aside>
