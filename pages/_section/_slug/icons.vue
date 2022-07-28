@@ -3,46 +3,19 @@ import iconData from '@gitlab/svgs/dist/icons.json';
 import SvgCard from '../../../components/svg_explorer/svg_card.vue';
 import SvgIcon from '../../../components/svg_explorer/svg_icon.vue';
 import { GlSearchBoxByType } from '../../../helpers/gitlab_ui';
+import {
+  mapQueryFieldsToComputed,
+  mapQueryFieldsToData,
+} from '../../../helpers/sync_state_to_query_params';
 
 const DEFAULT_ICON_SIZE = 'image-sm';
 const DEFAULT_COLORING = 'default';
 
 const queryFields = [
-  ['searchString', 'q', ''],
-  ['selectedClass', 'size', DEFAULT_ICON_SIZE],
-  ['selectedColor', 'color', DEFAULT_COLORING],
+  { field: 'searchString', param: 'q', default: '' },
+  { field: 'selectedClass', param: 'size', default: DEFAULT_ICON_SIZE },
+  { field: 'selectedColor', param: 'color', default: DEFAULT_COLORING },
 ];
-
-const mapQueryFieldsToData = (fields) =>
-  fields.reduce((acc, [key, routeKey]) => {
-    acc[`$${key}_${routeKey}`] = null;
-    return acc;
-  }, {});
-
-const mapQueryFieldsToComputed = (fields) =>
-  fields.reduce((acc, [key, routeKey, defaultValue], idx, array) => {
-    acc[key] = {
-      get() {
-        return this.$data[`$${key}_${routeKey}`] ?? this.$route?.query?.[routeKey] ?? defaultValue;
-      },
-      set(val) {
-        this.$data[`$${key}_${routeKey}`] = val;
-
-        const query = {};
-        // eslint-disable-next-line no-restricted-syntax
-        for (const [key1, routeKey1, defaultValue1] of array) {
-          if (this[key1] !== defaultValue1) {
-            query[routeKey1] = this[key1];
-          }
-        }
-
-        const url = new URL(this.$route.path, window.location);
-        url.search = new URLSearchParams(query).toString();
-        window.history.pushState({}, '', url);
-      },
-    };
-    return acc;
-  }, {});
 
 export default {
   components: {

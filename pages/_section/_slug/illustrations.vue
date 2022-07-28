@@ -2,6 +2,10 @@
 import illustrations from '@gitlab/svgs/dist/illustrations.json';
 import SvgCard from '../../../components/svg_explorer/svg_card.vue';
 import { GlSearchBoxByType } from '../../../helpers/gitlab_ui';
+import {
+  mapQueryFieldsToComputed,
+  mapQueryFieldsToData,
+} from '../../../helpers/sync_state_to_query_params';
 
 /**
  * Load all illustration SVGs with webpack
@@ -16,6 +20,11 @@ requireContext.keys().forEach((key) => {
 
 const DEFAULT_COLORING = 'default';
 
+const queryFields = [
+  { field: 'searchString', param: 'q', default: '' },
+  { field: 'selectedColor', param: 'color', default: DEFAULT_COLORING },
+];
+
 export default {
   components: {
     GlSearchBoxByType,
@@ -24,12 +33,12 @@ export default {
   data() {
     return {
       illustrationsData: illustrations,
-      searchString: this.$route.query.q || '',
-      selectedColor: this.$route.query.color || DEFAULT_COLORING,
+      ...mapQueryFieldsToData(queryFields),
       copyStatus: 0,
     };
   },
   computed: {
+    ...mapQueryFieldsToComputed(queryFields),
     colors() {
       return [
         { value: DEFAULT_COLORING, name: 'Default' },
@@ -38,19 +47,6 @@ export default {
         { value: 'indigo', name: 'Indigo' },
         { value: 'red', name: 'Red' },
       ];
-    },
-  },
-  watch: {
-    searchString() {
-      this.updateQueryParams();
-    },
-    selectedColor() {
-      this.updateQueryParams();
-    },
-    $route(to) {
-      const query = to.query || {};
-      this.searchString = query.q || '';
-      this.selectedColor = query.color || DEFAULT_COLORING;
     },
   },
   methods: {
@@ -68,20 +64,6 @@ export default {
       setTimeout(() => {
         this.copyStatus = 0;
       }, 5000);
-    },
-    updateQueryParams() {
-      if (process.browser) {
-        const url = new URL(window.location);
-        url.searchParams.delete('q');
-        url.searchParams.delete('color');
-        if (this.searchString) {
-          url.searchParams.set('q', this.searchString);
-        }
-        if (this.selectedColor !== DEFAULT_COLORING) {
-          url.searchParams.set('color', this.selectedColor);
-        }
-        window.history.pushState({}, '', url);
-      }
     },
   },
 };
