@@ -16,19 +16,27 @@ related:
 
 ## Examples
 
-<story-viewer story-name="base-form-form-group--default" title="Default form group"></story-viewer>
+<story-viewer story-name="base-form-form--default" title="Default form"></story-viewer>
 
-<story-viewer story-name="base-form-form-group--disabled" title="Disabled form group"></story-viewer>
-
-<story-viewer story-name="base-form-form-group--with-validations" title="Form group with validations"></story-viewer>
-
-<todo>Add additional examples to demonstrate different configurations and capabilities.</todo>
-
-[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=49840%3A75722)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A10)
 
 ## Structure
 
-<todo>Add form structure visual and item list.</todo>
+<figure class="figure" role="figure" aria-label="Form structure">
+  <img class="figure-img" src="/img/form-structure.svg" alt="Numbered diagram of a form" role="img" />
+</figure>
+
+### Form elements
+
+Forms may include a variety of elements. By default all information in forms is required unless stated otherwise with "(optional)" added to the label of the corresponding element. However, if your form is entirely optional except for 1-2 fields, you may opt to append "(required)" to the field label instead.
+
+1. **Label**: Clearly and concisely identifies an input.
+1. **Input field**: Allows users to provide information. This can be entered by a variety of [form fields](/components/form#form-fields).
+1. **Placeholder** (optional): Hints at what should be entered into a field. It's not a replacement for a visible label. An exception is the [search](/components/search) component.
+1. **Description** (optional): Clarifies the purpose or intent of an input.
+1. **Validation message**: Appears if the input is invalid, acceptable, or needs awareness.
+1. **Help text** (optional): Provides contextual examples, formatting information, details about the input field state.
+1. **Actions**: Used to submit or cancel a form.
 
 ## Guidelines
 
