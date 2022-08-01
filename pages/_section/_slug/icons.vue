@@ -33,6 +33,7 @@ export default {
   <SvgAlbum
     :elements="Object.freeze($options.icons)"
     :size-options="$options.sizeOptions"
+    source-path="https://gitlab.com/gitlab-org/gitlab-svgs/blob/main/sprite_icons/"
     class="icons-explorer"
   >
     <template #header>{{ $options.icons.length }} Icons ({{ kbSize }})</template>

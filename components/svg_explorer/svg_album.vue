@@ -30,6 +30,11 @@ export default {
       required: false,
       default: () => [],
     },
+    sourcePath: {
+      type: String,
+      required: false,
+      default: '',
+    },
   },
   data() {
     return {
@@ -133,7 +138,7 @@ export default {
         :image="entry.name"
         :image-size="entry.size"
         :class="selectedColor"
-        source-path="https://gitlab.com/gitlab-org/gitlab-svgs/blob/main/sprite_icons/"
+        :source-path="sourcePath"
         @imageCopied="setCopyStatus"
         @permalinkSelected="setSearchString"
       >

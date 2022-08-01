@@ -29,6 +29,7 @@ export default {
 <template>
   <SvgAlbum
     :elements="Object.freeze($options.illustrations.illustrations)"
+    source-path="https://gitlab.com/gitlab-org/gitlab-svgs/blob/main/"
     class="illustrations-explorer"
   >
     <template #header> {{ $options.illustrations.illustrationCount }} Illustrations</template>
