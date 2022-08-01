@@ -6,7 +6,7 @@ import SvgAlbum from '../../../components/svg_explorer/svg_album.vue';
  * Load all illustration SVGs with webpack
  */
 const illustrationSources = {};
-const requireContext = require.context('@gitlab/svgs/dist/illustrations/', true, /\.svg$/);
+const requireContext = require.context('@gitlab/svgs/dist/illustrations/', true, /\.(png|svg)$/);
 
 requireContext.keys().forEach((key) => {
   const cacheKey = key.replace(/^(\.\/)?/, 'illustrations/');

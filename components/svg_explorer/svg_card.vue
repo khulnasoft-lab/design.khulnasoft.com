@@ -28,7 +28,7 @@ export default {
     },
     sourceLink() {
       const path = `${this.sourcePath}${this.image}`;
-      return path.endsWith('.svg') ? path : `${path}.svg`;
+      return path.endsWith('.svg') || path.endsWith('.png') ? path : `${path}.svg`;
     },
     kbSize() {
       return bytesToKiloBytes(this.imageSize);
