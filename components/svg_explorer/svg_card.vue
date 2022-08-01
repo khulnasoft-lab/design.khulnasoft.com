@@ -26,9 +26,6 @@ export default {
     imageName() {
       return this.image.replace(/_/g, '_\u200B');
     },
-    imagePath() {
-      return `dist/${this.image}`;
-    },
     sourceLink() {
       const path = `${this.sourcePath}${this.image}`;
       return path.endsWith('.svg') ? path : `${path}.svg`;

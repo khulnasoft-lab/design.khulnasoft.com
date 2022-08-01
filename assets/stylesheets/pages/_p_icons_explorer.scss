@@ -41,6 +41,20 @@
   }
 }
 
+.illustrations-explorer {
+  .svg-list aside {
+    display: block;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+
+  .svg-list .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+
 .svg-album {
   .muted {
     color: #999;
