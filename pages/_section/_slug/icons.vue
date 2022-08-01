@@ -1,138 +1,44 @@
 <script>
 import iconData from '@gitlab/svgs/dist/icons.json';
-import SvgCard from '../../../components/svg_explorer/svg_card.vue';
 import SvgIcon from '../../../components/svg_explorer/svg_icon.vue';
-import { GlSearchBoxByType } from '../../../helpers/gitlab_ui';
-import {
-  mapQueryFieldsToComputed,
-  mapQueryFieldsToData,
-} from '../../../helpers/sync_state_to_query_params';
+import SvgAlbum from '../../../components/svg_explorer/svg_album.vue';
 import { bytesToKiloBytes } from '../../../helpers/unit_utils';
 
-const DEFAULT_ICON_SIZE = 'image-sm';
-const DEFAULT_COLORING = 'default';
-
-const queryFields = [
-  { field: 'searchString', param: 'q', default: '' },
-  { field: 'selectedClass', param: 'size', default: DEFAULT_ICON_SIZE },
-  { field: 'selectedColor', param: 'color', default: DEFAULT_COLORING },
+const sizeOptions = [
+  { value: 'image-xs', label: 'Extra Small (12px)' },
+  { value: 'image-sm', label: 'Small (Default 16px)', default: true },
+  { value: 'image-md', label: 'Medium (32px)' },
+  { value: 'image-lg', label: 'Large (48px)' },
+  { value: 'image-xl', label: 'Extra Large (72px)' },
+  { value: 'image-hu', label: 'Huge (256px)' },
+  { value: 'image-nav', label: 'Sidemenu' },
 ];
 
 export default {
+  sizeOptions,
+  icons: iconData.icons.map((name) => ({ name })),
   components: {
-    GlSearchBoxByType,
-    SvgCard,
+    SvgAlbum,
     SvgIcon,
   },
-  data() {
-    return {
-      iconData,
-      copyStatus: 0,
-      ...mapQueryFieldsToData(queryFields),
-    };
-  },
   computed: {
-    ...mapQueryFieldsToComputed(queryFields),
-    filteredIcons() {
-      if (this.searchString?.startsWith('~')) {
-        return this.iconData.icons.filter((icon) => `~${icon}` === this.searchString);
-      }
-      return this.iconData.icons.filter((icon) => icon.includes(this.searchString));
-    },
     kbSize() {
       return bytesToKiloBytes(iconData.spriteSize);
-    },
-    colors() {
-      return [
-        { value: DEFAULT_COLORING, name: 'Default' },
-        { value: 'inverse', name: 'Inverse' },
-        { value: 'indigo', name: 'Indigo' },
-        { value: 'gray', name: 'Gray' },
-        { value: 'red', name: 'Red' },
-      ];
-    },
-    copyStatusText() {
-      switch (this.copyStatus) {
-        case 1:
-          return 'Copied to your clipboard!';
-        case -1:
-          return "Copying didn't work :-(";
-        default:
-          return 'Click Icons to copy their name';
-      }
-    },
-  },
-  methods: {
-    setSearchString(value) {
-      this.searchString = `~${value}`;
-    },
-    resetSearch() {
-      this.searchString = '';
-    },
-    setCopyStatus(newStatus) {
-      this.copyStatus = newStatus;
-      setTimeout(() => {
-        this.copyStatus = 0;
-      }, 5000);
     },
   },
 };
 </script>
 
 <template>
-  <div class="icons-explorer">
-    <header class="app-styles gl-mb-4">
-      <h5 class="subtitle">{{ iconData.iconCount }} Icons ({{ kbSize }})</h5>
-      <div class="gl-mb-3">{{ copyStatusText }}</div>
-      <client-only>
-        <gl-search-box-by-type
-          ref="input"
-          v-model="searchString"
-          aria-label="Search"
-          autocomplete="off"
-          spellcheck="false"
-          :is-loading="false"
-        />
-      </client-only>
-    </header>
-    <section class="icons-list" :class="selectedClass + '-list'">
-      <aside>
-        <label>
-          <strong>Select a icon size:</strong>
-          <select v-model="selectedClass">
-            <option value="image-xs">Extra Small (12px)</option>
-            <option value="image-sm" selected>Small (Default 16px)</option>
-            <option value="image-md">Medium (32px)</option>
-            <option value="image-lg">Large (48px)</option>
-            <option value="image-xl">Extra Large (72px)</option>
-            <option value="image-hu">Huge (256px)</option>
-            <option value="image-nav">Sidemenu</option>
-          </select>
-        </label>
-        <br />
-        <strong> Select a color combination </strong>
-        <div v-for="color in colors" :key="color.value">
-          <input :id="color.value" v-model="selectedColor" type="radio" :value="color.value" />
-          <label :for="color.value">
-            {{ color.name }}
-          </label>
-        </div>
-      </aside>
-      <svg-card
-        v-for="icon in iconData.icons"
-        v-if="filteredIcons.includes(icon)"
-        :key="icon"
-        :image="icon"
-        :class="selectedColor"
-        source-path="https://gitlab.com/gitlab-org/gitlab-svgs/blob/main/sprite_icons/"
-        @imageCopied="setCopyStatus"
-        @permalinkSelected="setSearchString"
-      >
-        <svg-icon :icon="icon" :class="selectedClass" />
-      </svg-card>
-      <a v-if="filteredIcons.length === 0" href="" @click.prevent="resetSearch">
-        No icons found. Click here to reset your search!
-      </a>
-    </section>
-  </div>
+  <SvgAlbum
+    :elements="Object.freeze($options.icons)"
+    :size-options="$options.sizeOptions"
+    class="icons-explorer"
+  >
+    <template #header>{{ $options.icons.length }} Icons ({{ kbSize }})</template>
+    <template #figure="{ entry, className }">
+      <svg-icon :icon="entry.name" :class="className" />
+    </template>
+    <template #no-result>No icons found. Click here to reset your search!</template>
+  </SvgAlbum>
 </template>
