@@ -199,7 +199,7 @@ export default {
 
     loaders: {
       imgUrl: {
-        limit: 1,
+        limit: false,
       },
       scss: {
         implementation: sass,
