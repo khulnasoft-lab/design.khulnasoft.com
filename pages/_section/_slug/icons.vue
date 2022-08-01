@@ -33,7 +33,7 @@ export default {
   computed: {
     ...mapQueryFieldsToComputed(queryFields),
     filteredIcons() {
-      if (this.searchString && this.searchString.startsWith('~')) {
+      if (this.searchString?.startsWith('~')) {
         return this.iconData.icons.filter((icon) => `~${icon}` === this.searchString);
       }
       return this.iconData.icons.filter((icon) => icon.includes(this.searchString));
@@ -80,9 +80,9 @@ export default {
 
 <template>
   <div class="icons-explorer">
-    <header class="app-styles m-b-4">
+    <header class="app-styles gl-mb-4">
       <h5 class="subtitle">{{ iconData.iconCount }} Icons ({{ kbSize }}Kb)</h5>
-      <div class="mb-2">{{ copyStatusText }}</div>
+      <div class="gl-mb-3">{{ copyStatusText }}</div>
       <client-only>
         <gl-search-box-by-type
           ref="input"
@@ -110,23 +110,16 @@ export default {
         </label>
         <br />
         <strong> Select a color combination </strong>
-        <template v-for="color in colors">
-          <br :key="color.value + 'br'" />
-          <input
-            :id="color.value"
-            :key="color.value + 'input'"
-            v-model="selectedColor"
-            type="radio"
-            :value="color.value"
-          />
-          <label :key="color.value + 'label'" :for="color.value">
+        <div v-for="color in colors" :key="color.value">
+          <input :id="color.value" v-model="selectedColor" type="radio" :value="color.value" />
+          <label :for="color.value">
             {{ color.name }}
           </label>
-        </template>
+        </div>
       </aside>
       <svg-card
         v-for="icon in iconData.icons"
-        v-show="filteredIcons.includes(icon)"
+        v-if="filteredIcons.includes(icon)"
         :key="icon"
         :image="icon"
         :class="selectedColor"
@@ -136,7 +129,7 @@ export default {
       >
         <svg-icon :icon="icon" :class="selectedClass" />
       </svg-card>
-      <a v-show="filteredIcons.length === 0" href="" @click.prevent="resetSearch">
+      <a v-if="filteredIcons.length === 0" href="" @click.prevent="resetSearch">
         No icons found. Click here to reset your search!
       </a>
     </section>

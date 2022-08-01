@@ -23,14 +23,14 @@ export default {
   },
   computed: {
     imageName() {
-      return (this.image || '').replace(/_/g, '_\u200B');
+      return this.image.replace(/_/g, '_\u200B');
     },
     imagePath() {
       return `dist/${this.image}`;
     },
     sourceLink() {
       const path = `${this.sourcePath}${this.image}`;
-      return path.includes('.svg') ? path : `${path}.svg`;
+      return path.endsWith('.svg') ? path : `${path}.svg`;
     },
     kbSize() {
       return Math.round(this.imageSize / 1024);
@@ -53,7 +53,7 @@ export default {
       <slot></slot>
       <div class="image-name">
         {{ imageName }}
-        <span v-show="imageSize"> ({{ kbSize }}Kb) </span>
+        <span v-if="imageSize"> ({{ kbSize }}Kb) </span>
       </div>
     </div>
     <div class="image-actions">
