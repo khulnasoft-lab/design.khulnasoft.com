@@ -1,5 +1,6 @@
 <script>
 import copyToClipboard from '../../helpers/copy_to_clipboard';
+import { bytesToKiloBytes } from '../../helpers/unit_utils';
 import SvgIcon from './svg_icon.vue';
 
 export default {
@@ -33,7 +34,7 @@ export default {
       return path.endsWith('.svg') ? path : `${path}.svg`;
     },
     kbSize() {
-      return Math.round(this.imageSize / 1024);
+      return bytesToKiloBytes(this.imageSize);
     },
   },
   methods: {
@@ -53,7 +54,7 @@ export default {
       <slot></slot>
       <div class="image-name">
         {{ imageName }}
-        <span v-if="imageSize"> ({{ kbSize }}Kb) </span>
+        <span v-if="imageSize"> ({{ kbSize }}) </span>
       </div>
     </div>
     <div class="image-actions">

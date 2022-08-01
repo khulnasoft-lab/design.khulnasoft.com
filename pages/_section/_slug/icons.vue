@@ -7,6 +7,7 @@ import {
   mapQueryFieldsToComputed,
   mapQueryFieldsToData,
 } from '../../../helpers/sync_state_to_query_params';
+import { bytesToKiloBytes } from '../../../helpers/unit_utils';
 
 const DEFAULT_ICON_SIZE = 'image-sm';
 const DEFAULT_COLORING = 'default';
@@ -39,7 +40,7 @@ export default {
       return this.iconData.icons.filter((icon) => icon.includes(this.searchString));
     },
     kbSize() {
-      return Math.round(this.iconData.spriteSize / 1024);
+      return bytesToKiloBytes(iconData.spriteSize);
     },
     colors() {
       return [
@@ -81,7 +82,7 @@ export default {
 <template>
   <div class="icons-explorer">
     <header class="app-styles gl-mb-4">
-      <h5 class="subtitle">{{ iconData.iconCount }} Icons ({{ kbSize }}Kb)</h5>
+      <h5 class="subtitle">{{ iconData.iconCount }} Icons ({{ kbSize }})</h5>
       <div class="gl-mb-3">{{ copyStatusText }}</div>
       <client-only>
         <gl-search-box-by-type
