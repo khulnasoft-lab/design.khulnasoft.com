@@ -25,7 +25,7 @@ const cspPolicies = [
   "object-src 'none'",
   "img-src 'self' https: data:",
   `frame-src https://www.figma.com https://projects.gitlab.io ${new URL(GITLAB_UI_URL).origin}`,
-  "connect-src 'self' https://sentry.gitlab.net https://www.google-analytics.com https://cdn.cookielaw.org https://geolocation.onetrust.com  https://gitlab-requests.my.onetrust.com",
+  "connect-src 'self' https://sentry.gitlab.net https://www.google-analytics.com https://cdn.cookielaw.org https://geolocation.onetrust.com  https://gitlab-requests.my.onetrust.com https://gitlab-org.gitlab.io",
 ];
 
 // eslint-disable-next-line import/no-default-export
