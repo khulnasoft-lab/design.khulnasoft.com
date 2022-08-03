@@ -23,9 +23,9 @@ const cspPolicies = [
   "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://cdn.cookielaw.org",
   "style-src 'self' 'unsafe-inline'",
   "object-src 'none'",
-  "img-src 'self' https: data:",
+  "img-src 'self' https: data: https://gitlab.com",
   `frame-src https://www.figma.com https://projects.gitlab.io ${new URL(GITLAB_UI_URL).origin}`,
-  "connect-src 'self' https://sentry.gitlab.net https://www.google-analytics.com https://cdn.cookielaw.org https://geolocation.onetrust.com  https://gitlab-requests.my.onetrust.com https://gitlab-org.gitlab.io",
+  "connect-src 'self' https://sentry.gitlab.net https://www.google-analytics.com https://cdn.cookielaw.org https://geolocation.onetrust.com  https://gitlab-requests.my.onetrust.com https://gitlab.com",
 ];
 
 // eslint-disable-next-line import/no-default-export

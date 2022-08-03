@@ -7,10 +7,15 @@ export default {
       type: String,
       required: true,
     },
+    iconSrc: {
+      type: String,
+      required: false,
+      default: iconSprite,
+    },
   },
   computed: {
     spritePath() {
-      return `${iconSprite}#${this.icon}`;
+      return `${this.iconSrc}#${this.icon}`;
     },
   },
 };
@@ -18,6 +23,6 @@ export default {
 
 <template>
   <svg>
-    <use v-bind="{ 'xlink:href': spritePath }" />
+    <use v-bind="{ href: spritePath }" />
   </svg>
 </template>
