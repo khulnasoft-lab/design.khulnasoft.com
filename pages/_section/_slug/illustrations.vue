@@ -37,10 +37,11 @@ export default {
     }
   },
   methods: {
-    imagePath(path) {
-      return this.illustrationURL
-        ? `${this.illustrationURL}/dist/${path}`
-        : illustrationSources[path];
+    imagePathOld(path) {
+      return illustrationSources[path];
+    },
+    imagePathNew(path) {
+      return `${this.illustrationURL}/dist/${path}`;
     },
   },
 };
@@ -54,7 +55,8 @@ export default {
   >
     <template #header> {{ $options.illustrations.illustrationCount }} Illustrations</template>
     <template #figure="{ entry }">
-      <img loading="lazy" alt="" :src="imagePath(entry.name)" />
+      <img loading="lazy" alt="" :src="imagePathOld(entry.name)" class="diff-before" />
+      <img loading="lazy" alt="" :src="imagePathNew(entry.name)" class="diff-after" />
     </template>
     <template #no-result> No illustrations found. Click here to reset your search! </template>
   </SvgAlbum>

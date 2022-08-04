@@ -8,12 +8,13 @@
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   }
 
+  .svg-list.image-lg-list,
   .svg-list.image-xl-list {
     grid-template-columns: repeat(auto-fill, 20rem);
   }
 
   .svg-list.image-hu-list {
-    grid-template-columns: repeat(auto-fill, 30rem);
+    grid-template-columns: repeat(auto-fill, 50rem);
   }
 
   .svg-list aside {
@@ -52,6 +53,10 @@
 
   .svg-list .image-wrapper {
     margin-bottom: 1rem;
+  }
+
+  .diff {
+    height: 200px !important;
   }
 }
 
@@ -100,6 +105,26 @@
     background-color: var(--red-bg);
   }
 
+  .diff-onion {
+    .diff {
+      position: relative;
+      width: 100% !important;
+
+      svg, img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+    }
+  }
+
+  .diff-side-by-side {
+    .diff {
+     width: 100% !important;
+    }
+  }
+
   .image-wrapper {
     min-height: 125px;
     font-size: 12px;
@@ -118,6 +143,9 @@
     .image-base {
       padding: 20px 20px 0;
       flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .image-base:hover {
@@ -150,40 +178,47 @@
       color: black;
     }
 
-    svg.image-xs {
+    .image-xs {
       width: 12px;
       height: 12px;
     }
 
-    svg.image-sm {
+    .image-sm {
       width: 16px;
       height: 16px;
     }
 
-    svg.image-md {
+    .image-md {
       width: 32px;
       height: 32px;
     }
 
-    svg.image-lg {
+    .image-lg {
       width: 48px;
       height: 48px;
     }
 
-    svg.image-xl {
+    .image-xl {
       width: 72px;
       height: 72px;
     }
 
-    svg.image-hu {
+    .image-hu {
       width: 256px;
       height: 256px;
     }
 
-    svg.image-nav {
+    .image-nav {
       width: 16px;
       height: 16px;
       fill: #707070;
     }
+  }
+
+  .diff-banner {
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    background: beige;
   }
 }

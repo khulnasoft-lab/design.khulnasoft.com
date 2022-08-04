@@ -92,12 +92,9 @@ export default {
     class="icons-explorer"
   >
     <template #header>{{ icons.length }} Icons ({{ kbSize }})</template>
-    <template v-if="diffData" #figure="{ entry, className }">
-      <svg-icon :icon="entry.name" :class="className" />
-      <svg-icon v-if="diffData" :icon-src="''" :icon="'mr-diff-' + entry.name" :class="className" />
-    </template>
-    <template v-else #figure="{ entry, className }">
-      <svg-icon :icon="entry.name" :class="className" />
+    <template #figure="{ entry, className }">
+      <svg-icon style="color: green" :icon="entry.name" :class="className" class="diff-before" />
+      <svg-icon style="color: red" :icon="entry.name" :class="className" class="diff-after" />
     </template>
     <template #no-result>No icons found. Click here to reset your search!</template>
   </SvgAlbum>
