@@ -48,9 +48,12 @@ We include 12px as one of our measures, but it should only be reserved for right
 
 <todo>Add example of 16px spacing</todo>
 
-`24px` is used to separate sub-sections of content.
+`24px` is used to separate sub-sections of content. For example, use this to separate a table from pagination.
 
-<todo>Add example of 24px spacing</todo>
+<figure class="figure" role="figure" aria-label="Example of 24px spacer being used between a table and pagination">
+  <img class="figure-img" src="/img/spacing-24px.png" alt="24px spacer example" role="img" />
+  <figcaption class="figure-caption">Example of 24px spacer being used between a table and pagination</figcaption>
+</figure>
 
 `32x` is used to separate sections of content.
 
