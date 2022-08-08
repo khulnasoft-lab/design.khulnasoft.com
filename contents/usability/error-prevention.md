@@ -20,7 +20,8 @@ If a destructive action is difficult to undo or data will be lost permanently, s
 
 * A [modal](/components/modal) used for confirming a destructive action should use the danger [button](/components/button) variant to confirm the action.
 * All caps text should NOT be used in the modal header or body, unless the all caps styling is typical in the context (for example, README).
-* Body content can use bold styling to draw attention to the consequences of the destructive action. Avoid using [alerts](/components/alert) to emphasize the content inside a modal. 
+* Body content can use bold styling to draw attention to the consequences of the destructive action.
+* Avoid using [alerts](/components/alert) to emphasize the content inside a modal. 
 
 ### Medium severity
 
