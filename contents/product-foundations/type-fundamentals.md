@@ -29,9 +29,9 @@ The body font stack is used for all UI elements, except for code-related element
 
 ## Font size
 
-The [UI type scale](type-scales#ui-type-scale) includes 12px (0.75rem) as the smallest size option across all of the type scales. Legibility is impacted more at smaller sizes as system font, browser rendering, screen resolution, type styles, and other factors influence the presentation of text. Therefore, use small text in limited capacity for short meta content and actions.
+The [UI type scale](/product-foundations/type-scales#ui-type-scale) includes 12px (0.75rem) as the smallest size option across all of the type scales. Legibility is impacted more at smaller sizes as system font, browser rendering, screen resolution, type styles, and other factors influence the presentation of text. Therefore, use small text in limited capacity for short meta content and actions.
 
-View the [type scales](type-scales) page for additional details about body and heading font sizes.
+View the [type scales](/product-foundations/type-scales) page for additional details about body and heading font sizes.
 
 ## Font weight
 
