@@ -51,7 +51,7 @@ related:
 
 ### Appearance
 
-When pagination is used with a list or table, there should be 24px spacing separating the two elements.
+There should be 24px spacing between pagination and the element it relates to.
 
 ### Types of pagination
 
