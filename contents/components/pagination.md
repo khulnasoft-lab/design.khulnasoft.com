@@ -51,7 +51,7 @@ related:
 
 ### Appearance
 
-There should be 24px spacing between pagination and the element it relates to.
+- There is 24px [spacing](/layout/spacing#standard-spacing-guidelines) between pagination and the element it relates to.
 
 ### Types of pagination
 
