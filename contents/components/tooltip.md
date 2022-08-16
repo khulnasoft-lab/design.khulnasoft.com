@@ -28,6 +28,8 @@ related:
 
 ### When not to use
 
+- If a button is simply a closing action and non-destructive  
+
 Consider using a [popover](/components/popover) for the following scenarios:
 
 - Display information required for task completion, such as password formatting hints.
