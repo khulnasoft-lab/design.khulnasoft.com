@@ -40,9 +40,9 @@ related:
 
 ### Behavior
 
-- Clicking on any of the three parts of a query opens a corresponding dropdown for selecting the value for that part of the query. For example, if a user clicks on the value part of the query, the value dropdown appears.
-- If clicking the operator, the operator dropdown appears and the value part of the query is removed if the operator is changed.
-- If clicking the key, the key dropdown appears and the operator and the value of the query are removed if the key is changed.
+- Clicking on any of the three parts of a query opens a corresponding dropdown for that part of the query. For example, if a user clicks on the value part of the query, the value dropdown appears.
+- If the operator is selected, the related dropdown appears and the value part of the query is removed if the operator is changed.
+- If the key is selected, the related dropdown appears and the operator and the value of the query are removed if the key is changed.
 - The text content of the clicked part (operator or key) becomes editable and the text cursor is immediately placed at the end of that text string so that users can either type or select a suggestion from a dropdown.
 - Certain keys are compatible so the operator and value don’t need to be removed in the event of change (for example, changing the key from author to assignee).
 - If a user selects a different value from the dropdown when editing a text string, that new value replaces the old one.
@@ -51,10 +51,10 @@ related:
 - If a user tries to edit an operator with an invalid value, the first option is chosen and the invalid text becomes the value text string.
 - After a query is successfully added, a dropdown with suggestions for other keys appears immediately.
 - If a query is deleted by interaction through the keyboard, the filter should remain focused and a new dropdown should appear.
-- Clicking the clear button inside the filter clears all queries, keeps the filter focused, and shows a dropdown.
-- Pressing the `Esc` key on the keyboard hides the dropdown. Pressing the down key or clicking inside the filter shows it again. If there's a string already inputed in the filter it can be:
-  - Turned into a token if it's a valid match for a value
-  - Turned into raw text on all other occasions
+- Clicking the clear button inside the input clears all filters, keeps the input focused, and shows a dropdown.
+- Pressing the <kbd>Esc</kbd> key on the keyboard hides the dropdown. Pressing the <kbd>↓</kbd> key or clicking inside the filter shows it again. If there's a string already in the filter it can be:
+  - Turned into a token if it's a valid match for a value.
+  - Turned into raw text on all other occasions.
 - The experience of adding a query should be as follows:
   1. The user clicks into a search box and a dropdown with the keys that can be used appears.
   1. The user chooses the key of what they want to filter the list by (for example, `assignee`).
