@@ -50,9 +50,9 @@ related:
 - If a user tries to edit a key with an invalid value, the token is removed and converted to a plain text string.
 - If a user tries to edit an operator with an invalid value, the first option is chosen and the invalid text becomes the value text string.
 - After a query is successfully added, a dropdown with suggestions for other keys appears immediately.
-- If a query is deleted by interaction through the keyboard, the filter should remain focused and a new dropdown should appear.
+- If a query is deleted by interaction through the keyboard, the input should remain focused and a new dropdown should appear.
 - Clicking the clear button inside the input clears all filters, keeps the input focused, and shows a dropdown.
-- Pressing the <kbd>Esc</kbd> key on the keyboard hides the dropdown. Pressing the <kbd>↓</kbd> key or clicking inside the filter shows it again. If there's a string already in the filter it can be:
+- Pressing the <kbd>Esc</kbd> key on the keyboard hides the dropdown. Pressing the <kbd>↓</kbd> key or clicking inside the input shows it again. If there's a string already in the input it can be:
   - Turned into a token if it's a valid match for a value.
   - Turned into raw text on all other occasions.
 - The experience of adding a query should be as follows:
