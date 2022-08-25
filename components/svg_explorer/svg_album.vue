@@ -5,6 +5,7 @@ import {
   mapQueryFieldsToData,
 } from '../../helpers/sync_state_to_query_params';
 import SvgCard from './svg_card.vue';
+import DiffBanner from './diff_banner.vue';
 
 const DEFAULT_ICON_SIZE = 'image-sm';
 const DEFAULT_COLORING = 'default';
@@ -17,6 +18,7 @@ const queryFields = [
 
 export default {
   components: {
+    DiffBanner,
     GlSearchBoxByType,
     SvgCard,
   },
@@ -39,6 +41,10 @@ export default {
   data() {
     return {
       copyStatus: 0,
+      diffSettings: {
+        showUnchanged: false,
+        sideBySide: false,
+      },
       ...mapQueryFieldsToData(queryFields),
     };
   },
@@ -71,6 +77,13 @@ export default {
         default:
           return 'Click entry to copy their name';
       }
+    },
+    svgListClasses() {
+      return [
+        'svg-list',
+        `${this.selectedClass}-list`,
+        this.diffSettings.sideBySide ? 'diff-side-by-side' : 'diff-onion',
+      ];
     },
   },
   methods: {
@@ -108,7 +121,7 @@ export default {
         />
       </client-only>
     </header>
-    <section class="svg-list" :class="selectedClass + '-list'">
+    <section :class="svgListClasses">
       <aside>
         <label v-if="sizeOptions.length" class="d-block gl-mb-3">
           <strong>Select a size:</strong>
@@ -142,11 +155,17 @@ export default {
         @imageCopied="setCopyStatus"
         @permalinkSelected="setSearchString"
       >
-        <slot name="figure" :entry="entry" :class-name="selectedClass"></slot>
+        <div class="diff" :class="selectedClass">
+          <slot name="figure" :entry="entry" :class-name="selectedClass"></slot>
+        </div>
       </svg-card>
       <button v-if="filteredElements.length === 0" href="" @click.prevent="resetSearch">
         <slot name="no-result"></slot>
       </button>
     </section>
+    <pre>
+      {{ diffSettings }}
+    </pre>
+    <DiffBanner v-model="diffSettings" />
   </div>
 </template>

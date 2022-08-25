@@ -13,3 +13,4 @@ export { default as GlCard } from '@gitlab/ui/dist/components/base/card/card';
 export { default as GlLink } from '@gitlab/ui/dist/components/base/link/link';
 export { default as GlNav } from '@gitlab/ui/dist/components/base/nav/nav';
 export { default as GlNavItem } from '@gitlab/ui/dist/components/base/nav/nav_item';
+export { default as GlAlert } from '@gitlab/ui/dist/components/base/alert/alert';

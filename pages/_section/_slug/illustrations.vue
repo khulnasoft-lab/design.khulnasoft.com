@@ -18,9 +18,30 @@ export default {
   components: {
     SvgAlbum,
   },
+  data() {
+    return {
+      illustrationURL: null,
+    };
+  },
+  async mounted() {
+    try {
+      const { artifactBaseURL } = JSON.parse(localStorage.getItem('svg-review'));
+
+      // const {data} = await axios.get(iconMetadata);
+
+      this.illustrationURL = artifactBaseURL;
+      // console.log(iconMetadata, data);
+      // console.log(rest)
+    } catch {
+      //
+    }
+  },
   methods: {
-    imagePath(path) {
+    imagePathOld(path) {
       return illustrationSources[path];
+    },
+    imagePathNew(path) {
+      return `${this.illustrationURL}/dist/${path}`;
     },
   },
 };
@@ -34,7 +55,8 @@ export default {
   >
     <template #header> {{ $options.illustrations.illustrationCount }} Illustrations</template>
     <template #figure="{ entry }">
-      <img alt="" :src="imagePath(entry.name)" />
+      <img loading="lazy" alt="" :src="imagePathOld(entry.name)" class="diff-before" />
+      <img loading="lazy" alt="" :src="imagePathNew(entry.name)" class="diff-after" />
     </template>
     <template #no-result> No illustrations found. Click here to reset your search! </template>
   </SvgAlbum>
