@@ -22,13 +22,13 @@ related:
 </figure>
 
 1. **Input**: The input field of the filter.
-2. **Query**: Consists of three main token parts:
-  3. **Key**: acts as the label of the filter value, for example, `assignee`.
-  4. **Logical operator**: the condition that binds the key to the value, for example, `is` or `is not`.
-  5. **Value**: the item that the condition will base results on, for example, a `@username`.
-6. **Raw text**: Additional raw text can be typed into the filter
-7. **Clear button**: Clears the entire input field (all queries and raw text).
-8. **Search button*: Triggers the search.
+1. **Query**: Consists of three main token parts:
+  1. **Key**: acts as the label of the filter value, for example, `assignee`.
+  1. **Logical operator**: the condition that binds the key to the value, for example, `is` or `is not`.
+  1. **Value**: the item that the condition will base results on, for example, a `@username`.
+1. **Raw text**: Additional raw text can be typed into the filter
+1. **Clear button**: Clears the entire input field (all queries and raw text).
+1. **Search button**: Triggers the search.
 
 ## Guidelines
 
