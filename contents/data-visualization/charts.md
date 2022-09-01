@@ -90,6 +90,10 @@ They are useful when you are looking to identify trends or to see larger pattern
 
 <story-viewer story-name="charts-line-chart--default" title="Line Chart"></story-viewer>
 
+### No data available
+
+Gaps in continuous data should be shown with a grey dotted line.
+
 ## Area charts
 
 Area charts are used to represent "[cumulated totals](http://www.vizwiz.com/2012/10/stacked-area-chart-vs-line-chart-great.html) using numbers or percentages."
