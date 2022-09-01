@@ -42,9 +42,9 @@ related:
 
 ### Appearance
 
-- Filters utilize our [search component](/components/search/) with three main [token](/components/token/) parts which form a query (see [Structure](#structure)).
-- Queries are positioned inline with the text cursor in the input field. The input field becomes horizontally scrollable when the queries can’t fit in it.
-- Queries include a [remove icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~close) which, when clicked, removes the whole query from the search box.
+- Filters utilize the [search component](/components/search/) with three main [token](/components/token/) parts that form a query (see [Structure](#structure)).
+- Queries are positioned inline with the text cursor in the input field. The input field scrolls horizontally when the queries overflow the width.
+- Queries include a [remove icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~close) that removes the whole query from the search box when clicked.
 
 ### Behavior
 
