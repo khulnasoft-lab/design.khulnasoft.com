@@ -1,6 +1,7 @@
 import path from 'path';
 import sass from 'sass';
 import webpack from 'webpack';
+import fixUrlInReviewApp from './helpers/fix_url_in_review_app';
 
 const isProd = process.env.NODE_ENV === 'production' && !process.env.REVIEW_APP_ROOT;
 
@@ -69,17 +70,17 @@ export default {
       { name: 'og:image', content: 'https://design.gitlab.com/img/social/link-preview.png' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: fixUrlInReviewApp('/favicon.ico') },
       {
         rel: 'icon',
         type: 'image/png',
-        href: '/favicon-32x32.png',
+        href: fixUrlInReviewApp('/favicon-32x32.png'),
         sizes: '32x32',
       },
       {
         rel: 'icon',
         type: 'image/png',
-        href: '/favicon-16x16.png',
+        href: fixUrlInReviewApp('/favicon-16x16.png'),
         sizes: '16x16',
       },
     ],
