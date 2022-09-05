@@ -2,7 +2,7 @@ import path from 'path';
 import sass from 'sass';
 import webpack from 'webpack';
 
-const isProd = process.env.NODE_ENV === 'production';
+const isProd = process.env.NODE_ENV === 'production' && !process.env.REVIEW_APP_ROOT;
 
 const GOOGLE_ANALYTICS_ID = process.env.GOOGLE_ANALYTICS_ID
   ? process.env.GOOGLE_ANALYTICS_ID
@@ -182,6 +182,9 @@ export default {
   content: {
     liveEdit: true,
     dir: 'contents',
+    markdown: {
+      rehypePlugins: ['~/plugins/rehype_fix_review_urls.js'],
+    },
   },
 
   /*
