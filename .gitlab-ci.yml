@@ -51,7 +51,7 @@ danger-review:
     - danger --fail-on-errors=true
 
 .node:
-  image: node:14.16.1
+  image: node:16
   before_script:
     - "echo REVIEW_APP_ROOT: $REVIEW_APP_ROOT"
     - "echo CI_PAGES_URL: $CI_PAGES_URL"
@@ -96,12 +96,11 @@ test:
   script: yarn run test
 
 check_links:
-  image: node:16
+  extends: .node
   stage: test
   needs: []
   allow_failure: true
   script:
-    - yarn install --frozen-lockfile
     - yarn check-links
 
 semantic-release:
