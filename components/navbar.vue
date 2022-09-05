@@ -39,7 +39,7 @@ export default {
   <nav :class="{ 'nav-sidebar--open': sidebarOpen }" class="nav-sidebar">
     <div class="nav-sidebar__header">
       <nuxt-link to="/" class="nav-sidebar__header-anchor gl-p-5">
-        <img src="/gitlab-tanuki.svg" alt="GitLab tanuki mark" role="img" />
+        <img src="~/assets/images/gitlab-tanuki.svg" alt="GitLab tanuki mark" role="img" />
         <span class="gl-ml-4">GitLab Design System</span>
       </nuxt-link>
     </div>

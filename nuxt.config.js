@@ -1,12 +1,15 @@
 import path from 'path';
 import sass from 'sass';
 import webpack from 'webpack';
+import fixUrlInReviewApp from './helpers/fix_url_in_review_app';
 
 const isProd = process.env.NODE_ENV === 'production';
 
 const GOOGLE_ANALYTICS_ID = process.env.GOOGLE_ANALYTICS_ID
   ? process.env.GOOGLE_ANALYTICS_ID
   : false;
+
+const REVIEW_APP_ROOT = process.env.REVIEW_APP_ROOT ? process.env.REVIEW_APP_ROOT : false;
 
 const GITLAB_UI_URL = (
   process.env.GITLAB_UI_URL || 'https://gitlab-org.gitlab.io/gitlab-ui'
@@ -69,17 +72,17 @@ export default {
       { name: 'og:image', content: 'https://design.gitlab.com/img/social/link-preview.png' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: fixUrlInReviewApp('/favicon.ico') },
       {
         rel: 'icon',
         type: 'image/png',
-        href: '/favicon-32x32.png',
+        href: fixUrlInReviewApp('/favicon-32x32.png'),
         sizes: '32x32',
       },
       {
         rel: 'icon',
         type: 'image/png',
-        href: '/favicon-16x16.png',
+        href: fixUrlInReviewApp('/favicon-16x16.png'),
         sizes: '16x16',
       },
     ],
@@ -119,7 +122,7 @@ export default {
 
   router: {
     middleware: ['navigation'],
-    base: process.env.REVIEW_APP_ROOT ? new URL(process.env.REVIEW_APP_ROOT).pathname : '/',
+    base: REVIEW_APP_ROOT ? new URL(REVIEW_APP_ROOT).pathname : '/',
   },
 
   /*
@@ -128,6 +131,7 @@ export default {
   env: {
     GOOGLE_ANALYTICS_ID,
     GITLAB_UI_URL,
+    REVIEW_APP_ROOT,
   },
 
   /*
@@ -182,6 +186,9 @@ export default {
   content: {
     liveEdit: true,
     dir: 'contents',
+    markdown: {
+      rehypePlugins: ['~/plugins/rehype_fix_review_urls.js'],
+    },
   },
 
   /*
