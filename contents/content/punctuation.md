@@ -61,7 +61,7 @@ A period signals to a speaker or reader that a sentence has come to an end, and 
 - Use periods for help text. For example, text in banners, text beneath a field, or the text of a `Learn more` link.
 - Do **not** use periods for the label of a UI element. For example, the text next to a checkbox should not end in a period.
 
-Follow these guidelines:
+Follow these additional guidelines:
 
 Use periods with links that are full sentences.
 
