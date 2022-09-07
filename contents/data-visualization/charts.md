@@ -31,6 +31,7 @@ When creating and utilizing charts, consider the following:
 - Line and area charts use the series label with the rectangular color chip to match the line colors in the chart, while column and heat map charts use the square color chip to match the fill and stroke color of the elements in the visualization. The fill of the chip should match the fill of the column and the border of the chip should match the border of the column. 
 - Charts follow the data visualization recommendations for [color](/data-visualization/color). 
 - When hovering, detailed information on the data point is shown in a [popover](/components/popover).
+- Represent gaps in continuous data with a dashed `$grey-300` line, and without a data point.
 
 ### Types
 
@@ -89,12 +90,6 @@ Line charts are used to display continuous data.
 They are useful when you are looking to identify trends or to see larger patterns in your data, and to see how your data changes over time.
 
 <story-viewer story-name="charts-line-chart--default" title="Line Chart"></story-viewer>
-
-### No data available
-
-Represent gaps in continuous data with a dashed `$grey-300` line. 
-
-Don't display a data point when there is no data.
 
 ## Area charts
 
