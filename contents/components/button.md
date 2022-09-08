@@ -192,7 +192,7 @@ Multiple alignments can be combined within a single screen, but not within an in
 
 - Affirmative actions are positioned to the outer edge of a container. This means that on left-aligned buttons the affirmative action is the left-most action, and on right-aligned buttons, the affirmative action is the right-most action.
 - An affirmative action is something that takes the users further in their journey (for example, Save or Delete), while a dismissive action takes a user back (for example, Cancel). Depending on the context, an affirmative action may be destructive.
-  <div class="gl-display-grid gl-grid-template-columns-2">
+  <div class="gl-display-grid gl-grid-template-columns-2 gl-column-gap-6">
     <figure class="figure" role="figure" aria-label="Affirmative action on left edge for left alignment">
       <img class="figure-img" src="/img/buttons-order-left.png" alt="Two buttons with the affirmative one on the left" role="img" style="width:100%; max-width:332px; height:auto" />
       <figcaption class="figure-caption">Affirmative action on left edge for left alignment</figcaption>
@@ -204,7 +204,7 @@ Multiple alignments can be combined within a single screen, but not within an in
   </div>
 - The visual hierarchy is primary buttons on the outer edge, followed by secondary buttons, and so on.
 - One exception to the visual hierarchy is an ellipsis button. When using an ellipsis button, place it on the outer edge.
-  <div class="gl-display-grid gl-grid-template-columns-2">
+  <div class="gl-display-grid gl-grid-template-columns-2 gl-column-gap-6">
     <figure class="figure" role="figure" aria-label="Hierarchy from left to right for left alignment">
       <img class="figure-img" src="/img/buttons-hierarchy-left.png" alt="Button hierarchy from left to right for left alignment" role="img" style="width:100%; max-width:332px; height:auto" />
       <figcaption class="figure-caption">Hierarchy from left to right for left alignment</figcaption>
