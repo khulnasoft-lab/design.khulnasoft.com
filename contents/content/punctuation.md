@@ -58,8 +58,11 @@ Always capitalize the first word in bulleted lists. This includes sentences that
 
 A period signals to a speaker or reader that a sentence has come to an end, and it assists users in visually breaking up content.
 
-- Use periods for help text. For example, text in banners, text beneath a field, or the text of a `Learn more` link.
-- Do **not** use periods for the label of a UI element. For example, the text next to a checkbox should not end in a period.
+- Do **not** use periods:
+  - For the label of a UI element. For example, for the label associated with a checkbox, text box, or button.
+  - For the title of a UI element. For example, for the title of a banner, warning, broadcast message, dialog box, or modal.
+- Use periods:
+  - For additional help text. For example, for text in banners, warnings, and for the extra description below a checkbox or text box.
 
 Follow these additional guidelines:
 
