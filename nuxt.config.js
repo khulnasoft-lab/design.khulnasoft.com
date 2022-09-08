@@ -159,7 +159,13 @@ export default {
     '~/modules/nuxt_lunr_content_bridge.js',
     '@nuxtjs/lunr-module',
     '@nuxt/content',
+    '@nuxtjs/tailwindcss',
   ],
+
+  tailwindcss: {
+    cssPath: '../assets/stylesheets/tailwind.css',
+    // cssPath: '~/assets/stylesheets/app.scss',
+  },
 
   sentry: {
     dsn: 'https://77ebbeb22fb243c786286ecd01caa19f@sentry.gitlab.net/109', // Enter your project's DSN here
@@ -194,9 +200,9 @@ export default {
     // See https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/418
     extractCSS: isProd,
 
-    postcss: {
-      order: ['postcss-preset-env'],
-    },
+    // postcss: {
+    //   order: ['postcss-preset-env'],
+    // },
 
     loaders: {
       imgUrl: {

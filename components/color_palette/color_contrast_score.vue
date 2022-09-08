@@ -32,6 +32,10 @@ const CONTRAST_LEVELS = [
 
 export default {
   props: {
+    shade: {
+      type: Object,
+      required: true,
+    },
     bgColorHex: {
       type: String,
       required: true,
@@ -45,6 +49,10 @@ export default {
       type: Boolean,
       required: false,
       default: false,
+    },
+    borderClass: {
+      type: String,
+      required: true,
     },
   },
   computed: {
@@ -100,17 +108,17 @@ export default {
 </script>
 
 <template>
-  <div class="gl-display-inline-block">
+  <div class="gl-inline-block">
     <div
-      class="gl-display-inline-block gl-px-3 gl-py-2"
-      :class="[`c-border-${name}`, `c-background-${name}`, withWhiteText ? 'f-inverted' : '']"
+      class="gl-inline-block gl-px-3 gl-py-2 gl-border gl-border-solid"
+      :class="[shade.backgroundClass, shade.borderClass, withWhiteText ? 'f-inverted' : '']"
     >
       Text
     </div>
     <div
-      class="gl-display-inline-block gl-px-3 gl-py-2"
+      class="gl-inline-block gl-px-3 gl-py-2 gl-border gl-border-solid"
       data-testid="contrast-score"
-      :class="[`c-border-${name}`, contrast.level.class]"
+      :class="[shade.borderClass, contrast.level.class]"
     >
       {{ contrast.level.grade }} ({{ contrast.score }})
     </div>

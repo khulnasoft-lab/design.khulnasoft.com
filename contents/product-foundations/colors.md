@@ -19,56 +19,77 @@ Though deciding which color to use depends on the situation, here are some gener
 <div class="row gl-mb-11">
   <color-palette
     class="col col-50 md gl-pb-7"
-    background-class-prefix="c-background-"
     name="Blue"
     :shades="[
       {
         name: 'blue-50',
+        backgroundClass: 'gl-bg-blue-50',
+        borderClass: 'gl-border-blue-50',
         code: '#e9f3fc',
       },
       {
         name: 'blue-100',
+        backgroundClass: 'gl-bg-blue-100',
+        borderClass: 'gl-border-blue-100',
         code: '#cbe2f9',
       },
       {
         name: 'blue-200',
+        backgroundClass: 'gl-bg-blue-200',
+        borderClass: 'gl-border-blue-200',
         code: '#9dc7f1',
       },
       {
         name: 'blue-300',
+        backgroundClass: 'gl-bg-blue-300',
+        borderClass: 'gl-border-blue-300',
         code: '#63a6e9',
       },
       {
         name: 'blue-400',
+        backgroundClass: 'gl-bg-blue-400',
+        borderClass: 'gl-border-blue-400',
         code: '#428fdc',
       },
       {
         name: 'blue-500',
+        backgroundClass: 'gl-bg-blue-500',
+        borderClass: 'gl-border-blue-500',
         code: '#1f75cb',
         classes: ['color-priority', 'f-inverted']
       },
       {
         name: 'blue-600',
+        backgroundClass: 'gl-bg-blue-600',
+        borderClass: 'gl-border-blue-600',
         code: '#1068bf',
         classes: ['f-inverted']
       },
       {
         name: 'blue-700',
+        backgroundClass: 'gl-bg-blue-700',
+        borderClass: 'gl-border-blue-700',
         code: '#0b5cad',
         classes: ['f-inverted']
       },
       {
         name: 'blue-800',
+        backgroundClass: 'gl-bg-blue-800',
+        borderClass: 'gl-border-blue-800',
         code: '#064787',
         classes: ['f-inverted']
       },
       {
         name: 'blue-900',
+        backgroundClass: 'gl-bg-blue-900',
+        borderClass: 'gl-border-blue-900',
         code: '#033464',
         classes: ['f-inverted']
       },
       {
         name: 'blue-950',
+        backgroundClass: 'gl-bg-blue-950',
+        borderClass: 'gl-border-blue-950',
         code: '#002850',
         classes: ['f-inverted']
       },
@@ -76,56 +97,77 @@ Though deciding which color to use depends on the situation, here are some gener
     show-contrast-scores></color-palette>
   <color-palette
     class="col col-50 md gl-pb-7"
-    background-class-prefix="c-background-"
     name="Green"
     :shades="[
       {
         name: 'green-50',
+        backgroundClass: 'gl-bg-green-50',
+        borderClass: 'gl-border-green-50',
         code: '#ecf4ee',
       },
       {
         name: 'green-100',
+        backgroundClass: 'gl-bg-green-100',
+        borderClass: 'gl-border-green-100',
         code: '#c3e6cd',
       },
       {
         name: 'green-200',
+        backgroundClass: 'gl-bg-green-200',
+        borderClass: 'gl-border-green-200',
         code: '#91d4a8',
       },
       {
         name: 'green-300',
+        backgroundClass: 'gl-bg-green-300',
+        borderClass: 'gl-border-green-300',
         code: '#52b87a',
       },
       {
         name: 'green-400',
+        backgroundClass: 'gl-bg-green-400',
+        borderClass: 'gl-border-green-400',
         code: '#2da160',
       },
       {
         name: 'green-500',
+        backgroundClass: 'gl-bg-green-500',
+        borderClass: 'gl-border-green-500',
         code: '#108548',
         classes: ['color-priority', 'f-inverted']
       },
       {
         name: 'green-600',
+        backgroundClass: 'gl-bg-green-600',
+        borderClass: 'gl-border-green-600',
         code: '#217645',
         classes: ['f-inverted']
       },
       {
         name: 'green-700',
+        backgroundClass: 'gl-bg-green-700',
+        borderClass: 'gl-border-green-700',
         code: '#24663b',
         classes: ['f-inverted']
       },
       {
         name: 'green-800',
+        backgroundClass: 'gl-bg-green-800',
+        borderClass: 'gl-border-green-800',
         code: '#0d532a',
         classes: ['f-inverted']
       },
       {
         name: 'green-900',
+        backgroundClass: 'gl-bg-green-900',
+        borderClass: 'gl-border-green-900',
         code: '#0a4020',
         classes: ['f-inverted']
       },
       {
         name: 'green-950',
+        backgroundClass: 'gl-bg-green-950',
+        borderClass: 'gl-border-green-950',
         code: '#072b15',
         classes: ['f-inverted']
       },
@@ -133,56 +175,77 @@ Though deciding which color to use depends on the situation, here are some gener
     show-contrast-scores></color-palette>
   <color-palette
     class="col col-50 md gl-mt-7 gl-pb-7"
-    background-class-prefix="c-background-"
     name="Orange"
     :shades="[
       {
         name: 'orange-50',
+        backgroundClass: 'gl-bg-orange-50',
+        borderClass: 'gl-border-orange-50',
         code: '#fdf1dd',
       },
       {
         name: 'orange-100',
+        backgroundClass: 'gl-bg-orange-100',
+        borderClass: 'gl-border-orange-100',
         code: '#f5d9a8',
       },
       {
         name: 'orange-200',
+        backgroundClass: 'gl-bg-orange-200',
+        borderClass: 'gl-border-orange-200',
         code: '#e9be74',
       },
       {
         name: 'orange-300',
+        backgroundClass: 'gl-bg-orange-300',
+        borderClass: 'gl-border-orange-300',
         code: '#d99530',
       },
       {
         name: 'orange-400',
+        backgroundClass: 'gl-bg-orange-400',
+        borderClass: 'gl-border-orange-400',
         code: '#c17d10',
       },
       {
         name: 'orange-500',
+        backgroundClass: 'gl-bg-orange-500',
+        borderClass: 'gl-border-orange-500',
         code: '#ab6100',
         classes: ['color-priority', 'f-inverted']
       },
       {
         name: 'orange-600',
+        backgroundClass: 'gl-bg-orange-600',
+        borderClass: 'gl-border-orange-600',
         code: '#9e5400',
         classes: ['f-inverted']
       },
       {
         name: 'orange-700',
+        backgroundClass: 'gl-bg-orange-700',
+        borderClass: 'gl-border-orange-700',
         code: '#8f4700',
         classes: ['f-inverted']
       },
       {
         name: 'orange-800',
+        backgroundClass: 'gl-bg-orange-800',
+        borderClass: 'gl-border-orange-800',
         code: '#703800',
         classes: ['f-inverted']
       },
       {
         name: 'orange-900',
+        backgroundClass: 'gl-bg-orange-900',
+        borderClass: 'gl-border-orange-900',
         code: '#5c2900',
         classes: ['f-inverted']
       },
       {
         name: 'orange-950',
+        backgroundClass: 'gl-bg-orange-950',
+        borderClass: 'gl-border-orange-950',
         code: '#421f00',
         classes: ['f-inverted']
       },
@@ -190,56 +253,77 @@ Though deciding which color to use depends on the situation, here are some gener
     show-contrast-scores></color-palette>
   <color-palette
     class="col col-50 md gl-mt-7"
-    background-class-prefix="c-background-"
     name="Red"
     :shades="[
       {
         name: 'red-50',
+        backgroundClass: 'gl-bg-red-50',
+        borderClass: 'gl-border-red-50',
         code: '#fcf1ef',
       },
       {
         name: 'red-100',
+        backgroundClass: 'gl-bg-red-100',
+        borderClass: 'gl-border-red-100',
         code: '#fdd4cd',
       },
       {
         name: 'red-200',
+        backgroundClass: 'gl-bg-red-200',
+        borderClass: 'gl-border-red-200',
         code: '#fcb5aa',
       },
       {
         name: 'red-300',
+        backgroundClass: 'gl-bg-red-300',
+        borderClass: 'gl-border-red-300',
         code: '#f57f6c',
       },
       {
         name: 'red-400',
+        backgroundClass: 'gl-bg-red-400',
+        borderClass: 'gl-border-red-400',
         code: '#ec5941',
       },
       {
         name: 'red-500',
+        backgroundClass: 'gl-bg-red-500',
+        borderClass: 'gl-border-red-500',
         code: '#dd2b0e',
         classes: ['color-priority', 'f-inverted']
       },
       {
         name: 'red-600',
+        backgroundClass: 'gl-bg-red-600',
+        borderClass: 'gl-border-red-600',
         code: '#c91c00',
         classes: ['f-inverted']
       },
       {
         name: 'red-700',
+        backgroundClass: 'gl-bg-red-700',
+        borderClass: 'gl-border-red-700',
         code: '#ae1800',
         classes: ['f-inverted']
       },
       {
         name: 'red-800',
+        backgroundClass: 'gl-bg-red-800',
+        borderClass: 'gl-border-red-800',
         code: '#8d1300',
         classes: ['f-inverted']
       },
       {
         name: 'red-900',
+        backgroundClass: 'gl-bg-red-900',
+        borderClass: 'gl-border-red-900',
         code: '#660e00',
         classes: ['f-inverted']
       },
       {
         name: 'red-950',
+        backgroundClass: 'gl-bg-red-950',
+        borderClass: 'gl-border-red-950',
         code: '#4d0a00',
         classes: ['f-inverted']
       },
@@ -247,56 +331,77 @@ Though deciding which color to use depends on the situation, here are some gener
     show-contrast-scores></color-palette>
   <color-palette
     class="col col-50 md gl-mt-7"
-    background-class-prefix="c-background-"
     name="Purple"
     :shades="[
       {
         name: 'purple-50',
+        backgroundClass: 'gl-bg-purple-50',
+        borderClass: 'gl-border-purple-50',
         code: '#f4f0ff',
       },
       {
         name: 'purple-100',
+        backgroundClass: 'gl-bg-purple-100',
+        borderClass: 'gl-border-purple-100',
         code: '#e1d8f9',
       },
       {
         name: 'purple-200',
+        backgroundClass: 'gl-bg-purple-200',
+        borderClass: 'gl-border-purple-200',
         code: '#cbbbf2',
       },
       {
         name: 'purple-300',
+        backgroundClass: 'gl-bg-purple-300',
+        borderClass: 'gl-border-purple-300',
         code: '#ac93e6',
       },
       {
         name: 'purple-400',
+        backgroundClass: 'gl-bg-purple-400',
+        borderClass: 'gl-border-purple-400',
         code: '#9475db',
       },
       {
         name: 'purple-500',
+        backgroundClass: 'gl-bg-purple-500',
+        borderClass: 'gl-border-purple-500',
         code: '#7b58cf',
         classes: ['color-priority', 'f-inverted']
       },
       {
         name: 'purple-600',
+        backgroundClass: 'gl-bg-purple-600',
+        borderClass: 'gl-border-purple-600',
         code: '#694cc0',
         classes: ['f-inverted']
       },
       {
         name: 'purple-700',
+        backgroundClass: 'gl-bg-purple-700',
+        borderClass: 'gl-border-purple-700',
         code: '#5943b6',
         classes: ['f-inverted']
       },
       {
         name: 'purple-800',
+        backgroundClass: 'gl-bg-purple-800',
+        borderClass: 'gl-border-purple-800',
         code: '#453894',
         classes: ['f-inverted']
       },
       {
         name: 'purple-900',
+        backgroundClass: 'gl-bg-purple-900',
+        borderClass: 'gl-border-purple-900',
         code: '#2f2a6b',
         classes: ['f-inverted']
       },
       {
         name: 'purple-950',
+        backgroundClass: 'gl-bg-purple-950',
+        borderClass: 'gl-border-purple-950',
         code: '#232150',
         classes: ['f-inverted']
       },
@@ -312,68 +417,95 @@ Though deciding which color to use depends on the situation, here are some gener
 The neutral palette is primarily used within components to help differentiate hierarchy. Use shades of gray as backgrounds, borders, and shadows to emphasize areas or set them apart.
 
 <color-palette
-    background-class-prefix="c-background-"
     :shades="[
       {
         name: 'white',
+        backgroundClass: 'gl-bg-white',
+        borderClass: 'gl-border-white',
         code: '#ffffff',
       },
       {
         name: 'gray-10',
+        backgroundClass: 'gl-bg-gray-10',
+        borderClass: 'gl-border-gray-10',
         code: '#f5f5f5',
       },
       {
         name: 'gray-50',
+        backgroundClass: 'gl-bg-gray-50',
+        borderClass: 'gl-border-gray-50',
         code: '#f0f0f0',
       },
       {
         name: 'gray-100',
+        backgroundClass: 'gl-bg-gray-100',
+        borderClass: 'gl-border-gray-100',
         code: '#dbdbdb',
       },
       {
         name: 'gray-200',
+        backgroundClass: 'gl-bg-gray-200',
+        borderClass: 'gl-border-gray-200',
         code: '#bfbfbf',
       },
       {
         name: 'gray-300',
+        backgroundClass: 'gl-bg-gray-300',
+        borderClass: 'gl-border-gray-300',
         code: '#999999',
       },
       {
         name: 'gray-400',
+        backgroundClass: 'gl-bg-gray-400',
+        borderClass: 'gl-border-gray-400',
         code: '#868686',
       },
       {
         name: 'gray-500',
+        backgroundClass: 'gl-bg-gray-500',
+        borderClass: 'gl-border-gray-500',
         code: '#666666',
         classes: ['f-inverted']
       },
       {
         name: 'gray-600',
+        backgroundClass: 'gl-bg-gray-600',
+        borderClass: 'gl-border-gray-600',
         code: '#5e5e5e',
         classes: ['f-inverted']
       },
       {
         name: 'gray-700',
+        backgroundClass: 'gl-bg-gray-700',
+        borderClass: 'gl-border-gray-700',
         code: '#525252',
         classes: ['f-inverted']
       },
       {
         name: 'gray-800',
+        backgroundClass: 'gl-bg-gray-800',
+        borderClass: 'gl-border-gray-800',
         code: '#404040',
         classes: ['f-inverted']
       },
       {
         name: 'gray-900',
+        backgroundClass: 'gl-bg-gray-900',
+        borderClass: 'gl-border-gray-900',
         code: '#303030',
         classes: ['f-inverted']
       },
       {
         name: 'gray-950',
+        backgroundClass: 'gl-bg-gray-950',
+        borderClass: 'gl-border-gray-950',
         code: '#1f1f1f',
         classes: ['f-inverted']
       },
       {
         name: 'black',
+        backgroundClass: 'gl-bg-black',
+        borderClass: 'gl-border-black',
         code: '#000000',
         classes: ['f-inverted']
       },
@@ -391,22 +523,32 @@ Transparency is used only to indicate hover and active states within themes. Eac
     :shades="[
       {
         name: 't-gray-a-02',
+        backgroundClass: 'gl-bg-t-gray-a-02',
+        borderClass: 'gl-border-t-gray-a-02',
         code: 'rgba($black, 0.02)',
       },
       {
         name: 't-gray-a-04',
+        backgroundClass: 'gl-bg-t-gray-a-04',
+        borderClass: 'gl-border-t-gray-a-04',
         code: 'rgba($black, 0.04)',
       },
       {
         name: 't-gray-a-06',
+        backgroundClass: 'gl-bg-t-gray-a-06',
+        borderClass: 'gl-border-t-gray-a-06',
         code: 'rgba($black, 0.06)',
       },
       {
         name: 't-gray-a-08',
+        backgroundClass: 'gl-bg-t-gray-a-08',
+        borderClass: 'gl-border-t-gray-a-08',
         code: 'rgba($black, 0.08)',
       },
       {
         name: 't-gray-a-24',
+        backgroundClass: 'gl-bg-t-gray-a-24',
+        borderClass: 'gl-border-t-gray-a-24',
         code: 'rgba($black, 0.24)',
       },
     ]"></color-palette>
@@ -430,51 +572,73 @@ A user may choose between ten different themes to customize the appearance of th
       :shades="[
         {
           name: 't-indigo-50',
+          backgroundClass: 'gl-bg-t-indigo-50',
+          borderClass: 'gl-border-t-indigo-50',
           code: '#f1f1ff',
         },
         {
           name: 't-indigo-100',
+          backgroundClass: 'gl-bg-t-indigo-100',
+          borderClass: 'gl-border-t-indigo-100',
           code: '#dbdbf8',
         },
         {
           name: 't-indigo-200',
+          backgroundClass: 'gl-bg-t-indigo-200',
+          borderClass: 'gl-border-t-indigo-200',
           code: '#c7c7f2',
         },
         {
           name: 't-indigo-300',
+          backgroundClass: 'gl-bg-t-indigo-300',
+          borderClass: 'gl-border-t-indigo-300',
           code: '#a2a2e6',
         },
         {
           name: 't-indigo-400',
+          backgroundClass: 'gl-bg-t-indigo-400',
+          borderClass: 'gl-border-t-indigo-400',
           code: '#8181d7',
         },
         {
           name: 't-indigo-500',
+          backgroundClass: 'gl-bg-t-indigo-500',
+          borderClass: 'gl-border-t-indigo-500',
           code: '#6666c4',
           classes: ['f-inverted']
         },
         {
           name: 't-indigo-600',
+          backgroundClass: 'gl-bg-t-indigo-600',
+          borderClass: 'gl-border-t-indigo-600',
           code: '#5252b5',
           classes: ['f-inverted']
         },
         {
           name: 't-indigo-700',
+          backgroundClass: 'gl-bg-t-indigo-700',
+          borderClass: 'gl-border-t-indigo-700',
           code: '#41419f',
           classes: ['f-inverted']
         },
         {
           name: 't-indigo-800',
+          backgroundClass: 'gl-bg-t-indigo-800',
+          borderClass: 'gl-border-t-indigo-800',
           code: '#303083',
           classes: ['f-inverted']
         },
         {
           name: 't-indigo-900',
+          backgroundClass: 'gl-bg-t-indigo-900',
+          borderClass: 'gl-border-t-indigo-900',
           code: '#222261',
           classes: ['f-inverted']
         },
         {
           name: 't-indigo-950',
+          backgroundClass: 'gl-bg-t-indigo-950',
+          borderClass: 'gl-border-t-indigo-950',
           code: '#14143d',
           classes: ['f-inverted']
         },
@@ -487,51 +651,73 @@ A user may choose between ten different themes to customize the appearance of th
       :shades="[
         {
           name: 't-blue-50',
+          backgroundClass: 'gl-bg-t-blue-50',
+          borderClass: 'gl-border-t-blue-50',
           code: '#cdd8e3',
         },
         {
           name: 't-blue-100',
+          backgroundClass: 'gl-bg-t-blue-100',
+          borderClass: 'gl-border-t-blue-100',
           code: '#b9cadc',
         },
         {
           name: 't-blue-200',
+          backgroundClass: 'gl-bg-t-blue-200',
+          borderClass: 'gl-border-t-blue-200',
           code: '#a6bdd5',
         },
         {
           name: 't-blue-300',
+          backgroundClass: 'gl-bg-t-blue-300',
+          borderClass: 'gl-border-t-blue-300',
           code: '#81a5c9',
         },
         {
           name: 't-blue-400',
+          backgroundClass: 'gl-bg-t-blue-400',
+          borderClass: 'gl-border-t-blue-400',
           code: '#628eb9',
         },
         {
           name: 't-blue-500',
+          backgroundClass: 'gl-bg-t-blue-500',
+          borderClass: 'gl-border-t-blue-500',
           code: '#4977a5',
           classes: ['f-inverted']
         },
         {
           name: 't-blue-600',
+          backgroundClass: 'gl-bg-t-blue-600',
+          borderClass: 'gl-border-t-blue-600',
           code: '#346596',
           classes: ['f-inverted']
         },
         {
           name: 't-blue-700',
+          backgroundClass: 'gl-bg-t-blue-700',
+          borderClass: 'gl-border-t-blue-700',
           code: '#235180',
           classes: ['f-inverted']
         },
         {
           name: 't-blue-800',
+          backgroundClass: 'gl-bg-t-blue-800',
+          borderClass: 'gl-border-t-blue-800',
           code: '#153c63',
           classes: ['f-inverted']
         },
         {
           name: 't-blue-900',
+          backgroundClass: 'gl-bg-t-blue-900',
+          borderClass: 'gl-border-t-blue-900',
           code: '#0b2640',
           classes: ['f-inverted']
         },
         {
           name: 't-blue-950',
+          backgroundClass: 'gl-bg-t-blue-950',
+          borderClass: 'gl-border-t-blue-950',
           code: '#04101c',
           classes: ['f-inverted']
         },
@@ -544,51 +730,73 @@ A user may choose between ten different themes to customize the appearance of th
       :shades="[
         {
           name: 't-light-blue-50',
+          backgroundClass: 'gl-bg-t-light-blue-50',
+          borderClass: 'gl-border-t-light-blue-50',
           code: '#dde6ee',
         },
         {
           name: 't-light-blue-100',
+          backgroundClass: 'gl-bg-t-light-blue-100',
+          borderClass: 'gl-border-t-light-blue-100',
           code: '#c1d4e6',
         },
         {
           name: 't-light-blue-200',
+          backgroundClass: 'gl-bg-t-light-blue-200',
+          borderClass: 'gl-border-t-light-blue-200',
           code: '#a0bedc',
         },
         {
           name: 't-light-blue-300',
+          backgroundClass: 'gl-bg-t-light-blue-300',
+          borderClass: 'gl-border-t-light-blue-300',
           code: '#74a3d3',
         },
         {
           name: 't-light-blue-400',
+          backgroundClass: 'gl-bg-t-light-blue-400',
+          borderClass: 'gl-border-t-light-blue-400',
           code: '#4f8bc7',
         },
         {
           name: 't-light-blue-500',
+          backgroundClass: 'gl-bg-t-light-blue-500',
+          borderClass: 'gl-border-t-light-blue-500',
           code: '#3476b9',
           classes: ['f-inverted']
         },
         {
           name: 't-light-blue-600',
+          backgroundClass: 'gl-bg-t-light-blue-600',
+          borderClass: 'gl-border-t-light-blue-600',
           code: '#2268ae',
           classes: ['f-inverted']
         },
         {
           name: 't-light-blue-700',
+          backgroundClass: 'gl-bg-t-light-blue-700',
+          borderClass: 'gl-border-t-light-blue-700',
           code: '#145aa1',
           classes: ['f-inverted']
         },
         {
           name: 't-light-blue-800',
+          backgroundClass: 'gl-bg-t-light-blue-800',
+          borderClass: 'gl-border-t-light-blue-800',
           code: '#0e4d8d',
           classes: ['f-inverted']
         },
         {
           name: 't-light-blue-900',
+          backgroundClass: 'gl-bg-t-light-blue-900',
+          borderClass: 'gl-border-t-light-blue-900',
           code: '#0c4277',
           classes: ['f-inverted']
         },
         {
           name: 't-light-blue-950',
+          backgroundClass: 'gl-bg-t-light-blue-950',
+          borderClass: 'gl-border-t-light-blue-950',
           code: '#0a3764',
           classes: ['f-inverted']
         },
@@ -601,51 +809,73 @@ A user may choose between ten different themes to customize the appearance of th
       :shades="[
         {
           name: 't-green-50',
+          backgroundClass: 'gl-bg-t-green-50',
+          borderClass: 'gl-border-t-green-50',
           code: '#dde9de',
         },
         {
           name: 't-green-100',
+          backgroundClass: 'gl-bg-t-green-100',
+          borderClass: 'gl-border-t-green-100',
           code: '#b1d6b5',
         },
         {
           name: 't-green-200',
+          backgroundClass: 'gl-bg-t-green-200',
+          borderClass: 'gl-border-t-green-200',
           code: '#8cc497',
         },
         {
           name: 't-green-300',
+          backgroundClass: 'gl-bg-t-green-300',
+          borderClass: 'gl-border-t-green-300',
           code: '#69af7d',
         },
         {
           name: 't-green-400',
+          backgroundClass: 'gl-bg-t-green-400',
+          borderClass: 'gl-border-t-green-400',
           code: '#499767',
         },
         {
           name: 't-green-500',
+          backgroundClass: 'gl-bg-t-green-500',
+          borderClass: 'gl-border-t-green-500',
           code: '#308258',
           classes: ['f-inverted']
         },
         {
           name: 't-green-600',
+          backgroundClass: 'gl-bg-t-green-600',
+          borderClass: 'gl-border-t-green-600',
           code: '#25744c',
           classes: ['f-inverted']
         },
         {
           name: 't-green-700',
+          backgroundClass: 'gl-bg-t-green-700',
+          borderClass: 'gl-border-t-green-700',
           code: '#1b653f',
           classes: ['f-inverted']
         },
         {
           name: 't-green-800',
+          backgroundClass: 'gl-bg-t-green-800',
+          borderClass: 'gl-border-t-green-800',
           code: '#155635',
           classes: ['f-inverted']
         },
         {
           name: 't-green-900',
+          backgroundClass: 'gl-bg-t-green-900',
+          borderClass: 'gl-border-t-green-900',
           code: '#0e4328',
           classes: ['f-inverted']
         },
         {
           name: 't-green-950',
+          backgroundClass: 'gl-bg-t-green-950',
+          borderClass: 'gl-border-t-green-950',
           code: '#052e19',
           classes: ['f-inverted']
         },
@@ -658,51 +888,73 @@ A user may choose between ten different themes to customize the appearance of th
       :shades="[
         {
           name: 't-red-50',
+          backgroundClass: 'gl-bg-t-red-50',
+          borderClass: 'gl-border-t-red-50',
           code: '#f4e9e7',
         },
         {
           name: 't-red-100',
+          backgroundClass: 'gl-bg-t-red-100',
+          borderClass: 'gl-border-t-red-100',
           code: '#ecd3d0',
         },
         {
           name: 't-red-200',
+          backgroundClass: 'gl-bg-t-red-200',
+          borderClass: 'gl-border-t-red-200',
           code: '#e3bab5',
         },
         {
           name: 't-red-300',
+          backgroundClass: 'gl-bg-t-red-300',
+          borderClass: 'gl-border-t-red-300',
           code: '#d59086',
         },
         {
           name: 't-red-400',
+          backgroundClass: 'gl-bg-t-red-400',
+          borderClass: 'gl-border-t-red-400',
           code: '#c66e60',
         },
         {
           name: 't-red-500',
+          backgroundClass: 'gl-bg-t-red-500',
+          borderClass: 'gl-border-t-red-500',
           code: '#ad4a3b',
           classes: ['f-inverted']
         },
         {
           name: 't-red-600',
+          backgroundClass: 'gl-bg-t-red-600',
+          borderClass: 'gl-border-t-red-600',
           code: '#a13322',
           classes: ['f-inverted']
         },
         {
           name: 't-red-700',
+          backgroundClass: 'gl-bg-t-red-700',
+          borderClass: 'gl-border-t-red-700',
           code: '#8f2110',
           classes: ['f-inverted']
         },
         {
           name: 't-red-800',
+          backgroundClass: 'gl-bg-t-red-800',
+          borderClass: 'gl-border-t-red-800',
           code: '#761405',
           classes: ['f-inverted']
         },
         {
           name: 't-red-900',
+          backgroundClass: 'gl-bg-t-red-900',
+          borderClass: 'gl-border-t-red-900',
           code: '#580d02',
           classes: ['f-inverted']
         },
         {
           name: 't-red-950',
+          backgroundClass: 'gl-bg-t-red-950',
+          borderClass: 'gl-border-t-red-950',
           code: '#380700',
           classes: ['f-inverted']
         },
@@ -715,51 +967,73 @@ A user may choose between ten different themes to customize the appearance of th
       :shades="[
         {
           name: 't-light-red-50',
+          backgroundClass: 'gl-bg-t-light-red-50',
+          borderClass: 'gl-border-t-light-red-50',
           code: '#faf2f1',
         },
         {
           name: 't-light-red-100',
+          backgroundClass: 'gl-bg-t-light-red-100',
+          borderClass: 'gl-border-t-light-red-100',
           code: '#f6d9d5',
         },
         {
           name: 't-light-red-200',
+          backgroundClass: 'gl-bg-t-light-red-200',
+          borderClass: 'gl-border-t-light-red-200',
           code: '#ebada2',
         },
         {
           name: 't-light-red-300',
+          backgroundClass: 'gl-bg-t-light-red-300',
+          borderClass: 'gl-border-t-light-red-300',
           code: '#e07f6f',
         },
         {
           name: 't-light-red-400',
+          backgroundClass: 'gl-bg-t-light-red-400',
+          borderClass: 'gl-border-t-light-red-400',
           code: '#d36250',
         },
         {
           name: 't-light-red-500',
+          backgroundClass: 'gl-bg-t-light-red-500',
+          borderClass: 'gl-border-t-light-red-500',
           code: '#c24b38',
           classes: ['f-inverted']
         },
         {
           name: 't-light-red-600',
+          backgroundClass: 'gl-bg-t-light-red-600',
+          borderClass: 'gl-border-t-light-red-600',
           code: '#b53a26',
           classes: ['f-inverted']
         },
         {
           name: 't-light-red-700',
+          backgroundClass: 'gl-bg-t-light-red-700',
+          borderClass: 'gl-border-t-light-red-700',
           code: '#a02e1c',
           classes: ['f-inverted']
         },
         {
           name: 't-light-red-800',
+          backgroundClass: 'gl-bg-t-light-red-800',
+          borderClass: 'gl-border-t-light-red-800',
           code: '#8b2212',
           classes: ['f-inverted']
         },
         {
           name: 't-light-red-900',
+          backgroundClass: 'gl-bg-t-light-red-900',
+          borderClass: 'gl-border-t-light-red-900',
           code: '#751709',
           classes: ['f-inverted']
         },
         {
           name: 't-light-red-950',
+          backgroundClass: 'gl-bg-t-light-red-950',
+          borderClass: 'gl-border-t-light-red-950',
           code: '#5c1105',
           classes: ['f-inverted']
         },

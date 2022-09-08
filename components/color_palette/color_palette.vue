@@ -11,6 +11,14 @@ export default {
       required: false,
       default: '',
     },
+    backgroundClass: {
+      type: String,
+      required: true,
+    },
+    borderClass: {
+      type: String,
+      required: true,
+    },
     backgroundClassPrefix: {
       type: String,
       required: false,
@@ -49,7 +57,7 @@ export default {
       <div v-for="shade in shades" :key="shade.name" class="color">
         <div
           class="color-overview gl-px-5 gl-py-3"
-          :class="[`${backgroundClassPrefix}${shade.name}`, ...shade.classes]"
+          :class="[`${backgroundClassPrefix}${shade.backgroundClass}`, ...(shade.classes || [])]"
         >
           <span class="variable">${{ shade.name }}</span>
           <span class="hex f-small">{{ shade.code }}</span>
@@ -61,8 +69,19 @@ export default {
         >
           <div class="color-details--section">
             <div class="gl-font-weight-bold gl-mb-2">Passing level and contrast ratio</div>
-            <color-contrast-score :bg-color-hex="shade.code" :name="shade.name" />
-            <color-contrast-score :bg-color-hex="shade.code" :name="shade.name" with-white-text />
+            <color-contrast-score
+              :shade="shade"
+              :bg-color-hex="shade.code"
+              :name="shade.name"
+              borderClass=""
+            />
+            <color-contrast-score
+              :shade="shade"
+              :bg-color-hex="shade.code"
+              :name="shade.name"
+              borderClass=""
+              with-white-text
+            />
           </div>
         </div>
       </div>
