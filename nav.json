@@ -432,7 +432,17 @@
       },
       {
         "title": "GitLab Accessibility Conformance Report",
-        "path": "accessibility/vpat"
+        "path": "vpat",
+        "items": [
+          {
+            "title": "VPAT 2.4 508",
+            "path": "508"
+          },
+          {
+            "title": "VPAT 2.4 WCAG",
+            "path": "wcag"
+          }
+        ]
       },
       {
         "title": "Audit guides",
