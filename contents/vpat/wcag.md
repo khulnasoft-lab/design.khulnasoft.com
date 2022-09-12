@@ -5,7 +5,7 @@ name: VPAT 2.4 WCAG
 **Based on Version 2.4Rev**, March 2022 ([template](https://www.itic.org/policy/accessibility/vpat))
 
 - **Name of Product/Version:** GitLab 15.0
-- **Report Date:** Revised June, 2022
+- **Report Date:** Revised September, 2022
 - **Product Description:** From project planning and source code management to CI/CD and monitoring, GitLab is a single application for [the entire DevOps lifecycle](https://about.gitlab.com/stages-devops-lifecycle/).
 - **Contact information:** [ux@gitlab.com](mailto:ux@gitlab.com)
 - **Notes:**
@@ -818,7 +818,7 @@ The terms used in the Conformance Level information are defined as follows:
 
 ### Table 3: Success Criteria, Level AAA
 
-Notes: The GitLab product has not been evaluated for WCAG 2.0 Level AAA conformance.
+<note>The GitLab product has not been evaluated for WCAG 2.0 Level AAA conformance.</note>
 
 ## GitLab Legal Disclaimer
 
