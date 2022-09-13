@@ -406,6 +406,16 @@ The terms used in the Conformance Level information are defined as follows:
     <tr>
       <td>
         <a 
+          href="https://www.w3.org/TR/WCAG21/#label-in-name"
+          target="_blank"
+        >2.5.3 Label in Name</a> (Level A 2.1 only)
+      </td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        <a 
           href="https://www.w3.org/TR/WCAG21/#motion-actuation"
           target="_blank"
         >2.5.4 Motion Actuation</a> (Level A 2.1 only)
