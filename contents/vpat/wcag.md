@@ -1,5 +1,5 @@
 ---
-name: VPAT 2.4 WCAG
+name: GitLab Accessibility Conformance Report WCAG Edition
 ---
 
 **Based on Version 2.4Rev**, March 2022 ([template](https://www.itic.org/policy/accessibility/vpat))

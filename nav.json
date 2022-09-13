@@ -431,15 +431,15 @@
         "path": "accessibility/best-practices"
       },
       {
-        "title": "GitLab Accessibility Conformance Report",
+        "title": "GitLab VPAT®",
         "path": "vpat",
         "items": [
           {
-            "title": "VPAT 2.4 508",
+            "title": "GitLab Accessibility Conformance Report Revised Section 508 Edition",
             "path": "508"
           },
           {
-            "title": "VPAT 2.4 WCAG",
+            "title": "GitLab Accessibility Conformance Report WCAG Edition",
             "path": "wcag"
           }
         ]
