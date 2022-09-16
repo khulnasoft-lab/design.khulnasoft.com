@@ -32,3 +32,5 @@ The [filter](/components/filter) component, alongside [tabs](/components/tabs), 
 | 3 | Member name, username, join date, status | Search, sorting, tabs |
 | 4 | List of project or group names | Filter |
 | 5 | Lists of issues or merge requests | Filter, sorting, tabs |
+
+<todo>Add pattern and component placement guidelines.</todo>
