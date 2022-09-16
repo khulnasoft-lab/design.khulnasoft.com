@@ -14,7 +14,7 @@ related:
 
 However, the filter component also has the ability to input raw text strings, which gives it the ability to search for specific items on top of its filtering capabilities. Consult the table below when deciding which component to use.
 
-| User’s intent | Component to be used |
+| User intent | Component to be used |
 |---------------|------------------|
 | Searching for something specific when the search term or value is known | Search |
 | Searching for something specific when only some parameters are known | Filter |
