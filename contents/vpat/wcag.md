@@ -275,8 +275,8 @@ The terms used in the Conformance Level information are defined as follows:
           target="_blank"
         >2.1.4 Character Key Shortcuts</a> (Level A 2.1 only)
       </td>
-      <td></td>
-      <td></td>
+      <td>Supports</td>
+      <td>The product contains a mechanism to turn all shortcuts off</td>
     </tr>
     <tr>
       <td>
@@ -390,8 +390,8 @@ The terms used in the Conformance Level information are defined as follows:
           target="_blank"
         >2.5.1 Pointer Gestures</a> (Level A 2.1 only)
       </td>
-      <td></td>
-      <td></td>
+      <td>Not applicable</td>
+      <td>This criterion is not relevant because the product does not use pointer gestures</td>
     </tr>
     <tr>
       <td>
@@ -400,8 +400,14 @@ The terms used in the Conformance Level information are defined as follows:
           target="_blank"
         >2.5.2 Pointer Cancellation</a> (Level A 2.1 only)
       </td>
-      <td></td>
-      <td></td>
+      <td>Partially supports</td>
+      <td>
+        <p>The product has some instances where down-events are initialised without a method to easily undo or abort
+        <a
+          href="https://gitlab.com/groups/gitlab-org/-/epics/8761"
+          target="_blank"
+        >https://gitlab.com/groups/gitlab-org/-/epics/8761</a></p>
+      </td>
     </tr>
     <tr>
       <td>
@@ -410,8 +416,8 @@ The terms used in the Conformance Level information are defined as follows:
           target="_blank"
         >2.5.3 Label in Name</a> (Level A 2.1 only)
       </td>
-      <td></td>
-      <td></td>
+      <td>Supports</td>
+      <td>The product has controls where the accessible name matches visible label</td>
     </tr>
     <tr>
       <td>
@@ -420,8 +426,8 @@ The terms used in the Conformance Level information are defined as follows:
           target="_blank"
         >2.5.4 Motion Actuation</a> (Level A 2.1 only)
       </td>
-      <td></td>
-      <td></td>
+      <td>Not applicable</td>
+      <td>This criterion is not relevant because the product does not use motion actuation</td>
     </tr>
     <tr>
       <td>
@@ -587,8 +593,8 @@ The terms used in the Conformance Level information are defined as follows:
           target="_blank"
         >1.3.4 Orientation</a> (Level AA 2.1 only)
       </td>
-      <td></td>
-      <td></td>
+      <td>Supports</td>
+      <td>The product is reponsive to variable viewport sizes and orientations.</td>
     </tr>
     <tr>
       <td>
@@ -597,8 +603,15 @@ The terms used in the Conformance Level information are defined as follows:
           target="_blank"
         >1.3.5 Identify Input Purpose</a> (Level AA 2.1 only)
       </td>
-      <td></td>
-      <td></td>
+      <td>Partially supports</td>
+      <td>
+        <p>The product uses input types and has some instances of autocomplete attributes on input fields.</p>
+        <p>However, not all input fields implement identifying expected form input data:
+        <a
+          href="https://gitlab.com/groups/gitlab-org/-/epics/8762"
+          target="_blank"
+        >https://gitlab.com/groups/gitlab-org/-/epics/8762</a></p>
+      </td>
     </tr>
     <tr>
       <td>
@@ -658,8 +671,8 @@ The terms used in the Conformance Level information are defined as follows:
           target="_blank"
         >1.4.10 Reflow</a> (Level AA 2.1 only)
       </td>
-      <td></td>
-      <td></td>
+      <td>Supports</td>
+      <td>The product is reponsive to variable viewport sizes.</td>
     </tr>
     <tr>
       <td>
@@ -668,8 +681,14 @@ The terms used in the Conformance Level information are defined as follows:
           target="_blank"
         >1.4.11 Non-text Contrast</a> (Level AA 2.1 only)
       </td>
-      <td></td>
-      <td></td>
+      <td>Partially supports</td>
+      <td>
+        <p>The product has some instances where non-text contrast ratio is not at least 3:1:
+        <a
+          href="https://gitlab.com/groups/gitlab-org/-/epics/8763"
+          target="_blank"
+        >https://gitlab.com/groups/gitlab-org/-/epics/8763</a></p>
+      </td>
     </tr>
     <tr>
       <td>
@@ -678,8 +697,8 @@ The terms used in the Conformance Level information are defined as follows:
           target="_blank"
         >1.4.12 Text Spacing</a> (Level AA 2.1 only)
       </td>
-      <td></td>
-      <td></td>
+      <td>Supports</td>
+      <td>The product adapts to increases in text spacing.</td>
     </tr>
     <tr>
       <td>
@@ -688,8 +707,8 @@ The terms used in the Conformance Level information are defined as follows:
           target="_blank"
         >1.4.13 Content on Hover or Focus</a> (Level AA 2.1 only)
       </td>
-      <td></td>
-      <td></td>
+      <td>Supports</td>
+      <td>The product supports control for content on hover or focus.</td>
     </tr>
     <tr>
       <td>
@@ -820,8 +839,15 @@ The terms used in the Conformance Level information are defined as follows:
           target="_blank"
         >4.1.3 Status Messages</a> (Level AA 2.1 only)
       </td>
-      <td></td>
-      <td></td>
+      <td>Partially supports</td>
+      <td>
+        <p>The product uses roles to provide status messages to assistive technologies without receiving focus.</p>
+        <p>However, not all visual responses to user actions use a status message perceptive to assitive technologies:
+        <a
+          href="https://gitlab.com/groups/gitlab-org/-/epics/8764"
+          target="_blank"
+        >https://gitlab.com/groups/gitlab-org/-/epics/8764</a></p>
+      </td>
     </tr>
   </tbody>
 </table>
