@@ -52,6 +52,10 @@ If that's not possible and space is tight, use the [help icon](http://gitlab-org
 | <div class="app-styles"><gl-icon name="question-o" class="gl-text-blue-600" /></div>Use the outlined [question-o.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) icon in `$blue-600` (`#1068bf`) | <div class="app-styles"><gl-icon name="question" size="16" /></div>Use the solid icon [question.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question) or a color other than blue | 
 | <figure class="figure" role="figure" aria-label="Popover with link to documentation"><img class="figure-img" src="/img/help-popover-with-link.png" alt="Popover with link to documentation" role="img" style="max-width: 280px;" /><figcaption class="figure-caption" style="font-size: 16px;">Show information in the popover with a link to documentation</figcaption></figure> | <figure class="figure" role="figure" aria-label="Popover with link to documentation"><img class="figure-img" src="/img/help-tooltip.png" alt="Popover with link to documentation" role="img" style="max-width: 280px;" /><figcaption class="figure-caption" style="font-size: 16px;">Use the icon as a link or with a tooltip|
 
+### Info icon
+
+There are a few exceptions where an [info icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) is used instead of the help icon. The info icon should be used when explaining context about the page, rather than context on a feature; for example, on a date range filter which is limited to a certain number of days, or the purpose of each widget on the merge request page. Alternatively, for content that could link to the docs for more information about a feature, consider the help icon. 
+
 ## Providing reference information
 
 In some cases users might need to reference additional information for completing a task in the UI. When the content length allows, we can surface such information using the [drawer](/components/drawer) component.
