@@ -193,6 +193,56 @@ Not all updates will be desireable or immediately needed however, and some may e
 
 ![Library update message posted in Slack](images/slack-msg.png)
 
+## Deprecated components
+
+Component changes aren't always able to be backwards compatible. It can sometimes be helpful to retain a version of the old component for a period of time. 
+
+Deprecated components can be found among the bottom pages of the UI Kit file. Components, and all base or related components, have (⚠️ DEPRECATED) in their name to make their status clear.
+
+<!-- ### Updating deprecated components in your file
+
+Todo: instructions and strategies -->
+
+### Deprecating an existing component
+
+<!-- Todo: when should you deprecate a component, also include if you aren't sure keep the old one around until maintainer review -->
+
+Figma uses an ID to keep track of components across files. This ID is not visible in the UI. Care must be taken to ensure that instances remain linked to the old component. Here are two strategies available to deprecate a component.
+
+#### 1. Before component creation (best)
+
+The deprecation process is easiest before changes are made to an existing component.
+
+1. Create a new page for the new component version.
+1. Reorder the existing component page to the DEPRECATED section near the bottom of the page list.
+1. Rename the deprecated component(s) to have the `(⚠️ DEPRECATED)` suffix.
+1. On the deprecated page add the title and link to the new page. (thought: perhaps we make this a util component to make life easier)
+1. On the deprecated page set the page background colour to `#COLOOR`. // add the colour
+1. Open the review dialog to check that the deprecated components are marked as `Edited`. If they are marked as `Added` or `Removed` the process will not work. Start again, or reach out to a Figma maintainer for help. 
+1.  (Optional) create a named version in the version history to make restoring to a 'clean' state easier.
+
+#### 2. Before branch merge 
+
+It isn't always possible to predict that changes will be breaking and require deprecations. If you find yourself in this situation it is possible to create a deprecated version of your component before merging. This deprecated version is created in a separate branch and merged before your new version.
+
+At any point before merging
+
+1. In the branch with your component changes make sure your components have a new ID. This can be done by duplicating the component and deleting the original. Ensure all instances are updated to use the duplicated component. It might be helpful to give your duplicated component a temporary new name to make it easier to see where old instances are referenced.
+1. Create a new branch from the main file titled `YOURNAME-COMPONENT-deprecation`.
+1. Create a new page titled `<component> (⚠️ DEPRECATED)` in the DEPRECATED section near the bottom of the page list. For example `Badge (⚠️ DEPRECATED)`.
+1. Cut the component being deprecated and paste it onto the new page. This must be a cut and not a copy or duplicate, or the hidden ID will change and the component link will break.
+1. (Optional) Open the review dialog to check that the deprecated components are marked as `edited`. If they are marked as `Added` or `Removed` the process will not work. Start again, or reach out to a Figma maintainer for help. 
+1. Rename the deprecated component(s) to have the `(⚠️ DEPRECATED)` suffix.
+1. On the deprecated page add the title and link to the **existing** page. (thought: perhaps we make this a util component to make life easier)
+1. On the deprecated page set the page background colour to `#COLOOR`. // add the colour
+1. Open the review dialog to check that the deprecated components are marked as `Edited`. If they are marked as `Added` or `Removed` the process will not work. Start again, or reach out to a Figma maintainer for help.
+- The following steps require tight coordination, reach out to a figma maintainer to perform these actions syncronously.
+1. Merge and publish the deprecation branch before the new component branch is merged.
+1. Pull changes to your new component branch. Test that the deprecated component appears on the deprecated page. Test that your new component still works as expected and doesn't reference the deprecated component.
+1. Update link on the deprecated component page.
+1. Merge the new component branch.
+1. Give yourself a pat on the back — that was tough!
+
 ## Plugins
 
 We don’t use plugins for critical actions or capabilities, to avoid making any part of the design process reliant on plugin updates or functionality. Rather, we believe that each user should determine which plugins to use for their own workflow.
