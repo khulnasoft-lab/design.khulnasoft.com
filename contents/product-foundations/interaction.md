@@ -95,3 +95,8 @@ Use sticky containers with caution as they can easily crowd the interface and ma
         </svg>
         </a>
 
+## Presenting multiple links
+At certain places in the product, such as the list views, there's often a need to present multiple clickable links in a single sentence leading to different destinations. In such scenarios, to avoid making the product harder to use for users, do not use the same visual treatment for all links. For destinations that are secondary to the context of the page, instead of using `$blue-500` as the color for the link, use `$gray-900`. However, to increase the percieved clickability affordance, always underline such links.
+
+An example for one such use-case is the pipeline index page. In the tabular view on the pipeline index page, many clickable links such as commit SHA ID, merge request ID need to be presented to users to help them identify a pipeline in the right context. But the primary item of focus on the page is the pipeline ID. In this case, the pipeline ID will be presented in `$blue-500` with regular link treatment while the other links can be presented in `$gray-900`. All the other interactions for both the types of links need to remain the same as defined above on this page. 
+
