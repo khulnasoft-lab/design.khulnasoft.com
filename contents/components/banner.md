@@ -74,7 +74,6 @@ A banner should be used sparingly and with consideration of its impact to neighb
 
 - Similar to [alert placement](/components/alert#placement), the content within the banner will determine its placement on the page.
 - Generally speaking, an introduction banner should be used at the page-level and relate to all content on the page, whereas a promotion banner can either be used at the page-level or in-page level. If in-page level is used, the banner should be placed directly above the content it relates to.
-- Avoid using an introduction banner at the in-page level.
 
 <figure class="figure" role="figure" aria-label="Introduction banner at the top of the page">
   <img class="figure-img" src="/img/banner-page-level.png" alt="Page level banner position" role="img" style="width:100%; max-width:332px; height:auto" />
