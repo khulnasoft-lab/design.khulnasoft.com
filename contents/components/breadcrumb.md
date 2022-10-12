@@ -22,7 +22,7 @@ related:
 </figure>
 
 1. **Avatar** (optional): Prefixes a group or project link.
-1. **Link**: Opens the page in the same window.
+1. **Link**: The [link](/components/link) opens the page in the same window.
 1. **Separator**: The [chevron-right](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~chevron-right) icon is between each link.
 
 ## Guidelines

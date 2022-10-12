@@ -35,7 +35,7 @@ While the term "dropdown" generally refers to an element that reveals a related 
 
 ### When not to use
 
-- If the options within the panel are links or perform app-like JavaScript actions, consider using a [disclosure](/components/dropdown-disclosure) or [menu](/components/dropdown-menu) instead.
+- If the options within the panel are [links](/components/link) or perform app-like JavaScript actions, consider using a [disclosure](/components/dropdown-disclosure) or [menu](/components/dropdown-menu) instead.
 - If the panel of options is revealed when the focus is on a text input, or a button related to a text input, instead of a standalone dropdown button, then the listbox should be part of a [combobox](/components/dropdown-combobox).
 - If a user is selecting a single text option from a group of options within a [form](/components/form), consider using a `<select>` element, [radio group](/components/radio-button), or [checkboxes](/components/checkbox) instead.
 - If you need a way for a user to expand or collapse a content section, use an [accordion](/components/accordion) instead.
