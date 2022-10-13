@@ -36,7 +36,7 @@ By default, links should open in the same window rather than a new tab.
 
 #### Clear and meaningful link text
 
-The user should be able to predict where they will navigate to upon click. Try to avoid vague link texts such as "learn more". Do not use URLs as the link text as they are not easily readable or friendly to screen-readers. Remember that users of screen-readers cannot skim long links. Keep link text concise and no longer than a full sentence.
+Users should be able to predict where they will navigate to upon click. Avoid vague link texts such as "learn more" or "click here", adding URLs as link texts or long links that cannot be skimmed by screen readers. Keep link texts concise, no longer than a full sentence and human-readable.
 * **Example:** Before reviewing a MR, review the [best practices](/accessibility/best-practices/).
 
 #### Do not include full stops in links
@@ -46,7 +46,7 @@ If a link is at the end of a sentence, the full stop should not be part of the l
 
 #### External links
 
-Make it clear in the link text that the link is external. If it's not possible the link text clear, use the external link icon.
+Make it clear in the link text that the link is external or use the external link icon.
 * **Example:** View accessibility guidelines on the [W3C site](https://www.w3.org/TR/WCAG21/).
 
 #### Placement and styling
@@ -64,7 +64,7 @@ Links should be organized and presented in a way that users understand them to b
 - Links have a visible focused state.
 - Links can be focused with a `tab` on the [keyboard](accessibility-audits/keyboard-only).
 - Links can be clicked with a `return` on the keyboard.
-- Underline links to help differentiate them from body content.
+- Underline links where possible to help differentiate them from body content.
 
 ### Resources
 
