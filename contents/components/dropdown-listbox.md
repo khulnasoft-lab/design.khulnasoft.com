@@ -49,7 +49,7 @@ A [button](/components/button) that triggers a listbox comes in a few variants t
 
 ### Behavior
 
-- Toggling the listbox can be done by a button, or a [text input](/components/form#field) when part of a [combobox](/components/dropdown-combobox).
+-  Toggling the listbox can be done by a button, or a [text input](/components/form#field) when part of a [combobox](/components/dropdown-combobox).
 - By default, the dropdown panel that contains the listbox opens below and is aligned to the left of the trigger button or text input. However, when there isn't enough space in the viewport, the panel uses edge detection to position it above and/or aligned to the right of the trigger.
 - If the content within the dropdown panel exceeds the maximum height then a scrim (gradient overlay) appears at the bottom of the panel as an overflow affordance. When a user has scrolled to the bottom of the overflowed content the scrim is removed.
 - In a single select context, when an option is selected the panel is closed and the control updated.

@@ -16,7 +16,7 @@ Help comes in the form of various types of content designed to:
 
 ## Formatting help content
 
-If the most relevant information can be summarized succinctly, put the summary directly in the UI instead of using a help link. However, you can use a help link to provide supplemental information.
+If the most relevant information can be summarized succinctly, put the summary directly in the UI instead of using a help link. However, you can use a help link to provide supplemental information. 
 
 Help links open in a new tab. Doing so makes the result of clicking the links predictable and prevents users from needing to immediately navigate away from their task.
 
@@ -33,7 +33,8 @@ Try phrasing the link as the question that will be answered by the linked conten
 If a question doesn't make sense, use the sentence, "Learn more." Do not use "More information" or other phrases, and always use a period.
 Add an [aria-label](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8) with a full-sentence description for screen reader users.
 
-- **Example:** Approve a merge request. [Learn more](#).
+- **Example:** Approve a merge request. [Learn more.](#)
+- Make sure the period is part of the link text.
 
 ### External links
 
@@ -46,10 +47,10 @@ If the help content is outside of the GitLab instance (for example, content at a
 
 If that's not possible and space is tight, use the [help icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) that, when hovered or focused on, shows the summary in a [popover](/components/popover). The popover title should be the question that is answered by the summary. A “Learn more” link can be added to the popover to associate additional, relevant information.
 
-|                                                                                                                                                                                        Do                                                                                                                                                                                         |                                                                                                                                                             Don't                                                                                                                                                             |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                   <div class="app-styles"><gl-icon name="question-o" class="gl-text-blue-600" /></div>Use the outlined [question-o.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) icon in `$blue-600` (`#1068bf`)                                                                                   |                                                                     <div class="app-styles"><gl-icon name="question" size="16" /></div>Use the solid icon [question.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question) or a color other than blue                                                                     |
-| <figure class="figure" role="figure" aria-label="Popover with link to documentation"><img class="figure-img" src="/img/help-popover-with-link.png" alt="Popover with link to documentation" role="img" style="max-width: 280px;" /><figcaption class="figure-caption" style="font-size: 16px;">Show information in the popover with a link to documentation</figcaption></figure> | <figure class="figure" role="figure" aria-label="Popover with link to documentation"><img class="figure-img" src="/img/help-tooltip.png" alt="Popover with link to documentation" role="img" style="max-width: 280px;" /><figcaption class="figure-caption" style="font-size: 16px;">Use the icon as a link or with a tooltip |
+| Do | Don't |
+| :-: | :-: |
+| <div class="app-styles"><gl-icon name="question-o" class="gl-text-blue-600" /></div>Use the outlined [question-o.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) icon in `$blue-600` (`#1068bf`) | <div class="app-styles"><gl-icon name="question" size="16" /></div>Use the solid icon [question.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question) or a color other than blue | 
+| <figure class="figure" role="figure" aria-label="Popover with link to documentation"><img class="figure-img" src="/img/help-popover-with-link.png" alt="Popover with link to documentation" role="img" style="max-width: 280px;" /><figcaption class="figure-caption" style="font-size: 16px;">Show information in the popover with a link to documentation</figcaption></figure> | <figure class="figure" role="figure" aria-label="Popover with link to documentation"><img class="figure-img" src="/img/help-tooltip.png" alt="Popover with link to documentation" role="img" style="max-width: 280px;" /><figcaption class="figure-caption" style="font-size: 16px;">Use the icon as a link or with a tooltip|
 
 ## Providing reference information
 
@@ -71,8 +72,8 @@ In some cases users might need to reference additional information for completin
 ### Content guidelines
 
 - Drawer content should always be related to a specific context or task in the UI. The drawer header should reflect the context or task the user is performing.
-- Drawer content is stored as Markdown in the [GitLab repository `/doc` directory](https://gitlab.com/gitlab-org/gitlab/-/tree/master/doc), rather than hard-coded in the product code.
-- When writing drawer content, use the [documentation topic types guidelines](https://docs.gitlab.com/ee/development/documentation/structure.html) and general [drawer content guidelines](/components/drawer/#content).
+- Drawer content is stored as Markdown in the [GitLab repository `/doc` directory](https://gitlab.com/gitlab-org/gitlab/-/tree/master/doc), rather than hard-coded in the product code. 
+- When writing drawer content, use the [documentation topic types guidelines](https://docs.gitlab.com/ee/development/documentation/structure.html) and general [drawer content guidelines](/components/drawer/#content). 
 - You should collaborate with a technical writer when defining the content, and a technical writer review is required on related merge requests.
 
 <todo>Add a live example.</todo>
@@ -83,7 +84,7 @@ Links to the documentation should be used sparingly since our goal is to present
 
 ### Using actions in reference information drawers
 
-It's not recommended to use action buttons in drawers in conjunction with reference information since the page the drawer is on might have its own set of actions that remain accessible when the drawer is open. Drawers with help content should focus on providing reference information that supplements the interactive actions in the UI.
+It's not recommended to use action buttons in drawers in conjunction with reference information since the page the drawer is on might have its own set of actions that remain accessible when the drawer is open. Drawers with help content should focus on providing reference information that supplements the interactive actions in the UI. 
 
 ### Localization of drawer content
 
@@ -91,7 +92,7 @@ It's not required to localize the help drawer content.
 
 ### Behavior
 
-For general guidelines follow the [drawer behavior documentation](/components/drawer/#behavior).
+For general guidelines follow the [drawer behavior documentation.](/components/drawer/#behavior) 
 
 - The trigger that opens the drawer should be specific to the content it contains. For example, a "Syntax options" link opens a drawer with syntax options documentation.
 - Both text and icon buttons can be used as the drawer trigger depending on the context. In either case it should be clear from the visible text or aria-label (for icons) that help will be provided.

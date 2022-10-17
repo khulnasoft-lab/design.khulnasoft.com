@@ -14,6 +14,7 @@ related:
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit-Beta?node-id=2560%3A2230)
 
+
 ## Structure
 
 <figure class="figure" role="figure" aria-label="Breadcrumb structure">
@@ -21,7 +22,7 @@ related:
 </figure>
 
 1. **Avatar** (optional): Prefixes a group or project link.
-1. **Link**: The link opens the page in the same window.
+1. **Link**: Opens the page in the same window.
 1. **Separator**: The [chevron-right](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~chevron-right) icon is between each link.
 
 ## Guidelines
@@ -52,8 +53,8 @@ related:
 
 Some pages have a special breadcrumb path to make the text intuitive. They are defined as follows:
 
-| Path                                      | Title in breadcrumb                          |
-| ----------------------------------------- | -------------------------------------------- |
+| Path | Title in breadcrumb |
+| ------ | ------ |
 | Group > Issues > List                     | Group > Issues                               |
 | Group > Issues > Boards                   | Group > Issue boards                         |
 | Group > Settings > General                | Group > General settings                     |
