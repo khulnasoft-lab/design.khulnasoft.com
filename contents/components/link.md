@@ -1,10 +1,10 @@
 ---
 name: Link
-description: Links are navigational elements that take users to another part of the page, web application, or a different website.
+description: A link is a navigational element that takes a user from one context to another. This could include to another URL, an element within a page, or a file.
 stories:
   - base-link--default-link
 related:
-- button
+  - button
 ---
 
 ## Examples
@@ -17,26 +17,26 @@ related:
 
 Links are navigational elements that take less visual affordance than buttons. However, too many links will clutter the page, so focus on which elements on the screen are most important to the user's goal. Use [progressive disclosure](/usability/progressive-disclosure) to avoid overwhelming users.
 
-### When to use:
+### When to use
 
-Use a link when the action is navigational, for example:
-- Navigate to a different part of the current page.
-- Navigate to a different page within the application.
-- Navigate to a different site.
+- A link (anchor <a>) element is used as navigation to:
+  - A new URL.
+  - An element within a page.
+  - A file.
 
-### When not to use:
+### When not to use
 
-- If the action is not navigational, use a [button](/components/button) instead.
-
+- If you are performing an action, like saving, consider using a [button](/components/button) (<button>) element instead.
 ### Behavior
 
-By default, links should open in the same window rather than a new tab.
+- A link opens the destination in the same window by default and native controls to open a link in a new tab or window aren't suppressed.
+- A link can use `target="_blank` if it's intentional that the user cannot use the browser back function to return to the reference, and that it's clear to the user they are leaving the current experience.
 
 ### Content
 
 #### Clear and meaningful link text
 
-Users should be able to predict where they will navigate to upon click. Avoid vague link texts such as "learn more" or "click here", adding URLs as link texts or long links that cannot be skimmed by screen readers. Keep link texts concise, no longer than a full sentence and human-readable.
+Users should be able to predict where they will navigate to upon click. Avoid vague link texts such as "more information" or "click here", adding URLs as link texts, or long links that cannot be skimmed by screen readers. Keep link texts concise, no longer than a full sentence and human-readable.
 * **Example:** Before reviewing a MR, review the [best practices](/accessibility/best-practices/).
 
 #### Do not include full stops in links
