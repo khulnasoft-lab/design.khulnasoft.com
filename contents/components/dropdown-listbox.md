@@ -35,7 +35,7 @@ While the term "dropdown" generally refers to an element that reveals a related 
 
 ### When not to use
 
-- If the options within the panel are [links](/components/link) or perform app-like JavaScript actions, consider using a [disclosure](/components/dropdown-disclosure) or [menu](/components/dropdown-menu) instead.
+- If the options within the panel are links or perform app-like JavaScript actions, consider using a [disclosure](/components/dropdown-disclosure) or [menu](/components/dropdown-menu) instead.
 - If the panel of options is revealed when the focus is on a text input, or a button related to a text input, instead of a standalone dropdown button, then the listbox should be part of a [combobox](/components/dropdown-combobox).
 - If a user is selecting a single text option from a group of options within a [form](/components/form), consider using a `<select>` element, [radio group](/components/radio-button), or [checkboxes](/components/checkbox) instead.
 - If you need a way for a user to expand or collapse a content section, use an [accordion](/components/accordion) instead.
@@ -49,7 +49,7 @@ A [button](/components/button) that triggers a listbox comes in a few variants t
 
 ### Behavior
 
--  Toggling the listbox can be done by a button, or a [text input](/components/form#field) when part of a [combobox](/components/dropdown-combobox).
+- Toggling the listbox can be done by a button, or a [text input](/components/form#field) when part of a [combobox](/components/dropdown-combobox).
 - By default, the dropdown panel that contains the listbox opens below and is aligned to the left of the trigger button or text input. However, when there isn't enough space in the viewport, the panel uses edge detection to position it above and/or aligned to the right of the trigger.
 - If the content within the dropdown panel exceeds the maximum height then a scrim (gradient overlay) appears at the bottom of the panel as an overflow affordance. When a user has scrolled to the bottom of the overflowed content the scrim is removed.
 - In a single select context, when an option is selected the panel is closed and the control updated.
