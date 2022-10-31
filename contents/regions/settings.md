@@ -71,6 +71,28 @@ Consider making configuration options more discoverable to users by linking to s
 - Place it at the page-level, in the top right corner of the page, below the breadcrumbs. This sets the expectation that the settings apply to the page as a whole.
 - Navigate to the specific configuration section of that page in the settings area. Doing so makes the result of clicking the button predictable and prevents users from needing to navigate away from their task. For example, navigating via the Package Registry page will end up on the **Settings > Packages & Registries** section of settings.
 
+## Layout
+### Two column
+
+The two column layout is the recommended layout for a section of settings. This layout optimizes for individual section height and readable character length.
+
+* **First column:** Contains the section title and an optional description. Occupies 1/3 of the width.
+* **Second column:** Contains the settings form content. Occupies 2/3 of the width.
+
+<figure class="figure" role="figure" aria-label="Example of 2 column settings layout"><img class="figure-img" src="/img/settings-2-column.png" alt="Example of 2 column settings layout" role="img" /><figcaption class="figure-caption"></figcaption></figure>
+
+Setting form elements should sized to the expected content using the [form layout sizes](/components/form#layout).
+
+When scrolling, the headings of each section should remain sticky to provide context of the section form.
+
+### Single column
+
+For breakpoints less than equal to the `lg` breakpoint (≤ 992px), the section heading and description will be stacked on top of the settings form content.
+
+The single column layout is recommended for the page when one of the settings section's form content cannot fit within the two column layout. 
+
+<figure class="figure" role="figure" aria-label="Example of 1 column settings layout"><img class="figure-img" src="/img/settings-1-column.png" alt="Example of 1 column settings layout" role="img" /><figcaption class="figure-caption"></figcaption></figure>
+
 ## Design specifications
 
 Color, spacing, dimension, and layout specific information pertaining to this component can be viewed using the following link:
