@@ -50,3 +50,19 @@ Higher tier features should be easy to identify from the rest of the interface. 
 * Can be removed from the UI via group or instance level settings.
 
 <todo>Add links to the documentation.</todo>
+
+## Visibility
+
+Feature visibility is dependent on the user's context.
+
+### When the access is limited based on application state
+
+When a user expects a feature to be there but the current state means they cannot access it, then there should be content or controls that allow the user to proceed to a state to enable the feature.
+
+It is not recommended to use a tooltip on a disabled element for accessibility reasons. For example for a merge request with outstanding approvals, instead of disabling the merge button the button is replaced with copy to explain the state, `Merge blocked: all required approvals must be given`.
+
+When inheriting parent level settings, the child level setting may be disabled as long as there is content to explain that this is a setting enforced at a parent level. In this scenario the child level setting is read-only.
+
+### When to hide the element
+
+A feature should be hidden when a user doesn't have access because of their role's permission.
