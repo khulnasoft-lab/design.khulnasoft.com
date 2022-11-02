@@ -1,5 +1,7 @@
 ---
 name: Feature management
+related:
+  - form
 ---
 
 ## Configuration
@@ -73,16 +75,18 @@ to the [feature management documentation](https://docs.gitlab.com/ee/policy/alph
 * When the feature is no longer Alpha or Beta, make sure the badge is removed.
 ## Visibility
 
-Feature visibility is dependent on the user's context.
+Feature visibility is dependent on the user's permissions and state of the user interface.
 
-### When the access is limited based on application state
+### When to hide the feature
 
-When a user expects a feature to be there but the current state means they cannot access it, then there should be content or controls that allow the user to proceed to a state to enable the feature.
+A feature is hidden when the user should not have access to it due to a lack of permissions. Hiding the feature is recommended because based on the user doesn't need to be aware of the functionality.
+
+* Should hide delete branch button if the user's role does not allow deletion of branches.
+
+### When to keep a feature visible
+
+When a user expects a feature to be there but the current state of the application means they cannot access it, then there should be content or controls that allow the user to proceed to a state to enable the feature.
 
 It is not recommended to use a tooltip on a disabled element for accessibility reasons. For example for a merge request with outstanding approvals, instead of disabling the merge button the button is replaced with copy to explain the state, `Merge blocked: all required approvals must be given`.
 
-When inheriting parent level settings, the child level setting may be disabled as long as there is content to explain that this is a setting enforced at a parent level. In this scenario the child level setting is read-only.
-
-### When to hide the element
-
-A feature should be hidden when a user doesn't have access because of their role's permission.
+When inheriting parent level settings, the child level setting may be disabled or replaced with a read-only equivalent element. There should be content to explain that this setting is configured at the parent level.
