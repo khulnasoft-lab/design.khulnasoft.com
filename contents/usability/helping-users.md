@@ -30,7 +30,7 @@ Try phrasing the link as the question that will be answered by the linked conten
 
 ### Clear and meaningful link text
 
-If a question doesn't make sense, use a clear and meaningful link text. Do not use vague text such as "More information" and always use a period.
+If a question doesn't make sense, use a clear and meaningful link text. Do not use vague text such as "More information". Always use a period.
 Add an [aria-label](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8) with a full-sentence description for screen reader users.
 
 - **Example:** Before reviewing a MR, review the [best practices](#).
