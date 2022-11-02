@@ -85,7 +85,7 @@ A feature is hidden when the user should not have access to it due to a lack of 
 
 ### When to keep a feature visible
 
-When a user expects a feature to be there but the current state of the application means they cannot access it, then there should be content or controls that allow the user to proceed to a state to enable the feature.
+It can be useful to know a feature exists when the user has access but the feature is not currently enabled. In this scenario, a feature may be visible but disabled. When a feature is disabled, there should be an explanation for why it's disabled, or controls that allow a user to enable the feature.
 
 It is not recommended to use a tooltip on a disabled element for accessibility reasons. For example for a merge request with outstanding approvals, instead of disabling the merge button the button is replaced with copy to explain the state, `Merge blocked: all required approvals must be given`.
 
