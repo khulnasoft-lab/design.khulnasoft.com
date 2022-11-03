@@ -1,5 +1,5 @@
 ---
-name: Settings
+name: Settings management
 related:
   - accordion
   - /regions/navigation
@@ -8,7 +8,7 @@ related:
   - /product-foundations/saving-and-feedback
 ---
 
-[Settings](/content/terminology#settings-%26-configuration) is an area in the product that allows users to configure how their instance should behave.
+[Settings](/content/terminology#settings--configuration) is an area in the product that allows users to configure how their instance should behave.
 
 There are several areas within GitLab to manage settings:
 

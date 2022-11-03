@@ -1,5 +1,5 @@
 ---
-name: Form
+name: Forms
 description: A form is for capturing and submitting user input.
 stories:
   - base-form-form--default

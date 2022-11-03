@@ -1,5 +1,5 @@
 ---
-name: Onboarding users
+name: Onboarding
 related:
   - banner
   - popover
@@ -37,12 +37,12 @@ Onboarding flows generally consist of two different types of prompts:
 
 The following patterns can be used as initial prompts to start the onboarding flows. Consult the intrusion level, pattern effectiveness, and recommendations for each one when deciding which to use.
 
-| Pattern name | Intrusion | Effectiveness | Notes and recommendations |
-|--------------|-----------|---------------|---------------------------|
-| Popover      | High      | High          | No major changes to the UI required. Use at the beginning or end, not in the middle, of a complex flow or task. Use to guide users through different pages. |
-| UI modification| Medium  | Medium        | Not a reusable component. Can be used in combination with others but generally requires significant changes to UI. For example, an empty pipeline widget when no pipeline is present on the Merge Request page. |
-| Banner       | Low       | Low           | Might require significant changes to the UI. For example, displacement of default elements. |
-| Empty state  | Low       | High          | Empty states can be used as great starting points for onboarding flows. They’re not intrusive as there’s no content to show; they can give context, explain the value, and provide a CTA. |
+| Pattern name    | Intrusion | Effectiveness | Notes and recommendations                                                                                                                                                                                       |
+| --------------- | --------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Popover         | High      | High          | No major changes to the UI required. Use at the beginning or end, not in the middle, of a complex flow or task. Use to guide users through different pages.                                                     |
+| UI modification | Medium    | Medium        | Not a reusable component. Can be used in combination with others but generally requires significant changes to UI. For example, an empty pipeline widget when no pipeline is present on the Merge Request page. |
+| Banner          | Low       | Low           | Might require significant changes to the UI. For example, displacement of default elements.                                                                                                                     |
+| Empty state     | Low       | High          | Empty states can be used as great starting points for onboarding flows. They’re not intrusive as there’s no content to show; they can give context, explain the value, and provide a CTA.                       |
 
 ### Recommendations for writing copy and providing context
 
