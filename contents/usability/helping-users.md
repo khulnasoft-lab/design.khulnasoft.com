@@ -31,7 +31,7 @@ Phrase the link as the question that will be answered by the linked content.
 If you can't determine a useful question, use `Learn more.` However, be aware that `Learn more.` is not descriptive or meaningful, and should be used sparingly.
 
 - **Example:** Approve a merge request. [Learn more](#).
-- The period should not be part of the link.
+Punctuation should not be part of the link.
 
 For screen reader users, add an [aria-label](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8) with a full-sentence description.
 
