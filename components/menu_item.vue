@@ -95,8 +95,10 @@ export default {
       :aria-controls="sectionId(item.title)"
       @click.prevent="navTree.toggleNode(item)"
     >
-      {{ item.title }}
-      <svg-icon icon="chevron-lg-down" />
+      <span class="sidebar__nav-toggle-inner">
+        <span>{{ item.title }}</span>
+        <svg-icon icon="chevron-down" />
+      </span>
     </button>
     <ul v-show="isExpanded" :id="sectionId(item.title)" :aria-label="item.title" class="gl-ml-4!">
       <menu-item

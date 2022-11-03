@@ -44,14 +44,19 @@ exports[`navbar component renders sidebar properly 1`] = `
             aria-controls="submenu-second-level-item-2"
             class="sidebar__nav-toggle"
           >
-            
-    Second-level item 2
-    
-            <svg>
-              <use
-                xlink:href="#chevron-lg-down"
-              />
-            </svg>
+            <span
+              class="sidebar__nav-toggle-inner"
+            >
+              <span>
+                Second-level item 2
+              </span>
+               
+              <svg>
+                <use
+                  xlink:href="#chevron-down"
+                />
+              </svg>
+            </span>
           </button>
            
           <ul
@@ -107,14 +112,19 @@ exports[`navbar component renders sidebar properly 1`] = `
             aria-controls="submenu-second-level-item-without-path"
             class="sidebar__nav-toggle"
           >
-            
-    Second-level item without path
-    
-            <svg>
-              <use
-                xlink:href="#chevron-lg-down"
-              />
-            </svg>
+            <span
+              class="sidebar__nav-toggle-inner"
+            >
+              <span>
+                Second-level item without path
+              </span>
+               
+              <svg>
+                <use
+                  xlink:href="#chevron-down"
+                />
+              </svg>
+            </span>
           </button>
            
           <ul

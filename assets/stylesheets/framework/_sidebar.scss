@@ -94,7 +94,6 @@
   }
 
   > ul > li + li {
-
     &::before {
       border-top: 1px solid $gray-100;
       content: '';
@@ -143,16 +142,31 @@
 
   svg {
     fill: $gray-400;
-    float: right;
-    height: 12px;
-    margin-top: 2px;
-    width: 12px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 16px;
+    width: 16px;
+  }
+}
+
+.sidebar__nav-toggle-inner {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+
+  > span {
+    flex-grow: 1;
+    flex-shrink: 1;
   }
 }
 
 .sidebar__nav-toggle--expanded {
   color: $white;
   background-color: $gray-800;
+
+  svg {
+    transform: rotate(180deg);
+  }
 
   &:hover,
   &:focus {
@@ -161,10 +175,6 @@
 
   &:active {
     background-color: $gray-900;
-  }
-
-  svg {
-    transform: rotate(180deg);
   }
 }
 
