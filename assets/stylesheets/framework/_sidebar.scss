@@ -1,8 +1,8 @@
-.nav-sidebar__toggle {
+.sidebar__toggle {
   position: fixed;
   top: 1rem;
   left: 0.5rem;
-  z-index: $z-nav-sidebar + 1;
+  z-index: $z-sidebar + 1;
   background: none;
   border: 0;
   fill: $gray-900;
@@ -15,12 +15,11 @@
   }
 }
 
-.nav-sidebar {
+.sidebar {
   position: fixed;
-  z-index: $z-nav-sidebar;
-  background-color: $white;
-  border-right: 1px solid $border-color;
-  width: $nav-sidebar-width;
+  z-index: $z-sidebar;
+  background-color: $gray-10;
+  width: $sidebar-width;
   height: 100%;
   left: 0;
   top: 0;
@@ -33,7 +32,7 @@
     transform: translateX(0);
   }
 
-  &.nav-sidebar--open {
+  &.sidebar--open {
     transform: translateX(0);
   }
 
@@ -42,150 +41,142 @@
     content: url(~assets/images/icons/external-link.svg);
     margin: 0 $gl-spacing-2 0 $gl-spacing-2;
   }
-
-  ul {
-    margin: 0;
-    padding: $gl-spacing-3 0 $gl-spacing-3 0;
-    border-top: $border-width solid $border-color;
-
-    &:first-child,
-    &.nav-sidebar__section-submenu {
-      border-top: 0;
-    }
-
-    li {
-      @include unstyled-list;
-    }
-  }
-
-  .nav-sidebar__header {
-    border-bottom: 1px solid $border-color;
-    padding-left: 40px;
-
-    @include media-sm-up {
-      padding-left: 0;
-    }
-  }
-
-  .nav-sidebar__body {
-    flex: 1;
-    overflow: auto;
-  }
-
-  .nav-sidebar__header-anchor {
-    display: flex;
-    align-items: center;
-    color: $gitlab-logo-grey;
-    font-size: 16px;
-    padding: $gl-spacing-5;
-
-    &:hover {
-      background-color: $black-o-06;
-      text-decoration: none;
-    }
-  }
-
-  .nav-sidebar__section {
-    .nav-sidebar__section-title,
-    .nav-sidebar__section-toggle,
-    .nav-sidebar__section-items-anchor {
-      padding-top: $gl-spacing-3;
-      padding-bottom: $gl-spacing-3;
-      padding-right: $gl-spacing-5;
-      display: flex;
-      color: $gray-900;
-      text-decoration: none;
-    }
-
-    .nav-sidebar__section-toggle {
-      display: block;
-
-      &:hover {
-        background-color: $black-o-06;
-      }
-
-      &:after {
-        border-style: solid;
-        border-width: 1.5px 1.5px 0 0;
-        content: '';
-        display: block;
-        height: 0.45em;
-        float: right;
-        width: 0.45em;
-        transform: rotate(135deg) translate(0.4em, 0px);
-        border-color: $gray-400;
-      }
-    }
-
-    .nav-sidebar__section-submenu {
-      padding: 0;
-    }
-
-    .nav-sidebar__section-title {
-      font-weight: $font-weight--bold;
-      display: block;
-      padding-left: $gl-spacing-5;
-    }
-  }
-
-  .nav-sidebar__section--expanded {
-    background-color: $gray-10;
-
-    > .nav-sidebar__section-toggle {
-      background-color: $gray-100;
-
-      &:after {
-        transform: rotate(-45deg) translate(-0.4em, 0px);
-      }
-
-      .nuxt-link-active {
-        font-weight: $font-weight--bold;
-      }
-    }
-  }
-
-  .nav-sidebar__section-items-anchor {
-    cursor: pointer;
-
-    &.nuxt-link-active {
-      box-shadow: inset ($border-width * 4) 0 0 $gray-700;
-      background-color: $black-o-06;
-    }
-
-    &:hover {
-      background-color: $black-o-04;
-      text-decoration: none;
-    }
-  }
 }
 
-.nav-sidebar__overlay {
+.sidebar__overlay {
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background: $t-gray-a-24;
-  z-index: $z-nav-sidebar;
+  z-index: $z-sidebar;
 
   @include hide-sm-up;
 }
 
-// Hides summary arrow //
-details > summary:first-of-type {
-  list-style-type: none;
-}
+.sidebar__header {
+  padding-left: 40px;
 
-// Hides summary arrow on chrome //
-summary {
-  &::-webkit-details-marker {
-    display: none;
+  @include media-sm-up {
+    padding-left: 0;
   }
 }
 
-// indent utilities //
-@for $i from 0 through 8 {
-  .tree-indent-#{$i + 1} {
-    padding-left: $gl-spacing-6 + $gl-spacing-3 * $i;
+.sidebar__body {
+  flex: 1;
+  overflow: auto;
+  padding: 0.5rem;
+}
+
+.sidebar__header-anchor {
+  align-items: center;
+  color: $gitlab-logo-grey;
+  display: flex;
+  font-size: 16px;
+  padding: $gl-spacing-5;
+
+  &:hover,
+  &:focus {
+    background-color: $gray-100;
+    text-decoration: none;
+  }
+}
+
+.sidebar__nav {
+  ul {
+    margin: 0;
+    padding-left: 0;
+
+    li {
+      @include unstyled-list;
+    }
+  }
+
+  > ul > li + li {
+
+    &::before {
+      border-top: 1px solid $gray-100;
+      content: '';
+      display: block;
+      margin: 0.5rem;
+    }
+  }
+}
+
+.sidebar__nav-label {
+  display: block;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+}
+
+.sidebar__nav-toggle,
+.sidebar__nav-anchor {
+  border-radius: 4px;
+  color: $gray-900;
+  display: block;
+  padding: 0.5rem;
+
+  &:hover,
+  &:focus {
+    background-color: $gray-100;
+  }
+
+  &:active {
+    background-color: $gray-200;
+  }
+}
+
+.sidebar__nav-toggle,
+.sidebar__nav-option {
+  margin-bottom: 1px !important;
+}
+
+.sidebar__nav-toggle {
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 100%;
+  text-align: left;
+  width: 100%;
+
+  svg {
+    fill: $gray-400;
+    float: right;
+    height: 12px;
+    margin-top: 2px;
+    width: 12px;
+  }
+}
+
+.sidebar__nav-toggle--expanded {
+  color: $white;
+  background-color: $gray-800;
+
+  &:hover,
+  &:focus {
+    background-color: $gray-800;
+  }
+
+  &:active {
+    background-color: $gray-900;
+  }
+
+  svg {
+    transform: rotate(180deg);
+  }
+}
+
+.sidebar__nav-anchor {
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+
+  &.nuxt-link-active {
+    background-color: $gray-100;
   }
 }
