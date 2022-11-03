@@ -22,19 +22,18 @@ Help links open in a new tab. Doing so makes the result of clicking the links pr
 
 To learn how to link to GitLab docs in various programming languages, see [Linking to /help](https://docs.gitlab.com/ee/development/documentation/#linking-to-help).
 
-### Phrase link text as a question
+### Link text
 
-Try phrasing the link as the question that will be answered by the linked content.
+Phrase the link as the question that will be answered by the linked content.
 
 - **Example:** A merge request approval is required when a security report contains a new vulnerability of high, critical, or unknown severity. [Who can approve?](#)
 
-### Clear and meaningful link text
+If you can't determine a useful question, use `Learn more.` However, be aware that `Learn more.` is not descriptive or meaningful, and should be used sparingly.
 
-If a question doesn't make sense, use a clear and meaningful link text. Do not use vague text such as "More information". Always use a period.
-Add an [aria-label](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8) with a full-sentence description for screen reader users.
+- **Example:** Approve a merge request. [Learn more](#).
+- The period should not be part of the link.
 
-- **Example:** Before reviewing a MR, review the [best practices](#).
-- If a link is at the end of a sentence, the period should not be part of the link.
+For screen reader users, add an [aria-label](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8) with a full-sentence description.
 
 ### External links
 
@@ -92,7 +91,7 @@ It's not required to localize the help drawer content.
 
 ### Behavior
 
-For general guidelines follow the [drawer behavior documentation.](/components/drawer/#behavior)
+For general guidelines follow the [drawer behavior documentation](/components/drawer/#behavior).
 
 - The trigger that opens the drawer should be specific to the content it contains. For example, a "Syntax options" link opens a drawer with syntax options documentation.
 - Both text and icon buttons can be used as the drawer trigger depending on the context. In either case it should be clear from the visible text or aria-label (for icons) that help will be provided.
