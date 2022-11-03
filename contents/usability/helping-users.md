@@ -28,7 +28,7 @@ Phrase the link as the question that will be answered by the linked content.
 
 - **Example:** A merge request approval is required when a security report contains a new vulnerability of high, critical, or unknown severity. [Who can approve?](#)
 
-If you can't determine a useful question, use `Learn more.` However, be aware that `Learn more.` is not descriptive or meaningful, and should be used sparingly.
+If you can't determine a useful question, use `Learn more`. However, be aware that `Learn more` is not descriptive or meaningful, and should be used sparingly.
 
 - **Example:** Approve a merge request. [Learn more](#).
 Punctuation should not be part of the link.
