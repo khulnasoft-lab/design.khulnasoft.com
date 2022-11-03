@@ -26,7 +26,7 @@ To learn how to link to GitLab docs in various programming languages, see [Linki
 
 Phrase the link as the question that will be answered by the linked content.
 
-- **Example:** A merge request approval is required when a security report contains a new vulnerability of high, critical, or unknown severity. [Who can approve?](#)
+- **Example:** A merge request approval is required. [Who can approve](#)?
 
 If you can't determine a useful question, use `Learn more`. However, be aware that `Learn more` is not descriptive or meaningful, and should be used sparingly.
 
