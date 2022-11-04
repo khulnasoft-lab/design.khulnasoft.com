@@ -4,7 +4,7 @@ name: Color
 
 ## Data visualization palette
 
-<note>View the [Foundations > Color](/product-foundations/colors) section for details about the UI, neutral, and theme palettes.</note>
+<note>View the [Foundations > Color](/product-foundations/color) section for details about the UI, neutral, and theme palettes.</note>
 
 Data visualization is critical content within GitLab. The presentation and interpretation of this content relies on visual nuance that is separate from the rest of the UI.
 

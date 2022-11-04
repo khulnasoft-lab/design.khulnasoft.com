@@ -41,7 +41,7 @@ related:
 
 ### When not to use
 
-- If a user needs to enter a familiar date, like a birthday, consider using a regular [text field](/components/form) without the date picker functionality instead (see note in the [Reference](#reference) section).
+- If a user needs to enter a familiar date, like a birthday, consider using a regular [text field](/patterns/forms) without the date picker functionality instead (see note in the [Reference](#reference) section).
 
 ### Variants
 

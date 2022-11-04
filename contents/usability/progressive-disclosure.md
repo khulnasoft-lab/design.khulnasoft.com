@@ -1,8 +1,8 @@
 ---
 name: Progressive disclosure
 related:
-  - /usability/error-prevention
-  - /usability/onboarding-users
+  - /usability/destructive-actions
+  - /usability/onboarding
   - accordion
   - button
   - modal
@@ -19,7 +19,7 @@ When employing progressive disclosure, display key information prominently to re
 Best practices for progressive disclosure include:
 
 - Clearly distinguishing between the primary and secondary actions. Determine which actions are most important using a combination of available user research and usage data.
-- Creating clear trigger actions for secondary content. Use established calls to action such as [links](/product-foundations/interaction#links) or [buttons](/components/button) that set the expectation for what to do next.
+- Creating clear trigger actions for secondary content. Use established calls to action such as [links](/components/link) or [buttons](/components/button) that set the expectation for what to do next.
 - Avoiding multiple levels of disclosure. If an interaction has three or more levels of disclosure, it could be a sign that the feature is too complex.
 
 ## Examples

@@ -68,7 +68,7 @@ related:
 ### Content
 
 - All copy within an alert should be short, actionable, and use clear language.
-- Keep translations in mind when writing copy and follow [voice and tone](/content/voice-tone) guidelines.
+- Keep translations in mind when writing copy and follow [voice and tone](/content/voice-and-tone) guidelines.
 
 #### Title
 
@@ -124,4 +124,4 @@ related:
 
 - An alert should receive focus and use `aria-live` to announce its presence and allow a user to interact with it immediately.
 - If sticky positioning is used, the user must still be able to access and view focusable elements the alert may be covering.
-- An alert is separate from, but complimentary to [validation](/components/form#validation) error messages. In this way an alert announces that there are validation errors and links a user to each instance.
+- An alert is separate from, but complimentary to [validation](/patterns/forms#validation) error messages. In this way an alert announces that there are validation errors and links a user to each instance.
