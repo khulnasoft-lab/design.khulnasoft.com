@@ -1,5 +1,5 @@
 ---
-name: Accessibility audits
+name: Overview
 ---
 
 ## An introduction to performing website audits

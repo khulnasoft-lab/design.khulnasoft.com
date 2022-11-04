@@ -1,5 +1,5 @@
 ---
-name: Search
+name: Searching
 ---
 
 ## Global search
