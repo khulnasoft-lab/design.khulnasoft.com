@@ -233,6 +233,18 @@
                 "path": "search"
               },
               {
+                "title": "Select",
+                "path": "select"
+              },
+              {
+                "title": "Textarea",
+                "path": "textarea"
+              },
+              {
+                "title": "Text input",
+                "path": "text-input"
+              },
+              {
                 "title": "Token",
                 "path": "token"
               }
