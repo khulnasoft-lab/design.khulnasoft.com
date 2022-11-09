@@ -36,26 +36,33 @@ export default {
 </script>
 
 <template>
-  <nav :class="{ 'nav-sidebar--open': sidebarOpen }" class="nav-sidebar">
-    <div class="nav-sidebar__header">
-      <nuxt-link to="/" class="nav-sidebar__header-anchor gl-p-5">
+  <aside :class="{ 'sidebar--open': sidebarOpen }" class="sidebar">
+    <div class="sidebar__header gl-p-3">
+      <nuxt-link to="/" class="sidebar__header-anchor">
         <img src="/gitlab-tanuki.svg" alt="GitLab tanuki mark" role="img" />
-        <span class="gl-ml-4">GitLab Design System</span>
+        <span>GitLab Design System</span>
       </nuxt-link>
     </div>
-    <client-only>
-      <search />
-      <template #placeholder>
-        <div class="gl-py-6"></div>
-      </template>
-    </client-only>
-    <div class="nav-sidebar__body gl-mb-3">
-      <menu-item
-        v-for="item in navTree.topLevelNodes"
-        :key="item.id"
-        :item="item"
-        :nav-tree="navTree"
-      />
+    <div class="gl-pb-3 gl-px-4">
+      <client-only>
+        <search />
+        <template #placeholder>
+          <div class="gl-py-6"></div>
+        </template>
+      </client-only>
     </div>
-  </nav>
+    <div class="sidebar__body gl-p-3">
+      <nav class="sidebar__nav" aria-labelledby="nav-heading">
+        <h2 id="nav-heading" class="gl-sr-only">Main navigation</h2>
+        <ul>
+          <menu-item
+            v-for="item in navTree.topLevelNodes"
+            :key="item.id"
+            :item="item"
+            :nav-tree="navTree"
+          />
+        </ul>
+      </nav>
+    </div>
+  </aside>
 </template>
