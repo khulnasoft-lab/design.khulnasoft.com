@@ -18,10 +18,11 @@ export default {
 <template>
   <div class="page">
     <a href="#skipTarget" class="skip-link">Skip to main content</a>
-    <div v-if="sidebarOpen" class="nav-sidebar__overlay" @click="closeSidebar"></div>
+    <div v-if="sidebarOpen" class="sidebar__overlay" @click="closeSidebar"></div>
     <button
       type="button"
-      class="nav-sidebar__toggle"
+      class="sidebar__toggle"
+      :class="{ 'sidebar--open': sidebarOpen }"
       :aria-expanded="sidebarOpen"
       @click="toggleSidebar"
     >
