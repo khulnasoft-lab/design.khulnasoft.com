@@ -2,136 +2,153 @@
 
 exports[`navbar component renders sidebar properly 1`] = `
 <nav
-  class="nav-sidebar"
+  aria-labelledby="nav-heading"
+  class="sidebar__nav"
 >
-  <div
-    class="nav-sidebar__header"
+  <h2
+    class="gl-sr-only"
+    id="nav-heading"
   >
-    <nuxt-link-stub
-      class="nav-sidebar__header-anchor gl-p-5"
-      to="/"
-    >
-      <img
-        alt="GitLab tanuki mark"
-        role="img"
-        src="/gitlab-tanuki.svg"
-      />
-       
+    Main navigation
+  </h2>
+   
+  <ul>
+    <li>
       <span
-        class="gl-ml-4"
+        aria-hidden="true"
+        class="sidebar__nav-label gl-font-weight-bold"
+        id="item-top1"
       >
-        GitLab Design System
+        
+    Top-level item 1
+  
       </span>
-    </nuxt-link-stub>
-  </div>
-   
-  <client-only-stub>
-    <search-stub />
-  </client-only-stub>
-   
-  <div
-    class="nav-sidebar__body gl-mb-3"
-  >
-    <ul
-      class="nav-sidebar__section"
-    >
-      <li>
-        <span
-          class="nav-sidebar__section-title"
-        >
-          Top-level item 1
-        </span>
-      </li>
        
-      <li>
-        <nuxt-link-stub
-          class="nav-sidebar__section-items-anchor tree-indent-1"
-          role="menuitem"
-          to="/top1/second1"
-        >
-          Second-level item 1
-        </nuxt-link-stub>
-      </li>
-      <li
-        class="nav-sidebar__section"
+      <ul
+        aria-labelledby="item-top1"
       >
-        <a
-          aria-haspopup="true"
-          class="nav-sidebar__section-toggle gl-display-block tree-indent-1"
-          href="#"
-          role="menuitem"
+        <li
+          class="sidebar__nav-option"
         >
-          Second-level item 2
-        </a>
-         
-        <ul
-          aria-label="Second-level item 2"
-          class="nav-sidebar__section-submenu tree-indent-1"
-          role="menu"
-          style="display: none;"
-        >
-          <li>
-            <nuxt-link-stub
-              class="nav-sidebar__section-items-anchor tree-indent-2"
-              role="menuitem"
-              to="/top1/second2/third1"
+          <nuxt-link-stub
+            class="sidebar__nav-anchor"
+            to="/top1/second1"
+          >
+            
+    Second-level item 1
+  
+          </nuxt-link-stub>
+        </li>
+        <li>
+          <button
+            aria-controls="item-second2"
+            class="sidebar__nav-toggle"
+          >
+            <span
+              class="sidebar__nav-toggle-inner"
             >
-              Third-level item 1
-            </nuxt-link-stub>
-          </li>
-          <li>
-            <nuxt-link-stub
-              class="nav-sidebar__section-items-anchor tree-indent-2"
-              role="menuitem"
-              to="/top1/second2/third2"
+              <span>
+                Second-level item 2
+              </span>
+               
+              <svg>
+                <use
+                  xlink:href="#chevron-down"
+                />
+              </svg>
+            </span>
+          </button>
+           
+          <ul
+            aria-label="Second-level item 2"
+            class="gl-ml-4!"
+            id="item-second2"
+            style="display: none;"
+          >
+            <li
+              class="sidebar__nav-option"
             >
-              Third-level item 2
-            </nuxt-link-stub>
-          </li>
-        </ul>
-      </li>
-    </ul>
-    <ul
-      class="nav-sidebar__section"
-    >
-      <li>
-        <span
-          class="nav-sidebar__section-title"
-        >
-          Top-level item 2
-        </span>
-      </li>
+              <nuxt-link-stub
+                class="sidebar__nav-anchor"
+                to="/top1/second2/third1"
+              >
+                
+    Third-level item 1
+  
+              </nuxt-link-stub>
+            </li>
+            <li
+              class="sidebar__nav-option"
+            >
+              <nuxt-link-stub
+                class="sidebar__nav-anchor"
+                to="/top1/second2/third2"
+              >
+                
+    Third-level item 2
+  
+              </nuxt-link-stub>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <span
+        aria-hidden="true"
+        class="sidebar__nav-label gl-font-weight-bold"
+        id="item-top2"
+      >
+        
+    Top-level item 2
+  
+      </span>
        
-      <li
-        class="nav-sidebar__section"
+      <ul
+        aria-labelledby="item-top2"
       >
-        <a
-          aria-haspopup="true"
-          class="nav-sidebar__section-toggle gl-display-block tree-indent-1"
-          href="#"
-          role="menuitem"
-        >
-          Second-level item without path
-        </a>
-         
-        <ul
-          aria-label="Second-level item without path"
-          class="nav-sidebar__section-submenu tree-indent-1"
-          role="menu"
-          style="display: none;"
-        >
-          <li>
-            <nuxt-link-stub
-              class="nav-sidebar__section-items-anchor tree-indent-2"
-              role="menuitem"
-              to="/top2/third2"
+        <li>
+          <button
+            aria-controls="item-undefined"
+            class="sidebar__nav-toggle"
+          >
+            <span
+              class="sidebar__nav-toggle-inner"
             >
-              Third-level item 3
-            </nuxt-link-stub>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </div>
+              <span>
+                Second-level item without path
+              </span>
+               
+              <svg>
+                <use
+                  xlink:href="#chevron-down"
+                />
+              </svg>
+            </span>
+          </button>
+           
+          <ul
+            aria-label="Second-level item without path"
+            class="gl-ml-4!"
+            id="item-undefined"
+            style="display: none;"
+          >
+            <li
+              class="sidebar__nav-option"
+            >
+              <nuxt-link-stub
+                class="sidebar__nav-anchor"
+                to="/top2/third2"
+              >
+                
+    Third-level item 3
+  
+              </nuxt-link-stub>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
 </nav>
 `;
