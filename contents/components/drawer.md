@@ -77,7 +77,7 @@ related:
 
 #### Actions
 
-- Left aligned, except in right-to-left languages where they are right aligned and the order is the same. See [button alignment and order](/components/button#alignment-and-order) for more details.
+- Left aligned, except in right-to-left languages where they are right aligned and the order is the same. See button [alignment](/components/button#alignment) and [order](/components/button#order) for more details.
 
 ### Accessibility
 

@@ -54,7 +54,7 @@ To keep the experience of settings consistent, avoid using a combination of manu
 
 ### User feedback
 
-- Use an [alert](/components/alert) for validation messages that are not directly correlated with an input (for example, failures). These alerts utilize [in-page placement](/components/alert#in-page) when data is saved asynchronously.
+- Use an [alert](/components/alert) for validation messages that are not directly correlated with an input (for example, failures). These alerts utilize [in-page placement](/components/alert#placement) when data is saved asynchronously.
 - Use a [toast](/components/toast) for success messages that provide immediate confirmation of an action (for example, saving).
 
 ### Linking to settings from a feature page

@@ -74,7 +74,7 @@ related:
 ### Content
 
 - Each part is a variant of a [token](/components/token/).
-- Filters are always used in combination with the [“search by confirmation” search box](/components/search/#search-by-confirmation) pattern.
+- Filters are always used in combination with the [“search by confirmation” search box](/components/search/#variants) pattern.
 - Each filter can consist of only one value and can’t be repeated. For example, a list of issues can only be narrowed down by specifying one assignee.
 - While filter results aren't part of the component itself, the [Empty States](/patterns/empty-states#empty-search-results) page has additional guidance on what to display if there are no matching filters.
 

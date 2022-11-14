@@ -88,7 +88,7 @@ related:
 - Up to two actions can be used at a time.
 - Primary action uses the **confirm** button variant.
 - Secondary action uses the **default** button variant.
-- Left aligned, except in right-to-left languages where they are right aligned and the order is the same. See [button alignment and order](/components/button#alignment-and-order) for more details.
+- Left aligned, except in right-to-left languages where they are right aligned and the order is the same. See button [alignment](/components/button#alignment) and [order](/components/button#order) for more details.
 
 ### Placement
 

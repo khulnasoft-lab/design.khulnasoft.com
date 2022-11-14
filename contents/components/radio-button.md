@@ -54,7 +54,7 @@ related:
 
 #### Help text
 
-- [Help text](/patterns/forms#help-text) can be added below the radio button label or as a paragraph below the group.
+- [Help text](/patterns/forms#text) can be added below the radio button label or as a paragraph below the group.
 
 ### Accessibility
 
