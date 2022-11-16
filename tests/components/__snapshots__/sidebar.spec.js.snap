@@ -17,7 +17,6 @@ exports[`sidebar component renders sidebar properly 1`] = `
       <span
         aria-hidden="true"
         class="sidebar__nav-label gl-font-weight-bold"
-        id="item-top1"
       >
         
     Top-level item 1
@@ -25,7 +24,7 @@ exports[`sidebar component renders sidebar properly 1`] = `
       </span>
        
       <ul
-        aria-labelledby="item-top1"
+        aria-label="Top-level item 1"
       >
         <li
           class="sidebar__nav-option"
@@ -97,7 +96,6 @@ exports[`sidebar component renders sidebar properly 1`] = `
       <span
         aria-hidden="true"
         class="sidebar__nav-label gl-font-weight-bold"
-        id="item-top2"
       >
         
     Top-level item 2
@@ -105,7 +103,7 @@ exports[`sidebar component renders sidebar properly 1`] = `
       </span>
        
       <ul
-        aria-labelledby="item-top2"
+        aria-label="Top-level item 2"
       >
         <li>
           <button

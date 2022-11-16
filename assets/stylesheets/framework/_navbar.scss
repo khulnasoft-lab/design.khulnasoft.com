@@ -1,0 +1,41 @@
+.navbar {
+  align-items: center;
+  background: $purple-950;
+  color: $white;
+  display: flex;
+  gap: $gl-spacing-3;
+  justify-content: space-between;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: $z-sidebar - 1;
+  @include hide-sm-up;
+
+  .logo {
+    &:hover,
+    &:focus {
+      background-color: $purple-900;
+    }
+  }
+
+}
+
+.navbar__toggle {
+  background: none;
+  border: 0;
+  color: currentColor;
+  margin: 0;
+  padding: $gl-spacing-4;
+
+  svg {
+    display: block;
+    fill: currentColor;
+  }
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    fill: $gray-950;
+  }
+}
