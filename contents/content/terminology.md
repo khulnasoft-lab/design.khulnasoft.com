@@ -2,7 +2,7 @@
 name: Terminology
 ---
 
-For clear and consistent communication, it’s important to always use correct terminology. Remember:
+For clear and consistent communication, it’s important to always use correct terminology.
 
 You can find most terms in the [word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html) that's maintained by the Technical Writing team. If you do not see the term you need, open a merge request to add it, or contact a technical writer for assistance.
 
