@@ -8,7 +8,7 @@ You can find most terms in the [word list](https://docs.gitlab.com/ee/developmen
 
 In addition:
 
-- Never create a new term when an existing one is available.
+- Search the product for the term before creating a new term.
 - Be extremely cautious when using [jargon](https://examples.yourdictionary.com/examples-of-jargon.html) and [colloquialisms](https://www.quickanddirtytips.com/education/grammar/writing-with-slang). They can confuse new users and cause problems with internationalization.
 - Consider [screen readers](https://accessibility.blog.gov.uk/2017/02/08/advice-for-creating-content-that-works-well-with-screen-readers/) and their ability to interpret non-standard terminology.
 
