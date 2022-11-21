@@ -72,6 +72,10 @@ Consider making configuration options more discoverable to users by linking to s
 - Navigate to the specific configuration section of that page in the settings area. Doing so makes the result of clicking the button predictable and prevents users from needing to navigate away from their task. For example, navigating via the Package Registry page will end up on the **Settings > Packages & Registries** section of settings.
 
 ## Layout
+
+- Setting form elements should sized to the expected content using the [form layout sizes](/components/form#layout).
+- When scrolling, the headings of each section should remain sticky to provide context of the section form.
+
 ### Two column
 
 The two column layout is the default recommendation because it optimizes for individual section height and readable character length. On breakpoints less than or equal to `lg` (≤ 992px), a two column layout is collapsed to use a [single column](#single-column).
@@ -81,13 +85,9 @@ The two column layout is the default recommendation because it optimizes for ind
 
 <figure class="figure" role="figure" aria-label="Example of 2 column settings layout"><img class="figure-img" src="/img/settings-2-column.png" alt="Example of 2 column settings layout" role="img" /><figcaption class="figure-caption"></figcaption></figure>
 
-Setting form elements should sized to the expected content using the [form layout sizes](/components/form#layout).
-
-When scrolling, the headings of each section should remain sticky to provide context of the section form.
+For breakpoints less than equal to the `lg` breakpoint (≤ 992px), the section heading and description will be stacked on top of the settings form content.
 
 ### Single column
-
-For breakpoints less than equal to the `lg` breakpoint (≤ 992px), the section heading and description will be stacked on top of the settings form content.
 
 The single column layout is recommended for the page when one of the settings section's form content cannot fit within the two column layout. 
 
