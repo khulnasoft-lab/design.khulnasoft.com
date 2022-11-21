@@ -74,10 +74,10 @@ Consider making configuration options more discoverable to users by linking to s
 ## Layout
 ### Two column
 
-The two column layout is the recommended layout for a section of settings. This layout optimizes for individual section height and readable character length.
+The two column layout is the default recommendation because it optimizes for individual section height and readable character length. On breakpoints less than or equal to `lg` (≤ 992px), a two column layout is collapsed to use a [single column](#single-column).
 
-* **First column:** Contains the section title and an optional description. Occupies 1/3 of the width.
-* **Second column:** Contains the settings form content. Occupies 2/3 of the width.
+* **First column:** Contains the section title and an optional description. Occupies 1/3 of the width. When scrolling, the headings of each section should remain sticky to provide context of the section form.
+* **Second column:** Contains the settings form content. Occupies 2/3 of the width. Form elements utilize the [form layout sizes](/components/form#layout).
 
 <figure class="figure" role="figure" aria-label="Example of 2 column settings layout"><img class="figure-img" src="/img/settings-2-column.png" alt="Example of 2 column settings layout" role="img" /><figcaption class="figure-caption"></figcaption></figure>
 
