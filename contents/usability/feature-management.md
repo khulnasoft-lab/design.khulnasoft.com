@@ -77,16 +77,12 @@ to the [feature management documentation](https://docs.gitlab.com/ee/policy/alph
 
 Feature visibility is dependent on the user's permissions and state of the user interface.
 
-### When to hide the feature
+### When to hide a feature
 
-A feature is hidden when the user should not have access to it due to a lack of permissions. Hiding the feature is recommended because based on the user doesn't need to be aware of the functionality.
-
-* Should hide delete branch button if the user's role does not allow deletion of branches.
+* A feature is hidden when the user shouldn't have access to it due to a lack of permissions. Hiding the feature is recommended because the user doesn't need to be aware of the functionality, and there is no UI that would allow them to obtain access. For example, we should hide the delete branch button if the user's role does not allow deletion of branches.
 
 ### When to keep a feature visible
 
-It can be useful to know a feature exists when the user has access but the feature is not currently enabled. In this scenario, a feature may be visible but disabled. When a feature is disabled, there should be an explanation for why it's disabled, or controls that allow a user to enable the feature.
-
-It is not recommended to use a tooltip on a disabled element for accessibility reasons. For example for a merge request with outstanding approvals, instead of disabling the merge button the button is replaced with copy to explain the state, `Merge blocked: all required approvals must be given`.
-
-When inheriting parent level settings, the child level setting may be disabled or replaced with a read-only equivalent element. There should be content to explain that this setting is configured at the parent level.
+* It can be useful to know a feature exists when the user has access, but the feature is not currently enabled. In this scenario, a feature may be visible but disabled. When a feature is disabled, there should be an explanation for why it's disabled, or controls that allow a user to enable or request access to the feature.
+* When inheriting parent-level settings, the child-level setting may be disabled or replaced with a read-only equivalent, and there should be content explaining that the setting is configured at the parent level. For example a lock icon may be displayed with a tooltip explaining that this setting is configured at a parent level.
+* It's not recommended to use a [tooltip](/components/tooltip) that contains the explanation on a disabled element, because a keyboard user can't move focus to the trigger to reveal the message. Exposing the message in the UI is preferred. For example, instead of disabling the merge button on a merge request with outstanding approvals, the button is replaced with copy to explain the state, _Merge blocked: all required approvals must be given_.
