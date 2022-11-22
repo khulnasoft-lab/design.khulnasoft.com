@@ -33,16 +33,17 @@ In Pajamas, the following methods indicate and initiate loading:
 
 The _load more_ interaction is [a more accessible alternative](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/1196#results) to [infinite scroll](/components/infinite-scroll) by allowing a user to load more results by clicking a 'Load more' [button](/components/button). The button text can optionally include the number of items that will be loaded, for example, 'Load 20 more'.
 
-The load more interaction can be used for:
+The load more interaction can be used for a list or set of items:
 
-- A list with content that updates frequently.
-- A list without sort or filter functionality.
-- A list that doesn't use [pagination](/components/pagination) to provide a preset number of results per view.
+- With content that updates frequently.
+- Without sort or filter functionality.
+- That doesn't use [pagination](/components/pagination) to provide a preset number of results per view.
 
 ### Behavior
 
-- The 'Load more' button is present at the end of a list when there are more items to load.
+- The 'Load more' button is present at the end of a list when there are more items available.
 - Clicking the button loads more results inline and moves the button to the end of the list if there are more items that can be loaded.
+- After clicking the button, focus is placed on the next focusable element that has loaded.
 - The number of initial results, and results that load after clicking the button, can be adjusted to best present the results. For example, it could be better to load 20 more single line items, while only loading 10 more items that contain multiple elements and take more time to scan.
 - When a user returns to the list by using the back button in the browser, they should be returned to the same place in the list where they left off.
 - Loading more is a one-way action and _showing less_ is reserved for expand and collapse behavior, like an [accordion](/components/accordion).
