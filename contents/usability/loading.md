@@ -1,65 +1,48 @@
 ---
 name: Loading
 related:
-  - infinite scroll
-  - progress-bar
+  - infinite-scroll
   - skeleton-loader
   - spinner
 ---
 
-Loading patterns provide the user with visiblity on what the system is doing and gives the user a sense of control by understanding the perceived wait time.
+A loading state or action provides a user with visiblity on what the system is doing, gives them a sense of control, and helps manage their expectations.
 
-Loading patterns come in various forms to:
-- Provide an indication that content is loading on the page
-- Prepare the user for what is coming up next
+Loading states and actions can:
 
-## Types
+- Indicate that content is loading on the page.
+- Indicate that a backend process is occurring.
+- Prepare the user for what is about to happen.
+- Empower the user to choose when loading occurs.
 
-Depending on the loading scenario, some types of loading pattens are better to use than others. For example, if the user initiates an action that causes loading, like submitting a form, [instant feedback](product-foundations/saving-and-feedback#instant-feedback) is necessary to inform them that the request has been submitted, but things may be happening in the background to effectively save changes. Using loading patterns has a positive imapact on the perceived speed of the application.
+In Pajamas, the following methods indicate and initiate loading:
 
-### Load more pattern
+- [Infinite scrolling](#infinite-scrolling)
+- [Loading animations](#animated-loaders)
+- [Loading more](#loading-more)
 
-The Load more pattern is [a more accessible alternative](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/1196#results) to [infinite scroll](/components/infinite-scroll). This loading pattern gives the user control by allowing them to opt in to more results being shown and to have a clear sense of what's happening.
+## Infinite scrolling
 
-#### Structure
+<todo>Add [infinite scroll](/components/infinite-scroll) interaction guidelines.</todo>
 
-<figure class="figure" role="figure" aria-label="Load more pattern structure">
-  <img class="figure-img" src="/img/load-more-pattern.svg" alt="Numbered diagram of the load more pattern structure" role="img" />
-</figure>
+## Loading animations
 
-1. **Container**: Wraps the content.
-1. **Item**: Item within the list.
-1. **Scrollbar**: Scrollbar that appears when scrolling the list.
-1. **Load more button**: Button with text Load more, or optionally, Load X more, is displayed at the bottom of the list.
+<todo>Add details about the use of [skeleton loaders](/components/skeleton-loader) and [spinners](/components/spinner).</todo>
 
-#### When to use 
+## Loading more
 
-The load more pattern can be used for:
+The _load more_ interaction is [a more accessible alternative](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/1196#results) to [infinite scroll](/components/infinite-scroll) by allowing a user to load more results by clicking a 'Load more' [button](/components/button). The button text can optionally include the number of items that will be loaded, for example, 'Load 20 more'.
+
+The load more interaction can be used for:
+
 - A list with content that updates frequently.
-- A list when there is no sort/filter functionality.
+- A list without sort or filter functionality.
+- A list that doesn't use [pagination](/components/pagination) to provide a preset number of results per view.
 
-#### When not to use 
+### Behavior
 
-If a list is more than 20 items long, consider using [pagination](/components/pagination) instead.
-
-#### Behavior
-
-- The Load more button is triggered once the user has reached the 20th item of a list and there are more items to load.
-- A [button](/components/button) appears at the bottom of the list.
-- When a user returns to a list from a list entry using the back button in the browser, they should be returned to the same place in the list where they left off.
-
-#### Content
-
-##### List count
-
-Optionally display the number of items that will load when selecting the Load more button. This gives the user an indication of the number of items that will load.
-
-##### Accessibility
-
-Add accessibility guidelines.
-
-<todo>Add infinite scroll loading type guidelines</todo>
-
-<todo>Add progress bar loading type guidelines</todo>
-
-<todo>Add spinner loading type guidelines</todo>
+- The 'Load more' button is present at the end of a list when there are more items to load.
+- Clicking the button loads more results inline and moves the button to the end of the list if there are more items that can be loaded.
+- The number of initial results, and results that load after clicking the button, can be adjusted to best present the results. For example, it could be better to load 20 more single line items, while only loading 10 more items that contain multiple elements and take more time to scan.
+- When a user returns to the list by using the back button in the browser, they should be returned to the same place in the list where they left off.
+- Loading more is a one-way action and _showing less_ is reserved for expand and collapse behavior, like an [accordion](/components/accordion).
