@@ -191,7 +191,7 @@ Figma will automatically update the history with:
 - Created branches
 - Branch updates from main
 
-It's also possible to manually [add a new version](https://help.figma.com/hc/en-us/articles/360038006754-View-a-file-s-version-history#Create_a_new_version) that includes a title and description. This can be done to intentionally create a version to track specific changes.
+It's also possible to manually [add a new version](https://help.figma.com/hc/en-us/articles/360038006754-View-a-file-s-version-history#Create_a_new_version) that includes a title and description. This can be done to intentionally create a version to track specific changes to a component or styles.
 
 ## Sharing or linking to changes
 
@@ -210,8 +210,6 @@ Not all updates will be desireable or immediately needed however, and some may e
 ## Plugins
 
 We don’t use plugins for critical actions or capabilities, to avoid making any part of the design process reliant on plugin updates or functionality. Rather, we believe that each user should determine which plugins to use for their own workflow.
-
-That being said, we have put together [a table of plugins][sketch-figma-plugins] we have used in Sketch, along with options in Figma.
 
 ## Code of conduct
 
@@ -252,7 +250,6 @@ version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](htt
 [gitlab-issue-tracker]: https://gitlab.com/gitlab-org/gitlab/issues
 [new-issue]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/new
 [pajamas]: https://design.gitlab.com/
-[sketch-figma-plugins]: https://gitlab.com/groups/gitlab-org/-/epics/2334#evaluate-sketchfigma-plugin-libraries
 [figma-maintainers]: https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com_maintainers_Figma
 [ui-kit-figma]: https://www.figma.com/community/file/781156790581391771
 [figma-branch]: https://www.figma.com/best-practices/branching-in-figma/
