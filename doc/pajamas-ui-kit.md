@@ -182,7 +182,7 @@ Figma library updates are published by a [Figma maintainer][figma-maintainers], 
 
 ## Changelog
 
-Changes to the UI kit files are documented in the [file history](https://help.figma.com/hc/en-us/articles/360038006754-View-a-file-s-version-history) and we're currently leveraging this as the changelog.
+Changes to the Pajamas UI Kit files are documented in the [file history](https://help.figma.com/hc/en-us/articles/360038006754-View-a-file-s-version-history) and we're currently leveraging this as the changelog.
 
 Figma will automatically update the history with:
 
