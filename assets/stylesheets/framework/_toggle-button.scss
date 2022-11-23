@@ -1,0 +1,19 @@
+.toggle-button {
+  background: none;
+  border: 0;
+  color: currentColor;
+  margin: 0;
+  padding: $gl-spacing-4;
+  @include hide-sm-up;
+
+  svg {
+    display: block;
+    fill: currentColor;
+  }
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    fill: $gray-950;
+  }
+}
