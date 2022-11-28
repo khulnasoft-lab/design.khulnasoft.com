@@ -6,12 +6,14 @@ related:
   - spinner
 ---
 
-A loading state or action provides a user with visiblity on what the system is doing, gives them a sense of control, and helps manage their expectations.
+A loading indicator, such as a [spinner](/components/spinner), provides users with feedback when an interface is in an indeterminate state as a result of their action, to help manage their expectations. A loading indicator can be used to indicate:
 
-Loading states and actions can:
+- Content is being loaded onto the page.
+- A backend process is occurring.
 
-- Indicate that content is loading on the page.
-- Indicate that a backend process is occurring.
+A loading action, such as a 'Load more' [button](/components/button), gives users a sense of control when fetching more items and is used to:
+
+- Indicate more items are available for the current list.
 - Prepare the user for what is about to happen.
 - Empower the user to choose when loading occurs.
 
@@ -31,7 +33,7 @@ In Pajamas, the following methods indicate and initiate loading:
 
 ## Loading more
 
-The _load more_ interaction is [a more accessible alternative](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/1196#results) to [infinite scroll](/components/infinite-scroll) by allowing a user to load more results by clicking a 'Load more' [button](/components/button). The button text can optionally include the number of items that will be loaded, for example, 'Load 20 more'.
+The _load more_ interaction is [a more accessible alternative](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/1196#results) to [infinite scroll](/components/infinite-scroll). It allows a user to load more results by clicking a 'Load more' [button](/components/button). The button text can optionally include the number of items that will be loaded, for example, 'Load 20 more'.
 
 The load more interaction can be used for a list or set of items:
 
@@ -43,7 +45,7 @@ The load more interaction can be used for a list or set of items:
 
 - The 'Load more' button is present at the end of a list when there are more items available.
 - Clicking the button loads more results inline and moves the button to the end of the list if there are more items that can be loaded.
-- After clicking the button, focus is placed on the next focusable element that has loaded.
-- The number of initial results, and results that load after clicking the button, can be adjusted to best present the results. For example, it could be better to load 20 more single line items, while only loading 10 more items that contain multiple elements and take more time to scan.
+- After clicking the button, the user's current position is maintained by moving focus to the first element appended to the current items.
+- The number of initial results, and results that load after clicking the button, is adjustable based on the scenario. For example, it could be better to load 20 more single-line items, versus loading only 10 more multi-line items that would take more time to scan.
 - When a user returns to the list by using the back button in the browser, they should be returned to the same place in the list where they left off.
-- Loading more is a one-way action and _showing less_ is reserved for expand and collapse behavior, like an [accordion](/components/accordion).
+- Loading more is a one-way action. If _showing less_ is necessary, the expand and collapse behavior would be a better fit, like an [accordion](/components/accordion).
