@@ -19,15 +19,11 @@ A loading action, such as a 'Load more' [button](/components/button), gives user
 
 In Pajamas, the following methods indicate and initiate loading:
 
-- [Infinite scrolling](#infinite-scrolling)
-- [Loading animations](#animated-loaders)
+- [Loading animation and placeholders](#loading-animation-and-placeholders)
 - [Loading more](#loading-more)
+- [Progressive loading](#progressive-loading)
 
-## Infinite scrolling
-
-<todo>Add [infinite scroll](/components/infinite-scroll) interaction guidelines.</todo>
-
-## Loading animations
+## Loading animation and placeholders
 
 <todo>Add details about the use of [skeleton loaders](/components/skeleton-loader) and [spinners](/components/spinner).</todo>
 
@@ -47,5 +43,8 @@ The load more interaction can be used for a list or set of items:
 - Clicking the button loads more results inline and moves the button to the end of the list if there are more items that can be loaded.
 - After clicking the button, the user's current position is maintained by moving focus to the first element appended to the current items.
 - The number of initial results, and results that load after clicking the button, is adjustable based on the scenario. For example, it could be better to load 20 more single-line items, versus loading only 10 more multi-line items that would take more time to scan.
-- When a user returns to the list by using the back button in the browser, they should be returned to the same place in the list where they left off.
 - Loading more is a one-way action. If _showing less_ is necessary, the expand and collapse behavior would be a better fit, like an [accordion](/components/accordion).
+
+## Progressive loading
+
+<todo>Add progressive loading interaction guidelines and address [infinite scroll](/components/infinite-scroll).</todo>
