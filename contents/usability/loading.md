@@ -39,7 +39,7 @@ The load more interaction can be used for a list or set of items:
 
 ### Behavior
 
-- The 'Load more' button is present at the end of a list when there are more items available.
+- The 'Load more' button is present at the end of a list when there are more items available. The button is centered within the container and uses the `default` variant and `small` size.
 - Clicking the button loads more results inline and moves the button to the end of the list if there are more items that can be loaded.
 - After clicking the button, the user's current position is maintained by moving focus to the first element appended to the current items.
 - The number of initial results, and results that load after clicking the button, is adjustable based on the scenario. For example, it could be better to load 20 more single-line items, versus loading only 10 more multi-line items that would take more time to scan.
