@@ -73,6 +73,7 @@ to the [feature management documentation](https://docs.gitlab.com/ee/policy/alph
 
 * Ensure there is a clear connection between the badge and the feature being highlighted. For example, place the badge next to the name of the feature.
 * When the feature is no longer Alpha or Beta, make sure the badge is removed.
+
 ## Visibility
 
 Feature visibility is dependent on the user's permissions and state of the user interface.
