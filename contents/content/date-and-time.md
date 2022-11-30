@@ -10,7 +10,11 @@ description: Dates and times clarify when an event occurred. The way they are fo
 The absolute format clarifies the precise date and time that something occurred.
 
 Absolute date and time information can be [localized](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat) to display a user's local date and time or follow the [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) format. See the [Guidelines](#Guidelines) section for more information about when dates should be localized, and when they should be shown in ISO 8601.
-  - Localized dates display should use [Mozilla time and date API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat). For year, we are using `numeric, ex: 2022`(default) or `2-digit, ex: 02`(when there is an limited space). For month, we always use `short, ex: Mar`(the API will auto-adjust to full if the language can't be shortened, such as Chinese).For date we are `2-digit, ex: 01`. For time zone we are using `shortOffset, ex: GMT-8`(default) or `long, ex: Pacific Standard Time`(when it is needed in the context). To avoid confusing, localized dates display should always display with date, month, year, and the year should be full, as `Jan 03, 2022`, it can be shortened to `Jan 03, 22` or `Jan 03` when space is tight. Always show the full date and time data, along with the timezone,`Jan 03, 2022, GMT-8`, in a tooltip if the date is shortened.
+  - Localized datel localized dates display should always display with date, month, year, and the year should be full, as `Jan 03, 2022`, it can be shortened to `Jan 03` when space is tight. Always show the full date and time data along with the timezone in a tooltip if the date is shortened such as,  `Jan 03, 2022, GMT-8`.
+   * For year, we are using `numeric, ex: 2022`(default) or `2-digit, ex: 02`(when there is an limited space). 
+   * For month, we always use `short, ex: Mar`(the API will auto-adjust to full if the language can't be shortened, such as Chinese).
+   * For date, we are `2-digit, ex: 01`. 
+   * For time zone, we are using `shortOffset, ex: GMT-8`(default) or `long, ex: Pacific Standard Time`(when it is needed in the context). 
   - ISO 8601 format is displayed `YYYY-MM-DD`. Time can also be appended to the end of the date if necessary as `HH:MM:SS`
 
 ### Relative format
