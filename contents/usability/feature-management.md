@@ -76,7 +76,7 @@ to the [feature management documentation](https://docs.gitlab.com/ee/policy/alph
 
 ## Visibility
 
-Feature visibility is dependent on the user's permissions and state of the user interface.
+Feature visibility is dependent on a user's permissions or subscription levels, and on which features they've chosen to enable.
 
 ### When to hide a feature
 
