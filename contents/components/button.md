@@ -129,6 +129,7 @@ States change visually and/or programmatically depending on user interaction or 
 - Only use icons from [GitLab's SVG library](http://gitlab-org.gitlab.io/gitlab-svgs/).
 - Icons use the default size (16×16px).
 - An icon can be used in place of text. In these cases, use a [tooltip](/components/tooltip) to provide context, unless the action may be universally understood, like a closing action using the [close icon](/product-foundations/iconography/icons?q=%7Eclose).
+- An icon-only button shouldn't be used to toggle different actions where the button persists, but the icon and action of the button change, since it can be tricky to determine if the icon represents current or future state as a result of the action. For example, a button that used the '[eye](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~eye)' icon that changes to '[eye-slash](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~eye-slash)' when clicked doesn't make it clear on its own whether or not it represents that an object is confidential or _will be_ as a result of clicking. This is different than an icon-only button with a [selected state](#states).
 
 #### Badges
 
