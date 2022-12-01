@@ -35,4 +35,27 @@ The [filter](/components/filter) component, alongside [tabs](/components/tabs), 
 | 4 | List of projects or groups | Tabs, search, dropdowns, sorting |
 | 5 | Lists of issues or merge requests | Tabs, filter, sorting |
 
-<todo>Add pattern and component placement guidelines.</todo>
+## Placement guidelines
+
+In data complexity levels where the filter component isn’t used (1-4), the search should be placed on the left, followed by dropdowns for filters, and the dropdown for sorting should be right-aligned. If tabs are used and search is placed below them, the search only conducts the search action for data in the selected tab. If user requires the ability to search through all data, a tab where all data is shown should be present, labeled with _All_ or _All {item-name-in-plural}_ (for example, _All projects_).
+
+<figure role="figure" aria-label="Tabs, search, filter, and sorting placement" class="figure">
+  <img src="/img/filtering-medium-complexity-placement-example.png" alt="Two tabs with search below on the left, dropdowns for fitlers to the right of search, and sorting dropdown right-aligned to the filters" role="img" class="figure-img">
+</figure>
+
+On mobile devices the filter and sort dropdowns get pushed below the search and are full width. The functionality of toggling the visibility of filters can be added to make the UI less overwhelming. A button with the filter icon and a label _Filters_ can be the trigger for this toggling. If filters are applied and then hidden, the button reflects the number of filters applied in a badge to the right of the button label. 
+
+<div class="row">
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="Tabs, search, filters, and sorting UI placement on mobile devices">
+      <img class="figure-img" src="/img/filtering-medium-complexity-placement-example--mobile.png" alt="Two tabs with search below, followed by filter and sort dropdowns each in new line" role="img" style="width:100%; max-width:332px; height:auto" />
+      <figcaption class="figure-caption">Tabs, search, filters, and sorting placement on mobile devices</figcaption>
+    </figure>
+  </div>
+  <div class="col col-50">
+    <figure class="figure" role="figure" aria-label="Tabs, search, filters, and sorting UI placement on mobile devices">
+      <img class="figure-img" src="/img/filtering-medium-complexity-placement-example--mobile--filters-hidden.png" alt="Two tabs with search below and a filters button to the right of it" role="img" style="width:100%; max-width:332px; height:auto" />
+      <figcaption class="figure-caption">Example of the button for toggling the visibility of filters</figcaption>
+    </figure>
+  </div>
+</div>
