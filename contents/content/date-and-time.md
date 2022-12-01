@@ -14,7 +14,7 @@ Absolute date and time information can be [localized](https://developer.mozilla.
    * We use the `numeric` value of the `year` parameter to display the year in full (for example: 2022). The `2-digit` value can be used instead if there is limited space (which displays the shortened version of the year, for example: 22).
    * For the month parameter, we always use the `short` value. For example: Mar. Note that the API will auto-adjust to `full` if the language can't be shortened.
    * For the `day` parameter, we use the `2-digit` value. For example: 01. 
-   * For time zone, we are using `shortOffset, ex: GMT-8`(default) or `long, ex: Pacific Standard Time`(when it is needed in the context). 
+   * For `timeZoneName`, we are using either `shortOffset` (example: GMT-8) or `long` (example: Pacific Standard Time), depending on what is needed to make the time zone clear, in context. 
   - ISO 8601 format is displayed `YYYY-MM-DD`. Time can also be appended to the end of the date if necessary as `HH:MM:SS`
 
 ### Relative format
