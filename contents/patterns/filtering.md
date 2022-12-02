@@ -13,7 +13,7 @@ related:
 - If the user is looking for a specific item, the search component should be used. For example, trying to find a particular group member by name, surname, or username.
 - If the user is looking to narrow down a list of items based on specific parameters (single or multiple values), the filter component or filtering patterns should be used. For example, narrowing down a list of issues for a particular team member and milestone.
 
-The filter component is flexible but complex and should be used for filtering data of highest complexity (for example, a list of issues or merge requests). Consider using other filtering patterns for data that is less complex (for example, a list of users). Consult the table below when deciding whether search or filtering should be used. Then consult the [Data complexity and filtering patterns](#data-complexity-and-filtering-patterns) section to decide wheter the filter component or filtering patterns should be used.
+The filter component is flexible but complex and should be used for filtering data of highest complexity which can be filtered by numerous parameters (for example, a list of issues or merge requests). Consider using other filtering patterns for data that is less complex (for example, a list of users). Consult the table below when deciding whether search or filtering should be used. Then consult the [Data complexity and filtering patterns](#data-complexity-and-filtering-patterns) section to decide wheter the filter component or filtering patterns should be used.
 
 | User intent | Component/Pattern |
 |---------------|------------------|
@@ -37,10 +37,20 @@ The [filter](/components/filter) component, alongside [tabs](/components/tabs), 
 
 ## Placement guidelines
 
-In data complexity levels where the filter component isn’t used (1-4), the search should be placed on the left, followed by dropdowns for filters, and the dropdown for sorting should be right-aligned. If tabs are used and search is placed below them, the search only conducts the search action for data in the selected tab. If user requires the ability to search through all data, a tab where all data is shown should be present, labeled with _All_ or _All {item-name-in-plural}_ (for example, _All projects_).
+In data complexity levels where the filter component isn’t used (1-4), the search should be placed on the left, followed by dropdowns for filters, and the dropdown for sorting should be inline but right-aligned. If tabs are used and search is placed below them, the search only conducts the search action for data in the selected tab. If user requires the ability to search through all data, a tab where all data is shown should be present, labeled with _All_ or _All {item-name-in-plural}_ (for example, _All issues_). When tabs are used, it is recommended to use a top-level predefined range and not a dynamically generated range after a raw text search has been performed. The recommended number of filter dropdowns is 3-5, when more are required consider using the filter component or the [filter builder](#filter-builder).
+
+### Selecting filters with dropdowns
+
+This pattern is recommended for cases when a single filter can be selected with each filter dropdown. For example, a list of issues can only be filtered by one assignee.
 
 <figure role="figure" aria-label="Tabs, search, filter, and sorting placement" class="figure">
   <img src="/img/filtering-medium-complexity-placement-example.png" alt="Two tabs with search below on the left, dropdowns for fitlers to the right of search, and sorting dropdown right-aligned to the filters" role="img" class="figure-img">
+</figure>
+
+If more dropdowns for filters are required they can be pushed into a separate row with a border between the search and the filters. The sorting dropdown is inline but to the right of the filter dropdowns, the search remains limited in width.
+
+<figure role="figure" aria-label="Tabs, search, filter, and sorting placement when filter dropdowns are in their own row" class="figure">
+  <img src="/img/5-filters-in-new-line.png" alt="Two tabs with search below on the left, dropdowns for fitlers below in its own row, and sorting dropdown right-aligned to the filters" role="img" class="figure-img">
 </figure>
 
 On mobile devices the filter and sort dropdowns get pushed below the search and are full width. The functionality of toggling the visibility of filters can be added to make the UI less overwhelming. A button with the filter icon and a label _Filters_ can be the trigger for this toggling. If filters are applied and then hidden, the button reflects the number of filters applied in a badge to the right of the button label. 
@@ -59,3 +69,13 @@ On mobile devices the filter and sort dropdowns get pushed below the search and 
     </figure>
   </div>
 </div>
+
+### Adding filters with dropdowns
+
+This pattern is recommended for cases when a multiple filters can be added with each filter dropdown. For example, a list of issues can be filtered by multiple assignees.
+
+<todo>Add pattern and guidelines for adding multiple filters with dropdowns.</todo>
+
+## Filter builder
+
+<todo>Add filter builder pattern and guidelines.</todo>
