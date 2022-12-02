@@ -1,0 +1,21 @@
+/* -------------------------------------------------------
+GitLab Sans variable font.
+*/
+@font-face {
+  font-family: 'GitLab Sans';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular'; /* stylelint-disable property-no-unknown */
+  src: url('~@gitlab/fonts/gitlab-sans/GitLabSans.woff2') format('woff2');
+}
+
+/* -------------------------------------------------------
+Monospaced font: JetBrains Mono.
+*/
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-display: swap;
+  font-style: normal;
+  src: url('~@gitlab/fonts/jetbrains-mono/JetBrainsMono.woff2') format('woff2');
+}
