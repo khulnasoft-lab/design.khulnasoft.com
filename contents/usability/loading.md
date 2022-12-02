@@ -6,10 +6,10 @@ related:
   - spinner
 ---
 
-A loading indicator, such as a [spinner](/components/spinner), provides users with feedback when an interface is in an indeterminate state as a result of their action, to help manage their expectations. A loading indicator can be used to indicate:
+A loading indicator, such as a [spinner](/components/spinner), provides users with feedback when an interface is in an indeterminate state as a result of their action, to help manage their expectations. A loading indicator can be used to communicate:
 
 - Content is being loaded onto the page.
-- A backend process is occurring.
+- A background process is occurring.
 
 A loading action, such as a 'Load more' [button](/components/button), gives users a sense of control when fetching more items and is used to:
 
@@ -29,9 +29,9 @@ In Pajamas, the following methods indicate and initiate loading:
 
 ## Loading more
 
-The _load more_ interaction is [a more accessible alternative](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/1196#results) to [infinite scroll](/components/infinite-scroll). It allows a user to load more results by clicking a 'Load more' [button](/components/button). The button text can optionally include the number of items that will be loaded, for example, 'Load 20 more'.
+The load more interaction is [a more accessible alternative](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/1196#results) to [infinite scroll](/components/infinite-scroll). It allows a user to load more results by clicking a 'Load more' [button](/components/button). The button text can optionally include the number of items that will be loaded, for example, 'Load 20 more'.
 
-The load more interaction can be used for a list or set of items:
+The load more interaction can be used for a set of similar items:
 
 - With content that updates frequently.
 - Without sort or filter functionality.
@@ -39,7 +39,7 @@ The load more interaction can be used for a list or set of items:
 
 ### Behavior
 
-- The 'Load more' button is present at the end of a list when there are more items available. The button is centered within the container and uses the `default` variant and `small` size.
+- The 'Load more' button is present at the end of a list only when there are more items available. The button is centered within the container and uses the `default` variant and `small` size.
 - Clicking the button loads more results inline and moves the button to the end of the list if there are more items that can be loaded.
 - After clicking the button, the user's current position is maintained by moving focus to the first element appended to the current items.
 - The number of initial results, and results that load after clicking the button, is adjustable based on the scenario. For example, it could be better to load 20 more single-line items, versus loading only 10 more multi-line items that would take more time to scan.
