@@ -28,7 +28,7 @@ When using the relative format, always display the absolute time in a tooltip fo
 ### Which format to use when
 
 - Display date and time information in the absolute format unless [users specify they want to use relative formatting](https://docs.gitlab.com/ee/user/profile/preferences.html#use-relative-times) instead.
-- If it's possible to detect the browser settings, display the localized time, for example `Jan 03, 2021`. Otherwise, fall back to displaying the date in ISO 8601: `YYYY-MM-DD` (time is optionally appended after the date, `HH:MM:SS`).
+- If it's possible to detect the browser settings, display the localized time, for example, Jan 03, 2021. Otherwise, fall back to displaying the date in ISO 8601: YYYY-MM-DD (time is optionally appended after the date, HH:MM:SS).
 
 <figure class="figure" role="figure" aria-label="Date picker structure">
   <img class="figure-img" src="/img/date-time-format-flow-chart.svg" alt="Flow chart date and time format decision tree; read the guidelines to learn how to use absolute and relative time and date." role="img" />
