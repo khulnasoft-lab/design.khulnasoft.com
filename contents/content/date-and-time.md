@@ -11,7 +11,7 @@ The absolute format clarifies the precise date and time that something occurred.
 
 Absolute date and time information can be [localized](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat) to display a user's local date and time or follow the [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) format. See the [Guidelines](#Guidelines) section for more information about when dates should be localized, and when they should be shown in ISO 8601.
   - Localized dates display the day, month, and full year by default (for example: Jan 03, 2022). The date can be shortened to the day and month when space is tight (Jan 03). If the date is shortened, always show the full date and time data in a tooltip, along with the timezone (Jan 03, 2022, GMT-8).
-   * We use the `numeric` value of the `year` parameter to display the year in full (for example: 2022). The `2-digit` value can be used instead if there is limited space which displays the shortened version of the year (22).
+   * We use the `numeric` value of the `year` parameter to display the year in full (for example: 2022). The `2-digit` value can be used instead if there is limited space, which displays the shortened version of the year (22).
    * For the `month` parameter, we always use the `short` value (for example: Mar). Note that the API will auto-adjust to `full` if the language can't be shortened.
    * For the `day` parameter, we use the `2-digit` value. (For example: 01)
    * For `timeZoneName`, we use either `shortOffset` (for example: GMT-8) or `long` (for example: Pacific Standard Time), depending on what is needed to make the time zone clear in context. 
