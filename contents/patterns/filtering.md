@@ -53,7 +53,7 @@ If more dropdowns for filters are required they can be pushed into a separate ro
   <img src="/img/5-filters-in-new-line.png" alt="Two tabs with search below on the left, dropdowns for fitlers below in its own row, and sorting dropdown right-aligned to the filters" role="img" class="figure-img">
 </figure>
 
-On mobile devices the filter and sort dropdowns get pushed below the search and are full width. The functionality of toggling the visibility of filters can be added to make the UI less overwhelming. A button with the filter icon and a label _Filters_ can be the trigger for this toggling. If filters are applied and then hidden, the button reflects the number of filters applied in a badge to the right of the button label. 
+On small screens the filter and sort dropdowns get pushed below the search and are full width. The functionality of toggling the visibility of filters can be added to make the UI less overwhelming. A button with the filter icon and a label _Filters_ can be the trigger for this toggling. If filters are applied and then hidden, the button reflects the number of filters applied in a badge to the right of the button label. 
 
 <div class="row">
   <div class="col col-50">
