@@ -28,11 +28,11 @@ If a destructive action is difficult to undo or data will be lost permanently, s
 
 ### Medium severity
 
-Destructive actions can introduce annoyance to a user when performed unintentionally. Recovering from these actions are difficult and can have an emotional impact. Consider assisting a user with an additional step to prevent accidentally clicking an action. A real example would be to put this action within a dropdown requiring a minimum of two clicks.
+Destructive actions may be frustrating to a user when performed unintentionally. Recovering from these actions is difficult and can have an emotional impact. Consider introducing an additional step to prevent a user from accidentally completing a medium-severity destructive action. For example, put the action within a dropdown requiring a minimum of two clicks to complete it.
 
 ### Low severity
 
-The destructive action can easily be undone and no actual data was lost. Consider adding no friction at all in order to streamline the interface, especially in places where the action needs to be performed in bulk. These kinds of destructive actions can be exempt of using the [danger](/components/button#variants) variant and instead use the [default](/components/button#variants) variant.
+The destructive action can easily be undone and no actual data is lost. Consider adding no friction at all in order to streamline the interface, especially in places where an action needs to be performed in bulk. These kinds of destructive actions can be exempt of using the [danger](/components/button#variants) button variant and use the [default](/components/button#variants) variant instead.
 
 ## References
 
