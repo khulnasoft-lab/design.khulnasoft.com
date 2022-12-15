@@ -3,13 +3,37 @@
   border-radius: $border-radius;
   color: currentColor;
   display: flex;
-  font-weight: $font-weight--bold;
-  gap: $gl-spacing-2;
+  gap: $gl-spacing-3;
   padding: $gl-spacing-3;
+
+  strong {
+    font-size: 18px;
+    font-weight: $font-weight--bold;
+  }
+
+  small {
+    color: $gray-500;
+    display: none;
+    font-size: 12px;
+    margin-top: 2px;
+  }
 
   &:hover,
   &:focus {
     background-color: $gray-50;
     text-decoration: none;
+  }
+
+  @include media-sm-up {
+    align-items: start;
+
+    img {
+      height: 2rem;
+      width: auto;
+    }
+
+    small {
+      display: block;
+    }
   }
 }

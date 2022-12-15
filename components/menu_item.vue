@@ -27,6 +27,9 @@ export default {
     },
   },
   computed: {
+    depthClass() {
+      return `sidebar__nav--depth-${this.depth}`;
+    },
     hasChildren() {
       return this.item.children?.length;
     },
@@ -88,7 +91,7 @@ export default {
         <svg-icon icon="chevron-down" />
       </span>
     </button>
-    <ul v-show="isExpanded" :id="itemId" :aria-label="item.title" class="gl-ml-4!">
+    <ul v-show="isExpanded" :id="itemId" :aria-label="item.title" :class="depthClass">
       <menu-item
         v-for="child in item.children"
         :key="child.id"

@@ -60,7 +60,7 @@ exports[`sidebar component renders sidebar properly 1`] = `
            
           <ul
             aria-label="Second-level item 2"
-            class="gl-ml-4!"
+            class="sidebar__nav--depth-1"
             id="item-second2"
             style="display: none;"
           >
@@ -127,7 +127,7 @@ exports[`sidebar component renders sidebar properly 1`] = `
            
           <ul
             aria-label="Second-level item without path"
-            class="gl-ml-4!"
+            class="sidebar__nav--depth-1"
             id="item-undefined"
             style="display: none;"
           >
