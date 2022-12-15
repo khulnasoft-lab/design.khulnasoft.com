@@ -63,7 +63,7 @@
   border-radius: $border-radius;
   color: $gray-900;
   display: block;
-  padding: $gl-spacing-3;
+  padding: $gl-spacing-3 $gl-spacing-3 $gl-spacing-3 $gl-spacing-4;
 
   &:hover,
   &:focus {
