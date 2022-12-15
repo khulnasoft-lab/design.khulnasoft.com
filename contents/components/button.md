@@ -238,7 +238,7 @@ A dropdown button triggers an option menu.
 
 ### Ellipsis
 
-An ellipsis button is a specifc kind of icon-only button that allows for expanding content inline. It can be used when content is hidden for the purpose of not overloading the user or because of initial space constraints.
+An ellipsis button is a specific kind of icon-only button that allows for expanding content inline. It can be used when content is hidden for the purpose of not overloading the user or because of initial space constraints.
 
 ### Group
 
