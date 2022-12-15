@@ -187,7 +187,9 @@ sast:
     - gitlab-org-docker
 
 semgrep-sast:
-  before_script: "echo \"SAST_EXPERIMENTAL_FEATURES ${SAST_EXPERIMENTAL_FEATURES}\""
+  before_script: "echo \"SAST_EXPERIMENTAL_FEATURES: '${SAST_EXPERIMENTAL_FEATURES}'\""
+  variables:
+    SECURE_LOG_LEVEL: 'debug'
 
 check_links:
   image: node:16
