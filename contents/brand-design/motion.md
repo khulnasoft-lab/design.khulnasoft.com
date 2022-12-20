@@ -13,8 +13,10 @@ Video producers can create large-scale, custom illustrations as part of a video 
 - Each layer can have its own unique motion type which combine to create harmony.
 - Strokes and lines are animated independently with a stroke reveal effect.
 
+<todo>Add motion sample of illustration animation.</todo>
+
 <figure class="figure" role="figure" aria-label="Illustration animation example">
-  <img class="figure-img gl-p-5" src="/img/brand/illustration-animation-example.png" alt="Illustration animation example" role="img" />
+  <img class="figure-img gl-p-5" src="/img/brand/illustration-animation-example.png" alt="Illustration animation example with motion details" role="img" />
   <figcaption class="figure-caption">Illustration animation example</figcaption>
 </figure>
 
@@ -23,7 +25,7 @@ Video producers can create large-scale, custom illustrations as part of a video 
 Both interactive and expressive motion come with unique parameters to create scalable consistency in their use.
 
 <figure class="figure" role="figure" aria-label="Illustration easing example">
-  <img class="figure-img gl-p-5 img-50" src="/img/brand/illustration-easing-specs.svg" alt="Illustration easing example" role="img" />
+  <img class="figure-img gl-p-5 img-50" src="/img/brand/illustration-easing-specs.svg" alt="Illustration easing example with After Effects specs" role="img" />
   <figcaption class="figure-caption">Illustration easing example</figcaption>
 </figure>
 
@@ -46,7 +48,7 @@ Both interactive and expressive motion come with unique parameters to create sca
 
 Voice over example: “No more stitching point solutions. All you need is GitLab.”
 
-<todo>Add dot animation example.</todo>
+<todo>Add dot animation motion sample.</todo>
 
 ## Frame composition
 
@@ -57,7 +59,7 @@ Voice over example: “No more stitching point solutions. All you need is GitLab
 
 **Motion sample:** The text above is in section 1-2 while iconography occupies space in sections 2-2 and 2-3.
 
-<todo>Add frame composition example that demonstrates the frame grid and movement within different sections.</todo>
+<todo>Add frame composition motion sample that demonstrates the frame grid and movement within different sections.</todo>
 
 ## Tanuki + DevOps loop
 
@@ -84,7 +86,7 @@ Voice over example: “No more stitching point solutions. All you need is GitLab
 [Download the gradient file](https://drive.google.com/file/d/13PPVVsDp6ySALH-14pQrzcDXYWD6qRwU/view) 
 
 <figure class="figure" role="figure" aria-label="Gradient example">
-  <img class="figure-img gl-p-5" src="/img/brand/gradient-1.png" alt="Gradient example" role="img" />
+  <img class="figure-img gl-p-5" src="/img/brand/gradient-1.png" alt="Soft gradient example" role="img" />
   <figcaption class="figure-caption">Gradient example</figcaption>
 </figure>
 
@@ -95,7 +97,7 @@ Voice over example: “No more stitching point solutions. All you need is GitLab
 - Animate turbulent displacement evolution to create subtle animation.
 
 <figure class="figure" role="figure" aria-label="Gradient example">
-  <img class="figure-img gl-p-5" src="/img/brand/gradient-2.png" alt="Gradient example" role="img" />
+  <img class="figure-img gl-p-5" src="/img/brand/gradient-2.png" alt="Organic gradient example" role="img" />
   <figcaption class="figure-caption">Gradient example</figcaption>
 </figure>
 
@@ -105,15 +107,17 @@ Voice over example: “No more stitching point solutions. All you need is GitLab
 - The gradient can be used on keywords, whole phrases, and text repetitions.
 - The text masks out the gradient.
 
-<figure class="figure" role="figure" aria-label="Gradient type example">
-  <img class="figure-img gl-p-5" src="/img/brand/gradient-type.png" alt="Gradient type example" role="img" />
-  <figcaption class="figure-caption">Gradient type example</figcaption>
+<figure class="figure" role="figure" aria-label="Gradient text example">
+  <img class="figure-img gl-p-5" src="/img/brand/gradient-type.png" alt="Gradient on text example" role="img" />
+  <figcaption class="figure-caption">Gradient text example</figcaption>
 </figure>
 
 ### Incorrect use of gradients
 
 - Be careful not to go too heavy with one particular color.
 - Don't overuse motion with gradients; keep movement subtle.
+
+<todo>Add motion sample of incorrect gradients.</todo>
 
 ## Typographic animations
 
@@ -122,12 +126,15 @@ Voice over example: “No more stitching point solutions. All you need is GitLab
 - Use quick snap edits in typographic animations to elicit excitement and draw attention to specific words.
 - Use in lieu of any large-scale drifts, move ins, zooms, etc.
 
+<todo>Add simple snap and complex snap motion samples.</todo>
+
 ### Motion and scaling
 
 - Use **subtle drifts** to maintain movement and avoid dead frames when a more subdued treatment is required.
 - Use for moments of pause to let words sink in.
 - Drifts utilize a 2-5% scale or position change.
 
+<todo>Add position drift and scale drift motion samples.</todo>
 <todo>Add figure and text with detailed specs.</todo>
 
 ### Outline reveals
@@ -142,8 +149,10 @@ The example below uses the following steps:
 1. The stroke begins to animate as “innovation” moves to meet the other words.
 1. Once in place the opacity transitions from 30% to 100%.
 
+<todo>Add outline reveal motion samples.</todo>
+
 <figure class="figure" role="figure" aria-label="Outline reveals example">
-  <img class="figure-img gl-p-5" src="/img/brand/outline-reveal-tech-spec.png" alt="Outline reveals example" role="img" />
+  <img class="figure-img gl-p-5" src="/img/brand/outline-reveal-tech-spec.png" alt="Outline reveals on text example" role="img" />
   <figcaption class="figure-caption">Outline reveals example</figcaption>
 </figure>
 
@@ -153,11 +162,12 @@ The example below uses the following steps:
 - Slide the text lines upward into position behind masks one line at a time, transitioning opacity from 0-100 using our interactive ease.
 
 <figure class="figure" role="figure" aria-label="Type repetitions">
-  <img class="figure-img gl-p-5" src="/img/brand/type-repetitions-motion.svg" alt="Type repetitions" role="img" />
+  <img class="figure-img gl-p-5" src="/img/brand/type-repetitions-motion.svg" alt="Type repetition with breakdown specs" role="img" />
   <figcaption class="figure-caption">Type repetitions</figcaption>
 </figure>
 
 <todo>Add reference for _interactive ease_.</todo>
+<todo>Add type repetition motion sample.</todo>
 
 ## Transitions
 
@@ -167,6 +177,7 @@ The example below uses the following steps:
 - The tanuki should never be used as a transition mask. Use only the loop itself.
 
 <todo>Add a reference for the _DevOps loop transition_.</todo>
+<todo>Add motion sample.</todo>
 
 ### DevOps loop sections as mask
 
@@ -174,6 +185,8 @@ The example below uses the following steps:
 - DevOps loop transitions can be colorful and utilize solid colors as well as gradients.
 
 **Note:** The orange in the motion sample is only used to differentiate the sections.
+
+<todo>Add motion sample.</todo>
 
 ## Lower thirds
 
@@ -185,7 +198,9 @@ The example below uses the following steps:
   - Lower third remains onscreen for 4-5 seconds. 
   - **Transition out:** Animate opacity from 100% to 0% over 1 second.
 
+  <todo>Add motion sample.</todo>
+
 <figure class="figure" role="figure" aria-label="Lower thirds example">
-  <img class="figure-img gl-p-5" src="/img/brand/lower-thirds.png" alt="Lower thirds example" role="img" />
+  <img class="figure-img gl-p-5" src="/img/brand/lower-thirds.png" alt="Lower thirds motion example with specs" role="img" />
   <figcaption class="figure-caption">Lower thirds example</figcaption>
 </figure>
