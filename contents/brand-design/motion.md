@@ -13,12 +13,12 @@ Video producers can create large-scale, custom illustrations as part of a video 
 - Each layer can have its own unique motion type which combine to create harmony.
 - Strokes and lines are animated independently with a stroke reveal effect.
 
-<todo>Add motion sample of illustration animation.</todo>
-
 <figure class="figure" role="figure" aria-label="Illustration animation example">
   <img class="figure-img gl-p-5" src="/img/brand/illustration-animation-example.png" alt="Illustration animation example with motion details" role="img" />
   <figcaption class="figure-caption">Illustration animation example</figcaption>
 </figure>
+
+<todo>Add motion sample of illustration animation.</todo>
 
 #### Easing
 
@@ -149,12 +149,12 @@ The example below uses the following steps:
 1. The stroke begins to animate as “innovation” moves to meet the other words.
 1. Once in place the opacity transitions from 30% to 100%.
 
-<todo>Add outline reveal motion samples.</todo>
-
 <figure class="figure" role="figure" aria-label="Outline reveals example">
   <img class="figure-img gl-p-5" src="/img/brand/outline-reveal-tech-spec.png" alt="Outline reveals on text example" role="img" />
   <figcaption class="figure-caption">Outline reveals example</figcaption>
 </figure>
+
+<todo>Add outline reveal motion samples.</todo>
 
 ### Type repetitions
 
@@ -198,9 +198,9 @@ The example below uses the following steps:
   - Lower third remains onscreen for 4-5 seconds. 
   - **Transition out:** Animate opacity from 100% to 0% over 1 second.
 
-  <todo>Add motion sample.</todo>
-
 <figure class="figure" role="figure" aria-label="Lower thirds example">
   <img class="figure-img gl-p-5" src="/img/brand/lower-thirds.png" alt="Lower thirds motion example with specs" role="img" />
   <figcaption class="figure-caption">Lower thirds example</figcaption>
 </figure>
+
+<todo>Add motion sample.</todo>
