@@ -48,19 +48,6 @@ export class NavTree {
   }
 
   /**
-   * Toggles a node's state.
-   *
-   * @param {Node} node
-   */
-  // eslint-disable-next-line class-methods-use-this
-  toggleNode(node) {
-    if (!node.isActive) {
-      return node.activate();
-    }
-    return node.deactivate();
-  }
-
-  /**
    * Attempts to find the node that matches a list of paths.
    * Since, multiple nodes could have the same path, we also check all of the matching node's
    * parents to make sure the whole branch matches the paths list.

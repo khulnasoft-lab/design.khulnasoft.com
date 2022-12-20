@@ -84,7 +84,7 @@ export default {
       :class="{ 'sidebar__nav-toggle--expanded': isExpanded }"
       :aria-expanded="isExpanded"
       :aria-controls="itemId"
-      @click.prevent="navTree.toggleNode(item)"
+      @click.prevent="item.toggle()"
     >
       <span class="sidebar__nav-toggle-inner">
         <span>{{ item.title }}</span>
