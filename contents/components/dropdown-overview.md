@@ -8,7 +8,7 @@ Read on to learn the differences, or go directly to the [disclosure widget](/com
 
 ## Disclosure
 
-A [disclosure widget](/components/dropdown-disclosure) is a type of dropdown that includes a button that opens a panel of links or actions. Think _a user needs to do something or go somewhere_ when you consider a disclosure. A disclosure is more forgiving than a combobox semantically, since nearly any element can be a child of the expanded panel.
+A [disclosure widget](/components/dropdown-disclosure) is a type of dropdown that includes a button that opens a panel of links or actions. Think _a user needs to do something or go somewhere_ when you consider a disclosure. A disclosure is more forgiving than a combobox semantically, since nearly any element can be a child of the expanded panel. It also includes an optional header to provide more context fort the panel content.
 
 ## Combobox
 
