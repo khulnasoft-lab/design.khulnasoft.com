@@ -14,11 +14,25 @@ A [disclosure widget](/components/dropdown-disclosure) is a type of dropdown tha
 
 A [combobox](/components/dropdown-combobox) is a type of dropdown that includes a panel of options typically opened by a button or text input. Think _a user needs to select an option_ when you consider a combobox. A combobox is the more complex of the two and includes two different implementations, `GlCollapsibleListbox` and `GlFormCombobox`. In addition to the listbox of options with particular semantics, a combobox includes the following optional features: header, section titles, and a fixed footer with related actions.
 
-<todo>Add decision tree for selecting different dropdowns and variants.</todo>
+## Which component should you use?
+
+```mermaid
+graph TD;
+  A[Is the user performing an action/workflow or<br>choosing one or more static options?] --> |Action or workflow|B[Disclosure];
+  A --> |Static option|C[Combobox];
+  B --> D[Has GlDisclosure been implemented?<br>See gitlab-ui#1632];
+  D --> |Yes|F[Use GlDisclosure];
+  D --> |No|G[Use GlDropdown for now];
+  C --> E[Does the user need to be able to<br>enter a custom item string?];
+  E --> |Yes|H[Does GlFormCombobox support<br>the required features? See &8901];
+  E --> |No|I[Use GlCollapsibleListBox];
+  H --> |Yes|J[Use GlCollapsibleListBox];
+  H --> |No|K[This probably can't be implemented<br>or migrated yet];
+```
 
 ## Related
 
 - A menu (`role="menu"`) is a particular type of dropdown that should only be used for app-like JavaScript actions or functions, like replicating a dropdown in an application. Menus aren't currently used in GitLab since many dropdowns that would include JavaScript actions also include links, making the disclosure a more ideal option.
 - The [tooltip](/components/tooltip) and [popover](/components/popover) components share similar interactions with a disclosure and combobox, however their primary use is to provide contextual information and by default don't _drop down_ in the same fashion, making this category less intuitive.
-- An [accordion](/components/accordion) is a disclosure widget, but since the end goal is showing and hiding content with a different behavior, it is a separate type of component with a different purpose.
+- An [accordion](/components/accordion) is a disclosure widget, but since the end goal is showing and hiding content with a different behavior, it is a separate component with a different purpose.
 - A [select](/components/select) (`<select>`) has the closest relationship to the disclosure and combobox, however it's use is limited to the context of a form as much as possible.
