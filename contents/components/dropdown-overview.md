@@ -2,7 +2,7 @@
 name: Dropdown overview
 ---
 
-In general terms, a "dropdown" is a combination of a trigger that opens a panel. A dropdown can mean many things while not being specific to any particular implementation. For that reason we've specified two different components and included variants where necessary. While the UI is nearly identical for each, there are important considerations related to a user's task and underlying semantics.
+In general terms, a "dropdown" is a combination of a trigger that opens a panel. A dropdown can mean many things while not being specific to any particular implementation. For that reason we've specified two distinct components and included variants where necessary. While the UI is nearly identical for each, there are important considerations related to a user's task and underlying semantics.
 
 Read on to learn the differences, or go directly to the [disclosure widget](/components/dropdown-disclosure) and [combobox](/components/dropdown-combobox) component pages for specifics.
 
