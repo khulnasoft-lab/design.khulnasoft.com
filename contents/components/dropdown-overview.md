@@ -26,7 +26,7 @@ graph TD;
   C --> E[Does the user need to be able to<br>enter a custom item string?];
   E --> |Yes|H[Does GlFormCombobox support<br>the required features? See &8901];
   E --> |No|I[Use GlCollapsibleListBox];
-  H --> |Yes|J[Use GlCollapsibleListBox];
+  H --> |Yes|J[Use GlFormCombobox];
   H --> |No|K[This probably can't be implemented<br>or migrated yet];
 ```
 
