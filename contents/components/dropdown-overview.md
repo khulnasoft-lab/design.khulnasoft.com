@@ -18,16 +18,14 @@ A [combobox](/components/dropdown-combobox) is a type of dropdown that includes 
 
 ```mermaid
 graph TD;
-  A[Is the user performing an action/workflow or<br>choosing one or more static options?] --> |Action or workflow|B[Disclosure];
-  A --> |Static option|C[Combobox];
-  B --> D[Has GlDisclosure been implemented?<br>See gitlab-ui#1632];
-  D --> |Yes|F[Use GlDisclosure];
-  D --> |No|G[Use GlDropdown for now];
-  C --> E[Does the user need to be able to<br>enter a custom item string?];
-  E --> |Yes|H[Does GlFormCombobox support<br>the required features? See &8901];
-  E --> |No|I[Use GlCollapsibleListBox];
-  H --> |Yes|J[Use GlFormCombobox];
-  H --> |No|K[This probably can't be implemented<br>or migrated yet];
+  A[Is the user performing an action/workflow or<br>choosing one or more static options?] --> |Action or workflow|B[Has GlDisclosure been implemented?<br>See gitlab-ui#1632];
+  A --> |Static option|C[Does the user need to be able to<br>enter a custom item string?];
+  B --> |Yes|F[Use GlDisclosure];
+  B --> |No|G[Use GlDropdown for now];
+  C --> |Yes|D[Does GlFormCombobox support<br>the required features? See &8901];
+  C --> |No|E[Use GlCollapsibleListBox];
+  D --> |Yes|H[Use GlFormCombobox];
+  D --> |No|I[This probably can't be implemented<br>or migrated yet];
 ```
 
 ## Related
