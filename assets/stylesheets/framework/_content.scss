@@ -137,9 +137,7 @@
 .figure {
   border-radius: $border-radius;
   display: block;
-  margin: 0;
-  // Using padding instead of margin because of the .md styles
-  padding-bottom: $gl-spacing-7;
+  margin: $gl-spacing-7 auto;
   text-align: center;
 
   &--dark {
