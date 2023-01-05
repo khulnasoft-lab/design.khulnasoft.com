@@ -30,6 +30,9 @@ export default {
     altText() {
       return this.alt || this.label;
     },
+    hasCaptionSlot() {
+      return Boolean(this.$scopedSlots.caption);
+    },
     style() {
       return this.width ? `max-width:${this.width}px` : '';
     },
@@ -51,6 +54,9 @@ export default {
       role="img"
       :style="style"
     />
-    <figcaption class="figure-caption">{{ label }}</figcaption>
+    <figcaption class="figure-caption">
+      <template v-if="!hasCaptionSlot">{{ label }}</template>
+      <slot name="caption"></slot>
+    </figcaption>
   </figure>
 </template>
