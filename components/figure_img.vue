@@ -1,11 +1,15 @@
 <script>
 export default {
-  inheritAttrs: false,
   props: {
     alt: {
       type: String,
       required: false,
       default: '',
+    },
+    dark: {
+      type: Boolean,
+      default: false,
+      required: false,
     },
     label: {
       type: String,
@@ -13,7 +17,8 @@ export default {
     },
     src: {
       type: String,
-      required: true,
+      default: '',
+      required: false,
     },
     width: {
       type: Number,
@@ -44,16 +49,13 @@ export default {
   <figure
     :aria-label="label"
     class="figure"
+    :class="{
+      'figure--dark': dark,
+    }"
     role="figure"
   >
-    <img
-      v-bind="$attrs"
-      class="figure-img"
-      :src="src"
-      :alt="altText"
-      role="img"
-      :style="style"
-    />
+    <slot></slot>
+    <img v-if="src" class="figure-img" :src="src" :alt="altText" role="img" :style="style" />
     <figcaption class="figure-caption">
       <template v-if="!hasCaptionSlot">{{ label }}</template>
       <slot name="caption"></slot>
