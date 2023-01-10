@@ -30,15 +30,28 @@ related:
 
 - If you are performing an action, like saving, consider using a [button](/components/button) element instead.
 
+### Categories
+
+There are four categories for links in GitLab:
+
+1. **Navigation** - Although all links are navigation, this specifically refers to the ones that persist from page to page and guide users through the application. In this regard, [navigation](/patterns/navigation) is handled separately than the other categories and is not documented further as part of the link component.
+1. **Inline content** - Typically markdown and user generated content within body copy. Here, the link must be differentiated by an underline to differentiate it from surrounding text. Inline content links have the primary function of distinguishing a reference from surrounding content. For example, referencing an issue in a merge request description where the arbitrary number "#3126" has the primary function of linking to the referred issue.
+1. **Meta** - Standalone text or text within a short string of system generated content, which may contain multiple meta links. Meta content is a meaningful datapoint or reference as displayed, and the fact that it's a link is often a secondary function. For example, including the milestone "%15.8" in a string has the primary function of communicating the milestone, and secondarily can link to more information about it.
+1. **Highlight** - Indicates when a user is "@" mentioned in the content and the username links to the user's profile. A highlight link can be within body or meta content.
+
+### Appearance
+
+- Inline content links are always underlined and `$blue-500` at rest. On hover, the color and cursor change, and the underline persists. They appear this way regardless of formatting applied (bold, italic, or monospace) or parent text element (heading, paragraph, list, or code).
+- As meta links can represent a wide variety of content, their styles can also adapt for each context. The attribute all meta links share is an underline only on hover or focus. At rest they can be `$blue-500`, `$gray-900`, or `$gray-700`. Similar to inline links they appear this way regardless of formatting applied (bold, italic, monospace). Because of the available styling, which overlaps with static text, it's critical to ensure that users understand what is linked and what isn't in each context. Additionally, similar types of linked meta content should be styled the same throughout the product.
+- Highlight links are always `$blue-500` and have a background color behind the link at rest; `$blue-100` for any user, and `$orange-50` for the current user. On hover or focus the text is underlined.
+
+<todo>Add visual example of link appearance.</todo>
+
 ### Behavior
 
 - A link opens the destination in the same window by default.
 - Native controls to open a link in a new tab or window aren't suppressed.
 - A link can use `target="_blank"` if it's intentional that the user cannot use the browser's back function to return to the reference, and that it's clear to the user they are leaving the current experience.
-
-### Appearance
-
-<todo>Add appearance guidlines.</todo>
 
 ### Content
 
