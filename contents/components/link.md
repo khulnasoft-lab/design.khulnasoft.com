@@ -41,8 +41,8 @@ There are four categories for links in GitLab:
 
 ### Appearance
 
-- Inline content links are always underlined and `$blue-500` at rest. On hover, the color and cursor change, and the underline persists. They appear this way regardless of formatting applied (bold, italic, or monospace) or parent text element (heading, paragraph, list, or code).
-- As meta links can represent a wide variety of content, their styles can also adapt for each context. The attribute all meta links share is an underline only on hover or focus. At rest they can be `$blue-500`, `$gray-900`, or `$gray-700`. Similar to inline links they appear this way regardless of formatting applied (bold, italic, monospace). Because of the available styling, which overlaps with static text, it's critical to ensure that users understand what is linked and what isn't in each context. Additionally, similar types of linked meta content should be styled the same throughout the product.
+- Inline content links are always underlined and `$blue-500` at rest. On hover, the color darkens, the cursor changes to the pointer, and the underline persists. They appear this way regardless of formatting applied (bold, italic, or monospace) or parent text element (heading, paragraph, list, or code).
+- As meta links can represent a wide variety of content, their styles can also adapt for each context. The attribute all meta links share is an underline only on hover or focus. At rest they can be `$blue-500`, `$gray-900`, or `$gray-700`. On hover, the color darkens. Similar to inline links they appear this way regardless of formatting applied (bold, italic, monospace). Because of the available styling, which overlaps with static text, it's critical to ensure that users understand what is linked and what isn't in each context. Additionally, similar types of linked meta content should be styled the same throughout the product.
 - Highlight links are always `$blue-500` and have a background color behind the link at rest; `$blue-100` for any user, and `$orange-50` for the current user. On hover or focus the text is underlined.
 
 <todo>Add visual example of link appearance.</todo>
