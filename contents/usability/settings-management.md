@@ -48,6 +48,8 @@ Admin, group, project, and user settings utilize full pages to group different c
 
 Each category displays a title and a brief explanation of what users should expect when the the accordion is expanded. Use consistent terms and follow the [voice and tone](/content/voice-and-tone) guidelines.
 
+Some groupings of settings have complex configuration, to the point that the hierarchy on the settings page becomes confusing. In cases of complex configuration, it's possible to link from the main settings page to a detail page. Users can navigate back to the main settings page via the breadcrumbs, or by pressing save or cancel.
+
 ### Saving settings
 
 To keep the experience of settings consistent, avoid using a combination of manual and auto-save in form options. Learn more about [saving progress](/usability/saving-and-feedback#saving-progress).
