@@ -15,7 +15,7 @@ Absolute date and time information can be [localized](https://developer.mozilla.
    * For the `month` parameter, we always use the `short` value (for example: Mar). Note that the API will auto-adjust to `full` if the language can't be shortened.
    * For the `day` parameter, we use the `2-digit` value. (For example: 01)
    * For `timeZoneName`, we use either `short` (for example: UTC-8) or `long` (for example: Pacific Standard Time), depending on space and what is needed to make the time zone clear in context. 
-  - ISO 8601 format is displayed (for example: YYYY-MM-DD). Time can also be appended to the end of the date if necessary as (HH:MM:SS).
+  - ISO 8601 format is displayed YYYY-MM-DD. Time can also be appended to the end of the date if necessary (HH:MM:SS).
 
 ### Relative format
 
