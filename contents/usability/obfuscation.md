@@ -22,7 +22,7 @@ By using this pattern, we can protect our users' email addresses while still pro
 
 ### When to use
 
-- Use email obfuscation when handling user-submitted information that is not intended to be public. For example, when a user submits a support ticket via email, only the agents working on the ticket should see the full email address. For all other users, the email address should be obfuscated to protect the user's privacy.
+- Use email obfuscation when handling user-submitted information that is not intended to be public. For example, on Service Desk issues accessed by users with Guest access.
 
 It's important to consider the context in which the email address is being displayed, and make sure the email is obfuscated only when necessary.
 
