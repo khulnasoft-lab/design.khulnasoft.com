@@ -1,0 +1,27 @@
+---
+name: Obfuscation
+---
+
+At GitLab, we take user privacy and security seriously. As part of this we use obfuscation to protect sensitive information in our product. Obfuscation is the practice of making sensitive information difficult to understand or read. This helps to protect personal information, such as email addresses, from being unintentionally exposed to the public.
+
+## Email Addresses
+
+There are a few reasons why it may be harmful to users if their email address is unintentionally exposed. For example, it could lead to spam and unwanted emails, phishing attempts, or even identity theft.
+
+To protect our users' email addresses in the we use the following pattern for obfuscation:
+
+- Show the first two letters of the username followed by 5 asterisks `*`
+- Show the `@` symbol
+- Show the first letter after the "@" symbol followed by 5 asterisks `*`
+- Show a `.`
+- Show the first letter of the TLD (top level domain) followed by 2 asterisks `*`
+
+For example, the email address `see@me.com.uk` would be obfuscated as `se*****@m*****.u**`
+
+By using this pattern, we can protect our users' email addresses while still providing enough information to differentiate between users. This helps to balance the need for privacy with the need for useful information.
+
+### When to use
+
+- Use email obfuscation when handling user-submitted information that is not intended to be public. For example, when a user submits a support ticket via email, only the agents working on the ticket should see the full email address. For all other users, the email address should be obfuscated to protect the user's privacy.
+
+It's important to consider the context in which the email address is being displayed, and make sure the email is obfuscated only when necessary.
