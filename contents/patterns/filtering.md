@@ -30,7 +30,7 @@ The [filter](/components/filter) component, alongside [tabs](/components/tabs), 
 
 ## Placement guidelines
 
-In data complexity levels where the filter component isn’t used (1-4), the search should be placed on the left, followed by dropdowns for filters, and the dropdown for sorting should be inline but right-aligned. If tabs are used and search is placed below them, the search only conducts the search action for data in the selected tab. If user requires the ability to search through all data, a tab where all data is shown should be present, labeled with _All_ or _All {item-name-in-plural}_ (for example, _All issues_). When tabs are used, it is recommended to use a top-level predefined range and not a dynamically generated range after a raw text search has been performed. The recommended number of filter dropdowns is 3-5, when more are required consider using the filter component or the [filter builder](#filter-builder).
+In data complexity levels where the filter component isn’t used (1-4), the search should be placed on the left, followed by dropdowns for filters, and the dropdown for sorting should be inline but right-aligned. The recommended number of filter dropdowns is 3-5, when more are required consider using the filter component or the [filter builder](#filter-builder).
 
 <todo>Add guidelines for choosing between the filter component and the filter builder pattern.</todo>
 
