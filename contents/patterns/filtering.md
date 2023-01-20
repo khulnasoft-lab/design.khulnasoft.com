@@ -11,16 +11,9 @@ related:
 [Search](/components/search) and [filter](/components/filter) components in GitLab may seem similar at a first glance since the UI is similar, but their purposes are generally different. Search lets a user find records based on a particular value, while filters let a user display a list of records that meet a common value. The main factor for choosing between these two components should be the user’s goal:
 
 - If the user is looking for a specific item, the search component should be used. For example, trying to find a particular group member by name, surname, or username.
-- If the user is looking to narrow down a list of items based on specific parameters (single or multiple values), the filter component or filtering patterns should be used. For example, narrowing down a list of issues for a particular team member and milestone.
+- If the user is looking to narrow down a list of items based on specific parameters (single or multiple values), the filter component or filtering patterns should be used. For example, narrowing down a list of issues for a particular team member and milestone, or searching for an issue assigned to a team member and from a specific milestone but not knowing it's title.
 
-The filter component is flexible but complex and should be used for filtering data of highest complexity which can be filtered by numerous parameters (for example, a list of issues or merge requests). Consider using other filtering patterns for data that is less complex (for example, a list of users). Consult the table below when deciding whether search or filtering should be used. Then consult the [Data complexity and filtering patterns](#data-complexity-and-filtering-patterns) section to decide wheter the filter component or filtering patterns should be used.
-
-| User intent | Pattern |
-|---------------|------------------|
-| Searching for something specific when the search term or value is known | Search |
-| Searching for something specific when only some parameters are known | Filter |
-| Narrowing down a range of items based on parameters | Filter |
-| Narrowing down a range of items based on parameters, while also searching for something specific | Filter |
+The filter component is flexible but complex and should be used for filtering data of highest complexity which can be filtered by numerous parameters (for example, a list of issues or merge requests). Consider using other filtering patterns for data that is less complex (for example, a list of users). Consult the [Data complexity and filtering patterns](#data-complexity-and-filtering-patterns) section to decide wheter the filter component or filtering patterns should be used.
 
 ## Data complexity and filtering patterns
 
