@@ -8,7 +8,7 @@ At GitLab, we take user privacy and security seriously. As part of this we use o
 
 There are a few reasons why it may be harmful to users if their email address is unintentionally exposed. For example, it could lead to spam and unwanted emails, phishing attempts, or even identity theft.
 
-To protect our users' email addresses in the we use the following pattern for obfuscation:
+To protect our users' email addresses we use the following pattern for obfuscation:
 
 - Show the first two letters of the username followed by 5 asterisks `*`. Duplicate the character followed by 5 asterisks if the username is a single character.
 - Show the `@` symbol.
