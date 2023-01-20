@@ -12,7 +12,7 @@ TODO: Conceptual model
 
 TODO: Semantic layout diagram
 
-## Heirarchy
+## Hierarchy
 
 - Different ways to show the Work Item 'Object' hierarchy include breadcrumbs on the item and a child tree widget.
 - Lists should be simple, easy-to-use ways to access individual work items.
