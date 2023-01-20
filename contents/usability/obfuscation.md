@@ -10,13 +10,13 @@ There are a few reasons why it may be harmful to users if their email address is
 
 To protect our users' email addresses in the we use the following pattern for obfuscation:
 
-- Show the first two letters of the username followed by 5 asterisks `*`
-- Show the `@` symbol
-- Show the first letter after the "@" symbol followed by 5 asterisks `*`
-- Show a `.`
-- Show the first letter of the TLD (top level domain) followed by 2 asterisks `*`
+- Show the first two letters of the username followed by 5 asterisks `*`. Duplicate the character followed by 5 asterisks if the username is a single character.
+- Show the `@` symbol.
+- Show the first letter after the "@" symbol followed by 5 asterisks `*`.
+- Show a `.`.
+- Show the first letter of the TLD (top level domain) followed by 2 asterisks `*`.
 
-For example, the email address `see@me.com.uk` would be obfuscated as `se*****@m*****.u**`
+For example, the email address `see@me.com.uk` would be obfuscated as `se*****@m*****.u**` and `getsuperfancysupport@paywhatyouwantforit.accounting` would be obfuscated as `ge*****@p*****.a**`.
 
 By using this pattern, we can protect our users' email addresses while still providing enough information to differentiate between users. This helps to balance the need for privacy with the need for useful information.
 
