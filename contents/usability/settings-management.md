@@ -48,8 +48,6 @@ Admin, group, project, and user settings utilize full pages to group different c
 
 Each category displays a title and a brief explanation of what users should expect when the the accordion is expanded. Use consistent terms and follow the [voice and tone](/content/voice-and-tone) guidelines.
 
-Some groupings of settings have complex configuration, to the point that the hierarchy on the settings page becomes confusing. In cases of complex configuration, it's possible to link from the main settings page to a detail page. Users can navigate back to the main settings page via the breadcrumbs, or by pressing save or cancel.
-
 ### Progressive disclosure
 
 Consider the hierarchy of entire settings page to avoid overwhelming users with the amount of configuration options. The configuration of settings can happen directly in the settings page or be deferred to secondary screens. Configuartion options can be placed in a [modal](/components/modal) or by linking to detail page from the main settings page.
