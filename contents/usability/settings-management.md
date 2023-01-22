@@ -50,6 +50,10 @@ Each category displays a title and a brief explanation of what users should expe
 
 Some groupings of settings have complex configuration, to the point that the hierarchy on the settings page becomes confusing. In cases of complex configuration, it's possible to link from the main settings page to a detail page. Users can navigate back to the main settings page via the breadcrumbs, or by pressing save or cancel.
 
+### Progressive disclosure
+
+Consider the hierarchy of entire settings page to avoid overwhelming users with the amount of configuration options. The configuration of settings can happen directly in the settings page or be deferred to secondary screens. Configuartion options can be placed in a [modal](/components/modal) or by linking to detail page from the main settings page.
+
 ### Saving settings
 
 To keep the experience of settings consistent, avoid using a combination of manual and auto-save in form options. Learn more about [saving progress](/usability/saving-and-feedback#saving-progress).
