@@ -50,7 +50,7 @@ Each category displays a title and a brief explanation of what users should expe
 
 ### Progressive disclosure
 
-Consider the hierarchy of entire settings page to avoid overwhelming users with the amount of configuration options. The configuration of settings can happen directly in the settings page or be deferred to secondary screens. Configuartion options can be placed in a [modal](/components/modal) or by linking to detail page from the main settings page.
+Consider the hierarchy of entire settings page to avoid overwhelming users with configuration options. The configuration of settings can happen directly in the settings page or be deferred to secondary screens. Configuration options can be placed in a [modal](/components/modal) or on a linked detail page.
 
 ### Saving settings
 
