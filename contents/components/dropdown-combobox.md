@@ -53,6 +53,15 @@ related:
 
 - **Collapsible listbox** (`GlCollapsibleListbox`, most common): A button triggers a panel of single or multiselect options.
 - **Combobox** (`GlFormCombobox`): A text input triggers a panel of options. An optional button next to the input can also trigger the panel.
+### Size
+
+#### Width
+
+- The width can be dynamic to fit it's content. The min-width is 16rem (256px) and the max-width is 28.5rem (456px).
+
+#### Height
+
+The height can be dynamic to fit it's content. The max-height is 19.5rem (312px).
 
 #### Trigger buttons
 

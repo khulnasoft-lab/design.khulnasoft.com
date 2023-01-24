@@ -39,6 +39,16 @@ related:
 - If a user is selecting a single text option from a group of options within a [form](/patterns/forms), consider using a [select](/components/select), [radio group](/components/radio-button), or [checkboxes](/components/checkbox) instead.
 - If you need a way for a user to expand or collapse a content section, use an [accordion](/components/accordion) instead.
 
+### Size
+
+#### Width
+
+- The width can be dynamic to fit it's content. The min-width is 16rem (256px) and the max-width is 28.5rem (456px).
+
+#### Height
+
+The height can be dynamic to fit it's content. The max-height is 19.5rem (312px).
+
 ### Trigger button variants
 
 A [button](/components/button) that triggers a dropdown panel comes in a few variants to fit different situations.
