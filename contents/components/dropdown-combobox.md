@@ -53,6 +53,9 @@ related:
 
 - **Collapsible listbox** (`GlCollapsibleListbox`, most common): A button triggers a panel of single or multiselect options.
 - **Combobox** (`GlFormCombobox`): A text input triggers a panel of options. An optional button next to the input can also trigger the panel.
+### Size
+
+See [size guide](/components/dropdown-overview#size).
 
 #### Trigger buttons
 

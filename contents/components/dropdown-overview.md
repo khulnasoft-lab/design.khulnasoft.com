@@ -28,6 +28,15 @@ flowchart TD;
   D --> |No|I[This probably can't be implemented<br>or migrated yet];
 ```
 
+### Size
+#### Width
+
+- The width can be dynamic to fit it's content. The min-width is 16rem (256px) and the max-width is 28.5rem (456px).
+
+#### Height
+
+The height can be dynamic to fit it's content. The max-height is 19.5rem (312px).
+
 ## Related
 
 - A menu (`role="menu"`) is a particular type of dropdown that should only be used for app-like JavaScript actions or functions, like replicating a dropdown in an application. Menus aren't currently used in GitLab since many dropdowns that would include JavaScript actions also include links, making the disclosure a more ideal option.
