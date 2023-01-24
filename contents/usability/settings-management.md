@@ -48,7 +48,7 @@ Admin, group, project, and user settings utilize full pages to group different c
 
 Each category displays a title and a brief explanation of what users should expect when the the accordion is expanded. Use consistent terms and follow the [voice and tone](/content/voice-and-tone) guidelines.
 
-Consider the hierarchy of entire settings page to avoid overwhelming users by using [progessive disclosure](//usability/progressive-disclosure). The configuration of settings can happen directly in the settings page or be deferred to secondary screens. Configuration options can be placed in a [modal](/components/modal) or on a linked detail page.
+Configuration of settings can happen directly within the accordion or can be deferred to a secondary screen using the principles of [progressive disclosure](/usability/progressive-disclosure). For example, consider placing configuration options in a [modal](/components/modal) or on a linked detail page to avoid overwhelming users. 
 
 ### Saving settings
 
