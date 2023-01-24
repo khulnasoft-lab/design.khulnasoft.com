@@ -16,7 +16,7 @@ To protect our users' email addresses we use the following pattern for obfuscati
 - Show a `.`.
 - Show the first letter of the TLD (top level domain) followed by 2 asterisks `*`.
 
-For example, the email address `see@me.com.uk` would be obfuscated as `se*****@m*****.u**` and `getsuperfancysupport@paywhatyouwantforit.accounting` would be obfuscated as `ge*****@p*****.a**`.
+For example, the email address `see@me.co.uk` would be obfuscated as `se*****@m*****.u**` and `getsuperfancysupport@paywhatyouwantforit.accounting` would be obfuscated as `ge*****@p*****.a**`.
 
 This pattern balances the needs for privacy and useful information by protecting email addresses while still providing a way to differentiate between them.
 
