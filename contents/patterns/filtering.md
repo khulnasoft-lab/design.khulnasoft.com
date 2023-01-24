@@ -13,7 +13,7 @@ related:
 - If the user is looking for a specific item, the search component should be used. For example, trying to find a particular group member by name, surname, or username.
 - If the user is looking to narrow down a list of items based on specific parameters (single or multiple values), the filter component or filtering patterns should be used. For example, narrowing down a list of issues for a particular team member and milestone, or searching for an issue assigned to a team member and from a specific milestone but not knowing it's title.
 
-The filter component is flexible but complex and should be used for filtering data of highest complexity which can be filtered by numerous parameters (for example, a list of issues or merge requests). Consider using other filtering patterns for data that is less complex (for example, a list of users). Consult the [Data complexity and filtering patterns](#data-complexity-and-filtering-patterns) section to decide wheter the filter component or filtering patterns should be used.
+The filter component is flexible but complex and should be used for filtering data of highest complexity which can be filtered by numerous parameters (for example, a list of issues or merge requests). Consider using other filtering patterns for data that is less complex (for example, a list of users). Consult the [Data complexity and filtering patterns](#data-complexity-and-filtering-patterns) section to decide whether the filter component or filtering patterns should be used.
 
 ## Data complexity and filtering patterns
 
@@ -67,7 +67,7 @@ On small screens the filter and sort dropdowns get pushed below the search and a
 
 ### Adding filters with dropdowns
 
-This pattern is recommended for cases when a multiple filters can be added with each filter dropdown. For example, a list of issues can be filtered by multiple assignees.
+This pattern is recommended for cases when multiple filters can be added with each filter dropdown. For example, a list of issues can be filtered by multiple assignees.
 
 <todo>Add pattern and guidelines for adding multiple filters with dropdowns.</todo>
 
