@@ -18,11 +18,11 @@ To protect our users' email addresses we use the following pattern for obfuscati
 
 For example, the email address `see@me.com.uk` would be obfuscated as `se*****@m*****.u**` and `getsuperfancysupport@paywhatyouwantforit.accounting` would be obfuscated as `ge*****@p*****.a**`.
 
-By using this pattern, we can protect our users' email addresses while still providing enough information to differentiate between users. This helps to balance the need for privacy with the need for useful information.
+This pattern balances the needs for privacy and useful information by protecting email addresses while still providing a way to differentiate between them.
 
 ### When to use
 
-- Use email obfuscation when handling user-submitted information that is not intended to be public. For example, on Service Desk issues accessed by users with Guest access.
+Use email obfuscation when handling user-submitted information that is not intended to be public. For example, on Service Desk issues accessed by users with Guest access.
 
 It's important to consider the context in which the email address is being displayed, and make sure the email is obfuscated only when necessary.
 
