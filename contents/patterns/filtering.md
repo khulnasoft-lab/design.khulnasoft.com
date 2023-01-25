@@ -6,7 +6,7 @@ related:
   - tabs
   - date-picker
 ---
-## When to use filtering patterns
+## Search vs filter
 
 [Search](/components/search) and [filter](/components/filter) components in GitLab may seem similar at a first glance since the UI is similar, but their purposes are generally different. Search lets a user find records based on a particular value, while filters let a user display a list of records that meet a common value. The main factor for choosing between these two components should be the user’s goal:
 
