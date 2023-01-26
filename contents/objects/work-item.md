@@ -28,6 +28,12 @@ Hierarchy supports the product and project management work of starting from high
 - **Board view:** Shows multiple user-defined and system-defined ordered lists of all items that match the criteria set by the system and filtered by the user. For example an [epic board](https://docs.gitlab.com/ee/user/group/epics/epic_boards.html) could show all epics filtered by a label and grouped by a series of workflow labels (user-defined) and open and closed (system-defined).
 - **Roadmap view:** Shows a timeline of all items that match the criteria set by the system and filtered by the user. For example, a [roadmap](https://docs.gitlab.com/ee/user/group/roadmap/) shows all epics for a given group (system criteria) filtered by user-defined labels and milestones, and organized by start and end dates (system-defined).
 - **Grid view:** (Future) shows a grid of items in user-defined and system-defined columns of all items that match the criteria set by the system and filtered by the user.
-- **Saved view:** (Future) a user-customisable set of parameters that change the display and contents of one of the above views.
+- **Saved view:** (Future) a user-customizable set of parameters that change the display and contents of one of the above views.
 - **Flat:** Items are treated equally, regardless of their location in any underlying structure and relationship hierarchy. (For example issue lists today).
 - **Nested:** The underlying structure and relationship hierarchy is exposed through the visual presentation and interactions in the UI. (For example https://gitlab.com/gitlab-org/gitlab/-/issues/381478#note_1234699218).
+
+<todo>Add illustrations to demonstrate flat and nested presentations</todo>
+
+## Resources
+
+- [Work items architecture blueprint](https://docs.gitlab.com/ee/architecture/blueprints/work_items/#work-items)
