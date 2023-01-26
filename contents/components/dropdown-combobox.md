@@ -63,8 +63,8 @@ A [button](/components/button) that triggers a combobox comes in a few variants 
 
 ### Size
 
-- Trigger: The [text input](/components/text-input) or [button](/components/button) width is determined by the properties available for each of those components.
-- Panel: Has a minimum and maximum width and a maximum height to keep content near the trigger and to keep panels consistent throughout the UI.
+- **Trigger**: The [text input](/components/text-input) or [button](/components/button) width is determined by the properties available for each of those components.
+- **Panel**: Has a minimum and maximum width and a maximum height to keep content near the trigger and to keep panels consistent throughout the UI.
 
 ### Behavior
 
