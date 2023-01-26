@@ -39,11 +39,6 @@ related:
 - If a user is selecting a single text option from a group of options within a [form](/patterns/forms), consider using a [select](/components/select), [radio group](/components/radio-button), or [checkboxes](/components/checkbox) instead.
 - If you need a way for a user to expand or collapse a content section, use an [accordion](/components/accordion) instead.
 
-### Size
-
-- Trigger: The [button](/components/button) width is determined by its available properties.
-- Panel: Has a minimum and maximum width and a maximum height to keep content near the trigger button and to keep panels consistent throughout the UI.
-
 ### Trigger button variants
 
 A [button](/components/button) that triggers a dropdown panel comes in a few variants to fit different situations.
@@ -51,6 +46,11 @@ A [button](/components/button) that triggers a dropdown panel comes in a few var
 - **Dropdown button**: A dropdown button has a [chevron-down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~chevron-down) icon to the right of the text label to indicate it will toggle additional content.
 - **Split dropdown button**: A split dropdown button is a special button group with two segments. The left text button is for the most common option and an attached dropdown button to the right opens a panel with additional options.
 - **Icon dropdown**: An icon button, like one that uses the vertical or horizontal [ellipsis icons](https://gitlab-org.gitlab.io/gitlab-svgs/?q=elli), functions similarly to other trigger buttons with the only difference being only an icon label with no text.
+
+### Size
+
+- Trigger: The [button](/components/button) width is determined by its available properties.
+- Panel: Has a minimum and maximum width and a maximum height to keep content near the trigger button and to keep panels consistent throughout the UI.
 
 ### Behavior
 

@@ -54,17 +54,17 @@ related:
 - **Collapsible listbox** (`GlCollapsibleListbox`, most common): A button triggers a panel of single or multiselect options.
 - **Combobox** (`GlFormCombobox`): A text input triggers a panel of options. An optional button next to the input can also trigger the panel.
 
-### Size
-
-- Trigger: The [text input](/components/text-input) or [button](/components/button) width is determined by the properties available for each of those components.
-- Panel: Has a minimum and maximum width and a maximum height to keep content near the trigger and to keep panels consistent throughout the UI.
-
 #### Trigger buttons
 
 A [button](/components/button) that triggers a combobox comes in a few variants to fit different situations.
 
 - **Dropdown button**: A dropdown button has a [chevron-down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~chevron-down) icon to the right of the text label to indicate it will toggle additional content.
 - **Icon dropdown**: An icon button, like one that uses the vertical or horizontal [ellipsis icons](https://gitlab-org.gitlab.io/gitlab-svgs/?q=elli), functions similarly to other trigger buttons with the only difference being only an icon label with no visible text.
+
+### Size
+
+- Trigger: The [text input](/components/text-input) or [button](/components/button) width is determined by the properties available for each of those components.
+- Panel: Has a minimum and maximum width and a maximum height to keep content near the trigger and to keep panels consistent throughout the UI.
 
 ### Behavior
 
