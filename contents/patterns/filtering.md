@@ -30,7 +30,7 @@ The [filter](/components/filter) component, alongside [tabs](/components/tabs), 
 
 ## Placement guidelines
 
-In data complexity levels where the filter component isn’t used (1-4), the search should be placed on the left, followed by dropdowns for filters, and the dropdown for sorting should be inline but right-aligned. The recommended number of filter dropdowns is 3-5, when more are required consider using the filter component or the [filter builder](#filter-builder).
+In situations where the filter component isn’t used (levels 1-4), search is placed on the left, followed by dropdowns for filters. The dropdown for sorting should be inline but right-aligned. The recommended number of filter dropdowns is 3-5. When more are required, consider using the filter component or the [filter builder](#filter-builder).
 
 <todo>Add guidelines for choosing between the filter component and the filter builder pattern.</todo>
 
@@ -42,7 +42,7 @@ This pattern is recommended for cases when a single filter can be selected with 
   <img src="/img/filtering-medium-complexity-placement-example.png" alt="Two tabs with search below on the left, dropdowns for fitlers to the right of search, and sorting dropdown right-aligned to the filters" role="img" class="figure-img">
 </figure>
 
-If more dropdowns for filters are required they can be pushed into a separate row with a border between the search and the filters. The sorting dropdown is inline but to the right of the filter dropdowns, the search remains limited in width.
+When the filters do not fit on the same line as search, all dropdowns are placed below and separated by a horizontal rule. The sorting dropdown is inline but to the right of the filter dropdowns, the search remains limited in width.
 
 <figure role="figure" aria-label="Tabs, search, filter, and sorting placement when filter dropdowns are in their own row" class="figure">
   <img src="/img/5-filters-in-new-line.png" alt="Two tabs with search below on the left, dropdowns for fitlers below in its own row, and sorting dropdown right-aligned to the filters" role="img" class="figure-img">
