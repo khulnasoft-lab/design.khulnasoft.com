@@ -6,7 +6,7 @@ At GitLab, we take user privacy and security seriously. As part of this we use o
 
 ## When to use obfuscation
 
-- Use email obfuscation when handling user-submitted information that is not intended to be public. For example, on Service Desk issues accessed by users with Guest access.
+- Obfuscate [email addresses](#email-addresses) when handling user-submitted information that is not intended to be public. For example, on Service Desk issues accessed by users with Guest access.
 
 <todo>Add guidelines for other types of obfuscation</todo>
 
