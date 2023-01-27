@@ -72,6 +72,7 @@ For the rest of this article, components created with Figma’s variants feature
 - **Page:** [Component]
 - **Frame:** [Component], [Category], [Group], [Elements] or literally “Variants.” “Variants” is the default frame name when components aren’t created with the variants feature.
 - **Layer:** [Property=Value, Property=Value] as a variant or [Breakpoint/Item/Size/State] when manually organized.
+  - Components are created for the largest viewports by default. When a smaller viewport causes the component layout to change add a property.
   - Optional breakpoints: XS, SM, MD, LG, XL, breakpoints can also use symbols to indicate range, such as ≥MD or ≤SM
   - Optional sizes: XS, SM, MD, LG, XL, XXL
 
