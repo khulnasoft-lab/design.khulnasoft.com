@@ -132,7 +132,11 @@
 
     &:hover,
     &:focus {
-      color: $blue-800;
+      color: $blue-700;
+    }
+
+    &:active {
+      color: $blue-900;
     }
   }
 }
