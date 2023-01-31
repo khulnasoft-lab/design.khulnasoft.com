@@ -15,7 +15,7 @@ Filters narrow down a list of records to ones that contain a common value. For f
 The main factor for choosing between search and filter should be the user’s goal:
 
 - If the user is looking for a specific item, the search component should be used. For example, trying to find a particular group member by name, surname, or username.
-- If the user is looking to narrow down a list of items based on specific parameters (single or multiple values), the filter component or filtering patterns should be used. For example, narrowing down a list of issues for a particular team member and milestone, or searching for an issue assigned to a team member and from a specific milestone but not knowing it's title.
+- If the user is looking to narrow down a list of items based on specific parameters (single or multiple values), either the filter component or filtering patterns should be used. For example, narrowing down a list of issues for a particular team member and milestone, or searching for an issue assigned to a team member from a specific milestone when the title is unknown.
 
 The filter component is flexible but complex and should be used for filtering data of highest complexity which can be filtered by numerous parameters (for example, a list of issues or merge requests). Consider using other filtering patterns for data that is less complex (for example, a list of users). Consult the [Data complexity and filtering patterns](#data-complexity-and-filtering-patterns) section to decide whether the filter component or filtering patterns should be used.
 
