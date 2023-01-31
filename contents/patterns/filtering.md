@@ -30,7 +30,7 @@ Consult the table below for general guidance on common filtering patterns in the
 | Data complexity from 1 (low) to 5 (high) | Data examples | Components |
 |-----------------------|---------------|-----------------------------|
 | 1 | Member name, username | Search |
-| 1 | Member name, username, join date | Search, sorting |
+| 2 | Member name, username, join date | Search, sorting |
 | 3 | Member name, username, join date, status | Tabs, search, sorting |
 | 4 | Member name, username, join date, status, role | Tabs, search, dropdowns, sorting |
 | 4 | List of projects or groups | Tabs, search, dropdowns, sorting |
