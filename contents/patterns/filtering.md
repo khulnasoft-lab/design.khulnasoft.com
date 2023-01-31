@@ -8,7 +8,11 @@ related:
 ---
 ## Search vs filter
 
-[Search](/components/search) and [filter](/components/filter) components in GitLab may seem similar at a first glance since the UI is similar, but their purposes are generally different. Search lets a user find records based on a particular value, while filters let a user display a list of records that meet a common value. The main factor for choosing between these two components should be the user’s goal:
+Search helps a user find records matching a particular value. We use the [search](/components/search) component in the UI for this purpose. 
+
+Filters narrow down a list of records to ones that contain a common value. For filtering data, we use either the [filter](/components/filter) component on its own, or a combination of other components, for example [tabs](/components/tabs), [search](/components/search), or [sorting](/components/sorting). We refer to the ways we combine components together as filtering patterns in the product.
+
+The main factor for choosing between search and filter should be the user’s goal:
 
 - If the user is looking for a specific item, the search component should be used. For example, trying to find a particular group member by name, surname, or username.
 - If the user is looking to narrow down a list of items based on specific parameters (single or multiple values), the filter component or filtering patterns should be used. For example, narrowing down a list of issues for a particular team member and milestone, or searching for an issue assigned to a team member and from a specific milestone but not knowing it's title.
