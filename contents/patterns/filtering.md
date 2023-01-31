@@ -21,7 +21,11 @@ The filter component is flexible but complex and should be used for filtering da
 
 ## Data complexity and filtering patterns
 
-The [filter](/components/filter) component, alongside [tabs](/components/tabs), [dropdowns](/components/dropdown-listbox), [sorting](/components/sorting), [date picker](/components/date-picker), and [search](/components/search) can all be used when filtering data. The more complex the data that needs to be filtered, the more components and UI elements can be used to filter it and change the view. For example, a list of members where their name, username, and join date are the data, the sorting and search components are enough to allow users to efficiently search and order the results. If the data also includes the status for each member (active or inactive), adding tabs to allow users to navigate between all, active, and inactive members would add another useful level of filtering. If user role is also part of the data, a dropdown could be used to additionally filter by this parameter. Consult the table below for general guidance and examples on when to use components for filtering based on data complexity.
+The [filter](/components/filter) component, alongside [tabs](/components/tabs), [dropdowns](/components/dropdown-listbox), [sorting](/components/sorting), [date picker](/components/date-picker), and [search](/components/search) can all be used for filtering data. The more complex the data, the more components required to filter it. 
+
+For example, in a list of members where their name, username, and join date are the data, the sorting and search components are sufficient to efficiently search and order the results. If the data also includes the status for each member (active or inactive), adding tabs to allow users to navigate between the member statuses would be an additional, useful level of filtering. Further, if user role is also part of the data, a dropdown could be used to filter by this parameter, as well. 
+
+Consult the table below for general guidance on common filtering patterns in the product, and examples of which-components-to-use-when, based on data complexity:
 
 | Data complexity from 1 (low) to 5 (high) | Data examples | Components |
 |-----------------------|---------------|-----------------------------|
