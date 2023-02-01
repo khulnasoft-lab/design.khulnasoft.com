@@ -23,7 +23,7 @@ The filter component is flexible but complex and should primarily be used for fi
 
 The [filter](/components/filter) component, alongside [tabs](/components/tabs), [dropdowns](/components/dropdown-listbox), [sorting](/components/sorting), [date picker](/components/date-picker), and [search](/components/search) can all be used for filtering data. The more complex the data, the more components required to filter it. 
 
-For example, in a list of members where their name, username, and join date are the data, the sorting and search components are sufficient to efficiently search and order the results. If the data also includes the status for each member (active or inactive), adding tabs to allow users to navigate between the member statuses would be an additional, useful level of filtering. Further, if user role is also part of the data, a dropdown could be used to filter by this parameter, as well. 
+For example, in a list of members where name, username, and join date are the data, the sorting and search components are likely sufficient to narrow down the list. If the data also includes the status for each member (active or inactive), adding tabs to allow users to navigate between the member statuses would be an additional, useful level of filtering. Further, if user role is also part of the data, a dropdown could be used to filter by this parameter, as well. 
 
 Consult the table below for general guidance on common filtering patterns in the product, and examples of which-components-to-use-when, based on data complexity:
 
