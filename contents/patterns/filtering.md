@@ -42,9 +42,9 @@ In situations where the filter component isn’t used (levels 1-4), search is pl
 
 <todo>Add guidelines for choosing between the filter component and the filter builder pattern.</todo>
 
-### Selecting filters with dropdowns
+### Adding single filters within a dropdown
 
-This pattern is recommended for cases when a single filter can be selected with each filter dropdown. For example, a list of issues can only be filtered by one assignee.
+This pattern is recommended for cases when a single filter can be selected in each dropdown. For example, when a list of issues can only be filtered by one assignee.
 
 <figure role="figure" aria-label="Tabs, search, filter, and sorting placement" class="figure">
   <img src="/img/filtering-medium-complexity-placement-example.png" alt="Two tabs with search below on the left, dropdowns for fitlers to the right of search, and sorting dropdown right-aligned to the filters" role="img" class="figure-img">
