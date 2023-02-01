@@ -73,9 +73,9 @@ On small screens the filter and sort dropdowns get pushed below the search and a
   </div>
 </div>
 
-### Adding filters with dropdowns
+### Adding multiple filters within a dropdown
 
-This pattern is recommended for cases when multiple filters can be added with each filter dropdown. For example, a list of issues can be filtered by multiple assignees.
+This pattern is recommended for cases when multiple filters can be added within each dropdown. For example, when a list of issues can be filtered by multiple assignees.
 
 <todo>Add pattern and guidelines for adding multiple filters with dropdowns.</todo>
 
