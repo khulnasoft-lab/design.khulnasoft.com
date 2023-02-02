@@ -8,7 +8,7 @@ related:
 
 ## Typefaces
 
-GitLab Sans (based on [Inter](https://rsms.me/inter/)) followed by system fonts comprises the body font stack, which is used for most UI elements. For code-related elements, JetBrains Mono followed by monospaced system fonts comprises the monospace font stack. Examples of code-related elements are: branch name, commit ID, and pipeline ID. The fonts are available to download in [this package](https://www.npmjs.com/package/@gitlab/fonts).
+GitLab Sans (based on [Inter](https://rsms.me/inter/)) followed by system fonts comprises the body font stack, which is used for most UI elements. For code-related elements, [JetBrains Mono](https://www.jetbrains.com/lp/mono/) followed by monospaced system fonts comprises the monospace font stack. Examples of code-related elements are: branch name, commit ID, and pipeline ID. The fonts are available to download in [this package](https://www.npmjs.com/package/@gitlab/fonts).
 
 ### Body font stack
 
