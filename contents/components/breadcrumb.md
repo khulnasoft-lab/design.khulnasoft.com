@@ -48,6 +48,7 @@ related:
 - For a page that presents the details of an individual item (issue, merge request, snippet, pipeline, job, milestone, commit, tag, environment, cluster, pipeline schedule), the last element of the breadcrumb should include the ID of the element. For example, merge request **!1234** becomes **GitLab.org > GitLab > Merge requests > !1234**.
 - For a contextual page within the navigation, the breadcrumb should only include the submenu title. For example, **Overview > Details** becomes just **Details**.
 - [Use sentence case](/content/punctuation#case) for each breadcrumb element.
+- Below the breadcrumb is a bottom border that should always be present.
 
 #### Special breadcrumbs
 
