@@ -21,7 +21,8 @@ related:
 
 1. **Avatar** (optional): Prefixes a group or project link.
 1. **Link**: Opens the page in the same window.
-1. **Separator**: The [chevron-right](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~chevron-right) icon is between each link.
+1. **Separator**: The forward slash character `/` is between each link.
+1. **Border**: The bottom border should always be present between the breadcrumb and the content of the page.
 
 ## Guidelines
 
