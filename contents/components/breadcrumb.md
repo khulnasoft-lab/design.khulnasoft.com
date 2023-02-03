@@ -37,6 +37,7 @@ related:
 
 ### Behavior
 
+- Below the breadcrumb is a bottom border that should always be present.
 - Use an [ellipsis button](/components/button) to hide groups when there are three or more subgroups in the path.
 - Use an [ellipsis button](/components/button) to hide all Wiki page breadcrumb items except the current page.
 - The top-level group and the subgroup closest to the project are never collapsed.
