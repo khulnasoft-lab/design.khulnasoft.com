@@ -8,9 +8,9 @@ related:
 
 ## Typefaces
 
-GitLab Sans (based on [Inter](https://rsms.me/inter/)) followed by system fonts comprises the sans serif font stack, which is used for most UI elements. For code-related elements, [JetBrains Mono](https://www.jetbrains.com/lp/mono/) followed by monospaced system fonts comprises the monospace font stack. Examples of code-related elements are: code block, branch name, commit ID, and pipeline ID. The fonts are available to download in [this package](https://www.npmjs.com/package/@gitlab/fonts).
+GitLab Sans, based on the [Inter](https://rsms.me/inter/)) typeface, is used for most UI elements, with system fonts used as a back-up. [JetBrains Mono](https://www.jetbrains.com/lp/mono/) is used for code-related elements, for example, code block, branch name, commit ID, and pipeline ID. The fonts are available to download in [this package](https://www.npmjs.com/package/@gitlab/fonts).
 
-### Body font stack
+### Sans serif font stack
 
 ```css
 font-family: 'GitLab Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans',
