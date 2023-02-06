@@ -8,7 +8,7 @@ related:
 
 ## Typefaces
 
-GitLab Sans, based on the [Inter](https://rsms.me/inter/)) typeface, is used for most UI elements, with system fonts used as a back-up. [JetBrains Mono](https://www.jetbrains.com/lp/mono/) is used for code-related elements, for example, code block, branch name, commit ID, and pipeline ID. The fonts are available to download in [this package](https://www.npmjs.com/package/@gitlab/fonts).
+GitLab Sans, based on the [Inter](https://rsms.me/inter/) typeface, is used for most UI elements, with system fonts used as a back-up. [JetBrains Mono](https://www.jetbrains.com/lp/mono/) is used for code-related elements, for example, code blocks, branch names, commit IDs, and pipeline IDs. The fonts are available to download in [this package](https://www.npmjs.com/package/@gitlab/fonts).
 
 ### Sans serif font stack
 
