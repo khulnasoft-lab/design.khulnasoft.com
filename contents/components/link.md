@@ -32,12 +32,12 @@ related:
 
 ### Categories
 
-There are four categories for links in GitLab. Although all links are navigational, those that persist from page to page and guide users through the application such as [navigation](/patterns/navigation), [breadcrumbs](/components/breadcrumb), and [pagination](/components/pagination) are handled separately and are not documented further as part of a link component.
+There are four categories of links in GitLab. Although all links are navigational, those that persist from page to page and guide users through the application – such as [navigation](/patterns/navigation), [breadcrumbs](/components/breadcrumb), and [pagination](/components/pagination) – are described separately, and not included as part of the link component.
 
-1. **Inline text link** - Typically markdown and user generated content within body copy. Here, the link must be underlined to differentiate it from surrounding text. Inline text links have the primary function of distinguishing a reference from surrounding content. For example, referencing an issue in a merge request description where the arbitrary number "#3126" has the primary function of linking to the referred issue.
-1. **User interface (UI) link**: Standalone link in the UI that isn't user generated. For example, a link in the system notes to compare a commit with a previous version. The placement, color, and actionable text provide link affordance. A button using the [link variant](/components/button#variants) has a similar style, but is only used when a link isn't possible.
-1. **Meta link** - Standalone text or text within a short string of system generated content, which may contain multiple meta links. Meta content is a meaningful datapoint or reference as displayed, and the fact that it's a link is often a secondary function. For example, including the milestone "%15.8" in a string has the primary function of communicating the milestone, and secondarily can link to more information about it.
-1. **Mention** - Indicates when a user is "@" mentioned in the content and the username links to the user's profile. A mention link can be within body or meta content.
+1. **Inline text link**: In order to distinguish a linked reference from surrounding content, a user-generated link within body copy (typically, markdown) must be underlined. For example, referencing an issue in a merge request description where "#3126" has the primary function of linking to the referred issue.
+1. **User interface (UI) link**: Standalone link in the UI that isn't user-generated. For example, a link in the system notes that compares the changes in a new commit to a previous one. The placement, color, and actionable text all provide link affordance. A button using the [link variant](/components/button#variants) has a similar style, but is used for an action and not a link.
+1. **Meta link**: Standalone text or text within a short string of system-generated content may contain multiple meta links. Meta links share a meaningful datapoint or reference, and are only links secondarily. For example, the primary function of including "%15.8" in a string is to communicate the milestone, though it can also link to more information about it.
+1. **Mention**: Indicates when a user is "@" mentioned in the content. The username links to the user's profile. A mention link can be within body or meta content.
 
 ### Appearance
 
