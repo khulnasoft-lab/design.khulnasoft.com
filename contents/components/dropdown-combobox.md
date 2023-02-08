@@ -1,6 +1,7 @@
 ---
 name: Combobox
 description: A combobox is a panel of options typically opened by a button or text input.
+componentLabel: dropdown
 related:
   - dropdown-disclosure
   - button

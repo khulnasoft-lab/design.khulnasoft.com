@@ -1,6 +1,7 @@
 ---
 name: Disclosure
 description: A disclosure widget includes a button that opens a panel of links or actions.
+componentLabel: dropdown
 related:
   - dropdown-combobox
   - button

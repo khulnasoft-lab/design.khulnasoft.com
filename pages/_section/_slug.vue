@@ -62,13 +62,16 @@ export default {
       if (section !== 'components') {
         return null;
       }
+      if (this.page.componentLabel !== undefined) {
+        return this.page.componentLabel;
+      }
       return componentNameToLabelMap[slug] || slug;
     },
     hasStories() {
       return Boolean(this.page?.stories?.length);
     },
     showTabs() {
-      return Boolean(this.tabs);
+      return Boolean(this.tabs.length);
     },
     tabs() {
       let { tabs = [] } = this.page;
