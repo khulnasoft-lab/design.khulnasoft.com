@@ -86,7 +86,10 @@ Clicking the "edit" button places a user in an "edit mode" for this row, which u
 - There should be no more than 3 actions and no fewer than 1. Actions should always be located within an action bar at the bottom of the modal. Button order and positioning should follow our [guidelines for buttons](/components/button).
 - When labeling your actions, let the user know what will happen for each possible decision you are affording to them and be specific. For example, when asking the user to set their status, use "Set status" and "Remove status" instead of simply, "Save" and "Delete".
 - There should always be multiple ways to close/dismiss this type of modal, including allowing the user to click outside of the modal area or use the escape key. This is important as some modals can be tall and we want to avoid making the user scroll up to close a modal.
-- If dropdowns are needed in the content area, allow dropdowns to extend out of the modal. If extending out of the modal would cause the dropdown to exit the viewport, try and change the dropdown direction to keep it in the viewport. If keeping inside the viewport is not possible, allow the whole plane/layer (modal and dropdown) to scroll outside of the viewport; make sure to add extra space to make sure there is a gap between the viewport and the dropdown and the page behind shouldn’t scroll; only the objects above the backdrop.
+- When dropdowns are present in modals, take care to ensure the dropdown is visible by:
+  - Allowing dropdowns to extend outside the boundary of the modal if needed. 
+  - Positioning the dropdown above rather than below the trigger if it keeps the modal and dropdown within the viewport.
+  - If keeping the modal and dropdown inside the viewport is not possible, allow the modal overlay to scroll rather than the modal itself. Leave space between the bottom of the dropdown and the edge of the viewport where possible.
 
 ### Accessibility
 
