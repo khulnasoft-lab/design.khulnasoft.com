@@ -20,8 +20,8 @@ related:
   <img class="figure-img" src="/img/tooltip-structure.svg" alt="Numbered diagram of a tooltip structure" role="img" />
 </figure>
 
+1. **Object**: UI object linked to the tooltip. For example: button or label.
 1. **Tooltip**: Tooltip content.
-1. **Object**: UI object which the tooltip is linked to. For example: button or label.
 
 ## Guidelines
 
