@@ -24,7 +24,7 @@ if (GOOGLE_ANALYTICS_ID) {
 
 const cspPolicies = [
   "default-src 'self'",
-  "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://cdn.cookielaw.org",
+  "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://cdn.cookielaw.org https://player.vimeo.com",
   "style-src 'self' 'unsafe-inline'",
   "object-src 'none'",
   "img-src 'self' https: data:",
