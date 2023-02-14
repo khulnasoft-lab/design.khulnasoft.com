@@ -18,7 +18,7 @@ Video producers can create large-scale, custom illustrations as part of a video 
   <figcaption class="figure-caption">Illustration animation example</figcaption>
 </figure>
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/791344150?h=f1789cd90f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Illustration.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<vimeo-player title="Illustration" video-id="791344150"></vimeo-player>
 
 #### Easing
 
@@ -37,7 +37,7 @@ Both interactive and expressive motion come with unique parameters to create sca
 - Motion should be swift at 0.65 seconds.
 - Purposeful motion embraces the design elements and formulates a short visual narrative.
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/791341802?h=f1ee185e3b&badge=0&autopause=0&player_id=0&app_id=58479/embed" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+<vimeo-player video-id="791341802"></vimeo-player>
 
 ### Dot animations
 
@@ -48,7 +48,7 @@ Both interactive and expressive motion come with unique parameters to create sca
 
 Voice over example: “No more stitching point solutions. All you need is GitLab.”
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/791329958?h=e9165be7a6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Dot_Animations.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
+<vimeo-player title="Dot animations" video-id="791329958"></vimeo-player>
 
 ## Frame composition
 
@@ -59,7 +59,7 @@ Voice over example: “No more stitching point solutions. All you need is GitLab
 
 **Motion sample:** The text above is in section 1-2 while iconography occupies space in sections 2-2 and 2-3.
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/791336183?h=f49cf1dee2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Frame_Composition_01.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<vimeo-player title="Frame composition" video-id="791336183"></vimeo-player>
 
 ## Tanuki + DevOps loop
 
@@ -67,7 +67,7 @@ Voice over example: “No more stitching point solutions. All you need is GitLab
 - It should animate on using a stroke reveal using Interactive Ease.
 - Don't use any other reveals such as fading on logo, having the logo move in from outside the frame, or scaling to reveal the logo.
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/791334272?h=5d28606c11&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Tanuki"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<vimeo-player title="Tanuki" video-id="791334272"></vimeo-player>
 
 ## Gradients
 
