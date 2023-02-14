@@ -1,3 +1,92 @@
+# [2.150.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.149.0...v2.150.0) (2023-02-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gitlab/svgs to v3.20.0 ([af97148](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/af97148f39bce2f22f86a0526fd1d7a552906a05))
+* **deps:** update dependency @gitlab/ui to v54.4.0 ([e916a82](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/e916a824e171b31f9fc99f6a37bfd50644c06fcc))
+* **deps:** update dependency @gitlab/ui to v55 ([657a09e](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/657a09e851868b981fe6136d7cd76f8f705221ec))
+* **deps:** update dependency nuxt to v2.16.0 ([7548b1c](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/7548b1c314d42811a2ff77fb860e348b4414dcac))
+
+
+### Features
+
+* **Dropdown:** Document height options ([c6e97bc](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/c6e97bc2f97de46ca6eb9ad79dddb742fbc67551))
+* **Label:** clarify behaviour on a view that can be filtered ([e76b08b](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/e76b08b720193e54bb6ba282b2158efe7bdeda49))
+* **Link:** Document link appearance ([165053b](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/165053bc75f08c5d0b0461b11c275d24c36f3ef2))
+* **Modal:** specify dropdown usage in modal window ([396d361](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/396d36189dbd36f787bfa4dcdaa056b6a07f6c05))
+* **Typography:** Update font stacks ([0467b65](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/0467b65ccdb22924ddcea4a26d0818e5974567ae))
+
+# [2.149.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.148.0...v2.149.0) (2023-02-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gitlab/ui to v53 ([940e23e](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/940e23e78acff168d68d73be75accaf977ea0be5))
+* **deps:** update dependency @gitlab/ui to v54 ([7d119bd](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/7d119bd312fe29d86c61035283af55195ecd554a))
+* **deps:** update dependency @nuxtjs/sentry to ^7.0.3 ([9f4bf9b](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/9f4bf9bc77e7257ab54b04852e472a50b872b4ce))
+* **deps:** update dependency iframe-resizer to ^4.3.3 ([f8ea889](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/f8ea88927d90770aeb39dadca31653bf4e8f84ee))
+* **deps:** update gitlab ui/svg ([274c991](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/274c99107450501a0b3751e1e82d8d9d5da98bfd))
+
+
+### Features
+
+* **Filtering:** Document filtering patterns ([3d79935](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/3d7993579729dec74ae01ad30b248540271b593d))
+* **Toggle:** Specify when description text is used ([8a6a7d9](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/8a6a7d964e6393d6fe313d8ca0dedadcca4d3095))
+* **WorkItemObject:** add hierarchy guidelines ([b487ea7](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/b487ea7f322e77f992df6fde197d8bfa8fb84ed2))
+
+# [2.148.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.147.0...v2.148.0) (2023-01-30)
+
+
+### Bug Fixes
+
+* Update template links ([3ba92cf](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/3ba92cfc4a8b56a60fa65c11c92ac536ccf2a635))
+* **deps:** update gitlab ui/svg ([63c736a](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/63c736a9dbb08f7679cf4afb2c8ff69be7dde961))
+
+
+### Features
+
+* **dropdown:** Update design spec to include min/max size ([d66c0ec](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/d66c0ec34f5303d0c830f0259881c5fd1033b9cf))
+* **Icons:** Add naming considerations ([0ad4f3b](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/0ad4f3b94b9dac2edf84ac52bc75725f4049bcb9))
+* **Obfuscation:** add obfuscation guidelines ([bfe9a78](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/bfe9a781ae04b8915acee470f01aee2c1def668a))
+* **Settings:** linking to detail page ([898ee84](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/898ee846946b3d8d94a36a24aa35426615f102ca))
+
+# [2.147.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.146.1...v2.147.0) (2023-01-23)
+
+
+### Bug Fixes
+
+* Clarify selection in decision tree ([ccde999](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/ccde999014fd86d11c4bb90135f296748f95d560))
+* **deps:** update .tool-versions node to 16.15.0 ([5d5744f](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/5d5744ff02929298b5728f2db87f6ba3407b43ab))
+* **deps:** update gitlab ui/svg ([72370ee](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/72370ee8bbeed74f18a53471db5855ebe71083cb))
+
+
+### Features
+
+* **combobox:** Fix broken links to listbox ([a656625](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/a65662538e3b96728e451fd870de3d10377638d0))
+* **DateTime:** update with the API information ([dd841ba](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/dd841baa202b024d89c46c0c1ab7e737df9b91e0))
+
+## [2.146.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.146.0...v2.146.1) (2023-01-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nuxtjs/sentry to ^7.0.2 ([718631c](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/718631c2df0530cccce7e5a136ab7ae5e546f00a))
+* Update broken links ([2629e63](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/2629e63fcc40600c721677293935096420b1cac7))
+* **deps:** update gitlab ui/svg ([068c0f9](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/068c0f9e39482bab3bb6f275f412e999f3239742))
+
+# [2.146.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.145.1...v2.146.0) (2023-01-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nuxtjs/sentry to ^7.0.1 ([38efa52](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/38efa52b19926c93ddecc7c193664487dc1b0921))
+
+
+### Features
+
+* **Dropdown:** Update docs to align with use ([d08b507](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/d08b507afff84328ad6d71e890e03dcc24959036))
+
 ## [2.145.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.145.0...v2.145.1) (2023-01-02)
 
 

@@ -9,7 +9,7 @@ related:
 
 ## Examples
 
-<story-viewer story-name="base-new-dropdowns-listbox--default" title="Default listbox (in progress)"></story-viewer>
+<story-viewer story-name="base-new-dropdowns-listbox--search" title="Default listbox (in progress)"></story-viewer>
 
 <note>Listbox styles will be updated to match the UI kit.</note>
 
@@ -61,12 +61,17 @@ A [button](/components/button) that triggers a combobox comes in a few variants 
 - **Dropdown button**: A dropdown button has a [chevron-down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~chevron-down) icon to the right of the text label to indicate it will toggle additional content.
 - **Icon dropdown**: An icon button, like one that uses the vertical or horizontal [ellipsis icons](https://gitlab-org.gitlab.io/gitlab-svgs/?q=elli), functions similarly to other trigger buttons with the only difference being only an icon label with no visible text.
 
+### Size
+
+- **Trigger**: The [text input](/components/text-input) or [button](/components/button) width is determined by the properties available for each of those components.
+- **Panel**: Has a minimum and maximum width and a maximum height to keep content near the trigger and to keep panels consistent throughout the UI. The height of the panel is initially set to the height of its content (dynamic height) when less than the maximum, but can optionally be set to always use a fixed height.
+
 ### Behavior
 
 - By default, the panel opens below and is aligned to the left of the text input or button. However, when there isn't enough space in the viewport, the panel uses edge detection to position it above and/or aligned to the right of the text input or button.
 - The "tip" of the panel points at the trigger and is center-aligned with it by default.
 - If the content within the panel exceeds the maximum height then a scrim (gradient overlay) appears at the bottom of the panel as an overflow affordance. When a user has scrolled to the bottom of the overflowed content the scrim is removed.
-- A panel is closed by clicking outside of it, using the <kbd>esc</kbd> key, or by focus moving to an element outside of the component.
+- A panel is closed by clicking outside of it, using the <kbd>Esc</kbd> key, or by focus moving to an element outside of the component.
 - Two or less actions that don't scroll can be fixed in a footer at the bottom of a panel.
 - When one or more options are selected in a multiselect context, they can optionally be grouped in a section above unselected options, although they may not be visibly grouped until the selections are applied and the panel is opened again.
 - Collapsible listbox:

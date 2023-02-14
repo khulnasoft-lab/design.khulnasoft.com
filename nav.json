@@ -373,7 +373,11 @@
           {
             "title": "Merge request",
             "path": "merge-request"
-           }
+           },
+           {
+             "title": "Work item",
+             "path": "work-item"
+            }
         ]
       },
       {
@@ -455,6 +459,10 @@
           {
             "title": "Loading",
             "path": "loading"
+          },
+          {
+            "title": "Obfuscation",
+            "path": "obfuscation"
           },
           {
             "title": "Onboarding",

@@ -9,7 +9,7 @@ related:
 
 ## Examples
 
-<todo>Add updated examples once complete in GitLab UI.</todo>
+<story-viewer story-name="base-new-dropdowns-disclosure--default" title="Default disclosure (in progress)"></story-viewer>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=425%3A14)
 
@@ -47,6 +47,11 @@ A [button](/components/button) that triggers a dropdown panel comes in a few var
 - **Split dropdown button**: A split dropdown button is a special button group with two segments. The left text button is for the most common option and an attached dropdown button to the right opens a panel with additional options.
 - **Icon dropdown**: An icon button, like one that uses the vertical or horizontal [ellipsis icons](https://gitlab-org.gitlab.io/gitlab-svgs/?q=elli), functions similarly to other trigger buttons with the only difference being only an icon label with no text.
 
+### Size
+
+- **Trigger**: The [button](/components/button) width is determined by its available properties.
+- **Panel**: Has a minimum and maximum width and a maximum height to keep content near the trigger button and to keep panels consistent throughout the UI. The height of the panel is initially set to the height of its content (dynamic height) when less than the maximum, but can optionally be set to always use a fixed height.
+
 ### Behavior
 
 - By default, the panel opens below and is aligned to the left of the trigger button. However, when there isn't enough space in the viewport, the panel uses edge detection to position it above and/or aligned to the right of the trigger.
@@ -55,7 +60,7 @@ A [button](/components/button) that triggers a dropdown panel comes in a few var
 - When a link is selected the user is taken to the destination.
 - When an action is selected that impacts the current view, the panel is closed and the action performed.
 - When an action option is selected that causes a page refresh or other change of context the panel returns to a closed state.
-- All panels can be closed by clicking outside of them, using the <kbd>esc</kbd> key, or by focus moving to an element outside of the component.
+- All panels can be closed by clicking outside of them, using the <kbd>Esc</kbd> key, or by focus moving to an element outside of the component.
 - A limited amount of options that don't scroll can be fixed at the bottom of a dropdown panel.
 
 ### Content
