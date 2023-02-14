@@ -132,7 +132,7 @@ By hovering over specific data points on charts, users will see a [popover](/com
 - Popover header: x-axis value (x-axis title)
 - Popover body: y-axis title, value
 
-Placement is set to the right by default to avoid obstructing y-axis data but can be adjusted if doing so would make the chart easier to read. The popover placement should dynamically shift depending on the selected element and space available in the chart.
+Hovering over any of the charts on this page reveals a visual example of how popover content is structured in charts. Placement is set to the right by default to avoid obstructing y-axis data but can be adjusted if doing so would make the chart easier to read. The popover placement should dynamically shift depending on the selected element and space available in the chart.
 
 #### Text wrapping in chart popovers
 
