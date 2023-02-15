@@ -49,6 +49,14 @@ We're in the process of migrating non-CSF examples to CSF so that we can use Sto
 
 [Learn how to embed component stories](/doc/embed-gitlab-ui-stories.md).
 
+### Component labels
+
+Each component should have a corresponding [label](https://gitlab.com/gitlab-org/gitlab/-/labels?subscribed=&search=component:) that is prefixed with 'component:'. Components that are part of a larger group in Pajamas, like form elements or dropdowns, can be also include the group name as a prefix. For example, 'component:form-checkbox'.
+
+In the 'Contribute' tab found on a component page, issues and merge requests are automatically linked to the correct component label. However, in some instances the label may not be a 1:1 and need to be manually references in the component page frontmatter. To do this, add `componentLabel:` followed by the label name without 'component:' to the frontmatter. For example, `componentLabel: dropdown-disclosure` will correctly reference items using the 'component:dropdown-disclosure' label.
+
+When adding or updating a component label, please be aware that it may impact the [Pajamas Adoption Scanner](https://gitlab.com/gitlab-org/frontend/pajamas-adoption-scanner) and/or other spreadsheets or tools that rely on the labels as a reference or data point.
+
 ### Adding images
 
 When adding images to documentation, use the `<figure-img>` component to:
