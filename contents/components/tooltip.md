@@ -16,9 +16,7 @@ related:
 
 ## Structure
 
-<figure class="figure" role="figure" aria-label="Tooltip structure">
-  <img class="figure-img" src="/img/tooltip-structure.svg" alt="Numbered diagram of a tooltip structure" role="img" />
-</figure>
+<figure-img alt="Numbered diagram of a tooltip structure" label="Tooltip structure" src="/img/tooltip-structure.svg"></figure-img>
 
 1. **Container**: Wraps the content.
 1. **Text**: Concisely describes the referring element or its purpose.
