@@ -9,6 +9,8 @@ description: A dashboard is a root level container that has multiple panels, and
 - **Panel**: The basic building block of a dashboard. Each panel is composed of a title and visualization which can be configured or modified through options. Panels can be moved and resized to arrange them within a dashboard.
 - **View**: For landing pages, a view can be a list, table, or board, and is action-oriented.
 
+<todo>Add visual examples for dashboard and panel content and concepts.</todo>
+
 ## Content and configuration
 
 ### Dashboard
