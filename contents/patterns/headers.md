@@ -16,7 +16,7 @@ The page title is placed below the breadcrumb. A page title should reflect the c
 
 ### Metadata (optional) 
 
-Relevant metadata, such as user-generated content creation date, author, and statuses, should form a row, placed below the page title. This metadata can be a combination of multiple components: [Labels](/components/label), [badge](/components/badge), [avatars](/components/avatar), [links](component/link). 
+Relevant metadata, such as user-generated content creation date, author, and statuses, should form a row, placed below the page title. This metadata can be a combination of multiple components: [Labels](/components/label), [badge](/components/badge), [avatars](/components/avatar), [links](components/link). 
 
 ### Buttons (optional) 
 
