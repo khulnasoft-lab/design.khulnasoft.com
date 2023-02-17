@@ -12,8 +12,10 @@ const GITLAB_UI_URL = (
   process.env.GITLAB_UI_URL || 'https://gitlab-org.gitlab.io/gitlab-ui'
 ).replace(/\/+$/, '');
 
+// TODO: Reset LOOKBOOK_URL below from 'lookbook-v2' branch back to 'main' once this got merged:
+// https://gitlab.com/gitlab-org/frontend/playground/lookbook-app/-/merge_requests/2
 const LOOKBOOK_URL = (
-  process.env.LOOKBOOK_URL || 'https://gitlab-40159195-main-5zzu3ebmza-ue.a.run.app'
+  process.env.LOOKBOOK_URL || 'https://gitlab-40159195-lookbook-v2-5zzu3ebmza-ue.a.run.app/lookbook'
 ).replace(/\/+$/, '');
 
 if (GOOGLE_ANALYTICS_ID) {
@@ -24,7 +26,9 @@ if (GOOGLE_ANALYTICS_ID) {
 
 const cspPolicies = [
   "default-src 'self'",
-  "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://cdn.cookielaw.org https://player.vimeo.com",
+  `script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://cdn.cookielaw.org https://player.vimeo.com ${
+    new URL(LOOKBOOK_URL).origin
+  }`,
   "style-src 'self' 'unsafe-inline'",
   "object-src 'none'",
   "img-src 'self' https: data:",
