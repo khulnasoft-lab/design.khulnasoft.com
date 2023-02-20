@@ -16,7 +16,6 @@ description: A dashboard is a root level container that has multiple panels, and
 ### Dashboard
 
 - **[Accordion](/components/accordion)**: Show and hide content.
-- **[Breadcrumb](/components/breadcrumb)**: A list of links for the current page and its ancestors (parent, grandparent, and so on), typically going all the way back to the site homepage.
 - **Configuration menu**: Open and modify dashboard settings and utilize dashboard actions.
 - **Date range**: An interval of dates defined relative to the current date or a custom range.
 - **Description**: Explains the purpose of the dashboard.
