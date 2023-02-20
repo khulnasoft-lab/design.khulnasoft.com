@@ -8,7 +8,7 @@ Headers are placed at the top of the page, below the navigation. Headers provide
 
 ### Breadcrumb
 
-Breadcrumbs reveal the user’s current location and provide access to previous pages. See [breadcrumb](/components/breadcrumb) component. 
+A [breadcrumb](/components/breadcrumb) indicates the current location and provide access to parent and ancestor pages.
 
 ### Title
  
@@ -16,7 +16,7 @@ The page title is placed below the breadcrumb. A page title should reflect the c
 
 ### Metadata (optional) 
 
-Relevant metadata, such as user-generated content creation date, author, and statuses, should form a row, placed below the page title. This metadata can be a combination of multiple components: [Labels](/components/label), [badge](/components/badge), [avatars](/components/avatar), [links](/components/link). 
+Relevant metadata, such as user-generated content creation date, author, and statuses, should form a row, placed below the page title. This metadata can be a combination of multiple components: [Labels](/components/label), [badges](/components/badge), [avatars](/components/avatar), [links](/components/link). 
 
 ### Buttons (optional) 
 
@@ -32,7 +32,7 @@ TODO: [ADD HEADER ILLUSTRATION]
 
 ### Sticky Position 
 
-The header can have a sticky position to remain visible at the top of the screen as the user scrolls down the page. Setting a sticky position will help users quickly access the breadcrumb and the main page actions, even when they are further down the page. This is especially useful for pages with a lot of content. Style a sticky header according to the [elevation](/product-foundations/elevation) guidelines and consider using a smaller font size for the title to reduce the header height. Avoid using a sticky position for headers on short pages where the header could entirely cover the content. In these cases, the header should remain at the top of the page.
+The header can have a sticky position to remain visible at the top of the screen as the user scrolls down the page. Setting a sticky position helps the user quickly access the breadcrumb and the main page actions, even when they are scrolled further down the page. This is especially useful for pages with a lot of content. Style a sticky header according to the [elevation](/product-foundations/elevation) guidelines and consider using a smaller font size for the title to reduce the header height. Avoid using a sticky position for headers on short pages where the header could entirely cover the content. In these cases, the header should remain at the top of the page.
 
 TODO: [ADD STICKY GIF]
 
