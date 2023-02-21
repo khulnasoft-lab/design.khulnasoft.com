@@ -12,7 +12,7 @@ A [breadcrumb](/components/breadcrumb) indicates the current location and provid
 
 ### Title
  
-The page title is placed below the breadcrumb. A page title should reflect the currently active element of the breadcrumb as much as possible (eg. A `Gitlab.org > Gitlab > Environments` breadcrumb should translate to an `Environments` page title). Titles should be styled following the [UI typography](/product-foundations/layout#ui-typography) guidelines. 
+The page title (`<h1>` heading) is placed below the breadcrumb. A page title should reflect the currently active element of the breadcrumb as much as possible (eg. A `Gitlab.org > Gitlab > Environments` breadcrumb should translate to an `Environments` page title). Titles should be styled following the [UI typography](/product-foundations/layout#ui-typography) guidelines. 
 
 ### Metadata (optional) 
 
