@@ -22,10 +22,15 @@ export default {
       script: [
         {
           src: `${this.$lookbookUrl}/../lookbook-assets/js/lookbook-core.js`,
-          body: true,
         },
       ],
     };
+  },
+  mounted() {
+    setTimeout(() => {
+      // wait for external script to load
+      window.Lookbook.initEmbeds();
+    }, 500);
   },
   computed: {
     componentName() {
