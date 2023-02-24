@@ -8,7 +8,7 @@ Headers are placed at the top of the page, below the navigation. Headers provide
 
 ### Breadcrumb
 
-A [breadcrumb](/components/breadcrumb) indicates the current location and provide access to parent and ancestor pages.
+A [breadcrumb](/components/breadcrumb) indicates the current location and provides access to parent and ancestor pages.
 
 ### Title
  
@@ -36,19 +36,30 @@ The header can have a sticky position to remain visible at the top of the screen
 
 TODO: [ADD STICKY GIF]
 
+### Right-to-Left
+
+As some languages are written to be read from right to left, the header should adapt to match the directionality of the U.I. 
+
+#### Title & Page description
+
+All textual elements should be aligned to the right. 
+
+#### Buttons 
+
+Buttons should always be placed in the top left corner and vertically aligned with the page title baseline. In this setup, buttons are displayed in reverse order (see [button alignment](/components/button#alignment))
+
+TODO: [ADD RTL HEADER ILLUSTRATION]
+
 ### Responsiveness
 
 #### Breakpoints 
 
 These breakpoints define specifications for different screens, devices, and orientations.
 
-- md: `≥768px`
-- lg: `≥992px`
-- xl: `≥1200px`
+- sm: `≤768px` The metadata and textual elements (Page title, page description) can reflow and break into multiple lines. Buttons can be housed under a common dropdown.
+- md: `≥768px` 
 
 ## Accessibility
 
-### DOM elements
-
-Consider including semantic elements such as `<header>` and `<h1>` in the DOM to create a logical structure for the page, making it easier for assistive technologies to understand and interpret the content.
+Include semantic elements such as `<header>` and `<h1>` in the DOM to create a logical structure for the page, making it easier for assistive technologies to understand and interpret the content.
 
