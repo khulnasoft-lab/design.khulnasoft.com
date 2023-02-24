@@ -42,11 +42,6 @@ A top-level menu item is the first anchor that appears within the left sidebar. 
 
 Proposing new top-level menu items follows the [process outlined in the handbook](https://about.gitlab.com/handbook/engineering/ux/navigation/). New additions are very deliberate and are made to optimize user workflows. Proposals should include data that supports it as key/foundational functionality within our DevOps platform.
 
-We do not add new top-level menu items in order to:
-
-- Improve discoverability of new features. Instead, look for other opportunities to highlight the functionality throughout the product.
-- Optimize for the potential future. We should be forward thinking without over optimizing. As features are developed and added, we can look into what changes may need to occur to support a growing feature.
-
 #### Messaging changes to users
 
 Continuously improving the navigation ensures the best possible user experience. To minimize disruption and properly introduce users to changes, follow these guidelines.
