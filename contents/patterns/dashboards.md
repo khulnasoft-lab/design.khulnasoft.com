@@ -46,6 +46,7 @@ The following interactions are available:
 - **Unique ID** (required): An internal value to uniquely identify the dashboard.
 - **Variable**: A variable is a placeholder for a value that could propagate through the panels. For example, a team name that could be rendered in charts or titles.
 - **Version history**: Listing of historical changes that were done to the dashboard that shows dates and author. Could have the option to revert back to any point of a past change if able.
+**Grid attributes**: The number of rows and columns, margin around panels, and other grid functionality that should be applied to the whole grid.
 
 #### Panel
 
