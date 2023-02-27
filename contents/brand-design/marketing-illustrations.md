@@ -51,14 +51,14 @@ Diagrams are used to illustrate the functionality of the GitLab product. They ac
 ### Color
 
 1. Diagrams use plenty of white space to make the story easy to follow and understand.
-1. Orange 03p or green can be used sparingly on icons to denote a positive or negative association. Example: a red X and green check mark.
-1. With white backgrounds,** use Charcoal for the linework and type.
+1. Orange 03p or Teal 02s can be used sparingly on icons to denote a positive or negative association. **Example:** Orange 03p for an X, or Teal 02s for a check mark.
+1. With white backgrounds, use Charcoal for the linework and type.
    1. Gray 03 can be used for dashed lines and motion lines
    1. Purple 01s can be used to add depth to elements or as an extra layer of color in the background.
 1. With Charcoal backgrounds, use white for the linework and type.
    1. Gray 03 can be used for dashed lines and motion lines.
-   1. Purple 01s can be used in parts of the linework to highlight and/or direct the user’s eye through the flow of the diagram
-   1. Gray 05 can be used to add depth to elements or as an extra layer of color in the background.
+   1. Purple 01s can be used in parts of the linework to highlight and/or direct the user’s eye through the flow of the diagram.
+   1. Gray 05 can be used to add depth to elements or used as an extra layer of color in the background.
 
 ### Linework
 
@@ -76,4 +76,4 @@ Diagrams are used to illustrate the functionality of the GitLab product. They ac
 1. A single-color tanuki (either Charcoal or Orange 02p) can be used sparingly in diagrams to denote a product feature.
 1. When representing how the GitLab product works in conjunction with or compared to another product, use the core logo. 
 
-<figure-img alt="GitLab diagram sample" label="Diagram sample" src="/img/brand/diagram.svg" width="480"></figure-img>
+<figure-img alt="GitLab diagram sample" label="Diagram sample" src="/img/brand/diagram.svg"></figure-img>
