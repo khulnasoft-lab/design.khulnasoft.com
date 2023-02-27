@@ -45,35 +45,36 @@ The marketing icons are created using the 8px grid system found within this [tem
 
 <figure-img alt="10 icons, one for each development stage" label="Software development lifecycle icon set" src="/img/brand/sdlc-icon-set.svg"></figure-img>
 
-## Marketing Diagrams
-Diagrams are used to illustrate the functionality of the GitLab product. They act like a manual, representing complex ideas step-by-step. They should be structured and visually clear, while using as minimal detail as possible. 
+## Marketing diagrams
+
+Diagrams are used to illustrate the functionality of the GitLab product. They act like a manual, representing complex ideas step-by-step. They should be structured and visually clear, while using as minimal detail as possible.
 
 ### Color
 
-1. Diagrams use plenty of white space to make the story easy to follow and understand.
-1. Orange 03p or green can be used sparingly on icons to denote a positive or negative association. Example: a red X and green check mark.
-1. With white backgrounds,** use Charcoal for the linework and type.
-   1. Gray 03 can be used for dashed lines and motion lines
-   1. Purple 01s can be used to add depth to elements or as an extra layer of color in the background.
-1. With Charcoal backgrounds, use white for the linework and type.
-   1. Gray 03 can be used for dashed lines and motion lines.
-   1. Purple 01s can be used in parts of the linework to highlight and/or direct the user’s eye through the flow of the diagram
-   1. Gray 05 can be used to add depth to elements or as an extra layer of color in the background.
+- Diagrams use plenty of white space to make the story easy to follow and understand.
+- Orange 03p or Teal 02s can be used sparingly on icons to denote a positive or negative association. **Example:** Orange 03p for an X, or Teal 02s for a check mark.
+- With white backgrounds, use Charcoal for the linework and type.
+   - Gray 03 can be used for dashed lines and motion lines
+   - Purple 01s can be used to add depth to elements or as an extra layer of color in the background.
+- With Charcoal backgrounds, use white for the linework and type.
+   - Gray 03 can be used for dashed lines and motion lines.
+   - Purple 01s can be used in parts of the linework to highlight and/or direct the user’s eye through the flow of the diagram.
+   - Gray 05 can be used to add depth to elements or used as an extra layer of color in the background.
 
 ### Linework
 
-1. Motion lines are used as accents; they should help tell the story and/or guide the user’s eye through the diagram’s flow.
-1. Line breaks give the feel of openness throughout the diagram. Lines should break before touching an icon, unless the icon is contained within a circle.
-1. Dashed lines are used to connect type and visual elements.
+- Motion lines are used as accents; they should help tell the story and/or guide the user’s eye through the diagram’s flow.
+- Line breaks give the feel of openness throughout the diagram. Lines should break before touching an icon, unless the icon is contained within a circle.
+- Dashed lines are used to connect type and visual elements.
 
-### Marketing Icons
+### Marketing icons
 
-1. Lines should break before touching an icon, unless the icon is contained within a circle.
-1. When using an icon within a circle, ensure the icon has 25% padding around it. 
+- Lines should break before touching an icon, unless the icon is contained within a circle.
+- When using an icon within a circle, ensure the icon has 25% padding around it. 
 
 ### Logo
 
-1. A single-color tanuki (either Charcoal or Orange 02p) can be used sparingly in diagrams to denote a product feature.
-1. When representing how the GitLab product works in conjunction with or compared to another product, use the core logo. 
+- A single-color tanuki (either Charcoal or Orange 02p) can be used sparingly in diagrams to denote a product feature.
+- When representing how the GitLab product works in conjunction with or compared to another product, use the core logo. 
 
-<figure-img alt="GitLab diagram sample" label="Diagram sample" src="/img/brand/diagram.svg" width="480"></figure-img>
+<figure-img alt="GitLab diagram sample" label="Diagram sample" src="/img/brand/diagram.svg"></figure-img>
