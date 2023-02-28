@@ -13,7 +13,7 @@ Video producers can create large-scale, custom illustrations as part of a video 
 - Each layer can have its own unique motion type which combine to create harmony.
 - Strokes and lines are animated independently with a stroke reveal effect.
 
-<figure-img alt="Deconstructed layered illustration animation example with motion details" label="Illustration animation example" src="/img/brand/illustration-animation-example.png"></figure-img>
+<figure-img alt="Deconstructed layered illustration animation example with motion details" label="Illustration animation example" src="/img/brand/illustration-animation-deconstructed.png"></figure-img>
 
 <vimeo-player title="Illustration" video-id="791344150"></vimeo-player>
 
@@ -99,8 +99,6 @@ Voice over example: “No more stitching point solutions. All you need is GitLab
 - Be careful not to go too heavy with one particular color.
 - Don't overuse motion with gradients; keep movement subtle.
 
-<todo>Add motion sample of incorrect gradients.</todo>
-
 ## Typographic animations
 
 ### Snap edits
@@ -109,7 +107,7 @@ Voice over example: “No more stitching point solutions. All you need is GitLab
 - Use in lieu of any large-scale drifts, move ins, or zooms.
 - Create a snap by jumping the text’s position in the middle of a scale animation.
 
-<todo>Add simple snap and complex snap motion samples.</todo>
+<vimeo-player title="Snap edits" video-id="791341810"></vimeo-player>
 
 ### Motion and scaling
 
@@ -117,8 +115,7 @@ Voice over example: “No more stitching point solutions. All you need is GitLab
 - Use for moments of pause to let words sink in.
 - Drifts utilize a 2-5% scale or position change.
 
-<todo>Add position drift and scale drift motion samples.</todo>
-<todo>Add figure and text with detailed specs.</todo>
+<vimeo-player title="Drifts" video-id="791341794"></vimeo-player>
 
 ### Outline reveals
 
@@ -134,17 +131,18 @@ The example below uses the following steps:
 
 <figure-img alt="Three frames showing text revealed by a stroke outline" label="Outline reveals example" src="/img/brand/outline-reveal-tech-spec.png"></figure-img>
 
-<todo>Add outline reveal motion samples.</todo>
+<vimeo-player title="Text outlines" video-id="791331656"></vimeo-player>
 
 ### Type repetitions
 
 - [Type repetitions](https://design.gitlab.com/brand-design/typography#type-repetitions) add visual interest while drawing attention to areas of emphasis. They are a more dynamic, spirited way to emphasize text. They can be used to emphasize a single word or a whole phrase and can animate in a variety of ways.
 - Slide the text lines upward into position behind masks one line at a time, transitioning opacity from 0-100 using Interactive ease.
 
-<figure-img alt="Type repetition with breakdown specs" label="Type repetitions" src="/img/brand/type-repetitions-motion.svg"></figure-img>
+<vimeo-player title="Type repetitions" video-id="791340089"></vimeo-player>
 
-<todo>Add reference for _interactive ease_.</todo>
-<todo>Add type repetition motion sample.</todo>
+<figure-img alt="Type repetition with breakdown specs" label="Type repetitions" src="/img/brand/type-repetition-motion.svg"></figure-img>
+
+<vimeo-player title="Type repetitions" video-id="791340089"></vimeo-player>
 
 ## Transitions
 
@@ -153,15 +151,14 @@ The example below uses the following steps:
 - In addition to straight cuts, when moving from animation to footage, footage to animation, or footage to footage, use the DevOps loop transition.
 - The tanuki should never be used as a transition mask. Use only the loop itself.
 
-<todo>Add a reference for the _DevOps loop transition_.</todo>
-<todo>Add motion sample.</todo>
+<vimeo-player title="Partial transition" video-id="791341092"></vimeo-player>
 
 ### DevOps loop sections as mask
 
 - In the DevOps loop transition, the loop is split into sections that are animated as masks to reveal another layer.
 - DevOps loop transitions can be colorful and utilize solid colors as well as gradients.
 
-<todo>Add motion sample.</todo>
+<vimeo-player title="Masked transition" video-id="795681210"></vimeo-player>
 
 ## Lower thirds
 
@@ -173,6 +170,8 @@ The example below uses the following steps:
   - Lower third remains onscreen for 4-5 seconds. 
   - **Transition out:** Animate opacity from 100% to 0% over 1 second.
 
-<figure-img alt="Lower thirds motion example with specs" label="Lower thirds example" src="/img/brand/lower-thirds.png"></figure-img>
+<vimeo-player title="Masked transition" video-id="791331388"></vimeo-player>
 
-<todo>Add motion sample.</todo>
+<figure-img alt="Lower thirds motion example with specs" label="Lower thirds example" src="/img/brand/lower-thirds-sample.png"></figure-img>
+
+
