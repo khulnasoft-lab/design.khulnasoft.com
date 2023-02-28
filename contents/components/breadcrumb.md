@@ -22,7 +22,6 @@ related:
 1. **Avatar** (optional): Prefixes a group or project link.
 1. **Link**: Opens the page in the same window.
 1. **Separator**: The forward slash character `/` is between each link.
-1. **Border**: The bottom border should always be present between the breadcrumb and the content of the page.
 
 ## Guidelines
 
@@ -33,6 +32,13 @@ related:
 ### When not to use
 
 - If you need to link to sibling or related pages, use a form of [navigation](/patterns/navigation) instead.
+
+### Appearance
+
+- An avatar can appear to the left of the text for any group, project, or user link in the breadcrumb.
+- A bottom border may be applied to a parent container to visually distinguish the breadcrumb and the content of the page.
+
+<todo>Update border related appearance notes as a result of [!3262](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3263#note_1283440645).</todo>
 
 ### Behavior
 
@@ -76,5 +82,6 @@ Some pages have a special breadcrumb path to make the text intuitive. They are d
 ### Accessibility
 
 - A `nav` element with `aria-label="Breadcrumb"` wraps an ordered list to provide a navigation landmark.
+- The last item is a link so that the reference is in the focus order. This has the added benefit of being able to generate a pristine link to the page (without a trailing anchor reference to a heading, diff, comment, or other location within the page) or to refresh.
 - `aria-current="page"` is on the last link to indicate that it's the current page.
 - See the [WAI-ARIA Authoring Practices Breadcrumb Example](https://w3c.github.io/aria-practices/examples/breadcrumb/index.html) for more details.
