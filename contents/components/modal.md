@@ -66,9 +66,9 @@ Clicking the "edit" button places a user in an "edit mode" for this row, which u
 
 ### Behavior
 
-- Opens on top of all other content with a transparent backdrop behind to cover page content.
+- Opens on top of all other content with a transparent backdrop behind to cover it.
 - Top-aligned at the extra-small (xs) breakpoint and otherwise vertically centered in the viewport.
-- Always centered horizontally and responsively scale down when the page is narrower than the modal's max-width.
+- Always center horizontally and scale down responsively when the page is narrower than the modal's max width.
 - The height of the modal is determined by the content.
   - When modal content extends below the viewport, the viewport remains scrollable.
   - If modal content exceeding the height of the viewport impedes a user’s ability to maintain context or see important actions, the content within the modal is scrollable.
