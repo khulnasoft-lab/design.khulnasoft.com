@@ -44,9 +44,8 @@ related:
 
 ### Behavior
 
-- Popovers are triggered on click on an element whose purpose is to trigger the popvoer. 
+- Popovers are triggered on click on an element whose purpose is to trigger the popover. 
 - Popovers are dimissed by clicking on the close button on the popover or by clicking outside of the popover.
-
 
 ### Content
 
@@ -56,6 +55,6 @@ related:
 
 ### Accessibility
 
-- When focus is within the popover, the `Enter` or ~`Space` key triggers the popover.
+- When focus is within the popover, the `Enter` or `Space` key triggers the popover.
 - When the popover is visible, the `Tab` key moves focus through interactive elements within it.
 - When the focus is within the popover, the `Esc` key will close the popover.
