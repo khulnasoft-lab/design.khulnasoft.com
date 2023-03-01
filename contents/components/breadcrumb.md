@@ -22,7 +22,7 @@ related:
 
 1. **Avatar** (optional): Prefixes a group or project link.
 1. **Link**: Opens the page in the same window.
-1. **Separator**: The forward slash character `/` is between each link.
+1. **Separator**: A forward slash character `/` separates each link.
 
 ## Guidelines
 
@@ -37,7 +37,7 @@ related:
 ### Appearance
 
 - An avatar can appear to the left of the text for any group, project, or user link in the breadcrumb.
-- A bottom border may be applied to a parent container to visually distinguish the breadcrumb and the content of the page.
+- A bottom border may be applied to a parent container to visually distinguish the breadcrumb from the content of the page.
 
 <todo>Update border related appearance notes as a result of [!3262](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3263#note_1283440645).</todo>
 
