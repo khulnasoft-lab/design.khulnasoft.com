@@ -44,12 +44,9 @@ related:
 
 ### Behavior
 
-- By default, popovers fade in on hover or focus of its trigger element. 
-- Occasionally, a popover can fade in on page load. These should be used sparingly (no more than one per page), and always contain a dismiss button. Consider using these popovers to highlight a new feature or area.
-- They fade out upon interacting with an area or element outside of the popover or its trigger, or on a delay of the cursor moving outside the popover or its trigger element.
-- Similar to [tooltips](/components/tooltip), popovers have a default delay of `500ms` on `show` to help confirm hover intent and ensure that:
-  - A user doesn’t accidentally hover an element with a popover, which might cover an adjacent element they intended to select.
-  - The UI isn‘t constantly showing popovers when a user is moving their mouse over the page.
+- Popovers are triggered on click on an element whose purpose is to trigger the popvoer. 
+- Popovers are dimissed by clicking on the close button on the popover or by clicking outside of the popover.
+
 
 ### Content
 
@@ -59,4 +56,6 @@ related:
 
 ### Accessibility
 
-<todo>Add accessibility guidelines.</todo>
+- When focus is within the popover, the `Enter` or ~`Space` key triggers the popover.
+- When the popover is visible, the `Tab` key moves focus through interactive elements within it.
+- When the focus is within the popover, the `Esc` key will close the popover.
