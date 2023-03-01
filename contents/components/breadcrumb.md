@@ -14,6 +14,7 @@ related:
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit-Beta?node-id=2560%3A2230)
 
+<note>The breadcrumb design will be updated as part of [gitlab-ui/#2141](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/2141).</note>
 
 ## Structure
 
