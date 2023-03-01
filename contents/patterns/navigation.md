@@ -53,14 +53,6 @@ Use these approaches based on item usage:
 - **Advanced:** An advanced page-level info [alert](/components/alert) is required if an item has equal to or greater than 0.1% of clicks per active user per month. Advanced notice should be in place for at least one milestone.
 - **Temporary opt-in:** If more than 5 top-level navigation items are being changed that have a combined 5% of clicks per active users per month, a temporary opt-in method should be provided for at least 2 milestones. Temporary opt-in provides time to communicate major navigation overhauls while also allowing a user to preview changes.
 
-Consider the following for all top-level menu item changes:
-
-- All changes should be included in the release post.
-- A [canary rollout](https://docs.gitlab.com/ee/user/project/canary_deployments.html) may be used to slowly roll out changes to users and get their feedback before releasing to all users.
-- Documentation should always be updated in the first release the change is introduced. For canary rollouts, the change may not be available to everyone at the same time and this can be specified in the docs using the following:
-
-> This change is being rolled out incrementally to a subset of the user base. Therefore, this change may not be available to you until it is fully enabled for all users.
-
 ### Submenu items
 
 Each submenu should be a self-contained group of functionality, for example:
