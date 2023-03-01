@@ -174,4 +174,8 @@ The example below uses the following steps:
 
 <figure-img alt="Lower thirds motion example with specs" label="Lower thirds example" src="/img/brand/lower-thirds-sample.png"></figure-img>
 
+**Motion details:** Use white text for lower thirds on a dark background. Use Charcoal copy on light backgrounds. Animate opacity 0% > 100%. Duration of transition: 1 second.
+- **Name:** Inter Semi Bold, 60px (header)
+- **Organization and title:** Inter Regular, 40px (subheader)
+
 
