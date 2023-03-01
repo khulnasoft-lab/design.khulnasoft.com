@@ -71,9 +71,8 @@ Clicking the "edit" button places a user in an "edit mode" for this row, which u
 - Always center horizontally and scale down responsively when the page is narrower than the modal's max width.
 - The height of the modal is determined by the content.
   - When modal content extends below the viewport, the viewport remains scrollable.
-  - If modal content exceeding the height of the viewport impedes a user’s ability to maintain context or see important actions, the content within the modal is scrollable.
+  - If modal content exceeds the height of the viewport and impedes a user’s ability to maintain context or see important actions, the content within the modal can be made scrollable. However, this should be avoided, if possible, because doing so impacts the ability for [dropdowns](/components/dropdown-overview) and other popups ([tooltips](/components/tooltip) and [popovers](/components/popover)) to extend outside the boundary of the modal when necessary and to reposition as needed depending on available space.
 - On small screens where content requires scrolling, consider opening the content in a new page instead.
-- Avoid making the modal content area scrollable. This allows dropdowns and similar popups to extend outside the boundary of the modal when necessary and to re-position as needed depending on available space.
 - The first focusable item should be auto-focused within the modal dialog.
 
 ### Content
