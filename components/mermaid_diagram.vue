@@ -7,11 +7,7 @@ export default {
   },
   async mounted() {
     const { default: mermaid } = await import('mermaid');
-    mermaid.initialize({});
-    await mermaid.run({
-      nodes: [this.$el],
-      suppressErrors: true,
-    });
+    mermaid.init(undefined, this.$el);
     this.diagramInitialized = true;
   },
 };

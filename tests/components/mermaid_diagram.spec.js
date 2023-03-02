@@ -19,14 +19,10 @@ describe('mermaid-diagram component', () => {
     wrapper.destroy();
   });
 
-  it('initializes mermaid on mount', async () => {
+  it('calls mermaid.init() on mount', async () => {
     await createComponent();
 
-    expect(mermaid.initialize).toHaveBeenCalledWith({});
-    expect(mermaid.run).toHaveBeenCalledWith({
-      nodes: [wrapper.vm.$el],
-      suppressErrors: true,
-    });
+    expect(mermaid.init).toHaveBeenCalledWith(undefined, wrapper.vm.$el);
   });
 
   it('removes the gl-opacity-0 class once the graph is rendered', async () => {

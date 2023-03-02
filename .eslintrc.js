@@ -1,5 +1,3 @@
-const JEST_MOCKS = 'tests/__mocks__/**/*.js';
-
 module.exports = {
   extends: ['plugin:@gitlab/default'],
   rules: {
@@ -10,7 +8,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.spec.js', 'tests/jest_setup.js', JEST_MOCKS],
+      files: ['**/*.spec.js', 'tests/jest_setup.js'],
       extends: ['plugin:@gitlab/jest'],
       rules: {
         'promise/always-return': 'off',
@@ -20,12 +18,6 @@ module.exports = {
             assertFunctionNames: ['expect*'],
           },
         ],
-      },
-    },
-    {
-      files: [JEST_MOCKS],
-      rules: {
-        'import/no-default-export': 'off',
       },
     },
   ],
