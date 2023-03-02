@@ -15,7 +15,10 @@ related:
 
 ## Structure
 
-<todo>Add structure visual and list.</todo>
+<figure-img alt="Numbered diagram of a link structure" label="Link structure" src="/img/link-structure.svg"></figure-img>
+
+1. **Content**: Text that indicates the link's destination.
+1. **Icon** (optional): External link icon that indicates the destination is on an outside domain. 
 
 ## Guidelines
 
