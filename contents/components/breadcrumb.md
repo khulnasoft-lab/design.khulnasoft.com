@@ -83,6 +83,6 @@ Some pages have a special breadcrumb path to make the text intuitive. They are d
 ### Accessibility
 
 - A `nav` element with `aria-label="Breadcrumb"` wraps an ordered list to provide a navigation landmark.
-- The last item is a link so that the reference is in the focus order. This has the added benefit of being able to generate a pristine link to the page (without a trailing anchor reference to a heading, diff, comment, or other location within the page) or to refresh.
+- Ensure the last item in a breadcrumb is a link (rather than plain text) so it's included in the focus order. Added benefits of doing so include making it easy to generate a pristine page link (without a trailing anchor reference to a heading, diff, comment, or other location within the page) or to refresh the page.
 - `aria-current="page"` is on the last link to indicate that it's the current page.
 - See the [WAI-ARIA Authoring Practices Breadcrumb Example](https://w3c.github.io/aria-practices/examples/breadcrumb/index.html) for more details.
