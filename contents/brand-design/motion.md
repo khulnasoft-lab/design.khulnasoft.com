@@ -53,7 +53,6 @@ Voice over example: “No more stitching point solutions. All you need is GitLab
 
 <vimeo-player title="Frame composition" video-id="791336183"></vimeo-player>
 
-
 ## Tanuki + DevOps loop
 
 - Whenever introducing the GitLab logo in video, the trace logo animation may be used.
@@ -135,7 +134,7 @@ The example below uses the following steps:
 
 ### Type repetitions
 
-- [Type repetitions](https://design.gitlab.com/brand-design/typography#type-repetitions) add visual interest while drawing attention to areas of emphasis. They are a more dynamic, spirited way to emphasize text. They can be used to emphasize a single word or a whole phrase and can animate in a variety of ways.
+- [Type repetitions](/brand-design/typography#type-repetitions) add visual interest while drawing attention to areas of emphasis. They are a more dynamic, spirited way to emphasize text. They can be used to emphasize a single word or a whole phrase and can animate in a variety of ways.
 - Slide the text lines upward into position behind masks one line at a time, transitioning opacity from 0-100 using Interactive ease.
 
 <vimeo-player title="Type repetitions" video-id="791340089"></vimeo-player>
