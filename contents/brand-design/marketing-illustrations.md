@@ -45,8 +45,9 @@ The marketing icons are created using the 8px grid system found within this [tem
 
 <figure-img alt="10 icons, one for each development stage" label="Software development lifecycle icon set" src="/img/brand/sdlc-icon-set.svg"></figure-img>
 
-## Marketing Diagrams
-Diagrams are used to illustrate the functionality of the GitLab product. They act like a manual, representing complex ideas step-by-step. They should be structured and visually clear, while using as minimal detail as possible. 
+## Marketing diagrams
+
+Diagrams are used to illustrate the functionality of the GitLab product. They act like a manual, representing complex ideas step-by-step. They should be structured and visually clear, while using as minimal detail as possible.
 
 ### Color
 
@@ -66,7 +67,7 @@ Diagrams are used to illustrate the functionality of the GitLab product. They ac
 - Line breaks give the feel of openness throughout the diagram. Lines should break before touching an icon, unless the icon is contained within a circle.
 - Dashed lines are used to connect type and visual elements.
 
-### Marketing Icons
+### Marketing icons
 
 - Lines should break before touching an icon, unless the icon is contained within a circle.
 - When using an icon within a circle, ensure the icon has 25% padding around it. 
