@@ -8,7 +8,7 @@ These guidelines set the standard for upholding a cohesive brand image. Our bran
 
 At GitLab, we’ve created an environment where everyone can contribute, even when it comes to our brand. In 2015, the brand first emerged through the collaborative efforts of the wider GitLab community. After our company went public in 2021, we took a closer look at all its components and began a larger iteration to align our image with the next chapter of our journey. With this creative refresh we put the product at the center of our brand and refined each element to work seamlessly together.
 
-Our product propels users into the future of DevOps. With that purpose in mind, we’ve designed our brand to embody the efficiency, innovation, modern-edge, and simplicity of our all-in-one DevSecOps Platform.
+Our product propels users into the future of DevOps. With that purpose in mind, we’ve designed our brand to embody the efficiency, innovation, modern-edge, and simplicity of our single application DevSecOps Platform.
 
 ## Brand principles
 
