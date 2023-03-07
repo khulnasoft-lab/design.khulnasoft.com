@@ -8,7 +8,9 @@ This page describes the navigation guidelines that apply to the GitLab user inte
 
 The navigation is made up of three components: The [navigation sidebar](), the [breadcrumb](), and the [interaction button](). All of these components were designed to work together within the bigger picture of [page templates]().
 
-## Anatomy
+## Layout
+
+<figure-img alt="New navigation sidebar layout" label="A grid layout of the new navigation sidebar structure identifying specific sections" src="/img/new-navigation.svg"></figure-img>
 
 The navigation sidebar is comprised of sections. Depending on which context a user is in will influence what sections are made available.
 
