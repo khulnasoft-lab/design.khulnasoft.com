@@ -53,7 +53,7 @@ related:
 ### Behavior
 
 - Selecting an option changes it state to either checked or unchecked.
-- Selecting a nested checkbox can change the state of a parent checkbox to either checked, unchecked, or indeterminate depending on the state of sibling checkboxes.
+- Selecting a child checkbox can change the state of a parent checkbox to either checked, unchecked, or indeterminate depending on the state of sibling checkboxes.
 - If a parent checkbox is either checked or unchecked, all child checkboxes must match its state.
 
 ### Content
