@@ -4,9 +4,9 @@ name: Affordance
 
 ## Visibility
 
-If a control or action is critical to a task, and can be achieved no other way, then it should be exposed and available by default for all users and modalities (mouse, keyboard, touch, voice). While there may be an option for toggling visibility of such controls and actions, a user should be aware they exist before toggling them off.
+If a control or action is critical to a task, and cannot be achieved in another way, then it should be visible by default for all users and modalities (mouse, keyboard, touch, voice). While there may be an option for toggling visibility of such controls and actions, a user should be aware they exist before toggling them off.
 
-If a control or action is exposed at a higher level as a "shortcut" while being available elsewhere and in proximity, then it _may_ be possible to hide/show it for `:hover` and `:focus-within` if it's determined that not showing it by default provides a better overall experience for all users. For example, hovering or focusing on an item in an email inbox list may reveal controls, like delete, that are also available when viewing the individual email itself.
+It may be possible to hide/show a control or action if it is exposed at a higher level as a "shortcut", is available elsewhere and in proximity, and it's determined that not showing it by default provides a better overall experience for all users and modalities. For example, hovering or focusing on an item in an email inbox list may reveal controls, like delete, that are also available when viewing the individual email itself.
 
 ## Cursors
 
