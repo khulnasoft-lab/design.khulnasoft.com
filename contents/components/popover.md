@@ -55,6 +55,6 @@ related:
 
 ### Accessibility
 
-- When focus is within the popover, the `Enter` or `Space` key triggers the popover.
-- When the popover is visible, the `Tab` key moves focus through interactive elements within it.
-- When the focus is within the popover, the `Esc` key will close the popover.
+- When the popover is visible, the <kbd>Tab</kbd> key moves focus through any interactive elements within it.
+- When the popover is visible, the content within is next in the reading order and not appended to the DOM.
+- When focus is on the trigger button or within the popover, the <kbd>Esc</kbd> key closes it.
