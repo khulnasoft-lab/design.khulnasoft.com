@@ -44,11 +44,13 @@ related:
 
 ### Behavior
 
-- Popovers are triggered on click on an element whose purpose is to trigger the popover. 
-- Popovers are dimissed by clicking on the close button on the popover or by clicking outside of the popover.
+- Popovers are triggered from a [button](/components/button) on click event. 
+- Popovers are dimissed by clicking on the close button on the popover or by clicking outside of the popover. Popovers can also be dismissed by the the <kbd>Esc</kbd> key.
 
 ### Content
 
+- Popovers allow interactive content such as links or buttons.
+- Popovers allow rich content such as avatars.
 - All copy within a popover should be short, actionable, and use clear language. 
 - The copy in the header should be shorter and even more concise than the copy in the body of the popover. 
 - The body can contain a link, for example, a "Learn more" link takes the user to the Docs page for more info. 
@@ -57,4 +59,6 @@ related:
 
 - When the popover is visible, the <kbd>Tab</kbd> key moves focus through any interactive elements within it.
 - When the popover is visible, the content within is next in the reading order and not appended to the DOM.
+- When the <kbd>Tab</kbd> key exits the popover, it closes.
 - When focus is on the trigger button or within the popover, the <kbd>Esc</kbd> key closes it.
+
