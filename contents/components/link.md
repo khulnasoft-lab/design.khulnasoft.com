@@ -72,12 +72,12 @@ There are four categories of links in GitLab. Although all links are navigationa
 For all links:
 
 - All links and their states must have a contrast ratio of at least 4.5:1 against the background color ([Understanding WCAG SC 1.4.3 Contrast Minimum](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)).
-- A link must have a visible focus state ([WCAG SC 2.4.7 Focus Visible](https://www.w3.org/TR/WCAG21/#focus-visible)).
+- A link must have a visible focus state ([Understanding WCAG SC 2.4.7 Focus Visible](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html)).
 
 For inline text links:
 
-- Color can't be the only way to visually distinguish a link. The link color doesn't have at least a 3:1 contrast ratio from surrounding text, therefore, an underline is used for all states as a visual means to indicate it ([WCAG SC 1.4.1 Use of Color](https://www.w3.org/TR/WCAG21/#use-of-color)).
-- Since an underline is used as a required graphical element to distinguish a link, it must have at least a 3:1 contrast ratio against the background color for all states ([WCAG SC 1.4.11 Non-text Contrast](https://www.w3.org/TR/WCAG21/#non-text-contrast)).
+- Color can't be the only way to visually distinguish a link. The link color doesn't have at least a 3:1 contrast ratio from surrounding text, therefore, an underline is used for all states as a visual means to indicate it ([Understanding WCAG SC 1.4.1 Use of Color](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html)).
+- Since an underline is used as a required graphical element to distinguish a link, it must have at least a 3:1 contrast ratio against the background color for all states ([Understanding WCAG SC 1.4.11 Non-text Contrast](https://www.w3.org/TR/WCAG21/#non-text-contrast)).
 
 For user interface links:
 
