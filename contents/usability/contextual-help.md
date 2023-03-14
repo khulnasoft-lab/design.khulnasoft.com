@@ -16,7 +16,7 @@ Help content can:
 
 In some situations, you can link from the UI to the GitLab product documentation.
 
-## When to use a help link
+## When to use a link to documentation
 
 Always strive to provide users with help in the UI itself. Use UI text or a [drawer](/components/drawer).
 
