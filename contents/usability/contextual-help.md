@@ -6,31 +6,45 @@ related:
   - drawer
 ---
 
-Help content should be used as a fallback to help users complete and better understand tasks, with the primary method of understanding being the UI itself. Embedding help content directly within the feature it serves is the best way to assist users who have hit a roadblock. Affordance is higher when help content is available in context.
+The primary method for providing help should be in the UI itself. Affordance is higher when help content is available in context.
 
-Help comes in the form of various types of content designed to:
+Help content can:
 
-- Assist users unable to complete a task.
+- Assist users who are unable to complete a task.
 - Help users to understand a concept in more detail.
 - Provide additional technical details not available in the UI.
 
+In some situations, you can link from the UI to the GitLab product documentation.
+
+## When to use a link to documentation
+
+Always strive to provide users with help in the UI itself. Use UI text or a [drawer](/components/drawer).
+
+However, you might need to use a link to the product documentation if:
+
+- Users require information that can't be communicated in the available space. (For example, a list of variables that are defined fully in the documentation.)
+- The UI is part of a larger workflow.
+
 ## Formatting help content
 
-If the most relevant information can be summarized succinctly, put the summary directly in the UI instead of using a help link. However, you can use a help link to provide supplemental information.
+Help links open in a new tab because:
 
-Help links open in a new tab. Doing so makes the result of clicking the links predictable and prevents users from needing to immediately navigate away from their task.
+- Clicking links is predictable.
+- The user does not need to navigate away from their task.
 
-To learn how to link to GitLab docs in various programming languages, see [Linking to /help](https://docs.gitlab.com/ee/development/documentation/#linking-to-help).
+To learn how to link to GitLab documentation in various programming languages, see [Linking to /help](https://docs.gitlab.com/ee/development/documentation/#linking-to-help).
 
 ### Link text
 
-Phrase the link as the question that will be answered by the linked content.
+You should always phrase the link as a question.
 
 - **Example:** A merge request approval is required. [Who can approve](#)?
 
-If you can't determine a useful question, use `Learn more`. However, be aware that `Learn more` is not descriptive or meaningful, and should be used sparingly.
+If you can't determine a useful question, use `Learn more`. However, be aware that `Learn more` is **not descriptive or meaningful**, and **should be used sparingly**.
 
 - **Example:** Approve a merge request. [Learn more](#).
+
+Note: The punctuation is not part of the link.
 
 For screen reader users, add an [aria-label](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8) with a full-sentence description. Punctuation should not be part of the link.
 
@@ -43,7 +57,7 @@ If the help content is outside of the GitLab instance, make that clear in the li
 
 ### Help icon
 
-If that's not possible and space is tight, use the [help icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) that, when hovered or focused on, shows the summary in a [popover](/components/popover). The popover title should be the question that is answered by the summary. A `Learn more` link can be added to the popover to associate additional, relevant information.
+If link text is not possible and space is tight, use the [help icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) that, when hovered or focused on, shows the summary in a [popover](/components/popover). The popover title should be the question that is answered by the summary. A `Learn more` link can be added to the popover to associate additional, relevant information.
 
 |                                                                                                                                                                                        Do                                                                                                                                                                                         |                                                                                                                                                             Don't                                                                                                                                                             |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
