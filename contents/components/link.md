@@ -71,7 +71,7 @@ There are four categories of links in GitLab. Although all links are navigationa
 
 For all links:
 
-- All links and their states must have a contrast ratio of at least 4.5:1 against the background color ([WCAG SC 1.4.3 Contrast Minimum](https://www.w3.org/TR/WCAG21/#contrast-minimum)).
+- All links and their states must have a contrast ratio of at least 4.5:1 against the background color ([Understanding WCAG SC 1.4.3 Contrast Minimum](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)).
 - A link must have a visible focus state ([WCAG SC 2.4.7 Focus Visible](https://www.w3.org/TR/WCAG21/#focus-visible)).
 
 For inline text links:
@@ -87,7 +87,7 @@ For user interface links:
 
 For meta links:
 
-- As mentioned in the [categories](#categories) section above, the primary purpose of a meta link is first and foremost as content — that it's linked should neither be necessary or consequential in context. Therefore, the visual emphasis that would come from an underline is not used, even if the link is within a string of unlinked text, but it is present for hover. This is an intentional decision to visually simplify certain sections in the UI and may change in the future. More discussion and consideration can be found [this issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1266).
+- As mentioned in the [categories](#categories) section, the main purpose of a meta link is first and foremost as content. It's not necessary for the text to be linked, but it is so that a user could get more information if desired. Therefore, the visual emphasis that would come from an underline is not used, even if the link is within a string of unlinked text. An underline is present on hover. This is an intentional decision to visually simplify certain sections in the UI that contain multiple meta links and may change in the future. More discussion and consideration can be found [this issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1266).
 
 For mention links:
 
