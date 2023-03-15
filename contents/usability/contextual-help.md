@@ -22,7 +22,6 @@ Always strive to provide users with help in the UI itself. Use UI text or a [dra
 
 However, you might need to use a link to the product documentation if:
 
-- The UI is difficult to understand without further explanation.
 - Users require information that can't be communicated in the available space. (For example, a list of variables that are defined fully in the documentation.)
 - The UI is part of a larger workflow.
 
