@@ -42,13 +42,16 @@ Our brand principles extend to our voice and [communications](https://about.gitl
 - [CMYK swatches](https://drive.google.com/file/d/1jHEZsVcdw4i-qJlgcCTfLBDn6XS08eVx/view?usp=sharing)
 
 **Marketing illustrations**
-- [Illustration library](https://drive.google.com/drive/folders/1GLoJ1Ua55vqTcYVfobcRunu9r7mQiLDq?usp=sharing) (Internal access only)
+- [Illustration library](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/gitlab-brand-files/_illustration-library) (Internal access only)
 - [RGB swatches, secondary palette](https://drive.google.com/file/d/1kCcvxYMKPkDCEFQd6imQcHhFGC14Hgte/view?usp=sharing)
 - [CMYK swatches - secondary palette](https://drive.google.com/file/d/1J2ZutCXZPJHQc9fgHvJYaVFSkOtlyn4t/view?usp=sharing)
 
 **Marketing icons**
-- [Icon library](https://drive.google.com/drive/folders/1dsRceA94H8CI0q7JAeWwEuWoNUuqdGq-?usp=sharing) (Internal access only)
-- [Software development lifecycle](https://drive.google.com/drive/folders/15kLTAKngeVEE7dWbP471EVKfhF25kSnN?usp=sharing) (Internal access only)
+- [Icon library](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/gitlab-brand-files/_icon-library/marketing-icons) (Internal access only)
+- [Software development lifecycle](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/gitlab-brand-files/_icon-library/software-development-lifecycle-icons) (Internal access only)
+
+**Diagrams**
+- [Diagram library](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/gitlab-brand-files/_diagrams) (Internal access only)
 
 **Photography**
 - [Photo library](https://drive.google.com/drive/folders/1VHErs-KSNX1FIIVgXJR3OmIzwU7M4E1M?usp=sharing) (Internal access only)

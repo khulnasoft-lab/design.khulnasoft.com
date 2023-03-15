@@ -33,7 +33,7 @@ When building illustrations, use this [template](https://drive.google.com/file/d
 
 ## Marketing icons
 
-[Marketing icons](https://drive.google.com/drive/u/1/folders/1dsRceA94H8CI0q7JAeWwEuWoNUuqdGq-) are the building blocks of our illustration style and are used as singular units. They should be straightforward, only visualizing a single topic or call to action. Icons are quickly identifiable, representing common items in a redacted way. They take a secondary role to the copy and are used at small scales ranging from 24px - 216px; anything larger should default to an illustration and anything intended for functional use within the product should use the [Product icon set](/product-foundations/iconography) instead.
+[Marketing icons](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/gitlab-brand-files/_icon-library/marketing-icons) are the building blocks of our illustration style and are used as singular units. They should be straightforward, only visualizing a single topic or call to action. Icons are quickly identifiable, representing common items in a redacted way. They take a secondary role to the copy and are used at small scales ranging from 24px - 216px; anything larger should default to an illustration and anything intended for functional use within the product should use the [Product icon set](/product-foundations/iconography) instead.
 
 ### Construction
 
@@ -41,13 +41,13 @@ The marketing icons are created using the 8px grid system found within this [tem
 
 ### Software development lifecycle
 
-[This specific set of icons](https://drive.google.com/drive/u/1/folders/15kLTAKngeVEE7dWbP471EVKfhF25kSnN) represents each stage of our software development lifecycle at each stage of the process. They are designed to be presented as a set when referring to the entire journey of the lifecycle or individually when referring to a specific stage.
+[This specific set of icons](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/gitlab-brand-files/_icon-library/software-development-lifecycle-icons) represents each stage of our software development lifecycle at each stage of the process. They are designed to be presented as a set when referring to the entire journey of the lifecycle or individually when referring to a specific stage.
 
 <figure-img alt="10 icons, one for each development stage" label="Software development lifecycle icon set" src="/img/brand/sdlc-icon-set.svg"></figure-img>
 
 ## Marketing diagrams
 
-[Diagrams](https://drive.google.com/drive/u/1/folders/1nBvkFJ6aUrrkIfq-PLxmfxnK1yxUotB2) are used to illustrate the functionality of the GitLab product. They act like a manual, representing complex ideas step-by-step. They should be structured and visually clear, while using as minimal detail as possible.
+[Diagrams](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/gitlab-brand-files/_diagrams) are used to illustrate the functionality of the GitLab product. They act like a manual, representing complex ideas step-by-step. They should be structured and visually clear, while using as minimal detail as possible.
 
 ### Color
 
