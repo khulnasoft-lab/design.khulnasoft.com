@@ -20,16 +20,16 @@ In some situations, you can link from the UI to the GitLab product documentation
 
 Always strive to provide users with help in the UI itself. Use UI text or a [drawer](/components/drawer).
 
-However, you might need to use a link to the product documentation if:
+You may need to use a link to the product documentation if:
 
 - Users require information that can't be communicated in the available space. (For example, a list of variables that are defined fully in the documentation.)
 - The UI is part of a larger workflow.
 
 ## Formatting help content
 
-Help links open in a new tab because:
+Help links open in a new tab to ensure:
 
-- Clicking links is predictable.
+- The result of clicking links is predictable.
 - The user does not need to navigate away from their task.
 
 To learn how to link to GitLab documentation in various programming languages, see [Linking to /help](https://docs.gitlab.com/ee/development/documentation/#linking-to-help).
@@ -46,7 +46,7 @@ If you can't determine a useful question, use `Learn more`. However, be aware th
 
 Note: The punctuation is not part of the link.
 
-For screen reader users, add an [aria-label](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8) with a full-sentence description. Punctuation should not be part of the link.
+For screen reader users, add an [aria-label](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8) with a full-sentence description.
 
 ### External links
 
