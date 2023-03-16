@@ -7,7 +7,7 @@ related:
 ---
 
 The UI should be self-explanatory. If extra help content is required, it should be in the UI as well,
-as either UI text or a [drawer](/components/drawer). Affordance is higher when help content is available in context.
+as either UI text or within a [drawer](/components/drawer). Affordance is higher when help content is available in context.
 
 Help content can:
 
@@ -35,7 +35,7 @@ To learn how to link to GitLab documentation in various programming languages, s
 
 ### Link text
 
-You should always phrase the link as a question.
+In most cases, phrase the link as a question.
 
 - Example: A merge request approval is required. [Who can approve](#)?
 
