@@ -6,7 +6,8 @@ related:
   - drawer
 ---
 
-The primary method for providing help should be in the UI itself. Affordance is higher when help content is available in context.
+The UI should be self-explanatory. If extra help content is required, it should be in the UI as well,
+as either UI text or a [drawer](/components/drawer). Affordance is higher when help content is available in context.
 
 Help content can:
 
@@ -17,8 +18,6 @@ Help content can:
 In some situations, you can link from the UI to the GitLab product documentation.
 
 ## When to use a link to documentation
-
-Always strive to provide users with help in the UI itself. Use UI text or a [drawer](/components/drawer).
 
 You may need to use a link to the product documentation if:
 
@@ -38,11 +37,11 @@ To learn how to link to GitLab documentation in various programming languages, s
 
 You should always phrase the link as a question.
 
-- **Example:** A merge request approval is required. [Who can approve](#)?
+- Example: A merge request approval is required. [Who can approve](#)?
 
-If you can't determine a useful question, use `Learn more`. However, be aware that `Learn more` is **not descriptive or meaningful**, and **should be used sparingly**.
+If you can't determine a useful question, use `Learn more`. However, be aware that `Learn more` is not descriptive or meaningful, and **should be used sparingly**.
 
-- **Example:** Approve a merge request. [Learn more](#).
+- Example: Approve a merge request. [Learn more](#).
 
 Note: The punctuation is not part of the link.
 
