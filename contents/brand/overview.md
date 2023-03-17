@@ -42,16 +42,16 @@ Our brand principles extend to our voice and [communications](https://about.gitl
 - [CMYK swatches](https://drive.google.com/file/d/1jHEZsVcdw4i-qJlgcCTfLBDn6XS08eVx/view?usp=sharing)
 
 **Marketing illustrations**
-- [Illustration library](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/gitlab-brand-files/_illustration-library) (Internal access only)
+- [Illustration library](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/gitlab-brand-assets/illustration-library) (Internal access only)
 - [RGB swatches, secondary palette](https://drive.google.com/file/d/1kCcvxYMKPkDCEFQd6imQcHhFGC14Hgte/view?usp=sharing)
 - [CMYK swatches - secondary palette](https://drive.google.com/file/d/1J2ZutCXZPJHQc9fgHvJYaVFSkOtlyn4t/view?usp=sharing)
 
 **Marketing icons**
-- [Icon library](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/gitlab-brand-files/_icon-library/marketing-icons) (Internal access only)
-- [Software development lifecycle](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/gitlab-brand-files/_icon-library/software-development-lifecycle-icons) (Internal access only)
+- [Icon library](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/gitlab-brand-assets/icon-library/marketing-icons) (Internal access only)
+- [Software development lifecycle](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/gitlab-brand-assets/icon-library/software-development-lifecycle-icons) (Internal access only)
 
 **Diagrams**
-- [Diagram library](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/gitlab-brand-files/_diagrams) (Internal access only)
+- [Diagram library](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/gitlab-brand-assets/diagrams) (Internal access only)
 
 **Photography**
 - [Photo library](https://drive.google.com/drive/folders/1VHErs-KSNX1FIIVgXJR3OmIzwU7M4E1M?usp=sharing) (Internal access only)
