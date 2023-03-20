@@ -38,8 +38,7 @@ Our brand principles extend to our voice and [communications](https://about.gitl
 - [Press kit](https://about.gitlab.com/press/press-kit/)
 
 **Color**
-- [RGB swatches](https://drive.google.com/file/d/1Ihb3DiRcm94KegtPFR3yXeTkXsoeGNJL/view?usp=sharing)
-- [CMYK swatches](https://drive.google.com/file/d/1jHEZsVcdw4i-qJlgcCTfLBDn6XS08eVx/view?usp=sharing)
+- [Swatches](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/c4c650797ee835d2e2aed86c9ef4cc402d7467f7/design/_resources/_designer-resources/color-palettes)
 
 **Marketing illustrations**
 - [Illustration library](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/gitlab-brand-assets/illustration-library) (Internal access only)
