@@ -1,5 +1,5 @@
 ---
-name: Navigation (alpha)
+name: New navigation
 ---
 
 This page describes the navigation guidelines that apply to the GitLab user interface. This experience is currently in alpha and will replace the preceeding navigation once made generally available.
@@ -12,21 +12,29 @@ The navigation is made up of three components: The [navigation sidebar](), the [
 
 <figure-img alt="New navigation sidebar layout" label="A grid layout of the new navigation sidebar structure identifying specific sections" src="/img/new-navigation.svg"></figure-img>
 
-The navigation sidebar is comprised of sections. Depending on which context a user is in will influence what sections are made available.
+Navigation sidebar breakdown
 
-1. Header section: Contains universal shortcuts.
+1. Header: Contains universal shortcuts.
 1. Context switcher: Exposes a disclosure widget to aid users in moving around GitLab.
-1. Static section: Single page items that are choosen specifically for each context.
-1. Pinned section: Customizable by each users. Any page under a nested inside a collection as a sub item can be added here.
-1. Classification section: Pages should be organized into a dedicated collections to keep them neatly organized in logical groupings.
-1. Settings section: Contains all the dedicated pages for configuring features in that context.
+1. Sections: See the options
 1. Footer section: Always contains a help button that opens a disclosure.
+
+Sections
+
+A. Static, single page items
+B. Collections, pages classified under a single theme
+C. Settings, brings a user to a dedicated settings section
+D. Pinned, pages that users have choosen to pin in their group or projects sidebar
+E. Functions, pages organized together
+F. Filters, unique to Global Search
+G. Back button, brings user back to context from the settings section
+
 
 ## Context
 
-There are 8 unique contexts in GitLab. Each is designed for specific intent, and new contexts are not added without sufficient user research. 
+There are 9 unique contexts in GitLab. Each is designed for specific intent, and new contexts are not added without sufficient user research. 
 
-1. Admin area
+1. Admin Area
 1. Groups
 1. Projects
 1. Your work
@@ -34,8 +42,11 @@ There are 8 unique contexts in GitLab. Each is designed for specific intent, and
 1. Global search
 1. User profile
 1. User settings
+1. Help
 
 ## Behavior
+
+> Just a brain dump for now
 
 There is no limit to the number of items listed in the static section. Although it is discouraged to use more than 3 total including the landing page specifically in the Admin Area, Groups, and Projects. When switching contexts should be to go to the first page listed in the static section.
 
