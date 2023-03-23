@@ -23,6 +23,21 @@ For more information about the UX Design department, check out the following lin
 - [Pajamas Design System project](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)
 - [Pajamas UI Kit](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit)
 
+### Using the UI kit to contribute to GitLab features
+
+If you decide to contribute to GitLab by proposing a design for a feature, we recommend that you use the Pajamas UI Kit for final designs. Follow these steps to add the kit to your Figma library:
+
+**Supported Figma plans: Professional/Education, Organization, and Enterprise**
+- Add the Pajamas UI Kit to your drafts by opening the File name menu > File menu > Duplicate to Drafts. 
+- Enable the library from your drafts by following [these steps](https://help.figma.com/hc/en-us/articles/360038743434).
+- All components and styles will be accessible in any Figma file you use. In order to stay updated with library changes, re-duplicate the Pajamas UI Kit once a month and add it as a library again to ensure the components and styles are up-to-date.
+
+**Starter Figma plan**
+Starter plans can only create and publish styles from drafts. This means the components will not be available within your library.
+- Add the Pajamas UI Kit styles to your drafts by opening the File name menu > File menu > Duplicate to Drafts. 
+- Enable the styles in the library from your drafts by following [these steps](https://help.figma.com/hc/en-us/articles/360038743434).
+- All styles will be accessible in any Figma file you use. In order to stay updated with style changes, re-duplicate the Pajamas UI Kit once a month and add it as a library again to ensure the styles are up-to-date.
+
 ## GitLab SVG project
 
 All GitLab SVG assets (icons and illustrations) are managed in the [GitLab SVG](https://gitlab.com/gitlab-org/gitlab-svgs) project. This project automates creating an SVG sprite out of icons and optimizing SVG based illustrations.
