@@ -34,33 +34,19 @@ G. **Back button:** Brings a user back to context from the settings section <br>
 
 There are 9 unique contexts in GitLab. Each is designed for specific intent, and new contexts are not added without sufficient user research. 
 
-##### Admin Area
+<figure-img alt="Admin Area layout" label="Admin Area: (A) Static, (B) Collections, (C) Settings" src="/img/admin-area-context.svg"></figure-img>
 
-<figure-img alt="Admin Area layout" label="A layout of the admin area context" src="/img/admin-area-context.svg"></figure-img>
+<figure-img alt="Groups and Projects layout" label="Groups and Projects: (A) Static, (D) Pinned, (B) Collections, (C) Settings" src="/img/groups-and-projects-context.svg"></figure-img>
 
-##### Groups and Projects
-
-<figure-img alt="Groups and Projects layout" label="A layout of a group or project context" src="/img/groups-and-projects-context.svg"></figure-img>
-
-**Settings**
-
-<figure-img alt="Settings layout for a group or project" label="A layout of the settings layout for a group or project" src="/img/groups-and-projects-context.svg"></figure-img>
-
-##### Your work
+<figure-img alt="Settings layout for a group or project" label="Settings: (G) Back button, (A) Static, (E) Functions" src="/img/groups-and-projects-context.svg"></figure-img>
 
 <figure-img alt="Your work layout" label="A layout of the your work context" src="/img/your-work-context.svg"></figure-img>
 
-##### Explore, Profiles, User settings
+<figure-img alt="Explore, Profiles, User settings layout" label="Your work: (A) Static, (E) Functions" src="/img/explore-profiles-user-settings-context.svg"></figure-img>
 
-<figure-img alt="Explore, Profiles, User settings layout" label="A layout of the explore, profiles, or user settings context" src="/img/explore-profiles-user-settings-context.svg"></figure-img>
+<figure-img alt="Global search layout" label="Global search: (A) Static, (F) Filters" src="/img/global-search-context.svg"></figure-img>
 
-##### Global search
-
-<figure-img alt="Global search layout" label="A layout of the global search context" src="/img/global-search-context.svg"></figure-img>
-
-##### Help
-
-<figure-img alt="Help layout" label="A layout of the help context" src="/img/help-context.svg"></figure-img>
+<figure-img alt="Help layout" label="Help: (A) Static, (E) Functions" src="/img/help-context.svg"></figure-img>
 
 ## Principles
 
