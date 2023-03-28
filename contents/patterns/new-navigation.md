@@ -38,7 +38,7 @@ There are 9 unique contexts in GitLab. Each is designed for specific intent, and
 
 <figure-img alt="Groups and Projects layout" label="Groups and Projects: (A) Static, (D) Pinned, (B) Collections, (C) Settings" src="/img/groups-and-projects-context.svg"></figure-img>
 
-<figure-img alt="Settings layout for a group or project" label="Settings: (G) Back button, (A) Static, (E) Functions" src="/img/groups-and-projects-context.svg"></figure-img>
+<figure-img alt="Settings layout for a group or project" label="Settings: (G) Back button, (A) Static, (E) Functions" src="/img/settings-context.svg"></figure-img>
 
 <figure-img alt="Your work layout" label="A layout of the your work context" src="/img/your-work-context.svg"></figure-img>
 
