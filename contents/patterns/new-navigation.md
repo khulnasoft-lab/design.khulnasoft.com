@@ -2,46 +2,25 @@
 name: New navigation
 ---
 
-This page describes the navigation guidelines that apply to the GitLab user interface. This experience is currently in alpha and will replace the preceeding navigation once made generally available.
+Users rely on the navigation to move around and orient themselves in GitLab. This pattern outlines some of the qualities that make it consistent, familiar, and usable.
 
-## General guidance
+## Overview
 
-The navigation is made up of three components: The [navigation sidebar]() and the [breadcrumb](). These components were designed to work together within the bigger picture of [page templates]().
+The navigation is a consistenly available user interface element that contains functionality for moving around GitLab as well as for accomplishing tasks. The navigation is made up of two main components: The [navigation sidebar]() and the [breadcrumb](). These components were designed to work together within the bigger picture of [page templates]() to invoke a sense of reliable wayfinding. 
 
-> To Do: Add link to page templates.
+> To Do: Add links.
 
-## Layout
+### Layout
 
-<figure-img alt="Navigation sidebar layout" label="A layout of the new navigation sidebar structure" src="/img/navigation-sidebar.svg"></figure-img>
+<figure-img alt="Navigation sidebar layout" label="A layout of the new navigation sidebar structure" src="/img/navigation.svg"></figure-img>
 
-### Navigation sidebar
-
-1. **Header:** Contains universal shortcuts.
+1. **Header:** Contains universal shortcuts. These items never change and are always accessible from the same location.
 1. **Context switcher:** Exposes a disclosure widget to aid users in moving around GitLab.
-1. **Sections:** See the options
-1. **Footer:** Always contains a help button that opens a disclosure.
-
-#### Header
-
-> To Do: Add details about header
-
-#### Context switcher
-
-There are 9 unique contexts in GitLab. Each is designed for specific intent, and new contexts are not added without sufficient user research. 
-
-1. Admin Area
-1. Groups
-1. Projects
-1. Your work
-1. Explore
-1. Global search
-1. User profile
-1. User settings
-1. Help
+1. **Sections:** The navigation sidebar can be comprised of different sections that fit the context in which it is serving.
+1. **Footer:** Always contains a help button that opens a disclosure widget to redirect users elsewhere.
+1. **Breadcrumb:** Keeps users clued into where they are contexutally and offers a way to move around without the use of the sidebar.
 
 #### Sections
-
-<figure-img alt="Navigation sections" label="The setion structure of each context" src="/img/navigation-context-sections.svg"></figure-img>
 
 A. **Static:** single page items like the merge request list. Sepcific to each context. <br>
 B. **Collections:** Contains pages classified under a single theme. <br>
@@ -51,9 +30,45 @@ E. **Functions:** Single pages organized together. Do no appear in the static se
 F. **Filters:** Unique option only to Global Search <br>
 G. **Back button:** Brings a user back to context from the settings section <br>
 
-#### Footer
+#### Contexts
 
-> To Do: Add details about footer
+There are 9 unique contexts in GitLab. Each is designed for specific intent, and new contexts are not added without sufficient user research. 
+
+##### Admin Area
+
+<figure-img alt="Admin Area layout" label="A layout of the admin area context" src="/img/admin-area-context.svg"></figure-img>
+
+##### Groups and Projects
+
+<figure-img alt="Groups and Projects layout" label="A layout of a group or project context" src="/img/groups-and-projects-context.svg"></figure-img>
+
+**Settings**
+
+<figure-img alt="Settings layout for a group or project" label="A layout of the settings layout for a group or project" src="/img/groups-and-projects-context.svg"></figure-img>
+
+##### Your work
+
+<figure-img alt="Your work layout" label="A layout of the your work context" src="/img/your-work-context.svg"></figure-img>
+
+##### Explore, Profiles, User settings
+
+<figure-img alt="Explore, Profiles, User settings layout" label="A layout of the explore, profiles, or user settings context" src="/img/explore-profiles-user-settings-context.svg"></figure-img>
+
+##### Global search
+
+<figure-img alt="Global search layout" label="A layout of the global search context" src="/img/global-search-context.svg"></figure-img>
+
+##### Help
+
+<figure-img alt="Help layout" label="A layout of the help context" src="/img/help-context.svg"></figure-img>
+
+## Principles
+
+- Keep the core navigation as close to a sensible default as possible, and only allow customization where necessary
+- Not every page belongs in the navigation sidebar
+- Collections should clearly communicate their usefulness. Use verbs to name them.
+- Higher utlizied pages have priority over lower utilized or new ones. Items that appear inside a collection will be sorted based on page visits.
+- Use all the data readily available to us to make informed decisions about what goes where and why.
 
 ## Behavior
 
