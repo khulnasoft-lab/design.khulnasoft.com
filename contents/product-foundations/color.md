@@ -764,6 +764,19 @@ A user may choose between ten different themes to customize the appearance of th
   </div>
 </div>
 
+## Interactive states
+
+Color changes can be combined with other visual signifiers to emphasize user actions. 
+
+Generally:
+
+- `:hover` colors become 2 steps darker.
+- `:focus` colors become 2 steps darker, matching `:hover` colors.
+- `:active` colors become an additional 2 steps darker (4 total).
+- Where there are not enough steps to follow this pattern, prioritize `:hover` and `:focus` becoming 2 steps darker.
+
+Color should never be the only visual means of communicating information ([WCAG 1.4.1](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color)). For example, `:focus` color changes are normally accompanied with our standard focus ring.  
+
 ## Accessibility
 
 At GitLab, we are dedicated to continually improving the accessibility of the application. Pajamas satisfies the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast) AA level for normal text. Learn more in [Accessibility](/accessibility/a11y).
