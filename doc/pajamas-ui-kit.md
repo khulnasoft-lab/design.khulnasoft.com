@@ -198,7 +198,7 @@ Breaking changes have different levels of impact. Each breaking change must incl
 
 - **Low impact**: A change has been made that has a low likelihood of introducing regression. For example, Auto Layout replaces a spacer component where the resulting spacing isn’t changed.
 - **Medium impact**: A change has been made which requires validating the impact. For example, the size of a component has changed and may require layout adjustments in a design.
-- **High impact**: A change has been made that breaks overrides, introduces new features that aren’t backwards compatible, or requires validating each instance. For example, a new property has been added to a component that impacts a text layer. High impact changes require a new version of the component, where the previous version is deprecated, but available for at least a milestone (see current notes on [deprecation](#deprecation)).
+- **High impact**: A change has been made that breaks overrides, introduces new features that aren’t backwards compatible, or requires validating each instance. For example, a new property causes text content to be lost, requiring it to be readded. High impact changes require a new version of the component, where the previous version is deprecated, but available for at least a milestone (see current notes on [deprecation](#deprecation)).
 - **Extreme impact**: A change that requires an entirely new component library file and associated library. For example, styles are moved to their own file with an independent library consumed by the component library.
 
 ### Publishing
