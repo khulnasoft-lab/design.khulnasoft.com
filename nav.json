@@ -72,14 +72,6 @@
             "path": "principles"
           },
           {
-            "title": "Component lifecycle",
-            "path": "lifecycle"
-          },
-          {
-            "title": "Design resources",
-            "path": "design-resources"
-          },
-          {
             "title": "Repository",
             "path": "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com"
           }
@@ -541,6 +533,75 @@
             ]
           }
         ]
+      }
+    ]
+  },
+  {
+    "title": "DesignOps",
+    "path": "designops",
+    "items": [
+      {
+        "title": "Component lifecycle",
+        "path": "lifecycle"
+      },
+      {
+        "title": "Pajamas UI Kit (Figma)",
+        "items": [
+          {
+            "title": "File structure",
+            "path": "file-structure"
+          },
+          {
+            "title": "Design contributions",
+            "path": "design-contributions"
+          },
+          {
+            "title": "Figma guides",
+            "items": [
+              {
+                "title": "Components",
+                "path": "components"
+              },
+              {
+                "title": "Libraries",
+                "path": "libraries"
+              },
+              {
+                "title": "Annotation",
+                "path": "annotation"
+              },
+              {
+                "title": "Sharing",
+                "path": "sharing"
+              },
+              {
+                "title": "Breaking changes",
+                "path": "breaking-changes"
+              }
+            ]
+          },
+          {
+            "title": "Releases",
+            "items": [
+              {
+                "title": "Process",
+                "path": "release-process"
+              },
+              {
+                "title": "Notes",
+                "path": "release-notes"
+              },
+              {
+                "title": "Roadmap",
+                "path": "roadmap"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "path": "resources"
       }
     ]
   }
