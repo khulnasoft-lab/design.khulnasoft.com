@@ -181,14 +181,14 @@ The Pajamas UI Kit will have a new release (version) published at the end of eac
 - At minimum, a text release post (format TBD) will be published to document the changes that happened during the milestone.
 - When possible, a video will accompany the release to highlight any changes, demonstrate how to triage impact, and how to work with new features.
 - New .fig files will be saved and updated in the [ui-kit](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/ui-kit) folder of the repo. These leverage the git history to track versions.
-- The [version history](https://help.figma.com/hc/en-us/articles/360038006754-View-a-file-s-version-history) of a Figma file summarizes all changes along with notes on [breaking changes](#breaking-changes). Figma will automatically update the history with:
+- The [version history](https://help.figma.com/hc/en-us/articles/360038006754-View-a-file-s-version-history) of a Figma file will summarize all changes along with notes on [breaking changes](#breaking-changes). Figma will automatically update the history with:
   - Autosaved versions
   - Merged branches
   - Created branches
   - Branch updates from main
   - It's also possible to manually [add a new version](https://help.figma.com/hc/en-us/articles/360038006754-View-a-file-s-version-history#Create_a_new_version) that includes a title and description. This can be done to intentionally create a version to track specific changes to a component or styles.
 - We favor continuous delivery, so bug fixes, patches, and other minor updates that don’t include breaking changes can be published at any time during the milestone, including to the [community page](https://www.figma.com/@GitLabDesign) if necessary. They will also be mentioned in release notes.
-- Changes within files that don't impact components or styles, like updating an instance, are immediately available in the file.
+- Changes within files that don't impact components or styles, like updating an instance, are immediately available in the file and everything else will be available when the next version is released.
 
 ### Breaking changes
 
@@ -198,7 +198,7 @@ Breaking changes have different levels of impact. Each breaking change must incl
 
 - **Low impact**: A change has been made that has a low likelihood of introducing regression. For example, Auto Layout replaces a spacer component where the resulting spacing isn’t changed.
 - **Medium impact**: A change has been made which requires validating the impact. For example, the size of a component has changed and may require layout adjustments in a design.
-- **High impact**: A change has been made that breaks overrides, introduces new features that aren’t backwards compatible, or requires a designer to validate instances in their designs. For example, a new property causes text content to be lost, requiring it to be readded. High impact changes require a new version of the component, where the previous version is deprecated, but available for at least a milestone (see current notes on [deprecation](#deprecation)).
+- **High impact**: A change has been made that breaks overrides, introduces new features that aren’t backwards compatible, or requires a designer to validate instances in their designs. For example, a new property causes text content to be lost, requiring it to be re-added. High impact changes require a new version of the component, where the previous version is deprecated but is available for at least a milestone (see current notes on [deprecation](#deprecation)).
 - **Extreme impact**: A change that requires an entirely new component library file and associated library. For example, styles are moved to their own file with an independent library consumed by the component library.
 
 ### Publishing
