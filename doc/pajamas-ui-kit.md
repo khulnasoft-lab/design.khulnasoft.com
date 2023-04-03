@@ -181,20 +181,20 @@ The Pajamas UI Kit will have a new release (version) published at the end of eac
 - At minimum, a text release post (format TBD) will be published to document the changes that happened during the milestone.
 - When possible, a video will accompany the release to highlight any changes, demonstrate how to triage impact, and how to work with new features.
 - New .fig files will be saved and updated in the [ui-kit](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/ui-kit) folder of the repo. These leverage the git history to track versions.
-- The [version history](https://help.figma.com/hc/en-us/articles/360038006754-View-a-file-s-version-history) of a Figma file will summarize all changes along with notes on [breaking changes](#breaking-changes). Figma will automatically update the history with:
+- The [version history](https://help.figma.com/hc/en-us/articles/360038006754-View-a-file-s-version-history) of a Figma file will summarize all updates along with notes on [breaking changes](#breaking-changes). Figma will automatically update the history with:
   - Autosaved versions
   - Merged branches
   - Created branches
   - Branch updates from main
-  - It's also possible to manually [add a new version](https://help.figma.com/hc/en-us/articles/360038006754-View-a-file-s-version-history#Create_a_new_version) that includes a title and description. This can be done to intentionally create a version to track specific changes to a component or styles.
-- We favor continuous delivery, so bug fixes, patches, and other minor updates that don’t include breaking changes can be published at any time during the milestone, including to the [community page](https://www.figma.com/@GitLabDesign) if necessary. They will also be mentioned in release notes.
+- Maintainers may also edit the version history or manually [add a new version](https://help.figma.com/hc/en-us/articles/360038006754-View-a-file-s-version-history#Create_a_new_version). The new version includes a title and description, and is used to track specific changes to a component or styles.
+- We favor continuous delivery, so bug fixes, patches, and other minor updates that don’t include breaking changes can be published at any time during the milestone, and files can be updated on the [community page](https://www.figma.com/@GitLabDesign) if necessary. They will also be summarized in the release notes.
 - Changes within files that don't impact components or styles, like updating an instance, are immediately available in the file and everything else will be available when the next version is released.
 
 ### Breaking changes
 
 A breaking change is anything that would require a designer to take any action after updating. Examples include, but aren't limited to, changed dimensions, incompatibility with previously used properties, and lost overrides.
 
-Breaking changes have different levels of impact. Each breaking change must include a level and specific explanation. If a breaking change to a single component or other design asset includes multiple changes at different levels of impact, default to using the highest impact.
+Breaking changes have different levels of impact. Each breaking change must include a level and explanation of the impact of the change. If a breaking change to a single component or other design asset includes multiple changes at different levels of impact, default to using the highest impact.
 
 - **Low impact**: A change has been made that has a low likelihood of introducing regression. For example, Auto Layout replaces a spacer component where the resulting spacing isn’t changed.
 - **Medium impact**: A change has been made which requires validating the impact. For example, the size of a component has changed and may require layout adjustments in a design.
