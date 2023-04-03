@@ -133,6 +133,10 @@
           {
             "title": "Illustration",
             "path": "illustration"
+          },
+          {
+            "title": "Design tokens",
+            "path": "design-tokens"
           }
         ]
       },
