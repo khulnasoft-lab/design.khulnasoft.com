@@ -83,10 +83,6 @@
                 "path": "uik-file-structure"
               },
               {
-                "title": "Design contributions",
-                "path": "uik-design-contributions"
-              },
-              {
                 "title": "Release process",
                 "path": "uik-release-process"
               },
