@@ -768,14 +768,13 @@ A user may choose between ten different themes to customize the appearance of th
 
 Color changes can be used to emphasize user actions. When used, they must be combined with other visual feedback. For example, `:focus` color changes are normally accompanied with our standard focus ring.
 
-Generally:
+Generally in light UI:
 
-- `:hover` colors become two steps darker than the color at rest.
-- `:focus` colors become two steps darker, matching `:hover` colors.
-- `:active` colors become an additional two steps darker (four total).
-- Where there are not enough steps to follow this pattern, prioritize `:hover` and `:focus` becoming two steps darker.
-
-Always use other visual signifiers when  Colour should never be the only visual means of communicating information ([WCAG 1.4.1](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color)). For example, `:focus` color changes are normally accompanied with our standard focus ring.  
+- `:hover` colors become one step darker than the color at rest.
+- `:focus` colors become one step darker, matching `:hover` colors.
+- `:active` colors become an additional step darker (two total).  
+  <figure-img label="The primary confirm button has a `$blue-500` background color, the hover and focus states have a `$blue-600` background color, and the active state has a `$blue-700` background color. These color changes are combined with other visual feedback to communicate information about the interactive state." src="/img/color-interactive.png"></figure-img>
+- Where there are not enough steps to follow this pattern, prioritize `:hover` and `:focus` becoming a step darker.
 
 ## Accessibility
 
@@ -786,8 +785,6 @@ At GitLab, we are dedicated to continually improving the accessibility of the ap
 - **Normal text** must have a contrast ratio of at least 4.5:1.
 - **Large text** is defined as `14pt` Bold (`18.5px`) or `18pt` (`24px`) and must have a contrast ratio of at least 3:1.
 
-#### Passing level and contrast ratio
-
 - **AAA** - Pass 7:1+
 - **AA** - Pass 4.5:1+
 - **AA+** - Pass, large text only 3:1+
@@ -797,6 +794,4 @@ Contrast ratios for each color step are calculated using white (`#fff`) and blac
 
 ### Accessing information
 
-Colour should never be the only visual means of communicating information ([WCAG 1.4.1](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color)).
-
-Use colors at least two steps apart to ensure distinguishable contrast for states and border/fill combinations.
+Color should never be the only visual means of communicating information ([WCAG 1.4.1](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color)).
