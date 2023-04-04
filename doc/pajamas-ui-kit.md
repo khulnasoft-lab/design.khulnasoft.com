@@ -206,7 +206,7 @@ Breaking changes have different levels of impact. Each breaking change must incl
 Figma library updates are published by a [Figma maintainer][figma-maintainers], regardless of how minor. To support our [transparency value][handbook-transparency], follow these best practices:
 
 - Changes should be reviewed by another designer in a branch or draft before a Maintainer adds it to the Pajamas UI Kit file.
-- Use dashes to list changes in the publish description.
+- Use dashes to list changes in the publish description field.
 - Files that are also published to the community follow the same release cadence and can be published to the community after publishing library updates for the organization.
 
 ## Sharing or linking to designs
