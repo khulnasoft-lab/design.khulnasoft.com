@@ -766,14 +766,15 @@ A user may choose between ten different themes to customize the appearance of th
 
 ## Interactive states
 
-Color changes can be used to emphasize user actions. When used, they must be combined with other visual feedback. For example, `:focus` color changes are normally accompanied with our standard focus ring.
+Color changes can be used to emphasize user actions. When used, they must be combined with other visual feedback. For example, `:focus` color changes are normally accompanied with a focus ring.
 
-Generally in light UI:
+Typical state changes (light UI):
 
-- `:hover` colors become one step darker than the color at rest.
-- `:focus` colors become one step darker, matching `:hover` colors.
-- `:active` colors become an additional step darker (two total).  
-  <figure-img label="The primary confirm button has a `$blue-500` background color, the hover and focus states have a `$blue-600` background color, and the active state has a `$blue-700` background color. These color changes are combined with other visual feedback to communicate information about the interactive state." src="/img/color-interactive.png"></figure-img>
+- `:hover` a color becomes one step darker than at rest.
+- `:focus` a color becomes one step darker, matching `:hover` color.
+- `:active` a color becomes an additional step darker (two total).
+ 
+  <figure-img alt="Example button state color changes" label="A primary confirm button example with a `$blue-500` fill at rest (1), a `$blue-600` fill for hover and focus (2, 3), and a `$blue-700` fill when active (4). The color changes are combined with other visual feedback (cursor, focus ring) to communicate information about the interactive state." src="/img/color-interactive.png"></figure-img>
 - Where there are not enough steps to follow this pattern, prioritize `:hover` and `:focus` becoming a step darker.
 
 ## Accessibility
@@ -791,7 +792,5 @@ At GitLab, we are dedicated to continually improving the accessibility of the ap
 - **F** - Doesn’t pass
 
 Contrast ratios for each color step are calculated using white (`#fff`) and black (`#000`). The `50–400` steps all meet a 4.5:1 contrast ratio or higher against $gray-950 (`#1f1e24`) or darker, while the `500–950` steps all meet a 4.5:1 contrast ratio against `$gray-10` (`#fbfafd`) or lighter.
-
-### Accessing information
 
 Color should never be the only visual means of communicating information ([WCAG 1.4.1](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color)).
