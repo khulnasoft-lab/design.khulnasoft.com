@@ -6,7 +6,7 @@ As artificial intelligence (AI) continues to advance, it brings both exciting op
 
 ## Guidelines
 
-**Start with the user, not the technology.** AI technology should be leveraged to enhance the user experience, rather than be the primary focus. Design with a deep understanding of the user's needs, goals, and pain points. If you aren't aligned with a user's need, you are building a system that does not solve a problem. Instead of asking "Can we use AI to _____?", ask yourself "How might we solve _____?".
+**Start with the user, not the technology.** AI technology should be leveraged to enhance the user experience, rather than be the primary focus. Design with a deep understanding of the user's needs, goals, and pain points. If you aren't aligned with a user's need, you are building a system that does not solve a problem. Instead of asking "Can we use AI to _____?", ask yourself "How might we help users _____?".
 
 **Understand when to automate.** Not everything should be automated. Understand if a task is a good fit for AI or if it is better done by a human. Users may not want certain tasks to be automated or augmented by AI.
 
