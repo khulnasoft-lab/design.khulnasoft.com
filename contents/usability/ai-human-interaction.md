@@ -1,0 +1,30 @@
+---
+name: AI-human interaction
+---
+
+As artificial intelligence (AI) continues to advance, it brings both exciting opportunities and new challenges for product design. Although designing for AI still requires adhering to human-centered design principles, additional considerations such as ethics, privacy, trust, and transparency must be taken into account. The guidelines for AI-human interaction are crucial in ensuring that AI systems prioritize the user's needs, behave ethically, and safeguard the user's privacy, while also building trust in the technology.
+
+## Guidelines
+
+**Start with the user, not the technology.** AI technology should be leveraged to enhance the user experience, rather than be the primary focus. Design with a deep understanding of the user's needs, goals, and pain points. If you aren't aligned with a user's need, you are building a system that does not solve a problem. Instead of asking "Can we use AI to _____?", ask yourself "How might we solve _____?".
+
+**Understand when to automate.** Not everything should be automated. Understand if a task is a good fit for AI or if it is better done by a human. Users may not want certain tasks to be automated or augmented by AI.
+
+**Understand risk.** Understand the consequences to users if the system's recommendation is incorrect. Clarify the system's limitations in high stakes situations. If a high stakes feature is powered by AI, design for potential negative impact. For example, a user should explicitly opt-in to a high stakes AI-powered feature.
+
+**Communicate confidence.** Users rely on the system to make decisions, but they should not trust the system entirely. Communicating confidence allows users to know how much scrutiny they should put recommendations under.
+
+**Be transparent.** The user should be able to understand when they are interacting with AI, how the AI works, and how it arrived at its decisions. Users should understand how their data is used and processed.
+
+**Set the right expectations.** The interface should clearly communicate the AI's capabilities, limitations, and the scope of its decision-making authority.
+
+**Give the user control** The user should be able to decide whether to follow the AI's recommendations or not. There should be an easy way to undo system actions. Do not collect user data without asking the user's permission.
+
+**Fail gracefully.** When your system is not certain of the user's intent or has low confidence, make sure there is a path forward that does not rely on AI.
+
+**Encourage feedback.** Design mechanisms to collect implicit and explicit feedback to improve the system.
+
+## References
+
+- [Guidelines for Human-AI Interaction, Microsoft](https://www.microsoft.com/en-us/research/uploads/prod/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf)
+- [People + AI Guidebook, Google](https://pair.withgoogle.com/guidebook)
