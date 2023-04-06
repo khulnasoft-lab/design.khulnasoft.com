@@ -74,7 +74,7 @@ A [button](/components/button) that triggers a combobox comes in a few variants 
 - When one or more options are selected in a multiselect context, they can optionally be grouped in a section above unselected options, although they may not be visibly grouped until the selections are applied and the panel is opened again.
 - Collapsible listbox:
   - An optional text input _within_ the panel can limit available options when a term is entered.
-  - When an option is selected in a single select context, the panel is closed and the control updated.
+  - When an option is selected in a single select context, the panel is closed and the control updated. In instances where the selection isn't immediately synced with the database use an 'Apply selection' (or similar language) action in the available footer.
   - When one or more options are selected in a multiselect context, the panel stays open until the user applies the selection. The panel then closes and the changes are visible in the UI.
 - Combobox:
   - A user can either type a term in the text input or select an available option.
