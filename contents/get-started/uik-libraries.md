@@ -1,8 +1,8 @@
 ---
-name: Working with libraries
+name: Libraries
 ---
 
-## Library updates
+## Updates
 
 If you have any of the available libraries enabled in a file you’ll occasionally see a toast message in Figma notifying you that there are updates to those library assets. You can choose to update items individually or in a batch.
 

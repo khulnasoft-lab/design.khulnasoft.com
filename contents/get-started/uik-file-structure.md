@@ -11,3 +11,11 @@ The Pajamas UI Kit is comprised of multiple Figma files that organize separate, 
 - [**Product pages**](https://www.figma.com/file/tzpLCamRZNr2tTPwCP2UY4/Product-Pages): Components, layouts, regions, and page templates used within GitLab. Items herein are not globally used throughout the product and not included in the main component library. Published as the "Product Pages" library.
 
 In addition to the links above, files are available from the [GitLab Product Design](https://www.figma.com/@GitLabDesign) community page and the [project repository](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/ui-kit).
+
+## Fonts
+
+The UI kit files make use of GitLab Sans, based on the Inter typeface, and JetBrains Mono. The fonts are available to download in [this package](https://www.npmjs.com/package/@gitlab/fonts).
+
+## Plugins
+
+It may change in the future, but at the moment we don’t use plugins for critical actions or capabilities to avoid making any part of the design process reliant on plugin updates or functionality. Rather, we believe that each user should determine which plugins to use for their own workflow.
