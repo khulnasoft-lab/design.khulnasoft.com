@@ -8,7 +8,7 @@ As Artificial Intelligence (AI) continues to advance, it brings both exciting op
 
 **Start with the user, not the technology.** AI technology should be leveraged to enhance the user experience, rather than be the primary focus. Design with a deep understanding of the user's needs, goals, and pain points. If you aren't aligned with a user's need, you are building a system that does not solve a problem. Instead of asking "Can we use AI to _____?", ask yourself "How might we help users _____?".
 
-**Understand when to automate.** Understand if a task is a good fit for AI or if it is better done by a human. First, understand if a user's need will be helped by automation. Users may not want automation in high stakes tasks, tasks where they will be held responsible for the result, or tasks that they enjoy doing. Tasks that are a good fit for automation are tedious, error-prone, boring, low stakes, and free up the user's time. If users will benefit from automation, consider if the problem could be addressed with pre-defined rules (_if this, then that_). Rules-based automation is generally easier to build than AI automation. Understand the strengths and weaknesses of AI. Given good training data, AI can be helpful for processing large amounts of information, pattern finding, prediction, classification, and recommendations. AI is less helpful for tasks requiring empathy, emotional intelligence, morality, common sense, predicability, contextual understanding, intuition, and creativity.
+**Understand when to automate.** Understand if a task is a good fit for AI or if it is better done by a human. First, understand if a user's need will be helped by automation. Users may not want automation in high stakes tasks, tasks where they will be held responsible for the result, or tasks that they enjoy doing. Tasks that are a good fit for automation are tedious, error-prone, boring, low stakes, and free up the user's time. If users will benefit from automation, consider if the problem could be addressed with pre-defined rules (_if this, then that_). Understand the strengths and weaknesses of AI. AI can be helpful for processing large amounts of information, pattern finding, prediction, classification, and recommendations. Given good training data, AI can be more accurate and faster than a human at completing tasks. AI is less helpful for tasks requiring empathy, emotional intelligence, morality, common sense, predicability, contextual understanding, intuition, and creativity.
 
 **Understand risk.** Understand the consequences to users if the system's recommendation is incorrect. Clarify the system's limitations in high stakes situations. If a high stakes feature is powered by AI, design for potential negative impact. For example, a user should explicitly opt-in to a high stakes AI-powered feature.
 
@@ -23,6 +23,12 @@ As Artificial Intelligence (AI) continues to advance, it brings both exciting op
 **Fail gracefully.** When your system is not certain of the user's intent or has low confidence, make sure there is a path forward that does not rely on AI. Explain why the system was not able to provide a recommendation. Errors are also opportunities to learn more about your user's mental models and improve the system's ability to make recommendations. Consider designing a feedback mechanism that presents as a cue for adjustment rather than an error state.
 
 **Encourage feedback.** Design mechanisms to collect implicit and explicit feedback to improve the system.
+
+## Related patterns
+
+- [Destructive actions](/usability/destructive-actions)
+- [Saving and feedback](/usability/saving-and-feedback)
+- [Contextual help and info](/usability/contextual-help)
 
 ## References
 
