@@ -58,10 +58,10 @@ To create a new skeleton loader:
 
 ### Accessibility
 
-- When a change occurs in the UI, like a loading state, it's good to notify a user what is happening. While a skeleton loader visually indicates that a process is happening, it should also be announced by assistive technology through the use of `aria-live`.
-- See the WAI-ARIA `aria-live` [documentation](https://www.w3.org/TR/wai-aria-1.1/#aria-live) for more details.
+- When a change occurs in the UI, like a loading state, it's good to notify a user what's happening, however, since there can be multiple skeleton loaders present at once it can be noisy to use `aria-live`. Instead, consider using [`aria-busy`](https://www.w3.org/TR/wai-aria-1.2/#aria-busy) on the parent container where the content will be loaded.
 
 ## Reference
 
 - The [Skeleton Loading](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/base-skeleton-loading--default) component has been deprecated in favor of the Skeleton Loader.
-- Read [Everything you need to know about skeleton screens](https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a), by Bill Chung, for a great research-based overview.
+- [Everything you need to know about skeleton screens](https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a), by Bill Chung.
+- [More Accessibile Skeletons](https://adrianroselli.com/2020/11/more-accessible-skeletons.html), by Adrian Roselli
