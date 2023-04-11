@@ -58,7 +58,7 @@ To create a new skeleton loader:
 
 ### Accessibility
 
-- When a change occurs in the UI, like a loading state, it's good to notify a user what's happening, however, since there can be multiple skeleton loaders present at once it can be noisy to use `aria-live`. Instead, consider using [`aria-busy`](https://www.w3.org/TR/wai-aria-1.2/#aria-busy) on the parent container where the content will be loaded.
+- When a change occurs in the UI, like a loading state, it's good to notify a user what's happening, however, since a skeleton loader should only be present for a short period of time, and during an expected loading period, it does not need to be a live region or communicate that the page is busy.
 
 ## Reference
 
