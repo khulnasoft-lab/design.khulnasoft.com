@@ -9,11 +9,11 @@ related:
 The UI should be self-explanatory. If extra help is required, it should be **in the UI itself**,
 as either UI text or as text within a [drawer](/components/drawer).
 
-Affordance is higher when help content is available in context.
+The UI should be self-explanatory. Guidance for how to use a feature should be in the UI itself, as UI text or as text within a [drawer](/components/drawer). Affordance is higher when help content is available in context.
 
 ## When to use a link to documentation
 
-Documentation can change, and [links from the UI to the documentation can become out-of-date or circular](https://youtu.be/L2D_8BuUFNE).
+Documentation can change, and links from the UI to the documentation [can become out-of-date or circular](https://youtu.be/L2D_8BuUFNE).
 You should avoid links from the UI to the documentation if you can.
 
 However, you can link from the UI to the docs if:
