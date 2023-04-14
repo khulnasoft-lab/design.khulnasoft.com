@@ -77,7 +77,7 @@ A [button](/components/button) that triggers a combobox comes in a few variants 
   - When an option is selected in a single select context, the panel is closed and the control updated.
   - When one or more options are selected in a multiselect context, the panel stays open until the user closes it by one of the available methods. An 'Apply' button is not necessary. Depending on the logic, the selection may sync with the database on each selection and update the UI in real-time, or it may sync with the database after the panel is closed and then update the UI.
   - In a single select context 'Any' or 'All' should be the first option to indicate that any parameter can apply.
-  - In a multiselect context a header action isn't binary, nor does it change based on the selection. For example, if 'Select all' is an action in the header, it can only select all and won't change to an 'Unselect all' or indeterminate state after activating or a change in selected options.
+  - In a multiselect context a header action isn't binary. For example, if 'Select all' is an action in the header, it can only select all and won't change to an 'Unselect all' or indeterminate state after activating or a change in selected options.
 - Combobox:
   - A user can either type a term in the text input or select an available option.
   - The text input can use autocomplete capability based on available options.
