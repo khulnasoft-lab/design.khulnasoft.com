@@ -1,0 +1,1 @@
+Guides and documentation on contributing to and updating the Pajamas UI Kit can now be found on the [Pajamas](https://design.gitlab.com/) website under **Getting started > Pajamas UI Kit (Figma)** and **Getting started > Figma Guides**.
