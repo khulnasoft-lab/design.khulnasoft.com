@@ -58,7 +58,7 @@ to the [feature management documentation](https://docs.gitlab.com/ee/policy/alph
 
 | Experiment | Beta |
 | ------ | ------ |
-| Features in [Experiment](https://docs.gitlab.com/ee/policy/alpha-beta-support.html) aren't fully tested and may break. | Features in [Beta](https://docs.gitlab.com/ee/policy/alpha-beta-support.html) may still contain bugs or inconsistencies. |
+| Features in [Experiment↗](https://docs.gitlab.com/ee/policy/alpha-beta-support.html) aren't fully tested and may break. | Features in [Beta↗](https://docs.gitlab.com/ee/policy/alpha-beta-support.html) may still contain bugs or inconsistencies. |
 | <figure-img label="Experiment feature badge" src="/img/experiment-feature-badge.svg"></figure-img> | <figure-img label="Beta feature badge" src="/img/beta-feature-badge.svg"></figure-img> |
 
 #### Specification
