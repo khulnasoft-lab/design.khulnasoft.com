@@ -87,3 +87,37 @@ Objects within a component will [use constraints](https://help.figma.com/article
 ### Using Auto Layout
 
 Components with [Auto Layout](https://help.figma.com/article/453-auto-layout) dynamically resize based on the content within. This works well for components that need to maintain padding and spacing. A button is a good candidate for auto layout, because it can resize horizontally based on label length, and whether or not icons are included. Complex responsive-like components, like a modal, can be created with auto layout.
+
+### Naming properties
+
+Use the following guidelines and principles when naming properties. Consistent naming will make components easier to maintain and use.
+
+* Capitalize first character of key, and values are all lowercase. For example, “State: rest, hover, focus, active”.
+* Properties should be as abstract as possible to indicate intent over style. For example, “Color: muted, enhanced” instead of “Color: light gray, blue”.
+* Mark ‘default’ properties by adding `(default)` after the property name.
+* Keys can be presented conversationally using ‘is’ or ‘has’. For example, “Has icon: true, false”, or “Is checked: true, indeterminate, false”.
+* For true/false values, the positive is always first. For example, “Is selected: true, false”.
+* For size or weight, list least to greatest. For example, “Size: default, sm, md, lg” or “Weight: light, regular, bold”.
+
+<todo issue="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1040">Define what ‘default’ means for components<todo>
+
+Where applicable, use the following property names and value ordering:
+
+* Size: xs, sm, md, lg, xl
+* Font: sans-serif, monospace
+* Font weight: light, regular, bold
+* Position: top, right, bottom, left
+* Save state: pristine, saving, dirty
+* State: rest, hover, focus, active, disabled
+* Is collapsed: true, false
+* Is read only: true, false
+* Is selected: true, false
+* Is checked: true, indeterminate, false
+* Is sticky: true, false
+
+Some properties relate directly to other properties. These can be conditional, that is they only display based on the value of another property, or always visible.
+
+* Prefix these related properties with `↳`. For example:  
+  ```
+  Has label=true
+  ↳ Text=Text property
