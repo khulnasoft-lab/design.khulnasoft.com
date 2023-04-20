@@ -23,9 +23,9 @@ In the UI, use active phrases such as:
 Users need to understand a system's capabilities and limits to understand how much trust to put into the system.
 
 Help the user build a mental model of the system:
-- Use clear, simple language to explain what the system is doing and how it arrived at its recommendations. 
-- Explain what data the system is trained on and what it's optimized for. 
-- Tell the user how their data is used and processed.
+* Use clear, simple language to explain what the system is doing and how it arrived at its recommendations. 
+* Explain what data the system is trained on and what it's optimized for. 
+* Tell the user how their data is used and processed.
 
 **Set the right expectations.** The interface should clearly communicate the AI's capabilities, limitations, and the scope of its decision-making authority.
 
