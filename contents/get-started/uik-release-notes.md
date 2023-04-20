@@ -44,7 +44,7 @@ name: Release notes
   - **❖&nbsp;Button&nbsp;/&nbsp;Link**
   - **❖&nbsp;Button&nbsp;/&nbsp;Button&nbsp;group**
 - Inline highlight component is now [**❖&nbsp;Link&nbsp;/&nbsp;Mention**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=86229-117442&t=btf6j6JBlWUFtOkp-4). Existing styles have been expanded to support interactive styles, and inline and meta variants.
-- Breaking (low): Addition and removal content styles have been moved to a new [❖&nbsp;Inline&nbsp;highlight](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=84028-117530&t=btf6j6JBlWUFtOkp-11) component. 
+- Breaking (low): Addition and removal content styles have been moved to a new [**❖&nbsp;Inline&nbsp;highlight**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=84028-117530&t=btf6j6JBlWUFtOkp-11) component. 
   - We expect existing instances to remain unchanged, but you will need to switch to the new component to make updates.
   - Take care when switching the component as text overrides may be lost.
 - Icons page pointing to the [GitLab Product Icons](https://www.figma.com/file/h4YjjttHL5YI0mXZfQ4uuU/GitLab-Product-Icons?t=SDEcXtmjyvSgCogP-7) file has been removed since the icons file has existed separately for over two years and the notice is no longer needed.
