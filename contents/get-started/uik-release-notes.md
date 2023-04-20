@@ -32,7 +32,7 @@ name: Release notes
 
 ### Changes
 
-- [Buttons](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-7) renamed to have a "Button&nbsp;/" prefix. Doing so makes them easier to locate when searching for a component. ❖ Button&nbsp;/&nbsp;Link description also points towards the ❖ Link&nbsp;/&nbsp;UI link components. Take care when choosing between a [link](https://design.gitlab.com/components/link) (`<a>`) and a [button](https://design.gitlab.com/components/button) (`<button>`).
+- [Buttons](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-7) renamed to have a "Button&nbsp;/" prefix. Doing so makes them easier to locate when searching for a component. **❖&nbsp;Button&nbsp;/&nbsp;Link** description also points towards the **❖&nbsp;Link&nbsp;/&nbsp;UI&nbsp;link** components. Take care when choosing between a [link](https://design.gitlab.com/components/link) (`<a>`) and a [button](https://design.gitlab.com/components/button) (`<button>`).
   - **❖&nbsp;Button&nbsp;/&nbsp;Default**
   - **❖&nbsp;Button&nbsp;/&nbsp;Confirm**
   - **❖&nbsp;Button&nbsp;/&nbsp;Danger**
