@@ -87,3 +87,31 @@ Objects within a component will [use constraints](https://help.figma.com/article
 ### Using Auto Layout
 
 Components with [Auto Layout](https://help.figma.com/article/453-auto-layout) dynamically resize based on the content within. This works well for components that need to maintain padding and spacing. A button is a good candidate for auto layout, because it can resize horizontally based on label length, and whether or not icons are included. Complex responsive-like components, like a modal, can be created with auto layout.
+
+### Naming properties
+
+Use the following guidelines and principles when naming properties. Consistent naming will make components easier to maintain and use.
+
+* Capitalize first character of key, and values are all lowercase. For example, “State: rest, hover, focus, active”.
+* Properties should be as abstract as possible to indicate intent over style. For example, “Color: muted, enhanced” instead of “Color: light gray, blue”.
+* Mark ‘default’ properties by adding `(default)` after the property name.
+* Binary options should be presented as a question. For example, “Collapsed?: true, false”
+* For binary, the positive is always first. For example, “Icon: true, false”.
+* For size or weight, list least to greatest. For example, “Size: default, sm, md, lg” or “Weight: light, regular, bold”.
+
+<todo issue="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1040">Define what ‘default’ means for components<todo>
+
+Where applicable, use the following property names and value ordering:
+
+* Size: xs, sm, md, lg, xl
+* Font: sans-serif, monospace
+* Font weight: light, regular, bold
+* Binary: true, false
+* State: rest, hover, focus, active, disabled
+* Position: top, right, bottom, left
+* Save state: pristine, saving, dirty
+* Collapsed?: true, false
+* Read only?: true, false
+* Selected?: true, false
+* Checked?: true, indeterminate, false
+* Sticky?: true, false
