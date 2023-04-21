@@ -4,7 +4,22 @@ name: Release notes
 
 ## 16.0
 
-[_Draft: 16.0 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3356)
+<small>Published TBD</small>
+
+### Additions
+
+### Enhancements
+
+### Changes
+
+### Fixes
+
+- The nested layer names of the following icons in the [GitLab Product Icons](https://www.figma.com/file/h4YjjttHL5YI0mXZfQ4uuU/GitLab-Product-Icons?node-id=0%3A1&t=Ta7o7P5IrksrZ3r4-1) file has been changed to "icon" in order to preserve color overrides:
+  - **stop**
+  - **highlight**
+  - **attention-solid**
+  - **attention-solid-sm**
+- The [**code**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~code) icon has been recreated to correct it being flipped when used in a component.
 
 ## 15.11
 
