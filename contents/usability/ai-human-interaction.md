@@ -19,6 +19,7 @@ As Artificial Intelligence (AI) continues to advance, it brings both exciting op
 In the UI, use active phrases such as:
 * AI generated this suggestion.
 * AI explained this code.
+* OpenAI generated this recommendation.
 
 Users need to understand a system's capabilities and limits to understand how much trust to put into the system.
 
