@@ -109,15 +109,15 @@ Where applicable, use the following property names and value ordering:
 * Position: top, right, bottom, left
 * Save state: pristine, saving, dirty
 * State: rest, hover, focus, active, disabled
-* Is collapsed: true, false
-* Is read only: true, false
+* Is expanded: true, false
+* Is read-only: true, false
 * Is selected: true, false
-* Is checked: true, indeterminate, false
+* Is checked: unchecked, indeterminate, checked
 * Is sticky: true, false
 
-Some properties relate directly to other properties. These can be conditional, that is they only display based on the value of another property, or always visible.
+Some properties directly relate to others. They can always be available, or conditionally available based on the value of another property.
 
-* Prefix these related properties with `↳`. For example:  
+* Ensure a related property is directly below the main property and prefix it with `↳`. There can be multiple related properties. For example:  
   ```
-  Has label=true
-  ↳ Text=Text property
+  Has label = "true"
+  ↳ Text = "Text property"
