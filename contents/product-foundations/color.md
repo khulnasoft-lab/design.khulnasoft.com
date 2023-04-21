@@ -771,11 +771,11 @@ Color changes can be used to emphasize user actions. When used, they must be com
 Typical state changes (light UI):
 
 - `:hover` a color becomes one step darker than at rest.
-- `:focus` a color becomes one step darker, matching `:hover` color.
-- `:active` a color becomes an additional step darker (two total).
+- `:focus` a color becomes one step darker than at rest, matching `:hover` color.
+- `:active` a color becomes two steps darker than at rest.
  
   <figure-img alt="Example button state color changes" label="A primary confirm button example with a $blue-500 fill at rest (1), a $blue-600 fill for hover and focus (2, 3), and a $blue-700 fill when active (4). The color changes are combined with other visual feedback (cursor, focus ring) to communicate information about the interactive state." src="/img/color-interactive.svg"></figure-img>
-- Where there are not enough steps to follow this pattern, prioritize `:hover` and `:focus` becoming a step darker.
+- Where there aren't enough steps to follow this pattern, prioritize `:hover` and `:focus` becoming a step darker.
 
 ## Accessibility
 
