@@ -8,6 +8,8 @@ name: Release notes
 
 ### Additions
 
+- A new [**comment-lines**](⚠️-- LINK TBD --⚠️) icon will be used for the **Comment Templates** editor feature.
+
 ### Enhancements
 
 ### Changes
