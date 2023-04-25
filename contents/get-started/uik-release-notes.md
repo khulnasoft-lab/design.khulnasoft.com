@@ -8,7 +8,8 @@ name: Release notes
 
 ### Additions
 
-- A new [**comment-lines**](⚠️-- LINK TBD --⚠️) icon will be used for the **Comment Templates** editor feature.
+- Added the [**comment-lines**](⚠️-- LINK TBD --⚠️) icon will be used for the **Comment Templates** editor feature.
+- Added the [**empty-labels-starred-md**](⚠️-- LINK TBD --⚠️) illustration.
 
 ### Enhancements
 
