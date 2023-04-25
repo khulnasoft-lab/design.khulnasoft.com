@@ -8,8 +8,8 @@ name: Release notes
 
 ### Additions
 
-- Added the [**comment-lines**](⚠️-- LINK TBD --⚠️) icon will be used for the **Comment Templates** editor feature.
-- Added the [**empty-labels-starred-md**](⚠️-- LINK TBD --⚠️) illustration.
+- Added the [**comment-lines**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~comment-lines) icon will be used for the **Comment Templates** editor feature.
+- Added the [**empty-labels-starred-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations/empty-state/empty-labels-starred-md.svg) illustration.
 
 ### Enhancements
 
