@@ -92,7 +92,7 @@ Components with [Auto Layout](https://help.figma.com/article/453-auto-layout) dy
 
 Use the following guidelines and principles when naming properties. Consistent naming will make components easier to maintain and use.
 
-- Capitalize first character of key, and values are all lowercase. For example, "State: rest, hover, focus, active".
+- Capitalize first character of the key (property name) and use all lowercase for each value. For example, "State: rest, hover, focus, active".
 - Properties should be as abstract as possible to indicate intent over style. For example, "Color: muted, enhanced" instead of "Color: light gray, blue".
 - Mark default properties by adding `(default)` after the property name. For example, "Size: sm, md (default), lg".
 - Keys can be presented conversationally using 'is' or 'has'. For example, "Has icon: true, false", or "Is checked: unchecked, indeterminate, checked".
