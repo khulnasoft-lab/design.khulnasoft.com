@@ -12,10 +12,10 @@ With Figma, components are organized in the asset library by how they are struct
 For the rest of this guide, components created with Figma's variants feature will be referred to as **variant** or **variants**. Here's our working hierarchy for structure and naming, the file name has been left out for brevity:
 
 - **Page:** `[Component]`
-- **Frame:** `[Component]`, `[Category]`, `[Group]`, `[Elements]` or literally "Variants." "Variants" is the default frame name when components aren't created with the variants feature.
+- **Frame:** `[Component]`, `[Category]`, `[Group]`, `[Elements]` or literally "Variants."
 - **Layer:** `[Property=Value, Property=Value]` as a variant or `[Breakpoint/Item/Size/State]` when manually organized.
-  - Optional breakpoints: XS, SM, MD, LG, XL, breakpoints can also use symbols to indicate range, such as ≥MD or ≤SM
-  - Optional sizes: XS, SM, MD, LG, XL, XXL
+  - Optional breakpoints: xs, sm, md, lg, xl, breakpoints can also use symbols to indicate range, such as ≥md or ≤sm
+  - Optional sizes: xs, sm, md, lg, xl, xxl
 
 When creating a component as a variant, only a single instance of that component will be listed in the asset library. After adding the component to your design you'll have the ability to choose the variant needed based on available properties (see [examples](#examples) below).
 
@@ -36,28 +36,28 @@ Lastly, when you create a component variant in Figma it automatically adds a bor
 
 - **Page:** Alert
 - **Frame (container):** Alert
-- **Layer:** Variant=Danger, Max-width=False
+- **Layer:** Variant=danger, Is max width=false
 - **Result:** Alert/Alert
 
 **Pagination**
 
 - **Page:** Pagination
 - **Frame:** Pagination
-- **Layer:** Variant=Default, Breakpoint=≥MD, Truncation=None
+- **Layer:** Variant=full (default), Breakpoint=≥md, Has truncation=false
 - **Result:** Pagination/Pagination
 
 **Badge**
 
 - **Page:** Badge
 - **Frame:** Pipeline badge
-- **Layer:** Variant=Running, Size=SM
+- **Layer:** Variant=running, Size=sm
 - **Result:** Badge/Pipeline badge
 
 **Button**
 
 - **Page:** Button
 - **Frame:** Default
-- **Layer:** Category=Primary, Type=Dropdown split, Size=MD
+- **Layer:** Category=primary, Type=dropdown split, Size=md
 - **Result:** Button/Default
 
 | **Layers panel** | **Assets panel** |
@@ -100,7 +100,7 @@ Use the following guidelines and principles when naming properties. Consistent n
 - For size or weight, list least to greatest. For example, "Size: default, sm, md, lg" or "Weight: light, regular, bold".
 - Only use a property when an attribute should be explicitly configurable.
 
-<todo issue="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1040">Define what 'default' means for components<todo>
+<todo issue="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1040">Define what 'default' means for components</todo>
 
 Here are the standard properties and value ordering that can be used. If you need a property that isn't on the list, and it could be useful for other components, please create an issue or MR to add it.
 
