@@ -14,6 +14,7 @@ name: Release notes
 ### Enhancements
 
 ### Changes
+- Changed link component color for interactive states based on guidelines changes in [!3327](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3327).
 
 ### Fixes
 
