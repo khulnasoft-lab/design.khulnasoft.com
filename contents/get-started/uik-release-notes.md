@@ -14,6 +14,11 @@ name: Release notes
 ### Enhancements
 
 ### Changes
+- Changed [link component](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=81916-116837) color for interactive states based on guidelines changes in [!3327](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3327).
+  - **❖&nbsp;Link&nbsp;/&nbsp;Inline&nbsp;link**
+  - **❖&nbsp;Link&nbsp;/&nbsp;UI&nbsp;link**
+  - **❖&nbsp;Link&nbsp;/&nbsp;Meta&nbsp;link**
+  - **❖&nbsp;Link&nbsp;/&nbsp;Mention**
 
 ### Fixes
 
