@@ -12,6 +12,7 @@ name: Release notes
 - Added the [**empty-labels-starred-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations/empty-state/empty-labels-starred-md.svg) illustration.
 
 ### Enhancements
+- Added text properties to **❖ Link / UI link** and **❖ Link / Mention** allowing link content to be editable from the side bar.
 
 ### Changes
 - Changed link component color for interactive states based on guidelines changes in [!3327](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3327).
