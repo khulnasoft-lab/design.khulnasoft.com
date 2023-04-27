@@ -14,7 +14,7 @@ As Artificial Intelligence (AI) continues to advance, it brings both exciting op
 
 **Communicate confidence.** Users rely on the system to make decisions, but they should not trust the system entirely. Communicating confidence allows users to know how much scrutiny they should put recommendations under.
 
-**Be transparent.** Establish trust by ensuring the user always knows when they are interacting with AI, and when content or recommendations come from AI.
+**Be transparent.** Establish trust by ensuring the user always knows when they are interacting with AI, and when content or recommendations come from AI. Some third party AI services require us to disclose that a user is interacting with an AI system.
 
 In the UI, use active phrases such as:
 * AI created this summary.
