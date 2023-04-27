@@ -20,6 +20,7 @@ name: Release notes
   - **❖&nbsp;Link&nbsp;/&nbsp;UI&nbsp;link**
   - **❖&nbsp;Link&nbsp;/&nbsp;Meta&nbsp;link**
   - **❖&nbsp;Link&nbsp;/&nbsp;Mention**
+- Changed heading style by adding "breakpoint" and clarifying the range in order to make it more clear that a heading size is chosen by breakpoint and not a prefered size.
 
 ### Fixes
 
