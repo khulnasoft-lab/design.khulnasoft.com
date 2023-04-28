@@ -30,6 +30,15 @@ For a style:
 - Maintain the style name and structure. For example, 'UI/Display/md' → '⚠️ DEPRECATED/UI/Display/md'.
 - In the style editor, add '⚠️ DEPRECATED' to the description field.
 
-### Helpful tips
+## Helpful tips
 
-…
+Before making a change to a component:
+
+- In a new branch create an example for each possible component configuration and make changes to the supported overrides. A supported override is a change that is explicitly provided as a property. The [Regressor](https://www.figma.com/community/plugin/1213220990852681773) plugin\* is helpful for quickly generating a matrix of component configurations. The matrix of configurations and overrides can help you catch where overrides break or where there's regression in positioning or other attributes and behavior.
+- The [Visual Difference](https://www.figma.com/community/plugin/1077953882260191737) plugin\* is helpful to take before and after snapshots of your matrix in order to detect visual changes.
+
+For deprecated components:
+
+- Make sure the link to the deprecated component is intact. That is, make sure you aren't just creating a new component called **DEPRECATED**.
+
+\* Plugins aren't required, but they can benefit certain workflows.
