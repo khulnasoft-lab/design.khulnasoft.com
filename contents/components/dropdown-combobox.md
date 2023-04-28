@@ -67,7 +67,7 @@ A [button](/components/button) that triggers a combobox comes in a few variants 
 ### Behavior
 
 - By default, the panel opens below and is aligned to the left of the text input or button. However, when there isn't enough space in the viewport, the panel uses edge detection to position it above and/or aligned to the right of the text input or button.
-- The "tip" of the panel points at the trigger and is center-aligned with it by default.
+- The tip of the panel points at the trigger and is center-aligned with it by default.
 - If the content within the panel exceeds the maximum height then a scrim (gradient overlay) appears at the bottom of the panel as an overflow affordance. When a user has scrolled to the bottom of the overflowed content the scrim is removed.
 - A panel is closed by clicking outside of it, using the <kbd>Esc</kbd> key, or by focus moving to an element outside of the component.
 - When one or more options are selected in a multiselect context, they can optionally be grouped in a section above unselected options, although they may not be visibly grouped until the selections are applied and the panel is opened again.
@@ -75,9 +75,9 @@ A [button](/components/button) that triggers a combobox comes in a few variants 
 - Collapsible listbox:
   - An optional text input _within_ the panel can limit available options when a term is entered.
   - When an option is selected in a single select context, the panel is closed and the control updated.
-  - When one or more options are selected in a multiselect context, the panel stays open until the user closes it by one of the available methods. An 'Apply' button is not necessary. Depending on the logic, the selection may sync with the database on each selection and update the UI in real-time, or it may sync with the database after the panel is closed and then update the UI.
-  - In a single select context 'Any' or 'All' should be the first option to indicate that any parameter can apply.
-  - In a multiselect context a header action isn't binary. For example, if 'Select all' is an action in the header, it can only select all and won't change to an 'Unselect all' or indeterminate state after activating or a change in selected options.
+  - When one or more options are selected in a multiselect context, the panel stays open until the user closes it by one of the available methods. An **Apply** button is not necessary. Depending on the logic, the selection may sync with the database on each selection and update the UI in real-time, or it may sync with the database after the panel is closed and then update the UI.
+  - In a single select context, if **Any** or **All** is included, it should be the first option to indicate that any or all parameters can apply.
+  - In a multiselect context a header action can change per use case. For example, a **Select all** action can change to **Unselect all** after options are selected.
 - Combobox:
   - A user can either type a term in the text input or select an available option.
   - The text input can use autocomplete capability based on available options.
