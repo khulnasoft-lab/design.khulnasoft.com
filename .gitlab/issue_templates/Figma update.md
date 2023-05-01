@@ -29,14 +29,14 @@ Make sure the following are completed before closing the issue:
 
 1. [ ] Title the issue using this structure "Figma > [Component name] - [Description]". For example, Figma > Badges - Fix icon override bug.
 1. [ ] Add the relevant [component label](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/labels?subscribed=&search=component%3A). For example ~"component:badge".
-1. [ ] If you’re making updates or breaking changes to an existing component in the [Pajamas UI Kit](https://www.figma.com/community/file/781156790581391771), start with a [branch](https://www.figma.com/best-practices/branching-in-figma/) of the UI kit. Prefix the branch name with the issue, MR, or epic number, and add your GitLab username as the suffix. For example, `#860-table-component-updates-lvanc`. 
-1. [ ] When applicable, follow our [structure][structure], [building][building], and [annotation][annotation] guidelines. If you have any questions, reach out to a [Foundations designer][foundations-team].
+1. [ ] If you're making updates or breaking changes to an existing component in the [Pajamas UI Kit](https://www.figma.com/community/file/781156790581391771), start with a [branch](https://www.figma.com/best-practices/branching-in-figma/) of the UI kit. Prefix the branch name with the issue, MR, or epic number, and add your GitLab username as the suffix. For example, `#860-table-component-updates-lvanc`. 
+1. [ ] When applicable, follow the [structure][structure], [building][building], and [annotation][annotation] guidelines. If you have any questions, reach out to a [Foundations designer][foundations-team].
 1. [ ] Update the link to the working file under the **Figma link** section below.
 1. [ ] If work was not done in a branch (a merged branch will automatically be archived), move your working file 
    to the shared Figma project:
      1. For Component library changes, move your file to the [**Component archive**][component-archive] project.
      1. For all other changes, move your file to the [**Misc archive**][misc-archive] project.
-     1. If you’re a community contributor, please consider [transferring ownership of your draft file](https://help.figma.com/hc/en-us/articles/360038512093) to the maintainer so they can move it to our archive, along with its version history and comments.
+     1. If you're a community contributor, please consider [transferring ownership of your draft file](https://help.figma.com/hc/en-us/articles/360038512093) to the maintainer so they can move it to our archive, along with its version history and comments.
 </details>
 
 <details><summary>Prior to review:</summary>
@@ -69,7 +69,6 @@ Once your file is in review, you should see a yellow "In review" badge to the ri
 <details><summary>Post review:</summary>
 Once the Reviewer or Maintainer has approved your update, consider the following tasks: 
 
-1. [ ] If it’s a new pattern or a significant change, add an agenda item to the next UX weekly call to inform the team.
 1. [ ] When applicable, add or update relevant documentation and create an MR with your changes using the `Documentation` MR template. If you do not have the capacity, [create another issue using the `Component documentation` issue template][issue-component-template] so we don't forget about it. Mark the new issue as related to this one. Bring the issue to your team planning session for prioritization and scheduling. 
 1. [ ] When applicable, [create a GitLab UI issue using the `Component` issue template][gitlab-ui-component-template] to build or update the component code. Mark the new issue as related to this one. Bring the issue to your team planning session for prioritization and scheduling. 
 1. [ ]  🎉 Congrats, you made it! You can now close this issue.
@@ -101,17 +100,16 @@ Once the Reviewer or Maintainer has approved your update, consider the following
    target file.
      1. [ ] Ensure that all styles and components now belong to the target file.
      1. [ ] For changes to the **Component Library** file, view the components in the Assets panel to ensure they align with our [asset library structure guidelines][structure].
-1. [ ] When applicable, [publish][publishing] any library changes along with a clear commit message.
-1. [ ] If the file's version history isn't clear, [name the latest version](https://help.figma.com/hc/en-us/articles/360038006754-View-a-file-s-version-history#Name_an_existing_version) and update the details so it's clear what change had been made.
+1. [ ] Follow the [release process](https://design.gitlab.com/get-started/uik-release-process) for publishing guidelines and be sure to add the update to the current release notes draft MR.
 
 </details>
 
-[annotation]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/main/doc/pajamas-ui-kit.md#adding-descriptions-notes-and-annotations
-[building]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/main/doc/pajamas-ui-kit.md#building-components
-[foundations-team]: https://about.gitlab.com/company/team/?department=manage-foundations-team
+[annotation]: https://design.gitlab.com/get-started/uik-annotation
+[building]: https://design.gitlab.com/get-started/uik-components
+[foundations-team]: https://about.gitlab.com/handbook/product/categories/#foundations-group
 [figma-maintainer]: https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com
-[publishing]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/main/doc/pajamas-ui-kit.md#publishing-changes
-[structure]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/main/doc/pajamas-ui-kit.md#structure
+[publishing]: https://design.gitlab.com/get-started/uik-release-process#publishing
+[structure]: https://design.gitlab.com/get-started/uik-components
 [component-archive]: https://www.figma.com/files/project/5472112/Component-archive
 [misc-archive]: https://www.figma.com/files/project/10620392/Misc-archive
 [gitlab-ui-component-template]: https://gitlab.com/gitlab-org/gitlab-ui/-/issues/new?issuable_template=Component
