@@ -53,12 +53,11 @@ Higher tier features should be easy to identify from the rest of the interface. 
 
 ### Highlighting feature versions
 
-Similar to higher tier features, feature versions like Experiment and Beta should be easily identifiable. When a feature can be enabled via a setting, consider adding a badge next to the setting header. Include a link
-to the [feature management documentation](https://docs.gitlab.com/ee/policy/alpha-beta-support.html) in a [popover](/components/popover).
+Similar to higher tier features, feature versions like Experiment and Beta should be easily identifiable. When a feature can be enabled via a setting, consider adding a badge next to the setting header. Include help content in the [popover](/components/popover) to be available in context of the feature.
 
 | Experiment | Beta |
 | ------ | ------ |
-| Features in [Experiment](https://docs.gitlab.com/ee/policy/alpha-beta-support.html) aren't fully tested and may break. | Features in [Beta](https://docs.gitlab.com/ee/policy/alpha-beta-support.html) may still contain bugs or inconsistencies. |
+| An [Experiment](https://docs.gitlab.com/ee/policy/alpha-beta-support.html) is a feature that's in the process of being developed. It's not production-ready, but you should use it and provide feedback. | A [Beta](https://docs.gitlab.com/ee/policy/alpha-beta-support.html) feature is not production-ready, but is unlikely to change drastically before it's released. You should use Beta features and provide feedback. |
 | <figure-img label="Experiment feature badge" src="/img/experiment-feature-badge.svg"></figure-img> | <figure-img label="Beta feature badge" src="/img/beta-feature-badge.svg"></figure-img> |
 
 #### Specification
