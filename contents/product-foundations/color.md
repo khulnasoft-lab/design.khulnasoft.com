@@ -776,7 +776,7 @@ Typical state changes (light UI):
  
   <figure-img alt="Example button state color changes" label="Interactive color state example" src="/img/color-interactive.svg">
     <template #caption>
-      A primary confirm button example with a <code>$blue-500</code> fill at rest (1), a <code></code>$blue-600</code> fill for hover and focus (2, 3), and a <code></code>$blue-700</code> fill when active (4). The color changes are combined with other visual feedback (cursor, focus ring) to communicate information about the interactive state.
+      A primary confirm button example with a <code>$blue-500</code> fill at rest (1), a <code>$blue-600</code> fill for hover and focus (2, 3), and a <code>$blue-700</code> fill when active (4). The color changes are combined with other visual feedback (cursor, focus ring) to communicate information about the interactive state.
     </template>
   </figure-img>
 - Where there aren't enough steps to follow this pattern, prioritize `:hover` and `:focus` becoming a step darker.
