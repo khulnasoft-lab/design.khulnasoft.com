@@ -68,8 +68,9 @@ Similar to higher tier features, feature versions like Experiment and Beta shoul
 
 #### How to use
 
-* Ensure there is a clear connection between the badge and the feature being highlighted. For example, place the badge next to the name of the feature.
-* When the feature becomes Generally Available, make sure the badge is removed.
+* Ensure there is a clear connection between the badge and the feature being highlighted. For example, place the badge next to the name of the feature. 
+* When placing the badge, please consider the available space and opt for a smaller SM version of the badge. The badge can be displayed either before or after the user interacts with the feature. 
+* When the feature becomes Generally Available, make sure the badge is removed.  
 
 ## Visibility
 
