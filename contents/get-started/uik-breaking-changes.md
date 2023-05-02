@@ -18,7 +18,7 @@ When a component or style is deprecated it should remain available for at least 
 For a component:
 
 - In a new branch, move the component page to the **DEPRECATED** section at the bottom of the page list.
-- Append '(⚠️ DEPRECATED)' to the page name.
+- Append '(⚠️ DEPRECATED)' to the page name. Note that even though the component page is being moved, there may be some things that can be reused when creating a new version of the component. Just be sure that components are linked and referrenced from the correct location — the assets panel is a helpful place to test references.
 - Append '(⚠️ DEPRECATED)' to the the component and any base components in the page.
 - When the component has been deprecated due to breaking changes in a newer version, link to the new version from the deprecated page.
 - Deprecated pages have a `$red-100` (`#FDD4CD`) background color and `$red-700` (`#AE1800`) for page headings and descriptions that aren't part of the component.
@@ -34,7 +34,7 @@ For a style:
 
 Before making a change to a component:
 
-- In a new branch create an example for each possible component configuration and make changes to the supported overrides. A supported override is a change that is explicitly provided as a property. The [Regressor](https://www.figma.com/community/plugin/1213220990852681773) plugin\* is helpful for quickly generating a matrix of component configurations. The matrix of configurations and overrides can help you catch where overrides break or where there's regression in positioning or other attributes and behavior.
+- In a new branch create an example for each possible component configuration and make changes to the supported overrides. A supported override is a change that's explicitly provided as a property, like toggling icon visibility or editing text, or inherently part of the component use, like changing a label color or swapping an avatar image. The [Regressor](https://www.figma.com/community/plugin/1213220990852681773) plugin\* is helpful for quickly generating a matrix of component configurations. The matrix of configurations and overrides can help you catch where overrides break or where there's regression in positioning or other attributes and behavior.
 - The [Visual Difference](https://www.figma.com/community/plugin/1077953882260191737) plugin\* is helpful to take before and after snapshots of your matrix in order to detect visual changes.
 
 For deprecated components:
