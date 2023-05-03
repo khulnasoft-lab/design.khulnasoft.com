@@ -60,6 +60,7 @@ Similar to higher tier features, feature versions like Experiment and Beta shoul
 | <figure-img label="Experiment feature badge" src="/img/experiment-feature-badge.svg"></figure-img> | <figure-img label="Beta feature badge" src="/img/beta-feature-badge.svg"></figure-img> |
 | **What's an Experiment**<br>An Experiment is a feature that's in the process of being developed. It's not production-ready, but you should use it and provide feedback.<br><br>An Experiment:<ul><li>May have performance or stability issues</li><li>Can cause data loss</li><li>Has no support and might not be documented</li><li>Can be removed at any time</li></ul> | **What's a Beta?**<br>A Beta feature is not production-ready, but is unlikely to change drastically before it's released. You should use Beta features and provide feedback.<br><br>A Beta feature:<ul><li>May have performance or stability issues</li><li>Should not cause data loss</li><li>Is supported on a reasonable-effort basis</li><li>Is complete or near completion</li></ul> |
 
+<todo>Replace badges with live example or link once a dedicated component has been added to GitLab UI.</todo>
 #### Specification
 
 * Component name: [`GlBadge`](https://design.gitlab.com/components/badge/code)
