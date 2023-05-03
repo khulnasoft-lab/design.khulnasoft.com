@@ -53,7 +53,7 @@ Higher tier features should be easy to identify from the rest of the interface. 
 
 ### Highlighting feature versions
 
-Similar to higher tier features, feature versions like Experiment and Beta should be easily identifiable. When a feature can be enabled via a setting, consider adding a badge next to the setting header. Include help content in the [popover](/components/popover) to be available in context of the feature.
+Similar to higher tier features, feature versions like Experiment and Beta should be easily identifiable, using a [badge](/components/badge/) with an explanation in a [popover](/components/popover):
 
 | Experiment | Beta |
 | ------ | ------ |
