@@ -64,8 +64,8 @@ Similar to higher tier features, feature versions like Experiment and Beta shoul
 #### Specification
 
 * Component name: [`GlBadge`](https://design.gitlab.com/components/badge/code)
-* Variant: `Info`
-* Size: `MD`
+* Variant: `neutral`
+* Size: `md` or `sm`
 
 #### How to use
 
