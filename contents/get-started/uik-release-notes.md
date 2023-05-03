@@ -31,6 +31,7 @@ name: Release notes
   - **attention-solid**
   - **attention-solid-sm**
 - The [**code**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~code) icon has been recreated to correct it being flipped when used in a component.
+- Fixed the broken [typescale code blocks](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=72017-102904&t=7tow6e6oHv2EeFwa-11).
 
 ## 15.11
 
@@ -58,7 +59,7 @@ name: Release notes
 
 ### Changes
 
-- Breaking (low): Addition and removal content styles have been moved to a new [**❖&nbsp;Inline&nbsp;highlight**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=84028-117530&t=btf6j6JBlWUFtOkp-11) component. 
+- Breaking (low): Addition and removal content styles have been moved to a new [**❖&nbsp;Inline&nbsp;highlight**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=84028-117530&t=btf6j6JBlWUFtOkp-11) component.
   - We expect existing instances to remain unchanged, but you will need to switch to the new component to make updates.
   - Take care when switching the component as text overrides may be lost.
 - Breaking (medium impact): [**❖&nbsp;Dropdown**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-14&t=btf6j6JBlWUFtOkp-11) width has been decreased in support of the [navigation updates](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1572). Upon updating locally the dropdown width will be 8px narrower and if you've used left or right (not centered or dynamic) tip placement it will reset to a default position. As part of the update several other resizing fixes and improvements have been made that aren't breaking changes.
