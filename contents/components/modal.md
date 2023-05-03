@@ -76,7 +76,7 @@ Clicking the "edit" button places a user in an "edit mode" for this row, which u
 - Focus should be placed on the modal or the heading (read the [accessibility](#accessibility) notes for details).
 - Keyboard focus is contained in the modal while it remains open.
 - A modal can be dismissed by:
-    - Clicking on the close button within it.
+    - Clicking on the **Close** button within it.
     - Clicking on a **Cancel** button (or similar) within it. 
     - The <kbd>Esc</kbd> key being pressed.
     - Clicking outside of it.
