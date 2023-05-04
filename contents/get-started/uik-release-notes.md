@@ -22,6 +22,7 @@ name: Release notes
   - **❖&nbsp;Link&nbsp;/&nbsp;Mention**
 - Changed heading style by adding "breakpoint" and clarifying the range in order to make it more clear that a heading size is chosen by breakpoint and not a preferred size.
 - Updated the following illustrations: [**empty-subgroup-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations/empty-state/empty-subgroup-md.svg), [**rocket-launch-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations/rocket-launch-md.svg).
+- Increased contrast for [label instances](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=1531-2&t=ZrpNCwtIrer1pRZo-11) that didn't meet 4.5:1.
 
 ### Fixes
 
