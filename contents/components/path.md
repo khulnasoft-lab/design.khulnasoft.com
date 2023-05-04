@@ -27,7 +27,8 @@ related:
 
 ### When not to use
 
-- As an indicator of a user’s progress within a process, for example, in a checkout flow.
+- To indicate a user’s progress within a process, for example, in a checkout flow, use a [progress bar](/components/progress-bar).
+
 
 ### Variants
 
