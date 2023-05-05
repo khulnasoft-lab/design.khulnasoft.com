@@ -30,7 +30,7 @@ Make sure the following are completed before closing the issue:
 1. [ ] Title the issue using this structure "Figma > [Component name] - [Description]". For example, Figma > Badges - Fix icon override bug.
 1. [ ] Add the relevant [component label](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/labels?subscribed=&search=component%3A). For example ~"component:badge".
 1. [ ] If you're making updates or [breaking changes][breaking-changes] to an existing component in the [Pajamas UI Kit](https://www.figma.com/community/file/781156790581391771), start with a [branch](https://www.figma.com/best-practices/branching-in-figma/) of the UI kit. Prefix the branch name with the issue, MR, or epic number, and add your GitLab username as the suffix. For example, `#860-table-component-updates-lvanc`. 
-1. [ ] When applicable, follow the [structure][structure], [building][building], and [annotation][annotation] guidelines. If you have any questions, reach out to a [Foundations designer][foundations-team].
+1. [ ] When applicable, follow the [components][components] and [annotation][annotation] guidelines. If you have any questions, reach out to a [Foundations designer][foundations-team].
 1. [ ] Update the link to the working file under the **Figma link** section.
 1. [ ] If work was not done in a branch (a merged branch will automatically be archived), move your working file 
    to the shared Figma project:
@@ -44,7 +44,7 @@ Make sure the following are completed before closing the issue:
 The purpose of these tasks is to ensure consistency with the rest of the components and to save time during the review process. When you are finished with your update, please go through the following clean-up tasks in Figma:
 
 1. [ ] **Canvas**: Make sure no hidden elements have been accidentally left behind. Use **View > Show Outlines** (<kbd>⌘</kbd> + <kbd>Y</kbd>) to reveal invisible objects. Use **View > Zoom to Fit** (<kbd>Shift</kbd> + <kbd>1</kbd>) to view all items on the page.
-1. [ ] **Components**: Make sure all components have correct names, properties, and descriptions along with external documentation links where applicable. View the [component][building] guides for details.
+1. [ ] **Components**: Make sure all components have correct names, properties, and descriptions along with external documentation links where applicable. View the [components][components] guides for details.
 1. [ ] **Frames**: Make spacing within and between frames consistent with components found on other pages.
 1. [ ] **Layers**: Make sure all your layers are correctly named and the order match visual from left to right. In the case of Auto Layout, Figma will determine layer order.
 1. [ ] **Variants**: Remove the default dashed purple stroke, border radius, and padding from all variants.
@@ -84,7 +84,7 @@ Once the Reviewer or Maintainer has approved your update, consider the following
 1. [ ] Make sure all layers are correctly named and organized.
 1. [ ] Stress test final component by changing the component's size, editing content, and changing any available variants and properties. 
 1. [ ] Ensure component descriptions and external documentation links are clear and accurate.
-1. [ ] Approve assignee's design. Let the assigning know that their changes have been approved by mentioning them in this issue.
+1. [ ] Approve assignee's design and mention them in this issue to let them know.
 1. [ ] Assign to a [Figma maintainer][figma-maintainer] for final review (make sure they have edit permissions in Figma).
 1. [ ] Ask a [Foundations designer][foundations-team] to review your design (ensure they have edit permissions in Figma).
 
@@ -100,22 +100,21 @@ Once the Reviewer or Maintainer has approved your update, consider the following
 1. [ ] Merge the branch or add the changes or additions to the
    target file.
      1. [ ] Ensure that all styles and components now belong to the target file.
-     1. [ ] For changes to the **Component Library** file, view the components in the Assets panel to ensure they align with our [asset library structure guidelines][structure].
+     1. [ ] For changes to the **Component library** file, view the components in the Assets panel to ensure they align with the [components][components] guidelines.
 1. [ ] Ensure that the [release process](https://design.gitlab.com/get-started/uik-release-process) has been followed and notes are accounted for.
 
 </details>
 
-[breaking-changes]: https://design.gitlab.com/get-started/uik-breaking-changes
 [annotation]: https://design.gitlab.com/get-started/uik-annotation
-[building]: https://design.gitlab.com/get-started/uik-components
-[foundations-team]: https://about.gitlab.com/handbook/product/categories/#foundations-group
-[figma-maintainer]: https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com
-[publishing]: https://design.gitlab.com/get-started/uik-release-process#publishing
-[structure]: https://design.gitlab.com/get-started/uik-components
+[breaking-changes]: https://design.gitlab.com/get-started/uik-breaking-changes
 [component-archive]: https://www.figma.com/files/project/5472112/Component-archive
-[misc-archive]: https://www.figma.com/files/project/10620392/Misc-archive
+[components]: https://design.gitlab.com/get-started/uik-components
+[figma-maintainer]: https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com
+[foundations-team]: https://about.gitlab.com/handbook/product/categories/#foundations-group
 [gitlab-ui-component-template]: https://gitlab.com/gitlab-org/gitlab-ui/-/issues/new?issuable_template=Component
 [issue-component-template]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/new?issuable_template=Component%20documentation
+[misc-archive]: https://www.figma.com/files/project/10620392/Misc-archive
+[publishing]: https://design.gitlab.com/get-started/uik-release-process#publishing
 
 <!-- Do not delete below this line -->
 
