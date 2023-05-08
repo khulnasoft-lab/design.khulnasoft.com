@@ -21,16 +21,11 @@ In the UI, use active phrases such as:
 * AI explained this code.
 * AI generated this content.
 
-Users need to understand a system's capabilities and limits to understand how much trust to put into the system.
-
-Help the user build a mental model of the system:
-* Use clear, simple language to explain what the system is doing and how it arrived at its recommendations. 
-* Explain what data the system is trained on and what it's optimized for. 
-* Tell the user how their data is used and processed.
+Users need to understand a system's capabilities and limits to understand how much trust to put into the system. Help the user build a mental model of the system by using clear, simple language to explain what the system is doing and how it arrived at its recommendations.  For example: "AI suggested these reviewers based on who has reviewed this code in the past". 
 
 **Set the right expectations.** The interface should clearly communicate the AI's capabilities, limitations, and the scope of its decision-making authority. If a feature is experimental or beta, [clearly communicate that in the UI](/usability/feature-management#highlighting-feature-versions).
 
-**Give the user control** The user should be able to decide whether to follow the AI's recommendations or not. There should be an easy way to undo system actions. Do not collect user data without asking the user's permission.
+**Give the user control** The user should be able to decide whether to follow the AI's recommendations or not. There should be an easy way to undo system actions. Do not collect user data without asking the user's permission. Let the user make an informed decision about whether or not to share their data by highlighting the benefit of the feature and also any privacy concerns. For example, if the user's data will be sent to a third-party, clearly state that in the UI.
 
 **Fail gracefully.** When your system is not certain of the user's intent or has low confidence, make sure there is a path forward that does not rely on AI. Explain why the system was not able to provide a recommendation. Errors are also opportunities to learn more about your user's mental models and improve the system's ability to make recommendations. Consider designing a feedback mechanism that presents as a cue for adjustment rather than an error state.
 
