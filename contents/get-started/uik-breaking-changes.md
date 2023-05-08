@@ -18,7 +18,7 @@ When a component or style is deprecated it should remain available for at least 
 For a component:
 
 - In a new branch, move the component page to the **DEPRECATED** section at the bottom of the page list.
-- Append '(⚠️ DEPRECATED)' to the page name. Note that even though the component page is being moved, there may be some things that can be reused when creating a new version of the component. Just be sure that components are linked and referrenced from the correct location — the assets panel is a helpful place to test references.
+- Append '(⚠️ DEPRECATED)' to the page name. Note that even though the whole component page is being moved, there may be some things that can be reused and moved into the new version of the component. Be sure that components are linked and referenced from the correct location — the assets panel is a helpful place to test references.
 - Append '(⚠️ DEPRECATED)' to the the component and any base components in the page.
 - When the component has been deprecated due to breaking changes in a newer version, link to the new version from the deprecated page.
 - Deprecated pages have a `$red-100` (`#FDD4CD`) background color and `$red-700` (`#AE1800`) for page headings and descriptions that aren't part of the component.
