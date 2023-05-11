@@ -80,7 +80,7 @@ Once the Reviewer or Maintainer has approved your update, consider the following
 
 <details><summary>See tasks:</summary>
 
-1. [ ] Review and approve assignee's design and ensure that any breaking change has been accounted for. Specific design questions can be addressed with comments in Figma. Comment in this issue when the content is less specific to the design or requires greater visibility.
+1. [ ] Review assignee's design and ensure that any [breaking change][breaking-changes] has been accounted for. Specific design questions can be addressed with comments in Figma. Comment in this issue when the content is less specific to the design or requires greater visibility.
 1. [ ] Make sure all layers are correctly named and organized.
 1. [ ] Stress test final component by changing the component's size, editing content, and changing any available variants and properties. 
 1. [ ] Ensure component descriptions and external documentation links are clear and accurate.
