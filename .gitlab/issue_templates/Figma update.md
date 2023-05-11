@@ -69,7 +69,7 @@ Once your file is in review, you should see a yellow "In review" badge to the ri
 <details><summary>Post review:</summary>
 Once the Reviewer or Maintainer has approved your update, consider the following tasks: 
 
-1. [ ] Follow the [release process](https://design.gitlab.com/get-started/uik-release-process) for publishing guidelines and be sure to add the update to the current release notes draft MR. Ask a [Figma maintainer][figma-maintainer] if you need help.
+1. [ ] Follow the [release process][release-process] for publishing guidelines and be sure to add the update to the current release notes draft MR. Ask a [Figma maintainer][figma-maintainer] if you need help.
 1. [ ] When applicable, add or update relevant documentation and create an MR with your changes using the `Documentation` MR template. If you do not have the capacity, [create another issue using the `Component documentation` issue template][issue-component-template] so we don't forget about it. Mark the new issue as related to this one. Bring the issue to your team planning session for prioritization and scheduling. 
 1. [ ] When applicable, [create a GitLab UI issue using the `Component` issue template][gitlab-ui-component-template] to build or update the component code. Mark the new issue as related to this one. Bring the issue to your team planning session for prioritization and scheduling. 
 1. [ ]  🎉 Congrats, you made it! You can now close this issue.
@@ -101,7 +101,7 @@ Once the Reviewer or Maintainer has approved your update, consider the following
    target file.
      1. [ ] Ensure that all styles and components now belong to the target file.
      1. [ ] For changes to the **Component library** file, view the components in the Assets panel to ensure they align with the [components][components] guidelines.
-1. [ ] Ensure that the [release process](https://design.gitlab.com/get-started/uik-release-process) has been followed and notes are accounted for.
+1. [ ] Ensure that the [release process][release-process] has been followed and notes are accounted for.
 
 </details>
 
@@ -114,7 +114,7 @@ Once the Reviewer or Maintainer has approved your update, consider the following
 [gitlab-ui-component-template]: https://gitlab.com/gitlab-org/gitlab-ui/-/issues/new?issuable_template=Component
 [issue-component-template]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/new?issuable_template=Component%20documentation
 [misc-archive]: https://www.figma.com/files/project/10620392/Misc-archive
-[publishing]: https://design.gitlab.com/get-started/uik-release-process#publishing
+[release-process]: https://design.gitlab.com/get-started/uik-release-process
 
 <!-- Do not delete below this line -->
 
