@@ -26,6 +26,9 @@ name: Release notes
 
 ### Fixes
 
+- Breaking (medium): Fix height of [**❖&nbsp;Option**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=65765-98174&t=zF4a3tAsVJGGuzTk-11) component (part of dropdown). Options now resize correctly in prototypes. For existing uses, it's possible that each option will shift height by up to 4px. To migrate, check if dropdown sizing needs to be increased, and if not using auto layout ensure spacing between options is correct.
+- Made dropdown [empty state](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=61256-133768&t=zF4a3tAsVJGGuzTk-4) example plain text instead of an option with states.
+- Removed bottom padding from last list items in some [dropdown instances](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=65182-99209&t=zF4a3tAsVJGGuzTk-11) for proper padding within the panel after scrolling to the bottom.
 - The nested layer names of the following icons in the [GitLab Product Icons](https://www.figma.com/file/h4YjjttHL5YI0mXZfQ4uuU/GitLab-Product-Icons?node-id=0%3A1&t=Ta7o7P5IrksrZ3r4-1) file has been changed to "icon" in order to preserve color overrides:
   - **stop**
   - **highlight**
