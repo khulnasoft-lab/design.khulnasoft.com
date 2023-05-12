@@ -73,7 +73,7 @@ Clicking the "edit" button places a user in an "edit mode" for this row, which u
   - When modal content extends below the viewport, the viewport remains scrollable.
   - If modal content exceeds the height of the viewport and impedes a user’s ability to maintain context or see important actions, the content within the modal can be made scrollable. However, this should be avoided, if possible, because doing so impacts the ability for [dropdowns](/components/dropdown-overview) and other popups ([tooltips](/components/tooltip) and [popovers](/components/popover)) to extend outside the boundary of the modal when necessary and to reposition as needed depending on available space.
 - On small screens where content requires scrolling, consider opening the content in a new page instead.
-- Focus should be placed on the modal contianer (read the [accessibility](#accessibility) notes for details).
+- Focus should be placed on the modal container (read the [accessibility](#accessibility) notes for details).
 - Keyboard focus is contained in the modal while it remains open.
 - A modal can be dismissed by:
     - Clicking on the **Close** button within it.
