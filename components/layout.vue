@@ -27,7 +27,7 @@ export default {
         <edit-this-page-link
           edit-url="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/main"
         >
-          Page source
+          View page source
         </edit-this-page-link>
         <span class="footer-link-divider"></span>
         <edit-this-page-link
