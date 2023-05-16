@@ -4,7 +4,7 @@ name: AI-human interaction
 
 As Artificial Intelligence (AI) continues to advance, it brings both exciting opportunities and new challenges for product design. Although designing for AI still requires adhering to human-centered design principles, additional considerations such as ethics, privacy, trust, and transparency must be taken into account.
 
-This page is divided into two main sections: [Guidelines](#guidelines) and [Framework](#framework).
+This page is divided into two main sections: [Guidelines](#guidelines) and [Framework](#framework) for AI.
 
 ## Guidelines
 
