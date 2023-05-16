@@ -68,9 +68,9 @@ These dimensions can assist you in choosing the most appropriate pattern for the
    - Focused: AI is the main context, with a dedicated focus.
    - Supportive: AI complements the main context and accompanies users along their journey to help them achieve their goals.
    - Integrated: AI is blended into specific moments of the users flow to help them complete small, discrete tasks.
-- **Approach**: What should AI focus on increasing?
-   - Automate tasks: increase _efficiency_ by replacing human decision-making and actions, always done with human awareness and consent.
-   - Augment capabilities: increase _effectiveness_ by supporting and improving human decision-making and actions.
+- **Approach**: What should AI focus on improving?
+   - Automate tasks: improve _efficiency_ by replacing human decision-making and actions, always done with human awareness and consent.
+   - Augment capabilities: improve _effectiveness_ by supporting and improving human decision-making and actions.
 - **Interactivity**: How does the system surface AI to engage with the user?
    - Proactive: triggered without user interaction.
    - Reactive: triggered by user interaction.
