@@ -2,9 +2,13 @@
 name: Release notes
 ---
 
+## 16.1
+
+[_Draft: 16.1 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3402)
+
 ## 16.0
 
-<small>Published TBD</small>
+<small>Published 2023-05-22</small>
 
 ### Additions
 
