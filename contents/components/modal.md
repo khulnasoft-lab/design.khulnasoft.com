@@ -26,7 +26,7 @@ related:
 <figure-img alt="Numbered diagram of a modal structure" label="Modal structure" src="/img/modal-structure.svg"></figure-img>
 
 1. **Dialog**: Modal dialog container.
-1. **Title** (`h2`): A question or descriptive phrase that conveys an overview of the purpose.
+1. **Title**: A question or descriptive phrase that conveys an overview of the purpose.
 1. **Dismissal**: Icon to dismiss the modal.
 1. **Message**: Text content indicating the purpose and potential next steps.
 1. **Actions** (optional): Buttons used to provide explicit action(s) the user can take to either remedy the modal or continue with a task.
