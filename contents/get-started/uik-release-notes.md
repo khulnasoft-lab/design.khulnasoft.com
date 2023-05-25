@@ -2,9 +2,29 @@
 name: Release notes
 ---
 
+## 16.2
+
+[_Draft: 16.2 release notes_](#) <!-- ⚠️ Update draft link -->
+
 ## 16.1
 
-[_Draft: 16.1 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3402)
+<small>Published 2023-06-XX</small> <!-- ⚠️ Update publish date -->
+
+### Additions
+
+- Added the following icons: [**quick-actions**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~quick-actions)
+
+### Enhancements
+
+- …
+
+### Changes
+
+- …
+
+### Fixes
+
+- …
 
 ## 16.0
 
