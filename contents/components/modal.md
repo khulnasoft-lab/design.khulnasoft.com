@@ -26,7 +26,7 @@ related:
 <figure-img alt="Numbered diagram of a modal structure" label="Modal structure" src="/img/modal-structure.svg"></figure-img>
 
 1. **Dialog**: Modal dialog container.
-1. **Title**: A question or descriptive phrase that conveys an overview of the purpose.
+1. **Title**: A short question or descriptive phrase that conveys an overview of the purpose.
 1. **Dismissal**: Icon to dismiss the modal.
 1. **Message**: Text content indicating the purpose and potential next steps.
 1. **Actions** (optional): Buttons used to provide explicit action(s) the user can take to either remedy the modal or continue with a task.
@@ -73,7 +73,7 @@ Clicking the "edit" button places a user in an "edit mode" for this row, which u
   - When modal content extends below the viewport, the viewport remains scrollable.
   - If modal content exceeds the height of the viewport and impedes a user’s ability to maintain context or see important actions, the content within the modal can be made scrollable. However, this should be avoided, if possible, because doing so impacts the ability for [dropdowns](/components/dropdown-overview) and other popups ([tooltips](/components/tooltip) and [popovers](/components/popover)) to extend outside the boundary of the modal when necessary and to reposition as needed depending on available space.
 - On small screens where content requires scrolling, consider opening the content in a new page instead.
-- Focus should be placed on the modal container (read the [accessibility](#accessibility) notes for details).
+- Focus should be placed on the modal title (read the [accessibility](#accessibility) notes for details).
 - Keyboard focus is contained in the modal while it remains open.
 - A modal can be dismissed by:
     - Clicking on the **Close** button within it.
@@ -93,7 +93,7 @@ Clicking the "edit" button places a user in an "edit mode" for this row, which u
 ### Accessibility
 
 - A modal uses [`role="dialog"`](https://www.w3.org/TR/wai-aria-1.2/#dialog) to indicate that it's a descendant of the main window.
-- Focusing on a button or form element within can move a user past important contextual information or even scroll the start of the modal content out of view — it's also inconsistent from modal to modal. Therefore, set the initial focus by placing it on the element with `role="dialog"` and use `aria-label` or an `aria-labelledby` attribute that references the modal title (`h2`).
+- Focusing on a button or form element within can move a user past important contextual information or even scroll the start of the modal content out of view — it's also inconsistent from modal to modal. Therefore, it's recommended to initially place focus on the modal title and reference it by using the `aria-labelledby` attribute on the dialog. If there's no content before a control, except for the title, then focus can be placed on the control.
 - A modal must be labeled with `aria-label` or `aria-labelledby`.
 - See the [WAI-ARIA Dialog (Modal) documentation](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/) for more details.
 
