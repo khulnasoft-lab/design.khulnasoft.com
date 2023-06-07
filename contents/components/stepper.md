@@ -14,7 +14,7 @@
 -->
 ---
 name: Stepper
-description: A stepper conveys progress through numbered steps that allow users to input information in a prescribed order.
+description: A stepper separates staged workflows into meaningful, ordered steps.
 <!--
   `vueComponents` is used to pull the component from Storybook in order to generate the Implementation tab. Removing this will remove the Implementation tab for the component. List in alphabetical order.
 
@@ -133,7 +133,11 @@ related:
 -->
 
 - Steps are always linear, forcing the user to complete them in a specific order.
-- **Back** and **Next** actions should always be available so users can navigtate back to previous steps in case they made a mistake.
+- Any step can be optional.
+- Users can return to a previous step through a visible **Back** button or the browser back button.
+- Users progress to the next page through a primary button with descriptive button text. 
+- Progress is prevented and clear errors displayed if any required inputs are invalid.
+- Optional steps should additionally have a visible **Skip** button.
 - All steps should be shown if the number of steps are determined from the start. For example, when signing up for a new account, user input does not impact the total number of steps, so all steps can be shown. 
 - Only one step should be populated at a time if the number of steps are undetermined. For example, if user input removes a future step, only one step should be shown at once. This follows [progressive disclosure guidelines](/usability/progressive-disclosure) and ensures that conditional logic can work properly without impacting the user's ability to navigate to previous steps.
 - A confirmation dialog should be triggered if the user leaves the flow before they complete their process. Ideally, the progress would be saved so that when they return, they can pick up where they left off. If that is not possible, be sure to communicate they will lose all data they entered.
@@ -155,7 +159,7 @@ related:
 
 - Each step has a title and optional description.
 - If a step is optional, the description can state that it is.
-- Step titles should be kept as concise as possible.
+- Step titles should be kept as descriptive as possible while remaining concise.
 - Content in a step should always relate to the step title. When using steppers to request data from users, the content within the step should consist of form elements.
 
 <!-- Begin variable content -->
