@@ -24,7 +24,7 @@ name: Release notes
 
 ### Fixes
 
-- Fixed the pixel alignment of the [**table**](https://www.figma.com/file/h4YjjttHL5YI0mXZfQ4uuU/GitLab-Product-Icons?type=design&node-id=520-935&t=Y5QW1B8iRwxOOxmA-4) icon (no impact to SVG).
+- Fixed the pixel alignment of the [**table**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~table) icon.
 
 ## 16.0
 
