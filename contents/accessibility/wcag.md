@@ -118,7 +118,7 @@ The terms used in the Conformance Level information are defined as follows:
       </td>
       <td>
         <p>The product does not include any audio-only or video-only media.</p>
-        <p>However, users have the ability to upload their own media. In these cases, users have the ability to include alternative representations, such as text transcripts.</p>
+        <p>However, a user has the ability to upload their own media. In these cases, they can include alternative representations, such as text transcripts.</p>
       </td>
     </tr>
     <tr>
@@ -129,15 +129,11 @@ The terms used in the Conformance Level information are defined as follows:
         >1.2.2 Captions (Prerecorded)</a> (Level A)
       </td>
       <td>
-        Partially supports
+        Supports
       </td>
       <td>
         <p>The product does not include any audio-only or video-only media.</p>
-        <p>However, users have the ability to upload their own media. Captions are supported for videos provided by third-party tools that offer this capability. The product does not provide capabilities for captioning user generated audio or video content.
-        <a
-          href="https://gitlab.com/gitlab-org/gitlab/issues/25796"
-          target="_blank"
-        >https://gitlab.com/gitlab-org/gitlab/issues/25796</a></p>
+        <p>However, a user has the ability to upload their own media. Captions are supported for videos provided by third-party tools that offer this capability. The product does not provide capabilities for captioning user generated audio or video content.</p>
       </td>
     </tr>
     <tr>
@@ -811,7 +807,7 @@ The terms used in the Conformance Level information are defined as follows:
       </td>
       <td>
         <p>The product provides suggestion for how to mitigate input errors.</p>
-        <p>However, the identification and description of an error is not combined programmatically to help assistive technologies to identify an error and provide remedy suggestions to the user:
+        <p>However, the identification and description of an error is not always combined programmatically to help assistive technologies to identify an error and provide remedy suggestions to the user:
         <a
           href="https://gitlab.com/groups/gitlab-org/-/epics/7341"
           target="_blank"
