@@ -57,8 +57,8 @@ The default visible `Loading...` text isn't part of the component itself. Howeve
 
 ### Accessibility
 
-- When a change occurs in the UI, like a loading state, it's good to notify a user what is happening. While a spinner visually indicates that a process is happening, it should also be indicated by assistive technology through the use of `role="status"`.
+- When a change occurs in the UI, it's good to audibly notify assistive technology that a process is happening through the use of `role="status"`, see the [WAI-ARIA `status` documentation](https://www.w3.org/TR/wai-aria-1.1/#status).
 - Since the spinner contains no text content, `aria-label` is used to provide a short message, for example, `aria-label="Loading"`.
-- The spinner animation is currently not changed by `perfers-reduced-motion` because it can be considered essential to understanding the state of the application. See _Note 4_ under the "How to meet WCAG" [2.2.2 Pause, Stop, Hide](https://www.w3.org/WAI/WCAG21/quickref/#pause-stop-hide).
+- The spinner animation is currently not changed by `perfers-reduced-motion` because it can be considered essential to understanding the state of the application. See _Note 4_ in [Understanding WCAG SC 2.2.2 Pause, Stop, Hide](https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html).
 - See the [WAI-ARIA `status` documentation](https://www.w3.org/TR/wai-aria-1.1/#status) for more details.
 
