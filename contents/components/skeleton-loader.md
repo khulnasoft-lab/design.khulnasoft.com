@@ -58,10 +58,10 @@ To create a new skeleton loader:
 
 ### Accessibility
 
-- When a change occurs in the UI, like a loading state, it's good to notify a user what's happening, however, since a skeleton loader should only be present for a short period of time, and during an expected loading period, it does not need to be a live region or communicate that the page is busy.
+- When a change occurs in the UI, like a loading state, it's good practice to notify a user what's happening. However, since a skeleton loader should only be present for a short period of time, and during an expected loading period, it does not need to be a live region or communicate that the page is busy.
 
 ## Reference
 
 - The [Skeleton Loading](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/base-skeleton-loading--default) component has been deprecated in favor of the Skeleton Loader.
 - [Everything you need to know about skeleton screens](https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a), by Bill Chung.
-- [More Accessibile Skeletons](https://adrianroselli.com/2020/11/more-accessible-skeletons.html), by Adrian Roselli
+- [More Accessibile Skeletons](https://adrianroselli.com/2020/11/more-accessible-skeletons.html), by Adrian Roselli.
