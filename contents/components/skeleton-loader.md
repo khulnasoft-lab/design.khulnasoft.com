@@ -58,7 +58,7 @@ To create a new skeleton loader:
 
 ### Accessibility
 
-- When a change occurs in the UI, like a loading state, it's good practice to notify a user what's happening. However, since a skeleton loader should only be present for a short period of time, and during an expected loading period, it does not need to be a live region or communicate that the page is busy.
+- When a change occurs in the UI, like a loading state, it's good practice to notify the user what's happening. However, since a skeleton loader should only be present for a short period of time, and during an expected loading period, it does not need to be a live region or communicate that the page is busy.
 
 ## Reference
 
