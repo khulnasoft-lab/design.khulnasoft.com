@@ -114,10 +114,10 @@ The terms used in the Conformance Level information are defined as follows:
         >1.2.1 Audio-only and Video-only (Prerecorded)</a> (Level A)
       </td>
       <td>
-        Supports
+        Partially supports
       </td>
       <td>
-        <p>The product does not include any audio-only or video-only media. However, a user has the ability to upload their own media. In these cases, the user can include alternative representations, such as a text transcript.</p>
+        <p>The product does not include prerecorded audio-only or video-only media. However, a user has the ability to upload their own media. In these cases, the user can also upload alternative media, such as a text transcript. <a href="https://docs.gitlab.com/ee/user/markdown.html">Learn more about GitLab Flavored Markdown</a>.</p>
       </td>
     </tr>
     <tr>
@@ -128,10 +128,10 @@ The terms used in the Conformance Level information are defined as follows:
         >1.2.2 Captions (Prerecorded)</a> (Level A)
       </td>
       <td>
-        Supports
+        Partially supports
       </td>
       <td>
-        <p>The product does not include any audio-only or video-only media. However, a user has the ability to upload their own media. Captions are supported for videos provided by third-party tools that offer this capability. The product does not provide capabilities for captioning user generated audio or video content.</p>
+        <p>The product does not include synchronized media or provide capabilities for captioning user generated audio or video content. However, a user has the ability to upload their own media. Open captions can be included for videos authored by third-party tools that offer this capability. <a href="https://docs.gitlab.com/ee/user/markdown.html">Learn more about GitLab Flavored Markdown</a>.</p>
       </td>
     </tr>
     <tr>
@@ -142,10 +142,10 @@ The terms used in the Conformance Level information are defined as follows:
         >1.2.3 Audio Description or Media Alternative (Prerecorded)</a> (Level A)
       </td>
       <td>
-        Not applicable
+        Partially supports
       </td>
       <td>
-        <p>The product does not use synchronized media.</p>
+        <p>The product does not include prerecorded or synchronized media. However, a user has the ability to upload their own media. In these cases, the user can also include or upload alternative media in text form. <a href="https://docs.gitlab.com/ee/user/markdown.html">Learn more about GitLab Flavored Markdown</a>.</p>
       </td>
     </tr>
     <tr>
@@ -205,7 +205,7 @@ The terms used in the Conformance Level information are defined as follows:
         Partially supports
       </td>
       <td>
-        <p>The product does not use colors as the only visual means of conveying information. The exception is for some text links which do still rely on color:
+        <p>The product does not use colors as the only visual means of conveying information with the exception of some text links:
         <a
           href="https://gitlab.com/gitlab-org/gitlab-ui/-/issues/1084"
           target="_blank"
@@ -366,7 +366,7 @@ The terms used in the Conformance Level information are defined as follows:
         Partially supports
       </td>
       <td>
-        <p>The product includes the purpose of most links. A few instances are known where the link purpose is not clear: <a
+        <p>The product includes the purpose of most links. However, a few instances are known where the link purpose is not clear: <a
           href="https://gitlab.com/groups/gitlab-org/-/epics/620"
           target="_blank"
         >https://gitlab.com/groups/gitlab-org/-/epics/620</a></p>
@@ -471,7 +471,7 @@ The terms used in the Conformance Level information are defined as follows:
         Partially supports
       </td>
       <td>
-        <p>In most cases the product describes input errors to the user and identifies which item the error originated from. However, the identification and description of an error is not always combined programmatically to help assistive technologies to identify an error and provide error information to the user:
+        <p>In most cases, the product describes input errors to the user and identifies which item the error originated from. However, the identification and description of an error is not always combined programmatically to help assistive technologies to identify an error and provide error information to the user:
         <a
           href="https://gitlab.com/groups/gitlab-org/-/epics/7341"
           target="_blank"
@@ -489,7 +489,7 @@ The terms used in the Conformance Level information are defined as follows:
         Partially supports
       </td>
       <td>
-        <p>The product ensures that most labels or instructions are provided for inputs. A few instances are known where a label is not present: <a
+        <p>The product ensures that most labels or instructions are provided for inputs. However, a few instances are known where a label is not present: <a
           href="https://gitlab.com/groups/gitlab-org/-/epics/621"
           target="_blank"
         >https://gitlab.com/groups/gitlab-org/-/epics/621</a></p>
@@ -556,7 +556,7 @@ The terms used in the Conformance Level information are defined as follows:
         Not applicable
       </td>
       <td>
-        <p>This criterion is not relevant because the product does not use synchronized media.</p>
+        <p>This criterion is not relevant because the product does not support live media.</p>
       </td>
     </tr>
     <tr>
@@ -567,10 +567,10 @@ The terms used in the Conformance Level information are defined as follows:
         >1.2.5 Audio Description (Prerecorded)</a> (Level AA)
       </td>
       <td>
-        Not applicable
+        Partially supports
       </td>
       <td>
-        <p>This criterion is not relevant because the product does not use synchronized media.</p>
+        <p>The product does not include synchronized media or provide capabilities to add audio descriptions. However, a user has the ability to upload their own media. Audio descriptions can be included for videos authored by third-party tools that offer this capability. <a href="https://docs.gitlab.com/ee/user/markdown.html">Learn more about GitLab Flavored Markdown</a>.</p>
       </td>
     </tr>
     <tr>
@@ -581,7 +581,7 @@ The terms used in the Conformance Level information are defined as follows:
         >1.3.4 Orientation</a> (Level AA 2.1 only)
       </td>
       <td>Supports</td>
-      <td>The product is reponsive to variable viewport sizes and orientations.</td>
+      <td>The product is responsive to variable viewport sizes and orientations.</td>
     </tr>
     <tr>
       <td>
@@ -644,10 +644,10 @@ The terms used in the Conformance Level information are defined as follows:
         >1.4.5 Images of Text</a> (Level AA)
       </td>
       <td>
-        Supports
+        Partially supports
       </td>
       <td>
-        <p>The product does not use images of text. However, an image of text may be added in user generated content.</p>
+        <p>The product may include decorative illustrations that contain text. An image of text may be added in user generated content. <a href="https://docs.gitlab.com/ee/user/markdown.html">Learn more about GitLab Flavored Markdown</a>.</p>
       </td>
     </tr>
     <tr>
@@ -658,7 +658,7 @@ The terms used in the Conformance Level information are defined as follows:
         >1.4.10 Reflow</a> (Level AA 2.1 only)
       </td>
       <td>Supports</td>
-      <td>The product is reponsive to variable viewport sizes.</td>
+      <td>The product is responsive to variable viewport sizes.</td>
     </tr>
     <tr>
       <td>
@@ -721,7 +721,7 @@ The terms used in the Conformance Level information are defined as follows:
         Partially supports
       </td>
       <td>
-        <p>The product uses descriptive headings and labels to describe the purpose or topic on a page. A few instances are known where headings could be utilized to better describe the sections of the page: <a
+        <p>The product uses descriptive headings and labels to describe the purpose or topic on a page. However, a few instances are known where headings could be utilized to better describe the sections of the page: <a
           href="https://gitlab.com/groups/gitlab-org/-/epics/566"
           target="_blank"
         >https://gitlab.com/groups/gitlab-org/-/epics/566</a></p>
