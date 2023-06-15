@@ -18,7 +18,7 @@ name: GitLab Accessibility Conformance Report WCAG Edition
   - Known accessibility issues are linked in the tables below and may also be found by searching [GitLab.com](https://gitlab.com/) (account required).
 - **Evaluation Methods Used:** Conformance to the listed accessibility standards has been evaluated by GitLab using a combination of analysis tools and manual testing with assistive technologies. These tools include, but are not limited to: [axe DevTools®](https://www.deque.com/axe/devtools/), [Lighthouse](https://developers.google.com/web/tools/lighthouse/), [NVDA](https://www.nvaccess.org/download/), and VoiceOver on macOS.
 
-### Applicable Standards/Guidelines
+## Applicable Standards/Guidelines
 
 This report covers the degree of conformance for the following accessibility standard/guidelines:
 
@@ -59,7 +59,7 @@ This report covers the degree of conformance for the following accessibility sta
   </tbody>
 </table>
 
-### Terms
+## Terms
 
 The terms used in the Conformance Level information are defined as follows:
 
@@ -117,7 +117,7 @@ The terms used in the Conformance Level information are defined as follows:
         Partially supports
       </td>
       <td>
-        <p>The product does not include prerecorded audio-only or video-only media. However, a user has the ability to upload their own media. In these cases, the user can also upload alternative media, such as a text transcript. <a href="https://docs.gitlab.com/ee/user/markdown.html">Learn more about GitLab Flavored Markdown</a>.</p>
+        <p>The product does not include prerecorded audio-only or video-only media. A user can upload their own media, and include alternative content, such as a text transcript by using <a href="https://docs.gitlab.com/ee/user/markdown.html">GitLab Flavored Markdown</a>.</p>
       </td>
     </tr>
     <tr>
@@ -131,7 +131,7 @@ The terms used in the Conformance Level information are defined as follows:
         Partially supports
       </td>
       <td>
-        <p>The product does not include synchronized media or provide capabilities for captioning user generated audio or video content. However, a user has the ability to upload their own media. Open captions can be included for videos authored by third-party tools that offer this capability. <a href="https://docs.gitlab.com/ee/user/markdown.html">Learn more about GitLab Flavored Markdown</a>.</p>
+        <p>The product does not include synchronized media or allow captions for user generated media content. User generated media that includes open captions can be linked to with <a href="https://docs.gitlab.com/ee/user/markdown.html">GitLab Flavored Markdown</a>.</p>
       </td>
     </tr>
     <tr>
@@ -145,7 +145,7 @@ The terms used in the Conformance Level information are defined as follows:
         Partially supports
       </td>
       <td>
-        <p>The product does not include prerecorded or synchronized media. However, a user has the ability to upload their own media. In these cases, the user can also include or upload alternative media in text form. <a href="https://docs.gitlab.com/ee/user/markdown.html">Learn more about GitLab Flavored Markdown</a>.</p>
+        <p>The product does not include prerecorded or synchronized media. User generated media content can include alternative media in text form by adding it with <a href="https://docs.gitlab.com/ee/user/markdown.html">GitLab Flavored Markdown</a>.</p>
       </td>
     </tr>
     <tr>
@@ -255,7 +255,7 @@ The terms used in the Conformance Level information are defined as follows:
         Partially supports
       </td>
       <td>
-        <p>In most instances a user can move focus away from a focused component using only the keyboard. However, a few instances are known where the user cannot navigate away from focused file editors: <a
+        <p>In most instances a user can move focus away from a focused element using only the keyboard. However, a few instances are known where a user cannot navigate away from focused file editors: <a
           href="https://gitlab.com/groups/gitlab-org/-/epics/627"
           target="_blank"
         >https://gitlab.com/groups/gitlab-org/-/epics/627</a></p>
@@ -310,7 +310,7 @@ The terms used in the Conformance Level information are defined as follows:
         Supports
       </td>
       <td>
-        <p>The product does not use flashing interface elements that flash more than three times within a 1 second period. However, a user has the ability to upload content that may contain flickering.</p>
+        <p>The product does not use flashing interface elements that flash more than three times within a 1 second period, with the exception of user generated media which may contain flickering.</p>
       </td>
     </tr>
     <tr>
@@ -471,7 +471,7 @@ The terms used in the Conformance Level information are defined as follows:
         Partially supports
       </td>
       <td>
-        <p>In most cases, the product describes input errors to the user and identifies which item the error originated from. However, the identification and description of an error is not always combined programmatically to help assistive technologies to identify an error and provide error information to the user:
+        <p>In most cases, the product describes input errors to the user and identifies which item the error originated from. However, the identification and description of an error is not always combined programmatically to help assistive technologies to identify an error:
         <a
           href="https://gitlab.com/groups/gitlab-org/-/epics/7341"
           target="_blank"
@@ -570,7 +570,7 @@ The terms used in the Conformance Level information are defined as follows:
         Partially supports
       </td>
       <td>
-        <p>The product does not include synchronized media or provide capabilities to add audio descriptions. However, a user has the ability to upload their own media. Audio descriptions can be included for videos authored by third-party tools that offer this capability. <a href="https://docs.gitlab.com/ee/user/markdown.html">Learn more about GitLab Flavored Markdown</a>.</p>
+        <p>The product does not include synchronized media or provide capabilities to add audio descriptions. User generated videos may include audio descriptions and be linked with <a href="https://docs.gitlab.com/ee/user/markdown.html">GitLab Flavored Markdown</a>.</p>
       </td>
     </tr>
     <tr>
@@ -647,7 +647,7 @@ The terms used in the Conformance Level information are defined as follows:
         Partially supports
       </td>
       <td>
-        <p>The product may include decorative illustrations that contain text. An image of text may be added in user generated content. <a href="https://docs.gitlab.com/ee/user/markdown.html">Learn more about GitLab Flavored Markdown</a>.</p>
+        <p>The product may include decorative illustrations that contain text. An image of text may also be added in user generated content with <a href="https://docs.gitlab.com/ee/user/markdown.html">GitLab Flavored Markdown</a>.</p>
       </td>
     </tr>
     <tr>
