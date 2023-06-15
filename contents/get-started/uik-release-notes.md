@@ -21,6 +21,13 @@ name: Release notes
 ### Changes
 
 - Changed avatar group [**User text inline**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=1833-2791&t=I66Ypa7hnKqrP9um-11) instance to include user handle inline too in support of [!3486](https://gitlab.com/gitlab-org/gitlab-ui/-/merge_requests/3486).
+- The following have been marked as deprecated for a minimum of one milestone and are permanently being removed prior to type scale work happening in the next milestone. This will help streamline future updates and limit the scope of type scale work. All related pages, components, and styles are included in the removal. See [#1622](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1622) for details. Please refer to the Figma file history if you need to retrieve an old design artifact.
+  - Badge (⚠️ DEPRECATED), use [**❖ Badge**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=59780%3A92312&t=mhPqIFOuQslBIb44-1)
+  - Breadcrumb (⚠️ DEPRECATED), use [**❖ Breadcrumb**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425%3A5&t=mhPqIFOuQslBIb44-1)
+  - Dropdown (⚠️ DEPRECATED), use [**❖ Dropdown**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-14&t=mhPqIFOuQslBIb44-11)
+  - Forms (⚠️ DEPRECATED), use [**Forms**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49840%3A75722&t=mhPqIFOuQslBIb44-1)
+  - Segmented control (⚠️ DEPRECATED), use [**❖ Button group**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=20378-296&t=mhPqIFOuQslBIb44-11)
+  - Typography (⚠️ DEPRECATED), use [**Typography**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=440-0&t=mhPqIFOuQslBIb44-11)
 
 ### Fixes
 
