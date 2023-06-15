@@ -1,37 +1,10 @@
-<!--
-  GENERAL NOTES:
-  - Use simple language and be concise.
-  - Use singular instead of plural when referencing a component.
-  - Use singular instead of plural when referencing a user.
-  - Remove all comments and extra space from a new document after content is added.
-  - Static visuals can be added to support a concept, but try to keep them
-    as simplified as possible. Examples can be viewed in Figma at
-    https://www.figma.com/file/2XRq1MnIG69iti76Mh9HpJ/Pajamas-visual-examples?node-id=39%3A0.
-  - If content isn't available for a required section, add a todo for
-    future completion.
-  - Typographer quotes (also known as smart quotes) are added when markdown is converted,
-    so it isn't necessary to manually add or convert them.
--->
 ---
 name: Stepper
 description: A stepper separates staged workflows into meaningful, ordered steps.
-<!--
-  `vueComponents` is used to pull the component from Storybook in order to generate the Implementation tab. Removing this will remove the Implementation tab for the component. List in alphabetical order.
-
-  EXAMPLE:
-  vueComponents:
-    - GlAlert
--->
 related:
   - progress-bar
-<!--
-  RELATED PATTERNS generates a list of links under a "Related" heading at the bottom of the rendered page. A related pattern should be similar in usage/type of pattern, or if the component is also part of another component. For example, a tooltip and a popover are similar constructs used for different purposes, or a button is its own component, but also present in a modal. Remove this section if there are no related patterns. List in order of most to least related. 
-
-  EXAMPLE:
-  related:
-    - /layout/grid (link to pages that are not components using '/directory/pattern-name')
-    - badge
--->
+  - form
+  - path
 ---
 
 <!-- ## Examples
