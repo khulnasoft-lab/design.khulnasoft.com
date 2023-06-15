@@ -292,6 +292,10 @@
             "path": "spinner"
           },
           {
+            "title": "Stepper",
+            "path": "stepper"
+          },
+          {
             "title": "Table",
             "path": "table"
           },

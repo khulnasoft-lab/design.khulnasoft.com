@@ -47,21 +47,25 @@ related:
   Update the design specifications link above to the component in the Pajamas UI Kit. In most cases this will be a link the component’s “Variants” frame. You can find this link by clicking on the “Variants” frame and then copying the link from the “Share” option. Follow the “Figma component” issue template in Pajamas to create the component.
 -->
 
-<!--## Structure
+## Structure
 
-  Include a simplified visual of the component with the elements numbered to match the text reference below. Examples can be viewed in Figma at https://www.figma.com/file/2XRq1MnIG69iti76Mh9HpJ/Pajamas-visual-examples?node-id=39%3A0. Request access if needed to create a new visual. An ordered list should match the numbering in the visual. Each list item should begin with element name in **bold** formatting. Use the `figure` element to add the visual, like the below example:
+  <!-- Include a simplified visual of the component with the elements numbered to match the text reference below. Examples can be viewed in Figma at https://www.figma.com/file/2XRq1MnIG69iti76Mh9HpJ/Pajamas-visual-examples?node-id=39%3A0. Request access if needed to create a new visual. An ordered list should match the numbering in the visual. Each list item should begin with element name in **bold** formatting. Use the `figure` element to add the visual, like the below example:
 
   <figure class="figure" role="figure" aria-label="Button structure">
-    <img class="figure-img" src="/img/button-structure.svg" alt="Numbered diagram of a button structure" role="img" />
+    <img class="figure-img" src="/img/button-structure.svg" alt="Numbered diagram of a button structure" role="img" /> 
   </figure>
 
   EXAMPLE:
   1. **Icon**: Supports the variant meaning.
-
-
-1. **{element}**: Description.
-1. …
 -->
+
+ <figure class="figure" role="figure" aria-label="Stepper structure">
+    <img class="figure-img" src="/img/stepper-visual.png" alt="Numbered diagram of a stepper structure" role="img" /> 
+  </figure>
+
+1. **Stepper**: Complete component.
+1. **Indicator**: Shows what step you are on, and general progress information.
+1. **Step**: Contains all the content and actions for that stage.
 
 ## Guidelines
 <!--
@@ -75,8 +79,7 @@ related:
   EXAMPLE:
   - Advise the user that they should be aware of, or address something related to their current context.
 -->
-
-- When users need an indication of progress within a staged process (for example, signing up for a new account).
+.
 - When a lot of data is requested by the user and can be broken down into chunks in a logical and linear order.
 
 ### When not to use
@@ -89,7 +92,7 @@ related:
   - If you need to deliver an instance level message from an admin to all users, use a [broadcast message](/components/broadcast-message) instead.
 -->
 
-- When there are limited fields, instead use a [form](/components/form).
+- When there are limited fields or if user input can happen in any order, instead use a [form](/components/form).
 - When representing completion or progress of a continuous process, instead use a [progress bar](/components/progress-bar).
 
 <!--
@@ -141,7 +144,9 @@ related:
 - All steps should be shown in the **Indicator** if the number of steps is determined from the start. For example, when signing up for a new account, user input does not impact the total number of steps, so all steps can be shown. 
 - Only one step in the **Indicator** should be populated at a time if the number of steps is undetermined. For example, if user input removes a future step, only one step should be shown at once. This follows [progressive disclosure guidelines](/usability/progressive-disclosure) and ensures that conditional logic can work properly without impacting the user's ability to navigate to previous steps.
 - A confirmation dialog should be triggered if the user leaves the flow before they complete their process. Ideally, the progress would be saved so that when they return, they can pick up where they left off. If that is not possible, be sure to communicate they will lose all data they entered.
+- The last step should always contain a summary of all user selections so the user can review before submitting.
 - Users will trigger the process to initiate at the last step through the primary button. For example, if the user is filling out data to create a new GitLab account, they will use the primary button in the last step to create the account.
+- After triggering the process, the user should ideally be sent to the page where that object lives, so they can take action on what they created. If the object cannot be created immediately, still [provide feedback](/usability/saving-and-feedback) to the user by providing an estimated waiting time until the operation completes, if possible.
 
 ### Content
 <!--
