@@ -33,6 +33,7 @@ name: Release notes
 
 - Fixed the pixel alignment of the [**table**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~table) icon.
 - **❖&nbsp;Menu&nbsp;item**, **❖&nbsp;_Base&nbsp;Sidebar/Flyout&nbsp;menu/Menu&nbsp;items**, and stacked avatar instances use the correct badge component.
+- **❖&nbsp;_Base/Color&nbsp;swatch** use the correct checkbox component.
 
 ## 16.0
 
