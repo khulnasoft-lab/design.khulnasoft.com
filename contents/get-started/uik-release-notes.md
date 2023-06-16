@@ -4,12 +4,14 @@ name: Release notes
 
 ## 16.2
 
-[_Draft: 16.2 release notes_](#) <!-- ⚠️ Update draft link -->
+[_Draft: 16.2 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3430)
 
 ## 16.1
 
-<small>Published 2023-06-XX</small> <!-- ⚠️ Update publish date -->
-Note: 16.2 will update the font files we use in Figma to align GitLab Sans to the most recent version of Inter. It brings clearer rendering of characters, especially at higher weights. You might notice some line lengths increasing, this is expected. It is not possible for us to update the fonts in an opt-in way, and so there will be some disruption. More details to follow, but if you have concerns please reach out to a Foundations designer.
+<small>Published 2023-06-19</small>
+
+<note>16.2 will update the font files we use in Figma to align GitLab Sans to the most recent version of Inter. It brings clearer rendering of characters, especially at higher weights. You might notice some line lengths increasing, this is expected. It is not possible for us to update the fonts in an opt-in way, and so there will be some disruption. More details to follow, but if you have concerns please reach out to a Foundations designer.</note>
+
 ### Additions
 
 - Added the following icons: [**quick-actions**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~quick-actions), [**markdown-mark**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~markdown-mark), [**markdown-mark-solid**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~markdown-mark-solid), [**tanuki-ai**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~tanuki-ai)
@@ -21,6 +23,15 @@ Note: 16.2 will update the font files we use in Figma to align GitLab Sans to th
 ### Changes
 
 - Changed avatar group [**User text inline**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=1833-2791&t=I66Ypa7hnKqrP9um-11) instance to include user handle inline too in support of [!3486](https://gitlab.com/gitlab-org/gitlab-ui/-/merge_requests/3486).
+
+### Fixes
+
+- Fixed the pixel alignment of the [**table**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~table) icon.
+- **❖&nbsp;Menu&nbsp;item**, **❖&nbsp;_Base&nbsp;Sidebar/Flyout&nbsp;menu/Menu&nbsp;items**, and stacked avatar instances use the correct badge component.
+- **❖&nbsp;_Base/Color&nbsp;swatch** uses the correct checkbox component.
+
+### Removals
+
 - The following have been permanently removed. This will help streamline future updates and limit the scope of upcoming type scale work. All related pages, components, and styles are included in the removal. See [#1622](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1622) for details. Please refer to the Figma file history if you need to retrieve an old design artifact.
   - Badge (⚠️ DEPRECATED), use [**❖&nbsp;Badge**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=59780%3A92312&t=mhPqIFOuQslBIb44-1)
   - Breadcrumb (⚠️ DEPRECATED), use [**❖&nbsp;Breadcrumb**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425%3A5&t=mhPqIFOuQslBIb44-1)
@@ -28,12 +39,6 @@ Note: 16.2 will update the font files we use in Figma to align GitLab Sans to th
   - Forms (⚠️ DEPRECATED), use [**Forms**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49840%3A75722&t=mhPqIFOuQslBIb44-1)
   - Segmented control (⚠️ DEPRECATED), use [**❖&nbsp;Button group**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=20378-296&t=mhPqIFOuQslBIb44-11)
   - Typography (⚠️ DEPRECATED), use [**Typography**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=440-0&t=mhPqIFOuQslBIb44-11)
-
-### Fixes
-
-- Fixed the pixel alignment of the [**table**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~table) icon.
-- **❖&nbsp;Menu&nbsp;item**, **❖&nbsp;_Base&nbsp;Sidebar/Flyout&nbsp;menu/Menu&nbsp;items**, and stacked avatar instances use the correct badge component.
-- **❖&nbsp;_Base/Color&nbsp;swatch** use the correct checkbox component.
 
 ## 16.0
 
