@@ -9,7 +9,7 @@ name: Release notes
 ## 16.1
 
 <small>Published 2023-06-XX</small> <!-- ⚠️ Update publish date -->
-
+Note: 16.2 will update the font files we use in Figma to align GitLab Sans to the most recent version of Inter. It brings clearer rendering of characters, especially at higher weights. You might notice some line lengths increasing, this is expected. It is not possible for us to update the fonts in an opt-in way, and so there will be some disruption. More details to follow, but if you have concerns please reach out to a Foundations designer.
 ### Additions
 
 - Added the following icons: [**quick-actions**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~quick-actions), [**markdown-mark**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~markdown-mark), [**markdown-mark-solid**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~markdown-mark-solid), [**tanuki-ai**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~tanuki-ai)
@@ -21,7 +21,7 @@ name: Release notes
 ### Changes
 
 - Changed avatar group [**User text inline**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=1833-2791&t=I66Ypa7hnKqrP9um-11) instance to include user handle inline too in support of [!3486](https://gitlab.com/gitlab-org/gitlab-ui/-/merge_requests/3486).
-- The following have been marked as deprecated for a minimum of one milestone and are permanently being removed prior to type scale work happening in the next milestone. This will help streamline future updates and limit the scope of type scale work. All related pages, components, and styles are included in the removal. See [#1622](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1622) for details. Please refer to the Figma file history if you need to retrieve an old design artifact.
+- The following have been permanently removed. This will help streamline future updates and limit the scope of upcoming type scale work. All related pages, components, and styles are included in the removal. See [#1622](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1622) for details. Please refer to the Figma file history if you need to retrieve an old design artifact.
   - Badge (⚠️ DEPRECATED), use [**❖&nbsp;Badge**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=59780%3A92312&t=mhPqIFOuQslBIb44-1)
   - Breadcrumb (⚠️ DEPRECATED), use [**❖&nbsp;Breadcrumb**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425%3A5&t=mhPqIFOuQslBIb44-1)
   - Dropdown (⚠️ DEPRECATED), use [**❖&nbsp;Dropdown**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-14&t=mhPqIFOuQslBIb44-11)
