@@ -18,7 +18,7 @@ GitLab utilizes two type scales: **dynamic** and **fixed**. The differences are 
 - Used for any user interface (UI) text within GitLab.
 - Heading levels 1–3 (`h1`–`h3`) increase in size, within a set range, for larger viewports.
 - Includes a **display** style option that can be applied to an `h1` to increase its prominence. This can be useful for a learning path or feature promotion.
-- Includes **label** styles which are used for short-form content that doesn't include margins for easier alignment with other UI elements. Long-form content includes copy in [modals](/components/modal) and [empty states](patterns/empty-states), whereas short-form content includes help text and [tooltip](/components/tooltip) messages.
+- Includes **label** styles which are used for short-form content that doesn't include margins for easier alignment with other UI elements. Long-form content includes copy in [modals](/components/modal) and [empty states](/patterns/empty-states), whereas short-form content includes help text and [tooltip](/components/tooltip) messages.
 
 ## Fixed type scale
 
