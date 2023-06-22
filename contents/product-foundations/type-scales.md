@@ -1,57 +1,31 @@
 ---
-name: Type Scales
+name: Type scales
 related:
   - /product-foundations/type-fundamentals
   - /product-foundations/type-markdown
 ---
 
-GitLab utilizes three type scales depending on the context: UI, Documentation Markdown, and Compact Markdown.
+GitLab utilizes two type scales: **dynamic** and **fixed**. The differences are outlined in respective sections below, but they share the following properties:
 
-## UI type scale
+- The base size for body text is `14px`.
+- Body text and heading levels 4–6 (`h4–h6`) stay the same size at any breakpoint.
+- Styles correspond with semantics by default, for example, an `h3` is larger and has more visual weight than an `h4`.
 
-UI typography is used for any text within GitLab that is not markdown.
+<todo>Add UI kit links after [#1527](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1527) has been completed.</todo>
 
-### Base
+## Dynamic type scale (default)
 
-`14px` is the base size of body copy for UI typography.
+- Used for any user interface (UI) text within GitLab.
+- Heading levels 1–3 (`h1`–`h3`) increase in size, within a set range, for larger viewports.
+- Includes a **display** style option that can be applied to an `h1` to increase its prominence. This can be useful for a learning path or feature promotion.
+- Includes **label** styles which are used for short-form content that doesn't include margins for easier alignment with other UI elements. Long-form content includes copy in [modals](/components/modal) and [empty states](patterns/empty-states), whereas short-form content includes help text and [tooltip](/components/tooltip) messages.
 
-### Label text
+## Fixed type scale
 
-Our UI type scale includes “label” text which is used for short-form content. Label text differs from long-form text because it doesn’t include margins which allows for easier alignment with other UI elements.
+- Used for markdown (user generated content).
 
-Long-form content includes copy in modals and empty states, whereas short-form content includes help text and popover messages.
+## Contextual adjustments
 
-### Responsive
+The dynamic scale is mapped to heading levels by default, however, in a limited number of cases visual hierarchy can be established aside from semantics. For example, an alert container has additional sectioning affordances like color, spacing, and iconography, because of this a level 2 heading within doesn't require the same visual weight as a level 2 heading that's establishing a content section elsewhere on the page. Similarly, a level 3 heading in a card may not require the same sectioning effect as a level three heading in body content, because the properties of the card itself indicate a section. When in doubt, use the scale by default, consider the full page context, and reference existing patterns.
 
-The `h1` and `h2` headers within our UI type scale are responsive. All other type options within this scale are not dependent on screen size.
-
-[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=542%3A334)
-
-## Documentation Markdown type scale
-
-Documentation Markdown is defined as any Markdown that is written outside of issuable pages, such as a README or Wiki page. Content written using Markdown includes typography that contains fixed margins and increased line-heights to improve readability. Label text is not available for documentation Markdown because all Markdown is considered long-form content.
-
-### Base
-
-`16px` is the base size of body copy for documentation Markdown.
-
-### Responsive
-
-The `h1`, `h2`, and `h3` headers within our documentation Markdown scale are responsive. All other type options within this scale are not dependent on screen size.
-
-[View Documentation Markdown type scale in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=542%3A2)
-
-
-## Compact Markdown type scale
-
-Within certain views, the Markdown type scale is decreased in order to more closely align copy with other UI components. Compact Markdown is used for descriptions and comments on issue and merge request pages. Label text is not available for compact Markdown because all Markdown is long-form content.
-
-### Base
-
-`14px` is the base size of body copy for compact Markdown.
-
-### Responsive
-
-The `h1` header within our compact Markdown scale is responsive. All other type options within this scale are not dependent on screen size.
-
-[View Compact Markdown type scale in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=542%3A132)
+<todo>Provide more guidelines and examples of scale overrides.</todo>
