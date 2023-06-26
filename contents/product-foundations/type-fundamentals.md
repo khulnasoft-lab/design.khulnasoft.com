@@ -6,11 +6,22 @@ related:
   - /product-foundations/color
 ---
 
+Text is the primary way of communicating within GitLab. A thoughtful use of semantics and visual hierarchy can provide consistency and clarity to aid in comprehension and action.
+
 ## Typefaces
 
-GitLab Sans, based on [Inter](https://rsms.me/inter/), is used for most UI elements, with system fonts used as a back-up. GitLab Mono, based on [JetBrains Mono](https://www.jetbrains.com/lp/mono/), is used for code-related elements, for example, code blocks, branch names, commit IDs, and pipeline IDs. The fonts are available to download in [this package](https://www.npmjs.com/package/@gitlab/fonts).
+GitLab Sans, based on [Inter](https://rsms.me/inter/), is used for most user interface (UI) elements, with system fonts used as a back-up. GitLab Mono, based on [JetBrains Mono](https://www.jetbrains.com/lp/mono/), is used for code-related elements, for example, code blocks, branch names, commit IDs, and pipeline IDs. The fonts are available to download in [this package](https://www.npmjs.com/package/@gitlab/fonts).
 
-### Sans serif font stack
+The decision to use custom typefaces supports a consistent core experience for users, regardless of their device. A finer control of font size, variable weight, and other attributes like disambiguation enable greater optimization of usability and polish.
+
+The typefaces were chosen because:
+
+- Tall x-height that improves legibility at small sizes and readability of mixed- and lower-case text.
+- Features that include character disambiguation and [OpenType Font Variations](https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview).
+- Balanced and complementary pairing that supports the [GitLab brand expression](/brand/overview).
+- Open source.
+
+**Sans serif font stack**
 
 ```css
 font-family: 'GitLab Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans',
@@ -18,23 +29,47 @@ font-family: 'GitLab Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Robot
   'Segoe UI Symbol', 'Noto Color Emoji';
 ```
 
-### Monospace font stack
+**Monospace font stack**
 
 ```css
 font-family: 'GitLab Mono', 'Menlo', 'DejaVu Sans Mono', 'Liberation Mono', 'Consolas',
   'Ubuntu Mono', 'Courier New', 'andale mono', 'lucida console', monospace;
 ```
 
-## Font size
+## Type scales
 
-- 12px (0.75rem) is the smallest size option across all of the type scales. Legibility is impacted more at smaller sizes as system font, browser rendering, screen resolution, type styles, and other factors influence the presentation of text. Therefore, use small text in limited capacity for short meta content and actions.
+GitLab utilizes two type scales: **dynamic** and **fixed**. The differences are outlined in respective sections below, but they share the following properties:
+
+- The base size for body text is `14px`.
+- `12px` is the smallest available size and used sparingly.
+- Body text and heading levels 4–6 (`h4–h6`) stay the same size at any breakpoint.
+- Styles correspond with semantics by default, for example, an `h3` is larger and has more visual weight than an `h4`.
 - Pixels are converted to relative units so that text respects browser settings for size and scale.
 
-View the [type scales](/product-foundations/type-scales) page for additional details about body and heading font sizes.
+### Dynamic type scale (default)
+
+- Used for any UI text within GitLab.
+- Heading levels 1–3 (`h1`–`h3`) increase in size, within a set range, for larger viewports.
+- Includes a **display** style option that can be applied to an `h1` to increase its prominence. This can be useful for a learning path or feature promotion.
+- Includes **label** styles which are used for short-form content that doesn't include margins for easier alignment with other UI elements. Long-form content includes copy in [modals](/components/modal) and [empty states](/patterns/empty-states), whereas short-form content includes help text and [tooltip](/components/tooltip) messages.
+
+### Fixed type scale
+
+- Used for [markdown](/product-foundations/type-markdown) (user generated content).
+
+<todo>Add reference table.</todo>
+
+<todo>Add UI kit links after [#1527](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1527) has been completed.</todo>
+
+### Contextual adjustments
+
+The dynamic scale is mapped to heading levels by default, however, in a limited number of cases visual hierarchy can be established aside from semantics. For example, an alert container has additional sectioning affordances like color, spacing, and iconography, because of this a level 2 heading within doesn't require the same visual weight as a level 2 heading that's establishing a content section elsewhere on the page. Similarly, a level 3 heading in a card may not require the same sectioning effect as a level three heading in body content, because the properties of the card itself indicate a section. When in doubt, use the scale by default, consider the full page context, and reference existing patterns.
+
+<todo>Provide more guidelines and examples of scale overrides.</todo>
 
 ## Font weight
 
-GitLab uses two font weights within the application: normal and bold. Bold is used for headings and to emphasize specific UI elements, such as a title or input label.
+Two font weights are used by default: normal and bold. Bold is used for headings and to emphasize specific UI elements, such as a title or input label.
 
 <table class="font-weight gl-mb-6">
 <thead>
@@ -55,7 +90,7 @@ GitLab uses two font weights within the application: normal and bold. Bold is us
 <tr>
 <td>Bold</td>
 <td>$gl-font-weight-bold</td>
-<td>700</td>
+<td>600</td>
 <td class="f-bold">The DevSecOps Platform</td>
 </tr>
 </tbody>

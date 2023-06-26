@@ -151,10 +151,6 @@
                 "path": "type-fundamentals"
               },
               {
-                "title": "Type scales",
-                "path": "type-scales"
-              },
-              {
                 "title": "Markdown",
                 "path": "type-markdown"
               }
