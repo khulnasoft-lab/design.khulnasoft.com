@@ -74,7 +74,7 @@ Consider making configuration options more discoverable to users by linking to s
 
 - Setting form elements use the [form layout sizes](/patterns/forms#layout).
 - When scrolling, the headings of each section remain sticky to provide context of the section form.
-- A sticky footer containing action buttons (**Save changes** and **Cancel**, depending on the setting) should appear when a setting has been changed.
+- A sticky footer containing action buttons (for example, Save and Cancel) should appear when a setting has been changed.
 - Settings should appear stacked in a single column.
 
 <figure-img label="Example of settings layout" src="/img/settings-1-column.png"></figure-img>
