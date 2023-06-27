@@ -52,7 +52,7 @@ related:
   EXAMPLE:
   - Advise the user that they should be aware of, or address something related to their current context.
 -->
-.
+
 - When a lot of data is requested by the user and can be broken down into chunks in a logical and linear order.
 
 ### When not to use
@@ -65,8 +65,8 @@ related:
   - If you need to deliver an instance level message from an admin to all users, use a [broadcast message](/components/broadcast-message) instead.
 -->
 
-- When there are limited fields or if user input can happen in any order, instead use a [form](/components/form).
-- When representing completion or progress of a continuous process, instead use a [progress bar](/components/progress-bar).
+- When there is a small number of fields or if user input can happen in any order, instead use a [form](/components/form).
+- When representing the percentage of completion of an activity, process, or task, instead use a [progress bar](/components/progress-bar).
 
 <!--
 ### Variants
@@ -108,7 +108,7 @@ related:
   - Permanently dismissible only when the alert relates to a user’s individual instance and wasn’t triggered by a system condition.
 -->
 
-- Steps are always linear, forcing the user to complete them in a specific order.
+- Steps are always linear, guiding the user to complete them in a specific order.
 - Any step can be optional.
 - Users can return to a previous step through a visible **Back** button or the browser back button.
 - Users progress to the next page through a primary button with descriptive button text. 
