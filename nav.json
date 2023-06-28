@@ -428,10 +428,6 @@
             "title": "Merge request",
             "path": "merge-request"
           },
-          {
-            "title": "Work item",
-            "path": "work-item"
-          }
         ]
       },
       {
