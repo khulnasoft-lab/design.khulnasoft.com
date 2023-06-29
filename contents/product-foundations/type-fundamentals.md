@@ -38,28 +38,71 @@ font-family: 'GitLab Mono', 'Menlo', 'DejaVu Sans Mono', 'Liberation Mono', 'Con
 
 ## Type scales
 
-GitLab utilizes two type scales: **dynamic** and **fixed**. The differences are outlined in respective sections below, but they share the following properties:
+GitLab utilizes two type scales: **dynamic** and **fixed**. The dynamic scale is used for any UI text within GitLab, and the fixed scale is used for [markdown](/product-foundations/type-markdown) (user generated content).
 
-- The base size for body text is `14px`.
-- `12px` is the smallest available size and used sparingly.
-- Body text and heading levels 4–6 (`h4–h6`) stay the same size at any breakpoint.
-- Styles correspond with semantics by default, for example, an `h3` is larger and has more visual weight than an `h4`.
-- Pixels are converted to relative units so that text respects browser settings for size and scale.
-
-### Dynamic type scale (default)
-
-- Used for any UI text within GitLab.
-- Heading levels 1–3 (`h1`–`h3`) increase in size, within a set range, for larger viewports.
-- Includes a **display** style option that can be applied to an `h1` to increase its prominence. This can be useful for a learning path or feature promotion.
-- Includes **label** styles which are used for short-form content that doesn't include margins for easier alignment with other UI elements. Long-form content includes copy in [modals](/components/modal) and [empty states](/patterns/empty-states), whereas short-form content includes help text and [tooltip](/components/tooltip) messages.
-
-### Fixed type scale
-
-- Used for [markdown](/product-foundations/type-markdown) (user generated content).
-
-<todo>Add reference table.</todo>
-
-<todo>Add UI kit links after [#1527](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1527) has been completed.</todo>
+<table class="table-compact gl-mb-6">
+<thead>
+<tr>
+<th>Token</th>
+<th class="gl-white-space-nowrap">Dynamic scale</th>
+<th class="gl-white-space-nowrap">Fixed scale</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code class="gl-white-space-nowrap">size-text-100</code></td>
+<td>12px</td>
+<td>12px</td>
+<td>Meta text, small labels</td>
+</tr>
+<tr>
+<td><code>size-text-200</code></td>
+<td>13px</td>
+<td>13px</td>
+<td>Level 6 headings</td>
+</tr>
+<tr>
+<td><code>size-text-300</code></td>
+<td>14px</td>
+<td>14px</td>
+<td>Level 5 headings, body text, input labels, help text</td>
+</tr>
+<tr>
+<td><code>size-text-400</code></td>
+<td>16px</td>
+<td>16px</td>
+<td>Level 4 headings, level 2 headings within components (<a href="/components/alert">alert</a>, <a href="/components/banner">banner</a>, <a href="/components/modal">modal</a>), large body text</td>
+</tr>
+<tr>
+<td><code>size-text-500</code></td>
+<td>18px → 20px</td>
+<td>18px</td>
+<td>Level 3 headings</td>
+</tr>
+<tr>
+<td><code>size-text-600</code></td>
+<td>21px → 25px</td>
+<td>21px</td>
+<td>Level 2 headings</td>
+</tr>
+<tr>
+<td><code>size-text-700</code></td>
+<td>28px → 36px</td>
+<td>24px</td>
+<td>Level 1 headings, limited to one per page.</td>
+</tr>
+<tr>
+<td><code>size-text-800</code></td>
+<td>24px → 30px</td>
+<td>NA</td>
+<td>A display option that can be applied to a level 1 heading to increase its prominence. This can be useful for a learning path or feature promotion. Limited to one per page.</td>
+</tr>
+<tr>
+<td colspan="4">Pixels are converted to relative units so that text respects browser settings for size and scale.</td>
+</tr>
+</tbody>
+</table>
 
 ### Contextual adjustments
 
@@ -67,29 +110,31 @@ The dynamic scale is mapped to heading levels by default, however, in a limited 
 
 <todo>Provide more guidelines and examples of scale overrides.</todo>
 
+<todo>Add UI kit links after [#1527](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1527) has been completed.</todo>
+
 ## Font weight
 
 Two font weights are used by default: normal and bold. Bold is used for headings and to emphasize specific UI elements, such as a title or input label.
 
-<table class="font-weight gl-mb-6">
+<table class="table-compact gl-mb-6">
 <thead>
 <tr>
 <th>Weight</th>
 <th>Variable</th>
 <th>Value</th>
-<th>Demo</th>
+<th>Example</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Normal</td>
-<td>$gl-font-weight-normal</td>
+<td><code>$gl-font-weight-normal</code></td>
 <td>400</td>
 <td>The DevSecOps Platform</td>
 </tr>
 <tr>
 <td>Bold</td>
-<td>$gl-font-weight-bold</td>
+<td><code>$gl-font-weight-bold</code></td>
 <td>600</td>
 <td class="f-bold">The DevSecOps Platform</td>
 </tr>
@@ -100,31 +145,31 @@ Two font weights are used by default: normal and bold. Bold is used for headings
 
 There are a number of text colors defined in GitLab. Color choice depends on the location and purpose of the text.
 
-<table class="font-weight gl-mb-6">
+<table class="table-compact gl-mb-6">
 <thead>
 <tr>
 <th>Type</th>
 <th>Variable</th>
-<th>HEX value</th>
-<th>Demo</th>
+<th>HEX</th>
+<th>Example</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Primary</td>
-<td>$gray-900</td>
+<td><code>$gray-900</code></td>
 <td>#303030</td>
 <td class="gl-text-gray-900">Main titles and body</td>
 </tr>
 <tr>
 <td>Secondary</td>
-<td>$gray-500</td>
+<td><code>$gray-500</code></td>
 <td>#666666</td>
 <td class="gl-text-gray-500">Accompanying help text or menu subtitles</td>
 </tr>
 <tr>
 <td>Tertiary</td>
-<td>$gray-400</td>
+<td><code>$gray-400</code></td>
 <td>#868686</td>
 <td class="gl-text-gray-400">Placeholder or disabled</td>
 </tr>
@@ -138,3 +183,4 @@ There are a number of text colors defined in GitLab. Color choice depends on the
   - When an alert, or other messaging component, gets inserted before the main page content. These components are designed to use a level 2 (`h2`) heading.
   - When a heading is used to identify a region, like navigation. Generally, a level 2 (`h2`) heading is used.
   - A user can order headings as they like in markdown. The visual appearance of a heading is the only guide provided for choosing the correct hierarchy.
+- Styles correspond with semantics by default, for example, an `h3` is larger and has more visual weight than an `h4`.
