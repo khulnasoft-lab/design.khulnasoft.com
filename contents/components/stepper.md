@@ -53,7 +53,7 @@ related:
   - Advise the user that they should be aware of, or address something related to their current context.
 -->
 
-- When a lot of data is requested by the user and can be broken down into chunks in a logical and linear order.
+- When a lot of input is requested by the user and can be broken down into chunks in a logical and linear order.
 
 ### When not to use
 <!--
@@ -119,7 +119,7 @@ related:
 - All steps should be shown in the **Indicator** if the number of steps is determined from the start. For example, when signing up for a new account, user input does not impact the total number of steps, so all steps can be shown. 
 - Only one step in the **Indicator** should be populated at a time if the number of steps is undetermined. For example, if user input removes a future step, only one step should be shown at once. This follows [progressive disclosure guidelines](/usability/progressive-disclosure) and ensures that conditional logic can work properly without impacting the user's ability to navigate to previous steps.
 - A confirmation dialog should be triggered if the user leaves the flow before they complete their process. Ideally, the progress would be saved so that when they return, they can pick up where they left off. If that is not possible, be sure to communicate they will lose all data they entered.
-- The last step should always contain a summary of all user selections so the user can review before submitting.
+- When possible, the last step should contain a summary of all user selections so the user can review before submitting.
 - After triggering the process, the user should ideally be sent to the page where that object lives, so they can take action on what they created. If the object cannot be created immediately, still [provide feedback](/usability/saving-and-feedback) to the user by providing an estimated waiting time until the operation completes, if possible.
 
 ### Content
@@ -139,7 +139,7 @@ related:
 - Each step has a title and optional description.
 - If a step is optional, the description can state that it is.
 - Step titles should be kept as descriptive as possible while remaining concise.
-- Content in a step should always relate to the step title. When using steppers to request data from users, the content within the step should consist of form elements.
+- Content in a step should always relate to the step title. When using steppers to request input from users, the content within the step should consist of form elements.
 
 <!-- Begin variable content -->
 
