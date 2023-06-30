@@ -114,29 +114,27 @@ The dynamic scale is mapped to heading levels by default, however, in a limited 
 
 ## Font weight
 
-Two font weights are used by default: normal and bold. Bold is used for headings and to emphasize specific UI elements, such as a title or input label.
+GitLab uses contrasting font weights to support visual hierarchy within the application. Generally, three weights are used by default: **400**, **600**, and **700**.
 
 <table class="table-compact gl-mb-6">
 <thead>
 <tr>
-<th>Weight</th>
-<th>Variable</th>
 <th>Value</th>
-<th>Example</th>
+<th>Use</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Normal</td>
-<td><code>$gl-font-weight-normal</code></td>
 <td>400</td>
-<td>The DevSecOps Platform</td>
+<td>Body copy and data tables</td>
 </tr>
 <tr>
-<td>Bold</td>
-<td><code>$gl-font-weight-bold</code></td>
-<td>600</td>
-<td class="f-bold">The DevSecOps Platform</td>
+<td class="f-bold">600</td>
+<td>Headings and specific UI elements, such as an input label</td>
+</tr>
+<tr>
+<td style="font-weight:700;">700</td>
+<td>Inline with 400 for emphasize</td>
 </tr>
 </tbody>
 </table>
