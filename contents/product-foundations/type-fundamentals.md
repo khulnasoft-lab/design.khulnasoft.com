@@ -43,7 +43,7 @@ GitLab utilizes two type scales: **dynamic** and **fixed**. The dynamic scale is
 <table class="table-compact gl-mb-6">
 <thead>
 <tr>
-<th>Token</th>
+<th>Variable</th>
 <th class="gl-white-space-nowrap">Dynamic scale</th>
 <th class="gl-white-space-nowrap">Fixed scale</th>
 <th>Use</th>
