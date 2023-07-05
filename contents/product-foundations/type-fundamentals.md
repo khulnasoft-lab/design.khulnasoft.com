@@ -38,20 +38,31 @@ font-family: 'GitLab Mono', 'Menlo', 'DejaVu Sans Mono', 'Liberation Mono', 'Con
 
 ## Type scales
 
-GitLab utilizes two type scales: **dynamic** and **fixed**. The dynamic scale is used for any UI text within GitLab, and the fixed scale is used for [markdown](/product-foundations/type-markdown) (user generated content).
+GitLab utilizes two type scales: **dynamic** and **fixed**.
+
+- The dynamic scale is used for any UI text within GitLab. The **500**–**800** options rely on the viewport width to dynamically change size between the **min** and **max**.
+- The fixed scale is used for [markdown](/product-foundations/type-markdown) (user generated content). Text sizes match the **min** of the dynamic scale.
 
 <table class="table-compact gl-mb-6">
+<col>
+<colgroup span="2"></colgroup>
+<col>
+<col>
 <thead>
 <tr>
-<th>Variable</th>
-<th class="gl-white-space-nowrap">Dynamic scale</th>
-<th class="gl-white-space-nowrap">Fixed scale</th>
-<th>Use</th>
+<th rowspan="2">Variable</th>
+<th colspan="2" class="gl-white-space-nowrap">Dynamic scale</th>
+<th rowspan="2" class="gl-white-space-nowrap">Fixed scale</th>
+<th rowspan="2">Use</th>
+</tr>
+<th>Min</th>
+<th>Max</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><code class="gl-white-space-nowrap">size-text-100</code></td>
+<td>12px</td>
 <td>12px</td>
 <td>12px</td>
 <td>Meta text, small labels</td>
@@ -60,10 +71,12 @@ GitLab utilizes two type scales: **dynamic** and **fixed**. The dynamic scale is
 <td><code>size-text-200</code></td>
 <td>13px</td>
 <td>13px</td>
+<td>13px</td>
 <td>Level 6 headings</td>
 </tr>
 <tr>
 <td><code>size-text-300</code></td>
+<td>14px</td>
 <td>14px</td>
 <td>14px</td>
 <td>Level 5 headings, body text, input labels, help text</td>
@@ -72,34 +85,39 @@ GitLab utilizes two type scales: **dynamic** and **fixed**. The dynamic scale is
 <td><code>size-text-400</code></td>
 <td>16px</td>
 <td>16px</td>
+<td>16px</td>
 <td>Level 4 headings, level 2 headings within components (<a href="/components/alert">alert</a>, <a href="/components/banner">banner</a>, <a href="/components/modal">modal</a>), large body text</td>
 </tr>
 <tr>
 <td><code>size-text-500</code></td>
-<td>18px → 20px</td>
+<td>18px</td>
+<td>20px</td>
 <td>18px</td>
 <td>Level 3 headings</td>
 </tr>
 <tr>
 <td><code>size-text-600</code></td>
-<td>21px → 25px</td>
+<td>21px</td>
+<td>25px</td>
 <td>21px</td>
 <td>Level 2 headings</td>
 </tr>
 <tr>
 <td><code>size-text-700</code></td>
-<td>28px → 36px</td>
+<td>24px</td>
+<td>30px</td>
 <td>24px</td>
 <td>Level 1 headings, limited to one per page.</td>
 </tr>
 <tr>
 <td><code>size-text-800</code></td>
-<td>24px → 30px</td>
-<td>NA</td>
+<td>28px</td>
+<td>36px</td>
+<td>28px</td>
 <td>A display option that can be applied to a level 1 heading to increase its prominence. This can be useful for a learning path or feature promotion. Limited to one per page.</td>
 </tr>
 <tr>
-<td colspan="4">Pixels are converted to relative units so that text respects browser settings for size and scale.</td>
+<td colspan="5">Pixels are converted to relative units so that text respects browser settings for size and scale.</td>
 </tr>
 </tbody>
 </table>
