@@ -2,9 +2,25 @@
 name: Release notes
 ---
 
+## 16.3
+
+<!-- TODO: Add link to 16.3 release notes draft once it's been created -->
+[_Draft: 16.3 release notes_](#)
+
 ## 16.2
 
-[_Draft: 16.2 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3430)
+<!-- TODO: Update publish date -->
+<small>Published 2023-07-XX</small>
+
+### Additions
+
+- Added the following icons: [**catalog-checkmark**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~catalog-checkmark)
+
+### Enhancements
+
+### Changes
+
+### Fixes
 
 ## 16.1
 
