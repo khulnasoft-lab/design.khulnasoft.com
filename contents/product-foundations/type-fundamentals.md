@@ -67,49 +67,49 @@ GitLab utilizes two type scales: **dynamic** and **fixed**.
 <td>Meta text, small labels</td>
 </tr>
 <tr>
-<td><code>size-text-200</code></td>
+<td><code>$size-text-200</code></td>
 <td>13px</td>
 <td>13px</td>
 <td>13px</td>
 <td>Level 6 headings</td>
 </tr>
 <tr>
-<td><code>size-text-300</code></td>
+<td><code>$size-text-300</code></td>
 <td>14px</td>
 <td>14px</td>
 <td>14px</td>
 <td>Level 5 headings, body text, input labels, help text</td>
 </tr>
 <tr>
-<td><code>size-text-400</code></td>
+<td><code>$size-text-400</code></td>
 <td>16px</td>
 <td>16px</td>
 <td>16px</td>
 <td>Level 4 headings, level 2 headings within components (<a href="/components/alert">alert</a>, <a href="/components/banner">banner</a>, <a href="/components/modal">modal</a>), large body text</td>
 </tr>
 <tr>
-<td><code>size-text-500</code></td>
+<td><code>$size-text-500</code></td>
 <td>18px</td>
 <td>20px</td>
 <td>18px</td>
 <td>Level 3 headings</td>
 </tr>
 <tr>
-<td><code>size-text-600</code></td>
+<td><code>$size-text-600</code></td>
 <td>21px</td>
 <td>25px</td>
 <td>21px</td>
 <td>Level 2 headings</td>
 </tr>
 <tr>
-<td><code>size-text-700</code></td>
+<td><code>$size-text-700</code></td>
 <td>24px</td>
 <td>30px</td>
 <td>24px</td>
 <td>Level 1 headings, limited to one per page (see <a href="#semantics">Semantics</a>).</td>
 </tr>
 <tr>
-<td><code>size-text-800</code></td>
+<td><code>$size-text-800</code></td>
 <td>28px</td>
 <td>36px</td>
 <td>28px</td>
