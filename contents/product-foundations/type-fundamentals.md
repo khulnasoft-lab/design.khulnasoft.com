@@ -155,7 +155,7 @@ GitLab uses contrasting font weights to support visual hierarchy within the appl
 </tr>
 <tr>
 <td style="font-weight:700;">700</td>
-<td>Inline with 400 for emphasize</td>
+<td>Inline with 400 for content of greater importance</td>
 </tr>
 </tbody>
 </table>
