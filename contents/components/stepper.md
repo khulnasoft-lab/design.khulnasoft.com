@@ -40,6 +40,8 @@ related:
 1. **Indicator**: Shows what step you are on, and general progress information.
 1. **Step**: Contains all the content and actions for that stage.
 
+<todo>Finalize navigation guidelines (for example, if using the indicator to go between steps is okay) based on usability testing.</todo>
+
 ## Guidelines
 <!--
   The Guidelines section contains the bulk of the page content. Sections are in the same order for every component and there's room where variable sections can be added.
@@ -121,6 +123,7 @@ related:
 - A confirmation dialog should be triggered if the user leaves the flow before they complete their process. Ideally, the progress would be saved so that when they return, they can pick up where they left off. If that is not possible, be sure to communicate they will lose all data they entered.
 - When possible, the last step should contain a summary of all user selections so the user can review before submitting.
 - After triggering the process, the user should ideally be sent to the page where that object lives, so they can take action on what they created. If the object cannot be created immediately, still [provide feedback](/usability/saving-and-feedback) to the user by providing an estimated waiting time until the operation completes, if possible.
+
 
 ### Content
 <!--
