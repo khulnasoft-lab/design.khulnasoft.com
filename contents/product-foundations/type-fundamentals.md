@@ -40,7 +40,7 @@ font-family: 'GitLab Mono', 'Menlo', 'DejaVu Sans Mono', 'Liberation Mono', 'Con
 GitLab utilizes two type scales: **dynamic** and **fixed**.
 
 - The dynamic scale is used for any UI text within GitLab. The **500**–**800** options rely on the viewport width to dynamically change size between the **min** and **max**.
-- The fixed scale is used for [markdown](/product-foundations/type-markdown) (user generated content). Text sizes match the **min** of the dynamic scale.
+- The fixed scale is used for [Markdown](/product-foundations/type-markdown) (user generated content). Sizes match the **min** of the dynamic scale.
 
 <table class="table-compact gl-mb-6">
 <col>
@@ -106,7 +106,7 @@ GitLab utilizes two type scales: **dynamic** and **fixed**.
 <td>24px</td>
 <td>30px</td>
 <td>24px</td>
-<td>Level 1 headings, limited to one per page.</td>
+<td>Level 1 headings, limited to one per page (see <a href="#semantics">Semantics</a>).</td>
 </tr>
 <tr>
 <td><code>size-text-800</code></td>
@@ -115,15 +115,19 @@ GitLab utilizes two type scales: **dynamic** and **fixed**.
 <td>28px</td>
 <td>A display option that can be applied to a level 1 heading to increase its prominence. This can be useful for a learning path or feature promotion. Limited to one per page.</td>
 </tr>
-<tr>
-<td colspan="5">Pixels are converted to relative units so that text respects browser settings for size and scale.</td>
-</tr>
 </tbody>
 </table>
 
+Note that in implementation the variables use rem values ([relative units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#relative_length_units)) instead of pixels ([absolute units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#absolute_length_units)), so that text respects browser settings for size and scale.
+
 ### Contextual adjustments
 
-The dynamic scale is mapped to heading levels by default, however, in a limited number of cases visual hierarchy can be established aside from semantics. For example, an alert container has additional sectioning affordances like color, spacing, and iconography, because of this a level 2 heading within doesn't require the same visual weight as a level 2 heading that's establishing a content section elsewhere on the page. Similarly, a level 3 heading in a card may not require the same sectioning effect as a level three heading in body content, because the properties of the card itself indicate a section. When in doubt, use the scale by default, consider the full page context, and reference existing patterns.
+By default, heading levels are mapped to the dynamic scale. However, in some cases, visual hierarchy can be established aside from [semantics](#semantics). For example:
+
+- In an [alert](/components/alert), its container already has sectioning affordances like color, spacing, and iconography. Because of this, a level 2 heading in the alert doesn't need the same emphasis as a level 2 heading for a content section elsewhere on the page.
+- Similarly, in a [card](/components/card), the properties of the card itself indicate a section. Because of this, a level 3 heading may not require the same sectioning effect as a level 3 heading in body content.
+
+When in doubt, use the scale by default, consider the full page context, and reference existing patterns.
 
 <todo>Provide more guidelines and examples of scale overrides.</todo>
 
@@ -163,9 +167,8 @@ There are a number of text colors defined in GitLab. Color choice depends on the
 <table class="table-compact gl-mb-6">
 <thead>
 <tr>
-<th>Type</th>
+<th>Category</th>
 <th>Variable</th>
-<th>HEX</th>
 <th>Example</th>
 </tr>
 </thead>
@@ -173,19 +176,16 @@ There are a number of text colors defined in GitLab. Color choice depends on the
 <tr>
 <td>Primary</td>
 <td><code>$gray-900</code></td>
-<td>#303030</td>
 <td class="gl-text-gray-900">Main titles and body</td>
 </tr>
 <tr>
 <td>Secondary</td>
 <td><code>$gray-500</code></td>
-<td>#666666</td>
 <td class="gl-text-gray-500">Accompanying help text or menu subtitles</td>
 </tr>
 <tr>
 <td>Tertiary</td>
 <td><code>$gray-400</code></td>
-<td>#868686</td>
 <td class="gl-text-gray-400">Placeholder or disabled</td>
 </tr>
 </tbody>
@@ -197,5 +197,5 @@ There are a number of text colors defined in GitLab. Color choice depends on the
 - Headings should not skip levels, with the following exceptions:
   - When an alert, or other messaging component, gets inserted before the main page content. These components are designed to use a level 2 (`h2`) heading.
   - When a heading is used to identify a region, like navigation. Generally, a level 2 (`h2`) heading is used.
-  - A user can order headings as they like in markdown. The visual appearance of a heading is the only guide provided for choosing the correct hierarchy.
+  - In user-generated Markdown content a user can order headings as they like. The visual appearance of a heading is the only guide provided for choosing the correct hierarchy.
 - Styles correspond with semantics by default, for example, an `h3` is larger and has more visual weight than an `h4`.

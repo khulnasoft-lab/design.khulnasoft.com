@@ -6,7 +6,7 @@ related:
   - /product-foundations/type-fundamentals
 ---
 
-The [fixed type scale](/product-foundations/type-fundamentals#type-scale) is used with [GitLab Flavored Markdown](https://docs.gitlab.com/ee/user/markdown.html) (GFM) and for content such as tables, task lists, and code blocks. This includes styling for the following GFM components.
+The [fixed type scale](/product-foundations/type-fundamentals#type-scales) is used with [GitLab Flavored Markdown](https://docs.gitlab.com/ee/user/markdown.html) (GLFM) and for content such as tables, task lists, and code blocks. This includes styling for the following GLFM components.
 
 ## Blockquote
 
