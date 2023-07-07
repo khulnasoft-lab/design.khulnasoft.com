@@ -4,7 +4,6 @@ figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-
 docs: in-progress
 related:
   - /product-foundations/type-fundamentals
-  - /product-foundations/type-scales
 ---
 
 The [fixed type scale](/product-foundations/type-fundamentals#type-scale) is used with [GitLab Flavored Markdown](https://docs.gitlab.com/ee/user/markdown.html) (GFM) and for content such as tables, task lists, and code blocks. This includes styling for the following GFM components.

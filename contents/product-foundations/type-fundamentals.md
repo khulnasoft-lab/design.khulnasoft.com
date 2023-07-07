@@ -1,7 +1,6 @@
 ---
 name: Type fundamentals
 related:
-  - /product-foundations/type-scales
   - /product-foundations/type-markdown
   - /product-foundations/color
 ---
