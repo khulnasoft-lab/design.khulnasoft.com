@@ -14,7 +14,7 @@ name: Release notes
 
 ### Additions
 
-- Added the following icons: [**catalog-checkmark**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~catalog-checkmark)
+- Added the following icons: [**catalog-checkmark**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~catalog-checkmark), [**check-xs**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~check-xs), [**close-xs**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~close-xs)
 
 ### Enhancements
 
