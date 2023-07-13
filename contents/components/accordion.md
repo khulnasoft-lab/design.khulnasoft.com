@@ -1,6 +1,6 @@
 ---
 name: Accordion
-description: An accordion is used to show and hide content. 
+description: An accordion is used to show and hide content contextually. 
 components:
   - base-accordion
 related:
@@ -25,19 +25,22 @@ related:
 
 ## Guidelines
 
-### When to use:
+### When to use
 
-- Displaying and grouping additional information.
-- Adding granular control over the information on a given page.
+- Displaying and grouping additional or related information that needs to be compared.
+- Adding granular control over the static information on a given page.
 - Shortening pages to reduce scrolling.
 
-### When not to use:
+### When not to use
 
-- Displaying critical system information or a primary action to be taken on the page. (for example, [alerts](/components/alert), confirmation or cancellation buttons).
+Accordions hide content from the user. For this reason, do not use an accordion for content that all users need to see.
+
+- Displaying critical system information or a primary action to be taken on the page, such as [alerts](/components/alert), forms, confirmation or cancellation buttons. If the user needs to look at more than one accordion section at a time or they need to click on the headings to complete a set of tasks, it’s better to expose all the content on the page at once to reduce cognitive load.
 - Displaying navigation elements such as [tabs](/components/tabs).
+- Displaying information that requires [pagination](/components/pagination) or if the amount of content inside it will make the page slow to load.
 - Displaying links pointing to sections of the same page, instead use a semantic HTML list.
 - Creating hierarchy levels by nesting them within each other. If you need to add hierarchy to the content use a [tree](/components/tree).
-- Displaying a set of visual components following the same style, prefer using Collapsable.(TODO: Add link to collapsable).
+- Displaying a set of visual components following the same style, prefer using a Collapsable. (TODO: Add link to collapsable).
 
 ### Content
 
