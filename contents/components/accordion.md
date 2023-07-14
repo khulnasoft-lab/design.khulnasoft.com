@@ -41,7 +41,7 @@ Accordions hide content from the user. For this reason, do not use an accordion 
 - Displaying links pointing to sections of the same page, instead use a semantic HTML list.
 - Creating hierarchy levels by nesting them within each other. If you need to add hierarchy to the content use a [tree](/components/tree).
 - Displaying a set of visual components following the same style, prefer using a Collapsable. (TODO: Add link to collapsable).
-
+- Displaying information that needs to be listed, filtered by or sorted by. The accordion hides the information users are looking for, hindering discoverability of items. Instead, use a [table](/components/table) in combination with [filtering](/patterns/filtering) or [search](/components/search).
 ### Content
 
 #### Icon
