@@ -33,7 +33,7 @@ related:
 
 ### When not to use
 
-Accordions hide content from the user. For this reason, do not use an accordion for content that all users need to see.
+Accordions hide content from the user. For this reason, do not use an accordion if users need to see most or all of the content.
 
 - Displaying critical system information or a primary action to be taken on the page, such as [alerts](/components/alert), forms, confirmation or cancellation buttons. If the user needs to look at more than one accordion section at a time or they need to click on the headings to complete a set of tasks, it’s better to expose all the content on the page at once to reduce cognitive load.
 - Displaying navigation elements such as [tabs](/components/tabs).
