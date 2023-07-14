@@ -12,6 +12,8 @@ name: Release notes
 <!-- TODO: Update publish date -->
 <small>Published 2023-07-XX</small>
 
+<note>Breaking (low): GitLab Figma Organization custom fonts updated to latest version of `@gitlab/fonts` 2023-07-13. Change applied automatically to all files. Investigations found no feasible way to make this change opt in. In some situations, editing text in existing files will require updating to use the latest type styles from Component Library.</note> 
+
 ### Additions
 
 - Added the following icons: [**catalog-checkmark**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~catalog-checkmark), [**check-xs**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~check-xs), [**close-xs**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~close-xs)
@@ -20,7 +22,62 @@ name: Release notes
 
 ### Changes
 
+- Breaking (medium): All UI kit files updated to use `@gitlab/fonts` v1.3.0.
+  - To use the fonts outside the GitLab Figma Organisation, [download the fonts](https://gitlab-org.gitlab.io/frontend/fonts/).
+  - The updated font versions have slightly different spacing between glyphs. When a components size is set by its content there can be a dimension change. The following components have been identified as seeing, in most instances, a ±1–4px width change.
+    - [**Badge**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=60387-98708&mode=dev)
+    - [**❖&nbsp;Breadcrumb**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=86530-117981&mode=dev)
+    - [**Button**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-5&mode=dev)
+    - [**❖&nbsp;Form&nbsp;group**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49856-76520&mode=dev) when a prefix or suffix is present
+    - [**❖&nbsp;Label**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=19904-3&mode=dev)
+    - [**Link**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=81916-116837&mode=dev)
+    - [**❖&nbsp;Pagination**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=48275-166113&mode=dev)
+    - [**❖&nbsp;Severity status**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=21336-4&mode=dev)
+    - [**❖Tabs**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-138&mode=dev)
+    - [**❖&nbsp;Toast**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=20171-225&mode=dev)
+    - [**❖&nbsp;Token**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=20182-267&mode=dev)
+    - [**❖&nbsp;Tooltip**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=19944-2&mode=dev)
+- Breaking (medium): Type scale for UI heading elements updated. New scale optimized to create visual heirarchy across pages. Read the Pajamas [type fundamentals](/contents/product-foundations/type-fundamentals.md) and follow progress in the [implementation epic](https://gitlab.com/groups/gitlab-org/gitlab-services/-/epics/19).
+  - Updated styles:
+    - `UI / Display / ≥xl breakpoint`
+    - `UI / Display / ≥md breakpoint`
+    - `UI / h1 / ≥xl breakpoint`
+    - `UI / h1 / ≥md breakpoint`
+    - `UI / h2 / ≥xl breakpoint`
+    - `UI / h2 / ≥md breakpoint`
+    - `UI / h3 / ≥xl breakpoint`
+    - `UI / h3 / ≥md breakpoint`
+    - `UI / h4 / ≥xl breakpoint`
+    - `UI / h4 / ≥md breakpoint`
+    - `UI / h5 / ≥xl breakpoint`
+    - `UI / h5 / ≥md breakpoint`
+    - `UI / h6 / ≥xl breakpoint`
+    - `UI / h6 / ≥md breakpoint`
+  - The new heading type scale uses smaller sizes. When a component size is set by its content there are some dimension changes. The following components have been identified as seeing, in most instances, a 1–8px height reduction.
+    - [**❖&nbsp;Banner**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=19944-6&mode=dev)
+    - [**❖&nbsp;Drawer**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=48150-59274&mode=dev)
+    - [**❖&nbsp;Modal**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=4263-22&mode=dev)
+    - [**❖&nbsp;Empty&nbsp;state**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=74155-103184&mode=dev)
+- Font weight for all text styles updated to use `400`, `600` or `700`.
+  - Changed styles:
+    - `UI / Paragraph / Bold lg`
+    - `UI / Paragraph / Bold`
+    - `UI / Paragraph / Bold sm`
+    - `Label / Bold`
+    - `Label / Bold underlined`
+    - `Label / Bold sm`
+    - `Label / Bold sm underlined`
+    - `Label / Mono bold`
+    - `Label / Mono bold underlined`
+    - `Label / Mono bold small`
+    - `Label / Mono bold sm underlined`
+- Optical weight and type settings changed for all text styles. Sans styles have the optical size manually set, and an updated list of enabled font features. 
+
 ### Fixes
+
+- Fix some dropdown instances using outdated text styles.
+- Fix issue where dropdown documentation would break outside its container.
+- Fix issue where the new fonts caused **❖&nbsp;_Base&nbsp;Button&nbsp;group** to break outside its container.
 
 ## 16.1
 
