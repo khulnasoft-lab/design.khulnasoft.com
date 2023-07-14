@@ -87,7 +87,6 @@ name: Release notes
 
 <small>Published 2023-06-19</small>
 
-<note>16.2 will update the font files we use in Figma to align GitLab Sans to the most recent version of Inter. It brings clearer rendering of characters, especially at higher weights. You might notice some line lengths increasing, this is expected. It is not possible for us to update the fonts in an opt-in way, and so there will be some disruption. More details to follow, but if you have concerns please reach out to a Foundations designer.</note>
 
 ### Additions
 
