@@ -79,6 +79,10 @@ name: Release notes
 - Fix issue where dropdown documentation would break outside its container.
 - Fix issue where the new fonts caused **❖&nbsp;_Base&nbsp;Button&nbsp;group** to break outside its container.
 
+### Deprecations
+
+- PENDING [Navigation](ADD LINK WHEN MERGED) page and all components deprecated.
+
 ## 16.1
 
 <small>Published 2023-06-19</small>
