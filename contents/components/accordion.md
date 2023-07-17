@@ -29,7 +29,7 @@ related:
 
 - Displaying and grouping additional or related information that needs to be compared.
 - Adding granular control over the static information on a given page.
-- Shortening pages to reduce scrolling.
+- Shortening pages to reduce scrolling and save space, for example, on small screen sizes.
 
 ### When not to use
 
