@@ -27,7 +27,7 @@ related:
 
 ### When to use
 
-- Displaying and grouping additional or related information that needs to be compared.
+- Displaying and grouping additional information or data that needs to be compared, instead use a [table](/components/table). 
 - Adding granular control over the static information on a given page.
 - Shortening pages to reduce scrolling and save space, for example, on small screen sizes.
 
