@@ -2,13 +2,30 @@
 name: Release notes
 ---
 
+## 16.4
+
+<!-- 🚧 Update MR link before publishing 🚧 -->
+[_Draft: 16.4 release notes_](#)
+
 ## 16.3
 
-[_Draft: 16.3 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3458)
+<!-- 🚧 Update date before publishing 🚧 -->
+<small>Published 2023-08-XX</small>
+
+### Additions
+
+### Enhancements
+
+- Improved layout of the [**dropdown types**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=67251-104021&mode=design&t=xl3Id4luIf4eAOt5-11) for better readability and to make use of more flexible connector lines.
+
+### Changes
+
+### Fixes
+
+### Deprecations
 
 ## 16.2
 
-<!-- TODO: Update publish date -->
 <small>Published 2023-07-17</small>
 
 <note>Breaking (low): GitLab Figma Organization custom fonts updated to latest version of `@gitlab/fonts` 2023-07-13. Change applied automatically to all files. Investigations found no feasible way to make this change opt in. In some situations, editing text in existing files will require updating to use the latest type styles from the [**📙&nbsp;Component&nbsp;library**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=440%3A0&mode=dev).</note> 
