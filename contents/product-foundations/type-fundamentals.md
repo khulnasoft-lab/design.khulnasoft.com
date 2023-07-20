@@ -199,3 +199,40 @@ There are a number of text colors defined in GitLab. Color choice depends on the
   - When a heading is used to identify a region, like navigation. Generally, a level 2 (`h2`) heading is used.
   - In user-generated Markdown content a user can order headings as they like. The visual appearance of a heading is the only guide provided for choosing the correct hierarchy.
 - Styles correspond with semantics by default, for example, an `h3` is larger and has more visual weight than an `h4`.
+
+## Line length
+
+There are a number of line lenghts defined in GitLab. Line length choice depends on the context, amount of content and size of the font.
+
+<table class="table-compact gl-mb-6">
+<thead>
+<tr>
+<th>Utility class</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>gl-line-length-40ch</code></td>
+<td><p class="gl-line-length-40ch">Aliquam erat volutpat. Morbi nec ex posuere, lacinia purus non, viverra magna. In in ipsum suscipit, viverra nibh at, aliquet urna. Nunc feugiat non eros id convallis. Vestibulum non ipsum non nunc auctor imperdiet. Curabitur pharetra tincidunt purus, ut fringilla leo scelerisque sed. Nullam ac elit eget ante sagittis elementum. Praesent pretium nibh nec sagittis aliquam. Donec at urna mi.</p></td>
+</tr>
+<tr>
+<td><code>gl-line-length-50ch</code></td>
+<td><p class="gl-line-length-50ch">Aliquam erat volutpat. Morbi nec ex posuere, lacinia purus non, viverra magna. In in ipsum suscipit, viverra nibh at, aliquet urna. Nunc feugiat non eros id convallis. Vestibulum non ipsum non nunc auctor imperdiet. Curabitur pharetra tincidunt purus, ut fringilla leo scelerisque sed. Nullam ac elit eget ante sagittis elementum. Praesent pretium nibh nec sagittis aliquam. Donec at urna mi.</p></td>
+</tr>
+<tr>
+<td><code>gl-line-length-60ch</code></td>
+<td><p class="gl-line-length-60ch">Aliquam erat volutpat. Morbi nec ex posuere, lacinia purus non, viverra magna. In in ipsum suscipit, viverra nibh at, aliquet urna. Nunc feugiat non eros id convallis. Vestibulum non ipsum non nunc auctor imperdiet. Curabitur pharetra tincidunt purus, ut fringilla leo scelerisque sed. Nullam ac elit eget ante sagittis elementum. Praesent pretium nibh nec sagittis aliquam. Donec at urna mi.</p></td>
+</tr>
+<tr>
+<td><code>gl-line-length-70ch</code></td>
+<td><p class="gl-line-length-70ch">Aliquam erat volutpat. Morbi nec ex posuere, lacinia purus non, viverra magna. In in ipsum suscipit, viverra nibh at, aliquet urna. Nunc feugiat non eros id convallis. Vestibulum non ipsum non nunc auctor imperdiet. Curabitur pharetra tincidunt purus, ut fringilla leo scelerisque sed. Nullam ac elit eget ante sagittis elementum. Praesent pretium nibh nec sagittis aliquam. Donec at urna mi.</p></td>
+</tr>
+<tr>
+<td><code>gl-line-length-80ch</code></td>
+<td><p class="gl-line-length-80ch">Aliquam erat volutpat. Morbi nec ex posuere, lacinia purus non, viverra magna. In in ipsum suscipit, viverra nibh at, aliquet urna. Nunc feugiat non eros id convallis. Vestibulum non ipsum non nunc auctor imperdiet. Curabitur pharetra tincidunt purus, ut fringilla leo scelerisque sed. Nullam ac elit eget ante sagittis elementum. Praesent pretium nibh nec sagittis aliquam. Donec at urna mi.</p></td>
+</tr>
+</tbody>
+</table>
+
+<todo>Add when to use and not.</todo>
