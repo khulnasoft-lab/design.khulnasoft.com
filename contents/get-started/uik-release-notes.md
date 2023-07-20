@@ -16,11 +16,13 @@ name: Release notes
 
 ### Enhancements
 
-- Improved layout of the [**dropdown types**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=67251-104021&mode=design&t=xl3Id4luIf4eAOt5-11) for better readability and to make use of more flexible connector lines.
+- Improve layout of the [**dropdown types**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=67251-104021&mode=dev&t=xl3Id4luIf4eAOt5-11) for better readability and to make use of more flexible connector lines.
+- Add extra characters to the GitLab Mono font test to make it easier to see when an old version of the font is loaded.
 
 ### Changes
 
 - Differentiate styles and components that help organize content within UI kit files from styles and components that are part of the system. Components will also be published as part of the **📙&nbsp;Component&nbsp;library** so they can be used in all UI kit files. More details in the [#1657](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1657) issue.
+- Rename Layout to [**Elevation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49138-75722&mode=dev) to match documentation. Update page layout to use recent documentation styles.
 
 ### Fixes
 
