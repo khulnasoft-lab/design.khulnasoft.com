@@ -20,6 +20,8 @@ name: Release notes
 
 ### Changes
 
+- Differentiate styles and components that help organize content within UI kit files from styles and components that are part of the system. Components will also be published as part of the **📙&nbsp;Component&nbsp;library** so they can be used in all UI kit files. More details in the [#1657](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1657) issue.
+
 ### Fixes
 
 ### Deprecations
