@@ -17,7 +17,7 @@ name: Release notes
 ### Enhancements
 
 - Improve layout of the [**dropdown types**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=67251-104021&mode=dev&t=xl3Id4luIf4eAOt5-11) for better readability and to make use of more flexible connector lines.
-- Add extra characters to the GitLab Mono font test to make it easier to see when an old version of the font is loaded.
+- Add extra characters to the [GitLab Mono font test](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=455%3A18&mode=dev) to make it easier to see when an old version of the font is loaded.
 
 ### Changes
 
