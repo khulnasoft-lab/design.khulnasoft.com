@@ -24,6 +24,7 @@ name: Release notes
 ### Changes
 
 - Differentiate styles and components that help organize content within UI kit files from styles and components that are part of the system. Components will also be published as part of the **📙&nbsp;Component&nbsp;library** so they can be used in all UI kit files. More details in the [#1657](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1657) issue.
+- Separate heading styles from the type scale visual reference in [**Typography**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=440-0&mode=design&t=XSJUqpbMl5TmttSz-11) to avoid conflating the two. More details in the [#1658](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1658) issue.
 - Rename Layout to [**Elevation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49138-75722&mode=dev) to match documentation. Update page layout to use recent documentation styles.
 - Update Avatar text style naming to match convention established in (#1652)[https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1652].
 
