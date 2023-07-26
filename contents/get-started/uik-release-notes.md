@@ -14,7 +14,7 @@ name: Release notes
 
 ### Additions
 
-- Add component specific text styles for alert, banner, drawer, and modal.
+- Add component specific heading text styles for alert, banner, drawer, and modal. More details in the [#1652](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1652) issue.
 
 ### Enhancements
 
