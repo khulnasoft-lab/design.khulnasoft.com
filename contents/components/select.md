@@ -16,7 +16,9 @@ componentLabel: form-select
 
 ## Guidelines
 
-<todo>Add guidelines.</todo>
+### When not to use
+
+- If possible, use [radio buttons](radio-button.md) rather than a select. Limited space, additional friction, or having more than 3 options might force you to violate this guideline, but do try to keep choices visible whenever possible.
 
 ### Appearance
 
