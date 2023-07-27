@@ -16,9 +16,19 @@ componentLabel: form-select
 
 ## Guidelines
 
+### When to use
+
+- In a form for a user to indicate a selection of one option from a list of six or more options, or when the number of options isn't known.
+- For selecting from a list options to sort a set of options, and when no sort order is needed (see the [sorting](/components/sorting) component for a comparison).
+- Along with [pagination](/components/pagination) to select the number of results per view.
+
 ### When not to use
 
-- If possible, use [radio buttons](radio-button.md) rather than a select. Limited space, additional friction, or having more than 3 options might force you to violate this guideline, but do try to keep choices visible whenever possible.
+- If only one option can be selected, and the number of options is five or less, consider using [radio buttons](/components/radio-button) instead.
+- If the user needs to easily see all options, consider using [radio buttons](/components/radio-button) instead.
+- If selecting between a binary state that has immediate effect, consider using a [toggle](/components/toggle) instead.
+- If choices exist outside of a form and as a list of options, use a [combobox](/components/dropdown-combobox) instead.
+- A select should not be used for navigation.
 
 ### Appearance
 
