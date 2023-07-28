@@ -30,7 +30,8 @@ name: Release notes
 - Differentiate styles and components that help organize content within UI kit files from styles and components that are part of the system. Components will also be published as part of the **📙&nbsp;Component&nbsp;library** so they can be used in all UI kit files. More details in the [#1657](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1657) issue.
 - Separate heading styles from the type scale visual reference in [**Typography**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=440-0&mode=design&t=XSJUqpbMl5TmttSz-11) to avoid conflating the two. More details in the [#1658](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1658) issue.
 - Rename Layout to [**Elevation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49138-75722&mode=dev) to match documentation. Update page layout to use recent documentation styles.
-- Update Avatar text style naming to match convention established in (#1652)[https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1652].
+- Update Avatar text style naming to match convention established in [#1652](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1652).
+- The [**❖&nbsp;Tabs**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-138&mode=design&t=uGUMzsWvJWaeTsTO-11) component now uses `$blue-500` for the active state of a tab. Replaced the box shadows with strokes, see [#1669](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1669) for more details.
 
 ### Fixes
 
@@ -40,7 +41,7 @@ name: Release notes
 
 <small>Published 2023-07-17</small>
 
-<note>Breaking (low): GitLab Figma Organization custom fonts updated to latest version of `@gitlab/fonts` 2023-07-13. Change applied automatically to all files. Investigations found no feasible way to make this change opt in. In some situations, editing text in existing files will require updating to use the latest type styles from the [**📙&nbsp;Component&nbsp;library**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=440%3A0&mode=dev).</note> 
+<note>Breaking (low): GitLab Figma Organization custom fonts updated to latest version of `@gitlab/fonts` 2023-07-13. Change applied automatically to all files. Investigations found no feasible way to make this change opt in. In some situations, editing text in existing files will require updating to use the latest type styles from the [**📙&nbsp;Component&nbsp;library**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=440%3A0&mode=dev).</note>
 
 ### Additions
 
@@ -99,7 +100,7 @@ name: Release notes
     - `Label / Mono bold underlined`
     - `Label / Mono bold small`
     - `Label / Mono bold sm underlined`
-- Optical weight and type settings changed for all text styles. Sans styles have the optical size manually set, and an updated list of enabled font features. 
+- Optical weight and type settings changed for all text styles. Sans styles have the optical size manually set, and an updated list of enabled font features.
 
 ### Fixes
 
