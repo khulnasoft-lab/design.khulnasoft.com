@@ -18,7 +18,6 @@ componentLabel: form-select
 
 - In a form for a user to indicate a selection of one option from a list of six or more options, or when the number of options isn't known.
 - For selecting from a list options to sort a set of options, and when no sort order is needed (see the [sorting](/components/sorting) component for a comparison).
-- Along with [pagination](/components/pagination) to select the number of results per view.
 
 ### When not to use
 
