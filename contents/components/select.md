@@ -26,7 +26,6 @@ componentLabel: form-select
 - If the user needs to easily see all options, consider using [radio buttons](/components/radio-button) instead.
 - If selecting between a binary state that has immediate effect, consider using a [toggle](/components/toggle) instead.
 - If choices exist outside of a form and as a list of options, use a [combobox](/components/dropdown-combobox) instead.
-- A select should not be used for navigation.
 
 ### Appearance
 
