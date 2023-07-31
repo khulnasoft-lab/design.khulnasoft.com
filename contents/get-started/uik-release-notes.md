@@ -22,6 +22,7 @@ name: Release notes
 - Add extra characters to the [GitLab Mono font test](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=455%3A18&mode=dev) to make it easier to see when an old version of the font is loaded.
 - Improve [**banner instances**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=57885-91856&mode=design&t=ZA2HenUTMZ9u5dgE-11) to make it easier to understand behavior.
 - Improve [**drawer instances**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=48150-59211&mode=design&t=6rKiJL39IBzoJ4ld-11) to make it easier to understand options and behavior.
+- Improve [**modal instances**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=4263-5&mode=design&t=XfGTa2XHlUgmiaZk-11) to make it easier to understand options and behavior.
 
 ### Changes
 
@@ -31,6 +32,9 @@ name: Release notes
 - Breaking (low): The [**❖&nbsp;Drawer**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=48150-59274&mode=design&t=6rKiJL39IBzoJ4ld-11) component title now has a dedicated text style that leverages a scale from the latest type scale updates. As a result of the change, the header height in instances of the drawer can change and you may need to reposition design elements. More details for the reason behind the change in the [!11014](https://gitlab.com/groups/gitlab-org/-/epics/11014) epic. New styles:
   - `Component / Drawer title (h2) / ≥xl breakpoint`
   - `Component / Drawer title (h2) / ≥md breakpoint`
+  - Breaking (low): The [**❖&nbsp;Modal**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=4263-22&mode=design&t=XfGTa2XHlUgmiaZk-11) component title now has a dedicated text style that leverages a scale from the latest type scale updates. As a result of the change, the header height in instances of the modal can change and you may need to reposition design elements. More details for the reason behind the change in the [!11014](https://gitlab.com/groups/gitlab-org/-/epics/11014) epic. New styles:
+  - `Component / Modal title (h2) / ≥xl breakpoint`
+  - `Component / Modal title (h2) / ≥md breakpoint`
 - Differentiate styles and components that help organize content within UI kit files from styles and components that are part of the system. Components will also be published as part of the **📙&nbsp;Component&nbsp;library** so they can be used in all UI kit files. More details in the [#1657](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1657) issue.
 - Separate heading styles from the type scale visual reference in [**Typography**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=440-0&mode=design&t=XSJUqpbMl5TmttSz-11) to avoid conflating the two. More details in the [#1658](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1658) issue.
 - Rename Layout to [**Elevation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49138-75722&mode=dev) to match documentation. Update page layout to use recent documentation styles.
