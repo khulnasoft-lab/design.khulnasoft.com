@@ -2,7 +2,7 @@
 name: Design tokens
 ---
 
-Design tokens are the most basic way we capture design decisions and intent in code so that they can be shared across tools and platforms. They abstract out design variables like color, typography, and spacing as a means to consistant and meaningfull use. 
+Design tokens are the most basic way we capture design decisions and intent in code so that they can be shared across tools and platforms. They abstract out design variables like color, typography, and spacing as a means to consistant and meaningful use. 
 
 For example, choosing `gl.color.gray.700` for text tells someone nothing about why that color was chosen, so the value may be updated arbitrarily. But, if something like `gl.color.text.secondary` was applied, then someone can understand that the text should appear as secondary, or with less prominence, than something that might be primary or more prominent — the design intent has been communicated and can't be changed on a whim without reconsidering the purpose.
 
