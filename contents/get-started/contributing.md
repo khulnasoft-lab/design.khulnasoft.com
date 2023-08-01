@@ -66,7 +66,7 @@ To make changes within our Design System, follow these instructions:
 1. Get your changes merged! After the necessary approvals have been added, a UX
    or frontend maintainer can then merge your merge request. 🙌
 
-If you're new to working on a professional code base we'd love to welcome you to our [frontend onboarding course](https://docs.gitlab.com/ee/development/fe_guide/onboarding_course/).
+If you're new to working on a professional code base or contributing to Pajamas we'd love to welcome you to our [frontend onboarding course](https://docs.gitlab.com/ee/development/fe_guide/onboarding_course/).
 
 ## Contribute to design
 
