@@ -47,6 +47,7 @@ name: Release notes
     - Rename **❖&nbsp;Text/Paragraph/Short** →  **❖&nbsp;Text/Paragraph/3&nbsp;line**.
     - Breaking change (medium): Update [**❖&nbsp;Text/Paragraph/5&nbsp;line**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=2844-86&mode=dev) and [**❖&nbsp;Text/Paragraph/3&nbsp;line**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=2844-82&mode=dev) to use paragraph spacing and visual weight.
     - Create [**❖&nbsp;Text/Paragraph/1&nbsp;line**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=94992-89&mode=dev).
+- Breaking (medium): [**❖&nbspTooltip**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=19944-2&mode=dev) updated to use Figma's new max-width auto layout feature — no more manually controlling width using line-breaks or resizing the component! This update will change the position of existing tooltips if they are longer than 1 line. Instances frame also updated for clarity following feedback.
 
 ### Fixes
 
@@ -54,7 +55,11 @@ name: Release notes
 
 - Tab / Active (⚠️ DEPRECATED) effect style. Use a bottom stroke instead.
 - Tab / Hover (⚠️ DEPRECATED) effect style. Use a bottom stroke instead. 
-- Skeleton loader [heading variants](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=94794-93349&mode=dev). Use latest [**Skeleton loader**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=2844-0&mode=dev) variants. 
+- Skeleton loader [heading variants](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=94794-93349&mode=dev). Use latest [**Skeleton loader**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=2844-0&mode=dev) variants.
+
+### Removals
+
+- Tooltip > Max-width grid style removed. Use max-width autolayout rules built into [**❖&nbspTooltip**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=19944-2&mode=dev) instead. (Sorry this accidentally skipped the deprecation process.)
 
 ## 16.2
 
