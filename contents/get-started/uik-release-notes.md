@@ -40,13 +40,21 @@ name: Release notes
 - Rename Layout to [**Elevation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49138-75722&mode=dev) to match documentation. Update page layout to use recent documentation styles.
 - Update Avatar text style naming to match convention established in [#1652](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1652).
 - The [**❖&nbsp;Tabs**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-138&mode=design&t=uGUMzsWvJWaeTsTO-11) component now uses `$blue-500` for the active state of a tab. Replaced the box shadows with strokes, see [#1669](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1669) for more details.
+- Breaking (medium): [Skeleton&nbsp;loader] variants now reflect current heading and paragraph appearance.
+  - New components created for [headings](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=94794-93366&mode=dev). Existing skeleton loader heading variants have been deprecated. 
+  - Update paragraph components and create a single line version.
+    - Rename **❖&nbsp;Text/Paragraph/Long** →  **❖&nbsp;Text/Paragraph/5&nbsp;line**.
+    - Rename **❖&nbsp;Text/Paragraph/Short** →  **❖&nbsp;Text/Paragraph/3&nbsp;line**.
+    - Breaking change (medium): Update [**❖&nbsp;Text/Paragraph/5&nbsp;line**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=2844-86&mode=dev) and [**❖&nbsp;Text/Paragraph/3&nbsp;line**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=2844-82&mode=dev) to use paragraph spacing and visual weight.
+    - Create [**❖&nbsp;Text/Paragraph/1&nbsp;line**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=94992-89&mode=dev).
 
 ### Fixes
 
 ### Deprecations
 
-- **Tab&nbsp;/&nbsp;Active** effect style deprecated. Use a bottom stroke instead.
-- **Tab&nbsp;/&nbsp;Hover** effect style deprecated. Use a bottom stroke instead. 
+- Tab / Active (⚠️ DEPRECATED) effect style. Use a bottom stroke instead.
+- Tab / Hover (⚠️ DEPRECATED) effect style. Use a bottom stroke instead. 
+- Skeleton loader [heading variants](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=94794-93349&mode=dev). Use latest [**Skeleton loader**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=2844-0&mode=dev) variants. 
 
 ## 16.2
 
