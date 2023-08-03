@@ -45,6 +45,9 @@ name: Release notes
 
 ### Deprecations
 
+- **Tab&nbsp;/&nbsp;Active** effect style deprecated. Use a bottom stroke instead.
+- **Tab&nbsp;/&nbsp;Hover** effect style deprecated. Use a bottom stroke instead. 
+
 ## 16.2
 
 <small>Published 2023-07-17</small>
