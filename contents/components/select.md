@@ -24,6 +24,7 @@ componentLabel: form-select
 ### When not to use
 
 - If only one option can be selected, and the number of options is five or less, consider using [radio buttons](/components/radio-button) instead.
+- If more than one option can be selected, consider using [checkboxes](/components/checkbox) or a [combobox](/components/dropdown-combobox) instead.
 - If the user needs to easily see all options, consider using [radio buttons](/components/radio-button) instead.
 - If selecting between a binary state that has immediate effect, consider using a [toggle](/components/toggle) instead.
 - If choices exist outside of a form and as a list of options, use a [combobox](/components/dropdown-combobox) instead.
