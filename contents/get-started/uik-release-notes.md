@@ -20,12 +20,14 @@ name: Release notes
 
 - Improve layout of the [**dropdown types**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=67251-104021&mode=dev&t=xl3Id4luIf4eAOt5-11) for better readability and to make use of more flexible connector lines.
 - Add extra characters to the [GitLab Mono font test](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=455%3A18&mode=dev) to make it easier to see when an old version of the font is loaded.
+- Improve [**alert instances**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=95997-103802&mode=design&t=MVOi831SRGjQRioB-11) to make it easier to understand options and behavior.
 - Improve [**banner instances**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=57885-91856&mode=design&t=ZA2HenUTMZ9u5dgE-11) to make it easier to understand behavior.
 - Improve [**drawer instances**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=48150-59211&mode=design&t=6rKiJL39IBzoJ4ld-11) to make it easier to understand options and behavior.
 - Improve [**modal instances**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=4263-5&mode=design&t=XfGTa2XHlUgmiaZk-11) to make it easier to understand options and behavior.
 
 ### Changes
 
+- Breaking (medium): The [**❖&nbsp;Alert**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=95988-11501&mode=design&t=MVOi831SRGjQRioB-11) component title now has a dedicated text style that leverages a scale from the latest type scale updates. As a result of the change, the component anatomy has been reworked to allow the title and body text to vertically align with the alert icon. The max-width variants have also been removed as they have low use and don't align with actual component properties. The [previous iteration of the alert](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=19898-127&mode=design&t=MVOi831SRGjQRioB-11) is marked as deprecated and still available for a time, but you should start using the latest in new designs.
 - Breaking (low): The [**❖&nbsp;Banner**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=19944-6&mode=design&t=ZA2HenUTMZ9u5dgE-11) component title now has a dedicated text style that leverages a scale from the latest type scale updates. As a result of the change, instances of the banner can change height and you may need to reposition design elements. More details for the reason behind the change in the [!11014](https://gitlab.com/groups/gitlab-org/-/epics/11014) epic. New styles:
   - `Component / Banner title (h2) / ≥xl breakpoint`
   - `Component / Banner title (h2) / ≥md breakpoint`
