@@ -127,6 +127,16 @@ To write in second person, focus on eliminating words like “can” or “will�
 | --- | --- |
 | To get started, link this page to your Jaeger server. | Users can get started by linking this page to their Jaeger server. |
 
+### Actions performed by GitLab
+
+When describing something that GitLab, the application, does, it's fine to use the passive voice.
+Don't use "we" or "GitLab".
+
+| Do | Don’t |
+| --- | --- |
+| A connection to the specified host could not be made. | We were not able to make a connection to the specified host. |
+| The verification email wasn't received in time. | We did not receive the verification email we sent out in time. |
+
 ## Verb tenses
 
 ### Recent past (instant feedback)
