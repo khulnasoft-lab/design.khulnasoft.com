@@ -24,6 +24,7 @@ name: Release notes
 - Improve [**banner instances**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=57885-91856&mode=design&t=ZA2HenUTMZ9u5dgE-11) to make it easier to understand behavior.
 - Improve [**drawer instances**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=48150-59211&mode=design&t=6rKiJL39IBzoJ4ld-11) to make it easier to understand options and behavior.
 - Improve [**modal instances**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=4263-5&mode=design&t=XfGTa2XHlUgmiaZk-11) to make it easier to understand options and behavior.
+- Update [**documentation utilities**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=96698-362&mode=design&t=KJPSy8hg6NhsjNDF-11) to help make inline documentation (within instances, examples, and documentation pages) more consistent and separate from the elements they address.
 
 ### Changes
 
