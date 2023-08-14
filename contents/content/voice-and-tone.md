@@ -130,7 +130,7 @@ To write in second person, focus on eliminating words like “can” or “will�
 ### Actions performed by GitLab
 
 When describing something that GitLab, the application, does, it's fine to use the passive voice.
-Don't use "we" or "GitLab".
+Don't use "we" or "GitLab."
 
 | Do | Don’t |
 | --- | --- |
