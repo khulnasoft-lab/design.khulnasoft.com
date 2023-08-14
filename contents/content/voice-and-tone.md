@@ -65,7 +65,7 @@ While we aim to brief, we also avoid Latin abbreviations as they can be easily m
 
 When something goes wrong, it's important for us to be clear about what happened, why it happened, and what the next steps to take may be. Vague messages frustrate users and can even block them from completing their task.
 
-When writing an error message, leave out extraneous words like *sorry* and *please*. This makes errors easier to read and understand.
+When writing an error message, leave out extraneous words like "sorry" and "please." This makes errors easier to read and understand.
 
 | Do  | Don’t |
 | --- |  ---  |
