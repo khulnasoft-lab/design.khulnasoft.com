@@ -65,7 +65,7 @@ name: Release notes
 
 ### Removals
 
-- Tooltip > Max-width grid style removed. Use max-width autolayout rules built into [**❖&nbspTooltip**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=19944-2&mode=dev) instead. (Sorry this accidentally skipped the deprecation process.)
+- Tooltip > Max-width grid style removed. Use max-width auto layout rules built into [**❖&nbsp;Tooltip**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=19944-2&mode=dev) instead. (Sorry, this accidentally skipped the deprecation process.)
 
 ## 16.2
 
