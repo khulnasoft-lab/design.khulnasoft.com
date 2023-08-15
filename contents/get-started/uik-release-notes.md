@@ -5,12 +5,12 @@ name: Release notes
 ## 16.4
 
 <!-- 🚧 Update MR link before publishing 🚧 -->
-[_Draft: 16.4 release notes_](#)
+[_Draft: 16.4 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3488)
 
 ## 16.3
 
 <!-- 🚧 Update date before publishing 🚧 -->
-<small>Published 2023-08-XX</small>
+<small>Published 2023-08-16</small>
 
 ### Additions
 
