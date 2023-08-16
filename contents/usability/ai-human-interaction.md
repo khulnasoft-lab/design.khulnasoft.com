@@ -50,10 +50,7 @@ In the UI, use the [`tanuki-ai`](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~ta
 
 #### Color
 
-In the UI, there is _no specific color_ associated with AI or GitLab Duo — this differs from marketing, that has specific colors for the [GitLab Duo visual identity](https://docs.google.com/presentation/d/1G849KWal8XDAEdusoR5YN8ZrZlvcgFVnqr4Nsjdy9Rc/edit#slide=id.g252cac05ee9_0_17).
-
-- The color of the icon or actions of AI-assisted features follow the component-specific guidelines, like [button](/components/button) variants.
-- When AI-generated content is shown within the same container as other content (for example, system or user-generated), differentiate the AI content with a `2px` outline. At rest, the outline looks discreet with `$blue-200`. On hover, it is emphasized with `$blue-500`.
+In the UI, there is _no specific color_ associated with AI or GitLab Duo — this differs from marketing, that has specific colors for the [GitLab Duo visual identity](https://docs.google.com/presentation/d/1G849KWal8XDAEdusoR5YN8ZrZlvcgFVnqr4Nsjdy9Rc/edit#slide=id.g252cac05ee9_0_17). The color of the icon or actions of AI-assisted features follow the component-specific guidelines, like [button](/components/button) variants.
 
 ### Set the right expectations
 
