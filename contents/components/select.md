@@ -16,7 +16,6 @@ componentLabel: form-select
 
 ### When to use
 
-- In a form for a user to indicate a selection of only one option from a list of six or more options, or when the number of options is unknown.
 - To present sort options when the sort order button isn't required (see the [sorting](/components/sorting) component for a comparison).
 
 ### When not to use
