@@ -26,7 +26,7 @@ Users rely on the system to make decisions, but they should not trust the system
 
 ### Be transparent
 
-Establish trust by ensuring the user always knows when they are interacting with AI, and when content or recommendations come from AI. Besides, such disclosure is required by some third party AI services and may soon be required in the European Union ([EU AI Act](https://www.europarl.europa.eu/news/en/headlines/society/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence)).
+Establish trust by ensuring the user always knows when they are interacting with AI, and when content or recommendations come from AI. Such disclosures are often required by third party AI services and may soon be required in the European Union ([EU AI Act](https://www.europarl.europa.eu/news/en/headlines/society/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence)).
 
 #### Name
 
