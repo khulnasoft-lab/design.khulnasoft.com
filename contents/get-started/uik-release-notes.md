@@ -14,7 +14,7 @@ name: Release notes
 
 ### Additions
 
-- Add component specific heading text styles for alert, banner, drawer, and modal. More details in the [#1652](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1652) issue.
+- Add component specific heading text styles for alert, banner, drawer, and modal. More details in [#1652](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1652).
 
 ### Enhancements
 
@@ -27,7 +27,7 @@ name: Release notes
 
 ### Changes
 
-- Breaking (high): The [**❖&nbsp;Alert**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=95988-11501&mode=design&t=MVOi831SRGjQRioB-11) component title now has a dedicated text style that leverages a scale from the latest type scale updates. As a result of the change, the component anatomy has been reworked to allow the title and body text to vertically align with the alert icon. The max-width variants have also been removed as they have low use and don't align with actual component properties. The [previous iteration of the alert](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=19898-127&mode=design&t=MVOi831SRGjQRioB-11) is marked as deprecated and still available for a time, but you should start using the latest in new designs.
+- Breaking (high): The [**❖&nbsp;Alert**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=95988-11501&mode=design&t=MVOi831SRGjQRioB-11) component title now has a dedicated text style that leverages the latest type scale updates. To accommodate this change, the component has been reworked to allow the title and body text to vertically align with the alert icon. The max-width variants have also been removed as they have low usage and weren't in line with current guidelines. The [previous version of the alert](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=19898-127&mode=design&t=MVOi831SRGjQRioB-11) has been deprecated, but will still be available for at least a milestone.
 - [Skeleton&nbsp;loader](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=2844-0&mode=dev) variants now reflect current heading and paragraph appearance.
   - Breaking (high): New components created for [headings](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=94794-93366&mode=dev). Existing skeleton loader heading variants have been deprecated. 
   - Update paragraph components and create a single line version.
@@ -45,14 +45,14 @@ name: Release notes
 - Breaking (low): The [**❖&nbsp;Modal**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=4263-22&mode=design&t=XfGTa2XHlUgmiaZk-11) component title now has a dedicated text style that leverages a scale from the latest type scale updates. As a result of the change, the header height in instances of the modal can change and you may need to reposition design elements. More details for the reason behind the change in the [!11014](https://gitlab.com/groups/gitlab-org/-/epics/11014) epic. New styles:
   - `Component / Modal title (h2) / ≥xl breakpoint`
   - `Component / Modal title (h2) / ≥md breakpoint`
-- The [**❖&nbsp;Tabs**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-138&mode=design&t=uGUMzsWvJWaeTsTO-11) component now uses `$blue-500` for the active state of a tab. Replaced the box shadows with strokes, see [#1669](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1669) for more details.
-- Rename Layout to [**Elevation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49138-75722&mode=dev) to match documentation. Update page layout to use recent documentation styles.
-- Update Avatar text style naming to match convention established in [#1652](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1652).
-- Update components and styles used to create the UI kit.
-  - Differentiate styles and components that help organize content within UI kit files from styles and components that are part of the system. Components will also be published as part of the **📙&nbsp;Component&nbsp;library** so they can be used in all UI kit files. More details in the [#1657](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1657) issue.
-  - Update [**documentation utilities**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=96698-362&mode=design&t=KJPSy8hg6NhsjNDF-11) to help make inline documentation (within instances, examples, and documentation pages) more consistent and separate from the elements they address. 
-- Separate heading styles from the type scale visual reference in [**Typography**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=440-0&mode=design&t=XSJUqpbMl5TmttSz-11) to avoid conflating the two. More details in the [#1658](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1658) issue.
-- Update [Dropdown types](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=96234-7530&mode=design&t=LZ783BAyUqhLzr02-4) to include more examples.
+- The [**❖&nbsp;Tabs**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-138&mode=design&t=uGUMzsWvJWaeTsTO-11) component now uses `$blue-500` for the active state of a tab. Box shadows replaced with strokes, see [#1669](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1669) for more details.
+- Layout renamed to [**Elevation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49138-75722&mode=dev) to match documentation. Update page layout to use recent documentation styles.
+- Avatar text style naming updated to match convention established in [#1652](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1652).
+- Updated components and styles used to create the UI kit.
+  - Differentiated styles and components that help organize content within UI kit files from styles and components that are part of the system. Components will also be published as part of the **📙&nbsp;Component&nbsp;library** so they can be used in all UI kit files. More details in [#1657](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1657).
+  - Updated [**documentation utilities**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=96698-362&mode=design&t=KJPSy8hg6NhsjNDF-11) to help make inline documentation (within instances, examples, and documentation pages) more consistent and separate from the elements they address. 
+- Separated heading styles from the type scale visual reference in [**Typography**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=440-0&mode=design&t=XSJUqpbMl5TmttSz-11) to avoid conflating the two. More details in [#1658](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1658).
+- Updated [Dropdown types](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=96234-7530&mode=design&t=LZ783BAyUqhLzr02-4) to include more examples.
 
 ### Fixes
 
