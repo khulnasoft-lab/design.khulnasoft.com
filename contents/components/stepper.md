@@ -29,7 +29,7 @@ related:
 
 ### When not to use
 
-- When there is a small number of fields or if user input can happen in any order, instead use a [form](/components/form).
+- When there is a small number of fields or if user input can happen in any order, instead use a [form](/patterns/forms).
 - When representing the percentage of completion of an activity, process, or task, instead use a [progress bar](/components/progress-bar).
 - When there is a process with unique content at each stage, for example, a DevOps lifecycle, instead use a [path](/components/path).
 
@@ -49,7 +49,7 @@ related:
 - Only one step in the **Indicator** should be populated at a time if the number of steps is undetermined. For example, if user input removes a future step, only one step should be shown at once. This follows [progressive disclosure guidelines](/usability/progressive-disclosure) and ensures that conditional logic can work properly without impacting the user's ability to navigate to previous steps.
 
 #### Usability and feedback
-- Avoid `hidden` items being created or deleted in the background throughout the process, instead [provide feedback](/usability/saving-and-feedback) to the user so they are aware of what happens between steps.
+- Avoid _hidden_ items being created or deleted in the background throughout the process, instead [provide feedback](/usability/saving-and-feedback) to the user so they are aware of what happens between steps.
 - A confirmation dialog should be triggered if the user leaves the flow before they complete their process. Ideally, the progress would be saved so that when they return, they can pick up where they left off. If that is not possible, be sure to communicate they will lose all data they entered.
 - When possible, the last step should contain a summary of all user selections so the user can review before submitting.
 - After triggering the process, the user should ideally be sent to the page where that object lives, so they can take action on what they created. If the object cannot be created immediately, still [provide feedback](/usability/saving-and-feedback) to the user by providing an estimated waiting time until the operation completes, if possible.
