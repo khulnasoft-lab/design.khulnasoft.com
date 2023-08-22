@@ -20,6 +20,8 @@ Sometimes, using passive voice is appropriate. Make sure it’s an intentional c
 | **(Active voice)** Ask someone with write access to this repository to merge this request. | This request can be merged by someone with write access to this repository. |
 | **(Passive voice)** The Kubernetes cluster is being created on Google Kubernetes Engine. | We are creating the Kubernetes cluster on Google Kubernetes Engine. |
 
+It's fine to use passive voice for [actions performed by GitLab](#actions-performed-by-gitlab).
+
 ## Brevity
 
 Users will skim content, rather than read text carefully. Copy should be concise and short whenever possible. A long message or label is a red flag hinting at a design that needs improvement.
