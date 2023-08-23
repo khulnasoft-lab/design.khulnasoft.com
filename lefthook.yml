@@ -1,5 +1,10 @@
 # Lefthook guide:
-# https://github.com/Arkweid/lefthook/blob/master/docs/full_guide.md
+# https://github.com/evilmartians/lefthook/blob/master/docs/configuration.md
+---
+commit-msg:
+  scripts:
+    "commitlint.sh":
+      runner: bash
 pre-commit:
   parallel: true
   commands:
