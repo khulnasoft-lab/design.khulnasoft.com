@@ -106,6 +106,11 @@ Commitizen is a CLI tool that provides an interactive interface to help you writ
 
 > **Note:** We also limit the length of both the subject and the body of a commit message with Danger: [Dangerfile](./danger/semantic-commit/Dangerfile).
 
+## Commitlint
+
+This project provides [`commitlint`](https://commitlint.js.org) to help enforce conventional commits. Use with
+[lefthook].
+
 ## Squashing and amending commits
 
 Many times, you will need to squash or amend your commit message(s).
@@ -172,4 +177,4 @@ If you'd like to bypass the verification step when committing, you can do so by 
 LEFTHOOK=0 git commit -m "chore: reticulate splines"
 ```
 
-[lefthook]: https://www.npmjs.com/package/@arkweid/lefthook
+[lefthook]: https://www.npmjs.com/package/lefthook
