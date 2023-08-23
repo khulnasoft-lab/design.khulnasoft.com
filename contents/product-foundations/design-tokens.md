@@ -4,9 +4,9 @@ name: Design tokens
 
 Design tokens capture design decisions and intent in code so that they can be shared across tools and platforms. They abstract out design variables like color, typography, and spacing for consistent and meaningful use. 
 
-For example, choosing `gl.color.gray.700` for text tells someone nothing about why that color was chosen, or how it may react to different modes, so the value may be updated arbitrarily. But, if something like `gl.color.text.secondary` was applied, then someone can understand that the text should appear as secondary, or with less prominence, than something that might be primary or more prominent — the design intent has been communicated and can't be changed on a whim without reconsidering the purpose.
+For example, choosing `color.gray.700` for text tells someone nothing about why that color was chosen, so the value may be updated arbitrarily. But, if something like `color.text.secondary` was applied, then someone can understand that the text should appear as secondary, or with less prominence, than something that might be primary or more prominent — the design intent has been communicated and can't be changed on a whim without reconsidering the purpose.
 
-Although a design token is a simple json key/value pair, its potential is apparent when thinking about it really as the pairing of a design decision with an option that exists in the design system.
+Although a design token is a simple json key/value pair, its potential is apparent when thinking about it really as the pairing of a design decision with an option that exists in the design system. Nesting design tokens in groups can provide extra context to their usage, and aid in discovery and maintenance.
 
 ## Why we use design tokens
 
