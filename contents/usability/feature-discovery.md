@@ -1,37 +1,72 @@
 ---
-name: Onboarding
+name: Feature discovery
 related:
   - banner
   - popover
   - /patterns/empty-states
 ---
 
-According to the [FOGG Behavior Model](https://behaviormodel.org/), three factors impact people's behavior with regards to completion of tasks: their ability to perform the task, their motivation for it, and the prompt that triggers the behavior. A general principle summarizing this model would be that prompts to trigger the desired behavior succeed when motivation and ability for performing the task are high enough. Keeping this principle in mind helps us to improve both the onboarding experience and our guides for users within our product.
+New features can enhance the experience and unlock significant value for users. However, a user’s context plays a significant role in how they engage with new functionality. According to the [FOGG Behavior Model](https://behaviormodel.org/), three factors impact people's behavior with regards to completion of tasks:
 
-To help users improve their ability to perform a task we can guide them by using certain UI elements, which connect into an onboarding flow. For example, we can show a prompt to suggest that they should set up a CI/CD pipeline. If they opt in, we show visual cues that guide them through different pages until the task is complete.
+1. Their ability to perform the task.
+2. Their motivation for the task.
+3. The prompt that triggers the behavior.
 
-To increase users' motivation for performing a task, we can clearly communicate the value of the task and provide them with the relevant context for completing it. Clear and value-focused copywriting is the main tool for this. For example: _Setting up a CI/CD pipeline helps increase the quality of your code by showing a code quality report every time someone commits._ Showing the prompt in the right place, in this example on the Merge Request pipeline widget, ensures that the prompt is contextual.
 
-## Start with users’ benefits in mind
+Prompts to trigger the desired behavior succeed when motivation and ability are high enough. We can improve a users _ability_ to perform a task by guiding them using discovery patterns and boost their _motivation_ by clearly communicating the value of a task. Keeping these principles in mind helps us to improve both the experience and make it more likely that users acheive their desired outcome. 
 
-Users can be onboarded to features (for example, set up CI/CD) or product stages (for example, adopt the Secure DevOps stage).
+**Before introducing new feature discovery patterns consider the following:**
 
-Showing the value that users will gain from a feature or stage should always be the main goal of onboarding.
+* Why does this feature need to be promoted? Is it a value driver that leads to an increase in conversion?
+* Is it possible to design the feature so that it doesn't need to be actively promoted? 
+* Does the discovery pattern need to be shown to all users or only a subset? Who is the target [user persona](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/#user-personas) or user role?
+* If a feature is already being promoted on the page, will the new notice compete with it? Should it replace it instead?
+* If two features need a discovery pattern, can they be bundled into one? This may be possible, for example, if they are part of the same [Job to be Done](https://about.gitlab.com/handbook/engineering/ux/jobs-to-be-done/).
+
+Use input data to determine where, when, and why a feature discovery pattern is needed. After introducing a new discovery pattern, measure its effect on both conversion and adoption before making it a permanent part of the product.
+
+## Patterns for feature discovery
+
+
+### Contextual notices
+
+Contextual notices are unobtrusive messages that appear when users interact with specific UI elements. They relate directly to an action that a user or namespace has performed. Once dismissed, the notice does not reappear unless the user attempts to re-engage with that feature. 
+
+<figure-img alt="Contextual menu example" label="Contextual menus can reveal additional features relevant to the selected item" src="/img/contextual-menu-example.svg"></figure-img>
+
+
+### Contextual links
+
+Alongside relevant features, in-page [links](/components/link) allow users to directly access or enable a feature without navigating through multiple layers of menus. 
+
+<figure-img alt="Contextual link example" label="" src="/img/contextual-link-example.svg"></figure-img>
+
+
+### Visual Cues
+
+Design elements like icons and [badges](/components/badge) can visually guide users towards new features. For example, a "New" badge or icon on a feature can attract attention.
+
+<figure-img alt="Visual cues example" label="" src="/img/visual-cues.svg"></figure-img>
+
+### Banners
+
+A [banner](/components/banner) can promote awareness of a new feature but they should be used sparingly. Banners that don't match the user's current context can feel irrelevant and contribute to banner blindness or fatigue. Users might start ignoring _all_ banners without fully reading their content. 
+
+<story-viewer component="base-banner" story="no-image" title="Promotion"></story-viewer>
+
+## Onboarding
+
+A well-designed onboarding process can be an effective way to introduce users to new features  (for example, set up CI/CD) or product stages (for example, adopt the Secure DevOps stage). However, it's primary goal is to showcase the value users gain from these features and stages.
+
 
 ### Guidelines for onboarding experiences
 
 * Identify the value that you're trying to give to the user and work backwards from that. Having a new feature that you want to showcase alone isn't a good reason for onboarding. What is the user-facing value of the new feature? How will they benefit from it?
 * Provide a "No, thanks" option that allows users to opt out.
 
-## Think about the users’ context
+### Think about the users’ context
 
 The next step should be to think about the users’ context. Where in the app are they? What are they doing? How familiar are they with what you want to show them? Do they have the ability to perform the task? Is their motivation high enough? If not, how will you improve their ability or increase their motivation? Where will you place the prompt so that it’s contextual?
-
-## Designing onboarding flows
-
-Onboarding flows generally consist of two different types of prompts:
-* **Initial prompt**: shown to explain the value and context, as well as provide the CTA to start the onboarding flow.
-* **Follow-up prompts**: shown on subsequent steps of the flow to help keep the user on the right path. Can be shown on the same page or on different pages.
 
 ### Patterns for initial prompts
 
