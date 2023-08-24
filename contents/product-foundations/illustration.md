@@ -1,6 +1,9 @@
 ---
 name: Illustration
+foundationLabel: illustration
 tabs:
+- route: section-slug
+  title: Overview
 - route: section-slug-illustrations
   title: Illustration explorer (beta)
 ---
