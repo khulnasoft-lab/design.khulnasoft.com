@@ -2,14 +2,18 @@
 name: Release notes
 ---
 
-## 16.4
+## 16.5
 
 <!-- 🚧 Update MR link before publishing 🚧 -->
-[_Draft: 16.4 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3488)
+[_Draft: 16.5 release notes_](LINK)
+
+## 16.4
+
+<!-- 🚧 Update date before publishing 🚧 -->
+<small>Published 2023-08-22</small>
 
 ## 16.3
 
-<!-- 🚧 Update date before publishing 🚧 -->
 <small>Published 2023-08-22</small>
 
 <note>When possible, links in the release notes will open in Figma's [Dev Mode](https://www.figma.com/dev-mode/) for faster inspection, and to prevent unwanted editing of objects when a user has edit permissions.</note>
