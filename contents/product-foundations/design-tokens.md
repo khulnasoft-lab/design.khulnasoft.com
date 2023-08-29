@@ -2,7 +2,7 @@
 name: Design tokens
 ---
 
-Design tokens capture design decisions and intent in code so that they can be shared across tools and platforms. They abstract out design variables like color, typography, and spacing for consistent and meaningful use. 
+Design tokens capture decisions and intent in code. They abstract out variables like color, typography, and spacing for consistent and meaningful use across tools and platforms. 
 
 For example, choosing `color.gray.700` for text tells someone nothing about why that color was chosen, so the value may be updated arbitrarily. But, if something like `color.text.secondary` was applied, then someone can understand that the text should appear as secondary, or with less prominence, than something that might be primary or more prominent — the design intent has been communicated and can't be changed on a whim without reconsidering the purpose.
 
@@ -10,10 +10,10 @@ Although a design token is a simple json key/value pair, its potential is appare
 
 ## Why we use design tokens
 
-Design tokens help us establish a single source of truth for how, when, and why a _what_ from the design system is used. More specifically they:
+Design tokens help us establish a single source of truth for how, when, and why an element from the design system is used. More specifically they:
 
-- Codify design decisions so they don't just live in a design tool or the mind of a designer — they are captured openly and objectively.
-- Syncronize design decisions between design and development tooling because they share the same source.
+- Codify design decisions, capturing them openly and objectively.
+- Synchronize design decisions across design and development tooling.
 - Promote consistent and meaningful abstraction and application.
 - Help make new design decisions easier by leveraging existing intent and purpose.
 - Support efforts like themes and modes by abstracting intent from underlying values.
