@@ -57,6 +57,7 @@ related:
 - A drawer should never take the user by surprise — let a user’s action open it.
 - A drawer can be closed with the close button or the <kbd>Esc</kbd> key.
 - When content overflows the drawer height, it scrolls vertically under the header.
+- If the content is likely to scroll, consider placing contextual action in a fixed footer. Otherwise, contextual actions should flow inline with the content.
 - If the content within the drawer container exceeds the height, then a scrim (gradient overlay) appears at the bottom of the container as an overflow affordance. The scrim is removed when a user has scrolled to the end of the content.
 - The drawer maintains its behavior down to the smallest breakpoint, at which point it takes up the full viewport width.
 - The drawer should have a width of `400px`.
