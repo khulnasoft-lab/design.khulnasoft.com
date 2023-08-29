@@ -30,7 +30,7 @@ related:
 1. **Header**: Contains the title, close button, and actions.
 1. **Title**: Conveys the purpose of the drawer.
 1. **Close button**: Closes the drawer.
-1. **Top-level actions** (optional): Buttons or links used to provide explicit high level action(s) the user can take related to the entire drawer content. 
+1. **Top-level actions** (optional): Buttons or links used to provide explicit action(s) the user can take related to the entire drawer content.
 1. **Content**: Contains a wide variety of content types and controls depending on the purpose, related content, and contextual user tasks. 
 1. **Contextual actions** (optional): Buttons or links used to provide contextual action(s) in relation to the content within the drawer.
 
@@ -66,7 +66,7 @@ related:
 - All copy within a drawer should be short, actionable, and use clear language.
 - The drawer should utilize the [skeleton loader](/components/skeleton-loader/) pattern when possible to represent loading content.
 - If an empty state is required, please follow the [empty-state](/patterns/empty-states) guidelines.
-- If a form is added to the drawer, follow [form](/patterns/forms) guidelines when deciding the layout of components, including buttons.
+- If a form is added to the drawer, follow [form](/patterns/forms) guidelines when deciding the layout of components, including [buttons](/components/button).
 - Left aligned, except in right-to-left languages where the content is right aligned.
 - For drawers that show documentation, the content is stored in a markdown file in the `gitlab` repo.
   For details, see the [contribution documentation](https://docs.gitlab.com/ee/development/documentation/drawers.html).
