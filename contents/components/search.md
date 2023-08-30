@@ -50,6 +50,10 @@ related:
 - Don’t use ellipsis (…) in the placeholder unless it’s truncated or the text is incomplete (see [Punctuation](/content/punctuation)). For example, “Search” or “Search labels” don’t need an ellipsis, but “Search and jump to…” uses one because the text is incomplete.
 - Even though the search patterns can be used for either filtering or searching for information, always try to use the word “Search” for the placeholder. This is another small detail that makes the pattern easier to recognize. As an exception, it’s OK to use another word if it makes the interaction and the experience clearer.
 
+### Behavior
+
+Use a faster [debounce period](/usability/saving-and-feedback#delayed-feedback) when possible to make search results feel quick and responsive.
+
 ### Content
 
 While search results aren't part of the component itself, the [Empty States](/patterns/empty-states#empty-search-results) page has additional guidance on what to display if the search returns no results.
