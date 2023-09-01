@@ -27,6 +27,10 @@ name: Release notes
 - Update [**❖&nbsp;Footer**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=61252-96383&mode=design&t=II2cG0v81YYjiISQ-4) dropdown element to make clear the buttons here are actions, not options.
 - Update [**❖&nbsp;Checkbox**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49856%3A76501&mode=dev) icons to match production.
 
+### Fixes
+
+- Fixed the [**❖&nbsp;Danger&nbsp;button**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=21920%3A273&mode=dev) tertiary hover and focus state background colors to use the correct style.
+
 ### Deprecations
 
 - Deprecate ❖&nbsp;Option variant when `Is action:true` and `Is selected:true` as this is not a possible combination. Use `Is action:false` and `Is selected:true` (most common), or `Is action:true` and `Is selected:false` instead.
