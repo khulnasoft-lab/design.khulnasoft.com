@@ -73,7 +73,7 @@ Once the change is successfully saved, the opacity changes to 100% and the spinn
 
 ## Delayed feedback
 
-Delayed feedback, or debouncing, can both improve performance and improve the user experience by not interrupting while content is still being entered. For example, it could be helpful to wait a short amount of time before validating an email address. Similarly, a small delay before checking the server for a query match benefits a user who has paused typing.
+Delayed feedback, or debouncing, can improve performance and the user experience by reducing interruptions during content entry. For example, it could be helpful to wait a short amount of time before validating an email address. Similarly, a small delay before checking the server for a query match benefits a user who has paused typing.
 
 In general, consider using:
 
