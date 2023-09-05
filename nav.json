@@ -507,16 +507,16 @@
             "path": "feature-management"
           },
           {
+            "title": "Feature discovery",
+            "path": "feature-discovery"
+          },
+          {
             "title": "Loading",
             "path": "loading"
           },
           {
             "title": "Obfuscation",
             "path": "obfuscation"
-          },
-          {
-            "title": "Onboarding",
-            "path": "onboarding"
           },
           {
             "title": "Progressive disclosure",
