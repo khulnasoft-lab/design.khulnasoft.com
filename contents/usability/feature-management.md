@@ -2,57 +2,17 @@
 name: Feature management
 related:
   - /patterns/forms
+  - /usability/feature-discovery  
 ---
 
 ## Configuration
 
 Disabling unwanted [features is possible in projects](https://docs.gitlab.com/ee/user/project/settings/#sharing-and-permissions), but adding more to this list is not recommended. Disabled features may adversely impact the the [System Usability Scale](https://about.gitlab.com/handbook/engineering/ux/performance-indicators/system-usability-scale/), since it may lead to an unexpected and inconsistent user experience. Admin users cannot disable features at the instance or group levels, as they do not know what functionality end users may need.
 
-## Feature discovery
 
-New features can enhance the experience and unlock significant value for users. However, a user’s context plays a significant role in how they engage with new functionality. Users are more likely to notice and explore features that are relevant to the task they are trying to accomplish, helping them achieve their desired outcome. Before introducing new feature discovery elements consider the following:
+## Discovery moments
 
-* Why does this feature need to be promoted? Is it a value driver that leads to an increase in conversion?
-* Is it possible to design the feature so that it doesn't need to be actively promoted? 
-* Does the discovery moment need to be shown to all users or only a subset? Who is the target [user persona](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/#user-personas) or user role?
-* If a feature is already being promoted on the page, will the new notice compete with it? Should it replace it instead?
-* If two features need a discovery moment, can they be bundled into one? This may be possible, for example, if they are part of the same [Job to be Done](https://about.gitlab.com/handbook/engineering/ux/jobs-to-be-done/).
-
-Use input data to determine where, when, and why a feature discovery element is needed. After introducing a new discovery element, measure its effect on both conversion and adoption before making it a permanent part of the product.
-
-## Patterns for feature discovery
-
-### Contextual notices
-
-Contextual notices are unobtrusive messages that appear when users interact with specific UI elements. They relate directly to an action that a user or namespace has performed. Once dismissed, the notice does not reappear unless the user attempts to re-engage with that feature. 
-
-<figure-img alt="Contextual menu example" label="Contextual menus can reveal additional features relevant to the selected item" src="/img/contextual-menu-example.svg"></figure-img>
-
-
-### Contextual links
-
-Alongside relevant features, in-page [links](/components/link) allow users to directly access or enable a feature without navigating through multiple layers of menus. The goal is 
-
-<figure-img alt="Contextual link example" label="" src="/img/contextual-link-example.svg"></figure-img>
-
-
-### Visual Cues
-
-Design elements like icons and [badges](/components/badge) can visually guide users towards new features. For example, a "New" badge or icon on a feature can attract attention.
-
-
-
-<figure-img alt="Visual cues example" label="" src="/img/visual-cues.svg"></figure-img>
-
-
-### Banners
-
-A [banner](/components/banner) can promote awareness of a new feature but they should be used sparingly. Banners that don't match the user's current context can feel irrelevant and contribute to banner blindness or fatigue. Users might start ignoring _all_ banners without fully reading their content. 
-
-<story-viewer component="base-banner" story="no-image" title="Promotion"></story-viewer>
-
-
-
+[Feature discovery](/usability/feature-discovery) moments are notices presented in the UI that inform users of additional features. These could be features available in higher tiers, or free features that unlock significant value to users. 
 
 
 ### Highlighting higher tier features
