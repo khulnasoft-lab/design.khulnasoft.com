@@ -24,6 +24,12 @@ name: Release notes
 ### Changes
 
 - Update [**❖&nbsp;Option**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=60828-98007&mode=dev&t=II2cG0v81YYjiISQ-4) dropdown element to have more separation between actions and selectable options. Property naming also updated to match naming guidelines.
+- [**❖&nbsp;Option**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=60828-98007&mode=dev&t=II2cG0v81YYjiISQ-4) dropdown element has multiple changes:
+  - Increase separation between actions and selectable options.
+  - Add variants for all 'checked' option state and selected combinations, including prototyping features.
+  - Update interactive state styles for checked options.
+  - Add destructive and disabled [state documentation](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=65182-99449&mode=design&t=QCgwyA33tKeMfCu7-4). These states are not able to be added to the Figma component because of a technical limitation.
+  - Property naming updated to match naming guidelines.
 - Update [**❖&nbsp;Footer**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=61252-96383&mode=design&t=II2cG0v81YYjiISQ-4) dropdown element to make clear the buttons here are actions, not options.
 - Update [**❖&nbsp;Checkbox**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49856%3A76501&mode=dev) icons to match production.
 
@@ -33,7 +39,7 @@ name: Release notes
 
 ### Deprecations
 
-- Deprecate ❖&nbsp;Option variant when `Is action:true` and `Is selected:true` as this is not a possible combination. Use `Is action:false` and `Is selected:true` (most common), or `Is action:true` and `Is selected:false` instead.
+- Deprecate multiple ❖&nbsp;Option variants when `Is action:true` and `Is selected:true` as this is not a possible combination. Use `Is action:false` and `Is selected:true` (most common), or `Is action:true` and `Is selected:false` instead.
 
 ### Removals
 
