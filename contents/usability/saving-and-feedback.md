@@ -9,7 +9,7 @@ Giving appropriate and timely feedback for user-made changes is vital to making 
 
 [Instant feedback](#instant-feedback), on the other hand, is giving the user immediate positive feedback without waiting for the return of data from the server, expecting that the change they made will be successfully saved. It has a positive effect on the perceived speed of the application.
 
-Lastly, [delayed feedback](#delayed-feedback) can help ensure a response is timely and doesn't interrupt a user with a system response before they're done entering content.
+[Delayed feedback](#delayed-feedback) can help ensure a response reduces interruptions and is appropriate. A slower response is better if it leads to more accurate and useful feedback or suggestions. This helps a user satisfy their query or complete a task with less errors or ambiguity.
 
 ## Saving progress
 
