@@ -27,36 +27,33 @@ Use input data to determine where, when, and why a feature discovery pattern is 
 
 ## Patterns for feature discovery
 
-
 ### Contextual notices
 
-Contextual notices are unobtrusive messages that appear when users interact with specific UI elements. They relate directly to an action that a user or namespace has performed. Once dismissed, the notice does not reappear unless the user attempts to re-engage with that feature. 
+Contextual notices are unobtrusive messages that appear when a user interacts with specific UI elements. They relate directly to an action that a user or namespace has performed. Once dismissed, the notice does not reappear unless the user attempts to re-engage with that feature. 
 
 <figure-img alt="Contextual menu example" label="Contextual menus can reveal additional features relevant to the selected item" src="/img/contextual-menu-example.svg"></figure-img>
 
-
 ### Contextual links
 
-Alongside relevant features, in-page [links](/components/link) allow users to directly access or enable a feature without navigating through multiple layers of menus. 
+Alongside relevant features, in-page [links](/components/link) allow a user to directly access or enable a feature without navigating through multiple layers of menus. 
 
 <figure-img alt="Contextual link example" label="" src="/img/contextual-link-example.svg"></figure-img>
 
+### Visual cues
 
-### Visual Cues
-
-Design elements like icons and [badges](/components/badge) can visually guide users towards new features. For example, a "New" badge or icon on a feature can attract attention.
+Design elements, like [icons](/product-foundations/iconography/icons) and [badges](/components/badge), can visually guide a user toward a new feature. For example, a "New" badge or icon on a feature can attract attention.
 
 <figure-img alt="Visual cues example" label="" src="/img/visual-cues.svg"></figure-img>
 
 ### Banners
 
-A [banner](/components/banner) can promote awareness of a new feature but they should be used sparingly. Banners that don't match the user's current context can feel irrelevant and contribute to banner blindness or fatigue. Users might start ignoring _all_ banners without fully reading their content. 
+A [banner](/components/banner) can promote awareness of a new feature, but should be used sparingly. A banner that doesn't match the user's current context can feel irrelevant and contribute to banner blindness or fatigue. A user might start ignoring _all_ banners without fully reading the content. 
 
 <story-viewer component="base-banner" story="no-image" title="Promotion"></story-viewer>
 
 ## Onboarding
 
-A well-designed onboarding process can be an effective way to introduce users to new features  (for example, set up CI/CD) or product stages (for example, adopt the Secure DevOps stage). However, it's primary goal is to showcase the value users gain from these features and stages.
+A well-designed onboarding process can be an effective way to introduce a user to a new feature, (for example, set up CI/CD) or product stages (for example, adopt the Secure DevOps stage). However, it's primary goal is to showcase the value a user gains from these features and stages.
 
 
 ### Guidelines for onboarding experiences
