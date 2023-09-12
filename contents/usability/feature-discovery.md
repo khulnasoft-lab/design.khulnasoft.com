@@ -13,7 +13,7 @@ New features can enhance the experience and unlock significant value for users. 
 3. The prompt that triggers the behavior.
 
 
-Prompts to trigger the desired behavior succeed when motivation and ability are high enough. We can improve a users _ability_ to perform a task by guiding them using discovery patterns and boost their _motivation_ by clearly communicating the value of a task. Keeping these principles in mind helps us to improve both the experience and make it more likely that users acheive their desired outcome. 
+Prompts to trigger the desired behavior succeed when motivation and ability are high enough. We can improve a users _ability_ to perform a task by guiding them using discovery patterns and boost their _motivation_ by clearly communicating the value of a task. Keeping these principles in mind helps us to improve both the experience and make it more likely that users achieve their desired outcome.
 
 **Before introducing new feature discovery patterns consider the following:**
 
