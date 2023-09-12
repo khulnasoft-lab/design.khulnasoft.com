@@ -64,7 +64,7 @@ A well-designed onboarding process can be an effective way to introduce users to
 * Identify the value that you're trying to give to the user and work backwards from that. Having a new feature that you want to showcase alone isn't a good reason for onboarding. What is the user-facing value of the new feature? How will they benefit from it?
 * Provide a "No, thanks" option that allows users to opt out.
 
-### Think about the users’ context
+### Think about the user's context
 
 The next step should be to think about the users’ context. Where in the app are they? What are they doing? How familiar are they with what you want to show them? Do they have the ability to perform the task? Is their motivation high enough? If not, how will you improve their ability or increase their motivation? Where will you place the prompt so that it’s contextual?
 
