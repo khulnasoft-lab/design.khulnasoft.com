@@ -53,8 +53,7 @@ A [banner](/components/banner) can promote awareness of a new feature, but shoul
 
 ## Onboarding
 
-A well-designed onboarding process can be an effective way to introduce a user to a new feature, (for example, set up CI/CD) or product stages (for example, adopt the Secure DevOps stage). However, it's primary goal is to showcase the value a user gains from these features and stages.
-
+A well-designed onboarding process can be an effective way to introduce a user to a new feature, like _CI/CD setup_, or product stages, such as _adopt the Secure DevOps stage_. However, it's primary goal is to showcase the value a user gains from these features and stages.
 
 ### Guidelines for onboarding experiences
 
