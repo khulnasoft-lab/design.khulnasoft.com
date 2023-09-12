@@ -13,7 +13,7 @@ New features can enhance the experience and unlock significant value for users. 
 3. The prompt that triggers the behavior.
 
 
-Prompts to trigger the desired behavior succeed when motivation and ability are high enough. We can improve a users _ability_ to perform a task by guiding them using discovery patterns and boost their _motivation_ by clearly communicating the value of a task. Keeping these principles in mind helps us to improve both the experience and make it more likely that users acheive their desired outcome. 
+Prompts to trigger the desired behavior succeed when motivation and ability are high enough. We can improve a user's _ability_ to perform a task by guiding them using discovery patterns and boost their _motivation_ by clearly communicating the value of a task. Keeping these principles in mind helps us to improve both the experience and make it more likely that a user achieves their desired outcome.
 
 **Before introducing new feature discovery patterns consider the following:**
 
@@ -27,46 +27,42 @@ Use input data to determine where, when, and why a feature discovery pattern is 
 
 ## Patterns for feature discovery
 
-
 ### Contextual notices
 
-Contextual notices are unobtrusive messages that appear when users interact with specific UI elements. They relate directly to an action that a user or namespace has performed. Once dismissed, the notice does not reappear unless the user attempts to re-engage with that feature. 
+Contextual notices are unobtrusive messages that appear when a user interacts with specific UI elements. They relate directly to an action that a user or namespace has performed. Once dismissed, the notice does not reappear unless the user attempts to re-engage with that feature. 
 
 <figure-img alt="Contextual menu example" label="Contextual menus can reveal additional features relevant to the selected item" src="/img/contextual-menu-example.svg"></figure-img>
 
-
 ### Contextual links
 
-Alongside relevant features, in-page [links](/components/link) allow users to directly access or enable a feature without navigating through multiple layers of menus. 
+Alongside relevant features, in-page [links](/components/link) allow a user to directly access or enable a feature without navigating through multiple layers of menus. 
 
 <figure-img alt="Contextual link example" label="" src="/img/contextual-link-example.svg"></figure-img>
 
+### Visual cues
 
-### Visual Cues
-
-Design elements like icons and [badges](/components/badge) can visually guide users towards new features. For example, a "New" badge or icon on a feature can attract attention.
+Design elements, like [icons](/product-foundations/iconography/icons) and [badges](/components/badge), can visually guide a user toward a new feature. For example, a "New" badge or icon on a feature can attract attention.
 
 <figure-img alt="Visual cues example" label="" src="/img/visual-cues.svg"></figure-img>
 
 ### Banners
 
-A [banner](/components/banner) can promote awareness of a new feature but they should be used sparingly. Banners that don't match the user's current context can feel irrelevant and contribute to banner blindness or fatigue. Users might start ignoring _all_ banners without fully reading their content. 
+A [banner](/components/banner) can promote awareness of a new feature, but should be used sparingly. A banner that doesn't match the user's current context can feel irrelevant and contribute to banner blindness or fatigue. A user might start ignoring _all_ banners without fully reading the content. 
 
 <story-viewer component="base-banner" story="no-image" title="Promotion"></story-viewer>
 
 ## Onboarding
 
-A well-designed onboarding process can be an effective way to introduce users to new features  (for example, set up CI/CD) or product stages (for example, adopt the Secure DevOps stage). However, it's primary goal is to showcase the value users gain from these features and stages.
-
+A well-designed onboarding process can be an effective way to introduce a user to a new feature, like _CI/CD setup_, or product stages, such as _adopt the Secure DevOps stage_. However, it's primary goal is to showcase the value a user gains from these features and stages.
 
 ### Guidelines for onboarding experiences
 
 * Identify the value that you're trying to give to the user and work backwards from that. Having a new feature that you want to showcase alone isn't a good reason for onboarding. What is the user-facing value of the new feature? How will they benefit from it?
 * Provide a "No, thanks" option that allows users to opt out.
 
-### Think about the users’ context
+### Think about the user's context
 
-The next step should be to think about the users’ context. Where in the app are they? What are they doing? How familiar are they with what you want to show them? Do they have the ability to perform the task? Is their motivation high enough? If not, how will you improve their ability or increase their motivation? Where will you place the prompt so that it’s contextual?
+The next step should be to think about the user's context. Where in the app are they? What are they doing? How familiar are they with what you want to show them? Do they have the ability to perform the task? Is their motivation high enough? If not, how will you improve their ability or increase their motivation? Where will you place the prompt so that it’s contextual?
 
 ### Patterns for initial prompts
 
@@ -74,7 +70,7 @@ The following patterns can be used as initial prompts to start the onboarding fl
 
 | Pattern name    | Intrusion | Effectiveness | Notes and recommendations                                                                                                                                                                                       |
 | --------------- | --------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Popover         | High      | High          | No major changes to the UI required. Use at the beginning or end, not in the middle, of a complex flow or task. Use to guide users through different pages.                                                     |
+| Popover         | High      | High          | No major changes to the UI required. Use at the beginning or end, not in the middle, of a complex flow or task. Use to guide a user through different pages.                                                     |
 | UI modification | Medium    | Medium        | Not a reusable component. Can be used in combination with others but generally requires significant changes to UI. For example, an empty pipeline widget when no pipeline is present on the Merge Request page. |
 | Banner          | Low       | Low           | Might require significant changes to the UI. For example, displacement of default elements.                                                                                                                     |
 | Empty state     | Low       | High          | Empty states can be used as great starting points for onboarding flows. They’re not intrusive as there’s no content to show; they can give context, explain the value, and provide a CTA.                       |
@@ -89,7 +85,7 @@ Consider the following recommendations to make your initial prompts more effecti
 
 ### Follow-up prompts
 
-Sometimes, the onboarding flow will span across different pages. When that’s the case, use the [popover](/components/popover) component to keep the users on the right path. The popovers can be animated in with a short delay after the page has loaded to make sure that they’re noticed.
+Sometimes, the onboarding flow will span across different pages. When that’s the case, use the [popover](/components/popover) component to keep a user on the right path. The popovers can be animated in with a short delay after the page has loaded to make sure that they’re noticed.
 
 ### How many steps?
 
