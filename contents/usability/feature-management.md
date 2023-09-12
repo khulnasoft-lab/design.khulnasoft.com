@@ -12,7 +12,7 @@ Disabling unwanted [features is possible in projects](https://docs.gitlab.com/ee
 
 ## Discovery moments
 
-[Feature discovery](/usability/feature-discovery) moments are notices presented in the UI that inform users of additional features. These could be features available in higher tiers, or free features that unlock significant value to users. 
+[Feature discovery](/usability/feature-discovery) moments are notices presented in the UI that inform a user of additional features. These could be features available in higher tiers, or free features that unlock significant value to a user. 
 
 
 ### Highlighting higher tier features
