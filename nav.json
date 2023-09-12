@@ -503,12 +503,12 @@
             "path": "drag-and-drop"
           },
           {
-            "title": "Feature management",
-            "path": "feature-management"
-          },
-          {
             "title": "Feature discovery",
             "path": "feature-discovery"
+          },
+          {
+            "title": "Feature management",
+            "path": "feature-management"
           },
           {
             "title": "Loading",
