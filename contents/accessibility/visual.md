@@ -16,7 +16,7 @@ Appearance and visual design aren't always subjective, and as it relates to acce
 
 ## Visual disabilities
 
-To lay the groundwork for the following sections, it's important to understand that not everyone sees things the same way. This may seem obvious, but at the same time it means that we often neglect to go beyond our own experience when designing or evaluating design. We won't take a deep dive here, as others have done this quite well, but before proceeding take a few moments to familiarize yourself with visual disability and deficiency categories. This article, [Visual Disabilities](https://webaim.org/articles/visual/) from WebAIM is a great place to start.
+Visual disabilities are diverse and can include [blindness, low-vision, and color blindness](https://webaim.org/articles/visual/). It's important to go beyond our own experience when designing or evaluating design, to provide more robust interfaces that can adapt to people's needs and customizations such as increased text size, increased zoom level, and high-contrast modes.
 
 ## Color
 
@@ -24,21 +24,36 @@ In his article, [Automated Lies, with one line of code](https://karlgroves.com/a
 
 ### Contrast
 
-An evaluation of color contrast includes the following:
+An evaluation of color contrast includes text, images of text used as meaningful content, and graphics used for interaction or as meaningful content (non-decorative). Contrast ratios can be calculated with a wide variety of tools some of which are listed in the [resources](#resources) below.
 
-- Text
-- Images of text used as meaningful content
-- Graphics used for interaction or as meaningful content (non-decorational)
+#### Text
 
-For text, the contrast ratio to satisfy [WCAG 2.1 SC 1.4.3 Contrast (Minimum) (Level AA)(https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)] is a 4.5:1 ratio between text and background. Larger text (18pt and larger or 14pt bold and larger) only needs a 3:1 ratio between text and background, but we aim to satisfy the higher ratio for all text.
+To satisfy [WCAG 2.1 SC 1.4.3 Contrast (Minimum) (Level AA)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) text content needs a contrast ratio of:
 
-WCAG uses points instead of pixels when referencing text size, but helpfully notes in the [WCAG 2.1 Understanding Docs](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html#intent) that "The ratio between sizes in points and CSS pixels is 1pt = 1.333px, therefore 14pt and 18pt are equivalent to approximately 18.5px and 24px."
+- **4.5:1** between text and background
+- **3:1** for 18pt and larger, or 14pt bold and larger text and background.
 
-Graphics like icons, illustrations, charts, and other non-text interactive elements only need a 3:1 contrast ratio against the background or sibling elements to satisfy [WCAG 2.1 SC 1.4.11 Non-text Contrast (Level AA)](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html). Generally speaking, even though a graphic may be used as decoration, it should have enough contrast to be distinguished from surrounding content, and any meaningful details within a graphic should be distinguished from surrounding elements. Read the [data visualization color guidelines](/data-visualization/color) for more information about the use of color for data visualization.
+#### Points vs. pixels
 
-In some instances, contrast must be checked in more than one way. Take a button for example, the button text must have at least a 4.5:1 contrast ratio with the button background at all states, and the button background should have at least a 3:1 contrast ratio with the background when the background is necessary for understanding the bounds of the control or to distinguish it from surrounding elements. Similarly, linked text that isn't underlined (or distinguished in a similar way) must have at least a 3:1 contrast ratio with surrounding text _and_ at least a 4.5:1 contrast ratio with the background.
+WCAG uses points instead of pixels when referencing text size, noted in [WCAG 2.1 Understanding Docs](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html#intent): 
 
-Logos and text in logos are an exception to the contrast criteria, but when in our control we also aim for at least a 3:1 contrast ratio.
+> The ratio between sizes in points and CSS pixels is 1pt = 1.333px, therefore 14pt and 18pt are equivalent to approximately 18.5px and 24px.
+
+#### Graphics
+
+Graphics like icons, illustrations, charts, and other non-text interactive elements only need a **3:1** contrast ratio against the background or sibling elements to satisfy [WCAG 2.1 SC 1.4.11 Non-text Contrast (Level AA)](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html).
+
+Even if a graphic is used as decoration, it should have enough contrast to be distinguished from surrounding content, and any meaningful details within a graphic should be distinguished from surrounding elements. Read the [data visualization color guidelines](/data-visualization/color) for more information about the use of color for data visualization.
+
+#### Contrast of content and context
+
+In some instances, contrast must be checked in more than one way. Take a button for example, the button text must have at least a **4.5:1** contrast ratio with the button background at all states, and the button background should have at least a **3:1** contrast ratio with the background when the background is necessary for understanding the bounds of the control or to distinguish it from surrounding elements.
+
+Similarly, linked text that isn't underlined (or distinguished in a similar way) must have at least a **3:1** contrast ratio with surrounding text _and_ at least a **4.5:1** contrast ratio with the background.
+
+#### Exceptions
+
+Logos and text in logos are an exception to the contrast criteria, but when in our control we also aim for at least a **3:1** contrast ratio.
 
 Contrast ratios can be calculated with everything from Figma plugins to browser developer tools, and native apps to web apps. There might be a little variance in exact ratios depending on the tool (some of which are listed in the [resources](#resources) below), but generally they all do a good job when provided the same data. Automated testing can also flag contrast issues, but they should be manually validated when possible.
 
@@ -46,7 +61,11 @@ Contrast ratios can be calculated with everything from Figma plugins to browser 
 
 Color doesn't always have to be associated with meaning, but when it is it can't be the only means of conveying the meaning. For example, a red border on an invalid form field is insufficient by itself to indicate an error, but if error text and even an error icon is present, then the red border isn't the only way the error is communicated. Likewise, an icon that only changes color to indicate a status is insufficient, but if the icon itself were to change, or it was paired with a clear text message, then color alone isn't being relied on. Not all users discern colors in the same way, so it's imperative that color is used to enhance meaning along with other elements.
 
- Refer to the [WCAG SC 1.4.1 Use of Color (Level A)](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html) docs for more information.
+Color shouldn't be used as the only means of conveying the meaning of content. For example, a red border on an invalid form field is insufficient by itself to indicate an error. If accompanied by error text and an error icon, then the red border isn't the only way the error is communicated.
+
+Likewise, an icon that only changes color to indicate a status is insufficient. If the icon itself were to change, or it is paired with a meaningful text, then color alone isn't being relied on. 
+
+Not all users discern colors in the same way, so it's imperative that color is used to enhance meaning along with other elements. Refer to the [WCAG SC 1.4.1 Use of Color (Level A)](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html) docs for more information.
 
 ### Consistency
 
