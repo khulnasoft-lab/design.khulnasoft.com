@@ -31,19 +31,19 @@ Use input data to determine where, when, and why a feature discovery pattern is 
 
 Contextual notices are unobtrusive messages that appear when a user interacts with specific UI elements. They relate directly to an action that a user or namespace has performed. Once dismissed, the notice does not reappear unless the user attempts to re-engage with that feature. 
 
-<figure-img alt="Contextual menu example" label="Contextual menus can reveal additional features relevant to the selected item" src="/img/contextual-menu-example.svg"></figure-img>
+<figure-img alt="Contextual menu example" label="Contextual menus can reveal additional features relevant to the selected item" src="/img/contextual-menu-example.png" width="340"></figure-img>
 
 ### Contextual links
 
 Alongside relevant features, in-page [links](/components/link) allow a user to directly access or enable a feature without navigating through multiple layers of menus. 
 
-<figure-img alt="Contextual link example" label="" src="/img/contextual-link-example.svg"></figure-img>
+<figure-img alt="Contextual link example" label="" src="/img/contextual-link-example.png"></figure-img>
 
 ### Visual cues
 
 Design elements, like [icons](/product-foundations/iconography/icons) and [badges](/components/badge), can visually guide a user toward a new feature. For example, a "New" badge or icon on a feature can attract attention.
 
-<figure-img alt="Visual cues example" label="" src="/img/visual-cues.svg"></figure-img>
+<figure-img  alt="Visual cues example" label="" src="/img/visual-cues.png" width="356"></figure-img>
 
 ### Banners
 
