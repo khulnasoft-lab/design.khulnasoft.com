@@ -81,7 +81,7 @@ related:
 - Be brief and keep it to a single line by utilizing a sentence fragment.
 - Avoid using punctuation such as periods, commas, or semicolons.
 - Use a full stop only when it's a full sentence.
-- Title should use an `H3` heading size.
+- Title should use a level 3 (`h3`) heading.
 
 #### Actions
 
