@@ -4,22 +4,16 @@ name: Release notes
 
 ## 16.5
 
-<!-- 🚧 Update MR link before publishing 🚧 -->
-[_Draft: 16.5 release notes_](LINK)
+[_Draft: 16.5 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3543)
 
 ## 16.4
 
-<!-- 🚧 Update date before publishing 🚧 -->
-<small>Published 2023-09-XX</small>
+<small>Published 2023-09-18</small>
 
 ### Additions
 
 - Add [**❖&nbsp;Deprecated&nbsp;component**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=96846-7111&mode=dev&t=II2cG0v81YYjiISQ-4) utility component, to mark variants as deprecated in a non-destructive way.
 - Add [**❖&nbsp;Simple&nbsp;action&nbsp;list**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=96856-7469&mode=design&t=II2cG0v81YYjiISQ-4) dropdown list example to make it faster to build flat and grouped action lists.
-
-### Enhancements
-
-- 
 
 ### Changes
 
@@ -40,10 +34,6 @@ name: Release notes
 ### Deprecations
 
 - Deprecate multiple ❖&nbsp;Option variants when `Is action:true` and `Is selected:true` as this is not a possible combination. Use `Is action:false` and `Is selected:true` (most common), or `Is action:true` and `Is selected:false` instead.
-
-### Removals
-
-- 
 
 ## 16.3
 
