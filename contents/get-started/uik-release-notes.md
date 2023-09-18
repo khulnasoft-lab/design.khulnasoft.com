@@ -2,6 +2,16 @@
 name: Release notes
 ---
 
+## 16.6
+
+<!-- 🚧 Update MR link before publishing 🚧 -->
+[_Draft: 16.6 release notes_](LINK)
+
+## 16.5
+
+<!-- 🚧 Update date before publishing 🚧 -->
+<small>Published 2023-10-XX</small>
+
 ## 16.4
 
 <!-- 🚧 Update MR link before publishing 🚧 -->
