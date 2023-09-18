@@ -199,8 +199,8 @@ pre[class*="language-"],
   h5,
   h6 {
     > a[aria-hidden] {
-      margin-left: -1em;
-      padding-right: $gl-spacing-3;
+      margin-left: -1.5ch;
+      padding-right: .5ch;
       visibility: hidden;
 
       &::before {
