@@ -9,6 +9,26 @@ related:
 - tabs
 ---
 
+# FFFfff `h1`
+
+FFFfff
+
+## FFFfff `h2`
+
+FFFfff
+### FFFfff `h3`
+
+FFFfff
+#### FFFfff `h4`
+
+FFFfff
+##### FFFfff `h5`
+
+FFFfff
+###### FFFfff `h6`
+
+FFFfff
+
 ## Examples
 
 <story-viewer component="base-accordion" title="Default accordion"></story-viewer>
