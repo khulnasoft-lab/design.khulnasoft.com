@@ -23,7 +23,7 @@ related:
 
 <story-viewer component="base-form-form-group" story="with-validations" title="Form group with validations"></story-viewer>
 
-[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=49840%3A75722)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49840-75722&mode=dev)
 
 ## Structure
 
@@ -122,6 +122,8 @@ There are two types of validation messages:
 
   - **Error**: Indicates content that can’t be submitted, or was invalid and in need of correction.
   - **Success**: Indicates content that is valid. In most cases a success message isn't shown.
+
+Consider using a slower [debounce period](/usability/saving-and-feedback#delayed-feedback) during real-time validation to prevent interrupting or frustrating a user while they're entering content.
 
 #### Text limits
 
