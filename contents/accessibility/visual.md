@@ -55,7 +55,6 @@ Similarly, linked text that isn't underlined (or distinguished in a similar way)
 
 Logos and text in logos are an exception to the contrast criteria, but when in our control we also aim for at least a **3:1** contrast ratio.
 
-Contrast ratios can be calculated with everything from Figma plugins to browser developer tools, and native apps to web apps. There might be a little variance in exact ratios depending on the tool (some of which are listed in the [resources](#resources) below), but generally they all do a good job when provided the same data. Automated testing can also flag contrast issues, but they should be manually validated when possible.
 
 ### Meaning
 
