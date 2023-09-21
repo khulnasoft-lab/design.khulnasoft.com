@@ -37,13 +37,13 @@ Contextual notices are unobtrusive messages that appear when a user interacts wi
 
 Alongside relevant features, in-page [links](/components/link) allow a user to directly access or enable a feature without navigating through multiple layers of menus. 
 
-<figure-img alt="Contextual link example" src="/img/contextual-link-example.png"></figure-img>
+<img class="gl-display-block gl-mx-auto gl-mt-7" src="/img/contextual-link-example.png" alt="Contextual link example" />
 
 ### Visual cues
 
 Design elements, like [icons](/product-foundations/iconography/icons) and [badges](/components/badge), can visually guide a user toward a new feature. For example, a "New" badge or icon on a feature can attract attention.
 
-<figure-img  alt="Visual cues example" src="/img/visual-cues.png" width="356"></figure-img>
+<img class="gl-display-block gl-mx-auto gl-mt-7" src="/img/visual-cues.png" width="356" alt="Visual cues example" />
 
 ### Banners
 
