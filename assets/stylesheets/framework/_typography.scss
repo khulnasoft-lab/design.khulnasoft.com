@@ -198,6 +198,8 @@ pre[class*="language-"],
   h4,
   h5,
   h6 { 
+    position: relative;
+
     > a[aria-hidden] {
       left: -1em;
       width: 1em;
