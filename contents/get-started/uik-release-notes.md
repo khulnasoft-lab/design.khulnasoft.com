@@ -13,6 +13,10 @@ name: Release notes
 <!-- 🚧 Update date before publishing 🚧 -->
 <small>Published 2023-10-XX</small>
 
+### Changes
+
+- Add the [**❖&nbsp;Empty&nbsp;states**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=48911%3A75349&mode=design&t=8QIIfwBjTioWN4vl-1) 65ch line length limitation, it's approximately 616px.
+
 ### Fixes
 
 - Fixed the [**❖&nbsp;Option**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=65765%3A98174&mode=dev) to refactor out an unnecessary 2px spacing to make it easier to align lists.
