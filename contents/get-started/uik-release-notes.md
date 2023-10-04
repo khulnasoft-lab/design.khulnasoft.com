@@ -13,9 +13,16 @@ name: Release notes
 <!-- 🚧 Update date before publishing 🚧 -->
 <small>Published 2023-10-XX</small>
 
+### Enhancements
+
+- The following [**❖&nbsp;Empty&nbsp;state**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=74155-103184&mode=dev) variants now reflow correctly when changing width:
+  - `Type=Full page, Breakpoint=xs-md`
+  - `Type=Full page, Breakpoint=lg+`
+  - `Type=Inline, Breakpoint=xs-md`
+
 ### Changes
 
-- Add the [**❖&nbsp;Empty&nbsp;states**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=48911%3A75349&mode=design&t=8QIIfwBjTioWN4vl-1) 65ch line length limitation, it's approximately 616px.
+- Update [**❖&nbsp;Empty&nbsp;state**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=74155-103184&mode=dev) to have maximum line length.
 - Update [**❖&nbsp;Avatar**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=19910-0&mode=dev) identicons and text fallbacks to use the [dynamic type scale](https://design.gitlab.com/product-foundations/type-fundamentals#type-scales).
 - Update [**❖&nbsp;Popover**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=57879-91946&mode=dev) titles to use styles from the heading scale.
 
