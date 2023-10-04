@@ -16,6 +16,7 @@ name: Release notes
 ### Changes
 
 - Add the [**❖&nbsp;Empty&nbsp;states**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=48911%3A75349&mode=design&t=8QIIfwBjTioWN4vl-1) 65ch line length limitation, it's approximately 616px.
+- Update [**❖&nbsp;Avatar**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=19910-0&mode=dev) identicons and text fallbacks to use the [dynamic type scale](https://design.gitlab.com/product-foundations/type-fundamentals#type-scales).
 
 ### Fixes
 
