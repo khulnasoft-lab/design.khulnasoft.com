@@ -15,7 +15,7 @@ name: Release notes
 
 ### Additions
 
-- Add [**❖&nbsp;_Base/Dividing&nbsp;line**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=101961-16255&mode=dev&t=5KiWfuvon7yWI9QG-4) for use in dropdown dividers. This also enabled removing an old link to a deprecated navigation dividing line component.
+- Add [**❖&nbsp;_Base/Dividing&nbsp;line**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=101961-16255&mode=dev) for use in dropdown dividers. This also enabled removing an old link to a deprecated navigation dividing line component.
 
 ### Enhancements
 
@@ -30,8 +30,8 @@ name: Release notes
 - Breaking (medium): Update [**❖&nbsp;Empty&nbsp;state**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=74155-103184&mode=dev) to have maximum line length. Some instances might now be taller if text wraps.
 - Update [**❖&nbsp;Avatar**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=19910-0&mode=dev) identicons and text fallbacks to use the [dynamic type scale](https://design.gitlab.com/product-foundations/type-fundamentals#type-scales).
 - Update [**❖&nbsp;Popover**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=57879-91946&mode=dev) titles to use styles from the heading scale. Component now follows property naming guidelines.
-- Update [**❖&nbsp;Divider**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=dev&node-id=61256-135451&mode=dev&t=5KiWfuvon7yWI9QG-4) dropdown element color for consistent borders in dropdowns. Now uses **❖&nbsp;_Base/Dividing&nbsp;line**.
-- Update [**❖&nbsp;Divider**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=dev&node-id=72160-103548&mode=design&t=5KiWfuvon7yWI9QG-4) documentation utility component, removing an old link to a deprecated navigation dividing line component.
+- Update [**❖&nbsp;Divider**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=dev&node-id=61256-135451&mode=dev) dropdown element color for consistent borders in dropdowns. Now uses **❖&nbsp;_Base/Dividing&nbsp;line**.
+- Update [**❖&nbsp;Divider**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=dev&node-id=72160-103548&mode=dev) documentation utility component, removing an old link to a deprecated navigation dividing line component.
 
 ### Fixes
 
