@@ -23,6 +23,7 @@ name: Release notes
   - `Type=Full page, Breakpoint=xs-md`
   - `Type=Full page, Breakpoint=lg+`
   - `Type=Inline, Breakpoint=xs-md`
+- [**❖&nbsp;Modal**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=102241-821&mode=dev) now has a `size` property, enabling fast supported size selection.
 
 ### Changes
 
