@@ -35,7 +35,7 @@ name: Release notes
 
 ### Fixes
 
-- Fixed the [**❖&nbsp;Option**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=65765%3A98174&mode=dev) to refactor out an unnecessary 2px spacing to make it easier to align lists.
+- Refactored the [**❖&nbsp;Option**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=65765%3A98174&mode=dev) to remove an unnecessary 2px spacing so that it's easier to align lists.
 
 ## 16.4
 
