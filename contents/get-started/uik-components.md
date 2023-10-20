@@ -100,6 +100,8 @@ Use the following guidelines and principles when naming properties. Consistent n
 - For size or weight, list least to greatest. For example, "Size: default, sm, md, lg" or "Weight: light, regular, bold".
 - Only use a property when an attribute should be explicitly configurable.
 
+<note>When a component variant is the default, it should be the first (top, left) in the set so that it's the option that gets inserted from the library by default too. The order in the properties panel, however, should still follow the order below.</note>
+
 <todo issue="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1040">Define what 'default' means for components</todo>
 
 Here are the standard properties and value ordering that can be used. If you need a property that isn't on the list, and it could be useful for other components, please create an issue or MR to add it.
