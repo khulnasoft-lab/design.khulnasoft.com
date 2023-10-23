@@ -80,6 +80,8 @@ With a nod to [atomic design](https://bradfrost.com/blog/post/atomic-web-design/
 
 A **variant** is the most common form of a component. It is available to use as-is from the asset library, and does not require style overrides, although they may be available. In most cases, the content can be overridden for the context. Variants are often built from a [base component](#base-components), but this isn't required. A variant often has properties associated with it that can be quickly swapped in the properties panel.
 
+Consider placing the most commonly used variant first (top, left) in the set so that it's the option that gets inserted initially from the library.
+
 ### Using Constraints
 
 Objects within a component will [use constraints](https://help.figma.com/article/54-constraints) when they need to maintain their position relative to the component bounds, or content within. Complex, responsive components can be created by combining frames and [layout grids](https://www.figma.com/blog/everything-you-need-to-know-about-layout-grids-in-figma/). A tooltip is a good candidate for constraints, so that directional tips can always be placed correctly in relation to the component bounds as the content grows.
@@ -99,8 +101,6 @@ Use the following guidelines and principles when naming properties. Consistent n
 - For true/false values, the positive is always first. For example, "Is selected: true, false".
 - For size or weight, list least to greatest. For example, "Size: default, sm, md, lg" or "Weight: light, regular, bold".
 - Only use a property when an attribute should be explicitly configurable.
-
-<note>When a component variant is the default, it should be the first (top, left) in the set so that it's the option that gets inserted from the library by default too. The order in the properties panel, however, should still follow the order below.</note>
 
 <todo issue="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1040">Define what 'default' means for components</todo>
 
