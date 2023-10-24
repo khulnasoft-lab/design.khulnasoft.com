@@ -18,8 +18,7 @@ name: Release notes
 
 ### Changes
 
-<!-- 🚧 Update icon link before publishing 🚧 -->
-- Updated the [**twitter**](TBD) icon to use the new "X" logomark. The name will remain unchanged for the time being so the visual can propagate more easily.
+- Updated the [**twitter**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~twitter) icon to use the new "X" logomark. The name will remain unchanged for the time being so the visual can propagate more easily.
 
 ### Deprecations
 
