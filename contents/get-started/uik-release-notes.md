@@ -7,6 +7,19 @@ name: Release notes
 <!-- 🚧 Update MR link before publishing 🚧 -->
 [_Draft: 16.6 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3576)
 
+<!-- 🚧 Update date before publishing 🚧 -->
+<small>Published 2023-11-XX</small>
+
+### Additions
+
+### Enhancements
+
+### Changes
+
+<!-- 🚧 Update icon link before publishing 🚧 -->
+- Updated the [**twitter**](TBD) icon to use the new "X" logomark. The name will remain unchanged for the time being so the visual can propagate more easily.
+
+### Deprecations
 
 ## 16.5
 
