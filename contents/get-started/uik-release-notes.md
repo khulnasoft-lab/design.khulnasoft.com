@@ -2,10 +2,12 @@
 name: Release notes
 ---
 
-## 16.6
+## 16.7
 
 <!-- 🚧 Update MR link before publishing 🚧 -->
-[_Draft: 16.6 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3576)
+[_Draft: 16.7 release notes_](TBD)
+
+## 16.6
 
 <!-- 🚧 Update date before publishing 🚧 -->
 <small>Published 2023-11-XX</small>
@@ -23,7 +25,6 @@ name: Release notes
 
 ## 16.5
 
-<!-- 🚧 Update date before publishing 🚧 -->
 <small>Published 2023-10-24</small>
 
 ### Additions
