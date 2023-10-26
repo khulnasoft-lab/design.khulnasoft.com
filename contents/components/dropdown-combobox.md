@@ -9,6 +9,8 @@ components:
   - base-dropdown-collapsible-listbox
 ---
 
+A combobox could either be [a `GlCollapsibleListbox` or `GlFormCombobox`](/components/dropdown-overview#combobox).
+
 ## Examples
 
 <story-viewer component="base-dropdown-collapsible-listbox" title="Simple listbox"></story-viewer>
