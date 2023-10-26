@@ -18,7 +18,7 @@ name: Release notes
 
 ### Changes
 
-- Updated the [**twitter**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~twitter) icon to use the new "X" logomark. The name will remain unchanged for the time being so the visual can propagate more easily.
+- Updated the twitter icon to use the new "X" logomark and renamed it to [**x**](https://www.figma.com/file/h4YjjttHL5YI0mXZfQ4uuU/GitLab-Product-Icons?type=design&node-id=5441-445&mode=dev). The name in the SVGs repo will remain unchanged for the time being so the visual can propagate more easily and a new x.svg icon will be addded that can be migrated to.
 
 ### Deprecations
 
