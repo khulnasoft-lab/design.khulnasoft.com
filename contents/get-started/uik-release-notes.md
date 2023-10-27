@@ -14,6 +14,8 @@ name: Release notes
 
 ### Additions
 
+- Added [**x**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~x) icon which will replace the twitter icon.
+
 ### Enhancements
 
 ### Changes
@@ -28,7 +30,7 @@ name: Release notes
 
 ### Additions
 
-- Add [**❖&nbsp;_Base/Dividing&nbsp;line**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=101961-16255&mode=dev) for use in dropdown dividers. This also enabled removing an old link to a deprecated navigation dividing line component.
+- Added [**❖&nbsp;_Base/Dividing&nbsp;line**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=101961-16255&mode=dev) for use in dropdown dividers. This also enabled removing an old link to a deprecated navigation dividing line component.
 
 ### Enhancements
 
@@ -53,8 +55,8 @@ name: Release notes
 
 ### Additions
 
-- Add [**❖&nbsp;Deprecated&nbsp;component**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=96846-7111&mode=dev&t=II2cG0v81YYjiISQ-4) utility component, to mark variants as deprecated in a non-destructive way.
-- Add [**❖&nbsp;Simple&nbsp;action&nbsp;list**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=96856-7469&mode=design&t=II2cG0v81YYjiISQ-4) dropdown list example to make it faster to build flat and grouped action lists.
+- Added [**❖&nbsp;Deprecated&nbsp;component**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=96846-7111&mode=dev&t=II2cG0v81YYjiISQ-4) utility component, to mark variants as deprecated in a non-destructive way.
+- Added [**❖&nbsp;Simple&nbsp;action&nbsp;list**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=96856-7469&mode=design&t=II2cG0v81YYjiISQ-4) dropdown list example to make it faster to build flat and grouped action lists.
 
 ### Changes
 
