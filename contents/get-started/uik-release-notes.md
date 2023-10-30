@@ -21,6 +21,7 @@ name: Release notes
 ### Changes
 
 - Updated the twitter icon to use the new "X" logomark and renamed it to [**x**](https://www.figma.com/file/h4YjjttHL5YI0mXZfQ4uuU/GitLab-Product-Icons?type=design&node-id=5441-445&mode=dev). The name in the SVGs repo will remain unchanged for the time being so the visual can propagate more easily and a new x.svg icon will be addded that can be migrated to.
+- Updated the following issue-type icons to use the default stroke style: [issue-type-enhancement](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~issue-type-enhancement), [issue-type-feature-flag](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~issue-type-feature-flag), [issue-type-feature](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~issue-type-feature), [issue-type-incident](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~issue-type-incident), [issue-type-issue](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~issue-type-issue), [issue-type-key-result](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~issue-type-key-result), [issue-type-maintenance](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~issue-type-maintenance), [issue-type-objective](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~issue-type-objective), [issue-type-requirements](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~issue-type-requirements), [issue-type-task](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~issue-type-task), [issue-type-test-case](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~issue-type-test-case), [issue-type-ticket](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~issue-type-ticket)
 
 ### Deprecations
 
