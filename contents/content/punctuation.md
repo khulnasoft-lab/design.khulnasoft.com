@@ -10,20 +10,18 @@ Use sentence case for:
 
 Use lowercase for:
 
-- Most words, including [features](https://about.gitlab.com/features/) that:
-  - Match a type of object in GitLab. For example: issue(s), merge request(s), epic(s).
-  - Describe an action. For example: "You can reorder issues in an epic."
+- Most words, including [features](https://about.gitlab.com/features/).
+  For example: issues, merge requests, and epics.
 
 Capitalize:
 
-- Features that are nouns naming a capability, methodology, or tool; not an object type.
-   - For example: GitLab CI/CD, Repository Mirroring, the Web IDE, Container Registry, Value Stream Analytics, the To-Do List.
-      - Exception: Use lowercase for capabilities that are common industry terms, for example, syntax highlighting.
+- Features that are industry standard, or that have been agreed upon with the PM and technical writer.
+  These words are documented in [the word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html).
 
 | Do                                                          | Don’t                                                       |
 |:------------------------------------------------------------|:------------------------------------------------------------|
 | Use epics to organize your issues.                          | Use Epics to organize your issues.                          |
-| The project's repository is replicated using Geo.           | The Project's Repository is replicated using Geo.           |
+| The project's repository is replicated by using Geo.        | The Project's Repository is replicated by using Geo.        |
 
 Always capitalize the first word in bulleted lists. This includes sentences that complete an introductory stem.
 
@@ -66,142 +64,21 @@ A period signals to a speaker or reader that a sentence has come to an end, and 
 
 Follow these additional guidelines:
 
-Use periods with links that are full sentences.
+Use periods with links that are full sentences. The period should not be part of the link.
 
 | Do | Don’t |
 | --- | --- |
-| Mention someone to notify them. [Learn more](#). This is another sentence. | Mention someone to notify them. [More](#). |
+| Mention someone to notify them. [Learn more](#). This is another sentence. | Mention someone to notify them. [More.](#) |
 
-Use a period after every bullet point that is a sentence.
-
-<table>
-  <thead>
-    <tr>
-      <th>Do</th>
-      <th>Don’t</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <ul>
-          <li>This is a complete sentence.</li>
-          <li>This is also a complete sentence.</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>This is a complete sentence, it needs a period</li>
-          <li>This is also a complete sentence, it also needs a period</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-Use a period after every bullet point that completes the introductory stem.
-
-<table>
-  <thead>
-    <tr>
-      <th>Do</th>
-      <th>Don’t</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <p>This is an introductory stem:</p>
-        <ul>
-          <li>Completed by this sentence.</li>
-          <li>Also completed by this sentence.</li>
-        </ul>
-      </td>
-      <td>
-        <p>This is an introductory stem:</p>
-        <ul>
-          <li>Completed by this sentence</li>
-          <li>Also completed by this sentence</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-Use no punctuation after bullets that are not sentences and do not complete the stem.
-
-<table>
-  <thead>
-    <tr>
-      <th>Do</th>
-      <th>Don’t</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <p>These are just words in a list:</p>
-        <ul>
-          <li>One item</li>
-          <li>Two item</li>
-        </ul>
-      </td>
-      <td>
-        <p>These are just words in a list:</p>
-        <ul>
-          <li>One item.</li>
-          <li>Two item.</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-Use all sentences or all fragments in a bulleted list, not a mixture.
-
-<table>
-  <thead>
-    <tr>
-      <th>Do</th>
-      <th>Don’t</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <ul>
-          <li>Consistency is key here.</li>
-          <li>Item.</li>
-          <li>Don’t mix sentences and individual items in a list.</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>Consistency is key here.</li>
-          <li>Item</li>
-          <li>Don’t mix sentences and individual items in a list.</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+For guidance on punctuation in lists, view [the Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/#lists).
 
 ## Contractions
 
-We encourage the use of contractions to make writing simpler and easier to read. However, don’t make a sentence harder to understand just to follow this rule. For example, “do not” can give more emphasis than “don’t,” when needed.
-
-| Do | Don’t |
-| --- | --- |
-| it’s, can’t, wouldn’t, you’re, you’ve, haven’t, don’t | it is, cannot, would not, it’ll, should’ve |
+For guidance on contractions, view [the Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/#contractions).
 
 ## Numbers
 
-Use “1, 2, 3” instead of “one, two, three” for numbers. One exception is when mixing uses of numbers, such as “Enter two 3s.”
-
-| Do | Don’t |
-| --- | --- |
-| 3 new commits | Three new commits |
-| Enter two 3s. | Enter 2 3s. |
+For guidance on number, view [the Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/#numbers).
 
 ## Punctuation overview
 
@@ -221,7 +98,7 @@ Use punctuation to add clarity or be grammatically correct.
       <td>Period</td>
       <td><strong>.</strong></td>
       <td></td>
-      <td>Use in lists or modals with full and multiple sentences, and any sentence followed by a link or inline code.<br /><br />Place inside quotation marks, unless you’re telling the reader what to enter and it’s ambiguous whether to include the period.</td>
+      <td>Use in lists or modals with full and multiple sentences, and any sentence followed by a link or inline code.<br /><br />Place inside quotation marks, unless you’re telling the reader what to enter and it’s ambiguous whether to include the period. In that case, use backticks.<br /><br />Do not include the period as part of a link.</td>
     </tr>
     <tr>
       <td>Comma</td>
@@ -248,7 +125,7 @@ Use punctuation to add clarity or be grammatically correct.
       <td>Apostrophe</td>
       <td><strong>’</strong></td>
       <td><code>&amp;rsquo;</code></td>
-      <td>Use for contractions (I’m, you’re, ’89) and to show possession.<br /><br />To show possession, add an <em>’s</em> to all singular common nouns and names, even if they already end in an <em>s</em>: “Look into this worker process’s log.” For singular proper names ending in <em>s</em>, use only an apostrophe: “James’ commits.” For plurals of a single letter, add an <em>’s</em>: “Dot your i’s and cross your t’s.”<br /><br />Omit for decades or acronyms: “the 1990s”, “MRs.”</td>
+      <td>Use for contractions (I’m, you’re, ’89) and to show possession.<br /><br />To show possession, add an <em>’s</em> to all singular common nouns and names, even if they already end in an <em>s</em>: “Look into this worker process’s log.” For singular proper names ending in <em>s</em>, use only an apostrophe: “James’ commits.” For plurals of a single letter, add an <em>’s</em>: “Dot your i’s and cross your t’s.”<br /><br />Omit for decades, acronyms, and [proper nouns](https://docs.gitlab.com/ee/development/documentation/styleguide/#possessives): “the 1990s”, “MRs”, “GitLab”.</td>
     </tr>
     <tr>
       <td>Quotation marks</td>
