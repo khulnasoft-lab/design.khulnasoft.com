@@ -255,6 +255,9 @@ The level of visual weight from heavy to light is: **Icon + label > Icon > label
 
 For more information on how icons are referenced in the product, go to [GitLab Docs - Icons and SVG Illustrations](https://docs.gitlab.com/ee/development/fe_guide/icons.html).
 
+### When to use pipeline icons vs status icons
+Use 12px status icons when representing the status of any resource that is not a pipeline. 
+
 ## Resources
 
 - You can view all of the current icons at the [GitLab SVGs](http://gitlab-org.gitlab.io/gitlab-svgs/) site.
