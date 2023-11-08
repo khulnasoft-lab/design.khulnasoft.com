@@ -36,15 +36,15 @@ There are four icon collections used in the product (not including the Web IDE):
 
 ### UI icons
 
-As the largest of the four collections, and comprised of several subcategories, these icons are used for everything from the editor in discussions to representing GitLab concepts. They can be interactive or informational depending on the context. Third-party brand icons are included in this collection, but are exempt from most design guidelines.
+As the largest of the four collections, comprising of several subcategories, these icons are used for everything from the editor in discussions to representing GitLab concepts. They can be interactive or informational depending on the context. Third-party brand icons are included in this collection, but are exempt from most design guidelines.
 
 ### Status icons
 
-Smaller, complimentary icons used where text or other context is available to indicate general status, like active, success, and failed, as well as health and trend. Due to their small size, these icons aren’t interactive unless paired with text or within an element, like a [badge](/components/badge) component, that results in a larger target size.
+Smaller, complimentary icons used where text or other context is available to indicate general status, health, or trend for an object. Due to their small size, these icons aren’t interactive unless paired with text or contained within an element, like a [badge](/components/badge) component, that results in a larger target size.
 
 ### Pipeline icons
 
-Used to represent the status of a pipeline, like running and pending. There are both bordered and borderless versions of each icon. They use a separate grid from all other icons and are also used to generate favicons that include the pipeline status. Although a pipeline status can conceptually overlap with status elsewhere in the product, these icons are limited to the pipeline context.
+Used to represent the status of a pipeline, like running and pending. There are both bordered and borderless versions of each icon. They use a separate grid from all other icons and are also used to generate favicons that include the pipeline status. Although a pipeline status can conceptually overlap with status elsewhere in the product, these icons are strictly limited to the pipeline context.
 
 ### File and folder type icons
 
@@ -146,7 +146,7 @@ Since icons use a **1.5px** stroke, there are a few alignment considerations:
 
 ## Fills
 
-Using a stroke (outlined) is the default design approach, however a limited number of UI icons and all status icons use a solid fill instead. As a general rule, UI icons that use a solid fill have a specific reason or affordance that benefits from doing so. For example, the [clear](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~clear) (×) icon used to clear a text input requires the extra visual weight.
+Using a stroke (outline) is the default design approach, however a limited number of UI icons and all status icons use a solid fill instead. As a general rule, UI icons that use a solid fill have a specific reason or affordance that benefits from doing so. For example, the [clear](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~clear) (×) icon used to clear a text input requires the extra visual weight.
 
 ## Border radius
 
