@@ -17,7 +17,7 @@ Icons take inspiration from elements expressed as part of the GitLab brand.
 
 ## Icons collections
 
-There are four icon collections used in the product (not including the Web IDE): UI, status, pipeline, and file and folder type icons. The design guidelines covered in the rest of the page only apply to UI and status icons.
+There are four icon collections used in the product (not including the Web IDE): UI, status, pipeline, file and folder icons. The design guidelines covered below only apply to UI and status icons.
 
 <div class="row">
   <div class="col col-25">
@@ -36,7 +36,7 @@ There are four icon collections used in the product (not including the Web IDE):
 
 ### UI icons
 
-As the largest of the four collections, comprising of several subcategories, these icons are used for everything from the editor in discussions to representing GitLab concepts. They can be interactive or informational depending on the context. Third-party brand icons are included in this collection, but are exempt from most design guidelines.
+As the largest of the four collections, comprising of several subcategories, these icons are used broadly in the product to represent GitLab concepts and indicate actions and information in the UI. UI icons can be interactive or informational depending on the context. Third-party brand icons are included in this collection, but are exempt from most design guidelines.
 
 ### Status icons
 
@@ -44,7 +44,7 @@ Smaller, complimentary icons used where text or other context is available to in
 
 ### Pipeline icons
 
-Used to represent the status of a pipeline, like running and pending. There are both bordered and borderless versions of each icon. They use a separate grid from all other icons and are also used to generate favicons that include the pipeline status. Although a pipeline status can conceptually overlap with status elsewhere in the product, these icons are strictly limited to the pipeline context.
+Used to represent the status of a pipeline, like running and pending. There are both bordered and borderless versions of each icon. They use a separate grid from all other icons and are also used to generate favicons associated with web pages. Although a pipeline status can conceptually overlap with status elsewhere in the product, these icons are strictly limited to the pipeline context.
 
 ### File and folder type icons
 
