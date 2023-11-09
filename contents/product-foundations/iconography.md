@@ -15,9 +15,9 @@ Icons take inspiration from elements expressed as part of the GitLab brand.
 - **Crisp and intentional.** Icon elements should have purpose and place.
 - **Simple and concise.** Design to minimize time to comprehension. In the same way the concept of “invisible UI” moves a user to task completion without getting hung up on visual elements or controls, icons should move users to concept and action without extra time spent deciphering a metaphor.
 
-## Icons collections
+## Icon collections
 
-There are four icon collections used in the product (not including the Web IDE): UI, status, pipeline, file and folder icons. The design guidelines covered below only apply to UI and status icons.
+There are four icon collections used in the product (not including the Web IDE): UI, status, pipeline, file and folder icons. The design guidelines covered in the sections below only apply to UI and status icons.
 
 <div class="row">
   <div class="col col-25">
@@ -40,11 +40,11 @@ As the largest of the four collections, comprising of several subcategories, the
 
 ### Status icons
 
-Smaller, complimentary icons used where text or other context is available to indicate general status, health, or trend for an object. Due to their small size, these icons aren’t interactive unless paired with text or contained within an element, like a [badge](/components/badge) component, that results in a larger target size.
+These smaller icons complement text or relevant content to indicate the general status, health, or the trend direction of an object. Due to their small size, these icons aren’t interactive unless paired with text or contained within an element, like a [badge](/components/badge) component, giving them a larger target size.
 
 ### Pipeline icons
 
-Used to represent the status of a pipeline, like running and pending. There are both bordered and borderless versions of each icon. They use a separate grid from all other icons and are also used to generate favicons associated with web pages. Although a pipeline status can conceptually overlap with status elsewhere in the product, these icons are strictly limited to the pipeline context.
+These icons represent the status of a pipeline, like running and pending. There are both bordered and borderless versions of each icon. They use a separate grid from all other icons and are also used to generate favicons associated with web pages. Although a pipeline status can overlap conceptually with status elsewhere in the product, these icons are strictly limited to the pipeline context.
 
 ### File and folder type icons
 
@@ -52,7 +52,7 @@ These third-party icons have specific file and language associations, like SCSS,
 
 ## Icon grids
 
-Icon elements are aligned to a pixel grid. Elements within an icon, such as curves or diagonal lines, won’t always align exactly to the grid, and in these instances it’s better for the element to feel natural rather than forced.
+Icon elements are aligned to a pixel grid. Elements within an icon, such as curves or diagonal lines, won’t always align exactly to the grid. This is okay; in these instances it’s better for the element to feel natural rather than forced.
 
 Alignment considerations for a **1.5px** stroke are covered in the [Strokes](#strokes) section below.
 
@@ -113,7 +113,7 @@ In regard to icons, optical balance is the perceived size of an icon relative to
 Here are a few considerations when trying to achieve optical balance.
 
 - More detail equals more visual weight. As the *density* of the graphic increases, it will draw more attention. Try offsetting this by simplifying detailed icons.
-- Rotate narrow icons 45º, which allows them to be larger with more visual weight.
+- Rotate narrow icons 45º, which gives them more visual weight.
 - At times, optically adjusting an icon may mean less adherence to the grid or other spacing rules to the benefit of balance or clarity.
 
 ## Strokes
@@ -146,7 +146,7 @@ Since icons use a **1.5px** stroke, there are a few alignment considerations:
 
 ## Fills
 
-Using a stroke (outline) is the default design approach, however a limited number of UI icons and all status icons use a solid fill instead. As a general rule, UI icons that use a solid fill have a specific reason or affordance that benefits from doing so. For example, the [clear](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~clear) (×) icon used to clear a text input requires the extra visual weight.
+Using a stroke (outline) is the default design approach, however a limited number of UI icons and all status icons use a solid fill instead. As a general rule, UI icons that use a solid fill have a specific reason for doing so. For example, the [clear](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~clear) (×) icon used to clear a text input requires extra visual weight to not be missed in the UI, and thus has a solid fill applied.
 
 ## Border radius
 
