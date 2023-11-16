@@ -19,6 +19,8 @@ name: Release notes
 
 ### Enhancements
 
+- Improved organization of icons in the [**GitLab Product Icons**](https://www.figma.com/community/file/1051267829358377715/gitlab-product-icons) file to align with a recent Pajamas update to document [icon collections](https://design.gitlab.com/product-foundations/iconography#icon-collections).
+
 ### Changes
 
 - Updated the twitter icon to use the new "X" logomark and renamed it to [**x**](https://www.figma.com/file/h4YjjttHL5YI0mXZfQ4uuU/GitLab-Product-Icons?type=design&node-id=5441-445&mode=dev). The name in the SVGs repo will remain unchanged for the time being so the visual can propagate more easily and a new x.svg icon will be addded that can be migrated to.
