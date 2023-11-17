@@ -4,13 +4,11 @@ name: Release notes
 
 ## 16.7
 
-<!-- 🚧 Update MR link before publishing 🚧 -->
-[_Draft: 16.7 release notes_](TBD)
+[_Draft: 16.7 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3612)
 
 ## 16.6
 
-<!-- 🚧 Update date before publishing 🚧 -->
-<small>Published 2023-11-XX</small>
+<small>Published 2023-11-17</small>
 
 ### Additions
 
@@ -29,8 +27,6 @@ name: Release notes
 - Minor changes to the line placement within the [**sort-lowest**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~sort-lowest) and [**sort-highest**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~sort-highest) icons.
 - Updated the default [**❖&nbsp;Banner**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425%3A4&mode=design&t=FlHqwVl4tjEmkjyD-1) background color from `white` to `$gray-10` to offset it more from the background.
 - Updated the [**❖&nbsp;Banner**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425%3A4&mode=design&t=FlHqwVl4tjEmkjyD-1) illustration to use the `sm` size instead of `md`.
-
-### Deprecations
 
 ## 16.5
 
