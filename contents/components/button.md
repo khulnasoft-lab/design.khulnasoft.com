@@ -120,6 +120,8 @@ States change visually and/or programmatically depending on user interaction or 
 - Use [sentence case](/content/punctuation).
 - Append an ellipsis (…) to the button label text when the action will require additional input from the user before final completion. Does not apply to [danger actions](#variants).
 - Try not to use text-only and icon-only buttons in the same context.
+- Use clear text and always indicate what is being destroyed.
+  - **Example:** `Delete page` instead of just `Delete`.
 
 #### Icons
 
