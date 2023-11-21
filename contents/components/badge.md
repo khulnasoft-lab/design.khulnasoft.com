@@ -64,12 +64,23 @@ related:
 
 ### Content
 
-- Information can be represented by an icon, text, or both together.
+Information can be represented by an icon, text, or both together.
+
+#### Text
+
 - Avoid long text strings.
 - When text overflows the width, it's truncated and aided by a [tooltip](/components/tooltip) (content doesn't wrap).
 - Text can be emphasized with **bold** weight, but use sparingly.
 - Text can contain not only words, but also numbers which act as _counters_ (for example, a number badge in a [tab](/components/tabs)).
+
+#### Icon
+
 - When only using an icon, provide a [tooltip](/components/tooltip) with a brief explanation.
+- Only use [16px icons](/product-foundations/iconography/#16-pixel-grid) with _medium_ and _large_ badges, and [12px icons](/product-foundations/iconography/#12-pixel-grid) with _small_ and _medium_ badges.
+- With a round icon, to keep consistent space around it, use the “round icon” badge variant in Figma or set the `roundIcon` property to `true` in code.
+- When a badge has a round icon, the badge must set `roundIcon` property to `true`.
+
+<todo>Add icon and icon only stories</todo>
 
 ## Accessibility
 
