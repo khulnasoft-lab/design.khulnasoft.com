@@ -39,4 +39,5 @@ Ensuring proper clear space between the logomark and surrounding elements preser
 1. Do not apply drop shadow or effects to the mark
 1. Do not add any other graphic elements to the mark
 1. Do not distort the mark in any way
+1. Do not personify the logo (e.g. create a mascot)
 1. Do not use the mark as a framing device for imagery
