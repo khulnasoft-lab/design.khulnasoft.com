@@ -71,6 +71,25 @@ related:
 - Text can contain not only words, but also numbers which act as _counters_ (for example, a number badge in a [tab](/components/tabs)).
 - When only using an icon, provide a [tooltip](/components/tooltip) with a brief explanation.
 
+### Icon sizes
+
+- Don't use `md` icon with `sm` badge.
+- Don't use `sm` icon with `lg` badge.
+
+<div class="gl-display-grid gl-md-grid-template-columns-3 gl-column-gap-2">
+  <figure-img alt="Small badge with small icon" label="Small badge with small icon" src="/img/badge-sm-icon-size.svg"></figure-img>
+  <figure-img alt="Medium badge with small and medium icons" label="Medium badge with small and medium icons" src="/img/badge-md-icon-size.svg"></figure-img>
+  <figure-img alt="Large badge with medium icon" label="Large badge with medium icon" src="/img/badge-lg-icon-size.svg"></figure-img>
+</div>
+
+### Round icons
+
+When a badge has a round icon, the badge must set `roundIcon` property to `true`.
+
+| **Do** | **Don’t** |
+| :---: | :---: |
+| <figure-img alt="Badges of all sizes with proportionally spaced round icons" label="Badge with roundIcon property" src="/img/badge-round-icons-right.svg"></figure-img> | <figure-img alt="Badges of all sizes with unproportionally spaced round icons" label="Badge without roundIcon property" src="/img/badge-round-icons-wrong.svg"></figure-img> |
+
 ## Accessibility
 
 - When a badge only has an icon, the icon must use `aria-label` with text that identifies the metadata.
