@@ -46,11 +46,6 @@ If the context clearly refers to the object, use them alone.
 If the context isn’t clear enough, use them with the object.
 - **Example:** `Edit issue` or `Closed issues`
 
-Buttons that copy content to the clipboard don’t need the “to clipboard” part.
-- **Example:** `Copy branch name` instead of `Copy branch name to clipboard`
-
-<todo>Add comprehensive list of terminology Do/Don’t</todo>
-
 ## Frequently confused words
 
 ### Authentication: sign in and sign-in
