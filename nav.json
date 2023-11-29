@@ -170,7 +170,16 @@
           },
           {
             "title": "Motion",
-            "path": "motion"
+            "items": [
+              {
+                "title": "Fundamentals",
+                "path": "motion-fundamentals"
+              },
+              {
+                "title": "Feedback animation",
+                "path": "motion-feedback"
+              }
+            ]
           },
           {
             "title": "Iconography",
