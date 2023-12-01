@@ -6,11 +6,11 @@ Copy and messaging are meaningful aspects of the GitLab experience and the conve
 
 The copy for GitLab is clear and direct. We strike a balance between professional and friendly. We can empathize with users (such as celebrating completing all items on the To-Do List) while remaining respectful to the importance of their work. We are a trusted, friendly, helpful, and understanding coworker.
 
-We use [active voice](https://docs.gitlab.com/ee/development/documentation/styleguide/#active-voice) as much as possible, and we write [from the customer perspective](https://docs.gitlab.com/ee/development/documentation/styleguide/#customer-perspective). We use [contractions](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#contractions), but we don't use [Latin abbreviations](https://docs.gitlab.com/ee/development/documentation/styleguide/#writing-for-localization).
+For guidance on UI text:
 
-Guidance for UI text is similar to guidance for the product documentation. You can find guidance for text on the page for each component. Additional guidance is also available in the following sections on this page.
-
-In addition, you can view the [style guide](https://docs.gitlab.com/ee/development/documentation/styleguide/), the [word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html), or ask a technical writer for help.
+- For specific terms, use the technical writing [word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html).
+- For component-specific guidance, use the Pajamas page for each component.
+- For general guidance, use the technical writing [style guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
 
 ## Brevity
 
