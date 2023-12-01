@@ -12,6 +12,8 @@ For guidance on UI text:
 - For component-specific guidance, use the Pajamas page for each component.
 - For general guidance, use the technical writing [style guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
 
+If you have questions, ask a technical writer.
+
 ## Brevity
 
 Users will skim content, rather than read text carefully. Copy should be concise and short whenever possible. A long message or label is a red flag hinting at a design that needs improvement.
