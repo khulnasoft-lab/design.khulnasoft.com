@@ -216,9 +216,9 @@ pages:
     ENV_NAME: "production"
     PAGES_PREFIX: "" # no prefix by default (master)
   script:
+    - apk add --no-cache gzip brotli bash
     - yarn install --frozen-lockfile
     - yarn build
-    - apk add --no-cache gzip brotli
     - find dist -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|json\|css\)$' -exec gzip -f -k {} \;
     - find dist -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|json\|css\)$' -exec brotli -f -k {} \; #  TODO: BROTLI only in production
     - ls -a dist
