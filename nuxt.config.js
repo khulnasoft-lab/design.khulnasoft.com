@@ -11,7 +11,7 @@ const GITLAB_ANALYTICS_URL = GITLAB_ANALYTICS_ID
   ? 'https://collector.prod-1.gl-product-analytics.com'
   : '';
 
-const REVIEW_APP_ROOT = process.env.CI_ENVIRONMENT_URL ? process.env.CI_ENVIRONMENT_URL : false;
+const CI_ENVIRONMENT_URL = process.env.CI_ENVIRONMENT_URL ? process.env.CI_ENVIRONMENT_URL : false;
 
 const GITLAB_UI_URL = (
   process.env.GITLAB_UI_URL || 'https://gitlab-org.gitlab.io/gitlab-ui'
@@ -119,7 +119,7 @@ export default {
 
   router: {
     middleware: ['navigation'],
-    base: REVIEW_APP_ROOT ? new URL(REVIEW_APP_ROOT).pathname : '/',
+    base: CI_ENVIRONMENT_URL ? new URL(CI_ENVIRONMENT_URL).pathname : '/',
   },
 
   /*
@@ -130,7 +130,7 @@ export default {
     GITLAB_ANALYTICS_ID,
     GITLAB_UI_URL,
     LOOKBOOK_URL,
-    REVIEW_APP_ROOT,
+    CI_ENVIRONMENT_URL,
   },
 
   /*
