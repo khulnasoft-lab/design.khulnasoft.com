@@ -1,6 +1,6 @@
-const fixUrlInReviewApp = process.env.REVIEW_APP_ROOT
+const fixUrlInReviewApp = process.env.CI_ENVIRONMENT_URL
   ? (url) => {
-      const newUrl = new URL(process.env.REVIEW_APP_ROOT);
+      const newUrl = new URL(process.env.CI_ENVIRONMENT_URL);
       newUrl.pathname += url.startsWith('/') ? url : `/${url}`;
       // eslint-disable-next-line no-console
       console.log(`RA URL fix: ${url} => ${newUrl}`);
