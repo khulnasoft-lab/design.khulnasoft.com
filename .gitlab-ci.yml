@@ -149,7 +149,9 @@ build:
 # We should keep them, even after a switch to GitLab pages
 #
 browser_performance:
-  needs: [pages]
+  needs:
+    - job: pages
+      optional: true
   variables:
     #TODO: Make work for main branch
     URL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
