@@ -151,20 +151,6 @@ build:
   tags:
     - gitlab-org-docker
 
-<<<<<<< HEAD
-review:
-  needs: [build]
-
-=======
-dast_environment_deploy:
-  needs: [build]
-
-dast:
-  needs:
-    - job: dast_environment_deploy
-      optional: true
-
->>>>>>> bc3c5806 (Skip to MR pipeline)
 browser_performance:
   needs:
     - job: production
@@ -215,9 +201,9 @@ pages:
     ENV_NAME: "production"
     PAGES_PREFIX: "" # no prefix by default (master)
   script:
-    - apk add --no-cache gzip brotli bash
+    - apk add --no-cache gzip brotli bash git
     - yarn install --frozen-lockfile
-    - yarn build
+    - bash ./scripts/build.sh
     - find dist -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|json\|css\)$' -exec gzip -f -k {} \;
     - find dist -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|json\|css\)$' -exec brotli -f -k {} \; #  TODO: BROTLI only in production
     - ls -a dist
@@ -235,4 +221,4 @@ pages:
     - if: $CI_MERGE_REQUEST_IID # conditionally change the prefix on Merge Requests
       variables:
         ENV_NAME: "review/$CI_MERGE_REQUEST_IID"
-        PAGES_PREFIX: 'review-mr-$CI_MERGE_REQUEST_IID' # prefix with the mr<iid>, like `mr123`
+        PAGES_PREFIX: 'review-mr-$CI_MERGE_REQUEST_IID' # prefix with the mr<`iid>, like `mr123`
