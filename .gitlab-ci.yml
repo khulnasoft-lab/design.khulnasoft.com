@@ -116,10 +116,7 @@ variables:
   DOCKER_TLS_CERTDIR: ""  # https://gitlab.com/gitlab-org/gitlab-runner/issues/4501
 
 include:
-    # TODO
-  - template: Jobs/Build.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Build.gitlab-ci.yml
-    # TODO
-  - template: Jobs/Test.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Test.gitlab-ci.yml
+  - template: Jobs/Build.latest.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Build.gitlab-ci.yml
     # TODO
   - template: Jobs/Code-Quality.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Code-Quality.gitlab-ci.yml
     # TODO
@@ -134,23 +131,23 @@ include:
   - project: gitlab-org/frontend/untamper-my-lockfile
     file: 'templates/merge_request_pipelines.yml'
 
-danger-review:
-  image: registry.gitlab.com/gitlab-org/gitlab-build-images:danger
-  stage: pre-build
-  dependencies: []
-  rules:
-    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
-      when: never
-    - if: '$DANGER_GITLAB_API_TOKEN && $CI_MERGE_REQUEST_IID'
-  script:
-    - danger_id=$(echo -n ${DANGER_GITLAB_API_TOKEN} | md5sum | awk '{print $1}' | cut -c5-10)
-    - danger --fail-on-errors=true --verbose --danger_id="${danger_id}"
-
+#
+# The following rules overwrite parts of auto-devops to make it MR-Pipeline compatible
+# We can remove those once we switch over to pages-only
+#
 build:
   needs: []
   tags:
     - gitlab-org-docker
+  rules:
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+    - if: '$CI_MERGE_REQUEST_IID'
 
+#
+# The following rules overwrite parts of auto-devops to make it MR-Pipeline compatible
+# and/or force gitlab-org-docker tags
+# We should keep them, even after a switch to GitLab pages
+#
 browser_performance:
   needs:
     - job: production
@@ -171,6 +168,31 @@ sast:
 semgrep-sast:
   variables:
     SAST_EXPERIMENTAL_FEATURES: 'true'
+
+###
+#
+# Custom pipeline parts below. This is the good stuff, we want to keep and iterate on
+#
+###
+danger-review:
+  image: registry.gitlab.com/gitlab-org/gitlab-build-images:danger
+  stage: pre-build
+  needs: []
+  rules:
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+      when: never
+    - if: '$DANGER_GITLAB_API_TOKEN && $CI_MERGE_REQUEST_IID'
+  script:
+    - danger_id=$(echo -n ${DANGER_GITLAB_API_TOKEN} | md5sum | awk '{print $1}' | cut -c5-10)
+    - danger --fail-on-errors=true --verbose --danger_id="${danger_id}"
+
+test:
+  image: node:18-alpine
+  stage: test
+  needs: []
+  script:
+    - yarn install --frozen-lockfile
+    - yarn run test
 
 check_links:
   image: node:18.16
@@ -204,18 +226,18 @@ pages:
     - apk add --no-cache gzip brotli bash git
     - yarn install --frozen-lockfile
     - bash ./scripts/build.sh
-    - find dist -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|json\|css\)$' -exec gzip -f -k {} \;
-    - find dist -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|json\|css\)$' -exec brotli -f -k {} \; #  TODO: BROTLI only in production
+    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|json\|css\)$' -exec gzip -f -k {} \;
+    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|json\|css\)$' -exec brotli -f -k {} \; #  TODO: BROTLI only in production
     - ls -a dist
     - echo "Pages accessible through ${CI_PAGES_URL}/${PAGES_PREFIX}"
   needs: []
   artifacts:
     paths:
-      - dist/*
+      - public/*
   environment:
     name: $ENV_NAME
     url: "${CI_PAGES_URL}/${PAGES_PREFIX}"
-  publish: dist
+  publish: public
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
     - if: $CI_MERGE_REQUEST_IID # conditionally change the prefix on Merge Requests
