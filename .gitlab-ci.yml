@@ -122,6 +122,7 @@ danger-review:
   image: node:18-alpine
   needs: []
   before_script:
+    - apk add --no-cache bash git
     - yarn install --frozen-lockfile
 
 .build_cache:
@@ -148,7 +149,6 @@ check_links:
   stage: test
   allow_failure: true
   script:
-    - apk add --no-cache bash git
     - yarn check-links
 
 semantic-release:
@@ -174,7 +174,7 @@ pages:
     ENV_NAME: "pages"
     PAGES_PREFIX: "" # no prefix by default (master)
   script:
-    - apk add --no-cache gzip brotli bash git
+    - apk add --no-cache gzip brotli
     - bash ./scripts/build.sh
     - ls -a public
     - echo "Pages accessible through ${CI_PAGES_URL}/${PAGES_PREFIX}"
