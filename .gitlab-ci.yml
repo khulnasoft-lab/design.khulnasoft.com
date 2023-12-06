@@ -1,11 +1,12 @@
 # This file is basically the AutoDevops template (https://gitlab.com/gitlab-org/gitlab/blob/master/lib/gitlab/ci/templates/Auto-DevOps.gitlab-ci.yml)
 # plus some defaults (e.g. tags).
+# However, we are going to probably move to a custom build pipeline, levering pages
 
 stages:
   - pre-build
   - build
   - test
-  - deploy  # dummy stage to follow the template guidelines
+  - deploy
   - review
   - staging
   - canary
@@ -19,80 +20,8 @@ stages:
 
 workflow:
   rules:
-    - if: '$BUILDPACK_URL || $AUTO_DEVOPS_EXPLICITLY_ENABLED == "1"'
-
-    - exists:
-        - Dockerfile
-
-    # https://github.com/heroku/heroku-buildpack-clojure
-    - exists:
-        - project.clj
-
-    # https://github.com/heroku/heroku-buildpack-go
-    - exists:
-        - go.mod
-        - Gopkg.mod
-        - Godeps/Godeps.json
-        - vendor/vendor.json
-        - glide.yaml
-        - src/**/*.go
-
-    # https://github.com/heroku/heroku-buildpack-gradle
-    - exists:
-        - gradlew
-        - build.gradle
-        - settings.gradle
-
-    # https://github.com/heroku/heroku-buildpack-java
-    - exists:
-        - pom.xml
-        - pom.atom
-        - pom.clj
-        - pom.groovy
-        - pom.rb
-        - pom.scala
-        - pom.yaml
-        - pom.yml
-
-    # https://github.com/heroku/heroku-buildpack-multi
-    - exists:
-        - .buildpacks
-
-    # https://github.com/heroku/heroku-buildpack-nodejs
-    - exists:
-        - package.json
-
-    # https://github.com/heroku/heroku-buildpack-php
-    - exists:
-        - composer.json
-        - index.php
-
-    # https://github.com/heroku/heroku-buildpack-play
-    # TODO: detect script excludes some scala files
-    - exists:
-        - '**/conf/application.conf'
-
-    # https://github.com/heroku/heroku-buildpack-python
-    # TODO: detect script checks that all of these exist, not any
-    - exists:
-        - requirements.txt
-        - setup.py
-        - Pipfile
-
-    # https://github.com/heroku/heroku-buildpack-ruby
-    - exists:
-        - Gemfile
-
-    # https://github.com/heroku/heroku-buildpack-scala
-    - exists:
-        - '*.sbt'
-        - project/*.scala
-        - .sbt/*.scala
-        - project/build.properties
-
-    # https://github.com/dokku/buildpack-nginx
-    - exists:
-        - .static
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+    - if: '$CI_MERGE_REQUEST_IID'
 
 default:
   image: alpine:latest
@@ -100,22 +29,13 @@ default:
     - gitlab-org
 
 variables:
-  # KUBE_INGRESS_BASE_DOMAIN is the application deployment domain and should be set as a variable at the group or project level.
-  # KUBE_INGRESS_BASE_DOMAIN: domain.example.com
-
-  POSTGRES_USER: user
-  POSTGRES_PASSWORD: testing-password
-  POSTGRES_ENABLED: "true"
-  POSTGRES_DB: $CI_ENVIRONMENT_SLUG
-  POSTGRES_VERSION: 9.6.2
-
+  # TODO: Check whether these are still needed for the D-in-D jobs.
   DOCKER_DRIVER: overlay2
-
-  ROLLOUT_RESOURCE_TYPE: deployment
-
   DOCKER_TLS_CERTDIR: ""  # https://gitlab.com/gitlab-org/gitlab-runner/issues/4501
   # We need no review apps, as we will use pages for that. Can be removed after migration away from AutoDevops
   REVIEW_DISABLED: "true"
+  ROLLOUT_RESOURCE_TYPE: deployment
+
 
 include:
   # These templates can be removed once we switch away from AutoDevOps to pages
@@ -158,6 +78,8 @@ browser_performance:
   needs:
     - job: pages
       optional: true
+  tags:
+    - gitlab-org-docker
   variables:
     #TODO: Make work for main branch
     URL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
@@ -178,10 +100,6 @@ dependency_scanning:
 
 sast:
   needs: []
-
-semgrep-sast:
-  variables:
-    SAST_EXPERIMENTAL_FEATURES: 'true'
 
 ###
 #
