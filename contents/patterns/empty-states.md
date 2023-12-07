@@ -56,7 +56,7 @@ A `Configuration required` empty state serves as a placeholder for features that
 
 - Contains a primary action for configuring a feature.
 - Contains a secondary action for inviting a member to configure a feature. The secondary action should read as `Invite member to configure`, which should trigger the invite modal.
-- An exception here is the `Configuration required` empty state for a merge report or merge status widget, where action to configure the feature is presented as a [tertiary confirm](/patterns/merge-request-reports#actions) button to avoid distracting users from the merge workflow.
+- An exception here is the `Configuration required` empty state for a [merge request report widget](/patterns/merge-request-reports) or merge status widget, where action to configure the feature is presented as a [tertiary confirm](/patterns/merge-request-reports#actions) button to avoid distracting users from the merge workflow.
 
 Use the following implementation to trigger the invite modal:
 - [Initialize from a Vue component](http://gitlab.com/gitlab-org/gitlab/blob/81fc02642a748484af91e45abda84c24a54b7ac9/app/assets/javascripts/vue_shared/components/markdown/toolbar.vue#L70-70).
@@ -71,7 +71,7 @@ Examples:
 - `Monitor vulnerabilities in your project`
 - `Get started with monitoring`
 
-The `Configuration required` empty state for a merge report or merge status widget, should use the default layout of [level 1 hierarchy](/patterns/merge-request-reports#level-1) with an info status icon, replacing the subject with a title phrase accompanied by a succinct description.
+The `Configuration required` empty state for a [merge request report widget](/patterns/merge-request-reports) or merge status widget, should use the default layout of [level 1 hierarchy](/patterns/merge-request-reports#level-1) with an info status icon, replacing the subject with a title phrase accompanied by a succinct description.
 
 ### Higher tier feature
 
