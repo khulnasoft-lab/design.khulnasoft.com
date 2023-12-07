@@ -134,14 +134,6 @@ Use all sentences or all fragments in a bulleted list, not a mixture.
   </tbody>
 </table>
 
-## Contractions
-
-We encourage the use of contractions to make writing simpler and easier to read. However, don’t make a sentence harder to understand just to follow this rule. For example, “do not” can give more emphasis than “don’t,” when needed.
-
-| Do | Don’t |
-| --- | --- |
-| it’s, can’t, wouldn’t, you’re, you’ve, haven’t, don’t | it is, cannot, would not, it’ll, should’ve |
-
 ## Numbers
 
 Use “1, 2, 3” instead of “one, two, three” for numbers. One exception is when mixing uses of numbers, such as “Enter two 3s.”
