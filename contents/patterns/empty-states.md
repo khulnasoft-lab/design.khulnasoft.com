@@ -71,7 +71,7 @@ Examples:
 - `Monitor vulnerabilities in your project`
 - `Get started with monitoring`
 
-The `Configuration required` empty state for a merge report or merge status widget, should use the default layout of [level 1 hierarchy](/patterns/merge-request-reports#level-1) with a info status icon, replacing the subject with a title phrase accompanied by a succinct description.
+The `Configuration required` empty state for a merge report or merge status widget, should use the default layout of [level 1 hierarchy](/patterns/merge-request-reports#level-1) with an info status icon, replacing the subject with a title phrase accompanied by a succinct description.
 
 ### Higher tier feature
 
