@@ -44,6 +44,7 @@ related:
 
 - Display additional or supplemental information to the user about an element or item.
 - Make simple, contextual tasks available.
+- Accommodate long forms for adding or editing items on the Settings pages that can negatively impact the usability of the page if presented inline.
 
 ### When not to use
 
