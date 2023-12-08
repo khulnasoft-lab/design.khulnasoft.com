@@ -52,9 +52,9 @@ A single stat with a badge which can be used to convey status or trend in more d
 
 ### Link
 
-A single stat can be used as a drill down link.
+A single stat that can navigate to more detailed information about a metric.
 
-<story-viewer story-name="charts-single-stat--with-link" title="With Link" args-url="#"></story-viewer>
+<todo>Create demo in gitlab-ui</todo>
 
 ## Design specifications
 
