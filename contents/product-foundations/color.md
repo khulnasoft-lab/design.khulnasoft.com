@@ -7,8 +7,8 @@ name: Color
 There are three color palettes used in the product:
 
 1. [UI](#ui) - For all surfaces, content, and UI elements.
-1. [Themes](#themes) - For user preferences and to differentiate instances.
-2. [Data visualization](/data-visualization/color) - For all data visualization, including charts and graphs.
+1. [Themes](#themes) - For user preferences and to differentiate GitLab instances.
+1. [Data visualization](/data-visualization/color) - For all data visualization, including charts and graphs.
 
 The main function of color is to optimize the visual presentation of content by establishing a meaningful hierarchy, indicating interaction, and communicating meaning. The following concepts help to think about color use consistently, regardless of mode or context.
 
@@ -16,8 +16,8 @@ The main function of color is to optimize the visual presentation of content by 
 
 - Surfaces reflect light and don't emit it.
 - Forward elements are lighter and receding ones are darker.
-- In light UI surfaces are made of light materials and text uses darker colors.
-- In dark UI surfaces are made of dark materials and text uses lighter colors.
+- In a light UI, surfaces are made of light materials and text uses darker colors.
+- In a dark UI, surfaces are made of dark materials and text uses lighter colors.
 - UI elements, like buttons and alerts, rely on chromatic hues and neutrals for meaning and hierarchy, and adapt contrast based on the surface.
 
 ## UI
@@ -812,6 +812,6 @@ At GitLab, we are dedicated to continually improving the accessibility of the ap
 - **AA+** - Pass, large text only 3:1+.
 - **F** - Doesn’t pass.
 
-Contrast ratios for each color step are calculated using white (`#fff`) and black (`#000`). The `50–400` steps all meet a 4.5:1 contrast ratio or higher against $gray-950 (`#1f1e24`) or darker, while the `500–950` steps all meet a 4.5:1 contrast ratio against `$gray-10`(`#fbfafd`) or lighter.
+Contrast ratios for each color step are calculated using white (`#fff`) and black (`#000`). The `50–400` steps all meet a 4.5:1 contrast ratio or higher against $gray-950 (`#1f1e24`) or darker, while the `500–950` steps all meet a 4.5:1 contrast ratio against `$gray-10` (`#fbfafd`) or lighter.
 
 Color should never be the only visual means of communicating information ([WCAG 1.4.1](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color)).
