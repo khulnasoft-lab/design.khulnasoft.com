@@ -68,7 +68,7 @@ Use sticky containers with caution as they can easily crowd the interface and ma
 
 ## Cascading alignment
 
-For layouts that are tabular or mimic a table row, often a single alignment rule applied to all cells or columns may note produce the most scannable outcome. With cascading alignment, the goal is to optically align content in the way that best supports a linear reading flow while maintaining balance. The alignment "cascades" from one element to the next based on the preceding element. For example, **B** aligns with **A**, and **C** aligns with **B**.
+For layouts that are tabular or mimic a table row, often a single alignment rule applied to all cells or columns may not produce the most scannable outcome. With cascading alignment, the goal is to optically align content in the way that best supports a linear reading flow while maintaining balance. The alignment "cascades" from one element to the next based on the preceding element. For example, **B** aligns with **A**, and **C** aligns with **B**.
 
 <div class="figma-embed" aria-label="Cascading alignment demo 1" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F2XRq1MnIG69iti76Mh9HpJ%2FPajamas-visual-examples%3Ftype%3Ddesign%26node-id%3D22364%253A696%26mode%3Ddesign%26t%3DcBlAHP3Ol5JxVR79-1" allowfullscreen></iframe>
@@ -76,7 +76,7 @@ For layouts that are tabular or mimic a table row, often a single alignment rule
 
 This type of layout is optional, and you should use your best judgement considering the user's task, the content, and other factors that might impact layout, like reflow and responsive behavior.
 
-In the following examples, the content within the second column vertically aligns with the content in the first, and the third column content vertically aligns with the content in the second. When the height of content is greater than the height of the content to the left the content is top aligned and additional content will extend below. This satisfies the goal of a reasonable linear reading flow where the eye doesn't have to bounce around as much.
+In the two column example, the second column's content vertically aligns with the content in the first. In the three column example, the third column's content vertically aligns with the content in the second. In both examples, when the height of the content is greater than the height of the content in the columns to the left, the content is top-aligned, extending below where necessary. This satisfies the goal of a reasonable linear reading flow where the eye doesn't have to bounce around as much.
 
 <div class="figma-embed" aria-label="Cascading alignment demo 2" role="img">
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F2XRq1MnIG69iti76Mh9HpJ%2FPajamas-visual-examples%3Ftype%3Ddesign%26node-id%3D22364%253A656%26mode%3Ddesign%26t%3DcBlAHP3Ol5JxVR79-1" allowfullscreen></iframe>
