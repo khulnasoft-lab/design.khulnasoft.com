@@ -133,9 +133,21 @@ danger-review:
     - apk add --no-cache bash git
     - yarn install --frozen-lockfile
 
+.build_cache:
+  variables:
+    CACHE_POLICY: pull
+  cache:
+    - key: cache-$CI_ENVIRONMENT_SLUG
+      fallback_keys:
+        - cache-pages
+      paths:
+        - node_modules/
+      policy: $CACHE_POLICY
+
 check_links:
   extends:
     - .node-job
+    - .build_cache
   stage: test
   allow_failure: true
   script:
@@ -155,10 +167,12 @@ semantic-release:
 pages:
   extends:
     - .node-job
+    - .build_cache
   stage: deploy
   pages:
     path_prefix: "$PAGES_PREFIX"
   variables:
+    CACHE_POLICY: pull-push
     ENV_NAME: "pages"
     PAGES_PREFIX: "" # no prefix by default (master)
   script:
