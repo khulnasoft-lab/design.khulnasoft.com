@@ -4,7 +4,8 @@ name: Release notes
 
 ## 16.7
 
-<small>Published 2023-12-13</small>
+<!-- Update date before publishing -->
+<small>TBD</small>
 
 ### Additions
 

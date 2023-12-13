@@ -1,13 +1,13 @@
 # This file is basically the AutoDevops template (https://gitlab.com/gitlab-org/gitlab/blob/master/lib/gitlab/ci/templates/Auto-DevOps.gitlab-ci.yml)
 # plus some defaults (e.g. tags).
 
+# TODO: pages-phase-3, cleanup unneeded stages
 stages:
   - pre-build
   - build
   - test
-  - deploy  # dummy stage to follow the template guidelines
+  - deploy
   - review
-  - dast
   - staging
   - canary
   - production
@@ -20,85 +20,8 @@ stages:
 
 workflow:
   rules:
-    # AutoDevops doesn't use MR pipelines, so we can skip the execution of them
-    # in order to avoid duplication of e.g. untamper-my-lockfile
     - if: '$CI_MERGE_REQUEST_IID'
-      when: never
-
-    - if: '$BUILDPACK_URL || $AUTO_DEVOPS_EXPLICITLY_ENABLED == "1"'
-
-    - exists:
-        - Dockerfile
-
-    # https://github.com/heroku/heroku-buildpack-clojure
-    - exists:
-        - project.clj
-
-    # https://github.com/heroku/heroku-buildpack-go
-    - exists:
-        - go.mod
-        - Gopkg.mod
-        - Godeps/Godeps.json
-        - vendor/vendor.json
-        - glide.yaml
-        - src/**/*.go
-
-    # https://github.com/heroku/heroku-buildpack-gradle
-    - exists:
-        - gradlew
-        - build.gradle
-        - settings.gradle
-
-    # https://github.com/heroku/heroku-buildpack-java
-    - exists:
-        - pom.xml
-        - pom.atom
-        - pom.clj
-        - pom.groovy
-        - pom.rb
-        - pom.scala
-        - pom.yaml
-        - pom.yml
-
-    # https://github.com/heroku/heroku-buildpack-multi
-    - exists:
-        - .buildpacks
-
-    # https://github.com/heroku/heroku-buildpack-nodejs
-    - exists:
-        - package.json
-
-    # https://github.com/heroku/heroku-buildpack-php
-    - exists:
-        - composer.json
-        - index.php
-
-    # https://github.com/heroku/heroku-buildpack-play
-    # TODO: detect script excludes some scala files
-    - exists:
-        - '**/conf/application.conf'
-
-    # https://github.com/heroku/heroku-buildpack-python
-    # TODO: detect script checks that all of these exist, not any
-    - exists:
-        - requirements.txt
-        - setup.py
-        - Pipfile
-
-    # https://github.com/heroku/heroku-buildpack-ruby
-    - exists:
-        - Gemfile
-
-    # https://github.com/heroku/heroku-buildpack-scala
-    - exists:
-        - '*.sbt'
-        - project/*.scala
-        - .sbt/*.scala
-        - project/build.properties
-
-    # https://github.com/dokku/buildpack-nginx
-    - exists:
-        - .static
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
 
 default:
   image: alpine:latest
@@ -122,50 +45,61 @@ variables:
   DOCKER_TLS_CERTDIR: ""  # https://gitlab.com/gitlab-org/gitlab-runner/issues/4501
 
 include:
-  - template: Jobs/Build.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Build.gitlab-ci.yml
-  - template: Jobs/Test.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Test.gitlab-ci.yml
-  - template: Jobs/Code-Quality.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Code-Quality.gitlab-ci.yml
-  - template: Jobs/Deploy.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Deploy.gitlab-ci.yml
-  - template: Jobs/DAST-Default-Branch-Deploy.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/DAST-Default-Branch-Deploy.gitlab-ci.yml
-  - template: Jobs/Browser-Performance-Testing.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Browser-Performance-Testing.gitlab-ci.yml
-  - template: Security/DAST.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Security/DAST.gitlab-ci.yml
-  - template: Security/Container-Scanning.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Security/Container-Scanning.gitlab-ci.yml
-  - template: Security/Dependency-Scanning.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Security/Dependency-Scanning.gitlab-ci.yml
-  - template: Security/SAST.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Security/SAST.gitlab-ci.yml
+  # These templates can be removed once we switch away from AutoDevOps to pages
+  # TODO: pages-phase-3
+  - template: Jobs/Build.latest.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Build.latest.gitlab-ci.yml
+  - template: Jobs/Test.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Test.latest.gitlab-ci.yml
+  - template: Jobs/Container-Scanning.latest.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Container-Scanning.latest.gitlab-ci.yml
+  - template: Jobs/Deploy.latest.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Deploy.gitlab-ci.yml
+  # These templates we should retain after the switch to pages
+  - template: Jobs/Code-Quality.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Code-Quality.gitlab-ci.yml
+  - template: Jobs/Browser-Performance-Testing.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Browser-Performance-Testing.gitlab-ci.yml
+  - template: Jobs/Dependency-Scanning.latest.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Dependency-Scanning.latest.gitlab-ci.yml
+  - template: Jobs/SAST.latest.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/SAST.latest.gitlab-ci.yml
   - project: 'gitlab-org/frontend/frontend-build-images'
     file: '/semantic-release/.gitlab-ci-template.rules.yml'
   - project: gitlab-org/frontend/untamper-my-lockfile
-    file: 'templates/branch_pipelines.yml'
+    file: 'templates/merge_request_pipelines.yml'
 
-danger-review:
-  image: registry.gitlab.com/gitlab-org/gitlab-build-images:danger
-  stage: pre-build
-  dependencies: []
-  rules:
-    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
-      when: never
-    - if: '$DANGER_GITLAB_API_TOKEN'
-  script:
-    - danger_id=$(echo -n ${DANGER_GITLAB_API_TOKEN} | md5sum | awk '{print $1}' | cut -c5-10)
-    - danger --fail-on-errors=true --verbose --danger_id="${danger_id}"
+## Overrides for jobs that can be removed in Phase 3 of the AutoDevOps to pages migration
+# TODO: pages-phase-3
 
 build:
   needs: []
   tags:
     - gitlab-org-docker
+  rules:
+    - when: always
+
+container_scanning:
+  needs: [build]
+  tags:
+    - gitlab-org-docker
 
 review:
   needs: [build]
+  variables:
+    CI_COMMIT_REF_NAME: "$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME"
+  rules:
+    - if: '$CI_MERGE_REQUEST_IID'
 
-dast_environment_deploy:
-  needs: [build]
+stop_review:
+  variables:
+    CI_COMMIT_REF_NAME: "$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME"
+  rules:
+    - if: '$CI_MERGE_REQUEST_IID'
+      when: manual
 
-dast:
-  needs:
-    - job: review
-      optional: true
-    - job: dast_environment_deploy
-      optional: true
+test:
+  needs: []
+  rules:
+    - when: always
+
+###############
+#
+## Overrides for jobs from templates
+#
+###############
 
 browser_performance:
   needs:
@@ -173,22 +107,38 @@ browser_performance:
       optional: true
     - job: production
       optional: true
+  rules:
+    - when: always
 
 code_quality:
   tags:
     - gitlab-org-docker
+  rules:
+    - when: always
 
 dependency_scanning:
-  tags:
-    - gitlab-org-docker
+  # This can be executed immediately
+  needs: []
 
 sast:
-  tags:
-    - gitlab-org-docker
+  # This can be executed immediately
+  needs: []
 
-semgrep-sast:
-  variables:
-    SAST_EXPERIMENTAL_FEATURES: 'true'
+###############
+#
+## Custom Jobs
+#
+###############
+
+danger-review:
+  image: registry.gitlab.com/gitlab-org/gitlab-build-images:danger
+  stage: pre-build
+  dependencies: []
+  rules:
+    - if: '$CI_MERGE_REQUEST_IID && $DANGER_GITLAB_API_TOKEN'
+  script:
+    - danger_id=$(echo -n ${DANGER_GITLAB_API_TOKEN} | md5sum | awk '{print $1}' | cut -c5-10)
+    - danger --fail-on-errors=true --verbose --danger_id="${danger_id}"
 
 check_links:
   image: node:18.16
@@ -209,7 +159,3 @@ semantic-release:
     # This allows us to have a weekly release cadence:
     # https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/pipeline_schedules
     - if: $CI_PIPELINE_SOURCE == "schedule" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-
-untamper-my-lockfile:
-  rules:
-    - if: "$CI_COMMIT_BRANCH"
