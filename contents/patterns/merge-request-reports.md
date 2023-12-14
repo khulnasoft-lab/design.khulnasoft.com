@@ -259,4 +259,4 @@ Merge request report widgets use an adapted version of the [configuration requir
 
 <todo issue="gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1750">Add a visual example</todo>
 
-Note: Different to other configuration required empty states, the action to configure the feature is presented as a tertiary confirm button. This is to avoid distracting users from the merge workflow.
+Note that different from other "configuration required" empty states, the action to configure a feature is presented in a tertiary confirm button. This is done to avoid distracting users from the merge workflow.
