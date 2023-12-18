@@ -1,18 +1,44 @@
 ---
-name: Voice and tone
+name: How to write UI text
 ---
 
 Copy and messaging are meaningful aspects of the GitLab experience and the conversation with our users.
 
 The copy for GitLab is clear and direct. We strike a balance between professional and friendly. We can empathize with users (such as celebrating completing all items on the To-Do List) while remaining respectful to the importance of their work. We are a trusted, friendly, helpful, and understanding coworker.
 
-For guidance on UI text:
+When you author UI text, consider the following tenets.
+
+## Consistency is key
+
+If you're deciding between being consistent with other language on the same screen,
+or following the latest style guidance, go with consistency.
+
+A page that mixes phrasing is harder for users to parse and looks unprofessional.
+
+If the text on a page doesn't match the latest guidance, or is inconsistent,
+open an issue or ping the Papercuts team.
+
+## How to be consistent
+
+To be consistent, follow style guidance in this order:
 
 - For specific terms, use the technical writing [word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html).
 - For component-specific guidance, use the Pajamas page for each component.
 - For general guidance, use the technical writing [style guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
 
 If you have questions, ask a technical writer.
+
+## Terminology
+
+For clear and consistent communication, it’s important to always use correct terminology.
+
+You can find most terms in the [word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html) that's maintained by the Technical Writing team. If you do not see the term you need, open a merge request to add it, or contact a technical writer for assistance.
+
+In addition:
+
+- Search the product for the term before creating a new term.
+- Be extremely cautious when using [jargon](https://examples.yourdictionary.com/examples-of-jargon.html) and [colloquialisms](https://www.quickanddirtytips.com/education/grammar/writing-with-slang). They can confuse new users and cause problems with internationalization.
+- Consider [screen readers](https://accessibility.blog.gov.uk/2017/02/08/advice-for-creating-content-that-works-well-with-screen-readers/) and their ability to interpret non-standard terminology.
 
 ## Brevity
 
@@ -47,7 +73,7 @@ When writing an error message, leave out extraneous words like "sorry" and "plea
 | Unable to complete your request. Enter a valid email address. | 400 Bad Request |
 | Enter your email address to sign up with GitLab. | Please enter your email address to sign up with GitLab. |
 
-## Objective focused
+## Objective-focused
 
 When users engage with our product, they’re focused on getting tasks done, thinking first in terms of the problem they’re trying to solve, and then how to solve it.
 Objective-focused content that starts with the task first and then offers the solution can make it easier for users to quickly find and understand the information they need.
@@ -57,38 +83,11 @@ Objective-focused content that starts with the task first and then offers the so
 | Monitor your errors by integrating with Sentry | Integrate with Sentry to monitor your errors |
 | To see what’s changed, choose a branch or enter a commit. | Choose a branch or enter a commit to see what's changed. |
 
-## Verb tenses
+## Other resources
 
-### Recent past (instant feedback)
-
-For a status update on something that has just happened in response to a user action or when a user is otherwise watching for an update, use the **present perfect** tense. This is ideal for toast messages and terminal output.
-
-There are two options:
-
-- When brevity is the priority, use only the noun and verb (omitting articles and prepositions); for example, “Pipeline scheduled.”
-- When you want to use a full phrase for a human feel, use a complete sentence; for example, “The pipeline has been scheduled.”
-
-### Distant past (earlier than instant feedback)
-
-Use **past tense**.
-
-| Do | Don’t |
-| --- | --- |
-| The pipeline was last run on October 3. | The pipeline has been run on October 3. |
-
-### State
-
-Use **present tense**.
-
-| Do | Don’t |
-| --- | --- |
-| The pipeline is scheduled to run on October 3. | The pipeline will be run on October 3. |
-
-### Instructions
-
-Use the **present tense** with an imperative form (also known as a command).
-
-| Do | Don’t |
-| --- | --- |
-| Click the Designs tab. | You will need to click the Designs tab. |
-| To see what’s changed, choose a branch or enter a commit. | Choosing a branch or entering a commit will show you what’s changed. |
+- Capitalization of [feature names](https://docs.gitlab.com/ee/development/documentation/styleguide/#feature-names) and [other terms](https://docs.gitlab.com/ee/development/documentation/styleguide/#other-terms)
+- [Punctuation](punctuation)
+- [Lists](https://docs.gitlab.com/ee/development/documentation/styleguide/#lists)
+- [Active voice](https://docs.gitlab.com/ee/development/documentation/styleguide/#active-voice)
+- [Customer perspective](https://docs.gitlab.com/ee/development/documentation/styleguide/#customer-perspective)
+- [Building trust](https://docs.gitlab.com/ee/development/documentation/styleguide/#building-trust)
