@@ -86,7 +86,7 @@ Objective-focused content that starts with the task first and then offers the so
 ## Other resources
 
 - Capitalization of [feature names](https://docs.gitlab.com/ee/development/documentation/styleguide/#feature-names) and [other terms](https://docs.gitlab.com/ee/development/documentation/styleguide/#other-terms)
-- [Punctuation](punctuation.md)
+- [Punctuation](punctuation)
 - [Lists](https://docs.gitlab.com/ee/development/documentation/styleguide/#lists)
 - [Active voice](https://docs.gitlab.com/ee/development/documentation/styleguide/#active-voice)
 - [Customer perspective](https://docs.gitlab.com/ee/development/documentation/styleguide/#customer-perspective)
