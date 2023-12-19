@@ -18,7 +18,7 @@ A page that mixes phrasing is harder for users to parse and looks unprofessional
 If the text on a page doesn't match the latest guidance, or is inconsistent,
 open an issue or ping the Papercuts team.
 
-## How to be consistent
+### How to be consistent
 
 To be consistent, follow style guidance in this order:
 
@@ -42,11 +42,11 @@ In addition:
 
 ## Brevity
 
-Users will skim content, rather than read text carefully. Copy should be concise and short whenever possible. A long message or label is a red flag hinting at a design that needs improvement.
+Users will skim content, rather than read text carefully. Copy should be concise and short whenever possible. A long message or label indicates a design that might need improvement.
 
 When familiar with a web app, users rely on muscle memory and may read even less when moving quickly. A good experience should quickly orient a user, regardless of their experience, to the purpose of the current screen. Understanding should happen without the user having to consciously read long strings of text.
 
-In general, text is burdensome and adds cognitive load. This load is even more pronounced in a powerful productivity tool such as GitLab. We shouldn’t rely on words as a crutch to explain the purpose of a screen. Instead, the current navigation and composition of on-screen elements should get the user 95% there, with the remaining 5% being specific elements such as text.
+In general, text is burdensome and adds cognitive load. This load is even more pronounced in a powerful productivity tool such as GitLab. We shouldn’t rely on words to explain the purpose of a screen. Instead, the current navigation and composition of on-screen elements should get the user 95% there, with the remaining 5% being specific elements such as text.
 
 Brevity is especially important for:
 
@@ -61,6 +61,16 @@ For each of these content types, look for ways you might rephrase text that seem
 | --- |  ---  |
 | To link Sentry to GitLab, enter your Sentry URL and Auth Token. | In order to link Sentry to GitLab, enter your Sentry URL and Auth Token. |
 | Use this token to validate received payloads. | Use this token to validate the received payloads. |
+
+### When extra words provide clarity
+
+Sometimes an extra word or two are required for clarity.
+
+For example, if the context clearly refers to the object, you can use a verb or adjective by itself.
+- **Example:** `Edit` or `Closed`
+
+If the context isn’t clear enough, use an object.
+- **Example:** `Edit issue` or `Closed issues`
 
 ## Clear error messages
 
