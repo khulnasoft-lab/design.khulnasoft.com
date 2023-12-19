@@ -14,12 +14,12 @@ The main function of color is to optimize the visual presentation of content by 
 
 ### Concepts
 
+- Surfaces are top lit by a single, invisible, white-light source.
 - Surfaces reflect light and don't emit it.
 - Forward elements are lighter and receding ones are darker.
 - In a light UI, surfaces are made of light materials and text uses darker colors.
 - In a dark UI, surfaces are made of dark materials and text uses lighter colors.
 - UI elements, like buttons and alerts, rely on chromatic hues and neutrals for meaning and hierarchy, and adapt contrast based on the surface.
-- Surfaces are top lit by a single, invisible, white-light source.
 
 ## UI
 
