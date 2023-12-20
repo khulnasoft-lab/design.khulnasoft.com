@@ -16,7 +16,7 @@ or following the latest style guidance, go with consistency.
 A page that mixes phrasing is harder for users to parse and looks unprofessional.
 
 If the text on a page doesn't match the latest guidance, or is inconsistent,
-open an issue or ping the Papercuts team.
+create a merge request, open an issue, or [ping the Papercuts team](https://handbook.gitlab.com/handbook/product/ux/product-designer/#suggesting-paper-cuts-to-the-team).
 
 ### How to be consistent
 
