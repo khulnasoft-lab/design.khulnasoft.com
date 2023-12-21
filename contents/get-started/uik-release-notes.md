@@ -2,9 +2,19 @@
 name: Release notes
 ---
 
+## 16.9
+
+<!-- Update draft link once MR is created -->
+[_Draft: 16.9 release notes_](TBD)
+
 ## 16.8
 
-[_Draft: 16.8 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3669)
+<!-- Update publish date-->
+<small>Published 2024-01-XX</small>
+
+### Additions
+
+- Added the `10` step for all theme color styles. For example, `$t-blue-10 :: #E6ECF0`. More details in [!3871](https://gitlab.com/gitlab-org/gitlab-ui/-/merge_requests/3871#3829ff34663f6062ba80354aeb0153aa6a67939a).
 
 ## 16.7
 
