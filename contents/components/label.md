@@ -25,7 +25,7 @@ related:
 
 ### When to use
 
-<todo>Add when to use.</todo>
+- Use labels to visualise categories created with the [labels feature](https://docs.gitlab.com/ee/user/project/labels.html). 
 
 ### When not to use
 
