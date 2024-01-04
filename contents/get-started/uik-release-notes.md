@@ -15,6 +15,7 @@ name: Release notes
 ### Additions
 
 - Added the `10` step for all theme color styles. For example, `$t-blue-10 :: #E6ECF0`. More details in [!3871](https://gitlab.com/gitlab-org/gitlab-ui/-/merge_requests/3871#3829ff34663f6062ba80354aeb0153aa6a67939a).
+- Added a small (16px) stacked avatar instance to support stacked avatars in list layouts. More details in [!2441](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/2441).
 
 ## 16.7
 
