@@ -2,9 +2,20 @@
 name: Release notes
 ---
 
+## 16.9
+
+<!-- Update draft link once MR is created -->
+[_Draft: 16.9 release notes_](TBD)
+
 ## 16.8
 
-[_Draft: 16.8 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3669)
+<!-- Update publish date-->
+<small>Published 2024-01-XX</small>
+
+### Additions
+
+- Added the `10` step for all theme color styles. For example, `$t-blue-10 :: #E6ECF0`. More details in [!3871](https://gitlab.com/gitlab-org/gitlab-ui/-/merge_requests/3871#3829ff34663f6062ba80354aeb0153aa6a67939a).
+- Added a small (16px) [**stacked&nbsp;avatar**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=1833-2791&mode=design&t=VXWJcH1lk47GpFn9-11) instance to support stacked avatars in list layouts. More details in [!2441](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/2441).
 
 ## 16.7
 
