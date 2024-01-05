@@ -17,7 +17,7 @@ componentLabel: form-select
 ## Guidelines
 
 ### When to use
-
+- Indicate a selection of only one from a list of options.
 - To present sort options when the sort order button isn't required (see the [sorting](/components/sorting) component for a comparison).
 
 ### When not to use
