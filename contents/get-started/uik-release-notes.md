@@ -17,6 +17,10 @@ name: Release notes
 - Added the `10` step for all theme color styles. For example, `$t-blue-10 :: #E6ECF0`. More details in [!3871](https://gitlab.com/gitlab-org/gitlab-ui/-/merge_requests/3871#3829ff34663f6062ba80354aeb0153aa6a67939a).
 - Added a small (16px) [**stacked&nbsp;avatar**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=1833-2791&mode=design&t=VXWJcH1lk47GpFn9-11) instance to support stacked avatars in list layouts. More details in [!2441](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/2441).
 
+### Enhancements
+
+- Aligned the design spec for [**stacked&nbsp;avatars**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=1833-2791&mode=design&t=VXWJcH1lk47GpFn9-11) with the latest changes in [!2441](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/2441). Namely, use a mask instead of border for the mask cutout effect, reduce the cutout effect from `2px` to `1.5px`, reduce badge padding, and add hover and focus instance examples.
+
 ## 16.7
 
 <small>Published 2023-12-19</small>
