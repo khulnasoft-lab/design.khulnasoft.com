@@ -150,9 +150,9 @@ By default a submit button is enabled. Do not use a disabled submit button to vi
 - A disabled button can be missed by a screen reader, leaving a user unsure of what to do next.
 - Disabled elements typically have lower contrast, which are difficult distinguish for those with visual impairments.
 
-Consider using a contextual message to indicate if additional action is needed. There are conditions where it may make sense to use the `disabled` prop, such as after a user submits a form to prevent re-submission.
+Consider using a contextual message to indicate if additional action is needed instead. 
 
-Including help text below a field explaining why it's disabled can be useful, but note that a disabled element isn't in the focus order. However, the content will still be discoverable with other screen reader methods.
+There are conditions where it may make sense to use the `disabled` prop on a submit button, such as after a user submits a form to prevent re-submission. Including help text below a field explaining why it's disabled can be useful, but note that a disabled element isn't in the focus order. However, the content will still be discoverable with other screen reader methods.
 
 #### Quick submit
 
