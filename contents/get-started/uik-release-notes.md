@@ -5,12 +5,12 @@ name: Release notes
 ## 16.9
 
 <!-- Update draft link once MR is created -->
-[_Draft: 16.9 release notes_](TBD)
+[_Draft: 16.9 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3688)
 
 ## 16.8
 
 <!-- Update publish date-->
-<small>Published 2024-01-XX</small>
+<small>Published 2024-01-12</small>
 
 ### Additions
 
