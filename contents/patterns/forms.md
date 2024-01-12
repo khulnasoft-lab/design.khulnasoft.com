@@ -148,7 +148,7 @@ By default a submit button is enabled. Do not use a disabled submit button to vi
 
 - There is no mechanism to attempt to proceed or remediate unknown errors.
 - A disabled button can be missed by a screen reader, leaving a user unsure of what to do next.
-- Disabled elements typically have lower contrast, which are difficult distinguish for those with visual impairments.
+- Disabled elements typically have lower contrast, which are difficult to distinguish for those with visual impairments.
 
 Consider using a contextual message to indicate if additional action is needed instead. 
 
