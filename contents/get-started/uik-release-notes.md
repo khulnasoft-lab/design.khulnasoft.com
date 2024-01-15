@@ -20,7 +20,7 @@ name: Release notes
 
 ### Enhancements
 
-- Aligned the design spec for [**stacked&nbsp;avatars**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=1833-2791&mode=design&t=VXWJcH1lk47GpFn9-11) with the latest changes in [!2441](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/2441). Namely, use a mask instead of border for the mask cutout effect, reduce the cutout effect from `2px` to `1.5px`, reduce badge padding, and add hover and focus instance examples.
+- Aligned the design spec for [**stacked&nbsp;avatars**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=1833-2791&mode=design&t=VXWJcH1lk47GpFn9-11) with the latest changes in [!2441](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/2441). Changes include using a mask instead of border for the mask cutout effect, reducing the cutout effect from `2px` to `1.5px`, reducing badge padding, and adding hover and focus instance examples.
 
 ## 16.7
 
