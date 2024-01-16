@@ -14,7 +14,7 @@ name: Release notes
 
 ### Additions
 
-- Added the `10` step for all theme color styles. For example, `$t-blue-10 :: #E6ECF0`. More details in [!3871](https://gitlab.com/gitlab-org/gitlab-ui/-/merge_requests/3871#3829ff34663f6062ba80354aeb0153aa6a67939a).
+- Added an additional, lighter color step (`10`) for all [theme color styles](/product-foundations/color#themes) as used in the navigation. For example, `$t-blue-10 :: #E6ECF0`. More details in [!3871](https://gitlab.com/gitlab-org/gitlab-ui/-/merge_requests/3871#3829ff34663f6062ba80354aeb0153aa6a67939a).
 - Added a small (16px) [**stacked&nbsp;avatar**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=1833-2791&mode=design&t=VXWJcH1lk47GpFn9-11) instance to support stacked avatars in list layouts. More details in [!2441](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/2441).
 - Added the following illustration: [**devops-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/devops-sm.svg)
 
