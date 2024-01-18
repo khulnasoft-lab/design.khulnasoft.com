@@ -43,15 +43,16 @@ related:
 
 ### Behavior
 
-- Use an [ellipsis button](/components/button) to hide groups when there are three or more subgroups in the path.
-- Use an [ellipsis button](/components/button) to hide all Wiki page breadcrumb items except the current page.
-- The top-level group and the subgroup closest to the project are never collapsed.
+- Use an [ellipsis button](/components/button) when there is not enough space to show the full path
+- The first item in the breadcrumb list will collapse into the [ellipsis button](/components/button)
+- Collapsed items are revealed with a dropdown when selecting the [ellipsis button](/components/button)
 - All breadcrumb items, except the last one, are truncated to 128px if there isn't enough horizontal space to fit them on one line.
 
 ### Content
 
 - Ignore the **GitLab** instance name in the breadcrumb.
 - For a page that presents the details of an individual item (issue, merge request, snippet, pipeline, job, milestone, commit, tag, environment, cluster, pipeline schedule), the last element of the breadcrumb should include the ID of the element. For example, merge request **!1234** becomes **GitLab.org > GitLab > Merge requests > !1234**.
+- For the Wiki, the pages should not be displayed in the breadcrumb list. Only the root page for Wiki will be displayed.
 - For a page that allows users to create a new item, the last element of the breadcrumb should include the word _New_ followed by the name of the element. For example: **GitLab.org > GitLab > Issues > New** becomes **GitLab.org > GitLab > Issues > New issue**. Only using the label _New_ may cause confusion when translating GitLab into different languages. 
 - For a contextual page within the navigation, the breadcrumb should only include the submenu title. For example, **Overview > Details** becomes just **Details**.
 - [Use sentence case](/content/punctuation#case) for each breadcrumb element.
