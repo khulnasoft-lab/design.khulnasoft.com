@@ -51,6 +51,7 @@ related:
 ### Content
 
 - Ignore the **GitLab** instance name in the breadcrumb.
+- Every item must contain a link to the page its associated with.
 - The breadcrumb should include the name of the context matching the navigation sidebar.
 - For a page that presents the details of an individual item (issue, merge request, snippet, pipeline, job, milestone, commit, tag, environment, cluster, pipeline schedule), the last element of the breadcrumb should include the ID of the element. For example, merge request **!1234** becomes **GitLab.org / GitLab / Merge requests / !1234**.
 - Pages within a Wiki should not be displayed in the breadcrumb list.
