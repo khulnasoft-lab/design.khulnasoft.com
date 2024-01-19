@@ -28,7 +28,7 @@ related:
 
 ### When to use
 
-- A breadcrumb should exist on every page of the application, except for register and profile, to show the hierarchy of parent and child pages in the context of the current page where the current page is the last item in the list.
+- A breadcrumb should exist on every page of the application, except for register and sign in, to show the hierarchy of parent and child pages in the context of the current page where the current page is the last item in the list.
 
 ### When not to use
 
