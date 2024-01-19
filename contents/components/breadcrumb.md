@@ -56,6 +56,7 @@ related:
 - Pages within a Wiki should not be displayed in the breadcrumb list.
 - For a page that allows users to create a new item, the last element of the breadcrumb should include the word _New_ followed by the name of the element. For example: **GitLab.org / GitLab / Issues / New** becomes **GitLab.org / GitLab / Issues / New issue**. Only using the label _New_ may cause confusion when translating GitLab into different languages. 
 - [Use sentence case](/content/punctuation#case) for each breadcrumb element.
+- Collections titles are not included in the breadcrumb.
 
 #### Special breadcrumbs
 
@@ -63,16 +64,10 @@ Some pages have a special breadcrumb path to make the text intuitive. They are d
 
 | Path                                      | Title in breadcrumb                          |
 | ----------------------------------------- | -------------------------------------------- |
-| Group / Issues / List                     | Group / Issues                               |
-| Group / Issues / Boards                   | Group / Issue boards                         |
 | Group / Settings / General                | Group / General settings                     |
-| Group / Settings / CI / CD                | Group / CI / CD settings                     |
-| Group / Project / Repository / Files      | Group / Project / Repository                 |
+| Group / Settings / CI/CD                | Group / CI/CD settings                     |
 | Group / Project / Repository / Compare    | Group / Project / Compare revisions          |
-| Group / Project / Repository / Charts     | Group / Project / Contribution charts        |
-| Group / Project / Issues / List           | Group / Project / Issues                     |
-| Group / Project / Issues / Boards         | Group / Project / Issue boards               |
-| Group / Project / CI / CD / Charts        | Group / Project / CI/CD charts               |
+| Group / Project / Repository graph     | Group / Project / Graph        |
 | Group / Project / Settings / General      | Group / Project / General settings           |
 | Group / Project / Settings / Integrations | Group / Project / Integration settings       |
 | Group / Project / Settings / Repository   | Group / Project / Repository settings        |
@@ -80,7 +75,7 @@ Some pages have a special breadcrumb path to make the text intuitive. They are d
 | User settings / Profile                   | User settings / Edit profile                 |
 | User settings / Password                  | User settings / Edit password                |
 | Admin area / System hooks / Edit          | Admin area / System hooks / Edit system hook |
-| Admin area / Label / Edit                 | Admin area / Labels / Edit label             |
+| Admin area / Labels / Edit                 | Admin area / Labels / Edit label             |
 
 ### Accessibility
 
