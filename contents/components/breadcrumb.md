@@ -32,7 +32,7 @@ related:
 
 ### When not to use
 
-- If you need to link to sibling or related pages, use a form of [navigation](/patterns/navigation) instead.
+- If you need to link to sibling or related pages
 
 ### Appearance
 
