@@ -48,7 +48,6 @@ related:
 - One radio button should be selected as the default choice by using the `checked` attribute.
 - Users are able to select an option with click/tap on the radio button or its label.
 - Selecting one option unselects all others.
-- Avoid mixing radio groups with interactive elements. Nesting may prevent screen reader users from discovering a nested control.
 
 ### Content
 
@@ -66,4 +65,6 @@ related:
 
 ### Accessibility
 
-<todo>Add accessibility specifications.</todo>
+- Do not include nested or additional elements within a radio group. Nesting may prevent screen reader users from discovering a nested control.
+
+<todo>Add additional accessibility specifications.</todo>
