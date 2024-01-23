@@ -65,4 +65,6 @@ related:
 
 ### Accessibility
 
-<todo>Add accessibility specifications.</todo>
+- Do not include nested or additional elements within a radio group. Nesting may prevent screen reader users from discovering a nested control.
+
+<todo>Add additional accessibility specifications.</todo>
