@@ -28,24 +28,24 @@ related:
 
 ### When to use
 
-- A breadcrumb should exist on every page of the application, except for register and sign in, to show the hierarchy of parent and child pages in the context of the current page where the current page is the last item in the list.
+- A breadcrumb should exist on every page of the application, except for the register and sign in page, to show the hierarchy in the context of the current page.
 
 ### When not to use
 
-- If you need to link to sibling or related pages
+- If you need to link to sibling or related pages.
 
 ### Appearance
 
-- An avatar can appear to the left of the text for any group, project, or user link in the breadcrumb.
+- An avatar can appear to the left of the text for any group or project in the breadcrumb.
 - A bottom border may be applied to a parent container to visually distinguish the breadcrumb from the content of the page.
 
 <todo>Update border related appearance notes as a result of [!3262](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3263#note_1283440645).</todo>
 
 ### Behavior
 
-- The full breadcrumb path should reamin visible when possible.
+- The full breadcrumb path should reamin visible when there enough horizontal space to fit on one line.
 - When space is limited, use an [ellipsis button](/components/button) to collapse links from left to right.
-- Collapsed items are revealed with a dropdown when selecting the [ellipsis button](/components/button).
+- Collapsed items are revealed with a flat heirarchy in a [simple disclosure dropdown](components/dropdown-disclosure) when selecting the [ellipsis button](/components/button).
 - All breadcrumb items, except the last one, are truncated to 128px if there isn't enough horizontal space to fit them on one line.
 
 ### Content
