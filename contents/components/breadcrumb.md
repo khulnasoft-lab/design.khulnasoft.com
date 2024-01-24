@@ -45,7 +45,7 @@ related:
 
 - The full breadcrumb path should reamin visible when there enough horizontal space to fit on one line.
 - When space is limited, use an [ellipsis button](/components/button) to collapse links from left to right.
-- Collapsed items are revealed with a flat heirarchy in a [simple disclosure dropdown](components/dropdown-disclosure) when selecting the [ellipsis button](/components/button).
+- Collapsed items are revealed with a flat heirarchy in a [simple disclosure dropdown](/components/dropdown-disclosure) when selecting the [ellipsis button](/components/button).
 - All breadcrumb items, except the last one, are truncated to 128px if there isn't enough horizontal space to fit them on one line.
 
 ### Content
