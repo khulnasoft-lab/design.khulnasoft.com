@@ -56,7 +56,8 @@ In the UI, use the [`tanuki-ai`](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~ta
 
 #### Illustration
 
-The [`tanuki-ai-md` and `tanuki-ai-sm`](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=tanuki-ai) illustrations serve the purpose of promoting and associating AI related features within the UI.
+The [`tanuki-ai-md`](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/tanuki-ai-md.svg) and [`tanuki-ai-sm`](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/tanuki-ai-sm.svg) illustrations serve the purpose of promoting and associating AI related features within the UI.
+
 _The illustration is currently a [work in progress](https://gitlab.com/gitlab-org/gitlab-svgs/-/issues/400), and its final version is still in development._
 
 #### Color
