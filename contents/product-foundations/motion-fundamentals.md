@@ -28,9 +28,9 @@ The main function of motion is to help users understand the UI by highlighting r
 
 Add motion purposefully, supporting the experience without overshadowing it. Don’t add motion for the sake of adding motion. Gratuitous or excessive animation can distract people or make them feel disconnected, especially in an app that doesn’t provide an immersive experience.
 
-1. **Be realistic.** To achieve a natural feel, animations should mirror traits from the real world such as acceleration, gravity, and volume.
-1. **Be purposeful.** Add animations purposefully to support the user experience without overshadowing it. Animations should assist users rather than distract them or make them feel disconnected.
-1. **Be optional and accessible.** Respect users’ motion preferences using `prefers-reduced-motion` CSS Media Query. Keyboard event animation should be more noticeable.
+* **Be realistic.** To achieve a natural feel, animations should mirror traits from the real world such as acceleration, gravity, and volume.
+* **Be purposeful.** Add animations purposefully to support the user experience without overshadowing it. Animations should assist users rather than distract them or make them feel disconnected.
+* **Be optional and accessible.** Respect users’ motion preferences using `prefers-reduced-motion` CSS Media Query. Keyboard event animation should be more noticeable.
 
 
 ## Types of animations
