@@ -43,21 +43,21 @@ related:
 
 ### Behavior
 
-- The full breadcrumb path should reamin visible when there enough horizontal space to fit on one line.
+- The full breadcrumb path should remain visible when there's enough horizontal space to fit on one line.
 - When space is limited, use an [ellipsis button](/components/button) to collapse links from left to right.
-- Collapsed items are revealed with a flat heirarchy in a [simple disclosure dropdown](/components/dropdown-disclosure) when selecting the [ellipsis button](/components/button).
-- All breadcrumb items, except the last one, are truncated to 128px if there isn't enough horizontal space to fit them on one line.
+- Collapsed items are revealed with a flat hierarchy in a [simple disclosure dropdown](/components/dropdown-disclosure) when selecting the ellipsis button.
+- All but the last breadcrumb item is truncated to 128px if there isn't enough horizontal space to fit them on one line.
 
 ### Content
 
 - Ignore the **GitLab** instance name in the breadcrumb.
-- Every item must contain a link to the page its associated with.
+- Every item must contain a link to the page it's associated with.
 - The breadcrumb should include the name of the context matching the navigation sidebar.
-- For a page that presents the details of an individual item (issue, merge request, snippet, pipeline, job, milestone, commit, tag, environment, cluster, pipeline schedule), the last element of the breadcrumb should include the ID of the element. For example, merge request **!1234** becomes **GitLab.org / GitLab / Merge requests / !1234**.
-- Pages within a Wiki should not be displayed in the breadcrumb list.
-- For a page that allows users to create a new item, the last element of the breadcrumb should include the word _New_ followed by the name of the element. For example: **GitLab.org / GitLab / Issues / New** becomes **GitLab.org / GitLab / Issues / New issue**. Only using the label _New_ may cause confusion when translating GitLab into different languages. 
+- For a page that presents the details of an individual item (issue, merge request, snippet, pipeline, job, milestone, commit, tag, environment, cluster, pipeline schedule), the last breadcrumb element should include the element's ID. For example, merge request **!1234** is represented as **GitLab.org / GitLab / Merge requests / !1234**.
+- Pages within a wiki should not be displayed in the breadcrumb list.
+- For a page that allows a user to create a new item, the last breadcrumb element should include the word _New_ followed by the name of the element. For example, **GitLab.org / GitLab / Issues / New** becomes **GitLab.org / GitLab / Issues / New issue**. Only using the _New_ text may cause confusion when translating GitLab into different languages. 
 - [Use sentence case](/content/punctuation#case) for each breadcrumb element.
-- Collections titles are not included in the breadcrumb.
+- Collection titles are not included in the breadcrumb.
 
 #### Special breadcrumbs
 
@@ -66,17 +66,17 @@ Some pages have a special breadcrumb path to make the text intuitive. They are d
 | Path                                      | Title in breadcrumb                          |
 | ----------------------------------------- | -------------------------------------------- |
 | Group / Settings / General                | Group / General settings                     |
-| Group / Settings / CI/CD                | Group / CI/CD settings                     |
+| Group / Settings / CI/CD                  | Group / CI/CD settings                       |
 | Group / Project / Repository / Compare    | Group / Project / Compare revisions          |
-| Group / Project / Repository graph     | Group / Project / Graph        |
+| Group / Project / Repository graph        | Group / Project / Graph                      |
 | Group / Project / Settings / General      | Group / Project / General settings           |
 | Group / Project / Settings / Integrations | Group / Project / Integration settings       |
 | Group / Project / Settings / Repository   | Group / Project / Repository settings        |
-| Group / Project / Settings / CI/CD      | Group / Project / CI/CD settings             |
+| Group / Project / Settings / CI/CD        | Group / Project / CI/CD settings             |
 | User settings / Profile                   | User settings / Edit profile                 |
 | User settings / Password                  | User settings / Edit password                |
 | Admin area / System hooks / Edit          | Admin area / System hooks / Edit system hook |
-| Admin area / Labels / Edit                 | Admin area / Labels / Edit label             |
+| Admin area / Labels / Edit                | Admin area / Labels / Edit label             |
 
 ### Accessibility
 
