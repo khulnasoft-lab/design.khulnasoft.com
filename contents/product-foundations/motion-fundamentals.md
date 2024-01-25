@@ -24,6 +24,8 @@ We can say something to our users without using words. Motion is an essential pa
 
 ## Principles
 
+The main function of motion is to help users understand the UI by highlighting relationships, indicating interaction, and guiding attention.
+
 Add motion purposefully, supporting the experience without overshadowing it. Don’t add motion for the sake of adding motion. Gratuitous or excessive animation can distract people or make them feel disconnected, especially in an app that doesn’t provide an immersive experience.
 
 1. **Be realistic.** To achieve a natural feel, animations should mirror traits from the real world such as acceleration, gravity, and volume.
@@ -50,22 +52,21 @@ Easing specifies the rate of change of a parameter over time. Adding an easing c
 | --- | --- | --- |
 | <video tabindex="0" preload="true" autoplay="true" controls="" loop="true" playsinline="true" aria-label="" width="400"><source src="/video/easing-default.mp4"></video> | `$gl-easing-default` | `ease` |
 | <video tabindex="0" preload="true" autoplay="true" controls="" loop="true" playsinline="true" aria-label="" width="400"><source src="/video/easing-out-cubic.mp4"></video> | `$gl-easing-out-cubic` | `cubic-bezier(0.22, 0.61, 0.36, 1)` |
-|  |  |  |
 
 <note>The table will be updated by adding other animation types</note>
 
 
 ## Timings
 
-The scale of an animation, its easing curve, and the complexity of the element which is being animated should influence the total animation duration. This means the further the traveled distance and the more complex the animated object, the longer the timing for the animation should be.
+Timing is how long a motion takes from start to end. The scale of an animation, its easing curve, and the complexity of the element which is being animated should influence the total animation duration. This means the further the traveled distance and the more complex the animated object, the longer the timing for the animation should be.
 
-| Variable | Value | Description |
+| Variable | Value | Use |
 | --- | --- | --- |
-| `$gl-timing-200` | `200ms` | Used for simple transitions, like color change. Keyboard focus. For example [Button](../components/button), [Text input](../components/text-input), [Textarea](../components/textarea), [Breadcrumb](../components/breadcrumb), etc. |
+| `$gl-timing-200` | `200ms` | color changes, keyboard focus |
 | `$gl-timing-300` | `300ms` |  |
 | `$gl-timing-400` | `400ms` |  |
-| `$gl-timing-500` | `500ms` | Mouse focus for small elements, like [Checkbox](../components/checkbox) |
-| `$gl-timing-600` | `600ms` | Used for long distances ([Drawer](../components/drawer)) and complex transitions (mouse focus) |
+| `$gl-timing-500` | `500ms` | action feedback |
+| `$gl-timing-600` | `600ms` | position changes, complex transitions |
 
 <note>The table will be updated by adding other animation types</note>
 
