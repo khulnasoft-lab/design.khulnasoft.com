@@ -50,7 +50,7 @@ Beta and Experiment features are subject to legal terms.
 
 <figure-img label="Example of legal disclaimer" src="/img/legal-disclaimer-exp-beta.svg">
 
-Display the terms in any settings related to the feature, using the following UI text:
+Display the terms next to settings that will enable the feature, using the following UI text:
 
 | Group setting (single feature) | Group setting (multiple features) | User setting (single feature) | User setting (multiple features) |
 | ------ | ------ | ------ | ------ |
