@@ -29,6 +29,10 @@ By default, heading levels are mapped to the heading scale. However, in some cas
 
 When in doubt, use the scale by default, consider the full page context, and reference existing patterns.
 
+#### Display heading
+
+Use a display heading for a more expressive page title. This larger size can help establish visual heirarchy, and should only be used if it will better support the users intention or task. Display heading's are always `<h1>` elements.
+
 <todo>Provide more guidelines and examples of scale overrides.</todo>
 
 <todo>Add UI kit links after [#1527](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1527) has been completed.</todo>
@@ -41,6 +45,7 @@ There are two sets of heading mixins and utility classes:
 
 - `gl-heading-{1-6}` mixins and classes are the preferred approach to implementing heading typography. Usage should align with semantic heading levels, for example, `<h2 class="gl-heading-2">...</h2>`.
 - `gl-heading-scale-{100-800}` mixins and classes are available for [contextual adjustments](#contextual-adjustments) where the semantic heading scale doesn't provide the desired visual hierarchy. However, the recommendation is to use the default scale and avoid contextual adjustments as much as possible.
+- `gl-heading-display` class is available to create a [display heading](#display-heading).
 
 #### Margins
 
