@@ -41,7 +41,6 @@ Things to consider:
   - Empty state's already include a title (`h1`) and description.
 - Use buttons for specific actions related to increasing the adoption of a feature.
 - When directing to documentation, use [text links](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/regions-empty-state--custom-actions) instead of buttons.
-  - Open documentation in a new tab so the user can stay in their existing workflow while learning about the feature.
 
 
 ## Use cases
