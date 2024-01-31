@@ -28,17 +28,11 @@ This is just one example. Each case will be unique and should be thought of as a
 All empty state solutions should include usage analytics so you and your team can measure and improve the empty state solution you've created over time. It‘s also important to think about this as a *solution*, much like any other solution being developed in your stage group, so continue to follow the [solution validation](https://about.gitlab.com/handbook/product/ux/ux-research/solution-validation-and-methods/) process.
 
 
-## Guidelines
+## Considerations
 
-### Visual heirarchy
-
-It's important to consider surrounding page elements when using an empty state. Since empty state's include one or more actions, pages can become cluttered and unfocused if too many elements are shown at once.
-
-Things to consider:
-- Use one primary button per context. 
-  - Pages often include buttons in their headers so check for buttons that need to be hidden when the empty state is active.
-- Avoid duplication. Subtitles and feature descriptions often compete with empty states.
-  - Empty state's already include a title (`h1`) and description.
+- Be aware of surrounding page elements. Since an empty state includes one or more actions, the rest of the page can likely be more sparse to emphasize the action the user should take.
+- If possible, use one primary [button](/components/button) per context. Some pages include a primary button in the header that may need to be hidden when the empty state is active.
+- Avoid duplicating content elsewhere in the page that's already present in the empty state heading and description.
 - Use buttons for specific actions related to increasing the adoption of a feature.
 - When directing to documentation, use [text links](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/regions-empty-state--custom-actions) instead of buttons.
 
