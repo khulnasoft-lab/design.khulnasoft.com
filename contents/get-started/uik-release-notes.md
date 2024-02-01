@@ -9,7 +9,7 @@ name: Release notes
 
 ### Additions
 
-- Added the following icons: [**dash-circle**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~dash-circle)
+- Added the following icons: [**dash-circle**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~dash-circle), [**partner-verified**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~partner-verified)
 - Added the following illustrations: [**empty-job-failed-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-state/empty-job-failed-md.svg), [**empty-job-manual-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-state/empty-job-manual-md.svg), [**tanuki-ai-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/tanuki-ai-md.svg), [**tanuki-ai-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/tanuki-ai-sm.svg), [**empty-devops-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/devops-sm.svg).
 
 ### Removals
