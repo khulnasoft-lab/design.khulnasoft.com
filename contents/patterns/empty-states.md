@@ -23,7 +23,7 @@ While we do provide a [fallback solution](#fallback) for empty state regions, *f
 
 This is just one example. Each case will be unique and should be thought of as a problem to solve while keeping the [3 main goals in mind](#goals). 
 
-## Analytics & testing
+## Analytics and testing
 
 All empty state solutions should include usage analytics so you and your team can measure and improve the empty state solution you've created over time. It‘s also important to think about this as a *solution*, much like any other solution being developed in your stage group, so continue to follow the [solution validation](https://about.gitlab.com/handbook/product/ux/ux-research/solution-validation-and-methods/) process.
 
