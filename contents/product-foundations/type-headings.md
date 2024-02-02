@@ -31,7 +31,7 @@ When in doubt, use the scale by default, consider the full page context, and ref
 
 #### Display heading
 
-Use a display heading for a more expressive page title. This larger size can help establish visual heirarchy, and should only be used if it will better support the users intention or task. Display heading's are always `<h1>` elements.
+A display style can be applied to a level 1 heading to emphasize the text in a more promotional manner. The larger size and weight creates a stronger visual anchor compared to other text on the page.
 
 <todo>Provide more guidelines and examples of scale overrides.</todo>
 
