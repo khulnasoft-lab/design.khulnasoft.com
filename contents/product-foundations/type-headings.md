@@ -41,10 +41,11 @@ A display style can be applied to a level 1 heading to emphasize the text in a m
 
 ### Classes
 
-- Heading mixins and utility classes:
-  - `gl-heading-{1-6}` mixins and classes are the preferred approach to implementing heading typography. Usage should align with semantic heading levels, for example, `<h2 class="gl-heading-2">...</h2>`.
-  - `gl-heading-display` class is available to create a [display heading](#display-heading).
-  - `gl-heading-scale-{100-800}` mixins and classes are available for [contextual adjustments](#contextual-adjustments) where the semantic heading scale doesn't provide the desired visual hierarchy. However, the recommendation is to use the default scale and avoid contextual adjustments as much as possible.
+Heading mixins and utility classes:
+
+- `gl-heading-{1-6}` mixins and classes are the preferred approach to implementing heading typography. Usage should align with semantic heading levels, for example, `<h2 class="gl-heading-2">...</h2>`.
+- `gl-heading-display` class is available to create a [display heading](#display-heading).
+- `gl-heading-scale-{100-800}` mixins and classes are available for [contextual adjustments](#contextual-adjustments) where the semantic heading scale doesn't provide the desired visual hierarchy. However, the recommendation is to use the default scale and avoid contextual adjustments as much as possible.
 
 #### Margins
 
