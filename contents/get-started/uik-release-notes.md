@@ -150,8 +150,6 @@ name: Release notes
 
 <small>Published 2023-08-22</small>
 
-<note>When possible, links in the release notes will open in Figma's [Dev Mode](https://www.figma.com/dev-mode/) for faster inspection, and to prevent unwanted editing of objects when a user has edit permissions.</note>
-
 ### Additions
 
 - Added component-specific heading text styles for alert, banner, drawer, and modal. More details in [#1652](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1652) and in the **Changes** section below.
