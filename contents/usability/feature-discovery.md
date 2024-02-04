@@ -45,6 +45,10 @@ Design elements, like [icons](/product-foundations/iconography/icons) and [badge
 
 <img class="gl-display-block gl-mx-auto gl-mt-7" src="/img/visual-cues.png" width="356" alt="Visual cues example" />
 
+When grouping features using an accordion, put the badge on the feature to allow for different combinations of individual feature promotion within the accordion ([Origin: !138544](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/138544#note_1755770649))
+
+<img class="gl-display-block gl-mx-auto gl-mt-7" src="/img/badge-inside-accordion.png" alt="Badge inside accordion example" />
+
 ### Banners
 
 A [banner](/components/banner) can promote awareness of a new feature, but should be used sparingly. A banner that doesn't match the user's current context can feel irrelevant and contribute to banner blindness or fatigue. A user might start ignoring _all_ banners without fully reading the content. 
