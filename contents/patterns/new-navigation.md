@@ -10,9 +10,7 @@ The navigation is a consistenly available user interface element that contains f
 
 ### Layout
 
-<figure-img alt="Navigation layout" label="A layout of the navigation structure" src="/img/navigation.svg"></figure-img>
-
-<figure-img alt="Numbered diagram of a form" label="Form structure" src="/img/form-structure.svg"></figure-img>
+<figure-img alt="Navigation layout" label="A layout of the navigation structure" src="/img/navigation-layout.svg"></figure-img>
 
 1. Header
 1. Body
