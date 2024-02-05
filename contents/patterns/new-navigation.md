@@ -6,11 +6,13 @@ Users rely on the navigation to move around and orient themselves in GitLab. Thi
 
 ## Overview
 
-The navigation is a consistenly available user interface element that contains functionality for moving around GitLab as well as for accomplishing core tasks. The navigation is made up of two main components: The navigation sidebar and the [breadcrumb](/components/breadcrumb.md). These components were designed to work together within the bigger picture of [page templates](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1556) to invoke a sense of reliable wayfinding. 
+The navigation is a consistenly available user interface element that contains functionality for moving around GitLab as well as for accomplishing core tasks. The navigation is made up of two main components: The navigation sidebar and the [breadcrumb](/components/breadcrumb). These components were designed to work together within the bigger picture of [page templates](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1556) to invoke a sense of reliable wayfinding. 
 
 ### Layout
 
 <figure-img alt="Navigation layout" label="A layout of the navigation structure" src="/img/navigation.svg"></figure-img>
+
+<figure-img alt="Numbered diagram of a form" label="Form structure" src="/img/form-structure.svg"></figure-img>
 
 1. Header
 1. Body
