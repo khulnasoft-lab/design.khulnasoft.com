@@ -407,10 +407,6 @@
             "path": "merge-request-reports"
           },
           {
-            "title": "New Navigation",
-            "path": "new-navigation"
-          },
-          {
             "title": "Navigation",
             "path": "navigation"
           },
