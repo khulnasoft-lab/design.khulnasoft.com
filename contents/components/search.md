@@ -38,7 +38,7 @@ related:
 ### Variants
 
 1. **Search by typing**: This pattern doesn't use a button to trigger the search. When users start typing the search action triggers after a short delay. In order to communicate that a search is being performed, a spinner is added in the right corner of the search box. A magnifying glass icon is placed in the left corner of the search box to indicate to the user that the input is a search field. Narrowing down a large list of results as a user types can create performance issues. Consider using the Search by confirmation pattern below if performance is a concern.
-1. **Search by confirmation**: This pattern is visually different from the one above because users interact with it differently. The magnifying glass icon placed is inside the button which triggers the search action. The presence of the button indicates the need for confirmation to trigger the search. Pressing “Enter” also triggers the action. A dropdown containing search history is commonly used as an addition to the search by confirmation pattern.
+1. **Search by confirmation**: This pattern is visually different from the one above because users interact with it differently. The magnifying glass icon is placed inside the button which triggers the search action. The presence of the button indicates the need for confirmation to trigger the search. Pressing “Enter” also triggers the action. A dropdown containing search history is commonly used as an addition to the search by confirmation pattern.
 
 ### Appearance
 
