@@ -9,7 +9,7 @@ Users rely on the navigation to move around and orient themselves in GitLab. Thi
 
 ## Overview
 
-The navigation is a consistenly available user interface structure that contains functionality for moving around GitLab as well as for accomplishing core tasks. The navigation is made up of two main components: The navigation sidebar and the [breadcrumb](/components/breadcrumb). These components were designed to work together within the bigger picture of [page templates (draft)](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1556) to invoke a sense of reliable wayfinding. 
+The navigation is a consistently available user interface structure that contains functionality for moving around GitLab as well as for accomplishing core tasks. The navigation is made up of two main components: The navigation sidebar and the [breadcrumb](/components/breadcrumb). These components were designed to work together within the bigger picture of [page templates (draft)](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1556) to invoke a sense of reliable wayfinding.
 
 ### Layout
 
@@ -22,7 +22,7 @@ There are two different versions of the navigation structure in GitLab.
 1. **Header**: Elements specific to the user and available functionality.
 2. **Body**: Elements are interchangable based on context.
 3. **Footer**: Elements available for convenience or tertiary tasks.
-4. **Breadcrumb**: Elements relay the heirarchy to reinforce wayfinding. 
+4. **Breadcrumb**: Elements relay the heirarchy to reinforce wayfinding.
 5. **Top bar (visitors only)**: Elements include External links and calls-to-action.
 
 #### Header elements
@@ -30,10 +30,10 @@ There are two different versions of the navigation structure in GitLab.
 <figure-img alt="Navigation header structure" label="A layout of the header structure within the navigation sidebar" src="/img/navigation-header-structure.svg"></figure-img>
 
 1. **Logo**: [Customizable by Administrators](https://docs.gitlab.com/ee/administration/appearance.html#customize-your-homepage-button). Always links to the [homepage](https://docs.gitlab.com/ee/user/profile/preferences.html#choose-your-homepage).
-2. **Next badge**: Displayed when canary infrastruture is being utilized.
+2. **Next badge**: Displayed when canary infrastructure is being utilized.
 3. **Sidebar button**: Hides the navigation sidebar.
 4. **Create new button**: Dropdown for creation actions based on context.
-5. **User dropodown**: Dropodwn for user related items and actions.
+5. **User dropodown**: Dropdown for user related items and actions.
 6. **Impersonation**: For stopping [impersonation](https://docs.gitlab.com/ee/administration/admin_area.html#user-impersonation) once turned on.
 7. **Shortcuts**: Quick links to items users are responsible for.
 8. **Search**: Opens a modal for navigating, using [global search](https://docs.gitlab.com/ee/user/search/) or the [command palette](https://docs.gitlab.com/ee/user/search/command_palette.html#open-the-command-palette).
@@ -46,7 +46,7 @@ There are two different versions of the navigation structure in GitLab.
 
 1. **Title:** Name of the context for wayfinding, and should always appear at the top of the body.
 2. **Static items:** Always present at the top of the navigational items. Used sparingly.
-3. **Pinned items:** Items that users have choosen for quick access. Only available to authenticated users.
+3. **Pinned items:** Items that users have selected for quick access. Only available to authenticated users.
 4. **Collections:** Contain items classified under a single theme.
 5. **Settings:** A dedicated settings area inside a given context.
 6. **Filters:** Unique option only to Global Search.
@@ -65,7 +65,7 @@ Each context in GitLab has it's own dedicated body. The structure of the body ca
 
 #### Footer elements
 
-1. **Help**: : Dropodwn for helpful resources, updates, and information. Slight differences depending on SaaS and Self Managed.
+1. **Help**: : Dropdown for helpful resources, updates, and information. Slight differences depending on SaaS and Self Managed.
 1. **Admin Area**: Shortcut to jump to the Admin Area. Only visible to Administrators.
 
 #### Top bar elements
@@ -106,9 +106,10 @@ Use these approaches based on item usage:
 ### General
 
 - When the navigation sidebar is hidden, the button to show it is always discoverable in the top left corner of the page. It can be shown by triggering a delayed hotspot on the left side of the page or by keyboard shortcut <kbd>/</kbd> or <kbd>s</kbd>.
-- The navigation sidebar does not support three tiers of naviagtion. If you have additional content to dispaly, then integrate it into a dedicated page instead.
+- The navigation sidebar does not support three tiers of navigation. If you have additional content to display, then integrate it into a dedicated page instead.
+- Collapsed sections can be exposed through hovering while collapsed.
 
-#### Pinned items
+### Pinned items
 
 - Pinned items still appear in their corresponding collection.
 - Adding a pinned item puts it at the bottom of the list.
@@ -116,7 +117,7 @@ Use these approaches based on item usage:
 - The pinned section should be expanded by default even when empty.
 - A cookie is set to remember a user's choice to collapse or leave this section expanded. When this section is empty, display the message "Add items below for quick access."
 - [Drag and drop](https://design.gitlab.com/usability/drag-and-drop) is available to reorder the items only in the pinned section. 
-- If landing on a page that is pinned, do not show an active state for its collcetion or sub item below in the classification section.
+- If landing on a page that is pinned, do not show an active state for its collection or sub item below in the classification section.
 - Defaults have been set for groups and projects.
 - Reserved for authenticated users.
 
@@ -127,7 +128,7 @@ Use these approaches based on item usage:
 - All collections should be collapsed by default.
 - Visiting a page directly should expand its collection, unless it is pinned, then it should be in the active state and collapsed under its collection.
 
-#### Breakpoints
+### Breakpoints
 
 - Extra large viewports: 1200px and up
 - Medium and large viewports: 768px to 1199px
