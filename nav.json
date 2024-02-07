@@ -174,7 +174,12 @@
           },
           {
             "title": "Motion",
-            "path": "motion"
+            "items": [
+              {
+                "title": "Feedback animation",
+                "path": "motion-feedback"
+              }
+            ]
           },
           {
             "title": "Iconography",
