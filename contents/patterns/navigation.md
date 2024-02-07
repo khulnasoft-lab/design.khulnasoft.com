@@ -17,13 +17,13 @@ There are two different versions of the navigation structure in GitLab.
 
 | Authenticated user | Visitor |
 | ------------------ | ------- |
-| <figure-img alt="Navigation layout" label="A layout of the navigation structure" src="/img/navigation-layout.svg"></figure-img> | <figure-img alt="Navigation layout" label="A layout of the navigation structure" src="/img/navigation-layout-visitor.svg"></figure-img> |
+| <figure-img alt="Authenticated navigation layout" src="/img/navigation-layout.svg" width="350"></figure-img> | <figure-img alt="Visitor navigation layout" src="/img/navigation-layout-visitor.svg" width="350"></figure-img> |
 
-1. Header
-1. Body
-1. Footer
-1. Breadcrumb
-1. Top Bar (Visitors)
+1. **Header**: Elements specific to the user and available functionality.
+2. **Body**: Elements are interchangable based on context.
+3. **Footer**: Elements available for convenience or tertiary tasks.
+4. **Breadcrumb**: Elements relay the heirarchy to reinforce wayfinding. 
+5. **Top bar (visitors only)**: Elements include External links and calls-to-action.
 
 #### Header elements
 
@@ -31,7 +31,7 @@ There are two different versions of the navigation structure in GitLab.
 
 1. **Logo**: [Customizable by Administrators](https://docs.gitlab.com/ee/administration/appearance.html#customize-your-homepage-button). Always links to the [homepage](https://docs.gitlab.com/ee/user/profile/preferences.html#choose-your-homepage).
 2. **Next badge**: Displayed when canary infrastruture is being utilized.
-3. **Sidebar button**: Hides the navigation sidebar
+3. **Sidebar button**: Hides the navigation sidebar.
 4. **Create new button**: Dropdown for creation actions based on context.
 5. **User dropodown**: Dropodwn for user related items and actions.
 6. **Impersonation**: For stopping [impersonation](https://docs.gitlab.com/ee/administration/admin_area.html#user-impersonation) once turned on.
@@ -56,12 +56,12 @@ There are two different versions of the navigation structure in GitLab.
 Each context in GitLab has it's own dedicated body. The structure of the body can be adapted to fit it's corresponding context.
 
 1. Your work
-1. Groups and Projects
-1. Explore
-1. Admin Area
-1. Profile
-1. User settings
-1. Global search
+2. Groups and Projects
+3. Explore
+4. Admin Area
+5. Profile
+6. User settings
+7. Global search
 
 #### Footer elements
 
@@ -101,7 +101,7 @@ Use these approaches based on item usage:
 - **Advanced:** An advanced page-level info [alert](/components/alert) is required if an item has equal to or greater than 0.1% of clicks per active user per month. Advanced notice should be in place for at least one milestone.
 - **Temporary opt-in:** If more than 5 top-level navigation items are being changed that have a combined 5% of clicks per active users per month, a temporary opt-in method should be provided for at least 2 milestones. Temporary opt-in provides time to communicate major navigation overhauls while also allowing a user to preview changes.
 
-## Behavior 
+## Behavior
 
 ### General
 
@@ -110,10 +110,10 @@ Use these approaches based on item usage:
 
 #### Pinned items
 
-- Pinned items still appear in their corresponding collection. 
-- Adding a pinned item puts it at the bottom of the list. 
-- There is no limit on the number of pinned items. 
-- The pinned section should be expanded by default even when empty. 
+- Pinned items still appear in their corresponding collection.
+- Adding a pinned item puts it at the bottom of the list.
+- There is no limit on the number of pinned items.
+- The pinned section should be expanded by default even when empty.
 - A cookie is set to remember a user's choice to collapse or leave this section expanded. When this section is empty, display the message "Add items below for quick access."
 - [Drag and drop](https://design.gitlab.com/usability/drag-and-drop) is available to reorder the items only in the pinned section. 
 - If landing on a page that is pinned, do not show an active state for its collcetion or sub item below in the classification section.
@@ -122,9 +122,9 @@ Use these approaches based on item usage:
 
 ### Collections
 
-- Opening each collections reveals the designated list of items. 
-- Only hide a collection if all its features are inaccessible. For example, if they are turned off or behind a paid tier of GitLab. 
-- All collections should be collapsed by default. 
+- Opening each collections reveals the designated list of items.
+- Only hide a collection if all its features are inaccessible. For example, if they are turned off or behind a paid tier of GitLab.
+- All collections should be collapsed by default.
 - Visiting a page directly should expand its collection, unless it is pinned, then it should be in the active state and collapsed under its collection.
 
 #### Breakpoints
@@ -132,7 +132,3 @@ Use these approaches based on item usage:
 - Extra large viewports: 1200px and up
 - Medium and large viewports: 768px to 1199px
 - Small and extra small viewports: up to 767px
-
-
-
-
