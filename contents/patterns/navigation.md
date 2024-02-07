@@ -40,12 +40,16 @@ There are two different versions of the navigation structure in GitLab.
 
 #### Body elements
 
+|  Standard | Custom |
+| ------------------ | ------- |
+| <figure-img alt="Navigation body structure" label="Typical layout" src="/img/navigation-body-structure.svg"></figure-img> | <figure-img alt="Navigation body structure for search" label="Specific to context" src="/img/navigation-body-structure-search.svg"></figure-img> |
+
 1. **Title:** Name of the context for wayfinding, and should always appear at the top of the body.
-1. **Static items:** Always present at the top of the navigational items. Used sparingly.
-1. **Pinned items:** Items that users have choosen for quick access. Only available to authenticated users.
-1. **Collections:** Contain items classified under a single theme.
-1. **Settings:** A dedicated settings area inside a given context.
-1. **Filters:** Unique option only to Global Search.
+2. **Static items:** Always present at the top of the navigational items. Used sparingly.
+3. **Pinned items:** Items that users have choosen for quick access. Only available to authenticated users.
+4. **Collections:** Contain items classified under a single theme.
+5. **Settings:** A dedicated settings area inside a given context.
+6. **Filters:** Unique option only to Global Search.
 
 ##### Contexts
 
