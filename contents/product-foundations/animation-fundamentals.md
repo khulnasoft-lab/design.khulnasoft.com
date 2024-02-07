@@ -30,7 +30,7 @@ Easing specifies the rate of change of a parameter over time. Adding an easing c
 | --- | --- | --- | --- |
 | <video tabindex="0" preload="true" controls="" loop="true" playsinline="true" aria-label="Linear easing" width="400"><source src="/video/easing-linear.mp4"></video> | `$gl-easing-linear` | `linear` |  |
 | <video tabindex="0" preload="true" controls="" loop="true" playsinline="true" aria-label="Default easing" width="400"><source src="/video/easing-default.mp4"></video> | `$gl-easing-default` | `ease` | Hover animation |
-| <video tabindex="0" preload="true" controls="" loop="true" playsinline="true" aria-label="Ease-out easing" width="400"><source src="/video/easing-out-cubic.mp4"></video> | `$gl-easing-out-cubic` | `cubic-bezier(0.22, 0.61, 0.36, 1)` | Focus animation |
+| <video tabindex="0" preload="true" controls="" loop="true" playsinline="true" aria-label="Ease-out easing" width="400"><source src="/video/easing-out-cubic.mp4"></video> | `$gl-easing-out-cubic` | `cubic-bezier(0.22, 0.61, 0.36, 1)` | Focus and action animation |
 
 <todo>Update the table with [other animation types](#types-of-animation).</todo>
 
