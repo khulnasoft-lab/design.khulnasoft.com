@@ -15,7 +15,7 @@ The navigation is a consistenly available user interface structure that contains
 
 There are two different versions of the navigation structure in GitLab.
 
-| Authenticated User | Visitor |
+| Authenticated user | Visitor |
 | ------------------ | ------- |
 | <figure-img alt="Navigation layout" label="A layout of the navigation structure" src="/img/navigation-layout.svg"></figure-img> | <figure-img alt="Navigation layout" label="A layout of the navigation structure" src="/img/navigation-layout-visitor.svg"></figure-img> |
 
@@ -23,18 +23,20 @@ There are two different versions of the navigation structure in GitLab.
 1. Body
 1. Footer
 1. Breadcrumb
-1. Top Bar (Unauthenticated users)
+1. Top Bar (Visitors)
 
 #### Header elements
 
+<figure-img alt="Navigation header structure" label="A layout of the header structure within the navigation sidebar" src="/img/navigation-header-structure.svg"></figure-img>
+
 1. **Logo**: [Customizable by Administrators](https://docs.gitlab.com/ee/administration/appearance.html#customize-your-homepage-button). Always links to the [homepage](https://docs.gitlab.com/ee/user/profile/preferences.html#choose-your-homepage).
-1. **Next badge**: Displayed when canary infrastruture is being utilized.
-1. **Sidebar button**: Hides the navigation sidebar
-1. **Create new button**: Dropdown for creation actions based on context.
-1. **User dropodown**: Dropodwn for user related items and actions.
-1. **Shortcuts**: Quick links to items users are responsible for.
-1. **Search**: Opens a modal for navigating, using [global search](https://docs.gitlab.com/ee/user/search/) or the [command palette](https://docs.gitlab.com/ee/user/search/command_palette.html#open-the-command-palette).
-1. **Impersonation**: For stopping [impersonation](https://docs.gitlab.com/ee/administration/admin_area.html#user-impersonation) once turned on.
+2. **Next badge**: Displayed when canary infrastruture is being utilized.
+3. **Sidebar button**: Hides the navigation sidebar
+4. **Create new button**: Dropdown for creation actions based on context.
+5. **User dropodown**: Dropodwn for user related items and actions.
+6. **Impersonation**: For stopping [impersonation](https://docs.gitlab.com/ee/administration/admin_area.html#user-impersonation) once turned on.
+7. **Shortcuts**: Quick links to items users are responsible for.
+8. **Search**: Opens a modal for navigating, using [global search](https://docs.gitlab.com/ee/user/search/) or the [command palette](https://docs.gitlab.com/ee/user/search/command_palette.html#open-the-command-palette).
 
 #### Body elements
 
