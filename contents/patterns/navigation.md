@@ -2,46 +2,95 @@
 name: Navigation
 ---
 
-This page describes the navigation guidelines that apply to the GitLab user interface.
+Users rely on the navigation to move around and orient themselves in GitLab. This pattern outlines some of the qualities that make it consistent, familiar, and usable. For help with other aspects of GitLab's navigation, refer to the following resources:
 
-For help with other aspects of GitLab's navigation, refer to the following resources:
+- [How to propose a change to navigation.](https://about.gitlab.com/handbook/product/ux/navigation/)
+- [How to conduct user research of a proposed change to navigation.](https://about.gitlab.com/handbook/product/ux/ux-research/evaluating-navigation/)
 
-- [How to propose a change to navigation](https://about.gitlab.com/handbook/product/ux/navigation/).
-- [How to conduct user research of a proposed change to navigation](https://about.gitlab.com/handbook/product/ux/ux-research/evaluating-navigation/).
+## Overview
 
-## Top bar
+The navigation is a consistently available user interface structure that contains functionality for moving around GitLab as well as for accomplishing core tasks. The navigation is made up of two main components: The navigation sidebar and the [breadcrumb](/components/breadcrumb). These components were designed to work together within the bigger picture of [page templates (draft)](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1556) to invoke a sense of reliable wayfinding.
 
-The top bar refers to the top horizontal navigation. The items in the top bar include a list of pages that allow you to view global content throughout GitLab. For example, you can view your todos, issues, and merge requests across projects and groups. You can also create new groups and projects, as well as search the application.
+### Layout
 
-The top bar navigation items are replaced by exit links during scenarios that have a business impact. This includes signing up, purchasing a subscription, and starting a trial. By doing so, we facilitate task completion and reduce user errors, such as accidentally navigating away.
+There are two different versions of the navigation structure in GitLab.
 
-<todo>Add top bar example</todo>
+| Authenticated user | Visitor |
+| ------------------ | ------- |
+| <figure-img alt="Authenticated navigation layout" src="/img/navigation-layout.svg" width="350"></figure-img> | <figure-img alt="Visitor navigation layout" src="/img/navigation-layout-visitor.svg" width="350"></figure-img> |
 
-### Homepage
+1. **Header**: Elements specific to the user and available functionality.
+2. **Body**: Elements are interchangable based on context.
+3. **Footer**: Elements available for convenience or tertiary tasks.
+4. **Breadcrumb**: Elements relay the heirarchy to reinforce wayfinding.
+5. **Top bar (visitors only)**: Elements include External links and calls-to-action.
 
-The homepage is the first page a user sees at the top level of GitLab.com or their instance after logging in. It's also where a user is directed after clicking the GitLab or instance logo in the navigation. This page is meant to help the user orient themself upon logging in. Currently this page is [configurable in User Settings](https://docs.gitlab.com/ee/user/profile/preferences.html#default-dashboard).
+#### Header elements
 
-### Landing page
+<figure-img alt="Navigation header structure" label="A layout of the header structure within the navigation sidebar" src="/img/navigation-header-structure.svg"></figure-img>
 
-A landing page is the page directly tied to a link in the navigation. Typically, a landing page is action-oriented and contains overview and/or summary content, but it can also be a [dashboard](/patterns/dashboards) for analysis-oriented tasks.
+1. **Logo**: [Customizable by Administrators](https://docs.gitlab.com/ee/administration/appearance.html#customize-your-homepage-button). Always links to the [homepage](https://docs.gitlab.com/ee/user/profile/preferences.html#choose-your-homepage).
+2. **Next badge**: Displayed when canary infrastructure is being utilized.
+3. **Sidebar button**: Hides the navigation sidebar.
+4. **Create new button**: Dropdown for creation actions based on context.
+5. **User dropodown**: Dropdown for user related items and actions.
+6. **Impersonation**: For stopping [impersonation](https://docs.gitlab.com/ee/administration/admin_area.html#user-impersonation) once turned on.
+7. **Shortcuts**: Quick links to items users are responsible for.
+8. **Search**: Opens a modal for navigating, using [global search](https://docs.gitlab.com/ee/user/search/) or the [command palette](https://docs.gitlab.com/ee/user/search/command_palette.html#open-the-command-palette).
 
-### User settings menu
-The user settings menu is the rightmost menu which contains items related to the logged-in user.
+#### Body elements
 
-### Help menu
-The help menu is the dropdown with the question mark icon and contains links to docs and support.
+|  Standard | Custom |
+| ------------------ | ------- |
+| <figure-img alt="Navigation body structure" label="Typical layout" src="/img/navigation-body-structure.svg"></figure-img> | <figure-img alt="Navigation body structure for search" label="Specific to context" src="/img/navigation-body-structure-search.svg"></figure-img> |
 
-## Left sidebar
+1. **Title:** Name of the context for wayfinding, and should always appear at the top of the body.
+2. **Static items:** Always present at the top of the navigational items. Used sparingly.
+3. **Pinned items:** Items that users have selected for quick access. Only available to authenticated users.
+4. **Collections:** Contain items classified under a single theme.
+5. **Settings:** A dedicated settings area inside a given context.
+6. **Filters:** Unique option only to Global Search.
 
-The left sidebar refers to the navigation that is contextual to each page. These options change depending on if you are looking at a project, a group, or a settings page. The names used for each navigation item should be short and easy to remember, ideally 1-2 words in length.
+##### Contexts
 
-There are two levels of navigation: [top level](#top-level-menu-items) and a [submenu](#submenu-items).
+Each context in GitLab has it's own dedicated body. The structure of the body can be adapted to fit it's corresponding context.
 
-### Top-level menu items
+1. Your work
+2. Groups and Projects
+3. Explore
+4. Admin Area
+5. Profile
+6. User settings
+7. Global search
 
-A top-level menu item is the first anchor that appears within the left sidebar. These items are used to display the most important functionality for that navigation category. A top-level menu item may contain related submenu items.
+#### Footer elements
 
-#### Messaging changes to users
+1. **Help**: : Dropdown for helpful resources, updates, and information. Slight differences depending on SaaS and Self Managed.
+1. **Admin Area**: Shortcut to jump to the Admin Area. Only visible to Administrators.
+
+#### Top bar elements
+
+The top bar is only present for unauthenticated users. It hold a few links to the marketing site, exploring GitLab, and strong call-to-actions. The items are replaced by exit links during scenarios that have a business impact. This includes signing up, purchasing a subscription, and starting a trial. By doing so, we facilitate task completion and reduce user errors, such as accidentally navigating away.
+
+## Principles
+
+As a large expansive platform, the navigation structure needs to be thoughtfully considered. 
+
+- Use all the data to make informed decisions about what goes where and why.
+- Reduce the need for context switching whenever possible.
+- Prioritize depth over new additions when reasonable.
+- Placement consistency between the Groups and Projects is critical.
+
+
+## Guidelines
+
+- The names used for each navigation item should be short and easy to remember, ideally 1-2 words in length.
+- Think of each navigation item within a Group or Project like an individual application.
+- Collections should clearly communicate their purpose. Use verbs to name them.
+- Consider listing higher utlized items first.
+- Categorize integrations with similar GitLab items. They should appear last in the collection list.
+
+### Messaging changes to users
 
 Continuously improving the navigation ensures the best possible user experience. To minimize disruption and properly introduce users to changes, follow these guidelines.
 
@@ -52,28 +101,35 @@ Use these approaches based on item usage:
 - **Advanced:** An advanced page-level info [alert](/components/alert) is required if an item has equal to or greater than 0.1% of clicks per active user per month. Advanced notice should be in place for at least one milestone.
 - **Temporary opt-in:** If more than 5 top-level navigation items are being changed that have a combined 5% of clicks per active users per month, a temporary opt-in method should be provided for at least 2 milestones. Temporary opt-in provides time to communicate major navigation overhauls while also allowing a user to preview changes.
 
-### Submenu items
+## Behavior
 
-Each submenu should be a self-contained group of functionality, for example:
+### General
 
-- Items related to planning and managing issues should be under the `Issues` nav item.
-- Viewing and editing pipelines should be under the `CI/CD` nav item.
+- When the navigation sidebar is hidden, the button to show it is always discoverable in the top left corner of the page. It can be shown by triggering a delayed hotspot on the left side of the page or by keyboard shortcut <kbd>/</kbd> or <kbd>s</kbd>.
+- The navigation sidebar does not support three tiers of navigation. If you have additional content to display, then integrate it into a dedicated page instead.
+- Collapsed sections can be exposed through hovering while collapsed.
 
-The default active item should be the first submenu item.
+### Pinned items
 
-In some cases, items within a submenu may change depending on the context, permissions, and roles. For example, the admin area may include more or less items under a top-level menu item than a group or project.
+- Pinned items still appear in their corresponding collection.
+- Adding a pinned item puts it at the bottom of the list.
+- There is no limit on the number of pinned items.
+- The pinned section should be expanded by default even when empty.
+- A cookie is set to remember a user's choice to collapse or leave this section expanded. When this section is empty, display the message "Add items below for quick access."
+- [Drag and drop](https://design.gitlab.com/usability/drag-and-drop) is available to reorder the items only in the pinned section. 
+- If landing on a page that is pinned, do not show an active state for its collection or sub item below in the classification section.
+- Defaults have been set for groups and projects.
+- Reserved for authenticated users.
 
-When this occurs, the top-level menu item should remain consistent, even if there is only one submenu item. The reason for top-level menu consistency is to reduce the cognitive effort needed from users to understand the navigation and task hierarchy. For example, we should not replace **CI/CD** with **Runners** or **Infrastructure** with **Terraform** as the top-level menu item in the sidebar.
+### Collections
 
-### Behavior
+- Opening each collections reveals the designated list of items.
+- Only hide a collection if all its features are inaccessible. For example, if they are turned off or behind a paid tier of GitLab.
+- All collections should be collapsed by default.
+- Visiting a page directly should expand its collection, unless it is pinned, then it should be in the active state and collapsed under its collection.
 
-- When navigating using the left sidebar, the sidebar always persists in order to maintain the user's context. The only exception to this rule is for integrations that utilize the [external link icon](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~external-link).
-- A cookie is set to remember a user's preference between collapsed or expanded.
-- For medium and large viewports, the left sidebar is collapsed. When expanded manually, it overlaps the page content. The user's cookie preference is not overridden during this state.
-- For small and extra small viewports, the left sidebar is hidden behind a [sidebar icon](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~sidebar). When expanded, the sidebar overlaps the page and a semi-transparent overlay covers the page content. The user's cookie preference is not overridden during this state.
+### Breakpoints
 
-#### Breakpoints
-
-- Extra large viewports: `1200px` and up
-- Medium and large viewports: `768px` to `1199px`
-- Small and extra small viewports: up to `767px`
+- Extra large viewports: 1200px and up
+- Medium and large viewports: 768px to 1199px
+- Small and extra small viewports: up to 767px
