@@ -173,8 +173,13 @@
             "path": "elevation"
           },
           {
-            "title": "Motion",
-            "path": "motion"
+            "title": "Animation",
+            "items": [
+              {
+                "title": "Feedback animation",
+                "path": "animation-feedback"
+              }
+            ]
           },
           {
             "title": "Iconography",
