@@ -46,7 +46,7 @@ Higher tier features should be easy to identify from the rest of the interface. 
 
 ### Highlighting feature versions
 
-Experiment and Beta features are subject to legal terms, which you must display next to settings that enable said feature. Use the following UI text:
+Experiment and Beta features are subject to legal terms.
 
 <figure-img label="Example of legal disclaimer" src="/img/legal-disclaimer-exp-beta.svg"></figure-img>
 
