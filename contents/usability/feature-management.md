@@ -46,15 +46,16 @@ Higher tier features should be easy to identify from the rest of the interface. 
 
 ### Highlighting feature versions
 
-Beta and Experiment features are subject to legal terms. 
+Experiment and Beta features are subject to legal terms, which you must display next to settings that enable said feature. Use the following UI text:
 
-<figure-img label="Example of legal disclaimer" src="/img/legal-disclaimer-exp-beta.svg">
+<figure-img label="Example of legal disclaimer" src="/img/legal-disclaimer-exp-beta.svg"></figure-img>
 
 Display the terms next to settings that will enable the feature, using the following UI text:
 
-| Group setting (single feature) | Group setting (multiple features) | User setting (single feature) | User setting (multiple features) |
-| ------ | ------ | ------ | ------ |
-| When you enable this feature, you accept the [GitLab Testing Agreement](https://handbook.gitlab.com/handbook/legal/testing-agreement/).| When you enable any of these features, you accept the [GitLab Testing Agreement](https://handbook.gitlab.com/handbook/legal/testing-agreement/). |Subject to the [GitLab Testing Agreement](https://handbook.gitlab.com/handbook/legal/testing-agreement/). | These features are subject to the [GitLab Testing Agreement](https://handbook.gitlab.com/handbook/legal/testing-agreement/).| 
+| Number of features | Group setting | User setting |
+|-|-|-|
+| Single | When you enable this feature, you accept the [GitLab Testing Agreement](https://handbook.gitlab.com/handbook/legal/testing-agreement/). | Subject to the [GitLab Testing Agreement](https://handbook.gitlab.com/handbook/legal/testing-agreement/). |
+| Multiple | When you enable any of these features, you accept the [GitLab Testing Agreement](https://handbook.gitlab.com/handbook/legal/testing-agreement/). | These features are subject to the [GitLab Testing Agreement](https://handbook.gitlab.com/handbook/legal/testing-agreement/). |
 
 Similar to higher tier features, feature versions like Experiment and Beta should be easily identifiable, using a [badge](/components/badge/) with an explanation in a [popover](/components/popover):
 
