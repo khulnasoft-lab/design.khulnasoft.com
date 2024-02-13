@@ -65,7 +65,19 @@ Duration is how long a animation takes from start to end. The total duration sho
 
 Patterns are reusable animations.
 
-<todo>Add details of bounce and other effects</todo> 
+<todo>Add details of bounce and other effects</todo>
+
+### Page auto-scroll
+
+To keep an active element visible, a page auto-scroll transition can be used. An example of this includes clicking an issue board card that is out of the screen.
+
+<todo>Add auto-scroll example (issue board cards)</todo>
+
+### Skeleton loading
+
+Skeleton loaders use a horizontally pulsing animation with a linear 1s timing. Learn more about [skeleton loaders](/components/skeleton-loader).
+
+<todo>Add skeleton loader transition example</todo>
 
 
 ## Resources
