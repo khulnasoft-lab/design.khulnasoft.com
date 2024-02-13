@@ -41,13 +41,11 @@ Easing specifies the rate of change of a parameter over time. Adding an easing c
 
 Duration is how long a animation takes from start to end. The total duration should be influenced by the scale, easing, and complexity of the animated elements. This means the further the traveled distance and the more complex the animated object, the longer the duration for the animation should be.
 
-| Variable | Value | Use |
-| --- | --- | --- |
-| `$gl-duration-100` | `200ms` | color changes, keyboard focus |
-| `$gl-duration-200` | `300ms` |  |
-| `$gl-duration-300` | `400ms` |  |
-| `$gl-duration-400` | `500ms` | action feedback |
-| `$gl-duration-500` | `600ms` | position changes, complex transitions |
+| Value | Use |
+| --- | --- |
+| `200ms` | color changes, keyboard focus |
+| `500ms` | action feedback |
+| `600ms` | position changes, complex transitions |
 
 <todo>The table will be updated by adding [other animation types](/product-foundations/animation-fundamentals#types-of-animations)</todo>
 
