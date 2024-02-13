@@ -54,7 +54,7 @@ Duration is how long a animation takes from start to end. The total duration sho
 
 ## If you're not sure
 
-1. Use animation support visual state changes
+1. Use animation to support visual state changes
 1. Use `$gl-easing-default` easing
 1. Use `$gl-duration-100` to change decorative attributes such as color
 1. Use `$gl-duration-500` to change position
@@ -63,7 +63,9 @@ Duration is how long a animation takes from start to end. The total duration sho
 
 ## Patterns
 
-<todo>Will be added later with `linear()` browser support</todo>
+Patterns are reusable animations.
+
+<todo>Add details of bounce and other effects</todo> 
 
 
 ## Resources
