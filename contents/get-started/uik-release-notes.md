@@ -2,9 +2,18 @@
 name: Release notes
 ---
 
+## 16.11
+
+_[Draft: 16.11 release notes](ADD LINK BEFORE MERGE)_
+
 ## 16.10
 
-_[Draft: 16.10 release notes](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3738)_
+<!-- Update publish date-->
+<small>Published 2024-03-15</small>
+
+### Changes
+
+- Updated the sm tertiary dropdown [**❖&nbsp;Button**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=13756-14840&mode=design&t=3ryi0NDtczpu54o3-4) icon from upload to chevron-down to appear as a dropdown.
 
 ## 16.9
 
