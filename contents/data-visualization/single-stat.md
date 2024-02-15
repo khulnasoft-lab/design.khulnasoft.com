@@ -52,9 +52,9 @@ A single stat with a badge which can be used to convey status or trend in more d
 
 ### Link
 
-A single stat that can navigate to more detailed information about a metric.
+A single stat that navigates to detailed information about a metric.
 
-<todo>Create demo in gitlab-ui</todo>
+<todo>Add linked single stat example.</todo>
 
 ## Design specifications
 
