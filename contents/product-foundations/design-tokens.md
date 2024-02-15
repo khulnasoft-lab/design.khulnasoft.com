@@ -50,4 +50,3 @@ Design tokens are used by [applying Figma variables](https://help.figma.com/hc/e
 
 Figma variables are scoped by limiting the properties they can be applied to. This helps cut out the guess work when designing and supports recommended usage. For example, `color.text.secondary` can only be applied as a fill to text layer.
 
-.
