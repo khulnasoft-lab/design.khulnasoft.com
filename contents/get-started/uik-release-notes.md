@@ -14,6 +14,7 @@ _[Draft: 16.11 release notes](ADD LINK BEFORE MERGE)_
 ### Changes
 
 - Updated the sm tertiary dropdown [**❖&nbsp;Button**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=13756-14840&mode=design&t=3ryi0NDtczpu54o3-4) icon from upload to chevron-down to appear as a dropdown.
+- Updated the [**❖&nbsp;Popover**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=57879-91946&mode=design&t=zI9YVVtzzzJBTVVp-11) description to match Pajamas ([!3742](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3742)) and [default instance](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=57879-93337&mode=design&t=zI9YVVtzzzJBTVVp-11) text to match GitLab UI ([!3970](https://gitlab.com/gitlab-org/gitlab-ui/-/merge_requests/3970)).
 
 ## 16.9
 
