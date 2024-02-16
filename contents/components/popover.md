@@ -25,7 +25,7 @@ related:
 
 ### When to use
 
-- You don't the user to lose context, but still want to provide additional useful unique information about referring elements.
+- You don't want the user to lose context, but still want to provide additional useful unique information about referring elements.
 - It isn't critical for the user to act upon the information.
 - You want to give a user a summary of extended information and the option to learn more if needed.
 
