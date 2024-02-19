@@ -2,9 +2,25 @@
 name: Release notes
 ---
 
+## 16.11
+
+_[Draft: 16.11 release notes](UPDATE BEFORE MERGE)_
+
 ## 16.10
 
-_[Draft: 16.10 release notes](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3738)_
+<!-- Update publish date-->
+<small>Published 2024-03-15</small>
+
+### Changes
+
+- Updated the sm tertiary dropdown [**❖&nbsp;Button**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=13756-14840&mode=design&t=3ryi0NDtczpu54o3-4) icon from upload to chevron-down to appear as a dropdown.
+- Updated the [**❖&nbsp;Popover**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=57879-91946&mode=design&t=zI9YVVtzzzJBTVVp-11) description to match Pajamas ([!3742](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3742)) and [default instance](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=57879-93337&mode=design&t=zI9YVVtzzzJBTVVp-11) text to match GitLab UI ([!3970](https://gitlab.com/gitlab-org/gitlab-ui/-/merge_requests/3970)).
+- Update the default instance for [multiline text area](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49888%3A76378&mode=design&t=Mya6LjBjoNEiXJh2-1) from 1 line to 4 lines. Details see [issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1779) 
+
+### Removals
+
+<!-- remove if replacement merged -->
+- Deprecated the existing [**❖&nbsp;Button Group**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=20378-296&mode=design&t=Pykxj5xxikTefumb-4) component. This will be replaced by reconstructed components. This is a Figma-only change, not a Pajamas change.
 
 ## 16.9
 
