@@ -18,7 +18,7 @@ Use periods with links that are full sentences.
 
 | Do | Don’t |
 | --- | --- |
-| Mention someone to notify them. [Learn more](`<link>`). This is another sentence. | Mention someone to notify them. [More](`<link>`). |
+| Mention someone to notify them. [Learn more](https://docs.gitlab.com). This is another sentence. | Mention someone to notify them. [More](https://docs.gitlab.com). |
 
 Use a period after every bullet point that is a sentence.
 
