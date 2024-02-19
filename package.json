@@ -18,7 +18,7 @@
     "eslint:fix": "yarn run eslint --fix",
     "prettier": "prettier --list-different --ignore-path .gitignore '**/*.{js,vue}'",
     "prettier-all-save": "yarn run prettier --write",
-    "markdown-lint": "yarn run markdownlint-cli2 'contents/**/*.md'",
+    "markdown-lint": "markdownlint-cli2 'contents/**/*.md'",
     "test": "bash ./scripts/test.sh",
     "test:unit": "jest",
     "lint:fix": "yarn run eslint:fix && yarn run prettier-all-save",
