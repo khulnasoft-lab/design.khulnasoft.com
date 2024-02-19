@@ -97,6 +97,8 @@ Objective-focused content that starts with the task first and then offers the so
 
 ## Other resources
 
+For other resources that are relevant to UI text, see:
+
 - Capitalization of [feature names](https://docs.gitlab.com/ee/development/documentation/styleguide/#feature-names) and [other terms](https://docs.gitlab.com/ee/development/documentation/styleguide/#other-terms)
 - [Punctuation](punctuation)
 - [Lists](https://docs.gitlab.com/ee/development/documentation/styleguide/#lists)
