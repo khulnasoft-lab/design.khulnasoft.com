@@ -2,25 +2,25 @@
 name: Animation fundamentals
 ---
 
-Animation is a tool to help convey important relationships, changes, or transitions between elements. It is used sparingly and intentionally, highlighting the right elements at the right moment.
+Animation is a tool to help convey important relationships, changes, or transitions between elements. It's used sparingly and intentionally, highlighting the right elements at the right moment.
 
-## Types of animations
+## Types of animation
 
-1. **Feedback.** Confirms the users’ interaction with controls and other interactive elements.
-1. **Focus.** Highlights important content outside a users’ current context.
-1. **Explanation.** Shows users an elements properties, and its relationships to other elements.
-1. **Engagement.** Helps users feel supported while waiting.
-1. **Emotional.** Builds emotional bonds with users and expresses the brand. It makes users feel welcome and supported.
+1. **Feedback.** Confirm a user interaction with a control or other interactive element.
+1. **Focus.** Highlight important content outside of a user's current context.
+1. **Explanation.** Show a user an element's properties, and its relationship to other elements.
+1. **Engagement.** Help a user feel supported while waiting.
+1. **Emotional.** Build emotional bonds with a user and expresses the brand. It makes a user feel welcome and supported.
 
-<todo>Add video explanation</todo>
+<todo>Add video explanation.</todo>
 
 ## Principles
 
-Use animation deliberately to enhance the experience without dominating it. Animation should not be added without a good reason. Too much animation can distract users and disrupt their tasks.
+Use animation deliberately to enhance the experience without dominating it. Animation should not be added without a good reason. Too much animation can distract a user and disrupt their task.
 
-* **Be realistic.** Animations should feel natural and mirror traits from the real world, such as acceleration, gravity, and volume.
-* **Be purposeful.** Animations should assist and support the user experience without distracting from it.
-* **Be optional and accessible.** Animations should respect users’ motion preferences using `prefers-reduced-motion` CSS Media Query. Keyboard event animation should be more noticeable.
+* **Be realistic.** An animation should feel natural and mirror traits from the real world, such as acceleration, gravity, and volume.
+* **Be purposeful.** An animation should assist and support the user experience without distracting from it.
+* **Be optional and accessible.** An animation should respect the user's motion preferences by using the `prefers-reduced-motion` CSS media query. Keyboard event animation should be more noticeable.
 
 ## Easing
 
@@ -28,36 +28,36 @@ Easing specifies the rate of change of a parameter over time. Adding an easing c
 
 | Illustration | Variable | Value | Use |
 | --- | --- | --- | --- |
-| <video tabindex="0" preload="true" autoplay="true" controls="" loop="true" playsinline="true" aria-label="" width="400"><source src="/video/easing-default.mp4"></video> | `$gl-easing-default` | `ease` | hover animation |
-| <video tabindex="0" preload="true" autoplay="true" controls="" loop="true" playsinline="true" aria-label="" width="400"><source src="/video/easing-out-cubic.mp4"></video> | `$gl-easing-out-cubic` | `cubic-bezier(0.22, 0.61, 0.36, 1)` | focus animation |
+| <video tabindex="0" preload="true" autoplay="true" controls="" loop="true" playsinline="true" aria-label="" width="400"><source src="/video/easing-default.mp4"></video> | `$gl-easing-default` | `ease` | Hover animation |
+| <video tabindex="0" preload="true" autoplay="true" controls="" loop="true" playsinline="true" aria-label="" width="400"><source src="/video/easing-out-cubic.mp4"></video> | `$gl-easing-out-cubic` | `cubic-bezier(0.22, 0.61, 0.36, 1)` | Focus animation |
 
-<todo>The table will be updated by adding [other animation types](/product-foundations/animation-fundamentals#types-of-animations)</todo>
+<todo>Update the table with [other animation types](/product-foundations/animation-fundamentals#types-of-animations).</todo>
 
 ## Duration
 
-The duration is the time an animation takes from start to finish. The animated elements' scale, easing, and complexity should influence the total duration. This means that the greater the distance traveled and the more complex the animated object, the longer the animation duration should be.
+The duration is the time an animation takes from start to finish. The animated element's scale, easing, and complexity should influence the total duration. This means that the greater the distance traveled and the more complex the animated object, the longer the animation duration should be.
 
 | Value | Use |
 | --- | --- |
-| `200ms` | color changes, keyboard focus |
-| `500ms` | action feedback |
-| `600ms` | position changes, complex transitions |
+| `200ms` | Color changes, keyboard focus |
+| `500ms` | Action feedback |
+| `600ms` | Position changes, complex transitions |
 
-<todo>The table will be updated by adding [other animation types](/product-foundations/animation-fundamentals#types-of-animations)</todo>
+<todo>Update the table with [other animation types](/product-foundations/animation-fundamentals#types-of-animations).</todo>
 
 ## If you're not sure
 
 1. Use animation to support visual state changes.
 1. Use `$gl-easing-default` easing.
-1. Use a `200ms` to change an elements decorative attributes such as color.
-1. Use a `600ms` to change an elements position.
+1. Use `200ms` to change an element's decorative attributes, such as color.
+1. Use `600ms` to change an element's position.
 1. Ask a [UX reviewer or maintainer](https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com) for help and review.
 
 ## Patterns
 
 Patterns are reusable animations.
 
-<todo>Add details of bounce and other effects</todo>
+<todo>Add details of bounce and other effects.</todo>
 
 ### Page auto-scroll
 
