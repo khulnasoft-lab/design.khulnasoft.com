@@ -36,7 +36,7 @@ More specifically, we use design tokens to:
 
 ## Using design tokens
 
-We are starting with a small subset of tokens, and rolling out more as our confidence increases.
+We are experimenting with a small subset of tokens, with the intention of introducing more tokens over time.
 
 ### In code
 
@@ -44,9 +44,8 @@ We are starting with a small subset of tokens, and rolling out more as our confi
 
 ### In design
 
-<note>We are currently piloting using design tokens in Figma. Sign up to the pilot and learn more in the [issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1771).</note>
+<note>We are currently piloting using design tokens in Figma. We're asking that only those part of the pilot use the library. Sign up to the pilot and learn more in the [issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1771).</note>
 
 Design tokens are used by [applying Figma variables](https://help.figma.com/hc/en-us/articles/15343107263511-Apply-variables-to-designs) to elements on the canvas.
 
 We've scoped these Figma variables by limiting the properties they can be applied to. This helps cut out the guess work when designing and supports recommended usage. For example, `color.text.secondary` can only be applied as a fill to a text element and not a stroke or shape layer.
-
