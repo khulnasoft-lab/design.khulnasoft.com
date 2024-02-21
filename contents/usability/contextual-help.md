@@ -35,11 +35,11 @@ To learn how to link to GitLab documentation in various programming languages, s
 
 In most cases, phrase the link as a question.
 
-- Example: A merge request approval is required. [Who can approve](#)?
+- Example: A merge request approval is required. [Who can approve](https://docs.gitlab.com)?
 
 If you can't determine a useful question, use `Learn more`. However, be aware that `Learn more` is not descriptive or meaningful, and **should be used sparingly**.
 
-- Example: Approve a merge request. [Learn more](#).
+- Example: Approve a merge request. [Learn more](https://docs.gitlab.com).
 
 Note: The punctuation is not part of the link.
 
@@ -63,7 +63,7 @@ If link text is not possible and space is tight, use the [help icon](http://gitl
 |                                                                                                                                                                                        Do                                                                                                                                                                                         |                                                                                                                                                             Don't                                                                                                                                                             |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                                   <div class="app-styles"><gl-icon name="question-o" class="gl-text-blue-600" /></div>Use the outlined [question-o.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) icon in `$blue-600` (`#1068bf`)                                                                                   |                                                                     <div class="app-styles"><gl-icon name="question" size="16" /></div>Use the solid icon [question.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question) or a color other than blue                                                                     |
-| <figure-img alt="Popover with link to documentation" label="Show information in the popover with a link to documentation" src="/img/help-popover-with-link.png"  width="280"></figure-img> | <figure-img alt="Popover with link to documentation" label="Use the icon as a link or with a tooltip" src="/img/help-tooltip.png" alt="Popover with link to documentation" width="280"></figure-img> |
+| <figure-img alt="Popover with link to documentation" label="Show information in the popover with a link to documentation" src="/img/help-popover-with-link.png"  width="312"></figure-img> | <figure-img alt="Popover with link to documentation" label="Use the icon as a link or with a tooltip" src="/img/help-tooltip.png" alt="Popover with link to documentation" width="280"></figure-img> |
 
 ### Info icon
 

@@ -50,10 +50,10 @@ related:
 - A popover is opened by clicking on an element that has the sole purpose of triggering it.
 - When the popover is visible, the <kbd>Tab</kbd> key moves focus through any interactive elements within it.
 - A popover can be dismissed by:
-    - Clicking on the close button within it.
-    - Clicking outside of it.
-    - The <kbd>Tab</kbd> key moving focus to another element. 
-    - The <kbd>Esc</kbd> key being pressed.
+  - Clicking on the close button within it.
+  - Clicking outside of it.
+  - The <kbd>Tab</kbd> key moving focus to another element.
+  - The <kbd>Esc</kbd> key being pressed.
 
 ### Content
 
