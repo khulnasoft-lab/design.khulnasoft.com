@@ -31,10 +31,10 @@ related:
 
 ### When not to use
 
-- Consider if placing the content within a component is needed at all. In many cases the most helpful, and [boring solution](https://handbook.gitlab.com/handbook/values/#boring-solutions), is to have the content inline and visible.
+- Consider if placing the content within a popover is needed at all. In many cases the most helpful, and [boring solution](https://handbook.gitlab.com/handbook/values/#boring-solutions), is to have the content inline and visible by default.
 - If you're not providing rich markup or actionable items, consider using a [tooltip](/components/tooltip).
 - If you're displaying critical content needed for users to complete a task, consider using a [modal](/components/modal).
-- If you're displaying supplemental information to the user about an element or item, consider using a [drawer](/components/drawer) or having the content inline and visible by default.
+- If you're displaying supplemental information to the user about an element or item, consider using a [drawer](/components/drawer).
 
 ### Appearance
 
@@ -59,7 +59,7 @@ related:
 
 - A popover can contain interactive content such as a [link](/components/link) or [button](/components/button).
 - A popover can contain rich content like an [avatar](/components/avatar).
-- All copy within a popover should be short, actionable, and use clear language. 
+- All copy within a popover should be short, actionable, and use clear language.
 - The copy in the header should be shorter and even more concise than the copy in the body of the popover.
 
 ### Accessibility
