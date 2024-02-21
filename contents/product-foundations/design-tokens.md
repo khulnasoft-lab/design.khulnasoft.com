@@ -18,9 +18,15 @@ More specifically, we use design tokens to:
 - Help make new design decisions easier by leveraging existing intent and purpose.
 - Support efforts like themes and modes by abstracting intent from underlying values.
 
-## Types of design tokens
+## Categories
 
-<todo>Define taxonomy, see https://gitlab.com/sdejonge/design-tokens for current exploration.</todo>
+There are three token categories that organize…
+
+### Base
+
+### Semantic
+
+### Contextual
 
 ## Naming conventions
 
