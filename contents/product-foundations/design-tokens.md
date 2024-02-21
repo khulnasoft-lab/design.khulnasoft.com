@@ -2,15 +2,15 @@
 name: Design tokens
 ---
 
-Design tokens capture decisions and intent in code. They abstract out variables like color, typography, and spacing for consistent and meaningful use across tools and platforms.
+Design tokens, simply referred to as tokens, capture decisions and intent in code. Tokens abstract out variables like color, typography, and spacing for consistent and meaningful use across tools and platforms.
 
-## Why we use design tokens
+## Why we use tokens
 
-Design tokens help us establish a single source of truth for how, when, and why an element from the design system is used. On the surface, a design token is a simple json key/value pair, but its value lays in pairing a design decision with an option that exists in the design system.
+Tokens help us establish a single source of truth for how, when, and why an element from the design system is used. On the surface, a token is a simple json key/value pair, but its value lays in pairing a design decision with an option that exists in the design system.
 
 For example, choosing `color.gray.700` for text tells someone nothing about why that color was chosen, or how it may react to different modes like light, dark, or high contrast. But, if a token like `color.text.secondary` is applied, someone can understand that the text color is likely less prominent than the primary color regardless of mode. The design intent has been communicated and can't be changed without reconsidering the purpose.
 
-More specifically, we use design tokens to:
+More specifically, we use tokens to:
 
 - Codify design decisions — capturing them openly and objectively.
 - Synchronize design decisions across design and development tooling.
@@ -20,27 +20,43 @@ More specifically, we use design tokens to:
 
 ## Categories
 
-There are three token categories that organize…
+There are three categories that group tokens by use case.
 
-### Base
-
-### Semantic
-
-### Contextual
+1. **Base tokens**: Often called primitives, these tokens are the lowest level of tokens and are unchanging key/value pairs. They're referenced in semantic and contextual tokens, but not otherwise intended to be directly consumed.
+   **Examples**
+    ```
+    color.gray.700
+    space.4
+    ...
+    ```
+1. **Semantic tokens**: These tokens consume base tokens, but unlike base tokens the value can change in different contexts. For example, in light mode the `color.text.secondary` semantic token can use the `color.gray.500` base token for its value, and in dark mode use the `color.gray.300` base token instead. Semantic tokens capture design intent in an abstracted way. Instead of communicating something like "this surface should be light gray," it communicates "this surface needs to have subtle contrast with the default surface (which happens to be light gray in this mode and a dark gray in another mode)." The abstraction enables the intent to be the same regardless of what values are used or context it happens to be in.
+   **Examples**
+    ```
+    color.text.secondary
+    surface.contrast.subtle
+    ...
+    ```
+1. **Contextual tokens**: Because semantic tokens abstract design intent, they won't address every use case or be helpful for experimenting with new design or concepts. This is where contextual tokens can be useful in limited cases to more specifically capture unique or specific design intent for components and patterns.
+   **Examples***
+   ```
+   banner.background.gradient
+   label.hover.animate
+   ...
+   ```
 
 ## Naming conventions
 
 <todo>Define naming conventions, see https://gitlab.com/sdejonge/design-tokens for current exploration.</todo>
 
-## Design token format
+## Token format
 
 <todo>Define format, see https://gitlab.com/sdejonge/design-tokens for current exploration.</todo>
 
-## Design token lifecycle
+## Token lifecycle
 
 <todo>Document the governance and workflow for creating and updating tokens. This could be a good place to reference [Style Dictionary](https://amzn.github.io/style-dictionary).</todo>
 
-## Using design tokens
+## Using tokens
 
 We are experimenting with a small subset of tokens, with the intention of introducing more tokens over time.
 
