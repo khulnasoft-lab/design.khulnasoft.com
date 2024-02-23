@@ -225,6 +225,7 @@ Button groups visually group buttons that have similar or related actions togeth
 ### Accessibility
 
 - Maintain parity between focus order and visual order (don't use CSS to reorder buttons).
+- A visible focus state must always be present, regardless of the mode of operation (mouse, keyboard, other). In [Understanding SC 2.4.7](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html) (for [Focus Visible](https://www.w3.org/TR/WCAG22/#focus-visible) (Level AA)). This is so that any keyboard operable interface has a method to show what element currently has focus. From the documentation, "People with attention limitations, short term memory limitations, or limitations in executive processes benefit by being able to discover where the focus is located." It's based on some of these considerations that we also display a visible focus state for a mouse user. In other words, none of those considerations are specific to a keyboard user. It's possible we may explore the use of `:focus-visible`, but it currently relies on inconsistent browser heuristics and doesn't address all of the UX considerations for why a visible focus state might be helpful for all users.
 - Icon-only buttons must use `aria-label` to indicate the action.
 - When an icon is used with a text label, the icon should be hidden from screen readers with `aria-hidden="true"`.
 
