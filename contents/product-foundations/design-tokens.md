@@ -24,7 +24,7 @@ There are three categories that group design tokens by use case.
 
 1. **Base design tokens**: Often called primitives, these design tokens are the lowest level of design tokens and are unchanging key/value pairs. They're referenced in semantic and contextual design tokens, but not otherwise intended to be directly consumed.
    **Examples**
-   - `color.gray.700
+   - `color.gray.700`
    - `space.4`
 1. **Semantic design tokens**: These design tokens consume base design tokens, but unlike base design tokens the value can change in different contexts. For example, in light mode the `color.text.secondary` semantic token can use the `color.gray.500` base design token for its value, and in dark mode use the `color.gray.300` base design token instead. Semantic design tokens capture design intent in an abstracted way. Instead of communicating something like "this surface should be light gray," it communicates "this surface needs to have subtle contrast with the default surface (which happens to be light gray in this mode and a dark gray in another mode)." The abstraction enables the intent to be the same regardless of what values are used or context it happens to be in.
    **Examples**
