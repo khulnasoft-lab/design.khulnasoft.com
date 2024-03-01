@@ -11,6 +11,9 @@ _[Draft: 16.11 release notes](ADD LINK BEFORE MERGE)_
 <!-- Update publish date-->
 <small>Published 2024-03-15</small>
 
+### Additions
+- Added [**❖&nbsp;Button group / Options**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=114050-39090&mode=design&t=0qlM6D5oUArRbPqn-4) to support button group use cases with selectable items.
+
 ### Changes
 
 - Updated the sm tertiary dropdown [**❖&nbsp;Button**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=13756-14840&mode=design&t=3ryi0NDtczpu54o3-4) icon from upload to chevron-down to appear as a dropdown.
@@ -22,7 +25,7 @@ _[Draft: 16.11 release notes](ADD LINK BEFORE MERGE)_
 ### Removals
 
 <!-- remove if replacement merged -->
-- Deprecated the existing [**❖&nbsp;Button Group**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=20378-296&mode=design&t=Pykxj5xxikTefumb-4) component. This will be replaced by reconstructed components. This is a Figma-only change, not a Pajamas change.
+- Deprecated the previous [**❖&nbsp;Button Group**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=20378-296&mode=design&t=Pykxj5xxikTefumb-4) component, replaced by [**❖&nbsp;Button group / Options**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=114050-39090&mode=design&t=0qlM6D5oUArRbPqn-4) and forthcoming component for action-only buttons.
 
 ## 16.9
 
