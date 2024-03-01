@@ -2,9 +2,30 @@
 name: Release notes
 ---
 
+## 16.11
+
+_[Draft: 16.11 release notes](ADD LINK BEFORE MERGE)_
+
 ## 16.10
 
-_[Draft: 16.10 release notes](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3738)_
+<!-- Update publish date-->
+<small>Published 2024-03-15</small>
+
+### Additions
+- Added [**❖&nbsp;Button group / Options**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=114050-39090&mode=design&t=0qlM6D5oUArRbPqn-4) to support button group use cases with selectable items.
+
+### Changes
+
+- Updated the sm tertiary dropdown [**❖&nbsp;Button**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=13756-14840&mode=design&t=3ryi0NDtczpu54o3-4) icon from upload to chevron-down to appear as a dropdown.
+- Updated the [**❖&nbsp;Popover**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=57879-91946&mode=design&t=zI9YVVtzzzJBTVVp-11) description to match Pajamas ([!3742](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3742)) and [default instance](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=57879-93337&mode=design&t=zI9YVVtzzzJBTVVp-11) text to match GitLab UI ([!3970](https://gitlab.com/gitlab-org/gitlab-ui/-/merge_requests/3970)).
+- Update the default instance for [multiline text area](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49888%3A76378&mode=design&t=Mya6LjBjoNEiXJh2-1) from 1 line to 4 lines. Details see [issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1779) 
+- Added `Size: SM`, `Type: Icon` and `Badge: True` variants to [**❖&nbsp;Button / Selected**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=78884-115024&mode=design&t=qRgcVzE9T0RdK8uf-4) to better support swapping with Default buttons. 
+- Added the following illustrations: [**empty-environment-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-state/empty-environment-md.svg), [**empty-commit-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-state/empty-commit-md.svg), [**empty-private-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-state/empty-private-md.svg), [**empty-scan-alert-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-state/empty-scan-alert-md.svg), [**empty-service-desk-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-state/empty-service-desk-md.svg), [**empty-user-settings-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-state/empty-user-settings-md.svg), [**service-desk-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/service-desk-sm.svg).
+
+### Removals
+
+<!-- remove if replacement merged -->
+- Deprecated the previous [**❖&nbsp;Button Group**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=20378-296&mode=design&t=Pykxj5xxikTefumb-4) component, replaced by [**❖&nbsp;Button group / Options**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=114050-39090&mode=design&t=0qlM6D5oUArRbPqn-4) and forthcoming component for action-only buttons.
 
 ## 16.9
 
