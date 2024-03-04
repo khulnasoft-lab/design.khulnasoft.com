@@ -62,7 +62,7 @@ Patterns are reusable animations.
 
 ### Page auto-scroll
 
-An auto-scroll transition can be used to keep an active element visible on a page. This applies to long pages where the user receives a link with an anchor to a specific content block on the page. If this anchored content block is outside the browser's viewport, the page should smoothly scroll to this content block.
+An auto-scroll transition can be used to bring a content block into view while sticky or fixed elements remain in place. For example, a link in a header can smoothly scroll a section of the page into view that was previously outside of the browser's viewport. Likewise, when a user navigates to a section of a page from an external link, the page can smoothly scroll to that section after it loads.
 
 <todo>Add auto-scroll example (issue board cards).</todo>
 
