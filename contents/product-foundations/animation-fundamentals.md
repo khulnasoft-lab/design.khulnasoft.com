@@ -6,11 +6,11 @@ Animation is a tool to help convey important relationships, changes, or transiti
 
 ## Types of animation
 
-1. **Feedback.** Confirm a user interaction with a control or other interactive element.
-1. **Focus.** Highlight important content outside of a user's current context.
-1. **Explanation.** Show a user an element's properties, and its relationship to other elements.
-1. **Engagement.** Help a user feel supported while waiting.
-1. **Emotional.** Build emotional bonds with a user and expresses the brand. It makes a user feel welcome and supported.
+1. **Feedback**: Confirm a user interaction with a control or other interactive element.
+1. **Focus**: Highlight important content outside of a user's current context.
+1. **Explanation**: Show a user an element's properties, and its relationship to other elements.
+1. **Engagement**: Help a user feel supported while waiting.
+1. **Emotional**: Build emotional bonds with a user and express the brand — it can make a user feel welcome and supported.
 
 <todo>Add video explanation.</todo>
 
@@ -26,7 +26,7 @@ Use animation deliberately to enhance the experience without dominating it. Anim
 
 Easing specifies the rate of change of a parameter over time. Adding an easing curve makes the animation feel more natural, cohesive, and connected.
 
-| Illustration | Variable | Value | Use |
+| Example | Variable | Value | Use |
 | --- | --- | --- | --- |
 | <video tabindex="0" preload="true" autoplay="false" controls="" loop="true" playsinline="true" aria-label="" width="400"><source src="/video/easing-linear.mp4"></video> | `$gl-easing-linear` | `linear` |  |
 | <video tabindex="0" preload="true" autoplay="false" controls="" loop="true" playsinline="true" aria-label="" width="400"><source src="/video/easing-default.mp4"></video> | `$gl-easing-default` | `ease` | Hover animation |
