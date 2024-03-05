@@ -13,7 +13,7 @@ _[Draft: 16.11 release notes](ADD LINK BEFORE MERGE)_
 
 ### Additions
 
-- Added [**❖&nbsp;Button group / Options**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=114050-39090&mode=design&t=0qlM6D5oUArRbPqn-4) to support button group use cases with selectable items.
+- Added [**❖&nbsp;Button group / Actions**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=114508-15861&mode=design&t=ypVPOQwRDr8weeWN-4) to support button group use cases with only actions and [**❖&nbsp;Button group / Options**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=114050-39090&mode=design&t=0qlM6D5oUArRbPqn-4) to support button group use cases with selectable items.
 
 ### Enhancements
 
