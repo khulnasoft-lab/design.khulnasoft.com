@@ -66,7 +66,6 @@ Our brand principles extend to our voice and [communications](https://about.gitl
 **Templates**
 
 - [General GitLab-themed deck template](https://docs.google.com/presentation/d/1xuw2RrjoSPx69p9v7aacrustmVto8cKWaFn_YK7Riug/edit#slide=id.g1287bf62b57_0_209) with [instructions](https://about.gitlab.com/handbook/tools-and-tips/#google-slides)
-- [GitLab pitch deck template](https://docs.google.com/presentation/d/1vtFnh8DU6ZZzASTHg83UrhM6LJWqo5lq9mJDAY2ILpw/edit?usp=sharing)
 
 **Quick links**
 
