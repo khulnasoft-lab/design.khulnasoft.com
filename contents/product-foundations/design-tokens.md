@@ -2,13 +2,13 @@
 name: Design tokens
 ---
 
-Design tokens capture decisions and intent in code. They abstract out variables like color, typography, and spacing for consistent and meaningful use across tools and platforms.
+Design tokens capture decisions and intent in code. Design tokens abstract out variables like color, typography, and spacing for consistent and meaningful use across tools and platforms.
 
 ## Why we use design tokens
 
-Design tokens help us establish a single source of truth for how, when, and why an element from the design system is used. On the surface, a design token is a simple json key/value pair, but its value lays in pairing a design decision with an option that exists in the design system.
+Design tokens help us establish a single source of truth for how, when, and why a foundational element from the design system is used. On the surface, a design token is a simple json key/value pair, but its value lays in pairing a design decision with an option that exists in the design system.
 
-For example, choosing `color.gray.700` for text tells someone nothing about why that color was chosen, or how it may react to different modes like light, dark, or high contrast. But, if a token like `color.text.secondary` is applied, someone can understand that the text color is likely less prominent than the primary color regardless of mode. The design intent has been communicated and can't be changed without reconsidering the purpose.
+For example, choosing `color.gray.700` for text tells someone nothing about why that color was chosen, or how it may react to different modes like light, dark, or high contrast. But, if a design token like `color.text.secondary` is applied, someone can understand that the text color is likely less prominent than the primary color regardless of mode. The design intent has been communicated. Changing the design token requires reconsidering the purpose.
 
 More specifically, we use design tokens to:
 
@@ -18,9 +18,48 @@ More specifically, we use design tokens to:
 - Help make new design decisions easier by leveraging existing intent and purpose.
 - Support efforts like themes and modes by abstracting intent from underlying values.
 
-## Types of design tokens
+## Categories
 
-<todo>Define taxonomy, see https://gitlab.com/sdejonge/design-tokens for current exploration.</todo>
+There are three categories that group design tokens by use case.
+
+### Base design tokens
+
+Often called primitives, these design tokens are the lowest level of design tokens and are unchanging key/value pairs. They're referenced in semantic and contextual design tokens, but not otherwise intended to be used directly.
+
+**Examples**
+
+```JSON
+color.gray.700
+space.4
+```
+
+### Semantic design tokens
+
+These design tokens consume base design tokens, but unlike base design tokens the value can change in different contexts. For example, in light mode the `color.text.secondary` semantic token can use the `color.gray.500` base design token for its value, and in dark mode use the `color.gray.300` base design token instead. 
+
+| Design token | Value in light mode | Value in dark mode | 
+| ------ | ------ | ------ |
+| `color.text.secondary` | `color.grey.500` (`#737278`) |  `color.grey.300` (`#a4a3a8`) | 
+
+Semantic design tokens capture design intent in an abstracted way. Instead of communicating something like "this surface should be light gray," it communicates "this surface needs to have subtle contrast with the default surface (which happens to be light gray in this mode and a dark gray in another mode)." The abstraction enables the intent to be the same regardless of what values are used or context it happens to be in.
+
+**Examples**
+
+```JSON
+color.text.secondary
+surface.contrast.subtle
+```
+
+### Contextual design tokens
+
+Because semantic design tokens abstract design intent, they won't address every use case or be helpful for experimenting with new design or concepts. This is where contextual design tokens can be useful in limited cases to more specifically capture unique or specific design intent for components and patterns.
+
+**Examples**
+
+```JSON
+banner.background.gradient
+label.hover.animate
+```
 
 ## Naming conventions
 
@@ -32,11 +71,11 @@ More specifically, we use design tokens to:
 
 ## Design token lifecycle
 
-<todo>Document the governance and workflow for creating and updating tokens. This could be a good place to reference [Style Dictionary](https://amzn.github.io/style-dictionary).</todo>
+<todo issue="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1654">Document the governance and workflow for creating and updating design tokens. This could be a good place to reference [Style Dictionary](https://amzn.github.io/style-dictionary).</todo>
 
 ## Using design tokens
 
-We are experimenting with a small subset of tokens, with the intention of introducing more tokens over time.
+We are experimenting with a small subset of design tokens, with the intention of introducing more design tokens over time.
 
 ### In code
 
