@@ -2,25 +2,67 @@
 name: Design tokens
 ---
 
-Design tokens capture decisions and intent in code. They abstract out variables like color, typography, and spacing for consistent and meaningful use across tools and platforms.
+Design tokens capture decisions and intent in code. Design tokens abstract out variables like color, typography, and spacing for consistent and meaningful user interface (UI) design across tools and platforms.
 
 ## Why we use design tokens
 
-Design tokens help us establish a single source of truth for how, when, and why an element from the design system is used. On the surface, a design token is a simple json key/value pair, but its value lays in pairing a design decision with an option that exists in the design system.
+Design tokens help us establish a single source of truth for how, when, and why a foundational element from the design system is used. On the surface, a design token is a simple json key/value pair, but its usefulness is in pairing a design decision with an option that exists in the design system.
 
-For example, choosing `color.gray.700` for text tells someone nothing about why that color was chosen, or how it may react to different modes like light, dark, or high contrast. But, if a token like `color.text.secondary` is applied, someone can understand that the text color is likely less prominent than the primary color regardless of mode. The design intent has been communicated and can't be changed without reconsidering the purpose.
+For example, choosing `color.gray.700` for text tells someone nothing about why that color was chosen, or how it may react to different modes like light, dark, or high contrast. But, if a design token like `color.text.secondary` is applied, someone can understand that the text color is likely less prominent than the primary color regardless of mode. The design intent has been communicated. Changing the design token requires reconsidering the purpose.
 
 More specifically, we use design tokens to:
 
+- Inventory design primitives.
 - Codify design decisions — capturing them openly and objectively.
 - Synchronize design decisions across design and development tooling.
 - Promote consistent and meaningful abstraction and application.
 - Help make new design decisions easier by leveraging existing intent and purpose.
 - Support efforts like themes and modes by abstracting intent from underlying values.
 
-## Types of design tokens
+## Categories
 
-<todo>Define taxonomy, see https://gitlab.com/sdejonge/design-tokens for current exploration.</todo>
+We group design tokens into three categories — **base**, **semantic**, and **contextual** — that each serve a different purpose. By way of a supermarket analogy, the categories can be thought of as three distinct sections. The base category is like a stockroom that contains the goods for stocking the shelves, but isn't a place consumers go. The semantic category is like all of the organized isles where consumers can easily find basic commodities. Finally, the contextual category is like the departments and specialty sections that offer specific or limited items.
+
+Note that the categories are conceptual, and not expressed or included in literal design token names.
+
+### Base design tokens
+
+Often called primitives, base design tokens are rudimentary, unchanging key/value pairs found at the lowest level of design tokens. They're general in nature and referenced in semantic and contextual design tokens, but not otherwise intended to be used directly.
+
+**Examples**
+
+```JSON
+color.gray.700
+space.4
+```
+
+### Semantic design tokens
+
+Semantic design tokens take general base design tokens and apply them in specific ways. Design intent is abstracted to make decisions about use more clear. For example, in light mode the `color.text.secondary` semantic design token can use the `color.gray.500` base design token for its value, and in dark mode use the `color.gray.300` base design token instead.
+
+| Semantic design token | Value in light mode | Value in dark mode |
+| ------ | ------ | ------ |
+| `color.text.secondary` | `color.gray.500` (`#737278`) |  `color.gray.300` (`#a4a3a8`) |
+
+In both modes the design intent is the same — the text should appear as secondary. Instead of communicating something like "this text should be dark gray," it communicates "this text needs to feel secondary to other text (which happens to be dark gray in this mode and light gray in another mode)." The abstraction enables the intent to be the same regardless of what values are used or context it happens to be in.
+
+**Examples**
+
+```JSON
+color.text.secondary
+surface.contrast.subtle
+```
+
+### Contextual design tokens
+
+Contextual design tokens are the most specific of the three categories. These design tokens are useful for capturing specific design intent for components, patterns, and experiments. They can extend semantic design tokens or reference base design tokens.
+
+**Examples**
+
+```JSON
+banner.background.gradient
+label.hover.animate
+```
 
 ## Naming conventions
 
@@ -32,11 +74,11 @@ More specifically, we use design tokens to:
 
 ## Design token lifecycle
 
-<todo>Document the governance and workflow for creating and updating tokens. This could be a good place to reference [Style Dictionary](https://amzn.github.io/style-dictionary).</todo>
+<todo issue="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1654">Document the governance and workflow for creating and updating design tokens. This could be a good place to reference [Style Dictionary](https://amzn.github.io/style-dictionary).</todo>
 
 ## Using design tokens
 
-We are experimenting with a small subset of tokens, with the intention of introducing more tokens over time.
+We are experimenting with a small subset of design tokens, with the intention of introducing more design tokens over time.
 
 ### In code
 
