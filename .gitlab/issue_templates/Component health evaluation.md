@@ -21,7 +21,7 @@ Fulfills design requirements
 - [ ] Compare design specs in the Pajamas UI Kit with [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/) stories
 - [ ] Check for open issues and MRs that address missing or incomplete design requirements
 
-🪧 **Status**: {status}
+🪧 **Status**: `{status}`
 
 ### Development
 
@@ -32,7 +32,7 @@ Fulfills functional requirements
 - [ ] Compare GitLab UI stories with design specs in the [Pajamas UI Kit](https://www.figma.com/community/file/781156790581391771/component-library)
 - [ ] Check for open issues and MRs that address missing or incomplete functional requirements
 
-🪧 **Status**: {status}
+🪧 **Status**: `{status}`
 
 ### Accessibility
 
@@ -44,7 +44,7 @@ Satisfies WCAG success criteria, has passing automated tests, and has passed man
 - [ ] Keyboard accessible
 - [ ] Evaluated with [common screen reader and browser combinations](https://webaim.org/projects/screenreadersurvey10/#browsercombos) (JAWS/Chrome, NVDA/Firefox, VoiceOver/Safari) and issues resolved
 
-🪧 **Status**: {status}
+🪧 **Status**: `{status}`
 
 ### Documentation
 
@@ -55,7 +55,7 @@ Has supporting examples (stories) and guidelines that prescribe details about va
 - [ ] No todos are present
 - [ ] Documentation present in GitLab UI
 
-🪧 **Status**: {status}
+🪧 **Status**: `{status}`
 
 ---
 
