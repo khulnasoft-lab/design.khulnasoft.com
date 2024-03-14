@@ -71,4 +71,4 @@ Has supporting examples (stories) and guidelines that prescribe details about va
 
 /label ~Figma ~"Pajamas UI Kit" ~"group::foundations" ~"workflow::start" ~"type::maintenance" ~"accessibility" ~"SUS::Non-impacting"
 
-/weight 5
+/weight 3
