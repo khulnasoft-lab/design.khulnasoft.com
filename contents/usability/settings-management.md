@@ -1,10 +1,7 @@
 ---
 name: Settings management
 related:
-  - tooltip
-  - popover
-  - alert
-  - toast
+  - accordion
   - /usability/navigation-sidebar
   - /content/ui-text
   - /usability/saving-and-feedback
