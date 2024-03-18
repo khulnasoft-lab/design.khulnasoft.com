@@ -19,7 +19,7 @@ _[Draft: 16.11 release notes](ADD LINK BEFORE MERGE)_
 
 ### Enhancements
 
-- Updated the [**dropdown&nbsp;behavior**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=65182-99209&mode=design&t=qiXNFeLRSjRCAUcd-11) design specs to include descriptions, update the option text to be more descriptive, and ensure the tip alignment is centered in the panel alignment instances.
+- Updated **❖&nbsp;Dropdown** [behavior instances](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=65182-99209&mode=design&t=qiXNFeLRSjRCAUcd-11) to include descriptions, update the option text to be more descriptive, and ensure the tip is centered in panel alignment.
 
 ### Changes
 
@@ -27,8 +27,8 @@ _[Draft: 16.11 release notes](ADD LINK BEFORE MERGE)_
 - Updated the [**❖&nbsp;Popover**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=57879-91946&mode=design&t=zI9YVVtzzzJBTVVp-11) description to match Pajamas ([!3742](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3742)) and [default instance](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=57879-93337&mode=design&t=zI9YVVtzzzJBTVVp-11) text to match GitLab UI ([!3970](https://gitlab.com/gitlab-org/gitlab-ui/-/merge_requests/3970)).
 - Breaking (medium): Updated [❖❖&nbsp;Text/Multiline](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49888%3A76378&mode=design&t=Mya6LjBjoNEiXJh2-1) form element to display as four lines, up from one line.
 - Added `Size: SM`, `Type: Icon` and `Badge: True` variants to [**❖&nbsp;Button&nbsp;/&nbsp;Selected**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=78884-115024&mode=design&t=qRgcVzE9T0RdK8uf-4) to better support swapping with Default buttons.
-- Updated the table [**_Base&nbsp;header&nbsp;cell**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=48707-59823&mode=design&t=ETApnqRp7cnd70Dz-11) sortable variants to use glyphs (↑, ↓) instead of icon buttons. The glyph color is the same as the text. More details in [#1780](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1780).
-- Updated the table [**sortable on hover**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49122-76749&mode=design&t=ETApnqRp7cnd70Dz-11) cell background so that it doesn't reflect a color change on hover. More details in [#1780](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1780).
+- Updated **Table** / [**_Base&nbsp;header&nbsp;cell**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=48707-59823&mode=design&t=ETApnqRp7cnd70Dz-11) sortable variants to use glyphs (↑, ↓) instead of icon buttons. The glyph color is the same as the text. More details in [#1780](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1780).
+- Updated **❖&nbsp;Table** [Configuration: Sortable (on hover) instance](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49122-76749&mode=design&t=ETApnqRp7cnd70Dz-11) cell background so that it doesn't reflect a color change on hover. More details in [#1780](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1780).
 
 ### Deprecations
 
