@@ -21,9 +21,7 @@ More specifically, we use design tokens to:
 
 ## Categories
 
-We group design tokens into three categories — **base**, **semantic**, and **contextual** — that each serve a different purpose. By way of a supermarket analogy, the categories can be thought of as three distinct sections. The base category is like a stockroom that contains the goods for stocking the shelves, but isn't a place consumers go. The semantic category is like all of the organized isles where consumers can easily find basic commodities. Finally, the contextual category is like the departments and specialty sections that offer specific or limited items.
-
-Note that the categories are conceptual, and not expressed or included in literal design token names.
+We group design tokens into three categories — **base**, **semantic**, and **contextual** — that each serve a different purpose.
 
 ### Base design tokens
 
@@ -38,7 +36,7 @@ space.4
 
 ### Semantic design tokens
 
-Semantic design tokens take general base design tokens and apply them in specific ways. Design intent is abstracted to make decisions about use more clear. For example, in light mode the `color.text.secondary` semantic design token can use the `color.gray.500` base design token for its value, and in dark mode use the `color.gray.300` base design token instead.
+Semantic design tokens reference base design tokens and address all kinds of global attributes from text to surfaces, and spacing to elevation. In the semantic category, design intent and use is more clearly defined while not being tied to any particular base design token. For example, in light mode the `color.text.secondary` semantic design token can use the `color.gray.500` base design token for its value, and in dark mode use the `color.gray.300` base design token instead.
 
 | Semantic design token | Value in light mode | Value in dark mode |
 | ------ | ------ | ------ |
