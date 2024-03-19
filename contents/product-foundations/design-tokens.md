@@ -25,7 +25,8 @@ We group design tokens into three categories — **base**, **semantic**, and **c
 
 ### Base design tokens
 
-Often called primitives, base design tokens are rudimentary, unchanging key/value pairs found at the lowest level of design tokens. They're general in nature and referenced in semantic and contextual design tokens, but not otherwise intended to be used directly.
+Base design tokens are the rudimentary, unchanging key/value pairs found at the lowest level of the design system. Often called primitives, they capture essential attributes like color and spacing. Base design tokens are not intended to be used directly. Instead, they act as options to be referenced in semantic and contextual design tokens.
+
 
 **Examples**
 
