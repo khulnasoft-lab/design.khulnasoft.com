@@ -16,8 +16,8 @@
 
 Fulfills design requirements
 
-- [ ] Ensure the [Pajamas UI Kit](https://www.figma.com/community/file/781156790581391771/component-library) design specs cover all states and variants
-- [ ] Figma components are available and configurable
+- [ ] Ensure the [Pajamas UI Kit](https://www.figma.com/community/file/781156790581391771/component-library) design specs cover all applicable user-facing states and variants. Eric Bailey has a great reference for [all the user-facing states](https://ericwbailey.website/published/all-the-user-facing-states/). Variants will depend on the component's design and configuration options which may be documented in [Pajamas](https://design.gitlab.com/) or available in [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/).
+- [ ] Figma components are available and configurable by inserting from the component library and testing properties
 - [ ] Compare design specs in the Pajamas UI Kit with [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/) stories
 - [ ] Check for open issues and MRs that address missing or incomplete design requirements
 
