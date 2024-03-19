@@ -51,6 +51,7 @@ A simple way to scan component criteria and be able to make decisions about:
 
 - This is an evaluation, not a test. Use your best judgement and ask for help when needed. Even collectively there are some things we just won't know and that's where we can create followups to find out or come to decisions.
 - It can be a challenge to determine where the source of truth may be found. Sometimes designs may be newer than code, and the opposite is true too. Do your best to track determine where feedback is most actionable and appropriate.
+- There doesn't have to be complete parity between what's available in the Pajamas UI Kit vs. what's in GitLab UI. There are design instances that don't need to be in code. Likewise, there are controls in GitLab UI that don't need to be part of a component's configurable properties. Focus on the main things like design consistency and a clear representation of states and variants that would need to be used or implemented by a designer or an engineer respectively. Ask yourself if a designer could accurately use the component in a design composition or prototype, or if an engineer could migrate to or implement a component while satisfying UX and accessibility.
 - Too much information is better than too little. More details and references in the threads will help us now and in the future to get a better handle on component requirements, capabilities, use, and historical decisions that inform the current state.
 
 </details>
