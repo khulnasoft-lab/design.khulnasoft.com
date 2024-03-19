@@ -7,6 +7,8 @@
 1. Create a thread for each criteria to document your findings
 1. Update the status in the description for each criteria (choose a single status from the list below)
 1. Update relevant Pajamas (design.gitlab.com) sections
+1. Create any necessary follow up issues
+1. Close this issue 
 
 ## Health criteria
 
@@ -19,7 +21,7 @@ Fulfills design requirements
 - [ ] Ensure the [Pajamas UI Kit](https://www.figma.com/community/file/781156790581391771/component-library) design specs cover all applicable user-facing states and variants. Eric Bailey has a great reference for [all the user-facing states](https://ericwbailey.website/published/all-the-user-facing-states/). Variants will depend on the component's design and configuration options which may be documented in [Pajamas](https://design.gitlab.com/) or available in [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/).
 - [ ] Figma components are available and configurable by inserting from the component library and testing properties
 - [ ] Compare design specs in the Pajamas UI Kit with [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/) stories
-- [ ] Check for open issues and MRs that address missing or incomplete design requirements
+- [ ] Check the [GitLab.org](https://gitlab.com/gitlab-org/gitlab) project for open issues and MRs that address missing or incomplete design requirements
 
 🪧 **Status**: `{status}`
 
@@ -39,8 +41,8 @@ Fulfills functional requirements
 Satisfies WCAG success criteria, has passing automated tests, and has passed manual evaluations
 
 - [ ] Satisfies applicable [WCAG 2.2](https://www.w3.org/TR/WCAG22/) (level AA) success criteria
-- [ ] Automated tests (Cypress) exist and are passing
-- [ ] Accessibility violations in [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/) are addressed
+- [ ] Automated test (Cypress) [exists](https://gitlab.com/gitlab-org/gitlab-ui/-/tree/main/cypress/e2e) and is [passing](https://gitlab.com/gitlab-org/gitlab-ui/-/blob/main/doc/contributing/end_to_end_test.md#running-cypress-tests)
+- [ ] Accessibility violations reported by the [Storybook accessibility addon](https://storybook.js.org/addons/@storybook/addon-a11y) in [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/) have a followup issue or MR
 - [ ] Keyboard accessible
 - [ ] Evaluated with [common screen reader and browser combinations](https://webaim.org/projects/screenreadersurvey10/#browsercombos) (JAWS/Chrome, NVDA/Firefox, VoiceOver/Safari) and issues resolved
 
