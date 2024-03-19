@@ -36,7 +36,7 @@ space.4
 
 ### Semantic design tokens
 
-Semantic design tokens reference base design tokens and address all kinds of global attributes from text to surfaces, and spacing to elevation. In the semantic category, design intent and use is more clearly defined while not being tied to any particular base design token. For example, in light mode the `color.text.secondary` semantic design token can use the `color.gray.500` base design token for its value, and in dark mode use the `color.gray.300` base design token instead.
+Semantic design tokens reference base design tokens to encapsulate global attributes from text to surfaces, and spacing to elevation. Design intent and usage are more clearly defined, independent of any particular base design token. For example, in light mode the `color.text.secondary` semantic design token can reference the `color.gray.500` base design token for its value, and in dark mode reference the `color.gray.300` base design token instead.
 
 | Semantic design token | Value in light mode | Value in dark mode |
 | ------ | ------ | ------ |
