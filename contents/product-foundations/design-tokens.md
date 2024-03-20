@@ -32,7 +32,7 @@ Base design tokens are the rudimentary, unchanging key/value pairs found at the 
 **Examples**
 
 | Base design token | Value |
-| ------ | ------ | ------ |
+| ------ | ------ |
 | `color.gray.700` | `#737278` |
 | `space.2` | `4px` |
 
