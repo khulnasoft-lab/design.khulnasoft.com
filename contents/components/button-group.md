@@ -20,7 +20,7 @@ related:
 
 <story-viewer component="base-button" story="dropdown-split-button" title="Split dropdown button" iframe-padding="0 0 50px 0"></story-viewer>
 
-[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-7&mode=design)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A7)
 
 ## Structure
 
@@ -37,7 +37,7 @@ related:
 
 ### When not to use
 
-- If there isn't enough space to accommodate the width of a button group you my need to consider a different configuration or layout.
+- If there isn't enough space to accommodate the width of a button group, consider a different configuration or layout.
 - If the related items are all links, consider using the [link](/components/link) component for each instead. They can remain in close proximity to each other, but don't need to otherwise be visually grouped.
 - If a group of options exists in the context of a form, consider using [radio buttons](/components/radio-button) or [checkboxes](/components/checkbox) instead.
 
