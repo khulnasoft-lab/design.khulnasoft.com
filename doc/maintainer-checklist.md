@@ -26,6 +26,10 @@
 - Use full, descriptive sentences so that readers don't have to go back and reference the section title to understand the content within a section. For example, rather than `Use to highlight...`, instead try: `Use cross-column colors to highlight...`
 - Content that is similar or related in meaning is grouped together, if possible.
 - Terminology, such as technical or GitLab-specific, is used correctly.
+- Components and users are referrenced using the singular instead of plural. For example, instead of `Badges can have an icon` use `A badge can have an icon`, and instead of `Users can press the element` use `A user can press the element`.
+- Supporting visuals are simple and follow conventions set in the [Pajamas visual examples](https://www.figma.com/file/2XRq1MnIG69iti76Mh9HpJ/Pajamas-visual-examples) Figma file.
+- Component documentation follows the [component template](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/main/pages/components/template.md?plain=1). Content that isn't available for a required section has a todo for future completion.
+- Extra space and comments have been removed.
 
 ## For the MR itself, ensure
 - That at least the first commit message is formatted according to [conventional commit standards](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/main/doc/commits.md)
