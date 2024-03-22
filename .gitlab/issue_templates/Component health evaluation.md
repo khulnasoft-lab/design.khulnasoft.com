@@ -11,7 +11,7 @@ The evaluation is a collaborative effort between disciplines. Our collective kno
 - Health is positive and more qualitative than quantitative.
 - Health accounts for critical vital signs that lead to stability and performance — things that directly impact UX.
 - Health isn't as pass/fail as completeness. A range can better inform appropriate use and predict impact in different use cases.
-- Health is more closely correlated to SUS.
+- Health is more closely correlated to the [System Usability Score (SUS)](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/system-usability-scale/).
 - Health is a better indicator for infrastructure, which is how we should think about the design system.
 
 ### Desired outcome
