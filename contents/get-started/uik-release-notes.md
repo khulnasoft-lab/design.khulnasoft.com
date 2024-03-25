@@ -12,6 +12,7 @@ name: Release notes
 <small>Published 2024-XX-XX</small>
 
 ### Additions
+
 - Added [**milestone**](https://www.figma.com/file/h4YjjttHL5YI0mXZfQ4uuU/GitLab-Product-Icons?type=design&node-id=6302-439&mode=design&t=P96t1HVc6HiwwYxi-4) icon.
 
 ### Enhancements
