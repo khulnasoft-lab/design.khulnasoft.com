@@ -23,7 +23,7 @@ More specifically, we use design tokens to:
 
 We group design tokens into three categories — **constant**, **semantic**, and **contextual** — that each serve a different purpose.
 
-<note>Naming examples are hypothetical and will be updated after [#2510](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/2510) is complete.</note>
+<note>Naming examples are hypothetical and will be updated after [&13205](https://gitlab.com/groups/gitlab-org/-/epics/13205) is complete.</note>
 
 ### Constant design tokens
 
