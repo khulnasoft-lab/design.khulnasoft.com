@@ -53,6 +53,7 @@ A simple way to scan component criteria and be able to make decisions about:
 - It can be a challenge to determine where the source of truth may be found. Sometimes designs may be newer than code, and the opposite is true too. Do your best to track determine where feedback is most actionable and appropriate.
 - There doesn't have to be complete parity between what's available in the Pajamas UI Kit vs. what's in GitLab UI. There are design instances that don't need to be in code. Likewise, there are controls in GitLab UI that don't need to be part of a component's configurable properties. Focus on the main things like design consistency and a clear representation of states and variants that would need to be used or implemented by a designer or an engineer respectively. Ask yourself if a designer could accurately use the component in a design composition or prototype, or if an engineer could migrate to or implement a component while satisfying UX and accessibility.
 - Too much information is better than too little. More details and references in the threads will help us now and in the future to get a better handle on component requirements, capabilities, use, and historical decisions that inform the current state.
+- For the accessibility thread in particular, it would be helpful to document the WCAG success criteria referenced, and screen reader and browser combinations used. Information like this will have a compounding effect for future reference and reviews.
 
 </details>
 
@@ -62,7 +63,7 @@ A simple way to scan component criteria and be able to make decisions about:
 
 ### Design
 
-Fulfills design requirements
+Fulfills known design requirements
 
 - [ ] Ensure the [Pajamas UI Kit](https://www.figma.com/community/file/781156790581391771/component-library) design specs cover all applicable user-facing states and variants. Eric Bailey has a great reference for [all the user-facing states](https://ericwbailey.website/published/all-the-user-facing-states/). Variants will depend on the component's design and configuration options which may be documented in [Pajamas](https://design.gitlab.com/) or available in [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/).
 - [ ] Figma components are available and configurable by inserting from the component library and testing properties
@@ -73,7 +74,7 @@ Fulfills design requirements
 
 ### Development
 
-Fulfills functional requirements
+Fulfills known functional requirements
 
 - [ ] [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/) components have all states, variants, and functionality
 - [ ] Ensure that all necessary controls exist in GitLab UI
