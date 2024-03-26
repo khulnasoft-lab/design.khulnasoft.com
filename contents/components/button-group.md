@@ -16,9 +16,9 @@ related:
 
 ## Examples
 
-<story-viewer component="base-button-group" title="Button Group" iframe-padding="0 0 50px 0"></story-viewer>
+<story-viewer component="base-button-group" title="Button Group"></story-viewer>
 
-<story-viewer component="base-button" story="dropdown-split-button" title="Split dropdown button" iframe-padding="0 0 50px 0"></story-viewer>
+<story-viewer component="base-button" story="dropdown-split-button" title="Split dropdown button"></story-viewer>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A7)
 
@@ -33,7 +33,7 @@ related:
 
 ### When to use
 
-- Visually and programmatically group between two to five items that have similar or related actions to emphasize the relationship. A link can be styled like a button and included in a group, however, it can be confusing for some users if both a button (`<button>`) and a link (`<a>`) are in the same group.
+- Visually and programmatically group between two to five items that have similar or related actions to emphasize the relationship.
 
 ### When not to use
 
@@ -62,7 +62,7 @@ Depending on whether a button or link is used, and whether or not the page reloa
 
 - Selecting an item in the group immediately triggers the associated action.
 - If there is no page reload, the item can immediately have a selected state.
-- If there is a page reload or redirect, the clicked action can have a selected state on load.
+- If there is a page reload or redirect, the clicked action can have a selected state on load if it persists in the UI.
 
 ## Content
 
@@ -75,6 +75,7 @@ Depending on whether a button or link is used, and whether or not the page reloa
 - To indicate a selected state of a button and treat it like a toggle, use `aria-pressed="true"`. Only one button should be selected at a time. See [MDN Web Docs aria-pressed](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-pressed) for more details.
 - To indicate a selected state of a link, use `aria-current="true"`. Using `true` instead of `page` is to indicate the current selection within the group rather than the current page. See [MDN Web Docs aria-current](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-current) for more details.
 - Consider where focus should be placed after triggering an action. In some cases it should remain on the element, and in others it should move to the changed content. This is particularly important for page reloads and redirects.
+- A link can be styled like a button and included in a group, however, it can be confusing for some users if both a button (`<button>`) and a link (`<a>`) are in the same group.
 
 ## Reference
 
