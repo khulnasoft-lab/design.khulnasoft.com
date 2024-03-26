@@ -22,11 +22,13 @@ Colors are immutable [constant design tokens](/product-foundations/design-tokens
 - UI elements, like buttons and alerts, rely on chromatic hues and neutrals for meaning and hierarchy, and adapt contrast based on the surface.
 
 #### Light UI
+
 - Surfaces are made of light materials and text uses darker colors.
 - Shadows and borders are stronger indicators of depth than brightness.
-- Because more light is being emmitted, more color may be needed to indicate meaning or draw attention to an element.
+- Because more light is being emitted, more color may be needed to indicate meaning or draw attention to an element.
 
 #### Dark UI
+
 - Surfaces are made of dark materials and text uses lighter colors. This means that some elements will feel dimmed, while others feel inverted.
 - Brightness is a stronger indicator of depth than shadows or borders.
 - Color stands out more in dark UI, and as a result, less of it may be needed to convey the same meaning or draw the same amount of attention as in light UI.
