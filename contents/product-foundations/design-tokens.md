@@ -45,7 +45,7 @@ Semantic design tokens reference constant design tokens to encapsulate global de
 | Semantic design token | Value in light mode | Value in dark mode |
 | ------ | ------ | ------ |
 | `color.text.secondary` | `color.neutral.500` | `color.neutral.300` |
-| `color.surface.background.info` | `color.blue.50` | `color.blue.900` |
+| `color.surface.background.info` | `color.blue.50` | `color.neutral.900` |
 
 In the example above, `color.text.secondary` references the `color.neutral.500` constant design token for its light mode value, and in dark mode it references the `color.neutral.300` constant design token. In both modes the design intent is the same — the text should appear as secondary. Instead of communicating something like "this text should be dark gray," it communicates "this text needs to feel secondary to other text (which happens to be dark gray in this mode and light gray in another mode)." The abstraction enables the intent to be the same regardless of what values are used or the context it happens to be in.
 
