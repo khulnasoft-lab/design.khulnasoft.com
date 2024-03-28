@@ -178,6 +178,10 @@
               {
                 "title": "Fundamentals",
                 "path": "animation-fundamentals"
+              },
+              {
+                "title": "Feedback animation",
+                "path": "animation-feedback"
               }
             ]
           },
