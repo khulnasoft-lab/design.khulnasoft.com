@@ -89,6 +89,7 @@ Fulfills known functional requirements
 - [ ] Ensure that all necessary controls exist in GitLab UI
 - [ ] Review the [Pajamas UI Kit](https://www.figma.com/community/file/781156790581391771/component-library) to ensure that any variants present in [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/) stories are also present in the design specs
 - [ ] Check for open issues and MRs that address missing or incomplete functional requirements
+- [ ] If using an anchor tag in user-generated content, ensure sanitization & proper `rel` attribute (consider using the [`safe_link`](https://gitlab.com/gitlab-org/gitlab-ui/-/blob/main/src/directives/safe_link/safe_link.md?ref_type=heads) directive)
 
 🪧 **Status**: `{status}`
 
