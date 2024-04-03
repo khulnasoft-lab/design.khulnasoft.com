@@ -29,15 +29,24 @@ A simple way to scan component criteria and be able to make decisions about:
 
 ### Instructions
 
-1. Title the issue with the component name, for example `Health evaluation: componentName`
-1. Assign evaluator(s)
-1. Add the component label
+**Initial setup:**
+
+- [ ] Title the issue with the component name, for example `Health evaluation: componentName`
+- [ ] Assign evaluator(s)
+- [ ] Add the component label
+
+**For each criteria, at least one evaluator needs to:**
+
 1. Use the following checklists to evaluate the component
-1. Create a thread for each criteria to document your findings
-1. Update the status in the description for each criteria (choose a single status from the list below)
+1. Create a thread for the criteria to document your findings
+1. Update the status in the description for the criteria (choose a single status from the list below)
 1. Update relevant Pajamas (design.gitlab.com) sections
 1. Create any necessary follow up issues
-1. Close this issue
+
+**Completing the evaluation:**
+
+- [ ] Ensure that all evaluators have completed the above steps for the criteria they reviewed
+- [ ] Close this issue
 
 **Status options**
 
