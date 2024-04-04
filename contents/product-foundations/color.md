@@ -10,13 +10,11 @@ There are three color palettes used in the product:
 1. [Themes](#themes) - For user preferences and to differentiate GitLab instances.
 1. [Data visualization](/data-visualization/color) - For all data visualization, including charts and graphs.
 
-The main function of color is to optimize the visual presentation of content by establishing a meaningful hierarchy, indicating interaction, and communicating meaning. The following principles help to think about color use consistently.
-
-Colors are immutable [constant design tokens](/product-foundations/design-tokens#constant-design-tokens) that keep use predictable and consistent.
+Colors are [constant design tokens](/product-foundations/design-tokens#constant-design-tokens) that keep use predictable and consistent. The main function of color is to optimize the visual presentation of content by establishing a meaningful hierarchy, indicating interaction, and communicating meaning. The following principles help to think about color use consistently.
 
 ### Design principles
 
-The same palettes are used for light and dark UI, but that doesn't mean they have to be applied the same way in both. The following principles and considerations apply generally, and to light and dark UI respectively.
+The same palettes are used for light and dark UI, though they may be applied differently in each. The following principles and considerations apply generally, and to light and dark UI respectively.
 
 - Surfaces are top lit by a single, invisible, pure white light source.
 - Surfaces reflect light and don't emit it or glow.
