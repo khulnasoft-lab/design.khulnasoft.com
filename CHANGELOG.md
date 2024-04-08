@@ -1,3 +1,119 @@
+# [2.193.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.192.0...v2.193.0) (2024-04-08)
+
+
+### Bug Fixes
+
+* **deps:** update gitlab ui/svg ([7402d90](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/7402d90d1abb62cfb57bec10cf045ee0170e310e))
+
+
+### Features
+
+* **Color:** Considerations to principles ([0432d3c](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/0432d3c80e7c0b71030ff6ff72d8f77a6cc9e81b))
+
+# [2.192.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.191.0...v2.192.0) (2024-04-01)
+
+
+### Features
+
+* **DesignTokens:** Refine definitions and examples ([a18a8be](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/a18a8beb4d23f1e4ba064dfe235e55569b307672))
+
+# [2.191.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.190.2...v2.191.0) (2024-03-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gitlab/ui to v78.2.3 ([431ada8](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/431ada8e23e1ccaa2f1a0d4eb74623931af8f406))
+* Include draft notes link ([2518645](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/2518645d19e1e8bf79b96ee8a34ae5876d3fa89f))
+
+
+### Features
+
+* **brand:** Update deck templates ([d6131d7](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/d6131d73c662925cb5d5d8abdf0e31cbb50c3060))
+* **ReleaseNotes:** 16.10 release notes ([c76083d](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/c76083d0ca33a1224eca0915411e2404f2d7a986))
+
+## [2.190.2](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.190.1...v2.190.2) (2024-03-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gitlab/svgs to v3.91.0 ([9383552](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/938355231e90bcb4981599398b274abb5de675db))
+* **deps:** update dependency @gitlab/ui to v78 ([d8e6e91](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/d8e6e917374c3169e31067209d0740caf3529183))
+* **deps:** update dependency mermaid to ^10.9.0 ([55cb67e](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/55cb67e910cb4ce39ed4b8147b9f724e292834be))
+
+## [2.190.1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.190.0...v2.190.1) (2024-03-11)
+
+
+### Bug Fixes
+
+* add tailwindcss config ([611789c](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/611789c27e7dbb03d94f459ca8350c97c3ac1530))
+* **deps:** update dependency @gitlab/svgs to v3.88.0 ([183e97e](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/183e97eb71f7bd688f506f5ee31fb4f62213a796))
+
+# [2.190.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.189.0...v2.190.0) (2024-03-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gitlab/ui to v77 ([f06f9cd](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/f06f9cda9166f57af825483b880202865550a0d7))
+
+
+### Features
+
+* **Button:** Add focus note ([20b3301](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/20b330147f948b2a16dfe740f1a20fb6ad11bc4c))
+
+# [2.189.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.188.0...v2.189.0) (2024-02-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gitlab/application-sdk-browser to ^0.3.2 ([fa8bab3](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/fa8bab3c08f693d970fb12c95acc3d27e0898e75))
+* **deps:** update dependency @gitlab/svgs to v3.85.0 ([9fa13ba](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/9fa13ba9ef4328bd60710b0cec3b4c4538195dba))
+* **deps:** update dependency @gitlab/ui to v75 ([d9275b0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/d9275b097e42ccf5939c951898586c7f627120ea))
+* **deps:** update dependency @gitlab/ui to v76 ([b8eaa8c](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/b8eaa8c2c36516bb7a5532498bdb584f5db51416))
+* **Search:** Fix icon position typo ([1d18560](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/1d18560aeb4e8b88ce6f183f396d9f8980e0e542))
+* Update admonition links ([99017e2](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/99017e29ea892d8357b505470913e3f5f1872e0d))
+
+
+### Features
+
+* **Color:** Document alpha and blend mode ([984af9e](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/984af9ebf7fe2465aa82016b0dfc1729bca479bd))
+* add documentation about acceptance of terms ([d24a3cd](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/d24a3cd96849dec94ddd97af4ecb765ee06970aa))
+* **DesignTokens:** Add initial usage guidelines ([0a266cb](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/0a266cba9fe6cbdcfc7869e3e6972d06f6fbba9c))
+* **Popover:** Docs cleanup ([b21419d](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/b21419d0ba008c25e19a303a9ddb32284203f6bd))
+* **SingleStat:** Add link variant usage guidelines ([0e6ba05](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/0e6ba0511a85ba9b9dc58c57b2716dccf03883a7))
+
+# [2.188.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.187.0...v2.188.0) (2024-02-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gitlab/application-sdk-browser to ^0.3.1 ([b4cc05f](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/b4cc05f9309fb6ce551ed8bb899820f6e0a4e038))
+* **deps:** update dependency @gitlab/ui to v74.7.0 ([f223548](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/f223548ef3cf20ed4c00ece572e410eb83c5c34e))
+* Switch from clicking icon to row ([e8a39f1](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/e8a39f165d272a202f2ed9c0bf72ba7559b864cf))
+
+
+### Features
+
+* add duo pro add on definition ([01b6651](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/01b66512e0dadffd61017be52f9e529572db915d))
+* **BrandColor:** updating color palette ([45c0097](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/45c0097a3835a1754dad14d190d1f0c09e9b3d3c))
+* **ReleaseNotes:** 16.9 release notes ([b5e89ab](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/b5e89abc294026d6dff35c30fee3fe85667305f3))
+
+# [2.187.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.186.0...v2.187.0) (2024-02-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gitlab/ui to v74 ([2a595b9](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/2a595b914df1bdf476781ddea05d260f14fb33bc))
+* **deps:** update dependency @nuxtjs/sentry to ^8.0.7 ([7f62de8](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/7f62de8591056d1b5bfc8b838e140c99d64648b7))
+* remove double new line ([12b5136](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/12b5136064e065be9b20184a155cbeacefa5cedb))
+* **deps:** update dependency mermaid to ^10.8.0 ([3e8da71](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/3e8da710122f335e3c39d69fc0555919034b72b8))
+
+
+### Features
+
+* **EmptyState:** Change 'no results' text for searching and filtering ([4dbfda7](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/4dbfda74aa2b2794154bb27adfe6747d7cd17c77))
+* **featureMgmt:** Update UI text ([32f7cdc](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/32f7cdc637cc23f5448b804f5f1a2be7bb5857e3))
+* **Headings:** Add display heading guidance ([4c6f784](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/4c6f784ebd49beca4db8589a59a36306769576c8))
+
 # [2.186.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.185.0...v2.186.0) (2024-02-05)
 
 

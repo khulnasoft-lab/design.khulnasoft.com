@@ -9,6 +9,8 @@ related:
 
 <todo>Add visual example</todo>
 
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=72017-103312&mode=design&t=CutnGvd6oRdmrYue-4)
+
 ## Guidelines
 
 ### Semantics
@@ -29,22 +31,25 @@ By default, heading levels are mapped to the heading scale. However, in some cas
 
 When in doubt, use the scale by default, consider the full page context, and reference existing patterns.
 
-<todo>Provide more guidelines and examples of scale overrides.</todo>
+#### Display heading
 
-<todo>Add UI kit links after [#1527](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1527) has been completed.</todo>
+A display style can be applied to a level 1 heading to emphasize the text in a more promotional manner. The larger size and weight creates a stronger visual anchor compared to other text on the page.
+
+<todo>Provide more guidelines and examples of scale overrides.</todo>
 
 ## Implementation
 
 ### Classes
 
-There are two sets of heading mixins and utility classes:
+Heading mixins and utility classes:
 
 - `gl-heading-{1-6}` mixins and classes are the preferred approach to implementing heading typography. Usage should align with semantic heading levels, for example, `<h2 class="gl-heading-2">...</h2>`.
+- `gl-heading-display` class is available to create a [display heading](#display-heading).
 - `gl-heading-scale-{100-800}` mixins and classes are available for [contextual adjustments](#contextual-adjustments) where the semantic heading scale doesn't provide the desired visual hierarchy. However, the recommendation is to use the default scale and avoid contextual adjustments as much as possible.
 
 #### Margins
 
-The `gl-heading-{1-6}` mixins and classes provide a default `margin-bottom` (and reset Bootstrap's `margin-top`). In order to opt-out of the margin, add a `gl-mb-0!` class:
+The `gl-heading-{1-6}` and `gl-heading-display` mixins and classes provide a default `margin-bottom` and remove `margin-top`. In order to opt-out of the margin, add a `gl-mb-0!` class:
 
 ```html
 <h2 class="gl-heading-2">...</h2> <!-- has margin -->

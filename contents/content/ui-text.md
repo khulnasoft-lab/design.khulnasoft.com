@@ -67,9 +67,11 @@ For each of these content types, look for ways you might rephrase text that seem
 Sometimes an extra word or two are required for clarity.
 
 For example, if the context clearly refers to the object, you can use a verb or adjective by itself.
+
 - **Example:** `Edit` or `Closed`
 
 If the context isn’t clear enough, use an object.
+
 - **Example:** `Edit issue` or `Closed issues`
 
 ## Clear error messages
@@ -92,6 +94,10 @@ Objective-focused content that starts with the task first and then offers the so
 | --- | --- |
 | Monitor your errors by integrating with Sentry | Integrate with Sentry to monitor your errors |
 | To see what’s changed, choose a branch or enter a commit. | Choose a branch or enter a commit to see what's changed. |
+
+## Capitalization
+
+Use sentence case for field labels and column headings. Avoid title case.
 
 ## Other resources
 

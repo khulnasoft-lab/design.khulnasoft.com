@@ -6,26 +6,32 @@ name: Color
 
 There are three color palettes used in the product:
 
-1. [UI](#ui) - For all surfaces, content, and UI elements.
+1. [UI](#ui) - For all surfaces, content, and user interface (UI) elements.
 1. [Themes](#themes) - For user preferences and to differentiate GitLab instances.
 1. [Data visualization](/data-visualization/color) - For all data visualization, including charts and graphs.
 
-The main function of color is to optimize the visual presentation of content by establishing a meaningful hierarchy, indicating interaction, and communicating meaning. The following concepts help to think about color use consistently, regardless of mode or context.
+Colors are [constant design tokens](/product-foundations/design-tokens#constant-design-tokens) that keep use predictable and consistent. The main function of color is to optimize the visual presentation of content by establishing a meaningful hierarchy, indicating interaction, and communicating meaning. The following principles help to think about color use consistently.
 
-### Concepts
+### Design principles
 
-- Surfaces are top lit by a single, invisible, white-light source.
-- Surfaces reflect light and don't emit it.
+The same palettes are used for light and dark UI, though they may be applied differently in each. The following principles and considerations apply generally, and to light and dark UI respectively.
+
+- Surfaces are top lit by a single, invisible, pure white light source.
+- Surfaces reflect light and don't emit it or glow.
 - Forward elements are lighter and receding ones are darker.
-- In a light UI, surfaces are made of light materials and text uses darker colors.
-- In a dark UI, surfaces are made of dark materials and text uses lighter colors.
 - UI elements, like buttons and alerts, rely on chromatic hues and neutrals for meaning and hierarchy, and adapt contrast based on the surface.
+
+| Light UI | Dark UI |
+| ------ | ------ |
+| Surfaces are made of light materials and text uses darker colors. | Surfaces are made of dark materials and text uses lighter colors. Some elements will feel dimmed, while others feel inverted. |
+| Shadows and borders are stronger indicators of depth than brightness. | Brightness is a stronger indicator of depth than shadows or borders. |
+| More color may be needed to indicate meaning or draw attention to an element as more light is being cast from the display. | Color stands out more in dark UI, and as a result, less of it may be needed to convey the same meaning or draw the same amount of attention as in light UI. |
 
 ## UI
 
 ### Chromatic
 
-We have five primary chromatic hues and their color steps, totaling 55 color variables for use across the application. These colors give flexibility during the design process, while also providing a harmonious palette that looks consistent and in-line with our brand styles.
+We have five primary chromatic color ramps that include a total 55 colors for use across the application. These colors give flexibility during the design process, while also providing a harmonious palette that looks consistent and in-line with our brand styles.
 
 Though deciding which color to use depends on the situation, here are some general guidelines for using the chromatic hues:
 
@@ -67,7 +73,7 @@ Neutrals are primarily used for surfaces and within components to help different
 
 ### Transparency
 
-Transparency is used only to effectively shade an element in relation to the surface below.
+Transparency is used only to effectively shade an element in relation to the surface below. See [blend modes and opacity](#blend-modes-and-opacity).
 
 #### Gray
 
@@ -111,7 +117,7 @@ Green and light green share the same `$theme-green-` SCSS variables.
 
 ### Dark / Light
 
-The dark and light (gray) themes use the [neutral palette](#neutral-palette).
+The dark and light (gray) themes use the [neutral palette](#neutral).
 
 ## Interactive states
 
@@ -129,6 +135,14 @@ Typical state changes (light UI):
     A primary confirm button example with a <code>$blue-500</code> fill at rest (1), a <code>$blue-600</code> fill for hover and focus (2, 3), and a <code>$blue-700</code> fill when active (4). The color changes are combined with other visual feedback (cursor, focus ring) to communicate information about the interactive state.
   </template>
 </figure-img>
+
+## Blend modes and opacity
+
+It's preferred to used solid colors (no transparency or effects) for the highest level of predictability and consistency. However, there are limited instances where transparency (alpha) or `mix-blend-mode` can be used. For example, a component or element that can be placed on multiple surface colors, where the surface color may conflict with the component color or reduce contrast below a [satisfactory contrast ratio](/accessibility/visual#contrast).
+
+A [tertiary button](/components/button#categories) is one component that uses a `mix-blend-mode` because the background on hover can be the same, or have similar lightness to, the surface color. Likewise, the chevron icons in the [navigation left sidebar](/patterns/navigation) in GitLab use `mix-blend-mode` to maintain at least a 3:1 contrast ratio against various theme background colors.
+
+If a specific hex value is desired, use a solid color instead of approximating it with transparency or a blend mode.
 
 ## Accessibility
 

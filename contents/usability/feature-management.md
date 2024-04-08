@@ -2,27 +2,25 @@
 name: Feature management
 related:
   - /patterns/forms
-  - /usability/feature-discovery  
+  - /usability/feature-discovery
 ---
 
 ## Configuration
 
 Disabling unwanted [features is possible in projects](https://docs.gitlab.com/ee/user/project/settings/#sharing-and-permissions), but adding more to this list is not recommended. Disabled features may adversely impact the the [System Usability Scale](https://about.gitlab.com/handbook/engineering/ux/performance-indicators/system-usability-scale/), since it may lead to an unexpected and inconsistent user experience. Admin users cannot disable features at the instance or group levels, as they do not know what functionality end users may need.
 
-
 ## Discovery moments
 
-[Feature discovery](/usability/feature-discovery) moments are notices presented in the UI that inform a user of additional features. These could be features available in higher tiers, or free features that unlock significant value to a user. 
-
+[Feature discovery](/usability/feature-discovery) moments are notices presented in the UI that inform a user of additional features. These could be features available in higher tiers, or free features that unlock significant value to a user.
 
 ### Highlighting higher tier features
 
-Higher tier features should be easy to identify from the rest of the interface. Consider using the following badge to highlight them: 
+Higher tier features should be easy to identify from the rest of the interface. Consider using the following badge to highlight them:
 
 <figure-img alt="Premium feature badge" label="Higher tier feature badge" src="/img/higher-tier-feature-badges.svg"></figure-img>
 
 <todo>Replace badge image with live example or link once the new variant has been added to GitLab UI.</todo>
- 
+
 #### Specification
 
 * Component name: [`GlBadge`](https://design.gitlab.com/components/badge/code)
@@ -46,14 +44,24 @@ Higher tier features should be easy to identify from the rest of the interface. 
 
 ### Highlighting feature versions
 
+Experiment and Beta features are subject to legal terms, which must be displayed next to the settings to enable said feature. Use the following UI text:
+
+| Number of features | Group setting | User setting |
+|-|-|-|
+| Single | When you enable this feature, you accept the [GitLab Testing Agreement](https://handbook.gitlab.com/handbook/legal/testing-agreement/). | Subject to the [GitLab Testing Agreement](https://handbook.gitlab.com/handbook/legal/testing-agreement/). |
+| Multiple | When you enable any of these features, you accept the [GitLab Testing Agreement](https://handbook.gitlab.com/handbook/legal/testing-agreement/). | These features are subject to the [GitLab Testing Agreement](https://handbook.gitlab.com/handbook/legal/testing-agreement/). |
+
+<figure-img label="Example of legal disclaimer" src="/img/legal-disclaimer-exp-beta.svg"></figure-img>
+
 Similar to higher tier features, feature versions like Experiment and Beta should be easily identifiable, using a [badge](/components/badge/) with an explanation in a [popover](/components/popover):
 
 | Experiment | Beta |
 | ------ | ------ |
 | <figure-img label="Experiment feature badge" src="/img/experiment-feature-badge.svg"></figure-img> | <figure-img label="Beta feature badge" src="/img/beta-feature-badge.svg"></figure-img> |
-| **What's an Experiment**<br>An Experiment is a feature that's in the process of being developed. It's not production-ready. We encourage users to try Experimental features and provide feedback.<br><br>An Experiment:<ul><li>May be unstable</li><li>Can cause data loss</li><li>Has no support and might not be documented</li><li>Can be removed at any time</li></ul> | **What's Beta?**<br>A Beta feature is not production-ready, but is unlikely to change drastically before it's released. We encourage users to try Beta features and provide feedback.<br><br>A Beta feature:<ul><li>May be unstable</li><li>Should not cause data loss</li><li>Is supported by a commercially reasonable effort</li><li>Is complete or near completion</li></ul> |
+| <strong>What's an Experiment?</strong><br>An Experiment is not yet production-ready, but is released for initial testing and feedback during development. <br><br>Experiments:<ul><li>Might be unstable or cause data loss.</li><li>Are not supported and might not be documented.</li><li>Could be changed or removed at any time.</li><li>Are subject to the <a href="https://handbook.gitlab.com/handbook/legal/testing-agreement/">GitLab Testing Agreement</a>.</li></ul> | <strong>What's a Beta feature?</strong><br>A Beta feature is not yet production-ready, but is ready for testing and unlikely to change significantly before it's released.<br><br>Beta features:<ul><li>Have a low risk of data loss, but might still be unstable.</li><li>Are supported on a commercially-reasonable effort basis.</li><li>Have a near complete user experience.</li><li>Are subject to the <a href="https://handbook.gitlab.com/handbook/legal/testing-agreement/">GitLab Testing Agreement</a>.</li></ul> |
 
 <todo>Replace badges with live example or link once a dedicated component has been added to GitLab UI.</todo>
+
 #### Specification
 
 * Component name: [`GlBadge`](https://design.gitlab.com/components/badge/code)
@@ -62,7 +70,7 @@ Similar to higher tier features, feature versions like Experiment and Beta shoul
 
 #### How to use
 
-* Ensure there is a clear connection between the badge and the feature being highlighted. For example, place the badge next to the name of the feature. 
+* Ensure there is a clear connection between the badge and the feature being highlighted. For example, place the badge next to the name of the feature.
 * When placing the badge, consider the available space and opt for a small badge if needed. The badge can be displayed either before or after the user interacts with the feature.
 * When the feature becomes Generally Available, make sure the badge is removed.  
 
