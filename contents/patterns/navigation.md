@@ -2,14 +2,14 @@
 name: Navigation
 ---
 
-Users rely on the navigation to move around and orient themselves in GitLab. This pattern outlines some of the qualities that make it consistent, familiar, and usable. For help with other aspects of GitLab's navigation, refer to the following resources:
+Users rely on the navigation to move around and orient themselves in GitLab. This pattern outlines the qualities that make the navigation consistent, familiar, and usable. For help with other aspects of GitLab's navigation, refer to the following resources:
 
 - [How to propose a change to navigation.](https://about.gitlab.com/handbook/product/ux/navigation/)
 - [How to conduct user research of a proposed change to navigation.](https://about.gitlab.com/handbook/product/ux/ux-research/evaluating-navigation/)
 
 ## Overview
 
-The navigation is a consistently available user interface structure that contains functionality for moving around GitLab as well as for accomplishing core tasks. The navigation is made up of two main components: The navigation sidebar and the [breadcrumb](/components/breadcrumb). These components were designed to work together within the bigger picture of [page templates (draft)](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1556) to invoke a sense of reliable wayfinding.
+The navigation is the global chrome of the application that controls the content in the main view. Is is comprised of two main components: The navigation sidebar and the [breadcrumb](/components/breadcrumb). These components were designed to work together within the bigger picture of [page templates (draft)](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1556) to invoke a sense of reliable wayfinding.
 
 ### Layout
 
@@ -19,13 +19,15 @@ There are two different versions of the navigation structure in GitLab.
 | ------------------ | ------- |
 | <figure-img alt="Authenticated navigation layout" src="/img/navigation-layout.svg" width="350"></figure-img> | <figure-img alt="Visitor navigation layout" src="/img/navigation-layout-visitor.svg" width="350"></figure-img> |
 
-1. **Header**: Elements specific to the user and available functionality.
-2. **Body**: Elements are interchangable based on context.
+1. **Header**: Elements are tailored to the user and global functions.
+2. **Body**: Elements are change based on context.
 3. **Footer**: Elements available for convenience or tertiary tasks.
-4. **Breadcrumb**: Elements relay the heirarchy to reinforce wayfinding.
-5. **Top bar (visitors only)**: Elements include External links and calls-to-action.
+4. **Breadcrumb**: Elements relay the site hierarchy to reinforce wayfinding.
+5. **Top bar (visitors only)**: Elements include external links and calls-to-action.
 
 #### Header elements
+
+Always available as static items and never change across contexts.
 
 <figure-img alt="Navigation header structure" label="A layout of the header structure within the navigation sidebar" src="/img/navigation-header-structure.svg"></figure-img>
 
@@ -36,7 +38,7 @@ There are two different versions of the navigation structure in GitLab.
 5. **User dropodown**: Dropdown for user related items and actions.
 6. **Impersonation**: For stopping [impersonation](https://docs.gitlab.com/ee/administration/admin_area.html#user-impersonation) once turned on.
 7. **Shortcuts**: Quick links to items users are responsible for.
-8. **Search**: Opens a modal for navigating, using [global search](https://docs.gitlab.com/ee/user/search/) or the [command palette](https://docs.gitlab.com/ee/user/search/command_palette.html#open-the-command-palette).
+8. **Search**: Opens a modal for using [global search](https://docs.gitlab.com/ee/user/search/) or the [command palette](https://docs.gitlab.com/ee/user/search/command_palette.html#open-the-command-palette).
 
 #### Body elements
 
@@ -44,8 +46,8 @@ There are two different versions of the navigation structure in GitLab.
 | ------------------ | ------- |
 | <figure-img alt="Navigation body structure" label="Typical layout" src="/img/navigation-body-structure.svg"></figure-img> | <figure-img alt="Navigation body structure for search" label="Specific to context" src="/img/navigation-body-structure-search.svg"></figure-img> |
 
-1. **Title:** Name of the context for wayfinding, and should always appear at the top of the body.
-2. **Static items:** Always present at the top of the navigational items. Used sparingly.
+1. **Title:** Name of the context and always appears at the top of the body.
+2. **Static items:** Always first section of the body. Used sparingly.
 3. **Pinned items:** Items that users have selected for quick access. Only available to authenticated users.
 4. **Collections:** Contain items classified under a single theme.
 5. **Settings:** A dedicated settings area inside a given context.
@@ -65,12 +67,12 @@ Each context in GitLab has it's own dedicated body. The structure of the body ca
 
 #### Footer elements
 
-1. **Help**: : Dropdown for helpful resources, updates, and information. Slight differences depending on SaaS and Self Managed.
+1. **Help**: Dropdown for helpful resources, updates, and information. Options vary depending on SaaS and Self Managed.
 1. **Admin Area**: Shortcut to jump to the Admin Area. Only visible to Administrators.
 
 #### Top bar elements
 
-The top bar is only present for unauthenticated users. It hold a few links to the marketing site, exploring GitLab, and strong call-to-actions. The items are replaced by exit links during scenarios that have a business impact. This includes signing up, purchasing a subscription, and starting a trial. By doing so, we facilitate task completion and reduce user errors, such as accidentally navigating away.
+The top bar is only present for visitors. It hold a few links to the marketing site, exploring GitLab, and strong call-to-actions. The items are replaced by exit links during scenarios that have a business impact. This includes signing up, purchasing a subscription, and starting a trial. By doing so, we facilitate task completion and reduce user errors, such as accidentally navigating away.
 
 ## Principles
 
@@ -78,7 +80,7 @@ As a large expansive platform, the navigation structure needs to be thoughtfully
 
 - Use all the data to make informed decisions about what goes where and why.
 - Reduce the need for context switching whenever possible.
-- Prioritize depth over new additions when reasonable.
+- Prioritize page depth over new additions to the navigation sidebar when reasonable.
 - Placement consistency between the Groups and Projects is critical.
 
 ## Guidelines
@@ -86,7 +88,7 @@ As a large expansive platform, the navigation structure needs to be thoughtfully
 - The names used for each navigation item should be short and easy to remember, ideally 1-2 words in length.
 - Think of each navigation item within a Group or Project like an individual application.
 - Collections should clearly communicate their purpose. Use verbs to name them.
-- Consider listing higher utlized items first.
+- Consider listing higher utilized items first.
 - Categorize integrations with similar GitLab items. They should appear last in the collection list.
 
 ### Messaging changes to users
@@ -106,7 +108,6 @@ Use these approaches based on item usage:
 
 - When the navigation sidebar is hidden, the button to show it is always discoverable in the top left corner of the page. It can be shown by triggering a delayed hotspot on the left side of the page or by keyboard shortcut <kbd>/</kbd> or <kbd>s</kbd>.
 - The navigation sidebar does not support three tiers of navigation. If you have additional content to display, then integrate it into a dedicated page instead.
-- Collapsed sections can be exposed through hovering while collapsed.
 
 ### Pinned items
 
@@ -121,10 +122,10 @@ Use these approaches based on item usage:
 
 ### Collections
 
+- Collapsed collections can be exposed either by hovering with a mouse or selecting the item.
 - Opening each collections reveals the designated list of items.
 - Only hide a collection if all its features are inaccessible. For example, if they are turned off or behind a paid tier of GitLab.
 - All collections should be collapsed by default.
-- Visiting a page directly should expand its collection, unless it is pinned, then it should be in the active state and collapsed under its collection.
 
 ### Breakpoints
 
