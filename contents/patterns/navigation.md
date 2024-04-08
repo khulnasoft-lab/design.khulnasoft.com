@@ -74,13 +74,12 @@ The top bar is only present for unauthenticated users. It hold a few links to th
 
 ## Principles
 
-As a large expansive platform, the navigation structure needs to be thoughtfully considered. 
+As a large expansive platform, the navigation structure needs to be thoughtfully considered.
 
 - Use all the data to make informed decisions about what goes where and why.
 - Reduce the need for context switching whenever possible.
 - Prioritize depth over new additions when reasonable.
 - Placement consistency between the Groups and Projects is critical.
-
 
 ## Guidelines
 
@@ -115,11 +114,10 @@ Use these approaches based on item usage:
 - Adding a pinned item puts it at the bottom of the list.
 - There is no limit on the number of pinned items.
 - The pinned section should be expanded by default even when empty.
-- A cookie is set to remember a user's choice to collapse or leave this section expanded. When this section is empty, display the message "Add items below for quick access."
-- [Drag and drop](https://design.gitlab.com/usability/drag-and-drop) is available to reorder the items only in the pinned section. 
-- If landing on a page that is pinned, do not show an active state for its collection or sub item below in the classification section.
+- A cookie is set to remember a user's choice to collapse or leave this section expanded. When this section is empty, display the message "Your pinned items appear here."
+- [Drag and drop](https://design.gitlab.com/usability/drag-and-drop) is available to reorder the items only in the pinned section.
 - Defaults have been set for groups and projects.
-- Reserved for authenticated users.
+- Only available for authenticated users.
 
 ### Collections
 
@@ -130,6 +128,6 @@ Use these approaches based on item usage:
 
 ### Breakpoints
 
-- Extra large viewports: 1200px and up
-- Medium and large viewports: 768px to 1199px
-- Small and extra small viewports: up to 767px
+- Extra large viewports: `1200px` and up
+- Medium and large viewports: `768px` to `1199px`
+- Small and extra small viewports: up to `767px`
