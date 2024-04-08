@@ -13,7 +13,7 @@ The navigation is the global chrome of the application that controls the content
 
 ### Layout
 
-There are two different versions of the navigation structure in GitLab.
+There are two main versions of the navigation structure in GitLab.
 
 | Authenticated user | Visitor |
 | ------------------ | ------- |
@@ -24,6 +24,10 @@ There are two different versions of the navigation structure in GitLab.
 3. **Footer**: Elements available for convenience or tertiary tasks.
 4. **Breadcrumb**: Elements relay the site hierarchy to reinforce wayfinding.
 5. **Top bar (visitors only)**: Elements include external links and calls-to-action.
+
+Occasionally, there is no need for a navigation sidebar. To get a page with no sidebar, you could use the `minimal` layout. This is usually done in the Rails controller action.
+
+<figure-img alt="Page with minimal navigation" src="/img/navigation-minimal.svg" width="350"></figure-img>
 
 #### Header elements
 
@@ -117,8 +121,8 @@ Use these approaches based on item usage:
 - The pinned section should be expanded by default even when empty.
 - A cookie is set to remember a user's choice to collapse or leave this section expanded. When this section is empty, display the message "Your pinned items appear here."
 - [Drag and drop](https://design.gitlab.com/usability/drag-and-drop) is available to reorder the items only in the pinned section.
-- Defaults have been set for groups and projects.
-- Only available for authenticated users.
+- Defaults have been set for groups and projects. Items with a badge counter were selected as the defaults to keep metadata visible as a call-to-action.
+- The pinned section is only available for authenticated users.
 
 ### Collections
 
