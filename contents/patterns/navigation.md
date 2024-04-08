@@ -9,7 +9,7 @@ Users rely on the navigation to move around and orient themselves in GitLab. Thi
 
 ## Overview
 
-The navigation is the global chrome of the application that controls the content in the main view. Is is comprised of two main components: The navigation sidebar and the [breadcrumb](/components/breadcrumb). These components were designed to work together within the bigger picture of [page templates (draft)](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1556) to invoke a sense of reliable wayfinding.
+The navigation is the global chrome of the application that controls the content in the main view. It is comprised of two main components: the navigation sidebar and the [breadcrumb](/components/breadcrumb). These components were designed to work together within the bigger picture of [page templates (draft)](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1556) to invoke a sense of reliable wayfinding.
 
 ### Layout
 
@@ -19,10 +19,10 @@ There are two main versions of the navigation structure in GitLab.
 | ------------------ | ------- |
 | <figure-img alt="Authenticated navigation layout" src="/img/navigation-layout.svg" width="350"></figure-img> | <figure-img alt="Visitor navigation layout" src="/img/navigation-layout-visitor.svg" width="350"></figure-img> |
 
-1. **Header**: Elements are tailored to the user and global functions.
-2. **Body**: Elements are change based on context.
-3. **Footer**: Elements available for convenience or tertiary tasks.
-4. **Breadcrumb**: Elements relay the site hierarchy to reinforce wayfinding.
+1. **Header**: Tailored to the user alongside global functionality.
+2. **Body**: Elements change based on context.
+3. **Footer**: Accessory functionality or tertiary tasks.
+4. **Breadcrumb**: The site hierarchy to reinforce wayfinding.
 5. **Top bar (visitors only)**: Elements include external links and calls-to-action.
 
 Occasionally, there is no need for a navigation sidebar. To get a page with no sidebar, you could use the `minimal` layout. This is usually done in the Rails controller action.
