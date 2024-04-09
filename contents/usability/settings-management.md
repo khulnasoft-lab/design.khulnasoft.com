@@ -7,29 +7,35 @@ related:
   - /usability/saving-and-feedback
 ---
 
-Settings is an area in the product that allows users to configure how their instance should behave.
+Settings allow users to control how the platform and its features or capabilities should behave or appear. It should be comprised of configurable options and attributes which present choices to the user to modify baseline functionality.
 
-There are several areas within GitLab to manage settings:
+## Best practices
 
-- Admin settings
-- User settings
-- Project or Group settings
-- Feature settings
+- When possible, allow users to modify task specific options within their current context. Placing settings within a dedicated area requires users to suspend their task to make adjustments, which can be jarring.
+- Users should be able to glance at settings and understand all the individual selections and effects.
+- Put options that are rarely changed in the dedicated settings area. Most users will not be returning to settings on a regular basis.
+- Minimize the number of settings offered and keep them simple. Too many settings can make a platform feel overwhelming, and minimizing the number of configuration options aligns with our Product Principle of [Convention over Configuration](https://handbook.gitlab.com/handbook/product/product-principles/#convention-over-configuration).
+- Organize items intuitively as possible. Prioritize consistent placement across in the settings are for within the Admin Area, Groups, and Projects. from there consider which settings page and section is best suited for the configuration option. Consider the proximity of other settings and avoid ambiguous hierarchy.
+- Show only what is relevant for decision making. It can be tempting to add a wall of help text, but point users to the docs if necessary.
 
-Settings visibility and access depend on the [permissions and roles](https://docs.gitlab.com/ee/user/permissions.html) users have in a particular GitLab instance, group, or project.
+## Considerations
 
-- **User settings:** Preferences that you have an ownership of as an individual user. Accessible via the top navigation, under Profile > Preferences. Example setting: Changing how the date and time are displayed.
-- **Group settings:** Settings for group features, or settings that apply to projects within a group. Group settings are only visible to [maintainers](https://docs.gitlab.com/ee/user/permissions.html) and above, and are accessed via the Settings section in the [left sidebar](/patterns/navigation#left-sidebar). Example setting: Configuring an integration that all projects in the group will inherit.
-- **Project settings:** Settings for project features. Project settings are only visible to [maintainers](https://docs.gitlab.com/ee/user/permissions.html) and above, and are accessed via the Settings section in the [left sidebar](/patterns/navigation#left-sidebar). Example setting: Enabling protected branches.
+- Generally, most pages in GitLab are not considered within the scope settings.
+- Evaluate what [namespace](https://docs.gitlab.com/ee/user/namespace/) to introduce a setting. It's common to need a setting across all levels of GitLab Instance (Admin Area), Groups, Subgroups, and Projects.
+- The structure of a settings page should be as simple as possible. Complex interactions should be nested to avoid weighing down the page.
+- Determine [how a setting will cascade](/usability/settings-management#settings-inheritance) to children namespaces and if an override option is necessary.
 
-## Usage
+## Visibility
 
-### Placement of settings
+The [permissions and roles](https://docs.gitlab.com/ee/user/permissions.html) users have in a particular GitLab instance, group, or project dictate what they have access to.
 
-When considering where to place a setting within the product, consider the following:
+## Behavior
 
-- **Access:** Which [persona](https://about.gitlab.com/handbook/product/personas/) performs the JTBD related to the setting? What [role](https://docs.gitlab.com/ee/user/permissions.html) or permission does that persona have?
-- **Flexibility and control:** At what namespace level (for example, admin, group, or project) should the setting be available? Should the setting cascade down to children namespaces? Should there be a way to override a setting set at a parent namespace?
+There are aspects of the settings experience that are unique to GitLab to keep the platform scalable, performant, and more consistent.
+
+### Dedicated area for settings
+
+The Admin Area, Groups, Subgroups, Projects, and Users have a dedicated area to aggregate their settings together.
 
 ### Settings inheritance
 
@@ -41,17 +47,28 @@ When a child setting is enforced from a parent, make this clear in the child set
 
 <figure-img label="Example of locked setting" src="/img/locked-setting-example.png"></figure-img>
 
-### Grouping
+## Structure
 
-Admin, group, project, and user settings utilize full pages to group different categories inside [accordions](/components/accordion). This is different from feature settings which live next to a specific UI element. On settings pages, the most frequently used options should be made easily available to users by not collapsing the content. Horizontal separators are placed between each category to give elements enough room to breathe.
+### Subpages
+
+In the admin area, groups, and projects there are subpages that break up settings into distinct areas. New pages must follow a [navigation change request](https://about.gitlab.com/handbook/product/ux/navigation/)
+
+### Layout
+
+Each page groups different categories inside [accordions](/components/accordion). Ideally, the most frequently used options should appear towards the top and made easily available to users by not collapsing the content. Horizontal separators are placed between each category to give elements enough room to breathe.
 
 Each category displays a title and a brief explanation of what users should expect when the the accordion is expanded. Use consistent terms and follow the [UI text](/content/ui-text) guidelines.
 
 Configuration of settings can happen directly within the accordion or can be deferred to a secondary screen using the principles of [progressive disclosure](/usability/progressive-disclosure). For example, consider placing configuration options in a [modal](/components/modal) or on a linked detail page to avoid overwhelming users.
 
+- Setting form elements use the [form layout sizes](/patterns/forms#layout).
+- When a settings page contains multiple sections, each section header remains sticky on scroll to provide context.
+- A sticky footer containing action buttons (for example, Save and Cancel) should appear when a setting has been changed.
+- Settings should appear stacked in a single column.
+
 ### Saving settings
 
-To keep the experience of settings consistent, avoid using a combination of manual and auto-save in form options. Learn more about [saving progress](/usability/saving-and-feedback#saving-progress).
+To keep the experience of settings consistent, avoid using a combination of manual and auto-save in form options. Learn more about [saving progress](/usability/saving-and-feedback#saving-progress). We often need to rely on a <kbd>Save changes</kbd> button to keep form submission straightforward, even though it is not ideal.
 
 ### User feedback
 
@@ -70,11 +87,6 @@ Consider making configuration options more discoverable to users by linking to s
 - Navigate to the specific configuration section of that page in the settings area. Doing so makes the result of clicking the button predictable and prevents users from needing to navigate away from their task. For example, navigating via the Package Registry page will end up on the **Settings > Packages & Registries** section of settings.
 
 ## Layout
-
-- Setting form elements use the [form layout sizes](/patterns/forms#layout).
-- When a settings page contains multiple sections, each section header remains sticky on scroll to provide context.
-- A sticky footer containing action buttons (for example, Save and Cancel) should appear when a setting has been changed.
-- Settings should appear stacked in a single column.
 
 <figure-img label="Example of settings layout" src="/img/settings-1-column.png"></figure-img>
 
