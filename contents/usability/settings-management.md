@@ -41,6 +41,8 @@ When a child setting is enforced from a parent, make this clear in the child set
 
 <figure-img label="Example of locked setting" src="/img/locked-setting-example.png"></figure-img>
 
+Some settings can be enabled or disabled at the parent level. When disabled, they cannot be overridden and should not be presented on the child setting's UI.
+
 ### Grouping
 
 Admin, group, project, and user settings utilize full pages to group different categories inside [accordions](/components/accordion). This is different from feature settings which live next to a specific UI element. On settings pages, the most frequently used options should be made easily available to users by not collapsing the content. Horizontal separators are placed between each category to give elements enough room to breathe.
