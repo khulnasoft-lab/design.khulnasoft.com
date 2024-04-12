@@ -2,13 +2,31 @@
 name: Release notes
 ---
 
+## 17.1
+
+[_Draft: 17.1 release notes_](CREATE BEFORE MERGE)
+
+<!-- Update publish date-->
+<small>Published 2024-XX-XX</small>
+
+### Additions
+
+### Enhancements
+
+### Changes
+
+### Fixes
+
+### Deprecations
+
+### Removals
+
 ## 17.0
 
 [_Draft: 17.0 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3801)
 
 ## 16.11
 
-<!-- Update publish date-->
 <small>Published 2024-04-15</small>
 
 ### Additions
@@ -22,7 +40,6 @@ name: Release notes
 
 ## 16.10
 
-<!-- Update publish date-->
 <small>Published 2024-03-15</small>
 
 ### Additions
