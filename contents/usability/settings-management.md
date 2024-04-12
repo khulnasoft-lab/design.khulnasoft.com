@@ -9,7 +9,7 @@ related:
 
 Settings allow users to control how the platform's features or capabilities should behave or appear. They are configurable options and attributes which present choices to the user to modify baseline functionality.
 
-The Admin Area, groups, subgroups, projects, and individual users have a dedicated area to aggregate their settings together. The [permissions and roles](https://docs.gitlab.com/ee/user/permissions.html) dictate what settings users have access to.
+Admin, groups, projects, and users have dedicated areas to aggregate their settings. [Permissions and roles](https://docs.gitlab.com/ee/user/permissions.html) dictate which settings users have access to.
 
 ## Usage
 
