@@ -1,3 +1,22 @@
+# [2.193.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.192.0...v2.193.0) (2024-04-08)
+
+
+### Bug Fixes
+
+* **deps:** update gitlab ui/svg ([7402d90](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/7402d90d1abb62cfb57bec10cf045ee0170e310e))
+
+
+### Features
+
+* **Color:** Considerations to principles ([0432d3c](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/0432d3c80e7c0b71030ff6ff72d8f77a6cc9e81b))
+
+# [2.192.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.191.0...v2.192.0) (2024-04-01)
+
+
+### Features
+
+* **DesignTokens:** Refine definitions and examples ([a18a8be](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/commit/a18a8beb4d23f1e4ba064dfe235e55569b307672))
+
 # [2.191.0](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/compare/v2.190.2...v2.191.0) (2024-03-25)
 
 
