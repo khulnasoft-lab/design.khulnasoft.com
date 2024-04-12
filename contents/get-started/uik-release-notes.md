@@ -4,26 +4,21 @@ name: Release notes
 
 ## 17.0
 
-<!--Add link to 17.0 release notes draft before merging -->
+[_Draft: 17.0 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3801)
 
 ## 16.11
 
 <!-- Update publish date-->
-<small>Published 2024-XX-XX</small>
+<small>Published 2024-04-15</small>
 
 ### Additions
 
-- Added [**milestone**](https://www.figma.com/file/h4YjjttHL5YI0mXZfQ4uuU/GitLab-Product-Icons?type=design&node-id=6302-439&mode=design&t=P96t1HVc6HiwwYxi-4) icon.
-
-### Enhancements
+- Added the following icons: [**milestone**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~milestone), [**regular expression**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~regular-expression).
+- Added the following illustrations: [**cloud-tanuki-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/cloud-tanuki-sm.svg), [**cloud-user-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/cloud-user-sm.svg).
 
 ### Changes
 
-- Placed the [**❖&nbsp;Button&nbsp;group**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=117033%3A15878) on its own page. See [!3774](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3774) for details.
-
-### Fixes
-
-### Deprecations
+- Moved [**Button group**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=117033%3A15878) components to their own page.
 
 ## 16.10
 
