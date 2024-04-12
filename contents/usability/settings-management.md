@@ -7,7 +7,7 @@ related:
   - /usability/saving-and-feedback
 ---
 
-Settings allow users to control how the platform's features or capabilities should behave or appear. They are configurable options and attributes which present choices to the user to modify baseline functionality.
+Settings allow users to control how the platform's features or capabilities should behave or appear. They are configurable options and attributes, which present choices to the user to modify baseline functionality.
 
 Admin, groups, projects, and users have dedicated areas to aggregate their settings. [Permissions and roles](https://docs.gitlab.com/ee/user/permissions.html) dictate which settings users have access to.
 
