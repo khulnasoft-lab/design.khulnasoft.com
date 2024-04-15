@@ -2,7 +2,7 @@
 name: Navigation
 ---
 
-The navigation is the global chrome of the application that controls the content in the main view. Refer to the following resources for any change to this region:
+The navigation namely refers to the persistent left sidebar where a user can access different sections of the application. Utilize the following resources for any change to this region:
 
 - [How to propose a change to navigation](https://about.gitlab.com/handbook/product/ux/navigation/).
 - [How to conduct user research of a proposed change to navigation](https://about.gitlab.com/handbook/product/ux/ux-research/evaluating-navigation/).
