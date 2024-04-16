@@ -6,9 +6,9 @@ Design tokens capture decisions and intent in code. Design tokens abstract out v
 
 ## Why we use design tokens
 
-Design tokens help us establish a single source of truth for how, when, and why a foundational element from the design system is used. On the surface, a design token is a simple json key/value pair, but its usefulness is in pairing a design decision with an option that exists in the design system.
+Design tokens are a methodology to establish a single source of truth for how, when, and why a foundational element from the design system is used. On the surface, a design token may seem like a simple json key/value pair, but each design token is the culmination of many factors and considerations that pair design intent with elements within the design system.
 
-For example, choosing `color.neutral.700` for text tells someone nothing about why that color was chosen, or how it may react to different modes like light, dark, or high contrast. But, if a design token like `color.text.secondary` is applied, someone can understand that the text color is likely less prominent than the primary color regardless of mode. The design intent has been communicated. Changing the design token requires reconsidering the purpose.
+For example, choosing `color-neutral-950` for text tells someone nothing about why that color was chosen, when it should be applied, or how it may react to different modes like light, dark, or high contrast. But, if a design token like `text-color-heading` is applied, someone can understand that the text color is specifically for headings regardless of mode. The design intent has been communicated. Changing the design token requires reconsidering the purpose.
 
 More specifically, we use design tokens to:
 
@@ -33,8 +33,8 @@ Constant design tokens (constants) are the rudimentary, unchanging key/value pai
 
 | Constant design token | Value |
 | ------ | ------ |
-| `color.neutral.700` | `#737278` |
-| `space.2` | `4px` |
+| `color-neutral-700` | `#737278` |
+| `space-2` | `4px` |
 
 ### Semantic design tokens
 
@@ -44,10 +44,10 @@ Semantic design tokens reference constant design tokens to encapsulate global de
 
 | Semantic design token | Value in light mode | Value in dark mode |
 | ------ | ------ | ------ |
-| `color.text.secondary` | `color.neutral.500` | `color.neutral.300` |
-| `color.surface.background.info` | `color.blue.50` | `color.neutral.900` |
+| `text-color-default` | `color-neutral-800` | `color-neutral-50` |
+| `background-color-info` | `color-blue-50` | `color-neutral-900` |
 
-In the example above, `color.text.secondary` references the `color.neutral.500` constant design token for its light mode value, and in dark mode it references the `color.neutral.300` constant design token. In both modes the design intent is the same — the text should appear as secondary. Instead of communicating something like "this text should be dark gray," it communicates "this text needs to feel secondary to other text (which happens to be dark gray in this mode and light gray in another mode)." The abstraction enables the intent to be the same regardless of what values are used or the context it happens to be in.
+In the example above, `text-color-default` references the `color-neutral-800` constant design token for its light mode value, and in dark mode it references the `color-neutral-50` constant design token. In both modes the design intent is the same — the text color is the default choice. Instead of communicating something like "this text should be dark gray," it communicates "start here or use this most of the time (which happens to be dark gray in this mode and light gray in another mode)." The abstraction enables the intent to be the same regardless of what values are used or the context it happens to be in.
 
 ### Contextual design tokens
 
@@ -57,10 +57,10 @@ Contextual design tokens are the most specific of the three categories. These de
 
 | Contextual design token | Value in light mode | Value in dark mode |
 | ------ | ------ | ------ |
-| `tab.color.text.inactive` | `color.text.secondary` |  `color.text.secondary` |
-| `button.color.default.border.hover` | `color.blue.700` | `color.blue.300` |
+| `tab-text-color-current` | `text-color-default` |  `text-color-default` |
+| `button-default-primary-border-color-hover` | `color-blue-700` | `color-blue-300` |
 
-In the examples above, `tab.color.text.inactive` references a single semantic design token which has its own changes per mode, while `button.color.default.border.hover` references a different constant design token for each mode.
+In the examples above, `tab-text-color-current` references a single semantic design token which has its own changes per mode, while `button-default-primary-border-color-hover` references a different constant design token for each mode.
 
 ## Naming conventions
 
@@ -84,8 +84,6 @@ We are experimenting with a small subset of design tokens, with the intention of
 
 ### In design
 
-<note>We are currently piloting using design tokens in Figma. We're asking that only those part of the pilot use the library. Sign up to the pilot and learn more in the [issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1771).</note>
-
 Design tokens are used by [applying Figma variables](https://help.figma.com/hc/en-us/articles/15343107263511-Apply-variables-to-designs) to elements on the canvas.
 
-We've scoped these Figma variables by limiting the properties they can be applied to. This helps cut out the guess work when designing and supports recommended usage. For example, `color.text.secondary` can only be applied as a fill to a text element and not a stroke or shape layer.
+We've scoped these Figma variables by limiting the properties they can be applied to. This helps cut out the guess work when designing and supports recommended usage. For example, `text-color-heading` can only be applied as a fill to a text element and not a stroke or shape layer.
