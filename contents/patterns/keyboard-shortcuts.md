@@ -5,7 +5,7 @@ related:
   - tooltip
 ---
 
-Keyboard shortcuts can be a useful mechanism for improving the productivity of users. While not every action or functionality should warrant a keyboard shortcut, consider if it would be beneficial to add as an optimization to a workflow.
+Keyboard shortcuts can help improve accessibility and the user's productivity. While not every action needs a keyboard shortcut, consider if it could optimize a frequent workflow.
 
 ## Guidelines
 
