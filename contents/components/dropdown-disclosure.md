@@ -46,6 +46,7 @@ components:
 - If the options within the panel are selectable instead of directly performing an action, refer to the [combobox](/components/dropdown-combobox) component.
 - If a user is selecting a single text option from a group of options within a [form](/patterns/forms), consider using a [select](/components/select), [radio group](/components/radio-button), or [checkboxes](/components/checkbox) instead.
 - If you need a way for a user to expand or collapse a content section, use an [accordion](/components/accordion) instead.
+- If there is only ever a single option
 
 ### Trigger button variants
 
@@ -70,6 +71,7 @@ A [button](/components/button) that triggers a dropdown panel comes in a few var
 - When an action option is selected that causes a page refresh or other change of context the panel returns to a closed state.
 - All panels can be closed by clicking outside of them, using the <kbd>Esc</kbd> key, or by focus moving to an element outside of the component.
 - A limited amount of options that don't scroll can be fixed at the bottom of a dropdown panel.
+- Destructive actions should be the last options
 
 ### Content
 
