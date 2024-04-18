@@ -25,6 +25,20 @@ name: Release notes
 
 [_Draft: 17.0 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3801)
 
+### Additions
+
+- Added [**❖ Navigation/Project navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=107958%3A34&mode=dev) component.
+
+### Enhancements
+
+### Changes
+
+### Fixes
+
+### Deprecations
+
+### Removals
+
 ## 16.11
 
 <small>Published 2024-04-15</small>
