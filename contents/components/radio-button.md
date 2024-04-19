@@ -46,7 +46,7 @@ related:
 ### Behavior
 
 - In a group of radio buttons, only one option can be selected at a time and there must be a default selected option.
-- To select an option, the user can click/tap on the radio button or its content.
+- To pick an option, the user can select the radio button or its content.
 
 ### Content
 
