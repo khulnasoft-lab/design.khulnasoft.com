@@ -74,6 +74,7 @@ A [button](/components/button) that triggers a dropdown panel comes in a few var
 ### Content
 
 - Text should be concise and clearly indicate the link destination or action it performs.
+- Destructive actions should appear last in the list.
 
 ### Accessibility
 
