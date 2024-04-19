@@ -46,7 +46,7 @@ components:
 - If the options within the panel are selectable instead of directly performing an action, refer to the [combobox](/components/dropdown-combobox) component.
 - If a user is selecting a single text option from a group of options within a [form](/patterns/forms), consider using a [select](/components/select), [radio group](/components/radio-button), or [checkboxes](/components/checkbox) instead.
 - If you need a way for a user to expand or collapse a content section, use an [accordion](/components/accordion) instead.
-- If there is only ever a single option, display that option directly (for example, if the only option is `Remove`, use a [button](/components/button) instead).
+- If there is only ever a single option, display that option directly. For example, if the only option is **Remove**, use a [button](/components/button) instead.
 
 ### Trigger button variants
 
