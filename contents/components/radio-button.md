@@ -64,6 +64,6 @@ related:
 
 ### Accessibility
 
-- Do not nest or add other elements within a radio button group, so the user can properly navigate the content.
+- Do not nest or add other elements within a radio button group. Keep the radio button group as a single and cohesive unit to ensure the user can navigate properly.
 
 <todo>Add additional accessibility specifications.</todo>
