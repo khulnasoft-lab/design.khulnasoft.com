@@ -18,8 +18,6 @@ related:
 
 <story-viewer component="base-button-group" title="Button Group"></story-viewer>
 
-<story-viewer component="base-button" story="dropdown-split-button" title="Split dropdown button"></story-viewer>
-
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A7)
 
 ## Structure
@@ -50,11 +48,10 @@ related:
 
 ## Types of button groups
 
-There are three types of button groups:
+There are two types of button groups:
 
-- Related items with actions that cause a page reload or redirect.
-- Related items with actions that toggle between a view or change in-page content without a page reload.
-- Split dropdowns where the left half displays the default action and additional related actions are contained within the attached dropdown on the right half. The options available in the dropdown perform the action on click.
+1. Related items with actions that cause a page reload or redirect.
+1. Related items with actions that toggle between a view or change in-page content without a page reload.
 
 Depending on whether a button or link is used, and whether or not the page reloads, there are different [accessibility](#accessibility) considerations that will help ensure the intent and state are correctly communicated for assistive technology users.
 

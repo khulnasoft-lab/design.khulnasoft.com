@@ -43,6 +43,8 @@ related:
 
 <story-viewer component="base-button" story="dropdown-icon-button" title="Icon dropdown button" iframe-padding="0 0 50px 0"></story-viewer>
 
+<story-viewer component="base-button" story="dropdown-split-button" title="Split dropdown button"></story-viewer>
+
 <story-viewer component="base-button" story="ellipsis" title="Ellipsis button"></story-viewer>
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-7&mode=design)
@@ -196,7 +198,8 @@ Buttons can contain different content depending on the situation. For example, s
 
 ### Dropdown buttons
 
-A dropdown button triggers a [dropdown](/components/dropdown-overview) and uses the [chevron-down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-down) icon to the right of the text label. The chevron is the only icon that should be present with a text label.
+- A dropdown button triggers a [dropdown](/components/dropdown-overview) and uses the [chevron-down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=chevron-down) icon to the right of the text label. The chevron is the only icon that should be present with a text label.
+- A dropdown button is split when additional related actions are available. The left half displays the default action and the additional related actions are contained within the attached dropdown on the right half. The options available in the dropdown perform the action on click.
 
 ### Icon-only buttons
 
