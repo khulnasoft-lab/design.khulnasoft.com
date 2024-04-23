@@ -38,7 +38,7 @@ related:
 A banner should be used sparingly and with consideration of its impact to neighboring components and the overall user experience to:
 
 - Inform a user of a feature that isn't enabled.
-- Promote a new feature within a single major version.
+- Promote a new feature within a single [major version](https://docs.gitlab.com/ee/policy/maintenance.html#versioning).
 - Solicit user feedback.
 
 ### When not to use
