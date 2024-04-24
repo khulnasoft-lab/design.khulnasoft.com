@@ -156,7 +156,7 @@ All interactions with the chat enter the conversation history, so the user and D
 
 While we have accustomed to conversing with chats based on large language models we may not rely on the AI to do a perfect job.
 
-Hence, before contributing to the chat you should validate that the LLM can solve your use case, if it has the needed context. Often need this requires a collection of questions that users may typically ask in relation to your use case. You may consult the AI Model Validation Group if you need help.
+Hence, before contributing to the chat you should validate that the LLM can solve your use case, if it has the needed context. Often this requires a collection of questions that users may typically ask in relation to your use case. You may consult the AI Model Validation Group if you need help.
 
 After you have contributed your use case to the chat, you need to test whether the solution addresses the use case.
 
