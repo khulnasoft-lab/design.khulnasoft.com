@@ -110,6 +110,7 @@ These dimensions can assist you in choosing the most appropriate pattern for the
   - Prediction (or regression): forecast continuous, non-categorical data, like numerical values.
 
 ### Chat interaction for learning, ideation, and creation use cases
+
 GitLab Duo Chat is a unified interface for users to interact with GitLab.
 
 GitLab Duo Chat is also as a platform for internal teams and other contributors to contribute capabilities to.
@@ -122,41 +123,49 @@ We aim to employ the Chat for all use cases and workflows that can benefit from 
 - Among the latter are tasks where the **AI may not get it right the first time but** where **users can easily course correct** by telling the AI more precisely what they need. For instance, "Explain this code" is a common question that most of the time would result in a satisfying answer, but sometimes the user will have additional questions.
 - **Tasks that benefit from the history of a conversation**, so neither the user nor the AI need to repeat themselves.
 
-The chat aims to be context aware and ultimately have access to all the resources in GitLab that the user has access to. Initially, this context is limited to code files, code selections, the content of individual issues and epics, as well as the GitLab documentation. 
+The chat aims to be context aware and ultimately have access to all the resources in GitLab that the user has access to. Initially, this context is limited to code files, code selections, the content of individual issues and epics, as well as the GitLab documentation.
 
 To scale the context awareness and the supported use cases across the entire DevSecOps domain, Duo Chat aims to be a platform, that other GitLab teams and the wider community can contribute to. They are the experts for the use cases and workflows to accelerate.
 
 #### Interacting with Duo using natural language only
+
 Users can formulate their own questions in the chat and the chat system will infer which context the user's question is refering to. E.g. it will know that when the user is looking at issue-123 and asks "What are the unique use cases raised in the comments of this issue?" that "this" refers to issue-123.
 
-This only works if the chat system is aware of this resource. At the time of the writing of this text, Duo Chat was not aware of the diff in an MR for instance. Hence, a question "Can you explain the change this MR introduces?" is responded with "Unfortunately I do not have access to view the content of merge requests or make changes to repositories as a chatbot. I can only provide information based on issues, documentation, epics or CI configuration. If there is another way I can assist, please feel free to ask!" 
+This only works if the chat system is aware of this resource. At the time of the writing of this text, Duo Chat was not aware of the diff in an MR for instance. Hence, a question "Can you explain the change this MR introduces?" is responded with "Unfortunately I do not have access to view the content of merge requests or make changes to repositories as a chatbot. I can only provide information based on issues, documentation, epics or CI configuration. If there is another way I can assist, please feel free to ask!"
 
-So, if you want to contribute a use case in Duo Chat that requires context, you need to contribute a change that makes it available to the chat. 
+So, if you want to contribute a use case in Duo Chat that requires context, you need to contribute a change that makes it available to the chat.
 
 #### Initiating conversations about common tasks
+
 Once the context is available (or if the use case does not require context data), you may want to contribute ways to iniate common tasks. At the time of writing the supported common tasks where to explain code, refactor code, and generate tests.
 
 There are two UIs for iniating such common tasks:
-* UI elements such as menu items or buttons
-* slash commands
 
-In GitLab, such UI elements have not been standardized, yet. In the IDE we have a context menu for that purpose. 
+- UI elements such as menu items or buttons
+- slash commands
+
+In GitLab, such UI elements have not been standardized, yet. In the IDE we have a context menu for that purpose.
 
 Slash commands can be entered in the chat directly. The pattern is `/slash-command` + `(optional) additional instructions`. In the IDE, in some cases, it may be neccessary to have code selected for the slash command to make sense.
 
 #### Converation history
-All interactions with the chat enter the conversation history, so the user and Duo can reference to it. 
+
+All interactions with the chat enter the conversation history, so the user and Duo can reference to it.
 
 #### Validating and testing your use case
-While we have accustomed to conversing with chats based on large language models we may not rely on the AI to do a perfect job. 
 
-Hence, before contributing to the chat you should validate that the LLM can solve your use case, if it has the needed context. Often need this requires a collection of questions that users may typically ask in relation to your use case. You may consult the AI Model Validation Group if you need help. 
+While we have accustomed to conversing with chats based on large language models we may not rely on the AI to do a perfect job.
+
+Hence, before contributing to the chat you should validate that the LLM can solve your use case, if it has the needed context. Often need this requires a collection of questions that users may typically ask in relation to your use case. You may consult the AI Model Validation Group if you need help.
 
 After you have contributed your use case to the chat, you need to test whether the solution addresses the use case.
 
 There are two ways of testing your use case solution:
+
 - User tests: Collaborate with the UX research team to conduct such tests.
-- Automatic tests: Use and contribute to the the Centrallized Evaluation Framework owned the AI Model Validation team to run tests as you develop your feature as wall as for monitoring your feature in production. 
+- Automatic tests: Use and contribute to the the Centrallized Evaluation Framework owned the AI Model
+
+Validation team to run tests as you develop your feature as wall as for monitoring your feature in production.
 
 ### Additional patterns
 
