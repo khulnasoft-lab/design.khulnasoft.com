@@ -163,7 +163,7 @@ After you have contributed your use case to the chat, you need to test whether t
 There are two ways of testing your use case solution:
 
 - User tests: Collaborate with the UX research team to conduct such tests.
-- Automatic tests: Use and contribute to the the Centrallized Evaluation Framework owned the AI Model
+- Automatic tests: Use and contribute to the the Centrallized Evaluation Framework owned by the AI Model
 
 Validation team to run tests as you develop your feature as wall as for monitoring your feature in production.
 
