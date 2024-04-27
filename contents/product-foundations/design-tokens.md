@@ -4,7 +4,7 @@ name: Design tokens overview
 
 Design tokens capture decisions and intent in code. Design tokens abstract out variables like color, typography, and spacing for consistent and meaningful user interface (UI) design across tools and platforms.
 
-<todo>Insert image…</todo>
+<figure-img alt="Example design tokens in use" label="" src="/img/design-tokens.svg"></figure-img>
 
 ## Why we use design tokens
 
@@ -17,7 +17,7 @@ We use design tokens to:
 - Catalogue design constants.
 - Codify design decisions — capturing them openly and objectively.
 - Synchronize design decisions across design and development tooling.
-- Promote consistent and meaningful abstraction and application.
+- Promote consistent and meaningful abstraction and use for both stable and experimental design.
 - Help make new design decisions easier by leveraging existing intent and purpose.
 - Support efforts like themes and modes by abstracting intent from underlying values.
 
@@ -41,6 +41,6 @@ Semantic design tokens reference constant design tokens to encapsulate global de
 
 Contextual design tokens are the most specific of the three categories. These design tokens are useful for capturing specific design intent for components, patterns, and experiments. They can reference either semantic or constant design tokens.
 
-<todo>Insert image…</todo>
+<figure-img alt="Example contextual design token" label="" src="/img/design-tokens-contextual.svg"></figure-img>
 
 Next, [learn how to read design tokens →](/product-foundations/design-tokens-reading)
