@@ -23,7 +23,7 @@ We use design tokens to:
 
 ## Categories
 
-Our design tokens are grouped into three categories — **constant**, **semantic**, and **contextual** — that each serve a different purpose.
+Our design tokens are grouped into three categories — **constant**, **semantic**, and **contextual** — that each serve a different purpose. Categories organize design tokens, but they don't impact how tokens are named.
 
 ### Constant design tokens
 
