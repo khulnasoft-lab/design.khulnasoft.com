@@ -7,7 +7,6 @@ related:
   - button
   - button-group
   - path
-  - /patterns/navigation
   - infinite-scroll
 ---
 
@@ -47,7 +46,6 @@ related:
 
 ### When not to use
 
-- If the content is not part of the same set, consider using [navigation](/patterns/navigation) instead.
 - If you need to navigate between steps in a flow, consider using the [path](/components/path) component or [buttons](/components/button) instead.
 
 ### Appearance
