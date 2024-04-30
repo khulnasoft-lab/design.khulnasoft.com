@@ -32,7 +32,7 @@ related:
 
 ### When to use
 
-- Use a group of radio buttons for a set of options, where only one option can be selected at a time.
+- Use a radio button group for a set of options, where only one option can be selected at a time.
 
 ### When not to use
 
@@ -45,7 +45,7 @@ related:
 
 ### Behavior
 
-- In a group of radio buttons, only one option can be selected at a time and there must be a default selected option.
+- In a radio button group, only one option can be selected at a time and there must be a default selected option.
 - To pick an option, the user can select the radio button or its content.
 
 ### Content
