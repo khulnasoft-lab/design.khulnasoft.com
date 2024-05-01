@@ -1,6 +1,8 @@
 ---
 name: Feedback animation
 ---
+  
+Feedback animation is used to confirm a user interaction with a control or other interactive element.
 
 ## Examples
 
@@ -10,9 +12,8 @@ name: Feedback animation
 
 ### When to use
 
-1. With controls and interactive elements.
-1. When a user interacts with the element: hover, focus, and active states. The user must understand that the control is interactive.
-1. After the interaction with the element. The user needs to see that action was done and positive or negative feedback.
+1. State change transitions for interactive elements, such as hover, focus, and active.
+1. When confirming a user interaction, including positive or negative feedback.
 
 ### When not to use
 
@@ -21,9 +22,11 @@ name: Feedback animation
 
 ### Behavior
 
-#### Feedback on user action
+#### State change transitions
 
-All interactive elements should have three states that show they are interactive: hover, focus, and active.
+Interactive elements typically have four states: rest, hover, focus, and active. The appearance of a component often changes between these states to support usability. 
+
+When the appearance changes, animate the transition between states using the following combinations.
 
 | State | Example | Duration | Easing |
 | --- | --- | --- | --- |
@@ -31,9 +34,9 @@ All interactive elements should have three states that show they are interactive
 | `focus` | <video tabindex="0" preload="true" controls="" loop="true" playsinline="true" aria-label="Button animation on focus: outline ring appears with easeOutCubic easing" width="200"><source src="/video/feedback-focus.mp4"></video> | `200ms` | `$gl-easing-out-cubic` |
 | `active` | <video tabindex="0" preload="true" controls="" loop="true" playsinline="true" aria-label="Button animation on click: water rings surround the button" width="200"><source src="/video/feedback-active.mp4"></video> | `500ms` | `$gl-easing-out-cubic` |
 
-#### Animated properties
+#### Elements in close proximity
 
-Many Pajamas controls can be stacked in one row. To keep the experience more cohesive and predictable, animate the same properties to show the feedback.
+To support a cohesive and predictable experience elements in close proximity should convey feedback consistently, for example animating the same properties.
 
 | Do | Don't |
 | --- | --- |
@@ -45,7 +48,7 @@ Many Pajamas controls can be stacked in one row. To keep the experience more coh
 
 ### Accessibility
 
-- Components should change their state discretely when `prefers-reduced-motion` is enabled.
+- A component should change state discretely when `prefers-reduced-motion` is enabled.
 
 ## Resources
 
