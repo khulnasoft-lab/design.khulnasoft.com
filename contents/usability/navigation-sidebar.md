@@ -49,7 +49,7 @@ When this occurs, the top-level menu item should remain consistent, even if ther
 The navigation helps orient users, so we want to avoid users wondering, "[Who moved my cheese?](https://uxmag.com/articles/who-moved-my-virtual-cheese)". Once a change to adjust the navigation has been validated and approved, use these approaches based on the assumed disruption:
 
 - **None:** No in-app messaging is necessary if a change will likely go unnoticed.
-- **Minimal:** Use some form of informative components like a [toast](/components/toast), [alert](/components/alert), or [popover](/components/popover) for a set duration.
+- **Minimal:** Use some form of informative component like a [toast](/components/toast), [alert](/components/alert), or [popover](/components/popover) for a set duration.
 - **Significant:** A temporary opt-in method must be provided for at least two milestones.
 
 > **Note:** All changes impacting the navigation sidebar must be in the release notes.
@@ -61,4 +61,4 @@ Determining how impactful a disruption may be depends on the scope of the change
 - Look at user behavior as an indicator. For example, the volume of page visits or clicks within the navigation sidebar can give you an impression of how many will be affected.
 - Think about the types of users being affected. For example, a change might not matter to most, but it might require an administrator to make unfamiliar adjustments to their workflow.
 - Consider how much is changing in the navigation sidebar. For example, moving multiple items, changing the information architecture, or repositioning key functionality disrupts learned behaviors.
-- How accustomed users are to something can influence their sensitivity change. For example, removing a button that has been in place for years might be controversial.
+- How accustomed users are to something can influence their sensitivity to change. For example, removing a button that has been in place for years might be controversial.
