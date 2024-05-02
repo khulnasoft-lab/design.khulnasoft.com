@@ -27,7 +27,9 @@ name: Release notes
 
 ### Additions
 
-- Added [**❖ Navigation/Project navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=107958%3A34&mode=dev) component.
+- Added **❖&nbsp;Navigation**, including:
+    - [**❖&nbsp;Navigation / Project navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=107958%3A2300&mode=dev&t=dhSrpEWep5xpbMeB-1)
+    - [**❖&nbsp;Navigation / Admin navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=117918%3A4864&mode=dev&t=dhSrpEWep5xpbMeB-1)
 
 ### Enhancements
 
