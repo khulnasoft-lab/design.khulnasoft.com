@@ -146,7 +146,7 @@ There are two UIs for iniating such common tasks:
 
 In GitLab, such UI elements have not been standardized, yet. In the IDE we have a context menu for that purpose.
 
-Slash commands can be entered in the chat directly. The pattern is `/slash-command` + `(optional) additional instructions`. In the IDE, in some cases, it may be neccessary to have code selected for the slash command to make sense.
+Slash commands can be entered in the chat directly. The pattern is `/slash-command` + `(optional) additional instructions`. In the IDE, in some cases, it may be neccessary to have code selected for the slash command to make sense. Also, this part has not been standardized, yet, and need more thought.
 
 #### Converation history
 
