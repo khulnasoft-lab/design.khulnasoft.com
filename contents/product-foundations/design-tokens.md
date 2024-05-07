@@ -23,8 +23,8 @@ Design tokens are a methodology to establish a single source of truth for how, w
 
 ### Who uses design tokens
 
-- **Authors:** An author creates design tokens that make design decisions consistent and reusable.
-- **Users:** A user applies design tokens in design and code and makes decisions based on how the design token satisfies the use case.
+- **Authors:** A design system author creates design tokens that make design decisions consistent and reusable.
+- **Consumers:** A design system consumer user applies design tokens in design and code and makes decisions based on how the design token satisfies the use case.
 
 ## Categories
 
