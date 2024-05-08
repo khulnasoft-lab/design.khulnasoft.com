@@ -6,30 +6,16 @@ name: Release notes
 
 [_Draft: 17.1 release notes_](CREATE BEFORE MERGE)
 
+## 17.0
+
 <!-- Update publish date-->
 <small>Published 2024-XX-XX</small>
 
 ### Additions
 
-### Enhancements
-
-### Changes
-
-### Fixes
-
-### Deprecations
-
-### Removals
-
-## 17.0
-
-[_Draft: 17.0 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3801)
-
-### Additions
-
-- Added **❖&nbsp;Navigation**, including:
-    - [**❖&nbsp;Navigation / Project navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=107958%3A2300&mode=dev&t=dhSrpEWep5xpbMeB-1)
-    - [**❖&nbsp;Navigation / Admin navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=117918%3A4864&mode=dev&t=dhSrpEWep5xpbMeB-1)
+- Added [**Navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=107958-34) components, including:
+  - [**❖&nbsp;Navigation&nbsp;/&nbsp;Project&nbsp;navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=107958%3A2300&mode=dev&t=dhSrpEWep5xpbMeB-1)
+  - [**❖&nbsp;Navigation&nbsp;/&nbsp;Admin&nbsp;navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=117918%3A4864&mode=dev&t=dhSrpEWep5xpbMeB-1)
 
 ### Enhancements
 
