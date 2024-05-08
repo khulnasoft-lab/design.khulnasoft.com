@@ -2,17 +2,17 @@
 name: Design tokens overview
 ---
 
-Design tokens capture decisions and intent in code. Design tokens abstract out variables like color, typography, and spacing for consistent and meaningful user interface (UI) design across tools and platforms.
-
 <img class="gl-display-block gl-mx-auto gl-my-7" src="/img/design-tokens.svg" alt="Example design tokens in use" />
 
-## Why we use design tokens
-
-Design tokens are a methodology to establish a single source of truth for how, when, and why a foundational element from the design system is used. On the surface, a design token takes the form of a simple name/value pair, but each design token is the culmination of many factors and considerations that pair design intent with elements within the design system. The following is a basic example of a design token, where `design.token.name` is the name, and `#abcdef` is the value.
+Design tokens are a methodology to pair design decisions with options from the design system. Design tokens abstract out variables like color, typography, and spacing for consistent and meaningful user interface (UI) design across tools and platforms. The following is a basic example of a design token, where `design.token.name` is the name, and `#abcdef` is the value.
 
 <img class="gl-display-block gl-mx-auto gl-my-7" src="/img/design-tokens-name-value.svg" alt="Example design token name and value pair" />
 
-### Reasons for using design tokens
+## Why we use design tokens
+
+Design tokens help simplify design and development decisions. Take the `text.color.subtle` design token for example. With a quick reading of it someone can understand that it's for the color of text, and likely less prominent in appearance than some other available options.
+
+More specifically, we use design tokens to:
 
 - Catalogue design constants.
 - Codify design decisions — capturing them openly and objectively.
@@ -21,14 +21,9 @@ Design tokens are a methodology to establish a single source of truth for how, w
 - Help make new design decisions easier by leveraging existing intent and purpose.
 - Support efforts like themes and modes by abstracting intent from underlying values.
 
-### Who uses design tokens
-
-- **Authors:** A design system author creates design tokens that make design decisions consistent and reusable.
-- **Consumers:** A design system consumer applies design tokens in design and code and makes decisions based on how the design token satisfies the use case.
-
 ## Categories
 
-Our design tokens are grouped into three categories — **constant**, **semantic**, and **contextual** — that each serve a different purpose. Categories organize design tokens, but they don't impact how tokens are named. Constant design tokens are the least specific, semantic design tokens are more specific, and contextual design tokens are the most specific. Constant design tokens are considered "private," that is, they are only for authors to reference in semantic and contextual design tokens that are "public." It's these latter two categories that are available for users to apply during design and development.
+Our design tokens are grouped into three categories — **constant**, **semantic**, and **contextual** — that each serve a different purpose. Categories organize design tokens, but they don't impact how tokens are named. The specificity of design tokens increases from constant to semantic to contextual, with contextual being the most specific. Constant design tokens are only used in the creation of design tokens whereas semantic and contextual design tokens are available for users to apply during design and development.
 
 <img class="gl-display-block gl-mx-auto gl-my-7" src="/img/design-tokens-specificity.svg" alt="Design token specificity" />
 

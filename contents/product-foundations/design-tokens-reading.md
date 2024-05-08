@@ -2,13 +2,11 @@
 name: Reading design tokens
 ---
 
-It's true, design token names can be quite the combination of terms strung together. They also take on different formatting depending on where they're referenced. And while each design token has an associated description, it may not always be apparent at the point of use. Let's start by taking a look at the convention and what each term represents, then we'll explore examples, and lastly we'll cover how design tokens are presented in different formats.
+Understanding how design tokens are named will help you to use and apply them correctly.
 
 ## Naming convention
 
-A naming convention provides options for design token authors to construct a design token name with, and in turn this results in readable choices for design token users to apply based on the intent.
-
-In the graphic below, each term has a specific purpose and represents what will take its place in an actual design token name. They're strung together in a specific order and grouped by **context**, **element**, and **properties**, but don't worry, in most cases only a few of the terms will be used at any one time as you'll see in the examples further on.
+A naming convention provides readable choices so that you can choose a design token that matches your design intent. Design token names include terms that may define the **context**, **element**, and **properties** for a design token. For example:
 
 <img class="gl-display-block gl-mx-auto gl-mt-7" src="/img/design-tokens-naming-convention.svg" alt="Design tokens naming convention with context, element, and properties groups" />
 
@@ -16,7 +14,7 @@ In the graphic below, each term has a specific purpose and represents what will 
 
 ### Context
 
-Context is information about where the element that follows is being addressed. Context can be either a group or component, but never both at the same time — the context is either broad or narrow. Design tokens that don't include a context are the most generally applied.
+Context is information about where the element that follows it is applied. Context can be either a group or component, but never both at the same time — the context is either broad or narrow. Design tokens that don't include a context are the most generally applied.
 
 <img class="gl-display-block gl-mx-auto gl-my-7" src="/img/design-tokens-naming-context.svg" alt="Design tokens naming convention for context, includes group, component, and variant/category" />
 
@@ -26,11 +24,11 @@ Context is information about where the element that follows is being addressed. 
 
 ### Element
 
-An element is the thing the design decision applies to, and may include its position and relationship to other elements or constraints. An element is always present in a [semantic](/product-foundations/design-tokens#semantic-design-tokens) and [contextual](/product-foundations/design-tokens#semantic-design-tokens) design token name.
+An element is what the design decision applies to, and may include its position and relationship to other elements or constraints. An element is always present in a [semantic](/product-foundations/design-tokens#semantic-design-tokens) and [contextual](/product-foundations/design-tokens#semantic-design-tokens) design token name.
 
 <img class="gl-display-block gl-mx-auto gl-my-7" src="/img/design-tokens-naming-element.svg" alt="Design tokens naming convention for element, includes element, position, and relationship" />
 
-- **Element:** Specific thing being addressed. Examples are `background`, `border`, and `text`.
+- **Element:** What's being addressed. Examples are `background`, `border`, and `text`.
 - **Position:** Location of the element. Examples are `top`, `right`, or `outer`.
 - **Relationship:** Association to other elements or constraints. Examples are `to-edge`, `to-top`, and `gap`.
 
@@ -124,6 +122,6 @@ text/color/strong: color/neutral/950
 
 <br>
 
-<todo>Once the documentation is created, add link to GitLab UI to learn how design tokens get output into different formats.</todo>
+<todo>Once the documentation is created, add link to GitLab UI to learn how design tokens are output into different formats.</todo>
 
 Next, [learn how to use design tokens →](/product-foundations/design-tokens-using)
