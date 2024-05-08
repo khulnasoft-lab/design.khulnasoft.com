@@ -2,13 +2,33 @@
 name: Release notes
 ---
 
+## 17.1
+
+[_Draft: 17.1 release notes_](CREATE BEFORE MERGE)
+
 ## 17.0
 
-[_Draft: 17.0 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3801)
+<!-- Update publish date-->
+<small>Published 2024-XX-XX</small>
+
+### Additions
+
+- Added [**Navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=107958-34) components, including:
+  - [**❖&nbsp;Navigation&nbsp;/&nbsp;Project&nbsp;navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=107958%3A2300&mode=dev&t=dhSrpEWep5xpbMeB-1)
+  - [**❖&nbsp;Navigation&nbsp;/&nbsp;Admin&nbsp;navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=117918%3A4864&mode=dev&t=dhSrpEWep5xpbMeB-1)
+
+### Enhancements
+
+### Changes
+
+### Fixes
+
+### Deprecations
+
+### Removals
 
 ## 16.11
 
-<!-- Update publish date-->
 <small>Published 2024-04-15</small>
 
 ### Additions
@@ -22,7 +42,6 @@ name: Release notes
 
 ## 16.10
 
-<!-- Update publish date-->
 <small>Published 2024-03-15</small>
 
 ### Additions
