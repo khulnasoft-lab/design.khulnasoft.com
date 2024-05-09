@@ -2,8 +2,6 @@
 name: Using design tokens
 ---
 
-A design token is a portable design decision that can be used in design and code.
-
 ## In design
 
 <note>We are currently piloting using design tokens in Figma. We're asking that only those part of the pilot use the library. Learn more in the [issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1771). More details about officially using design tokens will be coming soon, but in the meantime carry on with your typical design process.</note>

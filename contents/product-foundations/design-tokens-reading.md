@@ -6,15 +6,15 @@ Understanding how design tokens are named will help you to use and apply them co
 
 ## Naming convention
 
-A naming convention provides readable choices so that you can choose a design token that matches your design intent. Design token names include terms that may define the **context**, **element**, and **properties** for a design token. For example:
+A naming convention provides readable choices so that you can choose a design token that matches your design intent. Design token names include terms that may define the **context**, **object**, and **modifier** for a design token. For example:
 
-<img class="gl-display-block gl-mx-auto gl-mt-7" src="/img/design-tokens-naming-convention.svg" alt="Design tokens naming convention with context, element, and properties groups" />
+<img class="gl-display-block gl-mx-auto gl-mt-7" src="/img/design-tokens-naming-convention.svg" alt="Design tokens naming convention with context, object, and modifier groups" />
 
 <small class="gl-display-block gl-text-center">`[group].[component].[variant/category].[element].[position].[relationship].[property].[type].[scale].[state]`</small>
 
 ### Context
 
-Context is information about where the element that follows it is applied. Context can be either a group or component, but never both at the same time — the context is either broad or narrow. Design tokens that don't include a context are the most generally applied.
+Context provides the circumstances for the design token. For example, `action.danger.[…]` is the start of a design token that is in an _action_ group of the _danger_ variant. Similarly, `banner.promotion.[…]` is for a _banner_ component of the _promotion_ variant. Context can be either a group or component, but never both at the same time — the context is either broad or narrow. Design tokens that don't include a context are the most generally applied.
 
 <img class="gl-display-block gl-mx-auto gl-my-7" src="/img/design-tokens-naming-context.svg" alt="Design tokens naming convention for context, includes group, component, and variant/category" />
 
@@ -22,9 +22,9 @@ Context is information about where the element that follows it is applied. Conte
 - **Component:** Narrow context that only applies to the component. Examples are `avatar`, `button`, and `toggle`.
 - **Variant/category:** Further describe the context. Examples are `confirm`, `danger`, and `neutral`.
 
-### Element
+### Object
 
-An element is what the design decision applies to, and may include its position and relationship to other elements or constraints. An element is always present in a [semantic](/product-foundations/design-tokens#semantic-design-tokens) and [contextual](/product-foundations/design-tokens#semantic-design-tokens) design token name.
+An object is the element that the design decision applies to, and may include its position and relationship to other elements or constraints. For example, `[…].icon.left.[…]` lets you know that the _icon_ element referenced is in the _left_ position. Another example is `[…].element.to-top.[…]` that tells you this is about a _generic element's_ relationship to the _top boundary_. An object is always present in a [semantic](/product-foundations/design-tokens#semantic-design-tokens) and [contextual](/product-foundations/design-tokens#semantic-design-tokens) design token name.
 
 <img class="gl-display-block gl-mx-auto gl-my-7" src="/img/design-tokens-naming-element.svg" alt="Design tokens naming convention for element, includes element, position, and relationship" />
 
@@ -32,14 +32,14 @@ An element is what the design decision applies to, and may include its position 
 - **Position:** Location of the element. Examples are `top`, `right`, or `outer`.
 - **Relationship:** Association to other elements or constraints. Examples are `to-edge`, `to-top`, and `gap`.
 
-### Properties
+### Modifier
 
-A property is the attribute for the element that's being addressed along with related modifiers. The property itself can be further described in order to give it more meaning or to understand how it's being modified.
+A modifier is something about the object that's being addressed along with related attributes. The property itself can be further described in order to give it more meaning or to understand how it's being modified. For example, `[…].color.strong.hover` identifies this as a _color_ property that is _strong_ in scale and in the _hover_ state. Likewise, `[…].font-weight.semibold` identifies that the _font weight_ property is _semibold_ in scale.
 
 <img class="gl-display-block gl-mx-auto gl-my-7" src="/img/design-tokens-naming-properties.svg" alt="Design tokens naming convention for properties, includes property, type, scale, and state" />
 
-- **Property:** Attribute of the element. Examples are `color`, `space`, and `size`.
-- **Type:** Similar to how a variant describes context, the type describes the property. Examples are `info`, `link`, and `overlay`. Type can include the same terms as a variant or category, like _danger_ or _success_, but the same term will never be in two places for a single design token. It is one of the most flexible parts of the naming convention.
+- **Property:** What about the element is being addressed. Examples are `color`, `space`, and `size`.
+- **Type:** Similar to how a variant describes context, the type describes the property. Examples are `info`, `link`, and `overlay`. Type can include the same terms as a variant or category, like _danger_ or _success_, but the same term will never be in two places for a single design token. It's one of the most flexible parts of the naming convention.
 - **Scale:** An ordinal range that is finite and doesn't define distance between steps. Example ordinal scale are `default`, `subtle`, `strong` and `sm`, `md`, `lg`.
 - **State:** Interactive or programmatically unique state. Examples include `default`, `hover`, and `checked`.
 
