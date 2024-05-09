@@ -10,7 +10,7 @@ Design tokens are a methodology to pair design decisions with options from the d
 
 ## Why we use design tokens
 
-Design tokens help simplify design and development decisions. Take the `text.color.subtle` design token for example. With a quick reading of it someone can understand that it's for the color of text, and likely less prominent in appearance than other available options.
+Design tokens help simplify design and development decisions in part by codifying attributes and use in their names. For example, the name of the design token `text.color.subtle` quickly communicates it's to be used for text color, and is likely less prominent in appearance than other available options.
 
 More specifically, we use design tokens to:
 
@@ -23,7 +23,7 @@ More specifically, we use design tokens to:
 
 ## Categories
 
-Our design tokens are grouped into three categories — **constant**, **semantic**, and **contextual** — that each serve a different purpose. Categories organize design tokens, but they don't impact how tokens are named. The specificity of design tokens increases from constant to semantic to contextual, with contextual being the most specific. Constant design tokens are only used in the creation of design tokens whereas semantic and contextual design tokens are available for consumers to apply during design and development.
+Our design tokens are grouped into three categories — **constant**, **semantic**, and **contextual** — that each serve a different purpose. Categories organize design tokens, but they don't impact how tokens are named. The specificity of design tokens increases from constant to semantic to contextual, with contextual being the most specific. Constant design tokens are referenced by other tokens whereas semantic and contextual design tokens are those applied during design and development.
 
 <img class="gl-display-block gl-mx-auto gl-my-7" src="/img/design-tokens-specificity.svg" alt="Design token specificity" />
 

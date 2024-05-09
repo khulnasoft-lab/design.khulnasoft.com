@@ -6,7 +6,7 @@ Understanding how design tokens are named will help you to use and apply them co
 
 ## Naming convention
 
-A naming convention provides readable choices so that you can choose a design token that matches your design intent. Design token names include terms that may define the **context**, **object**, and **modifier** for a design token. For example:
+The naming convention enables you to choose a design token that matches your design intent. Design token names may include terms that define the **context**, **object**, and **modifier** for a design token. For example:
 
 <img class="gl-display-block gl-mx-auto gl-mt-7" src="/img/design-tokens-naming-convention.svg" alt="Design tokens naming convention with context, object, and modifier groups" />
 
@@ -20,7 +20,7 @@ Context provides the circumstances for the design token. For example, `action.da
 
 - **Group:** Broad context that can apply to many things. Examples are `feedback`, `action`, and `control`.
 - **Component:** Narrow context that only applies to the component. Examples are `avatar`, `button`, and `toggle`.
-- **Variant/category:** Further describe the context. Examples are `confirm`, `danger`, and `neutral`.
+- **Variant/category:** Further describes the context. Examples are `confirm`, `danger`, and `neutral`.
 
 ### Object
 
@@ -38,7 +38,7 @@ A modifier is something about the object that's being addressed along with relat
 
 <img class="gl-display-block gl-mx-auto gl-my-7" src="/img/design-tokens-naming-properties.svg" alt="Design tokens naming convention for properties, includes property, type, scale, and state" />
 
-- **Property:** What about the element is being addressed. Examples are `color`, `space`, and `size`.
+- **Property:** Defines what's being addressed. Examples are `color`, `space`, and `size`.
 - **Type:** Similar to how a variant describes context, the type describes the property. Examples are `info`, `link`, and `overlay`. Type can include the same terms as a variant or category, like _danger_ or _success_, but the same term will never be in two places for a single design token. It's one of the most flexible parts of the naming convention.
 - **Scale:** An ordinal range that is finite and doesn't define distance between steps. Example ordinal scale are `default`, `subtle`, `strong` and `sm`, `md`, `lg`.
 - **State:** Interactive or programmatically unique state. Examples include `default`, `hover`, and `checked`.
