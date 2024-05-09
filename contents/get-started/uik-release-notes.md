@@ -15,6 +15,7 @@ name: Release notes
 
 - Added [**Navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=107958-34) components, including:
   - [**❖&nbsp;Navigation&nbsp;/&nbsp;Project&nbsp;navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=107958%3A2300&mode=dev&t=dhSrpEWep5xpbMeB-1)
+  - [**❖&nbsp;Navigation&nbsp;/&nbsp;Group&nbsp;navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=118382%3A8241&mode=dev&t=1z5mcG90JxppszZc-1)
   - [**❖&nbsp;Navigation&nbsp;/&nbsp;Admin&nbsp;navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=117918%3A4864&mode=dev&t=dhSrpEWep5xpbMeB-1)
 - Added optional [annotations and utilities library](https://www.figma.com/file/dWP1ldkBU4jeUqx5rO3jrn/Annotations-and-utilities). It launches with [**❖&nbsp;Design&nbsp;token**](https://www.figma.com/file/dWP1ldkBU4jeUqx5rO3jrn/Annotations-and-utilities?type=design&node-id=2002-34). A utility to call out where a specific design token has been used. Expect more tools to help document and present design descisions to be added in the coming milestones. Learn more about our upcoming [plans for the UI kit](https://gitlab.com/groups/gitlab-org/gitlab-services/-/epics/22).
 
