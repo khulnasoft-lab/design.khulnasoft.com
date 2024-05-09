@@ -34,7 +34,7 @@ An object is the element that the design decision applies to, and may include it
 
 ### Modifier
 
-A modifier is something about the object that's being addressed along with related attributes. The property itself can be further described in order to give it more meaning or to understand how it's being modified. For example, `[…].color.strong.hover` identifies this as a _color_ property that is _strong_ in scale and in the _hover_ state. Likewise, `[…].font-weight.semibold` identifies that the _font weight_ property is _semibold_ in scale.
+A modifier is an attribute of the object that's being addressed. The _property_ itself can be further described by other modifiers to give it more meaning or to understand how it's being changed. For example, `[…].color.strong.hover` identifies this as a _color_ property that is _strong_ in scale and in the _hover_ state. Likewise, `[…].font-weight.semibold` identifies that the _font weight_ property is _semibold_ in scale.
 
 <img class="gl-display-block gl-mx-auto gl-my-7" src="/img/design-tokens-naming-properties.svg" alt="Design tokens naming convention for properties, includes property, type, scale, and state" />
 
