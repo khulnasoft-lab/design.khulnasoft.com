@@ -25,6 +25,8 @@ name: Release notes
 
 ### Fixes
 
+- Updated the min width in the [**❖&nbsp;Dropdown**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/📙-Component-library?type=design&node-id=61252-95177&mode=design&t=6uorytul0fvm1FFl-11) description to match code implementation.
+
 ### Deprecations
 
 ### Removals
