@@ -143,6 +143,10 @@
                 "path": "design-tokens"
               },
               {
+                "title": "Dictionary",
+                "path": "design-tokens-dictionary"
+              },
+              {
                 "title": "Reading design tokens",
                 "path": "design-tokens-reading"
               },
