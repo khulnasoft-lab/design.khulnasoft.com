@@ -32,6 +32,8 @@ related:
 
 - When using the sorting component, make sure the list in the dropdown doesn't contain more than 10 items, otherwise it will create usability problems. [See combobox guidelines](/components/dropdown-combobox).
 - If a list is static, easy to search/scan, or where the data set won't grow, the sorting component is unnecessary.
+- If the criteria for sorting is displayed in a column in a table, use [table sorting](/components/table#ordering--sorting) instead of list sorting.
+- For tables, use [table sorting](/components/table#ordering--sorting) instead of list sorting.
 
 ### Appearance
 
@@ -43,6 +45,7 @@ related:
 - As soon as an item in the dropdown is selected, the list content re-sorts automatically.
 - The sort dropdown allows for sorting by a single selected item.
 - The sort direction icon button allows users to change the direction of the sort, from ascending to descending or vice-versa.
+- In a table, the criteria used to sort should always be displayed in order to reinforce user's action and provide a visual feedback.
 - The default sort order on a list is determined by the designer on a page-by-page basis.
 
 ### Accessibility
