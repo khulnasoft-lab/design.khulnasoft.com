@@ -52,7 +52,7 @@ The navigation helps orient users, so we want to avoid users wondering, "[Who mo
 - **Minimal:** Use an informative component like a [toast](/components/toast), [alert](/components/alert), or [popover](/components/popover) for a set duration.
 - **Significant:** A temporary opt-in method must be provided for at least two milestones.
 
-> **Note:** All changes impacting the navigation sidebar must be in the release notes.
+<note> All changes impacting the navigation sidebar must be in the release notes. </note>
 
 #### How to evaluate disruption
 
