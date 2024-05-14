@@ -46,7 +46,7 @@ When this occurs, the top-level menu item should remain consistent, even if ther
 
 ### Communicating changes to users
 
-The navigation helps orient users, so we want to avoid users wondering, "[Who moved my cheese?](https://uxmag.com/articles/who-moved-my-virtual-cheese)". Once a change to adjust the navigation has been validated and approved, use these approaches based on the assumed disruption:
+The navigation helps orient users, so we want to avoid users wondering, "[Who moved my cheese?](https://uxmag.com/articles/who-moved-my-virtual-cheese)" Once a change to the navigation has been validated and approved, use one of the following approaches based on the assumed level of disruption:
 
 - **None:** No in-app messaging is necessary if a change will likely go unnoticed.
 - **Minimal:** Use some form of informative component like a [toast](/components/toast), [alert](/components/alert), or [popover](/components/popover) for a set duration.
