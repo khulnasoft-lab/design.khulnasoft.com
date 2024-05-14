@@ -49,7 +49,7 @@ When this occurs, the top-level menu item should remain consistent, even if ther
 The navigation helps orient users, so we want to avoid users wondering, "[Who moved my cheese?](https://uxmag.com/articles/who-moved-my-virtual-cheese)" Once a change to the navigation has been validated and approved, use one of the following approaches based on the assumed level of disruption:
 
 - **None:** No in-app messaging is necessary if a change will likely go unnoticed.
-- **Minimal:** Use some form of informative component like a [toast](/components/toast), [alert](/components/alert), or [popover](/components/popover) for a set duration.
+- **Minimal:** Use an informative component like a [toast](/components/toast), [alert](/components/alert), or [popover](/components/popover) for a set duration.
 - **Significant:** A temporary opt-in method must be provided for at least two milestones.
 
 > **Note:** All changes impacting the navigation sidebar must be in the release notes.
