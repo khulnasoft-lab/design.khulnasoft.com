@@ -23,10 +23,13 @@ name: Release notes
 
 ### Changes
 
+- Added an additional property to the **Navigation** sub-component [**❖&nbsp;_Page**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=107958%3A2360&t=BJeCsFnYIyQZulYc-1) to support different hover interactions.
+
 ### Fixes
 
 - Updated the min width in the [**❖&nbsp;Dropdown**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/📙-Component-library?type=design&node-id=61252-95177&mode=design&t=6uorytul0fvm1FFl-11) description to match code implementation.
 - Corrected icon colors in [Button](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-7) components to match code implementation for all states.
+- Updated the [**❖&nbsp;Navigation&nbsp;/&nbsp;Admin&nbsp;navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=117918%3A4864&mode=dev&t=dhSrpEWep5xpbMeB-1) to use the correct icons.
 
 ### Deprecations
 
