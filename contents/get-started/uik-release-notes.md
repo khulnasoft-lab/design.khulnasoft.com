@@ -4,12 +4,12 @@ name: Release notes
 
 ## 17.1
 
-[_Draft: 17.1 release notes_](CREATE BEFORE MERGE)
+[_Draft: 17.1 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3846)
 
 ## 17.0
 
 <!-- Update publish date-->
-<small>Published 2024-XX-XX</small>
+<small>Published 2024-05-14</small>
 
 ### Additions
 
@@ -19,21 +19,15 @@ name: Release notes
   - [**❖&nbsp;Navigation&nbsp;/&nbsp;Admin&nbsp;navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=117918%3A4864&mode=dev&t=dhSrpEWep5xpbMeB-1)
 - Added optional [annotations and utilities library](https://www.figma.com/file/dWP1ldkBU4jeUqx5rO3jrn/Annotations-and-utilities). It launches with [**❖&nbsp;Design&nbsp;token**](https://www.figma.com/file/dWP1ldkBU4jeUqx5rO3jrn/Annotations-and-utilities?type=design&node-id=2002-34). A utility to call out where a specific design token has been used. Expect more tools to help document and present design descisions to be added in the coming milestones. Learn more about our upcoming [plans for the UI kit](https://gitlab.com/groups/gitlab-org/gitlab-services/-/epics/22).
 
-### Enhancements
-
 ### Changes
 
-- Added an additional property to the **Navigation** sub-component [**❖&nbsp;_Page**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=107958%3A2360&t=BJeCsFnYIyQZulYc-1) to support different hover interactions.
+- Added an additional property to the **❖&nbsp;Navigation** sub-component [**❖&nbsp;_Page**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=107958%3A2360&t=BJeCsFnYIyQZulYc-1) to support different hover interactions.
 
 ### Fixes
 
 - Updated the min width in the [**❖&nbsp;Dropdown**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/📙-Component-library?type=design&node-id=61252-95177&mode=design&t=6uorytul0fvm1FFl-11) description to match code implementation.
-- Corrected icon colors in [Button](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-7) components to match code implementation for all states.
+- Corrected icon colors in [**❖&nbsp;Button**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-7) components to match code implementation for all states.
 - Updated the [**❖&nbsp;Navigation&nbsp;/&nbsp;Admin&nbsp;navigation**](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=117918%3A4864&mode=dev&t=dhSrpEWep5xpbMeB-1) to use the correct icons.
-
-### Deprecations
-
-### Removals
 
 ## 16.11
 
