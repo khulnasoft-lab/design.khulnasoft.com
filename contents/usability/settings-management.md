@@ -17,7 +17,7 @@ Admin, groups, projects, and users have dedicated areas to aggregate their setti
 
 When considering how to construct a setting within the product, consider the following:
 
-- **Access:** Which [persona](https://about.gitlab.com/handbook/product/personas/) performs the JTBD related to the setting? What [role](https://docs.gitlab.com/ee/user/permissions.html) or permission does that persona have?
+- **Access:** Which type of user is responsible for making configuration decisions? Only certain [roles](https://docs.gitlab.com/ee/user/permissions.html) have the capability to manage settings.
 - **Availability**: In which [namespace](https://docs.gitlab.com/ee/user/namespace/#types-of-namespaces) should this setting be available?
 - **Flexibility and control:** Is this setting intended to set a default value or enforce a specific configuration?
 
