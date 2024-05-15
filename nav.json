@@ -582,6 +582,10 @@
             "title": "GitLab accessibility conformance report",
             "items": [
               {
+                "title": "Accessibility conformance report",
+                "path": "acr"
+              },
+              {
                 "title": "Section 508 Edition",
                 "path": "508"
               },
