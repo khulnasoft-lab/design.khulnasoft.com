@@ -15,7 +15,7 @@ Admin, groups, projects, and users have dedicated areas to aggregate their setti
 
 ### Implementation
 
-WWhen considering how to construct a setting within the product, use these questions to help guide your decision-making:
+When considering how to construct a setting within the product, use these questions to help guide your decision-making:
 
 - **Access:** Which type of user is responsible for making configuration decisions? Only specific [roles](https://docs.gitlab.com/ee/user/permissions.html) can manage settings.
 - **Availability**: In which [namespace](https://docs.gitlab.com/ee/user/namespace/#types-of-namespaces) should this setting be available?
