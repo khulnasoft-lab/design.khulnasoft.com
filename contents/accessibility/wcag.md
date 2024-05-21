@@ -821,17 +821,10 @@ The terms used in the Conformance Level information are defined as follows:
         >2.4.6 Headings and Labels</a> (Level AA)
       </td>
       <td>
-        Partially supports
+        Supports
       </td>
       <td>
-        <p>In most instances the product uses descriptive headings and labels to describe the purpose or topic on a page.</p>
-        <ul>
-          <li>Know instances where headings and labels could be improved are tracked in the <a
-          href="https://gitlab.com/groups/gitlab-org/-/epics/566"
-          target="_blank"
-        >&566</a> epic.</li>
-          <li>Until all known instances have been addressed, we will classify this as partially supports.</li>
-        </ul>
+        <p>The product uses descriptive headings and labels to describe the purpose or topic on a page.</p>
       </td>
     </tr>
     <tr>
