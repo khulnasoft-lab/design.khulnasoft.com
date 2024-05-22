@@ -436,16 +436,9 @@ The terms used in the Conformance Level information are defined as follows:
           target="_blank"
         >2.5.2 Pointer Cancellation</a> (Level A 2.1 and 2.2)
       </td>
-      <td>Partially supports</td>
+      <td>Supports</td>
       <td>
-        <p>The product has some instances where down-events are initialized without a method to easily undo or abort.</p>
-        <ul>
-          <li>Known instances are tracked in the <a
-          href="https://gitlab.com/groups/gitlab-org/-/epics/8761"
-          target="_blank"
-        >&8761</a> epic.</li>
-          <li>Until all known instances have been addressed, we will classify this as partially supports.</li>
-        </ul>
+        <p>The product has no known instances where down-events are initialized without a method to easily undo or abort.</p>
       </td>
     </tr>
     <tr>
@@ -677,16 +670,9 @@ The terms used in the Conformance Level information are defined as follows:
           target="_blank"
         >1.3.5 Identify Input Purpose</a> (Level AA 2.1 and 2.2)
       </td>
-      <td>Partially supports</td>
+      <td>Supports</td>
       <td>
-        <p>The product mostly uses input types and has some instances of autocomplete attributes on input fields.</p>
-        <ul>
-          <li>Known instances where input fields do not implement identifying expected form input data are tracked in the <a
-          href="https://gitlab.com/groups/gitlab-org/-/epics/8762"
-          target="_blank"
-        >&8762</a> epic.</li>
-          <li>Until all known instances have been addressed, we will classify this as partially supports.</li>
-        </ul>
+        <p>The product uses inputs that have a clear purpose.</p>
       </td>
     </tr>
     <tr>
