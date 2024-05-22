@@ -6,31 +6,44 @@ name: Overview
 
 These guidelines set the standard for upholding a cohesive brand image. Our brand, like our product and company, has arrived to where it is today through the collaboration of numerous contributors and iterative processes. It exists as the creative expression of our company mission, vision, and [values](https://about.gitlab.com/handbook/values/).
 
-At GitLab, we’ve created an environment where everyone can contribute, even when it comes to our brand. In 2015, the brand first emerged through the collaborative efforts of the wider GitLab community. After our company went public in 2021, we took a closer look at all its components and began a larger iteration to align our image with the next chapter of our journey. With this creative refresh we put the product at the center of our brand and refined each element to work seamlessly together.
+At GitLab, we’ve created an environment where everyone can contribute, even when it comes to our brand. In 2015, the brand first emerged through the collaborative efforts of the wider GitLab community. After our company went public in 2021, we took a closer look at all its components and began a larger iteration to align our image with the next chapter of our journey. With this creative refresh, we put the product at the center of our brand and refined each element to work seamlessly together.
 
-Our product propels users into the future of DevOps. With that purpose in mind, we’ve designed our brand to embody the efficiency, innovation, modern-edge, and simplicity of our single application DevSecOps Platform.
+Our product propels users into the future of DevSecOps. With that purpose in mind, we’ve designed our brand to embody the efficiency, innovation, modern-edge, and simplicity of our single application DevSecOps Platform.
 
-## Brand principles
+## Brand voice and identity
 
-Our designs are inspired by four key principles that allow us to create a multitude of visuals that maintain a consistent and cohesive brand identity. These brand principles embody the personality of our brand and are actuated by our product; they should be equally balanced when designing, each working together to tell an intentional story.
+GitLab’s brand voice represents and expresses who we are as a brand. It is a core part of our brand identity, informed by our brand values. Our brand voice should come through clearly and consistently in all of our designs and communications.
 
-- **Human** - We are a people-first company with a community-centric product. We strive for open and approachable designs that prioritize inclusivity, accessibility, and transparency.
-- **Reliable** - We maintain a consistent brand image that reinforces our trustworthiness and echoes the efficiency and productivity our product and company are known for.
-- **Dynamic** - We are risk-takers that have paved the way with a comprehensive DevSecOps Platform. We create modern and innovative designs where multiple pieces work together to tell a meaningful story.
-- **Clear** - We streamline the complex and show intricate concepts in a minimal way. We aim for simplified designs and messaging that are confident, clean, and informative, keeping many audiences in mind.
+Maintaining a consistent brand voice helps us:
 
-## Tone of voice
+    - Increase awareness, recognition, and trust in our brand
+    - Communicate our unique value
+    - Differentiate from our competitors
+    - Express our personality
 
-Our voice embodies our [values](https://about.gitlab.com/handbook/values/) and [mission](https://about.gitlab.com/company/mission/#mission). We openly welcome others into our collaborative space, sharing an inclusive perspective on GitLab’s vision.
+Our brand voice comprises the following personality traits:
 
-Our brand principles extend to our voice and [communications](https://about.gitlab.com/handbook/communication/#writing-style-guidelines) as well. Consider how each characteristic works together to create a holistic narrative. For instance, our human-centric approach balances our ambitious edge; our concise messaging reinforces our trustworthiness; and so on. All facets are needed to fully represent who we are. Depending on the audience, it may make sense to lean into one area more than another.
+1. Visionary
 
-| **Sample headline** | **Approach** |
-| ------ | ------ |
-| _The DevSecOps Platform grows with you._ | **Human**. We invite others because we value inclusivity and transparency. We are approachable, relatable, and collaborative. |
-| _Powerful, scalable, end-to-end automation is certain with GitLab._ | **Reliable**. We provide others with trustworthy and knowledgeable resources. We are helpful, confident, and consistent. |
-| _A community of big ideas for better DevSecOps._ | **Dynamic**. We are dedicated to positive change. We are iterative, clever, and curious. |
-| _GitLab. The DevSecOps Platform._ | **Clear**. We are concise and straight to the point. We are efficient, informative, and organized. |
+We are confident, sophisticated technical experts and category creators. We are committed to enabling and empowering our customers and community. We embrace new challenges, energizing our customers to navigate their own journeys with confidence. We lead by example through continuous innovation and a bias for action. We believe we are most successful when everyone can contribute.
+
+    Example: We created the category.
+
+2. Empathetic
+
+We are thoughtful, collaborative, and considerate, as well as approachable and inclusive on a global scale. We are dedicated to understanding and supporting the diverse needs of our team and customers and crafting solutions to help them succeed.
+
+    Example: The GitLab Community; our mission enabling everyone to contribute
+
+3. Intentional
+
+We are purposeful, direct, and transparent. We communicate with clarity and focus to create a reliable experience for our customers.
+
+    Example: Our monthly release post
+
+
+For more examples of how we bring our brand voice to life, refer to the [GitLab Content Style Guide.](/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/)
+
 
 ## Resources
 
