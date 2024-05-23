@@ -8,7 +8,6 @@ Charcoal and White are the base colors used in all branded materials. The remain
 
 [Color swatches](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/tree/e6e2bb24e899078935d1aeb0e65c226b6bf36a8b/brand/brand-assets/brand-color-palettes) are denoted with a _p_ (for primary palette), _g_ (for gradients), or _s_ (for secondary palette). Refer to the [color usage](#color-usage) section for more information on when to use digital vs. print colors.
 
-
 ### Primary color palette
 
 | **Swatch**                                                                                                          | **HEX** | **RGB**       | **CMYK**       | **PMS**                        |
