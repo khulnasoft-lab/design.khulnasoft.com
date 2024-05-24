@@ -42,7 +42,11 @@ name: Release notes
 
 ### Changes
 
+<<<<<<< HEAD
 - Added an additional property to the **❖&nbsp;Navigation** sub-component [**❖&nbsp;_Page**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=107958%3A2360&t=BJeCsFnYIyQZulYc-1) to support different hover interactions.
+=======
+- Added an additional property to the **❖&nbsp;Navigation** sub-component [**❖&nbsp;\_Page**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=107958%3A2360&t=BJeCsFnYIyQZulYc-1) to support different hover interactions.
+>>>>>>> 87e2b8a5 (feat(ReleaseNotes): init 17.1 release notes)
 
 ### Fixes
 
