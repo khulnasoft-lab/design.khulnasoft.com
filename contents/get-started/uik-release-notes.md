@@ -4,16 +4,29 @@ name: Release notes
 
 ## 17.2
 
-[_Draft: 17.2 release notes_]https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1846)
+[_Draft: 17.2 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3886)
 
 ## 17.1
 
 <!-- Update publish date-->
-<small>Published 2024-xx-xx</small>
+<small>Published 2024-06-18</small>
 
 ### Additions
 
-- Added [**Your work Navigation**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=118599-11728&t=IDKzXiM7w25vEb8L-1)
+- Added [**❖&nbsp;Your&nbsp;work&nbsp;navigation**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=118599-11728&t=IDKzXiM7w25vEb8L-1).
+- Added the following illustrations: [**commit-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/commit-sm.svg), [**wiki-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/wiki-sm.svg), [**train-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/train-sm.svg), [**scan-alert-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/scan-alert-sm.svg) and [**empty-train-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-state/empty-train-md.svg), [**empty-variables-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-state/empty-variables-md.svg), [**variables-sm.svg**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/variables-sm.svg).
+
+### Changes
+
+- Change name of variable collection to **Legacy**. This collection intentionally left blank. This collection cannot be deleted due to a bug in Figma.
+- Change name of **Navigation** components to:
+  - **❖&nbsp;Project&nbsp;Navigation**
+  - **❖&nbsp;Group&nbsp;Navigation**
+  - **❖&nbsp;Admin&nbsp;Navigation**
+
+### Fixes
+
+- Fix [**❖&nbsp;Broadcast&nbsp;message**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=19944-369&t=94RKn28VOYyQ6egs-4) dismiss button visbility.
 
 ## 17.0
 
@@ -29,11 +42,7 @@ name: Release notes
 
 ### Changes
 
-<<<<<<< HEAD
 - Added an additional property to the **❖&nbsp;Navigation** sub-component [**❖&nbsp;_Page**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=107958%3A2360&t=BJeCsFnYIyQZulYc-1) to support different hover interactions.
-=======
-- Added an additional property to the **❖&nbsp;Navigation** sub-component [**❖&nbsp;\_Page**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=107958%3A2360&t=BJeCsFnYIyQZulYc-1) to support different hover interactions.
->>>>>>> 87e2b8a5 (feat(ReleaseNotes): init 17.1 release notes)
 
 ### Fixes
 
