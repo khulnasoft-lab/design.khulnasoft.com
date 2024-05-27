@@ -141,7 +141,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['../assets/stylesheets/app.scss'],
+  css: ['../assets/stylesheets/app.scss', '@gitlab/ui/src/tokens/build/css/tokens.dark.css'],
 
   /*
    ** Plugins to load before mounting the App

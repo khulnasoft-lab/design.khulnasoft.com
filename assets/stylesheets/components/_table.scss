@@ -1,6 +1,6 @@
 table:not(.pika-table):not(.gl-table) {
   width: 100%;
-  color: $gl-text-color;
+  color: var(--gl-text-color-default);
   border: $border-width solid $border-color;
   border-collapse: collapse;
   text-align: left;
