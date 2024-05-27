@@ -4,7 +4,7 @@ name: Release notes
 
 ## 17.2
 
-[_Draft: 17.2 release notes_]https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1846)
+[_Draft: 17.2 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1846)
 
 ## 17.1
 
@@ -13,7 +13,7 @@ name: Release notes
 
 ### Additions
 
-- Added [**Your work Navigation**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=118599-11728&t=IDKzXiM7w25vEb8L-1)
+- Added [**Your work**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=118599-11728&t=IDKzXiM7w25vEb8L-1) component of ❖&nbsp;Navigation&nbsp;
 
 ## 17.0
 
