@@ -1,5 +1,5 @@
 .sidebar {
-  background-color: $gray-10;
+  background-color: var(--gl-background-color-subtle);
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -63,7 +63,7 @@
 .sidebar__nav-anchor,
 .sidebar__nav-toggle {
   border-radius: $border-radius;
-  color: $gray-900;
+  color: var(--gl-text-color-default);
   display: block;
   padding: $gl-spacing-3 $gl-spacing-3 $gl-spacing-3 $gl-spacing-4;
 
