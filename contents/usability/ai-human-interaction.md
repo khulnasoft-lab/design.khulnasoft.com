@@ -24,7 +24,7 @@ Understand if a task is a good fit for AI or if it is better done by a human. Fi
 
 To understand the risk of an AI-powered feature, assess the _probability_ of error and _impact_ of that error, where _impact_ is a comparison of potential _cost_ and _benefits_. Costs can be financial, emotional, reputational, opportunity, time, compliance, or others.
 
-In GitLab, a _low risk_ situation can be an issue summary, where AI is rarely incorrect, performs a narrow task, and works on the result of previous human activity.
+In GitLab, an example of a _low risk_ situation is an AI-generated issue summary, which quickly gives context to the user about the issue. The potential cost is low, as the user usually does not take action based on the summary alone.
 
 A _high risk_ situation can be a code suggestion, where AI must have appropriate levels of accuracy, robustness, and cybersecurity. Code suggestions can directly affect various use cases, including high risk use cases like critical infrastructure, administration of justice, or democratic processes.
 
