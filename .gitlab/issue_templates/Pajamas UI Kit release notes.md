@@ -24,13 +24,13 @@ Release notes cover all files in the UI kit. These include those used by GitLab 
 </tr>
 </table>
 
+Before you start:
+
 - View the [release process](https://design.gitlab.com/get-started/uik-release-process) for detailed information about formating the release notes.
 - View the latest [release notes](https://design.gitlab.com/get-started/uik-release-notes) to familiarize yourself with recent changes.
 
 ## Pajamas UI Kit release notes tasks
 
-- View the [release process](https://design.gitlab.com/get-started/uik-release-process) for detailed information about formating the release notes.
-- View the latest [release notes](https://design.gitlab.com/get-started/uik-release-notes) to familiarize yourself with recent changes.
 Complete the following items for each release:
 - [ ] Review and edit the release notes:
     - Review all UI kit files to ensure all release note items are documented.
