@@ -1,6 +1,6 @@
 .navbar {
   align-items: center;
-  background: $gray-10;
+  background-color: var(--gl-background-color-subtle);
   border-bottom: 1px solid $gray-50;
   box-shadow: 0px 2px 8px 0px rgba($gray-950, 0.16);
   display: flex;
