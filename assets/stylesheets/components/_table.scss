@@ -1,13 +1,13 @@
 table:not(.pika-table):not(.gl-table) {
   width: 100%;
-  color: $gl-text-color;
+  color: var(--gl-text-color-default);
   border: $border-width solid $border-color;
   border-collapse: collapse;
   text-align: left;
   @extend .gl-mb-6;
 
   thead {
-    background: $gray-50;
+    background-color: var(--gl-background-color-strong);
     border-bottom: ($border-width * 2) solid $border-color;
 
     th {
@@ -23,7 +23,7 @@ table:not(.pika-table):not(.gl-table) {
 
     &.header {
       font-weight: $gl-font-weight-bold;
-      background: $gray-50;
+      background-color: var(--gl-background-color-strong);
     }
   }
 }
