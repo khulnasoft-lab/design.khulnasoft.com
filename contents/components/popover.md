@@ -35,6 +35,7 @@ related:
 - If you're not providing rich markup or actionable items, consider using a [tooltip](/components/tooltip).
 - If you're displaying critical content needed for users to complete a task, consider using a [modal](/components/modal).
 - If you're displaying supplemental information to the user about an element or item, consider using a [drawer](/components/drawer).
+- If you're promoting a new feature or announcing when something has moved on the page.
 
 ### Appearance
 
