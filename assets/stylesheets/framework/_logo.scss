@@ -16,7 +16,7 @@
   }
 
   small {
-    color: $gray-500;
+    color: var(--gl-text-color-subtle);
     display: none;
     font-size: 12px;
     margin-top: $gl-spacing-2;
