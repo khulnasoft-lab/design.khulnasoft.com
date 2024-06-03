@@ -511,9 +511,10 @@ The terms used in the Conformance Level information are defined as follows:
         >3.2.6 Consistent Help</a> (Level A 2.2 only)
       </td>
       <td>
+        Supports
       </td>
       <td>
-        <p>NEW in WCAG 2.2, will be updated for the 17.0 release.</p>
+        <p>Help is available in a consistent location.</p>
       </td>
     </tr>
     <tr>
