@@ -567,9 +567,10 @@ The terms used in the Conformance Level information are defined as follows:
         >3.3.7 Redundant Entry</a> (Level A 2.2 only)
       </td>
       <td>
+        Supports
       </td>
       <td>
-        <p>NEW in WCAG 2.2, will be updated for the 17.0 release.</p>
+        <p>The product doesn't prevent redundant entry when available.</p>
       </td>
     </tr>
     <tr>
