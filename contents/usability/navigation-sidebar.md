@@ -14,19 +14,19 @@ We use a vertical style of navigation for [several key benefits highlighted by N
 
 - The header area is always the same, while the elements in the body of the navigation sidebar will change depending on the user's context.
 - The names used for each navigation item should be short and easy to remember, ideally just 1-2 words.
-- There are two levels of navigation: [top-level items](#top-level-items) and a [submenus](#submenu-items). There is not a third level of depth.
+- There are two levels of navigation: [top-level items](#top-level-items) and a [sub-level items](#sub-level-items). There is not a third level of depth.
 
 ### Top-level items
 
-A top-level menu item is designated with a unique icon or avatar, and may contain related submenu items.
+A top-level menu item is designated with a unique icon or avatar, and may contain related sub-level items.
 
-### Submenu items
+### Sub-level items
 
-Each submenu should be a self-contained group of functionality that reflects its top-level item.
+Each sub-level should be a self-contained group of functionality that reflects its top-level item.
 
-Items within a submenu may change depending on the context, permissions, and roles. For example, the admin area may include more or fewer items under a top-level item than a group or project.
+Items within a sub-level may change depending on the context, permissions, and roles. For example, the admin area may include more or fewer items under a top-level item than a group or project.
 
-Top-level item naming and positioning should remain consistent across similar contexts like groups and projects, even with only one submenu item. The reason for top-level consistency reduces the cognitive effort needed to understand the navigation and task hierarchy.
+Top-level item naming and positioning should remain consistent across similar contexts like groups and projects, even with only one sub-level item. The reason for top-level consistency reduces the cognitive effort needed to understand the navigation and task hierarchy.
 
 ## Behavior
 
