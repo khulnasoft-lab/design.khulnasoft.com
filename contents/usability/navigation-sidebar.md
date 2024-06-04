@@ -18,7 +18,7 @@ We use a vertical style of navigation for [several key benefits highlighted by N
 
 ### Top-level items
 
-A top-level menu item is designated with a unique icon or avatar, and may contain related sub-level items.
+A top-level item is designated with a unique icon or avatar, and may contain related sub-level items.
 
 ### Sub-level items
 
