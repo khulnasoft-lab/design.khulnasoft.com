@@ -42,13 +42,13 @@ When this occurs, the top-level menu item should remain consistent, even if ther
 
 A single vertical navigation sidebar allows the user experience to transition across each breakpoint with minimal logic.
 
-Extra large viewports: `1200px` and up
+#### Extra large viewports: `1200px` and up
 
-- The navigation sidebar is visible by default, though users can choose to hide it to give focus to the body of the page and minimize distractions.
+The navigation sidebar is visible by default, though users can choose to hide it to give focus to the body of the page and minimize distractions.
 
-Large, medium, small, and extra small viewports: `1199px` and below
+#### Large, medium, small, and extra small viewports: `1199px` and below
 
-- The navigation sidebar is hidden by default. When revealed by selecting the [sidebar icon](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~sidebar) button, it overlaps the page content with a semi-transparent overlay that covers the background. The user's cookie preference does not change within this breakpoint.
+The navigation sidebar is hidden by default. When revealed by selecting the [sidebar icon](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~sidebar) button, it overlaps the page content with a semi-transparent overlay that covers the background. The user's cookie preference does not change within this breakpoint.
 
 ### Communicating changes to users
 
