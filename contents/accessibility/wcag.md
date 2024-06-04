@@ -863,9 +863,17 @@ The terms used in the Conformance Level information are defined as follows:
         >2.5.7 Dragging Movements</a> (Level AA 2.2 only)
       </td>
       <td>
+        Does not support
       </td>
       <td>
-        <p>NEW in WCAG 2.2, will be updated for the 17.0 release.</p>
+        <p>Dragging movements in the product cannot be done without dragging a single pointer.</p>
+        <ul>
+          <li>Known instances are being tracked in the <a
+          href="https://gitlab.com/groups/gitlab-org/-/epics/14073"
+          target="_blank"
+        >&14073</a> epic.</li>
+          <li>Until a majority of known instances have been addressed, we will classify this as does not support.</li>
+        </ul>
       </td>
     </tr>
     <tr>
