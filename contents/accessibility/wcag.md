@@ -969,9 +969,10 @@ The terms used in the Conformance Level information are defined as follows:
         >3.3.8 Accessible Authentication (Minimum)</a> (Level AA 2.2 only)
       </td>
       <td>
+        Supports
       </td>
       <td>
-        <p>NEW in WCAG 2.2, will be updated for the 17.0 release.</p>
+        <p>The product does not prevent the use of copy/paste, password managers, or showing hidden characters. Additionally, authentication steps don't rely on cognitive function tests" or object recognition.</p>
       </td>
     </tr>
     <tr>
