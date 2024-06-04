@@ -35,7 +35,7 @@ When this occurs, the top-level menu item should remain consistent, even if ther
 
 - The navigation sidebar is always available unless navigating is not needed or beneficial. The `minimal` page layout is an alternative option that removes the navigation elements.
 - The user's preference is set with a cookie to keep the navigation sidebar hidden or visible. It will be visible regardless of the cookie when the user needs the navigation sidebar to complete a task.
-- While hidden, hovering over the left edge of the page or the sidebar icon](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~sidebar) button reveals the sidebar as an overlay that can lock in place or be used to navigate without disrupting the page content.
+- While hidden, hovering over the left edge of the page or the [sidebar icon](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~sidebar) button reveals the sidebar as an overlay that can lock in place or be used to navigate without disrupting the page content.
 - Pinned items uniquely persist, allowing users to surface important links across groups and projects.
 
 ### Breakpoints
