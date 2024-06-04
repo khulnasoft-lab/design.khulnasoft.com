@@ -845,7 +845,7 @@ The terms used in the Conformance Level information are defined as follows:
         Partially supports
       </td>
       <td>
-        <p>The product has some instances where focus may be obscured</p>
+        <p>The product has some instances where focus may be obscured.</p>
         <ul>
           <li>Known instances are being tracked in the <a
           href="https://gitlab.com/groups/gitlab-org/-/epics/14070"
@@ -876,9 +876,17 @@ The terms used in the Conformance Level information are defined as follows:
         >2.5.8 Target Size (Minimum)</a> (Level AA 2.2 only)
       </td>
       <td>
+        Partially supports
       </td>
       <td>
-        <p>NEW in WCAG 2.2, will be updated for the 17.0 release.</p>
+        <p>The product has some instances where a target size may be too small.</p>
+        <ul>
+          <li>Known instances are being tracked in the <a
+          href="https://gitlab.com/groups/gitlab-org/-/epics/14071"
+          target="_blank"
+        >&14071</a> epic.</li>
+          <li>Until all known instances have been addressed, we will classify this as partially supports.</li>
+        </ul>
       </td>
     </tr>
     <tr>
