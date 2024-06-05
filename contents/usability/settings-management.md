@@ -41,7 +41,7 @@ Consider making configuration options more discoverable to users by linking to s
 <figure-img label="Settings button with tooltip on hover" src="/img/settings-hover.svg"></figure-img>
 
 - Add a cross-link to the top right corner of a page, below the breadcrumbs. This placement sets the expectation that the settings apply only to that specific feature.
-- Use the icon-only [button](/components/button) if possible. Only use the [settings icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=settings) that, when hovered, shows a [tooltip](/components/tooltip) with the text `Configure in settings`.
+- It's recommended to use the icon-only [button](/components/button) with the [settings icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=settings) that, when hovered, shows a [tooltip](/components/tooltip) with the text `Configure in settings`.
 - Redirect a user to the specific configuration section in the dedicated settings area. For example, navigating via the Package Registry page will end up on the **Settings > Packages & Registries** section in settings.
 
 ## Behavior
