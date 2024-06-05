@@ -23,7 +23,7 @@ When considering how to construct a setting within the product, use these questi
 
 ### Inheritance
 
-A child namespace will typically inherit its values from its parent namespace. Inheriting values allows for rudimentary control over child namespaces and flexibility to deviate from default values. Depending on how a setting will be inherited, controlled, adjusted, restricted, or banned may require clarification in the UI.
+A child namespace will typically inherit its values from its parent namespace. Inheriting values allows for rudimentary control over child namespaces and flexibility to deviate from default values. It may be required to clarify the state in the UI depending on how a setting will be inherited, controlled, adjusted, restricted, or banned.
 
 #### Examples
 
