@@ -39,7 +39,7 @@ Complete the following items for each release:
   - [ ] Review all merges into Figma UI kit files for this milestone.
   - [ ] Ensure all merges have a description of the merge in the [version history](https://help.figma.com/hc/en-us/articles/360038006754-View-a-file-s-version-history).
 - [ ] Review and edit the release notes:
-  - Ensure all changes to the Figma UI kit are documented the release notes.
+  - Ensure all changes to the Figma UI kit are documented in the release notes.
   - Check updates to the release notes for accuracy. For example, ensuring all breaking changes are documented.
   - Ensure release note items share consistent formatting.
   - Consider combining related updates into a single item when the changes happen in the same release.
