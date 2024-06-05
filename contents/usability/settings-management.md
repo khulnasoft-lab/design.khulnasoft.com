@@ -60,7 +60,7 @@ To keep the experience of settings consistent, avoid using a combination of manu
 <figure-img label="Example of settings layout" src="/img/settings-1-column.png"></figure-img>
 
 - Settings should appear stacked in a single column.
-- Related settings can be grouped together into expandable sections. Use a title and a brief explanation of what users should expect when a section is expanded. Configuration of settings can happen directly within a section or can be deferred to a linked, secondary screen following the principles of [progressive disclosure](/usability/progressive-disclosure) to avoid overwhelming users and impacting the page performance.
+- Related settings should be grouped together into expandable sections. Use a title and a brief explanation of what users should expect when a section is expanded. Configuration of settings can happen directly within a section or can be deferred to a linked, secondary screen following the principles of [progressive disclosure](/usability/progressive-disclosure) to avoid overwhelming users and impacting the page performance.
 - Horizontal separators are placed between each section to give elements enough room to breathe.
 - When a settings page contains multiple sections, each section header remains sticky on scroll to provide context.
 - Setting form elements use the [form layout sizes](/patterns/forms#layout).
