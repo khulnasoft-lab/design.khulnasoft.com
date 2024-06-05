@@ -2,13 +2,25 @@
 name: Release notes
 ---
 
+## 17.2
+
+[_Draft: 17.2 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1846)
+
 ## 17.1
 
-[_Draft: 17.1 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3846)
+<!-- Update publish date-->
+<small>Published 2024-xx-xx</small>
+
+### Additions
+
+- Added [**Your work**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=118599-11728&t=IDKzXiM7w25vEb8L-1) component of ❖&nbsp;Navigation&nbsp;
+
+### Fixes
+
+- Fix [**❖&nbsp;Broadcast&nbsp;message**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=19944-369&t=94RKn28VOYyQ6egs-4) dismiss button visbility.
 
 ## 17.0
 
-<!-- Update publish date-->
 <small>Published 2024-05-14</small>
 
 ### Additions
