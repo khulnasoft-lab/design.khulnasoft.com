@@ -15,6 +15,10 @@ name: Release notes
 
 - Added [**Your work**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=118599-11728&t=IDKzXiM7w25vEb8L-1) component of ❖&nbsp;Navigation&nbsp;
 
+### Fixes
+
+- Fix [**❖&nbsp;Broadcast&nbsp;message**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=19944-369&t=94RKn28VOYyQ6egs-4) dismiss button visbility.
+
 ## 17.0
 
 <small>Published 2024-05-14</small>
@@ -29,11 +33,7 @@ name: Release notes
 
 ### Changes
 
-<<<<<<< HEAD
 - Added an additional property to the **❖&nbsp;Navigation** sub-component [**❖&nbsp;_Page**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=107958%3A2360&t=BJeCsFnYIyQZulYc-1) to support different hover interactions.
-=======
-- Added an additional property to the **❖&nbsp;Navigation** sub-component [**❖&nbsp;\_Page**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=107958%3A2360&t=BJeCsFnYIyQZulYc-1) to support different hover interactions.
->>>>>>> 87e2b8a5 (feat(ReleaseNotes): init 17.1 release notes)
 
 ### Fixes
 
