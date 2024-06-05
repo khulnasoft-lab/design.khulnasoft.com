@@ -51,7 +51,7 @@ Complete the following items for each release:
 
 **Publish release notes:**
 
-- [ ] Create a new issue and draft merge request for next milestone's release notes, assigning to a DRI for the release.
+- [ ] Create a [new issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/new?issuable_template=Pajamas%20UI%20Kit%20release%20notes) and draft merge request for next milestone's release notes, assigning to a DRI for the release.
 - [ ] Link to the new draft MR by adding the following to the top of this milestone's `uik-release-notes.md`.
 
   ```
