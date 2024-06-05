@@ -27,7 +27,7 @@ A child namespace will typically inherit its values from its parent namespace. I
 
 #### Examples
 
-- When a parent setting is overridable, making that clear in the parent setting's UI may necessitate adding informative text by stating, "Projects can choose to override this selection."
+- When a parent setting is overridable, making that clear in the parent setting's UI may necessitate adding informative text.
 - When a parent setting is enforced, making this clear in the child setting's UI may require changing the child setting state to disabled and adding a lock icon with a [popover](/components/popover) to explain the nature of the restriction:
 
 <figure-img label="Example of locked setting" src="/img/locked-setting-example.png"></figure-img>
