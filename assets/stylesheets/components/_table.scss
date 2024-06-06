@@ -7,8 +7,7 @@ table:not(.pika-table):not(.gl-table) {
   @extend .gl-mb-6;
 
   thead {
-    background-color: var(--gl-background-color-strong);
-    border-bottom: 2px solid var(--gl-border-color-default);
+    background-color: var(--gl-background-color-subtle);
 
     th {
       font-weight: $gl-font-weight-bold;
@@ -23,7 +22,7 @@ table:not(.pika-table):not(.gl-table) {
 
     &.header {
       font-weight: $gl-font-weight-bold;
-      background-color: var(--gl-background-color-strong);
+      background-color: var(--gl-background-color-subtle);
     }
   }
 }
