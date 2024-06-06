@@ -9,7 +9,7 @@
   z-index: $z-sidebar;
 
   @include media-sm-up {
-    border-right: 1px solid $gray-50;
+    border-right: 1px solid var(--gl-border-color-default);
     top: 0;
     width: $sidebar-width;
   }
@@ -52,7 +52,7 @@
 
   > ul > li + li {
     &::before {
-      border-top: 1px solid $gray-50;
+      border-top: 1px solid var(--gl-border-color-default);
       content: '';
       display: block;
       margin: $gl-spacing-3;
