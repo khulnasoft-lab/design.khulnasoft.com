@@ -14,7 +14,7 @@ name: Release notes
 ### Additions
 
 - Added [**❖&nbsp;Your work navigation**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=118599-11728&t=IDKzXiM7w25vEb8L-1).
-- Added the following illustrations: [**commit-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/commit-sm.svg), [**wiki-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/wiki-sm.svg), [**train-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/train-sm.svg) and [**empty-train-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-state/empty-train-md.svg).
+- Added the following illustrations: [**commit-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/commit-sm.svg), [**wiki-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/wiki-sm.svg), [**train-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/train-sm.svg), [**scan-alert-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/scan-alert-sm.svg) and [**empty-train-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-state/empty-train-md.svg).
 
 ### Fixes
 
