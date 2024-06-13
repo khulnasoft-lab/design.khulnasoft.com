@@ -20,9 +20,9 @@ name: Release notes
 
 - Change name of variable collection to Legacy. This collection intentionally left blank.
 - Change name of **❖&nbsp;Navigation** components to:
-    - ❖&nbsp;Project Navigation
-    - ❖&nbsp;Group Navigation
-    - ❖&nbsp;Admin Navigation
+  - ❖&nbsp;Project Navigation
+  - ❖&nbsp;Group Navigation
+  - ❖&nbsp;Admin Navigation
 
 ### Fixes
 
