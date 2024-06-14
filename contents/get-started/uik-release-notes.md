@@ -9,11 +9,7 @@ name: Release notes
 ## 17.1
 
 <!-- Update publish date-->
-<<<<<<< HEAD
 <small>Published 2024-06-18</small>
-=======
-<small>Published 2024-06-13</small>
->>>>>>> 1665d86a (chore: Apply suggestions)
 
 ### Additions
 
@@ -22,7 +18,6 @@ name: Release notes
 
 ### Changes
 
-<<<<<<< HEAD
 - Change name of variable collection to **Legacy**. This collection intentionally left blank. This collection cannot be deleted due to a bug in Figma.
 - Change name of **Navigation** components to:
   - **❖&nbsp;Project&nbsp;Navigation**
@@ -32,19 +27,6 @@ name: Release notes
 ### Fixes
 
 - Fix [**❖&nbsp;Broadcast&nbsp;message**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=19944-369&t=94RKn28VOYyQ6egs-4) dismiss button visbility.
-=======
-- Change name of variable collection to Legacy. This collection intentionally left blank.
-- Change name of **❖&nbsp;Navigation** components to:
-<<<<<<< HEAD
-  - ❖&nbsp;Project Navigation
-  - ❖&nbsp;Group Navigation
-  - ❖&nbsp;Admin Navigation
->>>>>>> d26e5fbc (fix(ReleaseNotes): Fix markdown lint)
-=======
-  - **❖&nbsp;Project&nbsp;Navigation**
-  - **❖&nbsp;Group&nbsp;Navigation**
-  - **❖&nbsp;Admin&nbsp;Navigation**
->>>>>>> 1665d86a (chore: Apply suggestions)
 
 ### Fixes
 
