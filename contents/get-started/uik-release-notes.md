@@ -17,6 +17,8 @@ name: Release notes
 
 ### Enhancements
 
+- Update [**❖&nbsp;Banner**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-4) to make illustrations easier to swap. Property names are now also more consistent with other components.
+
 ### Changes
 
 ### Fixes
