@@ -9,7 +9,7 @@ name: Release notes
 ## 17.1
 
 <!-- Update publish date-->
-<small>Published 2024-xx-xx</small>
+<small>Published 2024-06-13</small>
 
 ### Additions
 
@@ -20,9 +20,9 @@ name: Release notes
 
 - Change name of variable collection to Legacy. This collection intentionally left blank.
 - Change name of **❖&nbsp;Navigation** components to:
-  - ❖&nbsp;Project Navigation
-  - ❖&nbsp;Group Navigation
-  - ❖&nbsp;Admin Navigation
+  - **❖&nbsp;Project&nbsp;Navigation**
+  - **❖&nbsp;Group&nbsp;Navigation**
+  - **❖&nbsp;Admin&nbsp;Navigation**
 
 ### Fixes
 
