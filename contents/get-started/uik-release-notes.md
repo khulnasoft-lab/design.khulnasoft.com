@@ -2,13 +2,37 @@
 name: Release notes
 ---
 
+## 17.3
+
+[_Draft: 17.3 release notes_](ADDLINKHERE)
+
 ## 17.2
 
-[_Draft: 17.2 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3886)
+<!-- Update publish date-->
+<small>Published 2024-07-XX</small>
+
+### Additions
+
+- Add [**❖&nbsp;Profile&nbsp;navigation**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=119486-16353&t=r5eNZvmP0hqq3rhR-4).
+
+### Enhancements
+
+- Update [**❖&nbsp;Banner**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-4) to make illustrations easier to swap. Property names are now also more consistent with other components.
+
+### Changes
+
+### Fixes
+
+### Deprecations
+
+- Deprecated [**❖&nbsp;Label**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-127). New version of the component will have:
+  - a remove button
+  - single place to change color
+  - options for lighter labels and darker labels
+  - Follow [issue #1858](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1858) for updates
 
 ## 17.1
 
-<!-- Update publish date-->
 <small>Published 2024-06-13</small>
 
 ### Additions
