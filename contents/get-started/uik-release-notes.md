@@ -21,6 +21,12 @@ name: Release notes
 
 ### Deprecations
 
+- Deprecated [**❖&nbsp;Label**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-127). New version of the component will have:
+  - a remove button
+  - single place to change color
+  - options for lighter labels and darker labels
+  - Follow [issue #1858](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1858) for updates
+
 ## 17.1
 
 <small>Published 2024-06-18</small>
