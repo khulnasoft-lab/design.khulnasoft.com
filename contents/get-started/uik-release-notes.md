@@ -13,6 +13,8 @@ name: Release notes
 
 ### Additions
 
+- Add [**❖&nbsp;Profile&nbsp;navigation**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=119486-16353&t=r5eNZvmP0hqq3rhR-4).
+
 ### Enhancements
 
 ### Changes
