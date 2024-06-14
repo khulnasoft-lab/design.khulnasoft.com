@@ -9,7 +9,11 @@ name: Release notes
 ## 17.1
 
 <!-- Update publish date-->
+<<<<<<< HEAD
 <small>Published 2024-06-18</small>
+=======
+<small>Published 2024-06-13</small>
+>>>>>>> 1665d86a (chore: Apply suggestions)
 
 ### Additions
 
@@ -31,10 +35,16 @@ name: Release notes
 =======
 - Change name of variable collection to Legacy. This collection intentionally left blank.
 - Change name of **❖&nbsp;Navigation** components to:
+<<<<<<< HEAD
   - ❖&nbsp;Project Navigation
   - ❖&nbsp;Group Navigation
   - ❖&nbsp;Admin Navigation
 >>>>>>> d26e5fbc (fix(ReleaseNotes): Fix markdown lint)
+=======
+  - **❖&nbsp;Project&nbsp;Navigation**
+  - **❖&nbsp;Group&nbsp;Navigation**
+  - **❖&nbsp;Admin&nbsp;Navigation**
+>>>>>>> 1665d86a (chore: Apply suggestions)
 
 ### Fixes
 
