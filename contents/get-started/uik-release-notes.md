@@ -18,7 +18,7 @@ name: Release notes
 
 ### Changes
 
-- Change name of variable collection to Legacy. This collection intentionally left blank.
+- Change name of variable collection to **Legacy**. This collection intentionally left blank. This collection cannot be deleted due to a bug in Figma.
 - Change name of **Navigation** components to:
   - **❖&nbsp;Project&nbsp;Navigation**
   - **❖&nbsp;Group&nbsp;Navigation**
