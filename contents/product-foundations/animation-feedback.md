@@ -2,7 +2,7 @@
 name: Feedback animation
 ---
   
-Feedback animation is used to confirm a user interaction with a control or other interactive element.
+Feedback animation is used to confirm a user interaction with an interactive element.
 
 ## Examples
 
@@ -19,7 +19,7 @@ Feedback animation is used to confirm a user interaction with a control or other
 
 #### State change transitions
 
-Interactive elements typically have four states: rest, hover, focus, and active. The appearance of a component often changes between these states to support usability.
+Interactive elements typically have four states: rest, hover, focus, and active. A component's appearance often changes between states as a response to interaction.
 
 When the appearance changes, animate the transition between states using the following combinations.
 
@@ -36,7 +36,7 @@ When the appearance changes, animate the transition between states using the fol
 
 ##### List components
 
-Interactive components like select option lists, navigation, or tables, have many elements in close proximity. To prevent perceptions of slow performance, feedback should be fast.
+Components like navigation, tables, or those that contain a list of options have many interactive elements in close proximity. To prevent perceptions of slow performance, feedback should be fast.
 
 | State | Example | Duration | Easing |
 | --- | --- | --- | --- |
@@ -53,7 +53,7 @@ Keep animation predictable and consistent for elements in close proximity. Anima
 
 #### Loading feedback
 
-Set the button to the loading state following a user action, if the action occurs on the same page.
+Set the button to the loading state following a user action, if the result of the action occurs on the same page without a reload.
 
 <story-viewer component="base-button" title="Loading button" :args-loading="true"></story-viewer>
 

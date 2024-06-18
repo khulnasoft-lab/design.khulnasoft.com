@@ -6,7 +6,7 @@ Animation is a tool to help convey important relationships, changes, or transiti
 
 ## Types of animation
 
-1. **[Feedback](/product-foundations/animation-feedback)**: Confirm a user interaction with a control or other interactive element.
+1. **[Feedback](/product-foundations/animation-feedback)**: Confirm a user interaction with an interactive element.
 1. **Focus**: Highlight important content outside of a user's current context.
 1. **Explanation**: Show a user an element's properties, and its relationship to other elements.
 1. **Engagement**: Help a user feel supported while waiting.
