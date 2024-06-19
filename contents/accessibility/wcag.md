@@ -10,7 +10,7 @@ name: GitLab Accessibility Conformance Report WCAG Edition
 - **Contact information:** [ux@gitlab.com](mailto:ux@gitlab.com)
 - **Notes:**
   - This evaluation only refers to GitLab the product and does not include the [about.gitlab.com](https://about.gitlab.com/) or [docs.gitlab.com](https://docs.gitlab.com/ee/) websites.
-  - The latest revision evaluates **GitLab Enterprise Edition Premium version 17.0** and supersedes earlier versions of this report.
+  - The latest revision evaluates whether or not previous findings are still valid as of GitLab Enterprise Edition Premium version 17.0, but does not provide new evaluations. New success criteria from the VPAT 2.5 template have also been added. This revision supersedes earlier versions of this report.
   - **Table 3: Success Criteria, Level AAA** has been removed because the GitLab product has not been evaluated for WCAG 2.2 Level AAA conformance.
   - GitLab supports the current and previous major version along with current minor version of the following browsers: Mozilla Firefox, Google Chrome, Chromium, Apple Safari, Microsoft Edge.
   - GitLab does not support running with JavaScript disabled in the browser because several features require JavaScript extensively.
