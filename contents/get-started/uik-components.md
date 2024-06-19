@@ -68,15 +68,15 @@ Lastly, when you create a component variant in Figma it automatically adds a bor
 
 ### Base components
 
-We do not use **base** components in the UI kit. Previously they were the recommended approach for creating a foundation for component configuration and structure. Figma features like [multi-edit](https://help.figma.com/hc/en-us/articles/21635177948567-Edit-objects-on-the-canvas-in-bulk) make it easier to maintain larger compent matrixes. By no longer using base components we have the following benefits:
+We don't use **base** components in the UI kit. Previously, they were the recommended approach for creating a foundation for component configuration and structure. Figma features like [multi-edit](https://help.figma.com/hc/en-us/articles/21635177948567-Edit-objects-on-the-canvas-in-bulk) now make it easier to maintain larger component matrixes. By no longer using base components we gain the following benefits:
 
-- Reduce file bloat, and improve prototype performance.
+- Reduce file bloat and improve prototype performance.
 - Allow more isolated component updates, reducing the frequency and impact of breaking changes.
 - Improve override persistence for nested component instances.
 
-Base components often contained all possible component options, causing components to contain many hidden layers and properties. These hidden elements led to file bloat and prototype perfomance issues.
+Base components often contained all possible component options, which caused them to contain many hidden layers and properties. These hidden elements led to file bloat and prototype performance issues.
 
-A flatter component structure allows more direct component updates, minimising the number of variants that need to change.
+A flatter component structure allows more direct component updates, minimizing the number of variants that need to change.
 
 Components nested within other components preserve overrides less readily than components nested at the top level. Avoid base components to reduce issues with override persistence.
 
