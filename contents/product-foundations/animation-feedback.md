@@ -61,7 +61,7 @@ Set the button to the loading state following a user action, if the result of th
 
 ### Accessibility
 
-A component should change state instantly when `prefers-reduced-motion` is enabled unless it's essential for the workflow. Instantly changing state doesn't mean no anmation. It should be invisible for users, but visible for the browser. Because some JavaScript actions could use UI animation, so animation should last `0.01ms`.
+A component should change state instantly when `prefers-reduced-motion` is enabled unless it's essential for the workflow. Instantly changing state doesn't mean no animation. It should be invisible for users, but visible for the browser because some JavaScript actions rely on UI animation, so animation should last `0.01ms`.
 
 ```css
 @media (prefers-reduced-motion: reduce) {
