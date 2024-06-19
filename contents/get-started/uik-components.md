@@ -68,7 +68,7 @@ Lastly, when you create a component variant in Figma it automatically adds a bor
 
 ### Base components
 
-We don't use **base** components in the UI kit. Previously, they were the recommended approach for creating a foundation for component configuration and structure. Figma features like [multi-edit](https://help.figma.com/hc/en-us/articles/21635177948567-Edit-objects-on-the-canvas-in-bulk) now make it easier to maintain larger component matrixes. By no longer using base components we gain the following benefits:
+We don't use base components in the UI kit. Previously, they were the recommended approach for creating a foundation for component configuration and structure. Figma features like [multi-edit](https://help.figma.com/hc/en-us/articles/21635177948567-Edit-objects-on-the-canvas-in-bulk) now make it easier to maintain larger component matrixes. By no longer using base components we gain the following benefits:
 
 - Reduce file bloat and improve prototype performance.
 - Allow more isolated component updates, reducing the frequency and impact of breaking changes.
