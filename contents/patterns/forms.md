@@ -65,11 +65,11 @@ Forms may include a variety of elements. By default all information in forms is 
   - Positioned directly below a label.
   - Don't use "allow" unless you're specifically talking about security. For example, _Allows users to fork the repo_ should be _Users can fork the repo_.
 - **Help**:
-   - Provides examples, expected format, input state, validation messages, or any combination of these.
-   - Positioned directly below an input.
-   - You can omit examples or expected format if the user typically copies an already validated value to paste into the input. For example, the user copies and pastes their Google Cloud project ID, which was validated when their project was created in Google Cloud.
-   - May include a [help link](/usability/contextual-help) when necessary.
-   - For example: _Must be 11 digits including the country code. Example: `+1-234-567-8901`. Learn more._
+  - Provides examples, expected format, input state, validation messages, or any combination of these.
+  - Positioned directly below an input.
+  - You can omit examples or expected format if the user typically copies an already validated value to paste into the input. For example, the user copies and pastes their Google Cloud project ID, which was validated when their project was created in Google Cloud.
+  - May include a [help link](/usability/contextual-help) when necessary.
+  - For example: _Must be 11 digits including the country code. Example: `+1-234-567-8901`. Learn more._
 - **Placeholder**: Only used for extra, non-essential information when the input purpose is still understood in its absence; it's not a replacement for a visible label. An exception is the [search](/components/search) component, which includes a [search](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~search) icon to further clarify its purpose. For example, _Search or go to…_.
 
 #### Field
