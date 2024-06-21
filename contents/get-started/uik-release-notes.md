@@ -32,6 +32,9 @@ name: Release notes
   - single place to change color
   - options for lighter labels and darker labels
   - Follow [issue #1858](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1858) for updates
+- Deprecated [**❖&nbsp;Breadcrumb**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=425-5&t=DC92KFBAiBwU50Ng-1). New version of component will have properties for:
+  - number of page levels
+  - show ellipsis button for narrow viewports
 
 ## 17.1
 
