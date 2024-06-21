@@ -74,7 +74,7 @@ We don't use base components in the UI kit. Previously, they were the recommende
 - Allow more isolated component updates, reducing the frequency and impact of breaking changes.
 - Improve override persistence for nested component instances.
 
-Base components often contained all possible component options, which caused them to contain many hidden layers and properties. These hidden elements led to file bloat and prototype performance issues.
+Base components often contained all possible component options, which caused components built using them to contain many hidden layers and properties. These hidden elements led to file bloat and prototype performance issues.
 
 A flatter component structure allows more direct component updates, minimizing the number of variants that need to change.
 
