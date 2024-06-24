@@ -107,7 +107,7 @@ export default {
       'cookie-banner-callback': ['innerHTML'],
     },
     bodyAttrs: {
-      class: 'gl-bg-default',
+      class: 'gl-bg-default gl-text-default',
       tabindex: '-1',
     },
   },
@@ -141,11 +141,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [
-    '../assets/stylesheets/app.scss',
-    '@gitlab/ui/src/tokens/build/css/tokens.css',
-    '@gitlab/ui/src/tokens/build/css/tokens.dark.css',
-  ],
+  css: ['../assets/stylesheets/app.scss'],
 
   /*
    ** Plugins to load before mounting the App

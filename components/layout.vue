@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-  <div class="page gl-bg-default gl-text-default">
+  <div class="page">
     <a href="#skipTarget" class="skip-link">Skip to main content</a>
     <navbar />
     <sidebar />
