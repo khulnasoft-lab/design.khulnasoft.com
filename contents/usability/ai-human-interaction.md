@@ -26,7 +26,9 @@ To understand the risk of an AI-powered feature, assess the _probability_ of err
 
 In GitLab, an example of a _low risk_ situation is an AI-generated issue summary, which quickly gives context to the user about the issue. The potential cost is low, as the user usually does not take action based on the summary alone.
 
-A _high risk_ situation can be a code suggestion, where AI must have appropriate levels of accuracy, robustness, and cybersecurity. Code suggestions can directly affect various use cases, including high risk use cases like critical infrastructure, administration of justice, or democratic processes.
+An example of a _high risk_ situation is an AI-generated fix for a security vulnerability, which helps the user resolve it faster.
+To mitigate the risk and ensure the vulnerability is resolved, the user should be encouraged to review the suggested fix and run all security checks before they accept it.
+But if the fix unintentionally worsens the security, the cost might outweight the benefit. The potential cost increases in high-risk applications, such as critical infrastructure.
 
 To mitigate high risk situations:
 
