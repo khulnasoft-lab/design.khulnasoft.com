@@ -1,10 +1,14 @@
 ---
 name: Settings management
 related:
-  - accordion
+  - tooltip
+  - popover
+  - alert
+  - toast
   - /usability/navigation-sidebar
   - /content/ui-text
   - /usability/saving-and-feedback
+  - /usability/progressive-disclosure
 ---
 
 Settings allow users to control how the platform's features or capabilities should behave or appear. They are configurable options and attributes, which present choices to the user to modify baseline functionality.
