@@ -56,6 +56,7 @@ pre[class*="language-"],
   background-color: var(--gl-background-color-subtle) !important;
   border: 1px solid var(--gl-border-color-default);
   border-radius: $border-radius;
+  text-shadow: none !important;
 
   code {
     padding: 0;

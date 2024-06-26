@@ -63,17 +63,17 @@
 .sidebar__nav-anchor,
 .sidebar__nav-toggle {
   border-radius: $border-radius;
-  color: var(--gl-text-color-default);
+  color: var(--gl-action-neutral-text-color-default);
   display: block;
   padding: $gl-spacing-3 $gl-spacing-3 $gl-spacing-3 $gl-spacing-4;
 
   &:hover,
   &:focus {
-    background-color: var(--gl-background-color-strong);
+    background-color: var(--gl-action-neutral-background-color-hover);
   }
 
   &:active {
-    background-color: $gray-100;
+    background-color: var(--gl-action-neutral-background-color-active);
   }
 }
 
@@ -107,7 +107,7 @@
   width: 100%;
 
   svg {
-    fill: $gray-400;
+    fill: var(--gl-action-neutral-icon-color-default);
     flex-grow: 0;
     flex-shrink: 0;
     height: 16px;
@@ -147,7 +147,7 @@
 
   &.nuxt-link-active {
     position: relative;
-    background-color: var(--gl-background-color-strong);
+    background-color: var(--gl-action-neutral-background-color-active);
 
     &::before {
       content: '';
