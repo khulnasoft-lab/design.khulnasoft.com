@@ -49,9 +49,6 @@ export default {
           <div class="gl-py-6"></div>
         </template>
       </client-only>
-      <button class="gl-mt-3" onclick="document.documentElement.classList.toggle('gl-dark')">
-        Toggle Dark Mode
-      </button>
     </div>
     <div class="gl-flex-grow-1 gl-overflow-auto gl-py-3 gl-px-2">
       <nav class="sidebar__nav" aria-labelledby="nav-heading">
