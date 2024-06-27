@@ -13,7 +13,7 @@ Refer to the guidelines below when working with GitLab Sans:
 - Different sizes and weights can be used to establish layout hierarchy.
 - Keep the font size consistent within each block of copy.
 - Left-align all copy. Never force-justify, center-align, or right-align, unless the written language dictates otherwise.
-- Default to sentence, and refrain from using all-caps.
+- Default to sentence case, and refrain from using all-caps.
 - Keep text solid-filled, with the exception of motion graphics.
 - Headlines use GitLab Sans Bold with 105% leading and -45 tracking (-4.5% in Figma).
 - Subheaders and intro/outro paragraphs use GitLab Sans Regular with 110% leading, -20 tracking (-2% in Figma), and optical kerning.
