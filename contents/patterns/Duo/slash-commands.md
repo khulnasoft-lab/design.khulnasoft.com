@@ -17,7 +17,7 @@ Slash commands are solution agonsitic. Try to start slash commands with a verb t
 
 |Do| Don't|
 |---|---|
-|<figure-img alt="Solution agnositic slash command" label="Example of a desired slash command (fix)" src="/img/slash-command-agnostic.svg"></figure-img>||<figure-img alt="Solution specific slash command" label="Example of a slash command that's too specific (fix_pipeline)" src="/img/slash-command-specific.svg"></figure-img>|
+|<figure-img alt="Solution agnositic slash command" label="Example of a desired slash command (fix)" src="/img/slash-command-agnostic.svg"></figure-img>|<figure-img alt="Solution specific slash command" label="Example of a slash command that's too specific (fix_pipeline)" src="/img/slash-command-specific.svg"></figure-img>|
 |Use the same command for different use cases to keep the list small and learnable.|Don’t create a slash command for a specific feature.|
 
 When a command is more than one word, use an underscore to denote spaces.
@@ -46,11 +46,11 @@ Default slash commands to the current context. Slash commands should always work
 * The menu opens above the text input.
 * The menu filters as the user types in the input
 * A menu item can be selected by:
-    * Focusing the item and clicking or pressing Return to confirm
-    * Filtering the list to one item by typing and pressing Tab to confirm
+  * Focusing the item and clicking or pressing Return to confirm
+  * Filtering the list to one item by typing and pressing Tab to confirm
 * After selecting a menu item:
-    * If the command accepts arguments, it fills in the text input.
-    * If the command does not accept arugments, it is sent to Duo Chat.
+  * If the command accepts arguments, it fills in the text input.
+  * If the command does not accept arugments, it is sent to Duo Chat.
 
 ## Layout
 
