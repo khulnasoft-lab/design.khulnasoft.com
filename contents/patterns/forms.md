@@ -60,12 +60,12 @@ Forms may include a variety of elements. By default all information in forms is 
   - If a field is optional, add the suffix "(optional)". For example, _Phone number (optional)_
   - Don't use punctuation. Special characters are allowed for formatting (-:;).
 - **Description**:
-  - Clarifies and explains the purpose or intent of an input. For example, _Required for security purposes._
+  - Clarify and explain the purpose or intent of an input. For example, _Required for security purposes._
   - Avoid repetitive or unnecessary text. For example, _This setting is..._ or _Use this setting to..._
   - Positioned directly below a label.
   - Don't use "allow" unless you're specifically talking about security. For example, _Allows users to fork the repo_ should be _Users can fork the repo_.
 - **Help**:
-  - Provides examples, expected format, input state, validation messages, or any combination of these.
+  - Provide examples, expected format, input state, validation messages, or any combination of these.
   - Positioned directly below an input.
   - You can omit examples or expected format if the user typically copies an already validated value to paste into the input. For example, the user copies and pastes their Google Cloud project ID, which was validated when their project was created in Google Cloud.
   - May include a [help link](/usability/contextual-help) when necessary.
