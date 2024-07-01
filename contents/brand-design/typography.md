@@ -19,7 +19,7 @@ Refer to the guidelines below when working with GitLab Sans:
 - Subheaders and intro/outro paragraphs use GitLab Sans Regular with 110% leading, -20 tracking (-2% in Figma), and optical kerning.
 - Body copy uses GitLab Sans Regular with 135% leading, 0 tracking, and auto kerning.
 - Call-to-actions and buttons use GitLab Sans SemiBold.
-- Note: If Google Sans is not available (such as Google applications), use Inter instead. 
+- Note: If GitLab Sans is not available (such as Google applications), use Inter instead. 
 
 <figure-img alt="Typography samples" label="GitLab Sans typography samples" src="/img/brand/typography.svg"></figure-img>
 
