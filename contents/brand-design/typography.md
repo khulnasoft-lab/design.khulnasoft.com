@@ -35,7 +35,6 @@ Refer to the guidelines below when working with GitLab Mono:
 - With the exception of code blocks and/or product UI representations, GitLab Mono should not be used for large bodies of text.
 - GitLab Mono should not be used within a larger body of text set in GitLab Sans.
 
-
 ## Type repetitions
 
 Type repetitions are a stylistic expression of GitLab’s commitment to iteration. It is reserved for moments of emphasis and adding visual interest.
