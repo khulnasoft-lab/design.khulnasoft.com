@@ -49,7 +49,7 @@ related:
 - Only one tab can be active at a given time.
 - Tabs may be nested with a maximum nesting of two levels. This pattern should only be considered as a last resort due to the complexity it creates both in code and for the user experience.
 - Each tab at the parent level should have its own unique URL. When determining whether to implement unique URLs for child tabs, consider whether or not a user would want to bookmark or link to the tabbed content.
-- Tabs will wrap by default when they overflow the container. When adapting to the browser size or in cases when a large umber of items are needed, consider using scrollable tabs.
+- Tabs will wrap by default when they overflow the container. When adapting to the browser size or when a large number of items are needed, consider using scrollable tabs.
 
 ### Content
 
