@@ -12,4 +12,3 @@ Our brand principles extend to our voice and [communications](https://about.gitl
 | _Powerful, scalable, end-to-end automation is certain with GitLab._ | **Reliable**. We provide others with trustworthy and knowledgeable resources. We are helpful, confident, and consistent. |
 | _A community of big ideas for better DevSecOps._ | **Dynamic**. We are dedicated to positive change. We are iterative, clever, and curious. |
 | _GitLab. The DevSecOps Platform._ | **Clear**. We are concise and straight to the point. We are efficient, informative, and organized. |
-

@@ -2,7 +2,7 @@
 name: Brand extensions
 ---
 
-Brand extensions are governed by our brand guidelines, but take on additional creative elements that complement the core branding. Brand extensions help distinguish projects and initiatives that directly promote either the company or the product. 
+Brand extensions are governed by our brand guidelines, but take on additional creative elements that complement the core branding. Brand extensions help distinguish projects and initiatives that directly promote either the company or the product.
 
 ## Style guides
 

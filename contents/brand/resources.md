@@ -29,6 +29,7 @@ On this page you will find the most up-to-date brand assets. If you have questio
 - [Diagram library](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/_resources/_designer-resources/assets/diagrams) (Internal access only)
 
 ## Motion
+
 - [Branded green screens](https://drive.google.com/drive/folders/1Fv6_e_1dgSDE5N_KuMvtDM6gdNIUgRcT?usp=sharing) (Internal access only)
 - [Zoom backgrounds](https://about.gitlab.com/press/press-kit/#green-screens) (Press kit)
 

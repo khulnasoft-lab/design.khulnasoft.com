@@ -18,4 +18,3 @@ Our designs are inspired by four key principles that allow us to create a multit
 - **Reliable** - We maintain a consistent brand image that reinforces our trustworthiness and echoes the efficiency and productivity our product and company are known for.
 - **Dynamic** - We are risk-takers that have paved the way with a comprehensive DevSecOps Platform. We create modern and innovative designs where multiple pieces work together to tell a meaningful story.
 - **Clear** - We streamline the complex and show intricate concepts in a minimal way. We aim for simplified designs and messaging that are confident, clean, and informative, keeping many audiences in mind.
-
