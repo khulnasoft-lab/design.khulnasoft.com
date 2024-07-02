@@ -4,7 +4,21 @@
     "items": [
       {
         "title": "Overview",
-        "path": "brand/overview"
+        "path": "brand/overview",
+        "items": [
+          {
+            "title": "Brand voice",
+            "path": "brand-voice"
+          },
+          {
+            "title": "Brand extensions",
+            "path": "brand-extensions"
+          },
+          {
+            "title": "Resources",
+            "path": "resources"
+          }
+        ]
       },
       {
         "title": "Logo",
