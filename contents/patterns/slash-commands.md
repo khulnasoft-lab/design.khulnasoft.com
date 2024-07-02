@@ -15,24 +15,24 @@ Be thoughtful when adding slash commands, as each additional command increases t
 
 Slash commands are solution agonsitic. Try to start slash commands with a verb that can apply to multiple contexts. Before adding an additional slash command, check if the action you want to add could be incorporated in the existing slash commands.
 
-|Do| Don't|
-|---|---|
-|<figure-img alt="Solution agnositic slash command" label="Example of a desired slash command (fix)" src="/img/slash-command-agnostic.svg"></figure-img>|<figure-img alt="Solution specific slash command" label="Example of a slash command that's too specific (fix_pipeline)" src="/img/slash-command-specific.svg"></figure-img>|
-|Use the same command for different use cases to keep the list small and learnable.|Don’t create a slash command for a specific feature.|
+| Do                                                                                                                                                      | Don't                                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <figure-img alt="Solution agnositic slash command" label="Example of a desired slash command (fix)" src="/img/slash-command-agnostic.svg"></figure-img> | <figure-img alt="Solution specific slash command" label="Example of a slash command that's too specific (fix_pipeline)" src="/img/slash-command-specific.svg"></figure-img> |
+| Use the same command for different use cases to keep the list small and learnable.                                                                      | Don’t create a slash command for a specific feature.                                                                                                                        |
 
 When a command is more than one word, use an underscore to denote spaces.
 
-* **Example** /new_conversation
+- **Example** /new_conversation
 
 ### Arguments
 
 Some commands accept optional arguments, or additional information such as a link, reference, or free text.
 
-* **Example** /summarize#14023in 5 bullet points
+- **Example** /summarize #14023 in 5 bullet points
 
 Other commands do not accept arguments.
 
-* **Example** /new_conversation
+- **Example** /new_conversation
 
 When a slash command accepts arguments to [GitLab-specific references](https://docs.gitlab.com/ee/user/markdown.html#gitlab-specific-references), show a menu to help the user select the correct item.
 
@@ -42,15 +42,15 @@ Default slash commands to the current context. Slash commands should always work
 
 ## Behavior
 
-* The slash command menu is opened by typing / in the Duo Chat text input.
-* The menu opens above the text input.
-* The menu filters as the user types in the input
-* A menu item can be selected by:
-  * Focusing the item and clicking or pressing Return to confirm
-  * Filtering the list to one item by typing and pressing Tab to confirm
-* After selecting a menu item:
-  * If the command accepts arguments, it fills in the text input.
-  * If the command does not accept arugments, it is sent to Duo Chat.
+- The slash command menu is opened by typing / in the Duo Chat text input.
+- The menu opens above the text input.
+- The menu filters as the user types in the input
+- A menu item can be selected by:
+  - Focusing the item and clicking or pressing Return to confirm
+  - Filtering the list to one item by typing and pressing Tab to confirm
+- After selecting a menu item:
+  - If the command accepts arguments, it fills in the text input.
+  - If the command does not accept arugments, it is sent to Duo Chat.
 
 ## Layout
 
