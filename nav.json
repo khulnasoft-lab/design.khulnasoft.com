@@ -3,17 +3,21 @@
     "title": "Brand",
     "items": [
       {
-        "title": "Overview",
-        "path": "brand/overview",
+        "title": "Brand overview",
+        "path": "brand-overview",
         "items": [
+          {
+            "title": "Introduction",
+            "path": "introduction"
+          },
           {
             "title": "Brand voice",
             "path": "brand-voice"
           },
           {
-            "title": "Brand extensions",
-            "path": "brand-extensions"
-          },
+            "title": "Branded extensions",
+            "path": "branded-extensions"
+          }
           {
             "title": "Resources",
             "path": "resources"
