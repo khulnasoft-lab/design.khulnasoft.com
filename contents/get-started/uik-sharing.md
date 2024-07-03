@@ -4,7 +4,7 @@ name: Sharing files and prototypes
 
 File sharing is public by default, however, a Figma-generated password will be needed to access a file. Additionally, public links will expire after 14 days, but that time can be shortened if necessary.
 
-To publicly share a file or prototype: 
+To publicly share a file or prototype:
 
 1. Open the file you want to share in Figma.
 1. Click the "Share" button in the top-right corner of the interface.
