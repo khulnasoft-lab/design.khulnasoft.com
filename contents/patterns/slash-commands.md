@@ -5,7 +5,7 @@ description: Principles of slash commands in Duo Chat
 
 ## Overview
 
-Slash commands provide a way for users to efficiently communicate their intent to Duo Chat. They also allow the user to discover the functionality that Duo Chat offers. Slash commands are prefixed with a "/" and followed by a specific keyword from a pre-defined list.
+Slash commands provide a way for users to efficiently communicate their intent to Duo Chat. They also allow the user to discover the functionality that Duo Chat offers. Slash commands are prefixed with a "/" and followed by a specific keyword from a predefined list.
 
 ## Commands available
 
@@ -46,8 +46,8 @@ Default slash commands to the current context. Slash commands should always work
 - The menu opens above the text input.
 - The menu filters as the user types in the input
 - A menu item can be selected by:
-  - Focusing the item and clicking or pressing Return to confirm
-  - Filtering the list to one item by typing and pressing Tab to confirm
+  - Focusing the item and clicking or pressing <kbd>return</kbd> to confirm
+  - Filtering the list to one item by typing and pressing <kbd>tab</kbd> to confirm
 - After selecting a menu item:
   - If the command accepts arguments, it fills in the text input.
   - If the command does not accept arugments, it is sent to Duo Chat.
