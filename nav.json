@@ -413,6 +413,15 @@
         "path": "patterns",
         "items": [
           {
+            "title": "GitLab Duo",
+            "items": [
+              {
+                "title": "Slash commands",
+                "path": "slash-commands"
+              }
+            ]
+          },
+          {
             "title": "Dashboards",
             "path": "dashboards"
           },
