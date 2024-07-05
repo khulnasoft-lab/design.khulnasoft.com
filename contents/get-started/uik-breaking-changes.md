@@ -28,6 +28,7 @@ For a style:
 
 - In a new branch, move the style to the **⚠️ DEPRECATED** section at the bottom of the style list.
 - Maintain the style name and structure. For example, 'UI/Display/md' → '⚠️ DEPRECATED/UI/Display/md'.
+- Append '(⚠️ DEPRECATED)' to the style name. For example '⚠️ DEPRECATED/UI/Display/(⚠️ DEPRECATED) md'.
 - In the style editor, add '⚠️ DEPRECATED' to the description field.
 
 ## Helpful tips
