@@ -1,15 +1,24 @@
 ---
-name: Slash commands in Duo Chat
-description: Principles of slash commands in Duo Chat
+name: Slash commands in GitLab Duo Chat
+description: Principles of slash commands in GitLab Duo Chat
 ---
 
 ## Overview
 
 Slash commands provide a way for users to efficiently communicate their intent to Duo Chat. They also allow the user to discover the functionality that Duo Chat offers. Slash commands are prefixed with a "/" and followed by a specific keyword from a predefined list.
 
-## Commands available
+## Adding slash commands
 
-Be thoughtful when adding slash commands, as each additional command increases the memory burden on the user. Slash commands should be available for frequently repeated actions. Only show commands that are relevant to the user's current context. Aim to to have all commands shown on the menu without the user needing to scroll or type ahead.
+Be deliberate when adding slash commands. The list of available commands should be curated to highlight the most valuable interactions. Aim to display all commands in the menu without requiring users to scroll or type ahead.
+
+To avoid unnecessary commands, assess the following questions before implementing a new slash command:
+
+- Does the proposed slash command represent a frequently repeated action?
+  - What evidence supports this?
+- What benefit does the proposed command provide to users?
+- What alternative solutions have you explored?
+
+[UX research](https://gitlab.com/gitlab-org/ux-research/-/issues/3098) is ongoing to better understand user needs for slash commands.
 
 ## Naming convention and syntax
 
