@@ -65,7 +65,7 @@ The slash command menu displays the command keyword, optional argument formats, 
 
 Slash commands are currently under development. The following describes the intended future behavior, which teams should consider when adding new slash commands to Duo Chat.
 
-### Slash commands apply to current context ([&14386](https://gitlab.com/groups/gitlab-org/-/epics/14386))
+### Slash commands apply to current context ([&14387](https://gitlab.com/groups/gitlab-org/-/epics/14387))
 
 By default, slash commands should apply to the page the user currently has open, unless specified otherwise by additional arguments. Slash commands should always work without arguments. Avoid requiring the user to input additional information, as it increases mental load to learn syntax and potential to make mistakes.
 
