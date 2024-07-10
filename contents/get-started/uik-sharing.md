@@ -2,7 +2,11 @@
 name: Sharing files and prototypes
 ---
 
-File sharing is public by default, however, a Figma-generated password will be needed to access a file. Additionally, public links will expire after 14 days, but that time can be shortened if necessary.
+Figma contains [orange data](https://handbook.gitlab.com/handbook/security/data-classification-standard/#orange) and files are generally not publicly available by default.
+
+Files and prototypes are allowed to be shared externally when accessed with a password. Public links will expire after 14 days by default.
+
+When sharing files publicly some unSAFE information might be accessible through the version history, comments, or branches. If in doubt, move content to a new file before sharing.
 
 To publicly share a file or prototype:
 
