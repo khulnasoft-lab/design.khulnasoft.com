@@ -61,15 +61,11 @@ The slash command menu displays the command keyword, optional argument formats, 
   - If the command accepts arguments, it fills in the text input.
   - If the command does not accept arguments, it is sent to Duo Chat.
 
-## Future behavior
-
-Slash commands are currently under development. The following describes the intended future behavior, which teams should consider when adding new slash commands to Duo Chat.
-
-### Slash commands apply to current context ([&14387](https://gitlab.com/groups/gitlab-org/-/epics/14387))
+### Slash commands apply to current context
 
 By default, slash commands should apply to the page the user currently has open, unless specified otherwise by additional arguments. Slash commands should always work without arguments. Avoid requiring the user to input additional information, as it increases mental load to learn syntax and potential to make mistakes.
 
-### Slash command menu depends on current context ([#470704](https://gitlab.com/gitlab-org/gitlab/-/issues/470704))
+### Slash command menu depends on current context
 
 Any slash command can be used on any page, with the appropriate arguments. However, the menu of slash commands presented in the UI should only show commands applicable to the page the user is currently viewing. Do not present slash commands in the menu that would not work on the current page.
 
@@ -77,9 +73,3 @@ Any slash command can be used on any page, with the appropriate arguments. Howev
 | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | <figure-img alt="Slash command menu is conditional to the current page" src="/img/slash-commands-conditional.svg"></figure-img> | <figure-img alt="Slash command menu is not conditional to the current page" src="/img/slash-commands-not-conditional.svg"></figure-img> |
 | Show slash commands in the menu specific to the page the user is currently viewing.                                             | Don’t display slash commands in the menu that would not work on the page the user is currently viewing.                                 |
-
-### GitLab-specific references as arguments ([#470705](https://gitlab.com/gitlab-org/gitlab/-/issues/470705))
-
-When a slash command accepts arguments to [GitLab-specific references](https://docs.gitlab.com/ee/user/markdown.html#gitlab-specific-references), show a menu to help the user select the correct item.
-
-<figure-img alt="Example of a menu to filter issues" label="Example of a menu to filter issues" src="/img/issue-filter.svg"></figure-img>
