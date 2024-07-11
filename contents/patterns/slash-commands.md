@@ -1,13 +1,12 @@
 ---
 name: Slash commands in GitLab Duo Chat
-description: Principles of slash commands in GitLab Duo Chat
 related:
-- /usability/ai-human-interaction
+  - /usability/ai-human-interaction
 ---
 
 ## Overview
 
-Slash commands provide a way for the user to efficiently communicate their intent to Duo Chat. They also allow the user to discover the functionality that Duo Chat offers. Slash commands are prefixed with `/` and followed by a specific keyword from a predefined list.
+Slash commands provide a way for the user to efficiently communicate their intent to GitLab Duo Chat. They also allow the user to discover the functionality that GitLab Duo Chat offers. Slash commands are prefixed with `/` and followed by a specific keyword from a predefined list.
 
 ## Add slash commands
 
@@ -20,17 +19,19 @@ To avoid unnecessary commands, assess these questions before you implement a new
 - What benefit does the proposed command provide to the user?
 - What alternative solutions have you explored?
 
+Before you add an additional slash command, check if the action you want to add could be incorporated in the [existing slash commands](https://docs.google.com/spreadsheets/d/1qhNF16eMJBjkCwWOkUg2k-aSuPqH-khjgHrKFSwksJE/edit?usp=sharing). Inform the [Duo Chat group](https://handbook.gitlab.com/handbook/product/categories/#duo-chat-group) when adding a new slash command.
+
 [UX research](https://gitlab.com/gitlab-org/ux-research/-/issues/3098) is ongoing to better understand user needs for slash commands.
 
 ## Naming convention and syntax
 
-Slash commands are solution agonsitic. Try to start slash commands with a verb that can apply to multiple contexts. Before adding an additional slash command, check if the action you want to add could be incorporated in the existing slash commands.
+Slash commands should not be tied to specific features. Try to start slash commands with a verb that can apply to multiple contexts.
 
 - Use the same command for different use cases to keep the list small and learnable, instead of a command for a specific feature.
-   - **Do**: `/troubleshoot <URL>` Suggest a fix to a vulnerability, code, or pipeline
-   - **Don't**: `/troubleshoot_pipeline <URL>` Suggest a fix for a failing pipeline
+  - **Do**: `/troubleshoot <URL>` Suggest a fix to a vulnerability, code, or pipeline.
+  - **Don't**: `/troubleshoot_pipeline <URL>` Suggest a fix for a failing pipeline.
 - When a command is more than one word, use an underscore to denote spaces. For example, `/new_conversation`.
-- Some commands accept optional arguments, or additional information such as a link, reference, or free text. For example, to summarize an issue in a specific way, `/summarize #14023 in 5 bullet points`.
+- Some commands accept optional arguments, or additional information such as a link, reference, or free text. Slash commands are be formatted in this manner: `/<action verb>` `<optional reference>` `<optional instructions>`. For example, `/summarize #14023 in 5 bullet points`.
 
 ## Menu layout
 
@@ -43,12 +44,11 @@ The slash command menu displays the command keyword, optional argument formats, 
 - The slash command menu opens by typing `/` in the Duo Chat text input.
 - The menu opens above the text input.
 - The menu filters as the user types in the input.
-- A menu item can be selected by:
-  - Focusing the item and clicking or pressing <kbd>return</kbd> to confirm
-  - Filtering the list to one item by typing and pressing <kbd>tab</kbd> to confirm
+- To select a menu item with the keyboard, the user can press <kbd>return</kbd> when the item is focused.
+- The menu can be filtered by typing. When the menu is filtered to one item, the user can press <kbd>tab</kbd> to select the item.
 - After a menu item is selected:
   - If the command accepts arguments, it fills in the text input.
-  - If the command does not accept arguments, it is sent to Duo Chat.
+  - If the command does not accept arguments, it is sent to GitLab Duo Chat.
 
 ### Slash commands apply to current context
 
