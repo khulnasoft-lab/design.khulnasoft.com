@@ -13,6 +13,8 @@ name: Release notes
 
 ### Additions
 
+- Added [**❖&nbsp;Avatar**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=120518-1434&m=design). Component now includes multiple people, logo, and fallback options to chose from.
+- Added [**❖&nbsp;Avatar-labeled**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=120518-1489&t=gt0xr6Kwr1Zg3tWb-4). The new avatar, but now with included labels. Choose a stacked or inline label, with or without a sublabel, change the size or shape… the possibilities are (almost) endless.
 - Added [**❖&nbsp;Profile&nbsp;navigation**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=119486-16353&t=r5eNZvmP0hqq3rhR-4).
 - Added [**❖&nbsp;User&nbsp;settings&nbsp;navigation**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=120077-12557&t=g77WTJQQTCbubeMt-1).
 - Added the following icons: [**insert**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~insert).
@@ -42,6 +44,7 @@ name: Release notes
 - Deprecated [**❖&nbsp;Breadcrumb**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=425-5&t=DC92KFBAiBwU50Ng-1). New version of component will have properties for:
   - number of page levels
   - show ellipsis button for narrow viewports
+- Deprecated **❖&nbsp;Avatar**. Use the new [**❖&nbsp;Avatar**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=120518-1434&t=gt0xr6Kwr1Zg3tWb-4) and [**❖&nbsp;Avatar-labeled**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=120518-1489&t=gt0xr6Kwr1Zg3tWb-4) instead.
 
 ## 17.1
 
