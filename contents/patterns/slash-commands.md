@@ -18,8 +18,9 @@ To avoid unnecessary commands, assess these questions before you implement a new
   - What evidence supports this?
 - What benefit does the proposed command provide to the user?
 - What alternative solutions have you explored?
+- Can the action be incorporated into the [existing slash commands](https://docs.google.com/spreadsheets/d/1qhNF16eMJBjkCwWOkUg2k-aSuPqH-khjgHrKFSwksJE/edit?usp=sharing)?
 
-Before you add an additional slash command, check if the action you want to add could be incorporated in the [existing slash commands](https://docs.google.com/spreadsheets/d/1qhNF16eMJBjkCwWOkUg2k-aSuPqH-khjgHrKFSwksJE/edit?usp=sharing). Inform the [Duo Chat group](https://handbook.gitlab.com/handbook/product/categories/#duo-chat-group) when adding a new slash command.
+When you plan to add a slash command, inform the [Duo Chat group](https://handbook.gitlab.com/handbook/product/categories/#duo-chat-group) so they can help you answer these questions and the implementation.
 
 [UX research](https://gitlab.com/gitlab-org/ux-research/-/issues/3098) is ongoing to better understand user needs for slash commands.
 
@@ -31,7 +32,7 @@ Slash commands should not be tied to specific features. Try to start slash comma
   - **Do**: `/troubleshoot <URL>` Suggest a fix to a vulnerability, code, or pipeline.
   - **Don't**: `/troubleshoot_pipeline <URL>` Suggest a fix for a failing pipeline.
 - When a command is more than one word, use an underscore to denote spaces. For example, `/new_conversation`.
-- Some commands accept optional arguments, or additional information such as a link, reference, or free text. Slash commands are be formatted in this manner: `/<action verb>` `<optional reference>` `<optional instructions>`. For example, `/summarize #14023 in 5 bullet points`.
+- Some commands accept optional arguments, or additional information such as a link, reference, or free text. The syntax of the commands follows this structure: `/<action verb> <optional reference> <optional instructions>`. For example, `/summarize #14023 in 5 bullet points`.
 
 ## Menu layout
 
@@ -50,15 +51,15 @@ The slash command menu displays the command keyword, optional argument formats, 
   - If the command accepts arguments, it fills in the text input.
   - If the command does not accept arguments, it is sent to GitLab Duo Chat.
 
-### Slash commands apply to current context
+### Commands apply to current context
 
 By default, slash commands should apply to the page the user currently has open, unless specified otherwise by additional arguments. Slash commands should always work without arguments. Avoid requiring the user to input additional information, as it increases mental load to learn syntax and potential to make mistakes.
 
-### Slash command menu depends on current context
+### Menu depends on current context
 
 Any slash command can be used on any page, with the appropriate arguments. However, the menu of slash commands presented in the UI should only show commands applicable to the page the user is currently viewing. Do not present slash commands in the menu that would not work on the current page.
 
 | Do                                                                                                                              | Don't                                                                                                                                   |
 | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| <figure-img alt="Slash command menu is conditional to the current page" src="/img/slash-commands-conditional.svg"></figure-img> | <figure-img alt="Slash command menu is not conditional to the current page" src="/img/slash-commands-not-conditional.svg"></figure-img> |
-| Show slash commands in the menu specific to the page the user is currently viewing.                                             | Don’t display slash commands in the menu that would not work on the page the user is currently viewing.                                 |
+| <figure-img alt="Menu of slash commands for an issue or epic page, with just the summarize command." src="/img/slash-commands-conditional.svg"></figure-img> | <figure-img alt="Menu with various slash commands that don't belong to the same context. Includes commands to summarize an issue, troubleshoot a pipeline, improve code, or explain a vulnerability." src="/img/slash-commands-not-conditional.svg"></figure-img> |
+| For example, in an issue or epic page, only show slash commands specific to that context, like `/summarize`. | With the same example, don't show slash commands that are not usable in an issue or epic, like `/troubleshoot` that suggests a fix to a pipeline, code, or vulnerability. |
