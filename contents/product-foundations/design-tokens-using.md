@@ -6,10 +6,10 @@ name: Using design tokens
 
 Using design tokens as Figma variables is moving to open-beta following a successful invite-only pilot.
 
-It is easy to opt in to the beta.
+It's easy to opt in to the beta.
 
 1. Add [Beta:&nbsp;Design&nbsp;tokens&nbsp;library](https://www.figma.com/design/tiAetVi1j5MGP8WA5FswcD/Beta%3A-Design-tokens?node-id=2194-34&t=S8Qzj2r4h5sg8dIK-0) to your files. ([How do I add a library to my file?](https://help.figma.com/hc/en-us/articles/1500008731201-Enable-or-disable-a-library-in-a-design-file))
-1. Use colours as Figma variables instead of styles from **📙&nbsp;Component&nbsp;library**. ([How do I apply a Figma variable?](https://help.figma.com/hc/en-us/articles/15343107263511-Apply-variables-to-designs))
+1. Use colors as Figma variables instead of styles from **📙&nbsp;Component&nbsp;library**. ([How do I apply a Figma variable?](https://help.figma.com/hc/en-us/articles/15343107263511-Apply-variables-to-designs))
 1. Let us know how you get on in the [feedback issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1870). No problem too big, no feedback too small.
 
 In the future styles will be removed from the component library, and these Figma variables will be updated to support dark mode.
