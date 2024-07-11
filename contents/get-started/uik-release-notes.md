@@ -31,6 +31,7 @@ name: Release notes
   - Renamed "gray" color ramp styles to "neutral", "white" to "neutral-0", and "black" to "neutral-1000" to align with design token work
   - Updated hex values for neutral 700–1000 (see [#2751](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/2751) for details)
   - Other miscellaneous auto layout and layer naming improvements
+- Updated **❖&nbsp;Avatar**, **❖&nbsp;Avatar-labeled**, **❖&nbsp;Banner**, and **❖&nbsp;Focus&nbsp;ring** to use design tokens.
 
 ### Fixes
 
