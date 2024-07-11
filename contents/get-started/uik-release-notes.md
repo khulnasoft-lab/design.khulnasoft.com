@@ -2,14 +2,50 @@
 name: Release notes
 ---
 
+## 17.3
+
+[_Draft: 17.3 release notes_](ADDLINKHERE)
+
 ## 17.2
 
-[_Draft: 17.2 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3886)
+<!-- Update publish date-->
+<small>Published 2024-07-XX</small>
+
+### Additions
+
+- Added [**❖&nbsp;Profile&nbsp;navigation**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=119486-16353&t=r5eNZvmP0hqq3rhR-4).
+- Added [**❖&nbsp;User&nbsp;settings&nbsp;navigation**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=120077-12557&t=g77WTJQQTCbubeMt-1).
+- Added the following icons: [**insert**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~insert).
+- Added the following illustrations: [**empty-variables-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-state/empty-variables-md.svg), [**variables-sm.svg**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/variables-sm.svg).
+
+### Enhancements
+
+- Updated [**❖&nbsp;Banner**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-4) to make illustrations easier to swap. Property names are now also more consistent with other components.
+
+### Changes
+
+- Updated [**Color**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=581-1&t=kEI3wvJ1158SVYZV-1) foundation:
+  - Removed contrast ratios from color chips since they are present in [Pajamas](https://design.gitlab.com/product-foundations/color) and plugins or native apps can also inspect ratios.
+  - Renamed "gray" color ramp styles to "neutral", "white" to "neutral-0", and "black" to "neutral-1000" to align with design token work
+  - Updated hex values for neutral 700–1000 (see [#2751](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/2751) for details)
+  - Other miscellaneous auto layout and layer naming improvements
+
+### Fixes
+
+### Deprecations
+
+- Deprecated [**❖&nbsp;Label**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-127). New version of the component will have:
+  - a remove button
+  - single place to change color
+  - options for lighter labels and darker labels
+  - Follow [issue #1858](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1858) for updates
+- Deprecated [**❖&nbsp;Breadcrumb**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=425-5&t=DC92KFBAiBwU50Ng-1). New version of component will have properties for:
+  - number of page levels
+  - show ellipsis button for narrow viewports
 
 ## 17.1
 
-<!-- Update publish date-->
-<small>Published 2024-06-18</small>
+<small>Published 2024-06-13</small>
 
 ### Additions
 
