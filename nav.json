@@ -253,6 +253,10 @@
             "path": "button"
           },
           {
+            "title": "Button group",
+            "path": "button-group"
+          },
+          {
             "title": "Card",
             "path": "card"
           },
@@ -357,10 +361,6 @@
           {
             "title": "Progress bar",
             "path": "progress-bar"
-          },
-          {
-            "title": "Segmented control",
-            "path": "segmented-control"
           },
           {
             "title": "Skeleton loader",
