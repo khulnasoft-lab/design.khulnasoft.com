@@ -4,12 +4,11 @@ name: Release notes
 
 ## 17.3
 
-[_Draft: 17.3 release notes_](ADDLINKHERE)
+[_Draft: 17.3 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3939)
 
 ## 17.2
 
-<!-- Update publish date-->
-<small>Published 2024-07-XX</small>
+<small>Published 2024-07-12</small>
 
 <note>Speed up common color decisions through our design tokens Figma library, now in open beta. Start using it today, and let us know what you think in the [feedback issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1870).</note>
 
