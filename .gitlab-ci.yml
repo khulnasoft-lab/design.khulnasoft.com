@@ -181,6 +181,7 @@ pages:
   variables:
     CACHE_POLICY: pull-push
   script:
+    - echo "$GITLAB_FEATURES"
     - apk add --no-cache gzip brotli
     - bash ./scripts/build.sh
     - ls -a public
