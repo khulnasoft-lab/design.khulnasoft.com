@@ -37,7 +37,8 @@ name: Release notes
   - Other miscellaneous auto layout and layer naming improvements
 - Breaking (low): Remove hidden title layer from the `Has title:false` **❖ Alert** variant.
 - Updated **❖&nbsp;Alert**, **❖&nbsp;Avatar**, **❖&nbsp;Avatar-labeled**, **❖&nbsp;Banner**, **❖&nbsp;Label**, and **❖&nbsp;Focus&nbsp;ring** to use design tokens.
-- Note: As **❖&nbsp;Focus&nbsp;ring** and neutral colors are used in nearly every component, nearly every component was 'modified' in this release.
+- Updated **GitLab&nbsp;Product&nbsp;Icons** icons to not use styles from **📙&nbsp;Component&nbsp;Library**
+- Note: As **❖&nbsp;Focus&nbsp;ring**, icons, and neutral colors are used in nearly every component, nearly every component was 'modified' in this release.
 
 ### Deprecations
 
