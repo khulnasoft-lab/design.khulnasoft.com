@@ -11,6 +11,8 @@ name: Release notes
 <!-- Update publish date-->
 <small>Published 2024-07-XX</small>
 
+<note>Speed up common color decisions through our design tokens Figma library, now in open beta. Start using it today, and let us know what you think in the [feedback issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1870).</note>
+
 ### Additions
 
 - Added [**❖&nbsp;Avatar**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=120518-1434&m=design). Component now includes multiple people, logo, and fallback options to chose from.
@@ -18,6 +20,7 @@ name: Release notes
 - Added [**❖&nbsp;Label**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=120776-3617&t=gt0xr6Kwr1Zg3tWb-4) this new version of the component includes many long awaited features including: a remove button, a single place to change color, a single size, and options for lighter labels and darker labels. Happy labelling.
 - Added [**❖&nbsp;Profile&nbsp;navigation**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=119486-16353&t=r5eNZvmP0hqq3rhR-4).
 - Added [**❖&nbsp;User&nbsp;settings&nbsp;navigation**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=120077-12557&t=g77WTJQQTCbubeMt-1).
+- Added opt in [Beta: Design tokens](https://www.figma.com/design/tiAetVi1j5MGP8WA5FswcD/Beta%3A-Design-tokens?m=auto) library file. Using design tokens as Figma variables is moving to open-beta following a successful invite-only pilot. In the future, color styles will be removed from the component library and these Figma variables will be updated to support dark mode.
 - Added the following icons: [**insert**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~insert).
 - Added the following illustrations: [**empty-variables-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-state/empty-variables-md.svg), [**variables-sm.svg**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/variables-sm.svg).
 
