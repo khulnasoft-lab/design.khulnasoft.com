@@ -89,9 +89,9 @@ related:
 
 ### Placement
 
-- **Global**: Impacts the entire experience, always full-width, placed directly below the breadcrumb bar.
+- **Global**: Impacts the entire experience, is always full-width, and is placed directly below the breadcrumb bar.
   <figure-img alt="Global alert position" label="Full-width danger alert" src="/img/alert-global.svg" width="332"></figure-img>
-- **Page-level**: Appears near the top of a page, directly above a header section, and restricted to the content container width which can be either fixed or fluid, depending on user’s preference.
+- **Page-level**: Appears near the top of a page, directly above a header section, and is restricted to the content container width, which can be either fixed or fluid, depending on a user’s preference.
   <figure-img alt="Page-level alert position" label="Page-level danger alert in the main content area with space above and below" src="/img/alert-page-level.svg" width="332"></figure-img>
 - **In-page**: Within a section of the page when the message is specific to that content.
   <figure-img alt="In-page alert position" label="In-page danger alert contextually placed with space above and below" src="/img/alert-in-page.svg" width="332"></figure-img>
