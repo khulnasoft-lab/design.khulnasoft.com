@@ -14,8 +14,8 @@ name: Release notes
 
 ### Additions
 
-- Added [**❖&nbsp;Avatar**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=120518-1434&m=design). Component now includes multiple people, logo, and fallback options to chose from.
-- Added [**❖&nbsp;Avatar-labeled**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=120518-1489&t=gt0xr6Kwr1Zg3tWb-4). The new avatar, but now with included labels. Choose a stacked or inline label, with or without a sublabel, change the size or shape… the possibilities are (almost) endless.
+- Added [**❖&nbsp;Avatar**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=120518-1434&m=design). Component now includes multiple options for people, logo, and fallback states to chose from.
+- Added [**❖&nbsp;Avatar-labeled**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=120518-1489&t=gt0xr6Kwr1Zg3tWb-4). The new avatar, but now includes text labels. Choose a stacked or inline label, with or without a sub-label, change the size or shape… the possibilities are (almost) endless.
 - Added [**❖&nbsp;Label**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=120776-3617&t=gt0xr6Kwr1Zg3tWb-4). This new version of the component includes many long awaited features including: a remove button, a single place to change color, a single size, and options for lighter labels and darker labels. Happy labelling.
 - Added [**❖&nbsp;Profile&nbsp;navigation**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=119486-16353&t=r5eNZvmP0hqq3rhR-4).
 - Added [**❖&nbsp;User&nbsp;settings&nbsp;navigation**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=120077-12557&t=g77WTJQQTCbubeMt-1).
