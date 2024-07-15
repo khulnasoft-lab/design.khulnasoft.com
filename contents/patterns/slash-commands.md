@@ -52,7 +52,7 @@ The slash command menu displays the command keyword, optional argument formats, 
 
 ### Commands are context-aware
 
-- By default, commands should apply to the page the user currently has open, unless specified otherwise by additional arguments. Commands should always work without arguments. Avoid requiring the user to input additional information, as it increases mental load to learn syntax and potential to make mistakes.
+- By default, commands should apply to the page the user currently has open, unless specified otherwise by additional arguments. Commands should always work without arguments, as they refer to the current context. Do not require the user to input additional information, as it increases mental load to learn the syntax and potential to make mistakes.
 - Any command can be used on any page, with the appropriate arguments. However, the menu should only show commands applicable to the page the user is currently viewing. Do not present commands in the menu that would not work on the current page.
 
 | Do                                                                                                                                                           | Don't                                                                                                                                                                                                                                                             |
