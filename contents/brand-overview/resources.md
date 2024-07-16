@@ -48,7 +48,7 @@ On this page you will find the most up-to-date brand assets. If you have questio
 
 ### Email templates
 
-- [General templates for email assets](https://www.canva.com/folder/FAFTVmFzaI0) (Access to GitLab's [Canva Enterprise](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/#gitlab-enterprise-access)  account required)
+- [General templates for email assets](https://www.canva.com/folder/FAFTVmFzaI0) (Access to GitLab's [Canva Enterprise](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/design/#canva-best-practices)  account required)
 - [Email signature template](https://docs.google.com/document/d/1iSOYSi69R-OWqzn11GheH-IipmbhDwvc3PnVDxdHxRY/edit?usp=sharing)
 
 ### Google Doc templates
