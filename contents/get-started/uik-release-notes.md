@@ -6,6 +6,10 @@ name: Release notes
 
 [_Draft: 17.3 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3939)
 
+### Additions
+
+- Added the following illustrations: [**catalog-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/catalog-sm.svg) and [**empty-catalog-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-catalog-md.svg).
+
 ### Deprecations
 
 - Deprecated **long-arrow** icon. Use the [**arrow-right**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~arrow-right)instead.
