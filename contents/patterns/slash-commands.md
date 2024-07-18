@@ -18,7 +18,7 @@ To avoid unnecessary commands, assess these questions before you implement a new
   - What evidence supports this?
 - What benefit does the proposed command provide to the user?
 - What alternative solutions have you explored?
-- Can the action be incorporated into the [existing slash commands](https://docs.google.com/spreadsheets/d/1qhNF16eMJBjkCwWOkUg2k-aSuPqH-khjgHrKFSwksJE/edit?usp=sharing)?
+- Can the action be incorporated into the [existing slash commands](https://gitlab.com/groups/gitlab-org/-/epics/13947#slash-commands-available-in-duo-chat)?
 
 When you plan to add a slash command, inform the [Duo Chat group](https://handbook.gitlab.com/handbook/product/categories/#duo-chat-group) so they can help you answer these questions.
 
