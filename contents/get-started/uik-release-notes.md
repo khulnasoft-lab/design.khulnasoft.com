@@ -6,6 +6,20 @@ name: Release notes
 
 [_Draft: 17.3 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3939)
 
+### Additions
+
+- Added the following illustrations: [**catalog-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/catalog-sm.svg), [**empty-catalog-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-catalog-md.svg), [**error-500-lg**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations%2Ferror%2Ferror-500-lg.svg), [**error-502-lg**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations%2Ferror%2Ferror-502-lg.svg) and [**error-503-lg**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations%2Ferror%2Ferror-503-lg.svg).
+
+### Deprecations
+
+- Deprecated **long-arrow** icon. Use the [**arrow-right**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~arrow-right)instead.
+- Deprecated **merge-request-open** and **git-merge** icons. Use the [**merge-request**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~merge-request)instead.
+- Deprecated **folder-o** icon. Use the [**folder**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~folder)instead.
+- Deprecated **messages** icon. Use the [**bullhorn**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~bullhorn)instead.
+- Deprecated **remove-all** icon. Use the [**remove**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~remove)instead.
+- Deprecated **task-done** icon. Use the [**todo-done**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~todo-done)instead.
+- Deprecated **tachometer** icon. Use the [**dashboard**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~dashboard)instead.
+
 ## 17.2
 
 <small>Published 2024-07-12</small>
