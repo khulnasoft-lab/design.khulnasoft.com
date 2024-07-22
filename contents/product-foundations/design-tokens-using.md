@@ -2,7 +2,9 @@
 name: Using design tokens
 ---
 
-## In design
+## Implementation
+
+### In design
 
 Using design tokens as Figma variables is moving to open-beta following a successful invite-only pilot.
 
@@ -16,10 +18,30 @@ In the future, color styles will be removed from the component library and these
 
 We've scoped these Figma variables by limiting the properties they can be applied to. This helps cut out the guess work when designing and supports recommended usage. For example, `text.color.default` can only be applied as a fill to a text element and not to a stroke or shape layer.
 
-## In code
+### In code
 
 <note>A pilot for design tokens in code has been completed as part of this [issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1776), and we're currently doing more exploration with a small subset of components as part of this [issue](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/2583). More details about officially using design tokens will be coming soon, but in the meantime carry on with your typical development process.</note>
 
-## Patterns and matching
+## Concepts
+
+### Actions
+
+Actions are interactive elements that trigger or represent user actions. `action.*` design tokens give a common visual style for interactive elements across the GitLab interface.
+
+To create bespoke interactive elements, combine background, foreground, and border color tokens. Note that in light mode, borders might not be visible by default. This is intentional to support other modes, including Windows High Contrast Mode.
+
+Action tokens support three contexts:
+
+- `neutral`: Default for most actions
+- `confirm`: For positive outcome actions
+- `danger`: For potentially destructive actions
+
+To communicate interactivity, implement these states: `default`, `hover`, `focus`, `active`, and `disabled`.
+
+Consider using existing GitLab components (such as buttons, pagination, or tabs) that already implement action tokens. These provide consistent styling and behavior without custom implementation. For more information on available components, see the [components overview](/components/overview).
+
+For form elements like inputs and selects, use `control.*` design tokens instead of action tokens.
+
+### Patterns and matching
 
 <todo issue="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1816">Document token pairing for color patterns and token matching for conceptual patterns.</todo>
