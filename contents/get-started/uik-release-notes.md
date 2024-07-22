@@ -20,6 +20,10 @@ name: Release notes
 - Deprecated **task-done** icon. Use the [**todo-done**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~todo-done)instead.
 - Deprecated **tachometer** icon. Use the [**dashboard**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~dashboard)instead.
 
+### Changes
+
+- Updated the [**tanuki-ai**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~tanuki-ai) icon sparkles shape.
+
 ## 17.2
 
 <small>Published 2024-07-12</small>
