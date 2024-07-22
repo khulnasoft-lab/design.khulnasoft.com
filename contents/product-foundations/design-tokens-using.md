@@ -26,7 +26,7 @@ We've scoped these Figma variables by limiting the properties they can be applie
 
 ### Actions
 
-Actions are interactive elements that trigger or represent user actions. `action.*` design tokens give a common visual style for interactive elements across the GitLab interface.
+Actions are interactive elements that trigger or represent user actions. `action.*` design tokens give a common visual style for interactive elements across the GitLab UI.
 
 To create bespoke interactive elements, combine background, foreground, and border color tokens. Note that in light mode, borders might not be visible by default. This is intentional to support other modes, including Windows High Contrast Mode.
 
