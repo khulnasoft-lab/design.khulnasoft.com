@@ -2,9 +2,7 @@
 name: Using design tokens
 ---
 
-## Implementation
-
-### In design
+## In design
 
 Using design tokens as Figma variables is moving to open-beta following a successful invite-only pilot.
 
@@ -18,7 +16,7 @@ In the future, color styles will be removed from the component library and these
 
 We've scoped these Figma variables by limiting the properties they can be applied to. This helps cut out the guess work when designing and supports recommended usage. For example, `text.color.default` can only be applied as a fill to a text element and not to a stroke or shape layer.
 
-### In code
+## In code
 
 <note>A pilot for design tokens in code has been completed as part of this [issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1776), and we're currently doing more exploration with a small subset of components as part of this [issue](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/2583). More details about officially using design tokens will be coming soon, but in the meantime carry on with your typical development process.</note>
 
@@ -36,9 +34,9 @@ Action tokens support three contexts:
 - `confirm`: For positive outcome actions
 - `danger`: For potentially destructive actions
 
-To communicate interactivity, implement these states: `default`, `hover`, `focus`, `active`, and `disabled`.
+Interactivity can be communicated through implementing states such as `hover`, `focus`, and `active`.
 
-Consider using existing GitLab components (such as buttons, pagination, or tabs) that already implement action tokens. These provide consistent styling and behavior without custom implementation. For more information on available components, see the [components overview](/components/overview).
+Consider using existing GitLab components (such as [button](/components/button), [pagination](/components/pagination), or [tabs](/components/tabs)) that already implement action tokens. These provide consistent styling and behavior without custom implementation. For more information on available components, see the [components overview](/components/overview).
 
 For form elements like inputs and selects, use `control.*` design tokens instead of action tokens.
 
