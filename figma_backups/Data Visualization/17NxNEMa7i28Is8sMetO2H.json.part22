@@ -1,0 +1,1323 @@
+,
+    "4987:11610": {
+      "key": "bfaab5f884ffc51474eb86f7ce647d22a890804b",
+      "name": "Variant=Success, Badge size=Small, State=Default, Icon=None",
+      "description": "",
+      "remote": true,
+      "componentSetId": "4987:11389",
+      "documentationLinks": []
+    },
+    "4987:11608": {
+      "key": "0024fb9e1b0bf0dda62f5a4d51c84336bee254bd",
+      "name": "Variant=Danger, Badge size=Small, State=Default, Icon=None",
+      "description": "",
+      "remote": true,
+      "componentSetId": "4987:11389",
+      "documentationLinks": []
+    },
+    "1006:2160": {
+      "key": "ba8acd3e59d846d8366c4f553adb1888fd480546",
+      "name": "status-paused",
+      "description": "keywords: status, paused, interrupted, 12px grid",
+      "remote": true,
+      "documentationLinks": []
+    },
+    "1006:1717": {
+      "key": "2d2154322e5aad4fa1368fe76f351101e7ff62f1",
+      "name": "status-success",
+      "description": "keywords: status, complete, success, passing, approved, 12px grid",
+      "remote": true,
+      "documentationLinks": []
+    },
+    "1006:2156": {
+      "key": "9b2e6e94d29d6740ff9fedbf321d3d4a1828381e",
+      "name": "status-alert",
+      "description": "",
+      "remote": true,
+      "documentationLinks": []
+    },
+    "1006:1721": {
+      "key": "98f943b7c62a239c8de7b26ab9ab603efa80419e",
+      "name": "status-failed",
+      "description": "keywords: status, failed, blocked, disabled, not allowed, 12px grid",
+      "remote": true,
+      "documentationLinks": []
+    },
+    "4981:14353": {
+      "key": "1ec1dd2098117de73cd690e4f2c8b0f30c1fa0e6",
+      "name": "status-paused",
+      "description": "Keywords: status, paused, interrupted, 12px grid",
+      "remote": true,
+      "documentationLinks": []
+    },
+    "4981:14351": {
+      "key": "dd0b722cd88f9bf0779a3516c7e818072d0fa66f",
+      "name": "status-waiting",
+      "description": "Keywords: status, waiting, on hold, unsure, unchanged, 12px grid",
+      "remote": true,
+      "documentationLinks": []
+    },
+    "4981:16561": {
+      "key": "9a37159b2594d5605fe81caa0755c947f327c2e0",
+      "name": "status-alert",
+      "description": "Keywords: status, alert, warning, exclamation, !, 12px grid",
+      "remote": true,
+      "documentationLinks": []
+    },
+    "4987:11441": {
+      "key": "d9853ba93869c44cff71e8ff29eb7c91757ab3e8",
+      "name": "Variant=Warning, Badge size=Small, State=Default, Icon=12px",
+      "description": "",
+      "remote": true,
+      "componentSetId": "4987:11389",
+      "documentationLinks": []
+    },
+    "4987:11609": {
+      "key": "9423a4f1e6fc83a05a283a4a34f602f5a6661185",
+      "name": "Variant=Warning, Badge size=Small, State=Default, Icon=None",
+      "description": "",
+      "remote": true,
+      "componentSetId": "4987:11389",
+      "documentationLinks": []
+    },
+    "63:392": {
+      "key": "46e348e2d4444431d8b23755791d60fa4e70cb4a",
+      "name": "_Base Series Legend",
+      "description": "To add or change chart colors, see our data visualization color palette in the “Colors” page of the “Data visualization” file.",
+      "remote": false,
+      "documentationLinks": []
+    },
+    "63:365": {
+      "key": "aca91afee6a5ae5a281b570ceb9d633eea0fc3fc",
+      "name": "Legend",
+      "description": "Placed below the chart, in the “Bottom” frame, as the last element.\n\nAdd the legend to the chart in the frame “Content>Right side>Bottom”.\n\nTo add or change chart colors, see our data visualization color palette in the “Colors” page of the “Data visualization” file.",
+      "remote": false,
+      "documentationLinks": []
+    }
+  },
+  "componentSets": {
+    "2194:4705": {
+      "key": "c977dedd2d8d9253baa7a7695490e90efe557864",
+      "name": "Logo - GitLab",
+      "description": "",
+      "remote": true
+    },
+    "4987:18286": {
+      "key": "5f92e2410d416c0bd21edcab78a42f84d55bba5b",
+      "name": "Sticky",
+      "description": "",
+      "remote": true
+    },
+    "4987:11389": {
+      "key": "8070d0a6fc7d969579bb5bd384bd9412ad88a395",
+      "name": "Badge",
+      "description": "Badges are system-generated, whereas labels are user-generated.",
+      "remote": true
+    },
+    "4981:14396": {
+      "key": "5995635bbd494ca9cb93262addee9ee46a3bebe2",
+      "name": "Focus ring",
+      "description": "",
+      "remote": true
+    },
+    "4987:12096": {
+      "key": "178f7c1a4cface85de9cbd5fa12707b761afbd97",
+      "name": "_Base Button",
+      "description": "",
+      "remote": true
+    },
+    "4987:12190": {
+      "key": "d3ca7b3a7ac248b95c711a28e3bf9d48bcb7e85f",
+      "name": "Button / Default",
+      "description": "Default button",
+      "remote": true
+    },
+    "3062:11167": {
+      "key": "c46789ba787eedf27a5d6acb35887f7897361bdd",
+      "name": "_Base Badge (⚠️ DEPRECATED)",
+      "description": "",
+      "remote": true
+    },
+    "3062:11183": {
+      "key": "bc8d38e6d63b30c0b3335e03d710380361461da1",
+      "name": "Badge (⚠️ DEPRECATED)",
+      "description": "⚠️ Deprecated - Please use updated Badge\n\nBadges are system-generated, whereas labels are user-generated.",
+      "remote": true
+    },
+    "490:54": {
+      "key": "6049edc4de8dc4d25c0d96f92ade4b05f74ffd09",
+      "name": "Color chip",
+      "description": "",
+      "documentationLinks": []
+    },
+    "490:59": {
+      "key": "23f000929ae4a8179c20f294e6ad8d976ed04934",
+      "name": "Color chip with series label",
+      "description": "Line and area charts should use the series label with the rectangular color chip to match the line colors in the chart, while column and heat map charts should use the square color chip to match the fill and stroke color of the elements in the visualization. \n\nThe fill of the chip needs to match the fill of the column and the stroke of the chip needs to match the stroke of the column. \n\nLong series names are truncated.",
+      "documentationLinks": []
+    },
+    "490:66": {
+      "key": "c31e9cc53fd8115aa7e2c744e69d8c48de59e41f",
+      "name": "Series",
+      "description": "",
+      "documentationLinks": []
+    },
+    "490:78": {
+      "key": "6b67838c1e9aa7709858325065f7e98915d9a8d9",
+      "name": "Legend",
+      "description": "Placed below the chart, in the “Bottom” frame, as the last element.\n\nAdd the legend to the chart in the frame “Content>Right side>Bottom”.\n\nTo add or change chart colors, see our data visualization color palette in the “Colors” page of the “Data visualization” file.\n\nBase legend works best for charts with data series that have one or two values. Tabular legend suits charts with data series that have multiple values.",
+      "documentationLinks": []
+    },
+    "2347:14549": {
+      "key": "7362c918a7f9b53ed62e36a692c16e7b221f2014",
+      "name": "Heat map chips",
+      "description": "",
+      "documentationLinks": []
+    },
+    "2347:12267": {
+      "key": "28fa95d5771cb718ee0a882e4064fb898ad8b09b",
+      "name": "Contribution chart",
+      "description": "",
+      "documentationLinks": []
+    },
+    "1006:3467": {
+      "key": "e8a0a37aae623da26c427677ef5f0855a5e4b111",
+      "name": "Pipeline status button",
+      "description": "The pipeline status button is used to show the pipeline, pipeline stage or job status throughout the UI. ",
+      "documentationLinks": []
+    },
+    "1006:3274": {
+      "key": "fd98428632d13e243d0dc09193b9e2c7d7670586",
+      "name": "Mini pipeline graph",
+      "description": "Mini pipeline graph is a visualization of CI/CD pipelines that allows tracking of pipeline status and navigation between pipeline jobs. \n\nThe mini pipeline graph fits within its parent container and wraps as necessary, with the main pipeline graph and upstream and downstream pipelines wrapping inside their own containers.\n\nThe mini pipeline graph can contain any number of stages and upstream/ downstream pipelines depending on the pipeline configuration.\n\nIf there's more than 3 downstream pipelines, show a counter that links to the pipeline where the rest of the downstream pipelines can be accessed.\n\nThe buttons in the pipeline graph opens a dropdown panel that can contain individual jobs or a link to the pipeline depending on whether it's a stage or an upstream or downstream pipeline.",
+      "documentationLinks": []
+    },
+    "4981:21087": {
+      "key": "859e603e5f575add4f9b5e6d96ccb7d58afd0f6e",
+      "name": "Tooltip",
+      "description": "Tooltips identify elements or provide additional, useful information about the referring elements.\nMax-width: 200px",
+      "remote": true
+    },
+    "3062:12388": {
+      "key": "93c6912873dcbafeb2d6f9763e5e2aba3f80f9c9",
+      "name": "Tip top",
+      "description": "",
+      "remote": true
+    },
+    "4987:18332": {
+      "key": "066712ebb1275e4c1b596e5b0690af4b0262126d",
+      "name": "Header",
+      "description": "",
+      "remote": true
+    },
+    "4987:18467": {
+      "key": "f5bc7a486b1dd69fd164aad5b771afb84208817c",
+      "name": "search",
+      "description": "Keywords: search, magnify, magnifying glass, loop, look, find, locate",
+      "remote": true
+    },
+    "3062:12453": {
+      "key": "901a5b8410227a67c0c9ca0902d39cc598cee88a",
+      "name": "_Base Badge",
+      "description": "",
+      "remote": true
+    },
+    "3062:12494": {
+      "key": "a43892ddf1059fec356cd550bc74c0e71f714af5",
+      "name": "Badge",
+      "description": "Badges are system-generated, whereas labels are user-generated.",
+      "remote": true
+    },
+    "3062:12597": {
+      "key": "5a912dbf145ea2adb0991569bf757076b7b568d7",
+      "name": "_Base Button",
+      "description": "",
+      "remote": true
+    },
+    "3062:12677": {
+      "key": "3ae34fc63ad28814fd4d6fa9572bded5bc449108",
+      "name": "Default",
+      "description": "",
+      "remote": true
+    },
+    "4987:18512": {
+      "key": "7f8c6971873867f6ade46f7915e82ae8fa386741",
+      "name": "_Base Add-on",
+      "description": "Add-on control.",
+      "remote": true
+    },
+    "4987:18523": {
+      "key": "fdd0c0f4c812067437fc758ca9ef4ec4d1cfd3a2",
+      "name": "Search",
+      "description": "",
+      "remote": true
+    },
+    "4987:12436": {
+      "key": "ad82068bad57a9ebd19c7ae06a128e5ee411909a",
+      "name": "check",
+      "description": "Keywords: check, checkmark, success, complete, tick",
+      "remote": true
+    },
+    "4987:12447": {
+      "key": "6ec44107e9ed41b6804a41560ec2a18ef905f2d7",
+      "name": "_Base/Left element",
+      "description": "",
+      "remote": true
+    },
+    "4987:12429": {
+      "key": "635e97237e40ef6971e5b1f8f05704bbd08f00b7",
+      "name": "_Base/Right element",
+      "description": "",
+      "remote": true
+    },
+    "4987:12465": {
+      "key": "cd1d64a83becc3bf63c8f6093006968de8970db7",
+      "name": "Option",
+      "description": "",
+      "remote": true
+    },
+    "3062:12320": {
+      "key": "635e97237e40ef6971e5b1f8f05704bbd08f00b7",
+      "name": "_Base/Right element",
+      "description": "",
+      "remote": true
+    },
+    "4987:18554": {
+      "key": "44c0a0ec088c5c006506140054cb15352d5f3027",
+      "name": "Dropdown",
+      "description": "Dropdown panel with default options and a placeholder list that can be replaced with other examples or swapped with a local component.\n\n\nSize:\nmin-width: 15.5rem (248px)\nmax-width: 28.5rem (456px)\nmax-height: 19.5rem (312px)",
+      "remote": true
+    },
+    "383:39": {
+      "key": "91d50d48f9e9614eede0cd67c893f05ea8617bf1",
+      "name": "Single stat",
+      "description": "",
+      "documentationLinks": []
+    }
+  },
+  "schemaVersion": 0,
+  "styles": {
+    "67:24": {
+      "key": "15d9b96db19655fb0fc7d768738525a12c9016a9",
+      "name": "Neutral/$white :: #FFF",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "2194:4702": {
+      "key": "71c53ccef1ae9e9c3dd310466f843031b9bad7a0",
+      "name": "Brand/Orange 03p",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "2194:4703": {
+      "key": "72e1d602c11605519ff957e5c572ea8ca0e2734a",
+      "name": "Brand/Orange 02p",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "2194:4704": {
+      "key": "27ff82feb53b4a2f6fb9632800216a1add54f329",
+      "name": "Brand/Orange 01p",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1781:5981": {
+      "key": "89746a55a2d83f9f2d7f30ab7714c0e8846e90a1",
+      "name": "Purple/$purple-500 :: #7B58CF",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3473:14114": {
+      "key": "e94d0e6e50729e201995cca7ee08a6a9b0b4590b",
+      "name": "UI Kit/Type",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "3:24": {
+      "key": "15d9b96db19655fb0fc7d768738525a12c9016a9",
+      "name": "Neutral/$white :: #FFFFFF",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3473:14115": {
+      "key": "93d1766de490e62093effa52795473390effae66",
+      "name": "UI Kit/Title",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "1781:5980": {
+      "key": "0a952884d1f19967228df9c1cec8bb3893b3b9ef",
+      "name": "Purple/$purple-100 :: #E1D8F9",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3473:14116": {
+      "key": "90c201217527d090105fbc5039e0e2c5d8fd0ee4",
+      "name": "UI Kit/Description",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "2809:6496": {
+      "key": "7787be4d9badbe0222ab0af4798e0ecb3a2f10b2",
+      "name": "Brand/Gray 05",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4981:14410": {
+      "key": "44af3436c041d1949e322cc15cef1c28cf696845",
+      "name": "Neutral/$neutral-900 :: #28272D",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3473:14889": {
+      "key": "71519caea598a68b9fe99c14698d0290216958cd",
+      "name": "UI/h1/≥xl breakpoint",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": "Used for level 1 headings and limited to one per page.\n\nUses the 700 scale."
+    },
+    "3473:14885": {
+      "key": "e914be9e6ac7d4f88d00550f57d29edcd3d9ba2e",
+      "name": "UI/h1/≤md breakpoint",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": "Used for level 1 headings and limited to one per page.\n\nUses the 700 scale."
+    },
+    "16:7": {
+      "key": "8dc5dd46dea279c72b403f81b4ea676d9d9f0ac0",
+      "name": "DV-Orange/$dv-orange-500",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "16:8": {
+      "key": "53c2d7de8eb3f5eeac57b7a0cfbc967a6a53f83c",
+      "name": "DV-Blue/$dv-blue-500",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "16:9": {
+      "key": "34b6cac834431a221a5bcce453abff3ad4146018",
+      "name": "DV-Blue/$dv-blue-700",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "4981:14355": {
+      "key": "15d9b96db19655fb0fc7d768738525a12c9016a9",
+      "name": "Neutral/$neutral-0 :: #FFFFFF",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "White"
+    },
+    "16:10": {
+      "key": "7a4b4109872bf4b2f2b1739cb8c284fb220b76b6",
+      "name": "DV-Blue/$dv-blue-300",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "3473:14887": {
+      "key": "965bd404b988e6bdc66e6f75270dece36686a061",
+      "name": "UI/Paragraph/Regular lg",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": "Uses the 400 scale."
+    },
+    "3473:14883": {
+      "key": "6b518e18b42bf97ac07da3458d66149234fa2d28",
+      "name": "UI/Display/≥xl breakpoint",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": "A display option that can be applied to a level 1 heading to increase its prominence. This can be useful for a learning path or feature promotion. Limited to one per page.\n\nUses the 800 dynamic scale.\n\nNot available in the fixed scale."
+    },
+    "1817:3906": {
+      "key": "89746a55a2d83f9f2d7f30ab7714c0e8846e90a1",
+      "name": "Purple/$purple-500 :: #7B58CF",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "17:37": {
+      "key": "62698e048786e2ff16ba9932c7b5d32c6ba49249",
+      "name": "DV-Orange/$dv-orange-950",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:38": {
+      "key": "67d75a9eec022e2320c315a7b74864eea6e535df",
+      "name": "DV-Orange/$dv-orange-900",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:39": {
+      "key": "f5b4d01670550c315bf8e92e99ac6298dfaee682",
+      "name": "DV-Orange/$dv-orange-800",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:40": {
+      "key": "6e335e6e028979cd5e084c86ead2f438bf5ab6b2",
+      "name": "DV-Orange/$dv-orange-700",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:41": {
+      "key": "dbba60b8362919d5b35948cfca743c72312f6880",
+      "name": "DV-Orange/$dv-orange-600",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:42": {
+      "key": "7428b5ebc29235771c80500f1656ce7e8454ba3e",
+      "name": "DV-Orange/$dv-orange-400",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:43": {
+      "key": "2c066d89b4f91157d3c9c23302f7589bb6f65688",
+      "name": "DV-Orange/$dv-orange-300",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:44": {
+      "key": "f08b878e4d812616cfeacf2af7ffff9a46a1b4a3",
+      "name": "DV-Orange/$dv-orange-200",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:45": {
+      "key": "dace7343bc751f1812e59cc8fdd1ad87acb22f11",
+      "name": "DV-Orange/$dv-orange-100",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:46": {
+      "key": "d0d7cb7f302bf6d50a222ae2e669ce10d3a19160",
+      "name": "DV-Orange/$dv-orange-50",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:47": {
+      "key": "bbc4ea2843d39d34266a47dda7adc92c43994923",
+      "name": "DV-Magenta/$dv-magenta-950",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:48": {
+      "key": "6befefd19e47cffea5b5e73ed0d65f8180b4d624",
+      "name": "DV-Magenta/$dv-magenta-900",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:49": {
+      "key": "02a1d7da7b713180a4664489a06b022c0052441b",
+      "name": "DV-Magenta/$dv-magenta-800",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:50": {
+      "key": "b6a567d4e014be89831e4fa618c1e9d88d53a730",
+      "name": "DV-Magenta/$dv-magenta-700",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:51": {
+      "key": "16745fd5216fb103a6a70561d268d0b83da84f5e",
+      "name": "DV-Magenta/$dv-magenta-600",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:52": {
+      "key": "300f3fb20dd8c667cbf2cd98d02261960516739f",
+      "name": "DV-Magenta/$dv-magenta-500",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:53": {
+      "key": "dfc7970199e22ef70f41bc31b469378fa5a077f9",
+      "name": "DV-Magenta/$dv-magenta-400",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:54": {
+      "key": "205a7ed209bd1c5f8ebe6aded63719d88eec3537",
+      "name": "DV-Magenta/$dv-magenta-300",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:55": {
+      "key": "7031d7621c546ec44bf00675480f546baf2f1723",
+      "name": "DV-Magenta/$dv-magenta-200",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:56": {
+      "key": "a9873e7cdbe36e6a77015b49d60370aaaba20409",
+      "name": "DV-Magenta/$dv-magenta-100",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:57": {
+      "key": "85d95f85100515f1389de43e8188ce27296be516",
+      "name": "DV-Magenta/$dv-magenta-50",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:58": {
+      "key": "3507819fc603992291ed0a23b4aba1749ce713f7",
+      "name": "DV-Blue/$dv-blue-950",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:59": {
+      "key": "e9ae28ac7040fe2184353bed06ccca857876c8fb",
+      "name": "DV-Blue/$dv-blue-900",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:60": {
+      "key": "9bec5f3f289e97e1f5ea868a842dae618e1d7a3f",
+      "name": "DV-Blue/$dv-blue-800",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:61": {
+      "key": "f814c0e161df29e71e5d4e088465e84a2443886f",
+      "name": "DV-Blue/$dv-blue-600",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:62": {
+      "key": "013ad8264533fd7462c10cc59c1496efa27ea544",
+      "name": "DV-Blue/$dv-blue-400",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:63": {
+      "key": "3bc85c8be02ec3192f3fa6159cdedf9ac998bd96",
+      "name": "DV-Blue/$dv-blue-200",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:64": {
+      "key": "67766a0f46f050206c9e06e5e2f7a37b48b1b6d5",
+      "name": "DV-Blue/$dv-blue-100",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:65": {
+      "key": "de6a8e4057950b6bd1fef0a0cced143237230356",
+      "name": "DV-Blue/$dv-blue-50",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:66": {
+      "key": "c41e1e9312b67429965ad7cb9e9fca8d28a458a5",
+      "name": "DV-Aqua/$dv-aqua-950",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:67": {
+      "key": "1290c3f7c66e1d93136f07bdb72762654abe2c6f",
+      "name": "DV-Aqua/$dv-aqua-900",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:68": {
+      "key": "c3362a85ce84ff8b62f3b189afac32264248cf96",
+      "name": "DV-Aqua/$dv-aqua-800",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:69": {
+      "key": "0ee6bcb4648b0063365e544321c1d5c46e4b079e",
+      "name": "DV-Aqua/$dv-aqua-700",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:70": {
+      "key": "ffcf7d6399cb7b5153e2cfd4575b5cf9bc78b910",
+      "name": "DV-Aqua/$dv-aqua-600",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:71": {
+      "key": "23b391e7ebc68c4c09afe403ea6a222abe6279da",
+      "name": "DV-Aqua/$dv-aqua-500",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:72": {
+      "key": "c7285362ef132d3354fe742269de478636259551",
+      "name": "DV-Aqua/$dv-aqua-400",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:73": {
+      "key": "72e8154d8c45008b5846091bab3964249cf65961",
+      "name": "DV-Aqua/$dv-aqua-300",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:74": {
+      "key": "f75441e7817e770ad7535767df56d281780678cc",
+      "name": "DV-Aqua/$dv-aqua-200",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:75": {
+      "key": "ab4fd72279ab2479880a3428cd3c2b9b6dee9f24",
+      "name": "DV-Aqua/$dv-aqua-100",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:76": {
+      "key": "1b4b6637dbd544af733d28224d26186454bebfde",
+      "name": "DV-Aqua/$dv-aqua-50",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:77": {
+      "key": "77ee426c6f6707fc5cb4af3bec63ec5f3a633b46",
+      "name": "DV-Green/$dv-green-950",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:78": {
+      "key": "53865e0a7f6affc005d0823450d9cfd27552868f",
+      "name": "DV-Green/$dv-green-900",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:79": {
+      "key": "ea1ccd7ffc845a1f1a4eea8f97bfffd2db1f3e3e",
+      "name": "DV-Green/$dv-green-800",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:80": {
+      "key": "ffb778f47bb26535119bda863092f136386aa7e2",
+      "name": "DV-Green/$dv-green-700",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:81": {
+      "key": "c6d8483f0e35d3d8bcc184ca89b45fda84caeb6c",
+      "name": "DV-Green/$dv-green-600",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:82": {
+      "key": "881089097d51af3edaf7c0baf62218e23a78eaec",
+      "name": "DV-Green/$dv-green-500",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:83": {
+      "key": "85a9ce92206266fe8bfbcf023e6b2474f7e07631",
+      "name": "DV-Green/$dv-green-400",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:84": {
+      "key": "814467b4b75240c4ceb19e88093989f06015161a",
+      "name": "DV-Green/$dv-green-300",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:85": {
+      "key": "daa8685ad49198968670b04a53b4f042b65442bc",
+      "name": "DV-Green/$dv-green-200",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:86": {
+      "key": "7e9650594f044add6e18e2c54430420ceae212e3",
+      "name": "DV-Green/$dv-green-100",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "17:87": {
+      "key": "00a980a98a016f24246c3af2fd6d392230c255df",
+      "name": "DV-Green/$dv-green-50",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "2414:7412": {
+      "key": "06553d26303c0e3a8a6e01798b6ab5d1fda06492",
+      "name": "Transparent/White 8%",
+      "styleType": "FILL",
+      "remote": false,
+      "description": ""
+    },
+    "4981:23988": {
+      "key": "95221297b692b124445e3a197367b0221eb8c3c1",
+      "name": "Neutral/$neutral-300 :: #A4A3A8",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3473:14886": {
+      "key": "de6bf6e059cb2280d839140d4e90a463b645a774",
+      "name": "UI/h2/≥xl breakpoint",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": "Used for level 2 headings.\n\nUses the 600 scale."
+    },
+    "35:254": {
+      "key": "893d1337e48583f968b013c49f95682fb2adec40",
+      "name": "Subhead",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "3473:14888": {
+      "key": "a704665522388abc640f762e9be9a07dd8470b0b",
+      "name": "UI/Paragraph/Regular",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": "Uses the 300 scale."
+    },
+    "3473:14158": {
+      "key": "86578885afa2e3d070fbfef058a266e6066567ee",
+      "name": "UI/Label/Regular",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": "Uses the 300 scale."
+    },
+    "3473:14159": {
+      "key": "daf26415527a8ad78488f32a4a6e19035f122dab",
+      "name": "UI/Label/Regular sm",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": "Uses the 100 scale."
+    },
+    "4981:15464": {
+      "key": "ecd1d1f5afdc924c6b53d22f3198930499457ddd",
+      "name": "Neutral/$neutral-10 :: #FBFAFD",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3473:14163": {
+      "key": "5f63e092b4dab18e437b9e150c31ea4fafc1c8da",
+      "name": "UI/Label/Bold",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": "Uses the 300 scale."
+    },
+    "4981:23987": {
+      "key": "bfdfde5f7914aa6de6013e7c1766a149e270b5f1",
+      "name": "Neutral/$neutral-950 :: #18171D",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4981:14356": {
+      "key": "0f82b9ee36f18e6d0035cd3c9b5fe68609b20cbf",
+      "name": "Neutral/$neutral-500 :: #737278",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "2412:8487": {
+      "key": "27627ad9896a50533eb54cceef23684c6234717a",
+      "name": "Red/$red-600 :: #C91C00",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "2412:8484": {
+      "key": "81908551a92efc6342526868ce555d8fba7e8484",
+      "name": "Red/$red-400 :: #EC5941",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "107:43": {
+      "key": "eab20d3771a52ced11c35d3ba1e453d43c62599b",
+      "name": "Red/$red-700 :: #AE1800",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "2427:20937": {
+      "key": "5cefd8da844ccbc49fd8d1a1d063f34ca20dea73",
+      "name": "Red/$red-300 :: #F57F6C",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4981:14359": {
+      "key": "6bb51c300073cddd00b89e14e8b13bfc5dd697c5",
+      "name": "Neutral/$neutral-200 :: #BFBFC3",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4981:14360": {
+      "key": "7447f99b0951252a6e6d1443fae3eccd5ee7a677",
+      "name": "Neutral/$neutral-600 :: #626168",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4981:14411": {
+      "key": "efd626c50988f7e57ea36a1c75f854961d437c34",
+      "name": "Neutral/$neutral-800 :: #3A383F",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4981:14409": {
+      "key": "9fcbb7cffaf0daeafe3542345c0d79a8f3306499",
+      "name": "Neutral/$neutral-700 :: #4C4B51",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4981:14358": {
+      "key": "3ab4f49f4dbf91d06424ec59fbd56590258a7cd5",
+      "name": "Neutral/$neutral-100 :: #DCDCDE",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "67:43": {
+      "key": "44af3436c041d1949e322cc15cef1c28cf696845",
+      "name": "Neutral/$gray-900 :: #303030",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4981:14357": {
+      "key": "9d115234b5f0975290e1e37cce7ce515b0dbe7a9",
+      "name": "Neutral/$neutral-50 :: #ECECEF",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3473:14884": {
+      "key": "587cce4fc2dbf81f66012016da0610e84e88ad87",
+      "name": "UI/Label/Bold sm underlined",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": "Uses the 100 scale."
+    },
+    "3473:14166": {
+      "key": "be9e0a8950005205d64b4b3a6bbd591fc1e77339",
+      "name": "UI/Label/Bold sm",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": "Uses the 100 scale."
+    },
+    "17:156": {
+      "key": "3ab4f49f4dbf91d06424ec59fbd56590258a7cd5",
+      "name": "Neutral/$gray-100 :: #DCDCDE",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1:92": {
+      "key": "0f82b9ee36f18e6d0035cd3c9b5fe68609b20cbf",
+      "name": "Neutral/$gray-500 :: #737278",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "16:11": {
+      "key": "daf26415527a8ad78488f32a4a6e19035f122dab",
+      "name": "UI/Label/Regular sm",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "67:2": {
+      "key": "1804a57a951452b9c4dc2f30ebc4c9a79ee0d70c",
+      "name": "Neutral/$black :: #000",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "67:5": {
+      "key": "0f82b9ee36f18e6d0035cd3c9b5fe68609b20cbf",
+      "name": "Neutral/$gray-500 :: #666666",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "67:6": {
+      "key": "9fcbb7cffaf0daeafe3542345c0d79a8f3306499",
+      "name": "Neutral/$gray-700 :: #525252",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3062:5118": {
+      "key": "daf26415527a8ad78488f32a4a6e19035f122dab",
+      "name": "UI/Label/Regular sm",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "67:8": {
+      "key": "3ab4f49f4dbf91d06424ec59fbd56590258a7cd5",
+      "name": "Neutral/$gray-100 :: #DBDBDB",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "490:38": {
+      "key": "c82e30d11347a340af2dd70807ca46c574b4a81e",
+      "name": "DV-Blue/$dv-blue-500 :: #5772FF",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "2427:27844": {
+      "key": "925ee9f0f1e1c8c8bc3d56b403a87c8a8dc269fb",
+      "name": "Green/$green-600 :: #217645",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4981:15511": {
+      "key": "40fc3f4a309a82914ca85446d43fdadbb3bd001e",
+      "name": "Transparent/$alpha-dark 8%",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "2347:12266": {
+      "key": "301bea9d68f21a33dfb4d3e58a329fea8d10c764",
+      "name": "Icons",
+      "styleType": "GRID",
+      "remote": true,
+      "description": ""
+    },
+    "107:35": {
+      "key": "0c446a921de76845de99a894c27ca8982daa47b4",
+      "name": "Blue/$blue-500 :: #1F75CB",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "383:7": {
+      "key": "574ea194a4a90fe3c830b68c09830a7a38246328",
+      "name": "Green/$green-500 :: #108548",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1006:3076": {
+      "key": "2a7e908f699f529bd2eacf8497fc07307cc2f7af",
+      "name": "Orange/$orange-400 :: #C17D10",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "107:36": {
+      "key": "cd2781e776621ec0d19ea8eea0f4efdb16fd600e",
+      "name": "Green/$green-100 :: #C3E6CD",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1006:3095": {
+      "key": "0744b53a8ffdacdfd683d7b1500951f8e32e8ba1",
+      "name": "Button/Shadow",
+      "styleType": "EFFECT",
+      "remote": true,
+      "description": ""
+    },
+    "4981:23989": {
+      "key": "37b6e9d91ea26d36ec43188a0085914dfd645429",
+      "name": "⚠️ DEPRECATED/Focus ring/Outer",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "⚠️ DEPRECATED"
+    },
+    "4981:21080": {
+      "key": "1804a57a951452b9c4dc2f30ebc4c9a79ee0d70c",
+      "name": "Neutral/$neutral-1000 :: #050506",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "UI version of black"
+    },
+    "107:0": {
+      "key": "9d115234b5f0975290e1e37cce7ce515b0dbe7a9",
+      "name": "Neutral/$gray-50 :: #F0F0F0",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3062:5106": {
+      "key": "86578885afa2e3d070fbfef058a266e6066567ee",
+      "name": "UI/Label/Regular",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "1006:3154": {
+      "key": "bfdfde5f7914aa6de6013e7c1766a149e270b5f1",
+      "name": "Neutral/$gray-950 :: #1F1F1F",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3062:10249": {
+      "key": "5f63e092b4dab18e437b9e150c31ea4fafc1c8da",
+      "name": "UI/Label/Bold",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "1006:3153": {
+      "key": "a46e1cce482378b5621af7741e117423eee9a4fd",
+      "name": "Border/Bottom/1px $gray-200",
+      "styleType": "EFFECT",
+      "remote": true,
+      "description": ""
+    },
+    "67:42": {
+      "key": "6bb51c300073cddd00b89e14e8b13bfc5dd697c5",
+      "name": "Neutral/$gray-200 :: #BFBFBF",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1609:8256": {
+      "key": "1557bda0d999adde055bdf2ffac264cf99baf3b1",
+      "name": "Layer shadow/Medium $gl-shadow-md",
+      "styleType": "EFFECT",
+      "remote": true,
+      "description": "popover, dropdown, flyouts"
+    },
+    "4981:15208": {
+      "key": "0310774df360155988651e27087d968a57ac4832",
+      "name": "Neutral/$neutral-400 :: #89888D",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3062:12446": {
+      "key": "0310774df360155988651e27087d968a57ac4832",
+      "name": "Neutral/$gray-400 :: #868686",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1:76": {
+      "key": "6bb51c300073cddd00b89e14e8b13bfc5dd697c5",
+      "name": "Neutral/$gray-200 :: #BFBFC3",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "107:38": {
+      "key": "574ea194a4a90fe3c830b68c09830a7a38246328",
+      "name": "Green/$green-500 :: #108548",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3734:12185": {
+      "key": "15d9b96db19655fb0fc7d768738525a12c9016a9",
+      "name": "Neutral/$white :: #FFF",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3473:14167": {
+      "key": "1557bda0d999adde055bdf2ffac264cf99baf3b1",
+      "name": "Layer shadow/Medium $gl-shadow-md",
+      "styleType": "EFFECT",
+      "remote": true,
+      "description": "Definition\n- Surfaces that need boundary definition and appear on hover. For example, popovers.\n\nComponents\n- Popover\n- Date picker\n- Dropdown\n- Nagivation: Flyout Menus\n- Stacked elevation components\n- Cards when dragged\n\nAttributes\n- Surfaces that appear on hover.\n- Components layered above other components. Stacked layers and static components that have content that scrolls beneath."
+    },
+    "383:13": {
+      "key": "39175adcede299338d6dc2a4fbe277ceb6233f17",
+      "name": "Red/$red-500 :: #DD2B0E",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "107:37": {
+      "key": "f0d5ed5409653da58e1ef96b797efc0202d1aabd",
+      "name": "Green/$green-700 :: #24663B",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "2186:6426": {
+      "key": "d344471d0fe988a086119d886eaf1fb002ad5e4f",
+      "name": "Green/$green-200 :: #91D4A8",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "107:44": {
+      "key": "39175adcede299338d6dc2a4fbe277ceb6233f17",
+      "name": "Red/$red-500 :: #DD2B0E",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "107:42": {
+      "key": "8eb7d038c126d2dde6cba2b99ef915f51b97b74b",
+      "name": "Red/$red-100 :: #FDD4CD",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "2186:6425": {
+      "key": "53a1b040cf1a9ec8f1e8b766cde68bf5a1522f01",
+      "name": "Red/$red-200 :: #FCB5AA",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "107:41": {
+      "key": "775264323724bc1e45d805c02a40fa033c9ed1f1",
+      "name": "Orange/$orange-500 :: #AB6100",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "107:40": {
+      "key": "3f8d5af85edf5de1c242317cc42b6d0d846c375c",
+      "name": "Orange/$orange-700 :: #8F4700",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "107:39": {
+      "key": "946a891732082324026c8e718ad8e9935c6e77b2",
+      "name": "Orange/$orange-100 :: #F5D9A8",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "67:63": {
+      "key": "c6e356f9a0736e29bbbef27b2fc5ff82bd9f7aae",
+      "name": "Orange/$orange-200 :: #E9BE74",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1:74": {
+      "key": "44af3436c041d1949e322cc15cef1c28cf696845",
+      "name": "Neutral/$gray-900 :: #333238",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "63:362": {
+      "key": "be9e0a8950005205d64b4b3a6bbd591fc1e77339",
+      "name": "UI/Label/Bold sm",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "35:305": {
+      "key": "15daa48aa9f1946c5ad46a9dabc3226a470716a0",
+      "name": "DV-Green/$dv-green-600 :: #487900",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "35:273": {
+      "key": "50c9ad48cf1d20c316215230acae46ef66dbe1d0",
+      "name": "DV-Magenta/$dv-magenta-500 :: D84280",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3062:11757": {
+      "key": "a728ab196e1c7384ffd6a2cfc66110c6015595aa",
+      "name": "UI/Label/Mono sm",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "63:696": {
+      "key": "c060a64198ee245c58d5916ba678b334db7b4b55",
+      "name": "UI/Label/Mono bold small",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    }
+  },
+  "name": "Data Visualization",
+  "lastModified": "2024-07-12T16:21:15Z",
+  "thumbnailUrl": "https://s3-alpha.figma.com/thumbnails/a6112695-8664-4533-afaf-1bc436dad0db?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSWNWIZ6J%2F20240721%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240721T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f1007b5d8bcc569b91cb71003858f66dbab675e67f312568360c01d6e91c4d93",
+  "version": "6205424029",
+  "role": "editor",
+  "editorType": "figma",
+  "linkAccess": "org_view"
+}
