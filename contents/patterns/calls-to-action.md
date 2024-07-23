@@ -7,13 +7,13 @@ related:
 
 ## Overview
 
-GitLab Duo features can be triggered by interacting with a call-to-action (CTA). CTAs are interactive elements, such as [buttons](<(/components/button)>) or [links](<(/components/link)>).
+A _call to action_ (CTA) is a UI element designed to spur a response by guiding users toward a specific action. Use this pattern to connect GitLab Duo with a corresponding trigger, such as [buttons](<(/components/button)>) or [links](<(/components/link)>).
 
 ## Guidelines
 
-### Indicate that the feature is AI-powered
+### Indicate when an action is AI-powered
 
-Ensure users know a feature is AI-powered before they interact with it to set accurate expectations about the feature's capabilities. To indicated that a feature is AI-powered, use the [tanuki-ai icon](https://gitlab.com/gitlab-org/gitlab-svgs/blob/main/sprite_icons/tanuki-ai.svg) on CTAs, where possible.
+Set expectations about a buttons's relationship to AI by using the [tanuki-ai icon](https://gitlab.com/gitlab-org/gitlab-svgs/blob/main/sprite_icons/tanuki-ai.svg) when reasonable.
 
 | Do                                                                                                                                | Don't                                                                                                    |
 | --------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
