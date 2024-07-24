@@ -8,6 +8,7 @@ name: Release notes
 
 ### Additions
 
+- Added the following icons: [**duo-chat**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~duo-chat) and [**duo-chat-off**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~duo-chat-off).
 - Added the following illustrations: [**catalog-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/catalog-sm.svg), [**empty-catalog-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-catalog-md.svg), [**error-500-lg**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations%2Ferror%2Ferror-500-lg.svg), [**error-502-lg**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations%2Ferror%2Ferror-502-lg.svg) and [**error-503-lg**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations%2Ferror%2Ferror-503-lg.svg).
 
 ### Deprecations
@@ -23,6 +24,7 @@ name: Release notes
 ### Changes
 
 - Updated the [**tanuki-ai**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~tanuki-ai) icon sparkles shape.
+- Updated the [**comment**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~comment), [**comment-next**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~comment-next), [**comment-lines**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~comment-lines) and [**comment-dots**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~comment-dots) icons bubble shape.
 
 ## 17.2
 
