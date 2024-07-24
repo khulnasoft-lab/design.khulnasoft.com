@@ -423,32 +423,6 @@
         ]
       },
       {
-        "title": "Content",
-        "path": "content",
-        "items": [
-          {
-            "title": "UI text",
-            "path": "ui-text"
-          },
-          {
-            "title": "Verb tenses",
-            "path": "verb-tenses"
-          },
-          {
-            "title": "Punctuation",
-            "path": "punctuation"
-          },
-          {
-            "title": "Internationalization",
-            "path": "i18n"
-          },
-          {
-            "title": "Date and time",
-            "path": "date-and-time"
-          }
-        ]
-      },
-      {
         "title": "Accessibility",
         "path": "accessibility",
         "items": [
@@ -562,6 +536,32 @@
           "title": "Settings management",
           "path": "settings-management"
         }
+    ]
+  },
+  {
+    "title": "Content",
+    "path": "content",
+    "items": [
+      {
+        "title": "UI text",
+        "path": "ui-text"
+      },
+      {
+        "title": "Verb tenses",
+        "path": "verb-tenses"
+      },
+      {
+        "title": "Punctuation",
+        "path": "punctuation"
+      },
+      {
+        "title": "Internationalization",
+        "path": "i18n"
+      },
+      {
+        "title": "Date and time",
+        "path": "date-and-time"
+      }
     ]
   },
   {
