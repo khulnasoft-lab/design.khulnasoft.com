@@ -38,7 +38,11 @@ Interactivity can be communicated through implementing states such as `hover`, `
 
 Consider using existing GitLab components (such as [button](/components/button), [pagination](/components/pagination), or [tabs](/components/tabs)) that already implement action tokens. These provide consistent styling and behavior without custom implementation. For more information on available components, see the [components overview](/components/overview).
 
-Form elements and user inputs should use `control.*` design tokens instead of action design tokens.
+Form elements and user inputs should use [`control.*` design tokens](#controls) instead of action design tokens.
+
+### Controls
+
+<todo>Document control design tokens</todo>
 
 ### Patterns and matching
 
