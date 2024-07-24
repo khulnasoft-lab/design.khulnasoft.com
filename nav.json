@@ -298,10 +298,6 @@
             "path": "skeleton-loader"
           },
           {
-            "title": "Socks",
-            "path": "socks"
-          },
-          {
             "title": "Sorting",
             "path": "sorting"
           },
