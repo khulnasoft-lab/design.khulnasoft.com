@@ -6,8 +6,8 @@ This page includes [color swatches](https://gitlab.com/gitlab-com/marketing/bran
 
 - Backgrounds can use gradients or select solid colors: white, Charcoal, or purple 
 - Graphical elements should default to colors in the primary palette; the colors in the secondary palette can be used as additional accents.
-- Headlines and body copy should only use white or charcoal.
-- Calls-to-actions and buttons should only use white or charcoal.
+- Headlines and body copy should use white or charcoal.
+- Calls-to-actions and buttons should use white or charcoal.
 - Colors other than white or Charcoal should not be applied in sentences or large bodies of copy.
 - Hyperlinks commonly use Purple 01p on dark backgrounds or Purple 02p on light backgrounds.
 - Other text, such as small titles or data points, can have color applied sparingly and with discretion for accessibility with a contrast minimum of 1.4.3 (Level AA) according to [WCAG 2.1](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum). 
@@ -15,7 +15,7 @@ This page includes [color swatches](https://gitlab.com/gitlab-com/marketing/bran
 
 ## Primary colors
 
-The primary palette features colors from our core logo and signature purple. These colors are most commonly used and associated with our brand.
+The primary palette features colors from our core logo and signature purple. These colors are most frequently used and associated with our brand.
 
 ### Primary color palette
 
@@ -59,7 +59,7 @@ The secondary palette expands upon our oranges and purples to provide more color
 
 ## Gradients
 
-In some cases, custom gradients can be created for a more curated aesthetic to differentiate an asset from general-branded designs. Follow the parameters below to ensure visual consistency across all gradients. 
+The main gradient for our core brand consists of Orange 02p, Purple 01p, and Pink 01s with a white base fill. In some cases, custom gradients can be created for a more curated aesthetic to differentiate an asset from general-branded designs. Follow the parameters below to ensure visual consistency across all gradients. 
 
 - All gradients should feel organic and not distract from other elements on the design.
 - All gradients should be generated using the freeform gradient feature in Illustrator, or by creating layered radial gradients in Figma. 
@@ -69,23 +69,13 @@ In some cases, custom gradients can be created for a more curated aesthetic to d
 - Charcoal and gray should not be used. 
 - Light-mode gradients should use white as the base fill.
 - Dark-mode gradients should use Purple 04s as the base fill.
-
-
-### Gradient color palette
-
-| **Swatch**                                                                                            | **HEX** | **RGB**       | **CMYK**     | **PMS**         |
-| ----------------------------------------------------------------------------------------------------- | ------- | ------------- | ------------ | --------------- |
-| <div class="gl-p-3" style="background-color:#FFD1BF;"><span class="variable">Orange 01g</span> </div> | #FFD1BF | 255, 209, 191 | 0, 20, 21, 0 | 489 C / 489 U   |
-| <div class="gl-p-3" style="background-color:#CEB3EF;"><span class="variable">Purple 01g</span> </div> | #CEB3EF | 206, 179, 239 | 24, 29, 0, 0 | 2635 C / 2635 U |
-| <div class="gl-p-3" style="background-color:#FFB9C9;"><span class="variable">Pink 01g</span> </div>   | #FFB9C9 | 255, 185, 201 | 0, 33, 10, 0 | 1767 C / 1767 U |
+- When adding text or our logo, ensure that they are placed on a part of the gradient that provides adequate contrast. 
 
 ## Contrast and accessibility
 
-Using color combinations that have sufficient contrast benefits everyone and preserves readability. A contrast ratio of 4.5:1 or higher is preferred for text and UI elements, but 3:1 can be used for larger text. Illustrations are an exception and will use a larger range of the palette, although even the key elements should be clearly defined.
-Color combinations (foreground and background) shown here have sufficient contrast. Charcoal is the only color that should be used on gradients to ensure sufficient contrast over every part of the gradient.
-Color accessibility enables people with visual impairments or color vision deficiencies to interact with digital experiences in the same way as their non-visually-impaired counterparts. For more information about color contrast in a digital context, view the [WCAG Success Criterion 1.4.3 Contrast (Minimum)](https://www.w3.org/TR/WCAG21/#contrast-minimum) guidelines.
+Using color combinations that have sufficient contrast benefits everyone and preserves readability. A contrast ratio of 4.5:1 or higher is preferred for text and UI elements, but 3:1 can be used for larger text. Illustrations are an exception and will use a larger range of the palette, although even the key elements should still be legible. Color accessibility enables people with visual impairments or color vision deficiencies to interact with digital experiences in the same way as their non-visually-impaired counterparts. For more information about color contrast in a digital context, view the [WCAG Success Criterion 1.4.3 Contrast (Minimum)](https://www.w3.org/TR/WCAG21/#contrast-minimum) guidelines.
 
-## Color usage
+## Terminology
 
 ### Digital
 
