@@ -4,14 +4,13 @@ name: Color
 
 This page includes [color swatches](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/tree/e6e2bb24e899078935d1aeb0e65c226b6bf36a8b/brand/brand-assets/brand-color-palettes) for our brand colors. The colors are denoted with a *p* for primary, and *s* for secondary. Default to the following applications when using primary and secondary colors:
 
-- Backgrounds can use gradients or select solid colors: white, Charcoal, or purple 
+- Backgrounds can use gradients or select solid colors: white, Charcoal, or purple
 - Graphical elements should default to colors in the primary palette; the colors in the secondary palette can be used as additional accents.
 - Headlines and body copy should use white or charcoal.
 - Calls-to-actions and buttons should use white or charcoal.
 - Colors other than white or Charcoal should not be applied in sentences or large bodies of copy.
 - Hyperlinks commonly use Purple 01p on dark backgrounds or Purple 02p on light backgrounds.
-- Other text, such as small titles or data points, can have color applied sparingly and with discretion for accessibility with a contrast minimum of 1.4.3 (Level AA) according to [WCAG 2.1](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum). 
-
+- Other text, such as small titles or data points, can have color applied sparingly and with discretion for accessibility with a contrast minimum of 1.4.3 (Level AA) according to [WCAG 2.1](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum).
 
 ## Primary colors
 
@@ -33,10 +32,9 @@ The primary palette features colors from our core logo and signature purple. The
 
 The secondary palette expands upon our oranges and purples to provide more color varieties. These additional hues can be used to highlight various elements and add visual depth where needed. Adhere to the guidelines below regarding the colors in this palette:
 
-- The teals carry a positive connotation, especially when used to reference product features. 
+- The teals carry a positive connotation, especially when used to reference product features.
 - The pink is reserved exclusively for gradients.
 - The cool grays offer neutral color options to be used for differentiating information and/or establishing hierarchy.
-
 
 ### Secondary color palette
 
@@ -62,14 +60,14 @@ The secondary palette expands upon our oranges and purples to provide more color
 The main gradient for our core brand consists of Orange 02p, Purple 01p, and Pink 01s with a white base fill. In some cases, custom gradients can be created for a more curated aesthetic to differentiate an asset from general-branded designs. Follow the parameters below to ensure visual consistency across all gradients: 
 
 - All gradients should feel organic and not distract from other elements on the design.
-- All gradients should be generated using the freeform gradient feature in Illustrator, or by creating layered radial gradients in Figma. 
+- All gradients should be generated using the freeform gradient feature in Illustrator, or by creating layered radial gradients in Figma.
 - Gradients should be limited to no more than 3 colors, not including the base fill.
 - Colors should feel soft and gently blur into one another; in most cases, keeping opacities below 30% achieves this look.
 - Purple should always be included as one of the gradient’s colors.
-- Charcoal and gray should not be used. 
+- Charcoal and gray should not be used.
 - Light-mode gradients should use white as the base fill.
 - Dark-mode gradients should use Purple 04s as the base fill.
-- When adding text or our logo, ensure that they are placed on a part of the gradient that provides adequate contrast. 
+- When adding text or our logo, ensure that they are placed on a part of the gradient that provides adequate contrast.
 
 ## Contrast and accessibility
 
