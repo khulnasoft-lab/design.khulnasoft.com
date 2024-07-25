@@ -57,7 +57,7 @@ The secondary palette expands upon our oranges and purples to provide more color
 
 ## Gradients
 
-The main gradient for our core brand consists of Orange 02p, Purple 01p, and Pink 01s with a white base fill. In some cases, custom gradients can be created for a more curated aesthetic to differentiate an asset from general-branded designs. Follow the parameters below to ensure visual consistency across all gradients: 
+The main gradient for our core brand consists of Orange 02p, Purple 01p, and Pink 01s with a white base fill. In some cases, custom gradients can be created for a more curated aesthetic to differentiate an asset from general-branded designs. Follow the parameters below to ensure visual consistency across all gradients:
 
 - All gradients should feel organic and not distract from other elements on the design.
 - All gradients should be generated using the freeform gradient feature in Illustrator, or by creating layered radial gradients in Figma.
