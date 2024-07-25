@@ -10,16 +10,18 @@ name: Release notes
 
 - Added the following icons: [**duo-chat**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~duo-chat) and [**duo-chat-off**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~duo-chat-off).
 - Added the following illustrations: [**catalog-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/catalog-sm.svg), [**empty-catalog-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-catalog-md.svg), [**error-500-lg**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations%2Ferror%2Ferror-500-lg.svg), [**error-502-lg**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations%2Ferror%2Ferror-502-lg.svg) and [**error-503-lg**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations%2Ferror%2Ferror-503-lg.svg).
+- Added [**❖&nbsp;Tooltip**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=121178-28119&t=bv54MAp5zJRiIlrJ-4).
 
 ### Deprecations
 
-- Deprecated **long-arrow** icon. Use the [**arrow-right**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~arrow-right)instead.
-- Deprecated **merge-request-open** and **git-merge** icons. Use the [**merge-request**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~merge-request)instead.
-- Deprecated **folder-o** icon. Use the [**folder**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~folder)instead.
-- Deprecated **messages** icon. Use the [**bullhorn**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~bullhorn)instead.
-- Deprecated **remove-all** icon. Use the [**remove**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~remove)instead.
-- Deprecated **task-done** icon. Use the [**todo-done**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~todo-done)instead.
-- Deprecated **tachometer** icon. Use the [**dashboard**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~dashboard)instead.
+- Deprecated **long-arrow** icon. Use the [**arrow-right**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~arrow-right) instead.
+- Deprecated **merge-request-open** and **git-merge** icons. Use the [**merge-request**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~merge-request) instead.
+- Deprecated **folder-o** icon. Use the [**folder**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~folder) instead.
+- Deprecated **messages** icon. Use the [**bullhorn**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~bullhorn) instead.
+- Deprecated **remove-all** icon. Use the [**remove**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~remove) instead.
+- Deprecated **task-done** icon. Use the [**todo-done**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~todo-done) instead.
+- Deprecated **tachometer** icon. Use the [**dashboard**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~dashboard) instead.
+- Deprecated [**❖&nbsp;Tooltip**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=19944-2&t=Cjv3KbgvduhbjORs-4). Use the new [**❖&nbsp;Tooltip**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=121178-28119&t=bv54MAp5zJRiIlrJ-4) instead.
 
 ### Changes
 
