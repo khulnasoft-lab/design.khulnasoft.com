@@ -22,6 +22,8 @@ We've scoped these Figma variables by limiting the properties they can be applie
 
 ## Concepts
 
+Our design tokens are organized into conceptual categories that reflect their purpose and usage within the user interface. These categories help create consistent, accessible, and meaningful user experiences across the platform. When designing custom elements using design tokens, consider the context, user needs, and overall design consistency. Use appropriate color contrast and provide text alternatives for any visual indicators.
+
 ### Actions
 
 Actions are interactive elements that trigger or represent user actions. `action.*` design tokens give a common visual style for interactive elements across the GitLab UI.
@@ -46,53 +48,53 @@ Form elements and user inputs should use [`control.*` design tokens](#controls) 
 
 ### Feedback and status
 
-Feedback and status tokens help communicate information about the system, actions, and elements to users. While related, they serve distinct purposes in the user interface.
+Feedback and status design tokens help communicate information about the system, actions, and elements to users. While related, they serve distinct purposes in the user interface.
 
 #### Feedback
 
-Feedback tokens are used to communicate dynamic information about actions, events, or opportunities. They often require user attention or action.
+`feedback.*` design tokens are used to communicate dynamic information about the result of an action, events, or opportunities. They often require a user's attention or a user to take action.
 
-Use feedback tokens when:
+Use feedback design tokens when:
 
-- Notifying a user about system events (e.g., errors, successful actions)
+- Notifying a user about system events (for example, errors or successful actions)
 - Promoting new features or important information
 - Providing guidance or additional context
 
 Examples of custom feedback elements:
 
-- A floating notification that appears after a user action
-- An inline message providing context-sensitive help
-- A dismissible banner announcing important updates
+- A notice that alerts about unusual performance patterns, or an available dependancy update
+- An inline update providing compliance check feedback, or discovery of a new vulnerability
+- An addition to a collaboration activity stream
 
 #### Status
 
-Status tokens represent the current state or condition of an element or system. They provide static information that doesn't typically require immediate action.
+`status.*` design tokens represent the current state or condition of an element or system. They provide static information that doesn't typically require immediate action.
 
-Use status tokens when:
+Use status design tokens when:
 
-- Indicating the current state of an item (e.g., in progress, completed)
+- Indicating the current state of an item (for example, in progress or completed)
 - Showing priority or importance levels
 - Representing system health or connection status
 
 Examples of custom status elements:
 
-- A color-coded indicator showing task urgency
-- A small icon representing the confidentiality level of a document
-- A progress bar indicating the status of a long-running process
+- A color-coded indicator showing task urgency, or the current state of a CI pipline
+- A small icon representing the confidentiality level of a document, or the visibility of a repository
+- Text communicating the percentage of code covered by tests
 
 #### Choosing between feedback and status
 
-Use these factors to decide between feedback and status tokens:
+Use these factors to decide between using feedback and status design tokens:
 
 1. Persistence: Is the information temporary (feedback) or persistent until a state change (status)?
-2. Scope: Does it relate to a specific element (status) or a broader context (feedback)?
+2. Scope: Does it relate to a broader context (feedback) or a specific element (status)?
 3. Interactivity: Does it require user action (often feedback) or is it informational (typically status)?
 4. Timing: Is it triggered by an event or action (feedback) or always present (status)?
 
-While feedback and status serve different purposes, they can be used together to create a comprehensive user experience. For example, you might use a status token to show an item's current state, and a feedback token to notify users when that state changes.
-
-When designing custom elements using feedback and status tokens, consider the context, user needs, and overall design consistency. Use appropriate color contrast and provide text alternatives for any visual indicators.
+While feedback and status serve different purposes, they can be used together to create a comprehensive user experience. For example, you might use a `status.*` design token to show an item's current state, and a `feedback.*` design token to notify a user when that state changes.
 
 ### Patterns and matching
 
 <todo issue="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1816">Document token pairing for color patterns and token matching for conceptual patterns.</todo>
+
+<todo>Document accessibility considerations when matching</todo>
