@@ -7,7 +7,7 @@ This page includes [color swatches](https://gitlab.com/gitlab-com/marketing/bran
 - Backgrounds can use gradients or select solid colors: white, Charcoal, or purple
 - Graphical elements should default to colors in the primary palette; the colors in the secondary palette can be used as additional accents.
 - Headlines and body copy should use white or charcoal.
-- Calls-to-actions and buttons should use white or charcoal.
+- Calls to action (CTAs) and buttons should use white or charcoal.
 - Colors other than white or Charcoal should not be applied in sentences or large bodies of copy.
 - Hyperlinks commonly use Purple 01p on dark backgrounds or Purple 02p on light backgrounds.
 - Other text, such as small titles or data points, can have color applied sparingly and with discretion for accessibility with a contrast minimum of 1.4.3 (Level AA) according to [WCAG 2.1](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum).
