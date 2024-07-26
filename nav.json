@@ -78,10 +78,6 @@
         "path": "get-started",
         "items": [
           {
-            "title": "Navigating Pajamas",
-            "path": "navigating-pajamas"
-          },
-          {
             "title": "Contributing",
             "path": "contributing"
           },
@@ -94,7 +90,7 @@
             "path": "lifecycle"
           },
           {
-            "title": "Pajamas UI Kit (Figma)",
+            "title": "Pajamas UI Kit",
             "items": [
               {
                 "title": "File structure",
@@ -107,10 +103,6 @@
               {
                 "title": "Release notes",
                 "path": "uik-release-notes"
-              },
-              {
-                "title": "Roadmap",
-                "path": "uik-roadmap"
               }
             ]
           },
@@ -138,14 +130,6 @@
                 "path": "uik-breaking-changes"
               }
             ]
-          },
-          {
-            "title": "Resources",
-            "path": "resources"
-          },
-          {
-            "title": "Repository",
-            "path": "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com"
           }
         ]
       },
@@ -385,10 +369,6 @@
             "path": "skeleton-loader"
           },
           {
-            "title": "Socks",
-            "path": "socks"
-          },
-          {
             "title": "Sorting",
             "path": "sorting"
           },
@@ -514,90 +494,6 @@
         ]
       },
       {
-        "title": "Content",
-        "path": "content",
-        "items": [
-          {
-            "title": "UI text",
-            "path": "ui-text"
-          },
-          {
-            "title": "Verb tenses",
-            "path": "verb-tenses"
-          },
-          {
-            "title": "Punctuation",
-            "path": "punctuation"
-          },
-          {
-            "title": "Internationalization",
-            "path": "i18n"
-          },
-          {
-            "title": "Date and time",
-            "path": "date-and-time"
-          }
-        ]
-      },
-      {
-        "title": "Usability and interaction",
-        "path": "usability",
-        "items": [
-          {
-            "title": "AI-human interaction",
-            "path": "ai-human-interaction"
-          },
-          {
-            "title": "Affordance",
-            "path": "affordance"
-          },
-          {
-            "title": "Contextual help and info",
-            "path": "contextual-help"
-          },
-          {
-            "title": "Destructive actions",
-            "path": "destructive-actions"
-          },
-          {
-            "title": "Drag and drop",
-            "path": "drag-and-drop"
-          },
-          {
-            "title": "Feature discovery",
-            "path": "feature-discovery"
-          },
-          {
-            "title": "Feature management",
-            "path": "feature-management"
-          },
-          {
-            "title": "Loading",
-            "path": "loading"
-          },
-          {
-            "title": "Navigation sidebar",
-            "path": "navigation-sidebar"
-          },
-          {
-            "title": "Obfuscation",
-            "path": "obfuscation"
-          },
-          {
-            "title": "Progressive disclosure",
-            "path": "progressive-disclosure"
-          },
-          {
-            "title": "Saving and feedback",
-            "path": "saving-and-feedback"
-          },
-          {
-            "title": "Settings management",
-            "path": "settings-management"
-          }
-        ]
-      },
-      {
         "title": "Accessibility",
         "path": "accessibility",
         "items": [
@@ -652,6 +548,90 @@
             ]
           }
         ]
+      }
+    ]
+  },
+  {
+"title": "Usability and interaction",
+    "path": "usability",
+      "items": [
+        {
+          "title": "AI-human interaction",
+          "path": "ai-human-interaction"
+        },
+        {
+          "title": "Affordance",
+          "path": "affordance"
+        },
+        {
+          "title": "Contextual help and info",
+          "path": "contextual-help"
+        },
+        {
+          "title": "Destructive actions",
+          "path": "destructive-actions"
+        },
+        {
+          "title": "Drag and drop",
+          "path": "drag-and-drop"
+        },
+        {
+          "title": "Feature discovery",
+          "path": "feature-discovery"
+        },
+        {
+          "title": "Feature management",
+          "path": "feature-management"
+        },
+        {
+          "title": "Loading",
+          "path": "loading"
+        },
+        {
+          "title": "Navigation sidebar",
+          "path": "navigation-sidebar"
+        },
+        {
+          "title": "Obfuscation",
+          "path": "obfuscation"
+        },
+        {
+          "title": "Progressive disclosure",
+          "path": "progressive-disclosure"
+        },
+        {
+          "title": "Saving and feedback",
+          "path": "saving-and-feedback"
+        },
+        {
+          "title": "Settings management",
+          "path": "settings-management"
+        }
+    ]
+  },
+  {
+    "title": "Content",
+    "path": "content",
+    "items": [
+      {
+        "title": "UI text",
+        "path": "ui-text"
+      },
+      {
+        "title": "Verb tenses",
+        "path": "verb-tenses"
+      },
+      {
+        "title": "Punctuation",
+        "path": "punctuation"
+      },
+      {
+        "title": "Internationalization",
+        "path": "i18n"
+      },
+      {
+        "title": "Date and time",
+        "path": "date-and-time"
       }
     ]
   }
