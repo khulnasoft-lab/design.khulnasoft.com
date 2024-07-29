@@ -40,17 +40,11 @@ Interactivity can be communicated through implementing states such as `hover`, `
 
 Consider using existing GitLab components (such as [button](/components/button), [pagination](/components/pagination), or [tabs](/components/tabs)) that already implement action tokens. These provide consistent styling and behavior without custom implementation. For more information on available components, see the [components overview](/components/overview).
 
-Form elements and user inputs should use [`control.*` design tokens](#controls) instead of action design tokens.
-
 ### Controls
 
 <todo>Document control design tokens</todo>
 
-### Feedback and status
-
-Feedback and status design tokens help communicate information about the system, actions, and elements to users. While related, they serve distinct purposes in the user interface.
-
-#### Feedback
+### Feedback
 
 `feedback.*` design tokens are used to communicate dynamic information about the result of an action, events, or opportunities. They often require a user's attention or a user to take action.
 
@@ -66,7 +60,7 @@ Examples of custom feedback elements:
 - An inline update providing compliance check feedback, or discovery of a new vulnerability
 - An addition to a collaboration activity stream
 
-#### Status
+### Status
 
 `status.*` design tokens represent the current state or condition of an element or system. They provide static information that doesn't typically require immediate action.
 
@@ -82,7 +76,9 @@ Examples of custom status elements:
 - A small icon representing the confidentiality level of a document, or the visibility of a repository
 - Text communicating the percentage of code covered by tests
 
-#### Choosing between feedback and status
+## Considerations
+
+### Choosing between feedback and status
 
 Use these factors to decide between using feedback and status design tokens:
 
@@ -97,4 +93,6 @@ While feedback and status serve different purposes, they can be used together to
 
 <todo issue="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1816">Document token pairing for color patterns and token matching for conceptual patterns.</todo>
 
-<todo>Document accessibility considerations when matching</todo>
+### Accessibility considerations
+
+<todo>Document accessibility considerations when matching design tokens</todo>
