@@ -82,12 +82,75 @@ Examples of custom status elements:
 
 Use these factors to decide between using feedback and status design tokens:
 
-1. Persistence: Is the information temporary (feedback) or persistent until a state change (status)?
-2. Scope: Does it relate to a broader context (feedback) or a specific element (status)?
-3. Interactivity: Does it require user action (often feedback) or is it informational (typically status)?
-4. Timing: Is it triggered by an event or action (feedback) or always present (status)?
+<table>
+  <thead>
+    <tr>
+      <th>Characteristic</th>
+      <th>Feedback</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Purpose</td>
+      <td>Communicates changes or opportunities</td>
+      <td>Informs about current state</td>
+    </tr>
+    <tr>
+      <td>Timing</td>
+      <td>Triggered by events or changes</td>
+      <td>Always present</td>
+    </tr>
+    <tr>
+      <td>User attention</td>
+      <td>Often requires immediate action</td>
+      <td>Doesn't require immediate action</td>
+    </tr>
+    <tr>
+      <td>Persistence</td>
+      <td>Often temporary</td>
+      <td>Persistent until state changes</td>
+    </tr>
+    <tr>
+      <td>Scope</td>
+      <td>Can relate to entire system</td>
+      <td>Specific to particular element</td>
+    </tr>
+    <tr>
+      <td>Interactivity</td>
+      <td>May include interactive elements</td>
+      <td>Typically non-interactive</td>
+    </tr>
+    <tr>
+      <td>Examples</td>
+      <td>
+        <ul>
+          <li>Notice of performance issues</li>
+          <li>Dependency update alert</li>
+          <li>Compliance check results</li>
+          <li>New vulnerability notification</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Task urgency indicator</li>
+          <li>CI pipeline state</li>
+          <li>Repository visibility icon</li>
+          <li>Code coverage percentage</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-While feedback and status serve different purposes, they can be used together to create a comprehensive user experience. For example, you might use a `status.*` design token to show an item's current state, and a `feedback.*` design token to notify a user when that state changes.
+Additional considerations:
+
+1. Dynamic vs. Static: Feedback is often dynamic and changing, while status tends to be more static, changing only when the underlying state changes.
+1. Context: Consider the broader context of the user interface. Status tokens are often used within components or alongside specific elements, while feedback might appear separately or overlay other content.
+1. Combination use: In some cases, you might use both status and feedback design tokens together. For example, a status design tokens to show the current state of a CI/CD pipeline, with feedback design tokens to communicate that a merged result pipeline has failed.
+1. Active processes: For ongoing processes (like 'In Progress' or 'Syncing'), consider using status tokens, as these represent the current state even though they're dynamic.
+
+When in doubt, consider whether the information represents the current state of something (status) or is communicating about a change or the result of an event (feedback). Remember that the primary goal is to provide clear, consistent, and meaningful information to the user in the context of GitLab.
 
 ### Patterns and matching
 
