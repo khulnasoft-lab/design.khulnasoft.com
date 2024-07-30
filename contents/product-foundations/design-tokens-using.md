@@ -52,13 +52,13 @@ Use feedback design tokens when:
 
 - Notifying a user about a system event (for example, an error or successful action).
 - Promoting a new feature or important information.
-- Providing guidance or additional context
+- Providing guidance or additional context.
 
 Examples of custom feedback elements:
 
-- A notice that alerts about unusual performance patterns, or an available dependancy update
-- An inline update providing compliance check feedback, or discovery of a new vulnerability
-- An addition to a collaboration activity stream
+- A notice that alerts about unusual performance patterns, or an available dependancy update.
+- An inline update providing compliance check feedback, or discovery of a new vulnerability.
+- An addition to a collaboration activity stream.
 
 ### Status
 
@@ -66,15 +66,15 @@ Examples of custom feedback elements:
 
 Use status design tokens when:
 
-- Indicating the current state of an item (for example, in progress or completed)
-- Showing priority or importance levels
-- Representing system health or connection status
+- Indicating the current state of an item (for example, in progress or completed).
+- Showing a priority or importance level.
+- Representing system health or connection status.
 
 Examples of custom status elements:
 
-- A color-coded indicator showing task urgency, or the current state of a CI pipline
-- A small icon representing the confidentiality level of a document, or the visibility of a repository
-- Text communicating the percentage of code covered by tests
+- A color-coded indicator showing task urgency, or the current state of a CI pipline.
+- A small icon representing the confidentiality level of a document, or the visibility of a repository.
+- Text communicating code test coverage as a percentage.
 
 ## Considerations
 
@@ -125,18 +125,18 @@ Use these factors to decide between using feedback and status design tokens:
       <td>Examples</td>
       <td>
         <ul>
-          <li>Notice of performance issues</li>
-          <li>Dependency update alert</li>
-          <li>Compliance check results</li>
-          <li>New vulnerability notification</li>
+          <li>Notice of a performance issue.</li>
+          <li>Dependency update alert.</li>
+          <li>Compliance check results.</li>
+          <li>New vulnerability notification.</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>Task urgency indicator</li>
-          <li>CI pipeline state</li>
-          <li>Repository visibility icon</li>
-          <li>Code coverage percentage</li>
+          <li>Task urgency indicator.</li>
+          <li>CI pipeline state.</li>
+          <li>Repository visibility icon.</li>
+          <li>Code coverage percentage.</li>
         </ul>
       </td>
     </tr>
@@ -146,9 +146,9 @@ Use these factors to decide between using feedback and status design tokens:
 Additional considerations:
 
 1. Dynamic vs. static: Feedback is often dynamic and changing, while status tends to be more static, changing only when the underlying state changes.
-1. Context: Consider the broader context of the user interface. Status tokens are often used within components or alongside specific elements, while feedback might appear separately or overlay other content.
-1. Combination use: In some cases, you might use both status and feedback design tokens together. For example, a status design tokens to show the current state of a CI/CD pipeline, with feedback design tokens to communicate that a merged result pipeline has failed.
-1. Active processes: For ongoing processes (like 'In Progress' or 'Syncing'), consider using status tokens, as these represent the current state even though they're dynamic.
+1. Context: Consider the broader context of the user interface. Status is often used within components or alongside specific elements, while feedback might appear separately or overlay other content.
+1. Combination use: In some cases, you might use both status and feedback design tokens together. For example, status design tokens to show the current state of a CI/CD pipeline, with feedback design tokens to communicate that a merged result pipeline has failed.
+1. Active processes: For ongoing processes (like 'in progress' or 'syncing'), consider using status, as these represent the current state even though they're dynamic.
 
 When in doubt, consider whether the information represents the current state of something (status) or is communicating a change or the result of an event (feedback). Remember that the primary goal is to provide clear, consistent, and meaningful information to the user in the context of GitLab.
 
