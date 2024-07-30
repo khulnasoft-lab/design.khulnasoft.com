@@ -22,7 +22,7 @@ We've scoped these Figma variables by limiting the properties they can be applie
 
 ## Concepts
 
-Our design tokens are organized into conceptual categories that reflect their purpose and usage within the user interface. These categories help create consistent, accessible, and meaningful user experiences across the platform. When designing custom elements using design tokens, consider the context, user needs, and overall design consistency. Use appropriate color contrast and provide text alternatives for any visual indicators.
+Our design tokens are organized into conceptual categories that reflect their purpose and usage within the user interface. These categories help create consistent, accessible, and meaningful user experiences across the product. Consider the context, user needs, and overall design consistency when designing custom elements that use design tokens. Use sufficient color contrast and provide text alternatives for all visual indicators.
 
 ### Actions
 
@@ -46,12 +46,12 @@ Consider using existing GitLab components (such as [button](/components/button),
 
 ### Feedback
 
-`feedback.*` design tokens are used to communicate dynamic information about the result of an action, events, or opportunities. They often require a user's attention or a user to take action.
+`feedback.*` design tokens are used to communicate dynamic information about the result of an action, event, or opportunity. Feedback often requires a user's attention or action.
 
 Use feedback design tokens when:
 
-- Notifying a user about system events (for example, errors or successful actions)
-- Promoting new features or important information
+- Notifying a user about a system event (for example, an error or successful action).
+- Promoting a new feature or important information.
 - Providing guidance or additional context
 
 Examples of custom feedback elements:
@@ -62,7 +62,7 @@ Examples of custom feedback elements:
 
 ### Status
 
-`status.*` design tokens represent the current state or condition of an element or system. They provide static information that doesn't typically require immediate action.
+`status.*` design tokens represent the current state or condition of an element or system. A status item provides static information that doesn't typically require immediate action.
 
 Use status design tokens when:
 
@@ -145,12 +145,12 @@ Use these factors to decide between using feedback and status design tokens:
 
 Additional considerations:
 
-1. Dynamic vs. Static: Feedback is often dynamic and changing, while status tends to be more static, changing only when the underlying state changes.
+1. Dynamic vs. static: Feedback is often dynamic and changing, while status tends to be more static, changing only when the underlying state changes.
 1. Context: Consider the broader context of the user interface. Status tokens are often used within components or alongside specific elements, while feedback might appear separately or overlay other content.
 1. Combination use: In some cases, you might use both status and feedback design tokens together. For example, a status design tokens to show the current state of a CI/CD pipeline, with feedback design tokens to communicate that a merged result pipeline has failed.
 1. Active processes: For ongoing processes (like 'In Progress' or 'Syncing'), consider using status tokens, as these represent the current state even though they're dynamic.
 
-When in doubt, consider whether the information represents the current state of something (status) or is communicating about a change or the result of an event (feedback). Remember that the primary goal is to provide clear, consistent, and meaningful information to the user in the context of GitLab.
+When in doubt, consider whether the information represents the current state of something (status) or is communicating a change or the result of an event (feedback). Remember that the primary goal is to provide clear, consistent, and meaningful information to the user in the context of GitLab.
 
 ### Patterns and matching
 
