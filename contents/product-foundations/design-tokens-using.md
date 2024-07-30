@@ -32,9 +32,9 @@ To create bespoke interactive elements, combine background, foreground, and bord
 
 Action tokens support three contexts:
 
-- `neutral`: Default for most actions
-- `confirm`: For positive outcome actions
-- `danger`: For potentially destructive actions
+- `neutral`: Default for most actions.
+- `confirm`: For positive outcome actions.
+- `danger`: For potentially destructive actions.
 
 Interactivity can be communicated through implementing states such as `hover`, `focus`, and `active`.
 
@@ -42,7 +42,7 @@ Consider using existing GitLab components (such as [button](/components/button),
 
 ### Controls
 
-<todo>Document control design tokens</todo>
+<todo>Document control design tokens.</todo>
 
 ### Feedback
 
@@ -158,4 +158,4 @@ When in doubt, consider whether the information represents the current state of 
 
 ### Accessibility considerations
 
-<todo>Document accessibility considerations when matching design tokens</todo>
+<todo>Document accessibility considerations when matching design tokens.</todo>
