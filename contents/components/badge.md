@@ -43,13 +43,13 @@ related:
 
 ### Variants
 
-- **Neutral muted** (default): Metadata that requires the least amount of visual emphasis and has a neutral meaning.
-- **Neutral**: Metadata that has a neutral meaning.
-- **Info**: Metadata that's informative or new and also has a neutral meaning.
-- **Success**: Metadata that communicates success or completion with a positive meaning.
-- **Warning**: Metadata that requires attention and a slightly negative meaning.
-- **Danger**: Metadata that indicates a problem and has a negative meaning.
-- **Tier**: Metadata that indicates which product tier an entity belongs to
+- **Neutral muted** (default): Metadata that is stable and requires minimal emphasis. Has a neutral connotation.
+- **Neutral**: Metadata that is stable but special, or that requires moderate emphasis. Has a neutral connotation.
+- **Info**: Metadata that is noteworthy, or communicates a state of active progress. Has a neutral to slightly positive connotation.
+- **Success**: Metadata that is positive or desired. Has a clearly positive connotation.
+- **Warning**: Metadata that is sub-optimal byt not critical. Has a slightly negative connotation.
+- **Danger**: Metadata that is critical or problematic. Has a strongly negative connotation.
+- **Tier**: Metadata that indicates which product tier an entity belongs to.
 
 ### Sizes
 
