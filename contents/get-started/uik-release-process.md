@@ -10,7 +10,7 @@ The Pajamas UI Kit will have a new release (version) published at the end of eac
   - Enhancements - Improvements to everything from leveraging Figma features to component, workflow, and documentation. Breaking changes can also be due to an enhancement.
   - Changes - Neutral or breaking changes and deprecation mentions. Also consider mentioning deprecations that will happen in the next release.
   - Fixes - Squashing bugs, errors, or otherwise broken items.
-- Use a simple present (implied subject) when adding to the release notes. This will help the notes feel concise and relevant. For example:
+- Use the simple present tense with an implied subject when adding to the release notes. This will help the notes feel concise and relevant. For example:
   - Adds [itemName].
   - Fixes [itemName].
   - Changes [itemName].
