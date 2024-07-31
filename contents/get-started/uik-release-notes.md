@@ -6,6 +6,28 @@ name: Release notes
 
 [_Draft: 17.3 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3939)
 
+### Additions
+
+- Adds icons: [**duo-chat**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~duo-chat), [**duo-chat-off**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~duo-chat-off), and [**entity-blocking**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~entity-blocking).
+- Adds illustrations: [**catalog-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/catalog-sm.svg), [**empty-catalog-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-catalog-md.svg), [**error-500-lg**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations%2Ferror%2Ferror-500-lg.svg), [**error-502-lg**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations%2Ferror%2Ferror-502-lg.svg), [**error-503-lg**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations%2Ferror%2Ferror-503-lg.svg), and [**empty-secrets-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-secrets-md.svg).
+- Adds [**❖&nbsp;Tooltip**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=121178-28119&t=bv54MAp5zJRiIlrJ-4). New, refactored.
+
+### Deprecations
+
+- Deprecates **long-arrow** icon. Use [**arrow-right**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~arrow-right) instead.
+- Deprecates **merge-request-open** and **git-merge** icons. Use [**merge-request**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~merge-request) instead.
+- Deprecates **folder-o** icon. Use [**folder**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~folder) instead.
+- Deprecates **messages** icon. Use [**bullhorn**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~bullhorn) instead.
+- Deprecates **remove-all** icon. Use [**remove**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~remove) instead.
+- Deprecates **task-done** icon. Use [**todo-done**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~todo-done) instead.
+- Deprecates **tachometer** icon. Use [**dashboard**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~dashboard) instead.
+- Deprecates [**❖&nbsp;Tooltip**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=19944-2&t=Cjv3KbgvduhbjORs-4). Use new [**❖&nbsp;Tooltip**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=121178-28119&t=bv54MAp5zJRiIlrJ-4) instead.
+
+### Changes
+
+- Updates [**tanuki-ai**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~tanuki-ai) icon sparkles shape.
+- Updates [**comment**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~comment), [**comment-next**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~comment-next), [**comment-lines**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~comment-lines) and [**comment-dots**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~comment-dots) icons bubble shape.
+
 ## 17.2
 
 <small>Published 2024-07-12</small>
