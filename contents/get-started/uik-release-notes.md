@@ -27,6 +27,7 @@ name: Release notes
 
 - Updates [**tanuki-ai**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~tanuki-ai) icon sparkles shape.
 - Updates [**comment**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~comment), [**comment-next**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~comment-next), [**comment-lines**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~comment-lines) and [**comment-dots**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~comment-dots) icons bubble shape.
+- Updates **❖&nbsp;Label** usage in the UI kit and adds [instances](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=121579-18249&t=saeRBlcQWRfDkFuM-4).
 
 ## 17.2
 
