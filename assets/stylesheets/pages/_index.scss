@@ -1,7 +1,7 @@
-.brand-text-gradient {
-  background: linear-gradient(to right, var(--gl-color-brand-purple-01g), var(--gl-color-brand-pink-01g), var(--gl-color-brand-orange-01g));
-  -webkit-background-clip: text;
+.brand-gradient-heading {
+  background: linear-gradient(123deg, var(--gl-color-brand-orange-01p) 20%, var(--gl-color-brand-purple-01p) 45.5%, var(--gl-color-brand-purple-02p) 80%);
   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
+  font-size: 4rem;
 }
