@@ -7,11 +7,7 @@
         class="gl-grid gl-place-items-center gl-text-center gl-min-h-48"
       >
         <div>
-          <img
-            alt=""
-            src="../assets/images/pajamas_logo.svg"
-            class="gl-h-auto gl-w-10 gl-inline-block gl-mb-3"
-          />
+          <img src="../assets/pajamas-logo.svg" alt="" width="42" height="72" />
           <h1 id="skipTarget" class="gl-heading-display gl-mb-3! brand-text-gradient">
             Pajamas design system
           </h1>
