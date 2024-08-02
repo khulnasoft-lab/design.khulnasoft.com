@@ -13,6 +13,7 @@ On this page you will find the most up-to-date brand assets. If you have questio
 - [RGB and CMYK swatch downloads](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/tree/f81b3dc6fa86539e2ae5c9243f8b195c3f81abac/brand/brand-assets/brand-color-palettes) (Internal access only)
 
 ## Typography
+
 - [Font downloads](https://gitlab-org.gitlab.io/frontend/fonts/) for GitLab Sans and GitLab Mono
 
 ## Marketing illustrations
