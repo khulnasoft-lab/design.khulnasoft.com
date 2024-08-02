@@ -8,9 +8,7 @@
       >
         <div>
           <img src="../assets/pajamas-logo.svg" alt="" width="42" height="72" />
-          <h1 id="skipTarget" class="gl-heading-display gl-mb-3! brand-text-gradient">
-            Pajamas design system
-          </h1>
+          <h1 id="skipTarget" class="gl-my-3! brand-gradient-heading">Pajamas</h1>
           <p class="gl-text-lg">Resources, components, and design guidelines behind GitLab</p>
         </div>
       </section>
