@@ -20,7 +20,7 @@
       </section>
 
       <section aria-labelledby="everyone-can-contribute" class="gl-my-10">
-        <div class="gl-grid lg:gl-grid-cols-2 gl-gap-5 gl-place-items-center">
+        <div class="gl-grid lg:gl-grid-cols-2 gl-gap-7 gl-place-items-center">
           <div class="lg:gl-order-last">
             <img
               alt=""
@@ -51,7 +51,7 @@
       </section>
 
       <section aria-labelledby="everything-you-need" class="gl-my-10">
-        <div class="gl-grid lg:gl-grid-cols-2 gl-gap-5 gl-place-items-center">
+        <div class="gl-grid lg:gl-grid-cols-2 gl-gap-7 gl-place-items-center">
           <div>
             <img alt="" class="two-column-image" src="../assets/images/content.svg" />
           </div>
@@ -70,7 +70,7 @@
       </section>
 
       <section aria-labelledby="contributing" class="gl-my-10">
-        <div class="gl-grid lg:gl-grid-cols-2 gl-gap-5 gl-place-items-center">
+        <div class="gl-grid lg:gl-grid-cols-2 gl-gap-7 gl-place-items-center">
           <div class="lg:gl-order-last">
             <img
               alt=""
