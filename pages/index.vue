@@ -1,19 +1,20 @@
 <template>
   <div class="index typography">
     <nuxt-child />
-    <div class="container">
-      <section
-        aria-labelledby="skipTarget"
-        class="gl-grid gl-place-items-center gl-text-center gl-min-h-48"
-      >
+    <section aria-labelledby="skipTarget" class="homepage-hero gl-m-5 gl-rounded-6">
+      <div class="container gl-grid gl-place-items-center gl-text-center gl-min-h-48">
         <div>
-          <img src="../assets/pajamas-logo.svg" alt="" width="42" height="72" />
-          <h1 id="skipTarget" class="gl-my-3! brand-gradient-heading">Pajamas</h1>
-          <p class="gl-text-lg">Resources, components, and design guidelines behind GitLab</p>
+          <img src="../assets/pajamas-logo.svg" alt="" width="56" height="96" />
+          <h1 id="skipTarget" class="gl-my-3! gl-heading-display homepage-hero-heading">Pajamas</h1>
+          <p class="gl-text-lg homepage-hero-text">
+            Resources, components, and design guidelines behind GitLab
+          </p>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section aria-labelledby="everyone-can-contribute" class="gl-my-10">
+    <section aria-labelledby="everyone-can-contribute" class="gl-my-10">
+      <div class="container">
         <div class="gl-grid lg:gl-grid-cols-2 gl-gap-7 gl-place-items-center">
           <div class="lg:gl-order-last">
             <img
@@ -42,9 +43,11 @@
             </p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section aria-labelledby="everything-you-need" class="gl-my-10">
+    <section aria-labelledby="everything-you-need" class="gl-my-10">
+      <div class="container">
         <div class="gl-grid lg:gl-grid-cols-2 gl-gap-7 gl-place-items-center">
           <div>
             <img alt="" class="two-column-image" src="../assets/images/content.svg" />
@@ -61,9 +64,11 @@
             </p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section aria-labelledby="contributing" class="gl-my-10">
+    <section aria-labelledby="contributing" class="gl-my-10">
+      <div class="container">
         <div class="gl-grid lg:gl-grid-cols-2 gl-gap-7 gl-place-items-center">
           <div class="lg:gl-order-last">
             <img
@@ -87,9 +92,11 @@
             </p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <nav class="gl-my-10">
+    <nav class="gl-my-10">
+      <div class="container">
         <ul class="gl-grid gl-grid-cols-3 gl-gap-3 gl-list-none gl-m-0 gl-p-0">
           <li>
             <a
@@ -98,8 +105,8 @@
               class="gl-block gl-rounded-base gl-p-3 gl-text-center"
             >
               <img
-                width="32"
-                height="32"
+                width="48"
+                height="48"
                 src="../assets/images/resources/r-solid.png"
                 class="gl-mx-auto gl-block"
                 alt=""
@@ -114,8 +121,8 @@
               class="gl-block gl-rounded-base gl-p-3 gl-text-center"
             >
               <img
-                width="32"
-                height="32"
+                width="48"
+                height="48"
                 src="../assets/images/resources/r-outline.png"
                 class="gl-mx-auto gl-block"
                 alt=""
@@ -130,8 +137,8 @@
               class="gl-block gl-rounded-base gl-p-3 gl-text-center"
             >
               <img
-                width="32"
-                height="32"
+                width="48"
+                height="48"
                 src="../assets/images/resources/r-figma.png"
                 class="gl-mx-auto gl-block"
                 alt=""
@@ -140,7 +147,7 @@
             </a>
           </li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </div>
 </template>
