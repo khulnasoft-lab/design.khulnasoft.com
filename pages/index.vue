@@ -5,10 +5,9 @@
       <div class="container gl-grid gl-place-items-center gl-text-center gl-min-h-48">
         <div>
           <img src="../assets/pajamas-logo.svg" alt="" width="56" height="96" />
-          <h1 id="skipTarget" class="gl-my-3! gl-heading-display homepage-hero-heading">Pajamas</h1>
-          <p class="gl-text-lg homepage-hero-text">
-            Resources, components, and design guidelines behind GitLab
-          </p>
+          <h1 id="skipTarget" class="gl-my-3! gl-heading-display homepage-hero-heading">
+            Pajamas Design System
+          </h1>
         </div>
       </div>
     </section>
@@ -19,7 +18,6 @@
           <div class="lg:gl-order-last">
             <img
               alt=""
-              class="two-column-image"
               src="../assets/images/contribute.png"
               srcset="../assets/images/contribute@2x.png 2x"
             />
@@ -50,7 +48,7 @@
       <div class="container">
         <div class="gl-grid lg:gl-grid-cols-2 gl-gap-7 gl-place-items-center">
           <div>
-            <img alt="" class="two-column-image" src="../assets/images/content.svg" />
+            <img alt="" src="../assets/images/content.svg" />
           </div>
           <div>
             <h2 id="everything-you-need" class="gl-heading-2">Everything you need</h2>
@@ -71,11 +69,7 @@
       <div class="container">
         <div class="gl-grid lg:gl-grid-cols-2 gl-gap-7 gl-place-items-center">
           <div class="lg:gl-order-last">
-            <img
-              alt=""
-              class="two-column-image two-column-image--small"
-              src="../assets/images/pajamas_stars.svg"
-            />
+            <img alt="" src="../assets/images/pajamas_stars.svg" />
           </div>
           <div>
             <h2 id="contributing" class="gl-heading-2">Contributing to the design system</h2>
