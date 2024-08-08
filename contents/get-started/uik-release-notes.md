@@ -13,8 +13,8 @@ name: Release notes
 ### Additions
 
 - Breaking (high): Adds [**❖&nbsp;Badge**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=121748-1095&t=ecNprMcPJ9xOuyYp-4). One size to rule them all! Also fixes an intermittent icon color bug.
-- Breaking (high): Adds [**❖&nbsp;Breadcrumb**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=121134-113210&t=ecNprMcPJ9xOuyYp-4). Loafs more useful options, much butter avatars, and go with the grain with new quick presets  — its the yeast we can do!
-- Breaking (high): Adds [**❖&nbsp;Tooltip**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=121178-28119&t=bv54MAp5zJRiIlrJ-4). New, shiny, informative. All the same features, but refactored not to use a base component.
+- Breaking (high): Adds [**❖&nbsp;Breadcrumb**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=121134-113210&t=ecNprMcPJ9xOuyYp-4). Loafs more useful options, much butter avatars, and go with the grain with new quick presets  — it's the yeast we can do!
+- Breaking (high): Adds [**❖&nbsp;Tooltip**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=121178-28119&t=bv54MAp5zJRiIlrJ-4). New, shiny, informative. All the same features, but refactored to not use a base component.
 - Adds icons: [**duo-chat**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~duo-chat), [**duo-chat-off**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~duo-chat-off), and [**entity-blocking**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~entity-blocking).
 - Adds illustrations: [**catalog-sm**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/catalog-sm.svg), [**empty-catalog-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-catalog-md.svg), [**error-500-lg**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations%2Ferror%2Ferror-500-lg.svg), [**error-502-lg**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations%2Ferror%2Ferror-502-lg.svg), [**error-503-lg**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations/?q=illustrations%2Ferror%2Ferror-503-lg.svg), and [**empty-secrets-md**](https://gitlab-org.gitlab.io/gitlab-svgs/illustrations?q=illustrations/empty-secrets-md.svg).
 
@@ -46,6 +46,7 @@ name: Release notes
 - Deprecates **remove-all** icon. Use [**remove**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~remove) instead.
 - Deprecates **task-done** icon. Use [**todo-done**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~todo-done) instead.
 - Deprecates **tachometer** icon. Use [**dashboard**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~dashboard) instead.
+- Deprecates **issue-blocked** icon. Use [**entity-blocking**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~entity-blocking) or [**entity-blocked**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~entity-blocked) instead.
 
 ## 17.2
 
