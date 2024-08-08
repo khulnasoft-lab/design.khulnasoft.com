@@ -44,7 +44,7 @@ These smaller icons complement text or relevant content to indicate the general 
 
 ### Pipeline icons
 
-These icons represent the status of a pipeline, like running and pending. There are both bordered and borderless versions of each icon. They use a separate grid from all other icons and are also used to generate favicons associated with web pages. Although a pipeline status can overlap conceptually with status elsewhere in the product, these icons are strictly limited to the pipeline context. These icons are prefixed with `[`status_`](https://gitlab-org.gitlab.io/gitlab-svgs/?q=status_).
+These icons represent the status of a pipeline, like running and pending. There are both bordered and borderless versions of each icon. They use a separate grid from all other icons and are also used to generate favicons associated with web pages. Although a pipeline status can overlap conceptually with status elsewhere in the product, these icons are strictly limited to the pipeline context. These icons are prefixed with [`status_`](https://gitlab-org.gitlab.io/gitlab-svgs/?q=status_).
 
 ### File and folder type icons
 
