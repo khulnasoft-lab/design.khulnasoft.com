@@ -2,9 +2,13 @@
 name: Release notes
 ---
 
+## 17.4
+
+[_Draft: 17.4 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3991)
+
 ## 17.3
 
-[_Draft: 17.3 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3939)
+<small>Published 2024-08-08</small>
 
 ### Additions
 
