@@ -1,5 +1,5 @@
 <script>
-import { iframeResize } from 'iframe-resizer';
+import { iframeResize } from '@iframe-resizer/parent';
 import { GlLoadingIcon } from '../helpers/gitlab_ui';
 import { SkipOneTrustDirective } from '../directives/skip_one_trust_directive';
 

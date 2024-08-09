@@ -1,6 +1,6 @@
 import { GlLoadingIcon } from '@gitlab/ui';
 import { mount } from '@vue/test-utils';
-import { iframeResize } from 'iframe-resizer';
+import { iframeResize } from '@iframe-resizer/parent';
 import StoryIframe from '../../components/story_iframe.vue';
 
 jest.mock('iframe-resizer');
