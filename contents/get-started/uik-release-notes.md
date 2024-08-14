@@ -6,6 +6,8 @@ name: Release notes
 
 [_Draft: 17.4 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3991)
 
+- Adds icons: [**tanuki-ai-off**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~tanuki-ai-off).
+
 ## 17.3
 
 <small>Published 2024-08-08</small>
