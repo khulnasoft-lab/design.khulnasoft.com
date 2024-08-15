@@ -23,7 +23,7 @@ Set expectations about a buttons's relationship to AI by using an AI-specific ic
 
 ### CTA label
 
-Avoid using "GitLab Duo" or "AI" directly in the CTA label. Use onboarding, supplemental UI copy, or iconography to convey that the feature is AI-powered.
+Avoid using "GitLab Duo" or "AI" directly in the CTA label. Instead, use onboarding, supplemental UI copy, or iconography to convey that the feature is AI-powered.
 
 | Do                                                                                                                                   | Don't                                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
@@ -31,7 +31,7 @@ Avoid using "GitLab Duo" or "AI" directly in the CTA label. Use onboarding, supp
 
 ### Indicate feature maturity
 
-Indicate [feature maturity](/usability/feature-management#highlighting-feature-versions) outside of the CTA.
+When a feature is experimental or beta, display that information with a badge outside a button according to the [guidelines]((/usability/feature-management#highlighting-feature-versions).
 
 | Do                                                                                                                                                                                                                     | Don't                                                                                                                                                          |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
