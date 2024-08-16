@@ -87,5 +87,5 @@ Feature visibility is dependent on a user's permissions or subscription levels, 
 
 * When the user has access to a feature but it's not currently enabled. In this scenario, a feature may be visible but disabled. When a feature is disabled, there should be an explanation for why it's disabled, or controls that allow a user to enable or request access to the feature.
 * When child-level settings are enabled from a parent level. In this scenario, a feature may be disabled or replaced with a read-only equivalent. There should be text explaining that the setting is configured at the parent level.
-* Exposing a message to explain why an feature is not available is preferrable to disabling the feature. For example, instead of disabling the merge button on a merge request with outstanding approvals, the button is replaced with copy to explain the state, _Merge blocked: all required approvals must be given_.
+* Exposing a message to explain why a feature is not available is preferable to disabling the feature. For example, instead of disabling the merge button on a merge request with outstanding approvals, the button is replaced with copy to explain the state, _Merge blocked: all required approvals must be given_.
   * If an element needs to be disabled, consider wrapping it in a focusable element that can trigger a [tooltip](/components/tooltip).
