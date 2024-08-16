@@ -31,7 +31,7 @@ Avoid using "GitLab Duo" or "AI" directly in the CTA label. Instead, use onboard
 
 ### Indicate feature maturity
 
-When a feature is experimental or beta, display that information with a badge outside a button according to the [guidelines]((/usability/feature-management#highlighting-feature-versions).
+When a feature is experimental or beta, display that information with a badge outside a button according to the [guidelines](/usability/feature-management#highlighting-feature-versions).
 
 | Do                                                                                                                                                                                                                     | Don't                                                                                                                                                          |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
