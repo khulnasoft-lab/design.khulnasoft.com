@@ -108,6 +108,7 @@ States change visually and/or programmatically depending on user interaction or 
 - **Disabled**: Prevents the user from performing an action. It lets the user know a certain action would be possible if circumstances were different. All buttons regardless of variant appear the same when disabled. Additionally, they will show the "not-allowed" cursor when hovered. To include [tooltip](/components/tooltip) or [popover](/components/popover) content with a disabled button, wrap the button with an element that can receive focus and trigger the content.
 
 <todo>Provide an example of a disabled button with a tooltip or popover.</todo>
+
 - **Loading**: Place a button in the loading state with the `loading` property. The loading status is indicated by the use of a [spinner](/components/spinner), and the button is disabled while the state persists.
   - For [buttons containing text](#combinations), the spinner is added to the left of the button, before the icon or label.
   - For icon buttons, the spinner replaces the icon.
