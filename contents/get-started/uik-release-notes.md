@@ -6,7 +6,13 @@ name: Release notes
 
 [_Draft: 17.4 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3991)
 
+### Additions
+
 - Adds icons: [**tanuki-ai-off**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~tanuki-ai-off).
+
+### Changes
+
+- Updates **❖&nbsp;Link** to use design tokens.
 
 ## 17.3
 
