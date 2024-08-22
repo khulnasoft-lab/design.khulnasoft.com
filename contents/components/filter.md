@@ -13,7 +13,7 @@ related:
 
 ## Examples
 
-<story-viewer component="base-filtered-search" title="Filtered search"></story-viewer>
+<story-viewer component="base-filtered-search" title="Filtered search" story="with-terms-as-tokens"></story-viewer>
 
 <todo>Add Filter to Pajamas UI Kit.</todo>
 
