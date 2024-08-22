@@ -11,6 +11,8 @@ related:
 
 <story-viewer component="base-link" story="default-link" title="Link"></story-viewer>
 
+<todo>Add examples for all link variants.</todo>
+
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=81916-116837&mode=design)
 
 ## Structure
@@ -44,15 +46,12 @@ There are four categories of links in GitLab. Although all links are navigationa
 
 ### Appearance
 
-- An inline text link is always underlined and `$blue-700` at rest. On hover, the color darkens and the underline persists. It appears this way regardless of formatting applied (bold, italic, or monospace) or parent text element (heading, paragraph, list, or code).
-- A UI link is always `$blue-500` at rest with no underline. On hover, the color darkens and an underline appears.
-- As meta links can represent a wide variety of content, their styles can also adapt for each context. The attribute all meta links share is an underline only on hover. At rest they can be `$blue-500`, `$gray-900`, or `$gray-700`. On hover, the color darkens. Similar to inline links they appear this way regardless of formatting applied (bold, italic, monospace). Because of the available styling, which overlaps with static text, it's critical to ensure that users understand what is linked and what isn't in each context. Additionally, similar types of linked meta content should be styled the same throughout the product.
-- A mention link is always `$blue-700` and has a background color behind the link at rest; `$blue-100` for any user, and `$orange-100` for the current user. When embedded in body text and on hover the text is underlined.
-- An inline or mention link uses a darker blue to ensure sufficient contrast on surfaces that use a `50` or `100` step from the [UI color palette](/product-foundations/color#ui), while a UI or meta link uses a more vibrant blue and relies on CSS blend modes to increase contrast on different surfaces.
-- Although a UI or blue meta link has a style similar to a [link button](/components/button#variants), select the correct component based on meaning rather than by appearance alone (see [When to use](#when-to-use) above).
+- An inline text link should always be underlined to distinguish it from surrounding text, regardless of formatting applied (bold, italic, or monospace) or parent text element (heading, paragraph, list, or code).
+- A UI link has no underline at rest, but is underlined for hover, focus, and active states.
+- Meta links represent a wide variety of content and their style adapts for each context. Meta links don't have an underline at rest, but are underlined for hover, focus, and active states. Similar to inline links, they appear this way regardless of formatting applied (bold, italic, monospace). Because of the available styling, which can appear similar to unlinked text, it's critical to ensure that users understand what is linked and what isn't in each context. Additionally, similar types of linked meta content should be styled the same throughout the product.
+- A mention link has a background color behind the link at rest. When embedded in body text and on hover the text is underlined.
+- Although a UI or meta link can have a style similar to a [link button](/components/button#variants), select the correct component based on meaning rather than by appearance alone (see [When to use](#when-to-use) above).
 - All links have a visible focus state (see [Accessibility](#accessibility) notes below).
-
-<todo>Add visual example of link appearance.</todo>
 
 ### Behavior
 
