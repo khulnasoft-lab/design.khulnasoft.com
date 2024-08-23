@@ -9,7 +9,7 @@ related:
 
 ## Overview
 
-A _call to action_ (CTA) is an interactive element that prompt users to take a specific action. GitLab Duo CTAs follow [button](/components/button) and [link](/components/link) guidelines, with some additional considerations.
+A _call to action_ (CTA) is an interactive element that prompts users to take a specific action. GitLab Duo CTAs follow [button](/components/button) and [link](/components/link) guidelines, with some additional considerations.
 
 ## Guidelines
 
@@ -21,7 +21,9 @@ When reasonable, use an AI-specific icon to set expectations about a CTA's relat
 | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | <figure-img alt="Default button with tanuki-ai icon" label="Button uses AI-specific icon." src="/img/ai-cta-with-icon.svg"></figure-img> | <figure-img alt="Default button without tanuki-ai icon." label="Button omits AI-specific icon." src="/img/ai-cta-without-icon.svg"></figure-img> |
 
-In the UI, there is no specific color associated with AI or GitLab Duo. The color of the icon follows the component-specific guidelines, like [button](/components/button) variants. This differs from marketing, which has specific colors for the [GitLab Duo visual identity](https://docs.google.com/presentation/d/1G849KWal8XDAEdusoR5YN8ZrZlvcgFVnqr4Nsjdy9Rc/edit#slide=id.g252cac05ee9_0_17).
+## Color
+
+There is no specific color associated with AI or GitLab Duo. The color of the icon follows the component-specific guidelines, like [button](/components/button) variants. This differs from marketing, which has specific colors for the [GitLab Duo visual identity](https://docs.google.com/presentation/d/1G849KWal8XDAEdusoR5YN8ZrZlvcgFVnqr4Nsjdy9Rc/edit#slide=id.g252cac05ee9_0_17).
 
 ### Label
 
