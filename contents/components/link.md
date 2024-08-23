@@ -49,7 +49,7 @@ There are four categories of links in GitLab. Although all links are navigationa
 - An inline text link should always be underlined to distinguish it from surrounding text, regardless of formatting applied (bold, italic, or monospace) or parent text element (heading, paragraph, list, or code).
 - A UI link has no underline at rest, but is underlined for hover, focus, and active states.
 - Meta links represent a wide variety of content and their style adapts for each context. Meta links don't have an underline at rest, but are underlined for hover, focus, and active states. Similar to inline links, they appear this way regardless of formatting applied (bold, italic, monospace). Because of the available styling, which can appear similar to unlinked text, it's critical to ensure that users understand what is linked and what isn't in each context. Additionally, similar types of linked meta content should be styled the same throughout the product.
-- A mention link has a background color behind the link at rest. When embedded in body text and on hover the text is underlined.
+- A mention link has a background color that depends on whether it's for the current user or another user. When embedded in body text and on hover the text is underlined.
 - Although a UI or meta link can have a style similar to a [link button](/components/button#variants), select the correct component based on meaning rather than by appearance alone (see [When to use](#when-to-use) above).
 - All links have a visible focus state (see [Accessibility](#accessibility) notes below).
 
