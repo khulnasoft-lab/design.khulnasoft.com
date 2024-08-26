@@ -25,6 +25,10 @@ Notifications from GitLab appear in two places: in a user's email and in the pro
 
 ### Content
 
+Both email and UI notifications aim to keep users up-to-date about things happening within GitLab. Content of email and UI notifications is currently non-identical, though we are working to bring more of a parity between them. 
+
+Though content guidelines are still being defined for both email and UI notifications, you can view examples of all emails, organized by type, in either [GDK](https://docs.gitlab.com/ee/development/emails.html#mailer-previews) or in [Figma](https://www.figma.com/design/wRoOy8FwgL5f3uhEP0gMyv/Define-guidelines-for-notifications-Pajamas-%E2%80%A2-%231888?node-id=12307-26544&t=ctKNm5g1co2EWxZi-1). Example of current UI notifications are also visible in [Figma](https://www.figma.com/design/uH0dVVB1PBdJ929KEiGqFf/Notifications?node-id=6977-111489&t=IdcDigotUwYmlbdv-1). Components for both are forthcoming.
+
 ### Configuration
 
 Email notification preferences are configured in user settings, under [/profile/notifications](https://gitlab.com/-/profile/notifications). Notifications appearing in the To-Do List are mostly [system-defined](https://docs.gitlab.com/ee/user/todos.html#actions-that-create-to-do-items) at present, though users can opt to [create a To Do list notification](https://docs.gitlab.com/ee/user/todos.html#create-a-to-do-item) by clicking the "To Do" button on issues and MRs. In future, users will be able to [fully customize](https://gitlab.com/gitlab-org/gitlab/-/issues/320912) what appears in their To-Do List. 
