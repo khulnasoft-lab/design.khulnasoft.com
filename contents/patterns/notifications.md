@@ -1,6 +1,6 @@
 ---
 name: Notifications
-description: A notification is a user or system generated update pushed to users.
+description: A notification is a user or system-generated update pushed to users.
 ---
 
 ## Structure
