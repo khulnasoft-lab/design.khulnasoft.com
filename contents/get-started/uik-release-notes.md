@@ -14,6 +14,10 @@ name: Release notes
 
 - Updates **❖&nbsp;Link** to use design tokens.
 
+### Deprecations
+
+- Deprecates **issue-block** icon. Use new [**entity-blocked**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~entity-blocked) instead.
+
 ## 17.3
 
 <small>Published 2024-08-08</small>
