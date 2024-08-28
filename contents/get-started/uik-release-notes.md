@@ -10,9 +10,14 @@ name: Release notes
 
 - Adds icons: [**tanuki-ai-off**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~tanuki-ai-off).
 
+### Removals
+
+- Removes the **Page layouts** page that relied on the old navigation design.
+
 ### Changes
 
 - Updates **❖&nbsp;Link** to use design tokens.
+- Updates **Documentation** utilities to use new **❖&nbsp;Doc&nbsp;divider** instead of the deprecated **Divider** that's from the deprecated navigation.
 
 ### Deprecations
 
