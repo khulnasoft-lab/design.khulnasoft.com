@@ -51,7 +51,7 @@
     <section aria-labelledby="contribute" class="gl-my-8">
       <div class="container">
         <div
-          class="gl-p-5 gl-bg-subtle gl-border-1 gl-border-solid gl-border-default gl-rounded-lg sm:-gl-mx-5"
+          class="gl-p-5 gl-bg-subtle gl-border-1 gl-border-solid gl-border-default gl-rounded-lg lg:-gl-mx-5"
         >
           <h2 id="contribute" class="gl-heading-4">Contribute</h2>
           <p class="gl-mb-5">
