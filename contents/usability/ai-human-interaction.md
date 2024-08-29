@@ -50,7 +50,7 @@ To communicate the suite of AI capabilities and identify specific AI-powered fea
 
 Include the "GitLab Duo" name once for each AI-powered feature in onboarding or UI text _before_ or _after_ user interaction. However, to maintain concise [call-to-action (CTA) labels](/patterns/duo-calls-to-action#label) avoid 'GitLab Duo' or 'AI' directly in the CTA text. This balances consistent branding with clear, user-friendly interfaces.
 
-<figure-img alt="GitLab Duo is used in supplemental UI copy." label="GitLab Duo is used in supplemental UI copy." src="/img/gitlab-duo-ui.svg"></figure-img>
+<figure-img alt="'GitLab Duo' is used in supplemental UI copy." label="'GitLab Duo' is used in supplemental UI copy." src="/img/do-feature-maturity.svg"></figure-img>
 
 #### Disclaimer
 
