@@ -75,9 +75,7 @@ Similar to higher tier features, feature versions like experiment and beta shoul
 - Ensure there is a clear connection between the badge and the feature being highlighted. For example, place the badge next to the name of the feature.
 - When placing the badge, consider the available space and opt for a small badge if needed. The badge can be displayed either before or after the user interacts with the feature.
 - When the feature becomes Generally Available, make sure the badge is removed.
-- To maintain concise [call-to-action (CTA) labels](/patterns/duo-calls-to-action#label), avoid 'GitLab Duo' or 'AI' directly in the CTA text.
-
-<figure-img label="Example of badge placement" src="/img/do-feature-maturity.svg"></figure-img>
+- Keep buttons concise. Do not place the badge inside of the button.
 
 ## Visibility
 
