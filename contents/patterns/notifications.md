@@ -23,9 +23,7 @@ Notifications from GitLab appear in two places: in a user's email and in the pro
 
 ### Behavior
 
-Email notifications from GitLab are generally linked to events within GitLab; clicking the links will bring people directly to the context or conversation. People can also respond directly to email notifications by replying from their inbox. All other actions and behaviors are defined by the email client.
-
-Notifications that appear in the To-Do List are also linked to the original context within GitLab. Notifications in this list are also marked as "Done" either manually, by clicking the button, or through a number of associated actions that indicate the user has taken action, in context.
+Both email notifications and UI notifications are generally linked to the events within GitLab that generated them, allowing users to quickly jump to the relevant context, and take action if needed.
 
 ### Content
 
