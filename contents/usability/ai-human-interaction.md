@@ -48,7 +48,7 @@ Establish trust by ensuring the user always knows when they are interacting with
 
 To communicate the suite of AI capabilities and identify specific AI-powered features, use the [GitLab Duo](https://docs.google.com/presentation/d/1G849KWal8XDAEdusoR5YN8ZrZlvcgFVnqr4Nsjdy9Rc/edit#slide=id.g249996547b6_0_20) name. It's an extension of our brand that acts as an “umbrella” for all AI capabilities across GitLab. For variations of the GitLab Duo name, such as features or add-on, see the technical writing [word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html).
 
-Include the "GitLab Duo" name once for each AI-powered feature in onboarding or UI text _before_ or _after_ user interaction. However, to maintain concise [call-to-action (CTA) labels](/patterns/duo-calls-to-action#label) avoid 'GitLab Duo' or 'AI' directly in the CTA text. This balances consistent branding with clear, user-friendly interfaces.
+Include the "GitLab Duo" name once for each AI-powered feature in onboarding or UI text _before_ or _after_ user interaction. However, to maintain concise [call-to-action (CTA) labels](/patterns/duo-calls-to-action#label), avoid 'GitLab Duo' or 'AI' directly in the CTA text. This balances consistent branding with clear, user-friendly interfaces.
 
 <figure-img alt="'GitLab Duo' is used in supplemental UI copy." label="'GitLab Duo' is used in supplemental UI copy." src="/img/do-feature-maturity.svg"></figure-img>
 
