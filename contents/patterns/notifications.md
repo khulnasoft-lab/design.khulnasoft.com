@@ -35,4 +35,4 @@ Though content guidelines are still being defined for both email and UI notifica
 
 ### Configuration
 
-Email notification preferences are configured in user settings, under [/profile/notifications](https://gitlab.com/-/profile/notifications). Notifications appearing in the To-Do List are mostly [system-defined](https://docs.gitlab.com/ee/user/todos.html#actions-that-create-to-do-items) at present, though users can opt to [create a To Do list notification](https://docs.gitlab.com/ee/user/todos.html#create-a-to-do-item) by clicking the "To Do" button on issues and MRs. In future, users will be able to [fully customize](https://gitlab.com/gitlab-org/gitlab/-/issues/320912) what appears in their To-Do List.
+What appears as an email or UI notification should reflect a user's preferences for how and when they are contacted. Email notification settings are configured in user settings, under [/profile/notifications](https://gitlab.com/-/profile/notifications). In future, users will be able to [customize](https://gitlab.com/gitlab-org/gitlab/-/issues/320912) what appears in their To-Do List, as well.
