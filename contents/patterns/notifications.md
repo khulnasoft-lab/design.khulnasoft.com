@@ -19,7 +19,7 @@ Notifications from GitLab appear in two places: in a user's email and in the pro
 
 ### When not to use
 
-- To spam users with non-important details. Avoid overburdening users with non-essential notifications as it leads to fatigue and decreases their ability to be productive within the product.
+- Sharing trivial details. Overburdening users with notifications is fatiguing and inhibits productivity, but also devalues the notification system as a whole.
 
 ### Behavior
 
