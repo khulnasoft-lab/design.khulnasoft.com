@@ -5,6 +5,8 @@ description: A notification is a user or system-generated update pushed to users
 
 ## Structure
 
+Though guidelines are still being defined for both email and UI notifications, you can view examples of all emails, organized by type, in either [GDK](https://docs.gitlab.com/ee/development/emails.html#mailer-previews) or in [Figma](https://www.figma.com/design/wRoOy8FwgL5f3uhEP0gMyv/Define-guidelines-for-notifications-Pajamas-%E2%80%A2-%231888?node-id=12307-26544&t=ctKNm5g1co2EWxZi-1). Example of current UI notifications are also visible in [Figma](https://www.figma.com/design/uH0dVVB1PBdJ929KEiGqFf/Notifications?node-id=6977-111489&t=IdcDigotUwYmlbdv-1). Components for both are forthcoming.
+
 <todo>Add structure image for email and UI notifications.</todo>
 
 ## Guidelines
@@ -30,7 +32,6 @@ Both email notifications and UI notifications are generally linked to the events
 
 Both email and UI notifications aim to keep users up-to-date about things happening within GitLab. Content of email and UI notifications is currently non-identical, though we are working to bring more of a parity between them.
 
-Though content guidelines are still being defined for both email and UI notifications, you can view examples of all emails, organized by type, in either [GDK](https://docs.gitlab.com/ee/development/emails.html#mailer-previews) or in [Figma](https://www.figma.com/design/wRoOy8FwgL5f3uhEP0gMyv/Define-guidelines-for-notifications-Pajamas-%E2%80%A2-%231888?node-id=12307-26544&t=ctKNm5g1co2EWxZi-1). Example of current UI notifications are also visible in [Figma](https://www.figma.com/design/uH0dVVB1PBdJ929KEiGqFf/Notifications?node-id=6977-111489&t=IdcDigotUwYmlbdv-1). Components for both are forthcoming.
 
 ### Configuration
 
