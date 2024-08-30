@@ -31,6 +31,7 @@ Both email notifications and UI notifications are generally linked to the events
 ### Content
 
 Both email and UI notifications aim to keep users up-to-date about things happening within GitLab. Content of email and UI notifications is currently non-identical, though we are working to bring more of a parity between them.
+
 ### Configuration
 
 What appears as an email or UI notification should reflect a user's preferences for how and when they are contacted. Email notification settings are configured in user settings, under [/profile/notifications](https://gitlab.com/-/profile/notifications). In future, users will be able to [customize](https://gitlab.com/gitlab-org/gitlab/-/issues/320912) what appears in their To-Do List, as well.
