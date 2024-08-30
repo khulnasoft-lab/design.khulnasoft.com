@@ -47,7 +47,7 @@ related:
 - **Neutral**: Metadata that is stable but special, or that requires moderate emphasis. Has a neutral meaning.
 - **Info**: Metadata that is noteworthy, or communicates a state of active progress. Has a neutral to slightly positive meaning.
 - **Success**: Metadata that is positive or desired. Has a clearly positive connotation.
-- **Warning**: Metadata that is sub-optimal byt not critical. Has a slightly negative meaning.
+- **Warning**: Metadata that is sub-optimal but not critical. Has a slightly negative meaning.
 - **Danger**: Metadata that is critical or problematic. Has a strongly negative meaning.
 - **Tier**: Metadata that indicates which product tier an entity belongs to.
 
