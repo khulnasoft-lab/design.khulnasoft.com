@@ -22,7 +22,7 @@ Notifications from GitLab appear in two places: in a user's email and in the pro
 ### When not to use
 
 - Sharing trivial details. Overburdening users with notifications is fatiguing and inhibits productivity, but also devalues the notification system as a whole.
-- For in-context updates, consider using an [alert](/components/alert), [toast](/components/toast) or [banner](/components/banner) instead, depending on severity and context.
+- For in-context updates, consider using an [alert](/components/alert), [toast](/components/toast) or [banner](/components/banner) instead, depending on severity and content.
 
 ### Behavior
 
