@@ -32,7 +32,7 @@ Higher tier features should be easy to identify from the rest of the interface. 
 
 #### How to use
 
-- Ensure there is a clear connection between the badge and the feature being highlighted. For example, place the badge next to the name of the feature.
+- Position the badge close to the feature's name to establish a clear visual link. Avoid placing badges inside buttons to maintain button simplicity and clarity.
 - When using the icon only badge, use a [tooltip](/components/tooltip) to display the tier name.
 - Tier badge should only be displayed if the active plan is lower than that of the feature. For example if the active plan is Ultimate, and the related feature is also Ultimate, there is no need to display the tier badge.
 - For trials, the tier badge should always be displayed.
@@ -72,10 +72,9 @@ Similar to higher tier features, feature versions like experiment and beta shoul
 
 #### How to use
 
-- Ensure there is a clear connection between the badge and the feature being highlighted. For example, place the badge next to the name of the feature.
+- Position the badge close to the feature's name to establish a clear visual link. Avoid placing badges inside buttons to maintain button simplicity and clarity.
 - When placing the badge, consider the available space and opt for a small badge if needed. The badge can be displayed either before or after the user interacts with the feature.
 - When the feature becomes Generally Available, make sure the badge is removed.
-- Do not place the badge inside of the button that opens the feature. Keep buttons concise.
 
 ## Visibility
 
