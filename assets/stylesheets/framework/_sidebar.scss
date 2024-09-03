@@ -127,18 +127,10 @@
 }
 
 .sidebar__nav-toggle--expanded {
-  background-color: var(--gl-background-color-strong);
-  position: sticky;
-  top: -$gl-spacing-3;
   z-index: $z-sidebar;
 
   svg {
     transform: rotate(90deg);
-  }
-
-  &:hover,
-  &:focus {
-    background-color: var(--gl-background-color-strong);
   }
 }
 
