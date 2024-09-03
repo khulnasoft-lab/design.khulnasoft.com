@@ -30,7 +30,7 @@ Both email notifications and UI notifications are generally linked to the events
 
 ### Content
 
-Both email and UI notifications aim to keep users up-to-date about things happening within GitLab. Content of email and UI notifications is currently non-identical, though we are working to bring more of a parity between them.
+Both email and UI notifications aim to keep users up-to-date about things happening within GitLab. Content of email and UI notifications is currently non-identical, though we are working to bring more of a parity between them. Until then, for any new email notifications created, consider adding a corresponding To-Do, as well.
 
 ### Configuration
 
