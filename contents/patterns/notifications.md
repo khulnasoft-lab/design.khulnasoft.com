@@ -5,7 +5,7 @@ description: A notification is a user or system-generated update pushed to users
 
 ## Structure
 
-Though guidelines are still being defined for both email and UI notifications, you can view examples of all emails, organized by type, in either [GDK](https://docs.gitlab.com/ee/development/emails.html#mailer-previews) or in [Figma](https://www.figma.com/design/wRoOy8FwgL5f3uhEP0gMyv/Define-guidelines-for-notifications-Pajamas-%E2%80%A2-%231888?node-id=12307-26544&t=ctKNm5g1co2EWxZi-1). Example of current UI notifications are also visible in [Figma](https://www.figma.com/design/uH0dVVB1PBdJ929KEiGqFf/Notifications?node-id=6977-111489&t=IdcDigotUwYmlbdv-1). Components for both are forthcoming.
+Though guidelines are still being defined for both email and UI notifications, you can view examples of all emails, organized by type, in either [GDK](https://docs.gitlab.com/ee/development/emails.html#mailer-previews) or in [Figma](https://www.figma.com/design/wRoOy8FwgL5f3uhEP0gMyv/Define-guidelines-for-notifications-Pajamas-%E2%80%A2-%231888?node-id=12307-26544&t=ctKNm5g1co2EWxZi-1). Examples of current UI notifications are also visible in [Figma](https://www.figma.com/design/uH0dVVB1PBdJ929KEiGqFf/Notifications?node-id=6977-111489&t=IdcDigotUwYmlbdv-1). Components for both are forthcoming.
 
 <todo>Add structure image for email and UI notifications.</todo>
 
@@ -34,4 +34,4 @@ Both email and UI notifications aim to keep users up-to-date about things happen
 
 ### Configuration
 
-What appears as an email or UI notification should reflect a user's preferences for how and when they are contacted. Email notification settings are configured in user settings, under [/profile/notifications](https://gitlab.com/-/profile/notifications). In future, users will be able to [customize](https://gitlab.com/gitlab-org/gitlab/-/issues/320912) what appears in their To-Do List, as well.
+What appears as an email or UI notification should reflect a user's preferences for how and when they are contacted. Email notification settings are configured in user settings, under [/profile/notifications](https://gitlab.com/-/profile/notifications). In the future, users will be able to [customize](https://gitlab.com/gitlab-org/gitlab/-/issues/320912) what appears in their To-Do List, as well.
