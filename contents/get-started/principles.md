@@ -30,7 +30,7 @@ Building empathy with our customers means deeply understanding their needs and g
 
 ## 3 Transparent over opaque
 
-Transparency isn't just a company value: Our design decisions should strive to increase clarity for our customers, and confidence in the product.
+[Transparency](https://handbook.gitlab.com/handbook/values/#transparency) isn't just a company value: Our design decisions should strive to increase clarity for our customers, and confidence in the product.
 
 <!--
 1. **Bold sub principle(s) title** Explanation, plus optional reference
