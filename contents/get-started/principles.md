@@ -36,6 +36,8 @@ When designing, ensuring we're making decisions that support a connected, cohere
 
 [Transparency](https://handbook.gitlab.com/handbook/values/#transparency) isn't just a company value: Our design decisions should strive to increase clarity for our customers, and confidence in the product.
 
+When designing, ensure people understand the rationale behind system behaviors, actions, and recommendations so they are empowered to make informed decisions. Doing so is especially important when the product is complex and people are interacting with newer technologies. For example, when designing AI behaviors, strive to go above and beyond the usual expectations of transparency for software to build confidence our solutions.
+
 <!--
 1. **Bold sub principle(s) title** Explanation, plus optional reference
   - Example(s), plus link towards a reference in real-life
