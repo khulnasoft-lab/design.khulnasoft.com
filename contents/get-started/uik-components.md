@@ -92,13 +92,28 @@ A **variant** is the most common form of a component. It is available to use as-
 
 Consider placing the most commonly used variant first (top, left) in the set so that it's the option that gets inserted initially from the library.
 
-### Using Constraints
+### Using constraints
 
 Objects within a component will [use constraints](https://help.figma.com/article/54-constraints) when they need to maintain their position relative to the component bounds, or content within. Complex, responsive components can be created by combining frames and [layout grids](https://www.figma.com/blog/everything-you-need-to-know-about-layout-grids-in-figma/). A tooltip is a good candidate for constraints, so that directional tips can always be placed correctly in relation to the component bounds as the content grows.
 
-### Using Auto Layout
+### Using auto layout
 
-Components with [Auto Layout](https://help.figma.com/article/453-auto-layout) dynamically resize based on the content within. This works well for components that need to maintain padding and spacing. A button is a good candidate for auto layout, because it can resize horizontally based on label length, and whether or not icons are included. Complex responsive-like components, like a modal, can be created with auto layout.
+Components with [auto layout](https://help.figma.com/article/453-auto-layout) dynamically resize based on the content within. This works well for components that need to maintain padding and spacing. A button is a good candidate for auto layout, because it can resize horizontally based on label length, and whether or not icons are included. Complex responsive-like components, like a modal, can be created with auto layout.
+
+### Using slots
+
+Slot components allow for flexible content insertion while maintaining consistent structure and functionality. A slot is a designated area within a component where various content or sub-components can be inserted or swapped out.
+
+When creating slot components, ensure that spacing comes from the parent component, not the child (slotted) component. This maintains consistent layout regardless of the content inserted into the slot.
+
+| Do         | Don't     |
+| ---------- | --------- |
+| <figure-img alt="A component with a heading and a clearly defined rectangular slot area below it. The slot area is contained within the component's padding, demonstrating correct parent-driven spacing. The parent component maintains control over the layout and spacing of the slot area." label="Component controls spacing." src="/img/slot-area-do-1.svg"></figure-img> | <figure-img alt="A component with a heading and a clearly defined rectangular slot area below it. The slot area extends to the full width of the component. This example incorrectly relies on the slot content to control left and right spacing, rather than the parent component. The lack of padding between the slot area and component edges violates the principle of parent-driven layout." label="Left and right padding comes from the slot contents." src="/img/slot-area-dont-1.svg"></figure-img> |
+|  | <figure-img alt="A component with a heading and a clearly defined rectangular slot area below it. The slot area is within the left and right padding, but extends to the bottom of the component. This example incorrectly relies on the slot content to control bottom edge spacing, rather than the parent component. The lack of padding between the slot area and component edge violates the principle of parent-driven layout." label="Bottom padding comes from the slot contents." src="/img/slot-area-dont-2.svg"></figure-img> |
+
+Place all functional controls in the main component, not in the slotted content. For example, if a popover can have an optional close button, the close button and its associated property should be part of the popover component, not the slot content.
+
+Always provide basic or example options for components with slots. These should be published as part of the library and added to the component as [preferred values](https://help.figma.com/hc/en-us/articles/5579474826519-Explore-component-properties#preferred), ensuring designers can easily see and select them. Include variations such as small content, large content, or real product content examples. Additionally, include an obvious "build your own" option in the slot choices to encourage customization when needed.
 
 ### Naming properties
 
