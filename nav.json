@@ -450,8 +450,12 @@
             "title": "GitLab Duo",
             "items": [
               {
+                "title": "Calls to action",
+                "path": "duo-calls-to-action"
+              },
+              {
                 "title": "Slash commands in GitLab Duo Chat",
-                "path": "slash-commands"
+                "path": "duo-slash-commands"
               }
             ]
           },
@@ -462,6 +466,10 @@
           {
             "title": "Merge request reports",
             "path": "merge-request-reports"
+          },
+          {
+            "title": "Notifications",
+            "path": "notifications"
           },
           {
             "title": "Searching",

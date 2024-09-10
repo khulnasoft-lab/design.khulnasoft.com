@@ -99,7 +99,7 @@ Use the visual style (variant) in combination with an icon or label to identify 
 
 - **Medium** (default): The medium button size is sufficient in most cases and provides the largest possible click target size.
 - **Small**: Decrease the size of a button to prevent it from competing with a primary button, or to decrease the overall size of a group or string of buttons. Although it's possible to use the small size for an icon-only button, using the default medium size is encouraged to provide a larger click target.
-- **Block**: Expand the width of a button to fill the parent container which can help provide balance in mobile layouts.
+- **Block**: Expand the width of a button to fill the parent container which can help provide balance in mobile ([`xs` breakpoint](/layout#breakpoints)) layouts.
 
 ### States
 
@@ -199,7 +199,7 @@ Multiple alignments can be combined within a single screen, but not within an in
 Buttons can contain different content depending on the situation. For example, some buttons only have text, while others only have an icon. A combination may be used when space allows and more emphasis is required. Icons are always positioned to the left of text. Two icons should never be used in the same button, unless it is an icon dropdown.
 
 - **Label**: A button may also be attached to a label, such as a commit SHA.
-- **Emoji**: An emoji button provides a user with a visual to indicate what emotion has been attributed to the parent object. It only contains an emoji character and uses the [selected state](#states) when pressed.
+- **Emoji**: An emoji button allows a user to react to content with an emoji. The button uses the medium (default) size and is displayed with a count of how many times the reaction has been applied. A selected state visually indicates when the current user has added the reaction.
 
 ### Dropdown buttons
 
