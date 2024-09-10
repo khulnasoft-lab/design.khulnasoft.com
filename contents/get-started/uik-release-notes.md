@@ -8,7 +8,7 @@ name: Release notes
 
 ### Additions
 
-- Adds icons: [**tanuki-ai-off**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~tanuki-ai-off).
+- Adds icons: [**calendar-overdue**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~calendar-overdue), [**tanuki-ai-off**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~tanuki-ai-off).
 
 ### Removals
 
