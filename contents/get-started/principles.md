@@ -46,9 +46,9 @@ When designing, ensuring we're making decisions that support a connected, cohere
 
 ## 3 Transparent over opaque
 
-[Transparency](https://handbook.gitlab.com/handbook/values/#transparency) isn't just a company value: Our design decisions should strive to increase clarity for our customers, and confidence in the product.
+[Transparency](https://handbook.gitlab.com/handbook/values/#transparency) is both a company value and a design principle: Our design decisions should strive to increase clarity for our customers, and confidence in the product.
 
-When designing, ensure people understand the rationale behind system behaviors, actions, and recommendations so they are empowered to make informed decisions. While being transparent in this way is always important in software design, doing so is especially important when the product is complex and people are interacting with newer technologies. 
+When designing, ensure people understand the rationale behind system behaviors, actions, and recommendations so they are empowered to make informed decisions. While being transparent in this way is always important in software design, doing so is especially important when the product is complex and people are interacting with newer technologies.
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
