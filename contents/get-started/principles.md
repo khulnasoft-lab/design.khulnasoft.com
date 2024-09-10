@@ -10,27 +10,31 @@ Each principle has been assigned a hierarchy position to resolve confusion about
 
 We take inspiration from other companies though our principles are defined by looking inward. This helps to determine which are most actionable and effective. Just like the rest of our work, we continually adjust our principles and strive always to make them better. Our principle guidelines are defined at the bottom of this page, so everyone is welcome to suggest improvements by opening an issue and/or creating a merge request in our [repository](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)!
 
-## 1 Productive
+## 1 Enable productivity in all we do
 
-GitLab is an application to support what people do, day in, day out. We need to respect the importance of their work and avoid gimmicky details.
+GitLab is an application to support what people do, day in, day out. We should respect the importance of their work and avoid gimmicky details. While work can get complicated, GitLab should help customers focus on what matters now.
 
-<!--
- 1. **Bold sub principle(s) title** Explanation, plus optional reference
-  - Example(s), plus link towards a reference in real-life
--->
-
-## 2 Minimal
-
-While work can get complicated, GitLab is about bringing a sharp focus to help our customers know what matters now.
+We use the phrase [sophisticated simplicity](https://handbook.gitlab.com/handbook/product/ux/product-designer/#aiming-towards-sophisticated-simplicity) to capture this principle in design. Sophisticated simplicity means asking ourselves: how can we structure content so that it is discoverable, and so that it provides the features and functions that enable people to achieve their goals, as simply and clearly as possible? In practice, sophisticated simplicity might mean making choices that simplify complex workflows and the UI.
 
 <!--
  1. **Bold sub principle(s) title** Explanation, plus optional reference
   - Example(s), plus link towards a reference in real-life
 -->
 
-## 3 Human
+## 2 Goal-driven over task-driven
 
-We need to build empathy with our users. This means we must understand their state of mind and connect with them on a human level.
+Building empathy with our customers means deeply understanding their needs and goals. Doing so means thinking in terms of outcomes and workflows, rather than discrete, disconnected tasks.
+
+When designing, ensuring we're making decisions that support a connected, coherent experience across the product helps us meet this aim.
+
+<!--
+ 1. **Bold sub principle(s) title** Explanation, plus optional reference
+  - Example(s), plus link towards a reference in real-life
+-->
+
+## 3 Transparent over opaque
+
+[Transparency](https://handbook.gitlab.com/handbook/values/#transparency) isn't just a company value: Our design decisions should strive to increase clarity for our customers, and confidence in the product.
 
 <!--
 1. **Bold sub principle(s) title** Explanation, plus optional reference
