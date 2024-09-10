@@ -12,7 +12,9 @@ We take inspiration from other companies though our principles are defined by lo
 
 ## 1 Enable productivity in all we do
 
-GitLab is an application to support what people do, day in, day out. We need to respect the importance of their work and avoid gimmicky details. While work can get complicated, GitLab should help customers focus on what matters now.
+GitLab is an application to support what people do, day in, day out. We should respect the importance of their work and avoid gimmicky details. While work can get complicated, GitLab should help customers focus on what matters now. 
+
+We use the phrase [sophisticated simplicity](https://handbook.gitlab.com/handbook/product/ux/product-designer/#aiming-towards-sophisticated-simplicity) to capture this principle in design. Sophisticated simplicity means asking ourselves: how can we structure content so that it is discoverable, and so that it provides the features and functions that enable people to achieve their goals, as simply and clearly as possible? In practice, sophisticated simplicity might mean making choices that simplify complex workflows and the UI.
 
 <!--
  1. **Bold sub principle(s) title** Explanation, plus optional reference
@@ -22,6 +24,8 @@ GitLab is an application to support what people do, day in, day out. We need to 
 ## 2 Goal-driven over task-driven
 
 Building empathy with our customers means deeply understanding their needs and goals. Doing so means thinking in terms of outcomes and workflows, rather than discrete, disconnected tasks.
+
+When designing, ensuring we're making decisions that support a connected, coherent experience across the product helps us meet this aim.
 
 <!--
  1. **Bold sub principle(s) title** Explanation, plus optional reference
