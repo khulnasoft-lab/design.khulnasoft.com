@@ -71,7 +71,7 @@ Similar to higher tier features, feature versions like experiment and beta shoul
 #### How to use
 
 - Position the badge close to the feature's name to establish a clear visual link. Avoid placing badges inside buttons to maintain button simplicity and clarity.
-- When placing the badge, consider the available space and opt for a small badge if needed. The badge can be displayed either before or after the user interacts with the feature.
+- When placing the badge, consider the available space. The badge can be displayed either before or after the user interacts with the feature.
 - When the feature becomes Generally Available, make sure the badge is removed.
 
 ## Visibility
