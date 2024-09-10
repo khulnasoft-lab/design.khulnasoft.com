@@ -27,7 +27,6 @@ Higher tier features should be easy to identify from the rest of the interface. 
 
 - Component name: [`GlBadge`](https://design.gitlab.com/components/badge/code)
 - Variant: `Tier`
-- Size: `MD`
 - Icon: `16`
 
 #### How to use
@@ -68,7 +67,6 @@ Similar to higher tier features, feature versions like experiment and beta shoul
 
 - Component name: [`GlBadge`](https://design.gitlab.com/components/badge/code)
 - Variant: `neutral`
-- Size: `md` or `sm`
 
 #### How to use
 
