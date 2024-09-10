@@ -102,18 +102,17 @@ Components with [auto layout](https://help.figma.com/article/453-auto-layout) dy
 
 ### Using slots
 
-Slot components allow for flexible content insertion while maintaining consistent structure and functionality. A slot is a designated area within a component where various content or sub-components can be inserted or swapped out.
+A slot is a designated area within a component where various content or composition sub-components can be inserted or swapped out. Using slots in a component allows for flexible content insertion while maintaining consistent component structure and functionality.
 
-When creating slot components, ensure that spacing comes from the parent component, not the child (slotted) component. This maintains consistent layout regardless of the content inserted into the slot.
+When creating a slot, ensure that spacing comes from the parent component, not the child sub-component. This maintains consistent layout regardless of the content inserted into the slot.
 
 | Do         | Don't     |
 | ---------- | --------- |
 | <figure-img alt="A component with a heading and a clearly defined rectangular slot area below it. The slot area is contained within the component's padding, demonstrating correct parent-driven spacing. The parent component maintains control over the layout and spacing of the slot area." label="Component controls spacing." src="/img/slot-area-do-1.svg"></figure-img> | <figure-img alt="A component with a heading and a clearly defined rectangular slot area below it. The slot area extends to the full width of the component. This example incorrectly relies on the slot content to control left and right spacing, rather than the parent component. The lack of padding between the slot area and component edges violates the principle of parent-driven layout." label="Left and right padding comes from the slot contents." src="/img/slot-area-dont-1.svg"></figure-img> |
-|  | <figure-img alt="A component with a heading and a clearly defined rectangular slot area below it. The slot area is within the left and right padding, but extends to the bottom of the component. This example incorrectly relies on the slot content to control bottom edge spacing, rather than the parent component. The lack of padding between the slot area and component edge violates the principle of parent-driven layout." label="Bottom padding comes from the slot contents." src="/img/slot-area-dont-2.svg"></figure-img> |
 
-Place all functional controls in the main component, not in the slotted content. For example, if a popover can have an optional close button, the close button and its associated property should be part of the popover component, not the slot content.
+Place all functional controls in the main component, not in the sub-component. For example, if a popover can have an optional close button, the close button and its associated property should be part of the popover component, not the slot sub-component.
 
-Always provide basic or example options for components with slots. These should be published as part of the library and added to the component as [preferred values](https://help.figma.com/hc/en-us/articles/5579474826519-Explore-component-properties#preferred), ensuring designers can easily see and select them. Include variations such as small content, large content, or real product content examples. Additionally, include an obvious "build your own" option in the slot choices to encourage customization when needed.
+Always provide basic or example sub-component options for a component with slots. These should be published as part of the library and added to the component as [preferred values](https://help.figma.com/hc/en-us/articles/5579474826519-Explore-component-properties#preferred), ensuring designers can easily see and select them. Include variations such as small content, large content, or real product content examples. Additionally, include an obvious "build your own" option in the slot choices to encourage customization when needed.
 
 ### Naming properties
 
