@@ -6,6 +6,23 @@ name: Release notes
 
 [_Draft: 17.4 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/3991)
 
+### Additions
+
+- Adds icons: [**calendar-overdue**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~calendar-overdue), [**tanuki-ai-off**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~tanuki-ai-off).
+
+### Removals
+
+- Removes the **Page layouts** page that relied on the old navigation design.
+
+### Changes
+
+- Updates **❖&nbsp;Link** to use design tokens.
+- Updates **Documentation** utilities to use new **❖&nbsp;Doc&nbsp;divider** instead of the deprecated **Divider** that's from the deprecated navigation.
+
+### Deprecations
+
+- Deprecates **issue-block** icon. Use new [**entity-blocked**](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~entity-blocked) instead.
+
 ## 17.3
 
 <small>Published 2024-08-08</small>
