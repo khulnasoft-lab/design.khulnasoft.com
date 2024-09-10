@@ -19,8 +19,7 @@
           <li>
             <h2>Brand</h2>
             <p>
-              The creative expression of our mission, vision, and values — the design language for
-              GitLab. <a href="/brand/overview">Overview →</a>
+              The guidelines, resources, and system behind the visual identity of GitLab. <a href="/brand/overview">Overview →</a>
             </p>
           </li>
           <li>
