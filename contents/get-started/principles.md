@@ -14,7 +14,13 @@ We take inspiration from other companies though our principles are defined by lo
 
 GitLab is an application to support what people do, day in, day out. We should respect the importance of their work and avoid gimmicky details. While work can get complicated, GitLab should help customers focus on what matters now.
 
-We use the phrase [sophisticated simplicity](https://handbook.gitlab.com/handbook/product/ux/product-designer/#aiming-towards-sophisticated-simplicity) to capture this principle in design. Sophisticated simplicity means asking ourselves: how can we structure content so that it is discoverable, and so that it provides the features and functions that enable people to achieve their goals, as simply and clearly as possible? In practice, sophisticated simplicity might mean making choices that simplify complex workflows and the UI.
+We use the phrase [sophisticated simplicity](https://handbook.gitlab.com/handbook/product/ux/product-designer/#aiming-towards-sophisticated-simplicity) to capture this principle in design. In practice, sophisticated simplicity might mean making choices that simplify complex workflows and the UI.
+
+| Do                                                                                                                                              | Don't                                                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Ensure content is discoverable. | Force people to search around for what they need. |
+| Ensure the features and functions that enable people to achieve their goals are all present, and function as expected.  |  Leave people without access to the features they need to complete their goals. |
+| Ensure all content is as simple and clear as possible. | Use complicated explanations or UI configuration options. |
 
 <!--
  1. **Bold sub principle(s) title** Explanation, plus optional reference
@@ -27,6 +33,12 @@ Building empathy with our customers means deeply understanding their needs and g
 
 When designing, ensuring we're making decisions that support a connected, coherent experience across the product helps us meet this aim.
 
+| Do                                                                                                                                              | Don't                                                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Design with the end goal in mind.  |  Focus on individual tasks. |
+| Consider the end-to-end experience. | Think about features in isolation.  |
+| Keep an eye on consistency across the product. | Re-invent the wheel. |
+
 <!--
  1. **Bold sub principle(s) title** Explanation, plus optional reference
   - Example(s), plus link towards a reference in real-life
@@ -36,7 +48,13 @@ When designing, ensuring we're making decisions that support a connected, cohere
 
 [Transparency](https://handbook.gitlab.com/handbook/values/#transparency) isn't just a company value: Our design decisions should strive to increase clarity for our customers, and confidence in the product.
 
-When designing, ensure people understand the rationale behind system behaviors, actions, and recommendations so they are empowered to make informed decisions. Doing so is especially important when the product is complex and people are interacting with newer technologies. For example, when designing AI behaviors, strive to go above and beyond the usual expectations of transparency for software to build confidence our solutions.
+When designing, ensure people understand the rationale behind system behaviors, actions, and recommendations so they are empowered to make informed decisions. While being transparent in this way is always important in software design, doing so is especially important when the product is complex and people are interacting with newer technologies. 
+
+| Do                                                                                                                                              | Don't                                                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Strive to go above and beyond the usual expectations of transparency. | Keep important details hidden or hard to find. |
+| Make sure people understand what's happening behind the scenes.  |  Leave people in a state of uncertainty about what's happening.    |
+| Ensure people have all of the information they need to proceed with confidence. | Leave important questions unanswered, in a way that damages trust.  |
 
 <!--
 1. **Bold sub principle(s) title** Explanation, plus optional reference
