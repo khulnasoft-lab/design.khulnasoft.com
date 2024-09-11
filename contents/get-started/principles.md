@@ -52,8 +52,8 @@ When designing, ensure people understand the rationale behind system behaviors, 
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Strive to go above and beyond the usual expectations of transparency. | Keep important details hidden or hard to find. |
-| Make sure people understand what's happening behind the scenes.  |  Leave people in a state of uncertainty about what's happening.    |
+| Clarify how any recommendations are generated, especially with [AI features](/usability/ai-human-interaction#be-transparent). | Assume people know where recommendations come from. |
+| Be up-front about behind-the-scenes processes.  |  Leave people in a state of uncertainty about how things work or why.    |
 | Ensure people have all of the information they need to proceed with confidence. | Leave important questions unanswered, in a way that damages trust.  |
 
 <!--
