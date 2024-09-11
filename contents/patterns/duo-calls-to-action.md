@@ -43,18 +43,15 @@ When a feature is experimental or beta, display that information with a badge ou
 
 ### Styling and importance
 
-Make important features stand out with their CTAs. The most important feature should have the most noticeable CTA.
+The most important feature should have the most noticeable CTA.
 
-#### Handling AI Actions
+When GitLab Duo is [off](https://docs.gitlab.com/ee/user/gitlab_duo/turn_on_off.html#turn-off-gitlab-duo-features), AI CTAs usually disappear, which can change how the page looks. If an AI action was the main CTA:
 
-When GitLab Duo is [off](https://docs.gitlab.com/ee/user/gitlab_duo/turn_on_off.html#turn-off-gitlab-duo-features), AI action CTAs usually disappear. This can change how the page looks. If an AI action was the main CTA:
-
-- Choose a new main action
-- Adjust the page layout
-- Ensure CTAs remain intuitive
+- Choose a new main action.
+- Adjust the page layout accordingly.
 
 Always make sure the page makes sense, with or without AI actions.
 
-| GitLab Duo is turned on                                                                        | GitLab Duo is turned off                                                                                                      |
+| GitLab Duo is on                                                                               | GitLab Duo is off                                                                                                             |
 | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | <figure-img alt="AI button is primary confirm"  src="/img/primary-action-ai.svg"></figure-img> | <figure-img alt="AI button is not shown, other button is primary confirm"  src="/img/primary-action-not-ai.svg"></figure-img> |
