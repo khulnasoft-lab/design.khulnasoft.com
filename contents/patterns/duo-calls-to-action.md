@@ -41,11 +41,19 @@ When a feature is experimental or beta, display that information with a badge ou
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <figure-img alt="Feature maturity is indicated outside of the CTA with a Beta badge embedded in UI copy" label="Feature maturity is indicated outside of the button." src="/img/do-feature-maturity.svg"></figure-img> | <figure-img alt="An AI button containing a Beta badge" label="Feature maturity is indicated in the button." src="/img/dont-feature-maturity.svg"></figure-img> |
 
-### Hierarchy
+### Styling and importance
 
-CTA styling should reflect the hierarchy of feature's importance on the page.
+Make important features stand out with their CTAs. The most important feature should have the most noticeable CTA.
 
-GitLab Duo features can be [turned off](https://docs.gitlab.com/ee/user/gitlab_duo/turn_on_off.html#turn-off-gitlab-duo-features) for a group, project or instance. When this happens, the associated CTA will typically be hidden. Make sure your design accommodates scenarios where the AI CTA is absent. For instance, if the AI CTA served as the primary action, consider whether another action should take on the primary role in its place.
+#### Handling AI Actions
+
+When GitLab Duo is [off](https://docs.gitlab.com/ee/user/gitlab_duo/turn_on_off.html#turn-off-gitlab-duo-features), AI action CTAs usually disappear. This can change how the page looks. If an AI action was the main CTA:
+
+- Choose a new main action
+- Adjust the page layout
+- Ensure CTAs remain intuitive
+
+Always make sure the page makes sense, with or without AI actions.
 
 | GitLab Duo is turned on                                                                        | GitLab Duo is turned off                                                                                                      |
 | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
