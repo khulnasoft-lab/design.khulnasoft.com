@@ -88,7 +88,7 @@ With a nod to [atomic design](https://bradfrost.com/blog/post/atomic-web-design/
 
 ### Integrated components
 
-To reduce complexity and improve performance, we sometimes build simplified versions of frequently used elements directly inside other components, rather than nesting Figma components. We call this an integrated component. This approach uses Figma Variables to manage key properties, ensuring consistency while allowing controlled updates.
+To reduce component complexity and improve performance, we sometimes build a simplified version of a frequently used element directly inside another component, rather than nesting a component instance that includes all of its variants, properties and options. We call this an _integrated component_. This approach uses Figma variables to manage key properties, like spacing and border radius, while ensuring consistency with controlled updates.
 
 Apply this method selectively, as direct nesting may sometimes still be preferable. When applying:
 
