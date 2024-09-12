@@ -127,9 +127,10 @@ States change visually and/or programmatically depending on user interaction or 
 
 #### Icons
 
+Use either an icon or text in buttons, not both. Icon meaning and text meaning shouldn't need to rely on each other to be understood. While some buttons combine icon and text, this approach is generally not recommended. [Icon-only buttons](#icon-only-buttons) have additional considerations.
+
 - Only use icons from [GitLab's SVG library](http://gitlab-org.gitlab.io/gitlab-svgs/).
 - Icons use the default size (16×16px).
-- While an icon and text can be and are used together in some buttons, it's recommended to use either an icon or text, but not both. This is because icon meaning and text meaning shouldn't need to rely on each other to be understood. Additionally, [icon-only buttons](#icon-only-buttons) should include a tooltip.
 
 #### Badges
 
