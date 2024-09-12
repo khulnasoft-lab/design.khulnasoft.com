@@ -86,6 +86,20 @@ Base components are currently being replaced as part of [&22](https://gitlab.com
 
 With a nod to [atomic design](https://bradfrost.com/blog/post/atomic-web-design/), an **element** is something that cannot be broken down any further, and is primarily used in the construction of other components. In other words, it's rarely used alone. Since elements can be used and swapped in other components, they're published to the library. A good example of an element is a checkbox, which could be used in forms with a label, or as part of a multiselect dropdown.
 
+### Integrated components
+
+To reduce complexity and improve performance, we sometimes build simplified versions of frequently used elements directly inside other components, rather than nesting Figma components. We call this an integrated component. This approach uses Figma Variables to manage key properties, ensuring consistency while allowing controlled updates.
+
+Apply this method selectively, as direct nesting may sometimes still be preferable. When applying:
+
+- Create a minimal set of Figma Variables inside the 📙 Component library collection named 'Integrated components'.
+- Group by component name, for example 'Tooltip' or 'Badge'.
+- Focus on values not controlled by other styles.
+- Follow the design token naming convention, though these are not design tokens. Only add a description where the name is ambiguous.
+- Hide variables from publishing.
+
+As an example, [**❖&nbsp;Tab&nbsp;item**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=123607-1296) uses this technique for the optional badge element.
+
 ### Variants
 
 A **variant** is the most common form of a component. It is available to use as-is from the asset library, and does not require style overrides, although they may be available. In most cases, the content can be overridden for the context. Variants are often built from a [base component](#base-components), but this isn't required. A variant often has properties associated with it that can be quickly swapped in the properties panel.
