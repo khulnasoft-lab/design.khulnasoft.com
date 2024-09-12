@@ -94,7 +94,7 @@ Apply this method selectively, as direct nesting may sometimes still be preferab
 
 - Create a minimal set of Figma Variables inside the 📙 Component library collection named 'Integrated components'.
 - Group by component name, for example 'Tooltip' or 'Badge'.
-- Focus on values not controlled by other styles.
+- Focus on values not controlled by other styles, like spacing or border radius (these properties may eventually be replaced with design tokens, but color is currently the only supported design token category).
 - Follow the design token naming convention, though these are not design tokens. Only add a description where the name is ambiguous.
 - Hide variables from publishing.
 
