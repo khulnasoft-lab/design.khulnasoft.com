@@ -34,14 +34,41 @@ export default {
   editThisPage: {
     resolve: ({ route }) => `contents/${getPathFromRoute(route)}.md`,
   },
-  async asyncData({ $content, route, error }) {
+  beforeCreate() {
+    console.warn('DEBUGWAT', 'beforeCreate', this.page);
+  },
+  beforeMount() {
+    console.warn('DEBUGWAT', 'beforeMount', this.page);
+  },
+  created() {
+    console.warn('DEBUGWAT', 'created', this.page);
+  },
+  mounted() {
+    console.warn('DEBUGWAT', 'mounted', this.page);
+  },
+  validate(ctx) {
+    console.warn('DEBUGWAT', 'validate', ctx);
+    return true;
+  },
+  data() {
+    console.warn('DEBUGWAT', 'data');
+    return {
+      page: {},
+    };
+  },
+  async asyncData({ $content, $route, route, error, redirect }) {
+    console.warn('DEBUGWAT', 'asyncData', route);
     const path = getPathFromRoute(route);
 
-    const page = await $content(path)
-      .fetch()
-      .catch((e) => {
-        error({ statusCode: 404, path, message: `${path} not found`, stack: e.stack });
-      });
+    let page = null;
+
+    try {
+      page = await $content(path).fetch();
+    } catch (e) {
+      console.warn('DEBUGWAT', 'asyncData-error');
+
+      error({ statusCode: 404, path, message: `${path} not found`, stack: e.stack });
+    }
 
     if (Array.isArray(page)) {
       error({
