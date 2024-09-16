@@ -4,7 +4,7 @@
     <h1 class="gl-font-size-h1 gl-mb-4">
       <slot name="title"></slot>
     </h1>
-    <p><slot name="text"></slot></p>
+    <slot name="text"></slot>
     <pre
       v-if="$scopedSlots.details"
       class="gl-text-center gl-font-sm gl-text-gray-500"
