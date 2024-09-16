@@ -157,7 +157,7 @@ export default {
    */
   modules: [
     '@gitlab/nuxt-edit-this-page',
-    '@nuxtjs/sentry',
+    // '@nuxtjs/sentry',
     '~/modules/nuxt_content_extension.js',
     '~/modules/nuxt_lunr_content_bridge.js',
     '@nuxtjs/lunr-module',
@@ -165,10 +165,10 @@ export default {
     '@nuxt/content',
   ],
 
-  sentry: {
-    dsn: 'https://77ebbeb22fb243c786286ecd01caa19f@sentry.gitlab.net/109', // Enter your project's DSN here
-    disabled: !isProd,
-  },
+  // sentry: {
+  //   dsn: 'https://77ebbeb22fb243c786286ecd01caa19f@sentry.gitlab.net/109', // Enter your project's DSN here
+  //   disabled: !isProd,
+  // },
 
   /**
    * Edit this page module configuration

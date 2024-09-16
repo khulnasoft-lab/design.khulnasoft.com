@@ -2,28 +2,36 @@
 import ErrorLayout from '../components/error/layout.vue';
 
 /**
- * This component is a special 404 page just for nginx,
- * in development we fall back to the good old
- * layouts/error.vue
+ * This component is a special fallback page for our review apps.
+ *
+ * Our review apps get deployed under `/review-mr-<iid>`.
+ * After a while the review app might be deleted and not accessible.
+ *
+ * If a reviewer now tries to access the review app,
+ * it might result in a confusing, because they get the general 404 page.
+ *
+ * This works on GitLab pages thanks to the static/_redirect file
+ *
  */
 export default {
   components: { ErrorLayout },
   layout: 'no_footer',
   computed: {
     mergeRequestID() {
-      if (process.client) {
-        const match = window.location?.toString().match(/review-mr-(\d+)/);
-        if (match) {
-          return match[1];
-        }
+      if (process.server) {
+        return null;
+      }
+      const match = window.location.toString().match(/review-mr-(\d+)/);
+      if (match) {
+        return match[1];
       }
       return null;
     },
     mergeRequestUrl() {
-      if (this.mergeRequestID) {
-        return `https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/${this.mergeRequestID}/pipelines`;
+      if (!this.mergeRequestID) {
+        return null;
       }
-      return null;
+      return `https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/${this.mergeRequestID}/pipelines`;
     },
   },
 };
