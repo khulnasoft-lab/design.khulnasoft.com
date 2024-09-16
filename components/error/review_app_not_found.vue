@@ -1,5 +1,5 @@
 <script>
-import ErrorLayout from '../components/error/layout.vue';
+import Layout from './layout.vue';
 
 /**
  * This component is a special fallback page for our review apps.
@@ -14,30 +14,21 @@ import ErrorLayout from '../components/error/layout.vue';
  *
  */
 export default {
-  components: { ErrorLayout },
-  layout: 'no_footer',
-  computed: {
-    mergeRequestID() {
-      if (process.server) {
-        return null;
-      }
-      const match = window.location.toString().match(/review-mr-(\d+)/);
-      if (match) {
-        return match[1];
-      }
-      return null;
+  components: { Layout },
+  props: {
+    mergeRequestIid: {
+      type: String,
+      required: true,
     },
-    mergeRequestUrl() {
-      if (!this.mergeRequestID) {
-        return null;
-      }
-      return `https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/${this.mergeRequestID}/pipelines`;
+    mergeRequestUrl: {
+      type: String,
+      required: true,
     },
   },
 };
 </script>
 <template>
-  <error-layout>
+  <layout>
     <template #illustration>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +73,7 @@ export default {
       <p>It looks like you are missing a review app. It might have been deleted.</p>
       <ol v-if="mergeRequestUrl" class="gl-leading-24">
         <li>
-          Go back to <a :href="mergeRequestUrl">MR {{ mergeRequestID }}</a>
+          Go back to <a :href="mergeRequestUrl">MR {{ mergeRequestIid }}</a>
         </li>
         <li>
           Re-run the latest <code>pages</code> job (part of the <code>deploy</code>) stage, <br />
@@ -91,5 +82,5 @@ export default {
       </ol>
       <p v-else>Unfortunately we don't know which review app you have been looking for...</p>
     </template>
-  </error-layout>
+  </layout>
 </template>

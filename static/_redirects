@@ -1,8 +1,0 @@
-/review-mr* /review_app/index.html 200
-
-/wat-1 /review_app/index.html 200
-/wat-2 /review_app/ 200
-
-/deview-mr* /review_app/ 200
-
-/redirect-mr-* /review_app/?mr=:splat 302
