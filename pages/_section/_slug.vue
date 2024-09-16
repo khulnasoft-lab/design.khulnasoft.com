@@ -34,7 +34,30 @@ export default {
   editThisPage: {
     resolve: ({ route }) => `contents/${getPathFromRoute(route)}.md`,
   },
-  async asyncData({ $content, route, error, redirect }) {
+  beforeCreate() {
+    console.warn('DEBUGWAT', 'beforeCreate', this.page);
+  },
+  beforeMount() {
+    console.warn('DEBUGWAT', 'beforeMount', this.page);
+  },
+  created() {
+    console.warn('DEBUGWAT', 'created', this.page);
+  },
+  mounted() {
+    console.warn('DEBUGWAT', 'mounted', this.page);
+  },
+  validate(ctx) {
+    console.warn('DEBUGWAT', 'validate', ctx);
+    return true;
+  },
+  data() {
+    console.warn('DEBUGWAT', 'data');
+    return {
+      page: {},
+    };
+  },
+  async asyncData({ $content, $route, route, error, redirect }) {
+    console.warn('DEBUGWAT', 'asyncData', route);
     const path = getPathFromRoute(route);
 
     let page = null;
@@ -42,9 +65,8 @@ export default {
     try {
       page = await $content(path).fetch();
     } catch (e) {
-      if (process.env.NODE_ENV === 'production') {
-        return redirect(404, '/404', { originalPath: path });
-      }
+      console.warn('DEBUGWAT', 'asyncData-error');
+
       error({ statusCode: 404, path, message: `${path} not found`, stack: e.stack });
     }
 

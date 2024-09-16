@@ -114,7 +114,7 @@ export default {
 
   generate: {
     dir: 'public',
-    fallback: 'error.html',
+    fallback: '404.html',
   },
 
   router: {
