@@ -176,8 +176,8 @@ pages:
     - .node-job
     - .build_cache
   stage: deploy
+  publish: public
   pages:
-    publish: public
     path_prefix: "${PAGES_PREFIX}"
     expire_in: "1 week"
   variables:
