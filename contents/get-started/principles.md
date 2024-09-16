@@ -31,7 +31,7 @@ We use the phrase [sophisticated simplicity](https://handbook.gitlab.com/handboo
 
 Building empathy with our customers means deeply understanding their needs and goals. Doing so means thinking in terms of outcomes and workflows, rather than discrete, disconnected tasks.
 
-When designing, ensuring we're making decisions that support a connected, coherent experience across the product helps us meet this aim.
+When designing, ensure we're making decisions that support a connected, coherent experience across the product.
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
