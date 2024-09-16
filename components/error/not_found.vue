@@ -138,10 +138,12 @@ export default {
     </template>
     <template #title>Something seems to be missing</template>
     <template #text>
-      <nuxt-link to="/">Go to homepage</nuxt-link> or
-      <a href="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/new"
-        >create an issue</a
-      >.
+      <p>
+        <nuxt-link to="/">Go to homepage</nuxt-link> or
+        <a href="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/new"
+          >create an issue</a
+        >.
+      </p>
     </template>
   </layout>
 </template>
