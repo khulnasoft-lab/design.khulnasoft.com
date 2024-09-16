@@ -34,14 +34,19 @@ export default {
   editThisPage: {
     resolve: ({ route }) => `contents/${getPathFromRoute(route)}.md`,
   },
-  async asyncData({ $content, route, error }) {
+  async asyncData({ $content, route, error, redirect }) {
     const path = getPathFromRoute(route);
 
-    const page = await $content(path)
-      .fetch()
-      .catch((e) => {
-        error({ statusCode: 404, path, message: `${path} not found`, stack: e.stack });
-      });
+    let page = null;
+
+    try {
+      page = await $content(path).fetch();
+    } catch (e) {
+      if (process.env.NODE_ENV === 'production') {
+        return redirect(404, '/404', { originalPath: path });
+      }
+      error({ statusCode: 404, path, message: `${path} not found`, stack: e.stack });
+    }
 
     if (Array.isArray(page)) {
       error({

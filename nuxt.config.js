@@ -131,6 +131,7 @@ export default {
     GITLAB_UI_URL,
     LOOKBOOK_URL,
     CI_ENVIRONMENT_URL,
+    NODE_ENV: process.env.NODE_ENV,
   },
 
   /*
