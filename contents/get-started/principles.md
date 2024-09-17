@@ -27,15 +27,13 @@ GitLab is a platform that supports people in their daily work. We respect the im
 
 ## 2 Goal-driven over task-driven
 
-Building empathy with our customers means deeply understanding their needs and goals. Doing so means thinking in terms of outcomes and workflows, rather than discrete, disconnected tasks.
-
-When designing, ensure we're making decisions that support a connected, coherent experience across the product.
+Empathy for our customers starts with a deep understanding of their needs and goals, not just the tasks they're trying to accomplish. Rather than focusing on isolated actions, we aim to support their overall workflows. Designing with this mindest ensures that we're creating a more connected and coherent experience across the product.
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Design with the end goal in mind.  |  Focus on individual tasks. |
-| Consider the end-to-end experience. | Think about features in isolation.  |
-| Keep an eye on consistency across the product. | Re-invent the wheel. |
+| Design with the customer's end goal in mind.  |  Focus solely on individual tasks. |
+| Treat features as interconnected parts of the experience. | Think about features in isolation.  |
+| Maintain consistency across the product. | Re-invent the wheel. |
 
 <!--
  1. **Bold sub principle(s) title** Explanation, plus optional reference
@@ -44,13 +42,11 @@ When designing, ensure we're making decisions that support a connected, coherent
 
 ## 3 Transparent over opaque
 
-[Transparency](https://handbook.gitlab.com/handbook/values/#transparency) is both a company value and a design principle: Our design decisions should strive to increase clarity for our customers, and confidence in the product.
-
-When designing, ensure people understand the rationale behind system behaviors, actions, and recommendations so they are empowered to make informed decisions. While being transparent in this way is always important in software design, doing so is especially important when the product is complex and people are interacting with newer technologies.
+[Transparency](https://handbook.gitlab.com/handbook/values/#transparency) is both a company value and a design principle: Our design decisions should strive to increase clarity and foster confidence in the product. People should understand the rationale behind system behaviors, actions, and recommendations so they are empowered to make informed decisions. This is especially important when interacting with complex products or newer technologies.
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Clarify how any recommendations are generated, especially with [AI features](/usability/ai-human-interaction#be-transparent). | Assume people know where recommendations come from. |
+| Clearly explain how recommendations are generated, especially with [AI features](/usability/ai-human-interaction#be-transparent). | Assume people know where recommendations come from. |
 | Be up-front about behind-the-scenes processes. |  Leave people in a state of uncertainty about how things work or why. |
 | Ensure people have all of the information they need to proceed with confidence. | Leave important questions unanswered, in a way that damages trust. |
 
