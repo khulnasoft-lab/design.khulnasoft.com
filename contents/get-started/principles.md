@@ -10,27 +10,45 @@ Each principle has been assigned a hierarchy position to resolve confusion about
 
 We take inspiration from other companies though our principles are defined by looking inward. This helps to determine which are most actionable and effective. Just like the rest of our work, we continually adjust our principles and strive always to make them better. Our principle guidelines are defined at the bottom of this page, so everyone is welcome to suggest improvements by opening an issue and/or creating a merge request in our [repository](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)!
 
-## 1 Productive
+## 1 Enable productivity
 
-GitLab is an application to support what people do, day in, day out. We need to respect the importance of their work and avoid gimmicky details.
+GitLab is a platform that supports people in their daily work. We respect the importance of their efforts and avoid unnecessary gimmicks. By embracing [sophisticated simplicity](https://handbook.gitlab.com/handbook/product/ux/product-designer/#aiming-towards-sophisticated-simplicity), we make thoughtful choices that streamline complex workflows and functionality, allowing users to stay focused on what matters most.
 
-<!--
- 1. **Bold sub principle(s) title** Explanation, plus optional reference
-  - Example(s), plus link towards a reference in real-life
--->
-
-## 2 Minimal
-
-While work can get complicated, GitLab is about bringing a sharp focus to help our customers know what matters now.
+| Do                                                                                                                                              | Don't                                                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Ensure content is easily discoverable. | Force people to search around for what they need. |
+| Provide the features people need to achieve their goals, and ensure they function as expected.  |  Leave people without access to the features they need to complete their goals. |
+| Make all content as clear and straightforward as possible. | Overcomplicate with excessive explanation or configuration options. |
 
 <!--
  1. **Bold sub principle(s) title** Explanation, plus optional reference
   - Example(s), plus link towards a reference in real-life
 -->
 
-## 3 Human
+## 2 Goals over tasks
 
-We need to build empathy with our users. This means we must understand their state of mind and connect with them on a human level.
+Empathy for our customers starts with a deep understanding of their needs and goals, not just the tasks they're trying to accomplish. Rather than focusing on isolated actions, we aim to support their overall workflows. Designing with this mindset ensures that we're creating a more connected and coherent experience across the product.
+
+| Do                                                                                                                                              | Don't                                                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Design with the customer's end goal in mind.  |  Focus solely on individual tasks. |
+| Treat features as interconnected parts of the experience. | Think about features in isolation.  |
+| Maintain consistency across the product. | Re-invent the wheel. |
+
+<!--
+ 1. **Bold sub principle(s) title** Explanation, plus optional reference
+  - Example(s), plus link towards a reference in real-life
+-->
+
+## 3 Transparent over opaque
+
+[Transparency](https://handbook.gitlab.com/handbook/values/#transparency) is both a company value and a design principle: Our design decisions should strive to increase clarity and foster confidence in the product. People should understand the rationale behind system behaviors, actions, and recommendations so they are empowered to make informed decisions. This is especially important when interacting with complex products or newer technologies.
+
+| Do                                                                                                                                              | Don't                                                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Clearly explain how recommendations are generated, especially with [AI features](/usability/ai-human-interaction#be-transparent). | Omit explanations for recommendations to simplify the experience. |
+| Communicate the status of processes happening in the background. | Only communicate about processes happening in the foreground, as a direct result of the user's actions. |
+| Ensure people have all of the information they need to proceed with confidence. | Leave important questions unanswered, in a way that damages trust. |
 
 <!--
 1. **Bold sub principle(s) title** Explanation, plus optional reference
