@@ -10,17 +10,16 @@ Each principle has been assigned a hierarchy position to resolve confusion about
 
 We take inspiration from other companies though our principles are defined by looking inward. This helps to determine which are most actionable and effective. Just like the rest of our work, we continually adjust our principles and strive always to make them better. Our principle guidelines are defined at the bottom of this page, so everyone is welcome to suggest improvements by opening an issue and/or creating a merge request in our [repository](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)!
 
-## 1 Enable productivity in all we do
+## 1 Enable productivity
 
-GitLab is an application to support what people do, day in, day out. We should respect the importance of their work and avoid gimmicky details. While work can get complicated, GitLab should help customers focus on what matters now.
-
-We use the phrase [sophisticated simplicity](https://handbook.gitlab.com/handbook/product/ux/product-designer/#aiming-towards-sophisticated-simplicity) to capture this principle in design. In practice, sophisticated simplicity might mean making choices that simplify complex workflows and the UI.
+GitLab is a platform that supports people in their daily work. We respect the importance of their efforts and avoid unnecessary gimmicks. By embracing [sophisticated simplicity](https://handbook.gitlab.com/handbook/product/ux/product-designer/#aiming-towards-sophisticated-simplicity), we make thoughtful choices that streamline complex workflows and functionality, allowing users to stay focused on what matters most.
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Ensure content is discoverable. | Force people to search around for what they need. |
-| Ensure the features and functions that enable people to achieve their goals are all present, and function as expected.  |  Leave people without access to the features they need to complete their goals. |
-| Ensure all content is as simple and clear as possible. | Use complicated explanations or UI configuration options. |
+| Ensure content is easily discoverable. | Force people to search around for what they need. |
+| Provide the features people need to achieve their goals, and ensure they function as expected.  |  Leave people without access to the features they need to complete their goals. |
+| Make all content as clear and straightforward as possible. | 	Overcomplicate with excessive explanation or configuration options.
+. |
 
 <!--
  1. **Bold sub principle(s) title** Explanation, plus optional reference
