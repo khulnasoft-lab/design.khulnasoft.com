@@ -100,6 +100,14 @@ Objects within a component will [use constraints](https://help.figma.com/article
 
 Components with [Auto Layout](https://help.figma.com/article/453-auto-layout) dynamically resize based on the content within. This works well for components that need to maintain padding and spacing. A button is a good candidate for auto layout, because it can resize horizontally based on label length, and whether or not icons are included. Complex responsive-like components, like a modal, can be created with auto layout.
 
+### Using Figma variables
+
+[Variables in Figma](https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma) store reusable values that can be applied to all kinds of design properties and prototyping actions.
+
+When building components, [use design tokens](https://design.gitlab.com/product-foundations/design-tokens-using) by applying Figma variables from the Design token library. However, not all Figma variables are design tokens.
+
+New variables should only be created when essential to sync integrated components.
+
 ### Naming properties
 
 Use the following guidelines and principles when naming properties. Consistent naming will make components easier to maintain and use.
