@@ -102,7 +102,7 @@ Components with [auto layout](https://help.figma.com/article/453-auto-layout) dy
 
 ### Using slots
 
-A slot is a designated area within a component where various content or composition sub-components can be inserted or swapped out. Using slots in a component allows for flexible content insertion while maintaining consistent component structure and functionality.
+A slot is an area within a component where content can be inserted or swapped out using a sub-component. Using slots in a component allows for content insertion while maintaining component structure and functionality.
 
 When creating a slot, ensure that spacing comes from the parent component, not the child sub-component. This maintains consistent layout regardless of the content inserted into the slot.
 
