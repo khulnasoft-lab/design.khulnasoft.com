@@ -26,7 +26,7 @@ name: Release notes
 
 ### Enhancements
 
-- You asked, we delivered. [**❖&nbsp;Avatars**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=120518-1378) have more photo and new illustration profile picture options built in.
+- You asked, we delivered. [**&nbsp;Avatars**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=120518-1378) have more photo and new illustration profile picture options built in.
 
 ### Changes
 
