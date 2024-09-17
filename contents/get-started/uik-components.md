@@ -88,7 +88,9 @@ With a nod to [atomic design](https://bradfrost.com/blog/post/atomic-web-design/
 
 ### Integrated components
 
-To reduce component complexity and improve performance, we sometimes build a simplified version of a frequently used element directly inside another component, rather than nesting a component instance that includes all of its variants, properties and options. We call this an _integrated component_. This approach uses Figma variables to manage key properties, like spacing and border radius, while ensuring consistency with controlled updates.
+To enhance performance and reduce component complexity, we sometimes create a simplified version of a component directly within another component. This approach avoids nesting a full component instance with all its variants, properties, and options. We call this an _integrated component_. 
+
+When creating a integrated component inside a Figma component, we use [Figma variables](https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma) to keep these 'pseudo-components' in sync with the real component. For example, we use a Figma variable to control the border radius of the badge component and integrated badge components. Using variables allows properties to be centrally managed, ensuring consistency between components and integrated components.
 
 Apply this method selectively, as direct nesting may sometimes still be preferable. When applying:
 
