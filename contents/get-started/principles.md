@@ -18,7 +18,7 @@ GitLab is a platform that supports people in their daily work. We respect the im
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Ensure content is easily discoverable. | Force people to search around for what they need. |
 | Provide the features people need to achieve their goals, and ensure they function as expected.  |  Leave people without access to the features they need to complete their goals. |
-| Make all content as clear and straightforward as possible. | 	Overcomplicate with excessive explanation or configuration options. |
+| Make all content as clear and straightforward as possible. | Overcomplicate with excessive explanation or configuration options. |
 
 <!--
  1. **Bold sub principle(s) title** Explanation, plus optional reference
