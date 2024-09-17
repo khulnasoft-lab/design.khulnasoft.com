@@ -88,13 +88,13 @@ With a nod to [atomic design](https://bradfrost.com/blog/post/atomic-web-design/
 
 ### Integrated components
 
-To enhance performance and reduce component complexity, we sometimes create a simplified version of a component directly within another component. This approach avoids nesting a full component instance with all its variants, properties, and options. We call this an _integrated component_. 
+To enhance performance and reduce component complexity, we sometimes create a simplified version of a component directly within another component. This approach avoids nesting a full component instance with all its variants, properties, and options. We call this an _integrated component_.
 
 When creating a integrated component inside a Figma component, we use [Figma variables](https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma) to keep these 'pseudo-components' in sync with the real component. For example, we use a Figma variable to control the border radius of the badge component and integrated badge components. Using variables allows properties to be centrally managed, ensuring consistency between components and integrated components.
 
 Apply this method selectively, as direct nesting may sometimes still be preferable. When applying:
 
-- Open the 📙 Component library [collection](https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma) named 'Integrated components'.
+- Open the 📙 Component library [collection](https://help.figma.com/hc/en-us/articles/14506821864087-Overview-of-variables-collections-and-modes#h_01H9V3QSVH2T1EYNXP7RNXZ8MV) named 'Integrated components'.
 - Check if the component already exists in the collection, otherwise, create a minimal set of Figma Variables for the component.
 - Group by component name, for example 'Tooltip' or 'Badge'.
 - Focus on values not controlled by other styles, like spacing or border radius (these properties may eventually be replaced with design tokens, but color is currently the only supported design token category).
