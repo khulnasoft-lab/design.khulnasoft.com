@@ -17,7 +17,7 @@ name: Release notes
 - Breaking (high): Adds all-new [**❖&nbsp;Button**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=122559-8763&). This powerhouse component unifies multiple button types, offering unprecedented flexibility and ease of use. Highlights include:
   - Seamless switching between 12(!) styles.
   - Four of your favorite button types - text, icon only, dropdown, and icon only dropdown.
-  - Built-in icon picker for ⚡️-fast customization.
+  - Built-in icon picker for lightning-fast customization ⚡️
   These changes make it easier to create and edit buttons while maintaining consistency across designs. The new Button component replaces several previous button components, offering a more streamlined and flexible approach to button use in your Figma artifacts.
 - Breaking (high): Adds [**❖&nbsp;Split&nbsp;dropdown&nbsp;button**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=123024-2869), [**❖&nbsp;Emoji&nbsp;button**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=123515-16040), and [**❖&nbsp;Ellipsis&nbsp;button**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=123733-4517) for specialized button needs. Full features detailed in the [instances](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-7).
 - Adds [**❖&nbsp;Sorting**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=123918-20385). While button-like in appearance, this component is purpose-built for sorting interactions, offering a distinct set of features tailored for this specific use case.
@@ -26,7 +26,7 @@ name: Release notes
 
 ### Enhancements
 
-- You asked, we delivered. [**Avatars**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=120518-1378) have more photo and new illustration profile picture options built in.
+- You asked, we delivered. [**❖&nbsp;Avatars**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=120518-1378) have more photo and new illustration profile picture options built in.
 
 ### Changes
 
