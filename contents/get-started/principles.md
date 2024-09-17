@@ -18,8 +18,7 @@ GitLab is a platform that supports people in their daily work. We respect the im
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Ensure content is easily discoverable. | Force people to search around for what they need. |
 | Provide the features people need to achieve their goals, and ensure they function as expected.  |  Leave people without access to the features they need to complete their goals. |
-| Make all content as clear and straightforward as possible. | 	Overcomplicate with excessive explanation or configuration options.
-. |
+| Make all content as clear and straightforward as possible. | 	Overcomplicate with excessive explanation or configuration options. |
 
 <!--
  1. **Bold sub principle(s) title** Explanation, plus optional reference
@@ -52,8 +51,8 @@ When designing, ensure people understand the rationale behind system behaviors, 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Clarify how any recommendations are generated, especially with [AI features](/usability/ai-human-interaction#be-transparent). | Assume people know where recommendations come from. |
-| Be up-front about behind-the-scenes processes.  |  Leave people in a state of uncertainty about how things work or why.    |
-| Ensure people have all of the information they need to proceed with confidence. | Leave important questions unanswered, in a way that damages trust.  |
+| Be up-front about behind-the-scenes processes. |  Leave people in a state of uncertainty about how things work or why. |
+| Ensure people have all of the information they need to proceed with confidence. | Leave important questions unanswered, in a way that damages trust. |
 
 <!--
 1. **Bold sub principle(s) title** Explanation, plus optional reference
