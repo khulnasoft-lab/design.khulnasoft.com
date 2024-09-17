@@ -86,6 +86,22 @@ Base components are currently being replaced as part of [&22](https://gitlab.com
 
 With a nod to [atomic design](https://bradfrost.com/blog/post/atomic-web-design/), an **element** is something that cannot be broken down any further, and is primarily used in the construction of other components. In other words, it's rarely used alone. Since elements can be used and swapped in other components, they're published to the library. A good example of an element is a checkbox, which could be used in forms with a label, or as part of a multiselect dropdown.
 
+### Integrated components
+
+To enhance performance and reduce component complexity, we sometimes create a simplified version of a component directly within another component. This approach avoids nesting a full component instance with all its variants, properties, and options. We call this an _integrated component_. 
+
+When creating a integrated component inside a Figma component, we use [Figma variables](https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma) to keep these 'pseudo-components' in sync with the real component. For example, we use a Figma variable to control the border radius of the badge component and integrated badge components. Using variables allows properties to be centrally managed, ensuring consistency between components and integrated components.
+
+Apply this method selectively, as direct nesting may sometimes still be preferable. When applying:
+
+- Create a minimal set of Figma Variables inside the 📙 Component library collection named 'Integrated components'.
+- Group by component name, for example 'Tooltip' or 'Badge'.
+- Focus on values not controlled by other styles, like spacing or border radius (these properties may eventually be replaced with design tokens, but color is currently the only supported design token category).
+- Follow the design token naming convention, though these are not design tokens. Only add a description where the name is ambiguous.
+- Hide variables from publishing.
+
+As an example, [**❖&nbsp;Tab&nbsp;item**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=123607-1296) uses this technique for the optional badge element.
+
 ### Variants
 
 A **variant** is the most common form of a component. It is available to use as-is from the asset library, and does not require style overrides, although they may be available. In most cases, the content can be overridden for the context. Variants are often built from a [base component](#base-components), but this isn't required. A variant often has properties associated with it that can be quickly swapped in the properties panel.
