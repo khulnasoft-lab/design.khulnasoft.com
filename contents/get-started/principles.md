@@ -42,13 +42,13 @@ Empathy for our customers starts with a deep understanding of their needs and go
 
 ## 3 Transparent over opaque
 
-[Transparency](https://handbook.gitlab.com/handbook/values/#transparency) is both a company value and a design principle: Our design decisions should strive to increase clarity and foster confidence in the product. People should understand the rationale behind system behaviors, actions, and recommendations so they are empowered to make informed decisions. This is especially important when interacting with complex products or newer technologies.
+[Transparency](https://handbook.gitlab.com/handbook/values/#transparency) is both a Pajamas design principle and a value of GitLab itself. Our design decisions should strive to increase clarity and foster confidence in the product. People should understand the rationale behind system behaviors, actions, and recommendations so they are empowered to make informed decisions. This is especially important when interacting with complex products or newer technologies.
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Clearly explain how recommendations are generated, especially with [AI features](/usability/ai-human-interaction#be-transparent). | Omit explanations for recommendations to simplify the experience. |
 | Communicate the status of processes happening in the background. | Only communicate about processes happening in the foreground, as a direct result of the user's actions. |
-| Ensure people have all of the information they need to proceed with confidence. | Leave important questions unanswered, in a way that damages trust. |
+| Ensure people have all of the information they need to proceed with confidence. | Leave questions unanswered just to minimize the UI. |
 
 <!--
 1. **Bold sub principle(s) title** Explanation, plus optional reference
