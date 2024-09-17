@@ -25,7 +25,7 @@ GitLab is a platform that supports people in their daily work. We respect the im
   - Example(s), plus link towards a reference in real-life
 -->
 
-## 2 Goals over tasks
+## Goals over tasks
 
 Empathy for our customers starts with a deep understanding of their needs and goals, not just the tasks they're trying to accomplish. Rather than focusing on isolated actions, we aim to support their overall workflows. Designing with this mindset ensures that we're creating a more connected and coherent experience across the product.
 
@@ -40,7 +40,7 @@ Empathy for our customers starts with a deep understanding of their needs and go
   - Example(s), plus link towards a reference in real-life
 -->
 
-## 3 Transparent over opaque
+## Transparent over opaque
 
 [Transparency](https://handbook.gitlab.com/handbook/values/#transparency) is both a Pajamas design principle and a value of GitLab itself. Our design decisions should strive to increase clarity and foster confidence in the product. People should understand the rationale behind system behaviors, actions, and recommendations so they are empowered to make informed decisions. This is especially important when interacting with complex products or newer technologies.
 
