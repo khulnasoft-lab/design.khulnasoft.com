@@ -25,9 +25,9 @@ GitLab is a platform that supports people in their daily work. We respect the im
   - Example(s), plus link towards a reference in real-life
 -->
 
-## 2 Goal-driven over task-driven
+## 2 Goals over tasks
 
-Empathy for our customers starts with a deep understanding of their needs and goals, not just the tasks they're trying to accomplish. Rather than focusing on isolated actions, we aim to support their overall workflows. Designing with this mindest ensures that we're creating a more connected and coherent experience across the product.
+Empathy for our customers starts with a deep understanding of their needs and goals, not just the tasks they're trying to accomplish. Rather than focusing on isolated actions, we aim to support their overall workflows. Designing with this mindset ensures that we're creating a more connected and coherent experience across the product.
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -46,8 +46,8 @@ Empathy for our customers starts with a deep understanding of their needs and go
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Clearly explain how recommendations are generated, especially with [AI features](/usability/ai-human-interaction#be-transparent). | Assume people know where recommendations come from. |
-| Be up-front about behind-the-scenes processes. |  Leave people in a state of uncertainty about how things work or why. |
+| Clearly explain how recommendations are generated, especially with [AI features](/usability/ai-human-interaction#be-transparent). | Omit explanations for recommendations to simplify the experience. |
+| Communicate the status of processes happening in the background. | Only communicate about processes happening in the foreground, as a direct result of the user's actions. |
 | Ensure people have all of the information they need to proceed with confidence. | Leave important questions unanswered, in a way that damages trust. |
 
 <!--
