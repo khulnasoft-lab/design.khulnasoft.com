@@ -1,5 +1,6 @@
 ---
 name: Punctuation
+description: Using punctuation correctly in various contexts.
 ---
 
 ## Periods
