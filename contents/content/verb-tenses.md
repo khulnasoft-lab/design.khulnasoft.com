@@ -1,5 +1,6 @@
 ---
 name: Verb tenses
+description: Using appropriate verb tenses in UI text for different scenarios.
 ---
 
 Depending on when you show a status or error message, you might use one of many different verb tenses.

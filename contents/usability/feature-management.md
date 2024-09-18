@@ -1,5 +1,6 @@
 ---
 name: Feature management
+description: Covering how to configure, discover, and highlight features and also addressing feature visibility based on user status.
 related:
   - /components/button
   - /patterns/forms

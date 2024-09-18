@@ -1,5 +1,6 @@
 ---
 name: Settings management
+description: Implementing and organizing settings features to enhance user control while maintaining clarity and consistency across different namespaces.
 related:
   - tooltip
   - popover
