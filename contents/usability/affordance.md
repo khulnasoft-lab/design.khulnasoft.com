@@ -1,5 +1,6 @@
 ---
 name: Affordance
+description: Ensuring controls are perceivable and user interactions are intuitive across different modalities.
 ---
 
 ## Visibility

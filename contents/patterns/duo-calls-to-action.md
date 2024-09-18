@@ -1,5 +1,6 @@
 ---
-name: Calls to action
+name: Duo calls to action
+description: An AI-related call-to-action that integrates AI features within GitLab.
 related:
   - /usability/ai-human-interaction
   - /usability/feature-management

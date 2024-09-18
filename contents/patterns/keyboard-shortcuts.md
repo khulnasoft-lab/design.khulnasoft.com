@@ -1,5 +1,6 @@
 ---
 name: Keyboard shortcuts
+description: A keyboard shortcut enables a user to access a feature by only using the keyboard.
 related:
   - button
   - tooltip
