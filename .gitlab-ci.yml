@@ -24,11 +24,13 @@ workflow:
       variables:
         PAGES_ENV_NAME: "pages-review/MR-$CI_MERGE_REQUEST_IID"
         PAGES_PREFIX: 'review-mr-${CI_MERGE_REQUEST_IID}'
+        PAGES_EXPIRE_IN: "1 week"
         CACHE_PREFIX: '${CI_MERGE_REQUEST_IID}'
     - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
       variables:
         PAGES_ENV_NAME: "pages"
         PAGES_PREFIX: "" # no prefix
+        PAGES_EXPIRE_IN: "never"
         CACHE_PREFIX: 'main'
 
 default:
@@ -179,7 +181,7 @@ pages:
   publish: public
   pages:
     path_prefix: "${PAGES_PREFIX}"
-    expire_in: "1 week"
+    expire_in: "${PAGES_EXPIRE_IN}"
   variables:
     CACHE_POLICY: pull-push
   script:
@@ -195,3 +197,4 @@ pages:
   environment:
     name: "${PAGES_ENV_NAME}"
     url: "${CI_PAGES_URL}/${PAGES_PREFIX}"
+    auto_stop_in: "${PAGES_EXPIRE_IN}"
