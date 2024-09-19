@@ -150,7 +150,7 @@ Always provide basic or example sub-component options for a component with slots
 
 When building components, set properties with [design tokens](https://design.gitlab.com/product-foundations/design-tokens-using) where possible.
 
-New [Figma variables](https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma) in the UI kit should only be created to keep [integrated components](in-page-link-when-it-exists) in sync.
+Only create new [Figma variables](https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma) in the UI kit to keep [integrated components](in-page-link-when-it-exists) in sync.
 
 ### Naming properties
 
