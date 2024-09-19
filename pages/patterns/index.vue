@@ -22,7 +22,7 @@ export default {
 <template>
   <collection
     heading="Patterns"
-    content="A pattern combines components and/or content elements into a repeatable, consistent group
+    description="A pattern combines components and/or content elements into a repeatable, consistent group
         that has a shared purpose, content association, or both. For example, filtering, forms, or
         navigation."
     :items="patternList"

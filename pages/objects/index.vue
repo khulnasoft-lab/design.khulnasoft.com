@@ -22,7 +22,7 @@ export default {
 <template>
   <collection
     heading="Objects"
-    content="An object is a conceptual building block or concept that defines how we think about something independent of its visual representation or interaction model. For example, a job, merge request, or repository."
+    description="An object is a conceptual building block or concept that defines how we think about something independent of its visual representation or interaction model. For example, a job, merge request, or repository."
     :items="objectsList"
   />
 </template>

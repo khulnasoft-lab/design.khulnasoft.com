@@ -22,7 +22,7 @@ export default {
 <template>
   <collection
     heading="Pajamas components"
-    content="A component is a UI element that serves a singular purpose or function. Two or more simple components can combine to form a composite component that still has a single function. For example, an avatar, button, or combobox."
+    description="A component is a UI element that serves a singular purpose or function. Two or more simple components can combine to form a composite component that still has a single function. For example, an avatar, button, or combobox."
     :items="componentList"
   />
 </template>

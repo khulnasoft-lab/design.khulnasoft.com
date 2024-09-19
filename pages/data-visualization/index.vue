@@ -22,7 +22,7 @@ export default {
 <template>
   <collection
     heading="Data visualization"
-    content="Data visualizations pull insights from data sets into a narrative and allow users to explore data themselves to discover their own insights."
+    description="Data visualizations pull insights from data sets into a narrative and allow users to explore data themselves to discover their own insights."
     :items="datavizList"
   />
 </template>
