@@ -1,5 +1,6 @@
 ---
 name: AI-human interaction
+description: Designing AI-powered features that emphasize user-centric approaches, transparency, risk management, and ethical considerations in AI implementation.
 related:
   - /usability/contextual-help
   - /usability/destructive-actions
