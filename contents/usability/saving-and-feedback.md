@@ -1,5 +1,6 @@
 ---
 name: Saving and feedback
+description: Presenting strategies for saving user progress and providing feedback while balancing immediacy and accuracy of responses.
 status: in-progress
 ---
 
