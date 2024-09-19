@@ -22,7 +22,7 @@ export default {
 <template>
   <collection
     heading="Usability and interaction"
-    content="Guidelines that apply to the user experience of GitLab."
+    description="Guidelines that apply to the user experience of GitLab."
     :items="usabilityList"
   />
 </template>
