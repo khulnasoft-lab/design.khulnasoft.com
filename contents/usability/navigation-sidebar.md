@@ -1,5 +1,6 @@
 ---
 name: Navigation sidebar
+description: Designing and implementing an effective navigation sidebar for GitLab that focuses on structure, behavior, and communicating changes to a user while minimizing disruption.
 ---
 
 The navigation namely refers to the persistent left sidebar where a user can access different sections of the application. In order to ensure a familiar user experience, minimize disruption, and properly introduce changes we utilize the following resources to guide any change to this region:

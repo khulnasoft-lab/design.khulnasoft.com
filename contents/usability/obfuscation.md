@@ -1,5 +1,6 @@
 ---
 name: Obfuscation
+description: Implementing obfuscation techniques in user interfaces to protect sensitive information while balancing privacy and usability concerns.
 ---
 
 At GitLab, we take user privacy and security seriously. As part of this we use obfuscation to protect sensitive information in our product. Obfuscation is the practice of making sensitive information difficult to understand or read. This helps prevent items such as email addresses or access tokens from unintentionally being made public.
