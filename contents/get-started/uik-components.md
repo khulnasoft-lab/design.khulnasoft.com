@@ -148,11 +148,9 @@ Always provide basic or example sub-component options for a component with slots
 
 ### Using Figma variables
 
-[Variables in Figma](https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma) store reusable values that can be applied to all kinds of design properties and prototyping actions.
+When building components, set properties with [design tokens](https://design.gitlab.com/product-foundations/design-tokens-using) where possible.
 
-When building components, [use design tokens](https://design.gitlab.com/product-foundations/design-tokens-using) by applying Figma variables from the Design token library. However, not all Figma variables are design tokens.
-
-New variables should only be created when essential to sync integrated components.
+New [Figma variables](https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma) in the UI kit should only be created to keep [integrated components](in-page-link-when-it-exists) in sync.
 
 ### Naming properties
 
