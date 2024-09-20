@@ -22,15 +22,13 @@ workflow:
   rules:
     - if: '$CI_MERGE_REQUEST_IID'
       variables:
-        PAGES_ENV_NAME: "pages-review/MR-$CI_MERGE_REQUEST_IID"
+        PAGES_ENV_NAME: 'pages-review/MR-$CI_MERGE_REQUEST_IID'
         PAGES_PREFIX: 'review-mr-${CI_MERGE_REQUEST_IID}'
-        PAGES_EXPIRE_IN: "1 week"
         CACHE_PREFIX: '${CI_MERGE_REQUEST_IID}'
     - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
       variables:
-        PAGES_ENV_NAME: "pages"
-        PAGES_PREFIX: "" # no prefix
-        PAGES_EXPIRE_IN: "never"
+        PAGES_ENV_NAME: 'pages'
+        PAGES_PREFIX: '' # no prefix
         CACHE_PREFIX: 'main'
 
 default:
@@ -43,36 +41,35 @@ variables:
   # TODO: pages-phase-3
   POSTGRES_USER: user
   POSTGRES_PASSWORD: testing-password
-  POSTGRES_ENABLED: "true"
+  POSTGRES_ENABLED: 'true'
   POSTGRES_DB: $CI_ENVIRONMENT_SLUG
   POSTGRES_VERSION: 9.6.2
   ROLLOUT_RESOURCE_TYPE: deployment
-  REVIEW_DISABLED: "true"
+  REVIEW_DISABLED: 'true'
 
   # We should double-check whether the remaining Docker in Docker jobs need the following
   DOCKER_DRIVER: overlay2
-  DOCKER_TLS_CERTDIR: ""  # https://gitlab.com/gitlab-org/gitlab-runner/issues/4501
+  DOCKER_TLS_CERTDIR: '' # https://gitlab.com/gitlab-org/gitlab-runner/issues/4501
 
 include:
   # These templates can be removed once we switch away from AutoDevOps to pages
   # TODO: pages-phase-3
-  - template: Jobs/Build.latest.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Build.latest.gitlab-ci.yml
-  - template: Jobs/Test.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Test.latest.gitlab-ci.yml
-  - template: Jobs/Container-Scanning.latest.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Container-Scanning.latest.gitlab-ci.yml
-  - template: Jobs/Deploy.latest.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Deploy.gitlab-ci.yml
+  - template: Jobs/Build.latest.gitlab-ci.yml # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Build.latest.gitlab-ci.yml
+  - template: Jobs/Test.gitlab-ci.yml # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Test.latest.gitlab-ci.yml
+  - template: Jobs/Container-Scanning.latest.gitlab-ci.yml # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Container-Scanning.latest.gitlab-ci.yml
+  - template: Jobs/Deploy.latest.gitlab-ci.yml # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Deploy.gitlab-ci.yml
   # These templates we should retain after the switch to pages
-  - template: Jobs/Code-Quality.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Code-Quality.gitlab-ci.yml
-  - template: Jobs/Browser-Performance-Testing.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Browser-Performance-Testing.gitlab-ci.yml
-  - template: Jobs/Dependency-Scanning.latest.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Dependency-Scanning.latest.gitlab-ci.yml
-  - template: Jobs/SAST.latest.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/SAST.latest.gitlab-ci.yml
+  - template: Jobs/Code-Quality.gitlab-ci.yml # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Code-Quality.gitlab-ci.yml
+  - template: Jobs/Browser-Performance-Testing.gitlab-ci.yml # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Browser-Performance-Testing.gitlab-ci.yml
+  - template: Jobs/Dependency-Scanning.latest.gitlab-ci.yml # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Dependency-Scanning.latest.gitlab-ci.yml
+  - template: Jobs/SAST.latest.gitlab-ci.yml # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/SAST.latest.gitlab-ci.yml
   - project: 'gitlab-org/frontend/frontend-build-images'
     file: '/semantic-release/.gitlab-ci-template.rules.yml'
   - project: gitlab-org/frontend/untamper-my-lockfile
     file: 'templates/merge_request_pipelines.yml'
   - component: ${CI_SERVER_FQDN}/gitlab-org/components/danger-review/danger-review@1.4.1
     inputs:
-      job_stage: "pre-build"
-
+      job_stage: 'pre-build'
 
 ## Overrides for jobs that can be removed in Phase 3 of the AutoDevOps to pages migration
 # TODO: pages-phase-3
@@ -139,7 +136,7 @@ sast:
   variables:
     CACHE_POLICY: pull
   cache:
-    - key: "${CACHE_PREFIX}-nuxt"
+    - key: '${CACHE_PREFIX}-nuxt'
       fallback_keys:
         - main-nuxt
       paths:
@@ -180,8 +177,9 @@ pages:
   stage: deploy
   publish: public
   pages:
-    path_prefix: "${PAGES_PREFIX}"
-    expire_in: "${PAGES_EXPIRE_IN}"
+    path_prefix: '${PAGES_PREFIX}'
+    # TODO: Move to a variable once https://gitlab.com/gitlab-org/gitlab/-/issues/492289 is fixed
+    expire_in: '4 weeks'
   variables:
     CACHE_POLICY: pull-push
   script:
@@ -195,6 +193,6 @@ pages:
       - public/*
       - environment_url.txt
   environment:
-    name: "${PAGES_ENV_NAME}"
-    url: "${CI_PAGES_URL}/${PAGES_PREFIX}"
-    auto_stop_in: "${PAGES_EXPIRE_IN}"
+    name: '${PAGES_ENV_NAME}'
+    url: '${CI_PAGES_URL}/${PAGES_PREFIX}'
+    auto_stop_in: '4 weeks'
