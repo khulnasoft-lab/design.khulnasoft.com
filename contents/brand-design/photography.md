@@ -1,5 +1,6 @@
 ---
 name: Photography
+description: GitLab's photography principles, emphasizing authentic, diverse imagery that aligns with brand colors and values, while avoiding overly edited or artificial visuals.
 ---
 
 [Photography](https://drive.google.com/drive/folders/1VHErs-KSNX1FIIVgXJR3OmIzwU7M4E1M?usp=sharing) is how we frame DevSecOps in the real world. It is a useful tool for brand storytelling that allows users to see our product in action. It is important to keep visual consistency among all images, whether selecting stock photography or curating photos in-house. Images should be crisp with true-to-life colors and a natural editing style.
