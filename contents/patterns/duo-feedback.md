@@ -35,10 +35,10 @@ The feedback modal can be used in conjunction with other feedback mechanisms, su
 
 <figure-img alt="The feedback modal CTA with thumbs up/thumbs down" label="The feedback form CTA should always be visible" src="/img/duo-thumbs-feedback.svg"></figure-img>
 
-### Other feedback CTAs
+### Multiple feedback CTAs
 
 Limit the number of requests for feedback in the UI to prevent overwhelming users. If it's necessary to have multiple feedback CTAs, make sure each CTA indicates what type of feedback should be provided. For example, differentiate between “rate the AI output” and “general feature feedback” to avoid confusion.
 
-### Context
+### Providing context in feedback
 
 The verbatim AI output is not stored for legal and privacy reasons. Encourage users to provide as much context as possible to ensure their feedback is actionable.
