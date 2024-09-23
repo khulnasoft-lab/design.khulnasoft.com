@@ -13,7 +13,7 @@ User-provided feedback should always be aggregated with other data. Since most u
 
 ## Guidelines
 
-Use the [duo-user-feedback](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/experimental-duo-duo-user-feedback--docs) component to collect feedback on the AI's responses. The shared component helps avoid duplicated effort and track feedback trends across AI features.
+Use the [duo-user-feedback](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/experimental-duo-duo-user-feedback--docs) component to collect feedback on the AI's responses. The shared component helps avoid duplicated effort and track [feedback](https://10az.online.tableau.com/#/site/gitlab/views/DuoFeedbackDashboard/DuoFeedbackDashboard) trends across AI features.
 
 <figure-img alt="Example of the feedback form" label="Example of the feedback form with generic content" src="/img/duo-feedback-modal.svg"></figure-img>
 
