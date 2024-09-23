@@ -1,6 +1,6 @@
 ---
 name: Date and time
-description: Dates and times clarify when an event occurred. The way they are formatted should be informative, not disruptive. While users can choose a preferred date and time format, there are occasions when we default to a specified format instead.
+description: Formatting date and time content.
 ---
 
 ## Date and time options
