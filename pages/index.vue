@@ -19,7 +19,8 @@
           <li>
             <h2>Brand</h2>
             <p>
-              The guidelines, resources, and system behind the visual identity of GitLab. <a href="/brand/overview">Overview →</a>
+              The guidelines, resources, and system behind the visual identity of GitLab.
+              <a href="/brand-design">Overview →</a>
             </p>
           </li>
           <li>
@@ -33,14 +34,14 @@
             <h2>Usability and interaction</h2>
             <p>
               Methodologies, decisions, processes and concepts that frame the user experience.
-              <a href="#">Some link →</a>
+              <a href="/usability">See guidelines →</a>
             </p>
           </li>
           <li>
             <h2>Content</h2>
             <p>
               Copy and messaging are meaningful aspects of the experience and conversation with our
-              users. <a href="#">Some link →</a>
+              users. <a href="/content">Learn more →</a>
             </p>
           </li>
         </ul>
