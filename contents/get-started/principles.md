@@ -27,7 +27,7 @@ GitLab is a platform that supports people in their daily work. We respect the im
 
 ## Outcomes over features
 
-Empathy for the user starts with a deep understanding of their needs and goals, not just the discrete features they use to complete tasks. Rather than focusing on isolated actions, we aim to support their overall workflows and the outcomes they seek. Designing with this mindset ensures that we're creating a more connected and coherent experience across the product.”
+Empathy for the user starts with a deep understanding of their needs and goals, not just the discrete features they use to complete tasks. Rather than focusing on isolated actions, we aim to support their overall workflows and the outcomes they seek. Designing with this mindset ensures that we're creating a more connected and coherent experience across the product.
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
