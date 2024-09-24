@@ -31,9 +31,9 @@ Empathy for the user starts with a deep understanding of their needs and goals, 
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Design with the customer's end goal in mind.  |  Focus solely on individual tasks. |
-| Treat features as interconnected parts of the experience. | Think about features in isolation.  |
-| Maintain consistency across the product. | Re-invent the wheel. |
+| Focus on the user's intended outcomes, what they seek to ultimately achieve. |  Focus on the implementation of trending features to drive adoption and visibility in the market. |
+| Optimize the broader user's journey, even when it crosses product groups, or when you're focused on a particular step. | Optimize individual interactions or tasks with no consideration for the broader user's journey.  |
+| Prioritize user value. | Prioritize technical feasibility or development speed. |
 
 <!--
  1. **Bold sub principle(s) title** Explanation, plus optional reference
