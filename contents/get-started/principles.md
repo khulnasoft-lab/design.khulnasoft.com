@@ -16,9 +16,9 @@ GitLab is a platform that supports people in their daily work. We respect the im
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Focus on the features people need to achieve their goals. | Introduce new features and functionality if it's not integral to the product.  |
-| Provide default actions that match expectations. | Surface all possible actions. |
-| Make all content as clear and straightforward as possible. | Increase complexity by offering multiple configuration options. |
+| Provide the features people need to achieve their goals, and ensure they function as expected. | Introduce new features and functionality if it's not integral to the experience.  |
+| Ensure important actions are easily discoverable. | Surface all possible actions and outcomes. |
+| Make all content as clear and straightforward as possible. | Overcomplicate with excessive explanation or configuration options. |
 
 <!--
  1. **Bold sub principle(s) title** Explanation, plus optional reference
