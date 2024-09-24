@@ -20,28 +20,28 @@
             <h2>Brand</h2>
             <p>
               The guidelines, resources, and system behind the visual identity of GitLab.
-              <a href="/brand-design">Overview →</a>
+              <nuxt-link to="/brand-design">Overview →</nuxt-link>
             </p>
           </li>
           <li>
             <h2>Product</h2>
             <p>
               Foundations, components, patterns and guidelines for building the UI of GitLab.
-              <a href="/get-started/navigating-pajamas">Get started →</a>
+              <nuxt-link to="/get-started/navigating-pajamas">Get started →</nuxt-link>
             </p>
           </li>
           <li>
             <h2>Usability and interaction</h2>
             <p>
               Methodologies, decisions, processes and concepts that frame the user experience.
-              <a href="/usability">See guidelines →</a>
+              <nuxt-link to="/usability">See guidelines →</nuxt-link>
             </p>
           </li>
           <li>
             <h2>Content</h2>
             <p>
               Copy and messaging are meaningful aspects of the experience and conversation with our
-              users. <a href="/content">Learn more →</a>
+              users. <nuxt-link to="/content">Learn more →</nuxt-link>
             </p>
           </li>
         </ul>
