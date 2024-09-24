@@ -267,8 +267,17 @@
             "path": "broadcast-message"
           },
           {
-            "title": "Button",
-            "path": "button"
+            "title": "Buttons",
+            "items": [
+              {
+                "title": "Button",
+                "path": "button"
+              },
+              {
+                "title": "Sorting",
+                "path": "sorting"
+              }
+            ]
           },
           {
             "title": "Card",
@@ -387,10 +396,6 @@
           {
             "title": "Socks",
             "path": "socks"
-          },
-          {
-            "title": "Sorting",
-            "path": "sorting"
           },
           {
             "title": "Spinner",
