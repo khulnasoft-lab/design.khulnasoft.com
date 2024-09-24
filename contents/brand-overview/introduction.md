@@ -4,11 +4,11 @@ name: Introduction
 
 <figure-img alt="GitLab Brand Guidelines" src="/img/brand/intro-hero.png"></figure-img>
 
-Welcome to the GitLab Brand Guidelines, the official resource outlining our brand’s overall look and feel and creative components.
+Welcome to the GitLab Brand Guidelines, the official resource outlining our brand’s overall look and feel and its creative components.
 
 The [GitLab](https://about.gitlab.com/company/) brand exists as the creative expression of our company [mission](https://handbook.gitlab.com/handbook/company/mission/), [vision](https://handbook.gitlab.com/handbook/company/vision/), and [values](https://about.gitlab.com/handbook/values/). At GitLab, everyone contributes to building and representing our brand. Consistently applying these guidelines across all of our work increases awareness, recognition, and trust. It also communicates our unique value, showcases our identity, and differentiates us from our competitors. A unified visual identity supports our goal for GitLab to be recognized as the most comprehensive AI-driven DevSecOps platform.
 
-### Who are the guidelines for?
+#### Who are the guidelines for?
 
 The guidelines serve as the starting point for anyone who is interested in working with our brand. We recommend that you familiarize yourself with our design system if you are a:
 
