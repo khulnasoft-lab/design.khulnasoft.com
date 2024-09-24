@@ -1,5 +1,6 @@
 ---
 name: Motion
+description: GitLab's motion design principles for video production, covering animation techniques, visual elements, and transitions to create a cohesive and brand-aligned aesthetic in marketing materials.
 ---
 
 The motion guidelines follow a sleek, clean aesthetic allowing video producers to convey GitLab's ease of use and highlight messaging without cluttering the frame. These guidelines are the standard for any video involving motion graphics to any degree.

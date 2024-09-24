@@ -1,5 +1,6 @@
 ---
 name: Typography
+description: GitLab's brand typography standards, focusing on the use of GitLab Sans as the primary typeface and GitLab Mono as a secondary font, with specific guidelines for their application in various contexts and the stylistic use of type repetitions.
 ---
 
 ## Primary typeface
