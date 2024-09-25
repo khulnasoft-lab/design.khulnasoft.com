@@ -1,5 +1,6 @@
 ---
 name: Color
+description: GitLab's primary and secondary color palettes, including HEX, RGB, CMYK, and PMS values, along with guidelines for their application in digital and print media, gradient creation, and accessibility considerations.
 ---
 
 This page includes [color swatches](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/tree/e6e2bb24e899078935d1aeb0e65c226b6bf36a8b/brand/brand-assets/brand-color-palettes) for our brand colors. The colors are denoted with a *p* for primary, and *s* for secondary. Default to the following applications when using primary and secondary colors:

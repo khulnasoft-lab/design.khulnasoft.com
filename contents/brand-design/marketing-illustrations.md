@@ -1,5 +1,6 @@
 ---
 name: Marketing illustrations
+description:  GitLab's approach to marketing visuals, detailing the creation and use of illustrations, icons, and diagrams that reflect the company's values and brand personality through specific design principles, color usage, and construction guidelines.
 ---
 
 <figure-img alt="GitLab illustration banner sample" label="Illustration sample" src="/img/brand/marketing-illustrations.png"></figure-img>
