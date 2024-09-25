@@ -20,7 +20,7 @@
             <h2>Brand</h2>
             <p>
               The guidelines, resources, and system behind the visual identity of GitLab.
-              <nuxt-link to="/brand-design">Overview →</nuxt-link>
+              <nuxt-link to="/brand-overview/introduction">Overview →</nuxt-link>
             </p>
           </li>
           <li>
