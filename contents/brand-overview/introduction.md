@@ -16,16 +16,15 @@ The guidelines serve as the starting point for anyone who is interested in worki
 - partner or customer that is interested in representing our brand on digital or print materials.
 - team member who is hosting events or speaking opportunities that showcase our brand.
 - team member who wants to self-service creative assets with tools such as Canva.
-- GitLab fan with a passion for our brand! 
+- GitLab fan with a passion for our brand!
 
-**Have a creative request?** Learn more about our [design workflow](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/design/). 
+**Have a creative request?** Learn more about our [design workflow](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/design/).
 
-**Have a question about the Brand Guidelines?** [Contact the Brand Creative team](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/design/#contacting-the-team). 
-
+**Have a question about the Brand Guidelines?** [Contact the Brand Creative team](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/design/#contacting-the-team).
 
 ## Brand personality
 
-We have three key personality traits that bring our brand to life. We are **visionary**, **empathetic**, and **intentional**; these characteristics come to life in both our messaging and designs to tell the greater story of who we are as a company. 
+We have three key personality traits that bring our brand to life. We are **visionary**, **empathetic**, and **intentional**; these characteristics come to life in both our messaging and designs to tell the greater story of who we are as a company.
 
 ### 1. Visionary
 
@@ -41,9 +40,6 @@ We are thoughtful, collaborative, and considerate, as well as approachable and i
 
 ### 3. Intentional
 
-We are purposeful, direct, and transparent. We communicate with clarity and focus to create a reliable experience for our customers. 
+We are purposeful, direct, and transparent. We communicate with clarity and focus to create a reliable experience for our customers.
 
 *Example: Our monthly release post*
-
-
-
