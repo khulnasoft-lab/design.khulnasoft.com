@@ -257,7 +257,7 @@ end
 def lint_mr(mr_title)
   return if mr_title.empty?
   release = NO_RELEASE
-  semantic_commit = match_semantic_commit(mr_title[/(^WIP: +)?(.*)/, 2])
+  semantic_commit = match_semantic_commit(mr_title[/\A(?i)(\[draft\]|\(draft\)|draft:)?(.*)/, 2])
 
   if !semantic_commit
     fail(
