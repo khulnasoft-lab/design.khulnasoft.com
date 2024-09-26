@@ -203,8 +203,6 @@ def lint_mr(mr_title)
     fail(
       'Merge request title must not end with a period.'
     )
-    failed = true
-  end
   elsif !SEMANTIC_COMMIT_TYPES.include?(semantic_commit[:type])
     warn(
       "Merge request title should have a [common semantic commit type](#{URL_COMMIT_TYPES})."
