@@ -126,14 +126,14 @@ def lint_commit(commit)
   end
 
   if subject.end_with?('.')
-    fail_commit(commit, 'The commit subject must not end with a period')
+    fail_commit(commit, 'The commit subject must not end with a period.')
     failed = true
   end
 
   if separator && !separator.empty?
     fail_commit(
       commit,
-      'The commit subject and body must be separated by a blank line'
+      'The commit subject and body must be separated by a blank line.'
     )
 
     failed = true
@@ -216,11 +216,12 @@ def lint_commits(commits)
     markdown(<<~MARKDOWN)
       ## Commit message standards
 
-      One or more commit messages do not meet our Git commit message standards.
-      For more information on how to write a good commit message, take a look at
-      [Conventional commits](#{URL_SEMANTIC_RELEASE}).
+      One or more commit messages do not meet our
+      [Git commit message standards](#{URL_SEMANTIC_RELEASE}).
+      Rewrite them, or enable **Squash commits when merge request is accepted**
+      and ensure the merge request title complies with the standards.
 
-      Here is an example of a good commit message:
+      **Good** commit message example:
 
           feat(progressbar): Improve rendering performance in Edge
 
@@ -231,7 +232,7 @@ def lint_commits(commits)
           By utilizing the better-math library we avoid those calculation errors
           and we can achieve 120 rendering frames per second again.
 
-      This is an example of a bad commit message:
+      **Bad** commit message example:
 
           fixed progressbar
 
@@ -255,17 +256,24 @@ end
 
 def lint_mr(mr_title)
   return if mr_title.empty?
-
   release = NO_RELEASE
   semantic_commit = match_semantic_commit(mr_title[/(^WIP: +)?(.*)/, 2])
 
   if !semantic_commit
-    warn(
-      'Your MR has **Squash commits when merge request is accepted** enabled but its title does not comply with conventional commits specifications'
+    fail(
+      "The merge request has **Squash commits when merge request is accepted** enabled but its title does not meet our [Git commit message standards](#{URL_SEMANTIC_RELEASE})."
+    )
+  elsif mr_title.length > COMMIT_SUBJECT_MAX_LENGTH
+    fail(
+      "The merge request title must not be longer than #{COMMIT_SUBJECT_MAX_LENGTH} characters"
+    )
+  elsif mr_title.end_with?('.')
+    fail(
+      'The merge request title must not end with a period.'
     )
   elsif !SEMANTIC_COMMIT_TYPES.include?(semantic_commit[:type])
     warn(
-      "The semantic commit type `#{semantic_commit[:type]}` is not a well-known semantic commit type."
+      "The merge request title has an uncommon semantic commit type `#{semantic_commit[:type]}`."
     )
   elsif semantic_commit[:type] == 'feat'
     release = MINOR_RELEASE
@@ -285,7 +293,7 @@ def lint_mr(mr_title)
   end
 end
 
-lint_commits(git.commits)
+lint_commits(git.commits) if !helper.squash_mr?
 lint_mr(helper.mr_title) if helper.squash_mr?
 
 if git.commits.length > 10
