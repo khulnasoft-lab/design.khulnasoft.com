@@ -1,9 +1,11 @@
 ---
 name: Merge request reports
-description: A merge request (MR) report provides a variety of details about MR changes and status.
+description: The merge request (MR) reports region includes a wide variety of widgets that report information about the MR changes, helping authors and reviewers understand their impact and what needs to be improved.
 ---
 
-The merge request (MR) reports region includes a wide variety of widgets that report information about the MR changes, helping authors and reviewers understand their impact and what needs to be improved. The following guidelines systematize attributes like layout, hierarchy, and content sections, making the widgets consistent, scannable, and utilitarian. Widgets are designed to adapt to page layout (responsive), and future widgets will have patterns to follow. We provide constraints where possible, but ultimately a widget's unique purpose should define the extent of how the guidelines are applied.
+The following guidelines systematize attributes like layout, hierarchy, and content sections, making the widgets consistent, scannable, and utilitarian.
+
+Widgets are designed to adapt to page layout (responsive), and future widgets will have patterns to follow. We provide constraints where possible, but ultimately a widget's unique purpose should define the extent of how the guidelines are applied.
 
 [View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=38193%3A30482)
 

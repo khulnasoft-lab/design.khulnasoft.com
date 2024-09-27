@@ -1,6 +1,6 @@
 ---
 name: Slash commands in GitLab Duo Chat
-description: A way for the user to efficiently communicate their intent to GitLab Duo Chat and also discover GitLab Duo Chat functionality.
+description: A method for communicating with and discovering GitLab Duo Chat functionality.
 related:
   - /usability/ai-human-interaction
 ---

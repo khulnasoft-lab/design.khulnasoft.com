@@ -1,7 +1,9 @@
 ---
 name: Searching
-description: Global search allows a user to search across multiple items, while list search enables filtering and searching within specific lists.
+description: Guidelines for implementing global search across multiple items and list search for filtering within specific lists.
 ---
+
+Global search enables users to find items across projects, while list search allows filtering within specific content areas. These search capabilities help users quickly locate relevant information and manage their workflows efficiently.
 
 ## Global search
 

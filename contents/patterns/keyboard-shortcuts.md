@@ -1,12 +1,12 @@
 ---
 name: Keyboard shortcuts
-description: A keyboard shortcut enables a user to access a feature by only using the keyboard.
+description: Keyboard shortcuts enhance user efficiency and accessibility by enabling feature access without a mouse.
 related:
   - button
   - tooltip
 ---
 
-Keyboard shortcuts can help improve accessibility and the user's productivity. While not every action needs a keyboard shortcut, consider if it could optimize a frequent workflow.
+While not every action needs a keyboard shortcut, consider if it could optimize a frequent workflow.
 
 ## Guidelines
 
