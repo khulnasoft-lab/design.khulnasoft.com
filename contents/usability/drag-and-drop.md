@@ -1,5 +1,6 @@
 ---
 name: Drag and drop
+description: Outlining the best practices for drag and drop functionality to ensure an intuitive user experience when reordering items.
 ---
 
 To move and reorder items in a collection or across similar collections, users can press and drag them to a new position.

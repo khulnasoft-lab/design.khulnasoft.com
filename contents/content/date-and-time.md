@@ -1,9 +1,11 @@
 ---
 name: Date and time
-description: Dates and times clarify when an event occurred. The way they are formatted should be informative, not disruptive. While users can choose a preferred date and time format, there are occasions when we default to a specified format instead.
+description: Date and time formats in GitLab aim for clarity and consistency, balancing user preferences with default formats to enhance comprehension across diverse localization needs.
 ---
 
 ## Date and time options
+
+Dates and times clarify when an event occurred. The way they are formatted should be informative, not disruptive. While users can choose a preferred date and time format, there are occasions when we default to a specified format instead.
 
 ### Absolute format
 
