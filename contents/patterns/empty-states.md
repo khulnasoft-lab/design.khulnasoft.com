@@ -1,5 +1,6 @@
 ---
 name: Empty States
+description: An empty state appears when no content exists in a specific area in order to provide guidance.
 components:
   - regions-empty-state
 related:

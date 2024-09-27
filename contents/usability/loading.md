@@ -1,5 +1,6 @@
 ---
 name: Loading
+description: Implementing loading indicators and interactions and providing clear feedback to a user during loading states.
 related:
   - infinite-scroll
   - skeleton-loader

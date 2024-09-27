@@ -1,5 +1,6 @@
 ---
 name: Filtering
+description: Filtering is a combination of elements used to narrow down data based on specific criteria.
 related:
   - filter
   - search
