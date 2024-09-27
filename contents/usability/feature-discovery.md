@@ -1,5 +1,6 @@
 ---
 name: Feature discovery
+description: Emphasizing the importance of user context, motivation, and availability of features with recommendations for effective design of discovery patterns.
 related:
   - banner
   - popover
