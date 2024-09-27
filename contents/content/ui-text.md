@@ -1,6 +1,6 @@
 ---
 name: How to write UI text
-description: Writing clear, concise, and user-friendly UI text.
+description: The UI copy prioritizes user objectives, balances professionalism with empathy, and aims for clarity and conciseness.
 ---
 
 Copy and messaging are meaningful aspects of the GitLab experience and the conversation with our users.

@@ -1,6 +1,6 @@
 ---
 name: Punctuation
-description: Using punctuation correctly in various contexts.
+description: Apply punctuation marks consistently and purposefully to enhance clarity and readability in UI text and documentation.
 ---
 
 ## Periods
