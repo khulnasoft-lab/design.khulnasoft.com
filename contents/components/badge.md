@@ -1,5 +1,6 @@
 ---
 name: Badge
+summary: A badge highlights system generated metadata as an attribute of a larger object. 
 description: A badge highlights system generated metadata as an attribute of a larger object. 
 figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A3
 docs: complete

@@ -1,5 +1,6 @@
 ---
 name: Skeleton loader
+summary: A skeleton loader is a simplified preview of loading content.
 description: A skeleton loader is a simplified preview of loading content.
 components:
   - base-skeleton-loader

@@ -1,5 +1,6 @@
 ---
 name: Accordion
+summary: An accordion is used to show and hide content. 
 description: An accordion is used to show and hide content. 
 components:
   - base-accordion
