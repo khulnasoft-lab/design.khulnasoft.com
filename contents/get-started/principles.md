@@ -6,43 +6,32 @@ Principles act as a reusable standard for teams to measure their work. They repl
 
 There are two kinds of principles; The principles that guide the process and principles that define the output. The process principles are described in our [handbook](https://about.gitlab.com/handbook/product/#product-principles), while the outcome principles are detailed here.
 
-Each principle has been assigned a hierarchy position to resolve confusion about what to do in a specific circumstance while remaining consistent.
-
 We take inspiration from other companies though our principles are defined by looking inward. This helps to determine which are most actionable and effective. Just like the rest of our work, we continually adjust our principles and strive always to make them better. Our principle guidelines are defined at the bottom of this page, so everyone is welcome to suggest improvements by opening an issue and/or creating a merge request in our [repository](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)!
 
-## 1 Enable productivity
+## Sophisticated simplicity
 
-GitLab is a platform that supports people in their daily work. We respect the importance of their efforts and avoid unnecessary gimmicks. By embracing [sophisticated simplicity](https://handbook.gitlab.com/handbook/product/ux/product-designer/#aiming-towards-sophisticated-simplicity), we make thoughtful choices that streamline complex workflows and functionality, allowing users to stay focused on what matters most.
+GitLab is a platform that supports people in their daily work. We respect the importance of their efforts and avoid unnecessary gimmicks. To that end, we work towards [sophisticated simplicity](https://handbook.gitlab.com/handbook/product/ux/product-designer/#aiming-towards-sophisticated-simplicity) in our product. We do this by making thoughtful choices that streamline complex workflows and functionality, allowing users to stay focused on what matters most.
+
+There are three principles that help support us in this work.
+
+### Prioritize the platform
+
+GitLab is a platform that supports people in their daily work. Though it's made of up many tools, everything should function seamlessly together. Designing with this mindset ensures that we're creating a more connected and coherent experience across the product.
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Provide the features people need to achieve their goals, and ensure they function as expected. | Introduce new features and functionality if it's not integral to the experience.  |
-| Ensure important actions are easily discoverable. | Surface all possible actions and outcomes. |
-| Make all content as clear and straightforward as possible. | Overcomplicate with excessive explanation or configuration options. |
+| Optimize connections between capabilities. | Optimize for an isolated use of tools.  |
+| Use patterns consistently across the platform. | Use different patterns based on product area.  |
+| Optimize the broader user journey, even when it crosses product groups, or when you're focused on a particular step. | Optimize for individual interactions or features.  |
 
 <!--
  1. **Bold sub principle(s) title** Explanation, plus optional reference
   - Example(s), plus link towards a reference in real-life
 -->
 
-## Outcomes over features
+### Support learning
 
-Empathy for the user starts with a deep understanding of their needs and goals, not just the discrete features they use to complete tasks. Rather than focusing on isolated actions, we aim to support their overall workflows and the outcomes they seek. Designing with this mindset ensures that we're creating a more connected and coherent experience across the product.
-
-| Do                                                                                                                                              | Don't                                                                                                                                                              |
-| ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Focus on the user's intended outcomes, what they seek to ultimately achieve. |  Focus on the implementation of trending features to drive adoption and visibility in the market. |
-| Optimize the broader user's journey, even when it crosses product groups, or when you're focused on a particular step. | Optimize individual interactions or tasks with no consideration for the broader user's journey.  |
-| Prioritize user value. | Prioritize technical feasibility or development speed. |
-
-<!--
- 1. **Bold sub principle(s) title** Explanation, plus optional reference
-  - Example(s), plus link towards a reference in real-life
--->
-
-## Transparent over opaque
-
-Transparency is both a Pajamas design principle and a [value of GitLab the company](https://handbook.gitlab.com/handbook/values/#transparency). Our design decisions should strive to increase clarity and foster confidence in the product. People should understand the rationale behind system behaviors, actions, and recommendations so they are empowered to make informed decisions. This is especially important when interacting with complex products or newer technologies.
+Users should be able to interact and explore in ways that promote learning and proficiency while minimizing mistakes.
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -54,6 +43,16 @@ Transparency is both a Pajamas design principle and a [value of GitLab the compa
 1. **Bold sub principle(s) title** Explanation, plus optional reference
   - Example(s), plus link towards a reference in real-life
 -->
+
+### Focus on outcomes
+
+Empathy for the user starts with a deep understanding of their needs and goals. Rather than focusing on isolated actions or on the discrete features used to complete specific tasks, we aim to support the broader outcomes they seek to achieve.
+
+| Do                                                                                                                                              | Don't                                                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Focus on the user's intended outcomes, and on what they seek to ultimately achieve. |  Focus on the implementation of trending features to drive adoption and visibility in the market. |
+| Prioritize user value. | Prioritize technical feasibility or development speed. |
+| Design for current essential needs. | Design to accomodate future, potential needs. |
 
 ## References
 
