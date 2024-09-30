@@ -13,31 +13,33 @@ User-provided feedback should always be aggregated with other data. Since most u
 
 ## Guidelines
 
-Use the [duo-user-feedback](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/experimental-duo-duo-user-feedback--docs) component to collect feedback on the AI's responses. The shared component helps avoid duplicated effort and track [feedback](https://10az.online.tableau.com/#/site/gitlab/views/DuoFeedbackDashboard/DuoFeedbackDashboard) trends across AI features.
+Use the [duo-user-feedback](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/experimental-duo-duo-user-feedback--docs) component to collect feedback on the AI's responses. The shared component helps avoid duplicated effort and [track feedback](https://10az.online.tableau.com/#/site/gitlab/views/DuoFeedbackDashboard/DuoFeedbackDashboard) trends across AI features.
 
-<figure-img alt="Example of the feedback form" label="Example of the feedback form with generic content" src="/img/duo-feedback-modal.svg"></figure-img>
+<figure-img alt="Example of the feedback form" label="Example of the feedback form with generic content." src="/img/duo-feedback-modal.svg"></figure-img>
 
 ### Form
 
-[Research](https://gitlab.dovetail.com/projects/1zcL5n3UX0yD0PYHQzWhms/insights/present/1IoqjGt8wqk4oKCqftDBBE) shows that users struggle to categorize their feedback as simply "good" or "bad" and prefer providing more context. A form enables users to provide detailed, nuanced feedback, which is richer in information and more actionable.
+[Users struggle](https://gitlab.dovetail.com/projects/1zcL5n3UX0yD0PYHQzWhms/insights/present/1IoqjGt8wqk4oKCqftDBBE) to categorize their feedback as simply "good" or "bad" and prefer providing more context. A form enables users to provide detailed, nuanced feedback, which is richer in information and more actionable.
 
-The shared component allows the form content to be customized, so that questions are relevant to the feature.
+The shared component supports the addition of custom questions, to provide contextual feedback per feature.
 
 ### Call-to-action (CTA)
 
-To encourage users to provide feedback, let them know their input helps improve the feature. Consider adding a note near the call-to-action or in the CTA label to reinforce this idea:
+Each instance of AI output should include a feedback form call-to-action. For example, every response from Duo Chat should have a link to open the feedback form. The feedback form intended to gather feedback on the AI output specifically, not the entire feature. Ensure the CTA clearly states that users are providing feedback on the AI's responses.
 
-<figure-img alt="Duo Chat feedback CTA" label="The CTA indicates that feedback will improve the answer" src="/img/duo-feedback-cta.svg"></figure-img>
+To encourage feedback, highlight how user input contributes to improving the feature. Consider adding a brief note near the CTA or within its label to reinforce this message:
 
-The feedback call-to-action should be present on each instance of AI output. For example, each answer from Duo Chat has a link to open the feedback form. The purpose of the form is to collect feedback on the AI output, not the entire feature.
+<figure-img alt="Duo Chat feedback CTA" label="The CTA indicates that feedback will improve the answer." src="/img/duo-feedback-cta.svg"></figure-img>
 
-The feedback modal can be used in conjunction with other feedback mechanisms, such as thumbs up/thumbs buttons. However, the call-to-action to open the form should always be accessible.
+The feedback modal can be used in conjunction with other feedback mechanisms, such as thumbs up/thumbs buttons. However, the call-to-action to open the feedback form should always be accessible.
 
-<figure-img alt="The feedback modal CTA with thumbs up/thumbs down" label="The feedback form CTA should always be visible" src="/img/duo-thumbs-feedback.svg"></figure-img>
+<figure-img alt="The feedback modal CTA with thumbs up/thumbs down." label="The feedback form CTA should always be accessible." src="/img/duo-thumbs-feedback.svg"></figure-img>
 
 ### Multiple feedback CTAs
 
-Limit the number of requests for feedback in the UI to prevent overwhelming users. If it's necessary to have multiple feedback CTAs, make sure each CTA indicates what type of feedback should be provided. For example, differentiate between “rate the AI output” and “general feature feedback” to avoid confusion.
+Limit the number of requests for feedback in the UI to prevent overwhelming users. If multiple feedback prompts are necessary, ensure each one specifies the type of feedback being requested. For example, differentiate between “rate the AI output” and “general feature feedback” to avoid confusion.
+
+<figure-img alt="Request for general feedback has a distinct UI and CTA." label="Request for general feedback has a distinct UI and CTA." src="/img/general-feedback.svg"></figure-img>
 
 ### Providing context in feedback
 
