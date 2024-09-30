@@ -37,8 +37,11 @@ export default {
           :to="item.path"
         >
           <span class="gl-block gl-font-bold">{{ item.name }}</span>
-          <span v-if="item.summary" class="gl-mb-0 gl-mt-2 gl-block gl-text-base gl-leading-20">
-            {{ item.summary }}
+          <span
+            v-if="item.summary || item.description"
+            class="gl-mb-0 gl-mt-2 gl-block gl-text-base gl-leading-20"
+          >
+            {{ item.summary || item.description }}
           </span>
         </nuxt-link>
       </li>
