@@ -1,5 +1,6 @@
 ---
 name: Tooltip
+summary: Tooltips identify elements or provide additional, useful information about the referring elements.
 description: Tooltips identify elements or provide additional, useful information about the referring elements.
 components:
   - base-tooltip

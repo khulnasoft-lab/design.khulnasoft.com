@@ -1,5 +1,6 @@
 ---
 name: Progress bar
+summary: A progress bar indicates a percentage of completion.
 description: A progress bar indicates a percentage of completion.
 components:
   - base-progress-bar

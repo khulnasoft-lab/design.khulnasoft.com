@@ -1,5 +1,6 @@
 ---
 name: Text input
+summary: A component for the HTML input type="text" element.
 description: A component for the HTML input type="text" element.
 componentLabel: form-text-input
 ---

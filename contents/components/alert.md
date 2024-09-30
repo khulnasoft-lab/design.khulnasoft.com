@@ -1,5 +1,6 @@
 ---
 name: Alert
+summary: An alert is a system generated, contextual, and timely message to a user that may or may not result from their action.
 description: An alert is a system generated, contextual, and timely message to a user that may or may not result from their action.
 figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A1
 docs: complete

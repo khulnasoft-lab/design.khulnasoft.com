@@ -1,5 +1,6 @@
 ---
 name: File uploader
+summary: A file uploader is used to upload files from a computer or device to the application.
 description: A file uploader is used to upload files from a computer or device to the application.
 componentLabel: form-file-uploader
 docs: in-progress

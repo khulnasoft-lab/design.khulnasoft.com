@@ -1,5 +1,6 @@
 ---
 name: Card
+summary: A card displays a single group of content within a set of similar groups.
 description: A card displays a single group of content within a set of similar groups.
 components:
   - base-card
