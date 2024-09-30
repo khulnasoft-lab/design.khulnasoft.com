@@ -1,5 +1,6 @@
 ---
 name: Stepper
+summary: A stepper separates structured workflows into meaningful, ordered steps.
 description: A stepper separates structured workflows into meaningful, ordered steps.
 related:
   - progress-bar

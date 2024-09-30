@@ -1,5 +1,6 @@
 ---
 name: Banner
+summary: A banner promotes awareness of a new feature or high-priority research initiative.
 description: A banner promotes awareness of a new feature or high-priority research initiative.
 components:
   - base-banner

@@ -1,5 +1,6 @@
 ---
 name: Tree
+summary: A tree component structures parent and child nodes into a meaningful hierarchy.
 description: A tree component structures parent and child nodes into a meaningful hierarchy.
 related:
 - accordion

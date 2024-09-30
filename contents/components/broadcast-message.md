@@ -1,5 +1,6 @@
 ---
 name: Broadcast message
+summary: A broadcast message delivers an instance level message from the admin to all users.
 description: A broadcast message delivers an instance level message from the admin to all users.
 figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A6
 docs: complete

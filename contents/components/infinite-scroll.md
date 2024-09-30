@@ -1,5 +1,6 @@
 ---
 name: Infinite scroll
+summary: Infinite scroll helps users parse a large number of items by breaking up lists and distributing the results.
 description: Infinite scroll helps users parse a large number of items by breaking up lists and distributing the results.
 deprecated: true
 components:

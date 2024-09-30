@@ -1,5 +1,6 @@
 ---
 name: Select
+summary: An HTML element, typically used in a form.
 description: An HTML element, typically used in a form.
 componentLabel: form-select
 ---
