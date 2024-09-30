@@ -16,7 +16,7 @@ There are three principles that help support us in this work.
 
 ### Prioritize the platform
 
-GitLab is a platform that supports people in their daily work. Though it's made of up many tools, everything should function seamlessly together. Designing with this mindset ensures that we're creating a more connected and coherent experience across the product.
+Though the platform is made of many tools, everything should function seamlessly together. Designing with this mindset ensures that we're creating a more connected and coherent experience across the product.
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
