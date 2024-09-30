@@ -31,7 +31,7 @@ Though the platform is made of many tools, everything should function seamlessly
 
 ### Support learning
 
-Users should be able to interact and explore in ways that promote learning and proficiency while minimizing mistakes.
+Users should be able to interact and explore in ways that promote learning and proficiency while helping them to minimize mistakes.
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
