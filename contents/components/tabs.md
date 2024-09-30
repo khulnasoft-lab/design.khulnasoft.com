@@ -1,5 +1,6 @@
 ---
 name: Tabs
+summary: Tabs divide content into meaningful, related sections.
 description: Tabs divide content into meaningful, related sections.
 components:
   - base-tabs

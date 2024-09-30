@@ -1,5 +1,6 @@
 ---
 name: Search
+summary: Search patterns enable users to find certain information by adding criteria that match their query.
 description: Search patterns enable users to find certain information by adding criteria that match their query.
 componentLabel: form-search
 components:

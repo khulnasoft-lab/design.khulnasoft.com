@@ -1,5 +1,6 @@
 ---
 name: Breadcrumb
+summary: A breadcrumb is a navigational element to help a user understand the current location in the application as well as content structure and hierarchy.
 description: A breadcrumb is a navigational element to help a user understand the current location in the application as well as content structure and hierarchy.
 components:
   - base-breadcrumb

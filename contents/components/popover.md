@@ -1,5 +1,6 @@
 ---
 name: Popover
+summary: A popover is used to provide supplemental, useful, unique information about an element, including one or multiple actionable elements. It informs the user of additional information within the context of their original view, but without forcing them to act upon it like a modal.
 description: A popover is used to provide supplemental, useful, unique information about an element, including one or multiple actionable elements. It informs the user of additional information within the context of their original view, but without forcing them to act upon it like a modal.
 components:
   - base-popover

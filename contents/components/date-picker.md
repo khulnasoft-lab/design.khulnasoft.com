@@ -1,5 +1,6 @@
 ---
 name: Date picker
+summary: The date picker allows a user to choose and/or input a date by using a calendar dropdown or by typing the date into a text field.
 description: The date picker allows a user to choose and/or input a date by using a calendar dropdown or by typing the date into a text field.
 componentLabel: form-date-picker
 components:
