@@ -1,5 +1,6 @@
 ---
 name: Socks
+summary: Socks represent a unique way to warm your feet.
 description: Socks represent a unique way to warm your feet.
 ---
 

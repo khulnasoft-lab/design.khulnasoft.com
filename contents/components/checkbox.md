@@ -1,5 +1,6 @@
 ---
 name: Checkbox
+summary: A checkbox form element represents a boolean option.
 description: A checkbox form element represents a boolean option.
 componentLabel: form-checkbox
 components:

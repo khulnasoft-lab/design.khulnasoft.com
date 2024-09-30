@@ -1,5 +1,6 @@
 ---
 name: Modal
+summary: A modal is used to reveal critical information, show information without losing context, or when the system requires a user response.
 description: A modal is used to reveal critical information, show information without losing context, or when the system requires a user response.
 figma: https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit?node-id=425%3A129
 docs: complete

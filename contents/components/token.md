@@ -1,5 +1,6 @@
 ---
 name: Token
+summary: A token represents a keyword used to add or filter objects.
 description: A token represents a keyword used to add or filter objects.
 componentLabel: form-token
 components:

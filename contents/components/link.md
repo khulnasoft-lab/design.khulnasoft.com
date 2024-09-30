@@ -1,5 +1,6 @@
 ---
 name: Link
+summary: A link is a navigational element that takes a user to another URL, an element within a page, or a file.
 description: A link is a navigational element that takes a user to another URL, an element within a page, or a file.
 components:
   - base-link

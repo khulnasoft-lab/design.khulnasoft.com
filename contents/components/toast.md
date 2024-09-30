@@ -1,5 +1,6 @@
 ---
 name: Toast
+summary: A toast displays a short system message as a result of a user's action.
 description: A toast displays a short system message as a result of a user's action.
 components:
   - base-toast
