@@ -1,5 +1,6 @@
 ---
 name: Empty States
+summary: Guidelines for designing an informative and actionable content area when content is missing to improve feature adoption and usability.
 components:
   - regions-empty-state
 related:
