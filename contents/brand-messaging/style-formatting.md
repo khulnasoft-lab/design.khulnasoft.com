@@ -2,7 +2,7 @@
 name: Style and formatting
 ---
 
-For any style questions not directly addressed below, refer to the [Associated Press Stylebook](https://www.apstylebook.com/). Where the guidance below conflicts with AP style, the guidance below takes priority. For guidance on how to use specific terms, refer to the [recommended word list in the documentation](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html)
+For any style questions not directly addressed below, refer to the [Associated Press Stylebook](https://www.apstylebook.com/). Where the guidance below conflicts with AP style, the guidance below takes priority. For guidance on how to use specific terms, refer to the [recommended word list in the documentation](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html).
 
 ## Style
 
@@ -22,6 +22,7 @@ Only capitalize the words that make up an acronym or initialism if it’s a prop
 We favor contractions (*can’t, didn’t, it’s, we’re*) to sound more human and less formal.
 
 ###  Lists
+
 If a numbered or bulleted list reads as a continuous sentence, don’t capitalize the first letter of each item in the list, and don’t include punctuation at the end of each item. Example:
 	
 ✅ GitLab Duo is unique because we:
@@ -66,9 +67,10 @@ The exception would be when quoting from an event that was obviously in the past
 We use American English by default on the GitLab blog and marketing site. Please refer to [this list of spelling differences](https://www.oxfordinternationalenglish.com/differences-in-british-and-american-spelling/). In content specifically created for a particular region, use the variant of English that is most appropriate for that region.
 
 ## Voice
+
 Generally, use [active voice](https://www.grammarly.com/blog/active-vs-passive-voice/) where possible. Using active voice ensures that your sentence includes a clear subject and verb. Example:
 
-- ✅ The GitLab community submitted 1 million merge requests in March 2019
+- ✅ The GitLab community submitted 1 million merge requests in March 2019.
 - ❌ One million merge requests were submitted in March 2019.
 
 There may be limited cases where passive voice is the better option. Use your best judgment in each case, and if you decide to use passive voice, try to be aware of why you’re making that choice.
@@ -505,13 +507,3 @@ Unless otherwise specified, spell out acronyms and initialisms at first use.
 ### Y
 
 - year over year (YoY)
-
-
-
-
-
-
-
-
-
-

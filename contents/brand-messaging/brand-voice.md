@@ -2,7 +2,7 @@
 name: Brand voice
 ---
 
-GitLab’s brand voice represents and expresses who we are as a brand. It is a core part of our brand identity, informed by our [brand personality](/brand-overview/introduction/#brand-personality). Our brand voice should come through clearly and consistently in everything we do, from our communications to our designs. 
+GitLab’s brand voice represents and expresses who we are as a brand. It is a core part of our brand identity, informed by our [brand personality](/brand-overview/introduction/#brand-personality). Our brand voice should come through clearly and consistently in everything we do, from our communications to our designs.
 
 ## How our brand voice comes to life
 
@@ -33,7 +33,7 @@ These guidelines will help you incorporate the GitLab voice into your work while
 
 - Meet readers where they are — don't assume they know the technology or topics you're covering.
 - Explain but don't patronize. 
-- Be [inclusive](https://handbook.gitlab.com/handbook/marketing/blog/#diversity-inclusion-and-belonging-dib-checklist-for-blog-writers) in your writing
+- Be [inclusive](https://handbook.gitlab.com/handbook/marketing/blog/#diversity-inclusion-and-belonging-dib-checklist-for-blog-writers) in your writing.
 
 | We are... | But we are **not**... |
 | ------ | ------ |
@@ -69,13 +69,3 @@ These guidelines will help you incorporate the GitLab voice into your work while
 - Blog: [Upcoming changes to user limits on Free tier of GitLab SaaS](https://about.gitlab.com/blog/2022/03/24/efficient-free-tier/)
 - Blog: [GitLab’s first ESG and DIB reports: Here’s what to know](https://about.gitlab.com/blog/2023/07/26/gitlab-first-esg-and-dib-reports/)
 - Website: [GitLab Duo solution page](https://about.gitlab.com/gitlab-duo/)
-
-
-
-
-
-
-
-
-
-
