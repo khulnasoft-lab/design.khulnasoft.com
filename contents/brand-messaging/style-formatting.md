@@ -21,7 +21,7 @@ Only capitalize the words that make up an acronym or initialism if it’s a prop
 
 We favor contractions (*can’t, didn’t, it’s, we’re*) to sound more human and less formal.
 
-###  Lists
+### Lists
 
 If a numbered or bulleted list reads as a continuous sentence, don’t capitalize the first letter of each item in the list, and don’t include punctuation at the end of each item. Example:
 ✅ GitLab Duo is unique because we:
