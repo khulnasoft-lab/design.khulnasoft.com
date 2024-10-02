@@ -189,11 +189,19 @@ end
 def lint_mr(mr_title)
   return if mr_title.empty?
 
-  semantic_commit = match_semantic_commit(mr_title[/(^WIP: +)?(.*)/, 2])
+  semantic_commit = match_semantic_commit(mr_title[/\A(?i)(\[draft\]|\(draft\)|draft:)?\s?(.*)/, 2])
 
   if !semantic_commit
-    warn(
+    fail(
       'Merge request title should meet our [Git commit message standards](#{URL_COMMITS}), since **Squash commits when merge request is accepted** is enabled.'
+    )
+  elsif mr_title.length > COMMIT_SUBJECT_MAX_LENGTH
+    fail(
+      "Merge request title must have less than #{COMMIT_SUBJECT_MAX_LENGTH} characters."
+    )
+  elsif mr_title.end_with?('.')
+    fail(
+      'Merge request title must not end with a period.'
     )
   elsif !SEMANTIC_COMMIT_TYPES.include?(semantic_commit[:type])
     warn(
@@ -202,8 +210,11 @@ def lint_mr(mr_title)
   end
 end
 
-lint_commits(git.commits)
-lint_mr(helper.mr_title) if helper.squash_mr?
+if helper.squash_mr?
+  lint_mr(helper.mr_title)
+else
+  lint_commits(git.commits)
+end
 
 if git.commits.length > 10
   warn(
