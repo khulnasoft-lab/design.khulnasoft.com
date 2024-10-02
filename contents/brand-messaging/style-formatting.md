@@ -154,8 +154,10 @@ If a colon is used to introduce a complete sentence (including a question), capi
 - ✅ AI isn’t just another fad: It’s seeing real adoption among practitioners.
 - ❌ AI isn’t just another fad: it’s seeing real adoption among practitioners.
 
+
 - ✅ We aimed to explore several topics: Where are things improving, and where are teams still running into roadblocks?
 - ❌ We aimed to explore several topics: where are things improving, and where are teams still running into roadblocks?
+
 
 - ✅ One thing stood out in the survey responses: the importance of security.
 - ❌ One thing stood out in the survey responses: The importance of security.
@@ -225,44 +227,44 @@ Unless otherwise specified, spell out acronyms and initialisms at first use.
 ### A
 
 - Agile
- - ⚠️ Capitalize when referring to Agile methodology.
+  - ⚠️ Capitalize when referring to Agile methodology.
 - AI
- - ✅ Short for artificial intelligence; generally, can be used without definition. If in doubt, define.
+  - ✅ Short for artificial intelligence; generally, can be used without definition. If in doubt, define.
 - AI-powered DevSecOps platform
- - ⚠️ If preceded by GitLab, capitalize Platform (the GitLab AI-powered DevSecOps Platform).
+  - ⚠️ If preceded by GitLab, capitalize Platform (the GitLab AI-powered DevSecOps Platform).
 - all remote
- - ⚠️ We refer to GitLab as an all-remote company (not remote friendly, remote first, or remote only). Hyphenate only when appearing before a noun.
+  - ⚠️ We refer to GitLab as an all-remote company (not remote friendly, remote first, or remote only). Hyphenate only when appearing before a noun.
 - antivirus
 - API
- -✅ Short for application programming interface; can be used without definition.
+  - ✅ Short for application programming interface; can be used without definition.
 
 ### B
 
 - bad guy
- - ❌ Do not use; use an alternative such as threat actor or attacker.
+  - ❌ Do not use; use an alternative such as threat actor or attacker.
 - Beta
- - ⚠️ Capitalize when referring to the status of GitLab features or releases (now available in Beta).
+  - ⚠️ Capitalize when referring to the status of GitLab features or releases (now available in Beta).
 - blacklist
- - ❌ Do not use; use an alternative such as denylist.
+  - ❌ Do not use; use an alternative such as denylist.
 - Board of Directors, Board
- - ⚠️ Capitalize when referring to the GitLab Board of Directors or our Board members.
+  - ⚠️ Capitalize when referring to the GitLab Board of Directors or our Board members.
 - board
- - ⚠️ Use lowercase for issue board and epic board.
+  - ⚠️ Use lowercase for issue board and epic board.
 
 ### C
 
 - canceling, canceled, cancellation
 - checkbox
 - CI/CD
- - ✅ Short for continuous integration and delivery; generally, can be used without definition. If in doubt, define.
+  - ✅ Short for continuous integration and delivery; generally, can be used without definition. If in doubt, define.
 - cloud native
- - ⚠️ Do not capitalize or hyphenate, regardless of how it is used.
+  - ⚠️ Do not capitalize or hyphenate, regardless of how it is used.
 - co-founder
 - continuous delivery
 - continuous deployment
 - continuous integration
 - crazy
- - ❌ Do not use to refer to something unexpected or strange; use an alternative such as very or extremely (adverb) or implausible (adjective).
+  - ❌ Do not use to refer to something unexpected or strange; use an alternative such as very or extremely (adverb) or implausible (adjective).
 - cyber attack
 - cyber threat
 - cybersecurity
@@ -271,18 +273,18 @@ Unless otherwise specified, spell out acronyms and initialisms at first use.
 
 - dashboard
 - data
- - ⚠️ Use as a singular noun: The data suggests that we were successful.
+  - ⚠️ Use as a singular noun: The data suggests that we were successful.
 - data center
 - data set
 - database
 - developer
- - ⚠️ Use the abbreviation dev sparingly; do not capitalize.
+  - ⚠️ Use the abbreviation dev sparingly; do not capitalize.
 - DevOps
 - DevSecOps
 - DevSecOps platform
- - ⚠️ If preceded by GitLab, capitalize Platform (the GitLab DevSecOps Platform).
+  - ⚠️ If preceded by GitLab, capitalize Platform (the GitLab DevSecOps Platform).
 - dynamic application security testing (DAST)
- - ⚠️ Capitalize only if referring specifically to GitLab Dynamic Application Security Testing.
+  - ⚠️ Capitalize only if referring specifically to GitLab Dynamic Application Security Testing.
 
 ### E
 
@@ -290,43 +292,43 @@ Unless otherwise specified, spell out acronyms and initialisms at first use.
 - ebook
 - ecommerce
 - e.g.
- - ❌ Avoid if possible; use for example instead.
+  - ❌ Avoid if possible; use for example instead.
 - email
 - emoji
- - ⚠️ Emoji is both singular and plural.
+  - ⚠️ Emoji is both singular and plural.
 - enterprise
 - enterprise Agile planning
- - ⚠️ If preceded by GitLab, capitalize Enterprise and Planning (GitLab Enterprise Agile Planning).
+  - ⚠️ If preceded by GitLab, capitalize Enterprise and Planning (GitLab Enterprise Agile Planning).
 - epic
 - etc.
- - ❌ Avoid if possible; use such as or like for non-exhaustive lists instead.
+  - ❌ Avoid if possible; use such as or like for non-exhaustive lists instead.
 - Experimental
- - ⚠️ Capitalize when referring to Experimental features.
+  - ⚠️ Capitalize when referring to Experimental features.
 
 ### F
 
 - FedRAMP
 - financial services
 - FinServ
- - ❌ Avoid in external-facing content; use financial services instead.
+  - ❌ Avoid in external-facing content; use financial services instead.
 - fintech
 
 ### G
 
 - generally available, general availability (GA)
 - generative AI
- - ⚠️ Do not abbreviate as GenAI or GAI.
+  - ⚠️ Do not abbreviate as GenAI or GAI.
 - Git
 - GitHub
 - GitLab
- - ⚠️ G and L are always capitalized, even in GitLab.com. Do not make GitLab possessive (GitLab’s).
+  - ⚠️ G and L are always capitalized, even in GitLab.com. Do not make GitLab possessive (GitLab’s).
 - GitLab agent for Kubernetes
 - GitLab Dedicated
- - ⚠️ Do not use Dedicated by itself; it should always be preceded by GitLab.
+  - ⚠️ Do not use Dedicated by itself; it should always be preceded by GitLab.
 - GitLab Dependency Proxy
 - GitLab Duo
- - ⚠️ Do not use Duo by itself; it should always be preceded by GitLab.
- - ⚠️ GitLab Duo feature names should be preceded by GitLab Duo at first mention. On subsequent mentions, GitLab Duo can be dropped as follows:
+  - ⚠️ Do not use Duo by itself; it should always be preceded by GitLab.
+  - ⚠️ GitLab Duo feature names should be preceded by GitLab Duo at first mention. On subsequent mentions, GitLab Duo can be dropped as follows:
 - Chat
 - Code Suggestions
 - Suggested Reviewers
@@ -360,46 +362,46 @@ Unless otherwise specified, spell out acronyms and initialisms at first use.
 ### I
 
 - i.e.
- - ❌ Avoid if possible; use that is instead.
+  - ❌ Avoid if possible; use that is instead.
 - index, indexes
- - ⚠️ Use indexes as the plural form, unless you are talking about Elasticsearch indices.
+  - ⚠️ Use indexes as the plural form, unless you are talking about Elasticsearch indices.
 - infrastructure as code (IaC)
 - insane, insanely
- - ❌ Do not use for emphasis; use an alternative such as very or extremely.
+  - ❌ Do not use for emphasis; use an alternative such as very or extremely.
 - internet
 - Internet of Things (IoT)
 - issue
 - IT
- - ✅ Short for information technology; can be used without definition.
+  - ✅ Short for information technology; can be used without definition.
 
 ### J
 
 - JavaScript
 - JSON
- - ✅ Short for JavaScript Object Notation; can be used without definition.
+  - ✅ Short for JavaScript Object Notation; can be used without definition.
 
 ### K
 
 - Kubernetes
- - ⚠️ Do not use the abbreviation K8s (except on social).
+  - ⚠️ Do not use the abbreviation K8s (except on social).
 
 ### L
 
 - large language model (LLM)
 - lifecycle
 - log in (verb), login (noun)
- - ❌ Avoid when referring to GitLab; use sign in instead.
+  - ❌ Avoid when referring to GitLab; use sign in instead.
 
 ### M
 
 - machine learning (ML)
 - machine learning model
 - mankind
- - ❌ Do not use; use people or humanity instead.
+  - ❌ Do not use; use people or humanity instead.
 - manpower
- - ❌ Do not use; use workforce or GitLab team members instead.
+  - ❌ Do not use; use workforce or GitLab team members instead.
 - Master
- - ❌ Avoid this term to refer to branches; use main instead.
+  - ❌ Avoid this term to refer to branches; use main instead.
 - merge request (MR)
 - microservices
 - mid-market
@@ -413,59 +415,59 @@ Unless otherwise specified, spell out acronyms and initialisms at first use.
 ### O
 
 - on premises, on prem
- - ⚠️ Do not use on premise. Hyphenate if used as a modifier: on-premises deployments.
+  - ⚠️ Do not use on premise. Hyphenate if used as a modifier: on-premises deployments.
 - onboarding
 - online
 - open source
- - ⚠️ Do not hyphenate, regardless of how it is used.
+  - ⚠️ Do not hyphenate, regardless of how it is used.
 - operations
- - ⚠️ Use ops sparingly; do not capitalize.
+  - ⚠️ Use ops sparingly; do not capitalize.
 
 ### P
 
 - P.S.
- - ✅ Short for postscript; can be used without definition.
+  - ✅ Short for postscript; can be used without definition.
 - plugin
 - public sector
- - ⚠️ Generally, spell out public sector. Avoid abbreviations such as PubSec or Pub Sec in external content.
+  - ⚠️ Generally, spell out public sector. Avoid abbreviations such as PubSec or Pub Sec in external content.
 
 ### R
 
 - Repository Mirroring
 - review app
 - runner
- - ⚠️ Capitalize when referring to the GitLab Runner.
+  - ⚠️ Capitalize when referring to the GitLab Runner.
 
 ### S
 
 - SaaS
- - ✅ Short for software as a service; can be used without definition.
+  - ✅ Short for software as a service; can be used without definition.
 - sanity check
- - ❌ Do not use; use an alternative such as check for completeness or simply check.
+  - ❌ Do not use; use an alternative such as check for completeness or simply check.
 - self-managed
 - Service Desk
 - set up (verb), setup (noun/adjective)
 - sign in (verb), sign-in (noun/adjective)
 - sign up (verb), signup (noun/adjective)
- - ⚠️ When talking about creating a GitLab account, use register instead.
+  - ⚠️ When talking about creating a GitLab account, use register instead.
 - single-tenant
 - slave
- - ❌ Do not use; use an alternative such as secondary.
+  - ❌ Do not use; use an alternative such as secondary.
 - small and medium-sized businesses (SMBs)
 - software bill of materials (SBOM)
 - software development lifecycle (SDLC)
 - startup
 - static application security testing (SAST)
- - ⚠️ Capitalize only if referring specifically to GitLab Static Application Security Testing.
+  - ⚠️ Capitalize only if referring specifically to GitLab Static Application Security Testing.
 - subgroup
 
 ### T
 
 - timeline
 - telecommunications
- - ⚠️ Generally, do not abbreviate as telecom or telco in external-facing content.
+  - ⚠️ Generally, do not abbreviate as telecom or telco in external-facing content.
 - To-Do List
- - ⚠️ Capitalize when referring to the To-Do List in GitLab.
+  - ⚠️ Capitalize when referring to the To-Do List in GitLab.
 - toolchain
 - traveling, traveled
 - turnkey
@@ -474,18 +476,18 @@ Unless otherwise specified, spell out acronyms and initialisms at first use.
 ### U
 
 - U.K. (United Kingdom)
- - ✅ Can be used without definition.
+  - ✅ Can be used without definition.
 - U.S. (United States)
- - ✅ Can be used without definition.
+  - ✅ Can be used without definition.
 - utilize
- - ❌ Avoid if possible; a simpler alternative is use.
+  - ❌ Avoid if possible; a simpler alternative is use.
 
 ### V
 
 - version
- - ⚠️ Do not abbreviate as ver or v. Capitalize if referring to a specific numbered version of GitLab (Version 16.3).
+  - ⚠️ Do not abbreviate as ver or v. Capitalize if referring to a specific numbered version of GitLab (Version 16.3).
 - via
- - ❌ Avoid if possible; use through, with, or by using instead.
+  - ❌ Avoid if possible; use through, with, or by using instead.
 
 ### W
 
@@ -494,10 +496,10 @@ Unless otherwise specified, spell out acronyms and initialisms at first use.
 - webpage
 - website
 - whilst
- - ❌ Do not use; use while instead.
+  - ❌ Do not use; use while instead.
 - white paper
 - whitelist
- - ❌ Do not use; use an alternative such as allowlist.
+  - ❌ Do not use; use an alternative such as allowlist.
 - Wi-Fi
 
 ### Y
