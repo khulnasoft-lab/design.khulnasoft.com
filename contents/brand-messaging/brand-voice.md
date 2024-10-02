@@ -8,7 +8,7 @@ GitLab’s brand voice represents and expresses who we are as a brand. It is a c
 
 These guidelines will help you incorporate the GitLab voice into your work while also allowing your individuality and creativity to shine through.
 
-### Tips for creating *Visionary* content:
+### Tips for creating *Visionary* content
 
 - Share your expertise in a way that brings value.
 - Give clear examples and provide data where possible.
@@ -29,10 +29,10 @@ These guidelines will help you incorporate the GitLab voice into your work while
 - Website: [10 reasons why enterprises choose GitLab](https://about.gitlab.com/why-gitlab/)
 - Website: [Global DevSecOps Survey](https://about.gitlab.com/developer-survey/)
 
-### Tips for creating *Empathetic* content:
+### Tips for creating *Empathetic* content
 
 - Meet readers where they are — don't assume they know the technology or topics you're covering.
-- Explain but don't patronize. 
+- Explain but don't patronize.
 - Be [inclusive](https://handbook.gitlab.com/handbook/marketing/blog/#diversity-inclusion-and-belonging-dib-checklist-for-blog-writers) in your writing.
 
 | We are... | But we are **not**... |
@@ -45,12 +45,12 @@ These guidelines will help you incorporate the GitLab voice into your work while
 **Examples:**
 
 - Blog: [Quickstart guide for GitLab Remote Development workspaces](https://about.gitlab.com/blog/2023/06/26/quick-start-guide-for-gitlab-workspaces/)
-- Blog: [The ultimate guide to SBoMs](https://about.gitlab.com/blog/2022/10/25/the-ultimate-guide-to-sboms/) 
+- Blog: [The ultimate guide to SBoMs](https://about.gitlab.com/blog/2022/10/25/the-ultimate-guide-to-sboms/)
 - Handbook: [CEO handbook page](https://handbook.gitlab.com/handbook/ceo/)
 - Handbook: [Communication handbook page](https://handbook.gitlab.com/handbook/communication/)
 - Handbook: [Values handbook page](https://handbook.gitlab.com/handbook/values/)
 
-### Tips for creating *Intentional* content:
+### Tips for creating *Intentional* content
 
 - Give your audience the information they need.
 - Offer opportunities for readers to provide feedback.

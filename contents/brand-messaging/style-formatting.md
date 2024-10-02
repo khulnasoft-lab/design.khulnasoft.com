@@ -24,7 +24,6 @@ We favor contractions (*can’t, didn’t, it’s, we’re*) to sound more human
 ###  Lists
 
 If a numbered or bulleted list reads as a continuous sentence, don’t capitalize the first letter of each item in the list, and don’t include punctuation at the end of each item. Example:
-	
 ✅ GitLab Duo is unique because we:
 
 - do not use your content to train models
@@ -32,7 +31,6 @@ If a numbered or bulleted list reads as a continuous sentence, don’t capitaliz
 - use the right AI model for each task, ensuring you always stay ahead of the curve
 
 If each item in the list reads as its own sentence, capitalize and punctuate as you would free-standing sentences. Example:
-	
 ✅ Here are three reasons GitLab Duo is unique:
 
 - GitLab Duo features do not use your content to train models.
@@ -48,7 +46,7 @@ Unless referring to someone in particular, use gender-neutral pronouns (*they, t
 
 ### Quotations
 
-Use double quotation marks (“ “) for direct quotes, and single quotation marks (‘ ‘) for a quote within a quote.
+Use double quotation marks (“ ”) for direct quotes, and single quotation marks (‘ ’) for a quote within a quote.
 
 Include periods and commas inside ending quotation marks. Any punctuation that is part of the quotation should be included inside of the quotation marks. Any punctuation that is not part of the quotation (aside from periods and commas, as noted above) should be outside of the quotation marks. Examples:
 
@@ -156,10 +154,8 @@ If a colon is used to introduce a complete sentence (including a question), capi
 - ✅ AI isn’t just another fad: It’s seeing real adoption among practitioners.
 - ❌ AI isn’t just another fad: it’s seeing real adoption among practitioners.
 
-
 - ✅ We aimed to explore several topics: Where are things improving, and where are teams still running into roadblocks?
 - ❌ We aimed to explore several topics: where are things improving, and where are teams still running into roadblocks?
-
 
 - ✅ One thing stood out in the survey responses: the importance of security.
 - ❌ One thing stood out in the survey responses: The importance of security.
