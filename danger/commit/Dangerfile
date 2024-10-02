@@ -114,7 +114,7 @@ def lint_commit(commit)
   if !details && too_many_changed_lines?(commit)
     fail_commit(
       commit,
-      'Commit must be [amended](#{URL_AMEND_COMMITS}) to describe changes in the commit body as it changes 30 or more lines across at least three files.'
+      "Commit must be [amended](#{URL_AMEND_COMMITS}) to describe changes in the commit body as it changes 30 or more lines across at least three files."
     )
 
     failed = true
@@ -134,7 +134,7 @@ def lint_commit(commit)
   semantic_commit = match_semantic_commit(subject)
 
   if !semantic_commit && !appliedSuggestion
-    fail_commit(commit, 'Commit must meet our [Git commit message standards](#{URL_COMMITS}).')
+    fail_commit(commit, "Commit must meet our [Git commit message standards](#{URL_COMMITS}).")
 
     failed = true
   elsif semantic_commit && !appliedSuggestion && !SEMANTIC_COMMIT_TYPES.include?(semantic_commit[:type])
@@ -193,17 +193,23 @@ def lint_mr(mr_title)
 
   if !semantic_commit
     fail(
-      'Merge request title should meet our [Git commit message standards](#{URL_COMMITS}), since **Squash commits when merge request is accepted** is enabled.'
+      "Merge request title should meet our [Git commit message standards](#{URL_COMMITS}), since **Squash commits when merge request is accepted** is enabled."
     )
-  elsif mr_title.length > COMMIT_SUBJECT_MAX_LENGTH
+  end
+
+  if mr_title.length > COMMIT_SUBJECT_MAX_LENGTH
     fail(
       "Merge request title must have less than #{COMMIT_SUBJECT_MAX_LENGTH} characters."
     )
-  elsif mr_title.end_with?('.')
+  end
+
+  if mr_title.end_with?('.')
     fail(
       'Merge request title must not end with a period.'
     )
-  elsif !SEMANTIC_COMMIT_TYPES.include?(semantic_commit[:type])
+  end
+
+  if !SEMANTIC_COMMIT_TYPES.include?(semantic_commit[:type])
     warn(
       "Merge request title should have a [common semantic commit type](#{URL_COMMIT_TYPES})."
     )
@@ -218,7 +224,7 @@ end
 
 if git.commits.length > 10
   warn(
-    'Merge request has more than 10 commits. ' \
-      'You should [squash them](#{URL_SQUASH_COMMITS}) into a smaller number.'
+    "Merge request has more than 10 commits. " \
+      "You should [squash them](#{URL_SQUASH_COMMITS}) into a smaller number."
   )
 end
