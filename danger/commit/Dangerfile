@@ -195,8 +195,15 @@ def lint_mr(mr_title)
     fail(
       "Merge request title should meet our [Git commit message standards](#{URL_COMMITS}), since **Squash commits when merge request is accepted** is enabled."
     )
+  elsif !SEMANTIC_COMMIT_TYPES.include?(semantic_commit[:type])
+    warn(
+      "Merge request title should have a [common semantic commit type](#{URL_COMMIT_TYPES})."
+    )
   end
 
+  warn("Title: #{mr_title}");
+  warn("Title length: #{mr_title.length}");
+  warn("Title max length: #{COMMIT_SUBJECT_MAX_LENGTH}");
   if mr_title.length > COMMIT_SUBJECT_MAX_LENGTH
     fail(
       "Merge request title must have less than #{COMMIT_SUBJECT_MAX_LENGTH} characters."
@@ -206,12 +213,6 @@ def lint_mr(mr_title)
   if mr_title.end_with?('.')
     fail(
       'Merge request title must not end with a period.'
-    )
-  end
-
-  if !SEMANTIC_COMMIT_TYPES.include?(semantic_commit[:type])
-    warn(
-      "Merge request title should have a [common semantic commit type](#{URL_COMMIT_TYPES})."
     )
   end
 end
