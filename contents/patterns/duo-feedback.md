@@ -13,23 +13,20 @@ User-provided feedback should always be aggregated with other data, such as user
 
 ## Guidelines
 
-Use the [duo-user-feedback](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/experimental-duo-duo-user-feedback--docs) component to collect feedback on the AI's responses. The shared component helps avoid duplicated effort and [track feedback](https://10az.online.tableau.com/#/site/gitlab/views/DuoFeedbackDashboard/DuoFeedbackDashboard) trends across AI features. The duo-user-feedback component enables the addition of custom questions to collect feedback specific to each feature.
+Use `GlDuoUserFeedback` from [gitlab-ui](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/experimental-duo-duo-user-feedback--docs) component to collect feedback on the AI's responses. If the default options are not sufficient, the form can be modified to be specific to an individual feature if necessary.
 
-<figure-img alt="Example of the feedback form" label="Example of the feedback form with generic content." src="/img/duo-feedback-modal.svg"></figure-img>
+<figure-img alt="Modal with multiple checkboxes, a disclaimer about visibility, and a free text field." label="Example of the feedback form with generic content." src="/img/duo-feedback-modal.svg"></figure-img>
 
 The use of a feedback form enables users to provide detailed feedback, which can be translated into actionable insights to improve the feature.
 
 ### Call-to-action (CTA)
 
-The form gathers feedback on the AI output, not the entire feature. Ensure the CTA clearly states that users are providing feedback on the AI's responses. Each instance of AI output should include a feedback form call-to-action. For example, every response from Duo Chat should have a CTA to open the feedback form.
+Ensure the CTA reinforces that users should only provide feedback on the AI's responses, not the entire feature. It is okay to use a **quick feedback** mechanism like the thumbs up 👍 or thumbs down 👎 buttons, but there must always be an option to provide **detailed feedback** with `GlDuoUserFeedback` when AI has given a response. 
 
-To encourage feedback, highlight how user input contributes to improving the feature. Consider adding a note near the CTA or within its label to reinforce this message:
-
-<figure-img alt="Duo Chat feedback CTA" label="The CTA indicates that feedback will improve the answer." src="/img/duo-feedback-cta.svg"></figure-img>
-
-The feedback form can be used in conjunction with other feedback mechanisms. However, the call-to-action to open the feedback form should always be accessible.
-
-<figure-img alt="The feedback modal CTA with thumbs up/thumbs down." label="The feedback form CTA should always be accessible." src="/img/duo-thumbs-feedback.svg"></figure-img>
+Examples:
+- Give feedback to improve this answer
+- Rate the review
+- Give detailed feedback
 
 ### Providing context in feedback
 
