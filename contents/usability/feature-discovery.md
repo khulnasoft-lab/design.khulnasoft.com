@@ -6,7 +6,13 @@ related:
   - /patterns/empty-states
 ---
 
-Feature discovery helps users uncover useful functionality that helps them achieve their goals. Feature discovery can be used to introduce new, updated, or underutilized features.
+New features can enhance the experience and unlock significant value for users. However, a user’s context plays a significant role in how they engage with new functionality. According to the [FOGG Behavior Model](https://behaviormodel.org/), three factors impact people's behavior with regards to completion of tasks:
+
+1. Their ability to perform the task.
+2. Their motivation for the task.
+3. The prompt that triggers the behavior.
+
+Prompts to trigger the desired behavior succeed when motivation and ability are high enough. We can improve a user's _ability_ to perform a task by guiding them using discovery patterns and boost their _motivation_ by clearly communicating the value of a task. Keeping these principles in mind helps us to improve both the experience and make it more likely that a user achieves their desired outcome.
 
 ## Feature discovery patterns
 
