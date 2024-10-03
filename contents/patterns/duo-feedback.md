@@ -13,20 +13,24 @@ User-provided feedback should always be aggregated with other data, such as user
 
 ## Guidelines
 
-Use `GlDuoUserFeedback` from [gitlab-ui](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/experimental-duo-duo-user-feedback--docs) component to collect feedback on the AI's responses. If the default options are not sufficient, the form can be modified to be specific to an individual feature if necessary.
+Use `GlDuoUserFeedback` from [gitlab-ui](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/experimental-duo-duo-user-feedback--docs) component to collect feedback on the AI's responses. The free text questions in the form can be modified to be specific to an individual feature, if necessary.
 
-<figure-img alt="Modal with multiple checkboxes, a disclaimer about visibility, and a free text field." label="Example of the feedback form with generic content." src="/img/duo-feedback-modal.svg"></figure-img>
+<figure-img alt="Modal with multiple checkboxes, a disclaimer about visibility, and a free text field." label="Example of the feedback form with generic content." src="/img/duo-feedback-modal.png"></figure-img>
 
 The use of a feedback form enables users to provide detailed feedback, which can be translated into actionable insights to improve the feature.
 
 ### Call-to-action (CTA)
 
-Ensure the CTA reinforces that users should only provide feedback on the AI's responses, not the entire feature. It is okay to use a **quick feedback** mechanism like the thumbs up 👍 or thumbs down 👎 buttons, but there must always be an option to provide **detailed feedback** with `GlDuoUserFeedback` when AI has given a response. 
+Ensure the CTA reinforces that users should only provide feedback on the AI's responses, not the entire feature.
 
 Examples:
+
 - Give feedback to improve this answer
-- Rate the review
-- Give detailed feedback
+- How was this response?
+
+The CTA should be shown on each instance of AI output.
+
+It is okay to use a **quick feedback** mechanism like the thumbs up 👍 or thumbs down 👎 buttons, but there must always be an option to provide **detailed feedback** with `GlDuoUserFeedback` when AI has given a response.
 
 ### Providing context in feedback
 
