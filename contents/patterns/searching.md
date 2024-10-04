@@ -1,5 +1,6 @@
 ---
 name: Searching
+summary: Guidelines for implementing global search across multiple items and list search for filtering within specific lists.
 ---
 
 ## Global search
