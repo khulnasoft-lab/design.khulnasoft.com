@@ -1,6 +1,6 @@
 ---
 name: Keyboard shortcuts
-summary: Keyboard shortcuts enhance user efficiency and accessibility by enabling feature access without a mouse.
+summary: Improve user productivity and accessibility by optimizing flows with a keyboard.
 related:
   - button
   - tooltip
