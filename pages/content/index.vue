@@ -22,7 +22,7 @@ export default {
 <template>
   <collection
     heading="Product content"
-    description="Guidelines for crafting clear, consistent, and universal content. It addresses key elements of language and localization in user interface design and content creation for GitLab."
+    description="Guidelines for writing clear, consistent, and universal content. It addresses key elements of language and localization in user interface design and content creation for GitLab."
     :items="contentList"
   />
 </template>
