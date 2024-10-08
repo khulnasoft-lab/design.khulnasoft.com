@@ -16,25 +16,25 @@ Prompts to trigger the desired behavior succeed when motivation and ability are 
 
 ## Feature discovery patterns
 
-| Pattern              | Definition                                                                                                     | Examples                | Recommendation         |
-| -------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------------- | ---------------------- |
+| Pattern              | Definition                                                                                                     | Examples                                                                                    | Recommendation         |
+| -------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ---------------------- |
 | Implicit discovery   | Features are discovered naturally as the user interacts with the interface, without overt prompts or guidance. | [Navigation sidebar](/usability/navigation-sidebar), [empty states](/patterns/empty-states) | Preferred              |
-| Contextual discovery | Features are highlighted in context, as the user reaches a point where the feature is relevant or useful.      | [Badge](/components/badge)                   | Use with justification |
-| Disruptive discovery | Features or information are presented in a way that interrupts the user’s flow.                                | Modal, Banner           | Use sparingly          |
+| Contextual discovery | Features are highlighted in context, as the user reaches a point where the feature is relevant or useful.      | [Badge](/components/badge)                                                                  | Use with justification |
+| Disruptive discovery | Features or information are presented in a way that interrupts the user’s flow.                                | [Modal](/components/modal), [Banner](/components/banner)                                    | Use rarely             |
 
 ### Implicit discovery
 
-Before adding feature discovery notices, explore solutions where the feature is not actively promoted. Ensure that features are introduced at the right moment in the user's journey. Validate that the call-to-action is clear and understood. This approach avoids clutter and allows users to naturally engage with functionality as they need it.
+Implicit discovery patterns are the preferred approach for integrating features into the Gitlab experience. Before adding feature discovery notices, explore solutions where the feature is not actively promoted. When users can find features within the context of their existing tasks, they remain focused without feeling overwhelmed. Ensure that the feature is introduced at the right moment, and that the call-to-action is clear and understood. This approach promotes long-term engagement with new features as users organically build an understanding of our product.
 
 ### Contextual discovery
 
 Contextual notices are subtle UI elements that draw attention or explain a feature, such as additional text, a [badge](/components/badge), or an [icon](/components/icon). Contextual notices should be positioned near the relevant context of the user’s task and avoid disrupting the user's workflow.
 
-<figure-img alt="A static notice informs users of an alternate way to create a project." label="A static notice informs users of an alternate way to create a project." src="/img/create-project.svg"></figure-img>
+<figure-img alt="Under the button to create a project, a static notice shows that it's also possible to create a project with the command line." label="A static notice informs users of an alternate way to create a project with the command line." src="/img/create-project.svg"></figure-img>
 
 Contextual notices can be helpful when a feature requires more guidance than a call-to-action alone. If needed, allow the user to access more details through progressive disclosure. Ensure the help content is visible but don't overwhelm the user with too much information at first, and offer more details only when they seek it.
 
-<figure-img alt="Popover is shown on button hover" label="Popover is shown on button hover." src="/img/info-on-hover.svg"></figure-img>
+<figure-img alt="A badge saying New is shown next to a button. A popover explaining the feature is shown upon button hover." label="Popover is shown upon button hover." src="/img/info-on-hover.svg"></figure-img>
 
 Use contextual notices when implicit discovery doesn’t suffice, for example:
 
@@ -45,7 +45,7 @@ Use contextual notices when implicit discovery doesn’t suffice, for example:
 
 Disruptive notices, such as a [banner](/components/banner) or [modal](/components/modal), are more noticeable than contextual notices. A disruptive notice that doesn't match the user's current context can feel irrelevant and lead to dismissal and therefore limited effectiveness.
 
-<figure-img alt="A banner helps a new user onboard to a esstential feature." label="A banner helps a new user onboard to a essential feature." src="/img/feature-discovery-banner.svg"></figure-img>
+<figure-img alt="A banner invites a new user to try GitLab CT, with a call-to-action to try a test template." label="A banner helps a new user onboard to a essential feature." src="/img/feature-discovery-banner.svg"></figure-img>
 
 Use disruptive discovery when contextual discovery doesn't suffice, such as:
 
