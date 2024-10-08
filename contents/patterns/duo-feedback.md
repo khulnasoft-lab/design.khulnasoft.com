@@ -32,6 +32,4 @@ The CTA should be shown on each instance of AI output.
 
 It is okay to use a **quick feedback** mechanism like the thumbs up 👍 or thumbs down 👎 buttons, but there must always be an option to provide **detailed feedback** with `GlDuoUserFeedback` when AI has given a response.
 
-### Providing context in feedback
-
-The verbatim AI output is not stored for legal and privacy reasons. Encourage users to provide as much context as possible to ensure their feedback is actionable.
+**Note:** Encourage users to provide as much context as possible to ensure their feedback is actionable, since the verbatim AI output is not stored for legal and privacy reasons.
