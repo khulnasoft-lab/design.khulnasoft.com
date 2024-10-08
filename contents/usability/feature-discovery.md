@@ -18,8 +18,8 @@ Prompts to trigger the desired behavior succeed when motivation and ability are 
 
 | Pattern              | Definition                                                                                                     | Examples                | Recommendation         |
 | -------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------------- | ---------------------- |
-| Implicit discovery   | Features are discovered naturally as the user interacts with the interface, without overt prompts or guidance. | Navigation, Empty state | Preferred              |
-| Contextual discovery | Features are highlighted in context, as the user reaches a point where the feature is relevant or useful.      | Badge                   | Use with justification |
+| Implicit discovery   | Features are discovered naturally as the user interacts with the interface, without overt prompts or guidance. | [Navigation sidebar](/usability/navigation-sidebar), [empty states](/patterns/empty-states) | Preferred              |
+| Contextual discovery | Features are highlighted in context, as the user reaches a point where the feature is relevant or useful.      | [Badge](/components/badge)                   | Use with justification |
 | Disruptive discovery | Features or information are presented in a way that interrupts the user’s flow.                                | Modal, Banner           | Use sparingly          |
 
 ### Implicit discovery
@@ -32,32 +32,32 @@ Contextual notices are subtle UI elements that draw attention or explain a featu
 
 <figure-img alt="A static notice informs users of an alternate way to create a project." label="A static notice informs users of an alternate way to create a project." src="/img/create-project.svg"></figure-img>
 
-Contextual notices can be helpful when a feature requires more guidance than a call-to-action alone. If needed, allow users to access additional information through progressive disclosure. Ensure the help content is visible without overwhelming users with too much detail upfront, providing more information only when they seek it.
+Contextual notices can be helpful when a feature requires more guidance than a call-to-action alone. If needed, allow the user to access more details through progressive disclosure. Ensure the help content is visible but don't overwhelm the user with too much information at first, and offer more details only when they seek it.
 
 <figure-img alt="Popover is shown on button hover" label="Popover is shown on button hover." src="/img/info-on-hover.svg"></figure-img>
 
 Use contextual notices when implicit discovery doesn’t suffice, for example:
 
-- **Complex or novel features:** Features that users are not familiar with and need additional information to encourage engagement.
-- **Limited visibility:** When a feature is not noticed alongside competing actions and users' previous mental models.
+- **Complex or novel features:** Features that the user is not familiar with and need additional information to encourage engagement.
+- **Limited visibility:** When features are not noticed alongside competing actions and the user's previous mental models.
 
 ### Disruptive discovery
 
-Disruptive notices, such as a [banner](/components/banner) or [modal](/components/modal), are more noticable than contextual notices. A disruptive notice that doesn't match the user's current context can feel irrelevant and lead to dismissal and therefore limited effectiveness.
+Disruptive notices, such as a [banner](/components/banner) or [modal](/components/modal), are more noticeable than contextual notices. A disruptive notice that doesn't match the user's current context can feel irrelevant and lead to dismissal and therefore limited effectiveness.
 
 <figure-img alt="A banner helps a new user onboard to a esstential feature." label="A banner helps a new user onboard to a essential feature." src="/img/feature-discovery-banner.svg"></figure-img>
 
 Use disruptive discovery when contextual discovery doesn't suffice, such as:
 
 - **Critical notices:** When engagement is required from the user. For example, to comply with a policy in the organization.
-- **User onboarding:** When guiding new users through essential features that they need to understand to use the product effectively.
-- **Significant changes:** When the product's functionality has changed in a way that could confuse users or alter their workflows, a prominent notice can clarify the changes.
+- **User onboarding:** To guide a new user through essential features that they need to understand to use the product effectively.
+- **Significant changes:** When functionality changed in a way that could confuse a user or alter their workflows, a prominent notice can clarify the changes.
 
-Be mindful of what notices already exist in the user's workflow. Multiple prominent notices and alerts can overwhelm users, leading to desensitization to important messages.
+Be mindful of what notices already exist in the user's workflow. Multiple prominent notices and alerts can overwhelm them and lead to desensitization to important messages.
 
 ## Onboarding
 
-A well-designed onboarding process can be an effective way to introduce a user to a new feature, like _CI/CD setup_, or product stages, such as _adopt the Secure DevOps stage_. However, it's primary goal is to showcase the value a user gains from these features and stages.
+A well-designed onboarding process can be an effective way to introduce a user to a new feature, like _CI/CD setup_, or product stages, such as _adopt the Secure DevOps stage_. However, its primary goal is to showcase the value a user gains from these features and stages.
 
 ### Guidelines for onboarding experiences
 
@@ -85,7 +85,7 @@ Consider the following recommendations to make your initial prompts more effecti
 
 - Always explain why the initial prompt is shown (for example, _you don’t have a pipeline to check the quality of your code, we can show you how to set it up quickly._)
 - What is the value that the user will get from it (for example, _it will make your code more secure and robust._)
-- Avoid generic CTA copy like “Let’s go” or “Show me how”. Use something that will tell the user what value they’ll get out of it so that even if they only scan through the copy of the prompt, they’ll still have a good idea of what it is they’re doing and what the result will be. Good example: ”Secure your code”.
+- Avoid generic CTA copy like “Let’s go” or “Show me how”. Use something that will tell the user what value they’ll get out of it so that even if they only scan through the copy of the prompt, they’ll still have a good idea of what it is they’re doing and what the result will be. Good example: “Secure your code”.
 
 ### Follow-up prompts
 
