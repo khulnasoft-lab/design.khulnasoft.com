@@ -14,50 +14,55 @@ New features can enhance the experience and unlock significant value for users. 
 
 Prompts to trigger the desired behavior succeed when motivation and ability are high enough. We can improve a user's _ability_ to perform a task by guiding them using discovery patterns and boost their _motivation_ by clearly communicating the value of a task. Keeping these principles in mind helps us to improve both the experience and make it more likely that a user achieves their desired outcome.
 
-**Before introducing new feature discovery patterns consider the following:**
+## Feature discovery patterns
 
-* Why does this feature need to be promoted? Is it a value driver that leads to an increase in conversion?
-* Is it possible to design the feature so that it doesn't need to be actively promoted?
-* Does the discovery pattern need to be shown to all users or only a subset? Who is the target [user persona](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/#user-personas) or user role?
-* If a feature is already being promoted on the page, will the new notice compete with it? Should it replace it instead?
-* If two features need a discovery pattern, can they be bundled into one? This may be possible, for example, if they are part of the same [Job to be Done](https://about.gitlab.com/handbook/engineering/ux/jobs-to-be-done/).
+| Pattern              | Definition                                                                                                     | Examples                | Recommendation         |
+| -------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------------- | ---------------------- |
+| Implicit discovery   | Features are discovered naturally as the user interacts with the interface, without overt prompts or guidance. | [Navigation sidebar](/usability/navigation-sidebar), [empty states](/patterns/empty-states) | Preferred              |
+| Contextual discovery | Features are highlighted in context, as the user reaches a point where the feature is relevant or useful.      | [Badge](/components/badge)                   | Use with justification |
+| Disruptive discovery | Features or information are presented in a way that interrupts the user’s flow.                                | Modal, Banner           | Use sparingly          |
 
-Use input data to determine where, when, and why a feature discovery pattern is needed. After introducing a new discovery pattern, measure its effect on both conversion and adoption before making it a permanent part of the product.
+### Implicit discovery
 
-## Patterns for feature discovery
+Before adding feature discovery notices, explore solutions where the feature is not actively promoted. Ensure that features are introduced at the right moment in the user's journey. Validate that the call-to-action is clear and understood. This approach avoids clutter and allows users to naturally engage with functionality as they need it.
 
-### Contextual notices
+### Contextual discovery
 
-Contextual notices are unobtrusive messages that appear when a user interacts with specific UI elements. They relate directly to an action that a user or namespace has performed. Once dismissed, the notice does not reappear unless the user attempts to re-engage with that feature.
+Contextual notices are subtle UI elements that draw attention or explain a feature, such as additional text, a [badge](/components/badge), or an [icon](/components/icon). Contextual notices should be positioned near the relevant context of the user’s task and avoid disrupting the user's workflow.
 
-<figure-img alt="Contextual menu example" label="Contextual menus can reveal additional features relevant to the selected item" src="/img/contextual-menu-example.png" width="340"></figure-img>
+<figure-img alt="A static notice informs users of an alternate way to create a project." label="A static notice informs users of an alternate way to create a project." src="/img/create-project.svg"></figure-img>
 
-### Contextual links
+Contextual notices can be helpful when a feature requires more guidance than a call-to-action alone. If needed, allow the user to access more details through progressive disclosure. Ensure the help content is visible but don't overwhelm the user with too much information at first, and offer more details only when they seek it.
 
-Alongside relevant features, in-page [links](/components/link) allow a user to directly access or enable a feature without navigating through multiple layers of menus.
+<figure-img alt="Popover is shown on button hover" label="Popover is shown on button hover." src="/img/info-on-hover.svg"></figure-img>
 
-<img class="gl-block gl-mx-auto gl-mt-7" src="/img/contextual-link-example.png" alt="Contextual link example" />
+Use contextual notices when implicit discovery doesn’t suffice, for example:
 
-### Visual cues
+- **Complex or novel features:** Features that the user is not familiar with and need additional information to encourage engagement.
+- **Limited visibility:** When features are not noticed alongside competing actions and the user's previous mental models.
 
-Design elements, like [icons](/product-foundations/iconography/icons) and [badges](/components/badge), can visually guide a user toward a new feature. For example, a "New" badge or icon on a feature can attract attention.
+### Disruptive discovery
 
-<img class="gl-block gl-mx-auto gl-mt-7" src="/img/visual-cues.png" width="356" alt="Visual cues example" />
+Disruptive notices, such as a [banner](/components/banner) or [modal](/components/modal), are more noticeable than contextual notices. A disruptive notice that doesn't match the user's current context can feel irrelevant and lead to dismissal and therefore limited effectiveness.
 
-### Banners
+<figure-img alt="A banner helps a new user onboard to a esstential feature." label="A banner helps a new user onboard to a essential feature." src="/img/feature-discovery-banner.svg"></figure-img>
 
-A [banner](/components/banner) can promote awareness of a new feature, but should be used sparingly. A banner that doesn't match the user's current context can feel irrelevant and contribute to banner blindness or fatigue. A user might start ignoring _all_ banners without fully reading the content.
+Use disruptive discovery when contextual discovery doesn't suffice, such as:
 
-<story-viewer component="base-banner" story="no-image" title="Promotion"></story-viewer>
+- **Critical notices:** When engagement is required from the user. For example, to comply with a policy in the organization.
+- **User onboarding:** To guide a new user through essential features that they need to understand to use the product effectively.
+- **Significant changes:** When functionality changed in a way that could confuse a user or alter their workflows, a prominent notice can clarify the changes.
+
+Be mindful of what notices already exist in the user's workflow. Multiple prominent notices and alerts can overwhelm them and lead to desensitization to important messages.
 
 ## Onboarding
 
-A well-designed onboarding process can be an effective way to introduce a user to a new feature, like _CI/CD setup_, or product stages, such as _adopt the Secure DevOps stage_. However, it's primary goal is to showcase the value a user gains from these features and stages.
+A well-designed onboarding process can be an effective way to introduce a user to a new feature, like _CI/CD setup_, or product stages, such as _adopt the Secure DevOps stage_. However, its primary goal is to showcase the value a user gains from these features and stages.
 
 ### Guidelines for onboarding experiences
 
-* Identify the value that you're trying to give to the user and work backwards from that. Having a new feature that you want to showcase alone isn't a good reason for onboarding. What is the user-facing value of the new feature? How will they benefit from it?
-* Provide a "No, thanks" option that allows users to opt out.
+- Identify the value that you're trying to give to the user and work backwards from that. Having a new feature that you want to showcase alone isn't a good reason for onboarding. What is the user-facing value of the new feature? How will they benefit from it?
+- Provide a "No, thanks" option that allows users to opt out.
 
 ### Think about the user's context
 
@@ -69,7 +74,7 @@ The following patterns can be used as initial prompts to start the onboarding fl
 
 | Pattern name    | Intrusion | Effectiveness | Notes and recommendations                                                                                                                                                                                       |
 | --------------- | --------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Popover         | High      | High          | No major changes to the UI required. Use at the beginning or end, not in the middle, of a complex flow or task. Use to guide a user through different pages.                                                     |
+| Popover         | High      | High          | No major changes to the UI required. Use at the beginning or end, not in the middle, of a complex flow or task. Use to guide a user through different pages.                                                    |
 | UI modification | Medium    | Medium        | Not a reusable component. Can be used in combination with others but generally requires significant changes to UI. For example, an empty pipeline widget when no pipeline is present on the Merge Request page. |
 | Banner          | Low       | Low           | Might require significant changes to the UI. For example, displacement of default elements.                                                                                                                     |
 | Empty state     | Low       | High          | Empty states can be used as great starting points for onboarding flows. They’re not intrusive as there’s no content to show; they can give context, explain the value, and provide a CTA.                       |
@@ -78,9 +83,9 @@ The following patterns can be used as initial prompts to start the onboarding fl
 
 Consider the following recommendations to make your initial prompts more effective and contextual.
 
-* Always explain why the initial prompt is shown (for example, _you don’t have a pipeline to check the quality of your code, we can show you how to set it up quickly._)
-* What is the value that the user will get from it (for example, _it will make your code more secure and robust._)
-* Avoid generic CTA copy like “Let’s go” or “Show me how”. Use something that will tell the user what value they’ll get out of it so that even if they only scan through the copy of the prompt, they’ll still have a good idea of what it is they’re doing and what the result will be. Good example: ”Secure your code”.
+- Always explain why the initial prompt is shown (for example, _you don’t have a pipeline to check the quality of your code, we can show you how to set it up quickly._)
+- What is the value that the user will get from it (for example, _it will make your code more secure and robust._)
+- Avoid generic CTA copy like “Let’s go” or “Show me how”. Use something that will tell the user what value they’ll get out of it so that even if they only scan through the copy of the prompt, they’ll still have a good idea of what it is they’re doing and what the result will be. Good example: “Secure your code”.
 
 ### Follow-up prompts
 
