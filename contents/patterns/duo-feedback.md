@@ -13,11 +13,11 @@ User-provided feedback should always be aggregated with other data, such as user
 
 ## Guidelines
 
-Use `GlDuoUserFeedback` from [gitlab-ui](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/experimental-duo-duo-user-feedback--docs) component to collect feedback on the AI's responses. The free text questions in the form can be modified to be specific to an individual feature, if necessary.
+Use `GlDuoUserFeedback` from [gitlab-ui](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/experimental-duo-duo-user-feedback--docs) to collect feedback on the AI's responses.
 
 <figure-img alt="Modal with multiple checkboxes, a disclaimer about visibility, and a free text field." label="Example of the feedback form with generic content." src="/img/duo-feedback-modal.png"></figure-img>
 
-The use of a feedback form enables users to provide detailed feedback, which can be translated into actionable insights to improve the feature.
+A user's experience of AI output is more than just "good" or "bad". Gathering feedback in users' own words captures additional details and nuance. The free text questions in the form can be modified to be specific to an individual feature, if necessary.
 
 ### Call-to-action (CTA)
 
