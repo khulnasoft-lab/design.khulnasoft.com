@@ -19,6 +19,8 @@ Use `GlDuoUserFeedback` from [gitlab-ui](https://gitlab-org.gitlab.io/gitlab-ui/
 
 A user's experience of AI output is more than just "good" or "bad". Gathering feedback in users' own words captures additional details and nuance. The free text questions in the form can be modified to be specific to an individual feature, if necessary.
 
+Encourage users to provide as much context as possible to ensure their feedback is actionable, since the verbatim AI output is not stored for legal and privacy reasons.
+
 ### Call-to-action (CTA)
 
 Ensure the CTA reinforces that users should only provide feedback on the AI's responses, not the entire feature.
@@ -31,5 +33,3 @@ Examples:
 The CTA should be shown on each instance of AI output.
 
 It is okay to use a **quick feedback** mechanism like the thumbs up 👍 or thumbs down 👎 buttons, but there must always be an option to provide **detailed feedback** with `GlDuoUserFeedback` when AI has given a response.
-
-**Note:** Encourage users to provide as much context as possible to ensure their feedback is actionable, since the verbatim AI output is not stored for legal and privacy reasons.
