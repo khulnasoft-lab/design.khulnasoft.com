@@ -1,5 +1,6 @@
 ---
 name: Progressive disclosure
+summary: Managing information complexity to enhance user understanding and reduce cognitive load.
 related:
   - /usability/destructive-actions
   - /usability/feature-discovery

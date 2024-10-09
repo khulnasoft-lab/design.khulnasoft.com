@@ -1,5 +1,6 @@
 ---
 name: Loading
+summary: Optimizing user experience during wait times with effective indicators and interactions.
 related:
   - infinite-scroll
   - skeleton-loader

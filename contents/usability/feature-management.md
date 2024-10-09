@@ -1,5 +1,6 @@
 ---
 name: Feature management
+summary: Strategies for configuring, highlighting, and controlling visibility of product capabilities.
 related:
   - /components/button
   - /patterns/forms
