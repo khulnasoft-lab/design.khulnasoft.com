@@ -21,8 +21,8 @@
         ]
       },
       {
-        "title": "Brand Messaging",
-        "path": "brand-messaging",
+        "title": "Messaging",
+        "path": "messaging",
         "items": [
           {
             "title": "Brand voice",
@@ -53,8 +53,8 @@
         ]
       },
       {
-        "title": "Brand Design",
-        "path": "brand-design",
+        "title": "Design",
+        "path": "design",
         "items": [
           {
             "title": "Color",
