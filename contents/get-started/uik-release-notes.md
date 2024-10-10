@@ -30,6 +30,10 @@ name: Release notes
   - Deprecates thumb-down icon.
   - Creates new [thumb-down icon](https://www.figma.com/design/h4YjjttHL5YI0mXZfQ4uuU/GitLab-Product-Icons?m=auto&node-id=1-234&t=9pu9UXkFE9Y9uaz6-1) without flipped frame.
 
+### Removals
+
+- Removes illustrations: error-403, error-404, empty-serverless-lg, empty-escalation, empty-state-clusters, docker-empty-state, docker-error-state, deploy-board, Dependency-list-empty-state, analytics/no-access, productivity-analytics-empty-state, multi-editor_all_changes_committed_empty and tracing.
+
 ## 17.4
 
 <small>Published 2024-09-16</small>
