@@ -42,7 +42,7 @@ name: Release notes
   - Seamless switching between 12(!) styles.
   - Four of your favorite button types - text, icon only, dropdown, and icon only dropdown.
   - Built-in icon picker for lightning-fast customization ⚡️
-    These changes make it easier to create and edit buttons while maintaining consistency across designs. The new Button component replaces several previous button components, offering a more streamlined and flexible approach to button use in your Figma artifacts.
+  These changes make it easier to create and edit buttons while maintaining consistency across designs. The new Button component replaces several previous button components, offering a more streamlined and flexible approach to button use in your Figma artifacts.
 - Breaking (high): Adds [**❖&nbsp;Split&nbsp;dropdown&nbsp;button**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=123024-2869), [**❖&nbsp;Emoji&nbsp;button**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=123515-16040), and [**❖&nbsp;Ellipsis&nbsp;button**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=123733-4517) for specialized button needs. Full features detailed in the [instances](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-7).
 - Adds [**❖&nbsp;Sorting**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=123918-20385). While button-like in appearance, this component is purpose-built for sorting interactions, offering a distinct set of features tailored for this specific use case.
 - Breaking (high): Adds [**❖&nbsp;Tab&nbsp;group**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=123608-8100). Choose the number of tabs, current tab, justification style, and more from the property panel of this completely rearchitected component. Need something else? This release also adds [**❖&nbsp;Tab&nbsp;item**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=123607-1296&t=AE3du9yzDlchT7UE-4) to allow you to go where tab group can't.
@@ -68,7 +68,7 @@ name: Release notes
 ### Deprecations
 
 - Deprecates **Button** components. Use new [**Button**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-7) components instead. Components deprecated:
-  - **❖&nbsp;\_Base Button**
+  - **❖&nbsp;_Base Button**
   - **❖&nbsp;Button&nbsp;/&nbsp;Default**
   - **❖&nbsp;Button&nbsp;/&nbsp;Confirm**
   - **❖&nbsp;Button&nbsp;/&nbsp;Danger**

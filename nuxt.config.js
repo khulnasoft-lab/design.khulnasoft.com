@@ -114,7 +114,7 @@ export default {
 
   generate: {
     dir: 'public',
-    fallback: 'error.html',
+    fallback: '404.html',
   },
 
   router: {
@@ -131,6 +131,7 @@ export default {
     GITLAB_UI_URL,
     LOOKBOOK_URL,
     CI_ENVIRONMENT_URL,
+    NODE_ENV: process.env.NODE_ENV,
   },
 
   /*
@@ -142,6 +143,10 @@ export default {
    ** Global CSS
    */
   css: ['../assets/stylesheets/app.scss'],
+
+  tailwindcss: {
+    cssPath: ['~/assets/css/tailwind.css', { injectPosition: 'last' }],
+  },
 
   /*
    ** Plugins to load before mounting the App
