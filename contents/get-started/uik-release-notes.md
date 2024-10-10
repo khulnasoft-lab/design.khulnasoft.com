@@ -34,14 +34,6 @@ name: Release notes
 
 - Removes illustrations: error-403, error-404, empty-serverless-lg, empty-escalation, empty-state-clusters, docker-empty-state, docker-error-state, deploy-board, Dependency-list-empty-state, analytics/no-access, productivity-analytics-empty-state, multi-editor_all_changes_committed_empty and tracing.
 
----
-name: Release notes
----
-
-## 17.5
-
-[_Draft: 17.5 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/4052)
-
 ## 17.4
 
 <small>Published 2024-09-16</small>
