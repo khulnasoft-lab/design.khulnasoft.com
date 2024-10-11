@@ -22,7 +22,7 @@ name: Release notes
 
 ### Fixes
 
-- Fixes the issue where the **thumbs-down** icon flips in component insertion.
+- Fixes an issue where the **thumbs-down** icon would flip in component insertion.
 
 ### Deprecations
 
@@ -30,7 +30,7 @@ name: Release notes
 
 ### Removals
 
-- Removes illustrations: error-403, error-404, empty-serverless-lg, empty-escalation, empty-state-clusters, docker-empty-state, docker-error-state, deploy-board, Dependency-list-empty-state, analytics/no-access, productivity-analytics-empty-state, multi-editor_all_changes_committed_empty and tracing.
+- Removes illustrations: error-403, error-404, empty-serverless-lg, empty-escalation, empty-state-clusters, docker-empty-state, docker-error-state, deploy-board, Dependency-list-empty-state, analytics/no-access, productivity-analytics-empty-state, multi-editor_all_changes_committed_empty, and tracing.
 
 ## 17.4
 
