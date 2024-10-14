@@ -22,7 +22,7 @@ An [object](/objects/overview) is a conceptual building block or concept that de
 
 ## [Data visualization](/data-visualization/)
 
-A data visualization pulls insights from a data set into a narrative, allowing a user to explore data themselves and discover their own insights.
+A data visualization pulls insights from a data set into a narrative, allowing a user to explore data and discover insights.
 
 ## [Content](/content)
 
