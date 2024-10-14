@@ -40,7 +40,7 @@ All empty state solutions should include usage analytics so you and your team ca
 
 Generally, an empty state message consists of a:
 
-- **Title** that describes the problem. Has maximum 5 words and not end with a period.
+- **Title** that describes the problem. Try to limit to 5 words (not counting articles or prepositions). Don't end with a period.
 - **Description** that explains in full sentences what actions the user can take.
 - (Optional) **Button** that serves as a call to action (CTA) and directs the user to take an action.
 
@@ -49,7 +49,7 @@ An empty state messages should:
 - **Be simple and clear:** Use concise and easily understandable language. Also consult the [word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html).
 - **Provide guidance and motivation:** Offer clear instructions on how to proceed or resolve the empty state. Encourage users to take action with motivating language.
 - **Align with the brand voice and tone:** Keep the tone friendly, supportive, and empathetic.
-- **Use visual elements effectively:** Complement the text with appropriate visual elements (for example, illustrations or icons). Ensure visual elements enhance the message and don't distract from it.
+- **Use visual elements effectively:** Complement the text with appropriate visual elements (for example, [illustrations](product-foundations/illustration/) or [icons](product-foundations/iconography/)). Ensure visual elements enhance the message and don't distract from it.
 
 Furthermore, there are different types of empty states with additional guidelines.
 
@@ -68,13 +68,17 @@ A `Blank content` empty state:
 - Title: A CTA that starts with an active verb.
 - Description: A sentence that starts with an active verb and encourages the user to use a feature.
 
-#### Example
+#### Examples
 
-> `Analyze issues in your project` or `Get started with issue analytics`
+For Issue Analytics:
+
+> **Analyze issues in your project** (or **Get started with issue analytics**)
 >
 > Create issues for projects in your group to track and see metrics for them.
 
-> `No code coverage data`
+For Code Coverage:
+
+> **No code coverage data**
 >
 > Code coverage results are not available. Try again later.
 
@@ -85,7 +89,7 @@ The empty state message includes a:
 
 - Primary action for configuring a feature.
 - Secondary action for inviting a member to configure a feature.
-  The secondary action should read as `Invite member to configure`, which should trigger the invite modal.
+  The secondary action should read as `Invite member to configure` and trigger the invite modal.
 
 Use the following implementation to trigger the invite modal:
 
@@ -99,11 +103,11 @@ Use the following implementation to trigger the invite modal:
 
 ### Example
 
-> `Get started with product analytics`
+> **Get started with product analytics**
 >
 > Configure product analytics to track events within your project applications.
 >
-> [Configure]
+> \[Configure\]
 
 ### Higher tier feature
 
@@ -111,8 +115,6 @@ A `Higher tier feature` empty state serves as a placeholder when a certain featu
 [The Growth team](https://about.gitlab.com/handbook/product/categories/#growth-section) is the DRI for `Higher tier feature` empty state regions. If you have to implement a solution for this empty state region, collaborate with the Growth Product Designer and Product Manager.
 
 <todo>Add specifications for Higher Tier empty state region.</todo>
-
-<todo>Add content for Higher Tier empty state region.</todo>
 
 #### Content
 
