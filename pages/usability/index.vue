@@ -21,7 +21,7 @@ export default {
 
 <template>
   <collection
-    heading="Usabiltiy content"
+    heading="Usability content"
     description="Principles and best practices for designing cohesive, user-centered interactions throughout GitLab."
     :items="usabilityList"
   />
