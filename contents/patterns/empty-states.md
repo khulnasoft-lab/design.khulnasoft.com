@@ -49,7 +49,7 @@ An empty state messages should:
 - **Be simple and clear:** Use concise and easily understandable language. Also consult the [word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html).
 - **Provide guidance and motivation:** Offer clear instructions on how to proceed or resolve the empty state. Encourage users to take action with motivating language.
 - **Align with the brand voice and tone:** Keep the tone friendly, supportive, and empathetic.
-- **Use visual elements effectively:** Complement the text with appropriate visual elements (for example, [illustrations](product-foundations/illustration/) or [icons](product-foundations/iconography/)). Ensure visual elements enhance the message and don't distract from it.
+- **Use visual elements effectively:** Complement the text with appropriate visual elements (for example, [illustrations](../product-foundations/illustration/) or [icons](../product-foundations/iconography/)). Ensure visual elements enhance the message and don't distract from it.
 
 Furthermore, there are different types of empty states with additional guidelines.
 
