@@ -1,6 +1,6 @@
 ---
 name: Feature discovery
-summary: Guidelines for introducing and promoting new functionality, emphasizing user context, motivation, and value to ensure effective adoption.
+summary: Introduce and promote new functionality, emphasizing user context, motivation, and value to ensure effective adoption.
 related:
   - banner
   - popover

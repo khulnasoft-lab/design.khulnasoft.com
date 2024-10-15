@@ -1,6 +1,6 @@
 ---
 name: Contextual help and info
-summary: Implementing contextual help and information to provide additional context and assistance to a user.
+summary: Implement contextual help and information to provide additional context and assistance to a user.
 related:
   - tooltip
   - popover
