@@ -22,7 +22,7 @@
       },
       {
         "title": "Messaging",
-        "path": "messaging",
+        "path": "brand-messaging",
         "items": [
           {
             "title": "Brand voice",
@@ -54,7 +54,7 @@
       },
       {
         "title": "Design",
-        "path": "design",
+        "path": "brand-design",
         "items": [
           {
             "title": "Color",
