@@ -10,19 +10,19 @@ We take inspiration from other companies though our principles are defined by lo
 
 ## Sophisticated simplicity
 
-GitLab is a platform that supports people in their daily work. We respect the importance of their efforts and avoid unnecessary gimmicks. To that end, we work towards [sophisticated simplicity](https://handbook.gitlab.com/handbook/product/ux/product-designer/#aiming-towards-sophisticated-simplicity) in our product. We do this by making thoughtful choices that streamline complex workflows and functionality, allowing users to stay focused on what matters most.
+GitLab is a platform that supports people in their daily work. We respect the importance of their efforts and avoid unnecessary gimmicks. To that end, we work towards [sophisticated simplicity](https://handbook.gitlab.com/handbook/product/ux/product-designer/#aiming-towards-sophisticated-simplicity) in our product. That is through thoughtful choices that streamline complex workflows and functionality, which allow the user to stay focused on what matters most.
 
 There are three principles that help support us in this work.
 
 ### Prioritize the platform
 
-Though the platform is made of many tools, everything should function seamlessly together. Designing with this mindset ensures that we're creating a more connected and coherent experience across the product.
+Though the platform is made of many tools, everything should function seamlessly together. Design with this mindset to ensure that you are creating a more connected and coherent experience across the product.
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Optimize connections between capabilities. | Optimize for an isolated use of tools.  |
 | Use patterns consistently across the platform. | Use different patterns based on product area.  |
-| Optimize the broader user journey, even when it crosses product groups, or when you're focused on a particular step. | Optimize for individual interactions or features.  |
+| Optimize the broader user journey, even when it crosses product groups, or when you're focused on a particular step of that journey. | Optimize for individual interactions or features.  |
 
 <!--
  1. **Bold sub principle(s) title** Explanation, plus optional reference
@@ -31,13 +31,13 @@ Though the platform is made of many tools, everything should function seamlessly
 
 ### Support learning
 
-Users should be able to interact and explore in ways that promote learning and proficiency while helping them to minimize mistakes.
+Design to promote the user's learning and proficiency as they interact and explore. Seek to help them minimize mistakes.
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Clearly explain how recommendations are generated, especially with [AI features](/usability/ai-human-interaction#be-transparent). | Omit explanations for recommendations to simplify the experience. |
-| Communicate the status of processes happening in the background. | Only communicate about processes happening in the foreground, as a direct result of the user's actions. |
-| Ensure people have all of the information they need to proceed with confidence. | Delegate key information to the documentation to minimize the UI. |
+| Communicate the status of processes that happen in the background. | Only communicate about processes that happen in the foreground, as a direct result of the user's actions. |
+| Ensure people have all the information they need to proceed with confidence. | Delegate key information to the documentation to minimize the UI. |
 
 <!--
 1. **Bold sub principle(s) title** Explanation, plus optional reference
@@ -46,13 +46,13 @@ Users should be able to interact and explore in ways that promote learning and p
 
 ### Focus on outcomes
 
-Empathy for the user starts with a deep understanding of their needs and goals. Rather than focusing on isolated actions or on the discrete features used to complete specific tasks, we aim to support the broader outcomes they seek to achieve.
+Empathy for the user starts with a deep understanding of their needs and goals. Design for the broader outcomes that the user seeks to achieve, instead of the isolated actions or discrete features used to complete specific tasks.
 
 | Do                                                                                                                                              | Don't                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Focus on the user's intended outcomes, and on what they seek to ultimately achieve. |  Focus on the implementation of trending features to drive adoption and visibility in the market. |
 | Prioritize user value. | Prioritize technical feasibility or development speed. |
-| Design for current essential needs. | Design to accomodate future, potential needs. |
+| Design for current essential needs. | Design to accommodate future, potential needs. |
 
 ## References
 
