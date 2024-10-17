@@ -44,7 +44,7 @@ Generally, an empty state message consists of a:
 - **Description** that explains in full sentences what actions the user can take.
 - (Optional) **Button** that serves as a call to action (CTA) and directs the user to take an action.
 
-An empty state messages should:
+An empty state message should:
 
 - **Be simple and clear:** Use concise and easily understandable language. Also consult the [word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html).
 - **Provide guidance and motivation:** Offer clear instructions on how to proceed or resolve the empty state. Encourage users to take action with motivating language.
@@ -65,8 +65,8 @@ A `Blank content` empty state:
 
 #### Content
 
-- Title: A CTA that starts with an active verb.
-- Description: A sentence that starts with an active verb and encourages the user to use a feature.
+- **Title:** A CTA that starts with an active verb.
+- **Description:** A sentence that starts with an active verb and encourages the user to use a feature.
 
 #### Examples
 
@@ -98,10 +98,10 @@ Use the following implementation to trigger the invite modal:
 
 #### Content
 
-- Title: A CTA that starts with an active verb.
-- Description: A CTA sentence that invites the user to start the configuration for a feature.
+- **Title:** A CTA that starts with an active verb.
+- **Description:** A CTA sentence that invites the user to start the configuration for a feature.
 
-### Example
+#### Example
 
 > **Get started with product analytics**
 >
@@ -118,8 +118,8 @@ A `Higher tier feature` empty state serves as a placeholder when a certain featu
 
 #### Content
 
-- Title: `Feature not available`
-- Description: `This feature is available only on GitLab <tier>.`
+- **Title:** `Feature not available`
+- **Description:** `This feature is available only on GitLab <tier>.`
 
 ### Empty search results
 
