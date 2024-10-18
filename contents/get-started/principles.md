@@ -37,7 +37,7 @@ Design to promote the user's learning and proficiency as they interact and explo
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Clearly explain how recommendations are generated, especially with [AI features](/usability/ai-human-interaction#be-transparent). | Omit explanations for recommendations to simplify the experience. |
 | Communicate the status of processes that happen in the background. | Only communicate about processes that happen in the foreground, as a direct result of the user's actions. |
-| Ensure people have all the information they need to proceed with confidence. | Delegate key information to the documentation to minimize the UI. |
+| Ensure the user has all the information needed to proceed with confidence. | Delegate key information to the documentation to minimize the UI. |
 
 <!--
 1. **Bold sub principle(s) title** Explanation, plus optional reference
