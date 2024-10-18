@@ -2,7 +2,11 @@
 name: Style and formatting
 ---
 
-For any style questions not directly addressed below, refer to the [Associated Press Stylebook](https://www.apstylebook.com/). Where the guidance below conflicts with AP style, the guidance below takes priority. For guidance on how to use specific terms, refer to the [recommended word list in the documentation](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html).
+For any style questions not directly addressed below, refer to the [Associated Press Stylebook](https://www.apstylebook.com/). Where the guidance below conflicts with AP style, the guidance below takes priority. 
+
+## Word list
+
+For guidance on how to use specific terms, refer to the [recommended word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html) in the documentation style guide.
 
 ## Style
 
