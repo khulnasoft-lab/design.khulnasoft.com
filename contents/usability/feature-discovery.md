@@ -28,13 +28,15 @@ Implicit discovery patterns are the preferred approach to integrate features int
 
 ### Contextual discovery
 
+<note>Before you add a contextual notice, you should explore solutions where the feature is not actively promoted (see [implicit discovery](#implicit-discovery)).</note>
+
 Contextual notices are subtle UI elements that draw attention or explain a feature, such as additional text, a [badge](/components/badge), or an [icon](/components/icon). Contextual notices should be positioned near the relevant context of the user’s task and avoid disrupting the user's workflow.
 
 <figure-img alt="Under the button to create a project, a static notice shows that it's also possible to create a project with the command line." label="A static notice informs the user of an alternate way to use the feature." src="/img/create-project.svg"></figure-img>
 
 Contextual notices can be helpful when a feature requires more guidance than a call-to-action alone. If needed, allow the user to access more details through progressive disclosure. Ensure the help content is visible but don't overwhelm the user with too much information at first, and offer more details only when they seek it.
 
-<figure-img alt="A badge with the label 'New' is shown next to a button. When the user hovers the button, a popover appears and explains the feature." label="Popover is shown upon button hover." src="/img/info-on-hover.svg"></figure-img>
+<figure-img alt="A badge with the label 'New' is shown next to a button. When the user hovers on the button, a popover appears and explains the feature." label="Popover is shown upon button hover." src="/img/info-on-hover.svg"></figure-img>
 
 Use contextual notices when implicit discovery doesn’t suffice, for example:
 
@@ -42,6 +44,8 @@ Use contextual notices when implicit discovery doesn’t suffice, for example:
 - **Limited visibility:** When features are not noticed alongside competing actions and the user's previous mental models.
 
 ### Disruptive discovery
+
+<note>Before you add a disruptive notice, you should explore solutions where the feature is not actively promoted (see [implicit discovery](#implicit-discovery)).</note>
 
 Disruptive notices, such as a [banner](/components/banner) or [modal](/components/modal), are more noticeable than contextual notices. A disruptive notice that doesn't match the user's current context can feel irrelevant and lead to dismissal and therefore limited effectiveness.
 
