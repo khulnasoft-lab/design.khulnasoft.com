@@ -162,17 +162,6 @@ export default {
           Please refrain from using this component - it is about to be deprecated!
         </gl-alert>
       </div>
-      <div v-if="page.feedback" class="app-styles gl-mb-3">
-        <gl-alert
-          :dismissible="false"
-          primaryButtonLink="https://www.google.com"
-          primaryButtonText="Give feedback"
-          variant="info"
-        >
-          Help improve this page by taking a short survey. Give feedback on what's going well and
-          what could be improved.
-        </gl-alert>
-      </div>
       <p v-if="page.description">{{ page.description }}</p>
     </div>
     <div v-if="showTabs" class="app-styles">
