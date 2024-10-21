@@ -1,33 +1,37 @@
 ---
-name: Marketing illustrations
+name: Illustrations
 ---
 
 <figure-img alt="GitLab illustration banner sample" label="Illustration sample" src="/img/brand/marketing-illustrations.png"></figure-img>
 
-[Illustrations](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/_resources/_designer-resources/assets/illustration-library) are the primary visual tool that we use throughout our marketing materials to depict GitLab’s values, features, user outcomes, and abstract concepts. The illustrations are an extension of our unique iconography system, and both reinforce our brand personality and are inspired by our values in the following ways:
+Illustrations are a form of brand storytelling, adding clarity and context to complex ideas. Illustrations elevate the messaging, so they are typically accompanied by copy; the two together are necessary and should balance and complement one another. 
 
-- Overlapping elements with overlays, which highlight collaboration and transparency
-- Intentional color application, driven by results
-- Motion and dashed lines that represent efficiency and iteration
+Our marketing illustrations are an extension of our custom iconography system, and they reinforce our brand personality, company values, and product in the following ways:
+
+- **Speed and movement** are conveyed through lines and gradients. By creating motion in our static work, we show efficiency and a sense of forward momentum.
+- **Linework** is inspired by lines of code, which grounds the illustration in our product.
+- **UI-centric iconography** is incorporated throughout an illustration.
+- **Dashed lines** speak to our iterative processes.
+- **Combining elements** shows collaboration and how multiple systems are working alongside one another.
+- **Inviting elements**, such as color and diversity, add vibrancy and life to the story.
 
 ### Construction
 
-An illustration typically accompanies copy; the two together are necessary and should balance and complement one another. An illustration should elevate the message and act as a form of brand storytelling, adding clarity and context to complex ideas.
+When building illustrations, adhere to the following guidelines to maintain visual consistency:
 
-When building illustrations, use this [template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/design/_resources/_designer-resources/assets/illustration-library/_artwork/gitlab-illustration-source-file-1.7.ai) and adhere to the following guidelines to maintain visual consistency:
-
-1. **Solid-filled shapes and Charcoal linework** are combined and balanced throughout.
-1. **Shapes** add weight to the piece and create the overall composition of the illustration.
-   1. A single shape can also be used as a background element to ground the visual. In this case, the illustration should break out of the container.
-1. **Lines** are used for key areas of focus in the piece.
-   1. Lines are 2px in weight.
-1. **Detail** should be minimal, but added for context.
-   1. Secondary lines that depict motion use Purple 04s.
-1. **Backgrounds** are typically white or a solid shape filled with Purple 02s.
-   1. If working with a dark background, the illustration should be placed on a gradient-filled circle that provides ample contrast for the illustration.
-   1. The background shape should have two corners with a border radius of 150px.
-1. **Corners** use a mix of angles and curves. Rounded corners are used sparingly as a small addition of personality; the radius should be consistent throughout the illustration.
-1. **Color** is used intentionally, with white and purples from the [secondary palette](https://drive.google.com/file/d/1kCcvxYMKPkDCEFQd6imQcHhFGC14Hgte/view?usp=sharing) making up the majority of the composition. The remaining colors in that palette are used as highlights and accents to differentiate objects within the illustration.
+1. **Linework** creates the overall foundation of an illustration.
+   1. A single stroke weight should be used consistently throughout any asset. 
+   1. Discretion should be used to ensure that lines appear thin; in general, lines can be set to 2px for digital assets and 15px for large print assets (such as event booths).
+1. **Solid shapes** add weight to the illustration and fill out the form laid out from the linework of the piece.
+   1. A single shape can also be used as a background element to ground the visual. In this case, the illustration should break out of the container shape.
+   1. Solid shapes can be added to icons to create contrast.
+   1. Solid shapes can also be used as background elements to add texture or fill out negative space.
+1. **Detail** should be purposeful by providing additional context to the overall story.
+   1. Additional lines, shapes, and gradients can be incorporated to depict motion and direction.
+1. **Corners** use a mix of angles and curves to create a dynamic visual.
+   1. Generally, a curved corner radius should be 25-30% of the width of the square.
+   1. For shapes with a curve applied to all corners, the radius should be 5-10%.
+1. **Color** should be used intentionally to communicate different aspects and features; use colors that resonate with our product to pull the story of the illustration forward.
 
 <figure-img alt="GitLab illustration sample" label="Illustration sample" src="/img/brand/illustrations.svg" width="480"></figure-img>
 
