@@ -1,10 +1,13 @@
 ---
 name: Feature discovery
+summary: Introduce and promote new functionality, emphasizing user context, motivation, and value to ensure effective adoption.
 related:
   - banner
   - popover
   - /patterns/empty-states
 ---
+
+<note>Help improve this page's content by giving feedback. [Take a short survey.](https://docs.google.com/forms/d/e/1FAIpQLSfzGq1myYmQRnXmliyMCnf_a7XJMu729kXoG5SD6exzkmsFhQ/viewform?usp=sf_link)</note>
 
 New features can enhance the experience and unlock significant value for users. However, a user’s context plays a significant role in how they engage with new functionality. According to the [FOGG Behavior Model](https://behaviormodel.org/), three factors impact people's behavior with regards to completion of tasks:
 

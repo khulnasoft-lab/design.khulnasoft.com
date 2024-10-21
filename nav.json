@@ -11,16 +11,26 @@
             "path": "introduction"
           },
           {
-            "title": "Brand voice",
-            "path": "brand-voice"
-          },
-          {
             "title": "Brand extensions",
             "path": "brand-extensions"
           },
           {
             "title": "Resources",
             "path": "resources"
+          }
+        ]
+      },
+      {
+        "title": "Messaging",
+        "path": "brand-messaging",
+        "items": [
+          {
+            "title": "Brand voice",
+            "path": "brand-voice"
+          },
+          {
+            "title": "Style and formatting",
+            "path": "style-formatting"
           }
         ]
       },
@@ -43,7 +53,7 @@
         ]
       },
       {
-        "title": "Brand Design",
+        "title": "Design",
         "path": "brand-design",
         "items": [
           {
@@ -263,8 +273,17 @@
             "path": "broadcast-message"
           },
           {
-            "title": "Button",
-            "path": "button"
+            "title": "Buttons",
+            "items": [
+              {
+                "title": "Button",
+                "path": "button"
+              },
+              {
+                "title": "Sorting",
+                "path": "sorting"
+              }
+            ]
           },
           {
             "title": "Card",
@@ -383,10 +402,6 @@
           {
             "title": "Socks",
             "path": "socks"
-          },
-          {
-            "title": "Sorting",
-            "path": "sorting"
           },
           {
             "title": "Spinner",
@@ -532,10 +547,6 @@
           {
             "title": "Punctuation",
             "path": "punctuation"
-          },
-          {
-            "title": "Internationalization",
-            "path": "i18n"
           },
           {
             "title": "Date and time",
