@@ -34,37 +34,3 @@ When building illustrations, adhere to the following guidelines to maintain visu
 1. **Color** should be used intentionally to communicate different aspects and features; use colors that resonate with our product to pull the story of the illustration forward.
 
 <figure-img alt="GitLab illustration sample" label="Illustration sample" src="/img/brand/illustrations.svg" width="480"></figure-img>
-
-## Marketing diagrams
-
-[Diagrams](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/_resources/_designer-resources/assets/diagrams) are used to illustrate the functionality of the GitLab product. They act like a manual, representing complex ideas step-by-step. They should be structured and visually clear, while using as minimal detail as possible.
-
-### Color
-
-- Diagrams use plenty of white space to make the story easy to follow and understand.
-- Orange 03p or Teal 02s can be used sparingly on icons to denote a positive or negative association. **Example:** Orange 03p for an X, or Teal 02s for a check mark.
-- With white backgrounds, use Charcoal for the linework and type.
-  - Gray 03 can be used for dashed lines and motion lines
-  - Purple 01s can be used to add depth to elements or as an extra layer of color in the background.
-- With Charcoal backgrounds, use white for the linework and type.
-  - Gray 03 can be used for dashed lines and motion lines.
-  - Purple 01s can be used in parts of the linework to highlight and/or direct the user’s eye through the flow of the diagram.
-  - Gray 05 can be used to add depth to elements or used as an extra layer of color in the background.
-
-### Linework
-
-- Motion lines are used as accents; they should help tell the story and/or guide the user’s eye through the diagram’s flow.
-- Line breaks give the feel of openness throughout the diagram. Lines should break before touching an icon, unless the icon is contained within a circle.
-- Dashed lines are used to connect type and visual elements.
-
-### Marketing icons
-
-- Lines should break before touching an icon, unless the icon is contained within a circle.
-- When using an icon within a circle, ensure the icon has 25% padding around it.
-
-### Logo
-
-- A single-color tanuki (either Charcoal or Orange 02p) can be used sparingly in diagrams to denote a product feature.
-- When representing how the GitLab product works in conjunction with or compared to another product, use the core logo.
-
-<figure-img alt="A light and dark background version of a diagram detailing the DevOps lifecycle journey" label="Diagram sample" src="/img/brand/diagram.svg"></figure-img>
