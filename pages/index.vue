@@ -15,33 +15,33 @@
 
     <section aria-label="Content" class="gl-my-8">
       <div class="container">
-        <ul class="gl-grid lg:gl-grid-cols-2 gl-gap-7 gl-p-0 gl-list-none">
+        <ul class="gl-grid gl-list-none gl-gap-7 gl-p-0 lg:gl-grid-cols-2">
           <li>
             <h2>Brand</h2>
-            <p>
-              The guidelines, resources, and system behind the visual identity of GitLab.
-              <nuxt-link to="/brand-overview/introduction">Overview →</nuxt-link>
+            <p class="gl-text-base gl-leading-20">
+              Guidelines, resources, and system behind the visual identity of GitLab.
+              <nuxt-link to="/brand-overview/introduction">Introduction →</nuxt-link>
             </p>
           </li>
           <li>
             <h2>Product</h2>
-            <p>
-              Foundations, components, patterns and guidelines for building the UI of GitLab.
+            <p class="gl-text-base gl-leading-20">
+              Foundations, components, patterns, and guidelines for building the GitLab UI.
               <nuxt-link to="/get-started/navigating-pajamas">Get started →</nuxt-link>
             </p>
           </li>
           <li>
             <h2>Usability and interaction</h2>
-            <p>
-              Methodologies, decisions, processes and concepts that frame the user experience.
-              <nuxt-link to="/usability">See guidelines →</nuxt-link>
+            <p class="gl-text-base gl-leading-20">
+              Methodologies, decisions, processes, and concepts that frame the user experience.
+              <nuxt-link to="/usability">Guidelines →</nuxt-link>
             </p>
           </li>
           <li>
             <h2>Content</h2>
-            <p>
-              Copy and messaging are meaningful aspects of the experience and conversation with our
-              users. <nuxt-link to="/content">Learn more →</nuxt-link>
+            <p class="gl-text-base gl-leading-20">
+              Copy and messaging for meaningful communication, guidance, and user interaction.
+              <nuxt-link to="/content/">Guidelines →</nuxt-link>
             </p>
           </li>
         </ul>
@@ -51,15 +51,15 @@
     <section aria-labelledby="contribute" class="gl-my-8">
       <div class="container">
         <div
-          class="gl-p-5 gl-bg-subtle gl-border-1 gl-border-solid gl-border-default gl-rounded-lg lg:-gl-mx-5"
+          class="gl-rounded-lg gl-border-1 gl-border-solid gl-border-default gl-bg-subtle gl-p-5 lg:-gl-mx-5"
         >
           <h2 id="contribute" class="gl-heading-4">Contribute</h2>
-          <p class="gl-mb-5">
-            It is GitLab’s mission to enable everyone to contribute to and co-create the software
+          <p class="gl-mb-5 gl-text-base gl-leading-20">
+            It's GitLab's mission to enable everyone to contribute to and co-create the software
             that powers our world. This includes contributions to the brand, product design, UX, and
             content, and more. Here are a few ways to get started.
           </p>
-          <ul class="gl-grid md:gl-grid-cols-3 gl-gap-3 gl-list-none gl-m-0 gl-p-0">
+          <ul class="gl-m-0 gl-grid gl-list-none gl-gap-3 gl-p-0 md:gl-grid-cols-3">
             <li>
               <a
                 href="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues"
@@ -71,7 +71,7 @@
                   class="gl-mx-auto gl-block"
                   alt=""
                 />
-                <span class="gl-block gl-mt-3">Issue tracker</span>
+                <span class="gl-mt-3 gl-block">Issue tracker</span>
               </a>
             </li>
             <li>
@@ -81,7 +81,7 @@
                 class="gl-block gl-p-3 gl-text-center"
               >
                 <img src="../assets/images/resources/code.svg" class="gl-mx-auto gl-block" alt="" />
-                <span class="gl-block gl-mt-3">Repository</span>
+                <span class="gl-mt-3 gl-block">Repository</span>
               </a>
             </li>
             <li>
@@ -95,7 +95,7 @@
                   class="gl-mx-auto gl-block"
                   alt=""
                 />
-                <span class="gl-block gl-mt-3">Pajamas UI Kit (Figma)</span>
+                <span class="gl-mt-3 gl-block">Pajamas UI Kit (Figma)</span>
               </a>
             </li>
           </ul>
