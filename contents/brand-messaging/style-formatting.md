@@ -2,6 +2,8 @@
 name: Style and formatting
 ---
 
+The style and formatting guidelines govern the way we write in our marketing materials — including our vocabulary, grammar, punctuation, and formatting — and ensure consistency across all of our content. Technical writing and product teams should follow the [documentation style guide](https://docs.gitlab.com/ee/development/documentation/styleguide/) when developing content within the product.
+
 For any style questions not directly addressed below, refer to the [Associated Press Stylebook](https://www.apstylebook.com/). Where the guidance below conflicts with AP style, the guidance below takes priority. 
 
 ## Word list
