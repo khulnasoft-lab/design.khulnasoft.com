@@ -21,7 +21,7 @@ When adding a setting to the product, consider these questions:
 
 - **Necessity:** Is this control necessary or just nice to have? Remember to strive for [convention over configuration](https://handbook.gitlab.com/handbook/product/product-principles/#convention-over-configuration).
 - **Access:** Which type of user is responsible for making configuration decisions? Only specific [roles](https://docs.gitlab.com/ee/user/permissions.html) can manage settings. Avoid placing a setting only in the Admin area, as only Administrators on self-managed instances can view it.
-- **Availability:** In which [namespace](https://docs.gitlab.com/ee/user/namespace/#types-of-namespaces) should this setting be available? There is a difference in functionality between user and group namespaces.
+- **Availability:** In which namespace should this setting be available? There is a difference in [functionality between user and group namespaces](https://docs.gitlab.com/ee/user/namespace/#types-of-namespaces).
 - **Flexibility and control:** Is this setting intended to set a default value or enforce a specific configuration? A setting's wording and UI elements should reflect its capability.
 - **Inheritance:** Will a child namespace inherit its values from its parent namespace? While there is a standardized model for implementing [cascading settings](https://docs.gitlab.com/ee/development/cascading_settings.html), it does not solve all configuration challenges.
 - **Relationship:** How does this setting relate to others? Evaluating where users expect to find it in a workflow or user journey can help identify effective placement.
