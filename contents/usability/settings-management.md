@@ -36,8 +36,8 @@ There is no perfect solution that will address all usability challenges with set
 
 A user should never wonder why they cannot change something.
 
-- If a setting depends on another configuration or is limited to a specific role, an explanation of its requirements should be provided. This approach minimizes the need for users to cross-reference documentation.
-- If a parent setting can be overridden, the UI for the parent setting should clearly indicate this. This may require the addition of informative text.
+- If a setting depends on another configuration or is limited to a specific role, then provide an explanation to minimize the need for cross-referencing documentation.
+- The UI for the parent setting should indicate if it can be overridden, which may require adding informative text.
 - If a parent setting is enforced, the UI for the child setting should clearly indicate this restriction. This may require the child setting's state to be disabled and a lock icon with a [popover](/components/popover) or [tooltip](/components/tooltip) to be added to explain the nature of the restriction.
 
 <figure-img label="Example of locked setting" src="/img/locked-setting-example.png"></figure-img>
