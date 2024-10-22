@@ -26,13 +26,13 @@ When adding a setting to the product, consider these questions:
 - **Inheritance:** Will a child namespace inherit its values from its parent namespace? While there is a standardized model for implementing [cascading settings](https://docs.gitlab.com/ee/development/cascading_settings.html), it does not solve all configuration challenges.
 - **Relationship:** How does this setting relate to others? Evaluating where users expect to find it in a workflow or user journey can help identify effective placement.
 
-### Patterns
+## Patterns
 
 The current settings structure is less than ideal, which means most solutions have drawbacks. The combination of powerful administration features with simple configuration options can result in an overwhelming and complex user experience. It requires a strong familiarity with GitLab's structure and feature set.
 
 There is no perfect solution that will address all usability challenges with settings, so a reasonable approach is to examine what already exists for extrapolation. This section outlines patterns that can optimize the user experience of settings within the given constraints.
 
-#### Clarify setting restrictions
+### Clarify setting restrictions
 
 A user should never wonder why they cannot change something.
 
@@ -42,13 +42,13 @@ A user should never wonder why they cannot change something.
 
 <figure-img label="Example of locked setting" src="/img/locked-setting-example.png"></figure-img>
 
-#### Changes should be saved in a sensible manner
+### Changes should be saved in a sensible manner
 
 Ideally, the experience of saving a settings selection should be consistent, but not all settings can be treated the same. The impact of a change to a theme color is far less consequential than an adjustment to the default branch. The necessity for a `Save changes` button should match the expected user experience.
 
 Full guidelines for [saving progress](/usability/saving-and-feedback#saving-progress) are described separately, but remember never to use a combination of manual and auto-save within the same form.
 
-#### Shortcuts to relevant settings
+### Shortcuts to relevant settings
 
 To make configuration options more discoverable, add links to relevant settings from the feature page.
 
@@ -58,17 +58,17 @@ To make configuration options more discoverable, add links to relevant settings 
 
 <figure-img label="Settings button with tooltip on hover" src="/img/settings-hover.svg"></figure-img>
 
-### Additional guidance
+## Additional guidance
 
-#### Avoid new navigation entries
+### Avoid new navigation entries
 
 Proposals to add new setting pages to the navigation sidebar often aim to boost discoverability. To increase discoverability, consider the use of in-page [shortcuts]($shortcuts-to-relevant-settings) to highlight settings elsewhere. Any changes to the navigation should be justified through an [evaluation](https://handbook.gitlab.com/handbook/product/ux/navigation/#how-do-i-evaluate-navigation-changes) to prevent bloat.
 
-#### Check the URL structure
+### Check the URL structure
 
 Thoughtfully construct the URL to match the page it maps to since it will be painful to change later.
 
-#### Maintain consistency and adhere to the knowledge structure
+### Maintain consistency and adhere to the knowledge structure
 
 Consider settings as features that introduce capabilities into GitLab, so consistency and logical organization are crucial for effective settings management. Users expect to find settings in predictable locations, so it's important to integrate each one within the broader information architecture.
 
@@ -77,6 +77,6 @@ Consider settings as features that introduce capabilities into GitLab, so consis
 - Align the UI treatment with similar configuration options throughout the platform.
 - When you introduce new settings or capabilities, adhere to the [established knowledge structure](https://handbook.gitlab.com/handbook/product/product-principles/#principled-adherence-to-the-established-knowledge-architecture).
 
-#### Avoid direct links to docs
+### Avoid direct links to docs
 
 It is not an encouraged pattern to use a `?` or `Learn more` link to documentation for settings. Follow [when to use a link to documentation](/usability/contextual-help#when-to-use-a-link-to-documentation) for guidance.
