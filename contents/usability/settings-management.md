@@ -11,19 +11,19 @@ related:
   - /usability/progressive-disclosure
 ---
 
-Settings allow users to control how the platform's features or capabilities should behave or appear. Users can modify these configurable options to adjust baseline functionality.
+Settings allow a user to control how the platform's features or capabilities should behave or appear. A user can modify these configurable options to adjust baseline functionality.
 
-Admin area, groups, projects, and users have dedicated areas to aggregate their settings, while [permissions and roles](https://docs.gitlab.com/ee/user/permissions.html) dictate which settings users can access.
+The Admin area, group, project, and user have dedicated areas to aggregate their settings, while [permissions and roles](https://docs.gitlab.com/ee/user/permissions.html) dictate which settings a user can access.
 
 ## Considerations
 
-To guide your decisions on how to construct a setting within the product, consider these questions:
+When adding a setting to the product, consider these questions:
 
 - **Necessity:** Is this control necessary or just nice to have? Remember to strive for [convention over configuration](https://handbook.gitlab.com/handbook/product/product-principles/#convention-over-configuration).
-- **Access:** Which type of user is responsible for making configuration decisions? Only specific [roles](https://docs.gitlab.com/ee/user/permissions.html) can manage settings. If possible, avoid placing a setting only in the admin area, because it is limited to Administrators on self-managed.
+- **Access:** Which type of user is responsible for making configuration decisions? Only specific [roles](https://docs.gitlab.com/ee/user/permissions.html) can manage settings. Avoid placing a setting only in the Admin area, as only Administrators on self-managed instances can view it.
 - **Availability:** In which [namespace](https://docs.gitlab.com/ee/user/namespace/#types-of-namespaces) should this setting be available? There is a difference in functionality between user and group namespaces.
 - **Flexibility and control:** Is this setting intended to set a default value or enforce a specific configuration? A setting's wording and UI elements should reflect its capability.
-- **Inheritance:** How or if a child namespace will inherit its values from its parent namespace? There is a standardized model for implementing [cascading settings](https://docs.gitlab.com/ee/development/cascading_settings.html), but it does not solve all configuration challenges.
+- **Inheritance:** Will a child namespace inherit its values from its parent namespace? While there is a standardized model for implementing [cascading settings](https://docs.gitlab.com/ee/development/cascading_settings.html), it does not solve all configuration challenges.
 - **Relationship:** How does this setting relate to others? Evaluating where users expect to find it in a workflow or user journey can help identify effective placement.
 
 ### Patterns
@@ -46,14 +46,14 @@ A user should never wonder why they cannot change something.
 
 Ideally, the experience of saving a settings selection should be consistent, but not all settings can be treated the same. The impact of a change to a theme color is far less consequential than an adjustment to the default branch. The necessity for a `Save changes` button should match the expected user experience.
 
-Never use a combination of manual and auto-save within the same form. Learn more about [saving progress](/usability/saving-and-feedback#saving-progress).
+Full guidelines for [saving progress](/usability/saving-and-feedback#saving-progress) are described separately, but remember never to use a combination of manual and auto-save within the same form.
 
-#### Shortcut users to relevant settings
+#### Shortcuts to relevant settings
 
-To make configuration options more discoverable to users, add links to settings from the feature page.
+To make configuration options more discoverable, add links to relevant settings from the feature page.
 
 - Add a cross-link to the top right corner of a page, below the breadcrumbs. This placement sets the expectation that the settings apply only to that specific feature.
-- It's recommended to use the icon-only [button](/components/button) with the [settings icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=settings) with a [tooltip](/components/tooltip) stating `Configure in settings`.
+- It's recommended to use the icon-only [button](/components/button/#icon-only-buttons), with the [settings icon](http://gitlab-org.gitlab.io/gitlab-svgs/?q=settings) and a [tooltip](/components/tooltip) stating, "Configure in settings."
 - Redirect a user to the specific configuration section in the dedicated settings area. For example, a user who selects the settings link on the **Package Registry** page will be redirected to the **Settings / Packages and registries** section.
 
 <figure-img label="Settings button with tooltip on hover" src="/img/settings-hover.svg"></figure-img>
