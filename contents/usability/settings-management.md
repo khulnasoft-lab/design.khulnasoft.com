@@ -38,7 +38,7 @@ A user should never wonder why they cannot change something.
 
 - If a setting depends on another configuration or is limited to a specific role, then provide an explanation to minimize the need for cross-referencing documentation.
 - A parent setting should indicate if it can be overridden, which may require adding informative text.
-- A child setting should clearly indicate when a parent setting has enforced an option. This may require the child setting's state to be disabled and a lock icon with a [popover](/components/popover) or [tooltip](/components/tooltip) to be added to explain the nature of the restriction.
+- A child setting should clearly indicate when a parent setting has enforced an option. One pattern for indicating this restriction is to disable the child setting and introduce a [popover](/components/popover) or [tooltip](/components/tooltip) to be added to explain the nature of the restriction.
 
 <figure-img label="Example of locked setting" src="/img/locked-setting-example.png"></figure-img>
 
