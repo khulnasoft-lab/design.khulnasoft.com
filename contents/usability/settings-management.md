@@ -79,4 +79,4 @@ Consider settings as features that introduce capabilities into GitLab, so consis
 
 ### Avoid direct links to docs
 
-It is not an encouraged pattern to use a `?` or `Learn more` link to documentation for settings. Follow [when to use a link to documentation](/usability/contextual-help#when-to-use-a-link-to-documentation) for guidance.
+It is not an encouraged pattern to link to documentation from settings, because the UI should be self-explanatory. Follow [when to use a link to documentation](/usability/contextual-help#when-to-use-a-link-to-documentation) for guidance.
