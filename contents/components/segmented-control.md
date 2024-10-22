@@ -1,5 +1,6 @@
 ---
 name: Segmented control
+summary: A segmented control allows users to choose one out of a range of available options. It is a button group of equal options where only one can be selected and active. There must always be one option active.
 description: A segmented control allows users to choose one out of a range of available options. It is a button group of equal options where only one can be selected and active. There must always be one option active.
 deprecated: true
 components:

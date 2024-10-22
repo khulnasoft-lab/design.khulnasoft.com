@@ -1,5 +1,6 @@
 ---
 name: Pagination
+summary: Pagination breaks up content into multiple pages with controls for navigating those pages.
 description: Pagination breaks up content into multiple pages with controls for navigating those pages.
 components:
   - base-pagination

@@ -1,5 +1,6 @@
 ---
 name: Sorting
+summary: Sorting allows users to quickly re-organize similar content on a long list when the default order may be insufficient for users to scan the data set.
 description: Sorting allows users to quickly re-organize similar content on a long list when the default order may be insufficient for users to scan the data set.
 components:
   - base-sorting

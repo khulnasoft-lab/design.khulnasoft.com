@@ -1,5 +1,6 @@
 ---
 name: Spinner
+summary: A spinner is an animated element that appears after a user's action to indicate that saving or loading is in progress.
 description: A spinner is an animated element that appears after a user's action to indicate that saving or loading is in progress.
 components:
   - base-loading-icon

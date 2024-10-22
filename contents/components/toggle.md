@@ -1,5 +1,6 @@
 ---
 name: Toggle
+summary: A toggle is a visual switch which acts as a boolean.
 description: A toggle is a visual switch which acts as a boolean.
 components:
   - base-toggle

@@ -1,5 +1,6 @@
 ---
 name: Path
+summary: Paths are horizontal process flows composed of a series of stages.
 description: Paths are horizontal process flows composed of a series of stages.
 components:
   - base-path

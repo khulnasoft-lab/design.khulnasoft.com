@@ -1,5 +1,6 @@
 ---
 name: Avatar
+summary: An avatar represents a unique entity, like a person, group, or project.
 description: An avatar represents a unique entity, like a person, group, or project.
 docs: in-progress
 components:
