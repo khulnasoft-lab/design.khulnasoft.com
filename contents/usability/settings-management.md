@@ -62,7 +62,7 @@ To make configuration options more discoverable, add links to relevant settings 
 
 ### Avoid new navigation entries
 
-Proposals to add new setting pages to the navigation sidebar often aim to boost discoverability. To increase discoverability, consider the use of in-page [shortcuts]($shortcuts-to-relevant-settings) to highlight settings elsewhere. Any changes to the navigation should be justified through an [evaluation](https://handbook.gitlab.com/handbook/product/ux/navigation/#how-do-i-evaluate-navigation-changes) to prevent bloat.
+Proposals to add new setting pages to the navigation sidebar often aim to boost discoverability. To increase discoverability, consider the use of in-page [shortcuts](#shortcuts-to-relevant-settings) to highlight settings elsewhere. Any changes to the navigation should be justified through an [evaluation](https://handbook.gitlab.com/handbook/product/ux/navigation/#how-do-i-evaluate-navigation-changes) to prevent bloat.
 
 ### Check the URL structure
 
