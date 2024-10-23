@@ -183,6 +183,14 @@ def lint_commits(commits)
     MARKDOWN
   end
 
+  if git.commits.length > 10
+    warn(
+      "Merge request has more than 10 commits. " \
+        "You should [manually squash them](#{URL_SQUASH_COMMITS}) into a smaller " \
+        "number or enable **Squash commits when merge request is accepted**."
+    )
+  end
+
   return if helper.squash_mr?
 end
 
@@ -218,11 +226,4 @@ if helper.squash_mr?
   lint_mr(helper.mr_title)
 else
   lint_commits(git.commits)
-end
-
-if git.commits.length > 10
-  warn(
-    "Merge request has more than 10 commits. " \
-      "You should [squash them](#{URL_SQUASH_COMMITS}) into a smaller number."
-  )
 end
