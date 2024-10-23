@@ -88,7 +88,7 @@ Consider the following recommendations to make your initial prompts more effecti
 
 - Always explain why the initial prompt is shown (for example, _you don’t have a pipeline to check the quality of your code, we can show you how to set it up quickly._)
 - What is the value that the user will get from it (for example, _it will make your code more secure and robust._)
-- Avoid generic CTA copy like “Let’s go” or “Show me how”. Use something that will tell the user what value they’ll get out of it so that even if they only scan through the copy of the prompt, they’ll still have a good idea of what it is they’re doing and what the result will be. Good example: “Secure your code”.
+- Avoid generic CTA copy like _“Let’s go”_ or _“Show me how”_. Use something that will tell the user what value they’ll get out of it so that even if they only scan through the copy of the prompt, they’ll still have a good idea of what it is they’re doing and what the result will be. Good example: _“Secure your code”_.
 
 ### Follow-up prompts
 
