@@ -2,7 +2,6 @@
 
 By contributing to GitLab B.V., You accept and agree to the following terms and
 conditions for Your present and future Contributions submitted to GitLab B.V.
-Except for the license granted herein to GitLab B.V. and recipients of software
 
 [DCO + License](https://gitlab.com/gitlab-org/dco/blob/master/README.md)
 
