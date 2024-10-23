@@ -55,8 +55,8 @@
         >
           <h2 id="contribute" class="gl-heading-4">Contribute</h2>
           <p class="gl-mb-5 gl-text-base gl-leading-20">
-            It's GitLab's mission to enable everyone to contribute to and co-create the software
-            that powers our world. This includes contributions to the brand, product design, UX, and
+            It's our mission to enable everyone to contribute to and co-create the software
+            that powers our world. This includes contributions to the brand, product design, UX,
             content, and more. Here are a few ways to get started.
           </p>
           <ul class="gl-m-0 gl-grid gl-list-none gl-gap-3 gl-p-0 md:gl-grid-cols-3">
