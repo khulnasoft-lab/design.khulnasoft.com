@@ -38,7 +38,7 @@ A user should never wonder why they cannot change something.
 
 - If a setting depends on another configuration or is limited to a specific role, then provide an explanation to minimize the need for cross-referencing documentation.
 - A parent setting should indicate if it can be overridden, which may require adding informative text.
-- A child setting should clearly indicate when a parent setting has enforced an option. One pattern for indicating this restriction is to disable the child setting and introduce a [popover](/components/popover) or [tooltip](/components/tooltip) to be added to explain the nature of the restriction.
+- If a child setting is inherited and not changeable, clearly indicate that in the UI. One pattern for indicating this restriction is to disable the child setting and introduce a [popover](/components/popover) or [tooltip](/components/tooltip) to explain why the setting isn't editable.
 
 <figure-img label="Example of locked setting" src="/img/locked-setting-example.png"></figure-img>
 
@@ -73,7 +73,7 @@ Thoughtfully construct the URL to match the page it maps to since it will be pai
 Consider settings as features that introduce capabilities into GitLab, so consistency and logical organization are crucial for effective settings management. Users expect to find settings in predictable locations, so it's important to integrate each one within the broader information architecture.
 
 - Group related options logically and position them where users would intuitively look for them.
-- Ensure consistent placement of settings across different GitLab areas (such as admin area, group, project, and user settings).
+- Ensure consistent placement of settings across different GitLab areas (such as Admin area, group, project, and user settings).
 - Align the UI treatment with similar configuration options throughout the platform.
 - When you introduce new settings or capabilities, adhere to the [established knowledge structure](https://handbook.gitlab.com/handbook/product/product-principles/#principled-adherence-to-the-established-knowledge-architecture).
 
