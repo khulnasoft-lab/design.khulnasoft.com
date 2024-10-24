@@ -10,7 +10,7 @@ Though we take inspiration from other companies our principles are defined by lo
 
 ## Sophisticated simplicity
 
-GitLab is a platform that supports people in their daily work. We respect the importance of their efforts and avoid unnecessary gimmicks. To that end, we work towards [sophisticated simplicity](https://handbook.gitlab.com/handbook/product/ux/product-designer/#aiming-towards-sophisticated-simplicity) in our product. That is through thoughtful choices that streamline complex workflows and functionality, which allow the user to stay focused on what matters most.
+GitLab is a platform that supports people in their daily work. We respect the importance of their efforts and avoid unnecessary gimmicks. To that end, we work towards [sophisticated simplicity](https://handbook.gitlab.com/handbook/product/ux/product-designer/#aiming-towards-sophisticated-simplicity) in our product: thoughtful choices that streamline complex workflows and functionality, which allow the user to stay focused on what matters most.
 
 There are three principles that help support us in this work.
 
