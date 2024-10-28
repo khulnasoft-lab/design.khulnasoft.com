@@ -6,7 +6,7 @@ Principles act as a reusable standard for teams to measure their work. They repl
 
 There are two kinds of principles; the principles that guide the process and principles that define the output. The process principles are described in our [handbook](https://about.gitlab.com/handbook/product/#product-principles), while the outcome principles are detailed here.
 
-Though we take inspiration from other companies our principles are defined by looking inward, which ensures they are actionable and effective. Just like the rest of our work, we continually adjust our principles and always strive to make them better. Everyone is welcome to suggest improvements to them by opening an issue and/or creating a merge request in our [repository](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)!
+Though we take inspiration from other companies, our principles are defined by looking inward. This perspective ensures they are actionable and effective. Just like the rest of our work, we continually adjust our principles and always strive to make them better. Everyone is welcome to suggest improvements to them by opening an issue and/or creating a merge request in our [repository](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)!
 
 ## Sophisticated simplicity
 
