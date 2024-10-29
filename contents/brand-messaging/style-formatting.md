@@ -4,7 +4,7 @@ name: Style and formatting
 
 The style and formatting guidelines govern the way we write in our marketing materials — including our vocabulary, grammar, punctuation, and formatting — and ensure consistency across all of our content. Technical writing and product teams should follow the [documentation style guide](https://docs.gitlab.com/ee/development/documentation/styleguide/) when developing content within the product.
 
-For any style questions not directly addressed below, refer to the [Associated Press Stylebook](https://www.apstylebook.com/). Where the guidance below conflicts with AP style, the guidance below takes priority. 
+For any style questions not directly addressed below, refer to the [Associated Press Stylebook](https://www.apstylebook.com/). Where the guidance below conflicts with AP style, the guidance below takes priority.
 
 ## Word list
 
@@ -29,7 +29,7 @@ We favor contractions (*can’t, didn’t, it’s, we’re*) to sound more human
 
 ### Lists
 
-If a numbered or bulleted list reads as a continuous sentence, don’t capitalize the first letter of each item in the list, and don’t include punctuation at the end of each item. 
+If a numbered or bulleted list reads as a continuous sentence, don’t capitalize the first letter of each item in the list, and don’t include punctuation at the end of each item.
 
 - ✅ GitLab Duo is unique because we:
   - do not use your content to train models
@@ -60,7 +60,7 @@ Include periods and commas inside ending quotation marks. Any punctuation that i
 - ✅ What do you think of the claim, "Software is eating the world"?
 - ✅ "Do you agree that software is eating the world?" wrote the author.
 
-When including direct quotations from interviewees in blog posts, use present tense for verbs such as *says* and *explains*. 
+When including direct quotations from interviewees in blog posts, use present tense for verbs such as *says* and *explains*.
 
 - ✅ "Ruby was optimized for the developer, not for running it in production," says Sid.
 
@@ -72,7 +72,7 @@ We use American English by default on the GitLab blog and marketing site. Please
 
 ## Voice
 
-Generally, use [active voice](https://www.grammarly.com/blog/active-vs-passive-voice/) where possible. Using active voice ensures that your sentence includes a clear subject and verb. 
+Generally, use [active voice](https://www.grammarly.com/blog/active-vs-passive-voice/) where possible. Using active voice ensures that your sentence includes a clear subject and verb.
 
 - ✅ The GitLab community submitted 1 million merge requests in March 2019.
 - ❌ One million merge requests were submitted in March 2019.
@@ -83,11 +83,11 @@ There may be limited cases where passive voice is the better option. Use your be
 
 ### Brand and publication names
 
-Ensure you style brand names according to the company’s brand guidelines. 
+Ensure you style brand names according to the company’s brand guidelines.
 
 - ✅ WiFi Tribe, DigitalOcean
 
-If the word the forms part of a brand or publication's name, capitalize it. Omit *The* if including it would make the sentence awkward. 
+If the word the forms part of a brand or publication's name, capitalize it. Omit *The* if including it would make the sentence awkward.
 
 - ✅ We spoke to a reporter from *The Wall Street Journal*.
 - ✅ We spoke to a *Wall Street Journal* reporter.
@@ -98,14 +98,14 @@ Generally, GitLab feature names are lowercase, but there are exceptions. Refer t
 
 ### GitLab functions, departments, and teams
 
-Capitalize the name of the element, but not the word after (*team, department*, etc.). 
+Capitalize the name of the element, but not the word after (*team, department*, etc.).
 
 - ✅ Engineering team, Security department
 - ❌ Engineering Team, security department
 
 ### Job titles
 
-Use lowercase for job titles in sentences, regardless of whether they appear before or after a person's name. 
+Use lowercase for job titles in sentences, regardless of whether they appear before or after a person's name.
 
 - ✅ John Smith, director of engineering, led the project.
 - ❌ John Smith, Director of Engineering, led the project.
@@ -156,7 +156,7 @@ Ampersands may be used sparingly where character counts are very tight, such as 
 
 ### Colons
 
-If a colon is used to introduce a complete sentence (including a question), capitalize the first word after the colon. 
+If a colon is used to introduce a complete sentence (including a question), capitalize the first word after the colon.
 
 - ✅ AI isn’t just another fad: It’s seeing real adoption among practitioners.
 - ❌ AI isn’t just another fad: it’s seeing real adoption among practitioners.
@@ -190,7 +190,7 @@ Include one space before and after an ellipsis ( … ).
 
 Use a hyphen to connect two or more words that jointly modify another word (*built-in security*).
 
-Do not hyphenate the adverb very or adverbs ending in *-ly* (*fully integrated platform*). 
+Do not hyphenate the adverb very or adverbs ending in *-ly* (*fully integrated platform*).
 
 Generally, don’t hyphenate prefixes such as *semi, pre, non, un, sub*, or *multi* (*multitenant, subtask*). The exception is when the last letter of the prefix is the same as the first letter of the root word (*sub-bucket*).
 
@@ -200,7 +200,7 @@ Refer to the [recommended word list](https://docs.gitlab.com/ee/development/docu
 
 ### Spacing
 
-Use only one space (not two) after a period. 
+Use only one space (not two) after a period.
 
 Use a space between a number and a unit of measurement (*128 GB*).
 
