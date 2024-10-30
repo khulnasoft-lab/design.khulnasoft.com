@@ -1409,10 +1409,9 @@
   resolved "https://registry.yarnpkg.com/@gitlab/svgs/-/svgs-3.119.0.tgz#becbeea7e7ee241baecdad02b9ad04de7a8aed04"
   integrity sha512-Os/PF37pCY75uLA0dmGaZe13BmirzlWH+pFLinCAPRChEC7KhHCJtIy0efRAxzkA4uatmHpJHxftuTc7NeiSNQ==
 
-"@gitlab/ui@101.0.0":
+"@gitlab/ui@https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/8216214394/artifacts/raw/gitlab-ui.1787-move-segmented-control-button-group-from-main-gitlab-proje.tgz":
   version "101.0.0"
-  resolved "https://registry.yarnpkg.com/@gitlab/ui/-/ui-101.0.0.tgz#87fcedf1a6d3ba0c697d3e9426aee703bafa3794"
-  integrity sha512-rzXIxfV+uZ0sbY/FZkFPN9mVa1Q22lii1OC6WO7Aoo+nGWSOkFqkersjiM58TtGaXGKQn8oGNieteC5aloCbEw==
+  resolved "https://gitlab.com/gitlab-org/gitlab-ui/-/jobs/8216214394/artifacts/raw/gitlab-ui.1787-move-segmented-control-button-group-from-main-gitlab-proje.tgz#7b01ea41f6faa24f59dd9a7d8af7398227c4b1a1"
   dependencies:
     "@floating-ui/dom" "1.4.3"
     echarts "^5.3.2"
