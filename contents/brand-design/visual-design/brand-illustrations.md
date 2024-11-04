@@ -2,7 +2,7 @@
 name: Illustrations
 ---
 
-<figure-img alt="GitLab illustration banner sample" label="Illustration sample" src="/img/brand/marketing-illustrations.png"></figure-img>
+<figure-img alt="GitLab illustration banner" label="Illustration sample" src="/img/brand/brand-illustration-hero.svg"></figure-img>
 
 Illustrations are a form of brand storytelling, adding clarity and context to complex ideas. Illustrations elevate the messaging, so they are typically accompanied by copy; the two together are necessary and should balance and complement one another. 
 
@@ -33,4 +33,4 @@ When building illustrations, adhere to the following guidelines to maintain visu
    1. For shapes with a curve applied to all corners, the radius should be 5-10%.
 1. **Color** should be used intentionally to communicate different aspects and features; use colors that resonate with our product to pull the story of the illustration forward.
 
-<figure-img alt="GitLab illustration sample" label="Illustration sample" src="/img/brand/illustrations.svg" width="480"></figure-img>
+<figure-img alt="GitLab illustration construction" label="Illustration construction on a light and dark background" src="/img/brand/illustration-construction.svg"></figure-img>

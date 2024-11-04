@@ -25,4 +25,4 @@ Diagrams are used to illustrate the functionality of the GitLab product. They ac
 - A single-color tanuki (refer to [logomark variations](/brand-logo/logomark#variations)) can be used sparingly in diagrams to denote a product feature.
 - When representing how the GitLab product works in conjunction with or compared to another product, use the core logo.
 
-<figure-img alt="A light and dark background version of a diagram detailing the DevOps lifecycle journey" label="Diagram sample" src="/img/brand/diagram.svg"></figure-img>
+<figure-img alt="A light and dark background version of a diagram" label="Diagram sample" src="/img/brand/diagram-example.svg"></figure-img>
