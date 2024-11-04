@@ -15,36 +15,23 @@
 
     <section aria-label="Content" class="gl-my-8">
       <div class="container">
-        <ul class="gl-grid gl-list-none gl-gap-7 gl-p-0 lg:gl-grid-cols-2">
-          <li>
+        <div class="gl-grid gl-gap-7 gl-p-0 lg:gl-grid-cols-2">
+          <div>
             <h2>Brand</h2>
             <p class="gl-text-base gl-leading-20">
-              Guidelines, resources, and system behind the visual identity of GitLab.
+              Guidelines, resources, and system behind the brand personality and visual identity of
+              GitLab.
               <nuxt-link to="/brand-overview/introduction">Introduction →</nuxt-link>
             </p>
-          </li>
-          <li>
+          </div>
+          <div>
             <h2>Product</h2>
             <p class="gl-text-base gl-leading-20">
-              Foundations, components, patterns, and guidelines for building the GitLab UI.
+              Foundations, components, patterns, content, and guidelines for building the GitLab UI.
               <nuxt-link to="/get-started/navigating-pajamas">Get started →</nuxt-link>
             </p>
-          </li>
-          <li>
-            <h2>Usability and interaction</h2>
-            <p class="gl-text-base gl-leading-20">
-              Methodologies, decisions, processes, and concepts that frame the user experience.
-              <nuxt-link to="/usability">Guidelines →</nuxt-link>
-            </p>
-          </li>
-          <li>
-            <h2>Content</h2>
-            <p class="gl-text-base gl-leading-20">
-              Copy and messaging for meaningful communication, guidance, and user interaction.
-              <nuxt-link to="/content/">Guidelines →</nuxt-link>
-            </p>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -55,9 +42,9 @@
         >
           <h2 id="contribute" class="gl-heading-4">Contribute</h2>
           <p class="gl-mb-5 gl-text-base gl-leading-20">
-            It's our mission to enable everyone to contribute to and co-create the software
-            that powers our world. This includes contributions to the brand, product design, UX,
-            content, and more. Here are a few ways to get started.
+            It's our mission to enable everyone to contribute to and co-create the software that
+            powers our world. This includes contributions to the brand, product design, UX, content,
+            and more. Here are a few ways to get started.
           </p>
           <ul class="gl-m-0 gl-grid gl-list-none gl-gap-3 gl-p-0 md:gl-grid-cols-3">
             <li>
