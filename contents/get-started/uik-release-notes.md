@@ -2,9 +2,13 @@
 name: Release notes
 ---
 
+## 17.7
+
+<todo>Add link to draft release notes</todo>
+
 ## 17.6
 
-[_Draft: 17.6 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/4106)
+<small>Published 2024-mm-dd</small>
 
 ## 17.5
 
