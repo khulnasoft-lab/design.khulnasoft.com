@@ -227,6 +227,7 @@ Error messages can be used in the following scenarios:
 - Use `aria-describedby` to programmatically associate a description with an input.
 - Use `aria-describedby` to programmatically associate help text with an input.
 - The clear button should be implemented as a `<button>`, accessible via keyboard, and its name announced as “Clear” for assistive technology. After content is removed focus is placed back on the input.
+- Do not use a disabled submit button to visualize form validation or if a change is incomplete. see [form hiding and disabling elements](#hiding-and-disabling-elements).
 
 #### Keyboarding
 
