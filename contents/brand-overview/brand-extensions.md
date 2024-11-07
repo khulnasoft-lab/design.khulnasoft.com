@@ -7,7 +7,7 @@ Brand extensions help distinguish projects and initiatives that directly promote
 ## Style guides
 
 Below are style guides for the existing brand extensions.
-<figure-img alt="GitLab Duo banner" src="/img/brand/gitlab-duo-hero.png"></figure-img>
+<figure-img alt="GitLab Duo banner" src="/img/brand/gitlab-duo.png"></figure-img>
 
 ### GitLab Duo
 
