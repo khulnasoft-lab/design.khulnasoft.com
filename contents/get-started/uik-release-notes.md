@@ -48,6 +48,7 @@ name: Release notes
 **Product illustrations:**
 
 - Adds [avatar-bot-duo-code-review](https://www.figma.com/design/1ui9w228X0S5WxaD0SRdIA/GitLab-Product-Illustrations?m=auto&node-id=6804-1327&t=LEjvsAi6Z0QAv5ll-1).
+- Removes illustrations: chart-empty-state, empty-dag-md, export-import, lock_promotion, manual_action, multi-editor_no_changes_empty, multi_file_editor_empty and web-ide_promotion.
 
 ### Changes
 
