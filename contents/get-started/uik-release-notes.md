@@ -2,10 +2,6 @@
 name: Release notes
 ---
 
-## 17.7
-
-[_17.7 release notes issue_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1959)
-
 ## 17.6
 
 <small>Published 2024-11-08</small>
