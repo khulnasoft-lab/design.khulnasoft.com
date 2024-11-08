@@ -11,7 +11,7 @@ Diagrams are used to illustrate the functionality of the GitLab product. They ac
 
 ### Linework
 
-- Diagrams are mostly constructed of linework and should match our guidelines regarding lines and stroke weight. 
+- Diagrams are mostly constructed of linework and should match our guidelines regarding lines and stroke weight.
 - Motion lines can be used as accents; they should help tell the story and/or guide the user’s eye through the diagram’s flow.
 - Line breaks give the feel of openness throughout the diagram. Lines should break before touching an icon, unless the icon is contained within a circle.
 - Dashed lines can be used to connect type and visual elements.

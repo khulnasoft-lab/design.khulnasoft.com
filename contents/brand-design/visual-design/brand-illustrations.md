@@ -4,7 +4,7 @@ name: Illustrations
 
 <figure-img alt="GitLab illustration banner" label="Illustration sample" src="/img/brand/brand-illustration-hero.svg"></figure-img>
 
-Illustrations are a form of brand storytelling, adding clarity and context to complex ideas. Illustrations elevate the messaging, so they are typically accompanied by copy; the two together are necessary and should balance and complement one another. 
+Illustrations are a form of brand storytelling, adding clarity and context to complex ideas. Illustrations elevate the messaging, so they are typically accompanied by copy; the two together are necessary and should balance and complement one another.
 
 Our marketing illustrations are an extension of our custom iconography system, and they reinforce our brand personality, company values, and product in the following ways:
 
@@ -20,7 +20,7 @@ Our marketing illustrations are an extension of our custom iconography system, a
 When building illustrations, adhere to the following guidelines to maintain visual consistency:
 
 1. **Linework** creates the overall foundation of an illustration.
-   1. A single stroke weight should be used consistently throughout any asset. 
+   1. A single stroke weight should be used consistently throughout any asset.
    1. Discretion should be used to ensure that lines appear thin; in general, lines can be set to 2px for digital assets and 15px for large print assets (such as event booths).
 1. **Solid shapes** add weight to the illustration and fill out the form laid out from the linework of the piece.
    1. A single shape can also be used as a background element to ground the visual. In this case, the illustration should break out of the container shape.

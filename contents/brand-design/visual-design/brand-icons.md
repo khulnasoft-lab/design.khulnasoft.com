@@ -8,10 +8,10 @@ Icons are quickly identifiable graphics that represent common items in a redacte
 
 The marketing icons are created using the 8px grid system found within this [template](https://drive.google.com/file/d/1V-FdsDeYcx_yPBMI9cjWclWAz_TPYqFU/view?usp=sharing). The icon set exists in two scales: 24px for smaller assets and 96px for larger assets. They are stylized in the following ways:
 
-- Our icon set consists entirely of linework, using a stroke weight of 1px or 2px, respectively. 
-- In general, default to either white or charcoal linework for contrast purposes. 
-- The icons should contain one rounded corner, if possible within the shape, with a radius of 3px or 12px, respectively. 
-- Our icons aren’t fully enclosed; we create an open feeling by incorporating line breaks throughout, which also speaks to our iterative processes. 
+- Our icon set consists entirely of linework, using a stroke weight of 1px or 2px, respectively.
+- In general, default to either white or charcoal linework for contrast purposes.
+- The icons should contain one rounded corner, if possible within the shape, with a radius of 3px or 12px, respectively.
+- Our icons aren’t fully enclosed; we create an open feeling by incorporating line breaks throughout, which also speaks to our iterative processes.
 
 <figure-img alt="Construction of small (24px) and large (94px) brand icons" label="Construction of small and large brand icons" src="/img/brand/brand-icon-construction.svg"></figure-img>
 
