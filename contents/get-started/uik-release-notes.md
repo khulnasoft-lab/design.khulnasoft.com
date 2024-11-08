@@ -2,9 +2,152 @@
 name: Release notes
 ---
 
+## 17.7
+
+<todo>Add link to draft release notes</todo>
+
 ## 17.6
 
-[_Draft: 17.6 release notes_](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/4106)
+<small>Published 2024-11-08</small>
+
+### Additions
+
+**Component library**
+- Adds new ❖ Button group / options component.
+- Adds dropdown list examples that use latest components and design tokens: users, pipeline, create label, and create tag.
+- Adds shadow to ❖ Toast.
+    - Cleans up toast page.
+- Adds shadow to ❖ Tooltip.
+- Adds ❖ Button group / actions using the latest button components.
+- Adds new ❖ Button group / options component.
+- Adds new ❖ Modal.
+    - Removes ❖ Modal header prop as it's not optional in GitLab UI or design docs.
+    - Removes unnecessary ❖ Modal footer grouping and adjusted auto layout settings.
+    - Overrides default ❖ Modal settings in mobile instance to reflect dynamic header size and button wrapping.
+    - Uses design tokens for all ❖ Modal colors.
+- Adds new ❖ Drawer component that makes use of a slot and design tokens.
+
+**Patterns & page templates**
+- Adds navigation components.
+- Adds merge requests reports content (using "reports" instead of "widgets" to align with Pajamas docs).
+    - Only use a component for status options.
+    - Use design tokens for all colors except severity icon and text colors (tokens will be added in forthcoming MR) and purple component border.
+    - Provide a baseline of assets and examples while linking to Pajamas docs for more details.
+
+**Product icons (Figma)**
+- Adds hash icon.
+    - Adds multiple-choice icon.
+
+**Product illustrations (Figma)**
+- Adds avatar-bot-duo-code-review avatar.
+
+### Changes
+
+**Component library**
+- <p>Design assets for the <a rel="noreferrer noopener nofollow ugc" href="https://design.gitlab.com/" target="_blank">Pajamas Design System</a>. <a rel="noreferrer noopener nofollow ugc" href="https://design.gitlab.com/get-started/uik-release-notes#1611" target="_blank">Release notes→</a></p>.
+- <p>Design assets for the <a rel="noreferrer noopener nofollow ugc" href="https://design.gitlab.com/" target="_blank">Pajamas Design System</a>. <a rel="noreferrer noopener nofollow ugc" href="https://design.gitlab.com/get-started/uik-release-notes#1611" target="_blank">Release notes→</a></p>.
+- 17.6 Release Component Library: https://design.gitlab.com/get-started/uik-release-notes/.
+- Updates design tokens in component library.
+- Updates dropdown page layout and instances.
+- Applies design tokens to ❖ Dropdown.
+- Applies design tokens to dropdown list examples.
+- Applies design tokens to dropdown elements.
+- Breaking (high): Updates ❖ Banner to use latest design tokens and components.
+- Updates to use latest design tokens release.
+- Applies design tokens to dropdown base.
+    - Deprecates some dropdown list examples.
+- Updates table instances to remove overrides.
+- Applies design tokens to tree connector.
+    - Fixes tree instance.
+- Applies design tokens to ❖ Table.
+    - Replaces deprecated components in table base with the latest versions.
+- Applies design tokens to typography documentation.
+- Resizes form element components to reduce chance of unexpected display.
+- Refactor ❖ Avatar border radius.
+- Updates to latest version of the design token library.
+- Updates ❖ Mention link component frame to use default Figma styles.
+    - Updates popover in link examples based on current component and product example.
+- Updates meta link component frame styles.
+- Validated use of design tokens. Removed component frame background and reset to Figma's dashed purple component frame.
+- Applies design tokens to ❖ Inline link.
+- Applies design tokens to ❖ Form group, ❖ Checkbox, and ❖ Radio button.
+- Applies design tokens to form elements.
+    - Refactors form suffix and prefix default button to use tertiary variant.
+    - Refactors form element construction to use modern auto layout features.
+    - Refactors checkbox indicators to use components from icon library.
+- Applies design tokens to form base.
+- Applies color design tokens to all ❖ Broadcast message elements (including the x in the deprecated button for visual accuracy until it can be replaced).
+    - Breaking (medium): Use border instead of shadow for bottom border for ❖ Broadcast message.
+- Uses --gl-button-link-text-color-default for ❖ Accordion "link" text.
+    - Uses text default for ❖ Accordion body content.
+- Applies design tokens to ❖ Toggle.
+- Applies design tokens to ❖ Date picker.
+- Applies design tokens to ❖ Pagination.
+- Applies overlap design token to ❖ Popover background and tip.
+    - Applies text heading design token to ❖ Popover headings.
+    - Applies text default design token to ❖ Popover body text.
+- Applies design tokens to ❖ Skeleton loader shapes.
+    - Removes old skeleton loader example from instances.
+    - Removes sticky note about adding animated skeleton loader example.
+- Updates all ❖ Toast colors that relate to feedback-strong.
+    - Resets some text color overrides in toast instances.
+- Updates ❖ Toggle to use new dimensions.
+- Breaking (high): Updates ❖ Alert to use latest styles and design tokens.
+
+**Data visualization**
+- 17.6 Release Data Visualization: https://design.gitlab.com/get-started/uik-release-notes/.
+- Update Data Visualization library with the 17.6 changes from the Component Library.
+
+**Patterns & page templates**
+- Changes after migrating Mr widgets and navigation to this file from the component library.
+- 17.6 Release Patterns and Page templates: https://design.gitlab.com/get-started/uik-release-notes/.
+- Consumed changes from the Component library into Patterns and Page templates file.
+- Update to latest design tokens in Patterns & Page templates.
+
+**Product icons (Figma)**
+- <p>Product icons in 16px (default) and 12px grids.</p><p><br></p><p>All third-party trademarks and symbols are property of their respective owners.</p>.
+- Hyphenate icon name.
+- 17.6 Release Product Icons: https://design.gitlab.com/get-started/uik-release-notes/.
+
+**Product illustrations (Figma)**
+- 17.6 Release Product Illustrations: https://design.gitlab.com/get-started/uik-release-notes/.
+- Updates $neutral color value from the component library.
+
+### Fixes
+
+**Component library**
+- Fixes order of color chips in several color ramps.
+- Fixes new merge request button instance icon.
+- Fixes ❖ Alert background color.
+- Fixes form instances to remove overrides.
+    - Fixes form elements in nested components to remove.
+    - Refactors forms page to better expose what is and isn't a component.
+
+### Deprecations
+
+**Component library**
+- Deprecates ❖ Token.
+    - Adds new ❖ Token that uses design tokens.
+- Deprecates navigation components that are migrating to the patterns and page templates file.
+- Deprecates ❖ File uploader components.
+- Deprecates table styles in favor of using design tokens.
+- Deprecates ❖ Button group components to prepare for new versions.
+- Deprecates merge request reports because a simplified non-component version has been added to the patterns and page templates file.
+- Deprecates status (severity) component because it's not part of the design system.
+- Deprecates ❖ Progress bar to prepare for new version.
+    - Adds new ❖ Progress bar that uses design tokens and supports variants.
+- Deprecates current empty state so that it can be recreated purely as a pattern in the patterns and page templates file.
+- Deprecates ❖ Modal to prepare for new one.
+- Deprecates ❖ Drawer to prepare for new version.
+- Deprecates ❖ Alert in preparation for the new version.
+
+### Removals
+
+**Component library**
+- Removes unused Emoji property on ❖ Token.
+- Removes 'multiply' blend mode from UI link and Meta link components.
+- Removes empty "coming soon" pages.
+
 
 ## 17.5
 
