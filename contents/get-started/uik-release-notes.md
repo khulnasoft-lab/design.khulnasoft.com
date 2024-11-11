@@ -27,17 +27,17 @@ name: Release notes
   - [**❖&nbsp;Token**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=126843-5902&t=TBq7yrU2nclAcYSv-1)
   - [**❖&nbsp;Filtered&nbsp;search&nbsp;token**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=126861-728&t=TBq7yrU2nclAcYSv-1)
 - Adds **❖&nbsp;Dropdown** [list examples](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=126831-104323&t=TBq7yrU2nclAcYSv-1) that use latest components and design tokens.
+  - **❖&nbsp;Create&nbsp;label**
+  - **❖&nbsp;Create&nbsp;tag**
+  - **❖&nbsp;Pipeline**
+  - **❖&nbsp;Users**
 - Adds shadow to [**❖&nbsp;Toast**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=20171-225&t=TBq7yrU2nclAcYSv-1) and [**❖&nbsp;Tooltip**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=121178-28119&t=TBq7yrU2nclAcYSv-1).
 - Adds [**❖&nbsp;Table**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=425-11&t=TBq7yrU2nclAcYSv-1) base components to replace deprecated versions.
 
 [**🚧 DRAFT: Patterns and page templates**](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto):
 
 - Adds [**❖&nbsp;Navigation**](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto&node-id=1-107&t=ho82mWdWFThf3DbU-1) components, which were formerly in the component library.
-- Adds [**merge requests reports**](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto&node-id=1-106&t=ho82mWdWFThf3DbU-1), which was formerly in the component library:
-  - Uses "reports" page name instead of "widgets" to align with [Pajamas documentation](https://design.gitlab.com/patterns/merge-request-reports).
-  - A component is only used for status options instead of everything being a component.
-  - Applies design tokens where possible.
-  - Simplified assets and examples while linking to Pajamas docs for more details.
+- Adds [**merge requests reports**](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto&node-id=1-106&t=ho82mWdWFThf3DbU-1), which was formerly in the component library. Now a template that uses design tokens rather than a component for more flexible composition.
 - Adds [**empty state**](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto&node-id=1-105&t=ho82mWdWFThf3DbU-1) as a pattern, which was formerly in the component library.
 
 [**Product icons**](https://www.figma.com/design/h4YjjttHL5YI0mXZfQ4uuU/GitLab-Product-Icons?m=auto):
@@ -60,8 +60,8 @@ name: Release notes
 
 - Breaking (medium): [**❖&nbsp;Toggle**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=425-140&t=TBq7yrU2nclAcYSv-1) uses new dimensions.
 - Breaking (medium): Changes [**❖&nbsp;Pagination**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=48275-166113&t=TBq7yrU2nclAcYSv-1) width, but overrides are maintained.
-- Breaking (medium): Uses bottom border instead of shadow for [**❖&nbsp;Broadcast&nbsp;message**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=19944-369&t=TBq7yrU2nclAcYSv-1).
-- Breaking (medium): Style overrides of [**❖&nbsp;Popover**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=57879-91946&t=TBq7yrU2nclAcYSv-1) content will likely be lost.
+- Breaking (medium): Change [**❖&nbsp;Broadcast&nbsp;message**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=19944-369&t=TBq7yrU2nclAcYSv-1) component structure to use a border rather than inner shadow to create bottom edge highlight.
+- Breaking (medium): Change [**❖&nbsp;Popover**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=57879-91946&t=TBq7yrU2nclAcYSv-1) to use design tokens. This update is likely to cause style overrides for content to be lost, for example setting blue for a link color.
 - Updates [**❖&nbsp;Token**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=425-141&t=TBq7yrU2nclAcYSv-1) to be split into two components: [**❖&nbsp;Token**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=126843-5902&t=TBq7yrU2nclAcYSv-1) and [**❖&nbsp;Filtered&nbsp;search&nbsp;token**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=126861-728&t=TBq7yrU2nclAcYSv-1).
 - Uses latest design tokens from the [design tokens library](https://www.figma.com/design/tiAetVi1j5MGP8WA5FswcD/Beta%3A-Design-tokens?m=auto&node-id=2194-34&t=WTUFlP9aYLEzlCJA-1).
 - Applies design tokens to components, elements, and instances:
@@ -97,13 +97,10 @@ name: Release notes
 - Changes [**❖&nbsp;UI&nbsp;link**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=84019-117532&t=TBq7yrU2nclAcYSv-1) and [❖&nbsp;Meta link](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=81916-116888&t=TBq7yrU2nclAcYSv-1) blend mode to support dark mode.
 - Changes [**❖&nbsp;Meta&nbsp;link**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=81916-116888&t=TBq7yrU2nclAcYSv-1) frame styles.
 - Changes [**❖&nbsp;Mention&nbsp;link**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=29627-56&t=TBq7yrU2nclAcYSv-1) frame to use default Figma styles.
-- Changes in [forms](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=49840-75722&t=TBq7yrU2nclAcYSv-1):
-  - Refactors suffix and prefix default button to use tertiary variant.
-  - Refactors form element construction to use latest auto layout features.
-  - Refactors checkbox indicators to use components from icon library.
-  - Resizes form element components to reduce chance of unexpected display.
-  - Removes overrides from instances.
-  - Visually refactors page to better expose what is and isn't a component
+- Update [forms](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=49840-75722&t=TBq7yrU2nclAcYSv-1) components to use design tokens:
+  - Breaking (high): Refactor **❖&nbsp;_Base&nbsp;Prefix** and **❖&nbsp;_Base&nbsp;Suffix** to use latest button component.
+  - Refactor form element construction to use latest auto layout features.
+  - Refactor documentation and instances.
 
 [**🚧 DRAFT: Patterns and page templates**](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto):
 
@@ -163,7 +160,6 @@ name: Release notes
 
 [**📙 Component library**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto):
 
-- Removes unused 'Emoji' property on [**❖&nbsp;Token**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=126843-5902&t=TBq7yrU2nclAcYSv-1).
 - Removes empty "coming soon" pages.
 
 [**Product illustrations**](https://www.figma.com/design/1ui9w228X0S5WxaD0SRdIA/GitLab-Product-Illustrations?m=auto&t=S7juWznExTHOShY2-7):
