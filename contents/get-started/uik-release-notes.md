@@ -2,9 +2,7 @@
 name: Release notes
 ---
 
-## 17.6
-
-<small>Published 2024-11-11</small>
+<small>Published 2024-11-12</small>
 
 ### Additions
 
@@ -27,7 +25,6 @@ name: Release notes
   - **❖&nbsp;Create&nbsp;tag**
   - **❖&nbsp;Pipeline**
   - **❖&nbsp;Users**
-- Adds [**❖&nbsp;Table**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=425-11&t=TBq7yrU2nclAcYSv-1) base components to replace deprecated versions.
 
 [**🚧 DRAFT: Patterns and page templates**](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto):
 
@@ -65,7 +62,9 @@ name: Release notes
   - [**❖&nbsp;Modal**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125537-3862&t=TBq7yrU2nclAcYSv-1)
   - [**❖&nbsp;Pagination**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=48275-166113&t=TBq7yrU2nclAcYSv-1)
   - [**❖&nbsp;Progress&nbsp;bar**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125508-99&t=TBq7yrU2nclAcYSv-1)
-  - [**❖&nbsp;Table**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=51766-80830&t=TBq7yrU2nclAcYSv-1)
+  - [**❖&nbsp;Table**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=51766-80830&t=TBq7yrU2nclAcYSv-1):
+    - Update **❖&nbsp;Checkbox** used in **❖&nbsp;Header** row and **❖&nbsp;Body row**.
+    - Update **❖&nbsp;Button** and **❖&nbsp;Avatar** used in **❖&nbsp;_Base body cell**.
   - [**❖&nbsp;Toast**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=20171-225&t=TBq7yrU2nclAcYSv-1)
     - Resets instance overrides.
     - Adds shadow.
