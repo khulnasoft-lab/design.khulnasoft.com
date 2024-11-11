@@ -4,7 +4,7 @@ name: Release notes
 
 ## 17.6
 
-<small>Published 2024-11-08</small>
+<small>Published 2024-11-11</small>
 
 <details>
   <summary>Additions</summary>
