@@ -8,23 +8,28 @@ name: Release notes
 
 [**📙 Component library**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto):
 
-- Adds the following components to replace deprecated versions:
-  - [**❖&nbsp;Alert**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=124931-1309&t=TBq7yrU2nclAcYSv-1) with latest buttons.
-  - [**❖&nbsp;Button group&nbsp;/&nbsp;actions**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125951-4496&t=TBq7yrU2nclAcYSv-1) with latest buttons.
-  - [**❖&nbsp;Button group&nbsp;/&nbsp;options**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125969-4528&t=TBq7yrU2nclAcYSv-1) with latest buttons.
-  - [**❖&nbsp;Drawer**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125418-1519&t=TBq7yrU2nclAcYSv-1) and lays the groundwork for slots.
-  - [**❖&nbsp;Progress&nbsp;bar**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125508-99&t=TBq7yrU2nclAcYSv-1) with support for variants.
+- Adds the following to replace deprecated versions:
+  - [**❖&nbsp;Alert**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=124931-1309&t=TBq7yrU2nclAcYSv-1):
+    - Uses latest buttons.
+  - [**❖&nbsp;Button group&nbsp;/&nbsp;actions**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125951-4496&t=TBq7yrU2nclAcYSv-1):
+    - Uses latest buttons.
+  - [**❖&nbsp;Button group&nbsp;/&nbsp;options**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125969-4528&t=TBq7yrU2nclAcYSv-1):
+    - Uses latest buttons.
+  - [**❖&nbsp;Drawer**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125418-1519&t=TBq7yrU2nclAcYSv-1):
+    - Lays the groundwork for slots.
+  - [**❖&nbsp;Progress&nbsp;bar**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125508-99&t=TBq7yrU2nclAcYSv-1):
+    - Adds support for variants.
   - [**❖&nbsp;Modal**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125537-3862&t=TBq7yrU2nclAcYSv-1):
     - Header property no longer optional.
     - Footer cleanup.
     - Mobile instance reflects dynamic header size and button wrapping.
   - Adds [**❖&nbsp;Token**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=425-141&t=TBq7yrU2nclAcYSv-1) and [**❖&nbsp;Filtered&nbsp;search&nbsp;token**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=126861-728&t=TBq7yrU2nclAcYSv-1).
     - Replaces deprecated **❖&nbsp;Token** with two components.
-- Adds **❖&nbsp;Dropdown** [list examples](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=126831-104323&t=TBq7yrU2nclAcYSv-1) that use latest components and design tokens.
-  - **❖&nbsp;Create&nbsp;label**
-  - **❖&nbsp;Create&nbsp;tag**
-  - **❖&nbsp;Pipeline**
-  - **❖&nbsp;Users**
+  - Adds **❖&nbsp;Dropdown** [list examples](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=126831-104323&t=TBq7yrU2nclAcYSv-1) that use latest components and design tokens.
+    - **❖&nbsp;Create&nbsp;label**
+    - **❖&nbsp;Create&nbsp;tag**
+    - **❖&nbsp;Pipeline**
+    - **❖&nbsp;Users**
 
 [**🚧 DRAFT: Patterns and page templates**](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto):
 
@@ -48,6 +53,10 @@ name: Release notes
 - Breaking (medium): Changes [**❖&nbsp;Pagination**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=48275-166113&t=TBq7yrU2nclAcYSv-1) width, but overrides are maintained.
 - Breaking (medium): Change [**❖&nbsp;Broadcast&nbsp;message**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=19944-369&t=TBq7yrU2nclAcYSv-1) component structure to use a border rather than inner shadow to create bottom edge highlight.
 - Breaking (medium): Change [**❖&nbsp;Popover**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=57879-91946&t=TBq7yrU2nclAcYSv-1) and instances to use design tokens. This update is likely to cause style overrides for content to be lost, for example setting blue for a link color.
+- Update [forms](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=49840-75722&t=TBq7yrU2nclAcYSv-1) components to use design tokens:
+  - Breaking (high): Refactor **❖&nbsp;\_Base&nbsp;Prefix** and **❖&nbsp;\_Base&nbsp;Suffix** to use latest button component.
+  - Refactor form element construction to use latest auto layout features.
+  - Refactor documentation and instances.
 - Applies design tokens to components, elements, and instances:
 
   - [**❖&nbsp;Alert**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=124931-1309&t=TBq7yrU2nclAcYSv-1)
@@ -64,7 +73,7 @@ name: Release notes
   - [**❖&nbsp;Progress&nbsp;bar**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125508-99&t=TBq7yrU2nclAcYSv-1)
   - [**❖&nbsp;Table**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=51766-80830&t=TBq7yrU2nclAcYSv-1):
     - Update **❖&nbsp;Checkbox** used in **❖&nbsp;Header** row and **❖&nbsp;Body row**.
-    - Update **❖&nbsp;Button** and **❖&nbsp;Avatar** used in **❖&nbsp;_Base body cell**.
+    - Update **❖&nbsp;Button** and **❖&nbsp;Avatar** used in **❖&nbsp;\_Base body cell**.
   - [**❖&nbsp;Toast**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=20171-225&t=TBq7yrU2nclAcYSv-1)
     - Resets instance overrides.
     - Adds shadow.
@@ -79,14 +88,8 @@ name: Release notes
   - [Typography documentation](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=440-0&t=TBq7yrU2nclAcYSv-1)
 
 - Changes [**❖&nbsp;Dropdown**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=425-14&t=TBq7yrU2nclAcYSv-1) page layout and instances.
-- Updates [**❖&nbsp;Table** instances](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=49122-76749&t=TBq7yrU2nclAcYSv-1) to remove overrides.
-- Fixes [**❖&nbsp;Tree** instance](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=123677-3212&t=TBq7yrU2nclAcYSv-1).
-- Changes [**❖&nbsp;UI&nbsp;link**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=84019-117532&t=TBq7yrU2nclAcYSv-1) and [❖&nbsp;Meta link](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=81916-116888&t=TBq7yrU2nclAcYSv-1) blend mode to support dark mode.
+- Changes [**❖&nbsp;UI&nbsp;link**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=84019-117532&t=TBq7yrU2nclAcYSv-1) and [**❖&nbsp;Meta link**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=81916-116888&t=TBq7yrU2nclAcYSv-1) blend mode to support dark mode.
 - Changes [**❖&nbsp;Mention&nbsp;link**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=29627-56&t=TBq7yrU2nclAcYSv-1) frame to use default Figma styles.
-- Update [forms](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=49840-75722&t=TBq7yrU2nclAcYSv-1) components to use design tokens:
-  - Breaking (high): Refactor **❖&nbsp;\_Base&nbsp;Prefix** and **❖&nbsp;\_Base&nbsp;Suffix** to use latest button component.
-  - Refactor form element construction to use latest auto layout features.
-  - Refactor documentation and instances.
 - Adds shadow to [**❖&nbsp;Tooltip**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=121178-28119&t=TBq7yrU2nclAcYSv-1).
 
 [**Product illustrations**](https://www.figma.com/design/1ui9w228X0S5WxaD0SRdIA/GitLab-Product-Illustrations?m=auto&t=S7juWznExTHOShY2-7):
@@ -100,6 +103,8 @@ name: Release notes
 - Fixes order of color chips in several [color ramps](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=581-1&t=TBq7yrU2nclAcYSv-1).
 - Fixes icon in [**❖&nbsp;Button** instances](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=123887-8348&t=TBq7yrU2nclAcYSv-1).
 - Fixes [**❖&nbsp;Alert**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=124931-1309&t=TBq7yrU2nclAcYSv-1) background color.
+- Fixes [**❖&nbsp;Tree** instance](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=123677-3212&t=TBq7yrU2nclAcYSv-1).
+- Updates [**❖&nbsp;Table** instances](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=49122-76749&t=TBq7yrU2nclAcYSv-1) to remove overrides.
 
 ### Deprecations
 
@@ -112,7 +117,7 @@ name: Release notes
   - **❖&nbsp;Drawer**. Use [**❖&nbsp;Drawer**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125418-1519&t=TBq7yrU2nclAcYSv-1) instead.
   - **❖&nbsp;Progress&nbsp;bar**. Use [**❖&nbsp;Progress&nbsp;bar**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125508-99&t=TBq7yrU2nclAcYSv-1) instead.
   - **❖&nbsp;Modal**. Use [**❖&nbsp;Modal**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125537-3862&t=TBq7yrU2nclAcYSv-1) instead.
-  - **❖&nbsp;Token**. Use [**❖&nbsp;Token**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=126843-5902&t=TBq7yrU2nclAcYSv-1) and [❖&nbsp;Filtered search token](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=126861-728&t=TBq7yrU2nclAcYSv-1) instead.
+  - **❖&nbsp;Token**. Use [**❖&nbsp;Token**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=126843-5902&t=TBq7yrU2nclAcYSv-1) and [**❖&nbsp;Filtered search token**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=126861-728&t=TBq7yrU2nclAcYSv-1) instead.
 - Deprecates **❖&nbsp;Navigation** components, use [**❖&nbsp;Navigation** components](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto&node-id=1-107&t=ho82mWdWFThf3DbU-1) in the patterns and page templates library instead.
 - Deprecates **❖&nbsp;File&nbsp;uploader** as there as no plans to include this in the design system.
 - Deprecates merge request reports, use [**merge request reports**](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto&node-id=1-106&t=ho82mWdWFThf3DbU-1) in the patterns and page templates library instead.
@@ -127,7 +132,7 @@ name: Release notes
 
 - Removes empty "coming soon" pages.
 
-[**Product illustrations**](https://www.figma.com/design/1ui9w228X0S5WxaD0SRdIA/GitLab-Product-Illustrations?m=auto&t=S7juWznExTHOShY2-7):
+[**Product illustrations (GitLab SVGs)**](https://gitlab-org.gitlab.io/gitlab-svgs/):
 
 - Removes: chart-empty-state, empty-dag-md, export-import, lock_promotion, manual_action, multi-editor_no_changes_empty, multi_file_editor_empty and web-ide_promotion.
 
