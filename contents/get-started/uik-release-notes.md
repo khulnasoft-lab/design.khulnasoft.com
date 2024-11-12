@@ -28,7 +28,7 @@ name: Release notes
 
 [**🚧 DRAFT: Patterns and page templates**](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto):
 
-- Adds [**❖&nbsp;Navigation**](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto&node-id=1-107&t=ho82mWdWFThf3DbU-1) components, which were formerly in the component library.
+- Adds [**navigation**](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto&node-id=1-107&t=ho82mWdWFThf3DbU-1) components, which were formerly in the component library.
 - Adds [**merge requests reports**](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto&node-id=1-106&t=ho82mWdWFThf3DbU-1), which was formerly in the component library. Now a template that uses design tokens rather than a component for more flexible composition.
 - Adds [**empty state**](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto&node-id=1-105&t=ho82mWdWFThf3DbU-1) as a pattern, which was formerly in the component library.
 
