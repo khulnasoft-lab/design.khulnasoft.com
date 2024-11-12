@@ -16,10 +16,12 @@ name: Release notes
   - [**❖&nbsp;Button group&nbsp;/&nbsp;options**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125969-4528&t=TBq7yrU2nclAcYSv-1):
     - Uses latest buttons.
   - [**❖&nbsp;Drawer**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125418-1519&t=TBq7yrU2nclAcYSv-1):
+    - Uses latest buttons.
     - Lays the groundwork for slots.
   - [**❖&nbsp;Progress&nbsp;bar**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125508-99&t=TBq7yrU2nclAcYSv-1):
     - Adds support for variants.
   - [**❖&nbsp;Modal**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125537-3862&t=TBq7yrU2nclAcYSv-1):
+    - Uses latest buttons.
     - Header property no longer optional.
     - Footer cleanup.
     - Mobile instance reflects dynamic header size and button wrapping.
@@ -117,14 +119,13 @@ name: Release notes
   - **❖&nbsp;Drawer**. Use [**❖&nbsp;Drawer**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125418-1519&t=TBq7yrU2nclAcYSv-1) instead.
   - **❖&nbsp;Progress&nbsp;bar**. Use [**❖&nbsp;Progress&nbsp;bar**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125508-99&t=TBq7yrU2nclAcYSv-1) instead.
   - **❖&nbsp;Modal**. Use [**❖&nbsp;Modal**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=125537-3862&t=TBq7yrU2nclAcYSv-1) instead.
-  - **❖&nbsp;Token**. Use [**❖&nbsp;Token**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=126843-5902&t=TBq7yrU2nclAcYSv-1) and [**❖&nbsp;Filtered search token**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=126861-728&t=TBq7yrU2nclAcYSv-1) instead.
-- Deprecates **❖&nbsp;Navigation** components, use [**❖&nbsp;Navigation** components](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto&node-id=1-107&t=ho82mWdWFThf3DbU-1) in the patterns and page templates library instead.
-- Deprecates **❖&nbsp;File&nbsp;uploader** as there as no plans to include this in the design system.
-- Deprecates merge request reports, use [**merge request reports**](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto&node-id=1-106&t=ho82mWdWFThf3DbU-1) in the patterns and page templates library instead.
-- Deprecates some **❖&nbsp;Dropdown** list examples.
+  - **❖&nbsp;Token**. Use [**❖&nbsp;Token**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=126843-5902&t=TBq7yrU2nclAcYSv-1) and [**❖&nbsp;Filtered&nbsp;search&nbsp;token**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?m=auto&node-id=126861-728&t=TBq7yrU2nclAcYSv-1) instead.
+  - Deprecates some **❖&nbsp;Dropdown** list examples. Use [**❖&nbsp;Create&nbsp;label**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=126751-11319&t=pFvCnnwkpBxXdpTL-4), [**❖&nbsp;Create&nbsp;tag**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=126751-11668&t=pFvCnnwkpBxXdpTL-4), [**❖&nbsp;Pipeline**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=126751-10051&t=pFvCnnwkpBxXdpTL-4), and [**❖&nbsp;Users**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=126751-8655&t=pFvCnnwkpBxXdpTL-4) instead.
+- Deprecates **navigation** components, use [**navigation** components](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto&node-id=1-107&t=ho82mWdWFThf3DbU-1) in the patterns and page templates library instead.
+- Deprecates merge request reports, use [**merge&nbsp;request&nbsp;reports**](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto&node-id=1-106&t=ho82mWdWFThf3DbU-1) in the patterns and page templates library instead.
+- Deprecates **❖&nbsp;Empty&nbsp;state**. [**Empty&nbsp;state**](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto&node-id=1-105&t=ho82mWdWFThf3DbU-1) is now a pattern in the patterns and page templates file.
 - Deprecates status (severity) because it's not part of the design system.
-- Deprecates empty state. [**Empty state**](https://www.figma.com/design/Amn6vBN9edRtuaTgy6ygkl/%F0%9F%9A%A7-DRAFT%3A-Patterns-and-Page-Templates?m=auto&node-id=1-105&t=ho82mWdWFThf3DbU-1) is now a pattern in the patterns and page templates file.
-  - Breaking (medium): Text style overrides will likely be lost.
+- Deprecates **❖&nbsp;File&nbsp;uploader** as there as no plans to include this in the design system.
 
 ### Removals
 
