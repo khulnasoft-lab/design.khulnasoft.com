@@ -28,4 +28,45 @@ componentLabel: form-text-input
 
 ### Accessibility
 
-<todo>Add accessibility.</todo>
+When using `GlFormGroup`, the `label` prop alone does not give the input an accessible name.
+The `label-for` prop must also be provided to give the input an accessible name.
+
+Text input examples:
+
+```html
+<!-- Input with label -->
+<gl-form-group :label="__('Issue title')" label-for="issue-title">
+  <gl-form-input id="issue-title" v-model="title" />
+</gl-form-group>
+
+<!-- Input with hidden label -->
+<gl-form-group :label="__('Issue title')" label-for="issue-title" label-sr-only>
+  <gl-form-input id="issue-title" v-model="title" />
+</gl-form-group>
+```
+
+`textarea` examples:
+
+```html
+<!-- textarea with label -->
+<gl-form-group :label="__('Issue description')" label-for="issue-description">
+  <gl-form-textarea id="issue-description" v-model="description" />
+</gl-form-group>
+
+<!-- textarea with hidden label -->
+<gl-form-group :label="__('Issue description')" label-for="issue-description" label-sr-only>
+  <gl-form-textarea id="issue-description" v-model="description" />
+</gl-form-group>
+```
+
+Alternatively, you can use a plain `label` element:
+
+```html
+<!-- Input with label using `label` -->
+<label for="issue-title">{{ __('Issue title') }}</label>
+<gl-form-input id="issue-title" v-model="title" />
+
+<!-- Input with hidden label using `label` -->
+<label for="issue-title" class="gl-sr-only">{{ __('Issue title') }}</label>
+<gl-form-input id="issue-title" v-model="title" />
+```
