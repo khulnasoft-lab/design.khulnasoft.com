@@ -18,7 +18,7 @@ GitLab Duo is the suite of AI capabilities powering GitLab’s DevSecOps workflo
 
 ### Culture & Community
 
-The Culture & Community design system provides creative structure for internal GitLab teams, communities, departments, global locations, and team member resource groups (TMRGs). 
+The Culture & Community style guide details the creative styling for internal GitLab teams, communities, departments, global locations, and team member resource groups (TMRGs). 
 
 **[Culture & Community style guide](https://www.figma.com/design/yrIimnhvjBvspfSPawHovn/Culture-%26-Community-style-guide?node-id=0-1&t=YPAq5yJCm8nDbp8I-1)** | Password: random-expert-garnet-kinder
 
