@@ -75,8 +75,11 @@ For Issue Analytics:
 > **Analyze issues in your project** (or **Get started with issue analytics**)
 >
 > Create issues for projects in your group to track and see metrics for them.
+>
+> \[Create issue\]
 
-For Code Coverage:
+In cases where data is not yet available due to processing or loading, and the user cannot take any action in the process, encourage the user to try again later.
+For example, for Code Coverage:
 
 > **No code coverage data**
 >
