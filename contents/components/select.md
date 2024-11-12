@@ -38,4 +38,19 @@ componentLabel: form-select
 
 ### Accessibility
 
-<todo>Add accessibility.</todo>
+When using `GlFormGroup`, the `label` prop alone does not give the input an accessible name.
+The `label-for` prop must also be provided to give the input an accessible name.
+
+Select input examples:
+
+```html
+<!-- Select input with label -->
+<gl-form-group :label="__('Issue status')" label-for="issue-status">
+  <gl-form-select id="issue-status" v-model="status" :options="options" />
+</gl-form-group>
+
+<!-- Select input with hidden label -->
+<gl-form-group :label="__('Issue status')" label-for="issue-status" label-sr-only>
+  <gl-form-select id="issue-status" v-model="status" :options="options" />
+</gl-form-group>
+```
