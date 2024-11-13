@@ -71,41 +71,55 @@ related:
 When using `GlFormGroup`, the `label` prop alone does not give the input an accessible name.
 The `label-for` prop must also be provided to give the input an accessible name.
 
-Single checkbox:
+#### Single checkbox
+
+##### Single checkbox with label
 
 ```html
-<!-- Single checkbox with label -->
 <gl-form-checkbox v-model="status" value="task-complete">
   {{ __('Task complete') }}
 </gl-form-checkbox>
+```
 
-<!-- Single checkbox with hidden label -->
+##### Single checkbox with hidden label
+
+```html
 <gl-form-checkbox v-model="status" value="task-complete">
   <span class="gl-sr-only">{{ __('Task complete') }}</span>
 </gl-form-checkbox>
 ```
 
-Multiple checkboxes:
+#### Multiple checkboxes
+
+##### Multiple labeled checkboxes grouped within a fieldset
 
 ```html
-<!-- Multiple labeled checkboxes grouped within a fieldset -->
 <gl-form-group :label="__('Task list')">
   <gl-form-checkbox value="task-1">{{ __('Task 1') }}</gl-form-checkbox>
   <gl-form-checkbox value="task-2">{{ __('Task 2') }}</gl-form-checkbox>
 </gl-form-group>
+```
 
-<!-- Or -->
+Using `GlFormCheckboxGroup`:
+
+```html
 <gl-form-group :label="__('Task list')">
   <gl-form-checkbox-group v-model="selected" :options="options" />
 </gl-form-group>
+```
 
-<!-- Multiple labeled checkboxes grouped within a fieldset with hidden legend -->
+##### Multiple labeled checkboxes grouped within a fieldset with hidden legend
+
+```html
 <gl-form-group :label="__('Task list')" label-sr-only>
   <gl-form-checkbox value="task-1">{{ __('Task 1') }}</gl-form-checkbox>
   <gl-form-checkbox value="task-2">{{ __('Task 2') }}</gl-form-checkbox>
 </gl-form-group>
+```
 
-<!-- Or -->
+Using `GlFormCheckboxGroup`:
+
+```html
 <gl-form-group :label="__('Task list')" label-sr-only>
   <gl-form-checkbox-group v-model="selected" :options="options" />
 </gl-form-group>

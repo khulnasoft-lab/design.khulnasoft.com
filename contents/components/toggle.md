@@ -81,12 +81,14 @@ related:
 - The `gl-toggle` component requires an `id`, which is used in the `aria-labeledby` attribute value.
 - Use `aria-describedby` to associate the description and help text with the toggle for a screen reader user.
 
-`GlToggle` examples:
+#### Toggle with label
 
 ```html
-<!-- GlToggle with label -->
 <gl-toggle v-model="notifications" :label="__('Notifications')" />
+```
 
-<!-- GlToggle with hidden label -->
+#### Toggle with hidden label
+
+```html
 <gl-toggle v-model="notifications" :label="__('Notifications')" label-position="hidden" />
 ```
