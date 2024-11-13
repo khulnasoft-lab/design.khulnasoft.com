@@ -69,41 +69,55 @@ related:
 When using `GlFormGroup`, the `label` prop alone does not give the input an accessible name.
 The `label-for` prop must also be provided to give the input an accessible name.
 
-Single radio input:
+#### Single radio button
+
+##### Single radio with a label
 
 ```html
-<!-- Single radio with a label -->
 <gl-form-radio v-model="status" value="opened">
   {{ __('Opened') }}
 </gl-form-radio>
+```
 
-<!-- Single radio with a hidden label -->
+##### Single radio with a hidden label
+
+```html
 <gl-form-radio v-model="status" value="opened">
   <span class="gl-sr-only">{{ __('Opened') }}</span>
 </gl-form-radio>
 ```
 
-Multiple radio inputs:
+#### Multiple radio buttons
+
+##### Multiple labeled radio buttons grouped within a fieldset
 
 ```html
-<!-- Multiple labeled radio inputs grouped within a fieldset -->
 <gl-form-group :label="__('Issue status')">
   <gl-form-radio value="opened">{{ __('Opened') }}</gl-form-radio>
   <gl-form-radio value="closed">{{ __('Closed') }}</gl-form-radio>
 </gl-form-group>
+```
 
-<!-- Or -->
+Using `GlFormRadioGroup`:
+
+```html
 <gl-form-group :label="__('Issue status')">
   <gl-form-radio-group v-model="selected" :options="options" />
 </gl-form-group>
+```
 
-<!-- Multiple labeled radio inputs grouped within a fieldset with hidden legend -->
+##### Multiple labeled radio buttons grouped within a fieldset with hidden legend
+
+```html
 <gl-form-group :label="__('Issue status')" label-sr-only>
   <gl-form-radio value="opened">{{ __('Opened') }}</gl-form-radio>
   <gl-form-radio value="closed">{{ __('Closed') }}</gl-form-radio>
 </gl-form-group>
+```
 
-<!-- Or -->
+Using `GlFormRadioGroup`:
+
+```html
 <gl-form-group :label="__('Issue status')" label-sr-only>
   <gl-form-radio-group v-model="selected" :options="options" />
 </gl-form-group>

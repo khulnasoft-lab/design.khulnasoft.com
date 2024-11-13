@@ -31,15 +31,17 @@ componentLabel: form-textarea
 When using `GlFormGroup`, the `label` prop alone does not give the input an accessible name.
 The `label-for` prop must also be provided to give the input an accessible name.
 
-`textarea` examples:
+#### Textarea with label
 
 ```html
-<!-- textarea with label -->
 <gl-form-group :label="__('Issue description')" label-for="issue-description">
   <gl-form-textarea id="issue-description" v-model="description" />
 </gl-form-group>
+```
 
-<!-- textarea with hidden label -->
+#### Textarea with hidden label
+
+```html
 <gl-form-group :label="__('Issue description')" label-for="issue-description" label-sr-only>
   <gl-form-textarea id="issue-description" v-model="description" />
 </gl-form-group>
