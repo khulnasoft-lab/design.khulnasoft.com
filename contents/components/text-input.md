@@ -31,15 +31,17 @@ componentLabel: form-text-input
 When using `GlFormGroup`, the `label` prop alone does not give the input an accessible name.
 The `label-for` prop must also be provided to give the input an accessible name.
 
-Text input examples:
+#### Text input with label
 
 ```html
-<!-- Input with label -->
 <gl-form-group :label="__('Issue title')" label-for="issue-title">
   <gl-form-input id="issue-title" v-model="title" />
 </gl-form-group>
+```
 
-<!-- Input with hidden label -->
+#### Text input with hidden label
+
+```html
 <gl-form-group :label="__('Issue title')" label-for="issue-title" label-sr-only>
   <gl-form-input id="issue-title" v-model="title" />
 </gl-form-group>
@@ -47,12 +49,16 @@ Text input examples:
 
 Alternatively, you can use a plain `label` element:
 
+#### Text input with label using `label`
+
 ```html
-<!-- Input with label using `label` -->
 <label for="issue-title">{{ __('Issue title') }}</label>
 <gl-form-input id="issue-title" v-model="title" />
+```
 
-<!-- Input with hidden label using `label` -->
+#### Text input with hidden label using `label`
+
+```html
 <label for="issue-title" class="gl-sr-only">{{ __('Issue title') }}</label>
 <gl-form-input id="issue-title" v-model="title" />
 ```
