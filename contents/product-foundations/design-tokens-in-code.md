@@ -6,22 +6,21 @@ name: Using design tokens in code
 
 When you use a Pajamas component, you're automatically using design tokens under the hood — this should be your first approach when implementing a UI.
 
-## CSS utils
+## CSS utilities
 
-If you need something more custom or you need to customize a Pajamas component, CSS utils should help you out. Since these are powered by Tailwind, your IDE should be able to autocomplete, see the [documentation](https://gitlab-org.gitlab.io/frontend/tailwind-documentation) for details.
+If you need something more custom or you need to customize a Pajamas component, CSS utilities should help you out. Since these are powered by Tailwind, your IDE should be able to autocomplete, see the [documentation](https://gitlab-org.gitlab.io/frontend/tailwind-documentation) for details.
 
 There are more utilities currently available, but we advise against using them as they have hard-coded color values that will not respond to different modes. Try to avoid color utilities that directly reference a color (for example, a [constant](/design-tokens#constant-design-tokens) like `gl-text-green-900` or `gl-bg-white`) and instead use a [semantic](/design-tokens#semantic-design-tokens) equivalent (for example, `gl-text-success` or `gl-bg-default`). This ensures the colors will update predictably when changing modes.
 
-### CSS Utility classes
+### CSS utility classes
 
-The simplest way to use these utilities is to add classes to the components themselves.
+The simplest way to use these utilities is to add classes to the desired element.
 
 ```html
 <span class="gl-text-subtle gl-truncate">This text will be a subtle gray color, truncated to fit its container.</span>
 ```
 
-This is reccomended for most cases but can clutter up the codebase if overused.
-If you find yourself adding too many of these classes and want a cleaner approach, you can use `@apply` instead.
+This is reccomended for most cases but can clutter up the codebase if overused. If you find yourself adding too many of these classes and want a cleaner approach, you can use `@apply` instead.
 
 ### CSS apply
 
@@ -53,7 +52,7 @@ Remember to use them [semantically](/design-tokens#semantic-design-tokens), don'
 
 ## Dark mode
 
-Because design tokens focus on semantics and not color, dark mode for your UI elements should work out of the box. However, there are times when we need to change the way something behaves in dark mode. As with all deviations from the design system, the first, second, and third thing you should ask yourself and the designer is, "do I really need to deviate from the standard pattern?" If it still makes sense to do so, CSS utils have methods to help.
+Because design tokens focus on semantics and not color, dark mode for your UI elements should work out of the box. However, there are times when we need to change the way something behaves in dark mode. As with all deviations from the design system, the first, second, and third thing you should ask yourself and the designer is, "do I really need to deviate from the standard pattern?" If it still makes sense to do so, CSS utilities have methods to help.
 
 ### Using @apply
 
