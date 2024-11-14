@@ -65,9 +65,8 @@ related:
 ### Accessibility
 
 - Do not nest or add other elements within a radio button group. Keep the radio button group as a single cohesive unit to ensure the user can properly traverse the controls.
-
-When using `GlFormGroup`, the `label` prop alone does not give the input an accessible name.
-The `label-for` prop must also be provided to give the input an accessible name.
+- When using `GlFormGroup`, the `label` prop alone does not give the input an accessible name.
+- The `label-for` prop must also be provided to give the input an accessible name.
 
 #### Single radio button
 
