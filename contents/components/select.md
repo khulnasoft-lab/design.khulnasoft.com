@@ -38,8 +38,8 @@ componentLabel: form-select
 
 ### Accessibility
 
-When using `GlFormGroup`, the `label` prop alone does not give the input an accessible name.
-The `label-for` prop must also be provided to give the input an accessible name.
+- When using `GlFormGroup`, the `label` prop alone does not give the input an accessible name.
+- The `label-for` prop must also be provided to give the input an accessible name.
 
 #### Select with label
 
