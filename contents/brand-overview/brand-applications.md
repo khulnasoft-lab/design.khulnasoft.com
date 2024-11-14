@@ -4,7 +4,7 @@ name: Brand applications
 
 Brand Applications are purpose-built style guides that govern specific expressions of our brand identity. While each application has its own distinct requirements and guidelines, they all align with and support our core brand standards.
 
-Each style guide provides targeted guidance to ensure our brand remains both consistent and contextually appropriate across environments and audiences. Whether you're creating internal touchpoints, developing co-branded partner materials, or developing materials for product or marketing intiatives, you'll find clear, actionable guidelines here.
+Each style guide provides targeted guidance to ensure our brand remains both consistent and contextually appropriate across environments and audiences. Whether you're creating internal touchpoints, developing co-branded partner materials, or developing materials for product or marketing initiatives, you'll find clear, actionable guidelines here.
 
 ## Style guides
 
