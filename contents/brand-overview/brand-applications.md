@@ -20,7 +20,7 @@ GitLab Duo is the suite of AI capabilities powering GitLab’s DevSecOps workflo
 
 ### Culture & Community
 
-The Culture & Community style guide details the creative styling for internal GitLab teams, communities, departments, global locations, and team member resource groups (TMRGs). 
+The Culture & Community style guide details the creative styling for internal GitLab teams, communities, departments, global locations, and team member resource groups (TMRGs).
 
 **[Culture & Community style guide](https://www.figma.com/proto/yrIimnhvjBvspfSPawHovn/Culture-%26-Community-style-guide?node-id=3990-915&node-type=canvas&t=EuQeSVFcCBhm2gfK-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3990%3A915&share=1)** | Password: random-expert-garnet-kinder
 
