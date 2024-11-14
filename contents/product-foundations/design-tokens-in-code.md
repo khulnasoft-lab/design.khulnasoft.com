@@ -2,19 +2,15 @@
 name: Using design tokens in code
 ---
 
-## Pajamas Components
+## Pajamas components
 
-if you use our pajamas components, you are automatically using our design tokens under the hood.
-this should be your first port of call when implementing a UI.
+When you use a Pajamas component, you're automatically using design tokens under the hood — this should be your first approach when implementing a UI.
 
-## CSS Utils
+## CSS utils
 
-If you need something more custom, or you need to customize a pajamas component, our CSS utils should help you out.
-Since these are powered by tailwind, your IDe should be able to autocomplete and you can see the [documentation](https://gitlab-org.gitlab.io/frontend/tailwind-documentation) for more information.
+If you need something more custom or you need to customize a Pajamas component, CSS utils should help you out. Since these are powered by Tailwind, your IDE should be able to autocomplete, see the [documentation](https://gitlab-org.gitlab.io/frontend/tailwind-documentation) for details.
 
-There are more some utilities that are available right now that we advise against using as they use had-coded color values instead of our design tokens.
-Try to avoid color tokens that reference a color (e.g. `gl-text-green-900` or `gl-bg-white`) and instead use a contextual equivalent e.g. `gl-text-success` or `gl-bg-default`.
-This ensures the colors will update predictably when changing modes.
+There are more utilities currently available, but we advise against using them as they have hard-coded color values that will not respond to different modes. Try to avoid color utilities that directly reference a color (for example, a [constant](/design-tokens#constant-design-tokens) like `gl-text-green-900` or `gl-bg-white`) and instead use a [semantic](/design-tokens#semantic-design-tokens) equivalent (for example, `gl-text-success` or `gl-bg-default`). This ensures the colors will update predictably when changing modes.
 
 ### CSS Utility classes
 
@@ -27,10 +23,9 @@ The simplest way to use these utilities is to add classes to the components them
 This is reccomended for most cases but can clutter up the codebase if overused.
 If you find yourself adding too many of these classes and want a cleaner approach, you can use `@apply` instead.
 
-### CSS Apply
+### CSS apply
 
-This is a little more complex than adding the classes but produces the same result.
-Instead of adding the util classes directly to the element, you can `@apply` them in the (S)CSS.
+This is a little more complex than adding the classes directly to the element, but produces the same result. Instead of adding the utility classes directly to the element, you can `@apply` them in SCSS.
 
 ```html
 <span class="exampleText">This text will be a subtle gray color, truncated to fit its container.</span>
@@ -42,13 +37,11 @@ Instead of adding the util classes directly to the element, you can `@apply` the
 }
 ```
 
-This can be cumbersome if you only need to add a few classes (like in this example) but makes things a lot cleaner when you need to add multiple utilities to one element.
+This can be cumbersome if you only need to add a few classes (like in this example), but it makes things cleaner when you need to add multiple utilities to one element.
 
-## CSS Custom Properties
+## CSS custom properties
 
-Our utility classes should do 90% of what you need but sometimes you need something a little more bespoke.
-For those 10% of cases, CSS sustom properties (AKA CSS variables) allow you to use design tokens in a more flexible manner.
-For example, if we wanted to change the caret color of an input (don't actually do this), we can still use design tokens like so:
+Utility classes should do 90% of what's desired, but sometimes you need something a little more bespoke. For those 10% of cases, CSS custom properties (also known as CSS variables) allow you to use design tokens in a more flexible manner. For example, to change the caret color of an input (don't actually do this), use design tokens like so:
 
 ```css
 .exampleInput {
@@ -56,16 +49,11 @@ For example, if we wanted to change the caret color of an input (don't actually 
 }
 ```
 
-Remember to use them semantically, don't use `info` if you simply want `blue`.
-In different modes, `info` may be a different color.
+Remember to use them [semantically](/design-tokens#semantic-design-tokens), don't use `info` if you simply want `blue`. In different modes, `info` may be a different color.
 
-## Dark Mode
+## Dark mode
 
-Because design tokens focus on semantics and not color, dark modes for your UI elements should work out of the box.
-However, there are times when we need to step out of that box and change the way something behaves in dark mode.
-As with all deviations from the design system, the first, second, and third thing you should ask yourself and your
-designer is, "Do I really need to deviate from the standard pattern?".
-If it still makes sense to do so, our CSS utils have some methods to help.
+Because design tokens focus on semantics and not color, dark mode for your UI elements should work out of the box. However, there are times when we need to change the way something behaves in dark mode. As with all deviations from the design system, the first, second, and third thing you should ask yourself and the designer is, "do I really need to deviate from the standard pattern?" If it still makes sense to do so, CSS utils have methods to help.
 
 ### Using @apply
 
