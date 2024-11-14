@@ -18,7 +18,14 @@ We've scoped these Figma variables by limiting the properties they can be applie
 
 ## In code
 
-<note>A pilot for design tokens in code has been completed as part of this [issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1776), and we're currently doing more exploration with a small subset of components as part of this [issue](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/2583). More details about officially using design tokens will be coming soon, but in the meantime carry on with your typical development process.</note>
+At a high-level, there are three ways to use design tokens in code.
+Using Pajamas components, using CSS utilities, and using CSS custom properties.
+Your first port-of-call wshould be to use [Pajamas components](./design-tokens-in-code.md#pajamas-components), as with all UI changes.
+If you need something more custom, use [CSS utilities](./design-tokens-in-code.md#css-utils).
+If you need something even more custom, use our [CSS custom properties](./design-tokens-in-code.md#css-custom-properties).
+If you need something even more custom than that, come [talk to us](https://handbook.gitlab.com/handbook/engineering/development/dev/foundations/design-system/).
+
+Using design tokens in code is outlined in more detail on [this page](./design-tokens-in-code.md).
 
 ## Concepts
 
