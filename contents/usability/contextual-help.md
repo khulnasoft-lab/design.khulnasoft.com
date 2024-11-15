@@ -1,5 +1,6 @@
 ---
 name: Contextual help and info
+summary: Implement contextual help and information to provide additional context and assistance to a user.
 related:
   - tooltip
   - popover
@@ -35,11 +36,11 @@ To learn how to link to GitLab documentation in various programming languages, s
 
 In most cases, phrase the link as a question.
 
-- Example: A merge request approval is required. [Who can approve](#)?
+- Example: A merge request approval is required. [Who can approve](https://docs.gitlab.com)?
 
 If you can't determine a useful question, use `Learn more`. However, be aware that `Learn more` is not descriptive or meaningful, and **should be used sparingly**.
 
-- Example: Approve a merge request. [Learn more](#).
+- Example: Approve a merge request. [Learn more](https://docs.gitlab.com).
 
 Note: The punctuation is not part of the link.
 
@@ -53,7 +54,7 @@ on self-managed open in the instance's `/help`.
 
 When linking to third-party documentation, outside the GitLab instance, make that clear in the link text and use the external link icon. The icon should use `aria-label="(external link)"`, or similar, to communicate the purpose to screen reader users.
 
-- Example: Learn how to use minikube in the <a href="#" class="gl-link">Kubernetes documentation <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" style="vertical-align: text-bottom" role="img" aria-label="(external link)">
+- Example: Learn how to use minikube in the <a href="#" class="gl-link">Kubernetes documentation <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" class="gl-align-text-bottom" role="img" aria-label="(external link)">
   <path fill="#000000" fill-rule="evenodd" d="M5,2 C5.55228,2 6,2.44772 6,3 C6,3.55228 5.55228,4 5,4 L4,4 L4,12 L12,12 L12,11 C12,10.4477 12.4477,10 13,10 C13.5523,10 14,10.4477 14,11 L14,12 C14,13.1046 13.1046,14 12,14 L4,14 C2.89543,14 2,13.1046 2,12 L2,4 C2,2.89543 2.89543,2 4,2 L5,2 Z M15,1 L15,5.99814453 C15,6.55043453 14.5523,6.99814453 14,6.99814453 C13.4477,6.99814453 13,6.55043453 13,5.99814453 L13,4.41419 L8.71571,8.69846 C8.32519,9.08899 7.69202,9.08899 7.3015,8.69846 C6.91097,8.30794 6.91097,7.67477 7.3015,7.28425 L11.5858,3 L9.99619141,3 C9.44391141,3 8.99619141,2.55228 8.99619141,2 C8.99619141,1.44772 9.44391141,1 9.99619141,1 L15,1 Z" style="fill: currentColor;"></path></svg></a>.
 
 ### Help icon
@@ -63,7 +64,7 @@ If link text is not possible and space is tight, use the [help icon](http://gitl
 |                                                                                                                                                                                        Do                                                                                                                                                                                         |                                                                                                                                                             Don't                                                                                                                                                             |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                                   <div class="app-styles"><gl-icon name="question-o" class="gl-text-blue-600" /></div>Use the outlined [question-o.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question-o) icon in `$blue-600` (`#1068bf`)                                                                                   |                                                                     <div class="app-styles"><gl-icon name="question" size="16" /></div>Use the solid icon [question.svg](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~question) or a color other than blue                                                                     |
-| <figure-img alt="Popover with link to documentation" label="Show information in the popover with a link to documentation" src="/img/help-popover-with-link.png"  width="280"></figure-img> | <figure-img alt="Popover with link to documentation" label="Use the icon as a link or with a tooltip" src="/img/help-tooltip.png" alt="Popover with link to documentation" width="280"></figure-img> |
+| <figure-img alt="Popover with link to documentation" label="Show information in the popover with a link to documentation" src="/img/help-popover-with-link.png"  width="312"></figure-img> | <figure-img alt="Popover with link to documentation" label="Use the icon as a link or with a tooltip" src="/img/help-tooltip.png" alt="Popover with link to documentation" width="280"></figure-img> |
 
 ### Info icon
 
@@ -90,7 +91,7 @@ In some cases users might need to reference additional information for completin
 
 - Drawer content should always be related to a specific context or task in the UI. The drawer header should reflect the context or task the user is performing.
 - Drawer content is stored as Markdown in the [GitLab repository `/doc` directory](https://gitlab.com/gitlab-org/gitlab/-/tree/master/doc), rather than hard-coded in the product code.
-- When writing drawer content, use the [documentation topic types guidelines](https://docs.gitlab.com/ee/development/documentation/structure.html) and general [drawer content guidelines](/components/drawer/#content).
+- When writing drawer content, use the [documentation topic types guidelines](https://docs.gitlab.com/ee/development/documentation/topic_types/) and general [drawer content guidelines](/components/drawer/#content).
 - You should collaborate with a technical writer when defining the content, and a technical writer review is required on related merge requests.
 
 <todo>Add a live example.</todo>

@@ -1,58 +1,7 @@
 ---
 name: Punctuation
+summary: Apply punctuation marks consistently and purposefully to enhance clarity and readability in UI text and documentation.
 ---
-
-## Case
-
-Use sentence case for:
-
-- Titles, headings, labels, menu items, buttons, and microcopy. Capitalize individual terms that require it, as described below.
-
-Use lowercase for:
-
-- Most words, including [features](https://about.gitlab.com/features/) that:
-  - Match a type of object in GitLab. For example: issue(s), merge request(s), epic(s).
-  - Describe an action. For example: "You can reorder issues in an epic."
-
-Capitalize:
-
-- Features that are nouns naming a capability, methodology, or tool; not an object type.
-   - For example: GitLab CI/CD, Repository Mirroring, the Web IDE, Container Registry, Value Stream Analytics, the To-Do List.
-      - Exception: Use lowercase for capabilities that are common industry terms, for example, syntax highlighting.
-
-| Do                                                          | Don’t                                                       |
-|:------------------------------------------------------------|:------------------------------------------------------------|
-| Use epics to organize your issues.                          | Use Epics to organize your issues.                          |
-| The project's repository is replicated using Geo.           | The Project's Repository is replicated using Geo.           |
-
-Always capitalize the first word in bulleted lists. This includes sentences that complete an introductory stem.
-
-<table>
-  <thead>
-    <tr>
-      <th>Do</th>
-      <th>Don’t</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <p>This is an introductory stem:</p>
-        <ul>
-          <li>Completed by this capitalized sentence.</li>
-          <li>Also completed by this capitalized sentence.</li>
-        </ul>
-      </td>
-      <td>
-        <p>This is an introductory stem:</p>
-        <ul>
-          <li>completed by this uncapitalized sentence.</li>
-          <li>also completed by this uncapitalized sentence.</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
 
 ## Periods
 
@@ -70,7 +19,7 @@ Use periods with links that are full sentences.
 
 | Do | Don’t |
 | --- | --- |
-| Mention someone to notify them. [Learn more](#). This is another sentence. | Mention someone to notify them. [More](#). |
+| Mention someone to notify them. [Learn more](https://docs.gitlab.com). This is another sentence. | Mention someone to notify them. [More](https://docs.gitlab.com). |
 
 Use a period after every bullet point that is a sentence.
 
@@ -185,14 +134,6 @@ Use all sentences or all fragments in a bulleted list, not a mixture.
     </tr>
   </tbody>
 </table>
-
-## Contractions
-
-We encourage the use of contractions to make writing simpler and easier to read. However, don’t make a sentence harder to understand just to follow this rule. For example, “do not” can give more emphasis than “don’t,” when needed.
-
-| Do | Don’t |
-| --- | --- |
-| it’s, can’t, wouldn’t, you’re, you’ve, haven’t, don’t | it is, cannot, would not, it’ll, should’ve |
 
 ## Numbers
 

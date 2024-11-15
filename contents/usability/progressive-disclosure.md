@@ -1,8 +1,9 @@
 ---
 name: Progressive disclosure
+summary: Manage information complexity to enhance user understanding and reduce cognitive load.
 related:
   - /usability/destructive-actions
-  - /usability/onboarding
+  - /usability/feature-discovery
   - accordion
   - button
   - modal
@@ -12,7 +13,7 @@ related:
 
 Progressive disclosure is an interaction pattern that defers less important information and features to secondary screens. By initially only showing the most important information, users are less likely to become overwhelmed when there is a large amount of content to consume. Using a trigger to reveal an object hidden from view, it can reduce the amount of content on the page at any one time without sacrificing features.
 
-When employing progressive disclosure, display key information prominently to reduce cognitive load, and reveal additional information only upon request. Keeping the interface simple in this way allows users to focus their attention and also helps with new user [onboarding](onboarding).
+When employing progressive disclosure, display key information prominently to reduce cognitive load, and reveal additional information only upon request. Keeping the interface simple in this way allows a user to focus their attention and also helps with new user [onboarding](/usability/feature-discovery).
 
 ## Best practices
 
@@ -29,7 +30,7 @@ There are a number of ways to gradually reveal content in the UI, including:
 - Adding items to a table by filling out a form in a [modal](/components/modal) or new page
 - Displaying information in [accordions](/components/accordion)
 - Hiding navigation items behind a hamburger menu
-- Truncating content and previews
+- [Truncating](/product-foundations/layout#truncation) content and previews
 - Enabling scrolling for overflow content
 - Using [skeleton loaders](/components/skeleton-loader) while lazy loading a page
 - Introducing step-by-step flows for complex scenarios

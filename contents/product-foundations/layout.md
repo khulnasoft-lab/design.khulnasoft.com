@@ -8,14 +8,18 @@ We take a [responsive-first](/product-foundations/layout#responsive-ui) approach
 
 ### Reflow
 
-When the content on a page reflows to fit the available space, the hierarchy, structure, and relationships should remain intact and clear within any viewport. 
-- The visual order should match the [DOM order](https://www.w3.org/WAI/WCAG21/Techniques/css/C27). 
+When the content on a page reflows to fit the available space, the hierarchy, structure, and relationships should remain intact and clear within any viewport.
+
+- The visual order should match the [DOM order](https://www.w3.org/WAI/WCAG21/Techniques/css/C27).
 - Reflow isn't limited to content wrapping. For example, you might consider grouping a list of actions into a single dropdown in smaller viewports.
-- Content should not abruptly rearrange as that can be disorienting for users and cause the page to re-load, which may negatively impact the perceived performance of a page. 
+- Content should not abruptly rearrange as that can be disorienting for users and cause the page to re-load, which may negatively impact the perceived performance of a page.
 
 ### Truncation
 
-Individual lines of text can be truncated with an ellipsis when length or wrapping would break a component, negatively impact surrounding content, or cause some content to flow off screen. When text is truncated, there must be a method, like a [tooltip](/components/tooltip) to easily view and access all of the content for both sighted and unsighted users, as well as those using assistive technology.
+Content can be truncated when length or wrapping would break a component, negatively impact surrounding content, or cause some content to flow off screen. When content is truncated, there must be a method to easily view and access all of the content for both sighted and unsighted users, as well as those using assistive technology. Use your judgment on how to truncate content in your specific situation, but here are a few methods depending on the content type, usage, and size.
+
+- Show in [tooltip](/components/tooltip): Use when truncated text is non-critical or providing reference information, or when users don't need access to the raw content.
+- Show with [ellipsis button](/components/button#ellipsis): Use for longer spans of text, or when users need access to raw content to compare or view critical information.
 
 ### Visual affordance
 
@@ -62,3 +66,25 @@ We recommend that you first try and use **`990px`** unless another width is more
 A sticky container is a div that sticks to the top or bottom of it's parent container. It contains actions or links that are relevant to the task someone is performing. Sticky containers are useful for long pages that contain lots of content that would push buttons or actions above or below the viewport. For example, when editing a wiki, the save changes button will always be visible even if the wiki content extends below the viewport.
 
 Use sticky containers with caution as they can easily crowd the interface and make it difficult to navigate the page by shrinking the content area.
+
+## Cascading alignment
+
+For layouts that are tabular or mimic a table row, often a single alignment rule applied to all cells or columns may not produce the most scannable outcome. With cascading alignment, the goal is to optically align content in the way that best supports a linear reading flow while maintaining balance. The alignment "cascades" from one element to the next based on the preceding element. For example, **B** aligns with **A**, and **C** aligns with **B**.
+
+<div class="figma-embed" aria-label="Cascading alignment demo 1" role="img">
+  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F2XRq1MnIG69iti76Mh9HpJ%2FPajamas-visual-examples%3Ftype%3Ddesign%26node-id%3D22364%253A696%26mode%3Ddesign%26t%3DcBlAHP3Ol5JxVR79-1" allowfullscreen></iframe>
+</div>
+
+This type of layout is optional, and you should use your best judgement considering the user's task, the content, and other factors that might impact layout, like reflow and responsive behavior.
+
+In the two column example that follows, vertically centering the content with the avatar works well until the content becomes taller than the avatar, at which point it's more scannable to top align and have content extend below.
+
+The three column example that follows is similar, where vertically centering provides optimal linear scanning between all three columns. However, once the third column's content is taller than the avatar in the second, top alignment is used to anchor the third column to the second.
+
+In both examples the goal is to choose the ideal alignment to the left element in a way that visually anchors the content and limits the eye from bouncing around as much as possible.
+
+<div class="figma-embed" aria-label="Cascading alignment demo 2" role="img">
+  <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F2XRq1MnIG69iti76Mh9HpJ%2FPajamas-visual-examples%3Ftype%3Ddesign%26node-id%3D22364%253A656%26mode%3Ddesign%26t%3DcBlAHP3Ol5JxVR79-1" allowfullscreen></iframe>
+</div>
+
+<todo>Add live demo. An example that accomplishes this with CSS grid can be viewed in [Codepen](https://codepen.io/lostsatellites/pen/ZEwVOgz).</todo>

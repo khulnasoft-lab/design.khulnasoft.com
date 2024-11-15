@@ -1,25 +1,28 @@
 @mixin type-scale($scale, $line-height, $margin-bottom: 0, $margin-top: 24px) {
   font-size: $base-font-size + ($scale * 2);
-  line-height: $line-height * $base-grid--typography;
-  margin-bottom: $margin-bottom * $base-grid;
+  line-height: $line-height * 4px;
+  margin-bottom: $margin-bottom * 8px;
   margin-top: $margin-top;
 }
 
-h1, h2, h3, h4, h5, h6 { font-weight: $font-weight--bold; }
+h1, h2, h3, h4, h5, h6 {
+  color: var(--gl-text-color-heading);
+  font-weight: $gl-font-weight-bold;
+}
 
 /* UI Typography */
 
-h1 { @include type-scale(7, 8) }
-h2 { @include type-scale(3, 6) }
-h3 { @include type-scale(0, 4) }
-h4 { @include type-scale(-1, 4) }
-h5 { @include type-scale(-1, 4) }
-h6 { @include type-scale(-1, 4) }
+h1 { @apply gl-heading-1 }
+h2 { @apply gl-heading-2 }
+h3 { @apply gl-heading-3 }
+h4 { @apply gl-heading-4 }
+h5 { @apply gl-heading-5 }
+h6 { @apply gl-heading-6 }
 p  { @include type-scale(0, 4, 0, 0) }
 
 a {
   text-decoration: none;
-  color: $anchor-color;
+  color: var(--gl-text-color-link);
 
   &:hover {
     text-decoration: underline;
@@ -37,10 +40,10 @@ button {
 }
 
 code {
-  color: $gray-950;
-  background-color: $gray-50;
+  color: var(--gl-text-color-default);
+  background-color: var(--gl-background-color-strong);
   border-radius: $border-radius;
-  font-family: $font-family-monospace;
+  font-family: $gl-monospace-font;
   font-size: 90%;
   padding: $gl-spacing-1 $gl-spacing-2;
   white-space: pre-wrap;
@@ -50,12 +53,14 @@ code {
 
 pre[class*="language-"],
 :not(pre) > code[class*="language-"] {
-  background-color: $gray-10 !important;
-  border: $border-width solid $border-color;
+  background-color: var(--gl-background-color-subtle) !important;
+  border: 1px solid var(--gl-border-color-default);
   border-radius: $border-radius;
+  text-shadow: none !important;
 
   code {
-    background-color: $gray-10 !important;
+    padding: 0;
+    background-color: var(--gl-background-color-subtle) !important;
   }
 }
 
@@ -69,21 +74,17 @@ pre[class*="language-"],
 .md .nuxt-content {
   @include type-scale(0, 6, 0, 0);
 
-  > h1 { @include type-scale(14, 12, 2); }
+  > h1 { @apply gl-mt-7 }
 
-  > h2 {
-    @include type-scale(7, 8, 2);
-    padding-bottom: $gl-spacing-4;
-    border-bottom: $border-width solid $border-color;
+  > h2,
+  > h3 {
+    @apply gl-mt-6;
   }
 
-  > h3 { @include type-scale(3, 6, 1) }
-  > h4 { @include type-scale(1, 6, 1) }
-  > h5 { @include type-scale(0, 5, 1) }
-
+  > h4,
+  > h5,
   > h6 {
-    @include type-scale(0, 5, 1);
-    color: $text-color--secondary;
+    @apply gl-mt-5;
   }
 
   > p  { @include type-scale(0, 6, 2, 0) }
@@ -102,92 +103,13 @@ pre[class*="language-"],
   }
 
   > blockquote {
-    border-left: ($border-width * 2) solid $purple-300;
-    color: $text-color--secondary;
+    border-left: 2px solid $purple-500;
+    color: var(--gl-text-color-subtle);
     margin-left: 0;
     margin-right: 0;
     padding-left: $gl-spacing-5;
 
     > p  { @include type-scale(0, 6, 0, 0) }
-  }
-}
-
-/* MD compact Typography */
-
-.md.compact {
-
-  > h1 {
-    @include type-scale(3, 6, 1);
-    border: none;
-    padding: 0;
-  }
-
-  > h2 {
-    @include type-scale(0, 5, 1);
-    border: none;
-    padding: 0;
-  }
-
-  > h3 { @include type-scale(-1, 4, 1); }
-
-  > h4 {
-    @include type-scale(-1, 4, 1);
-    color: $text-color--secondary;
-  }
-
-  > h5 {
-    @include type-scale(-1, 4, 1);
-    color: $text-color--secondary;
-  }
-
-  > h6 {
-    @include type-scale(-1, 4, 1);
-    color: $text-color--secondary;
-  }
-
-  > p { @include type-scale(0, 6, 2, 0); }
-}
-
-/*Distributed UI Typography */
-
-.distributed {
-  @include type-scale(0, 4, 0, 0);
-
-  h1 {
-    @include type-scale(7, 8, 1);
-    border: none;
-    padding: 0;
-  }
-
-  h2 {
-    @include type-scale(3, 6, 1);
-    border: none;
-    padding: 0;
-  }
-
-  h3 { @include type-scale(0, 4, 1); }
-  h4 { @include type-scale(-1, 4, 1); }
-
-  h5 {
-    @include type-scale(-1, 4, 1);
-    color: $text-color--secondary;
-  }
-
-  h6 {
-    @include type-scale(-1, 4, 1);
-    color: $text-color--secondary;
-  }
-
-  p  { @include type-scale(0, 6, 2, 0); }
-}
-
-.md, .md.compact, .distributed, .md .nuxt-content {
-  > *:first-child {
-    margin-top: 0;
-  }
-
-  > *:last-child {
-    margin-bottom: 0;
   }
 }
 
@@ -198,10 +120,13 @@ pre[class*="language-"],
   h4,
   h5,
   h6 {
+    position: relative;
+
     > a[aria-hidden] {
-      margin-left: -1em;
-      padding-right: $gl-spacing-3;
+      left: -1em;
+      width: 1em;
       visibility: hidden;
+      position: absolute;
 
       &::before {
         content: '#';
@@ -214,35 +139,6 @@ pre[class*="language-"],
   }
 }
 
-/* Type scale */
-
-.ts-1 { @include type-scale(14, 12) }
-.ts-2 { @include type-scale(7, 8)  }
-.ts-3 { @include type-scale(3, 6)  }
-.ts-4 { @include type-scale(1, 6)  }
-.ts-5 { @include type-scale(0, 6)  }
-.ts-6 { @include type-scale(-1, 4) }
-
 p:last-child {
   margin-bottom: 0;
-}
-
-/* Type treatment */
-
-.f-monospace {
-  font-family: $font-family-monospace;
-  font-size: 13px;
-}
-
-.f-bold {
-  font-weight: $font-weight--bold;
-}
-
-.f-secondary {
-  color: $text-color--secondary;
-}
-
-.f-inverted {
-  color: $text-color--inverted;
-  text-shadow: 0 1px rgba($black,.2);
 }

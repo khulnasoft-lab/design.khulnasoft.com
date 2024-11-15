@@ -13,7 +13,7 @@ related:
 
 <story-viewer component="base-progress-bar"></story-viewer>
 
-[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-132&mode=dev)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-132&mode=design)
 
 ## Structure
 
@@ -30,7 +30,7 @@ related:
 
 ### When not to use
 
-- To indicate that content is loading, use a [skeleton loader](/components/skeleton-loader) or [spinner](/components/spinner) instead. 
+- To indicate that content is loading, use a [skeleton loader](/components/skeleton-loader) or [spinner](/components/spinner) instead.
 - To segment tasks that are related and linear, use a [stepper](/components/stepper) instead.
 
 ### Sizes

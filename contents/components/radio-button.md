@@ -17,17 +17,22 @@ related:
 
 <story-viewer component="base-form-form-radio-group" title="Radio button group"></story-viewer>
 
-[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49840-75722&mode=dev)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=49840-75722&mode=design)
 
 ## Structure
 
-<todo>Add structure image.</todo>
+<figure-img alt="Numbered diagram of a radio button structure" label="Radio button structure" src="/img/radio-button-structure.svg"></figure-img>
+
+1. **Legend**: A title for a group of radio buttons.
+1. **Radio button**: The input element that provides the visual affordance for the control.
+1. **Label**: Text indicating the option.
+1. **Help text** (optional): Used to further clarify an option.
 
 ## Guidelines
 
 ### When to use
 
-- Use radio buttons to present a set of options, where only one option can be selected at a time.
+- Use a radio button group for a set of options, where only one option can be selected at a time.
 
 ### When not to use
 
@@ -40,9 +45,8 @@ related:
 
 ### Behavior
 
-- One radio button should be selected as the default choice by using the `checked` attribute.
-- Users are able to select an option with click/tap on the radio button or its label.
-- Selecting one option unselects all others.
+- In a radio button group, only one option can be selected at a time and there must be a default selected option.
+- To pick an option, the user can select the radio button or its content.
 
 ### Content
 
@@ -60,4 +64,60 @@ related:
 
 ### Accessibility
 
-<todo>Add accessibility specifications.</todo>
+- Do not nest or add other elements within a radio button group. Keep the radio button group as a single cohesive unit to ensure the user can properly traverse the controls.
+- When using `GlFormGroup`, the `label` prop alone does not give the input an accessible name.
+- The `label-for` prop must also be provided to give the input an accessible name.
+
+#### Single radio button
+
+##### Single radio with a label
+
+```html
+<gl-form-radio v-model="status" value="opened">
+  {{ __('Opened') }}
+</gl-form-radio>
+```
+
+##### Single radio with a hidden label
+
+```html
+<gl-form-radio v-model="status" value="opened">
+  <span class="gl-sr-only">{{ __('Opened') }}</span>
+</gl-form-radio>
+```
+
+#### Multiple radio buttons
+
+##### Multiple labeled radio buttons grouped within a fieldset
+
+```html
+<gl-form-group :label="__('Issue status')">
+  <gl-form-radio value="opened">{{ __('Opened') }}</gl-form-radio>
+  <gl-form-radio value="closed">{{ __('Closed') }}</gl-form-radio>
+</gl-form-group>
+```
+
+Using `GlFormRadioGroup`:
+
+```html
+<gl-form-group :label="__('Issue status')">
+  <gl-form-radio-group v-model="selected" :options="options" />
+</gl-form-group>
+```
+
+##### Multiple labeled radio buttons grouped within a fieldset with hidden legend
+
+```html
+<gl-form-group :label="__('Issue status')" label-sr-only>
+  <gl-form-radio value="opened">{{ __('Opened') }}</gl-form-radio>
+  <gl-form-radio value="closed">{{ __('Closed') }}</gl-form-radio>
+</gl-form-group>
+```
+
+Using `GlFormRadioGroup`:
+
+```html
+<gl-form-group :label="__('Issue status')" label-sr-only>
+  <gl-form-radio-group v-model="selected" :options="options" />
+</gl-form-group>
+```

@@ -28,8 +28,8 @@ When creating and utilizing charts, consider the following:
 - If there is more than one data series being displayed, add a legend to differentiate them.
 - We have two legend types: default and tabular. The default legend option works best for simple charts. If a chart has many series, or if you want to display multiple values for a series (for example, average, median, and maximum), use the tabular chart legend for better readability.
 - In legends, any text after the series name is optional. Use this space to add complementary information as needed, such as total or average values.
-- Line and area charts use the series label with the rectangular color chip to match the line colors in the chart, while column and heat map charts use the square color chip to match the fill and stroke color of the elements in the visualization. The fill of the chip should match the fill of the column and the border of the chip should match the border of the column. 
-- Charts follow the data visualization recommendations for [color](/data-visualization/color). 
+- Line and area charts use the series label with the rectangular color chip to match the line colors in the chart, while column and heat map charts use the square color chip to match the fill and stroke color of the elements in the visualization. The fill of the chip should match the fill of the column and the border of the chip should match the border of the column.
+- Charts follow the data visualization recommendations for [color](/data-visualization/color).
 - When hovering, detailed information on the data point is shown in a [popover](/components/popover).
 - Represent gaps in continuous data with a dashed `$grey-300` line, and without a data point.
 
@@ -37,11 +37,13 @@ When creating and utilizing charts, consider the following:
 
 GitLab UI supports [column](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-column-chart--default), [line](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-line-chart--default), [area](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-area-chart--default), [bar](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-bar-chart--default), [scatter](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-discrete-scatter-chart--default), [gauge](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-gauge-chart--default) and [sparkline](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-sparkline-chart--default) charts. In addition, there are other forms of data visualizations available (see, for example, the [overview](/data-visualization/overview) page for information on heat maps, and the [single stat](/data-visualization/single-stat) page for additional information on the single stat component).
 
+When implementing a chart type that does not already have a GitLab UI component, you can use the [Chart](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/charts-chart--docs) component alongside the [ECharts options](https://echarts.apache.org/en/api.html#echarts) to build your chart.
+
 When choosing a chart type, first consider your data set. If you are hoping to show:
 
 - A comparison of values across categories or across time, consider a column, bar, line or sparkline chart.
 - A comparison between groups or to show how a whole is divided into parts, consider an area chart.
-- A distribution of values or the relationship between them, consider a scatter chart. 
+- A distribution of values or the relationship between them, consider a scatter chart.
 - A value within a given range, consider a gauge chart.
 - The composition of elements within the data set, consider a grouped or stacked column chart.
 
@@ -55,7 +57,7 @@ While most charts only have a single x and y axis, two y-axis charts may occasio
 
 Column charts are the default chart type, and they are used to compare values across categories. The categories are usually presented on the x-axis, with the values on the y-axis. Column charts are favored over pie charts because they more clearly communicate data.
 
-The bars on a column chart are presented vertically rather than horizontally, and they can be stacked. 
+The bars on a column chart are presented vertically rather than horizontally, and they can be stacked.
 
 <story-viewer component="charts-column-chart" title="Basic Column Chart"></story-viewer>
 
@@ -163,4 +165,3 @@ Color, spacing, dimension, and layout specific information pertaining to this co
 ## Related
 
 - [Single stat](/data-visualization/single-stat)
-

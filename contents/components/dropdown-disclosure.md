@@ -5,21 +5,23 @@ related:
   - dropdown-combobox
   - button
   - accordion
+components:
+  - base-dropdown-disclosure-dropdown
 ---
 
 ## Examples
 
-<story-viewer component="base-new-dropdowns-disclosure" title="Simple disclosure"></story-viewer>
+<story-viewer component="base-dropdown-disclosure-dropdown" title="Simple disclosure"></story-viewer>
 
-<story-viewer component="base-new-dropdowns-disclosure" story="custom-list-item" args-placement="left" title="Disclosure with custom list item"></story-viewer>
+<story-viewer component="base-dropdown-disclosure-dropdown" story="custom-list-item" args-placement="left" title="Disclosure with custom list item"></story-viewer>
 
-<story-viewer component="base-new-dropdowns-disclosure" story="groups" title="Disclosure with groups"></story-viewer>
+<story-viewer component="base-dropdown-disclosure-dropdown" story="groups" title="Disclosure with groups"></story-viewer>
 
-<story-viewer component="base-new-dropdowns-disclosure" story="custom-groups-items-and-toggle" title="Disclosure with complex content"></story-viewer>
+<story-viewer component="base-dropdown-disclosure-dropdown" story="custom-groups-items-and-toggle" title="Disclosure with complex content"></story-viewer>
 
 <note>Disclosure styles will be updated to match the UI kit.</note>
 
-[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-14&mode=dev)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-14&mode=design)
 
 ## Structure
 
@@ -36,7 +38,7 @@ related:
 
 ### When to use
 
-- Use a disclosure dropdown to toggle a panel of links (`<a>`) or actions (`<button>`) that can be performed in a specific context, including [navigation](/patterns/navigation).
+- Use a disclosure dropdown to toggle a panel of links (`<a>`) or actions (`<button>`) that can be performed in a specific context, including the [navigation sidebar](/usability/navigation-sidebar).
 - In the instance where a combination of links and actions are present in the dropdown, a disclosure is preferred over other dropdown options that are more semantically prescriptive.
 
 ### When not to use
@@ -44,6 +46,7 @@ related:
 - If the options within the panel are selectable instead of directly performing an action, refer to the [combobox](/components/dropdown-combobox) component.
 - If a user is selecting a single text option from a group of options within a [form](/patterns/forms), consider using a [select](/components/select), [radio group](/components/radio-button), or [checkboxes](/components/checkbox) instead.
 - If you need a way for a user to expand or collapse a content section, use an [accordion](/components/accordion) instead.
+- If there is only ever a single option, display that option directly. For example, if the only option is **Remove**, use a [button](/components/button) instead.
 
 ### Trigger button variants
 
@@ -60,8 +63,12 @@ A [button](/components/button) that triggers a dropdown panel comes in a few var
 
 ### Behavior
 
-- By default, the panel opens below and is aligned to the left of the trigger button. However, when there isn't enough space in the viewport, the panel uses edge detection to position it above and/or aligned to the right of the trigger.
-- The "tip" of the panel points at the trigger and is center-aligned with it by default.
+- By default, the panel opens below the trigger button and is aligned to the left of it.
+- The panel can be positioned to the right of the trigger button if it makes more sense in the layout.
+- When there isn't enough space in the viewport, the panel uses edge detection to position it above and/or aligned to the right of the trigger button.
+- When the panel boundaries don't allow it to flip to the other side of the trigger button because there isn't enough space, it shifts along the x-axis.
+- There will always be some padding between the vertical edges of the panel and the vertical edges of the viewport.
+- The tip of the panel points at the trigger and is center-aligned with it by default.
 - If the content within the panel exceeds the maximum height then a scrim (gradient overlay) appears at the bottom of the panel as an overflow affordance. When a user has scrolled to the bottom of the overflowed content the scrim is removed.
 - When a link is selected the user is taken to the destination.
 - When an action is selected that impacts the current view, the panel is closed and the action performed.
@@ -72,6 +79,7 @@ A [button](/components/button) that triggers a dropdown panel comes in a few var
 ### Content
 
 - Text should be concise and clearly indicate the link destination or action it performs.
+- Destructive actions should be the last of the available options.
 
 ### Accessibility
 

@@ -1,104 +1,17 @@
-# This file is basically the AutoDevops template (https://gitlab.com/gitlab-org/gitlab/blob/master/lib/gitlab/ci/templates/Auto-DevOps.gitlab-ci.yml)
-# plus some defaults (e.g. tags).
-
 stages:
   - pre-build
-  - build
   - test
-  - deploy  # dummy stage to follow the template guidelines
-  - review
-  - dast
-  - staging
-  - canary
-  - production
-  - incremental rollout 10%
-  - incremental rollout 25%
-  - incremental rollout 50%
-  - incremental rollout 100%
+  - deploy
   - performance
-  - cleanup
 
 workflow:
   rules:
-    # AutoDevops doesn't use MR pipelines, so we can skip the execution of them
-    # in order to avoid duplication of e.g. untamper-my-lockfile
     - if: '$CI_MERGE_REQUEST_IID'
-      when: never
-
-    - if: '$BUILDPACK_URL || $AUTO_DEVOPS_EXPLICITLY_ENABLED == "1"'
-
-    - exists:
-        - Dockerfile
-
-    # https://github.com/heroku/heroku-buildpack-clojure
-    - exists:
-        - project.clj
-
-    # https://github.com/heroku/heroku-buildpack-go
-    - exists:
-        - go.mod
-        - Gopkg.mod
-        - Godeps/Godeps.json
-        - vendor/vendor.json
-        - glide.yaml
-        - src/**/*.go
-
-    # https://github.com/heroku/heroku-buildpack-gradle
-    - exists:
-        - gradlew
-        - build.gradle
-        - settings.gradle
-
-    # https://github.com/heroku/heroku-buildpack-java
-    - exists:
-        - pom.xml
-        - pom.atom
-        - pom.clj
-        - pom.groovy
-        - pom.rb
-        - pom.scala
-        - pom.yaml
-        - pom.yml
-
-    # https://github.com/heroku/heroku-buildpack-multi
-    - exists:
-        - .buildpacks
-
-    # https://github.com/heroku/heroku-buildpack-nodejs
-    - exists:
-        - package.json
-
-    # https://github.com/heroku/heroku-buildpack-php
-    - exists:
-        - composer.json
-        - index.php
-
-    # https://github.com/heroku/heroku-buildpack-play
-    # TODO: detect script excludes some scala files
-    - exists:
-        - '**/conf/application.conf'
-
-    # https://github.com/heroku/heroku-buildpack-python
-    # TODO: detect script checks that all of these exist, not any
-    - exists:
-        - requirements.txt
-        - setup.py
-        - Pipfile
-
-    # https://github.com/heroku/heroku-buildpack-ruby
-    - exists:
-        - Gemfile
-
-    # https://github.com/heroku/heroku-buildpack-scala
-    - exists:
-        - '*.sbt'
-        - project/*.scala
-        - .sbt/*.scala
-        - project/build.properties
-
-    # https://github.com/dokku/buildpack-nginx
-    - exists:
-        - .static
+      variables:
+        CACHE_PREFIX: '${CI_MERGE_REQUEST_IID}'
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+      variables:
+        CACHE_PREFIX: 'main'
 
 default:
   image: alpine:latest
@@ -106,111 +19,135 @@ default:
     - gitlab-org
 
 variables:
-  # KUBE_INGRESS_BASE_DOMAIN is the application deployment domain and should be set as a variable at the group or project level.
-  # KUBE_INGRESS_BASE_DOMAIN: domain.example.com
-
-  POSTGRES_USER: user
-  POSTGRES_PASSWORD: testing-password
-  POSTGRES_ENABLED: "true"
-  POSTGRES_DB: $CI_ENVIRONMENT_SLUG
-  POSTGRES_VERSION: 9.6.2
-
+  # We should double-check whether the remaining Docker in Docker jobs need the following
   DOCKER_DRIVER: overlay2
-
-  ROLLOUT_RESOURCE_TYPE: deployment
-
   DOCKER_TLS_CERTDIR: ""  # https://gitlab.com/gitlab-org/gitlab-runner/issues/4501
 
 include:
-  - template: Jobs/Build.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Build.gitlab-ci.yml
-  - template: Jobs/Test.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Test.gitlab-ci.yml
-  - template: Jobs/Code-Quality.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Code-Quality.gitlab-ci.yml
-  - template: Jobs/Deploy.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Deploy.gitlab-ci.yml
-  - template: Jobs/DAST-Default-Branch-Deploy.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/DAST-Default-Branch-Deploy.gitlab-ci.yml
-  - template: Jobs/Browser-Performance-Testing.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Browser-Performance-Testing.gitlab-ci.yml
-  - template: Security/DAST.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Security/DAST.gitlab-ci.yml
-  - template: Security/Container-Scanning.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Security/Container-Scanning.gitlab-ci.yml
-  - template: Security/Dependency-Scanning.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Security/Dependency-Scanning.gitlab-ci.yml
-  - template: Security/License-Scanning.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/lib/gitlab/ci/templates/Security/License-Scanning.gitlab-ci.yml
-  - template: Security/SAST.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Security/SAST.gitlab-ci.yml
-  - project: 'gitlab-org/frontend/frontend-build-images'
-    file: '/semantic-release/.gitlab-ci-template.rules.yml'
+  - template: Jobs/Code-Quality.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Code-Quality.gitlab-ci.yml
+  - template: Jobs/Browser-Performance-Testing.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Browser-Performance-Testing.gitlab-ci.yml
+  - template: Jobs/Dependency-Scanning.latest.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Dependency-Scanning.latest.gitlab-ci.yml
+  - template: Jobs/SAST.latest.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/SAST.latest.gitlab-ci.yml
   - project: gitlab-org/frontend/untamper-my-lockfile
-    file: 'templates/branch_pipelines.yml'
+    file: 'templates/merge_request_pipelines.yml'
+  - component: ${CI_SERVER_FQDN}/gitlab-org/components/danger-review/danger-review@1.4.1
+    inputs:
+      job_stage: "pre-build"
 
-danger-review:
-  image: registry.gitlab.com/gitlab-org/gitlab-build-images:danger
-  stage: pre-build
-  dependencies: []
-  rules:
-    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
-      when: never
-    - if: '$DANGER_GITLAB_API_TOKEN'
-  script:
-    - danger_id=$(echo -n ${DANGER_GITLAB_API_TOKEN} | md5sum | awk '{print $1}' | cut -c5-10)
-    - danger --fail-on-errors=true --verbose --danger_id="${danger_id}"
-
-build:
-  needs: []
-  tags:
-    - gitlab-org-docker
-
-review:
-  needs: [build]
-
-dast_environment_deploy:
-  needs: [build]
-
-dast:
-  needs:
-    - job: review
-      optional: true
-    - job: dast_environment_deploy
-      optional: true
+###############
+#
+## Overrides for jobs from templates
+#
+###############
 
 browser_performance:
   needs:
-    - job: review
+    - job: review-app
       optional: true
     - job: production
       optional: true
+  tags:
+    - gitlab-org-docker
+  rules:
+    - when: always
 
 code_quality:
   tags:
     - gitlab-org-docker
+  rules:
+    - when: always
 
 dependency_scanning:
-  tags:
-    - gitlab-org-docker
+  # This can be executed immediately
+  needs: []
 
 sast:
-  tags:
-    - gitlab-org-docker
+  # This can be executed immediately
+  needs: []
 
-semgrep-sast:
+###############
+#
+## Custom Jobs
+#
+###############
+.node-job:
+  image: node:20.13-alpine
+  needs: []
+  before_script:
+    - apk add --no-cache bash git
+    - yarn install --frozen-lockfile
+
+.build_cache:
   variables:
-    SAST_EXPERIMENTAL_FEATURES: 'true'
+    CACHE_POLICY: pull
+  cache:
+    - key: "${CACHE_PREFIX}-nuxt"
+      fallback_keys:
+        - main-nuxt
+      paths:
+        - node_modules/
+      policy: $CACHE_POLICY
 
 check_links:
-  image: node:18.16
+  extends:
+    - .node-job
+    - .build_cache
   stage: test
-  needs: []
   allow_failure: true
   script:
-    - yarn install --frozen-lockfile
     - yarn check-links
 
-semantic-release:
-  extends: .semantic-release
-  allow_failure: true
+lint_and_test:
+  extends:
+    - .node-job
+  stage: test
   script:
-    - semantic-release --debug
-  rules:
-    # Only run releases on scheduled pipelines on the main branch
-    # This allows us to have a weekly release cadence:
-    # https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/pipeline_schedules
-    - if: $CI_PIPELINE_SOURCE == "schedule" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - yarn test
 
-untamper-my-lockfile:
+.pages:
+  extends:
+    - .node-job
+    - .build_cache
+  stage: deploy
+  publish: public
+  variables:
+    CACHE_POLICY: pull-push
+    # Setting the default CURRENT_PAGES_URL, in order to make pages work for forks
+    # CURRENT_PAGES_URL is set in the canonical project
+    CURRENT_PAGES_URL: "${CI_PAGES_URL}"
+  script:
+    - apk add --no-cache gzip brotli
+    - bash ./scripts/build.sh
+    - ls -a public
+    - echo "${CI_ENVIRONMENT_URL}" > environment_url.txt
+    - echo "Pages accessible through ${CI_ENVIRONMENT_URL}"
+  artifacts:
+    paths:
+      - public/*
+      - environment_url.txt
+
+production:
+  extends:
+    - .pages
   rules:
-    - if: "$CI_COMMIT_BRANCH"
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+  pages:
+    expire_in: never
+  environment:
+    name: "pages"
+    url: "${CURRENT_PAGES_URL}"
+
+review-app:
+  extends:
+    - .pages
+  rules:
+    - if: '$CI_MERGE_REQUEST_IID'
+  variables:
+    PAGES_PREFIX: 'review-mr-${CI_MERGE_REQUEST_IID}'
+  pages:
+    path_prefix: "${PAGES_PREFIX}"
+    expire_in: "2 weeks"
+  environment:
+    name: "pages-review/MR-${CI_MERGE_REQUEST_IID}"
+    url: "${CURRENT_PAGES_URL}/${PAGES_PREFIX}"
+    auto_stop_in: "2 weeks"

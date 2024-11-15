@@ -1,6 +1,8 @@
 import path from 'path';
 import sass from 'sass';
 import webpack from 'webpack';
+import { buildMeta, getAbsoluteURI, titleTemplate } from './helpers/seo';
+import fixUrlInReviewApp from './helpers/fix_url_in_review_app';
 
 const isProd = process.env.NODE_ENV === 'production';
 
@@ -8,6 +10,8 @@ const GITLAB_ANALYTICS_ID = process.env.GITLAB_ANALYTICS_ID ?? false;
 const GITLAB_ANALYTICS_URL = GITLAB_ANALYTICS_ID
   ? 'https://collector.prod-1.gl-product-analytics.com'
   : '';
+
+const CI_ENVIRONMENT_URL = process.env.CI_ENVIRONMENT_URL || false;
 
 const GITLAB_UI_URL = (
   process.env.GITLAB_UI_URL || 'https://gitlab-org.gitlab.io/gitlab-ui'
@@ -44,8 +48,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    titleTemplate: (titleChunk) =>
-      titleChunk ? `${titleChunk} | Pajamas Design System` : 'Pajamas Design System',
+    titleTemplate,
     meta: [
       { charset: 'utf-8' },
       {
@@ -54,40 +57,25 @@ export default {
       },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'keywords', content: 'gitlab,pajamas,design,system,guidelines' },
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'Resources, components, and design guidelines behind GitLab',
-      },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:creator', content: '@gitlab' },
-      { name: 'twitter:title', content: 'Pajamas Design System' },
-      {
-        name: 'twitter:description',
-        content: 'Resources, components, and design guidelines behind GitLab',
-      },
-      { name: 'twitter:image', content: 'https://design.gitlab.com/img/social/link-preview.png' },
-      { name: 'og:url', content: 'https://design.gitlab.com' },
+      { name: 'twitter:image', content: getAbsoluteURI('/img/social/link-preview.png') },
       { name: 'og:type', content: 'website' },
-      { name: 'og:title', content: 'Pajamas Design System' },
-      {
-        name: 'og:description',
-        content: 'Resources, components, and design guidelines behind GitLab',
-      },
-      { name: 'og:image', content: 'https://design.gitlab.com/img/social/link-preview.png' },
+      { name: 'og:image', content: getAbsoluteURI('/img/social/link-preview.png') },
+      ...buildMeta(),
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: fixUrlInReviewApp('/favicon.ico') },
       {
         rel: 'icon',
         type: 'image/png',
-        href: '/favicon-32x32.png',
+        href: fixUrlInReviewApp('/favicon-32x32.png'),
         sizes: '32x32',
       },
       {
         rel: 'icon',
         type: 'image/png',
-        href: '/favicon-16x16.png',
+        href: fixUrlInReviewApp('/favicon-16x16.png'),
         sizes: '16x16',
       },
     ],
@@ -119,18 +107,19 @@ export default {
       'cookie-banner-callback': ['innerHTML'],
     },
     bodyAttrs: {
-      class: 'ui-indigo',
+      class: 'gl-bg-default gl-text-default',
       tabindex: '-1',
     },
   },
 
   generate: {
     dir: 'public',
-    fallback: 'error.html',
+    fallback: '404.html',
   },
 
   router: {
     middleware: ['navigation'],
+    base: CI_ENVIRONMENT_URL ? new URL(CI_ENVIRONMENT_URL).pathname : '/',
   },
 
   /*
@@ -141,6 +130,8 @@ export default {
     GITLAB_ANALYTICS_ID,
     GITLAB_UI_URL,
     LOOKBOOK_URL,
+    CI_ENVIRONMENT_URL,
+    NODE_ENV: process.env.NODE_ENV,
   },
 
   /*
@@ -152,6 +143,10 @@ export default {
    ** Global CSS
    */
   css: ['../assets/stylesheets/app.scss'],
+
+  tailwindcss: {
+    cssPath: ['~/assets/css/tailwind.css', { injectPosition: 'last' }],
+  },
 
   /*
    ** Plugins to load before mounting the App
@@ -171,6 +166,7 @@ export default {
     '~/modules/nuxt_content_extension.js',
     '~/modules/nuxt_lunr_content_bridge.js',
     '@nuxtjs/lunr-module',
+    '@nuxtjs/tailwindcss',
     '@nuxt/content',
   ],
 
@@ -195,7 +191,8 @@ export default {
     liveEdit: true,
     dir: 'contents',
     markdown: {
-      remarkPlugins: ['~~/remark-plugins/mermaid.js'],
+      remarkPlugins: ['~~/nuxt-content-plugins/mermaid.js'],
+      rehypePlugins: ['~~/nuxt-content-plugins/fix_review_urls.js'],
     },
   },
 
@@ -230,7 +227,6 @@ export default {
      */
     extend(config) {
       config.resolve.alias.vue$ = 'vue/dist/vue.esm.js'; // Full Vue version for being able to use dynamic templates
-      config.resolve.alias['bootstrap-vue/src/index'] = 'bootstrap-vue/src/index.scss';
 
       config.module.rules.splice(0, 1);
 
@@ -261,16 +257,25 @@ export default {
     },
 
     transpile: [
-      // GitLab UI needs to be transpiled as it uses some advanced syntax like the
+      // These need to be transpiled as they use some advanced syntax like the
       // optional chaining operator
       '@gitlab/ui',
-      'bootstrap-vue',
       'mermaid',
     ],
   },
 
   // see https://nuxtjs.org/api/configuration-hooks
-  hooks: {},
+  hooks: {
+    /*
+    If one defines `base` in the nuxt config, nuxt also adds a
+    <base> element which messes with anchor links. See also:
+    https://github.com/nuxt/content/issues/376
+    https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1754
+    */
+    'vue-renderer:ssr:templateParams': (params) => {
+      params.HEAD = params.HEAD.replace(/<base.+?>/, '');
+    },
+  },
 
   vue: {
     config: {

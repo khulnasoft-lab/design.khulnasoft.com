@@ -4,10 +4,38 @@
     "items": [
       {
         "title": "Overview",
-        "path": "brand/overview"
+        "path": "brand-overview",
+        "items": [
+          {
+            "title": "Introduction",
+            "path": "introduction"
+          },
+          {
+            "title": "Brand applications",
+            "path": "brand-applications"
+          },
+          {
+            "title": "Resources",
+            "path": "resources"
+          }
+        ]
       },
       {
-        "title": "Logo",
+        "title": "Messaging",
+        "path": "brand-messaging",
+        "items": [
+          {
+            "title": "Brand voice",
+            "path": "brand-voice"
+          },
+          {
+            "title": "Style and formatting",
+            "path": "style-formatting"
+          }
+        ]
+      },
+      {
+        "title": "GitLab Logo",
         "path": "brand-logo",
         "items": [
           {
@@ -25,7 +53,7 @@
         ]
       },
       {
-        "title": "Brand Design",
+        "title": "Design",
         "path": "brand-design",
         "items": [
           {
@@ -137,7 +165,24 @@
         "items": [
           {
             "title": "Design tokens",
-            "path": "design-tokens"
+            "items": [
+              {
+                "title": "Overview",
+                "path": "design-tokens"
+              },
+              {
+                "title": "Reading design tokens",
+                "path": "design-tokens-reading"
+              },
+              {
+                "title": "Using design tokens",
+                "path": "design-tokens-using"
+              },
+              {
+                "title": "All design tokens",
+                "path": "design-tokens-directory"
+              }
+            ]
           },
           {
             "title": "Color",
@@ -149,6 +194,10 @@
               {
                 "title": "Fundamentals",
                 "path": "type-fundamentals"
+              },
+              {
+                "title": "Headings",
+                "path": "type-headings"
               },
               {
                 "title": "Markdown",
@@ -169,8 +218,17 @@
             "path": "elevation"
           },
           {
-            "title": "Motion",
-            "path": "motion"
+            "title": "Animation",
+            "items": [
+              {
+                "title": "Fundamentals",
+                "path": "animation-fundamentals"
+              },
+              {
+                "title": "Feedback",
+                "path": "animation-feedback"
+              }
+            ]
           },
           {
             "title": "Iconography",
@@ -186,10 +244,6 @@
         "title": "Components",
         "path": "components",
         "items": [
-          {
-            "title": "Overview",
-            "path": "overview"
-          },
           {
             "title": "Accordion",
             "path": "accordion"
@@ -219,8 +273,17 @@
             "path": "broadcast-message"
           },
           {
-            "title": "Button",
-            "path": "button"
+            "title": "Buttons",
+            "items": [
+              {
+                "title": "Button",
+                "path": "button"
+              },
+              {
+                "title": "Sorting",
+                "path": "sorting"
+              }
+            ]
           },
           {
             "title": "Card",
@@ -261,10 +324,6 @@
               {
                 "title": "Date picker",
                 "path": "date-picker"
-              },
-              {
-                "title": "File uploader",
-                "path": "file-uploader"
               },
               {
                 "title": "Filter",
@@ -341,10 +400,6 @@
             "path": "socks"
           },
           {
-            "title": "Sorting",
-            "path": "sorting"
-          },
-          {
             "title": "Spinner",
             "path": "spinner"
           },
@@ -399,12 +454,33 @@
             "path": "forms"
           },
           {
+            "title": "GitLab Duo",
+            "items": [
+              {
+                "title": "Calls to action",
+                "path": "duo-calls-to-action"
+              },
+              {
+                "title": "Feedback",
+                "path": "duo-feedback"
+              },
+              {
+                "title": "Slash commands in GitLab Duo Chat",
+                "path": "duo-slash-commands"
+              }
+            ]
+          },
+          {
+            "title": "Keyboard shortcuts",
+            "path": "keyboard-shortcuts"
+          },
+          {
             "title": "Merge request reports",
             "path": "merge-request-reports"
           },
           {
-            "title": "Navigation",
-            "path": "navigation"
+            "title": "Notifications",
+            "path": "notifications"
           },
           {
             "title": "Searching",
@@ -461,20 +537,16 @@
         "path": "content",
         "items": [
           {
-            "title": "Terminology",
-            "path": "terminology"
+            "title": "UI text",
+            "path": "ui-text"
           },
           {
-            "title": "Voice and tone",
-            "path": "voice-and-tone"
+            "title": "Verb tenses",
+            "path": "verb-tenses"
           },
           {
             "title": "Punctuation",
             "path": "punctuation"
-          },
-          {
-            "title": "Internationalization",
-            "path": "i18n"
           },
           {
             "title": "Date and time",
@@ -507,6 +579,10 @@
             "path": "drag-and-drop"
           },
           {
+            "title": "Feature discovery",
+            "path": "feature-discovery"
+          },
+          {
             "title": "Feature management",
             "path": "feature-management"
           },
@@ -515,12 +591,12 @@
             "path": "loading"
           },
           {
-            "title": "Obfuscation",
-            "path": "obfuscation"
+            "title": "Navigation sidebar",
+            "path": "navigation-sidebar"
           },
           {
-            "title": "Onboarding",
-            "path": "onboarding"
+            "title": "Obfuscation",
+            "path": "obfuscation"
           },
           {
             "title": "Progressive disclosure",
@@ -553,7 +629,7 @@
             "path": "best-practices"
           },
           {
-            "title": "GitLab VPAT®",
+            "title": "GitLab accessibility conformance report",
             "items": [
               {
                 "title": "Section 508 Edition",
@@ -566,11 +642,11 @@
             ]
           },
           {
-            "title": "Audit guides",
+            "title": "Evaluating accessibility",
             "items": [
               {
                 "title": "Overview",
-                "path": "audits"
+                "path": "evaluation"
               },
               {
                 "title": "Visual",

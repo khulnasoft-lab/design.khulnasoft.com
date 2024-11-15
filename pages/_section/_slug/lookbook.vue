@@ -1,10 +1,11 @@
 <script>
 const NAME_MAPPING = {
-  // alert: 'alert',
+  alert: 'alert',
   // avatar: 'avatar',
   badge: 'badge',
   banner: 'banner',
   button: 'button',
+  'broadcast-message': 'broadcast_banner',
   card: 'card',
   'progress-bar': 'progress',
   spinner: 'spinner',
@@ -25,8 +26,10 @@ export default {
       return `${this.$lookbookUrl}/inspect/pajamas/${this.componentName}`;
     },
     previewName() {
-      const capitalizedComponentName =
-        this.componentName.charAt(0).toUpperCase() + this.componentName.slice(1);
+      const capitalizedComponentName = this.componentName
+        .split('_')
+        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+        .join('');
       return `Pajamas::${capitalizedComponentName}ComponentPreview`;
     },
   },
@@ -38,7 +41,7 @@ export default {
 </script>
 
 <template>
-  <div class="app-styles gl-pt-0 gl-pb-4">
+  <div class="app-styles gl-pb-4 gl-pt-0">
     <div v-if="componentName">
       <lookbook-embed :app="$lookbookUrl" :preview="previewName" panels="params,notes,*" />
       <p class="gl-pt-4">

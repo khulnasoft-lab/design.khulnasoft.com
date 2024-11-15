@@ -1,65 +1,6 @@
 /*
- * Centering
+ * Media queries
  */
-
-@mixin center($position) {
-  position: absolute;
-
-  @if $position == 'vertical' {
-    top: 50%;
-    transform: translateY(-50%);
-  } @else if $position == 'horizontal' {
-    left: 50%;
-    transform: translate(-50%);
-  } @else if $position == 'both' {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-}
-
-/*
- * Lists
- */
-
-@mixin unstyled-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-/*
- * Box Shadow
- */
-
-@mixin box-shadow($x: 0, $y: 2px, $blur: 4px, $spread: 0, $color: $t-gray-a-08) {
-  box-shadow: $x $y $blur $spread $color;
-}
-
-/*
- * Transitions
- */
-
-@mixin transition($property: all, $time: 0.2s, $method: linear) {
-  transition: $property $time $method;
-}
-
-/*
- * Animations
- */
-
-@mixin keyframes($animation-name) {
-  @keyframes #{$animation-name} {
-    @content;
-  }
-}
-
-@mixin include-keyframes($animation-name) {
-  animation-name: $animation-name;
-  @include keyframes($animation-name) {
-    @content;
-  }
-}
 
 @mixin media-sm-up() {
   @media (min-width: 650px) {

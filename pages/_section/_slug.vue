@@ -1,5 +1,6 @@
 <script>
-import { GlNav, GlNavItem } from '../../helpers/gitlab_ui';
+import { GlAlert, GlNav, GlNavItem } from '../../helpers/gitlab_ui';
+import { buildMeta } from '../../helpers/seo';
 
 /*
 We only need the "section" and "slug" of the routes to find the file.
@@ -25,6 +26,7 @@ const componentNameToLabelMap = {
 
 export default {
   components: {
+    GlAlert,
     GlNav,
     GlNavItem,
   },
@@ -35,11 +37,13 @@ export default {
   async asyncData({ $content, route, error }) {
     const path = getPathFromRoute(route);
 
-    const page = await $content(path)
-      .fetch()
-      .catch((e) => {
-        error({ statusCode: 404, path, message: `${path} not found`, stack: e.stack });
-      });
+    let page = null;
+
+    try {
+      page = await $content(path).fetch();
+    } catch (e) {
+      error({ statusCode: 404, path, message: `${path} not found`, stack: e.stack });
+    }
 
     if (Array.isArray(page)) {
       error({
@@ -51,9 +55,19 @@ export default {
 
     return { page };
   },
+  data() {
+    return {
+      page: {},
+    };
+  },
   head() {
     return {
       title: this.page.name,
+      meta: buildMeta({
+        titleChunk: this.page.name,
+        path: this.page.path,
+        description: this.page.description,
+      }),
     };
   },
   computed: {
@@ -140,19 +154,18 @@ export default {
 <template>
   <div class="container gl-py-7">
     <div class="md typography gl-mb-5">
-      <h1 id="skipTarget" tabindex="-1">{{ page.name }}</h1>
-      <div
-        v-if="page.deprecated"
-        role="alert"
-        class="gl-bg-orange-50 gl-px-5 gl-py-3 gl-mb-3 gl-display-flex gl-align-items-center"
-      >
-        <span class="gl-text-orange-600 gl-mr-3">⚠️</span>
-        Please refrain from using this component - it is about to be deprecated!
+      <h1 id="skipTarget" class="gl-heading-display !gl-mb-4 !gl-mt-0" tabindex="-1">
+        {{ page.name }}
+      </h1>
+      <div v-if="page.deprecated" class="app-styles gl-mb-3">
+        <gl-alert :dismissible="false" variant="warning">
+          Please refrain from using this component - it is about to be deprecated!
+        </gl-alert>
       </div>
       <p v-if="page.description">{{ page.description }}</p>
     </div>
     <div v-if="showTabs" class="app-styles">
-      <gl-nav class="gl-tabs-nav gl-mb-5!">
+      <gl-nav class="gl-tabs-nav !gl-mb-5">
         <gl-nav-item
           v-for="tab in tabs"
           :key="tab.route"
@@ -170,7 +183,7 @@ export default {
       :component-label="componentLabel"
       :foundation-label="page.foundationLabel"
     />
-    <p v-if="lastUpdatedAt" class="row gl-justify-content-center gl-mt-5">
+    <p v-if="lastUpdatedAt" class="gl-mt-5 gl-text-center">
       Last updated at:&nbsp;<time :datetime="lastUpdatedAt">{{ lastUpdatedAt }}</time>
     </p>
   </div>

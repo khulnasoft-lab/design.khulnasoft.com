@@ -15,13 +15,48 @@ Icons take inspiration from elements expressed as part of the GitLab brand.
 - **Crisp and intentional.** Icon elements should have purpose and place.
 - **Simple and concise.** Design to minimize time to comprehension. In the same way the concept of “invisible UI” moves a user to task completion without getting hung up on visual elements or controls, icons should move users to concept and action without extra time spent deciphering a metaphor.
 
-## Layout
+## Icon collections
 
-### Pixel grid
+There are four icon collections used in the product (not including the Web IDE): UI, status, pipeline, file and folder icons. The design guidelines covered in the sections below only apply to UI and status icons.
 
-Icon elements are aligned to the pixel grid. Elements within an icon, such as curves or diagonal lines, won’t always align exactly to the grid, and in these instances it’s better for the element to feel natural rather than forced.
+<div class="row">
+  <div class="col col-25">
+    <figure-img alt="Example UI icon" label="UI" src="/img/icons-collection-ui.svg"></figure-img>
+  </div>
+  <div class="col col-25">
+    <figure-img alt="Example status icon" label="Status" src="/img/icons-collection-status.svg"></figure-img>
+  </div>
+  <div class="col col-25">
+    <figure-img alt="Example pipeline icon" label="Pipeline" src="/img/icons-collection-pipeline.svg"></figure-img>
+  </div>
+  <div class="col col-25">
+    <figure-img alt="Example file icon" label="File and Folder" src="/img/icons-collection-file-folder.svg"></figure-img>
+  </div>
+</div>
+
+### UI icons
+
+As the largest of the four collections, comprising of several subcategories, these icons are used broadly in the product to represent GitLab concepts and indicate actions and information in the UI. UI icons can be interactive or informational depending on the context. Third-party brand icons are included in this collection, but are exempt from most design guidelines.
+
+### Status icons
+
+These smaller icons complement text or relevant content to indicate the general status, health, or the trend direction of an object. Due to their small size, these icons aren’t interactive unless paired with text or contained within an element, like a [badge](/components/badge) component, giving them a larger target size. These icons are prefixed with [status-](https://gitlab-org.gitlab.io/gitlab-svgs/?q=status-).
+
+### Pipeline icons
+
+These icons represent the status of a pipeline, like running and pending. There are both bordered and borderless versions of each icon. They use a separate grid from all other icons and are also used to generate favicons associated with web pages. Although a pipeline status can overlap conceptually with status elsewhere in the product, these icons are strictly limited to the pipeline context. These icons are prefixed with [status_](https://gitlab-org.gitlab.io/gitlab-svgs/?q=status_).
+
+### File and folder type icons
+
+These third-party icons have specific file and language associations, like SCSS, JavaScript, and YAML, and are maintained under a separate MIT license. More information can be found in the [project repository](https://github.com/PKief/vscode-material-icon-theme).
+
+## Icon grids
+
+Icon elements are aligned to a pixel grid. Elements within an icon, such as curves or diagonal lines, won’t always align exactly to the grid. This is okay; in these instances it’s better for the element to feel natural rather than forced.
 
 Alignment considerations for a **1.5px** stroke are covered in the [Strokes](#strokes) section below.
+
+In nearly all instances icons should be used at the size they were created at and not scaled. This keeps the icons crisp and consistent in the UI.
 
 | **Do** | **Don’t** |
 | :---: | :---: |
@@ -29,7 +64,7 @@ Alignment considerations for a **1.5px** stroke are covered in the [Strokes](#st
 
 ### 16 pixel grid
 
-The **16px** icon size is the default, and most icons are created at this size. Icons that use a **16×16 pixel** base grid have a **14px** live area surrounded on all sides by **1px** for padding and optical sizing.
+The **16px** icon size is the default, and most UI icons are created at this size. Icons using this **16×16 pixel** grid have a **14px** live area surrounded on all sides by **1px** for padding and optical sizing.
 
 <div class="row">
   <div class="col col-33">
@@ -45,7 +80,7 @@ The **16px** icon size is the default, and most icons are created at this size. 
 
 ### 12 pixel grid
 
-The **12px** icon size is used for small, complimentary icons commonly used to indicate status where text or other context is available. Due to their small target size, these icons aren’t interactive unless paired with text or within a larger element. Icons that use a **12×12 pixel** base grid have a **10px** live area surrounded on all sides by **1px** for padding and optical sizing.
+The **12px** grid is used for all status icons, and some UI icons. Icons using this **12×12 pixel** grid have a **10px** live area surrounded on all sides by **1px** for padding and optical sizing.
 
 <div class="row">
   <div class="col col-33">
@@ -59,10 +94,6 @@ The **12px** icon size is used for small, complimentary icons commonly used to i
   </div>
 </div>
 
-### Scaling
-
-In nearly all instances icons should be used at the size they were created at and not scaled. This keeps the icons crisp and consistent in the UI.
-
 ## Keylines
 
 A keyline grid is a set of guides to help maintain [optical balance](#optical-balance) (visual weight) between icons. Use it as a starting point and guide, but not a hard rule. There are four basic shapes that represent common icon scale and placement. Squares can fill the live area, while circles and rectangles can extend into the padding, which allows icons to be proportionately consistent.
@@ -73,19 +104,21 @@ A keyline grid is a set of guides to help maintain [optical balance](#optical-ba
 
 <figure-img alt="Icon keyline examples" label="Keyline icon examples" src="/img/icons-keyline-examples.svg"></figure-img>
 
+<todo>Add 12px grid keylines.</todo>
+
 ### Optical balance
 
 In regard to icons, optical balance is the perceived size of an icon relative to other icons. The more that icons feel balanced with one another, the easier it will be to rely on other characteristics to provide visual hierarchy and flow in the UI. Icons that are not balanced can draw unnecessary attention to themselves, or seemingly disappear in the mix of other elements.
 
 Here are a few considerations when trying to achieve optical balance.
 
-- More detail equals more visual weight. As the *density* of the graphic increases, it will draw more attention. Try offsetting this by scaling detailed icons down.
-- Rotate narrow icons 45º, which allows them to scale and have more visual weight.
+- More detail equals more visual weight. As the *density* of the graphic increases, it will draw more attention. Try offsetting this by simplifying detailed icons.
+- Rotate narrow icons 45º, which gives them more visual weight.
 - At times, optically adjusting an icon may mean less adherence to the grid or other spacing rules to the benefit of balance or clarity.
 
 ## Strokes
 
-All icons use a **1.5px** stroke weight. Lines use rounded caps, unless doing so would misrepresent the metaphor, or if you are trying to infer depth or element clipping. Round line joins are optional and also depend on the metaphor. For example, a checkmark is one continuous object and the round line infers fluidity, whereas clock hands are two joined objects and a miter join defines a joint.
+Nearly all UI icons use a **1.5px** stroke weight. Lines use rounded caps, unless doing so would misrepresent the metaphor, or if you are trying to infer depth or element clipping. Round line joins are optional and also depend on the metaphor. For example, a checkmark is one continuous object and the round line infers fluidity, whereas clock hands are two joined objects and a miter join defines a joint.
 
 A **1.5px** stroke:
 
@@ -110,6 +143,10 @@ Since icons use a **1.5px** stroke, there are a few alignment considerations:
     <figure-img alt="Line with mitar (square) join" label="Line with mitar join" src="/img/icons-line-miter.svg"></figure-img>
   </div>
 </div>
+
+## Fills
+
+Using a stroke (outline) is the default design approach, however a limited number of UI icons and all status icons use a solid fill instead. As a general rule, UI icons that use a solid fill have a specific reason for doing so. For example, the [clear](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~clear) (×) icon used to clear a text input requires extra visual weight to not be missed in the UI, and thus has a solid fill applied.
 
 ## Border radius
 
@@ -212,11 +249,12 @@ Avoid using different icons to refer to one specific meaning. For example, [penc
 
 #### Icons with multiple meanings
 
-There are, however, several icons whose design doesn't match a single metaphor, but multiple. In these cases, meaning must be provided in context. Examples of these cases are: 
+There are, however, several icons whose design doesn't match a single metaphor, but multiple. In these cases, meaning must be provided in context. Examples of these cases are:
 
-- An '×' icon in a close button on a modal can also represent a failed status.
 - An 'eye' icon to indicate a confidential issue can also be used to show a password, or to view a preview of an object.
 - A 'chevron' icon in a [dropdown button](/components/button#dropdown-buttons) can also represent the expanded state of an [accordion](/components/accordion).
+- An '×' icon can indicate a failed status or, when used as a button, closing a modal window or removing a connection between objects.
+- A [remove](https://gitlab-org.gitlab.io/gitlab-svgs/?q=~remove) icon typically represents permanently deleting an object or, in the case of tokens, revoking access.
 
 In addition to context, ensure that `aria-label` attributes and/or tooltips are used to communicate the icon meaning.
 
@@ -243,7 +281,7 @@ Existing [GitLab SVGs icons](http://gitlab-org.gitlab.io/gitlab-svgs/) haven't h
 - When an icon represents a recognizable object, use the name of the object. For example, an icon of a pencil that represents editing is named 'pencil'.
 - When an icon represents an abstract metaphor or concept, choose a name that best represents the concept or use case. For example, an icon made of stacked shapes to represent an epic is named 'epic'.
 - The file name should be lowercase and use hyphens as a separator between terms. For example, 'cloud-gear'.
-- Icons in the [GitLab Product Icons](https://www.figma.com/community/file/1051267829358377715) Figma file contain keywords and usage details in the component description (each icon is a component) to help unite naming with use and concepts. We hope to eventually have similar capabilities in the [GitLab SVGs](http://gitlab-org.gitlab.io/gitlab-svgs/) website. 
+- Icons in the [GitLab Product Icons](https://www.figma.com/community/file/1051267829358377715) Figma file contain keywords and usage details in the component description (each icon is a component) to help unite naming with use and concepts. We hope to eventually have similar capabilities in the [GitLab SVGs](http://gitlab-org.gitlab.io/gitlab-svgs/) website.
 
 ## Usage
 

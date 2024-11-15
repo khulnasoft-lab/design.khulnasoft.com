@@ -1,50 +1,35 @@
 table:not(.pika-table):not(.gl-table) {
   width: 100%;
-  color: $text-color;
-  border: $border-width solid $border-color;
+  color: var(--gl-text-color-default);
+  border: 1px solid var(--gl-border-color-default);
   border-collapse: collapse;
   text-align: left;
-  @extend .gl-mb-6;
+  @apply gl-mb-6;
 
   thead {
-    background: $gray-50;
-    border-bottom: ($border-width * 2) solid $border-color;
+    background-color: var(--gl-background-color-subtle);
 
     th {
-      font-weight: $font-weight--bold;
+      font-weight: $gl-font-weight-bold;
     }
   }
 
   th,
   td {
-    border: $border-width solid $border-color;
+    border: 1px solid var(--gl-border-color-default);
     padding: $gl-spacing-3;
-    font-weight: $font-weight--normal;
+    font-weight: $gl-font-weight-normal;
 
     &.header {
-      font-weight: $font-weight--bold;
-      background: $gray-50;
+      font-weight: $gl-font-weight-bold;
+      background-color: var(--gl-background-color-subtle);
     }
-  }
-
-  td.f-bold{
-    font-weight: $font-weight--bold;
   }
 }
 
 th,
 td {
   vertical-align: top;
-}
-
-.status-table {
-  table-layout: fixed;
-
-  th {
-    position: sticky;
-    top: -2px;
-    z-index: 100;
-  }
 }
 
 // Compact table

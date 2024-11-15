@@ -5,27 +5,29 @@ related:
   - dropdown-disclosure
   - button
   - accordion
+components:
+  - base-dropdown-collapsible-listbox
 ---
 
 ## Examples
 
-<story-viewer component="base-new-dropdowns-listbox" title="Simple listbox"></story-viewer>
+<story-viewer component="base-dropdown-collapsible-listbox" title="Simple listbox"></story-viewer>
 
-<story-viewer component="base-new-dropdowns-listbox" story="header-and-footer" args-block="false" title="Listbox with header and footer actions"></story-viewer>
+<story-viewer component="base-dropdown-collapsible-listbox" story="header-and-footer" args-block="false" title="Listbox with header and footer actions"></story-viewer>
 
-<story-viewer component="base-new-dropdowns-listbox" story="header-actions" args-block="false" title="Listbox with header action"></story-viewer>
+<story-viewer component="base-dropdown-collapsible-listbox" story="header-actions" args-block="false" title="Listbox with header action"></story-viewer>
 
-<story-viewer component="base-new-dropdowns-listbox" story="groups" args-block="false" title="Listbox with groups"></story-viewer>
+<story-viewer component="base-dropdown-collapsible-listbox" story="groups" args-block="false" title="Listbox with groups"></story-viewer>
 
-<story-viewer component="base-new-dropdowns-listbox" story="searchable" title="Listbox with search"></story-viewer>
+<story-viewer component="base-dropdown-collapsible-listbox" story="searchable" title="Listbox with search"></story-viewer>
 
-<story-viewer component="base-new-dropdowns-listbox" story="searchable-groups" title="Listbox with searchable groups"></story-viewer>
+<story-viewer component="base-dropdown-collapsible-listbox" story="searchable-groups" title="Listbox with searchable groups"></story-viewer>
 
-<story-viewer component="base-new-dropdowns-listbox" story="custom-list-item" title="Listbox with custom list option"></story-viewer>
+<story-viewer component="base-dropdown-collapsible-listbox" story="custom-list-item" title="Listbox with custom list option"></story-viewer>
 
 <note>Listbox styles will be updated to match the UI kit.</note>
 
-[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-14&mode=dev)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-14&mode=design)
 
 ## Structure
 
@@ -34,7 +36,7 @@ related:
 1. **Text input or button**: Triggers the panel to open or close.
 1. **Panel**: Wraps the content.
 1. **Header** (optional): Provides more context for the options.
-1. **Header action** (optional, within header for multiselect only): Changes the selected state of all options.
+1. **Header action** (optional): Changes the selected state of options.
 1. **Listbox**: A group of options.
 1. **Option**: Item available for selection.
 1. **Scrim**: Gradient overlay when items overflow the panel.
@@ -59,6 +61,9 @@ related:
 
 ### Variants
 
+There are two combobox variants that vary based on how they are triggered, whether through a button or a text input.
+See [diagram](/components/dropdown-overview#which-component-should-you-use) for additional help in choosing between them.
+
 - **Collapsible listbox** (`GlCollapsibleListbox`, most common): A button triggers a panel of single or multiselect options.
 - **Combobox** (`GlFormCombobox`): A text input triggers a panel of options. An optional button next to the input can also trigger the panel.
 
@@ -76,7 +81,11 @@ A [button](/components/button) that triggers a combobox comes in a few variants 
 
 ### Behavior
 
-- By default, the panel opens below and is aligned to the left of the text input or button. However, when there isn't enough space in the viewport, the panel uses edge detection to position it above and/or aligned to the right of the text input or button.
+- By default, the panel opens below the trigger button and is aligned to the left of it.
+- The panel can be positioned to the right of the trigger button if it makes more sense in the layout.
+- When there isn't enough space in the viewport, the panel uses edge detection to position it above and/or aligned to the right of the trigger button.
+- When the panel boundaries don't allow it to flip to the other side of the trigger button because there isn't enough space, it shifts along the x-axis.
+- There will always be some padding between the vertical edges of the panel and the vertical edges of the viewport.
 - The tip of the panel points at the trigger and is center-aligned with it by default.
 - If the content within the panel exceeds the maximum height then a scrim (gradient overlay) appears at the bottom of the panel as an overflow affordance. When a user has scrolled to the bottom of the overflowed content the scrim is removed.
 - A panel is closed by clicking outside of it, using the <kbd>Esc</kbd> key, or by focus moving to an element outside of the component.
@@ -108,7 +117,7 @@ A [button](/components/button) that triggers a combobox comes in a few variants 
 - Within a listbox:
   - Section titles can categorize options into meaningful groups.
   - Option text should be concise and clearly indicate the choice it represents.
-  - When possible, the order of options should follow numeric (Option 1, Option 2, Option 3…), alpha (Option A, Option B, Option C…), or natural (Option 1–3, Option 4–7, Option 8–11…) ordering. 
+  - When possible, the order of options should follow numeric (Option 1, Option 2, Option 3…), alpha (Option A, Option B, Option C…), or natural (Option 1–3, Option 4–7, Option 8–11…) ordering.
 - Actions within a footer should be concise and relate to the options.
 
 ### Accessibility

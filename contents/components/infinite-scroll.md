@@ -1,6 +1,7 @@
 ---
 name: Infinite scroll
 description: Infinite scroll helps users parse a large number of items by breaking up lists and distributing the results.
+deprecated: true
 components:
   - base-infinite-scroll
 related:
@@ -29,10 +30,12 @@ related:
 
 ## Guidelines
 
+Based on an [accessibility evaluation](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/1196), there are accessibility concerns for infinite scrolling and it should be replaced with a [load more pattern](/usability/loading#loading-more) or [pagination](/components/pagination).
+
 ### When to use
 
-- A list with content that updates frequently. 
-- A list when there is no sort/filter functionality. 
+- A list with content that updates frequently.
+- A list when there is no sort/filter functionality.
 
 ### When not to use
 
@@ -40,7 +43,7 @@ related:
 
 ### Behavior
 
-- Infinite scroll is triggered once the user has reached the 20th item of a list and there are more items to load. 
+- Infinite scroll is triggered once the user has reached the 20th item of a list and there are more items to load.
 - A [loading spinner](/components/spinner) appears at the bottom of the list for the duration of the load time.
 - When a user returns to a list from a list entry using the back button in the browser, they should be returned to the same place in the list where they left off.
 

@@ -19,11 +19,12 @@ description: Socks represent a unique way to warm your feet.
 - To create separation between your feet and your shoes.
 - To show off your quirky personality.
 - To walk around the house without waking up anyone.
+- To free your house-elf.
 
 ### When not to use
 
 - If you're walking on a beach.
-- If you're swimming. 
+- If you're swimming.
 - If you're getting a pedicure.
 - If you're an aspiring foot model.
 - If walking outside, consider using [slippers](https://gitlab-com.gitlab.io/marketing/digital-experience/slippers-ui/).

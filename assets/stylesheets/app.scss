@@ -1,34 +1,25 @@
 @import 'variables';
+@import '@gitlab/ui/src/tokens/build/css/tokens.css';
+@import '@gitlab/ui/src/tokens/build/css/tokens.dark.css';
 @import '@gitlab/ui/src/scss/variables';
-@import '@gitlab/ui/src/scss/utility-mixins';
+@import '@gitlab/ui/src/scss/mixins';
 
 @import 'utilities/mixins';
 
 @import 'framework/fonts';
 @import 'framework/base';
-@import 'framework/color';
 @import 'framework/skip-link';
 @import 'framework/content';
 @import 'framework/footer';
 @import 'framework/logo';
 @import 'framework/navbar';
 @import 'framework/sidebar';
-@import 'framework/sizing';
 @import 'framework/typography';
 
-@import 'components/card';
-@import 'components/logo';
 @import 'components/table';
 
-@import 'pages/index';
-@import 'pages/p_baseline-grid';
-@import 'pages/p_spacing';
-
-@import 'pages/p-color';
-@import 'pages/p_components';
+@import 'pages/homepage';
 @import 'pages/p_icons_explorer';
-
-@import '@gitlab/ui/src/scss/utilities';
 
 /**
 Import GitLab UI component styles.

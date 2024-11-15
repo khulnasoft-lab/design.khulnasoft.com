@@ -23,7 +23,7 @@ related:
 
 <todo>Add responsive table examples.</todo>
 
-[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-11&mode=dev)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-11&mode=design)
 
 ## Structure
 
@@ -36,15 +36,15 @@ related:
    - [arrow-down](http://gitlab-org.gitlab.io/gitlab-svgs/?q=~arrow-down) icon for sorting descending.
 1. **Body cell**: Supports text, buttons, links, and text accompanied by other common elements like an avatar or icon.
 
-## Guidelines 
+## Guidelines
 
-### When to use 
+### When to use
 
-- Display tabular data for comparison. 
+- Display tabular data for comparison.
 - Display structured content, where each entry has the same attributes.
 - Let users review, enter, edit, or filter granular data sets.
 - Display a data set that will continue to grow (e.g. Issues, Environments, and User Profile pages).
- 
+
 ### When not to use
 
 - Create page layout or design structure.
@@ -56,15 +56,15 @@ related:
 
 - **Basic**: A basic table is the default option for this component, however, additional functionality can be added to enhance the table for different use cases.
 - **Striped**: A striped table adds zebra-striping to the entire table, starting with the the header row. The alternating row background colors can be helpful to differentiate row content.
-- **Condensed**: A condensed table cuts the body cell padding in half. Use a condensed table when the content presented is data heavy and text only. For example, displaying log files. 
+- **Condensed**: A condensed table cuts the body cell padding in half. Use a condensed table when the content presented is data heavy and text only. For example, displaying log files.
 
-### Appearance 
+### Appearance
 
 - Tables work across multiple screen sizes and conform to [responsive guidelines](/components/table/#responsiveness).
 - Tables take up the full width of their container element. However, it is important to note that wide tables make it difficult to read and scan small amounts of content, because the data is widely separated. For legibility, ensure content is laid out and aligned properly.
 - Don’t simply shrink an entire table to fit the viewport or apply a fixed width to a table to the point that it compromises legibility. The same way stretching tables 100% to the width of the viewport is not recommended, a small, shrunken table view can create a cluttered interface. Use a responsive table view instead.
 - Order the table content by importance, based on the information needs of your users.
-- Text in tables tends to end up in narrow columns. Left-align text content, rather than justifying or centering it, to avoid confusion or readability issues. 
+- Text in tables tends to end up in narrow columns. Left-align text content, rather than justifying or centering it, to avoid confusion or readability issues.
 - The **label** [text styles](/product-foundations/type-fundamentals#type-scales) are used for product tables since the content is more data rich and requires less line height.
 - The **paragraph** [text styles](/product-foundations/type-fundamentals#type-scales) are used for Markdown tables in GitLab issues, merge requests, and documentation.
 - In some circumstances, right-aligning the text content helps with readability. For example, right-align the numeric data with a consistent number of decimal places to improve scannability.
@@ -72,28 +72,28 @@ related:
 - Use white space in tables to improve [scannability](https://www.nngroup.com/articles/how-users-read-on-the-web/), visually separating data elements so that each can be individually identified and read as separate from the others.
 - To help with styling, use horizontal lines between rows to visually separate content, including the last row item. Avoid any border or frame surrounding the table. Do not style tables to look like nets, with every number enclosed.
 - Do not apply vertical lines between columns. In general, tables without vertical lines look better and are easier to scan and read.
-- By default, row content is vertically `top` aligned. However, in some cases it does makes sense to vertically `center` align content. Use your best judgement on when this is an exception. 
-- As general rule, consider that alignment within a table is more important than consistency from table to table. 
+- By default, row content is vertically `top` aligned. However, in some cases it does makes sense to vertically `center` align content. Use your best judgement on when this is an exception.
+- As general rule, consider that alignment within a table is more important than consistency from table to table.
 
 |                                                                                                                                                                             **Do**                                                                                                                                                                             |                                                                                                                                                                             **Don’t**                                                                                                                                                                             |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | <figure-img alt="A table row example with multiple lines that wrap with a green line highlighting the top alignment" label="Table row content vertially aligned to top" src="/img/table-valign-top-do.svg"></figure-img> | <figure-img alt="An incorrect table row example with a single line with a red line highlighting the middle alignment" label="Icon not horizontally aligned to the pixel grid" src="/img/table-valign-top-dont.svg"></figure-img> |
 
-### Behavior 
+### Behavior
 
 #### Search & filter
 
-- Any filtering controls that manipulate the data set should be placed directly above the table with the option to clear all data. [See filter guidelines](/components/filter).
+Any filtering controls that manipulate the data set should be placed directly above the table with the option to clear all data. [See filter guidelines](/components/filter).
 
 #### New row
 
-- When a new row is dynamically added by the system, the background color of the row should be set to `$green-50` in order to highlight the addition.
+When a new row is dynamically added by the system, the background color of the row should be set to `$green-50` in order to highlight the addition.
 
 #### Ordering & sorting
 
 - Sorting is designed as a native functionality of tables. Tables use column sorting rather than [list sorting](/components/sorting).
 - The default sort direction of a table is usually ordered by one specific column attribute, such as status, last updated, or priority. Sorting is indicated in the table header using the [arrow down](https://gitlab-org.gitlab.io/gitlab-svgs/?q=arrow-down) and [arrow up](https://gitlab-org.gitlab.io/gitlab-svgs/?q=arrow-up) icons.
-- Clicking the icon will sort the rows based on the selected column, in ascending order first, and subsequently toggling between ascending and descending order.
+- Clicking the column header will sort the rows based on the selected column, in ascending order first, and subsequently toggling between ascending and descending order.
 - Sorting can be disabled to prevent users from changing the sorting order of a column. The default order will utilize one specific attribute.
 - The sorting icon and functionality should not be visible on responsive tables.
 - To enable sorting for a particular table column, add `sortable` as a property in your `fields` data, like so:
@@ -117,7 +117,7 @@ fields: [
 #### Additional actions
 
 - A table row can include additional actions in the far-right column.
-- These actions should be visible at all times rather than showing on-hover. 
+- These actions should be visible at all times rather than showing on-hover.
 - If there are two or more actions in a table row, consider using a button group or a [“more menu” button](/components/button#ellipsis) with a dropdown list option.
 
 #### Responsiveness
@@ -139,7 +139,8 @@ If table cells needs to be navigable (not just some of the content within), cons
 ### Content
 
 #### Caption
-- A `<caption>` provides a meaningful description for a table.
+
+A `<caption>` provides a meaningful description for a table.
 
 #### Header
 
@@ -149,15 +150,15 @@ If table cells needs to be navigable (not just some of the content within), cons
 
 #### Columns
 
-- Columns should be ordered by priority or in a way that tells a story with the data. Size columns according to the data they contain rather than making them all an even width. For example, columns of small content should be narrow, while columns of paragraphs should be relatively wide. Allow the browser to lay out the tables according to the viewport size.
+Columns should be ordered by priority or in a way that tells a story with the data. Size columns according to the data they contain rather than making them all an even width. For example, columns of small content should be narrow, while columns of paragraphs should be relatively wide. Allow the browser to lay out the tables according to the viewport size.
 
 #### Rows
 
-- Rows can have a mix of read-only and editable cells with content populated by users. See [additional actions](#additional-actions) on table rows.
+Rows can have a mix of read-only and editable cells with content populated by users. See [additional actions](#additional-actions) on table rows.
 
 #### Empty state
 
-- A table's empty state displays when there is no data, yet. [See empty states guidelines](/patterns/empty-states)
+A table's empty state displays when there is no data, yet. [See empty states guidelines](/patterns/empty-states)
 
 #### Null values
 
@@ -167,9 +168,9 @@ Representing null values should be made on a case-by-case basis. Some ways of ad
 - Use text to indicate what is missing. For example, "Unassigned" if there is no assignee.
 - Use a dash ("-"). For example, if there is no data and a text explanation is not applicable.
 
-#### Truncation
+#### Long content
 
-- Truncate long text strings with an ellipsis (“…”). On hover, the truncated text should display a tooltip including the full text. [See tooltip guidelines](/components/tooltip)
+Lengthy content should be truncated according to the [layout guidelines](/product-foundations/layout#truncation).
 
 ### Accessibility
 

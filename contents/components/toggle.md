@@ -19,7 +19,7 @@ related:
 
 <story-viewer component="base-toggle" story="label-position-left" title="Label positioned left"></story-viewer>
 
-[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-140&mode=dev)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-140&mode=design)
 
 ## Structure
 
@@ -80,3 +80,15 @@ related:
 
 - The `gl-toggle` component requires an `id`, which is used in the `aria-labeledby` attribute value.
 - Use `aria-describedby` to associate the description and help text with the toggle for a screen reader user.
+
+#### Toggle with label
+
+```html
+<gl-toggle v-model="notifications" :label="__('Notifications')" />
+```
+
+#### Toggle with hidden label
+
+```html
+<gl-toggle v-model="notifications" :label="__('Notifications')" label-position="hidden" />
+```

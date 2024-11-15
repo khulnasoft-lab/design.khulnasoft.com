@@ -13,7 +13,7 @@ related:
 
 <story-viewer component="base-broadcast-message" title="Default broadcast message"></story-viewer>
 
-[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-6&mode=dev)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-6&mode=design)
 
 ## Structure
 
@@ -49,7 +49,7 @@ Contains a small amount of text content that uses the container width when user 
 
 ### Placement
 
-- Located at the top of the page, above the [global navigation](/patterns/navigation).
+- At the top of every page.
 - Multiple broadcast messages stack vertically.
 
 ### Accessibility

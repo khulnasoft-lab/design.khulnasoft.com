@@ -1,10 +1,11 @@
 ---
-name: Objects overview
+name: Overview
 ---
 
 Objects are the building blocks of GitLab. They exist within users' mental models for our product, and are consistently referenced across all levels of the product stack: database, code, user interface (UI), documentation, customer support, sales, marketing, and more.
 
 Examples of objects from products you may know:
+
 * Facebook: friend, post, message, event, page, group.
 * Airbnb: listing, host, guest, trip, experience.
 * Slack: team, member, channel, message, reaction, thread.
@@ -45,7 +46,7 @@ For each object, we document its _attributes_, _actions_, and how it relates to 
 
 ### Semantic layouts
 
-Objects can be presented in the UI through different visual layouts. To give meaning to each part of those visual layouts, from the smallest [components](/components/overview) to the largest regions, we can document them as “semantic layouts”. In practice, a semantic layout places the objects (and their relationships, attributes, and actions) over the layout, so we can see their meaning and purpose. As an example, see the [merge request semantic layout](/objects/merge-request#semantic-layout).
+Objects can be presented in the UI through different visual layouts. To give meaning to each part of those visual layouts, from the smallest [components](/components) to the largest regions, we can document them as “semantic layouts”. In practice, a semantic layout places the objects (and their relationships, attributes, and actions) over the layout, so we can see their meaning and purpose. As an example, see the [merge request semantic layout](/objects/merge-request#semantic-layout).
 
 ## Contribute
 
@@ -53,6 +54,6 @@ To add or update an object's documentation, conceptual model, or semantic layout
 
 ## Learn more
 
-- The role of objects in a design system: [“The full stack design system”](https://www.intercom.com/blog/the-full-stack-design-system/)
-- Primer on conceptual models: [“Object Modeling for Designers”](https://medium.com/@hpadkisson/object-modeling-for-designers-an-introduction-7871bdcf8baf)
-- Deep-dive on conceptual models and their role in an interaction design framework: “UX Magic” [book](https://www.amazon.com/UX-Magic-Daniel-Rosenberg-ebook/dp/B083QJ8RZ2), [14-min overview article](https://medium.com/the-interaction-design-foundation/the-magic-of-semantic-interaction-design-1864ccafdc51), [1-hour master class](https://www.youtube.com/watch?v=CXkpjzEaHpU).
+* The role of objects in a design system: [“The full stack design system”](https://www.intercom.com/blog/the-full-stack-design-system/)
+* Primer on conceptual models: [“Object Modeling for Designers”](https://medium.com/@hpadkisson/object-modeling-for-designers-an-introduction-7871bdcf8baf)
+* Deep-dive on conceptual models and their role in an interaction design framework: “UX Magic” [book](https://www.amazon.com/UX-Magic-Daniel-Rosenberg-ebook/dp/B083QJ8RZ2), [14-min overview article](https://medium.com/the-interaction-design-foundation/the-magic-of-semantic-interaction-design-1864ccafdc51), [1-hour master class](https://www.youtube.com/watch?v=CXkpjzEaHpU).

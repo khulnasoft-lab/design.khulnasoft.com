@@ -19,7 +19,7 @@ related:
 
 <story-viewer component="base-badge" story="badge-icon" title="With icons"></story-viewer>
 
-[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=59780-92312&mode=dev)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=59780-92312&mode=design)
 
 ## Structure
 
@@ -43,19 +43,13 @@ related:
 
 ### Variants
 
-- **Neutral muted** (default): Metadata that requires the least amount of visual emphasis and has a neutral meaning.
-- **Neutral**: Metadata that has a neutral meaning.
-- **Info**: Metadata that's informative or new and also has a neutral meaning.
-- **Success**: Metadata that communicates success or completion with a positive meaning.
-- **Warning**: Metadata that requires attention and a slightly negative meaning.
-- **Danger**: Metadata that indicates a problem and has a negative meaning.
-- **Tier**: Metadata that indicates which product tier an entity belongs to
-
-### Sizes
-
-- **Small**: A small badge is ideal in condensed parts of the UI where space is limited.
-- **Medium** (default): Use the medium size where content has breathing room. The medium size also works well to provide sufficient affordance when only an icon is used.
-- **Large**: A large badge is used in headers or titles where there is ample space or the metadata needs additional prominence.
+- **Neutral muted** (default): Metadata that is stable and requires minimal emphasis. Has a neutral meaning.
+- **Neutral**: Metadata that is stable but special, or that requires moderate emphasis. Has a neutral meaning.
+- **Info**: Metadata that is noteworthy, or communicates a state of active progress. Has a neutral to slightly positive meaning.
+- **Success**: Metadata that is positive or desired. Has a clearly positive connotation.
+- **Warning**: Metadata that is sub-optimal but not critical. Has a slightly negative meaning.
+- **Danger**: Metadata that is critical or problematic. Has a strongly negative meaning.
+- **Tier**: Metadata that indicates which product tier an entity belongs to.
 
 ### Behavior
 
@@ -76,7 +70,7 @@ related:
 - When a badge only has an icon, the icon must use `aria-label` with text that identifies the metadata.
 - When an icon is present with text it must use `aria-hidden="true"` to avoid being announced by a screen reader.
 - When a badge is used as meta information to support content it's inline with, ensure that its meaning is clear. If necessary, add `sr-only` text after the badge. For example, `<gl-badge>9</gl-badge><span class="sr-only">to-do's</span>` clarifies what "9" quantifies.
-- If a badge isn't inline with the content it supports, use `aria-describedby="badgeID"` to associate the content with the badge, where `badgeID` is the unique ID of the badge. Note that `aria-describedby` support is mostly on focusable elements and headings. 
+- If a badge isn't inline with the content it supports, use `aria-describedby="badgeID"` to associate the content with the badge, where `badgeID` is the unique ID of the badge. Note that `aria-describedby` support is mostly on focusable elements and headings.
 
 ## Reference
 

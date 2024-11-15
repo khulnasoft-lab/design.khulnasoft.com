@@ -6,7 +6,6 @@ components:
 related:
   - button
   - path
-  - /patterns/navigation
   - infinite-scroll
 ---
 
@@ -22,7 +21,7 @@ related:
 
 <todo>Add or refactor examples to compare offset and keyset pagination.</todo>
 
-[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-130&mode=dev)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-130&mode=design)
 
 ## Structure
 
@@ -46,7 +45,6 @@ related:
 
 ### When not to use
 
-- If the content is not part of the same set, consider using [navigation](/patterns/navigation) instead.
 - If you need to navigate between steps in a flow, consider using the [path](/components/path) component or [buttons](/components/button) instead.
 
 ### Appearance

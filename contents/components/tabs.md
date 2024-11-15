@@ -16,7 +16,7 @@ related:
 
 <story-viewer component="base-tabs" story="with-counter-badges"></story-viewer>
 
-[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-138&mode=dev)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-138&mode=design)
 
 ## Structure
 
@@ -27,21 +27,21 @@ related:
 1. **Active indicator**: Highlights the active tab.
 1. **Label**: Text representing the content of the tab panel.
 1. **Badge** (optional): Counts the number of items within the tab panel.
-1. **Overflow indicator**: Chevron that dynamically appears on either side of the tab group when the combined tab width is greater than the tab group width. Enables scrolling to view tabs that aren't immediately visible. 
+1. **Overflow indicator**: Chevron that dynamically appears on either side of the tab group when the combined tab width is greater than the tab group width. Enables scrolling to view tabs that aren't immediately visible.
 1. **Tab panel**: Contains the content related to the active tab.
 
 ## Guidelines
 
 ### When to use
 
--  To show one content section at a time while maintaining a view of related options.
+- To show one content section at a time while maintaining a view of related options.
 
 ### When not to use
 
 - When presenting a filtered view of content, consider using the [filter](/components/filter) component instead.
 - If content from multiple tabs should be viewed at the same time, consider using an [accordion](/components/accordion) instead.
 - If content is part of a flow, consider using the [path](/components/path) component instead.
-- Avoid confusing tabs with navigation. Tabs help users remain in the same context; use [navigation](/patterns/navigation) for changing context.
+- Avoid confusing tabs with navigation. Tabs help users remain in the same context; use the [navigation-sidebar](/usability/navigation-sidebar) for changing context.
 
 ### Behavior
 
@@ -49,11 +49,13 @@ related:
 - Only one tab can be active at a given time.
 - Tabs may be nested with a maximum nesting of two levels. This pattern should only be considered as a last resort due to the complexity it creates both in code and for the user experience.
 - Each tab at the parent level should have its own unique URL. When determining whether to implement unique URLs for child tabs, consider whether or not a user would want to bookmark or link to the tabbed content.
+- Tabs should ideally scroll horizontally when adapting to the browser size or when a large number of tab buttons are needed.
+  - Currently, due to [technical limitations](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/base-tabs--docs#scrollable-tab-buttons), when adding buttons to the tab group, tabs will wrap when they overflow the container.
 
 ### Content
 
 - A text label should be concise and indicate what is in the related tab panel.
-- Text truncation is triggered for longer labels.
+- Truncate longer labels, showing the full text in a [tooltip](/components/tooltip).
 - Each tab can include a [badge](/components/badge) with a count of how many items the related tab panel contains.
   - If an “All” tab exists, it should have a badge that is the sum of the other tab badges.
   - A badge that includes a numeric count should be followed by a `<span>` with the `sr-only` class providing a text description of what's being counted.

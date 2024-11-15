@@ -15,7 +15,7 @@ related:
 
 <story-viewer component="base-label" story="with-close-button" title="With close"></story-viewer>
 
-[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-127&mode=dev)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-127&mode=design)
 
 ## Structure
 
@@ -29,7 +29,7 @@ related:
 
 ### When not to use
 
-- If displaying more generic object metadata that are not categories, consider using [badges](/components/badge). 
+- If displaying more generic object metadata that are not categories, consider using [badges](/components/badge).
 
 ### Variants
 

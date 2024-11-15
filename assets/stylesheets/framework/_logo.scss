@@ -1,34 +1,11 @@
 .logo {
-  border-radius: $border-radius;
-  color: currentColor;
-  display: flex;
-  gap: $gl-spacing-3;
-  padding: $gl-spacing-3;
-
-  strong {
-    font-size: 20px;
-    font-weight: $font-weight--bold;
-    line-height: 24px;
-
-    @include media-sm-up {
-      font-size: 22px;
-    }
-  }
-
-  small {
-    color: $gray-500;
-    display: none;
-    font-size: 12px;
-    margin-top: $gl-spacing-2;
-
-    @include media-sm-up {
-      display: block;
-    }
-  }
-
   &:hover,
   &:focus {
-    background-color: $gray-50;
+    background-color: var(--gl-action-neutral-background-color-hover);
     text-decoration: none;
+  }
+
+  &:active {
+    background-color: var(--gl-action-neutral-background-color-active);
   }
 }

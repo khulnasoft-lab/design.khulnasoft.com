@@ -4,9 +4,9 @@
 body,
 html {
   box-sizing: border-box;
-  line-height: ($base-grid * 2);
-  font-family: $font-family-sans;
-  color: $text-color;
+  line-height: 16px;
+  font-family: $gl-regular-font;
+  color: var(--gl-text-color-default);
   margin: 0;
 }
 
@@ -15,8 +15,8 @@ html {
   --default-bg: #{$white};
   --inverse-fg: var(--default-bg);
   --inverse-bg: var(--default-fg);
-  --indigo-fg: #{$t-indigo-200};
-  --indigo-bg: #{$t-indigo-800};
+  --indigo-fg: #{$theme-indigo-200};
+  --indigo-bg: #{$theme-indigo-800};
   --gray-fg: #{$gray-500};
   --gray-bg: #{$gray-10};
   --red-fg: #{$red-500};

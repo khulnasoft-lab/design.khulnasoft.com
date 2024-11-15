@@ -23,7 +23,7 @@ related:
 
 <story-viewer component="base-modal" story="without-a-footer" title="Without actions" iframe-padding="120px 0px"></story-viewer>
 
-[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-129&mode=dev)
+[View in Pajamas UI Kit →](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?type=design&node-id=425-129&mode=design)
 
 ## Structure
 
@@ -80,16 +80,16 @@ Clicking the "edit" button places a user in an "edit mode" for this row, which u
 - Focus should be placed on the modal title (read the [accessibility](#accessibility) notes for details).
 - Keyboard focus is contained in the modal while it remains open.
 - A modal can be dismissed by:
-    - Clicking on the **Close** button within it.
-    - Clicking on a **Cancel** button (or similar) within it. 
-    - The <kbd>Esc</kbd> key being pressed.
-    - Clicking outside of it.
+  - Clicking on the **Close** button within it.
+  - Clicking on a **Cancel** button (or similar) within it.
+  - The <kbd>Esc</kbd> key being pressed.
+  - Clicking outside of it.
 - When dismissed, focus returns to the referring control.
 
 ### Content
 
 - The header is either a question, a descriptive phrase, or title. The header also contains the close icon in every instance.
-- The content in the body should never be ambiguous and unclear. Strive to be as concise as possible and provide the user with specific information in regards to their task. Do not ask a vague question or pose a vague statement. Instead, explain what you are asking the user to do in a [voice and tone](/content/voice-and-tone) that's straightforward and easy to understand.
+- The content in the body should never be ambiguous and unclear. Strive to be as concise as possible and provide the user with specific information in regards to their task. Do not ask a vague question or pose a vague statement. Instead, explain what you are asking the user to do by using [UI text](/content/ui-text) that's straightforward and easy to understand.
 - There should be no more than 3 actions and no fewer than 1. Actions should always be located within an action bar at the bottom of the modal. Button order and positioning should follow our [guidelines for buttons](/components/button).
 - When labeling your actions, let the user know what will happen for each possible decision you are affording to them and be specific. For example, when asking the user to set their status, use "Set status" and "Remove status" instead of simply, "Save" and "Delete".
 - There should always be multiple ways to close/dismiss this type of modal, including allowing the user to click outside of the modal area or use the escape key. This is important as some modals can be tall and we want to avoid making the user scroll up to close a modal.

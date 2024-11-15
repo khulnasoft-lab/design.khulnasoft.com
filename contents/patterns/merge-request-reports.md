@@ -1,5 +1,6 @@
 ---
 name: Merge request reports
+summary: Widgets that convey information about merge request changes, helping authors and reviewers understand their impact and what needs to be improved.
 ---
 
 The merge request (MR) reports region includes a wide variety of widgets that report information about the MR changes, helping authors and reviewers understand their impact and what needs to be improved. The following guidelines systematize attributes like layout, hierarchy, and content sections, making the widgets consistent, scannable, and utilitarian. Widgets are designed to adapt to page layout (responsive), and future widgets will have patterns to follow. We provide constraints where possible, but ultimately a widget's unique purpose should define the extent of how the guidelines are applied.
@@ -124,36 +125,36 @@ Each widget has rules that determine its status. The icon at the top level of ea
 
 #### Level 1
 
-- <img class="gl-vertical-align-middle" src="/img/mr-status-failed-1.svg" alt="Failed status icon" role="img"> Failed
-- <img class="gl-vertical-align-middle" src="/img/mr-status-warning-1.svg" alt="Warning status icon" role="img"> Warning
-- <img class="gl-vertical-align-middle" src="/img/mr-status-success-1.svg" alt="Success status icon" role="img"> Success
-- <img class="gl-vertical-align-middle" src="/img/mr-status-neutral-1.svg" alt="Neutral status icon" role="img"> Neutral
-- <img class="gl-vertical-align-middle" src="/img/mr-status-loading-1.svg" alt="Loading status icon" role="img"> Loading ([spinner](/components/spinner))
+- <img class="gl-align-middle" src="/img/mr-status-failed-1.svg" alt="Failed status icon" role="img"> Failed
+- <img class="gl-align-middle" src="/img/mr-status-warning-1.svg" alt="Warning status icon" role="img"> Warning
+- <img class="gl-align-middle" src="/img/mr-status-success-1.svg" alt="Success status icon" role="img"> Success
+- <img class="gl-align-middle" src="/img/mr-status-neutral-1.svg" alt="Neutral status icon" role="img"> Neutral
+- <img class="gl-align-middle" src="/img/mr-status-loading-1.svg" alt="Loading status icon" role="img"> Loading ([spinner](/components/spinner))
 
 #### Level 2–3 general
 
-- <img class="gl-vertical-align-middle" src="/img/mr-status-failed.svg" alt="Failed status icon" role="img"> Failed
-- <img class="gl-vertical-align-middle" src="/img/mr-status-error.svg" alt="Error status icon" role="img"> Error
-- <img class="gl-vertical-align-middle" src="/img/mr-status-warning.svg" alt="Warning status icon" role="img"> Warning
-- <img class="gl-vertical-align-middle" src="/img/mr-status-notice.svg" alt="Notice status icon" role="img"> Notice
-- <img class="gl-vertical-align-middle" src="/img/mr-status-success.svg" alt="Success status icon" role="img"> Success
-- <img class="gl-vertical-align-middle" src="/img/mr-status-neutral.svg" alt="Neutral status icon" role="img"> Neutral
+- <img class="gl-align-middle" src="/img/mr-status-failed.svg" alt="Failed status icon" role="img"> Failed
+- <img class="gl-align-middle" src="/img/mr-status-error.svg" alt="Error status icon" role="img"> Error
+- <img class="gl-align-middle" src="/img/mr-status-warning.svg" alt="Warning status icon" role="img"> Warning
+- <img class="gl-align-middle" src="/img/mr-status-notice.svg" alt="Notice status icon" role="img"> Notice
+- <img class="gl-align-middle" src="/img/mr-status-success.svg" alt="Success status icon" role="img"> Success
+- <img class="gl-align-middle" src="/img/mr-status-neutral.svg" alt="Neutral status icon" role="img"> Neutral
 
 #### Level 2–3 severity
 
-- <img class="gl-vertical-align-middle" src="/img/mr-status-critical.svg" alt="Severity critical status icon" role="img"> Critical
-- <img class="gl-vertical-align-middle" src="/img/mr-status-high.svg" alt="Severity high status icon" role="img"> High
-- <img class="gl-vertical-align-middle" src="/img/mr-status-medium.svg" alt="Severity medium status icon" role="img"> Medium
-- <img class="gl-vertical-align-middle" src="/img/mr-status-low.svg" alt="Severity low status icon" role="img"> Low
-- <img class="gl-vertical-align-middle" src="/img/mr-status-info.svg" alt="Severity info status icon" role="img"> Info
-- <img class="gl-vertical-align-middle" src="/img/mr-status-unknown.svg" alt="Severity unknown status icon" role="img"> Unknown
+- <img class="gl-align-middle" src="/img/mr-status-critical.svg" alt="Severity critical status icon" role="img"> Critical
+- <img class="gl-align-middle" src="/img/mr-status-high.svg" alt="Severity high status icon" role="img"> High
+- <img class="gl-align-middle" src="/img/mr-status-medium.svg" alt="Severity medium status icon" role="img"> Medium
+- <img class="gl-align-middle" src="/img/mr-status-low.svg" alt="Severity low status icon" role="img"> Low
+- <img class="gl-align-middle" src="/img/mr-status-info.svg" alt="Severity info status icon" role="img"> Info
+- <img class="gl-align-middle" src="/img/mr-status-unknown.svg" alt="Severity unknown status icon" role="img"> Unknown
 
 ### Subject
 
 Since everything in a widget is technically content, identifying a specific _subject_ section allows us to focus on the text and meta information that identifies the item, what it means for a user, and how to remedy problems.
 
 - Section title, description, and meta information are optional, but the main text is required.
-- Follow the [voice and tone](/content/voice-and-tone) guidelines for writing all text content.
+- Follow the [UI text](/content/ui-text) guidelines for writing all text content.
 
 <figure-img alt="Merge request widget subject styles" label="Example options and formatting within the subject area with numbered markers corresponding to the list that follows" src="/img/mrw-subject.png"></figure-img>
 
@@ -188,10 +189,10 @@ The following provides guidance on roles, keyboarding, and content for screen re
 
 **Legend**
 
-- <img class="gl-vertical-align-middle" src="/img/a11y-annotation-region.svg" alt="Region marker" role="img"> Region
-- <img class="gl-vertical-align-middle" src="/img/a11y-annotation-tab-order.svg" alt="Tab order marker" role="img"> Tab order
-- <img class="gl-vertical-align-middle" src="/img/a11y-annotation-screen-reader.svg" alt="Screen reader marker" role="img"> Screen reader
-- <img class="gl-vertical-align-middle" src="/img/a11y-annotation-note.svg" alt="Note marker" role="img"> Note
+- <img class="gl-align-middle" src="/img/a11y-annotation-region.svg" alt="Region marker" role="img"> Region
+- <img class="gl-align-middle" src="/img/a11y-annotation-tab-order.svg" alt="Tab order marker" role="img"> Tab order
+- <img class="gl-align-middle" src="/img/a11y-annotation-screen-reader.svg" alt="Screen reader marker" role="img"> Screen reader
+- <img class="gl-align-middle" src="/img/a11y-annotation-note.svg" alt="Note marker" role="img"> Note
 
 ### Landmark
 
@@ -247,3 +248,16 @@ The widgets are organized in an unordered list, which has the benefit of providi
 
 1. The widget group is wrapped in a `<div>` that functions as a [landmark](#landmark).
 1. Each level is a `<ul>` with `<li>`s for individual reports. A title and description for a report are contained within that report’s `<li>`.
+
+## Content
+
+### Empty state
+
+Merge request report widgets use an adapted version of the [configuration required](/patterns/empty-states#configuration-required) empty state.
+
+- Use [level 1 layout](/patterns/merge-request-reports#level-1) with an info status icon.
+- Use a title and succinct description as the subject.
+
+<todo issue="https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1750">Add a visual example</todo>
+
+Note that different from other "configuration required" empty states, the action to configure a feature is presented in a tertiary confirm button. This is done to avoid distracting users from the merge workflow.

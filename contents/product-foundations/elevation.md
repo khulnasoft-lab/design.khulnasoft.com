@@ -41,9 +41,8 @@ Surfaces that need boundary definition and appear on hover. For example, [popove
 * [Popover](/components/popover)
 * [Date picker](/components/date-picker)
 * Dropdown
-    * [Disclosure](/components/dropdown-disclosure)
-    * [Combobox](/components/dropdown-combobox)
-    * [Menu](/components/dropdown-menu)
+  * [Disclosure](/components/dropdown-disclosure)
+  * [Combobox](/components/dropdown-combobox)
 * *Nagivation: Flyout Menus*
 * *Stacked elevation components*
 * *Cards when dragged*
@@ -84,7 +83,7 @@ Layers that need to appear above a layer with an existing elevation should follo
 
 ### Use case
 
-- Content scrolls beneath static elements
+* Content scrolls beneath static elements
 
 <figure-img label="Stacking layers example with elevation" src="/img/layers/layers-scrolling.png"></figure-img>
 
