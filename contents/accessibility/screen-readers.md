@@ -75,7 +75,7 @@ Screen reader users need clear guidance about form expectations and relationship
 
 ## Calls to action
 
-Although headings are one of the most common ways screen reader users navigate, many also do so by viewing a list of the links within a page ([WebAIM Screen Reader User Survey 10 Results](https://webaim.org/projects/screenreadersurvey10/#finding)). A call to action (CTA) should let users know what to expect when the action is taken or a link is followed. For example, "discover more about the app" is more clear than "read more."
+Although headings are one of the most common ways screen reader users navigate, many also do so by viewing a list of the links within a page ([WebAIM Screen Reader User Survey 10 Results](https://webaim.org/projects/screenreadersurvey10/#finding)). A call to action (CTA) should let users know what to expect when the action is taken or a link is followed. For example, "discover more about the app" is more clear than "read more".
 
 Repeated CTAs often make sense for visual users when the layout associates each with its own content block. When this is the case, consider using `aria-label` or `aria-describedby` to provide context for screen readers.
 
