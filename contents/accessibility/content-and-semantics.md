@@ -33,7 +33,7 @@ Plain language ensures communication is understood the first time users read or 
   - Use simpler alternatives when possible.
 - Long, complicated sentences:
   - Break into shorter, clearer sentences.
-  - Use bullet points for complex ideas.
+  - Use bullet points to communicate complex ideas.
   - Keep paragraphs focused on single topics.
 - Passive voice overuse:
   - Identify the actor in each sentence.

@@ -32,7 +32,7 @@ Alternative text provides crucial information about images to screen reader user
 
 ### Identifying problems
 
-- Missing `alt` attributes on images:
+- Missing `alt` attributes on an image:
   - Add appropriate alt text to all `img` elements.
   - Use empty alt (`alt=""`) for decorative images.
 - Redundant or uninformative alt text:
@@ -88,7 +88,7 @@ Repeated CTAs often make sense for visual users when the layout associates each 
 
 ### Identifying problems
 
-- Generic or ambiguous link text ("click here", "read more", "learn more"):
+- Generic or ambiguous link text such as "click here", "read more", or "learn more":
   - Replace with specific, descriptive text that indicates the destination.
   - Include the topic or subject in the link text.
   - Ensure the link makes sense when read out of context.
@@ -97,9 +97,9 @@ Repeated CTAs often make sense for visual users when the layout associates each 
   - Use `aria-describedby` to reference nearby descriptive text.
   - Consider combining similar CTAs when appropriate.
 - Non-interactive CTAs:
-  - Use semantic `<button>` or `<a>` elements.
+  - Use a semantic element such as `<button>` or `<a>`.
 - Unclear destination or action outcomes:
-  - Indicate when links open in new windows or tabs if the context doesn't make it clear.
+  - Indicate when a link opens in a new window or tab if the context doesn't make it clear.
   - Include file types and sizes for downloadable content.
 
 ## Page structure
