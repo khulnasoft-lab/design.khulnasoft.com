@@ -59,9 +59,7 @@ A `Blank content` empty state:
 
 - Appears when no content exists within a configured feature.
 - Contains a method for creating content.
-- Hides unnecessary UI elements, unless:
-  - Lazy loading is populating content.
-  - There's content on the page that’s hidden, but accessible through the UI (for example, archived content).
+- Hides unnecessary UI elements, unless there's content on the page that's hidden, but accessible through the UI (for example, archived content).
 
 #### Content
 
@@ -77,13 +75,6 @@ For Issue Analytics:
 > Create issues for projects in your group to track and see metrics for them.
 >
 > \[Create issue\]
-
-In cases where data is not yet available due to processing or loading, and the user cannot take any action in the process, encourage the user to try again later.
-For example, for Code Coverage:
-
-> **No code coverage data**
->
-> Code coverage results are not available. Try again later.
 
 ### Configuration required
 
