@@ -18,10 +18,10 @@ GitLab Duo is the suite of AI capabilities powering GitLab’s DevSecOps workflo
 
 <figure-img alt="GitLab Duo banner" src="/img/brand/gitlab-duo-hero.png"></figure-img>
 
-### Culture & Community
+### Team Expressions
 
-The Culture & Community style guide details the creative styling for internal GitLab teams, communities, departments, global locations, and team member resource groups (TMRGs).
+The Team Expressions style guide details the creative styling for internal GitLab teams, communities, departments, global locations, and team member resource groups (TMRGs).
 
-**[Culture & Community style guide](https://www.figma.com/proto/yrIimnhvjBvspfSPawHovn/Culture-%26-Community-style-guide?node-id=3990-915&node-type=canvas&t=EuQeSVFcCBhm2gfK-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3990%3A915&share=1)** | Password: random-expert-garnet-kinder
+**[Team Expressions style guide](https://www.figma.com/proto/yrIimnhvjBvspfSPawHovn/Culture-%26-Community-style-guide?node-id=3990-915&node-type=canvas&t=EuQeSVFcCBhm2gfK-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3990%3A915&share=1)** | Password: random-expert-garnet-kinder
 
-<figure-img alt="Culture & Community banner" src="/img/brand/ccds-hero.png"></figure-img>
+<figure-img alt="Team Expressions banner" src="/img/brand/ccds-hero.png"></figure-img>
