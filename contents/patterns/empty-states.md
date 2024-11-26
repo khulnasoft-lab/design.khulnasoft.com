@@ -65,6 +65,7 @@ A `Blank content` empty state:
 
 - **Title:** A CTA that starts with an active verb.
 - **Description:** A sentence that starts with an active verb and encourages the user to use a feature.
+- (Optional) **Button:** One or more buttons that align with the title's verb and empty state's purpose.
 
 #### Examples
 
@@ -94,6 +95,7 @@ Use the following implementation to trigger the invite modal:
 
 - **Title:** A CTA that starts with an active verb.
 - **Description:** A CTA sentence that invites the user to start the configuration for a feature.
+- (Optional) **Button:** A primary action to start configuration, and optionally a secondary action to delegate configuration to another team member.
 
 #### Example
 
@@ -124,8 +126,8 @@ This empty state does not contain a CTA.
 
 When using the [filter component](/components/filter) or [search component](/components/search), use exactly:
 
-- Title: `No results found`
-- Description: `Edit your search and try again.`
+- **Title:** `No results found`
+- **Description:** `Edit your search and try again.`
 
 ## Fallback
 
