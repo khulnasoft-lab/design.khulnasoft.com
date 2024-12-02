@@ -4,7 +4,7 @@ name: Contributing
 
 Contributions are welcome to the [Pajamas UI Kit](/get-started/uik-file-structure).
 
-Contributions include usage examples from the product, functionality changes, and bug fixes.
+Contributions include adding or amending components, functionality changes, and bug fixes.
 
 ### Before You Start
 
@@ -22,9 +22,9 @@ Use [comments](https://help.figma.com/hc/en-us/articles/360039825314-Guide-to-co
 
 #### Description format rules
 
-- Start each line with a hyphen (-)
-- Begin with one of these verbs: "Adds", "Enhances", "Changes", "Removes", "Fixes", or "Deprecates"
-- Be clear and concise
+- Start each line with a hyphen `-`.
+- Begin with one of these verbs: "Adds", "Enhances", "Changes", "Removes", "Fixes", or "Deprecates".
+- Be clear and concise.
 
 #### Examples
 
