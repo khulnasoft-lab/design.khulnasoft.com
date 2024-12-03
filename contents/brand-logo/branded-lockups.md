@@ -30,3 +30,6 @@ In regards to our core logo, keep the following in mind:
 - The core GitLab logo should be present on the asset irrespective of the partner lockup.
 - The partner lockup should be placed in a corner parallel or perpendicular to the placement of the core logo. 
 - The max height of the partner lockup is equal to twice the height of the core logo. 
+<figure-img label="Partner lockup on dark and light backgrounds" src="/img/brand/partner-lockup.svg"></figure-img>
+
+<figure-img label="Partner lockup construction" src="/img/brand/partner-lockup-construction.svg"></figure-img>
