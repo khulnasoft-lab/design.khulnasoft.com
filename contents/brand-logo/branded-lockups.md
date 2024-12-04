@@ -17,19 +17,20 @@ Ensure proper clear space (x-height equal to the height of the letter 'a' from o
 
 ## Partner lockups
 
-[GitLab Partners](https://handbook.gitlab.com/handbook/resellers/) empower existing and prospective customers to leverage the full benefits of DevSecOps through the GitLab platform. Through resources and training, partners play a critical role in helping our customers reach their DevSecOps potential. The partner lockup clarifies the relationship between Partner and GitLab, and this visual identifier can be included on collateral presented by our partners. 
+[GitLab Partners](https://handbook.gitlab.com/handbook/resellers/) empower existing and prospective customers to leverage the full benefits of DevSecOps through the GitLab platform. Through resources and training, partners play a critical role in helping our customers reach their DevSecOps potential. The partner lockup clarifies the relationship between Partner and GitLab, and this visual identifier can be included on collateral presented by our partners.
 
-Partner lockups can be used 1-2 times within an asset to provide context of this relationship. Follow the guidelines below for usage: 
+Partner lockups can be used 1-2 times within an asset to provide context of this relationship. Follow the guidelines below for usage:
 
 - The lockup contains purple gradients with varying opacities; the base fill should match the background of the asset. In the case of a white background, use Purple 02p for the base fill.
-- The partner company's logo should be placed below the lockup, equal to the lockup’s width. 
-- One-color variations of the lockup include either white or Purple 02p. 
+- The partner company's logo should be placed below the lockup, equal to the lockup’s width.
+- One-color variations of the lockup include either white or Purple 02p.
 
 In regards to our core logo, keep the following in mind:
 
 - The core GitLab logo should be present on the asset irrespective of the partner lockup.
-- The partner lockup should be placed in a corner parallel or perpendicular to the placement of the core logo. 
+- The partner lockup should be placed in a corner parallel or perpendicular to the placement of the core logo.
 - The max height of the partner lockup is equal to twice the height of the core logo. 
+
 <figure-img label="Partner lockup on dark and light backgrounds" src="/img/brand/partner-lockup.svg"></figure-img>
 
 <figure-img label="Partner lockup construction" src="/img/brand/partner-lockup-construction.svg"></figure-img>
