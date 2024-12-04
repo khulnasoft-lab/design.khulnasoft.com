@@ -66,23 +66,22 @@
           },
           {
             "title": "Visual design",
-            "path": "visual-design",
             "items": [
               {
                 "title": "Core elements",
-                "path": "core-elements"
+                "path": "visual-design-core-elements"
               },
               {
                 "title": "Icons",
-                "path": "brand-icons"
+                "path": "visual-design-brand-icons"
               },
               {
                 "title": "Illustrations",
-                "path": "brand-illustrations"
+                "path": "visual-design-brand-illustrations"
               },
               {
                 "title": "Diagrams",
-                "path": "diagrams-infographics"
+                "path": "visual-design-diagrams-infographics"
               }
             ]
           },
