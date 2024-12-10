@@ -17,7 +17,7 @@ In general, the following guidelines apply to all text:
 - Default to white or Charcoal for copy; refer to the color guidelines for exceptions.
 - If GitLab Sans is not available (such as Google applications), use Inter instead.
 
-Refer to the guidelines illustrated below to add hierarchy to your messaging: 
+Refer to the guidelines illustrated below to add hierarchy to your messaging:
 
 - **Headlines** use GitLab Sans Bold with 105% leading and -45 tracking (-4.5% in Figma).
 - **Subheaders and intro/outro paragraphs** use GitLab Sans Regular with 110% leading, -20 tracking (-2% in Figma), and optical kerning.
