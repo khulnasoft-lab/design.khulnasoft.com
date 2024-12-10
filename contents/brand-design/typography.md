@@ -24,7 +24,6 @@ Refer to the guidelines illustrated below to add hierarchy to your messaging:
 - **Body copy** uses GitLab Sans Regular with 135% leading, 0 tracking, and auto kerning.
 - **Call-to-actions and buttons** use GitLab Sans SemiBold.
 
-
 <figure-img alt="Typography samples" label="GitLab Sans typography samples" src="/img/brand/typography.svg"></figure-img>
 
 ## Secondary typeface
