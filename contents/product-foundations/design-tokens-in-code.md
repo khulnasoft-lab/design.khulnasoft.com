@@ -1,0 +1,73 @@
+---
+name: Using design tokens in code
+---
+
+## Pajamas components
+
+When you use a Pajamas component, you're automatically using design tokens under the hood — this should be your first approach when implementing a UI.
+
+## CSS utilities
+
+If you need something more custom or you need to customize a Pajamas component, CSS utilities should help you out. Since these are powered by Tailwind, your IDE should be able to autocomplete, see the [documentation](https://gitlab-org.gitlab.io/frontend/tailwind-documentation) for available classes.
+
+For predictable styling between color modes use [semantic design token](/design-tokens#semantic-design-tokens) utility classes, for example, `.gl-text-subtle` or `.gl-bg-default`.
+Using color scale values directly like `.gl-text-green-900` or `.gl-bg-white` with utility classes is deprecated. [Constant design token](/design-tokens#constant-design-tokens) are not currently exposed as CSS utility classes for use as they do not provide values for color modes.
+
+There are multiple ways to apply these utility classes. For the current guidance on how best to do this, please refer to the [SCSS style guide](https://docs.gitlab.com/ee/development/fe_guide/style/scss.html#leveraging-tailwind-css-in-html-and-in-stylesheets).
+
+## CSS custom properties
+
+Utility classes should do 90% of what's desired, but sometimes you need something a little more bespoke. For those 10% of cases, CSS custom properties (also known as CSS variables) allow you to use design tokens in a more flexible manner. For example, to change the caret color of an input (don't actually do this), use design tokens like so:
+
+```css
+.exampleInput {
+  caret: var(--gl-text-color-info);
+}
+```
+
+Remember to use them [semantically](/design-tokens#semantic-design-tokens), don't use `info` if you simply want `blue`. In different modes, `info` may be a different color.
+
+## Dark mode
+
+Because design tokens focus on semantics and not color, dark mode for your UI elements should work out of the box. However, there are times when we need to change the way something behaves in dark mode. As with all deviations from the design system, the first, second, and third thing you should ask yourself and the designer is, "do I really need to deviate from the standard pattern?" If it still makes sense to do so, CSS utilities have methods to help.
+
+### Using @apply
+
+This is the preferred method.
+When using the [@apply method](#css-apply), you can specify a dark variant inline.
+For example; if you wanted to use the subtle background in light mode, but the dark-mode equivalent didn't work,
+you can override it by explicitly setting the light and dark mode backgrounds to be `gray-10` and `gray-100` respectively like so:
+
+```css
+.my-class {
+  @apply gl-bg-gray-10 dark:gl-bg-gray-100
+}
+```
+
+This should always be done with a specific color token, overridden by another specific color token:
+
+- ✅ `@apply gl-bg-gray-10 dark:gl-bg-gray-100`
+- ❌ `@apply gl-bg-subtle dark:gl-bg-gray-100`
+- ❌ `@apply gl-bg-subtle dark:gl-bg-section`
+
+Whilst this is the preferred method, it still comes with side-effects and should only be used when nessacary.
+
+### Using `.gl-dark`
+
+In the olden days, you could add dark mode overrides with the `.gl-dark` selector. Today, you still can, but you shouldn't. Using the `.gl-dark` selector directly will not automatically scale for additional color modes, they will need to be added manually with parent CSS selectors:
+
+The difference between using `@apply` vs `.gl-dark &` is small. We shouldn't need to use either, but we're not naïve enough to think that we won't have situations where we do need these overrides. To make sure they're handled consistently, we need to pick one so we went with the one that's easiest to grep against should we decide to re-visit this topic.
+
+```scss
+.exampleSelector {
+  color: black;
+
+  .gl-dark & {
+    color: white;
+  }
+}
+```
+
+You'll likely see a few uses of this in our codebase but we are phasing this out.
+Please don't do this.
+If you beleive you have a legitamate reason to do this, come and speak to us as this is a gap in our design system that we'll want to fix.
