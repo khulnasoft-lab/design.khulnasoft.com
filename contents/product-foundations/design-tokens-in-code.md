@@ -12,31 +12,7 @@ If you need something more custom or you need to customize a Pajamas component, 
 
 There are more utilities currently available, but we advise against using them as they have hard-coded color values that will not respond to different modes. Try to avoid color utilities that directly reference a color (for example, a [constant](/design-tokens#constant-design-tokens) like `gl-text-green-900` or `gl-bg-white`) and instead use a [semantic](/design-tokens#semantic-design-tokens) equivalent (for example, `gl-text-success` or `gl-bg-default`). This ensures the colors will update predictably when changing modes.
 
-### CSS utility classes
-
-The simplest way to use these utilities is to add classes to the desired element.
-
-```html
-<span class="gl-text-subtle gl-truncate">This text will be a subtle gray color, truncated to fit its container.</span>
-```
-
-This is reccomended for most cases but can clutter up the codebase if overused. If you find yourself adding too many of these classes and want a cleaner approach, you can use `@apply` instead.
-
-### CSS apply
-
-This is a little more complex than adding the classes directly to the element, but produces the same result. Instead of adding the utility classes directly to the element, you can `@apply` them in SCSS.
-
-```html
-<span class="exampleText">This text will be a subtle gray color, truncated to fit its container.</span>
-```
-
-```css
-.exampleText {
-  @apply gl-text-subtle gl-truncate;
-}
-```
-
-This can be cumbersome if you only need to add a few classes (like in this example), but it makes things cleaner when you need to add multiple utilities to one element.
+There are multiple ways to apply these utility classes. For the current guidance on how best to do this, please refer to the [SCSS style guide](https://docs.gitlab.com/ee/development/fe_guide/style/scss.html#leveraging-tailwind-css-in-html-and-in-stylesheets)
 
 ## CSS custom properties
 
