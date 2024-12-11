@@ -20,7 +20,7 @@ Using **Beta:&nbsp;Design&nbsp;tokens&nbsp;library** alongside **📙&nbsp;Compo
 
 Components in **📙&nbsp;Component&nbsp;library** are built using these variables from **Beta:&nbsp;Design&nbsp;tokens&nbsp;library**. Unlike color styles from  **📙&nbsp;Component&nbsp;library**, when you switch mode, variables automatically update to their scheme-specific values.
 
-By default Figma uses **Auto** mode which defaults to light theme. You can change mode using the **Apply variable mode** button in the Page or Appearance sidebar.
+By default Figma uses **Auto** mode which defaults to light theme. You can change mode using the **Apply variable mode** button in the Page sidebar with nothing selected or Appearance sidebar when an object is selected.
 
 <div class="gl-grid gl-gap-12 lg:gl-grid-cols-2">
   <figure-img alt="Screenshot of Figma user interface sidebar cropped to the page section" label="Page apply variable mode button" src="/img/design-tokens-figma-page-mode-select.png"></figure-img>
