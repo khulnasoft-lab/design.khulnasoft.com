@@ -8,11 +8,12 @@ When you use a Pajamas component, you're automatically using design tokens under
 
 ## CSS utilities
 
-If you need something more custom or you need to customize a Pajamas component, CSS utilities should help you out. Since these are powered by Tailwind, your IDE should be able to autocomplete, see the [documentation](https://gitlab-org.gitlab.io/frontend/tailwind-documentation) for details.
+If you need something more custom or you need to customize a Pajamas component, CSS utilities should help you out. Since these are powered by Tailwind, your IDE should be able to autocomplete, see the [documentation](https://gitlab-org.gitlab.io/frontend/tailwind-documentation) for available classes.
 
-There are more utilities currently available, but we advise against using them as they have hard-coded color values that will not respond to different modes. Try to avoid color utilities that directly reference a color (for example, a [constant](/design-tokens#constant-design-tokens) like `gl-text-green-900` or `gl-bg-white`) and instead use a [semantic](/design-tokens#semantic-design-tokens) equivalent (for example, `gl-text-success` or `gl-bg-default`). This ensures the colors will update predictably when changing modes.
+For predictable styling between color modes use [semantic design token](/design-tokens#semantic-design-tokens) utility classes, for example, `.gl-text-subtle` or `.gl-bg-default`.
+Using color scale values directly like `.gl-text-green-900` or `.gl-bg-white` with utility classes is deprecated. [Constant design token](/design-tokens#constant-design-tokens) are not currently exposed as CSS utility classes for use as they do not provide values for color modes.
 
-There are multiple ways to apply these utility classes. For the current guidance on how best to do this, please refer to the [SCSS style guide](https://docs.gitlab.com/ee/development/fe_guide/style/scss.html#leveraging-tailwind-css-in-html-and-in-stylesheets)
+There are multiple ways to apply these utility classes. For the current guidance on how best to do this, please refer to the [SCSS style guide](https://docs.gitlab.com/ee/development/fe_guide/style/scss.html#leveraging-tailwind-css-in-html-and-in-stylesheets).
 
 ## CSS custom properties
 
@@ -53,14 +54,15 @@ Whilst this is the preferred method, it still comes with side-effects and should
 
 ### Using `.gl-dark`
 
-In the olden days, you could add dark mode overrides with the `.gl-dark` selector.
-Today, you still can, but you shouldn't.
+In the olden days, you could add dark mode overrides with the `.gl-dark` selector. Today, you still can, but you shouldn't. Using the `.gl-dark` selector directly will not automatically scale for additional color modes, they will need to be added manually with parent CSS selectors:
+
+The difference between using `@apply` vs `.gl-dark &` is small. We shouldn't need to use either, but we're not naïve enough to think that we won't have situations where we do need these overrides. To make sure they're handled consistently, we need to pick one so we went with the one that's easiest to grep against should we decide to re-visit this topic.
 
 ```scss
 .exampleSelector {
   color: black;
 
-  .gl-dark& {
+  .gl-dark & {
     color: white;
   }
 }
