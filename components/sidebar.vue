@@ -39,7 +39,7 @@ export default {
 
 <template>
   <aside :class="{ 'sidebar--open': sidebarOpen }" class="sidebar">
-    <navbar class="gl-hidden gl-items-center gl-gap-2 gl-p-3 md:gl-flex" />
+    <navbar class="gl-hidden md:gl-flex" />
     <div class="gl-px-4 gl-pb-3">
       <client-only>
         <search />

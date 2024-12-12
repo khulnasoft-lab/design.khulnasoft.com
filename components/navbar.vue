@@ -20,8 +20,8 @@ export default {
 </script>
 
 <template>
-  <header class="gl-flex gl-items-center gl-gap-2 gl-p-3">
-    <logo class="gl-grow" />
+  <header class="gl-flex gl-items-center gl-justify-between gl-gap-2 gl-p-3">
+    <logo />
     <div class="app-styles gl-flex">
       <dark-mode-toggle />
       <menu-toggle class="md:!gl-hidden" />
