@@ -30,7 +30,7 @@ By default, Figma uses **Auto** mode which defaults to light theme. To change th
   <figure-img alt="Screenshot of Figma user interface sidebar cropped to the appearance section" label="'Apply variable mode' button in the frame appearance section" src="/img/design-tokens-figma-frame-appearance-mode-select.png"></figure-img>
 </div>
 
-You can set a mode at any level, but we recommend the page level or parent frame level. Elements with the **Auto** mode inherit the mode from their parent, allowing styles to cascade. In GitLab the mode applies to the entire user interface.
+You should set the mode at the page or parent frame level. Elements with the **Auto** mode inherit the mode from their parent, which allows styles to cascade. In the GitLab product, the mode applies to the entire user interface.
 
 If you design outside the design system, use color styles from **📙&nbsp;Component library**. For example, use `purple-400`. These colors remain static across modes, so document any special behaviors during [handoff](https://docs.gitlab.com/ee/development/contributing/design.html#handoff).
 
