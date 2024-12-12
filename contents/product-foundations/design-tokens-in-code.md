@@ -10,8 +10,8 @@ When you use a Pajamas component, you're automatically using design tokens under
 
 If you need something more custom or you need to customize a Pajamas component, CSS utilities should help you out. Since these are powered by Tailwind, your IDE should be able to autocomplete, see the [documentation](https://gitlab-org.gitlab.io/frontend/tailwind-documentation) for available classes.
 
-For predictable styling between color modes use [semantic design token](/design-tokens#semantic-design-tokens) utility classes, for example, `.gl-text-subtle` or `.gl-bg-default`.
-Using color scale values directly like `.gl-text-green-900` or `.gl-bg-white` with utility classes is deprecated. [Constant design token](/design-tokens#constant-design-tokens) are not currently exposed as CSS utility classes for use as they do not provide values for color modes.
+For predictable styling between color modes use [semantic design token](/product-foundations/design-tokens#semantic-design-tokens) utility classes, for example, `.gl-text-subtle` or `.gl-bg-default`.
+Using color scale values directly like `.gl-text-green-900` or `.gl-bg-white` with utility classes is deprecated. [Constant design token](/product-foundations/design-tokens#constant-design-tokens) are not currently exposed as CSS utility classes for use as they do not provide values for color modes.
 
 There are multiple ways to apply these utility classes. For the current guidance on how best to do this, please refer to the [SCSS style guide](https://docs.gitlab.com/ee/development/fe_guide/style/scss.html#leveraging-tailwind-css-in-html-and-in-stylesheets).
 
@@ -25,7 +25,7 @@ Utility classes should do 90% of what's desired, but sometimes you need somethin
 }
 ```
 
-Remember to use them [semantically](/design-tokens#semantic-design-tokens), don't use `info` if you simply want `blue`. In different modes, `info` may be a different color.
+Remember to use them [semantically](/product-foundations/design-tokens#semantic-design-tokens), don't use `info` if you simply want `blue`. In different modes, `info` may be a different color.
 
 ## Dark mode
 
@@ -34,7 +34,7 @@ Because design tokens focus on semantics and not color, dark mode for your UI el
 ### Using @apply
 
 This is the preferred method.
-When using the [@apply method](#css-apply), you can specify a dark variant inline.
+When using the [@apply method](https://docs.gitlab.com/ee/development/fe_guide/style/scss.html#2-apply-utility-classes-in-component-classes-when-necessary), you can specify a dark variant inline.
 For example; if you wanted to use the subtle background in light mode, but the dark-mode equivalent didn't work,
 you can override it by explicitly setting the light and dark mode backgrounds to be `gray-10` and `gray-100` respectively like so:
 
@@ -50,7 +50,7 @@ This should always be done with a specific color token, overridden by another sp
 - ❌ `@apply gl-bg-subtle dark:gl-bg-gray-100`
 - ❌ `@apply gl-bg-subtle dark:gl-bg-section`
 
-Whilst this is the preferred method, it still comes with side-effects and should only be used when nessacary.
+Whilst this is the preferred method, it still comes with side-effects and should only be used when necessary.
 
 ### Using `.gl-dark`
 
@@ -70,4 +70,4 @@ The difference between using `@apply` vs `.gl-dark &` is small. We shouldn't nee
 
 You'll likely see a few uses of this in our codebase but we are phasing this out.
 Please don't do this.
-If you beleive you have a legitamate reason to do this, come and speak to us as this is a gap in our design system that we'll want to fix.
+If you believe you have a legitimate reason to do this, come and speak to us as this is a gap in our design system that we'll want to fix.

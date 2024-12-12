@@ -18,9 +18,9 @@ We've scoped these Figma variables by limiting the properties they can be applie
 
 ## In code
 
-At a high-level, there are three ways to use design tokens in code: Pajamas components, CSS utility classes, and CSS custom properties. Your first approach should be to use [Pajamas components](/design-tokens-in-code#pajamas-components). If you need something more custom, use [CSS utility classes](/design-tokens-in-code#css-utility-classes). If you need something even more custom, use [CSS custom properties](/design-tokens-in-code#css-custom-properties). And if you need something even more custom than any of those options, come [talk to us](https://handbook.gitlab.com/handbook/engineering/development/dev/foundations/design-system/).
+At a high-level, there are three ways to use design tokens in code: Pajamas components, CSS utility classes, and CSS custom properties. Your first approach should be to use [Pajamas components](/product-foundations/design-tokens-in-code#pajamas-components). If you need something more custom, use [CSS utility classes](/product-foundations/design-tokens-in-code#css-utilities). If you need something even more custom, use [CSS custom properties](/product-foundations/design-tokens-in-code#css-custom-properties). And if you need something even more custom than any of those options, come [talk to us](https://handbook.gitlab.com/handbook/engineering/development/dev/foundations/design-system/).
 
-Using design tokens in code is explained in more detail [here](/design-tokens-in-code).
+Using design tokens in code is explained in more detail [here](/product-foundations/design-tokens-in-code).
 
 ## Concepts
 
