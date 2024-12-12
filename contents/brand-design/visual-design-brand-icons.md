@@ -6,7 +6,7 @@ Icons are quickly identifiable graphics that represent common items in a redacte
 
 ### Construction
 
-The marketing icons are created using the 8px grid system found within this [template](https://drive.google.com/file/d/1V-FdsDeYcx_yPBMI9cjWclWAz_TPYqFU/view?usp=sharing). The icon set exists in two scales: 24px for smaller assets and 96px for larger assets. They are stylized in the following ways:
+The marketing icons are created using an 8px grid system. The icon set exists in two scales: 24px for smaller assets and 96px for larger assets. They are stylized in the following ways:
 
 - Our icon set consists entirely of linework, using a stroke weight of 1px or 2px, respectively.
 - In general, default to either white or charcoal linework for contrast purposes.
