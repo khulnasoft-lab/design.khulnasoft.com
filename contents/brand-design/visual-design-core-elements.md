@@ -4,13 +4,14 @@ name: Core elements
 
 The visual design of our brand is vast, but there are a number of core elements that are incorporated regularly into our designs. These graphics point back to our product, aid in storytelling, and provide a foundation for visual consistency.
 
-For each of these graphics, there are specific stylistic approaches we take to aid in brand identity. These styling techniques are also applied to the entire visual design system:
+For each of these graphics, there are specific stylistic approaches we take to aid in brand identity. The styling techniques below are apply to the entire visual design system:
 
 - Objects should be front-facing, with no 3D depth or shadows applied.
 - As a graphic is scaled down, the detail should be reduced accordingly.
 - Graphics can use a mix of rounded and angled corners.
 - Linework should use capped ends.  
-- The graphics within any given asset should use a single stroke weight throughout.
+- Graphics should use a single stroke weight throughout any given asset.
+- The radius of curved corners should remain consistent when applied throughout an asset.
 
 ## DevOps loop
 
