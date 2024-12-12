@@ -16,20 +16,23 @@ We've scoped these Figma variables by limiting the properties they can be applie
 
 ### Working with dark mode
 
-Using **Beta:&nbsp;Design&nbsp;tokens&nbsp;library** alongside **📙&nbsp;Component&nbsp;library** enables seamless switching between light and dark modes in Figma. These libraries use Figma variables that adapt to the selected mode and sync directly with our design tokens in code.
+To enable switching between light and dark modes in Figma, use **Beta:&nbsp;Design&nbsp;tokens&nbsp;library** with **📙&nbsp;Component&nbsp;library**. These libraries use Figma variables that adapt to the selected mode and sync directly with our design tokens in code.
 
 Components in **📙&nbsp;Component&nbsp;library** are built using these variables from **Beta:&nbsp;Design&nbsp;tokens&nbsp;library**. Unlike color styles from  **📙&nbsp;Component&nbsp;library**, when you switch mode, variables automatically update to their scheme-specific values.
 
-By default Figma uses **Auto** mode which defaults to light theme. You can change mode using the **Apply variable mode** button in the Page sidebar with nothing selected or Appearance sidebar when an object is selected.
+By default Figma uses **Auto** mode which defaults to light theme. To change the mode, select **Apply variable mode** in either:
+
+- the Page sidebar when nothing is selected
+- the Appearance sidebar when an object is selected
 
 <div class="gl-grid gl-gap-12 lg:gl-grid-cols-2">
   <figure-img alt="Screenshot of Figma user interface sidebar cropped to the page section" label="Page apply variable mode button" src="/img/design-tokens-figma-page-mode-select.png"></figure-img>
   <figure-img alt="Screenshot of Figma user interface sidebar cropped to the appearance section" label="Frame apply variable mode button" src="/img/design-tokens-figma-frame-appearance-mode-select.png"></figure-img>
 </div>
 
-Figma allows a mode to be set at any level, but we recommend the page level or parent frame level. Elements with their mode set to **Auto** inherit the mode from their parent, allowing the styles to cascade. In GitLab the mode applies to the entire user interface.
+You can set a mode at any level, but we recommend the page level or parent frame level. Elements with the **Auto** mode inherit the mode from their parent, allowing styles to cascade. In GitLab the mode applies to the entire user interface.
 
-When designing outside the design system, use color styles from **📙&nbsp;Component&nbsp;library** (for example `purple-400`). These colors remain static across modes, so document any special behaviors during [handoff](https://docs.gitlab.com/ee/development/contributing/design.html#handoff).
+If you are designing outside the design system, use color styles from **📙&nbsp;Component&nbsp;library** (for example `purple-400`). These colors remain static across modes, so document any special behaviors during [handoff](https://docs.gitlab.com/ee/development/contributing/design.html#handoff).
 
 ## In code
 
