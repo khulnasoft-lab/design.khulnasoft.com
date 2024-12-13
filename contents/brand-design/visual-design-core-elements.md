@@ -4,7 +4,7 @@ name: Core elements
 
 The visual design of our brand is vast, but there are a number of core elements that are incorporated regularly into our designs. These graphics point back to our product, aid in storytelling, and provide a foundation for visual consistency.
 
-For each of these graphics, there are specific stylistic approaches we take to aid in brand identity. The styling techniques below are apply to the entire visual design system:
+For each of these graphics, there are specific stylistic approaches we take to aid in brand identity. The styling techniques below apply to the entire visual design system:
 
 - Objects should be front-facing, with no 3D depth or shadows applied.
 - As a graphic is scaled down, the detail should be reduced accordingly.
