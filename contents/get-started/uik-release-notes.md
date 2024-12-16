@@ -4,7 +4,7 @@ name: Release notes
 
 ## 17.7
 
-<small>Published 2024-12-13</small>
+<small>Published 2024-12-17</small>
 
 Dark mode is now fully supported in the component library. All components have been updated to support both light and dark themes through color tokens, ensuring seamless switching between modes while maintaining accessibility standards. Create consistent dark theme experiences using system components and design tokens.
 
