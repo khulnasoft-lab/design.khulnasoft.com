@@ -1,4 +1,5 @@
 <script>
+import { mapState, mapActions } from 'vuex';
 import { GlButton } from '../helpers/gitlab_ui';
 
 export default {
@@ -6,25 +7,11 @@ export default {
   components: {
     GlButton,
   },
-  data() {
-    return {
-      isDarkMode: false,
-    };
-  },
-  mounted() {
-    const localStorageValue = localStorage.getItem('isDarkMode');
-    this.isDarkMode = localStorageValue === 'true';
-    this.updateRootClass();
+  computed: {
+    ...mapState('mode', ['isDarkMode']),
   },
   methods: {
-    toggleDarkMode() {
-      this.isDarkMode = !this.isDarkMode;
-      this.updateRootClass();
-      localStorage.setItem('isDarkMode', this.isDarkMode);
-    },
-    updateRootClass() {
-      document.documentElement.classList.toggle('gl-dark', this.isDarkMode);
-    },
+    ...mapActions('mode', ['toggleDarkMode']),
   },
 };
 </script>
