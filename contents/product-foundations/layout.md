@@ -87,4 +87,28 @@ In both examples the goal is to choose the ideal alignment to the left element i
   <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F2XRq1MnIG69iti76Mh9HpJ%2FPajamas-visual-examples%3Ftype%3Ddesign%26node-id%3D22364%253A656%26mode%3Ddesign%26t%3DcBlAHP3Ol5JxVR79-1" allowfullscreen></iframe>
 </div>
 
+## Relative layout
+
+The default alignment for element layout is to align to the top. However to achieve visual balance a combination of layouts may be needed.
+
+There could be a scenario where there is components of different heights. Using top alignment will make the badge and button look misaligned.
+
+<div class="figma-embed" aria-label="Alignment top" role="img">
+  <iframe frameborder="0" src="https://www.figma.com/design/2XRq1MnIG69iti76Mh9HpJ/branch/3iXqImJJ9CdSArwFFRPk48/Pajamas-visual-examples?m=auto&node-id=38163-1570&t=3Wdmps4YPZoqSakH-1" allowfullscreen></iframe>
+</div>
+
+If we make all elements center aligned then when content that increases the height of the container, items that are placed to the right could be centered to the container rather than it's peers on the left.
+
+<div class="figma-embed" aria-label="Alignment center" role="img">
+  <iframe frameborder="0" src="https://www.figma.com/design/2XRq1MnIG69iti76Mh9HpJ/branch/3iXqImJJ9CdSArwFFRPk48/Pajamas-visual-examples?m=auto&node-id=38163-9388&t=3Wdmps4YPZoqSakH-1" allowfullscreen></iframe>
+</div>
+
+By thinking of alignment to component relative to one another we can achieve visual balance. Here the buttons and title are center aligned and content is top aligned.
+
+<div class="figma-embed" aria-label="Alignment center" role="img">
+  <iframe frameborder="0" src="https://www.figma.com/design/2XRq1MnIG69iti76Mh9HpJ/branch/3iXqImJJ9CdSArwFFRPk48/Pajamas-visual-examples?m=auto&node-id=38163-9402&t=3Wdmps4YPZoqSakH-1" allowfullscreen></iframe>
+</div>
+
+
+
 <todo>Add live demo. An example that accomplishes this with CSS grid can be viewed in [Codepen](https://codepen.io/lostsatellites/pen/ZEwVOgz).</todo>
