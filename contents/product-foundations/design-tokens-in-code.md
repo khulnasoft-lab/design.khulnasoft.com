@@ -40,13 +40,14 @@ you can override it by explicitly setting the dark mode override to be `gray-100
 
 ```css
 .my-class {
-  @apply gl-bg-subtle dark:gl-bg-gray-100
+  @apply gl-bg-subtle dark:gl-bg-neutral-900
 }
 ```
 
 This should always be done with a semantic token, overridden by a specific color token:
 
-- ✅ `@apply gl-bg-subtle dark:gl-bg-gray-100`
+- ✅ `@apply gl-bg-subtle dark:gl-bg-neutral-900`
+- ❌ `@apply gl-bg-neutral-10 dark:gl-bg-neutral-900`
 - ❌ `@apply gl-bg-gray-10 dark:gl-bg-gray-100`
 - ❌ `@apply gl-bg-subtle dark:gl-bg-section`
 
