@@ -1,5 +1,4 @@
 <script>
-import { mapState, mapMutations } from 'vuex';
 import DarkModeToggle from './dark_mode_toggle.vue';
 import Logo from './logo.vue';
 import MenuToggle from './menu_toggle.vue';
@@ -9,12 +8,6 @@ export default {
     DarkModeToggle,
     Logo,
     MenuToggle,
-  },
-  computed: {
-    ...mapState(['sidebarOpen']),
-  },
-  methods: {
-    ...mapMutations(['toggleSidebar']),
   },
 };
 </script>
