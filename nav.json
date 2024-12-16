@@ -196,6 +196,10 @@
                 "path": "design-tokens-using"
               },
               {
+                "title": "Using design tokens in code",
+                "path": "design-tokens-in-code"
+              },
+              {
                 "title": "All design tokens",
                 "path": "design-tokens-directory"
               }
