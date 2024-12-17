@@ -16,7 +16,7 @@ Dark mode is now fully supported in the component library. All components have b
 - Changes color styles to be linked to constant design tokens.
 - Update color style names to match constants in Figma.
 - Refactor Color page chips to show all transparencies.
-- Reset [**❖&nbsp;Popover](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-131&node-type=canvas&t=syEEokKptoVKbvfR-11) and [**❖&nbsp;Accordion](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-0&node-type=canvas&t=syEEokKptoVKbvfR-11) component styles to default.
+- Reset [**❖&nbsp;Popover**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-131&node-type=canvas&t=syEEokKptoVKbvfR-11) and [**❖&nbsp;Accordion**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-0&node-type=canvas&t=syEEokKptoVKbvfR-11) component styles to default.
 
 **[Design tokens](https://www.figma.com/design/tiAetVi1j5MGP8WA5FswcD/Beta%3A-Design-tokens?m=auto)**
 
@@ -32,7 +32,7 @@ Dark mode is now fully supported in the component library. All components have b
 **[Component library](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ)**
 
 - Fixes neutral 50 and 100 chips in the color ramp that were using incorrect styles.
-- Fixes [**❖&nbsp;Token](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-141&node-type=canvas&t=syEEokKptoVKbvfR-11) 'states' instances.
+- Fixes [**❖&nbsp;Token**](https://www.figma.com/design/qEddyqCrI7kPSBjGmwkZzQ/%F0%9F%93%99-Component-library?node-id=425-141&node-type=canvas&t=syEEokKptoVKbvfR-11) 'states' instances.
 
 ### Deprecations
 
