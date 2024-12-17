@@ -1,25 +1,42 @@
 export const state = () => ({
-  isDarkMode: false,
+  colorMode: false,
 });
 
 export const mutations = {
   // eslint-disable-next-line no-shadow
-  SET_DARK_MODE(state, isDarkMode) {
-    state.isDarkMode = isDarkMode;
+  SET_COLOR_MODE(state, colorMode) {
+    state.colorMode = colorMode;
   },
 };
 
+const updateClassList = (colorMode) => {
+  const rootClasses = document.documentElement.classList;
+
+  if (colorMode === 'gl-auto') {
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      rootClasses.add('gl-dark');
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+      rootClasses.toggle('gl-dark', e.matches);
+    });
+  } else {
+    document.documentElement.classList = '';
+    document.documentElement.classList.add(colorMode);
+  }
+};
+
 export const actions = {
-  loadDarkMode({ commit }) {
-    const isDarkMode = JSON.parse(localStorage.getItem('isDarkMode'));
-    commit('SET_DARK_MODE', isDarkMode || false);
-    document.documentElement.classList.toggle('gl-dark', isDarkMode);
+  loadColorMode({ commit }) {
+    const colorMode = JSON.parse(localStorage.getItem('colorMode'));
+    commit('SET_COLOR_MODE', colorMode || false);
+    updateClassList(colorMode);
   },
   // eslint-disable-next-line no-shadow
-  toggleDarkMode({ commit, state }) {
-    const isDarkMode = !state.isDarkMode;
-    commit('SET_DARK_MODE', isDarkMode);
-    localStorage.setItem('isDarkMode', JSON.stringify(state.isDarkMode));
-    document.documentElement.classList.toggle('gl-dark', isDarkMode);
+  updateColorMode({ commit }, payload) {
+    const colorMode = payload;
+    commit('SET_COLOR_MODE', colorMode);
+    localStorage.setItem('colorMode', JSON.stringify(colorMode));
+    updateClassList(colorMode);
   },
 };
