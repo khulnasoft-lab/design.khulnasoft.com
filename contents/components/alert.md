@@ -47,6 +47,7 @@ related:
 - If you need to deliver an instance level message from an admin to all users, use a [broadcast message](/components/broadcast-message) instead.
 - If you are immediately confirming a user's action while they remain in the same view, use a [toast](/components/toast) instead.
 - If you are promoting, soliciting feedback, or informing a user about a feature, use a [banner](/components/banner) instead.
+- If an alert is present on load or is simply used to style static content, consider using utility classes instead since an alert has both focus management and semantic considerations for accessibility.
 
 ### Variants
 
