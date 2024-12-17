@@ -15,3 +15,4 @@ export { default as GlLink } from '@gitlab/ui/dist/components/base/link/link';
 export { default as GlNav } from '@gitlab/ui/dist/components/base/nav/nav';
 export { default as GlNavItem } from '@gitlab/ui/dist/components/base/nav/nav_item';
 export { default as GlButton } from '@gitlab/ui/dist/components/base/button/button';
+export { default as GlCollapsibleListbox } from '@gitlab/ui/dist/components/base/new_dropdowns/listbox/listbox';

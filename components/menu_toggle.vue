@@ -3,7 +3,7 @@ import { mapState, mapMutations } from 'vuex';
 import { GlButton } from '../helpers/gitlab_ui';
 
 export default {
-  name: 'DarkModeToggle',
+  name: 'MenuToggle',
   components: {
     GlButton,
   },
