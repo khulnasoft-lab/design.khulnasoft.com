@@ -1,5 +1,5 @@
 ---
-name: Icons
+name: Icons and Patterns
 ---
 
 Icons are quickly identifiable graphics that represent common items in a redacted way. Our marketing icons are the building blocks of our illustration style, but they can also be used as individual units. They should be straightforward and simplistic, visualizing a single topic or call to action. They take a secondary role to the copy and are used at smaller scale; anything larger should default to an illustration and anything intended for functional use within the product should use the [Product icon set](/product-foundations/iconography) instead.
