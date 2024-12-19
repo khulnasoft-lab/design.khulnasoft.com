@@ -23,11 +23,11 @@ This specific set of icons represents each stage of our software development lif
 
 ## Patterns
 
-Patterns consist of smaller, repeated graphics that create a singular, larger visual. They serve a variety of purposes, such as adding structure to an asset, providing visual relief from other design elements, adding visual texture to the background of an asset, or filling negative space within a layout. 
+Patterns consist of smaller, repeated graphics that create a singular, larger visual. They serve a variety of purposes, such as: adding structure to an asset, providing visual relief from other design elements, adding visual texture to the background of an asset, or filling negative space within a layout. 
 
 Patterns are typically added as a supporting element within a design. We have three main types of patterns that serve different functions:
 
-1. **Patterns with icons** speak to our culture. They are created using the marketing icon set with generous padding applied around each icon. These icons can be selected and arranged to tell a larger story. Their arrangement should be organic, and accents can be used to fill in negative space. 
+1. **Patterns with icons** speak to our culture. They are created using the marketing icon set with generous padding applied around each icon. These icons can be selected and arranged to tell a story. Their arrangement should be organic, and accents can be used to fill in negative space. 
 1. **Patterns with accents** speak to our technology. The accents and symbols point back to our product. These patterns should be more structured and used as a textural element within a design.
 1. **Patterns with grids** speak to our structure and efficiency. This type of pattern can capture depth, represent framework, or serve as an anchoring element in the design. These patterns can be used subtly in content-heavy pieces or general-purpose collateral.
 
