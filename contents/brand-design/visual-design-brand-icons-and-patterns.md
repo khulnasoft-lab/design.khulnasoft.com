@@ -23,7 +23,7 @@ This specific set of icons represents each stage of our software development lif
 
 # Patterns
 
-Patterns consist of smaller, repeated graphics that create a singular, larger visual. They serve a variety of purposes, such as: adding structure to an asset, providing visual relief from other design elements, adding visual texture to the background of an asset, or filling negative space within a layout. 
+Patterns consist of smaller, repeated graphics that create a singular, larger visual. They serve a variety of purposes, such as: adding structure to an asset, providing visual relief from other design elements, adding visual texture to the background of an asset, or filling negative space within a layout.
 
 Patterns are typically added as a supporting element within a design. We have three main types of patterns that serve different functions:
 
