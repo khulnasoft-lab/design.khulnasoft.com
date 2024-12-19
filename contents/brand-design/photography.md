@@ -45,7 +45,7 @@ Collaboration is a common theme at GitLab, as it highlights our mission that _ev
 ### Graphic overlays
 In moderation, graphics and icons can overlay a photo to better merge the image into the design. Typically the graphic elements are used to convey movement and speed, and they complement the subject matter in the photo. Minimal detail should be used to achieve this effect.
 
-<figure-img alt="Two examples of photos with graphic overlays" label="Graphic overlay samples" src="/img/brand/photo-graphic-overlays.png.png"></figure-img>
+<figure-img alt="Two examples of photos with graphic overlays" label="Graphic overlay samples" src="/img/brand/photo-graphic-overlays.png"></figure-img>
 
 ### Text overlays
 Occasionally, text can be used over photography when the image is suitable for legibility. Text should either be white or charcoal, whichever creates better contrast against the background. To ensure readability, it is best to place the text over the portion of the image that contains the least details. Ideally, this area would be blurred, contain minimal detail, and a single color behind the text. To reduce noise, do not pair graphic overlays with text on a single image. 
