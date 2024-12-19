@@ -33,7 +33,7 @@ Infographics are data-driven pieces that merge illustrations within the messagin
 
 Below are the various elements that comprise an infographic and our approach to each:
 
-- **Format:** Sset up the file to support a long scrolling experience throughout since infographics typically have a vertical flow. 
+- **Format:** Set up the file to support a long scrolling experience throughout since infographics typically have a vertical flow. 
 - **Header/footer:** Add a distinct header and footer to clearly mark the collateral as GitLab. The header should clearly explain what the infographic is about and the footer should include a call-to-action.
 - **Theme:** Infuse the theme throughout the design and illustrations of the infographic to strengthen the storytelling. 
 - **Content:** Break down the content into digestible pieces and organize accordingly. Readers should feel like each piece of content naturally flows into the next.
