@@ -41,7 +41,7 @@ Use design tokens in code through these approaches, listed in order of preferenc
 
 If these options don't meet your needs, [reach out to the design system team](https://handbook.gitlab.com/handbook/engineering/development/dev/foundations/design-system/) to discuss potential improvements.
 
-Using design tokens in code is explained in more detail [here](/product-foundations/design-tokens-technical-implementation).
+Using design tokens in code is explained in more detail in [design tokens technical implementation](/product-foundations/design-tokens-technical-implementation).
 
 ## Concepts
 
