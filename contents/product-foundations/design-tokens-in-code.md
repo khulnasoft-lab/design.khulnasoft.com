@@ -4,7 +4,7 @@ name: Using design tokens in code
 
 ## Pajamas components
 
-When you use a Pajamas component, you're automatically using design tokens under the hood — this should be your first approach when implementing a UI.
+When you use a Pajamas component, you're automatically using design tokens under the hood. Use Pajamas components as your first approach when implementing a UI.
 
 ## CSS utilities
 
@@ -17,7 +17,9 @@ There are multiple ways to apply these utility classes. For the current guidance
 
 ## CSS custom properties
 
-Utility classes are great, but sometimes you need something more bespoke. For those cases, CSS custom properties (also known as CSS variables) allow you to use design tokens in a more flexible manner. For example, to change the caret color of an input (don't actually do this), use design tokens like so:
+While utility classes handle most styling needs, sometimes you need to work directly with a design token in a more flexible way. For these cases, CSS custom properties (also known as CSS variables) let you apply a design token to a specific CSS properties not covered by a utility class. 
+
+For example, to change the caret color of an input (don't actually do this), use a design token like so:
 
 ```css
 .exampleInput {
@@ -29,14 +31,14 @@ Remember to use them [semantically](/product-foundations/design-tokens#semantic-
 
 ## Dark mode
 
-Because design tokens focus on semantics and not color, dark mode for your UI elements should work out of the box. However, there are times when we need to change the way something behaves in dark mode. As with all deviations from the design system, the first, second, and third thing you should ask yourself and the designer is, "do I really need to deviate from the standard pattern?" If it still makes sense to do so, CSS utilities have methods to help.
+When you use design tokens correctly (focusing on their semantic meaning rather than specific colors), dark mode for your UI elements works out of the box. 
+
+However, there are times when you might need to change how something behaves in dark mode. Before implementing a custom dark mode style, ask yourself three times: "Do I really need to deviate from the standard pattern?" Consult with the design systems team, they can help determine if this is truly a gap in our design system that needs addressing.
 
 ### Using @apply
 
 This is the preferred method.
-When using the [@apply method](https://docs.gitlab.com/ee/development/fe_guide/style/scss.html#2-apply-utility-classes-in-component-classes-when-necessary), you can specify a dark variant inline.
-For example; if you wanted to use the subtle background in light mode, but the dark-mode equivalent didn't work,
-you can override it by explicitly setting the dark mode override to be `neutral-900` like so:
+Use the [@apply method](https://docs.gitlab.com/ee/development/fe_guide/style/scss.html#2-apply-utility-classes-in-component-classes-when-necessary) to specify dark variants inline. For example, to override a subtle background in dark mode:
 
 ```css
 .my-class {
@@ -44,7 +46,7 @@ you can override it by explicitly setting the dark mode override to be `neutral-
 }
 ```
 
-This should always be done with a semantic token, overridden by a specific color token:
+Always override a semantic token with specific color token:
 
 - ✅ `@apply gl-bg-subtle dark:gl-bg-neutral-900`
 - ❌ `@apply gl-bg-neutral-10 dark:gl-bg-neutral-900`
@@ -52,11 +54,11 @@ This should always be done with a semantic token, overridden by a specific color
 
 Whilst this is the preferred method, it still comes with side-effects and should only be used when necessary.
 
-### Using `.gl-dark`
+### Legacy Approaches
 
-In the olden days, you could add dark mode overrides with the `.gl-dark` selector. Today, you still can, but you shouldn't. Using the `.gl-dark` selector directly will not automatically scale for additional color modes, they will need to be added manually with parent CSS selectors:
+#### `.gl-dark` Selector (Deprecated)
 
-The difference between using `@apply` vs `.gl-dark &` is small. We shouldn't need to use either, but we're not naïve enough to think that we won't have situations where we do need these overrides. To make sure they're handled consistently, we need to pick one so we went with the one that's easiest to grep against should we decide to re-visit this topic.
+In the olden days, you could add dark mode overrides with the `.gl-dark` selector. Today, you still can, but this approach is deprecated as it doesn't scale for additional color modes and requires manual updates with parent CSS selectors:
 
 ```scss
 .exampleSelector {
@@ -68,6 +70,4 @@ The difference between using `@apply` vs `.gl-dark &` is small. We shouldn't nee
 }
 ```
 
-You'll likely see a few uses of this in our codebase but we are phasing this out.
-Please don't do this.
-If you believe you have a legitimate reason to do this, come and speak to us as this is a gap in our design system that we'll want to fix.
+While you'll see this pattern in our codebase, we are actively phasing it out. If you believe you have a legitimate reason to use `.gl-dark`, reach out to the design system team - this likely indicates a gap in our design system that we need to fix.
