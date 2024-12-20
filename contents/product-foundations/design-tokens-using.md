@@ -33,7 +33,17 @@ If you design outside the design system, use color styles from **📙&nbsp;Compo
 
 ## In code
 
-<note>A pilot for design tokens in code has been completed as part of this [issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1776), and we're currently doing more exploration with a small subset of components as part of this [issue](https://gitlab.com/gitlab-org/gitlab-ui/-/issues/2583). More details about officially using design tokens will be coming soon, but in the meantime carry on with your typical development process.</note>
+Use design tokens in code through these approaches, listed in order of preference:
+
+1. **[Pajamas components](/product-foundations/design-tokens-in-code#pajamas-components)**: The primary way to implement design tokens in your UI.
+1. **[CSS utility classes](/product-foundations/design-tokens-in-code#css-utilities)**: For custom styling needs not covered by Pajamas components.
+1. **[CSS custom properties](/product-foundations/design-tokens-in-code#css-custom-properties)**: For precise control over specific CSS properties.
+
+Learn more about [design tokens technical implementation](LINK).
+
+If these options don't meet your needs, [reach out to the design system team](https://handbook.gitlab.com/handbook/engineering/development/dev/foundations/design-system/) to discuss potential improvements.
+
+Using design tokens in code is explained in more detail [here](/product-foundations/design-tokens-in-code).
 
 ## Concepts
 
