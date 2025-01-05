@@ -1,5 +1,5 @@
 export const state = () => ({
-  colorMode: false,
+  colorMode: 'gl-light',
 });
 
 export const mutations = {
@@ -29,7 +29,7 @@ const updateClassList = (colorMode) => {
 export const actions = {
   loadColorMode({ commit }) {
     const colorMode = JSON.parse(localStorage.getItem('colorMode'));
-    commit('SET_COLOR_MODE', colorMode || false);
+    commit('SET_COLOR_MODE', colorMode || 'gl-light');
     updateClassList(colorMode);
   },
   // eslint-disable-next-line no-shadow
