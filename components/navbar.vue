@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-  <header class="gl-flex gl-items-center gl-justify-between gl-gap-2 gl-p-3">
+  <header class="gl-flex gl-items-center gl-justify-between gl-gap-2 gl-p-3 md:gl-pr-2">
     <logo />
     <div class="app-styles gl-flex">
       <color-mode-dropdown />
