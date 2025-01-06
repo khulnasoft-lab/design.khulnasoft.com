@@ -592,6 +592,10 @@
             "path": "contextual-help"
           },
           {
+            "title": "Copying",
+            "path": "copying"
+          },
+          {
             "title": "Destructive actions",
             "path": "destructive-actions"
           },
