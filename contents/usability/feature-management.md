@@ -55,9 +55,9 @@ Experiment and beta features are subject to legal terms, which must be displayed
 
 <figure-img label="Example of legal disclaimer" src="/img/legal-disclaimer-exp-beta.svg"></figure-img>
 
-Similar to higher tier features, feature versions like experiment and beta should be easily identifiable, using the [`GlExperimentBadge`](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/experimental-experiment-badge--docs) component. In addition to the experiment badge shown below, see the [beta badge in Storybook](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/experimental-experiment-badge--with-help-page-url&args=type:beta).
+Similar to higher tier features, feature versions like experiment and beta should be easily identifiable, using the [`GlExperimentBadge`](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/experimental-experiment-badge--docs) component. In addition to the experiment badge shown below, see the [beta badge in Storybook](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/experimental-experiment-badge--beta).
 
-<story-viewer component="experimental-experiment-badge" story="with-help-page-url" title="Experiment badge"></story-viewer>
+<story-viewer component="experimental-experiment-badge" title="Experiment badge"></story-viewer>
 
 #### How to use
 
