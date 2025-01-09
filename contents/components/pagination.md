@@ -74,6 +74,7 @@ Keyset pagination only has **Prev** and **Next** options and no page numbers. It
 
 - Truncation is shown using `…` when the number of pages exceeds the pagination display limit. By default `…` are shown after the **5th page** on large and medium viewports and after the **2nd page** on small and mobile viewports.
 - Double truncation occurs when the current page is separated by 5 or more pages from the first and last page on large and medium viewports. On small and mobile viewports, double truncation occurs when 1 or more pages separate the current page from the first and last page.
+- When used in a list, the pagination component should be placed in a way that makes it connected to the list.
 
 ### Accessibility
 
