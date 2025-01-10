@@ -3,6 +3,7 @@ import Vuex from 'vuex';
 import Sidebar from '../../components/sidebar.vue';
 import mutations from '../../store/mutations';
 import state from '../../store/state';
+import { useMockIntersectionObserver } from '../utils/use_mock_intersection_observer';
 
 const navMock = [
   {
@@ -79,6 +80,8 @@ describe('sidebar component', () => {
       },
     });
   };
+
+  useMockIntersectionObserver();
 
   beforeEach(() => {
     createComponent();
