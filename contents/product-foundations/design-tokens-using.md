@@ -101,6 +101,29 @@ Examples of custom status elements:
 
 ## Considerations
 
+### Areas
+
+Backgrounds and borders can be used to group related content and functionality into visible areas.
+Use areas to establish visual hierarchy and improve scannability.
+A border or background can define boundaries and provide visual distinction, and combining them creates stronger separation.
+
+Use `background.color.default` and `border.color.default` by default when a background or border is needed.
+Presentational attributes such as `subtle` and `strong` establish visual hierarchy without specific meaning.
+Semantic attributes such as `section`, `overlap`, and `disabled` indicate an area's purpose in the interface.
+
+#### Sections
+
+A section is a specific type of area that completely encloses its content. Sections must:
+
+- Include borders on all sides using `border.color.section`.
+- Use `background.color.section` as its background color.
+- Only include `section` borders within its boundaries.
+
+Optionally, sections can also:
+
+- Use `background.color.subtle` for nested areas when visual hierarchy is needed.
+- Use `feedback` and `status` backgrounds for feedback and status regions.
+
 ### Choosing between feedback and status
 
 Use these factors to decide between using feedback and status design tokens:
