@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    ignore:
+      - dependency-name: "node_modules/*"
+      - dependency-name: "dist/*"
+      - dependency-name: "public/*"
+      - dependency-name: "storybook-static/*"
+      - dependency-name: ".gitlab/*"
