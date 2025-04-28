@@ -40,7 +40,7 @@
     "@nuxtjs/sentry": "^8.0.8",
     "iframe-resizer": "^4.4.5",
     "mermaid": "^10.9.3",
-    "nuxt": "^3.15.4",
+    "nuxt": "^3.17.0",
     "pikaday": "1.8.0"
   },
   "devDependencies": {
